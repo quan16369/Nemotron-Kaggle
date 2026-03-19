@@ -3,6 +3,7 @@ import argparse
 from pathlib import Path
 
 from datasets import load_dataset
+from transformers import AutoTokenizer
 from trl import SFTTrainer, SFTConfig
 from unsloth import FastLanguageModel, is_bfloat16_supported
 
@@ -15,16 +16,40 @@ def parse_args():
     parser.add_argument("--output_dir", type=str, default="/kaggle/working/final_adapter")
     parser.add_argument("--max_seq_length", type=int, default=4096)
     parser.add_argument("--load_in_4bit", action="store_true")
+    parser.add_argument("--disable_thinking", action="store_true")
+    parser.add_argument("--save_tokenizer", action="store_true")
     return parser.parse_args()
 
 
-def format_example(example):
+def fallback_chatml(messages):
+    rendered = []
+    for message in messages:
+        role = message["role"]
+        content = message["content"]
+        rendered.append(f"<|{role}|>\n{content}")
+    return "\n".join(rendered)
+
+
+def format_example(example, tokenizer, disable_thinking=False):
     messages = example["messages"]
-    user = messages[0]["content"]
-    assistant = messages[1]["content"]
-    return {
-        "text": f"<|user|>\n{user}\n<|assistant|>\n{assistant}"
+
+    chat_template_kwargs = {
+        "tokenize": False,
+        "add_generation_prompt": False,
     }
+    if disable_thinking:
+        chat_template_kwargs["enable_thinking"] = False
+
+    try:
+        text = tokenizer.apply_chat_template(messages, **chat_template_kwargs)
+    except TypeError:
+        # Older tokenizer implementations may not accept enable_thinking.
+        chat_template_kwargs.pop("enable_thinking", None)
+        text = tokenizer.apply_chat_template(messages, **chat_template_kwargs)
+    except Exception:
+        text = fallback_chatml(messages)
+
+    return {"text": text}
 
 
 def main():
@@ -35,8 +60,21 @@ def main():
 
     lora_cfg = cfg["lora"]
 
+    tokenizer = AutoTokenizer.from_pretrained(
+        args.model_name,
+        trust_remote_code=True,
+    )
+    if tokenizer.pad_token is None:
+        tokenizer.pad_token = tokenizer.eos_token
+
     dataset = load_dataset("json", data_files=args.dataset, split="train")
-    dataset = dataset.map(format_example)
+    dataset = dataset.map(
+        lambda example: format_example(
+            example,
+            tokenizer=tokenizer,
+            disable_thinking=args.disable_thinking,
+        )
+    )
 
     model, tokenizer = FastLanguageModel.from_pretrained(
         model_name=args.model_name,
@@ -96,7 +134,8 @@ def main():
 
     trainer.train()
     model.save_pretrained(args.output_dir)
-    tokenizer.save_pretrained(args.output_dir)
+    if args.save_tokenizer:
+        tokenizer.save_pretrained(args.output_dir)
     print(f"Saved adapter to {args.output_dir}")
 
 

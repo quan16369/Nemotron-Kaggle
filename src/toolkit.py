@@ -12,8 +12,10 @@ from src.specs.registry import SPEC_REGISTRY
 from src.generation.render_dataset import (
     make_sft_record,
     write_jsonl,
+    read_jsonl,
     merge_jsonl,
     export_chatml,
+    to_chatml_record,
     choose_style,
 )
 
@@ -40,6 +42,18 @@ FAMILY_PATTERNS = [
     ("unit_conversion", re.compile(r"unit conversion is applied to measurements", re.I)),
     ("gravity", re.compile(r"gravitational constant has been secretly changed", re.I)),
 ]
+
+DEFAULT_PROMPT_SUFFIX = (
+    "\n\nInfer the hidden rule from the examples."
+    "\nReason concisely."
+    "\nGive exactly one final answer in \\boxed{}."
+)
+
+DEFAULT_REAL_STYLE_MIX = {
+    "answer_only": 0.60,
+    "ultra_short": 0.25,
+    "concise": 0.15,
+}
 
 
 def classify_family(prompt: str) -> str:
@@ -206,6 +220,102 @@ def build_synth_records(
     return out
 
 
+def make_real_completion(answer: str, style: str) -> str:
+    boxed = f"\\boxed{{{answer.strip()}}}"
+    if style == "answer_only":
+        return boxed
+    if style == "ultra_short":
+        return f"Apply the same rule.\n\n{boxed}"
+    if style == "concise":
+        return (
+            "The support examples are consistent with one rule. "
+            "Applying it to the final query gives:\n\n"
+            f"{boxed}"
+        )
+    raise ValueError(f"Unknown real-data style: {style}")
+
+
+def sample_from_mix(weights: Dict[str, float], rng: random.Random) -> str:
+    normalized = normalize_weights(weights)
+    threshold = rng.random()
+    running = 0.0
+    for key, value in normalized.items():
+        running += value
+        if threshold <= running:
+            return key
+    return next(iter(normalized))
+
+
+def build_user_message(prompt: str, prompt_suffix: str) -> str:
+    return prompt.strip() + prompt_suffix
+
+
+def make_real_chat_record(
+    row: Dict[str, str],
+    style: str,
+    prompt_suffix: str = DEFAULT_PROMPT_SUFFIX,
+) -> Dict[str, Any]:
+    family = classify_family(row["prompt"])
+    user_prompt = build_user_message(row["prompt"], prompt_suffix)
+    return {
+        "messages": [
+            {"role": "user", "content": user_prompt},
+            {"role": "assistant", "content": make_real_completion(row["answer"], style)},
+        ],
+        "meta": {
+            "source": "real_train",
+            "sample_id": row["id"],
+            "family": family,
+            "style": style,
+        },
+    }
+
+
+def make_validation_record(
+    row: Dict[str, str],
+    prompt_suffix: str = DEFAULT_PROMPT_SUFFIX,
+) -> Dict[str, Any]:
+    family = classify_family(row["prompt"])
+    return {
+        "id": row["id"],
+        "prompt": row["prompt"],
+        "answer": row["answer"],
+        "user_message": build_user_message(row["prompt"], prompt_suffix),
+        "meta": {
+            "source": "real_train_holdout",
+            "family": family,
+        },
+    }
+
+
+def coerce_to_chat_record(rec: Dict[str, Any]) -> Dict[str, Any]:
+    if "messages" in rec:
+        out = dict(rec)
+    elif "completion" in rec and "prompt" in rec:
+        out = to_chatml_record(rec)
+    elif "prompt" in rec and "answer" in rec:
+        out = {
+            "messages": [
+                {
+                    "role": "user",
+                    "content": build_user_message(rec["prompt"], DEFAULT_PROMPT_SUFFIX),
+                },
+                {
+                    "role": "assistant",
+                    "content": make_real_completion(rec["answer"], "answer_only"),
+                },
+            ],
+            "meta": rec.get("meta", {}),
+        }
+    else:
+        raise ValueError("Unsupported record format for chat conversion")
+
+    meta = dict(out.get("meta", {}))
+    meta.setdefault("source", "synthetic")
+    out["meta"] = meta
+    return out
+
+
 # =========================================================
 # ================== CLI COMMANDS ==========================
 # =========================================================
@@ -245,6 +355,82 @@ def cmd_export_chatml(args):
     print("chatml done")
 
 
+def cmd_build_comp_data(args):
+    style_mix = json.loads(args.real_style_mix)
+    rng = random.Random(args.seed)
+
+    with open(args.train_csv, encoding="utf-8") as f:
+        rows = list(csv.DictReader(f))
+
+    if args.holdout_ids_in:
+        with open(args.holdout_ids_in, encoding="utf-8") as f:
+            val_ids = set(json.load(f))
+    else:
+        shuffled_rows = rows[:]
+        rng.shuffle(shuffled_rows)
+        val_count = int(len(shuffled_rows) * args.val_fraction)
+        val_ids = {row["id"] for row in shuffled_rows[:val_count]}
+
+    if args.holdout_ids_out:
+        holdout_path = Path(args.holdout_ids_out)
+        holdout_path.parent.mkdir(parents=True, exist_ok=True)
+        holdout_path.write_text(
+            json.dumps(sorted(val_ids), indent=2),
+            encoding="utf-8",
+        )
+
+    real_train_records = []
+    val_records = []
+
+    for row in rows:
+        if row["id"] in val_ids:
+            val_records.append(
+                make_validation_record(
+                    row,
+                    prompt_suffix=args.prompt_suffix,
+                )
+            )
+            continue
+
+        for _ in range(args.real_repeat):
+            style = sample_from_mix(style_mix, rng)
+            real_train_records.append(
+                make_real_chat_record(
+                    row,
+                    style=style,
+                    prompt_suffix=args.prompt_suffix,
+                )
+            )
+
+    synth_records = []
+    for path in args.synth:
+        for rec in read_jsonl(path):
+            synth_records.append(coerce_to_chat_record(rec))
+
+    if args.synth_cap is not None and len(synth_records) > args.synth_cap:
+        rng.shuffle(synth_records)
+        synth_records = synth_records[: args.synth_cap]
+
+    train_records = real_train_records + synth_records
+    rng.shuffle(train_records)
+    rng.shuffle(val_records)
+
+    write_jsonl(train_records, args.out_train)
+    if args.out_val:
+        write_jsonl(val_records, args.out_val)
+
+    summary = {
+        "real_examples": len(rows),
+        "train_real_records": len(real_train_records),
+        "train_synth_records": len(synth_records),
+        "train_total_records": len(train_records),
+        "val_records": len(val_records),
+        "real_repeat": args.real_repeat,
+        "style_mix": style_mix,
+    }
+    print(json.dumps(summary, indent=2))
+
+
 # =========================================================
 # ==================== ARGPARSE ============================
 # =========================================================
@@ -277,6 +463,24 @@ def build_parser():
     e.add_argument("--input", required=True)
     e.add_argument("--out", required=True)
     e.set_defaults(func=cmd_export_chatml)
+
+    b = sub.add_parser("build_comp_data")
+    b.add_argument("--train-csv", required=True)
+    b.add_argument("--out-train", required=True)
+    b.add_argument("--out-val")
+    b.add_argument("--synth", nargs="*", default=[])
+    b.add_argument("--val-fraction", type=float, default=0.1)
+    b.add_argument("--seed", type=int, default=42)
+    b.add_argument("--real-repeat", type=int, default=2)
+    b.add_argument(
+        "--real-style-mix",
+        default=json.dumps(DEFAULT_REAL_STYLE_MIX),
+    )
+    b.add_argument("--synth-cap", type=int)
+    b.add_argument("--prompt-suffix", default=DEFAULT_PROMPT_SUFFIX)
+    b.add_argument("--holdout-ids-in")
+    b.add_argument("--holdout-ids-out")
+    b.set_defaults(func=cmd_build_comp_data)
 
     return p
 
