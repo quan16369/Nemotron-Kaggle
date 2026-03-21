@@ -1,0 +1,15 @@
+{
+    "version": 1,
+    "family": "unit_conversion",
+    "difficulty_mix": {
+        "easy": 0.3,
+        "medium": 0.5,
+        "hard": 0.2
+    },
+    "overrides": {
+        "template_id": {
+            "type": "choice",
+            "values": [ "alice", "examples", "system" ]
+        }
+    }
+}

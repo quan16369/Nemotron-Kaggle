@@ -18,6 +18,11 @@ from src.generation.render_dataset import (
     to_chatml_record,
     choose_style,
 )
+from src.dsl.mini_dsl import (
+    generate_configs_from_spec,
+    render_records_from_configs,
+    synth_from_spec,
+)
 
 # =========================================================
 # =============== PARSING TRAIN DATA ======================
@@ -158,11 +163,48 @@ def sample_unique(spec, difficulty, seen, max_try=100):
     return None, None
 
 
+def _append_synth_record(
+    family: str,
+    cfg: Dict[str, Any],
+    bucket: List[Dict[str, Any]],
+    stats: Dict[str, int],
+    allow_failed_verify: bool,
+) -> None:
+    rec = make_sft_record(family, cfg, style=choose_style())
+    stats["generated"] += 1
+    if rec["meta"].get("verifier_pass", False) or allow_failed_verify:
+        bucket.append(rec)
+    else:
+        stats["verify_failed"] += 1
+
+
+def _trim_family_records(
+    all_records: List[Dict[str, Any]],
+    target_n: int,
+    mix: Dict[str, float],
+    rng: random.Random,
+) -> List[Dict[str, Any]]:
+    if len(all_records) <= target_n:
+        return all_records
+
+    final_sizes = allocate_counts(target_n, mix)
+    grouped = {"easy": [], "medium": [], "hard": []}
+    for rec in all_records:
+        grouped[rec["meta"]["config"]["difficulty"]].append(rec)
+
+    final: List[Dict[str, Any]] = []
+    for diff in ["easy", "medium", "hard"]:
+        rng.shuffle(grouped[diff])
+        final.extend(grouped[diff][: final_sizes[diff]])
+    return final
+
+
 def build_synth_records(
     size_map,
     difficulty_mix=None,
     oversample_factor=1.5,
     seed=42,
+    allow_failed_verify=False,
 ):
     rng = random.Random(seed)
 
@@ -170,10 +212,15 @@ def build_synth_records(
     difficulty_mix = difficulty_mix or {}
 
     out = {}
+    stats: Dict[str, Dict[str, int]] = {}
 
     for family, target_n in size_map.items():
         spec = SPEC_REGISTRY[family]
         mix = difficulty_mix.get(family, default_mix)
+        stats[family] = {
+            "generated": 0,
+            "verify_failed": 0,
+        }
 
         generate_n = int(target_n * oversample_factor)
         bucket_sizes = allocate_counts(generate_n, mix)
@@ -188,9 +235,12 @@ def build_synth_records(
                 if cfg is None:
                     continue
                 seen.add(key)
-
-                bucket_data[diff].append(
-                    make_sft_record(family, cfg, style=choose_style())
+                _append_synth_record(
+                    family=family,
+                    cfg=cfg,
+                    bucket=bucket_data[diff],
+                    stats=stats[family],
+                    allow_failed_verify=allow_failed_verify,
                 )
 
         # merge
@@ -198,26 +248,175 @@ def build_synth_records(
         for v in bucket_data.values():
             all_records.extend(v)
 
-        # trim back
-        if len(all_records) > target_n:
-            final_sizes = allocate_counts(target_n, mix)
-
-            grouped = {"easy": [], "medium": [], "hard": []}
-            for r in all_records:
-                d = r["meta"]["config"]["difficulty"]
-                grouped[d].append(r)
-
-            final = []
-            for d in ["easy", "medium", "hard"]:
-                rng.shuffle(grouped[d])
-                final.extend(grouped[d][: final_sizes[d]])
-
-            all_records = final
+        all_records = _trim_family_records(
+            all_records=all_records,
+            target_n=target_n,
+            mix=mix,
+            rng=rng,
+        )
 
         rng.shuffle(all_records)
         out[family] = all_records[:target_n]
 
-    return out
+    return out, stats
+
+
+BOXED_RE = re.compile(r"\\\\boxed\{(.*)\}\s*$")
+
+
+def normalize_answer_text(answer: str) -> str:
+    text = answer.strip()
+    m = BOXED_RE.match(text)
+    if m:
+        text = m.group(1).strip()
+    return text.strip()
+
+
+def _init_repro_summary(total_rows: int) -> Dict[str, Any]:
+    return {
+        "total_rows": total_rows,
+        "matched": 0,
+        "mismatched": 0,
+        "skipped": 0,
+        "errors": 0,
+        "by_family": {},
+        "details": [],
+    }
+
+
+def _ensure_family_stats(summary: Dict[str, Any], family: str) -> Dict[str, int]:
+    return summary["by_family"].setdefault(
+        family,
+        {"matched": 0, "mismatched": 0, "skipped": 0, "errors": 0},
+    )
+
+
+def _record_status(
+    summary: Dict[str, Any],
+    fam_stats: Dict[str, int],
+    status: str,
+    detail: Dict[str, Any],
+) -> None:
+    if status not in {"matched", "mismatched", "skipped", "errors"}:
+        raise ValueError(f"Invalid status: {status}")
+    summary[status] += 1
+    fam_stats[status] += 1
+    summary["details"].append(detail)
+
+
+def _build_reproduce_input(parsed: ParsedSample) -> Dict[str, Any]:
+    return {
+        "sample_id": parsed.sample_id,
+        "family": parsed.family,
+        "prompt": parsed.prompt,
+        "answer": parsed.answer,
+        "support_examples": parsed.support_examples,
+        "query_input": parsed.query_input,
+    }
+
+
+def _try_reproduce(spec, parsed: ParsedSample) -> Tuple[Optional[Dict[str, Any]], Optional[str], Optional[str]]:
+    try:
+        cfg = spec.reproduce(_build_reproduce_input(parsed))
+        return cfg, None, None
+    except NotImplementedError:
+        return None, "skipped", "reproduce_not_implemented"
+    except Exception as exc:
+        return None, "errors", str(exc)
+
+
+def _compare_prediction(spec, cfg: Dict[str, Any], row: Dict[str, str]) -> Tuple[str, Dict[str, Any]]:
+    pred = normalize_answer_text(spec.solve(cfg))
+    gold = normalize_answer_text(row.get("answer", ""))
+    status = "matched" if pred == gold else "mismatched"
+    return status, {
+        "pred": pred,
+        "gold": gold,
+        "reproduction_score": cfg.get("reproduction_score"),
+    }
+
+
+def _process_reproduction_row(summary: Dict[str, Any], row: Dict[str, str]) -> None:
+    parsed = parse_sample(row)
+    family = parsed.family
+    fam_stats = _ensure_family_stats(summary, family)
+
+    if family not in SPEC_REGISTRY:
+        _record_status(
+            summary,
+            fam_stats,
+            "skipped",
+            {
+                "id": row.get("id"),
+                "family": family,
+                "status": "skipped",
+                "reason": "unknown_family",
+            },
+        )
+        return
+
+    spec = SPEC_REGISTRY[family]
+    cfg, repro_status, repro_info = _try_reproduce(spec, parsed)
+    if repro_status is not None:
+        _record_status(
+            summary,
+            fam_stats,
+            repro_status,
+            {
+                "id": row.get("id"),
+                "family": family,
+                "status": "skipped" if repro_status == "skipped" else "error",
+                "reason": repro_info if repro_status == "skipped" else None,
+                "error": repro_info if repro_status == "errors" else None,
+            },
+        )
+        return
+
+    try:
+        status, payload = _compare_prediction(spec, cfg, row)
+        _record_status(
+            summary,
+            fam_stats,
+            status,
+            {
+                "id": row.get("id"),
+                "family": family,
+                "status": status,
+                **payload,
+            },
+        )
+    except Exception as exc:
+        _record_status(
+            summary,
+            fam_stats,
+            "errors",
+            {
+                "id": row.get("id"),
+                "family": family,
+                "status": "error",
+                "error": str(exc),
+            },
+        )
+
+
+def run_reproduction_validation(
+    rows: List[Dict[str, str]],
+    max_rows: Optional[int] = None,
+    strict: bool = False,
+) -> Dict[str, Any]:
+    checked_rows = rows[:max_rows] if max_rows else rows
+    summary: Dict[str, Any] = _init_repro_summary(len(checked_rows))
+
+    for row in checked_rows:
+        _process_reproduction_row(summary, row)
+
+    if strict and (summary["mismatched"] > 0 or summary["errors"] > 0):
+        raise RuntimeError(
+            "Reproduction validation failed in strict mode: "
+            f"mismatched={summary['mismatched']} errors={summary['errors']}"
+        )
+
+    return summary
 
 
 def make_real_completion(answer: str, style: str) -> str:
@@ -333,16 +532,58 @@ def cmd_synth_all(args):
     outdir = Path(args.outdir)
     outdir.mkdir(parents=True, exist_ok=True)
 
-    data = build_synth_records(
+    data, stats = build_synth_records(
         size_map=size_map,
         difficulty_mix=mix,
         oversample_factor=args.oversample_factor,
         seed=args.seed,
+        allow_failed_verify=args.allow_failed_verify,
     )
 
     for family, records in data.items():
         write_jsonl(records, str(outdir / f"{family}.jsonl"))
-        print(f"{family}: {len(records)}")
+        print(
+            json.dumps(
+                {
+                    "family": family,
+                    "written": len(records),
+                    "generated": stats[family]["generated"],
+                    "verify_failed": stats[family]["verify_failed"],
+                }
+            )
+        )
+
+
+def cmd_validate_reproduction(args):
+    with open(args.train_csv, encoding="utf-8") as f:
+        rows = list(csv.DictReader(f))
+
+    summary = run_reproduction_validation(
+        rows,
+        max_rows=args.max_rows,
+        strict=args.strict,
+    )
+
+    if args.out_report:
+        out_path = Path(args.out_report)
+        out_path.parent.mkdir(parents=True, exist_ok=True)
+        out_path.write_text(json.dumps(summary, indent=2, ensure_ascii=False), encoding="utf-8")
+
+    print(
+        json.dumps(
+            {
+                "total_rows": summary["total_rows"],
+                "matched": summary["matched"],
+                "mismatched": summary["mismatched"],
+                "skipped": summary["skipped"],
+                "errors": summary["errors"],
+                "by_family": summary["by_family"],
+                "out_report": args.out_report,
+            },
+            indent=2,
+            ensure_ascii=False,
+        )
+    )
 
 
 def cmd_make_mixture(args):
@@ -431,6 +672,40 @@ def cmd_build_comp_data(args):
     print(json.dumps(summary, indent=2))
 
 
+def cmd_dsl_gen_configs(args):
+    summary = generate_configs_from_spec(
+        spec_path=args.spec,
+        count=args.count,
+        out_path=args.out,
+        seed=args.seed,
+    )
+    print(json.dumps(summary, indent=2, ensure_ascii=False))
+
+
+def cmd_dsl_render_configs(args):
+    style_mix = json.loads(args.style_mix) if args.style_mix else None
+    summary = render_records_from_configs(
+        spec_path=args.spec,
+        configs_path=args.configs,
+        out_path=args.out,
+        strict_verify=args.strict_verify,
+        style_mix=style_mix,
+        seed=args.seed,
+    )
+    print(json.dumps(summary, indent=2, ensure_ascii=False))
+
+
+def cmd_dsl_synth(args):
+    summary = synth_from_spec(
+        spec_path=args.spec,
+        count=args.count,
+        out_path=args.out,
+        seed=args.seed,
+        strict_verify=args.strict_verify,
+    )
+    print(json.dumps(summary, indent=2, ensure_ascii=False))
+
+
 # =========================================================
 # ==================== ARGPARSE ============================
 # =========================================================
@@ -452,7 +727,15 @@ def build_parser():
     s.add_argument("--difficulty_mix")
     s.add_argument("--oversample_factor", type=float, default=1.5)
     s.add_argument("--seed", type=int, default=42)
+    s.add_argument("--allow-failed-verify", action="store_true")
     s.set_defaults(func=cmd_synth_all)
+
+    r = sub.add_parser("validate_reproduction")
+    r.add_argument("--train-csv", required=True)
+    r.add_argument("--out-report")
+    r.add_argument("--max-rows", type=int)
+    r.add_argument("--strict", action="store_true")
+    r.set_defaults(func=cmd_validate_reproduction)
 
     m = sub.add_parser("make_mixture")
     m.add_argument("--out", required=True)
@@ -481,6 +764,30 @@ def build_parser():
     b.add_argument("--holdout-ids-in")
     b.add_argument("--holdout-ids-out")
     b.set_defaults(func=cmd_build_comp_data)
+
+    dgc = sub.add_parser("dsl_gen_configs")
+    dgc.add_argument("--spec", required=True)
+    dgc.add_argument("--out", required=True)
+    dgc.add_argument("--count", type=int, required=True)
+    dgc.add_argument("--seed", type=int, default=42)
+    dgc.set_defaults(func=cmd_dsl_gen_configs)
+
+    drc = sub.add_parser("dsl_render_configs")
+    drc.add_argument("--spec", required=True)
+    drc.add_argument("--configs", required=True)
+    drc.add_argument("--out", required=True)
+    drc.add_argument("--seed", type=int, default=42)
+    drc.add_argument("--style-mix")
+    drc.add_argument("--strict-verify", action="store_true")
+    drc.set_defaults(func=cmd_dsl_render_configs)
+
+    ds = sub.add_parser("dsl_synth")
+    ds.add_argument("--spec", required=True)
+    ds.add_argument("--out", required=True)
+    ds.add_argument("--count", type=int, required=True)
+    ds.add_argument("--seed", type=int, default=42)
+    ds.add_argument("--strict-verify", action="store_true")
+    ds.set_defaults(func=cmd_dsl_synth)
 
     return p
 

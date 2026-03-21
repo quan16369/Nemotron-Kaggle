@@ -1,9 +1,56 @@
 from __future__ import annotations
 
 import random
+import re
 from typing import Any, Dict, Optional
 
 from .base import PuzzleSpec
+
+
+def _parse_first_number(text: str):
+    m = re.search(r"[-+]?\d+(?:\.\d+)?", text)
+    return float(m.group(0)) if m else None
+
+
+def _extract_gravity_pairs(parsed_train_sample: Dict[str, Any]):
+    pairs = []
+    for inp, out in parsed_train_sample.get("support_examples", []):
+        x = _parse_first_number(inp)
+        y = _parse_first_number(out)
+        if x is None or y is None:
+            continue
+        pairs.append((x, y))
+    return pairs
+
+
+def _fit_linear_from_pairs(pairs):
+    for i in range(len(pairs)):
+        for j in range(i + 1, len(pairs)):
+            x1, y1 = pairs[i]
+            x2, y2 = pairs[j]
+            if abs(x2 - x1) < 1e-9:
+                continue
+            a = (y2 - y1) / (x2 - x1)
+            b = y1 - a * x1
+            return a, b
+    return None
+
+
+def _fit_gravity_model(pairs):
+    if len(pairs) == 1:
+        x1, y1 = pairs[0]
+        if abs(x1) > 1e-9:
+            return "scaled", 1.0, 0.0, y1 / x1
+
+    if len(pairs) >= 2:
+        linear = _fit_linear_from_pairs(pairs)
+        if linear is not None:
+            a, b = linear
+            if abs(b) < 1e-3:
+                return "scaled", a, b, a
+            return "linear", a, b, 1.0
+
+    return "linear", 1.0, 0.0, 1.0
 
 
 class GravitySpec(PuzzleSpec):
@@ -90,3 +137,26 @@ class GravitySpec(PuzzleSpec):
         else:
             out["g"] = round(float(config["g"]), 6)
         return out
+
+    def reproduce(self, parsed_train_sample: Dict[str, Any]) -> Dict[str, Any]:
+        pairs = _extract_gravity_pairs(parsed_train_sample)
+        mode, a, b, g = _fit_gravity_model(pairs)
+
+        query_input = parsed_train_sample.get("query_input")
+        if query_input is None:
+            query_input = pairs[-1][0] if pairs else 1.0
+
+        base = {
+            "family": self.name,
+            "mode": mode,
+            "support_inputs": [p[0] for p in pairs] if pairs else [1.0, 2.0, 3.0],
+            "query_input": float(query_input),
+            "difficulty": "unknown",
+            "template_id": "alice",
+            "reproduction_score": len(pairs),
+        }
+        if mode == "linear":
+            base.update({"a": round(a, 6), "b": round(b, 6)})
+        else:
+            base.update({"g": round(g, 6)})
+        return base

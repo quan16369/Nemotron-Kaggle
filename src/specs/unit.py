@@ -1,9 +1,46 @@
 from __future__ import annotations
 
 import random
+import re
 from typing import Any, Dict, List, Optional
 
 from .base import PuzzleSpec
+
+
+def _parse_value_and_unit(text: str):
+    m = re.match(r"\s*([-+]?\d+(?:\.\d+)?)\s*(.*)\s*$", text)
+    if not m:
+        return None, ""
+    return float(m.group(1)), m.group(2).strip()
+
+
+def _extract_unit_pairs(parsed_train_sample: Dict[str, Any]):
+    pairs = []
+    for inp, out in parsed_train_sample.get("support_examples", []):
+        x, in_unit = _parse_value_and_unit(inp)
+        y, out_unit = _parse_value_and_unit(out)
+        if x is None or y is None:
+            continue
+        pairs.append((x, y, in_unit, out_unit))
+    return pairs
+
+
+def _fit_affine_from_pairs(pairs):
+    a, b = 1.0, 0.0
+    if len(pairs) >= 2:
+        for i in range(len(pairs)):
+            for j in range(i + 1, len(pairs)):
+                x1, y1, _, _ = pairs[i]
+                x2, y2, _, _ = pairs[j]
+                if abs(x2 - x1) < 1e-9:
+                    continue
+                a = (y2 - y1) / (x2 - x1)
+                b = y1 - a * x1
+                return a, b
+    if len(pairs) == 1:
+        x1, y1, _, _ = pairs[0]
+        return 1.0, y1 - x1
+    return a, b
 
 
 class UnitConversionSpec(PuzzleSpec):
@@ -92,4 +129,28 @@ class UnitConversionSpec(PuzzleSpec):
             "support_inputs": sorted(round(float(x), 6) for x in config["support_inputs"]),
             "query_input": round(float(config["query_input"]), 6),
             "difficulty": config.get("difficulty", "medium"),
+        }
+
+    def reproduce(self, parsed_train_sample: Dict[str, Any]) -> Dict[str, Any]:
+        pairs = _extract_unit_pairs(parsed_train_sample)
+        a, b = _fit_affine_from_pairs(pairs)
+
+        support_inputs = [p[0] for p in pairs]
+        unit_in = pairs[0][2] if pairs else "units"
+        unit_out = pairs[0][3] if pairs else "mapped_units"
+        query_input = parsed_train_sample.get("query_input")
+        if query_input is None:
+            query_input = support_inputs[-1] if support_inputs else 1.0
+
+        return {
+            "family": self.name,
+            "a": round(a, 6),
+            "b": round(b, 6),
+            "unit_in": unit_in,
+            "unit_out": unit_out,
+            "support_inputs": support_inputs if support_inputs else [1.0, 2.0, 3.0],
+            "query_input": float(query_input),
+            "difficulty": "unknown",
+            "template_id": "alice",
+            "reproduction_score": len(pairs),
         }

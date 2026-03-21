@@ -1,0 +1,18 @@
+{
+    "version": 1,
+    "family": "equation",
+    "difficulty_mix": {
+        "easy": 0.3,
+        "medium": 0.5,
+        "hard": 0.2
+    },
+    "defaults": {
+        "template_id": "alice"
+    },
+    "overrides": {
+        "template_id": {
+            "type": "choice",
+            "values": [ "alice", "examples", "cipher" ]
+        }
+    }
+}

@@ -122,3 +122,46 @@ class TextDecryptSpec(PuzzleSpec):
             "query_input": config["query_input"],
             "difficulty": config.get("difficulty", "medium"),
         }
+
+    def reproduce(self, parsed_train_sample: Dict[str, Any]) -> Dict[str, Any]:
+        support_inputs = []
+        support_outputs = []
+        for inp, out in parsed_train_sample.get("support_examples", []):
+            support_inputs.append(inp.strip().strip("'\""))
+            support_outputs.append(out.strip().strip("'\""))
+
+        rules = [
+            "caesar_1",
+            "caesar_2",
+            "caesar_3",
+            "caesar_-1",
+            "reverse_chars",
+            "reverse_words",
+            "reverse_then_caesar_1",
+            "reverse_then_caesar_2",
+        ]
+
+        best_rule = "reverse_words"
+        best_score = -1
+        for rule in rules:
+            score = 0
+            for src, tgt in zip(support_inputs, support_outputs):
+                if apply_text_rule(src, rule) == tgt:
+                    score += 1
+            if score > best_score:
+                best_score = score
+                best_rule = rule
+
+        query_input = parsed_train_sample.get("query_input")
+        if not query_input:
+            query_input = support_inputs[-1] if support_inputs else "alice puzzle"
+
+        return {
+            "family": self.name,
+            "rule_name": best_rule,
+            "support_inputs": support_inputs if support_inputs else ["alice puzzle", "hidden message", "silver clock"],
+            "query_input": query_input.strip().strip("'\""),
+            "difficulty": "unknown",
+            "template_id": "alice",
+            "reproduction_score": best_score,
+        }

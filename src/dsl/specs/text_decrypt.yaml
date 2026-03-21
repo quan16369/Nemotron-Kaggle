@@ -1,0 +1,10 @@
+version: 1
+family: text_decrypt
+difficulty_mix:
+  easy: 0.30
+  medium: 0.50
+  hard: 0.20
+overrides:
+  template_id:
+    type: choice
+    values: [alice, examples, cipher]

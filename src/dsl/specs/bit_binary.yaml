@@ -1,0 +1,12 @@
+version: 1
+family: bit_binary
+difficulty_mix:
+  easy: 0.30
+  medium: 0.50
+  hard: 0.20
+defaults:
+  template_id: alice
+overrides:
+  template_id:
+    type: choice
+    values: [alice, machine, examples]

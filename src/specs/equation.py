@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import random
+import re
 from typing import Any, Dict, List, Optional
 
 from .base import PuzzleSpec
@@ -27,6 +28,46 @@ def build_mapping(mapping_size: int = 12) -> Dict[str, str]:
 
 def apply_mapping(text: str, mapping: Dict[str, str]) -> str:
     return "".join(mapping.get(ch, ch) for ch in text)
+
+
+def infer_query_from_prompt(prompt: str) -> str:
+    candidates = []
+    p1 = re.findall(r"transformed form of\s*([^?.!]+)", prompt, flags=re.I)
+    p2 = re.findall(r"Transform\s*([^?.!]+)", prompt, flags=re.I)
+    p3 = re.findall(r"output for\s*([^?.!]+)", prompt, flags=re.I)
+    candidates.extend(p1)
+    candidates.extend(p2)
+    candidates.extend(p3)
+    if candidates:
+        return candidates[-1].strip().strip("'\"")
+
+    arrows = re.findall(r"([^\n:;]+?)\s*->\s*([^\n;,.]+)", prompt)
+    if arrows:
+        return arrows[-1][0].strip().strip("'\"")
+    return ""
+
+
+def _collect_support_pairs(parsed_train_sample: Dict[str, Any]) -> tuple[List[str], List[str]]:
+    support_inputs: List[str] = []
+    support_outputs: List[str] = []
+    for inp, out in parsed_train_sample.get("support_examples", []):
+        support_inputs.append(inp.strip())
+        support_outputs.append(out.strip())
+    return support_inputs, support_outputs
+
+
+def _infer_mapping_score(support_inputs: List[str], support_outputs: List[str]) -> tuple[Dict[str, str], int]:
+    mapping: Dict[str, str] = {}
+    score = 0
+    for src, tgt in zip(support_inputs, support_outputs):
+        if len(src) != len(tgt):
+            continue
+        if any(a in mapping and mapping[a] != b for a, b in zip(src, tgt)):
+            continue
+        for a, b in zip(src, tgt):
+            mapping[a] = b
+        score += 1
+    return mapping, score
 
 
 class EquationSpec(PuzzleSpec):
@@ -99,4 +140,22 @@ class EquationSpec(PuzzleSpec):
             "support_inputs": sorted(config["support_inputs"]),
             "query_input": config["query_input"],
             "difficulty": config.get("difficulty", "medium"),
+        }
+
+    def reproduce(self, parsed_train_sample: Dict[str, Any]) -> Dict[str, Any]:
+        support_inputs, support_outputs = _collect_support_pairs(parsed_train_sample)
+        mapping, score = _infer_mapping_score(support_inputs, support_outputs)
+
+        query_input = parsed_train_sample.get("query_input") or ""
+        if not query_input:
+            query_input = infer_query_from_prompt(parsed_train_sample.get("prompt", ""))
+
+        return {
+            "family": self.name,
+            "mapping": mapping,
+            "support_inputs": support_inputs,
+            "query_input": query_input,
+            "difficulty": "unknown",
+            "template_id": "alice",
+            "reproduction_score": score,
         }

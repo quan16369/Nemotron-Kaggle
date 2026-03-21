@@ -35,6 +35,74 @@ python -m src.toolkit synth_all \
   --sizes '{"roman_numeral":20000,"bit_binary":50000,"unit_conversion":25000,"gravity":25000,"equation":20000,"text_decrypt":20000}'
 ```
 
+By default, `synth_all` now drops records that fail per-family verifier checks.
+If you need to keep all records for debugging, add:
+
+```bash
+--allow-failed-verify
+```
+
+Optional seed reproduction validation (recommended before training):
+
+```bash
+python -m src.toolkit validate_reproduction \
+  --train-csv "$TRAIN_PATH" \
+  --out-report "$ART_DIR/reproduction_report.json"
+```
+
+Use strict mode to fail fast when mismatches are detected:
+
+```bash
+python -m src.toolkit validate_reproduction \
+  --train-csv "$TRAIN_PATH" \
+  --out-report "$ART_DIR/reproduction_report.json" \
+  --strict
+```
+
+### 2b. Full DSL Translator Workflow 
+
+This repo now supports a spec -> config -> render flow via DSL specs in `src/dsl/specs/`.
+
+Generate deterministic configs from a DSL spec:
+
+```bash
+python -m src.toolkit dsl_gen_configs \
+  --spec src/dsl/specs/bit_binary.yaml \
+  --out "$ART_DIR/bit_configs.jsonl" \
+  --count 5000 \
+  --seed 42
+```
+
+Render records from saved configs (config replay):
+
+```bash
+python -m src.toolkit dsl_render_configs \
+  --spec src/dsl/specs/bit_binary.yaml \
+  --configs "$ART_DIR/bit_configs.jsonl" \
+  --out "$SYNTH_DIR/bit_binary_from_dsl.jsonl" \
+  --strict-verify
+```
+
+One-shot synthesis directly from DSL spec:
+
+```bash
+python -m src.toolkit dsl_synth \
+  --spec src/dsl/specs/equation.json \
+  --out "$SYNTH_DIR/equation_from_dsl.jsonl" \
+  --count 5000 \
+  --seed 42 \
+  --strict-verify
+```
+
+Available built-in DSL specs:
+
+- `src/dsl/specs/bit_binary.yaml`
+- `src/dsl/specs/equation.json`
+- `src/dsl/specs/gravity.yaml`
+- `src/dsl/specs/roman_numeral.json`
+- `src/dsl/specs/text_decrypt.yaml`
+- `src/dsl/specs/unit_conversion.json`
+
 ### 3. Build holdout and specialist dataset A
 
 ```bash
@@ -171,6 +239,8 @@ $WORK_DIR/submission.zip
 - Keep the final merged adapter at rank `<= 32`.
 - If compute is tight, reduce `--synth-cap` and `--max-samples`.
 - If verbose reasoning hurts greedy decoding, try `--disable_thinking` during training and merge evaluation.
+- Reproduction validation can be used to estimate whether family-level `reproduce()` logic aligns with train seeds before creating large synthetic corpora.
+- DSL commands support JSON and YAML specs. YAML specs require `pyyaml`.
 
 ## Related Files
 
