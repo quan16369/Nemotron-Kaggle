@@ -123,13 +123,24 @@ def _get_current_reasoning_text(
     *,
     use_existing_reasoning_files: bool,
     reasoning_dir: Path,
+    bit_manipulation_compact: bool = False,
+    bit_manipulation_three_bit_repair: bool = False,
 ) -> str:
     generator = GENERATORS.get(category)
     reasoning_text = ""
     if generator is not None:
-        reasoning_text = (generator(Problem.load_from_json(problem_id)) or "").rstrip(
-            "\n"
-        )
+        problem = Problem.load_from_json(problem_id)
+        if category == "bit_manipulation":
+            reasoning_text = (
+                generator(
+                    problem,
+                    compact=bit_manipulation_compact,
+                    enable_three_bit_repair=bit_manipulation_three_bit_repair,
+                )
+                or ""
+            ).rstrip("\n")
+        else:
+            reasoning_text = (generator(problem) or "").rstrip("\n")
     if not reasoning_text and use_existing_reasoning_files:
         path = reasoning_dir / f"{problem_id}.txt"
         if path.exists():
@@ -144,6 +155,8 @@ def build_current_correct_base_records(
     completion_tokenizer: Tokenizer,
     max_seq_len: int,
     use_existing_reasoning_files: bool,
+    bit_manipulation_compact: bool = False,
+    bit_manipulation_three_bit_repair: bool = False,
 ) -> dict[str, dict[str, Any]]:
     train_csv_path = repo_dir / "train.csv"
     problems_index_path = repo_dir / "problems.jsonl"
@@ -171,6 +184,8 @@ def build_current_correct_base_records(
             category,
             use_existing_reasoning_files=use_existing_reasoning_files,
             reasoning_dir=reasoning_dir,
+            bit_manipulation_compact=bit_manipulation_compact,
+            bit_manipulation_three_bit_repair=bit_manipulation_three_bit_repair,
         )
         if not reasoning_text:
             continue

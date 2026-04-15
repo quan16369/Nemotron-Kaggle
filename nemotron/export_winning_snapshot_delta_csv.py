@@ -69,6 +69,16 @@ def parse_args() -> argparse.Namespace:
             "If omitted, the script will try common Kaggle input paths."
         ),
     )
+    parser.add_argument(
+        "--bit-manipulation-compact",
+        action="store_true",
+        help="Use compact=True when regenerating bit_manipulation delta traces",
+    )
+    parser.add_argument(
+        "--bit-manipulation-three-bit-repair",
+        action="store_true",
+        help="Use enable_three_bit_repair=True when regenerating bit_manipulation delta traces",
+    )
     return parser.parse_args()
 
 
@@ -127,6 +137,8 @@ def main() -> None:
             completion_tokenizer=completion_tokenizer,
             max_seq_len=MAX_SEQ_LEN,
             use_existing_reasoning_files=args.use_existing_reasoning_files,
+            bit_manipulation_compact=args.bit_manipulation_compact,
+            bit_manipulation_three_bit_repair=args.bit_manipulation_three_bit_repair,
         )
         final_records, delta_stats = merge_snapshot_with_current_delta(
             snapshot_records,
@@ -176,6 +188,8 @@ def main() -> None:
                 "chat_tokenizer_path": (
                     None if args.no_delta else resolve_chat_tokenizer_path(args.chat_tokenizer_path)
                 ),
+                "bit_manipulation_compact": args.bit_manipulation_compact,
+                "bit_manipulation_three_bit_repair": args.bit_manipulation_three_bit_repair,
                 "snapshot_loss_config": snapshot_config.get("loss_config", {}),
                 "snapshot_lr_schedule": snapshot_config.get("lr_schedule", {}),
                 "delta_stats": (
