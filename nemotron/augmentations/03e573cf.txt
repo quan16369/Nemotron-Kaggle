@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 ulada ced members
+01 quir filozof invitado
+02 otic starch retorna
+
+This is a sample output.
+00 ulada ced members -> –u–l–a–d–a–c–e–d–m–e–m–b–e–r–s–
+01 quir filozof invitado -> –q–u–i–r–f–i–l–o–z–o–f–i–n–v–i–t–a–d–o–
+02 otic starch retorna -> –o–t–i–c–s–t–a–r–c–h–r–e–t–o–r–n–a–
+
+This is your input.
+00 sk top distinct
+01 eroids politik phyt
+02 izo curve inadvert
+03 balanced convient czym
+04 lder banana booking
+05 ython scarcity akik
+06 ispiel explos pref
+07 ajas diploma synth
+08 atility deport intense
+09 ak brit invi
+10 intang bliver zajed
+11 adek striatum staats
+12 stone observe circa
+13 sept patio verbs
+14 kien polit oxidase
+15 ingen vierten ilegal
+16 ql whereby tzw
+17 endit desemb vende
+18 ike basin espera
+19 enzo acabar cilind
+20 eppe crops betyd
+21 iern beaten shields
+22 reso price pouze
+23 esium guilt garrantz
+24 efehl byz jal
+25 cock ti wandte
+26 raits maven cytosol
+27 styled macular fases
+28 model genauso sonore
+29 cont decidiu usize
+30 assic coincide calcio
+31 endon algebra obey
+32 schluss evidente sistemi
+33 ising horiz biopsies
+34 erea megt upgrade
+35 ixe dopp soluble
+36 lass predict txt
+37 handler horario przet
+38 ceptors lain erlaub
+39 rije tempting ganador
+40 artifact process space
+41 circle pole egen
+42 later reclam otrzyma
+43 usk atlas spend
+44 olic rewarded griff
+45 fle voice pag
+46 ynaptic aika mai
+47 viu prensa polvo
+48 uju folgende tinham
+49 gain asleep meiste
+50 ip abroad leist
+51 teger espa staying
+52 ordat empate aquellas
+53 usetzen entidad pluie
+54 dataset accl filled
+55 raska leap faint
+56 ethe rechaz vyd
+57 jeve entlang apple
+58 agas smrti glum
+59 currency vez monop
+60 ificates weren renew
+61 osex harmon enviado
+62 rise radially round
+63 ogens necesita maiores
+64 eken notably tro
+65 plastic ubicado reminder
+66 logne lloc ajust
+67 eled hunters fungal
+68 iksi arri museo
+69 tags wicked gebildet
+70 jeron unsub renfor
+71 piar surname approve
+72 ogle messed dm
+73 itarian vi ryt
+74 nent rendelke plate
+75 zione teor volcanic
+76 fasste folder paraffin
+77 znam sorti hunt
+78 ault corps edific
+79 joht weist zato
+80 ignor occurred cardenal
+81 hetic absorb ikasten
+82 anao kav teenager
+83 emies inclo izen
+84 ayan sencillo aden
+85 rg unreal maju
+86 oirs desserv dozens
+87 seq forums osaturik
+88 boss risch peculiar
+89 adia esquer congrat
+90 ctomy area correr
+91 eltz iako okresie
+92 ulas bruit summar
+93 utorial exposes triste
+94 ansion actively unused
+95 erty tetap hardest
+96 machine sorry mare
+97 atham home comen
+98 sta monstre hindered
+99 reib lengths sorriso
+[completion]
+00 sk top distinct -> –s–k–t–o–p–d–i–s–t–i–n–c–t–
+01 eroids politik phyt -> –e–r–o–i–d–s–p–o–l–i–t–i–k–p–h–y–t–
+02 izo curve inadvert -> –i–z–o–c–u–r–v–e–i–n–a–d–v–e–r–t–
+03 balanced convient czym -> –b–a–l–a–n–c–e–d–c–o–n–v–i–e–n–t–c–z–y–m–
+04 lder banana booking -> –l–d–e–r–b–a–n–a–n–a–b–o–o–k–i–n–g–
+05 ython scarcity akik -> –y–t–h–o–n–s–c–a–r–c–i–t–y–a–k–i–k–
+06 ispiel explos pref -> –i–s–p–i–e–l–e–x–p–l–o–s–p–r–e–f–
+07 ajas diploma synth -> –a–j–a–s–d–i–p–l–o–m–a–s–y–n–t–h–
+08 atility deport intense -> –a–t–i–l–i–t–y–d–e–p–o–r–t–i–n–t–e–n–s–e–
+09 ak brit invi -> –a–k–b–r–i–t–i–n–v–i–
+10 intang bliver zajed -> –i–n–t–a–n–g–b–l–i–v–e–r–z–a–j–e–d–
+11 adek striatum staats -> –a–d–e–k–s–t–r–i–a–t–u–m–s–t–a–a–t–s–
+12 stone observe circa -> –s–t–o–n–e–o–b–s–e–r–v–e–c–i–r–c–a–
+13 sept patio verbs -> –s–e–p–t–p–a–t–i–o–v–e–r–b–s–
+14 kien polit oxidase -> –k–i–e–n–p–o–l–i–t–o–x–i–d–a–s–e–
+15 ingen vierten ilegal -> –i–n–g–e–n–v–i–e–r–t–e–n–i–l–e–g–a–l–
+16 ql whereby tzw -> –q–l–w–h–e–r–e–b–y–t–z–w–
+17 endit desemb vende -> –e–n–d–i–t–d–e–s–e–m–b–v–e–n–d–e–
+18 ike basin espera -> –i–k–e–b–a–s–i–n–e–s–p–e–r–a–
+19 enzo acabar cilind -> –e–n–z–o–a–c–a–b–a–r–c–i–l–i–n–d–
+20 eppe crops betyd -> –e–p–p–e–c–r–o–p–s–b–e–t–y–d–
+21 iern beaten shields -> –i–e–r–n–b–e–a–t–e–n–s–h–i–e–l–d–s–
+22 reso price pouze -> –r–e–s–o–p–r–i–c–e–p–o–u–z–e–
+23 esium guilt garrantz -> –e–s–i–u–m–g–u–i–l–t–g–a–r–r–a–n–t–z–
+24 efehl byz jal -> –e–f–e–h–l–b–y–z–j–a–l–
+25 cock ti wandte -> –c–o–c–k–t–i–w–a–n–d–t–e–
+26 raits maven cytosol -> –r–a–i–t–s–m–a–v–e–n–c–y–t–o–s–o–l–
+27 styled macular fases -> –s–t–y–l–e–d–m–a–c–u–l–a–r–f–a–s–e–s–
+28 model genauso sonore -> –m–o–d–e–l–g–e–n–a–u–s–o–s–o–n–o–r–e–
+29 cont decidiu usize -> –c–o–n–t–d–e–c–i–d–i–u–u–s–i–z–e–
+30 assic coincide calcio -> –a–s–s–i–c–c–o–i–n–c–i–d–e–c–a–l–c–i–o–
+31 endon algebra obey -> –e–n–d–o–n–a–l–g–e–b–r–a–o–b–e–y–
+32 schluss evidente sistemi -> –s–c–h–l–u–s–s–e–v–i–d–e–n–t–e–s–i–s–t–e–m–i–
+33 ising horiz biopsies -> –i–s–i–n–g–h–o–r–i–z–b–i–o–p–s–i–e–s–
+34 erea megt upgrade -> –e–r–e–a–m–e–g–t–u–p–g–r–a–d–e–
+35 ixe dopp soluble -> –i–x–e–d–o–p–p–s–o–l–u–b–l–e–
+36 lass predict txt -> –l–a–s–s–p–r–e–d–i–c–t–t–x–t–
+37 handler horario przet -> –h–a–n–d–l–e–r–h–o–r–a–r–i–o–p–r–z–e–t–
+38 ceptors lain erlaub -> –c–e–p–t–o–r–s–l–a–i–n–e–r–l–a–u–b–
+39 rije tempting ganador -> –r–i–j–e–t–e–m–p–t–i–n–g–g–a–n–a–d–o–r–
+40 artifact process space -> –a–r–t–i–f–a–c–t–p–r–o–c–e–s–s–s–p–a–c–e–
+41 circle pole egen -> –c–i–r–c–l–e–p–o–l–e–e–g–e–n–
+42 later reclam otrzyma -> –l–a–t–e–r–r–e–c–l–a–m–o–t–r–z–y–m–a–
+43 usk atlas spend -> –u–s–k–a–t–l–a–s–s–p–e–n–d–
+44 olic rewarded griff -> –o–l–i–c–r–e–w–a–r–d–e–d–g–r–i–f–f–
+45 fle voice pag -> –f–l–e–v–o–i–c–e–p–a–g–
+46 ynaptic aika mai -> –y–n–a–p–t–i–c–a–i–k–a–m–a–i–
+47 viu prensa polvo -> –v–i–u–p–r–e–n–s–a–p–o–l–v–o–
+48 uju folgende tinham -> –u–j–u–f–o–l–g–e–n–d–e–t–i–n–h–a–m–
+49 gain asleep meiste -> –g–a–i–n–a–s–l–e–e–p–m–e–i–s–t–e–
+50 ip abroad leist -> –i–p–a–b–r–o–a–d–l–e–i–s–t–
+51 teger espa staying -> –t–e–g–e–r–e–s–p–a–s–t–a–y–i–n–g–
+52 ordat empate aquellas -> –o–r–d–a–t–e–m–p–a–t–e–a–q–u–e–l–l–a–s–
+53 usetzen entidad pluie -> –u–s–e–t–z–e–n–e–n–t–i–d–a–d–p–l–u–i–e–
+54 dataset accl filled -> –d–a–t–a–s–e–t–a–c–c–l–f–i–l–l–e–d–
+55 raska leap faint -> –r–a–s–k–a–l–e–a–p–f–a–i–n–t–
+56 ethe rechaz vyd -> –e–t–h–e–r–e–c–h–a–z–v–y–d–
+57 jeve entlang apple -> –j–e–v–e–e–n–t–l–a–n–g–a–p–p–l–e–
+58 agas smrti glum -> –a–g–a–s–s–m–r–t–i–g–l–u–m–
+59 currency vez monop -> –c–u–r–r–e–n–c–y–v–e–z–m–o–n–o–p–
+60 ificates weren renew -> –i–f–i–c–a–t–e–s–w–e–r–e–n–r–e–n–e–w–
+61 osex harmon enviado -> –o–s–e–x–h–a–r–m–o–n–e–n–v–i–a–d–o–
+62 rise radially round -> –r–i–s–e–r–a–d–i–a–l–l–y–r–o–u–n–d–
+63 ogens necesita maiores -> –o–g–e–n–s–n–e–c–e–s–i–t–a–m–a–i–o–r–e–s–
+64 eken notably tro -> –e–k–e–n–n–o–t–a–b–l–y–t–r–o–
+65 plastic ubicado reminder -> –p–l–a–s–t–i–c–u–b–i–c–a–d–o–r–e–m–i–n–d–e–r–
+66 logne lloc ajust -> –l–o–g–n–e–l–l–o–c–a–j–u–s–t–
+67 eled hunters fungal -> –e–l–e–d–h–u–n–t–e–r–s–f–u–n–g–a–l–
+68 iksi arri museo -> –i–k–s–i–a–r–r–i–m–u–s–e–o–
+69 tags wicked gebildet -> –t–a–g–s–w–i–c–k–e–d–g–e–b–i–l–d–e–t–
+70 jeron unsub renfor -> –j–e–r–o–n–u–n–s–u–b–r–e–n–f–o–r–
+71 piar surname approve -> –p–i–a–r–s–u–r–n–a–m–e–a–p–p–r–o–v–e–
+72 ogle messed dm -> –o–g–l–e–m–e–s–s–e–d–d–m–
+73 itarian vi ryt -> –i–t–a–r–i–a–n–v–i–r–y–t–
+74 nent rendelke plate -> –n–e–n–t–r–e–n–d–e–l–k–e–p–l–a–t–e–
+75 zione teor volcanic -> –z–i–o–n–e–t–e–o–r–v–o–l–c–a–n–i–c–
+76 fasste folder paraffin -> –f–a–s–s–t–e–f–o–l–d–e–r–p–a–r–a–f–f–i–n–
+77 znam sorti hunt -> –z–n–a–m–s–o–r–t–i–h–u–n–t–
+78 ault corps edific -> –a–u–l–t–c–o–r–p–s–e–d–i–f–i–c–
+79 joht weist zato -> –j–o–h–t–w–e–i–s–t–z–a–t–o–
+80 ignor occurred cardenal -> –i–g–n–o–r–o–c–c–u–r–r–e–d–c–a–r–d–e–n–a–l–
+81 hetic absorb ikasten -> –h–e–t–i–c–a–b–s–o–r–b–i–k–a–s–t–e–n–
+82 anao kav teenager -> –a–n–a–o–k–a–v–t–e–e–n–a–g–e–r–
+83 emies inclo izen -> –e–m–i–e–s–i–n–c–l–o–i–z–e–n–
+84 ayan sencillo aden -> –a–y–a–n–s–e–n–c–i–l–l–o–a–d–e–n–
+85 rg unreal maju -> –r–g–u–n–r–e–a–l–m–a–j–u–
+86 oirs desserv dozens -> –o–i–r–s–d–e–s–s–e–r–v–d–o–z–e–n–s–
+87 seq forums osaturik -> –s–e–q–f–o–r–u–m–s–o–s–a–t–u–r–i–k–
+88 boss risch peculiar -> –b–o–s–s–r–i–s–c–h–p–e–c–u–l–i–a–r–
+89 adia esquer congrat -> –a–d–i–a–e–s–q–u–e–r–c–o–n–g–r–a–t–
+90 ctomy area correr -> –c–t–o–m–y–a–r–e–a–c–o–r–r–e–r–
+91 eltz iako okresie -> –e–l–t–z–i–a–k–o–o–k–r–e–s–i–e–
+92 ulas bruit summar -> –u–l–a–s–b–r–u–i–t–s–u–m–m–a–r–
+93 utorial exposes triste -> –u–t–o–r–i–a–l–e–x–p–o–s–e–s–t–r–i–s–t–e–
+94 ansion actively unused -> –a–n–s–i–o–n–a–c–t–i–v–e–l–y–u–n–u–s–e–d–
+95 erty tetap hardest -> –e–r–t–y–t–e–t–a–p–h–a–r–d–e–s–t–
+96 machine sorry mare -> –m–a–c–h–i–n–e–s–o–r–r–y–m–a–r–e–
+97 atham home comen -> –a–t–h–a–m–h–o–m–e–c–o–m–e–n–
+98 sta monstre hindered -> –s–t–a–m–o–n–s–t–r–e–h–i–n–d–e–r–e–d–
+99 reib lengths sorriso -> –r–e–i–b–l–e–n–g–t–h–s–s–o–r–r–i–s–o–

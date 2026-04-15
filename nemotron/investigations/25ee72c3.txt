@@ -1,0 +1,71 @@
+problem id: 25ee72c3
+category: cryptarithm_guess
+
+examples:
+1. `:>+'> = &&>`
+2. `">+:$ = &<$`
+3. `]>-@' = <'`
+4. `'@-@< = ']`
+5. `:'-": = ']`
+
+inferred rule:
+Treat each non-operator symbol as a decimal digit and read each 2-symbol chunk as the 2-digit number written in that order.
+
+The examples pin down this partial digit map:
+
+- `> = 0`
+- `& = 1`
+- `< = 2`
+- `' = 3`
+- `" = 4`
+- `] = 5`
+- `@ = 7`
+- `: = 8`
+- `$ = 6 or 9`
+
+`$` is the only unresolved symbol, because both `6` and `9` make the single `">+:$` example work. The query does not use `$`, so that ambiguity does not affect the prediction.
+
+Operator rules from the examples:
+
+- `+` means ordinary addition.
+- `-` means absolute difference.
+- The unseen `*` is best taken as direct concatenation of the left chunk and the right chunk. Once addition and absolute difference are already used, concatenation is the clean remaining operation type that fits this family of puzzles.
+
+step-by-step check on the examples:
+1. `:>+'>`
+   `:>` is `80` and `'>` is `30`.
+   `80 + 30 = 110`.
+   `1 -> &`, `1 -> &`, `0 -> >`, so the output is `&&>`.
+
+2. `">+:$`
+   `">` is `40` and `:$` is `86` or `89`.
+   `40 + 86 = 126` and `40 + 89 = 129`.
+   In either case the encoded output is `&<$`, because `1 -> &`, `2 -> <`, and the last digit is `$`.
+
+3. `]>-@'`
+   `]>` is `50` and `@'` is `73`.
+   `|50 - 73| = 23`.
+   `2 -> <`, `3 -> '`, so the output is `<'`.
+
+4. `'@-@<`
+   `'@` is `37` and `@<` is `72`.
+   `|37 - 72| = 35`.
+   `3 -> '`, `5 -> ]`, so the output is `']`.
+
+5. `:'-":`
+   `:'` is `83` and `":` is `48`.
+   `|83 - 48| = 35`.
+   That again encodes as `']`.
+
+step-by-step application to the query:
+Query: `#"*<<`
+
+1. The left chunk is `#"` and the right chunk is `<<`.
+2. Apply `*` as concatenation of the two chunks in order.
+3. Concatenate `#"` with `<<` to get `#"<<`.
+
+predicted answer:
+`#"<<`
+
+confidence note:
+Medium. The `+` and `-` rules are well supported, and the only digit ambiguity is `$`, which is irrelevant for the query. The real uncertainty is the unseen `*` operator; concatenation is the most defensible completion, but it is still an inference rather than a directly demonstrated rule.

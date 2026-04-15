@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 verter faulty davlat
+01 anyak scolaire excell
+02 iziner rand verbe
+
+This is a sample output.
+00 verter faulty davlat -> –v–e–r–t–e–r–f–a–u–l–t–y–d–a–v–l–a–t–
+01 anyak scolaire excell -> –a–n–y–a–k–s–c–o–l–a–i–r–e–e–x–c–e–l–l–
+02 iziner rand verbe -> –i–z–i–n–e–r–r–a–n–d–v–e–r–b–e–
+
+This is your input.
+00 issez prairies valeurs
+01 rezz tops hemorrh
+02 avel jednym kiesett
+03 doctor gibi bzw
+04 seit twitter portrait
+05 iszt ihre bearer
+06 icanos combatt pape
+07 zeum erfol deck
+08 mige other intoler
+09 lap ethical tang
+10 umumkan vyz vagu
+11 ickt jov tenido
+12 ims refuge milj
+13 ady claire venant
+14 iones bean sista
+15 csrf ply kolme
+16 atoj criminal vair
+17 emais nachdem avs
+18 tk guitar minerai
+19 neapolis um smoothly
+20 input mostr diario
+21 fat sucesso burning
+22 anyakan tote hojas
+23 uding cured zer
+24 reg marines lyric
+25 avera avocat attent
+26 crusher rispetto theor
+27 iated amines libras
+28 quer miroir judg
+29 itim origines pitches
+30 stitial families venus
+31 estones drama neue
+32 ceeded justicia mas
+33 wear mk carri
+34 curr blocks bra
+35 chain aligned maxima
+36 azioni bekend deton
+37 etek favore whereas
+38 arius unos gaf
+39 city squadre ventral
+40 uther historii damage
+41 ubblica jmen aktif
+42 etting mecz consumed
+43 contract wished steril
+44 cada ataque poison
+45 agerie evangel sequ
+46 steady successo hello
+47 cket zasad invert
+48 ysi inglese unbel
+49 bg chevaux wie
+50 idents roh acost
+51 af secrets campe
+52 apolis bags linha
+53 vg skills concerns
+54 rk froide reversed
+55 ieck sweater bc
+56 ajada excepto essais
+57 got uyg check
+58 zaine vl tap
+59 csv unix cellules
+60 letters miembro hivatal
+61 ched corneal neerland
+62 alkan protagon condado
+63 apply meas pi
+64 presso bislang tritt
+65 vn streng gehouden
+66 aggio raised introd
+67 perty wickets radi
+68 settings noche multic
+69 umas manten vinc
+70 anga flaws sliced
+71 parent meinte lasting
+72 ipers name negative
+73 depuis bother ration
+74 hews morta crest
+75 yl mute ona
+76 adre entweder sick
+77 iosen offered pathname
+78 amarin malaria poursu
+79 engen subjekt inherits
+80 niers odcink dadurch
+81 upe rhs rape
+82 options avantage hopeful
+83 monary visibly suro
+84 kov rotor reiv
+85 iquant ih sm
+86 rota hardened forwards
+87 stance meccan decembro
+88 emps kral malt
+89 opposed vert zoon
+90 isant hs saisir
+91 atchewan delimit ucz
+92 urd prevent resultat
+93 of reviews goss
+94 quisites prism paramil
+95 eted pop mitigate
+96 psy demokrat attra
+97 hesis domains chapitre
+98 rava vuoksi stata
+99 ombre tien chale
+[completion]
+00 issez prairies valeurs -> –i–s–s–e–z–p–r–a–i–r–i–e–s–v–a–l–e–u–r–s–
+01 rezz tops hemorrh -> –r–e–z–z–t–o–p–s–h–e–m–o–r–r–h–
+02 avel jednym kiesett -> –a–v–e–l–j–e–d–n–y–m–k–i–e–s–e–t–t–
+03 doctor gibi bzw -> –d–o–c–t–o–r–g–i–b–i–b–z–w–
+04 seit twitter portrait -> –s–e–i–t–t–w–i–t–t–e–r–p–o–r–t–r–a–i–t–
+05 iszt ihre bearer -> –i–s–z–t–i–h–r–e–b–e–a–r–e–r–
+06 icanos combatt pape -> –i–c–a–n–o–s–c–o–m–b–a–t–t–p–a–p–e–
+07 zeum erfol deck -> –z–e–u–m–e–r–f–o–l–d–e–c–k–
+08 mige other intoler -> –m–i–g–e–o–t–h–e–r–i–n–t–o–l–e–r–
+09 lap ethical tang -> –l–a–p–e–t–h–i–c–a–l–t–a–n–g–
+10 umumkan vyz vagu -> –u–m–u–m–k–a–n–v–y–z–v–a–g–u–
+11 ickt jov tenido -> –i–c–k–t–j–o–v–t–e–n–i–d–o–
+12 ims refuge milj -> –i–m–s–r–e–f–u–g–e–m–i–l–j–
+13 ady claire venant -> –a–d–y–c–l–a–i–r–e–v–e–n–a–n–t–
+14 iones bean sista -> –i–o–n–e–s–b–e–a–n–s–i–s–t–a–
+15 csrf ply kolme -> –c–s–r–f–p–l–y–k–o–l–m–e–
+16 atoj criminal vair -> –a–t–o–j–c–r–i–m–i–n–a–l–v–a–i–r–
+17 emais nachdem avs -> –e–m–a–i–s–n–a–c–h–d–e–m–a–v–s–
+18 tk guitar minerai -> –t–k–g–u–i–t–a–r–m–i–n–e–r–a–i–
+19 neapolis um smoothly -> –n–e–a–p–o–l–i–s–u–m–s–m–o–o–t–h–l–y–
+20 input mostr diario -> –i–n–p–u–t–m–o–s–t–r–d–i–a–r–i–o–
+21 fat sucesso burning -> –f–a–t–s–u–c–e–s–s–o–b–u–r–n–i–n–g–
+22 anyakan tote hojas -> –a–n–y–a–k–a–n–t–o–t–e–h–o–j–a–s–
+23 uding cured zer -> –u–d–i–n–g–c–u–r–e–d–z–e–r–
+24 reg marines lyric -> –r–e–g–m–a–r–i–n–e–s–l–y–r–i–c–
+25 avera avocat attent -> –a–v–e–r–a–a–v–o–c–a–t–a–t–t–e–n–t–
+26 crusher rispetto theor -> –c–r–u–s–h–e–r–r–i–s–p–e–t–t–o–t–h–e–o–r–
+27 iated amines libras -> –i–a–t–e–d–a–m–i–n–e–s–l–i–b–r–a–s–
+28 quer miroir judg -> –q–u–e–r–m–i–r–o–i–r–j–u–d–g–
+29 itim origines pitches -> –i–t–i–m–o–r–i–g–i–n–e–s–p–i–t–c–h–e–s–
+30 stitial families venus -> –s–t–i–t–i–a–l–f–a–m–i–l–i–e–s–v–e–n–u–s–
+31 estones drama neue -> –e–s–t–o–n–e–s–d–r–a–m–a–n–e–u–e–
+32 ceeded justicia mas -> –c–e–e–d–e–d–j–u–s–t–i–c–i–a–m–a–s–
+33 wear mk carri -> –w–e–a–r–m–k–c–a–r–r–i–
+34 curr blocks bra -> –c–u–r–r–b–l–o–c–k–s–b–r–a–
+35 chain aligned maxima -> –c–h–a–i–n–a–l–i–g–n–e–d–m–a–x–i–m–a–
+36 azioni bekend deton -> –a–z–i–o–n–i–b–e–k–e–n–d–d–e–t–o–n–
+37 etek favore whereas -> –e–t–e–k–f–a–v–o–r–e–w–h–e–r–e–a–s–
+38 arius unos gaf -> –a–r–i–u–s–u–n–o–s–g–a–f–
+39 city squadre ventral -> –c–i–t–y–s–q–u–a–d–r–e–v–e–n–t–r–a–l–
+40 uther historii damage -> –u–t–h–e–r–h–i–s–t–o–r–i–i–d–a–m–a–g–e–
+41 ubblica jmen aktif -> –u–b–b–l–i–c–a–j–m–e–n–a–k–t–i–f–
+42 etting mecz consumed -> –e–t–t–i–n–g–m–e–c–z–c–o–n–s–u–m–e–d–
+43 contract wished steril -> –c–o–n–t–r–a–c–t–w–i–s–h–e–d–s–t–e–r–i–l–
+44 cada ataque poison -> –c–a–d–a–a–t–a–q–u–e–p–o–i–s–o–n–
+45 agerie evangel sequ -> –a–g–e–r–i–e–e–v–a–n–g–e–l–s–e–q–u–
+46 steady successo hello -> –s–t–e–a–d–y–s–u–c–c–e–s–s–o–h–e–l–l–o–
+47 cket zasad invert -> –c–k–e–t–z–a–s–a–d–i–n–v–e–r–t–
+48 ysi inglese unbel -> –y–s–i–i–n–g–l–e–s–e–u–n–b–e–l–
+49 bg chevaux wie -> –b–g–c–h–e–v–a–u–x–w–i–e–
+50 idents roh acost -> –i–d–e–n–t–s–r–o–h–a–c–o–s–t–
+51 af secrets campe -> –a–f–s–e–c–r–e–t–s–c–a–m–p–e–
+52 apolis bags linha -> –a–p–o–l–i–s–b–a–g–s–l–i–n–h–a–
+53 vg skills concerns -> –v–g–s–k–i–l–l–s–c–o–n–c–e–r–n–s–
+54 rk froide reversed -> –r–k–f–r–o–i–d–e–r–e–v–e–r–s–e–d–
+55 ieck sweater bc -> –i–e–c–k–s–w–e–a–t–e–r–b–c–
+56 ajada excepto essais -> –a–j–a–d–a–e–x–c–e–p–t–o–e–s–s–a–i–s–
+57 got uyg check -> –g–o–t–u–y–g–c–h–e–c–k–
+58 zaine vl tap -> –z–a–i–n–e–v–l–t–a–p–
+59 csv unix cellules -> –c–s–v–u–n–i–x–c–e–l–l–u–l–e–s–
+60 letters miembro hivatal -> –l–e–t–t–e–r–s–m–i–e–m–b–r–o–h–i–v–a–t–a–l–
+61 ched corneal neerland -> –c–h–e–d–c–o–r–n–e–a–l–n–e–e–r–l–a–n–d–
+62 alkan protagon condado -> –a–l–k–a–n–p–r–o–t–a–g–o–n–c–o–n–d–a–d–o–
+63 apply meas pi -> –a–p–p–l–y–m–e–a–s–p–i–
+64 presso bislang tritt -> –p–r–e–s–s–o–b–i–s–l–a–n–g–t–r–i–t–t–
+65 vn streng gehouden -> –v–n–s–t–r–e–n–g–g–e–h–o–u–d–e–n–
+66 aggio raised introd -> –a–g–g–i–o–r–a–i–s–e–d–i–n–t–r–o–d–
+67 perty wickets radi -> –p–e–r–t–y–w–i–c–k–e–t–s–r–a–d–i–
+68 settings noche multic -> –s–e–t–t–i–n–g–s–n–o–c–h–e–m–u–l–t–i–c–
+69 umas manten vinc -> –u–m–a–s–m–a–n–t–e–n–v–i–n–c–
+70 anga flaws sliced -> –a–n–g–a–f–l–a–w–s–s–l–i–c–e–d–
+71 parent meinte lasting -> –p–a–r–e–n–t–m–e–i–n–t–e–l–a–s–t–i–n–g–
+72 ipers name negative -> –i–p–e–r–s–n–a–m–e–n–e–g–a–t–i–v–e–
+73 depuis bother ration -> –d–e–p–u–i–s–b–o–t–h–e–r–r–a–t–i–o–n–
+74 hews morta crest -> –h–e–w–s–m–o–r–t–a–c–r–e–s–t–
+75 yl mute ona -> –y–l–m–u–t–e–o–n–a–
+76 adre entweder sick -> –a–d–r–e–e–n–t–w–e–d–e–r–s–i–c–k–
+77 iosen offered pathname -> –i–o–s–e–n–o–f–f–e–r–e–d–p–a–t–h–n–a–m–e–
+78 amarin malaria poursu -> –a–m–a–r–i–n–m–a–l–a–r–i–a–p–o–u–r–s–u–
+79 engen subjekt inherits -> –e–n–g–e–n–s–u–b–j–e–k–t–i–n–h–e–r–i–t–s–
+80 niers odcink dadurch -> –n–i–e–r–s–o–d–c–i–n–k–d–a–d–u–r–c–h–
+81 upe rhs rape -> –u–p–e–r–h–s–r–a–p–e–
+82 options avantage hopeful -> –o–p–t–i–o–n–s–a–v–a–n–t–a–g–e–h–o–p–e–f–u–l–
+83 monary visibly suro -> –m–o–n–a–r–y–v–i–s–i–b–l–y–s–u–r–o–
+84 kov rotor reiv -> –k–o–v–r–o–t–o–r–r–e–i–v–
+85 iquant ih sm -> –i–q–u–a–n–t–i–h–s–m–
+86 rota hardened forwards -> –r–o–t–a–h–a–r–d–e–n–e–d–f–o–r–w–a–r–d–s–
+87 stance meccan decembro -> –s–t–a–n–c–e–m–e–c–c–a–n–d–e–c–e–m–b–r–o–
+88 emps kral malt -> –e–m–p–s–k–r–a–l–m–a–l–t–
+89 opposed vert zoon -> –o–p–p–o–s–e–d–v–e–r–t–z–o–o–n–
+90 isant hs saisir -> –i–s–a–n–t–h–s–s–a–i–s–i–r–
+91 atchewan delimit ucz -> –a–t–c–h–e–w–a–n–d–e–l–i–m–i–t–u–c–z–
+92 urd prevent resultat -> –u–r–d–p–r–e–v–e–n–t–r–e–s–u–l–t–a–t–
+93 of reviews goss -> –o–f–r–e–v–i–e–w–s–g–o–s–s–
+94 quisites prism paramil -> –q–u–i–s–i–t–e–s–p–r–i–s–m–p–a–r–a–m–i–l–
+95 eted pop mitigate -> –e–t–e–d–p–o–p–m–i–t–i–g–a–t–e–
+96 psy demokrat attra -> –p–s–y–d–e–m–o–k–r–a–t–a–t–t–r–a–
+97 hesis domains chapitre -> –h–e–s–i–s–d–o–m–a–i–n–s–c–h–a–p–i–t–r–e–
+98 rava vuoksi stata -> –r–a–v–a–v–u–o–k–s–i–s–t–a–t–a–
+99 ombre tien chale -> –o–m–b–r–e–t–i–e–n–c–h–a–l–e–

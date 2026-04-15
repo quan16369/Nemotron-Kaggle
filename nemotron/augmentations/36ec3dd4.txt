@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 direct muito nomi
+01 amin bellow curso
+02 errors rarely effectue
+
+This is a sample output.
+00 direct muito nomi -> –d–i–r–e–c–t–m–u–i–t–o–n–o–m–i–
+01 amin bellow curso -> –a–m–i–n–b–e–l–l–o–w–c–u–r–s–o–
+02 errors rarely effectue -> –e–r–r–o–r–s–r–a–r–e–l–y–e–f–f–e–c–t–u–e–
+
+This is your input.
+00 stil vanaf rm
+01 hnte skies falle
+02 cur manif wechsel
+03 ieri taux tercera
+04 abla fj ganglia
+05 ieran reasons tart
+06 iyot vrijeme lip
+07 oid compress incurs
+08 rictions generic planet
+09 zez dismant unequal
+10 lak sacerd edi
+11 bination meilleur awards
+12 omor escrito pression
+13 ffiti stroked dignity
+14 guard reached fok
+15 lude pid acert
+16 inom lobes viktig
+17 sizeof passent decks
+18 insen close elezioni
+19 gic nitric ainsi
+20 illary sembrava captura
+21 ractice quelle skim
+22 oor diarrhea synchron
+23 mente hypers blason
+24 iertos execute pseudo
+25 spinal rendu culto
+26 uders fighters casp
+27 inib theat lives
+28 jut jab trovi
+29 berd arguably zb
+30 vot wolf accepts
+31 ium relieve buenos
+32 emit beaut comunes
+33 merge att sut
+34 acetyl hvil sophist
+35 osk browse maniera
+36 uis haga aquestes
+37 cycl wander camb
+38 alculate gira soport
+39 corn stars gioco
+40 schech premiers reag
+41 waj priest star
+42 iner poudre prins
+43 forge hacerse formalin
+44 graf assim tidak
+45 usel bills redis
+46 atorios ef razones
+47 ahoo dev claiming
+48 erste hech studied
+49 stalled xa bullying
+50 appelijk chall jatetxe
+51 unta wagon revi
+52 umat rije pink
+53 ulent conceive browsing
+54 urat dialysis honetan
+55 jna furono ame
+56 mailto alles llen
+57 roso gloire guanyar
+58 ajem outset beso
+59 clav traffic plupart
+60 haupt bero loyalty
+61 oule impact fratelli
+62 vers crea knees
+63 wrapper fave comuni
+64 edeut sple wk
+65 cheiden aura casco
+66 ttiin appoint gens
+67 clerotic mates poput
+68 su haine ew
+69 ruptions hayat shaped
+70 upi anlam seats
+71 iment chorus implique
+72 okee prob produz
+73 aque oriented nore
+74 pat comporte repris
+75 enin chega psych
+76 mel svij resize
+77 wei burg commit
+78 prud bold neces
+79 slug std stig
+80 gram macros imagine
+81 please sklearn katalog
+82 otten spirito airline
+83 endosi inutile qur
+84 derung acceder dilemma
+85 reek mouth apache
+86 ulin thinking terd
+87 icar junction sied
+88 imeter hh kwa
+89 adav muzy tils
+90 uvi orifice sommet
+91 pias english traveled
+92 oc reign ocupada
+93 ainer sha schedule
+94 eves diretta deadline
+95 rosion efecto liik
+96 py peaking capped
+97 sym wh lait
+98 asterxml impe anchored
+99 ferrer insignia send
+[completion]
+00 stil vanaf rm -> –s–t–i–l–v–a–n–a–f–r–m–
+01 hnte skies falle -> –h–n–t–e–s–k–i–e–s–f–a–l–l–e–
+02 cur manif wechsel -> –c–u–r–m–a–n–i–f–w–e–c–h–s–e–l–
+03 ieri taux tercera -> –i–e–r–i–t–a–u–x–t–e–r–c–e–r–a–
+04 abla fj ganglia -> –a–b–l–a–f–j–g–a–n–g–l–i–a–
+05 ieran reasons tart -> –i–e–r–a–n–r–e–a–s–o–n–s–t–a–r–t–
+06 iyot vrijeme lip -> –i–y–o–t–v–r–i–j–e–m–e–l–i–p–
+07 oid compress incurs -> –o–i–d–c–o–m–p–r–e–s–s–i–n–c–u–r–s–
+08 rictions generic planet -> –r–i–c–t–i–o–n–s–g–e–n–e–r–i–c–p–l–a–n–e–t–
+09 zez dismant unequal -> –z–e–z–d–i–s–m–a–n–t–u–n–e–q–u–a–l–
+10 lak sacerd edi -> –l–a–k–s–a–c–e–r–d–e–d–i–
+11 bination meilleur awards -> –b–i–n–a–t–i–o–n–m–e–i–l–l–e–u–r–a–w–a–r–d–s–
+12 omor escrito pression -> –o–m–o–r–e–s–c–r–i–t–o–p–r–e–s–s–i–o–n–
+13 ffiti stroked dignity -> –f–f–i–t–i–s–t–r–o–k–e–d–d–i–g–n–i–t–y–
+14 guard reached fok -> –g–u–a–r–d–r–e–a–c–h–e–d–f–o–k–
+15 lude pid acert -> –l–u–d–e–p–i–d–a–c–e–r–t–
+16 inom lobes viktig -> –i–n–o–m–l–o–b–e–s–v–i–k–t–i–g–
+17 sizeof passent decks -> –s–i–z–e–o–f–p–a–s–s–e–n–t–d–e–c–k–s–
+18 insen close elezioni -> –i–n–s–e–n–c–l–o–s–e–e–l–e–z–i–o–n–i–
+19 gic nitric ainsi -> –g–i–c–n–i–t–r–i–c–a–i–n–s–i–
+20 illary sembrava captura -> –i–l–l–a–r–y–s–e–m–b–r–a–v–a–c–a–p–t–u–r–a–
+21 ractice quelle skim -> –r–a–c–t–i–c–e–q–u–e–l–l–e–s–k–i–m–
+22 oor diarrhea synchron -> –o–o–r–d–i–a–r–r–h–e–a–s–y–n–c–h–r–o–n–
+23 mente hypers blason -> –m–e–n–t–e–h–y–p–e–r–s–b–l–a–s–o–n–
+24 iertos execute pseudo -> –i–e–r–t–o–s–e–x–e–c–u–t–e–p–s–e–u–d–o–
+25 spinal rendu culto -> –s–p–i–n–a–l–r–e–n–d–u–c–u–l–t–o–
+26 uders fighters casp -> –u–d–e–r–s–f–i–g–h–t–e–r–s–c–a–s–p–
+27 inib theat lives -> –i–n–i–b–t–h–e–a–t–l–i–v–e–s–
+28 jut jab trovi -> –j–u–t–j–a–b–t–r–o–v–i–
+29 berd arguably zb -> –b–e–r–d–a–r–g–u–a–b–l–y–z–b–
+30 vot wolf accepts -> –v–o–t–w–o–l–f–a–c–c–e–p–t–s–
+31 ium relieve buenos -> –i–u–m–r–e–l–i–e–v–e–b–u–e–n–o–s–
+32 emit beaut comunes -> –e–m–i–t–b–e–a–u–t–c–o–m–u–n–e–s–
+33 merge att sut -> –m–e–r–g–e–a–t–t–s–u–t–
+34 acetyl hvil sophist -> –a–c–e–t–y–l–h–v–i–l–s–o–p–h–i–s–t–
+35 osk browse maniera -> –o–s–k–b–r–o–w–s–e–m–a–n–i–e–r–a–
+36 uis haga aquestes -> –u–i–s–h–a–g–a–a–q–u–e–s–t–e–s–
+37 cycl wander camb -> –c–y–c–l–w–a–n–d–e–r–c–a–m–b–
+38 alculate gira soport -> –a–l–c–u–l–a–t–e–g–i–r–a–s–o–p–o–r–t–
+39 corn stars gioco -> –c–o–r–n–s–t–a–r–s–g–i–o–c–o–
+40 schech premiers reag -> –s–c–h–e–c–h–p–r–e–m–i–e–r–s–r–e–a–g–
+41 waj priest star -> –w–a–j–p–r–i–e–s–t–s–t–a–r–
+42 iner poudre prins -> –i–n–e–r–p–o–u–d–r–e–p–r–i–n–s–
+43 forge hacerse formalin -> –f–o–r–g–e–h–a–c–e–r–s–e–f–o–r–m–a–l–i–n–
+44 graf assim tidak -> –g–r–a–f–a–s–s–i–m–t–i–d–a–k–
+45 usel bills redis -> –u–s–e–l–b–i–l–l–s–r–e–d–i–s–
+46 atorios ef razones -> –a–t–o–r–i–o–s–e–f–r–a–z–o–n–e–s–
+47 ahoo dev claiming -> –a–h–o–o–d–e–v–c–l–a–i–m–i–n–g–
+48 erste hech studied -> –e–r–s–t–e–h–e–c–h–s–t–u–d–i–e–d–
+49 stalled xa bullying -> –s–t–a–l–l–e–d–x–a–b–u–l–l–y–i–n–g–
+50 appelijk chall jatetxe -> –a–p–p–e–l–i–j–k–c–h–a–l–l–j–a–t–e–t–x–e–
+51 unta wagon revi -> –u–n–t–a–w–a–g–o–n–r–e–v–i–
+52 umat rije pink -> –u–m–a–t–r–i–j–e–p–i–n–k–
+53 ulent conceive browsing -> –u–l–e–n–t–c–o–n–c–e–i–v–e–b–r–o–w–s–i–n–g–
+54 urat dialysis honetan -> –u–r–a–t–d–i–a–l–y–s–i–s–h–o–n–e–t–a–n–
+55 jna furono ame -> –j–n–a–f–u–r–o–n–o–a–m–e–
+56 mailto alles llen -> –m–a–i–l–t–o–a–l–l–e–s–l–l–e–n–
+57 roso gloire guanyar -> –r–o–s–o–g–l–o–i–r–e–g–u–a–n–y–a–r–
+58 ajem outset beso -> –a–j–e–m–o–u–t–s–e–t–b–e–s–o–
+59 clav traffic plupart -> –c–l–a–v–t–r–a–f–f–i–c–p–l–u–p–a–r–t–
+60 haupt bero loyalty -> –h–a–u–p–t–b–e–r–o–l–o–y–a–l–t–y–
+61 oule impact fratelli -> –o–u–l–e–i–m–p–a–c–t–f–r–a–t–e–l–l–i–
+62 vers crea knees -> –v–e–r–s–c–r–e–a–k–n–e–e–s–
+63 wrapper fave comuni -> –w–r–a–p–p–e–r–f–a–v–e–c–o–m–u–n–i–
+64 edeut sple wk -> –e–d–e–u–t–s–p–l–e–w–k–
+65 cheiden aura casco -> –c–h–e–i–d–e–n–a–u–r–a–c–a–s–c–o–
+66 ttiin appoint gens -> –t–t–i–i–n–a–p–p–o–i–n–t–g–e–n–s–
+67 clerotic mates poput -> –c–l–e–r–o–t–i–c–m–a–t–e–s–p–o–p–u–t–
+68 su haine ew -> –s–u–h–a–i–n–e–e–w–
+69 ruptions hayat shaped -> –r–u–p–t–i–o–n–s–h–a–y–a–t–s–h–a–p–e–d–
+70 upi anlam seats -> –u–p–i–a–n–l–a–m–s–e–a–t–s–
+71 iment chorus implique -> –i–m–e–n–t–c–h–o–r–u–s–i–m–p–l–i–q–u–e–
+72 okee prob produz -> –o–k–e–e–p–r–o–b–p–r–o–d–u–z–
+73 aque oriented nore -> –a–q–u–e–o–r–i–e–n–t–e–d–n–o–r–e–
+74 pat comporte repris -> –p–a–t–c–o–m–p–o–r–t–e–r–e–p–r–i–s–
+75 enin chega psych -> –e–n–i–n–c–h–e–g–a–p–s–y–c–h–
+76 mel svij resize -> –m–e–l–s–v–i–j–r–e–s–i–z–e–
+77 wei burg commit -> –w–e–i–b–u–r–g–c–o–m–m–i–t–
+78 prud bold neces -> –p–r–u–d–b–o–l–d–n–e–c–e–s–
+79 slug std stig -> –s–l–u–g–s–t–d–s–t–i–g–
+80 gram macros imagine -> –g–r–a–m–m–a–c–r–o–s–i–m–a–g–i–n–e–
+81 please sklearn katalog -> –p–l–e–a–s–e–s–k–l–e–a–r–n–k–a–t–a–l–o–g–
+82 otten spirito airline -> –o–t–t–e–n–s–p–i–r–i–t–o–a–i–r–l–i–n–e–
+83 endosi inutile qur -> –e–n–d–o–s–i–i–n–u–t–i–l–e–q–u–r–
+84 derung acceder dilemma -> –d–e–r–u–n–g–a–c–c–e–d–e–r–d–i–l–e–m–m–a–
+85 reek mouth apache -> –r–e–e–k–m–o–u–t–h–a–p–a–c–h–e–
+86 ulin thinking terd -> –u–l–i–n–t–h–i–n–k–i–n–g–t–e–r–d–
+87 icar junction sied -> –i–c–a–r–j–u–n–c–t–i–o–n–s–i–e–d–
+88 imeter hh kwa -> –i–m–e–t–e–r–h–h–k–w–a–
+89 adav muzy tils -> –a–d–a–v–m–u–z–y–t–i–l–s–
+90 uvi orifice sommet -> –u–v–i–o–r–i–f–i–c–e–s–o–m–m–e–t–
+91 pias english traveled -> –p–i–a–s–e–n–g–l–i–s–h–t–r–a–v–e–l–e–d–
+92 oc reign ocupada -> –o–c–r–e–i–g–n–o–c–u–p–a–d–a–
+93 ainer sha schedule -> –a–i–n–e–r–s–h–a–s–c–h–e–d–u–l–e–
+94 eves diretta deadline -> –e–v–e–s–d–i–r–e–t–t–a–d–e–a–d–l–i–n–e–
+95 rosion efecto liik -> –r–o–s–i–o–n–e–f–e–c–t–o–l–i–i–k–
+96 py peaking capped -> –p–y–p–e–a–k–i–n–g–c–a–p–p–e–d–
+97 sym wh lait -> –s–y–m–w–h–l–a–i–t–
+98 asterxml impe anchored -> –a–s–t–e–r–x–m–l–i–m–p–e–a–n–c–h–o–r–e–d–
+99 ferrer insignia send -> –f–e–r–r–e–r–i–n–s–i–g–n–i–a–s–e–n–d–

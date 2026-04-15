@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 coli rodent craw
+01 ceae rond shallow
+02 ic announ bore
+
+This is a sample output.
+00 coli rodent craw -> –c–o–l–i–r–o–d–e–n–t–c–r–a–w–
+01 ceae rond shallow -> –c–e–a–e–r–o–n–d–s–h–a–l–l–o–w–
+02 ic announ bore -> –i–c–a–n–n–o–u–n–b–o–r–e–
+
+This is your input.
+00 cribed banned regina
+01 ivali stadig bin
+02 writing cosa meurt
+03 esseurs twitch miatt
+04 ococcal fairly milag
+05 device crystal lik
+06 int doprav domest
+07 peratore vicino acestea
+08 engan vad ciasc
+09 riele droit anch
+10 ening osv fahren
+11 atrix restless starb
+12 ucing visited routers
+13 iegel weighing planta
+14 kg poch iniciar
+15 izers detect tread
+16 clerosis pus table
+17 qi altre dl
+18 agn channels deng
+19 uparrow lice trying
+20 empel worrying wichtige
+21 errors foreach plugins
+22 oon valeur gangs
+23 foo videos biopsy
+24 ificada humili enthusi
+25 ibar silk audio
+26 landen examples seien
+27 ban mouv loco
+28 mesi skewed uts
+29 appal diversos boards
+30 talk nec bachelor
+31 inoid umbil catt
+32 icho andre repre
+33 icent corrente catalog
+34 ionato molte jord
+35 otyp byli perhaps
+36 boru affinity vone
+37 oak argues perdere
+38 airement marta voulez
+39 mart oms sweat
+40 idi forged letras
+41 iado monopoly cama
+42 iatu entrant profite
+43 ongodb lucht amerikan
+44 rine dur apples
+45 elar cita pemerint
+46 annes chips aware
+47 unie projet tied
+48 ajo cend stepping
+49 yenne merged natura
+50 riting exterior saltze
+51 ott ther obdob
+52 obre externas transm
+53 ben deixando matched
+54 ueil furn karar
+55 zele ingles ren
+56 ouard mirror upr
+57 rap barn gtk
+58 sb markets juliol
+59 kam mostly puppet
+60 ialis otom span
+61 igned rupture air
+62 ome clave avoiding
+63 oslov explain ank
+64 uschauer fusion volt
+65 ancellor activos verdade
+66 rosis femenina helmet
+67 ungs incar tuk
+68 erein plus freq
+69 indest clonal scorer
+70 stwa ense vermeld
+71 hib tinggi rendsz
+72 prim mature membrana
+73 trigger bolo mision
+74 interval baggage reven
+75 hetized dati azioni
+76 inoc forz orphan
+77 ovir scrit envelop
+78 ceed toeg czas
+79 imbledon januar wegens
+80 poch marges audible
+81 np obtener seen
+82 xis serves crus
+83 ffen besides febbraio
+84 etus amiga eer
+85 orescent colet grooves
+86 gery kwamen tente
+87 arach vendu risc
+88 tape primi isother
+89 gage martie disag
+90 etra voc conseil
+91 level chiral muassa
+92 cidas entered bx
+93 vaient airflow otros
+94 now uh texture
+95 tsch indire warning
+96 umpf quei eighteen
+97 ilus abges scoperto
+98 primer wedding inneh
+99 arden joueur suces
+[completion]
+00 cribed banned regina -> –c–r–i–b–e–d–b–a–n–n–e–d–r–e–g–i–n–a–
+01 ivali stadig bin -> –i–v–a–l–i–s–t–a–d–i–g–b–i–n–
+02 writing cosa meurt -> –w–r–i–t–i–n–g–c–o–s–a–m–e–u–r–t–
+03 esseurs twitch miatt -> –e–s–s–e–u–r–s–t–w–i–t–c–h–m–i–a–t–t–
+04 ococcal fairly milag -> –o–c–o–c–c–a–l–f–a–i–r–l–y–m–i–l–a–g–
+05 device crystal lik -> –d–e–v–i–c–e–c–r–y–s–t–a–l–l–i–k–
+06 int doprav domest -> –i–n–t–d–o–p–r–a–v–d–o–m–e–s–t–
+07 peratore vicino acestea -> –p–e–r–a–t–o–r–e–v–i–c–i–n–o–a–c–e–s–t–e–a–
+08 engan vad ciasc -> –e–n–g–a–n–v–a–d–c–i–a–s–c–
+09 riele droit anch -> –r–i–e–l–e–d–r–o–i–t–a–n–c–h–
+10 ening osv fahren -> –e–n–i–n–g–o–s–v–f–a–h–r–e–n–
+11 atrix restless starb -> –a–t–r–i–x–r–e–s–t–l–e–s–s–s–t–a–r–b–
+12 ucing visited routers -> –u–c–i–n–g–v–i–s–i–t–e–d–r–o–u–t–e–r–s–
+13 iegel weighing planta -> –i–e–g–e–l–w–e–i–g–h–i–n–g–p–l–a–n–t–a–
+14 kg poch iniciar -> –k–g–p–o–c–h–i–n–i–c–i–a–r–
+15 izers detect tread -> –i–z–e–r–s–d–e–t–e–c–t–t–r–e–a–d–
+16 clerosis pus table -> –c–l–e–r–o–s–i–s–p–u–s–t–a–b–l–e–
+17 qi altre dl -> –q–i–a–l–t–r–e–d–l–
+18 agn channels deng -> –a–g–n–c–h–a–n–n–e–l–s–d–e–n–g–
+19 uparrow lice trying -> –u–p–a–r–r–o–w–l–i–c–e–t–r–y–i–n–g–
+20 empel worrying wichtige -> –e–m–p–e–l–w–o–r–r–y–i–n–g–w–i–c–h–t–i–g–e–
+21 errors foreach plugins -> –e–r–r–o–r–s–f–o–r–e–a–c–h–p–l–u–g–i–n–s–
+22 oon valeur gangs -> –o–o–n–v–a–l–e–u–r–g–a–n–g–s–
+23 foo videos biopsy -> –f–o–o–v–i–d–e–o–s–b–i–o–p–s–y–
+24 ificada humili enthusi -> –i–f–i–c–a–d–a–h–u–m–i–l–i–e–n–t–h–u–s–i–
+25 ibar silk audio -> –i–b–a–r–s–i–l–k–a–u–d–i–o–
+26 landen examples seien -> –l–a–n–d–e–n–e–x–a–m–p–l–e–s–s–e–i–e–n–
+27 ban mouv loco -> –b–a–n–m–o–u–v–l–o–c–o–
+28 mesi skewed uts -> –m–e–s–i–s–k–e–w–e–d–u–t–s–
+29 appal diversos boards -> –a–p–p–a–l–d–i–v–e–r–s–o–s–b–o–a–r–d–s–
+30 talk nec bachelor -> –t–a–l–k–n–e–c–b–a–c–h–e–l–o–r–
+31 inoid umbil catt -> –i–n–o–i–d–u–m–b–i–l–c–a–t–t–
+32 icho andre repre -> –i–c–h–o–a–n–d–r–e–r–e–p–r–e–
+33 icent corrente catalog -> –i–c–e–n–t–c–o–r–r–e–n–t–e–c–a–t–a–l–o–g–
+34 ionato molte jord -> –i–o–n–a–t–o–m–o–l–t–e–j–o–r–d–
+35 otyp byli perhaps -> –o–t–y–p–b–y–l–i–p–e–r–h–a–p–s–
+36 boru affinity vone -> –b–o–r–u–a–f–f–i–n–i–t–y–v–o–n–e–
+37 oak argues perdere -> –o–a–k–a–r–g–u–e–s–p–e–r–d–e–r–e–
+38 airement marta voulez -> –a–i–r–e–m–e–n–t–m–a–r–t–a–v–o–u–l–e–z–
+39 mart oms sweat -> –m–a–r–t–o–m–s–s–w–e–a–t–
+40 idi forged letras -> –i–d–i–f–o–r–g–e–d–l–e–t–r–a–s–
+41 iado monopoly cama -> –i–a–d–o–m–o–n–o–p–o–l–y–c–a–m–a–
+42 iatu entrant profite -> –i–a–t–u–e–n–t–r–a–n–t–p–r–o–f–i–t–e–
+43 ongodb lucht amerikan -> –o–n–g–o–d–b–l–u–c–h–t–a–m–e–r–i–k–a–n–
+44 rine dur apples -> –r–i–n–e–d–u–r–a–p–p–l–e–s–
+45 elar cita pemerint -> –e–l–a–r–c–i–t–a–p–e–m–e–r–i–n–t–
+46 annes chips aware -> –a–n–n–e–s–c–h–i–p–s–a–w–a–r–e–
+47 unie projet tied -> –u–n–i–e–p–r–o–j–e–t–t–i–e–d–
+48 ajo cend stepping -> –a–j–o–c–e–n–d–s–t–e–p–p–i–n–g–
+49 yenne merged natura -> –y–e–n–n–e–m–e–r–g–e–d–n–a–t–u–r–a–
+50 riting exterior saltze -> –r–i–t–i–n–g–e–x–t–e–r–i–o–r–s–a–l–t–z–e–
+51 ott ther obdob -> –o–t–t–t–h–e–r–o–b–d–o–b–
+52 obre externas transm -> –o–b–r–e–e–x–t–e–r–n–a–s–t–r–a–n–s–m–
+53 ben deixando matched -> –b–e–n–d–e–i–x–a–n–d–o–m–a–t–c–h–e–d–
+54 ueil furn karar -> –u–e–i–l–f–u–r–n–k–a–r–a–r–
+55 zele ingles ren -> –z–e–l–e–i–n–g–l–e–s–r–e–n–
+56 ouard mirror upr -> –o–u–a–r–d–m–i–r–r–o–r–u–p–r–
+57 rap barn gtk -> –r–a–p–b–a–r–n–g–t–k–
+58 sb markets juliol -> –s–b–m–a–r–k–e–t–s–j–u–l–i–o–l–
+59 kam mostly puppet -> –k–a–m–m–o–s–t–l–y–p–u–p–p–e–t–
+60 ialis otom span -> –i–a–l–i–s–o–t–o–m–s–p–a–n–
+61 igned rupture air -> –i–g–n–e–d–r–u–p–t–u–r–e–a–i–r–
+62 ome clave avoiding -> –o–m–e–c–l–a–v–e–a–v–o–i–d–i–n–g–
+63 oslov explain ank -> –o–s–l–o–v–e–x–p–l–a–i–n–a–n–k–
+64 uschauer fusion volt -> –u–s–c–h–a–u–e–r–f–u–s–i–o–n–v–o–l–t–
+65 ancellor activos verdade -> –a–n–c–e–l–l–o–r–a–c–t–i–v–o–s–v–e–r–d–a–d–e–
+66 rosis femenina helmet -> –r–o–s–i–s–f–e–m–e–n–i–n–a–h–e–l–m–e–t–
+67 ungs incar tuk -> –u–n–g–s–i–n–c–a–r–t–u–k–
+68 erein plus freq -> –e–r–e–i–n–p–l–u–s–f–r–e–q–
+69 indest clonal scorer -> –i–n–d–e–s–t–c–l–o–n–a–l–s–c–o–r–e–r–
+70 stwa ense vermeld -> –s–t–w–a–e–n–s–e–v–e–r–m–e–l–d–
+71 hib tinggi rendsz -> –h–i–b–t–i–n–g–g–i–r–e–n–d–s–z–
+72 prim mature membrana -> –p–r–i–m–m–a–t–u–r–e–m–e–m–b–r–a–n–a–
+73 trigger bolo mision -> –t–r–i–g–g–e–r–b–o–l–o–m–i–s–i–o–n–
+74 interval baggage reven -> –i–n–t–e–r–v–a–l–b–a–g–g–a–g–e–r–e–v–e–n–
+75 hetized dati azioni -> –h–e–t–i–z–e–d–d–a–t–i–a–z–i–o–n–i–
+76 inoc forz orphan -> –i–n–o–c–f–o–r–z–o–r–p–h–a–n–
+77 ovir scrit envelop -> –o–v–i–r–s–c–r–i–t–e–n–v–e–l–o–p–
+78 ceed toeg czas -> –c–e–e–d–t–o–e–g–c–z–a–s–
+79 imbledon januar wegens -> –i–m–b–l–e–d–o–n–j–a–n–u–a–r–w–e–g–e–n–s–
+80 poch marges audible -> –p–o–c–h–m–a–r–g–e–s–a–u–d–i–b–l–e–
+81 np obtener seen -> –n–p–o–b–t–e–n–e–r–s–e–e–n–
+82 xis serves crus -> –x–i–s–s–e–r–v–e–s–c–r–u–s–
+83 ffen besides febbraio -> –f–f–e–n–b–e–s–i–d–e–s–f–e–b–b–r–a–i–o–
+84 etus amiga eer -> –e–t–u–s–a–m–i–g–a–e–e–r–
+85 orescent colet grooves -> –o–r–e–s–c–e–n–t–c–o–l–e–t–g–r–o–o–v–e–s–
+86 gery kwamen tente -> –g–e–r–y–k–w–a–m–e–n–t–e–n–t–e–
+87 arach vendu risc -> –a–r–a–c–h–v–e–n–d–u–r–i–s–c–
+88 tape primi isother -> –t–a–p–e–p–r–i–m–i–i–s–o–t–h–e–r–
+89 gage martie disag -> –g–a–g–e–m–a–r–t–i–e–d–i–s–a–g–
+90 etra voc conseil -> –e–t–r–a–v–o–c–c–o–n–s–e–i–l–
+91 level chiral muassa -> –l–e–v–e–l–c–h–i–r–a–l–m–u–a–s–s–a–
+92 cidas entered bx -> –c–i–d–a–s–e–n–t–e–r–e–d–b–x–
+93 vaient airflow otros -> –v–a–i–e–n–t–a–i–r–f–l–o–w–o–t–r–o–s–
+94 now uh texture -> –n–o–w–u–h–t–e–x–t–u–r–e–
+95 tsch indire warning -> –t–s–c–h–i–n–d–i–r–e–w–a–r–n–i–n–g–
+96 umpf quei eighteen -> –u–m–p–f–q–u–e–i–e–i–g–h–t–e–e–n–
+97 ilus abges scoperto -> –i–l–u–s–a–b–g–e–s–s–c–o–p–e–r–t–o–
+98 primer wedding inneh -> –p–r–i–m–e–r–w–e–d–d–i–n–g–i–n–n–e–h–
+99 arden joueur suces -> –a–r–d–e–n–j–o–u–e–u–r–s–u–c–e–s–

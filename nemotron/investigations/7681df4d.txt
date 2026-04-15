@@ -1,0 +1,28 @@
+problem id: 7681df4d
+category: cryptarithm_deduce
+
+symbol-to-digit mapping:
+  '!' = 3
+  '"' = 9
+  '#' = 8
+  '&' = 2
+  '<' = 7
+  '?' = 5
+  '@' = 6
+  '`' = 4
+  '{' = 1
+
+operator-to-operation mapping:
+  '+' = add
+  '-' = abs_diff
+
+examples:
+  !`-`! = "  =>  |34 - 43| = 9
+  !{+&` = ??  =>  31 + 24 = 55
+  @"+?! = {&&  =>  69 + 53 = 122
+  &{+?< = <#  =>  21 + 57 = 78
+  "!-#{ = {&  =>  |93 - 81| = 12
+
+query: &@-!!  =>  |26 - 33| = 7
+
+predicted answer: <

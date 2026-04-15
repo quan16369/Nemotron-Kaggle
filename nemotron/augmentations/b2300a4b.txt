@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 oved steroids venu
+01 ning toast orbit
+02 yme contr fui
+
+This is a sample output.
+00 oved steroids venu -> –o–v–e–d–s–t–e–r–o–i–d–s–v–e–n–u–
+01 ning toast orbit -> –n–i–n–g–t–o–a–s–t–o–r–b–i–t–
+02 yme contr fui -> –y–m–e–c–o–n–t–r–f–u–i–
+
+This is your input.
+00 arro count caval
+01 skih antrop frm
+02 stein jogador conserve
+03 raged rozw challeng
+04 overview ziem hoher
+05 icional kak cran
+06 unners ansible wounded
+07 web wiki retra
+08 oupe veio parallel
+09 accuracy eraik sicuro
+10 recke horretan trasport
+11 yne altres cortic
+12 apper contrari success
+13 elte monomer mutable
+14 wood accuse wiping
+15 ille uma vapour
+16 rust silent globals
+17 asses ponder vuelta
+18 das stepwise musique
+19 astricht gols sol
+20 atcher naturels orient
+21 manual lasers sexu
+22 deck clim reality
+23 nen alter mankind
+24 ikuuta feuille clung
+25 legal civils sino
+26 anh coup acompan
+27 ner elbows schweren
+28 continu propos bs
+29 zzo greatest enemigos
+30 ma meters sier
+31 nor episodes simplest
+32 iesz provocar lj
+33 roit esiste reciproc
+34 ardi opacity keyword
+35 passt curv stores
+36 bao muz followed
+37 uyla journey gon
+38 zieht julka meaning
+39 monium bibli hori
+40 uration glyc ultras
+41 pover patience varios
+42 ftrag sexto rod
+43 rotnie shrimp saga
+44 team od funk
+45 agal terkenal poprzed
+46 iziere domin dynamic
+47 tral wreck logging
+48 oken plaques guns
+49 iega friends drugs
+50 xect blickte secund
+51 asure suje feste
+52 mog gout browser
+53 vee coaxial alve
+54 besar kell battu
+55 ris rushes pulling
+56 uiu estre fuerzas
+57 ry rugged numpy
+58 asar dieser ubic
+59 efe apellido generate
+60 ript consegue drift
+61 owy figur pozi
+62 ots textes gossip
+63 ullet nad dous
+64 oporto dirty proximal
+65 umato egyetlen chase
+66 adic nem mono
+67 rede nominal nim
+68 ute pertenec vibrant
+69 adne side rej
+70 decode fe clashes
+71 urri yhte wastes
+72 ine furent isl
+73 jske rispett away
+74 haust stora fold
+75 ipedia fallen undergo
+76 raham inscrit traction
+77 ucumber cinc acu
+78 ivals zlo usher
+79 ancement mantenir devoir
+80 asta register elution
+81 indices pena ripet
+82 jes appuy robes
+83 pal nitride recomm
+84 coe efeito soldados
+85 alja initiate merid
+86 ankton viol depan
+87 qt alguna plais
+88 tal indicate literal
+89 termin bataille probar
+90 zie dijo sigma
+91 kao copied usc
+92 illaume basics ab
+93 ikas peso ripe
+94 arsi videoj messa
+95 assinat gratuit cleaning
+96 anaf repeat instante
+97 ino yoz pron
+98 umor sugger comes
+99 arket forec obce
+[completion]
+00 arro count caval -> –a–r–r–o–c–o–u–n–t–c–a–v–a–l–
+01 skih antrop frm -> –s–k–i–h–a–n–t–r–o–p–f–r–m–
+02 stein jogador conserve -> –s–t–e–i–n–j–o–g–a–d–o–r–c–o–n–s–e–r–v–e–
+03 raged rozw challeng -> –r–a–g–e–d–r–o–z–w–c–h–a–l–l–e–n–g–
+04 overview ziem hoher -> –o–v–e–r–v–i–e–w–z–i–e–m–h–o–h–e–r–
+05 icional kak cran -> –i–c–i–o–n–a–l–k–a–k–c–r–a–n–
+06 unners ansible wounded -> –u–n–n–e–r–s–a–n–s–i–b–l–e–w–o–u–n–d–e–d–
+07 web wiki retra -> –w–e–b–w–i–k–i–r–e–t–r–a–
+08 oupe veio parallel -> –o–u–p–e–v–e–i–o–p–a–r–a–l–l–e–l–
+09 accuracy eraik sicuro -> –a–c–c–u–r–a–c–y–e–r–a–i–k–s–i–c–u–r–o–
+10 recke horretan trasport -> –r–e–c–k–e–h–o–r–r–e–t–a–n–t–r–a–s–p–o–r–t–
+11 yne altres cortic -> –y–n–e–a–l–t–r–e–s–c–o–r–t–i–c–
+12 apper contrari success -> –a–p–p–e–r–c–o–n–t–r–a–r–i–s–u–c–c–e–s–s–
+13 elte monomer mutable -> –e–l–t–e–m–o–n–o–m–e–r–m–u–t–a–b–l–e–
+14 wood accuse wiping -> –w–o–o–d–a–c–c–u–s–e–w–i–p–i–n–g–
+15 ille uma vapour -> –i–l–l–e–u–m–a–v–a–p–o–u–r–
+16 rust silent globals -> –r–u–s–t–s–i–l–e–n–t–g–l–o–b–a–l–s–
+17 asses ponder vuelta -> –a–s–s–e–s–p–o–n–d–e–r–v–u–e–l–t–a–
+18 das stepwise musique -> –d–a–s–s–t–e–p–w–i–s–e–m–u–s–i–q–u–e–
+19 astricht gols sol -> –a–s–t–r–i–c–h–t–g–o–l–s–s–o–l–
+20 atcher naturels orient -> –a–t–c–h–e–r–n–a–t–u–r–e–l–s–o–r–i–e–n–t–
+21 manual lasers sexu -> –m–a–n–u–a–l–l–a–s–e–r–s–s–e–x–u–
+22 deck clim reality -> –d–e–c–k–c–l–i–m–r–e–a–l–i–t–y–
+23 nen alter mankind -> –n–e–n–a–l–t–e–r–m–a–n–k–i–n–d–
+24 ikuuta feuille clung -> –i–k–u–u–t–a–f–e–u–i–l–l–e–c–l–u–n–g–
+25 legal civils sino -> –l–e–g–a–l–c–i–v–i–l–s–s–i–n–o–
+26 anh coup acompan -> –a–n–h–c–o–u–p–a–c–o–m–p–a–n–
+27 ner elbows schweren -> –n–e–r–e–l–b–o–w–s–s–c–h–w–e–r–e–n–
+28 continu propos bs -> –c–o–n–t–i–n–u–p–r–o–p–o–s–b–s–
+29 zzo greatest enemigos -> –z–z–o–g–r–e–a–t–e–s–t–e–n–e–m–i–g–o–s–
+30 ma meters sier -> –m–a–m–e–t–e–r–s–s–i–e–r–
+31 nor episodes simplest -> –n–o–r–e–p–i–s–o–d–e–s–s–i–m–p–l–e–s–t–
+32 iesz provocar lj -> –i–e–s–z–p–r–o–v–o–c–a–r–l–j–
+33 roit esiste reciproc -> –r–o–i–t–e–s–i–s–t–e–r–e–c–i–p–r–o–c–
+34 ardi opacity keyword -> –a–r–d–i–o–p–a–c–i–t–y–k–e–y–w–o–r–d–
+35 passt curv stores -> –p–a–s–s–t–c–u–r–v–s–t–o–r–e–s–
+36 bao muz followed -> –b–a–o–m–u–z–f–o–l–l–o–w–e–d–
+37 uyla journey gon -> –u–y–l–a–j–o–u–r–n–e–y–g–o–n–
+38 zieht julka meaning -> –z–i–e–h–t–j–u–l–k–a–m–e–a–n–i–n–g–
+39 monium bibli hori -> –m–o–n–i–u–m–b–i–b–l–i–h–o–r–i–
+40 uration glyc ultras -> –u–r–a–t–i–o–n–g–l–y–c–u–l–t–r–a–s–
+41 pover patience varios -> –p–o–v–e–r–p–a–t–i–e–n–c–e–v–a–r–i–o–s–
+42 ftrag sexto rod -> –f–t–r–a–g–s–e–x–t–o–r–o–d–
+43 rotnie shrimp saga -> –r–o–t–n–i–e–s–h–r–i–m–p–s–a–g–a–
+44 team od funk -> –t–e–a–m–o–d–f–u–n–k–
+45 agal terkenal poprzed -> –a–g–a–l–t–e–r–k–e–n–a–l–p–o–p–r–z–e–d–
+46 iziere domin dynamic -> –i–z–i–e–r–e–d–o–m–i–n–d–y–n–a–m–i–c–
+47 tral wreck logging -> –t–r–a–l–w–r–e–c–k–l–o–g–g–i–n–g–
+48 oken plaques guns -> –o–k–e–n–p–l–a–q–u–e–s–g–u–n–s–
+49 iega friends drugs -> –i–e–g–a–f–r–i–e–n–d–s–d–r–u–g–s–
+50 xect blickte secund -> –x–e–c–t–b–l–i–c–k–t–e–s–e–c–u–n–d–
+51 asure suje feste -> –a–s–u–r–e–s–u–j–e–f–e–s–t–e–
+52 mog gout browser -> –m–o–g–g–o–u–t–b–r–o–w–s–e–r–
+53 vee coaxial alve -> –v–e–e–c–o–a–x–i–a–l–a–l–v–e–
+54 besar kell battu -> –b–e–s–a–r–k–e–l–l–b–a–t–t–u–
+55 ris rushes pulling -> –r–i–s–r–u–s–h–e–s–p–u–l–l–i–n–g–
+56 uiu estre fuerzas -> –u–i–u–e–s–t–r–e–f–u–e–r–z–a–s–
+57 ry rugged numpy -> –r–y–r–u–g–g–e–d–n–u–m–p–y–
+58 asar dieser ubic -> –a–s–a–r–d–i–e–s–e–r–u–b–i–c–
+59 efe apellido generate -> –e–f–e–a–p–e–l–l–i–d–o–g–e–n–e–r–a–t–e–
+60 ript consegue drift -> –r–i–p–t–c–o–n–s–e–g–u–e–d–r–i–f–t–
+61 owy figur pozi -> –o–w–y–f–i–g–u–r–p–o–z–i–
+62 ots textes gossip -> –o–t–s–t–e–x–t–e–s–g–o–s–s–i–p–
+63 ullet nad dous -> –u–l–l–e–t–n–a–d–d–o–u–s–
+64 oporto dirty proximal -> –o–p–o–r–t–o–d–i–r–t–y–p–r–o–x–i–m–a–l–
+65 umato egyetlen chase -> –u–m–a–t–o–e–g–y–e–t–l–e–n–c–h–a–s–e–
+66 adic nem mono -> –a–d–i–c–n–e–m–m–o–n–o–
+67 rede nominal nim -> –r–e–d–e–n–o–m–i–n–a–l–n–i–m–
+68 ute pertenec vibrant -> –u–t–e–p–e–r–t–e–n–e–c–v–i–b–r–a–n–t–
+69 adne side rej -> –a–d–n–e–s–i–d–e–r–e–j–
+70 decode fe clashes -> –d–e–c–o–d–e–f–e–c–l–a–s–h–e–s–
+71 urri yhte wastes -> –u–r–r–i–y–h–t–e–w–a–s–t–e–s–
+72 ine furent isl -> –i–n–e–f–u–r–e–n–t–i–s–l–
+73 jske rispett away -> –j–s–k–e–r–i–s–p–e–t–t–a–w–a–y–
+74 haust stora fold -> –h–a–u–s–t–s–t–o–r–a–f–o–l–d–
+75 ipedia fallen undergo -> –i–p–e–d–i–a–f–a–l–l–e–n–u–n–d–e–r–g–o–
+76 raham inscrit traction -> –r–a–h–a–m–i–n–s–c–r–i–t–t–r–a–c–t–i–o–n–
+77 ucumber cinc acu -> –u–c–u–m–b–e–r–c–i–n–c–a–c–u–
+78 ivals zlo usher -> –i–v–a–l–s–z–l–o–u–s–h–e–r–
+79 ancement mantenir devoir -> –a–n–c–e–m–e–n–t–m–a–n–t–e–n–i–r–d–e–v–o–i–r–
+80 asta register elution -> –a–s–t–a–r–e–g–i–s–t–e–r–e–l–u–t–i–o–n–
+81 indices pena ripet -> –i–n–d–i–c–e–s–p–e–n–a–r–i–p–e–t–
+82 jes appuy robes -> –j–e–s–a–p–p–u–y–r–o–b–e–s–
+83 pal nitride recomm -> –p–a–l–n–i–t–r–i–d–e–r–e–c–o–m–m–
+84 coe efeito soldados -> –c–o–e–e–f–e–i–t–o–s–o–l–d–a–d–o–s–
+85 alja initiate merid -> –a–l–j–a–i–n–i–t–i–a–t–e–m–e–r–i–d–
+86 ankton viol depan -> –a–n–k–t–o–n–v–i–o–l–d–e–p–a–n–
+87 qt alguna plais -> –q–t–a–l–g–u–n–a–p–l–a–i–s–
+88 tal indicate literal -> –t–a–l–i–n–d–i–c–a–t–e–l–i–t–e–r–a–l–
+89 termin bataille probar -> –t–e–r–m–i–n–b–a–t–a–i–l–l–e–p–r–o–b–a–r–
+90 zie dijo sigma -> –z–i–e–d–i–j–o–s–i–g–m–a–
+91 kao copied usc -> –k–a–o–c–o–p–i–e–d–u–s–c–
+92 illaume basics ab -> –i–l–l–a–u–m–e–b–a–s–i–c–s–a–b–
+93 ikas peso ripe -> –i–k–a–s–p–e–s–o–r–i–p–e–
+94 arsi videoj messa -> –a–r–s–i–v–i–d–e–o–j–m–e–s–s–a–
+95 assinat gratuit cleaning -> –a–s–s–i–n–a–t–g–r–a–t–u–i–t–c–l–e–a–n–i–n–g–
+96 anaf repeat instante -> –a–n–a–f–r–e–p–e–a–t–i–n–s–t–a–n–t–e–
+97 ino yoz pron -> –i–n–o–y–o–z–p–r–o–n–
+98 umor sugger comes -> –u–m–o–r–s–u–g–g–e–r–c–o–m–e–s–
+99 arket forec obce -> –a–r–k–e–t–f–o–r–e–c–o–b–c–e–

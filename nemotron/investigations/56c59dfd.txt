@@ -1,0 +1,30 @@
+problem id: 56c59dfd
+category: equation_numeric_deduce
+
+examples:
+- 15+43 = 1543
+- 34-87 = -53
+- 28!85 = 112
+- 14+75 = 1475
+- 94+77 = 9477
+
+inferred rule:
+This puzzle appears to be operator-specific rather than one single arithmetic formula.
+- For `+`, concatenate the two 2-digit inputs in their original order.
+  - 15+43 -> 1543
+  - 14+75 -> 1475
+  - 94+77 -> 9477
+- For `-`, use ordinary integer subtraction on the two whole numbers.
+  - 34-87 -> -53
+- The lone `!` example does not affect the query and is not constrained enough to identify confidently from one example, so I do not rely on it.
+
+step-by-step application to the query:
+- Query: 96-74
+- The operator is `-`, so apply ordinary subtraction.
+- 96 - 74 = 22
+
+predicted answer:
+22
+
+confidence note:
+Moderate to high. The `-` rule needed for the query is straightforward and fits its example exactly. Confidence is not maximal only because the single `!` example suggests each operator may have its own rule, and that unused rule cannot be pinned down from one example.

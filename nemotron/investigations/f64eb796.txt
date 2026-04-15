@@ -1,0 +1,16 @@
+problem id: f64eb796
+category: bit_manipulation
+
+rule: SHL(7) OR SHR(2) OR NOT ROT(5)
+
+examples:
+  00001111 -> 10011111
+  11000010 -> 10110111
+  01001110 -> 00110111
+  01100111 -> 10011011
+  10011000 -> 11101110
+  00010000 -> 11111101
+  00111101 -> 11011111
+
+query: 10010100
+predicted answer: 01101101

@@ -1,0 +1,17 @@
+problem id: 85c5b2a2
+category: cryptarithm_deduce
+
+symbol-to-digit mapping:
+
+operator-to-operation mapping:
+  ')' = concat
+
+examples:
+  ||#`| = |!:?
+  `<)?: = `<?:
+  "')!< = "'!<
+  "`)": = "`":
+
+query: $<)$$
+
+predicted answer: $<$$

@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 species dey impose
+01 people telles schwier
+02 ceram probes subjects
+
+This is a sample output.
+00 species dey impose -> –s–p–e–c–i–e–s–d–e–y–i–m–p–o–s–e–
+01 people telles schwier -> –p–e–o–p–l–e–t–e–l–l–e–s–s–c–h–w–i–e–r–
+02 ceram probes subjects -> –c–e–r–a–m–p–r–o–b–e–s–s–u–b–j–e–c–t–s–
+
+This is your input.
+00 mongodb prec fikk
+01 inging attend fyra
+02 mathbf cirrh krie
+03 lett welded tam
+04 upmu saiu jug
+05 cases esperado comte
+06 phenyl revived voter
+07 iman afin esper
+08 ingly visitors startled
+09 cmp toxin reliably
+10 wat zeros veins
+11 grave kanal hij
+12 esta sezone leuc
+13 visual dice impul
+14 seek bost partidas
+15 otes sond humide
+16 rics actual polymers
+17 atory all juvenil
+18 eworthy futbol inclui
+19 enteri derde bindings
+20 itie ricord frankly
+21 never dys verded
+22 ipit banda konf
+23 uell palabras kurze
+24 uer laughs rejo
+25 nju zweimal kal
+26 ovas mette esprits
+27 phylaxis iyi don
+28 ulus ideas firstly
+29 tag lies uzn
+30 eb https overl
+31 anged fiskal lang
+32 gen neur justify
+33 peror fines kehrte
+34 uile zego voti
+35 ometra overle plats
+36 nog joins bill
+37 mutation bien estadio
+38 avor sib raft
+39 jang scala evidence
+40 ailable endless ersetzt
+41 jective poca jets
+42 rafish avec joh
+43 xpected securing narod
+44 izzard fridge commerce
+45 atuan tasks imaju
+46 avlja dotar embody
+47 ustrie pro repo
+48 zul bod habitu
+49 ulates esquina coro
+50 acket veint cabinet
+51 oges oraz pojed
+52 unn approche peer
+53 cesi rat withd
+54 engers courtesy finance
+55 lymp herb inco
+56 niz strange lortu
+57 ender eks familie
+58 odar copies getting
+59 atang bout vil
+60 bei merch compara
+61 owych zru decidido
+62 engah coher director
+63 tocol mt daz
+64 jours kilka terb
+65 kaf weshalb inconnue
+66 ivas maig teg
+67 adiol dinast griego
+68 aliere stray largos
+69 isering memcpy minden
+70 asion aort glycine
+71 ximo faktor gallery
+72 uali wrapped azonban
+73 ktion jan japones
+74 umine lawyer pb
+75 dropdown blue crazy
+76 general layouts setter
+77 filtered kontakt senere
+78 wij nanop tearing
+79 era traslad terhad
+80 nou lived journ
+81 inction ventre stent
+82 dx ag okres
+83 ctal similar przygot
+84 ubu uk torpedo
+85 anych coupling czy
+86 wendung signore verlie
+87 enseit bater foremost
+88 bay pouch exerc
+89 icidal fidelity tekst
+90 changed chol elettr
+91 broken plunged cumplir
+92 bone ara kirjo
+93 ermal glacial nime
+94 hero bereit madeira
+95 ha sesuai cz
+96 illation seco behaves
+97 uerdos columna encontro
+98 uldu szerep program
+99 enever lep inventor
+[completion]
+00 mongodb prec fikk -> –m–o–n–g–o–d–b–p–r–e–c–f–i–k–k–
+01 inging attend fyra -> –i–n–g–i–n–g–a–t–t–e–n–d–f–y–r–a–
+02 mathbf cirrh krie -> –m–a–t–h–b–f–c–i–r–r–h–k–r–i–e–
+03 lett welded tam -> –l–e–t–t–w–e–l–d–e–d–t–a–m–
+04 upmu saiu jug -> –u–p–m–u–s–a–i–u–j–u–g–
+05 cases esperado comte -> –c–a–s–e–s–e–s–p–e–r–a–d–o–c–o–m–t–e–
+06 phenyl revived voter -> –p–h–e–n–y–l–r–e–v–i–v–e–d–v–o–t–e–r–
+07 iman afin esper -> –i–m–a–n–a–f–i–n–e–s–p–e–r–
+08 ingly visitors startled -> –i–n–g–l–y–v–i–s–i–t–o–r–s–s–t–a–r–t–l–e–d–
+09 cmp toxin reliably -> –c–m–p–t–o–x–i–n–r–e–l–i–a–b–l–y–
+10 wat zeros veins -> –w–a–t–z–e–r–o–s–v–e–i–n–s–
+11 grave kanal hij -> –g–r–a–v–e–k–a–n–a–l–h–i–j–
+12 esta sezone leuc -> –e–s–t–a–s–e–z–o–n–e–l–e–u–c–
+13 visual dice impul -> –v–i–s–u–a–l–d–i–c–e–i–m–p–u–l–
+14 seek bost partidas -> –s–e–e–k–b–o–s–t–p–a–r–t–i–d–a–s–
+15 otes sond humide -> –o–t–e–s–s–o–n–d–h–u–m–i–d–e–
+16 rics actual polymers -> –r–i–c–s–a–c–t–u–a–l–p–o–l–y–m–e–r–s–
+17 atory all juvenil -> –a–t–o–r–y–a–l–l–j–u–v–e–n–i–l–
+18 eworthy futbol inclui -> –e–w–o–r–t–h–y–f–u–t–b–o–l–i–n–c–l–u–i–
+19 enteri derde bindings -> –e–n–t–e–r–i–d–e–r–d–e–b–i–n–d–i–n–g–s–
+20 itie ricord frankly -> –i–t–i–e–r–i–c–o–r–d–f–r–a–n–k–l–y–
+21 never dys verded -> –n–e–v–e–r–d–y–s–v–e–r–d–e–d–
+22 ipit banda konf -> –i–p–i–t–b–a–n–d–a–k–o–n–f–
+23 uell palabras kurze -> –u–e–l–l–p–a–l–a–b–r–a–s–k–u–r–z–e–
+24 uer laughs rejo -> –u–e–r–l–a–u–g–h–s–r–e–j–o–
+25 nju zweimal kal -> –n–j–u–z–w–e–i–m–a–l–k–a–l–
+26 ovas mette esprits -> –o–v–a–s–m–e–t–t–e–e–s–p–r–i–t–s–
+27 phylaxis iyi don -> –p–h–y–l–a–x–i–s–i–y–i–d–o–n–
+28 ulus ideas firstly -> –u–l–u–s–i–d–e–a–s–f–i–r–s–t–l–y–
+29 tag lies uzn -> –t–a–g–l–i–e–s–u–z–n–
+30 eb https overl -> –e–b–h–t–t–p–s–o–v–e–r–l–
+31 anged fiskal lang -> –a–n–g–e–d–f–i–s–k–a–l–l–a–n–g–
+32 gen neur justify -> –g–e–n–n–e–u–r–j–u–s–t–i–f–y–
+33 peror fines kehrte -> –p–e–r–o–r–f–i–n–e–s–k–e–h–r–t–e–
+34 uile zego voti -> –u–i–l–e–z–e–g–o–v–o–t–i–
+35 ometra overle plats -> –o–m–e–t–r–a–o–v–e–r–l–e–p–l–a–t–s–
+36 nog joins bill -> –n–o–g–j–o–i–n–s–b–i–l–l–
+37 mutation bien estadio -> –m–u–t–a–t–i–o–n–b–i–e–n–e–s–t–a–d–i–o–
+38 avor sib raft -> –a–v–o–r–s–i–b–r–a–f–t–
+39 jang scala evidence -> –j–a–n–g–s–c–a–l–a–e–v–i–d–e–n–c–e–
+40 ailable endless ersetzt -> –a–i–l–a–b–l–e–e–n–d–l–e–s–s–e–r–s–e–t–z–t–
+41 jective poca jets -> –j–e–c–t–i–v–e–p–o–c–a–j–e–t–s–
+42 rafish avec joh -> –r–a–f–i–s–h–a–v–e–c–j–o–h–
+43 xpected securing narod -> –x–p–e–c–t–e–d–s–e–c–u–r–i–n–g–n–a–r–o–d–
+44 izzard fridge commerce -> –i–z–z–a–r–d–f–r–i–d–g–e–c–o–m–m–e–r–c–e–
+45 atuan tasks imaju -> –a–t–u–a–n–t–a–s–k–s–i–m–a–j–u–
+46 avlja dotar embody -> –a–v–l–j–a–d–o–t–a–r–e–m–b–o–d–y–
+47 ustrie pro repo -> –u–s–t–r–i–e–p–r–o–r–e–p–o–
+48 zul bod habitu -> –z–u–l–b–o–d–h–a–b–i–t–u–
+49 ulates esquina coro -> –u–l–a–t–e–s–e–s–q–u–i–n–a–c–o–r–o–
+50 acket veint cabinet -> –a–c–k–e–t–v–e–i–n–t–c–a–b–i–n–e–t–
+51 oges oraz pojed -> –o–g–e–s–o–r–a–z–p–o–j–e–d–
+52 unn approche peer -> –u–n–n–a–p–p–r–o–c–h–e–p–e–e–r–
+53 cesi rat withd -> –c–e–s–i–r–a–t–w–i–t–h–d–
+54 engers courtesy finance -> –e–n–g–e–r–s–c–o–u–r–t–e–s–y–f–i–n–a–n–c–e–
+55 lymp herb inco -> –l–y–m–p–h–e–r–b–i–n–c–o–
+56 niz strange lortu -> –n–i–z–s–t–r–a–n–g–e–l–o–r–t–u–
+57 ender eks familie -> –e–n–d–e–r–e–k–s–f–a–m–i–l–i–e–
+58 odar copies getting -> –o–d–a–r–c–o–p–i–e–s–g–e–t–t–i–n–g–
+59 atang bout vil -> –a–t–a–n–g–b–o–u–t–v–i–l–
+60 bei merch compara -> –b–e–i–m–e–r–c–h–c–o–m–p–a–r–a–
+61 owych zru decidido -> –o–w–y–c–h–z–r–u–d–e–c–i–d–i–d–o–
+62 engah coher director -> –e–n–g–a–h–c–o–h–e–r–d–i–r–e–c–t–o–r–
+63 tocol mt daz -> –t–o–c–o–l–m–t–d–a–z–
+64 jours kilka terb -> –j–o–u–r–s–k–i–l–k–a–t–e–r–b–
+65 kaf weshalb inconnue -> –k–a–f–w–e–s–h–a–l–b–i–n–c–o–n–n–u–e–
+66 ivas maig teg -> –i–v–a–s–m–a–i–g–t–e–g–
+67 adiol dinast griego -> –a–d–i–o–l–d–i–n–a–s–t–g–r–i–e–g–o–
+68 aliere stray largos -> –a–l–i–e–r–e–s–t–r–a–y–l–a–r–g–o–s–
+69 isering memcpy minden -> –i–s–e–r–i–n–g–m–e–m–c–p–y–m–i–n–d–e–n–
+70 asion aort glycine -> –a–s–i–o–n–a–o–r–t–g–l–y–c–i–n–e–
+71 ximo faktor gallery -> –x–i–m–o–f–a–k–t–o–r–g–a–l–l–e–r–y–
+72 uali wrapped azonban -> –u–a–l–i–w–r–a–p–p–e–d–a–z–o–n–b–a–n–
+73 ktion jan japones -> –k–t–i–o–n–j–a–n–j–a–p–o–n–e–s–
+74 umine lawyer pb -> –u–m–i–n–e–l–a–w–y–e–r–p–b–
+75 dropdown blue crazy -> –d–r–o–p–d–o–w–n–b–l–u–e–c–r–a–z–y–
+76 general layouts setter -> –g–e–n–e–r–a–l–l–a–y–o–u–t–s–s–e–t–t–e–r–
+77 filtered kontakt senere -> –f–i–l–t–e–r–e–d–k–o–n–t–a–k–t–s–e–n–e–r–e–
+78 wij nanop tearing -> –w–i–j–n–a–n–o–p–t–e–a–r–i–n–g–
+79 era traslad terhad -> –e–r–a–t–r–a–s–l–a–d–t–e–r–h–a–d–
+80 nou lived journ -> –n–o–u–l–i–v–e–d–j–o–u–r–n–
+81 inction ventre stent -> –i–n–c–t–i–o–n–v–e–n–t–r–e–s–t–e–n–t–
+82 dx ag okres -> –d–x–a–g–o–k–r–e–s–
+83 ctal similar przygot -> –c–t–a–l–s–i–m–i–l–a–r–p–r–z–y–g–o–t–
+84 ubu uk torpedo -> –u–b–u–u–k–t–o–r–p–e–d–o–
+85 anych coupling czy -> –a–n–y–c–h–c–o–u–p–l–i–n–g–c–z–y–
+86 wendung signore verlie -> –w–e–n–d–u–n–g–s–i–g–n–o–r–e–v–e–r–l–i–e–
+87 enseit bater foremost -> –e–n–s–e–i–t–b–a–t–e–r–f–o–r–e–m–o–s–t–
+88 bay pouch exerc -> –b–a–y–p–o–u–c–h–e–x–e–r–c–
+89 icidal fidelity tekst -> –i–c–i–d–a–l–f–i–d–e–l–i–t–y–t–e–k–s–t–
+90 changed chol elettr -> –c–h–a–n–g–e–d–c–h–o–l–e–l–e–t–t–r–
+91 broken plunged cumplir -> –b–r–o–k–e–n–p–l–u–n–g–e–d–c–u–m–p–l–i–r–
+92 bone ara kirjo -> –b–o–n–e–a–r–a–k–i–r–j–o–
+93 ermal glacial nime -> –e–r–m–a–l–g–l–a–c–i–a–l–n–i–m–e–
+94 hero bereit madeira -> –h–e–r–o–b–e–r–e–i–t–m–a–d–e–i–r–a–
+95 ha sesuai cz -> –h–a–s–e–s–u–a–i–c–z–
+96 illation seco behaves -> –i–l–l–a–t–i–o–n–s–e–c–o–b–e–h–a–v–e–s–
+97 uerdos columna encontro -> –u–e–r–d–o–s–c–o–l–u–m–n–a–e–n–c–o–n–t–r–o–
+98 uldu szerep program -> –u–l–d–u–s–z–e–r–e–p–p–r–o–g–r–a–m–
+99 enever lep inventor -> –e–n–e–v–e–r–l–e–p–i–n–v–e–n–t–o–r–

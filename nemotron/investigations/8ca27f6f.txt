@@ -1,0 +1,29 @@
+problem id: 8ca27f6f
+category: cryptarithm_deduce
+
+symbol-to-digit mapping:
+  '"' = 3
+  '#' = 7
+  '%' = 8
+  '(' = 4
+  '/' = 2
+  '@' = 9
+  '[' = 0
+  '\\' = 6
+  ']' = 5
+  '`' = 1
+
+operator-to-operation mapping:
+  '!' = abs_diff
+  '-' = mul
+  '{' = add
+
+examples:
+  \"!"/ = "`  =>  |63 - 32| = 31
+  ]#{"` = %%  =>  57 + 31 = 88
+  ]/-#[ = "\([  =>  52 * 70 = 3640
+  (@!`\ = ""  =>  |49 - 16| = 33
+
+query: ]%-#@  =>  58 * 79 = 4582
+
+predicted answer: (]%/

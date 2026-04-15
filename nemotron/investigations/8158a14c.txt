@@ -1,0 +1,26 @@
+Problem ID: 8158a14c
+Category: equation_numeric_deduce
+
+Examples:
+- 62)75 = )13
+  This matches ordinary subtraction: 62 - 75 = -13. The puzzle writes the negative result with `)` in place of the usual minus sign.
+- 35(11 = 1135
+  This shows that `(` is a different operator: it places the right-hand number before the left-hand number.
+- 38(64 = 6438
+  This confirms the `(` rule as simple right-left concatenation.
+
+Inferred rule:
+1. The symbol `(` means "write the second two-digit number followed by the first two-digit number."
+2. The symbol `)` means ordinary subtraction.
+3. When the subtraction result is negative, the puzzle uses `)` as the negative prefix, so `-13` is written as `)13`.
+
+Step-by-step application to the query:
+- Query: 49)03
+- Apply the `)` rule as subtraction: 49 - 03 = 46.
+- The result is positive, so no special negative prefix is needed.
+
+Predicted answer:
+46
+
+Confidence:
+Moderate. The positive query answer follows naturally if `)` is subtraction, and `62)75 = )13` is strong evidence for that, but there is only one direct example of the `)` operator.

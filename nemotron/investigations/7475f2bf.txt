@@ -1,0 +1,32 @@
+problem id: 7475f2bf
+category: equation_numeric_guess
+
+examples:
+- 93\28 = 65
+- 33(95 = 3135
+- 88(48 = 4224
+- 36\12 = 24
+- 63\74 = 11
+- query: 26+86
+
+inferred rule:
+- `\` denotes the absolute difference between the two numbers.
+- `(` denotes ordinary multiplication.
+- The query uses an unseen `+` symbol. Given that the examples already cover difference and multiplication, the most defensible completion is to read `+` as ordinary addition.
+
+step-by-step check on the examples:
+1. `93\28 = 65` because `|93 - 28| = 65`.
+2. `33(95 = 3135` because `33 * 95 = 3135`.
+3. `88(48 = 4224` because `88 * 48 = 4224`.
+4. `36\12 = 24` because `|36 - 12| = 24`.
+5. `63\74 = 11` because `|63 - 74| = 11`.
+
+step-by-step application to the query:
+1. Read `26+86` as ordinary addition.
+2. Compute `26 + 86 = 112`.
+
+predicted answer:
+- 112
+
+confidence note:
+- Moderate confidence. The `\` and `(` rules are directly supported by the examples. The final `+` rule is inferred because `+` does not appear in the training examples, but ordinary addition is the cleanest remaining arithmetic rule.

@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 ensburg eran morrer
+01 veno monkeys annoy
+02 ominated sistema cope
+
+This is a sample output.
+00 ensburg eran morrer -> –e–n–s–b–u–r–g–e–r–a–n–m–o–r–r–e–r–
+01 veno monkeys annoy -> –v–e–n–o–m–o–n–k–e–y–s–a–n–n–o–y–
+02 ominated sistema cope -> –o–m–i–n–a–t–e–d–s–i–s–t–e–m–a–c–o–p–e–
+
+This is your input.
+00 ubblic preso sco
+01 itzak trials povr
+02 ssen polis flushed
+03 tc posibil roses
+04 da domine svar
+05 td priests refugees
+06 stad test proses
+07 ulose llegada allocate
+08 nda annoyed subsidi
+09 ixes fas answered
+10 ipas maximal informed
+11 activ kuin doubling
+12 arne verdad residing
+13 icking guilty mood
+14 irem moltes gisa
+15 lined licz tartott
+16 areth mesures pract
+17 inio prolog lecturer
+18 inette yeah mant
+19 ss wiederum progen
+20 iams astr zugleich
+21 urable obispo rent
+22 igor murmur frust
+23 urious fluoride probed
+24 antom oh initi
+25 belongs thats instala
+26 aremment weiteres cierre
+27 iyon culmin arth
+28 maya contrad prosegu
+29 stall erag wheels
+30 lead thi readable
+31 avid anf dimethyl
+32 ificio poni horizon
+33 vento restait truths
+34 ensemble uro privata
+35 plies gubern dvoj
+36 iaj esclus instr
+37 wise sobre notions
+38 neutral politics writings
+39 cerr slots nannte
+40 leun amused lakos
+41 plt trypt colp
+42 lanan presa bird
+43 ette shooting qil
+44 omber unitate mauvaise
+45 byg danych berikut
+46 fe einst notas
+47 lp piedras apa
+48 standard sperm muchos
+49 ruh podat nay
+50 skiej linear station
+51 kul prvi dove
+52 pia benevol grow
+53 relse sudah branch
+54 monton composta somewhat
+55 arm tenter beher
+56 ent rasgos treball
+57 geving mesh december
+58 andler fade aki
+59 ilibrium con aband
+60 orda nuestro ayuda
+61 imide diameter samme
+62 ificant si morrer
+63 itores hermana editores
+64 leist khi bricks
+65 ious aircraft flores
+66 iliary medic hourly
+67 uted inaug bids
+68 mpeg przek fins
+69 asad tetra bool
+70 rect tensor battery
+71 scroll przeb below
+72 klahoma univers secondes
+73 home jamais arroj
+74 mathrm novice formed
+75 ertu handy balt
+76 boys kun jo
+77 pector trao statue
+78 noch quedado galer
+79 payload parut avanc
+80 ardia liel demise
+81 racia ksi elusive
+82 gau bekommen afirm
+83 virk corrupt hinter
+84 ogeneous sammen grate
+85 gradient entgegen touring
+86 agar offshore trouvent
+87 enzie erwar carcin
+88 raphics suction tym
+89 parated leicht floral
+90 indet roughly pobreza
+91 conder chapter batches
+92 cx euros nutri
+93 float sin lament
+94 ran regulate kapas
+95 ungo sten stained
+96 oub respect waiting
+97 ziger avail liste
+98 osoph interess descript
+99 phis wilde criado
+[completion]
+00 ubblic preso sco -> –u–b–b–l–i–c–p–r–e–s–o–s–c–o–
+01 itzak trials povr -> –i–t–z–a–k–t–r–i–a–l–s–p–o–v–r–
+02 ssen polis flushed -> –s–s–e–n–p–o–l–i–s–f–l–u–s–h–e–d–
+03 tc posibil roses -> –t–c–p–o–s–i–b–i–l–r–o–s–e–s–
+04 da domine svar -> –d–a–d–o–m–i–n–e–s–v–a–r–
+05 td priests refugees -> –t–d–p–r–i–e–s–t–s–r–e–f–u–g–e–e–s–
+06 stad test proses -> –s–t–a–d–t–e–s–t–p–r–o–s–e–s–
+07 ulose llegada allocate -> –u–l–o–s–e–l–l–e–g–a–d–a–a–l–l–o–c–a–t–e–
+08 nda annoyed subsidi -> –n–d–a–a–n–n–o–y–e–d–s–u–b–s–i–d–i–
+09 ixes fas answered -> –i–x–e–s–f–a–s–a–n–s–w–e–r–e–d–
+10 ipas maximal informed -> –i–p–a–s–m–a–x–i–m–a–l–i–n–f–o–r–m–e–d–
+11 activ kuin doubling -> –a–c–t–i–v–k–u–i–n–d–o–u–b–l–i–n–g–
+12 arne verdad residing -> –a–r–n–e–v–e–r–d–a–d–r–e–s–i–d–i–n–g–
+13 icking guilty mood -> –i–c–k–i–n–g–g–u–i–l–t–y–m–o–o–d–
+14 irem moltes gisa -> –i–r–e–m–m–o–l–t–e–s–g–i–s–a–
+15 lined licz tartott -> –l–i–n–e–d–l–i–c–z–t–a–r–t–o–t–t–
+16 areth mesures pract -> –a–r–e–t–h–m–e–s–u–r–e–s–p–r–a–c–t–
+17 inio prolog lecturer -> –i–n–i–o–p–r–o–l–o–g–l–e–c–t–u–r–e–r–
+18 inette yeah mant -> –i–n–e–t–t–e–y–e–a–h–m–a–n–t–
+19 ss wiederum progen -> –s–s–w–i–e–d–e–r–u–m–p–r–o–g–e–n–
+20 iams astr zugleich -> –i–a–m–s–a–s–t–r–z–u–g–l–e–i–c–h–
+21 urable obispo rent -> –u–r–a–b–l–e–o–b–i–s–p–o–r–e–n–t–
+22 igor murmur frust -> –i–g–o–r–m–u–r–m–u–r–f–r–u–s–t–
+23 urious fluoride probed -> –u–r–i–o–u–s–f–l–u–o–r–i–d–e–p–r–o–b–e–d–
+24 antom oh initi -> –a–n–t–o–m–o–h–i–n–i–t–i–
+25 belongs thats instala -> –b–e–l–o–n–g–s–t–h–a–t–s–i–n–s–t–a–l–a–
+26 aremment weiteres cierre -> –a–r–e–m–m–e–n–t–w–e–i–t–e–r–e–s–c–i–e–r–r–e–
+27 iyon culmin arth -> –i–y–o–n–c–u–l–m–i–n–a–r–t–h–
+28 maya contrad prosegu -> –m–a–y–a–c–o–n–t–r–a–d–p–r–o–s–e–g–u–
+29 stall erag wheels -> –s–t–a–l–l–e–r–a–g–w–h–e–e–l–s–
+30 lead thi readable -> –l–e–a–d–t–h–i–r–e–a–d–a–b–l–e–
+31 avid anf dimethyl -> –a–v–i–d–a–n–f–d–i–m–e–t–h–y–l–
+32 ificio poni horizon -> –i–f–i–c–i–o–p–o–n–i–h–o–r–i–z–o–n–
+33 vento restait truths -> –v–e–n–t–o–r–e–s–t–a–i–t–t–r–u–t–h–s–
+34 ensemble uro privata -> –e–n–s–e–m–b–l–e–u–r–o–p–r–i–v–a–t–a–
+35 plies gubern dvoj -> –p–l–i–e–s–g–u–b–e–r–n–d–v–o–j–
+36 iaj esclus instr -> –i–a–j–e–s–c–l–u–s–i–n–s–t–r–
+37 wise sobre notions -> –w–i–s–e–s–o–b–r–e–n–o–t–i–o–n–s–
+38 neutral politics writings -> –n–e–u–t–r–a–l–p–o–l–i–t–i–c–s–w–r–i–t–i–n–g–s–
+39 cerr slots nannte -> –c–e–r–r–s–l–o–t–s–n–a–n–n–t–e–
+40 leun amused lakos -> –l–e–u–n–a–m–u–s–e–d–l–a–k–o–s–
+41 plt trypt colp -> –p–l–t–t–r–y–p–t–c–o–l–p–
+42 lanan presa bird -> –l–a–n–a–n–p–r–e–s–a–b–i–r–d–
+43 ette shooting qil -> –e–t–t–e–s–h–o–o–t–i–n–g–q–i–l–
+44 omber unitate mauvaise -> –o–m–b–e–r–u–n–i–t–a–t–e–m–a–u–v–a–i–s–e–
+45 byg danych berikut -> –b–y–g–d–a–n–y–c–h–b–e–r–i–k–u–t–
+46 fe einst notas -> –f–e–e–i–n–s–t–n–o–t–a–s–
+47 lp piedras apa -> –l–p–p–i–e–d–r–a–s–a–p–a–
+48 standard sperm muchos -> –s–t–a–n–d–a–r–d–s–p–e–r–m–m–u–c–h–o–s–
+49 ruh podat nay -> –r–u–h–p–o–d–a–t–n–a–y–
+50 skiej linear station -> –s–k–i–e–j–l–i–n–e–a–r–s–t–a–t–i–o–n–
+51 kul prvi dove -> –k–u–l–p–r–v–i–d–o–v–e–
+52 pia benevol grow -> –p–i–a–b–e–n–e–v–o–l–g–r–o–w–
+53 relse sudah branch -> –r–e–l–s–e–s–u–d–a–h–b–r–a–n–c–h–
+54 monton composta somewhat -> –m–o–n–t–o–n–c–o–m–p–o–s–t–a–s–o–m–e–w–h–a–t–
+55 arm tenter beher -> –a–r–m–t–e–n–t–e–r–b–e–h–e–r–
+56 ent rasgos treball -> –e–n–t–r–a–s–g–o–s–t–r–e–b–a–l–l–
+57 geving mesh december -> –g–e–v–i–n–g–m–e–s–h–d–e–c–e–m–b–e–r–
+58 andler fade aki -> –a–n–d–l–e–r–f–a–d–e–a–k–i–
+59 ilibrium con aband -> –i–l–i–b–r–i–u–m–c–o–n–a–b–a–n–d–
+60 orda nuestro ayuda -> –o–r–d–a–n–u–e–s–t–r–o–a–y–u–d–a–
+61 imide diameter samme -> –i–m–i–d–e–d–i–a–m–e–t–e–r–s–a–m–m–e–
+62 ificant si morrer -> –i–f–i–c–a–n–t–s–i–m–o–r–r–e–r–
+63 itores hermana editores -> –i–t–o–r–e–s–h–e–r–m–a–n–a–e–d–i–t–o–r–e–s–
+64 leist khi bricks -> –l–e–i–s–t–k–h–i–b–r–i–c–k–s–
+65 ious aircraft flores -> –i–o–u–s–a–i–r–c–r–a–f–t–f–l–o–r–e–s–
+66 iliary medic hourly -> –i–l–i–a–r–y–m–e–d–i–c–h–o–u–r–l–y–
+67 uted inaug bids -> –u–t–e–d–i–n–a–u–g–b–i–d–s–
+68 mpeg przek fins -> –m–p–e–g–p–r–z–e–k–f–i–n–s–
+69 asad tetra bool -> –a–s–a–d–t–e–t–r–a–b–o–o–l–
+70 rect tensor battery -> –r–e–c–t–t–e–n–s–o–r–b–a–t–t–e–r–y–
+71 scroll przeb below -> –s–c–r–o–l–l–p–r–z–e–b–b–e–l–o–w–
+72 klahoma univers secondes -> –k–l–a–h–o–m–a–u–n–i–v–e–r–s–s–e–c–o–n–d–e–s–
+73 home jamais arroj -> –h–o–m–e–j–a–m–a–i–s–a–r–r–o–j–
+74 mathrm novice formed -> –m–a–t–h–r–m–n–o–v–i–c–e–f–o–r–m–e–d–
+75 ertu handy balt -> –e–r–t–u–h–a–n–d–y–b–a–l–t–
+76 boys kun jo -> –b–o–y–s–k–u–n–j–o–
+77 pector trao statue -> –p–e–c–t–o–r–t–r–a–o–s–t–a–t–u–e–
+78 noch quedado galer -> –n–o–c–h–q–u–e–d–a–d–o–g–a–l–e–r–
+79 payload parut avanc -> –p–a–y–l–o–a–d–p–a–r–u–t–a–v–a–n–c–
+80 ardia liel demise -> –a–r–d–i–a–l–i–e–l–d–e–m–i–s–e–
+81 racia ksi elusive -> –r–a–c–i–a–k–s–i–e–l–u–s–i–v–e–
+82 gau bekommen afirm -> –g–a–u–b–e–k–o–m–m–e–n–a–f–i–r–m–
+83 virk corrupt hinter -> –v–i–r–k–c–o–r–r–u–p–t–h–i–n–t–e–r–
+84 ogeneous sammen grate -> –o–g–e–n–e–o–u–s–s–a–m–m–e–n–g–r–a–t–e–
+85 gradient entgegen touring -> –g–r–a–d–i–e–n–t–e–n–t–g–e–g–e–n–t–o–u–r–i–n–g–
+86 agar offshore trouvent -> –a–g–a–r–o–f–f–s–h–o–r–e–t–r–o–u–v–e–n–t–
+87 enzie erwar carcin -> –e–n–z–i–e–e–r–w–a–r–c–a–r–c–i–n–
+88 raphics suction tym -> –r–a–p–h–i–c–s–s–u–c–t–i–o–n–t–y–m–
+89 parated leicht floral -> –p–a–r–a–t–e–d–l–e–i–c–h–t–f–l–o–r–a–l–
+90 indet roughly pobreza -> –i–n–d–e–t–r–o–u–g–h–l–y–p–o–b–r–e–z–a–
+91 conder chapter batches -> –c–o–n–d–e–r–c–h–a–p–t–e–r–b–a–t–c–h–e–s–
+92 cx euros nutri -> –c–x–e–u–r–o–s–n–u–t–r–i–
+93 float sin lament -> –f–l–o–a–t–s–i–n–l–a–m–e–n–t–
+94 ran regulate kapas -> –r–a–n–r–e–g–u–l–a–t–e–k–a–p–a–s–
+95 ungo sten stained -> –u–n–g–o–s–t–e–n–s–t–a–i–n–e–d–
+96 oub respect waiting -> –o–u–b–r–e–s–p–e–c–t–w–a–i–t–i–n–g–
+97 ziger avail liste -> –z–i–g–e–r–a–v–a–i–l–l–i–s–t–e–
+98 osoph interess descript -> –o–s–o–p–h–i–n–t–e–r–e–s–s–d–e–s–c–r–i–p–t–
+99 phis wilde criado -> –p–h–i–s–w–i–l–d–e–c–r–i–a–d–o–

@@ -1,0 +1,48 @@
+problem id: 0311b798
+category: bit_manipulation
+
+examples:
+- 11010101 -> 10101000
+- 11010010 -> 00011000
+- 10011001 -> 00001001
+- 00001111 -> 01100000
+- 11100000 -> 00001100
+- 11100111 -> 00111100
+- 00111101 -> 10100011
+- query: 01100110
+
+inferred rule:
+- Let `A = ror(x, 3)`, the input rotated right by 3 bits.
+- Let `B = (x << 3) & 11111111`, the input shifted left by 3 within 8 bits.
+- Let `C = x >> 4`, the input shifted right by 4 bits.
+- The output is the bitwise majority of those three aligned copies:
+  `output = maj(A, B, C) = (A & B) | (A & C) | (B & C)`.
+- In each output bit position, write `1` when at least two of `A`, `B`, and `C` have a `1` there.
+
+why this rule fits the examples:
+- `11010101`: `A = 10111010`, `B = 10101000`, `C = 00001101`. Bitwise majority gives `10101000`, matching the example.
+- `11010010`: `A = 01011010`, `B = 10010000`, `C = 00001101`. The overlapping `1`s land at bits 3 and 4, giving `00011000`.
+- `10011001`: `A = 00110011`, `B = 11001000`, `C = 00001001`. Only the bits supported by at least two of the three values survive, giving `00001001`.
+- `00001111`: `A = 11100001`, `B = 01111000`, `C = 00000000`. The only positions with two supporting `1`s produce `01100000`.
+- The same majority computation reproduces all seven provided examples exactly.
+
+step-by-step application to the query:
+1. Start with `x = 01100110`.
+2. Rotate right by 3 bits:
+   `A = ror(x, 3) = 11001100`.
+3. Shift left by 3 bits within 8 bits:
+   `B = (x << 3) & 11111111 = 00110000`.
+4. Shift right by 4 bits:
+   `C = x >> 4 = 00000110`.
+5. Take pairwise overlaps:
+   `A & B = 00000000`
+   `A & C = 00000100`
+   `B & C = 00000000`
+6. OR the overlaps together:
+   `00000000 | 00000100 | 00000000 = 00000100`.
+
+predicted answer:
+- 00000100
+
+confidence note:
+- High confidence. This majority-of-three rule matches every example exactly and uses only standard rotate, shift, and majority operations named in the prompt.

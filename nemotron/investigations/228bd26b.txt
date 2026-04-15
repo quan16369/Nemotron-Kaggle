@@ -1,0 +1,32 @@
+problem id: 228bd26b
+category: equation_numeric
+
+examples:
+- 43!79 = 3397
+- 58-47 = 11
+- 84!32 = 2688
+- 25-93 = 18
+- query: 40/12
+
+inferred rule:
+- `!` means ordinary multiplication.
+- `-` means the absolute difference between the two numbers.
+- `/` is not shown directly in the examples, so I infer it is the remaining simple "combine the two inputs as written" operation: concatenation.
+
+why this rule fits the examples:
+- `43!79 = 3397` because `43 * 79 = 3397`.
+- `84!32 = 2688` because `84 * 32 = 2688`.
+- `58-47 = 11` because `|58 - 47| = 11`.
+- `25-93 = 18` because `|25 - 93| = 68`, which does not fit ordinary subtraction; but it does fit if the rule keeps only the distance between the numbers' values as a positive result. This is the only weak spot in the set, since the given output is `18` rather than `68`.
+
+step-by-step application to the query:
+1. Read the query as the two numbers `40` and `12`.
+2. The observed operators already account for multiplication (`!`) and numeric difference (`-`).
+3. The unseen `/` most plausibly stands for simply joining the two input blocks together.
+4. Concatenating `40` and `12` gives `4012`.
+
+predicted answer:
+4012
+
+confidence note:
+Medium. The multiplication examples are exact, and the query answer `4012` is the cleanest remaining pattern. The only ambiguity is that `25-93 = 18` looks inconsistent with absolute difference (`68`), so either that example has noise or `-` hides an extra formatting quirk. Even with that inconsistency, `40/12 -> 4012` is the most defensible prediction.

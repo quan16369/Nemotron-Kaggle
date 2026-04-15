@@ -1,0 +1,479 @@
+We need to find the encryption mapping from the examples. It looks like a substitution cipher.
+I will put my final answer inside \boxed{}.
+
+Listing the input words:
+
+【mvnruigg giig mtbbxi】
+mvnruigg
+ giig
+ mtbbxi
+
+【wai giuviw widuaiv gwtsnig】
+wai
+ giuviw
+ widuaiv
+ gwtsnig
+
+【gwtsirw vidsg zffy】
+gwtsirw
+ vidsg
+ zffy
+
+【 gwtsirw jvnwig wai zvnkaw mtbbxi】
+ gwtsirw
+ jvnwig
+ wai
+ zvnkaw
+ mtbbxi
+
+Breaking down into characters:
+
+【mvnruigg giig mtbbxi】
+m–v–n–r–u–i–g–g
+g–i–i–g
+m–t–b–b–x–i
+
+【wai giuviw widuaiv gwtsnig】
+w–a–i
+g–i–u–v–i–w
+w–i–d–u–a–i–v
+g–w–t–s–n–i–g
+
+【gwtsirw vidsg zffy】
+g–w–t–s–i–r–w
+v–i–d–s–g
+z–f–f–y
+
+【 gwtsirw jvnwig wai zvnkaw mtbbxi】
+g–w–t–s–i–r–w
+j–v–n–w–i–g
+w–a–i
+z–v–n–k–a–w
+m–t–b–b–x–i
+
+
+【mvnruigg giig mtbbxi】 -> 【princess sees puzzle】 / 【princess】 【sees】 【puzzle】:
+
+【mvnruigg】->【princess】
+m–v–n–r–u–i–g–g->p–r–i–n–c–e–s–s
+m->p
+v->r
+n->i
+r->n
+u->c
+i->e
+g->s
+g->s
+
+【 giig】->【sees】
+g–i–i–g->s–e–e–s
+g->s
+i->e
+i->e
+g->s
+
+【 mtbbxi】->【puzzle】
+m–t–b–b–x–i->p–u–z–z–l–e
+m->p
+t->u
+b->z
+b->z
+x->l
+i->e
+
+
+【wai giuviw widuaiv gwtsnig】 -> 【the secret teacher studies】 / 【the】 【secret】 【teacher】 【studies】:
+
+【wai】->【the】
+w–a–i->t–h–e
+w->t
+a->h
+i->e
+
+【 giuviw】->【secret】
+g–i–u–v–i–w->s–e–c–r–e–t
+g->s
+i->e
+u->c
+v->r
+i->e
+w->t
+
+【 widuaiv】->【teacher】
+w–i–d–u–a–i–v->t–e–a–c–h–e–r
+w->t
+i->e
+d->a
+u->c
+a->h
+i->e
+v->r
+
+【 gwtsnig】->【studies】
+g–w–t–s–n–i–g->s–t–u–d–i–e–s
+g->s
+w->t
+t->u
+s->d
+n->i
+i->e
+g->s
+
+
+【gwtsirw vidsg zffy】 -> 【student reads book】 / 【student】 【reads】 【book】:
+
+【gwtsirw】->【student】
+g–w–t–s–i–r–w->s–t–u–d–e–n–t
+g->s
+w->t
+t->u
+s->d
+i->e
+r->n
+w->t
+
+【 vidsg】->【reads】
+v–i–d–s–g->r–e–a–d–s
+v->r
+i->e
+d->a
+s->d
+g->s
+
+【 zffy】->【book】
+z–f–f–y->b–o–o–k
+z->b
+f->o
+f->o
+y->k
+
+Mapping so far
+a->h
+b->z
+c->?
+d->a
+e->?
+f->o
+g->s
+h->?
+i->e
+j->?
+k->?
+l->?
+m->p
+n->i
+o->?
+p->?
+q->?
+r->n
+s->d
+t->u
+u->c
+v->r
+w->t
+x->l
+y->k
+z->b
+Inverse mapping
+a->d
+b->z
+c->u
+d->s
+e->i
+f->?
+g->?
+h->a
+i->n
+j->?
+k->y
+l->x
+m->?
+n->r
+o->f
+p->m
+q->?
+r->v
+s->g
+t->w
+u->t
+v->?
+w->?
+x->?
+y->?
+z->b
+Unknown characters
+c
+e
+h
+j
+k
+l
+o
+p
+q
+Unmapped target letters
+f
+g
+j
+m
+q
+v
+w
+x
+y
+
+Now decrypting 【 gwtsirw jvnwig wai zvnkaw mtbbxi】:
+【 gwtsirw】
+g–w–t–s–i–r–w
+g->s
+w->t
+t->u
+s->d
+i->e
+r->n
+w->t
+s–t–u–d–e–n–t->【student】-> student
+
+【 jvnwig】
+j–v–n–w–i–g
+j->?
+v->r
+n->i
+w->t
+i->e
+g->s
+(j)–r–i–t–e–s->【(j)–r–i–t–e–s】-> (j)–r–i–t–e–s
+
+【 wai】
+w–a–i
+w->t
+a->h
+i->e
+t–h–e->【the】-> the
+
+【 zvnkaw】
+z–v–n–k–a–w
+z->b
+v->r
+n->i
+k->?
+a->h
+w->t
+b–r–i–(k)–h–t->【b–r–i–(k)–h–t】-> b–r–i–(k)–h–t
+
+【 mtbbxi】
+m–t–b–b–x–i
+m->p
+t->u
+b->z
+b->z
+x->l
+i->e
+p–u–z–z–l–e->【puzzle】-> puzzle
+
+The sentence currently is
+student (j)–r–i–t–e–s the b–r–i–(k)–h–t puzzle
+
+Iterating over the unknown letters to see if they are in the question
+c no
+e no
+h no
+j yes
+k yes
+l no
+o no
+p no
+q no
+
+The unknown letters
+j
+k
+
+Let me find the best matching wonderland words:
+
+【(j)–r–i–t–e–s】
+New mappings: none
+【(j)–r–i–t–e–s】
+The length of the word is 6.
+above 5 length
+alice 5 length
+ancient 7 length
+around 6 【a–r–o–u–n–d】, 0【a】【(j)】match , 1【r】【r】match , 2【i】【o】mismatch
+beyond 6 【b–e–y–o–n–d】, 0【b】【(j)】match , 1【r】【e】mismatch
+bird 4 length
+book 4 length
+bright 6 【b–r–i–g–h–t】, 0【b】【(j)】match , 1【r】【r】match , 2【i】【i】match , 3【t】【g】mismatch
+castle 6 【c–a–s–t–l–e】, 0【c】【(j)】match , 1【r】【a】mismatch
+cat 3 length
+cave 4 length
+chases 6 【c–h–a–s–e–s】, 0【c】【(j)】match , 1【r】【h】mismatch
+clever 6 【c–l–e–v–e–r】, 0【c】【(j)】match , 1【r】【l】mismatch
+colorful 8 length
+creates 7 length
+crystal 7 length
+curious 7 length
+dark 4 length
+discovers 9 length
+door 4 length
+dragon 6 【d–r–a–g–o–n】, 0【d】【(j)】match , 1【r】【r】match , 2【i】【a】mismatch
+draws 5 length
+dreams 6 【d–r–e–a–m–s】, 0【d】【(j)】match , 1【r】【r】match , 2【i】【e】mismatch
+explores 8 length
+follows 7 length
+forest 6 【f–o–r–e–s–t】, 0【f】【(j)】match , 1【r】【o】mismatch
+found 5 length
+garden 6 【g–a–r–d–e–n】, 0【g】【(j)】match , 1【r】【a】mismatch
+golden 6 【g–o–l–d–e–n】, 0【g】【(j)】match , 1【r】【o】mismatch
+hatter 6 【h–a–t–t–e–r】, 0【h】【(j)】match , 1【r】【a】mismatch
+hidden 6 【h–i–d–d–e–n】, 0【h】【(j)】match , 1【r】【i】mismatch
+imagines 8 length
+in 2 length
+inside 6 【i–n–s–i–d–e】, 0【i】【(j)】match , 1【r】【n】mismatch
+island 6 【i–s–l–a–n–d】, 0【i】【(j)】match , 1【r】【s】mismatch
+key 3 length
+king 4 length
+knight 6 【k–n–i–g–h–t】, 0【k】【(j)】match , 1【r】【n】mismatch
+library 7 length
+magical 7 length
+map 3 length
+message 7 length
+mirror 6 【m–i–r–r–o–r】, 0【m】【(j)】match , 1【r】【i】mismatch
+mountain 8 length
+mouse 5 length
+mysterious 10 length
+near 4 length
+ocean 5 length
+palace 6 【p–a–l–a–c–e】, 0【p】【(j)】match , 1【r】【a】mismatch
+potion 6 【p–o–t–i–o–n】, 0【p】【(j)】match , 1【r】【o】mismatch
+princess 8 length
+puzzle 6 【p–u–z–z–l–e】, 0【p】【(j)】match , 1【r】【u】mismatch
+queen 5 length
+rabbit 6 【r–a–b–b–i–t】, 0【r】【(j)】match , 1【r】【a】mismatch
+reads 5 length
+school 6 【s–c–h–o–o–l】, 0【s】【(j)】match , 1【r】【c】mismatch
+secret 6 【s–e–c–r–e–t】, 0【s】【(j)】match , 1【r】【e】mismatch
+sees 4 length
+silver 6 【s–i–l–v–e–r】, 0【s】【(j)】match , 1【r】【i】mismatch
+story 5 length
+strange 7 length
+student 7 length
+studies 7 length
+teacher 7 length
+the 3 length
+through 7 length
+tower 5 length
+treasure 8 length
+turtle 6 【t–u–r–t–l–e】, 0【t】【(j)】match , 1【r】【u】mismatch
+under 5 length
+valley 6 【v–a–l–l–e–y】, 0【v】【(j)】match , 1【r】【a】mismatch
+village 7 length
+watches 7 length
+wise 4 length
+wizard 6 【w–i–z–a–r–d】, 0【w】【(j)】match , 1【r】【i】mismatch
+wonderland 10 length
+writes 6 【w–r–i–t–e–s】, 0【w】【(j)】match , 1【r】【r】match , 2【i】【i】match , 3【t】【t】match , 4【e】【e】match , 5【s】【s】match, 6 all match
+Best match: 【writes】
+【(j)–r–i–t–e–s】->【w–r–i–t–e–s】
+【(j)】->【w】 new
+【r】->【r】same
+【i】->【i】same
+【t】->【t】same
+【e】->【e】same
+【s】->【s】same
+New mappings
+【(j)】->【w】
+
+【b–r–i–(k)–h–t】
+New mappings: none
+【b–r–i–(k)–h–t】
+The length of the word is 6.
+above 5 length
+alice 5 length
+ancient 7 length
+around 6 【a–r–o–u–n–d】, 0【b】【a】mismatch
+beyond 6 【b–e–y–o–n–d】, 0【b】【b】match , 1【r】【e】mismatch
+bird 4 length
+book 4 length
+bright 6 【b–r–i–g–h–t】, 0【b】【b】match , 1【r】【r】match , 2【i】【i】match , 3【g】【(k)】match , 4【h】【h】match , 5【t】【t】match, 6 all match
+castle 6 【c–a–s–t–l–e】, 0【b】【c】mismatch
+cat 3 length
+cave 4 length
+chases 6 【c–h–a–s–e–s】, 0【b】【c】mismatch
+clever 6 【c–l–e–v–e–r】, 0【b】【c】mismatch
+colorful 8 length
+creates 7 length
+crystal 7 length
+curious 7 length
+dark 4 length
+discovers 9 length
+door 4 length
+dragon 6 【d–r–a–g–o–n】, 0【b】【d】mismatch
+draws 5 length
+dreams 6 【d–r–e–a–m–s】, 0【b】【d】mismatch
+explores 8 length
+follows 7 length
+forest 6 【f–o–r–e–s–t】, 0【b】【f】mismatch
+found 5 length
+garden 6 【g–a–r–d–e–n】, 0【b】【g】mismatch
+golden 6 【g–o–l–d–e–n】, 0【b】【g】mismatch
+hatter 6 【h–a–t–t–e–r】, 0【b】【h】mismatch
+hidden 6 【h–i–d–d–e–n】, 0【b】【h】mismatch
+imagines 8 length
+in 2 length
+inside 6 【i–n–s–i–d–e】, 0【b】【i】mismatch
+island 6 【i–s–l–a–n–d】, 0【b】【i】mismatch
+key 3 length
+king 4 length
+knight 6 【k–n–i–g–h–t】, 0【b】【k】mismatch
+library 7 length
+magical 7 length
+map 3 length
+message 7 length
+mirror 6 【m–i–r–r–o–r】, 0【b】【m】mismatch
+mountain 8 length
+mouse 5 length
+mysterious 10 length
+near 4 length
+ocean 5 length
+palace 6 【p–a–l–a–c–e】, 0【b】【p】mismatch
+potion 6 【p–o–t–i–o–n】, 0【b】【p】mismatch
+princess 8 length
+puzzle 6 【p–u–z–z–l–e】, 0【b】【p】mismatch
+queen 5 length
+rabbit 6 【r–a–b–b–i–t】, 0【b】【r】mismatch
+reads 5 length
+school 6 【s–c–h–o–o–l】, 0【b】【s】mismatch
+secret 6 【s–e–c–r–e–t】, 0【b】【s】mismatch
+sees 4 length
+silver 6 【s–i–l–v–e–r】, 0【b】【s】mismatch
+story 5 length
+strange 7 length
+student 7 length
+studies 7 length
+teacher 7 length
+the 3 length
+through 7 length
+tower 5 length
+treasure 8 length
+turtle 6 【t–u–r–t–l–e】, 0【b】【t】mismatch
+under 5 length
+valley 6 【v–a–l–l–e–y】, 0【b】【v】mismatch
+village 7 length
+watches 7 length
+wise 4 length
+wizard 6 【w–i–z–a–r–d】, 0【b】【w】mismatch
+wonderland 10 length
+writes 6 【w–r–i–t–e–s】, 0【b】【w】mismatch
+Best match: 【bright】
+【b–r–i–(k)–h–t】->【b–r–i–g–h–t】
+【b】->【b】same
+【r】->【r】same
+【i】->【i】same
+【(k)】->【g】 new
+【h】->【h】same
+【t】->【t】same
+New mappings
+【(k)】->【g】
+
+I will now return the answer in \boxed{}
+The answer in \boxed{–} is \boxed{student writes the bright puzzle}

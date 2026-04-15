@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 hing calma gjenn
+01 nj trouver urgent
+02 iedlung bordo prere
+
+This is a sample output.
+00 hing calma gjenn -> –h–i–n–g–c–a–l–m–a–g–j–e–n–n–
+01 nj trouver urgent -> –n–j–t–r–o–u–v–e–r–u–r–g–e–n–t–
+02 iedlung bordo prere -> –i–e–d–l–u–n–g–b–o–r–d–o–p–r–e–r–e–
+
+This is your input.
+00 ffer odst larvae
+01 epend evil kerana
+02 iping oubl sixth
+03 pekte devenue territor
+04 heure seraient retrieve
+05 gica dt excised
+06 likely sheep gelang
+07 rah chewing deletion
+08 imard petite recurs
+09 haria trailed drog
+10 larga hero producen
+11 live powers jam
+12 isseurs supuesto survived
+13 ibu treating gespielt
+14 mons svjet confi
+15 orman sable validity
+16 ffe sostiene stanie
+17 els martial retourn
+18 owe fier fouilles
+19 iging lov strat
+20 ducation permiso ich
+21 ett diseases grind
+22 ars victim discord
+23 aderos pyro especie
+24 roupes hipot hammer
+25 invalid verder whistle
+26 ivable zgod gases
+27 plaats floats firmware
+28 onik sekali extrap
+29 istiche bald sen
+30 ovsk tiss perif
+31 ellas poema wurden
+32 reda ones szav
+33 loaded breeds iii
+34 work niez conce
+35 wich varia sowjet
+36 poor revers tentou
+37 ellig suffers prven
+38 arges tanto remnants
+39 coma svojih kumpulan
+40 kern olig pause
+41 aciji nineteen gry
+42 location homens rng
+43 erintah poly graduate
+44 ulator improb whisk
+45 pe negocios tierra
+46 nice laund forsk
+47 uldade jurisd apro
+48 ert shunt converte
+49 gz boh pts
+50 enean waarvan maire
+51 ruption zvol revision
+52 hmen meno besk
+53 dem verbess ganar
+54 itta philos reveals
+55 cimentos estatua cuanto
+56 gele sete sinist
+57 tokens llarg wyk
+58 ivit saj oamen
+59 ahm welchem endet
+60 great rojo monte
+61 yg titled keeper
+62 oru stderr disp
+63 ociated varying leaking
+64 me her arises
+65 isco memset axe
+66 rar llamadas fetus
+67 elson ene janari
+68 ionych seconda lunettes
+69 ulk see excision
+70 erse danh python
+71 arial belong peine
+72 stuk numa windows
+73 emarken conver passion
+74 tools cloth sqlite
+75 garde convuls behaupt
+76 entr poultry seeding
+77 nek serai product
+78 prus labelled waren
+79 stelle caff eh
+80 indra nutr yas
+81 iscopal noter spike
+82 ither dinheiro egin
+83 rieb obl versant
+84 leg helper comuns
+85 uty grading addict
+86 serve plu regl
+87 odik filos sportive
+88 enze pills cette
+89 opatra advocate pastoral
+90 kommer axon kar
+91 pung adress langue
+92 children comic gluten
+93 indows cornea drafted
+94 border epiz aprendiz
+95 phicon provoz che
+96 iries lump reden
+97 stract dichiar solvent
+98 undi vod numeral
+99 olution fib proprie
+[completion]
+00 ffer odst larvae -> –f–f–e–r–o–d–s–t–l–a–r–v–a–e–
+01 epend evil kerana -> –e–p–e–n–d–e–v–i–l–k–e–r–a–n–a–
+02 iping oubl sixth -> –i–p–i–n–g–o–u–b–l–s–i–x–t–h–
+03 pekte devenue territor -> –p–e–k–t–e–d–e–v–e–n–u–e–t–e–r–r–i–t–o–r–
+04 heure seraient retrieve -> –h–e–u–r–e–s–e–r–a–i–e–n–t–r–e–t–r–i–e–v–e–
+05 gica dt excised -> –g–i–c–a–d–t–e–x–c–i–s–e–d–
+06 likely sheep gelang -> –l–i–k–e–l–y–s–h–e–e–p–g–e–l–a–n–g–
+07 rah chewing deletion -> –r–a–h–c–h–e–w–i–n–g–d–e–l–e–t–i–o–n–
+08 imard petite recurs -> –i–m–a–r–d–p–e–t–i–t–e–r–e–c–u–r–s–
+09 haria trailed drog -> –h–a–r–i–a–t–r–a–i–l–e–d–d–r–o–g–
+10 larga hero producen -> –l–a–r–g–a–h–e–r–o–p–r–o–d–u–c–e–n–
+11 live powers jam -> –l–i–v–e–p–o–w–e–r–s–j–a–m–
+12 isseurs supuesto survived -> –i–s–s–e–u–r–s–s–u–p–u–e–s–t–o–s–u–r–v–i–v–e–d–
+13 ibu treating gespielt -> –i–b–u–t–r–e–a–t–i–n–g–g–e–s–p–i–e–l–t–
+14 mons svjet confi -> –m–o–n–s–s–v–j–e–t–c–o–n–f–i–
+15 orman sable validity -> –o–r–m–a–n–s–a–b–l–e–v–a–l–i–d–i–t–y–
+16 ffe sostiene stanie -> –f–f–e–s–o–s–t–i–e–n–e–s–t–a–n–i–e–
+17 els martial retourn -> –e–l–s–m–a–r–t–i–a–l–r–e–t–o–u–r–n–
+18 owe fier fouilles -> –o–w–e–f–i–e–r–f–o–u–i–l–l–e–s–
+19 iging lov strat -> –i–g–i–n–g–l–o–v–s–t–r–a–t–
+20 ducation permiso ich -> –d–u–c–a–t–i–o–n–p–e–r–m–i–s–o–i–c–h–
+21 ett diseases grind -> –e–t–t–d–i–s–e–a–s–e–s–g–r–i–n–d–
+22 ars victim discord -> –a–r–s–v–i–c–t–i–m–d–i–s–c–o–r–d–
+23 aderos pyro especie -> –a–d–e–r–o–s–p–y–r–o–e–s–p–e–c–i–e–
+24 roupes hipot hammer -> –r–o–u–p–e–s–h–i–p–o–t–h–a–m–m–e–r–
+25 invalid verder whistle -> –i–n–v–a–l–i–d–v–e–r–d–e–r–w–h–i–s–t–l–e–
+26 ivable zgod gases -> –i–v–a–b–l–e–z–g–o–d–g–a–s–e–s–
+27 plaats floats firmware -> –p–l–a–a–t–s–f–l–o–a–t–s–f–i–r–m–w–a–r–e–
+28 onik sekali extrap -> –o–n–i–k–s–e–k–a–l–i–e–x–t–r–a–p–
+29 istiche bald sen -> –i–s–t–i–c–h–e–b–a–l–d–s–e–n–
+30 ovsk tiss perif -> –o–v–s–k–t–i–s–s–p–e–r–i–f–
+31 ellas poema wurden -> –e–l–l–a–s–p–o–e–m–a–w–u–r–d–e–n–
+32 reda ones szav -> –r–e–d–a–o–n–e–s–s–z–a–v–
+33 loaded breeds iii -> –l–o–a–d–e–d–b–r–e–e–d–s–i–i–i–
+34 work niez conce -> –w–o–r–k–n–i–e–z–c–o–n–c–e–
+35 wich varia sowjet -> –w–i–c–h–v–a–r–i–a–s–o–w–j–e–t–
+36 poor revers tentou -> –p–o–o–r–r–e–v–e–r–s–t–e–n–t–o–u–
+37 ellig suffers prven -> –e–l–l–i–g–s–u–f–f–e–r–s–p–r–v–e–n–
+38 arges tanto remnants -> –a–r–g–e–s–t–a–n–t–o–r–e–m–n–a–n–t–s–
+39 coma svojih kumpulan -> –c–o–m–a–s–v–o–j–i–h–k–u–m–p–u–l–a–n–
+40 kern olig pause -> –k–e–r–n–o–l–i–g–p–a–u–s–e–
+41 aciji nineteen gry -> –a–c–i–j–i–n–i–n–e–t–e–e–n–g–r–y–
+42 location homens rng -> –l–o–c–a–t–i–o–n–h–o–m–e–n–s–r–n–g–
+43 erintah poly graduate -> –e–r–i–n–t–a–h–p–o–l–y–g–r–a–d–u–a–t–e–
+44 ulator improb whisk -> –u–l–a–t–o–r–i–m–p–r–o–b–w–h–i–s–k–
+45 pe negocios tierra -> –p–e–n–e–g–o–c–i–o–s–t–i–e–r–r–a–
+46 nice laund forsk -> –n–i–c–e–l–a–u–n–d–f–o–r–s–k–
+47 uldade jurisd apro -> –u–l–d–a–d–e–j–u–r–i–s–d–a–p–r–o–
+48 ert shunt converte -> –e–r–t–s–h–u–n–t–c–o–n–v–e–r–t–e–
+49 gz boh pts -> –g–z–b–o–h–p–t–s–
+50 enean waarvan maire -> –e–n–e–a–n–w–a–a–r–v–a–n–m–a–i–r–e–
+51 ruption zvol revision -> –r–u–p–t–i–o–n–z–v–o–l–r–e–v–i–s–i–o–n–
+52 hmen meno besk -> –h–m–e–n–m–e–n–o–b–e–s–k–
+53 dem verbess ganar -> –d–e–m–v–e–r–b–e–s–s–g–a–n–a–r–
+54 itta philos reveals -> –i–t–t–a–p–h–i–l–o–s–r–e–v–e–a–l–s–
+55 cimentos estatua cuanto -> –c–i–m–e–n–t–o–s–e–s–t–a–t–u–a–c–u–a–n–t–o–
+56 gele sete sinist -> –g–e–l–e–s–e–t–e–s–i–n–i–s–t–
+57 tokens llarg wyk -> –t–o–k–e–n–s–l–l–a–r–g–w–y–k–
+58 ivit saj oamen -> –i–v–i–t–s–a–j–o–a–m–e–n–
+59 ahm welchem endet -> –a–h–m–w–e–l–c–h–e–m–e–n–d–e–t–
+60 great rojo monte -> –g–r–e–a–t–r–o–j–o–m–o–n–t–e–
+61 yg titled keeper -> –y–g–t–i–t–l–e–d–k–e–e–p–e–r–
+62 oru stderr disp -> –o–r–u–s–t–d–e–r–r–d–i–s–p–
+63 ociated varying leaking -> –o–c–i–a–t–e–d–v–a–r–y–i–n–g–l–e–a–k–i–n–g–
+64 me her arises -> –m–e–h–e–r–a–r–i–s–e–s–
+65 isco memset axe -> –i–s–c–o–m–e–m–s–e–t–a–x–e–
+66 rar llamadas fetus -> –r–a–r–l–l–a–m–a–d–a–s–f–e–t–u–s–
+67 elson ene janari -> –e–l–s–o–n–e–n–e–j–a–n–a–r–i–
+68 ionych seconda lunettes -> –i–o–n–y–c–h–s–e–c–o–n–d–a–l–u–n–e–t–t–e–s–
+69 ulk see excision -> –u–l–k–s–e–e–e–x–c–i–s–i–o–n–
+70 erse danh python -> –e–r–s–e–d–a–n–h–p–y–t–h–o–n–
+71 arial belong peine -> –a–r–i–a–l–b–e–l–o–n–g–p–e–i–n–e–
+72 stuk numa windows -> –s–t–u–k–n–u–m–a–w–i–n–d–o–w–s–
+73 emarken conver passion -> –e–m–a–r–k–e–n–c–o–n–v–e–r–p–a–s–s–i–o–n–
+74 tools cloth sqlite -> –t–o–o–l–s–c–l–o–t–h–s–q–l–i–t–e–
+75 garde convuls behaupt -> –g–a–r–d–e–c–o–n–v–u–l–s–b–e–h–a–u–p–t–
+76 entr poultry seeding -> –e–n–t–r–p–o–u–l–t–r–y–s–e–e–d–i–n–g–
+77 nek serai product -> –n–e–k–s–e–r–a–i–p–r–o–d–u–c–t–
+78 prus labelled waren -> –p–r–u–s–l–a–b–e–l–l–e–d–w–a–r–e–n–
+79 stelle caff eh -> –s–t–e–l–l–e–c–a–f–f–e–h–
+80 indra nutr yas -> –i–n–d–r–a–n–u–t–r–y–a–s–
+81 iscopal noter spike -> –i–s–c–o–p–a–l–n–o–t–e–r–s–p–i–k–e–
+82 ither dinheiro egin -> –i–t–h–e–r–d–i–n–h–e–i–r–o–e–g–i–n–
+83 rieb obl versant -> –r–i–e–b–o–b–l–v–e–r–s–a–n–t–
+84 leg helper comuns -> –l–e–g–h–e–l–p–e–r–c–o–m–u–n–s–
+85 uty grading addict -> –u–t–y–g–r–a–d–i–n–g–a–d–d–i–c–t–
+86 serve plu regl -> –s–e–r–v–e–p–l–u–r–e–g–l–
+87 odik filos sportive -> –o–d–i–k–f–i–l–o–s–s–p–o–r–t–i–v–e–
+88 enze pills cette -> –e–n–z–e–p–i–l–l–s–c–e–t–t–e–
+89 opatra advocate pastoral -> –o–p–a–t–r–a–a–d–v–o–c–a–t–e–p–a–s–t–o–r–a–l–
+90 kommer axon kar -> –k–o–m–m–e–r–a–x–o–n–k–a–r–
+91 pung adress langue -> –p–u–n–g–a–d–r–e–s–s–l–a–n–g–u–e–
+92 children comic gluten -> –c–h–i–l–d–r–e–n–c–o–m–i–c–g–l–u–t–e–n–
+93 indows cornea drafted -> –i–n–d–o–w–s–c–o–r–n–e–a–d–r–a–f–t–e–d–
+94 border epiz aprendiz -> –b–o–r–d–e–r–e–p–i–z–a–p–r–e–n–d–i–z–
+95 phicon provoz che -> –p–h–i–c–o–n–p–r–o–v–o–z–c–h–e–
+96 iries lump reden -> –i–r–i–e–s–l–u–m–p–r–e–d–e–n–
+97 stract dichiar solvent -> –s–t–r–a–c–t–d–i–c–h–i–a–r–s–o–l–v–e–n–t–
+98 undi vod numeral -> –u–n–d–i–v–o–d–n–u–m–e–r–a–l–
+99 olution fib proprie -> –o–l–u–t–i–o–n–f–i–b–p–r–o–p–r–i–e–

@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 hov destaca frappe
+01 people tenants nor
+02 ivel ombre occhi
+
+This is a sample output.
+00 hov destaca frappe -> –h–o–v–d–e–s–t–a–c–a–f–r–a–p–p–e–
+01 people tenants nor -> –p–e–o–p–l–e–t–e–n–a–n–t–s–n–o–r–
+02 ivel ombre occhi -> –i–v–e–l–o–m–b–r–e–o–c–c–h–i–
+
+This is your input.
+00 onian cad honorary
+01 reuth filing chiffre
+02 ildi mistrz schw
+03 entzako chica mujer
+04 gaben sonido russo
+05 werks bipolar kuiten
+06 richt finishes paranc
+07 azi schi gly
+08 ed mould pochod
+09 asie incluida sized
+10 ivano shown anyag
+11 rom bonus stub
+12 flamm koli cinqu
+13 fatt warm alleen
+14 group serais fabric
+15 adro een freie
+16 pending println antibody
+17 otype cortical dem
+18 istencia named passage
+19 amat compute canzone
+20 elerin acciones heid
+21 git alok mask
+22 works honesty doktor
+23 alan intra novels
+24 igator extracts poverty
+25 ocas rests among
+26 ofi dele crisp
+27 bern casc permiten
+28 ighbors excl posled
+29 erground feitas zv
+30 chanical valt lemb
+31 root hizo magn
+32 isses izb garg
+33 ymal temos kj
+34 menistan relay hik
+35 itone retained aquell
+36 opp deleg convoc
+37 ozat misiones xo
+38 enses rica flora
+39 ijk huile sun
+40 harm desg iba
+41 rew lief szy
+42 sten mixing entries
+43 zn seize wetlands
+44 madan kur nek
+45 atabase throws citt
+46 rosso unh volg
+47 mounted multaj moll
+48 zing somatic look
+49 mark pow segle
+50 bishop fo lort
+51 blems ausz kendi
+52 voit paysage val
+53 atient enfer realiz
+54 iline decom knights
+55 otta sifat erf
+56 yyyy avance benz
+57 ohlen flo actu
+58 voc vormen neuer
+59 ird awarded theft
+60 kk fundo bildete
+61 erint alat restored
+62 generic reopened dies
+63 zoic synapses teil
+64 iff intel onto
+65 uck nano spes
+66 ields buyers cogn
+67 projects conspi advocacy
+68 annels swojego settled
+69 vice zomb animale
+70 endt predsjed humanos
+71 text paras hir
+72 biotic mutta vanlig
+73 tober pige hash
+74 ct past hit
+75 indo sezonie uranium
+76 aps bottom belle
+77 illus allong proposed
+78 paper cos retract
+79 uduk reagent rond
+80 compass opioid mares
+81 deling gior gears
+82 ceived sync leta
+83 chart extent portion
+84 rado tongue chapeau
+85 attro warranty cate
+86 binding holder astron
+87 ogl champion szk
+88 mem gerek glands
+89 kers reduct raff
+90 meister sigue dear
+91 jal croit ancestry
+92 ajima tapes elementi
+93 ietro apenas debated
+94 stav sabe adjo
+95 posite mimics einzig
+96 istiin milieux onderaf
+97 ela variety ancestor
+98 prise acteurs indent
+99 isted slav toho
+[completion]
+00 onian cad honorary -> –o–n–i–a–n–c–a–d–h–o–n–o–r–a–r–y–
+01 reuth filing chiffre -> –r–e–u–t–h–f–i–l–i–n–g–c–h–i–f–f–r–e–
+02 ildi mistrz schw -> –i–l–d–i–m–i–s–t–r–z–s–c–h–w–
+03 entzako chica mujer -> –e–n–t–z–a–k–o–c–h–i–c–a–m–u–j–e–r–
+04 gaben sonido russo -> –g–a–b–e–n–s–o–n–i–d–o–r–u–s–s–o–
+05 werks bipolar kuiten -> –w–e–r–k–s–b–i–p–o–l–a–r–k–u–i–t–e–n–
+06 richt finishes paranc -> –r–i–c–h–t–f–i–n–i–s–h–e–s–p–a–r–a–n–c–
+07 azi schi gly -> –a–z–i–s–c–h–i–g–l–y–
+08 ed mould pochod -> –e–d–m–o–u–l–d–p–o–c–h–o–d–
+09 asie incluida sized -> –a–s–i–e–i–n–c–l–u–i–d–a–s–i–z–e–d–
+10 ivano shown anyag -> –i–v–a–n–o–s–h–o–w–n–a–n–y–a–g–
+11 rom bonus stub -> –r–o–m–b–o–n–u–s–s–t–u–b–
+12 flamm koli cinqu -> –f–l–a–m–m–k–o–l–i–c–i–n–q–u–
+13 fatt warm alleen -> –f–a–t–t–w–a–r–m–a–l–l–e–e–n–
+14 group serais fabric -> –g–r–o–u–p–s–e–r–a–i–s–f–a–b–r–i–c–
+15 adro een freie -> –a–d–r–o–e–e–n–f–r–e–i–e–
+16 pending println antibody -> –p–e–n–d–i–n–g–p–r–i–n–t–l–n–a–n–t–i–b–o–d–y–
+17 otype cortical dem -> –o–t–y–p–e–c–o–r–t–i–c–a–l–d–e–m–
+18 istencia named passage -> –i–s–t–e–n–c–i–a–n–a–m–e–d–p–a–s–s–a–g–e–
+19 amat compute canzone -> –a–m–a–t–c–o–m–p–u–t–e–c–a–n–z–o–n–e–
+20 elerin acciones heid -> –e–l–e–r–i–n–a–c–c–i–o–n–e–s–h–e–i–d–
+21 git alok mask -> –g–i–t–a–l–o–k–m–a–s–k–
+22 works honesty doktor -> –w–o–r–k–s–h–o–n–e–s–t–y–d–o–k–t–o–r–
+23 alan intra novels -> –a–l–a–n–i–n–t–r–a–n–o–v–e–l–s–
+24 igator extracts poverty -> –i–g–a–t–o–r–e–x–t–r–a–c–t–s–p–o–v–e–r–t–y–
+25 ocas rests among -> –o–c–a–s–r–e–s–t–s–a–m–o–n–g–
+26 ofi dele crisp -> –o–f–i–d–e–l–e–c–r–i–s–p–
+27 bern casc permiten -> –b–e–r–n–c–a–s–c–p–e–r–m–i–t–e–n–
+28 ighbors excl posled -> –i–g–h–b–o–r–s–e–x–c–l–p–o–s–l–e–d–
+29 erground feitas zv -> –e–r–g–r–o–u–n–d–f–e–i–t–a–s–z–v–
+30 chanical valt lemb -> –c–h–a–n–i–c–a–l–v–a–l–t–l–e–m–b–
+31 root hizo magn -> –r–o–o–t–h–i–z–o–m–a–g–n–
+32 isses izb garg -> –i–s–s–e–s–i–z–b–g–a–r–g–
+33 ymal temos kj -> –y–m–a–l–t–e–m–o–s–k–j–
+34 menistan relay hik -> –m–e–n–i–s–t–a–n–r–e–l–a–y–h–i–k–
+35 itone retained aquell -> –i–t–o–n–e–r–e–t–a–i–n–e–d–a–q–u–e–l–l–
+36 opp deleg convoc -> –o–p–p–d–e–l–e–g–c–o–n–v–o–c–
+37 ozat misiones xo -> –o–z–a–t–m–i–s–i–o–n–e–s–x–o–
+38 enses rica flora -> –e–n–s–e–s–r–i–c–a–f–l–o–r–a–
+39 ijk huile sun -> –i–j–k–h–u–i–l–e–s–u–n–
+40 harm desg iba -> –h–a–r–m–d–e–s–g–i–b–a–
+41 rew lief szy -> –r–e–w–l–i–e–f–s–z–y–
+42 sten mixing entries -> –s–t–e–n–m–i–x–i–n–g–e–n–t–r–i–e–s–
+43 zn seize wetlands -> –z–n–s–e–i–z–e–w–e–t–l–a–n–d–s–
+44 madan kur nek -> –m–a–d–a–n–k–u–r–n–e–k–
+45 atabase throws citt -> –a–t–a–b–a–s–e–t–h–r–o–w–s–c–i–t–t–
+46 rosso unh volg -> –r–o–s–s–o–u–n–h–v–o–l–g–
+47 mounted multaj moll -> –m–o–u–n–t–e–d–m–u–l–t–a–j–m–o–l–l–
+48 zing somatic look -> –z–i–n–g–s–o–m–a–t–i–c–l–o–o–k–
+49 mark pow segle -> –m–a–r–k–p–o–w–s–e–g–l–e–
+50 bishop fo lort -> –b–i–s–h–o–p–f–o–l–o–r–t–
+51 blems ausz kendi -> –b–l–e–m–s–a–u–s–z–k–e–n–d–i–
+52 voit paysage val -> –v–o–i–t–p–a–y–s–a–g–e–v–a–l–
+53 atient enfer realiz -> –a–t–i–e–n–t–e–n–f–e–r–r–e–a–l–i–z–
+54 iline decom knights -> –i–l–i–n–e–d–e–c–o–m–k–n–i–g–h–t–s–
+55 otta sifat erf -> –o–t–t–a–s–i–f–a–t–e–r–f–
+56 yyyy avance benz -> –y–y–y–y–a–v–a–n–c–e–b–e–n–z–
+57 ohlen flo actu -> –o–h–l–e–n–f–l–o–a–c–t–u–
+58 voc vormen neuer -> –v–o–c–v–o–r–m–e–n–n–e–u–e–r–
+59 ird awarded theft -> –i–r–d–a–w–a–r–d–e–d–t–h–e–f–t–
+60 kk fundo bildete -> –k–k–f–u–n–d–o–b–i–l–d–e–t–e–
+61 erint alat restored -> –e–r–i–n–t–a–l–a–t–r–e–s–t–o–r–e–d–
+62 generic reopened dies -> –g–e–n–e–r–i–c–r–e–o–p–e–n–e–d–d–i–e–s–
+63 zoic synapses teil -> –z–o–i–c–s–y–n–a–p–s–e–s–t–e–i–l–
+64 iff intel onto -> –i–f–f–i–n–t–e–l–o–n–t–o–
+65 uck nano spes -> –u–c–k–n–a–n–o–s–p–e–s–
+66 ields buyers cogn -> –i–e–l–d–s–b–u–y–e–r–s–c–o–g–n–
+67 projects conspi advocacy -> –p–r–o–j–e–c–t–s–c–o–n–s–p–i–a–d–v–o–c–a–c–y–
+68 annels swojego settled -> –a–n–n–e–l–s–s–w–o–j–e–g–o–s–e–t–t–l–e–d–
+69 vice zomb animale -> –v–i–c–e–z–o–m–b–a–n–i–m–a–l–e–
+70 endt predsjed humanos -> –e–n–d–t–p–r–e–d–s–j–e–d–h–u–m–a–n–o–s–
+71 text paras hir -> –t–e–x–t–p–a–r–a–s–h–i–r–
+72 biotic mutta vanlig -> –b–i–o–t–i–c–m–u–t–t–a–v–a–n–l–i–g–
+73 tober pige hash -> –t–o–b–e–r–p–i–g–e–h–a–s–h–
+74 ct past hit -> –c–t–p–a–s–t–h–i–t–
+75 indo sezonie uranium -> –i–n–d–o–s–e–z–o–n–i–e–u–r–a–n–i–u–m–
+76 aps bottom belle -> –a–p–s–b–o–t–t–o–m–b–e–l–l–e–
+77 illus allong proposed -> –i–l–l–u–s–a–l–l–o–n–g–p–r–o–p–o–s–e–d–
+78 paper cos retract -> –p–a–p–e–r–c–o–s–r–e–t–r–a–c–t–
+79 uduk reagent rond -> –u–d–u–k–r–e–a–g–e–n–t–r–o–n–d–
+80 compass opioid mares -> –c–o–m–p–a–s–s–o–p–i–o–i–d–m–a–r–e–s–
+81 deling gior gears -> –d–e–l–i–n–g–g–i–o–r–g–e–a–r–s–
+82 ceived sync leta -> –c–e–i–v–e–d–s–y–n–c–l–e–t–a–
+83 chart extent portion -> –c–h–a–r–t–e–x–t–e–n–t–p–o–r–t–i–o–n–
+84 rado tongue chapeau -> –r–a–d–o–t–o–n–g–u–e–c–h–a–p–e–a–u–
+85 attro warranty cate -> –a–t–t–r–o–w–a–r–r–a–n–t–y–c–a–t–e–
+86 binding holder astron -> –b–i–n–d–i–n–g–h–o–l–d–e–r–a–s–t–r–o–n–
+87 ogl champion szk -> –o–g–l–c–h–a–m–p–i–o–n–s–z–k–
+88 mem gerek glands -> –m–e–m–g–e–r–e–k–g–l–a–n–d–s–
+89 kers reduct raff -> –k–e–r–s–r–e–d–u–c–t–r–a–f–f–
+90 meister sigue dear -> –m–e–i–s–t–e–r–s–i–g–u–e–d–e–a–r–
+91 jal croit ancestry -> –j–a–l–c–r–o–i–t–a–n–c–e–s–t–r–y–
+92 ajima tapes elementi -> –a–j–i–m–a–t–a–p–e–s–e–l–e–m–e–n–t–i–
+93 ietro apenas debated -> –i–e–t–r–o–a–p–e–n–a–s–d–e–b–a–t–e–d–
+94 stav sabe adjo -> –s–t–a–v–s–a–b–e–a–d–j–o–
+95 posite mimics einzig -> –p–o–s–i–t–e–m–i–m–i–c–s–e–i–n–z–i–g–
+96 istiin milieux onderaf -> –i–s–t–i–i–n–m–i–l–i–e–u–x–o–n–d–e–r–a–f–
+97 ela variety ancestor -> –e–l–a–v–a–r–i–e–t–y–a–n–c–e–s–t–o–r–
+98 prise acteurs indent -> –p–r–i–s–e–a–c–t–e–u–r–s–i–n–d–e–n–t–
+99 isted slav toho -> –i–s–t–e–d–s–l–a–v–t–o–h–o–

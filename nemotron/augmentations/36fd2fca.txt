@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 ford enige siamo
+01 oints fazia hurt
+02 ukaan amidst escas
+
+This is a sample output.
+00 ford enige siamo -> –f–o–r–d–e–n–i–g–e–s–i–a–m–o–
+01 oints fazia hurt -> –o–i–n–t–s–f–a–z–i–a–h–u–r–t–
+02 ukaan amidst escas -> –u–k–a–a–n–a–m–i–d–s–t–e–s–c–a–s–
+
+This is your input.
+00 orre pequenas fired
+01 attice residues cair
+02 open altijd cyclone
+03 spr hinzu langs
+04 ubblic renewed starting
+05 itzak wonder amateurs
+06 ssen wife vyp
+07 tc pross crossing
+08 da appeal attain
+09 td cardi prox
+10 stad opnieuw devrais
+11 ulose subsc noires
+12 nda vrais signs
+13 ixes sludge lando
+14 ipas cents ilk
+15 activ widgets llam
+16 arne espagnol vif
+17 icking ascend slept
+18 irem schrieb sustitu
+19 lined pist illusion
+20 areth emakume nagy
+21 inio promise ouvre
+22 inette hath decrypt
+23 ss recovery cylind
+24 iams swap melody
+25 urable license bols
+26 igor ws chiffres
+27 urious emerging ethan
+28 antom acquis passato
+29 belongs derecho decis
+30 aremment vastaan perts
+31 iyon laisser supos
+32 maya segno licence
+33 stall medicina damal
+34 lead every informal
+35 avid verano rifle
+36 ificio cigar allons
+37 vento registry gramm
+38 ensemble stroj shaping
+39 plies elevator huis
+40 iaj familias sop
+41 wise rese chass
+42 neutral source vides
+43 cerr versions belga
+44 leun profil nobility
+45 plt tesis esses
+46 lanan vim real
+47 ette warming enlace
+48 omber almac mut
+49 byg mitra giust
+50 fe distal dossier
+51 lp academy etxetan
+52 standard his affluent
+53 ruh squares fama
+54 skiej regexp wipe
+55 kul disques hetero
+56 pia ureter flashing
+57 relse lleva fug
+58 monton syndrome asthma
+59 arm ordres rele
+60 ent symbols davant
+61 geving pav rient
+62 andler gol titulada
+63 ilibrium peut aval
+64 orda brass auga
+65 imide implicit donde
+66 ificant gig chloro
+67 itores beste apre
+68 leist involved quest
+69 ious polizia pertain
+70 iliary big adultes
+71 uted feudal canto
+72 mpeg drums emot
+73 asad famine lutter
+74 rect mistaken faced
+75 scroll infinity treten
+76 klahoma drag bloom
+77 home picker nell
+78 mathrm grants fallback
+79 ertu diam invasion
+80 boys pairing tennis
+81 pector pit plating
+82 noch telah curta
+83 payload mys geldi
+84 ardia depois montrant
+85 racia pyram enz
+86 gau carga sublime
+87 virk malv nomencl
+88 ogeneous haj replace
+89 gradient tardi meteor
+90 agar militari gid
+91 enzie sum ct
+92 raphics sofr quae
+93 parated eclipse employs
+94 indet shrug jonka
+95 conder nearer ung
+96 cx licenses enam
+97 float era reales
+98 ran valu pumps
+99 ungo pers encoded
+[completion]
+00 orre pequenas fired -> –o–r–r–e–p–e–q–u–e–n–a–s–f–i–r–e–d–
+01 attice residues cair -> –a–t–t–i–c–e–r–e–s–i–d–u–e–s–c–a–i–r–
+02 open altijd cyclone -> –o–p–e–n–a–l–t–i–j–d–c–y–c–l–o–n–e–
+03 spr hinzu langs -> –s–p–r–h–i–n–z–u–l–a–n–g–s–
+04 ubblic renewed starting -> –u–b–b–l–i–c–r–e–n–e–w–e–d–s–t–a–r–t–i–n–g–
+05 itzak wonder amateurs -> –i–t–z–a–k–w–o–n–d–e–r–a–m–a–t–e–u–r–s–
+06 ssen wife vyp -> –s–s–e–n–w–i–f–e–v–y–p–
+07 tc pross crossing -> –t–c–p–r–o–s–s–c–r–o–s–s–i–n–g–
+08 da appeal attain -> –d–a–a–p–p–e–a–l–a–t–t–a–i–n–
+09 td cardi prox -> –t–d–c–a–r–d–i–p–r–o–x–
+10 stad opnieuw devrais -> –s–t–a–d–o–p–n–i–e–u–w–d–e–v–r–a–i–s–
+11 ulose subsc noires -> –u–l–o–s–e–s–u–b–s–c–n–o–i–r–e–s–
+12 nda vrais signs -> –n–d–a–v–r–a–i–s–s–i–g–n–s–
+13 ixes sludge lando -> –i–x–e–s–s–l–u–d–g–e–l–a–n–d–o–
+14 ipas cents ilk -> –i–p–a–s–c–e–n–t–s–i–l–k–
+15 activ widgets llam -> –a–c–t–i–v–w–i–d–g–e–t–s–l–l–a–m–
+16 arne espagnol vif -> –a–r–n–e–e–s–p–a–g–n–o–l–v–i–f–
+17 icking ascend slept -> –i–c–k–i–n–g–a–s–c–e–n–d–s–l–e–p–t–
+18 irem schrieb sustitu -> –i–r–e–m–s–c–h–r–i–e–b–s–u–s–t–i–t–u–
+19 lined pist illusion -> –l–i–n–e–d–p–i–s–t–i–l–l–u–s–i–o–n–
+20 areth emakume nagy -> –a–r–e–t–h–e–m–a–k–u–m–e–n–a–g–y–
+21 inio promise ouvre -> –i–n–i–o–p–r–o–m–i–s–e–o–u–v–r–e–
+22 inette hath decrypt -> –i–n–e–t–t–e–h–a–t–h–d–e–c–r–y–p–t–
+23 ss recovery cylind -> –s–s–r–e–c–o–v–e–r–y–c–y–l–i–n–d–
+24 iams swap melody -> –i–a–m–s–s–w–a–p–m–e–l–o–d–y–
+25 urable license bols -> –u–r–a–b–l–e–l–i–c–e–n–s–e–b–o–l–s–
+26 igor ws chiffres -> –i–g–o–r–w–s–c–h–i–f–f–r–e–s–
+27 urious emerging ethan -> –u–r–i–o–u–s–e–m–e–r–g–i–n–g–e–t–h–a–n–
+28 antom acquis passato -> –a–n–t–o–m–a–c–q–u–i–s–p–a–s–s–a–t–o–
+29 belongs derecho decis -> –b–e–l–o–n–g–s–d–e–r–e–c–h–o–d–e–c–i–s–
+30 aremment vastaan perts -> –a–r–e–m–m–e–n–t–v–a–s–t–a–a–n–p–e–r–t–s–
+31 iyon laisser supos -> –i–y–o–n–l–a–i–s–s–e–r–s–u–p–o–s–
+32 maya segno licence -> –m–a–y–a–s–e–g–n–o–l–i–c–e–n–c–e–
+33 stall medicina damal -> –s–t–a–l–l–m–e–d–i–c–i–n–a–d–a–m–a–l–
+34 lead every informal -> –l–e–a–d–e–v–e–r–y–i–n–f–o–r–m–a–l–
+35 avid verano rifle -> –a–v–i–d–v–e–r–a–n–o–r–i–f–l–e–
+36 ificio cigar allons -> –i–f–i–c–i–o–c–i–g–a–r–a–l–l–o–n–s–
+37 vento registry gramm -> –v–e–n–t–o–r–e–g–i–s–t–r–y–g–r–a–m–m–
+38 ensemble stroj shaping -> –e–n–s–e–m–b–l–e–s–t–r–o–j–s–h–a–p–i–n–g–
+39 plies elevator huis -> –p–l–i–e–s–e–l–e–v–a–t–o–r–h–u–i–s–
+40 iaj familias sop -> –i–a–j–f–a–m–i–l–i–a–s–s–o–p–
+41 wise rese chass -> –w–i–s–e–r–e–s–e–c–h–a–s–s–
+42 neutral source vides -> –n–e–u–t–r–a–l–s–o–u–r–c–e–v–i–d–e–s–
+43 cerr versions belga -> –c–e–r–r–v–e–r–s–i–o–n–s–b–e–l–g–a–
+44 leun profil nobility -> –l–e–u–n–p–r–o–f–i–l–n–o–b–i–l–i–t–y–
+45 plt tesis esses -> –p–l–t–t–e–s–i–s–e–s–s–e–s–
+46 lanan vim real -> –l–a–n–a–n–v–i–m–r–e–a–l–
+47 ette warming enlace -> –e–t–t–e–w–a–r–m–i–n–g–e–n–l–a–c–e–
+48 omber almac mut -> –o–m–b–e–r–a–l–m–a–c–m–u–t–
+49 byg mitra giust -> –b–y–g–m–i–t–r–a–g–i–u–s–t–
+50 fe distal dossier -> –f–e–d–i–s–t–a–l–d–o–s–s–i–e–r–
+51 lp academy etxetan -> –l–p–a–c–a–d–e–m–y–e–t–x–e–t–a–n–
+52 standard his affluent -> –s–t–a–n–d–a–r–d–h–i–s–a–f–f–l–u–e–n–t–
+53 ruh squares fama -> –r–u–h–s–q–u–a–r–e–s–f–a–m–a–
+54 skiej regexp wipe -> –s–k–i–e–j–r–e–g–e–x–p–w–i–p–e–
+55 kul disques hetero -> –k–u–l–d–i–s–q–u–e–s–h–e–t–e–r–o–
+56 pia ureter flashing -> –p–i–a–u–r–e–t–e–r–f–l–a–s–h–i–n–g–
+57 relse lleva fug -> –r–e–l–s–e–l–l–e–v–a–f–u–g–
+58 monton syndrome asthma -> –m–o–n–t–o–n–s–y–n–d–r–o–m–e–a–s–t–h–m–a–
+59 arm ordres rele -> –a–r–m–o–r–d–r–e–s–r–e–l–e–
+60 ent symbols davant -> –e–n–t–s–y–m–b–o–l–s–d–a–v–a–n–t–
+61 geving pav rient -> –g–e–v–i–n–g–p–a–v–r–i–e–n–t–
+62 andler gol titulada -> –a–n–d–l–e–r–g–o–l–t–i–t–u–l–a–d–a–
+63 ilibrium peut aval -> –i–l–i–b–r–i–u–m–p–e–u–t–a–v–a–l–
+64 orda brass auga -> –o–r–d–a–b–r–a–s–s–a–u–g–a–
+65 imide implicit donde -> –i–m–i–d–e–i–m–p–l–i–c–i–t–d–o–n–d–e–
+66 ificant gig chloro -> –i–f–i–c–a–n–t–g–i–g–c–h–l–o–r–o–
+67 itores beste apre -> –i–t–o–r–e–s–b–e–s–t–e–a–p–r–e–
+68 leist involved quest -> –l–e–i–s–t–i–n–v–o–l–v–e–d–q–u–e–s–t–
+69 ious polizia pertain -> –i–o–u–s–p–o–l–i–z–i–a–p–e–r–t–a–i–n–
+70 iliary big adultes -> –i–l–i–a–r–y–b–i–g–a–d–u–l–t–e–s–
+71 uted feudal canto -> –u–t–e–d–f–e–u–d–a–l–c–a–n–t–o–
+72 mpeg drums emot -> –m–p–e–g–d–r–u–m–s–e–m–o–t–
+73 asad famine lutter -> –a–s–a–d–f–a–m–i–n–e–l–u–t–t–e–r–
+74 rect mistaken faced -> –r–e–c–t–m–i–s–t–a–k–e–n–f–a–c–e–d–
+75 scroll infinity treten -> –s–c–r–o–l–l–i–n–f–i–n–i–t–y–t–r–e–t–e–n–
+76 klahoma drag bloom -> –k–l–a–h–o–m–a–d–r–a–g–b–l–o–o–m–
+77 home picker nell -> –h–o–m–e–p–i–c–k–e–r–n–e–l–l–
+78 mathrm grants fallback -> –m–a–t–h–r–m–g–r–a–n–t–s–f–a–l–l–b–a–c–k–
+79 ertu diam invasion -> –e–r–t–u–d–i–a–m–i–n–v–a–s–i–o–n–
+80 boys pairing tennis -> –b–o–y–s–p–a–i–r–i–n–g–t–e–n–n–i–s–
+81 pector pit plating -> –p–e–c–t–o–r–p–i–t–p–l–a–t–i–n–g–
+82 noch telah curta -> –n–o–c–h–t–e–l–a–h–c–u–r–t–a–
+83 payload mys geldi -> –p–a–y–l–o–a–d–m–y–s–g–e–l–d–i–
+84 ardia depois montrant -> –a–r–d–i–a–d–e–p–o–i–s–m–o–n–t–r–a–n–t–
+85 racia pyram enz -> –r–a–c–i–a–p–y–r–a–m–e–n–z–
+86 gau carga sublime -> –g–a–u–c–a–r–g–a–s–u–b–l–i–m–e–
+87 virk malv nomencl -> –v–i–r–k–m–a–l–v–n–o–m–e–n–c–l–
+88 ogeneous haj replace -> –o–g–e–n–e–o–u–s–h–a–j–r–e–p–l–a–c–e–
+89 gradient tardi meteor -> –g–r–a–d–i–e–n–t–t–a–r–d–i–m–e–t–e–o–r–
+90 agar militari gid -> –a–g–a–r–m–i–l–i–t–a–r–i–g–i–d–
+91 enzie sum ct -> –e–n–z–i–e–s–u–m–c–t–
+92 raphics sofr quae -> –r–a–p–h–i–c–s–s–o–f–r–q–u–a–e–
+93 parated eclipse employs -> –p–a–r–a–t–e–d–e–c–l–i–p–s–e–e–m–p–l–o–y–s–
+94 indet shrug jonka -> –i–n–d–e–t–s–h–r–u–g–j–o–n–k–a–
+95 conder nearer ung -> –c–o–n–d–e–r–n–e–a–r–e–r–u–n–g–
+96 cx licenses enam -> –c–x–l–i–c–e–n–s–e–s–e–n–a–m–
+97 float era reales -> –f–l–o–a–t–e–r–a–r–e–a–l–e–s–
+98 ran valu pumps -> –r–a–n–v–a–l–u–p–u–m–p–s–
+99 ungo pers encoded -> –u–n–g–o–p–e–r–s–e–n–c–o–d–e–d–

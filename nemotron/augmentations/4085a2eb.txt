@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 aturday learns recently
+01 quita dis fired
+02 iskan mansion regla
+
+This is a sample output.
+00 aturday learns recently -> –a–t–u–r–d–a–y–l–e–a–r–n–s–r–e–c–e–n–t–l–y–
+01 quita dis fired -> –q–u–i–t–a–d–i–s–f–i–r–e–d–
+02 iskan mansion regla -> –i–s–k–a–n–m–a–n–s–i–o–n–r–e–g–l–a–
+
+This is your input.
+00 like charset chanteur
+01 ts shader begins
+02 ubes emulate swoich
+03 sero speech coda
+04 innan monocyte tare
+05 apex archives lebten
+06 valence tableau secured
+07 ugliel admir revue
+08 empio factors olmayan
+09 irus dira fosse
+10 err killings lungs
+11 ciu maest adjusted
+12 zych sympathy logos
+13 bbe flytt umbrella
+14 io socially dropped
+15 lebte guitarra secteurs
+16 coli thumbs quitter
+17 comings volante marins
+18 emie fauteuil staff
+19 ateral scholar exactly
+20 ubile reuse conse
+21 same croyait arrive
+22 guides ligation kappale
+23 pro yra lance
+24 igg derby html
+25 andre soul esse
+26 asilkan accue ged
+27 onio cheerful switch
+28 oplasma duc komme
+29 ostics arsenal agricult
+30 amor sabia shoulder
+31 profile rac dumped
+32 uche osallist drept
+33 ishi titolo benach
+34 ijnen hens timeline
+35 ilo emo dict
+36 hle mutat caden
+37 inado eigener arrivare
+38 order tek succeeds
+39 asen kalk wc
+40 artet descend pig
+41 collect partita unf
+42 ignty mercato summary
+43 sequ atte portanto
+44 isser inspi dimanche
+45 roff krij weisen
+46 elong asemenea amphib
+47 isseau polic aspart
+48 mie uniforms handlers
+49 mehr shred deleter
+50 ullivan powie raccont
+51 viles relativa grotes
+52 ppen braccia dilem
+53 ayama arche plaint
+54 legung aurre tegen
+55 details suminist gambling
+56 itol outgoing grep
+57 osaur lago voiture
+58 erp odnos wysoko
+59 elfinale herum carbone
+60 kaz operate alone
+61 anterie onze bleibt
+62 ghi killer mesto
+63 uan linking maus
+64 ainers sectores zombie
+65 url doigts molto
+66 annis complete hep
+67 edere froze dosz
+68 andas siglos prend
+69 olithic lbs photore
+70 phone pod tense
+71 anthrop rarity puis
+72 aceous plag heraus
+73 double solchen spermat
+74 nap breeding pessoa
+75 edir cadr renowned
+76 lja theolog souls
+77 nant oblast avoided
+78 advanced isim archa
+79 grpc linkovi dimer
+80 anguard opcode especies
+81 eban conosci joie
+82 ementara exalt ilyen
+83 atura baru programu
+84 iosis staging chef
+85 kezet molts lagu
+86 uploads verst sorta
+87 inform mukaan ikus
+88 icide sacar crocod
+89 zungen rip disposit
+90 osp outils calf
+91 ified dbo person
+92 flix remporte dessas
+93 plate suites inim
+94 crop categor wink
+95 ovirus hadden volupt
+96 propyl portable applic
+97 react schuf anderer
+98 leh mo corto
+99 venida parro derived
+[completion]
+00 like charset chanteur -> –l–i–k–e–c–h–a–r–s–e–t–c–h–a–n–t–e–u–r–
+01 ts shader begins -> –t–s–s–h–a–d–e–r–b–e–g–i–n–s–
+02 ubes emulate swoich -> –u–b–e–s–e–m–u–l–a–t–e–s–w–o–i–c–h–
+03 sero speech coda -> –s–e–r–o–s–p–e–e–c–h–c–o–d–a–
+04 innan monocyte tare -> –i–n–n–a–n–m–o–n–o–c–y–t–e–t–a–r–e–
+05 apex archives lebten -> –a–p–e–x–a–r–c–h–i–v–e–s–l–e–b–t–e–n–
+06 valence tableau secured -> –v–a–l–e–n–c–e–t–a–b–l–e–a–u–s–e–c–u–r–e–d–
+07 ugliel admir revue -> –u–g–l–i–e–l–a–d–m–i–r–r–e–v–u–e–
+08 empio factors olmayan -> –e–m–p–i–o–f–a–c–t–o–r–s–o–l–m–a–y–a–n–
+09 irus dira fosse -> –i–r–u–s–d–i–r–a–f–o–s–s–e–
+10 err killings lungs -> –e–r–r–k–i–l–l–i–n–g–s–l–u–n–g–s–
+11 ciu maest adjusted -> –c–i–u–m–a–e–s–t–a–d–j–u–s–t–e–d–
+12 zych sympathy logos -> –z–y–c–h–s–y–m–p–a–t–h–y–l–o–g–o–s–
+13 bbe flytt umbrella -> –b–b–e–f–l–y–t–t–u–m–b–r–e–l–l–a–
+14 io socially dropped -> –i–o–s–o–c–i–a–l–l–y–d–r–o–p–p–e–d–
+15 lebte guitarra secteurs -> –l–e–b–t–e–g–u–i–t–a–r–r–a–s–e–c–t–e–u–r–s–
+16 coli thumbs quitter -> –c–o–l–i–t–h–u–m–b–s–q–u–i–t–t–e–r–
+17 comings volante marins -> –c–o–m–i–n–g–s–v–o–l–a–n–t–e–m–a–r–i–n–s–
+18 emie fauteuil staff -> –e–m–i–e–f–a–u–t–e–u–i–l–s–t–a–f–f–
+19 ateral scholar exactly -> –a–t–e–r–a–l–s–c–h–o–l–a–r–e–x–a–c–t–l–y–
+20 ubile reuse conse -> –u–b–i–l–e–r–e–u–s–e–c–o–n–s–e–
+21 same croyait arrive -> –s–a–m–e–c–r–o–y–a–i–t–a–r–r–i–v–e–
+22 guides ligation kappale -> –g–u–i–d–e–s–l–i–g–a–t–i–o–n–k–a–p–p–a–l–e–
+23 pro yra lance -> –p–r–o–y–r–a–l–a–n–c–e–
+24 igg derby html -> –i–g–g–d–e–r–b–y–h–t–m–l–
+25 andre soul esse -> –a–n–d–r–e–s–o–u–l–e–s–s–e–
+26 asilkan accue ged -> –a–s–i–l–k–a–n–a–c–c–u–e–g–e–d–
+27 onio cheerful switch -> –o–n–i–o–c–h–e–e–r–f–u–l–s–w–i–t–c–h–
+28 oplasma duc komme -> –o–p–l–a–s–m–a–d–u–c–k–o–m–m–e–
+29 ostics arsenal agricult -> –o–s–t–i–c–s–a–r–s–e–n–a–l–a–g–r–i–c–u–l–t–
+30 amor sabia shoulder -> –a–m–o–r–s–a–b–i–a–s–h–o–u–l–d–e–r–
+31 profile rac dumped -> –p–r–o–f–i–l–e–r–a–c–d–u–m–p–e–d–
+32 uche osallist drept -> –u–c–h–e–o–s–a–l–l–i–s–t–d–r–e–p–t–
+33 ishi titolo benach -> –i–s–h–i–t–i–t–o–l–o–b–e–n–a–c–h–
+34 ijnen hens timeline -> –i–j–n–e–n–h–e–n–s–t–i–m–e–l–i–n–e–
+35 ilo emo dict -> –i–l–o–e–m–o–d–i–c–t–
+36 hle mutat caden -> –h–l–e–m–u–t–a–t–c–a–d–e–n–
+37 inado eigener arrivare -> –i–n–a–d–o–e–i–g–e–n–e–r–a–r–r–i–v–a–r–e–
+38 order tek succeeds -> –o–r–d–e–r–t–e–k–s–u–c–c–e–e–d–s–
+39 asen kalk wc -> –a–s–e–n–k–a–l–k–w–c–
+40 artet descend pig -> –a–r–t–e–t–d–e–s–c–e–n–d–p–i–g–
+41 collect partita unf -> –c–o–l–l–e–c–t–p–a–r–t–i–t–a–u–n–f–
+42 ignty mercato summary -> –i–g–n–t–y–m–e–r–c–a–t–o–s–u–m–m–a–r–y–
+43 sequ atte portanto -> –s–e–q–u–a–t–t–e–p–o–r–t–a–n–t–o–
+44 isser inspi dimanche -> –i–s–s–e–r–i–n–s–p–i–d–i–m–a–n–c–h–e–
+45 roff krij weisen -> –r–o–f–f–k–r–i–j–w–e–i–s–e–n–
+46 elong asemenea amphib -> –e–l–o–n–g–a–s–e–m–e–n–e–a–a–m–p–h–i–b–
+47 isseau polic aspart -> –i–s–s–e–a–u–p–o–l–i–c–a–s–p–a–r–t–
+48 mie uniforms handlers -> –m–i–e–u–n–i–f–o–r–m–s–h–a–n–d–l–e–r–s–
+49 mehr shred deleter -> –m–e–h–r–s–h–r–e–d–d–e–l–e–t–e–r–
+50 ullivan powie raccont -> –u–l–l–i–v–a–n–p–o–w–i–e–r–a–c–c–o–n–t–
+51 viles relativa grotes -> –v–i–l–e–s–r–e–l–a–t–i–v–a–g–r–o–t–e–s–
+52 ppen braccia dilem -> –p–p–e–n–b–r–a–c–c–i–a–d–i–l–e–m–
+53 ayama arche plaint -> –a–y–a–m–a–a–r–c–h–e–p–l–a–i–n–t–
+54 legung aurre tegen -> –l–e–g–u–n–g–a–u–r–r–e–t–e–g–e–n–
+55 details suminist gambling -> –d–e–t–a–i–l–s–s–u–m–i–n–i–s–t–g–a–m–b–l–i–n–g–
+56 itol outgoing grep -> –i–t–o–l–o–u–t–g–o–i–n–g–g–r–e–p–
+57 osaur lago voiture -> –o–s–a–u–r–l–a–g–o–v–o–i–t–u–r–e–
+58 erp odnos wysoko -> –e–r–p–o–d–n–o–s–w–y–s–o–k–o–
+59 elfinale herum carbone -> –e–l–f–i–n–a–l–e–h–e–r–u–m–c–a–r–b–o–n–e–
+60 kaz operate alone -> –k–a–z–o–p–e–r–a–t–e–a–l–o–n–e–
+61 anterie onze bleibt -> –a–n–t–e–r–i–e–o–n–z–e–b–l–e–i–b–t–
+62 ghi killer mesto -> –g–h–i–k–i–l–l–e–r–m–e–s–t–o–
+63 uan linking maus -> –u–a–n–l–i–n–k–i–n–g–m–a–u–s–
+64 ainers sectores zombie -> –a–i–n–e–r–s–s–e–c–t–o–r–e–s–z–o–m–b–i–e–
+65 url doigts molto -> –u–r–l–d–o–i–g–t–s–m–o–l–t–o–
+66 annis complete hep -> –a–n–n–i–s–c–o–m–p–l–e–t–e–h–e–p–
+67 edere froze dosz -> –e–d–e–r–e–f–r–o–z–e–d–o–s–z–
+68 andas siglos prend -> –a–n–d–a–s–s–i–g–l–o–s–p–r–e–n–d–
+69 olithic lbs photore -> –o–l–i–t–h–i–c–l–b–s–p–h–o–t–o–r–e–
+70 phone pod tense -> –p–h–o–n–e–p–o–d–t–e–n–s–e–
+71 anthrop rarity puis -> –a–n–t–h–r–o–p–r–a–r–i–t–y–p–u–i–s–
+72 aceous plag heraus -> –a–c–e–o–u–s–p–l–a–g–h–e–r–a–u–s–
+73 double solchen spermat -> –d–o–u–b–l–e–s–o–l–c–h–e–n–s–p–e–r–m–a–t–
+74 nap breeding pessoa -> –n–a–p–b–r–e–e–d–i–n–g–p–e–s–s–o–a–
+75 edir cadr renowned -> –e–d–i–r–c–a–d–r–r–e–n–o–w–n–e–d–
+76 lja theolog souls -> –l–j–a–t–h–e–o–l–o–g–s–o–u–l–s–
+77 nant oblast avoided -> –n–a–n–t–o–b–l–a–s–t–a–v–o–i–d–e–d–
+78 advanced isim archa -> –a–d–v–a–n–c–e–d–i–s–i–m–a–r–c–h–a–
+79 grpc linkovi dimer -> –g–r–p–c–l–i–n–k–o–v–i–d–i–m–e–r–
+80 anguard opcode especies -> –a–n–g–u–a–r–d–o–p–c–o–d–e–e–s–p–e–c–i–e–s–
+81 eban conosci joie -> –e–b–a–n–c–o–n–o–s–c–i–j–o–i–e–
+82 ementara exalt ilyen -> –e–m–e–n–t–a–r–a–e–x–a–l–t–i–l–y–e–n–
+83 atura baru programu -> –a–t–u–r–a–b–a–r–u–p–r–o–g–r–a–m–u–
+84 iosis staging chef -> –i–o–s–i–s–s–t–a–g–i–n–g–c–h–e–f–
+85 kezet molts lagu -> –k–e–z–e–t–m–o–l–t–s–l–a–g–u–
+86 uploads verst sorta -> –u–p–l–o–a–d–s–v–e–r–s–t–s–o–r–t–a–
+87 inform mukaan ikus -> –i–n–f–o–r–m–m–u–k–a–a–n–i–k–u–s–
+88 icide sacar crocod -> –i–c–i–d–e–s–a–c–a–r–c–r–o–c–o–d–
+89 zungen rip disposit -> –z–u–n–g–e–n–r–i–p–d–i–s–p–o–s–i–t–
+90 osp outils calf -> –o–s–p–o–u–t–i–l–s–c–a–l–f–
+91 ified dbo person -> –i–f–i–e–d–d–b–o–p–e–r–s–o–n–
+92 flix remporte dessas -> –f–l–i–x–r–e–m–p–o–r–t–e–d–e–s–s–a–s–
+93 plate suites inim -> –p–l–a–t–e–s–u–i–t–e–s–i–n–i–m–
+94 crop categor wink -> –c–r–o–p–c–a–t–e–g–o–r–w–i–n–k–
+95 ovirus hadden volupt -> –o–v–i–r–u–s–h–a–d–d–e–n–v–o–l–u–p–t–
+96 propyl portable applic -> –p–r–o–p–y–l–p–o–r–t–a–b–l–e–a–p–p–l–i–c–
+97 react schuf anderer -> –r–e–a–c–t–s–c–h–u–f–a–n–d–e–r–e–r–
+98 leh mo corto -> –l–e–h–m–o–c–o–r–t–o–
+99 venida parro derived -> –v–e–n–i–d–a–p–a–r–r–o–d–e–r–i–v–e–d–

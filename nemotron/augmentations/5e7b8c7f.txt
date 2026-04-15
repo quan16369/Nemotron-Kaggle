@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 rogens supplies forearm
+01 ajima bahasa knock
+02 sale nya conflic
+
+This is a sample output.
+00 rogens supplies forearm -> –r–o–g–e–n–s–s–u–p–p–l–i–e–s–f–o–r–e–a–r–m–
+01 ajima bahasa knock -> –a–j–i–m–a–b–a–h–a–s–a–k–n–o–c–k–
+02 sale nya conflic -> –s–a–l–e–n–y–a–c–o–n–f–l–i–c–
+
+This is your input.
+00 ounters savings grupe
+01 plot uygulam th
+02 cephal priori pseud
+03 velle poi hann
+04 thing lieber peur
+05 brahim principi gauche
+06 nabla huidige smart
+07 ourg se protiv
+08 days exil habe
+09 ag humidity disper
+10 aja prairies valeurs
+11 chema tops hemorrh
+12 ulmonary jednym kiesett
+13 andy gibi bzw
+14 utations twitter portrait
+15 elu ihre bearer
+16 ratt combatt pape
+17 irikan erfol deck
+18 before other intoler
+19 bool ethical tang
+20 stehung vyz vagu
+21 define jov tenido
+22 ettes refuge milj
+23 anti claire venant
+24 antil bean sista
+25 actory ply kolme
+26 ikka criminal vair
+27 bilir nachdem avs
+28 irebase guitar minerai
+29 clonal um smoothly
+30 ima mostr diario
+31 punk sucesso burning
+32 yos tote hojas
+33 apos cured zer
+34 enia marines lyric
+35 adrat avocat attent
+36 bestos rispetto theor
+37 essional amines libras
+38 join miroir judg
+39 throp origines pitches
+40 rigen families venus
+41 cursor drama neue
+42 rosse justicia mas
+43 probe mk carri
+44 hing blocks bra
+45 nia aligned maxima
+46 itre bekend deton
+47 roy favore whereas
+48 neq unos gaf
+49 ecutor squadre ventral
+50 omos historii damage
+51 queda jmen aktif
+52 iant mecz consumed
+53 varande wished steril
+54 endif ataque poison
+55 iefert evangel sequ
+56 rebbe successo hello
+57 rains zasad invert
+58 uerdo inglese unbel
+59 encer chevaux wie
+60 antsesez roh acost
+61 ieben secrets campe
+62 meth bags linha
+63 inchi skills concerns
+64 logger froide reversed
+65 dot sweater bc
+66 rachen excepto essais
+67 ovanja uyg check
+68 emouth vl tap
+69 reicher unix cellules
+70 limited miembro hivatal
+71 induced corneal neerland
+72 enes protagon condado
+73 erst meas pi
+74 ets bislang tritt
+75 crumb streng gehouden
+76 enoord raised introd
+77 rete wickets radi
+78 cks noche multic
+79 vasion manten vinc
+80 dw flaws sliced
+81 tez meinte lasting
+82 elfth name negative
+83 ighed bother ration
+84 ivol morta crest
+85 umber mute ona
+86 landaise entweder sick
+87 ales offered pathname
+88 islav malaria poursu
+89 lectric subjekt inherits
+90 okka odcink dadurch
+91 zan rhs rape
+92 mongodb avantage hopeful
+93 inging visibly suro
+94 mathbf rotor reiv
+95 lett ih sm
+96 upmu hardened forwards
+97 cases meccan decembro
+98 phenyl kral malt
+99 iman vert zoon
+[completion]
+00 ounters savings grupe -> –o–u–n–t–e–r–s–s–a–v–i–n–g–s–g–r–u–p–e–
+01 plot uygulam th -> –p–l–o–t–u–y–g–u–l–a–m–t–h–
+02 cephal priori pseud -> –c–e–p–h–a–l–p–r–i–o–r–i–p–s–e–u–d–
+03 velle poi hann -> –v–e–l–l–e–p–o–i–h–a–n–n–
+04 thing lieber peur -> –t–h–i–n–g–l–i–e–b–e–r–p–e–u–r–
+05 brahim principi gauche -> –b–r–a–h–i–m–p–r–i–n–c–i–p–i–g–a–u–c–h–e–
+06 nabla huidige smart -> –n–a–b–l–a–h–u–i–d–i–g–e–s–m–a–r–t–
+07 ourg se protiv -> –o–u–r–g–s–e–p–r–o–t–i–v–
+08 days exil habe -> –d–a–y–s–e–x–i–l–h–a–b–e–
+09 ag humidity disper -> –a–g–h–u–m–i–d–i–t–y–d–i–s–p–e–r–
+10 aja prairies valeurs -> –a–j–a–p–r–a–i–r–i–e–s–v–a–l–e–u–r–s–
+11 chema tops hemorrh -> –c–h–e–m–a–t–o–p–s–h–e–m–o–r–r–h–
+12 ulmonary jednym kiesett -> –u–l–m–o–n–a–r–y–j–e–d–n–y–m–k–i–e–s–e–t–t–
+13 andy gibi bzw -> –a–n–d–y–g–i–b–i–b–z–w–
+14 utations twitter portrait -> –u–t–a–t–i–o–n–s–t–w–i–t–t–e–r–p–o–r–t–r–a–i–t–
+15 elu ihre bearer -> –e–l–u–i–h–r–e–b–e–a–r–e–r–
+16 ratt combatt pape -> –r–a–t–t–c–o–m–b–a–t–t–p–a–p–e–
+17 irikan erfol deck -> –i–r–i–k–a–n–e–r–f–o–l–d–e–c–k–
+18 before other intoler -> –b–e–f–o–r–e–o–t–h–e–r–i–n–t–o–l–e–r–
+19 bool ethical tang -> –b–o–o–l–e–t–h–i–c–a–l–t–a–n–g–
+20 stehung vyz vagu -> –s–t–e–h–u–n–g–v–y–z–v–a–g–u–
+21 define jov tenido -> –d–e–f–i–n–e–j–o–v–t–e–n–i–d–o–
+22 ettes refuge milj -> –e–t–t–e–s–r–e–f–u–g–e–m–i–l–j–
+23 anti claire venant -> –a–n–t–i–c–l–a–i–r–e–v–e–n–a–n–t–
+24 antil bean sista -> –a–n–t–i–l–b–e–a–n–s–i–s–t–a–
+25 actory ply kolme -> –a–c–t–o–r–y–p–l–y–k–o–l–m–e–
+26 ikka criminal vair -> –i–k–k–a–c–r–i–m–i–n–a–l–v–a–i–r–
+27 bilir nachdem avs -> –b–i–l–i–r–n–a–c–h–d–e–m–a–v–s–
+28 irebase guitar minerai -> –i–r–e–b–a–s–e–g–u–i–t–a–r–m–i–n–e–r–a–i–
+29 clonal um smoothly -> –c–l–o–n–a–l–u–m–s–m–o–o–t–h–l–y–
+30 ima mostr diario -> –i–m–a–m–o–s–t–r–d–i–a–r–i–o–
+31 punk sucesso burning -> –p–u–n–k–s–u–c–e–s–s–o–b–u–r–n–i–n–g–
+32 yos tote hojas -> –y–o–s–t–o–t–e–h–o–j–a–s–
+33 apos cured zer -> –a–p–o–s–c–u–r–e–d–z–e–r–
+34 enia marines lyric -> –e–n–i–a–m–a–r–i–n–e–s–l–y–r–i–c–
+35 adrat avocat attent -> –a–d–r–a–t–a–v–o–c–a–t–a–t–t–e–n–t–
+36 bestos rispetto theor -> –b–e–s–t–o–s–r–i–s–p–e–t–t–o–t–h–e–o–r–
+37 essional amines libras -> –e–s–s–i–o–n–a–l–a–m–i–n–e–s–l–i–b–r–a–s–
+38 join miroir judg -> –j–o–i–n–m–i–r–o–i–r–j–u–d–g–
+39 throp origines pitches -> –t–h–r–o–p–o–r–i–g–i–n–e–s–p–i–t–c–h–e–s–
+40 rigen families venus -> –r–i–g–e–n–f–a–m–i–l–i–e–s–v–e–n–u–s–
+41 cursor drama neue -> –c–u–r–s–o–r–d–r–a–m–a–n–e–u–e–
+42 rosse justicia mas -> –r–o–s–s–e–j–u–s–t–i–c–i–a–m–a–s–
+43 probe mk carri -> –p–r–o–b–e–m–k–c–a–r–r–i–
+44 hing blocks bra -> –h–i–n–g–b–l–o–c–k–s–b–r–a–
+45 nia aligned maxima -> –n–i–a–a–l–i–g–n–e–d–m–a–x–i–m–a–
+46 itre bekend deton -> –i–t–r–e–b–e–k–e–n–d–d–e–t–o–n–
+47 roy favore whereas -> –r–o–y–f–a–v–o–r–e–w–h–e–r–e–a–s–
+48 neq unos gaf -> –n–e–q–u–n–o–s–g–a–f–
+49 ecutor squadre ventral -> –e–c–u–t–o–r–s–q–u–a–d–r–e–v–e–n–t–r–a–l–
+50 omos historii damage -> –o–m–o–s–h–i–s–t–o–r–i–i–d–a–m–a–g–e–
+51 queda jmen aktif -> –q–u–e–d–a–j–m–e–n–a–k–t–i–f–
+52 iant mecz consumed -> –i–a–n–t–m–e–c–z–c–o–n–s–u–m–e–d–
+53 varande wished steril -> –v–a–r–a–n–d–e–w–i–s–h–e–d–s–t–e–r–i–l–
+54 endif ataque poison -> –e–n–d–i–f–a–t–a–q–u–e–p–o–i–s–o–n–
+55 iefert evangel sequ -> –i–e–f–e–r–t–e–v–a–n–g–e–l–s–e–q–u–
+56 rebbe successo hello -> –r–e–b–b–e–s–u–c–c–e–s–s–o–h–e–l–l–o–
+57 rains zasad invert -> –r–a–i–n–s–z–a–s–a–d–i–n–v–e–r–t–
+58 uerdo inglese unbel -> –u–e–r–d–o–i–n–g–l–e–s–e–u–n–b–e–l–
+59 encer chevaux wie -> –e–n–c–e–r–c–h–e–v–a–u–x–w–i–e–
+60 antsesez roh acost -> –a–n–t–s–e–s–e–z–r–o–h–a–c–o–s–t–
+61 ieben secrets campe -> –i–e–b–e–n–s–e–c–r–e–t–s–c–a–m–p–e–
+62 meth bags linha -> –m–e–t–h–b–a–g–s–l–i–n–h–a–
+63 inchi skills concerns -> –i–n–c–h–i–s–k–i–l–l–s–c–o–n–c–e–r–n–s–
+64 logger froide reversed -> –l–o–g–g–e–r–f–r–o–i–d–e–r–e–v–e–r–s–e–d–
+65 dot sweater bc -> –d–o–t–s–w–e–a–t–e–r–b–c–
+66 rachen excepto essais -> –r–a–c–h–e–n–e–x–c–e–p–t–o–e–s–s–a–i–s–
+67 ovanja uyg check -> –o–v–a–n–j–a–u–y–g–c–h–e–c–k–
+68 emouth vl tap -> –e–m–o–u–t–h–v–l–t–a–p–
+69 reicher unix cellules -> –r–e–i–c–h–e–r–u–n–i–x–c–e–l–l–u–l–e–s–
+70 limited miembro hivatal -> –l–i–m–i–t–e–d–m–i–e–m–b–r–o–h–i–v–a–t–a–l–
+71 induced corneal neerland -> –i–n–d–u–c–e–d–c–o–r–n–e–a–l–n–e–e–r–l–a–n–d–
+72 enes protagon condado -> –e–n–e–s–p–r–o–t–a–g–o–n–c–o–n–d–a–d–o–
+73 erst meas pi -> –e–r–s–t–m–e–a–s–p–i–
+74 ets bislang tritt -> –e–t–s–b–i–s–l–a–n–g–t–r–i–t–t–
+75 crumb streng gehouden -> –c–r–u–m–b–s–t–r–e–n–g–g–e–h–o–u–d–e–n–
+76 enoord raised introd -> –e–n–o–o–r–d–r–a–i–s–e–d–i–n–t–r–o–d–
+77 rete wickets radi -> –r–e–t–e–w–i–c–k–e–t–s–r–a–d–i–
+78 cks noche multic -> –c–k–s–n–o–c–h–e–m–u–l–t–i–c–
+79 vasion manten vinc -> –v–a–s–i–o–n–m–a–n–t–e–n–v–i–n–c–
+80 dw flaws sliced -> –d–w–f–l–a–w–s–s–l–i–c–e–d–
+81 tez meinte lasting -> –t–e–z–m–e–i–n–t–e–l–a–s–t–i–n–g–
+82 elfth name negative -> –e–l–f–t–h–n–a–m–e–n–e–g–a–t–i–v–e–
+83 ighed bother ration -> –i–g–h–e–d–b–o–t–h–e–r–r–a–t–i–o–n–
+84 ivol morta crest -> –i–v–o–l–m–o–r–t–a–c–r–e–s–t–
+85 umber mute ona -> –u–m–b–e–r–m–u–t–e–o–n–a–
+86 landaise entweder sick -> –l–a–n–d–a–i–s–e–e–n–t–w–e–d–e–r–s–i–c–k–
+87 ales offered pathname -> –a–l–e–s–o–f–f–e–r–e–d–p–a–t–h–n–a–m–e–
+88 islav malaria poursu -> –i–s–l–a–v–m–a–l–a–r–i–a–p–o–u–r–s–u–
+89 lectric subjekt inherits -> –l–e–c–t–r–i–c–s–u–b–j–e–k–t–i–n–h–e–r–i–t–s–
+90 okka odcink dadurch -> –o–k–k–a–o–d–c–i–n–k–d–a–d–u–r–c–h–
+91 zan rhs rape -> –z–a–n–r–h–s–r–a–p–e–
+92 mongodb avantage hopeful -> –m–o–n–g–o–d–b–a–v–a–n–t–a–g–e–h–o–p–e–f–u–l–
+93 inging visibly suro -> –i–n–g–i–n–g–v–i–s–i–b–l–y–s–u–r–o–
+94 mathbf rotor reiv -> –m–a–t–h–b–f–r–o–t–o–r–r–e–i–v–
+95 lett ih sm -> –l–e–t–t–i–h–s–m–
+96 upmu hardened forwards -> –u–p–m–u–h–a–r–d–e–n–e–d–f–o–r–w–a–r–d–s–
+97 cases meccan decembro -> –c–a–s–e–s–m–e–c–c–a–n–d–e–c–e–m–b–r–o–
+98 phenyl kral malt -> –p–h–e–n–y–l–k–r–a–l–m–a–l–t–
+99 iman vert zoon -> –i–m–a–n–v–e–r–t–z–o–o–n–

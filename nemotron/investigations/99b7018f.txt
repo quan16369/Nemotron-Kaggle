@@ -1,0 +1,71 @@
+problem id: 99b7018f
+category: cryptarithm_guess
+
+examples:
+1. `'{*\\$ = |"||`
+2. `||*:\" = |){:`
+3. `"|*$> = ^$':`
+
+inferred rule:
+Treat each non-operator symbol as a distinct decimal digit.
+
+A consistent digit map is:
+
+- `^ = 0`
+- `: = 1`
+- `| = 2`
+- `{ = 3`
+- `) = 4`
+- `$ = 5`
+- `" = 6`
+- `> = 7`
+- `\\ = 8`
+- `' = 9`
+
+Read each 2-symbol chunk in reverse order, so the second symbol is the tens digit and the first symbol is the ones digit.
+
+Then:
+
+- `*` means ordinary multiplication.
+- `+` is most naturally ordinary addition.
+- After computing the numeric result, reverse the decimal digits of that result before encoding them back into symbols.
+
+check on the examples:
+1. `'{*\\$`
+   `'{` encodes `39`.
+   `\\$` encodes `58`.
+   `39 * 58 = 2262`.
+   Reverse the result digits: `2262 -> 2622`.
+   Encode `2622` back: `2 -> |`, `6 -> "`, `2 -> |`, `2 -> |`, giving `|"||`.
+
+2. `||*:\"`
+   `||` encodes `22`.
+   `:\"` encodes `61`.
+   `22 * 61 = 1342`.
+   Reverse the result digits: `1342 -> 2431`.
+   Encode `2431` back: `2 -> |`, `4 -> )`, `3 -> {`, `1 -> :`, giving `|){:`.
+
+3. `"|*$>`
+   `"|` encodes `26`.
+   `$>` encodes `75`.
+   `26 * 75 = 1950`.
+   Reverse the result digits: `1950 -> 0591`.
+   Encode `0591` back: `0 -> ^`, `5 -> $`, `9 -> '`, `1 -> :`, giving `^$':`.
+
+step-by-step application to the query:
+Query: `|'+$'`
+
+1. `|'` encodes `92`.
+2. `$'` encodes `95`.
+3. Apply the unseen `+` as ordinary addition: `92 + 95 = 187`.
+4. Reverse the result digits: `187 -> 781`.
+5. Encode `781` back into symbols:
+   `7 -> >`
+   `8 -> \\`
+   `1 -> :`
+
+predicted answer:
+`>\\:`
+
+confidence note:
+Medium-high confidence. The reverse-read operands, ordinary multiplication, and reverse-result encoding fit all three training examples exactly and yield a unique symbol-to-digit mapping. The only extrapolation is treating the unseen `+` as ordinary addition.

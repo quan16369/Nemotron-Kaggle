@@ -1,0 +1,69 @@
+problem id: adcc6292
+category: cryptarithm_guess
+
+examples:
+1. `![*!} = [@:!`
+2. `/%+^^ = /%^^`
+3. `}@*[[ = @@//`
+4. `}!*[[ = @%^%`
+
+inferred rule:
+Treat each input as `abXcd`, where `ab` and `cd` are 2-symbol operands and `X` is the operator.
+
+- `+` means literal concatenation of the two 2-symbol chunks:
+  `/% + ^^ -> /%^^`
+- `*` means ordinary multiplication after decoding each symbol as a decimal digit.
+
+The three `*` examples force this digit map:
+
+- `! = 8`
+- `[ = 7`
+- `} = 4`
+- `@ = 3`
+- `: = 0`
+- `/ = 1`
+- `% = 6`
+- `^ = 9`
+
+step-by-step check on the examples:
+1. `![ * !}`:
+   `![ = 87`
+   `!} = 84`
+   `87 * 84 = 7308`
+   `7 -> [`, `3 -> @`, `0 -> :`, `8 -> !`
+   So the output is `[@:!`.
+
+2. `/% + ^^`:
+   `+` just concatenates the two chunks, so the output is `/%^^`.
+
+3. `}@ * [[`:
+   `}@ = 43`
+   `[[ = 77`
+   `43 * 77 = 3311`
+   `3 -> @`, `3 -> @`, `1 -> /`, `1 -> /`
+   So the output is `@@//`.
+
+4. `}! * [[`:
+   `}! = 48`
+   `[[ = 77`
+   `48 * 77 = 3696`
+   `3 -> @`, `6 -> %`, `9 -> ^`, `6 -> %`
+   So the output is `@%^%`.
+
+step-by-step application to the query:
+Query: `@:-[^`
+
+1. Decode the left chunk `@:` as `30`.
+2. Decode the right chunk `[^` as `79`.
+3. The unseen `-` is most naturally ordinary subtraction.
+4. `30 - 79 = -49`.
+5. Encode `49` back into symbols:
+   `4 -> }`
+   `9 -> ^`
+6. Keep the minus sign as a literal leading sign, giving `-}^`.
+
+predicted answer:
+`-}^`
+
+confidence note:
+Medium-high confidence. The `+` example is explicit concatenation, and the three `*` examples force one clean digit map. The only extrapolation is that the unseen `-` means ordinary signed subtraction rather than absolute difference.

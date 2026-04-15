@@ -1,0 +1,48 @@
+problem id: e625f5a7
+category: bit_manipulation
+
+examples:
+1. 11001111 -> 11110111
+2. 01000111 -> 00100010
+3. 00110101 -> 01011010
+4. 11010101 -> 01101010
+5. 01111101 -> 11111010
+6. 11010011 -> 00100001
+7. 10101100 -> 01010000
+8. 01111111 -> 11111110
+
+query: 10011010
+
+inferred rule:
+Let x be the input byte.
+1) A = x << 4 (logical left shift, keep 8 bits only: (x<<4) & 0xFF)
+2) B = x >> 1 (logical right shift)
+3) C = rotate-left-by-1 of x: ((x << 1) & 0xFF) | (x >> 7)
+4) output = majority(A, B, C)
+   = (A & B) | (A & C) | (B & C)
+
+Why the rule fits all examples (verified each one):
+1) 11001111 -> A=11110000, B=01100111, C=10011111, output=(A&B)|(A&C)|(B&C)=11110111
+2) 01000111 -> A=01110000, B=00100011, C=10001110, output=00100010
+3) 00110101 -> A=01010000, B=00011010, C=01101010, output=01011010
+4) 11010101 -> A=01010000, B=01101010, C=10101011, output=01101010
+5) 01111101 -> A=11010000, B=00111110, C=11111010, output=11111010
+6) 11010011 -> A=00110000, B=01101001, C=10100111, output=00100001
+7) 10101100 -> A=11000000, B=01010110, C=01011001, output=01010000
+8) 01111111 -> A=11110000, B=00111111, C=11111110, output=11111110
+All 8 examples match exactly.
+
+step-by-step application to the query:
+Query x = 10011010
+A = x << 4 = 10100000
+B = x >> 1 = 01001101
+C = rotate-left-by-1(x) = 00110101
+A&B = 00100000
+A&C = 00100000
+B&C = 00000101
+output = (A&B) | (A&C) | (B&C) = 00100000 | 00100000 | 00000101 = 00100101
+
+predicted answer: 00100101
+
+confidence note:
+High confidence. The rule is concise, uses only basic bitwise operations consistent with the prompt, and reproduces all provided training pairs perfectly.

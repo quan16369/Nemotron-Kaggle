@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 etrics diesem upside
+01 requires liquids messed
+02 eth obnov fosse
+
+This is a sample output.
+00 etrics diesem upside -> –e–t–r–i–c–s–d–i–e–s–e–m–u–p–s–i–d–e–
+01 requires liquids messed -> –r–e–q–u–i–r–e–s–l–i–q–u–i–d–s–m–e–s–s–e–d–
+02 eth obnov fosse -> –e–t–h–o–b–n–o–v–f–o–s–s–e–
+
+This is your input.
+00 eback sacks finding
+01 fit comienzo kau
+02 ostat nazw codec
+03 eking chegada noir
+04 rast issuing embryo
+05 spaces dyn attended
+06 arsh chap posit
+07 grades pelas cerebral
+08 ogenesis pres insulin
+09 ologia eingesch gebe
+10 ormais wys circ
+11 keits dhe chose
+12 esis pu mena
+13 arf olmay proper
+14 orde singel dc
+15 cere masih spread
+16 qli leased wiring
+17 rue kisses stares
+18 uraient parle rurales
+19 rove skip cargos
+20 isseur bounding lao
+21 juh instanti tema
+22 desde shot pausa
+23 otho mam cancer
+24 inje an ron
+25 initions mirar werk
+26 iscus busca analges
+27 gard ranch tent
+28 opotam adhes derniers
+29 obiles comorbid alters
+30 mod tribus terme
+31 roje overload terra
+32 imov cil missions
+33 deckung aufgeh afast
+34 estan parench presume
+35 fected interpr scout
+36 aard adott sle
+37 swap formulae tornar
+38 lics erh gay
+39 ignation fix verhaal
+40 fahren tvar lire
+41 maxim mairie pobo
+42 odi cultura massac
+43 chein my cleft
+44 urea tub cue
+45 ramento errno ruines
+46 otr illet belir
+47 icznej szint modify
+48 von akkor kas
+49 orov vreme stri
+50 ilj plenty leer
+51 comme rada omitted
+52 avas cats vieron
+53 llan votos koos
+54 etween verde lle
+55 para tho zumeist
+56 igers placed enca
+57 genes familial gou
+58 igues kron orde
+59 orso troops perc
+60 fina deuter dissol
+61 ji emport clans
+62 fac rivalry dikt
+63 upply vezet odd
+64 ponsored ammon striking
+65 ausch felf largest
+66 tility ded tril
+67 ww mean acess
+68 fond estan ild
+69 ohn punten percor
+70 ggy svoj lignin
+71 uvieron cinco adding
+72 orna priced fung
+73 answer glyph secre
+74 inai ov desktop
+75 ianas pristine oficial
+76 correct magazine ajouter
+77 osion indeterm waardoor
+78 quantity decides initiale
+79 rab happens east
+80 vom granic ilha
+81 ponge judicia servizi
+82 oval imediat spars
+83 legate command nii
+84 sele br parlare
+85 vas optimize cint
+86 kking integral tuo
+87 abeled blanc remar
+88 indust deserves mastery
+89 physical simpler magia
+90 alli akhirnya cy
+91 enda wprowad boots
+92 cole veo persists
+93 mile movable rpm
+94 uple gymnast herv
+95 idz reject craint
+96 atoires consolid neuen
+97 jum quedan przeg
+98 ober tempest appe
+99 inecraft sekt am
+[completion]
+00 eback sacks finding -> –e–b–a–c–k–s–a–c–k–s–f–i–n–d–i–n–g–
+01 fit comienzo kau -> –f–i–t–c–o–m–i–e–n–z–o–k–a–u–
+02 ostat nazw codec -> –o–s–t–a–t–n–a–z–w–c–o–d–e–c–
+03 eking chegada noir -> –e–k–i–n–g–c–h–e–g–a–d–a–n–o–i–r–
+04 rast issuing embryo -> –r–a–s–t–i–s–s–u–i–n–g–e–m–b–r–y–o–
+05 spaces dyn attended -> –s–p–a–c–e–s–d–y–n–a–t–t–e–n–d–e–d–
+06 arsh chap posit -> –a–r–s–h–c–h–a–p–p–o–s–i–t–
+07 grades pelas cerebral -> –g–r–a–d–e–s–p–e–l–a–s–c–e–r–e–b–r–a–l–
+08 ogenesis pres insulin -> –o–g–e–n–e–s–i–s–p–r–e–s–i–n–s–u–l–i–n–
+09 ologia eingesch gebe -> –o–l–o–g–i–a–e–i–n–g–e–s–c–h–g–e–b–e–
+10 ormais wys circ -> –o–r–m–a–i–s–w–y–s–c–i–r–c–
+11 keits dhe chose -> –k–e–i–t–s–d–h–e–c–h–o–s–e–
+12 esis pu mena -> –e–s–i–s–p–u–m–e–n–a–
+13 arf olmay proper -> –a–r–f–o–l–m–a–y–p–r–o–p–e–r–
+14 orde singel dc -> –o–r–d–e–s–i–n–g–e–l–d–c–
+15 cere masih spread -> –c–e–r–e–m–a–s–i–h–s–p–r–e–a–d–
+16 qli leased wiring -> –q–l–i–l–e–a–s–e–d–w–i–r–i–n–g–
+17 rue kisses stares -> –r–u–e–k–i–s–s–e–s–s–t–a–r–e–s–
+18 uraient parle rurales -> –u–r–a–i–e–n–t–p–a–r–l–e–r–u–r–a–l–e–s–
+19 rove skip cargos -> –r–o–v–e–s–k–i–p–c–a–r–g–o–s–
+20 isseur bounding lao -> –i–s–s–e–u–r–b–o–u–n–d–i–n–g–l–a–o–
+21 juh instanti tema -> –j–u–h–i–n–s–t–a–n–t–i–t–e–m–a–
+22 desde shot pausa -> –d–e–s–d–e–s–h–o–t–p–a–u–s–a–
+23 otho mam cancer -> –o–t–h–o–m–a–m–c–a–n–c–e–r–
+24 inje an ron -> –i–n–j–e–a–n–r–o–n–
+25 initions mirar werk -> –i–n–i–t–i–o–n–s–m–i–r–a–r–w–e–r–k–
+26 iscus busca analges -> –i–s–c–u–s–b–u–s–c–a–a–n–a–l–g–e–s–
+27 gard ranch tent -> –g–a–r–d–r–a–n–c–h–t–e–n–t–
+28 opotam adhes derniers -> –o–p–o–t–a–m–a–d–h–e–s–d–e–r–n–i–e–r–s–
+29 obiles comorbid alters -> –o–b–i–l–e–s–c–o–m–o–r–b–i–d–a–l–t–e–r–s–
+30 mod tribus terme -> –m–o–d–t–r–i–b–u–s–t–e–r–m–e–
+31 roje overload terra -> –r–o–j–e–o–v–e–r–l–o–a–d–t–e–r–r–a–
+32 imov cil missions -> –i–m–o–v–c–i–l–m–i–s–s–i–o–n–s–
+33 deckung aufgeh afast -> –d–e–c–k–u–n–g–a–u–f–g–e–h–a–f–a–s–t–
+34 estan parench presume -> –e–s–t–a–n–p–a–r–e–n–c–h–p–r–e–s–u–m–e–
+35 fected interpr scout -> –f–e–c–t–e–d–i–n–t–e–r–p–r–s–c–o–u–t–
+36 aard adott sle -> –a–a–r–d–a–d–o–t–t–s–l–e–
+37 swap formulae tornar -> –s–w–a–p–f–o–r–m–u–l–a–e–t–o–r–n–a–r–
+38 lics erh gay -> –l–i–c–s–e–r–h–g–a–y–
+39 ignation fix verhaal -> –i–g–n–a–t–i–o–n–f–i–x–v–e–r–h–a–a–l–
+40 fahren tvar lire -> –f–a–h–r–e–n–t–v–a–r–l–i–r–e–
+41 maxim mairie pobo -> –m–a–x–i–m–m–a–i–r–i–e–p–o–b–o–
+42 odi cultura massac -> –o–d–i–c–u–l–t–u–r–a–m–a–s–s–a–c–
+43 chein my cleft -> –c–h–e–i–n–m–y–c–l–e–f–t–
+44 urea tub cue -> –u–r–e–a–t–u–b–c–u–e–
+45 ramento errno ruines -> –r–a–m–e–n–t–o–e–r–r–n–o–r–u–i–n–e–s–
+46 otr illet belir -> –o–t–r–i–l–l–e–t–b–e–l–i–r–
+47 icznej szint modify -> –i–c–z–n–e–j–s–z–i–n–t–m–o–d–i–f–y–
+48 von akkor kas -> –v–o–n–a–k–k–o–r–k–a–s–
+49 orov vreme stri -> –o–r–o–v–v–r–e–m–e–s–t–r–i–
+50 ilj plenty leer -> –i–l–j–p–l–e–n–t–y–l–e–e–r–
+51 comme rada omitted -> –c–o–m–m–e–r–a–d–a–o–m–i–t–t–e–d–
+52 avas cats vieron -> –a–v–a–s–c–a–t–s–v–i–e–r–o–n–
+53 llan votos koos -> –l–l–a–n–v–o–t–o–s–k–o–o–s–
+54 etween verde lle -> –e–t–w–e–e–n–v–e–r–d–e–l–l–e–
+55 para tho zumeist -> –p–a–r–a–t–h–o–z–u–m–e–i–s–t–
+56 igers placed enca -> –i–g–e–r–s–p–l–a–c–e–d–e–n–c–a–
+57 genes familial gou -> –g–e–n–e–s–f–a–m–i–l–i–a–l–g–o–u–
+58 igues kron orde -> –i–g–u–e–s–k–r–o–n–o–r–d–e–
+59 orso troops perc -> –o–r–s–o–t–r–o–o–p–s–p–e–r–c–
+60 fina deuter dissol -> –f–i–n–a–d–e–u–t–e–r–d–i–s–s–o–l–
+61 ji emport clans -> –j–i–e–m–p–o–r–t–c–l–a–n–s–
+62 fac rivalry dikt -> –f–a–c–r–i–v–a–l–r–y–d–i–k–t–
+63 upply vezet odd -> –u–p–p–l–y–v–e–z–e–t–o–d–d–
+64 ponsored ammon striking -> –p–o–n–s–o–r–e–d–a–m–m–o–n–s–t–r–i–k–i–n–g–
+65 ausch felf largest -> –a–u–s–c–h–f–e–l–f–l–a–r–g–e–s–t–
+66 tility ded tril -> –t–i–l–i–t–y–d–e–d–t–r–i–l–
+67 ww mean acess -> –w–w–m–e–a–n–a–c–e–s–s–
+68 fond estan ild -> –f–o–n–d–e–s–t–a–n–i–l–d–
+69 ohn punten percor -> –o–h–n–p–u–n–t–e–n–p–e–r–c–o–r–
+70 ggy svoj lignin -> –g–g–y–s–v–o–j–l–i–g–n–i–n–
+71 uvieron cinco adding -> –u–v–i–e–r–o–n–c–i–n–c–o–a–d–d–i–n–g–
+72 orna priced fung -> –o–r–n–a–p–r–i–c–e–d–f–u–n–g–
+73 answer glyph secre -> –a–n–s–w–e–r–g–l–y–p–h–s–e–c–r–e–
+74 inai ov desktop -> –i–n–a–i–o–v–d–e–s–k–t–o–p–
+75 ianas pristine oficial -> –i–a–n–a–s–p–r–i–s–t–i–n–e–o–f–i–c–i–a–l–
+76 correct magazine ajouter -> –c–o–r–r–e–c–t–m–a–g–a–z–i–n–e–a–j–o–u–t–e–r–
+77 osion indeterm waardoor -> –o–s–i–o–n–i–n–d–e–t–e–r–m–w–a–a–r–d–o–o–r–
+78 quantity decides initiale -> –q–u–a–n–t–i–t–y–d–e–c–i–d–e–s–i–n–i–t–i–a–l–e–
+79 rab happens east -> –r–a–b–h–a–p–p–e–n–s–e–a–s–t–
+80 vom granic ilha -> –v–o–m–g–r–a–n–i–c–i–l–h–a–
+81 ponge judicia servizi -> –p–o–n–g–e–j–u–d–i–c–i–a–s–e–r–v–i–z–i–
+82 oval imediat spars -> –o–v–a–l–i–m–e–d–i–a–t–s–p–a–r–s–
+83 legate command nii -> –l–e–g–a–t–e–c–o–m–m–a–n–d–n–i–i–
+84 sele br parlare -> –s–e–l–e–b–r–p–a–r–l–a–r–e–
+85 vas optimize cint -> –v–a–s–o–p–t–i–m–i–z–e–c–i–n–t–
+86 kking integral tuo -> –k–k–i–n–g–i–n–t–e–g–r–a–l–t–u–o–
+87 abeled blanc remar -> –a–b–e–l–e–d–b–l–a–n–c–r–e–m–a–r–
+88 indust deserves mastery -> –i–n–d–u–s–t–d–e–s–e–r–v–e–s–m–a–s–t–e–r–y–
+89 physical simpler magia -> –p–h–y–s–i–c–a–l–s–i–m–p–l–e–r–m–a–g–i–a–
+90 alli akhirnya cy -> –a–l–l–i–a–k–h–i–r–n–y–a–c–y–
+91 enda wprowad boots -> –e–n–d–a–w–p–r–o–w–a–d–b–o–o–t–s–
+92 cole veo persists -> –c–o–l–e–v–e–o–p–e–r–s–i–s–t–s–
+93 mile movable rpm -> –m–i–l–e–m–o–v–a–b–l–e–r–p–m–
+94 uple gymnast herv -> –u–p–l–e–g–y–m–n–a–s–t–h–e–r–v–
+95 idz reject craint -> –i–d–z–r–e–j–e–c–t–c–r–a–i–n–t–
+96 atoires consolid neuen -> –a–t–o–i–r–e–s–c–o–n–s–o–l–i–d–n–e–u–e–n–
+97 jum quedan przeg -> –j–u–m–q–u–e–d–a–n–p–r–z–e–g–
+98 ober tempest appe -> –o–b–e–r–t–e–m–p–e–s–t–a–p–p–e–
+99 inecraft sekt am -> –i–n–e–c–r–a–f–t–s–e–k–t–a–m–

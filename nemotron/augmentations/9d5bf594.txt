@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 antwort crian expect
+01 abstract amici proclam
+02 rista imprison muzy
+
+This is a sample output.
+00 antwort crian expect -> –a–n–t–w–o–r–t–c–r–i–a–n–e–x–p–e–c–t–
+01 abstract amici proclam -> –a–b–s–t–r–a–c–t–a–m–i–c–i–p–r–o–c–l–a–m–
+02 rista imprison muzy -> –r–i–s–t–a–i–m–p–r–i–s–o–n–m–u–z–y–
+
+This is your input.
+00 uffy jelent gaining
+01 spiele asesin eo
+02 compact urma teorie
+03 enschap prova metab
+04 orrh tiles arrang
+05 zev slider abr
+06 dfs mom sword
+07 normally timber va
+08 nal flown status
+09 ict alten fini
+10 avorites drained nyom
+11 enant freshly throw
+12 iaries frecu balk
+13 igital some arr
+14 ansing reaching affirmed
+15 astro dengue luce
+16 ashtu wherein visa
+17 itev outdoor aph
+18 arie ancienne kinases
+19 anlage strugg lengu
+20 emia barre einigen
+21 iske created szerint
+22 ro bamb oben
+23 osc pul troubled
+24 ector allen flat
+25 reiben fogl proprio
+26 ycz tangible recibe
+27 ighty multipl erlang
+28 ombie bones cesar
+29 keeper agency democr
+30 utions np anderes
+31 others sudo unir
+32 isers church drone
+33 tt muss few
+34 featured consegu gospel
+35 nten chromos antih
+36 si giovani alleged
+37 ructura sockets maize
+38 kappa francesa bets
+39 lautern katon marketed
+40 ony disagre singers
+41 hook einges jugar
+42 dated atypical bye
+43 mitted curative vermo
+44 valor komis mnogo
+45 calc gradual aa
+46 neaux folyam adresse
+47 uler asum savoir
+48 ologna angg aanwezig
+49 ota casual samego
+50 liyi bietet existed
+51 unted sql fused
+52 angl resurre przy
+53 ountry objekt ople
+54 du dare ricost
+55 ovi lans mv
+56 lash hommes ladr
+57 elcome overly duels
+58 simeq hyp deste
+59 conom tratta aeros
+60 apkan gum vagina
+61 zzle patron elastic
+62 walk ezt quad
+63 idding entrando tu
+64 shown wheel aug
+65 ystyrene neder izra
+66 press grado repuls
+67 ance ei stock
+68 what swore glam
+69 omiast quince dopamine
+70 issances dry casing
+71 izada kwiet arched
+72 ropri cest diamet
+73 stw droite litter
+74 imar pay steal
+75 igli smatra rinsed
+76 usion model trab
+77 dob moteur fuselage
+78 under slipped choisi
+79 oto latina feita
+80 eze wicket dividido
+81 pies ia fans
+82 tych rooted douleur
+83 rats curr ladder
+84 etheus patria kelompok
+85 kry proof filmen
+86 rikes frequ scop
+87 zm segons activa
+88 rese pontos cracking
+89 ogly effekt lem
+90 erin damned pasning
+91 emptyset jugement recuerda
+92 endete biss tenha
+93 main inject actin
+94 ythm opini tua
+95 inh entonces dziel
+96 ierno vise remonte
+97 enstein dop aprovech
+98 omial bcrypt princesa
+99 rica maal tax
+[completion]
+00 uffy jelent gaining -> –u–f–f–y–j–e–l–e–n–t–g–a–i–n–i–n–g–
+01 spiele asesin eo -> –s–p–i–e–l–e–a–s–e–s–i–n–e–o–
+02 compact urma teorie -> –c–o–m–p–a–c–t–u–r–m–a–t–e–o–r–i–e–
+03 enschap prova metab -> –e–n–s–c–h–a–p–p–r–o–v–a–m–e–t–a–b–
+04 orrh tiles arrang -> –o–r–r–h–t–i–l–e–s–a–r–r–a–n–g–
+05 zev slider abr -> –z–e–v–s–l–i–d–e–r–a–b–r–
+06 dfs mom sword -> –d–f–s–m–o–m–s–w–o–r–d–
+07 normally timber va -> –n–o–r–m–a–l–l–y–t–i–m–b–e–r–v–a–
+08 nal flown status -> –n–a–l–f–l–o–w–n–s–t–a–t–u–s–
+09 ict alten fini -> –i–c–t–a–l–t–e–n–f–i–n–i–
+10 avorites drained nyom -> –a–v–o–r–i–t–e–s–d–r–a–i–n–e–d–n–y–o–m–
+11 enant freshly throw -> –e–n–a–n–t–f–r–e–s–h–l–y–t–h–r–o–w–
+12 iaries frecu balk -> –i–a–r–i–e–s–f–r–e–c–u–b–a–l–k–
+13 igital some arr -> –i–g–i–t–a–l–s–o–m–e–a–r–r–
+14 ansing reaching affirmed -> –a–n–s–i–n–g–r–e–a–c–h–i–n–g–a–f–f–i–r–m–e–d–
+15 astro dengue luce -> –a–s–t–r–o–d–e–n–g–u–e–l–u–c–e–
+16 ashtu wherein visa -> –a–s–h–t–u–w–h–e–r–e–i–n–v–i–s–a–
+17 itev outdoor aph -> –i–t–e–v–o–u–t–d–o–o–r–a–p–h–
+18 arie ancienne kinases -> –a–r–i–e–a–n–c–i–e–n–n–e–k–i–n–a–s–e–s–
+19 anlage strugg lengu -> –a–n–l–a–g–e–s–t–r–u–g–g–l–e–n–g–u–
+20 emia barre einigen -> –e–m–i–a–b–a–r–r–e–e–i–n–i–g–e–n–
+21 iske created szerint -> –i–s–k–e–c–r–e–a–t–e–d–s–z–e–r–i–n–t–
+22 ro bamb oben -> –r–o–b–a–m–b–o–b–e–n–
+23 osc pul troubled -> –o–s–c–p–u–l–t–r–o–u–b–l–e–d–
+24 ector allen flat -> –e–c–t–o–r–a–l–l–e–n–f–l–a–t–
+25 reiben fogl proprio -> –r–e–i–b–e–n–f–o–g–l–p–r–o–p–r–i–o–
+26 ycz tangible recibe -> –y–c–z–t–a–n–g–i–b–l–e–r–e–c–i–b–e–
+27 ighty multipl erlang -> –i–g–h–t–y–m–u–l–t–i–p–l–e–r–l–a–n–g–
+28 ombie bones cesar -> –o–m–b–i–e–b–o–n–e–s–c–e–s–a–r–
+29 keeper agency democr -> –k–e–e–p–e–r–a–g–e–n–c–y–d–e–m–o–c–r–
+30 utions np anderes -> –u–t–i–o–n–s–n–p–a–n–d–e–r–e–s–
+31 others sudo unir -> –o–t–h–e–r–s–s–u–d–o–u–n–i–r–
+32 isers church drone -> –i–s–e–r–s–c–h–u–r–c–h–d–r–o–n–e–
+33 tt muss few -> –t–t–m–u–s–s–f–e–w–
+34 featured consegu gospel -> –f–e–a–t–u–r–e–d–c–o–n–s–e–g–u–g–o–s–p–e–l–
+35 nten chromos antih -> –n–t–e–n–c–h–r–o–m–o–s–a–n–t–i–h–
+36 si giovani alleged -> –s–i–g–i–o–v–a–n–i–a–l–l–e–g–e–d–
+37 ructura sockets maize -> –r–u–c–t–u–r–a–s–o–c–k–e–t–s–m–a–i–z–e–
+38 kappa francesa bets -> –k–a–p–p–a–f–r–a–n–c–e–s–a–b–e–t–s–
+39 lautern katon marketed -> –l–a–u–t–e–r–n–k–a–t–o–n–m–a–r–k–e–t–e–d–
+40 ony disagre singers -> –o–n–y–d–i–s–a–g–r–e–s–i–n–g–e–r–s–
+41 hook einges jugar -> –h–o–o–k–e–i–n–g–e–s–j–u–g–a–r–
+42 dated atypical bye -> –d–a–t–e–d–a–t–y–p–i–c–a–l–b–y–e–
+43 mitted curative vermo -> –m–i–t–t–e–d–c–u–r–a–t–i–v–e–v–e–r–m–o–
+44 valor komis mnogo -> –v–a–l–o–r–k–o–m–i–s–m–n–o–g–o–
+45 calc gradual aa -> –c–a–l–c–g–r–a–d–u–a–l–a–a–
+46 neaux folyam adresse -> –n–e–a–u–x–f–o–l–y–a–m–a–d–r–e–s–s–e–
+47 uler asum savoir -> –u–l–e–r–a–s–u–m–s–a–v–o–i–r–
+48 ologna angg aanwezig -> –o–l–o–g–n–a–a–n–g–g–a–a–n–w–e–z–i–g–
+49 ota casual samego -> –o–t–a–c–a–s–u–a–l–s–a–m–e–g–o–
+50 liyi bietet existed -> –l–i–y–i–b–i–e–t–e–t–e–x–i–s–t–e–d–
+51 unted sql fused -> –u–n–t–e–d–s–q–l–f–u–s–e–d–
+52 angl resurre przy -> –a–n–g–l–r–e–s–u–r–r–e–p–r–z–y–
+53 ountry objekt ople -> –o–u–n–t–r–y–o–b–j–e–k–t–o–p–l–e–
+54 du dare ricost -> –d–u–d–a–r–e–r–i–c–o–s–t–
+55 ovi lans mv -> –o–v–i–l–a–n–s–m–v–
+56 lash hommes ladr -> –l–a–s–h–h–o–m–m–e–s–l–a–d–r–
+57 elcome overly duels -> –e–l–c–o–m–e–o–v–e–r–l–y–d–u–e–l–s–
+58 simeq hyp deste -> –s–i–m–e–q–h–y–p–d–e–s–t–e–
+59 conom tratta aeros -> –c–o–n–o–m–t–r–a–t–t–a–a–e–r–o–s–
+60 apkan gum vagina -> –a–p–k–a–n–g–u–m–v–a–g–i–n–a–
+61 zzle patron elastic -> –z–z–l–e–p–a–t–r–o–n–e–l–a–s–t–i–c–
+62 walk ezt quad -> –w–a–l–k–e–z–t–q–u–a–d–
+63 idding entrando tu -> –i–d–d–i–n–g–e–n–t–r–a–n–d–o–t–u–
+64 shown wheel aug -> –s–h–o–w–n–w–h–e–e–l–a–u–g–
+65 ystyrene neder izra -> –y–s–t–y–r–e–n–e–n–e–d–e–r–i–z–r–a–
+66 press grado repuls -> –p–r–e–s–s–g–r–a–d–o–r–e–p–u–l–s–
+67 ance ei stock -> –a–n–c–e–e–i–s–t–o–c–k–
+68 what swore glam -> –w–h–a–t–s–w–o–r–e–g–l–a–m–
+69 omiast quince dopamine -> –o–m–i–a–s–t–q–u–i–n–c–e–d–o–p–a–m–i–n–e–
+70 issances dry casing -> –i–s–s–a–n–c–e–s–d–r–y–c–a–s–i–n–g–
+71 izada kwiet arched -> –i–z–a–d–a–k–w–i–e–t–a–r–c–h–e–d–
+72 ropri cest diamet -> –r–o–p–r–i–c–e–s–t–d–i–a–m–e–t–
+73 stw droite litter -> –s–t–w–d–r–o–i–t–e–l–i–t–t–e–r–
+74 imar pay steal -> –i–m–a–r–p–a–y–s–t–e–a–l–
+75 igli smatra rinsed -> –i–g–l–i–s–m–a–t–r–a–r–i–n–s–e–d–
+76 usion model trab -> –u–s–i–o–n–m–o–d–e–l–t–r–a–b–
+77 dob moteur fuselage -> –d–o–b–m–o–t–e–u–r–f–u–s–e–l–a–g–e–
+78 under slipped choisi -> –u–n–d–e–r–s–l–i–p–p–e–d–c–h–o–i–s–i–
+79 oto latina feita -> –o–t–o–l–a–t–i–n–a–f–e–i–t–a–
+80 eze wicket dividido -> –e–z–e–w–i–c–k–e–t–d–i–v–i–d–i–d–o–
+81 pies ia fans -> –p–i–e–s–i–a–f–a–n–s–
+82 tych rooted douleur -> –t–y–c–h–r–o–o–t–e–d–d–o–u–l–e–u–r–
+83 rats curr ladder -> –r–a–t–s–c–u–r–r–l–a–d–d–e–r–
+84 etheus patria kelompok -> –e–t–h–e–u–s–p–a–t–r–i–a–k–e–l–o–m–p–o–k–
+85 kry proof filmen -> –k–r–y–p–r–o–o–f–f–i–l–m–e–n–
+86 rikes frequ scop -> –r–i–k–e–s–f–r–e–q–u–s–c–o–p–
+87 zm segons activa -> –z–m–s–e–g–o–n–s–a–c–t–i–v–a–
+88 rese pontos cracking -> –r–e–s–e–p–o–n–t–o–s–c–r–a–c–k–i–n–g–
+89 ogly effekt lem -> –o–g–l–y–e–f–f–e–k–t–l–e–m–
+90 erin damned pasning -> –e–r–i–n–d–a–m–n–e–d–p–a–s–n–i–n–g–
+91 emptyset jugement recuerda -> –e–m–p–t–y–s–e–t–j–u–g–e–m–e–n–t–r–e–c–u–e–r–d–a–
+92 endete biss tenha -> –e–n–d–e–t–e–b–i–s–s–t–e–n–h–a–
+93 main inject actin -> –m–a–i–n–i–n–j–e–c–t–a–c–t–i–n–
+94 ythm opini tua -> –y–t–h–m–o–p–i–n–i–t–u–a–
+95 inh entonces dziel -> –i–n–h–e–n–t–o–n–c–e–s–d–z–i–e–l–
+96 ierno vise remonte -> –i–e–r–n–o–v–i–s–e–r–e–m–o–n–t–e–
+97 enstein dop aprovech -> –e–n–s–t–e–i–n–d–o–p–a–p–r–o–v–e–c–h–
+98 omial bcrypt princesa -> –o–m–i–a–l–b–c–r–y–p–t–p–r–i–n–c–e–s–a–
+99 rica maal tax -> –r–i–c–a–m–a–a–l–t–a–x–

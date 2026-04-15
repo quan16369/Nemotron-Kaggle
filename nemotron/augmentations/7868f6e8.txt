@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 ikian plaques furn
+01 vod vuonna barr
+02 gor gid valeurs
+
+This is a sample output.
+00 ikian plaques furn -> –i–k–i–a–n–p–l–a–q–u–e–s–f–u–r–n–
+01 vod vuonna barr -> –v–o–d–v–u–o–n–n–a–b–a–r–r–
+02 gor gid valeurs -> –g–o–r–g–i–d–v–a–l–e–u–r–s–
+
+This is your input.
+00 bbene goth pans
+01 estone disreg pasar
+02 uno besser podido
+03 cego purity przem
+04 lm instal fall
+05 check produces gross
+06 ongoose mutated sorozat
+07 putation alike oedd
+08 ledge reappe veulent
+09 olutely taught graphene
+10 yecto markedly loyal
+11 rawn const noto
+12 illon firme tira
+13 idium alleles severity
+14 umbia gitt mittler
+15 bands address mestre
+16 zej turtle encant
+17 ilia holand incluy
+18 ielo progeny parola
+19 juana vacu dritte
+20 beda monarca hine
+21 ynku concurs snel
+22 sy interior defaults
+23 cis viagem summon
+24 atorze toys raggiung
+25 uses stod voz
+26 yet aimer traces
+27 atro outer inne
+28 fois glasses exch
+29 secution thir instituc
+30 oss census supplied
+31 tevil precum semula
+32 unicip tribes mixte
+33 ode soltanto upset
+34 sha semplic excret
+35 pex ytter risp
+36 ostra sais trol
+37 chapter verkla margin
+38 odynamic armo bulegoa
+39 rando kuid thuy
+40 titulo ocasi viaj
+41 uren urine hlad
+42 atisf sj ruler
+43 rec narrower difesa
+44 ieron rookie strap
+45 voke partidos cages
+46 weich crafted energet
+47 rastr dou csrf
+48 folder ships critic
+49 omez direito spolu
+50 lage abbre unbek
+51 ity grasp mereka
+52 osis youths cards
+53 ennen mult lenn
+54 atiques turnover liitt
+55 iratet changed igelts
+56 wau visual tumors
+57 gener lng odb
+58 iat utilized souligne
+59 clinical thereby padre
+60 vill dung samot
+61 assign volver sym
+62 zo meticul muted
+63 angen damals mende
+64 reta lesions mortgage
+65 eron ax bajo
+66 czna singular tactical
+67 dfrac stand introdu
+68 perl above ermitt
+69 abra police flav
+70 iemann desf rij
+71 imoine prosp heter
+72 nehm accept bursts
+73 ionali spinner legal
+74 tona songe igre
+75 odan cycling dne
+76 quarter infusion acest
+77 ahre bajas raro
+78 ieval deben wind
+79 inander lonely teniente
+80 ubahan menang ellos
+81 ommes auxiliar alcune
+82 cli centim pregled
+83 cknow pelea cuya
+84 olgens buscar fortuna
+85 tre ll creative
+86 ef modulate nl
+87 irsi brands cerem
+88 imen tiver ofic
+89 lsx tokom ceux
+90 gift unders spal
+91 bye daha funding
+92 unnable arter bankrupt
+93 uet greedy shorter
+94 ken posted disputar
+95 elt besl scient
+96 cate rebels methyl
+97 otox questa cereal
+98 ract despre ghetto
+99 onta elekt coffee
+[completion]
+00 bbene goth pans -> –b–b–e–n–e–g–o–t–h–p–a–n–s–
+01 estone disreg pasar -> –e–s–t–o–n–e–d–i–s–r–e–g–p–a–s–a–r–
+02 uno besser podido -> –u–n–o–b–e–s–s–e–r–p–o–d–i–d–o–
+03 cego purity przem -> –c–e–g–o–p–u–r–i–t–y–p–r–z–e–m–
+04 lm instal fall -> –l–m–i–n–s–t–a–l–f–a–l–l–
+05 check produces gross -> –c–h–e–c–k–p–r–o–d–u–c–e–s–g–r–o–s–s–
+06 ongoose mutated sorozat -> –o–n–g–o–o–s–e–m–u–t–a–t–e–d–s–o–r–o–z–a–t–
+07 putation alike oedd -> –p–u–t–a–t–i–o–n–a–l–i–k–e–o–e–d–d–
+08 ledge reappe veulent -> –l–e–d–g–e–r–e–a–p–p–e–v–e–u–l–e–n–t–
+09 olutely taught graphene -> –o–l–u–t–e–l–y–t–a–u–g–h–t–g–r–a–p–h–e–n–e–
+10 yecto markedly loyal -> –y–e–c–t–o–m–a–r–k–e–d–l–y–l–o–y–a–l–
+11 rawn const noto -> –r–a–w–n–c–o–n–s–t–n–o–t–o–
+12 illon firme tira -> –i–l–l–o–n–f–i–r–m–e–t–i–r–a–
+13 idium alleles severity -> –i–d–i–u–m–a–l–l–e–l–e–s–s–e–v–e–r–i–t–y–
+14 umbia gitt mittler -> –u–m–b–i–a–g–i–t–t–m–i–t–t–l–e–r–
+15 bands address mestre -> –b–a–n–d–s–a–d–d–r–e–s–s–m–e–s–t–r–e–
+16 zej turtle encant -> –z–e–j–t–u–r–t–l–e–e–n–c–a–n–t–
+17 ilia holand incluy -> –i–l–i–a–h–o–l–a–n–d–i–n–c–l–u–y–
+18 ielo progeny parola -> –i–e–l–o–p–r–o–g–e–n–y–p–a–r–o–l–a–
+19 juana vacu dritte -> –j–u–a–n–a–v–a–c–u–d–r–i–t–t–e–
+20 beda monarca hine -> –b–e–d–a–m–o–n–a–r–c–a–h–i–n–e–
+21 ynku concurs snel -> –y–n–k–u–c–o–n–c–u–r–s–s–n–e–l–
+22 sy interior defaults -> –s–y–i–n–t–e–r–i–o–r–d–e–f–a–u–l–t–s–
+23 cis viagem summon -> –c–i–s–v–i–a–g–e–m–s–u–m–m–o–n–
+24 atorze toys raggiung -> –a–t–o–r–z–e–t–o–y–s–r–a–g–g–i–u–n–g–
+25 uses stod voz -> –u–s–e–s–s–t–o–d–v–o–z–
+26 yet aimer traces -> –y–e–t–a–i–m–e–r–t–r–a–c–e–s–
+27 atro outer inne -> –a–t–r–o–o–u–t–e–r–i–n–n–e–
+28 fois glasses exch -> –f–o–i–s–g–l–a–s–s–e–s–e–x–c–h–
+29 secution thir instituc -> –s–e–c–u–t–i–o–n–t–h–i–r–i–n–s–t–i–t–u–c–
+30 oss census supplied -> –o–s–s–c–e–n–s–u–s–s–u–p–p–l–i–e–d–
+31 tevil precum semula -> –t–e–v–i–l–p–r–e–c–u–m–s–e–m–u–l–a–
+32 unicip tribes mixte -> –u–n–i–c–i–p–t–r–i–b–e–s–m–i–x–t–e–
+33 ode soltanto upset -> –o–d–e–s–o–l–t–a–n–t–o–u–p–s–e–t–
+34 sha semplic excret -> –s–h–a–s–e–m–p–l–i–c–e–x–c–r–e–t–
+35 pex ytter risp -> –p–e–x–y–t–t–e–r–r–i–s–p–
+36 ostra sais trol -> –o–s–t–r–a–s–a–i–s–t–r–o–l–
+37 chapter verkla margin -> –c–h–a–p–t–e–r–v–e–r–k–l–a–m–a–r–g–i–n–
+38 odynamic armo bulegoa -> –o–d–y–n–a–m–i–c–a–r–m–o–b–u–l–e–g–o–a–
+39 rando kuid thuy -> –r–a–n–d–o–k–u–i–d–t–h–u–y–
+40 titulo ocasi viaj -> –t–i–t–u–l–o–o–c–a–s–i–v–i–a–j–
+41 uren urine hlad -> –u–r–e–n–u–r–i–n–e–h–l–a–d–
+42 atisf sj ruler -> –a–t–i–s–f–s–j–r–u–l–e–r–
+43 rec narrower difesa -> –r–e–c–n–a–r–r–o–w–e–r–d–i–f–e–s–a–
+44 ieron rookie strap -> –i–e–r–o–n–r–o–o–k–i–e–s–t–r–a–p–
+45 voke partidos cages -> –v–o–k–e–p–a–r–t–i–d–o–s–c–a–g–e–s–
+46 weich crafted energet -> –w–e–i–c–h–c–r–a–f–t–e–d–e–n–e–r–g–e–t–
+47 rastr dou csrf -> –r–a–s–t–r–d–o–u–c–s–r–f–
+48 folder ships critic -> –f–o–l–d–e–r–s–h–i–p–s–c–r–i–t–i–c–
+49 omez direito spolu -> –o–m–e–z–d–i–r–e–i–t–o–s–p–o–l–u–
+50 lage abbre unbek -> –l–a–g–e–a–b–b–r–e–u–n–b–e–k–
+51 ity grasp mereka -> –i–t–y–g–r–a–s–p–m–e–r–e–k–a–
+52 osis youths cards -> –o–s–i–s–y–o–u–t–h–s–c–a–r–d–s–
+53 ennen mult lenn -> –e–n–n–e–n–m–u–l–t–l–e–n–n–
+54 atiques turnover liitt -> –a–t–i–q–u–e–s–t–u–r–n–o–v–e–r–l–i–i–t–t–
+55 iratet changed igelts -> –i–r–a–t–e–t–c–h–a–n–g–e–d–i–g–e–l–t–s–
+56 wau visual tumors -> –w–a–u–v–i–s–u–a–l–t–u–m–o–r–s–
+57 gener lng odb -> –g–e–n–e–r–l–n–g–o–d–b–
+58 iat utilized souligne -> –i–a–t–u–t–i–l–i–z–e–d–s–o–u–l–i–g–n–e–
+59 clinical thereby padre -> –c–l–i–n–i–c–a–l–t–h–e–r–e–b–y–p–a–d–r–e–
+60 vill dung samot -> –v–i–l–l–d–u–n–g–s–a–m–o–t–
+61 assign volver sym -> –a–s–s–i–g–n–v–o–l–v–e–r–s–y–m–
+62 zo meticul muted -> –z–o–m–e–t–i–c–u–l–m–u–t–e–d–
+63 angen damals mende -> –a–n–g–e–n–d–a–m–a–l–s–m–e–n–d–e–
+64 reta lesions mortgage -> –r–e–t–a–l–e–s–i–o–n–s–m–o–r–t–g–a–g–e–
+65 eron ax bajo -> –e–r–o–n–a–x–b–a–j–o–
+66 czna singular tactical -> –c–z–n–a–s–i–n–g–u–l–a–r–t–a–c–t–i–c–a–l–
+67 dfrac stand introdu -> –d–f–r–a–c–s–t–a–n–d–i–n–t–r–o–d–u–
+68 perl above ermitt -> –p–e–r–l–a–b–o–v–e–e–r–m–i–t–t–
+69 abra police flav -> –a–b–r–a–p–o–l–i–c–e–f–l–a–v–
+70 iemann desf rij -> –i–e–m–a–n–n–d–e–s–f–r–i–j–
+71 imoine prosp heter -> –i–m–o–i–n–e–p–r–o–s–p–h–e–t–e–r–
+72 nehm accept bursts -> –n–e–h–m–a–c–c–e–p–t–b–u–r–s–t–s–
+73 ionali spinner legal -> –i–o–n–a–l–i–s–p–i–n–n–e–r–l–e–g–a–l–
+74 tona songe igre -> –t–o–n–a–s–o–n–g–e–i–g–r–e–
+75 odan cycling dne -> –o–d–a–n–c–y–c–l–i–n–g–d–n–e–
+76 quarter infusion acest -> –q–u–a–r–t–e–r–i–n–f–u–s–i–o–n–a–c–e–s–t–
+77 ahre bajas raro -> –a–h–r–e–b–a–j–a–s–r–a–r–o–
+78 ieval deben wind -> –i–e–v–a–l–d–e–b–e–n–w–i–n–d–
+79 inander lonely teniente -> –i–n–a–n–d–e–r–l–o–n–e–l–y–t–e–n–i–e–n–t–e–
+80 ubahan menang ellos -> –u–b–a–h–a–n–m–e–n–a–n–g–e–l–l–o–s–
+81 ommes auxiliar alcune -> –o–m–m–e–s–a–u–x–i–l–i–a–r–a–l–c–u–n–e–
+82 cli centim pregled -> –c–l–i–c–e–n–t–i–m–p–r–e–g–l–e–d–
+83 cknow pelea cuya -> –c–k–n–o–w–p–e–l–e–a–c–u–y–a–
+84 olgens buscar fortuna -> –o–l–g–e–n–s–b–u–s–c–a–r–f–o–r–t–u–n–a–
+85 tre ll creative -> –t–r–e–l–l–c–r–e–a–t–i–v–e–
+86 ef modulate nl -> –e–f–m–o–d–u–l–a–t–e–n–l–
+87 irsi brands cerem -> –i–r–s–i–b–r–a–n–d–s–c–e–r–e–m–
+88 imen tiver ofic -> –i–m–e–n–t–i–v–e–r–o–f–i–c–
+89 lsx tokom ceux -> –l–s–x–t–o–k–o–m–c–e–u–x–
+90 gift unders spal -> –g–i–f–t–u–n–d–e–r–s–s–p–a–l–
+91 bye daha funding -> –b–y–e–d–a–h–a–f–u–n–d–i–n–g–
+92 unnable arter bankrupt -> –u–n–n–a–b–l–e–a–r–t–e–r–b–a–n–k–r–u–p–t–
+93 uet greedy shorter -> –u–e–t–g–r–e–e–d–y–s–h–o–r–t–e–r–
+94 ken posted disputar -> –k–e–n–p–o–s–t–e–d–d–i–s–p–u–t–a–r–
+95 elt besl scient -> –e–l–t–b–e–s–l–s–c–i–e–n–t–
+96 cate rebels methyl -> –c–a–t–e–r–e–b–e–l–s–m–e–t–h–y–l–
+97 otox questa cereal -> –o–t–o–x–q–u–e–s–t–a–c–e–r–e–a–l–
+98 ract despre ghetto -> –r–a–c–t–d–e–s–p–r–e–g–h–e–t–t–o–
+99 onta elekt coffee -> –o–n–t–a–e–l–e–k–t–c–o–f–f–e–e–

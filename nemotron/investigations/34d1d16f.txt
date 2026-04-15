@@ -1,0 +1,66 @@
+problem id: 34d1d16f
+category: cryptarithm_guess
+
+examples:
+1. `["+[" = ||:?`
+2. `?@+@? = @"|?`
+3. `/[}?: = @|[`
+
+inferred rule:
+Treat each non-middle symbol as a decimal digit.
+
+The two `+` examples both produce 4-symbol outputs, so `+` is best read as multiplication:
+- `["` times `["` gives `||:?`
+- `?@` times `@?` gives `@"|?`
+
+The `}` example produces a 3-symbol output, so `}` is best read as addition:
+- `/[` plus `?:` gives `@|[`
+
+These three examples force the following digit map on the symbols that appear in the examples:
+- `[` = 4
+- `"` = 7
+- `|` = 2
+- `:` = 0
+- `?` = 9
+- `@` = 1
+- `/` = 3
+
+check on the examples:
+1. `["+["`
+   `["` = 47.
+   `["` = 47.
+   `47 * 47 = 2209`.
+   `2 -> |`, `2 -> |`, `0 -> :`, `9 -> ?`, so the output is `||:?`.
+
+2. `?@+@?`
+   `?@` = 91.
+   `@?` = 19.
+   `91 * 19 = 1729`.
+   `1 -> @`, `7 -> "`, `2 -> |`, `9 -> ?`, so the output is `@"|?`.
+
+3. `/[}?:`
+   `/[` = 34.
+   `?:` = 90.
+   `34 + 90 = 124`.
+   `1 -> @`, `2 -> |`, `4 -> [`, so the output is `@|[`.
+
+That makes the unseen query operator `^` most naturally the remaining basic arithmetic operation: subtraction.
+
+step-by-step application to the query:
+Query: `'/^?@`
+
+1. The right chunk `?@` is fixed at 91.
+2. The left chunk `'/` uses the symbol `'`, which never appears in the examples.
+3. After assigning the example symbols, the remaining unused digits are 5, 6, and 8, so the left chunk could be 53, 63, or 83.
+4. Applying subtraction gives three consistent continuations:
+   - `53 - 91 = -38`
+   - `63 - 91 = -28`
+   - `83 - 91 = -8`
+5. If I take the middle continuation `' = 6`, then the query becomes `63 - 91 = -28`.
+6. Re-encoding that gives subtraction sign `^`, `2 -> |`, and a fresh symbol for `8`, yielding `^|!`.
+
+predicted answer:
+`^|!`
+
+confidence note:
+Low confidence. The operator roles and the digit map for the symbols in the examples are tightly constrained, but the query introduces a new left-digit symbol `'` that is not fixed by the examples, so the final answer is not uniquely forced from the training data alone.

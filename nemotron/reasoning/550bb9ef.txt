@@ -1,0 +1,434 @@
+We need to find the encryption mapping from the examples. It looks like a substitution cipher.
+I will put my final answer inside \boxed{}.
+
+Listing the input words:
+
+【sbggk xwvvwio zwjewk】
+sbggk
+ xwvvwio
+ zwjewk
+
+【fwbog oggo ojwqr】
+fwbog
+ oggo
+ ojwqr
+
+【fwbog mpyogo fyz】
+fwbog
+ mpyogo
+ fyz
+
+【jpg ogmqgj pyjjgq ojbcego】
+jpg
+ ogmqgj
+ pyjjgq
+ ojbcego
+
+【iedyqc qgyco ekoecg xwqgoj】
+iedyqc
+ qgyco
+ ekoecg
+ xwqgoj
+
+【 leqc xwvvwio ojwqr】
+ leqc
+ xwvvwio
+ ojwqr
+
+Breaking down into characters:
+
+【sbggk xwvvwio zwjewk】
+s–b–g–g–k
+x–w–v–v–w–i–o
+z–w–j–e–w–k
+
+【fwbog oggo ojwqr】
+f–w–b–o–g
+o–g–g–o
+o–j–w–q–r
+
+【fwbog mpyogo fyz】
+f–w–b–o–g
+m–p–y–o–g–o
+f–y–z
+
+【jpg ogmqgj pyjjgq ojbcego】
+j–p–g
+o–g–m–q–g–j
+p–y–j–j–g–q
+o–j–b–c–e–g–o
+
+【iedyqc qgyco ekoecg xwqgoj】
+i–e–d–y–q–c
+q–g–y–c–o
+e–k–o–e–c–g
+x–w–q–g–o–j
+
+【 leqc xwvvwio ojwqr】
+l–e–q–c
+x–w–v–v–w–i–o
+o–j–w–q–r
+
+
+【sbggk xwvvwio zwjewk】 -> 【queen follows potion】 / 【queen】 【follows】 【potion】:
+
+【sbggk】->【queen】
+s–b–g–g–k->q–u–e–e–n
+s->q
+b->u
+g->e
+g->e
+k->n
+
+【 xwvvwio】->【follows】
+x–w–v–v–w–i–o->f–o–l–l–o–w–s
+x->f
+w->o
+v->l
+v->l
+w->o
+i->w
+o->s
+
+【 zwjewk】->【potion】
+z–w–j–e–w–k->p–o–t–i–o–n
+z->p
+w->o
+j->t
+e->i
+w->o
+k->n
+
+
+【fwbog oggo ojwqr】 -> 【mouse sees story】 / 【mouse】 【sees】 【story】:
+
+【fwbog】->【mouse】
+f–w–b–o–g->m–o–u–s–e
+f->m
+w->o
+b->u
+o->s
+g->e
+
+【 oggo】->【sees】
+o–g–g–o->s–e–e–s
+o->s
+g->e
+g->e
+o->s
+
+【 ojwqr】->【story】
+o–j–w–q–r->s–t–o–r–y
+o->s
+j->t
+w->o
+q->r
+r->y
+
+
+【fwbog mpyogo fyz】 -> 【mouse chases map】 / 【mouse】 【chases】 【map】:
+
+【fwbog】->【mouse】
+f–w–b–o–g->m–o–u–s–e
+f->m
+w->o
+b->u
+o->s
+g->e
+
+【 mpyogo】->【chases】
+m–p–y–o–g–o->c–h–a–s–e–s
+m->c
+p->h
+y->a
+o->s
+g->e
+o->s
+
+【 fyz】->【map】
+f–y–z->m–a–p
+f->m
+y->a
+z->p
+
+
+【jpg ogmqgj pyjjgq ojbcego】 -> 【the secret hatter studies】 / 【the】 【secret】 【hatter】 【studies】:
+
+【jpg】->【the】
+j–p–g->t–h–e
+j->t
+p->h
+g->e
+
+【 ogmqgj】->【secret】
+o–g–m–q–g–j->s–e–c–r–e–t
+o->s
+g->e
+m->c
+q->r
+g->e
+j->t
+
+【 pyjjgq】->【hatter】
+p–y–j–j–g–q->h–a–t–t–e–r
+p->h
+y->a
+j->t
+j->t
+g->e
+q->r
+
+【 ojbcego】->【studies】
+o–j–b–c–e–g–o->s–t–u–d–i–e–s
+o->s
+j->t
+b->u
+c->d
+e->i
+g->e
+o->s
+
+
+【iedyqc qgyco ekoecg xwqgoj】 -> 【wizard reads inside forest】 / 【wizard】 【reads】 【inside】 【forest】:
+
+【iedyqc】->【wizard】
+i–e–d–y–q–c->w–i–z–a–r–d
+i->w
+e->i
+d->z
+y->a
+q->r
+c->d
+
+【 qgyco】->【reads】
+q–g–y–c–o->r–e–a–d–s
+q->r
+g->e
+y->a
+c->d
+o->s
+
+【 ekoecg】->【inside】
+e–k–o–e–c–g->i–n–s–i–d–e
+e->i
+k->n
+o->s
+e->i
+c->d
+g->e
+
+【 xwqgoj】->【forest】
+x–w–q–g–o–j->f–o–r–e–s–t
+x->f
+w->o
+q->r
+g->e
+o->s
+j->t
+
+Mapping so far
+a->?
+b->u
+c->d
+d->z
+e->i
+f->m
+g->e
+h->?
+i->w
+j->t
+k->n
+l->?
+m->c
+n->?
+o->s
+p->h
+q->r
+r->y
+s->q
+t->?
+u->?
+v->l
+w->o
+x->f
+y->a
+z->p
+Inverse mapping
+a->y
+b->?
+c->m
+d->c
+e->g
+f->x
+g->?
+h->p
+i->e
+j->?
+k->?
+l->v
+m->f
+n->k
+o->w
+p->z
+q->s
+r->q
+s->o
+t->j
+u->b
+v->?
+w->i
+x->?
+y->r
+z->d
+Unknown characters
+a
+h
+l
+n
+t
+u
+Unmapped target letters
+b
+g
+j
+k
+v
+x
+
+Now decrypting 【 leqc xwvvwio ojwqr】:
+【 leqc】
+l–e–q–c
+l->?
+e->i
+q->r
+c->d
+(l)–i–r–d->【(l)–i–r–d】-> (l)–i–r–d
+
+【 xwvvwio】
+x–w–v–v–w–i–o
+x->f
+w->o
+v->l
+v->l
+w->o
+i->w
+o->s
+f–o–l–l–o–w–s->【follows】-> follows
+
+【 ojwqr】
+o–j–w–q–r
+o->s
+j->t
+w->o
+q->r
+r->y
+s–t–o–r–y->【story】-> story
+
+The sentence currently is
+(l)–i–r–d follows story
+
+Iterating over the unknown letters to see if they are in the question
+a no
+h no
+l yes
+n no
+t no
+u no
+
+The unknown letters
+l
+
+Let me find the best matching wonderland words:
+
+【(l)–i–r–d】
+New mappings: none
+【(l)–i–r–d】
+The length of the word is 4.
+above 5 length
+alice 5 length
+ancient 7 length
+around 6 length
+beyond 6 length
+bird 4 【b–i–r–d】, 0【b】【(l)】match , 1【i】【i】match , 2【r】【r】match , 3【d】【d】match, 4 all match
+book 4 【b–o–o–k】, 0【b】【(l)】match , 1【i】【o】mismatch
+bright 6 length
+castle 6 length
+cat 3 length
+cave 4 【c–a–v–e】, 0【c】【(l)】match , 1【i】【a】mismatch
+chases 6 length
+clever 6 length
+colorful 8 length
+creates 7 length
+crystal 7 length
+curious 7 length
+dark 4 【d–a–r–k】, 0【d】【(l)】match , 1【i】【a】mismatch
+discovers 9 length
+door 4 【d–o–o–r】, 0【d】【(l)】match , 1【i】【o】mismatch
+dragon 6 length
+draws 5 length
+dreams 6 length
+explores 8 length
+follows 7 length
+forest 6 length
+found 5 length
+garden 6 length
+golden 6 length
+hatter 6 length
+hidden 6 length
+imagines 8 length
+in 2 length
+inside 6 length
+island 6 length
+key 3 length
+king 4 【k–i–n–g】, 0【k】【(l)】match , 1【i】【i】match , 2【r】【n】mismatch
+knight 6 length
+library 7 length
+magical 7 length
+map 3 length
+message 7 length
+mirror 6 length
+mountain 8 length
+mouse 5 length
+mysterious 10 length
+near 4 【n–e–a–r】, 0【n】【(l)】match , 1【i】【e】mismatch
+ocean 5 length
+palace 6 length
+potion 6 length
+princess 8 length
+puzzle 6 length
+queen 5 length
+rabbit 6 length
+reads 5 length
+school 6 length
+secret 6 length
+sees 4 【s–e–e–s】, 0【s】【(l)】match , 1【i】【e】mismatch
+silver 6 length
+story 5 length
+strange 7 length
+student 7 length
+studies 7 length
+teacher 7 length
+the 3 length
+through 7 length
+tower 5 length
+treasure 8 length
+turtle 6 length
+under 5 length
+valley 6 length
+village 7 length
+watches 7 length
+wise 4 【w–i–s–e】, 0【w】【(l)】match , 1【i】【i】match , 2【r】【s】mismatch
+wizard 6 length
+wonderland 10 length
+writes 6 length
+Best match: 【bird】
+【(l)–i–r–d】->【b–i–r–d】
+【(l)】->【b】 new
+【i】->【i】same
+【r】->【r】same
+【d】->【d】same
+New mappings
+【(l)】->【b】
+
+I will now return the answer in \boxed{}
+The answer in \boxed{–} is \boxed{bird follows story}

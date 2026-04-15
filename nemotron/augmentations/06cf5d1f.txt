@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 substr gyakor quem
+01 ovel unanim magasin
+02 irre filho tourn
+
+This is a sample output.
+00 substr gyakor quem -> –s–u–b–s–t–r–g–y–a–k–o–r–q–u–e–m–
+01 ovel unanim magasin -> –o–v–e–l–u–n–a–n–i–m–m–a–g–a–s–i–n–
+02 irre filho tourn -> –i–r–r–e–f–i–l–h–o–t–o–u–r–n–
+
+This is your input.
+00 cluded prelimin ff
+01 anuary schien movie
+02 alc eindeut motivo
+03 nt litt reading
+04 oa seit dik
+05 ostream incont ode
+06 icro obr radios
+07 entral advent hiding
+08 ames lei cytotox
+09 colm escrita antenna
+10 usus server consul
+11 lean agencies wynik
+12 arrer dog widget
+13 icer seniors krit
+14 ionate vah wal
+15 aptic ultrason receptor
+16 onn convain sp
+17 tet kent marcas
+18 cule honored coloring
+19 endan vida finanzi
+20 vamente readily peri
+21 ielle pessoas rends
+22 azar stade naut
+23 lane tibia xer
+24 loj gods soud
+25 sal trzech dial
+26 iken exposure enfr
+27 mach explan caries
+28 anch sake frontend
+29 isan lingu tooltip
+30 bertura bukan urb
+31 phine bleed sot
+32 factory ener consort
+33 ebp coin penis
+34 ellers ello climate
+35 vec dix raccon
+36 leet valits oracle
+37 toine numbers bury
+38 cka tomaron stadion
+39 icol saddle jogo
+40 eye posti solving
+41 uso high coating
+42 igua farms niin
+43 ilation now hacer
+44 paid abbandon sexo
+45 ftal zuten como
+46 ktan millim popped
+47 idelity maart negoci
+48 osomal nova certo
+49 ueix basta maneu
+50 hatan britt empre
+51 alski inhibit ago
+52 ixin calm cuff
+53 lock decode pion
+54 imers trait returns
+55 ottom violent killed
+56 okinetic post artyler
+57 cher loading conting
+58 strap ucran antes
+59 nector wygra walks
+60 ubin hulle amb
+61 ydent ana hermano
+62 erg schop filhos
+63 faces kaz sec
+64 ikit linen grie
+65 drop drinks outfit
+66 viens ancora daar
+67 usi cease jez
+68 ubat detall stages
+69 falls up cous
+70 electric persone demok
+71 gaan deix manage
+72 vals cuatro maakt
+73 urar wollten kapital
+74 niku genocide sowie
+75 mins unity eating
+76 fte restore bacon
+77 middle apporte vinyl
+78 psons nin zeit
+79 eiro congel crowd
+80 estre personen coag
+81 jd adenos purchase
+82 bb deri wzgl
+83 anakan conmemor artean
+84 razia hiking situated
+85 uille trusted fontsize
+86 tera ahal noblesse
+87 ej laminate signifie
+88 ingkat whenever boat
+89 igent tenants entirety
+90 allery go smr
+91 quire merge barrier
+92 em gur iv
+93 seh intimacy calling
+94 penas libr mange
+95 ospor knot actions
+96 niki aider musste
+97 intas ceremony parv
+98 aitu falt numero
+99 nership italiani parlait
+[completion]
+00 cluded prelimin ff -> –c–l–u–d–e–d–p–r–e–l–i–m–i–n–f–f–
+01 anuary schien movie -> –a–n–u–a–r–y–s–c–h–i–e–n–m–o–v–i–e–
+02 alc eindeut motivo -> –a–l–c–e–i–n–d–e–u–t–m–o–t–i–v–o–
+03 nt litt reading -> –n–t–l–i–t–t–r–e–a–d–i–n–g–
+04 oa seit dik -> –o–a–s–e–i–t–d–i–k–
+05 ostream incont ode -> –o–s–t–r–e–a–m–i–n–c–o–n–t–o–d–e–
+06 icro obr radios -> –i–c–r–o–o–b–r–r–a–d–i–o–s–
+07 entral advent hiding -> –e–n–t–r–a–l–a–d–v–e–n–t–h–i–d–i–n–g–
+08 ames lei cytotox -> –a–m–e–s–l–e–i–c–y–t–o–t–o–x–
+09 colm escrita antenna -> –c–o–l–m–e–s–c–r–i–t–a–a–n–t–e–n–n–a–
+10 usus server consul -> –u–s–u–s–s–e–r–v–e–r–c–o–n–s–u–l–
+11 lean agencies wynik -> –l–e–a–n–a–g–e–n–c–i–e–s–w–y–n–i–k–
+12 arrer dog widget -> –a–r–r–e–r–d–o–g–w–i–d–g–e–t–
+13 icer seniors krit -> –i–c–e–r–s–e–n–i–o–r–s–k–r–i–t–
+14 ionate vah wal -> –i–o–n–a–t–e–v–a–h–w–a–l–
+15 aptic ultrason receptor -> –a–p–t–i–c–u–l–t–r–a–s–o–n–r–e–c–e–p–t–o–r–
+16 onn convain sp -> –o–n–n–c–o–n–v–a–i–n–s–p–
+17 tet kent marcas -> –t–e–t–k–e–n–t–m–a–r–c–a–s–
+18 cule honored coloring -> –c–u–l–e–h–o–n–o–r–e–d–c–o–l–o–r–i–n–g–
+19 endan vida finanzi -> –e–n–d–a–n–v–i–d–a–f–i–n–a–n–z–i–
+20 vamente readily peri -> –v–a–m–e–n–t–e–r–e–a–d–i–l–y–p–e–r–i–
+21 ielle pessoas rends -> –i–e–l–l–e–p–e–s–s–o–a–s–r–e–n–d–s–
+22 azar stade naut -> –a–z–a–r–s–t–a–d–e–n–a–u–t–
+23 lane tibia xer -> –l–a–n–e–t–i–b–i–a–x–e–r–
+24 loj gods soud -> –l–o–j–g–o–d–s–s–o–u–d–
+25 sal trzech dial -> –s–a–l–t–r–z–e–c–h–d–i–a–l–
+26 iken exposure enfr -> –i–k–e–n–e–x–p–o–s–u–r–e–e–n–f–r–
+27 mach explan caries -> –m–a–c–h–e–x–p–l–a–n–c–a–r–i–e–s–
+28 anch sake frontend -> –a–n–c–h–s–a–k–e–f–r–o–n–t–e–n–d–
+29 isan lingu tooltip -> –i–s–a–n–l–i–n–g–u–t–o–o–l–t–i–p–
+30 bertura bukan urb -> –b–e–r–t–u–r–a–b–u–k–a–n–u–r–b–
+31 phine bleed sot -> –p–h–i–n–e–b–l–e–e–d–s–o–t–
+32 factory ener consort -> –f–a–c–t–o–r–y–e–n–e–r–c–o–n–s–o–r–t–
+33 ebp coin penis -> –e–b–p–c–o–i–n–p–e–n–i–s–
+34 ellers ello climate -> –e–l–l–e–r–s–e–l–l–o–c–l–i–m–a–t–e–
+35 vec dix raccon -> –v–e–c–d–i–x–r–a–c–c–o–n–
+36 leet valits oracle -> –l–e–e–t–v–a–l–i–t–s–o–r–a–c–l–e–
+37 toine numbers bury -> –t–o–i–n–e–n–u–m–b–e–r–s–b–u–r–y–
+38 cka tomaron stadion -> –c–k–a–t–o–m–a–r–o–n–s–t–a–d–i–o–n–
+39 icol saddle jogo -> –i–c–o–l–s–a–d–d–l–e–j–o–g–o–
+40 eye posti solving -> –e–y–e–p–o–s–t–i–s–o–l–v–i–n–g–
+41 uso high coating -> –u–s–o–h–i–g–h–c–o–a–t–i–n–g–
+42 igua farms niin -> –i–g–u–a–f–a–r–m–s–n–i–i–n–
+43 ilation now hacer -> –i–l–a–t–i–o–n–n–o–w–h–a–c–e–r–
+44 paid abbandon sexo -> –p–a–i–d–a–b–b–a–n–d–o–n–s–e–x–o–
+45 ftal zuten como -> –f–t–a–l–z–u–t–e–n–c–o–m–o–
+46 ktan millim popped -> –k–t–a–n–m–i–l–l–i–m–p–o–p–p–e–d–
+47 idelity maart negoci -> –i–d–e–l–i–t–y–m–a–a–r–t–n–e–g–o–c–i–
+48 osomal nova certo -> –o–s–o–m–a–l–n–o–v–a–c–e–r–t–o–
+49 ueix basta maneu -> –u–e–i–x–b–a–s–t–a–m–a–n–e–u–
+50 hatan britt empre -> –h–a–t–a–n–b–r–i–t–t–e–m–p–r–e–
+51 alski inhibit ago -> –a–l–s–k–i–i–n–h–i–b–i–t–a–g–o–
+52 ixin calm cuff -> –i–x–i–n–c–a–l–m–c–u–f–f–
+53 lock decode pion -> –l–o–c–k–d–e–c–o–d–e–p–i–o–n–
+54 imers trait returns -> –i–m–e–r–s–t–r–a–i–t–r–e–t–u–r–n–s–
+55 ottom violent killed -> –o–t–t–o–m–v–i–o–l–e–n–t–k–i–l–l–e–d–
+56 okinetic post artyler -> –o–k–i–n–e–t–i–c–p–o–s–t–a–r–t–y–l–e–r–
+57 cher loading conting -> –c–h–e–r–l–o–a–d–i–n–g–c–o–n–t–i–n–g–
+58 strap ucran antes -> –s–t–r–a–p–u–c–r–a–n–a–n–t–e–s–
+59 nector wygra walks -> –n–e–c–t–o–r–w–y–g–r–a–w–a–l–k–s–
+60 ubin hulle amb -> –u–b–i–n–h–u–l–l–e–a–m–b–
+61 ydent ana hermano -> –y–d–e–n–t–a–n–a–h–e–r–m–a–n–o–
+62 erg schop filhos -> –e–r–g–s–c–h–o–p–f–i–l–h–o–s–
+63 faces kaz sec -> –f–a–c–e–s–k–a–z–s–e–c–
+64 ikit linen grie -> –i–k–i–t–l–i–n–e–n–g–r–i–e–
+65 drop drinks outfit -> –d–r–o–p–d–r–i–n–k–s–o–u–t–f–i–t–
+66 viens ancora daar -> –v–i–e–n–s–a–n–c–o–r–a–d–a–a–r–
+67 usi cease jez -> –u–s–i–c–e–a–s–e–j–e–z–
+68 ubat detall stages -> –u–b–a–t–d–e–t–a–l–l–s–t–a–g–e–s–
+69 falls up cous -> –f–a–l–l–s–u–p–c–o–u–s–
+70 electric persone demok -> –e–l–e–c–t–r–i–c–p–e–r–s–o–n–e–d–e–m–o–k–
+71 gaan deix manage -> –g–a–a–n–d–e–i–x–m–a–n–a–g–e–
+72 vals cuatro maakt -> –v–a–l–s–c–u–a–t–r–o–m–a–a–k–t–
+73 urar wollten kapital -> –u–r–a–r–w–o–l–l–t–e–n–k–a–p–i–t–a–l–
+74 niku genocide sowie -> –n–i–k–u–g–e–n–o–c–i–d–e–s–o–w–i–e–
+75 mins unity eating -> –m–i–n–s–u–n–i–t–y–e–a–t–i–n–g–
+76 fte restore bacon -> –f–t–e–r–e–s–t–o–r–e–b–a–c–o–n–
+77 middle apporte vinyl -> –m–i–d–d–l–e–a–p–p–o–r–t–e–v–i–n–y–l–
+78 psons nin zeit -> –p–s–o–n–s–n–i–n–z–e–i–t–
+79 eiro congel crowd -> –e–i–r–o–c–o–n–g–e–l–c–r–o–w–d–
+80 estre personen coag -> –e–s–t–r–e–p–e–r–s–o–n–e–n–c–o–a–g–
+81 jd adenos purchase -> –j–d–a–d–e–n–o–s–p–u–r–c–h–a–s–e–
+82 bb deri wzgl -> –b–b–d–e–r–i–w–z–g–l–
+83 anakan conmemor artean -> –a–n–a–k–a–n–c–o–n–m–e–m–o–r–a–r–t–e–a–n–
+84 razia hiking situated -> –r–a–z–i–a–h–i–k–i–n–g–s–i–t–u–a–t–e–d–
+85 uille trusted fontsize -> –u–i–l–l–e–t–r–u–s–t–e–d–f–o–n–t–s–i–z–e–
+86 tera ahal noblesse -> –t–e–r–a–a–h–a–l–n–o–b–l–e–s–s–e–
+87 ej laminate signifie -> –e–j–l–a–m–i–n–a–t–e–s–i–g–n–i–f–i–e–
+88 ingkat whenever boat -> –i–n–g–k–a–t–w–h–e–n–e–v–e–r–b–o–a–t–
+89 igent tenants entirety -> –i–g–e–n–t–t–e–n–a–n–t–s–e–n–t–i–r–e–t–y–
+90 allery go smr -> –a–l–l–e–r–y–g–o–s–m–r–
+91 quire merge barrier -> –q–u–i–r–e–m–e–r–g–e–b–a–r–r–i–e–r–
+92 em gur iv -> –e–m–g–u–r–i–v–
+93 seh intimacy calling -> –s–e–h–i–n–t–i–m–a–c–y–c–a–l–l–i–n–g–
+94 penas libr mange -> –p–e–n–a–s–l–i–b–r–m–a–n–g–e–
+95 ospor knot actions -> –o–s–p–o–r–k–n–o–t–a–c–t–i–o–n–s–
+96 niki aider musste -> –n–i–k–i–a–i–d–e–r–m–u–s–s–t–e–
+97 intas ceremony parv -> –i–n–t–a–s–c–e–r–e–m–o–n–y–p–a–r–v–
+98 aitu falt numero -> –a–i–t–u–f–a–l–t–n–u–m–e–r–o–
+99 nership italiani parlait -> –n–e–r–s–h–i–p–i–t–a–l–i–a–n–i–p–a–r–l–a–i–t–

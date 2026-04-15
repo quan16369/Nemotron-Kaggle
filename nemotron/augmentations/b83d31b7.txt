@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 uniform science shutter
+01 ation eh crossed
+02 release segons reich
+
+This is a sample output.
+00 uniform science shutter -> –u–n–i–f–o–r–m–s–c–i–e–n–c–e–s–h–u–t–t–e–r–
+01 ation eh crossed -> –a–t–i–o–n–e–h–c–r–o–s–s–e–d–
+02 release segons reich -> –r–e–l–e–a–s–e–s–e–g–o–n–s–r–e–i–c–h–
+
+This is your input.
+00 hardt vir missiles
+01 ozygous great szerve
+02 umatic odeur teolog
+03 xin rung taut
+04 inse vai powst
+05 ouched deles iria
+06 kit repous sam
+07 ublique brain viet
+08 uen littoral spis
+09 primary cou stunning
+10 appro unemploy hag
+11 isto guerra packages
+12 derte knee morceaux
+13 abase lag nouvelle
+14 arty olika cole
+15 peonatos tedeschi cli
+16 uct involve rien
+17 token ob dam
+18 template durch divor
+19 ricular jungle supers
+20 password sak glycol
+21 fern expliqua acesso
+22 okers umieszcz lasciato
+23 iezingen reis funkcjon
+24 amia sexy erkannte
+25 cciones keis singolo
+26 onyme rebut fame
+27 orno encontra dispone
+28 ichever ginger rise
+29 ardan collect swift
+30 urities highly subtract
+31 hub tapis county
+32 opos arrest potem
+33 arset veut pc
+34 ere executed execut
+35 bund lavoro guerres
+36 false foss proc
+37 opacity amigo vestib
+38 rita oor ukon
+39 overn urteko estruct
+40 ctive emplois night
+41 imia wave dece
+42 abad exer loci
+43 irable candid bishops
+44 inished vizsg davam
+45 umes armed voudrais
+46 aupun senator complain
+47 strip enlarged oli
+48 uming nende rep
+49 okkal gara diabetes
+50 asm hosts gallons
+51 alom rappro gjenn
+52 aly seuil engages
+53 ounter ruisseau tiet
+54 hari perman trustees
+55 ito vanilla genomic
+56 mapsto bidang herbiv
+57 awai mittels hauek
+58 uced scrub father
+59 lichem abbrevi usu
+60 grond coupe seguito
+61 esian apex front
+62 gather sukces hear
+63 entre stacked nc
+64 ivr taxp rentre
+65 zien fishing rois
+66 imonial cytokine center
+67 division ekonom images
+68 ifi examen meus
+69 lbl verwend anatom
+70 angkat siege assess
+71 uese choked anode
+72 parable seront korist
+73 orn lond einheit
+74 olson pupils cultured
+75 irect dispara arrib
+76 arsch konsert fishes
+77 abil st stalk
+78 mor kolm ciertos
+79 ger solver portada
+80 ittest pico szcz
+81 venc pursuing tempos
+82 uthor rang dioxide
+83 oyce par hazard
+84 vem overlay bord
+85 kek engineer excell
+86 igh seasonal berk
+87 arsa armon bottles
+88 ologisch industry architek
+89 aphne esto planner
+90 uelto previsto powerful
+91 icity tales lombok
+92 ikoak sera gole
+93 olateral laughed volta
+94 entro doubl animaux
+95 olls fara achieve
+96 minor amo saying
+97 beitet conve cabecera
+98 qs appl lehen
+99 ierro agents cen
+[completion]
+00 hardt vir missiles -> –h–a–r–d–t–v–i–r–m–i–s–s–i–l–e–s–
+01 ozygous great szerve -> –o–z–y–g–o–u–s–g–r–e–a–t–s–z–e–r–v–e–
+02 umatic odeur teolog -> –u–m–a–t–i–c–o–d–e–u–r–t–e–o–l–o–g–
+03 xin rung taut -> –x–i–n–r–u–n–g–t–a–u–t–
+04 inse vai powst -> –i–n–s–e–v–a–i–p–o–w–s–t–
+05 ouched deles iria -> –o–u–c–h–e–d–d–e–l–e–s–i–r–i–a–
+06 kit repous sam -> –k–i–t–r–e–p–o–u–s–s–a–m–
+07 ublique brain viet -> –u–b–l–i–q–u–e–b–r–a–i–n–v–i–e–t–
+08 uen littoral spis -> –u–e–n–l–i–t–t–o–r–a–l–s–p–i–s–
+09 primary cou stunning -> –p–r–i–m–a–r–y–c–o–u–s–t–u–n–n–i–n–g–
+10 appro unemploy hag -> –a–p–p–r–o–u–n–e–m–p–l–o–y–h–a–g–
+11 isto guerra packages -> –i–s–t–o–g–u–e–r–r–a–p–a–c–k–a–g–e–s–
+12 derte knee morceaux -> –d–e–r–t–e–k–n–e–e–m–o–r–c–e–a–u–x–
+13 abase lag nouvelle -> –a–b–a–s–e–l–a–g–n–o–u–v–e–l–l–e–
+14 arty olika cole -> –a–r–t–y–o–l–i–k–a–c–o–l–e–
+15 peonatos tedeschi cli -> –p–e–o–n–a–t–o–s–t–e–d–e–s–c–h–i–c–l–i–
+16 uct involve rien -> –u–c–t–i–n–v–o–l–v–e–r–i–e–n–
+17 token ob dam -> –t–o–k–e–n–o–b–d–a–m–
+18 template durch divor -> –t–e–m–p–l–a–t–e–d–u–r–c–h–d–i–v–o–r–
+19 ricular jungle supers -> –r–i–c–u–l–a–r–j–u–n–g–l–e–s–u–p–e–r–s–
+20 password sak glycol -> –p–a–s–s–w–o–r–d–s–a–k–g–l–y–c–o–l–
+21 fern expliqua acesso -> –f–e–r–n–e–x–p–l–i–q–u–a–a–c–e–s–s–o–
+22 okers umieszcz lasciato -> –o–k–e–r–s–u–m–i–e–s–z–c–z–l–a–s–c–i–a–t–o–
+23 iezingen reis funkcjon -> –i–e–z–i–n–g–e–n–r–e–i–s–f–u–n–k–c–j–o–n–
+24 amia sexy erkannte -> –a–m–i–a–s–e–x–y–e–r–k–a–n–n–t–e–
+25 cciones keis singolo -> –c–c–i–o–n–e–s–k–e–i–s–s–i–n–g–o–l–o–
+26 onyme rebut fame -> –o–n–y–m–e–r–e–b–u–t–f–a–m–e–
+27 orno encontra dispone -> –o–r–n–o–e–n–c–o–n–t–r–a–d–i–s–p–o–n–e–
+28 ichever ginger rise -> –i–c–h–e–v–e–r–g–i–n–g–e–r–r–i–s–e–
+29 ardan collect swift -> –a–r–d–a–n–c–o–l–l–e–c–t–s–w–i–f–t–
+30 urities highly subtract -> –u–r–i–t–i–e–s–h–i–g–h–l–y–s–u–b–t–r–a–c–t–
+31 hub tapis county -> –h–u–b–t–a–p–i–s–c–o–u–n–t–y–
+32 opos arrest potem -> –o–p–o–s–a–r–r–e–s–t–p–o–t–e–m–
+33 arset veut pc -> –a–r–s–e–t–v–e–u–t–p–c–
+34 ere executed execut -> –e–r–e–e–x–e–c–u–t–e–d–e–x–e–c–u–t–
+35 bund lavoro guerres -> –b–u–n–d–l–a–v–o–r–o–g–u–e–r–r–e–s–
+36 false foss proc -> –f–a–l–s–e–f–o–s–s–p–r–o–c–
+37 opacity amigo vestib -> –o–p–a–c–i–t–y–a–m–i–g–o–v–e–s–t–i–b–
+38 rita oor ukon -> –r–i–t–a–o–o–r–u–k–o–n–
+39 overn urteko estruct -> –o–v–e–r–n–u–r–t–e–k–o–e–s–t–r–u–c–t–
+40 ctive emplois night -> –c–t–i–v–e–e–m–p–l–o–i–s–n–i–g–h–t–
+41 imia wave dece -> –i–m–i–a–w–a–v–e–d–e–c–e–
+42 abad exer loci -> –a–b–a–d–e–x–e–r–l–o–c–i–
+43 irable candid bishops -> –i–r–a–b–l–e–c–a–n–d–i–d–b–i–s–h–o–p–s–
+44 inished vizsg davam -> –i–n–i–s–h–e–d–v–i–z–s–g–d–a–v–a–m–
+45 umes armed voudrais -> –u–m–e–s–a–r–m–e–d–v–o–u–d–r–a–i–s–
+46 aupun senator complain -> –a–u–p–u–n–s–e–n–a–t–o–r–c–o–m–p–l–a–i–n–
+47 strip enlarged oli -> –s–t–r–i–p–e–n–l–a–r–g–e–d–o–l–i–
+48 uming nende rep -> –u–m–i–n–g–n–e–n–d–e–r–e–p–
+49 okkal gara diabetes -> –o–k–k–a–l–g–a–r–a–d–i–a–b–e–t–e–s–
+50 asm hosts gallons -> –a–s–m–h–o–s–t–s–g–a–l–l–o–n–s–
+51 alom rappro gjenn -> –a–l–o–m–r–a–p–p–r–o–g–j–e–n–n–
+52 aly seuil engages -> –a–l–y–s–e–u–i–l–e–n–g–a–g–e–s–
+53 ounter ruisseau tiet -> –o–u–n–t–e–r–r–u–i–s–s–e–a–u–t–i–e–t–
+54 hari perman trustees -> –h–a–r–i–p–e–r–m–a–n–t–r–u–s–t–e–e–s–
+55 ito vanilla genomic -> –i–t–o–v–a–n–i–l–l–a–g–e–n–o–m–i–c–
+56 mapsto bidang herbiv -> –m–a–p–s–t–o–b–i–d–a–n–g–h–e–r–b–i–v–
+57 awai mittels hauek -> –a–w–a–i–m–i–t–t–e–l–s–h–a–u–e–k–
+58 uced scrub father -> –u–c–e–d–s–c–r–u–b–f–a–t–h–e–r–
+59 lichem abbrevi usu -> –l–i–c–h–e–m–a–b–b–r–e–v–i–u–s–u–
+60 grond coupe seguito -> –g–r–o–n–d–c–o–u–p–e–s–e–g–u–i–t–o–
+61 esian apex front -> –e–s–i–a–n–a–p–e–x–f–r–o–n–t–
+62 gather sukces hear -> –g–a–t–h–e–r–s–u–k–c–e–s–h–e–a–r–
+63 entre stacked nc -> –e–n–t–r–e–s–t–a–c–k–e–d–n–c–
+64 ivr taxp rentre -> –i–v–r–t–a–x–p–r–e–n–t–r–e–
+65 zien fishing rois -> –z–i–e–n–f–i–s–h–i–n–g–r–o–i–s–
+66 imonial cytokine center -> –i–m–o–n–i–a–l–c–y–t–o–k–i–n–e–c–e–n–t–e–r–
+67 division ekonom images -> –d–i–v–i–s–i–o–n–e–k–o–n–o–m–i–m–a–g–e–s–
+68 ifi examen meus -> –i–f–i–e–x–a–m–e–n–m–e–u–s–
+69 lbl verwend anatom -> –l–b–l–v–e–r–w–e–n–d–a–n–a–t–o–m–
+70 angkat siege assess -> –a–n–g–k–a–t–s–i–e–g–e–a–s–s–e–s–s–
+71 uese choked anode -> –u–e–s–e–c–h–o–k–e–d–a–n–o–d–e–
+72 parable seront korist -> –p–a–r–a–b–l–e–s–e–r–o–n–t–k–o–r–i–s–t–
+73 orn lond einheit -> –o–r–n–l–o–n–d–e–i–n–h–e–i–t–
+74 olson pupils cultured -> –o–l–s–o–n–p–u–p–i–l–s–c–u–l–t–u–r–e–d–
+75 irect dispara arrib -> –i–r–e–c–t–d–i–s–p–a–r–a–a–r–r–i–b–
+76 arsch konsert fishes -> –a–r–s–c–h–k–o–n–s–e–r–t–f–i–s–h–e–s–
+77 abil st stalk -> –a–b–i–l–s–t–s–t–a–l–k–
+78 mor kolm ciertos -> –m–o–r–k–o–l–m–c–i–e–r–t–o–s–
+79 ger solver portada -> –g–e–r–s–o–l–v–e–r–p–o–r–t–a–d–a–
+80 ittest pico szcz -> –i–t–t–e–s–t–p–i–c–o–s–z–c–z–
+81 venc pursuing tempos -> –v–e–n–c–p–u–r–s–u–i–n–g–t–e–m–p–o–s–
+82 uthor rang dioxide -> –u–t–h–o–r–r–a–n–g–d–i–o–x–i–d–e–
+83 oyce par hazard -> –o–y–c–e–p–a–r–h–a–z–a–r–d–
+84 vem overlay bord -> –v–e–m–o–v–e–r–l–a–y–b–o–r–d–
+85 kek engineer excell -> –k–e–k–e–n–g–i–n–e–e–r–e–x–c–e–l–l–
+86 igh seasonal berk -> –i–g–h–s–e–a–s–o–n–a–l–b–e–r–k–
+87 arsa armon bottles -> –a–r–s–a–a–r–m–o–n–b–o–t–t–l–e–s–
+88 ologisch industry architek -> –o–l–o–g–i–s–c–h–i–n–d–u–s–t–r–y–a–r–c–h–i–t–e–k–
+89 aphne esto planner -> –a–p–h–n–e–e–s–t–o–p–l–a–n–n–e–r–
+90 uelto previsto powerful -> –u–e–l–t–o–p–r–e–v–i–s–t–o–p–o–w–e–r–f–u–l–
+91 icity tales lombok -> –i–c–i–t–y–t–a–l–e–s–l–o–m–b–o–k–
+92 ikoak sera gole -> –i–k–o–a–k–s–e–r–a–g–o–l–e–
+93 olateral laughed volta -> –o–l–a–t–e–r–a–l–l–a–u–g–h–e–d–v–o–l–t–a–
+94 entro doubl animaux -> –e–n–t–r–o–d–o–u–b–l–a–n–i–m–a–u–x–
+95 olls fara achieve -> –o–l–l–s–f–a–r–a–a–c–h–i–e–v–e–
+96 minor amo saying -> –m–i–n–o–r–a–m–o–s–a–y–i–n–g–
+97 beitet conve cabecera -> –b–e–i–t–e–t–c–o–n–v–e–c–a–b–e–c–e–r–a–
+98 qs appl lehen -> –q–s–a–p–p–l–l–e–h–e–n–
+99 ierro agents cen -> –i–e–r–r–o–a–g–e–n–t–s–c–e–n–

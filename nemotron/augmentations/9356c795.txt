@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 aimana doz fist
+01 any evolve sexta
+02 igna im soi
+
+This is a sample output.
+00 aimana doz fist -> –a–i–m–a–n–a–d–o–z–f–i–s–t–
+01 any evolve sexta -> –a–n–y–e–v–o–l–v–e–s–e–x–t–a–
+02 igna im soi -> –i–g–n–a–i–m–s–o–i–
+
+This is your input.
+00 dh healing presents
+01 uctures contacto cyan
+02 psin propon gant
+03 odh plast years
+04 uega evoke varit
+05 carbonyl millones always
+06 removed miesto tracker
+07 als soprano ido
+08 itate distra seem
+09 izio dez wes
+10 elan bandas parcel
+11 ffield gelir creado
+12 nest waving large
+13 accio autonom sile
+14 arying dorsal naud
+15 each innings dens
+16 ynast expuls imprim
+17 ucion crate agarr
+18 zhou queen aroma
+19 inand heated treasure
+20 rsa ecol diocese
+21 paths pancre spectrum
+22 bruch arables retard
+23 ictures minor consta
+24 tover unequ middel
+25 esa kalt salas
+26 cius meth estilo
+27 edo battles takeover
+28 ikaner blog diagon
+29 enerate lac apparent
+30 entation entdeck cephal
+31 enk ce nutrient
+32 hire niej anv
+33 ymus persa clown
+34 fp doses outputs
+35 lective proj boolean
+36 buch downward learned
+37 helper cholin causal
+38 aux verlegt vertebr
+39 ethoven funktion gain
+40 ussa ponts funt
+41 anchor less tanks
+42 orten todas subunits
+43 official fapt unl
+44 avlj vandal homo
+45 apy yd devient
+46 assau batal olymp
+47 umab culture charset
+48 czyn chanteur shader
+49 bung begins emulate
+50 ild swoich speech
+51 elas coda monocyte
+52 platform tare archives
+53 iaan lebten tableau
+54 asil secured admir
+55 desc revue factors
+56 ierry olmayan dira
+57 kken fosse killings
+58 lst lungs maest
+59 gg adjusted sympathy
+60 halten logos flytt
+61 dex umbrella socially
+62 roman dropped guitarra
+63 emen secteurs thumbs
+64 arek quitter volante
+65 innen marins fauteuil
+66 blick staff scholar
+67 plat exactly reuse
+68 rgb conse croyait
+69 igueur arrive ligation
+70 ullehrer kappale yra
+71 abol lance derby
+72 gabe html soul
+73 cery esse accue
+74 hen ged cheerful
+75 ped switch duc
+76 etxe komme arsenal
+77 ever agricult sabia
+78 kup shoulder rac
+79 prete dumped osallist
+80 fik drept titolo
+81 larda benach hens
+82 iese timeline emo
+83 staw dict mutat
+84 oxygen caden eigener
+85 arske arrivare tek
+86 aben succeeds kalk
+87 nano wc descend
+88 cuts pig partita
+89 failure unf mercato
+90 ombrie summary atte
+91 mis portanto inspi
+92 iekt dimanche krij
+93 reux weisen asemenea
+94 leich amphib polic
+95 ivered aspart uniforms
+96 ifies handlers shred
+97 rames deleter powie
+98 ffective raccont relativa
+99 ki grotes braccia
+[completion]
+00 dh healing presents -> –d–h–h–e–a–l–i–n–g–p–r–e–s–e–n–t–s–
+01 uctures contacto cyan -> –u–c–t–u–r–e–s–c–o–n–t–a–c–t–o–c–y–a–n–
+02 psin propon gant -> –p–s–i–n–p–r–o–p–o–n–g–a–n–t–
+03 odh plast years -> –o–d–h–p–l–a–s–t–y–e–a–r–s–
+04 uega evoke varit -> –u–e–g–a–e–v–o–k–e–v–a–r–i–t–
+05 carbonyl millones always -> –c–a–r–b–o–n–y–l–m–i–l–l–o–n–e–s–a–l–w–a–y–s–
+06 removed miesto tracker -> –r–e–m–o–v–e–d–m–i–e–s–t–o–t–r–a–c–k–e–r–
+07 als soprano ido -> –a–l–s–s–o–p–r–a–n–o–i–d–o–
+08 itate distra seem -> –i–t–a–t–e–d–i–s–t–r–a–s–e–e–m–
+09 izio dez wes -> –i–z–i–o–d–e–z–w–e–s–
+10 elan bandas parcel -> –e–l–a–n–b–a–n–d–a–s–p–a–r–c–e–l–
+11 ffield gelir creado -> –f–f–i–e–l–d–g–e–l–i–r–c–r–e–a–d–o–
+12 nest waving large -> –n–e–s–t–w–a–v–i–n–g–l–a–r–g–e–
+13 accio autonom sile -> –a–c–c–i–o–a–u–t–o–n–o–m–s–i–l–e–
+14 arying dorsal naud -> –a–r–y–i–n–g–d–o–r–s–a–l–n–a–u–d–
+15 each innings dens -> –e–a–c–h–i–n–n–i–n–g–s–d–e–n–s–
+16 ynast expuls imprim -> –y–n–a–s–t–e–x–p–u–l–s–i–m–p–r–i–m–
+17 ucion crate agarr -> –u–c–i–o–n–c–r–a–t–e–a–g–a–r–r–
+18 zhou queen aroma -> –z–h–o–u–q–u–e–e–n–a–r–o–m–a–
+19 inand heated treasure -> –i–n–a–n–d–h–e–a–t–e–d–t–r–e–a–s–u–r–e–
+20 rsa ecol diocese -> –r–s–a–e–c–o–l–d–i–o–c–e–s–e–
+21 paths pancre spectrum -> –p–a–t–h–s–p–a–n–c–r–e–s–p–e–c–t–r–u–m–
+22 bruch arables retard -> –b–r–u–c–h–a–r–a–b–l–e–s–r–e–t–a–r–d–
+23 ictures minor consta -> –i–c–t–u–r–e–s–m–i–n–o–r–c–o–n–s–t–a–
+24 tover unequ middel -> –t–o–v–e–r–u–n–e–q–u–m–i–d–d–e–l–
+25 esa kalt salas -> –e–s–a–k–a–l–t–s–a–l–a–s–
+26 cius meth estilo -> –c–i–u–s–m–e–t–h–e–s–t–i–l–o–
+27 edo battles takeover -> –e–d–o–b–a–t–t–l–e–s–t–a–k–e–o–v–e–r–
+28 ikaner blog diagon -> –i–k–a–n–e–r–b–l–o–g–d–i–a–g–o–n–
+29 enerate lac apparent -> –e–n–e–r–a–t–e–l–a–c–a–p–p–a–r–e–n–t–
+30 entation entdeck cephal -> –e–n–t–a–t–i–o–n–e–n–t–d–e–c–k–c–e–p–h–a–l–
+31 enk ce nutrient -> –e–n–k–c–e–n–u–t–r–i–e–n–t–
+32 hire niej anv -> –h–i–r–e–n–i–e–j–a–n–v–
+33 ymus persa clown -> –y–m–u–s–p–e–r–s–a–c–l–o–w–n–
+34 fp doses outputs -> –f–p–d–o–s–e–s–o–u–t–p–u–t–s–
+35 lective proj boolean -> –l–e–c–t–i–v–e–p–r–o–j–b–o–o–l–e–a–n–
+36 buch downward learned -> –b–u–c–h–d–o–w–n–w–a–r–d–l–e–a–r–n–e–d–
+37 helper cholin causal -> –h–e–l–p–e–r–c–h–o–l–i–n–c–a–u–s–a–l–
+38 aux verlegt vertebr -> –a–u–x–v–e–r–l–e–g–t–v–e–r–t–e–b–r–
+39 ethoven funktion gain -> –e–t–h–o–v–e–n–f–u–n–k–t–i–o–n–g–a–i–n–
+40 ussa ponts funt -> –u–s–s–a–p–o–n–t–s–f–u–n–t–
+41 anchor less tanks -> –a–n–c–h–o–r–l–e–s–s–t–a–n–k–s–
+42 orten todas subunits -> –o–r–t–e–n–t–o–d–a–s–s–u–b–u–n–i–t–s–
+43 official fapt unl -> –o–f–f–i–c–i–a–l–f–a–p–t–u–n–l–
+44 avlj vandal homo -> –a–v–l–j–v–a–n–d–a–l–h–o–m–o–
+45 apy yd devient -> –a–p–y–y–d–d–e–v–i–e–n–t–
+46 assau batal olymp -> –a–s–s–a–u–b–a–t–a–l–o–l–y–m–p–
+47 umab culture charset -> –u–m–a–b–c–u–l–t–u–r–e–c–h–a–r–s–e–t–
+48 czyn chanteur shader -> –c–z–y–n–c–h–a–n–t–e–u–r–s–h–a–d–e–r–
+49 bung begins emulate -> –b–u–n–g–b–e–g–i–n–s–e–m–u–l–a–t–e–
+50 ild swoich speech -> –i–l–d–s–w–o–i–c–h–s–p–e–e–c–h–
+51 elas coda monocyte -> –e–l–a–s–c–o–d–a–m–o–n–o–c–y–t–e–
+52 platform tare archives -> –p–l–a–t–f–o–r–m–t–a–r–e–a–r–c–h–i–v–e–s–
+53 iaan lebten tableau -> –i–a–a–n–l–e–b–t–e–n–t–a–b–l–e–a–u–
+54 asil secured admir -> –a–s–i–l–s–e–c–u–r–e–d–a–d–m–i–r–
+55 desc revue factors -> –d–e–s–c–r–e–v–u–e–f–a–c–t–o–r–s–
+56 ierry olmayan dira -> –i–e–r–r–y–o–l–m–a–y–a–n–d–i–r–a–
+57 kken fosse killings -> –k–k–e–n–f–o–s–s–e–k–i–l–l–i–n–g–s–
+58 lst lungs maest -> –l–s–t–l–u–n–g–s–m–a–e–s–t–
+59 gg adjusted sympathy -> –g–g–a–d–j–u–s–t–e–d–s–y–m–p–a–t–h–y–
+60 halten logos flytt -> –h–a–l–t–e–n–l–o–g–o–s–f–l–y–t–t–
+61 dex umbrella socially -> –d–e–x–u–m–b–r–e–l–l–a–s–o–c–i–a–l–l–y–
+62 roman dropped guitarra -> –r–o–m–a–n–d–r–o–p–p–e–d–g–u–i–t–a–r–r–a–
+63 emen secteurs thumbs -> –e–m–e–n–s–e–c–t–e–u–r–s–t–h–u–m–b–s–
+64 arek quitter volante -> –a–r–e–k–q–u–i–t–t–e–r–v–o–l–a–n–t–e–
+65 innen marins fauteuil -> –i–n–n–e–n–m–a–r–i–n–s–f–a–u–t–e–u–i–l–
+66 blick staff scholar -> –b–l–i–c–k–s–t–a–f–f–s–c–h–o–l–a–r–
+67 plat exactly reuse -> –p–l–a–t–e–x–a–c–t–l–y–r–e–u–s–e–
+68 rgb conse croyait -> –r–g–b–c–o–n–s–e–c–r–o–y–a–i–t–
+69 igueur arrive ligation -> –i–g–u–e–u–r–a–r–r–i–v–e–l–i–g–a–t–i–o–n–
+70 ullehrer kappale yra -> –u–l–l–e–h–r–e–r–k–a–p–p–a–l–e–y–r–a–
+71 abol lance derby -> –a–b–o–l–l–a–n–c–e–d–e–r–b–y–
+72 gabe html soul -> –g–a–b–e–h–t–m–l–s–o–u–l–
+73 cery esse accue -> –c–e–r–y–e–s–s–e–a–c–c–u–e–
+74 hen ged cheerful -> –h–e–n–g–e–d–c–h–e–e–r–f–u–l–
+75 ped switch duc -> –p–e–d–s–w–i–t–c–h–d–u–c–
+76 etxe komme arsenal -> –e–t–x–e–k–o–m–m–e–a–r–s–e–n–a–l–
+77 ever agricult sabia -> –e–v–e–r–a–g–r–i–c–u–l–t–s–a–b–i–a–
+78 kup shoulder rac -> –k–u–p–s–h–o–u–l–d–e–r–r–a–c–
+79 prete dumped osallist -> –p–r–e–t–e–d–u–m–p–e–d–o–s–a–l–l–i–s–t–
+80 fik drept titolo -> –f–i–k–d–r–e–p–t–t–i–t–o–l–o–
+81 larda benach hens -> –l–a–r–d–a–b–e–n–a–c–h–h–e–n–s–
+82 iese timeline emo -> –i–e–s–e–t–i–m–e–l–i–n–e–e–m–o–
+83 staw dict mutat -> –s–t–a–w–d–i–c–t–m–u–t–a–t–
+84 oxygen caden eigener -> –o–x–y–g–e–n–c–a–d–e–n–e–i–g–e–n–e–r–
+85 arske arrivare tek -> –a–r–s–k–e–a–r–r–i–v–a–r–e–t–e–k–
+86 aben succeeds kalk -> –a–b–e–n–s–u–c–c–e–e–d–s–k–a–l–k–
+87 nano wc descend -> –n–a–n–o–w–c–d–e–s–c–e–n–d–
+88 cuts pig partita -> –c–u–t–s–p–i–g–p–a–r–t–i–t–a–
+89 failure unf mercato -> –f–a–i–l–u–r–e–u–n–f–m–e–r–c–a–t–o–
+90 ombrie summary atte -> –o–m–b–r–i–e–s–u–m–m–a–r–y–a–t–t–e–
+91 mis portanto inspi -> –m–i–s–p–o–r–t–a–n–t–o–i–n–s–p–i–
+92 iekt dimanche krij -> –i–e–k–t–d–i–m–a–n–c–h–e–k–r–i–j–
+93 reux weisen asemenea -> –r–e–u–x–w–e–i–s–e–n–a–s–e–m–e–n–e–a–
+94 leich amphib polic -> –l–e–i–c–h–a–m–p–h–i–b–p–o–l–i–c–
+95 ivered aspart uniforms -> –i–v–e–r–e–d–a–s–p–a–r–t–u–n–i–f–o–r–m–s–
+96 ifies handlers shred -> –i–f–i–e–s–h–a–n–d–l–e–r–s–s–h–r–e–d–
+97 rames deleter powie -> –r–a–m–e–s–d–e–l–e–t–e–r–p–o–w–i–e–
+98 ffective raccont relativa -> –f–f–e–c–t–i–v–e–r–a–c–c–o–n–t–r–e–l–a–t–i–v–a–
+99 ki grotes braccia -> –k–i–g–r–o–t–e–s–b–r–a–c–c–i–a–

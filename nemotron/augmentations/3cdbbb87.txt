@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 hdysval avsl siamo
+01 asie dut fake
+02 students employs severity
+
+This is a sample output.
+00 hdysval avsl siamo -> –h–d–y–s–v–a–l–a–v–s–l–s–i–a–m–o–
+01 asie dut fake -> –a–s–i–e–d–u–t–f–a–k–e–
+02 students employs severity -> –s–t–u–d–e–n–t–s–e–m–p–l–o–y–s–s–e–v–e–r–i–t–y–
+
+This is your input.
+00 ugby gabinete wyra
+01 reto apart swapped
+02 ploy diver reli
+03 orea like kesel
+04 reht emper teased
+05 this cache styl
+06 ieu moyens kish
+07 hill immin tex
+08 ifin vielf polym
+09 uh jeden short
+10 arians correo loudly
+11 uah remplace memil
+12 aanse plaine esist
+13 vie escuch motif
+14 hten img eros
+15 wir verlor chac
+16 cepts csapat adds
+17 eenth nada ternary
+18 keleton tijekom mulheres
+19 jspx specify leisure
+20 nj screams norms
+21 rien nostal managed
+22 consin austral percorso
+23 essions horns mutants
+24 kiego retrato ressembl
+25 ophile blades defin
+26 aciones smo frap
+27 ingle decisive formats
+28 voi concerts pretende
+29 chers dealer aspet
+30 ancer unter stad
+31 nih ofte solos
+32 roux paj calific
+33 koa artigos unique
+34 ifton centro connus
+35 idores harbour infancia
+36 orbenen stampa fled
+37 state artistic sant
+38 ice inland globally
+39 renderer avons irr
+40 enoid immunity provide
+41 yr noted gjennom
+42 arist konkurs estaven
+43 otipo stave govern
+44 noc massacre modifies
+45 isplay osserv produce
+46 pun eje ameryka
+47 aro oni extranj
+48 sville stat pistol
+49 reat couldn sofort
+50 cached ocupado mivel
+51 amientos reduce waveform
+52 lim suburb mammals
+53 gruppen paik defenses
+54 ifth chines jack
+55 sud canceled capire
+56 deutsche glu wenig
+57 asp elif sta
+58 call racont discard
+59 outube arsenic zmien
+60 records inicial grands
+61 atter unsafe migrants
+62 rund recuper trouble
+63 ificado maman numerals
+64 xyz preuve emploi
+65 sender zit admired
+66 fff templo infect
+67 encies netto configs
+68 itia inaugur donn
+69 puestas fors oil
+70 lova didn farsi
+71 zka choke typing
+72 chsel trend sauvages
+73 iterran majeur reciente
+74 lood offense geriet
+75 ulter peligro implant
+76 urai zdoby flaps
+77 cumin spielten velho
+78 uld beschou focus
+79 eri invern planted
+80 schule manchmal koje
+81 manage adelante concord
+82 pled flap vall
+83 leb umano reaction
+84 eni warrior leaning
+85 strlen threaded talent
+86 udos gep workout
+87 imbled malad trabaj
+88 uccess abierto erwartet
+89 vl evolving hill
+90 iag tuviera period
+91 ringer vita hver
+92 former pozw tangent
+93 rites zape stick
+94 icit divul tvrd
+95 ypad isra comply
+96 ted colegio enfat
+97 atriz modern asko
+98 other portug jersey
+99 mira apps ple
+[completion]
+00 ugby gabinete wyra -> –u–g–b–y–g–a–b–i–n–e–t–e–w–y–r–a–
+01 reto apart swapped -> –r–e–t–o–a–p–a–r–t–s–w–a–p–p–e–d–
+02 ploy diver reli -> –p–l–o–y–d–i–v–e–r–r–e–l–i–
+03 orea like kesel -> –o–r–e–a–l–i–k–e–k–e–s–e–l–
+04 reht emper teased -> –r–e–h–t–e–m–p–e–r–t–e–a–s–e–d–
+05 this cache styl -> –t–h–i–s–c–a–c–h–e–s–t–y–l–
+06 ieu moyens kish -> –i–e–u–m–o–y–e–n–s–k–i–s–h–
+07 hill immin tex -> –h–i–l–l–i–m–m–i–n–t–e–x–
+08 ifin vielf polym -> –i–f–i–n–v–i–e–l–f–p–o–l–y–m–
+09 uh jeden short -> –u–h–j–e–d–e–n–s–h–o–r–t–
+10 arians correo loudly -> –a–r–i–a–n–s–c–o–r–r–e–o–l–o–u–d–l–y–
+11 uah remplace memil -> –u–a–h–r–e–m–p–l–a–c–e–m–e–m–i–l–
+12 aanse plaine esist -> –a–a–n–s–e–p–l–a–i–n–e–e–s–i–s–t–
+13 vie escuch motif -> –v–i–e–e–s–c–u–c–h–m–o–t–i–f–
+14 hten img eros -> –h–t–e–n–i–m–g–e–r–o–s–
+15 wir verlor chac -> –w–i–r–v–e–r–l–o–r–c–h–a–c–
+16 cepts csapat adds -> –c–e–p–t–s–c–s–a–p–a–t–a–d–d–s–
+17 eenth nada ternary -> –e–e–n–t–h–n–a–d–a–t–e–r–n–a–r–y–
+18 keleton tijekom mulheres -> –k–e–l–e–t–o–n–t–i–j–e–k–o–m–m–u–l–h–e–r–e–s–
+19 jspx specify leisure -> –j–s–p–x–s–p–e–c–i–f–y–l–e–i–s–u–r–e–
+20 nj screams norms -> –n–j–s–c–r–e–a–m–s–n–o–r–m–s–
+21 rien nostal managed -> –r–i–e–n–n–o–s–t–a–l–m–a–n–a–g–e–d–
+22 consin austral percorso -> –c–o–n–s–i–n–a–u–s–t–r–a–l–p–e–r–c–o–r–s–o–
+23 essions horns mutants -> –e–s–s–i–o–n–s–h–o–r–n–s–m–u–t–a–n–t–s–
+24 kiego retrato ressembl -> –k–i–e–g–o–r–e–t–r–a–t–o–r–e–s–s–e–m–b–l–
+25 ophile blades defin -> –o–p–h–i–l–e–b–l–a–d–e–s–d–e–f–i–n–
+26 aciones smo frap -> –a–c–i–o–n–e–s–s–m–o–f–r–a–p–
+27 ingle decisive formats -> –i–n–g–l–e–d–e–c–i–s–i–v–e–f–o–r–m–a–t–s–
+28 voi concerts pretende -> –v–o–i–c–o–n–c–e–r–t–s–p–r–e–t–e–n–d–e–
+29 chers dealer aspet -> –c–h–e–r–s–d–e–a–l–e–r–a–s–p–e–t–
+30 ancer unter stad -> –a–n–c–e–r–u–n–t–e–r–s–t–a–d–
+31 nih ofte solos -> –n–i–h–o–f–t–e–s–o–l–o–s–
+32 roux paj calific -> –r–o–u–x–p–a–j–c–a–l–i–f–i–c–
+33 koa artigos unique -> –k–o–a–a–r–t–i–g–o–s–u–n–i–q–u–e–
+34 ifton centro connus -> –i–f–t–o–n–c–e–n–t–r–o–c–o–n–n–u–s–
+35 idores harbour infancia -> –i–d–o–r–e–s–h–a–r–b–o–u–r–i–n–f–a–n–c–i–a–
+36 orbenen stampa fled -> –o–r–b–e–n–e–n–s–t–a–m–p–a–f–l–e–d–
+37 state artistic sant -> –s–t–a–t–e–a–r–t–i–s–t–i–c–s–a–n–t–
+38 ice inland globally -> –i–c–e–i–n–l–a–n–d–g–l–o–b–a–l–l–y–
+39 renderer avons irr -> –r–e–n–d–e–r–e–r–a–v–o–n–s–i–r–r–
+40 enoid immunity provide -> –e–n–o–i–d–i–m–m–u–n–i–t–y–p–r–o–v–i–d–e–
+41 yr noted gjennom -> –y–r–n–o–t–e–d–g–j–e–n–n–o–m–
+42 arist konkurs estaven -> –a–r–i–s–t–k–o–n–k–u–r–s–e–s–t–a–v–e–n–
+43 otipo stave govern -> –o–t–i–p–o–s–t–a–v–e–g–o–v–e–r–n–
+44 noc massacre modifies -> –n–o–c–m–a–s–s–a–c–r–e–m–o–d–i–f–i–e–s–
+45 isplay osserv produce -> –i–s–p–l–a–y–o–s–s–e–r–v–p–r–o–d–u–c–e–
+46 pun eje ameryka -> –p–u–n–e–j–e–a–m–e–r–y–k–a–
+47 aro oni extranj -> –a–r–o–o–n–i–e–x–t–r–a–n–j–
+48 sville stat pistol -> –s–v–i–l–l–e–s–t–a–t–p–i–s–t–o–l–
+49 reat couldn sofort -> –r–e–a–t–c–o–u–l–d–n–s–o–f–o–r–t–
+50 cached ocupado mivel -> –c–a–c–h–e–d–o–c–u–p–a–d–o–m–i–v–e–l–
+51 amientos reduce waveform -> –a–m–i–e–n–t–o–s–r–e–d–u–c–e–w–a–v–e–f–o–r–m–
+52 lim suburb mammals -> –l–i–m–s–u–b–u–r–b–m–a–m–m–a–l–s–
+53 gruppen paik defenses -> –g–r–u–p–p–e–n–p–a–i–k–d–e–f–e–n–s–e–s–
+54 ifth chines jack -> –i–f–t–h–c–h–i–n–e–s–j–a–c–k–
+55 sud canceled capire -> –s–u–d–c–a–n–c–e–l–e–d–c–a–p–i–r–e–
+56 deutsche glu wenig -> –d–e–u–t–s–c–h–e–g–l–u–w–e–n–i–g–
+57 asp elif sta -> –a–s–p–e–l–i–f–s–t–a–
+58 call racont discard -> –c–a–l–l–r–a–c–o–n–t–d–i–s–c–a–r–d–
+59 outube arsenic zmien -> –o–u–t–u–b–e–a–r–s–e–n–i–c–z–m–i–e–n–
+60 records inicial grands -> –r–e–c–o–r–d–s–i–n–i–c–i–a–l–g–r–a–n–d–s–
+61 atter unsafe migrants -> –a–t–t–e–r–u–n–s–a–f–e–m–i–g–r–a–n–t–s–
+62 rund recuper trouble -> –r–u–n–d–r–e–c–u–p–e–r–t–r–o–u–b–l–e–
+63 ificado maman numerals -> –i–f–i–c–a–d–o–m–a–m–a–n–n–u–m–e–r–a–l–s–
+64 xyz preuve emploi -> –x–y–z–p–r–e–u–v–e–e–m–p–l–o–i–
+65 sender zit admired -> –s–e–n–d–e–r–z–i–t–a–d–m–i–r–e–d–
+66 fff templo infect -> –f–f–f–t–e–m–p–l–o–i–n–f–e–c–t–
+67 encies netto configs -> –e–n–c–i–e–s–n–e–t–t–o–c–o–n–f–i–g–s–
+68 itia inaugur donn -> –i–t–i–a–i–n–a–u–g–u–r–d–o–n–n–
+69 puestas fors oil -> –p–u–e–s–t–a–s–f–o–r–s–o–i–l–
+70 lova didn farsi -> –l–o–v–a–d–i–d–n–f–a–r–s–i–
+71 zka choke typing -> –z–k–a–c–h–o–k–e–t–y–p–i–n–g–
+72 chsel trend sauvages -> –c–h–s–e–l–t–r–e–n–d–s–a–u–v–a–g–e–s–
+73 iterran majeur reciente -> –i–t–e–r–r–a–n–m–a–j–e–u–r–r–e–c–i–e–n–t–e–
+74 lood offense geriet -> –l–o–o–d–o–f–f–e–n–s–e–g–e–r–i–e–t–
+75 ulter peligro implant -> –u–l–t–e–r–p–e–l–i–g–r–o–i–m–p–l–a–n–t–
+76 urai zdoby flaps -> –u–r–a–i–z–d–o–b–y–f–l–a–p–s–
+77 cumin spielten velho -> –c–u–m–i–n–s–p–i–e–l–t–e–n–v–e–l–h–o–
+78 uld beschou focus -> –u–l–d–b–e–s–c–h–o–u–f–o–c–u–s–
+79 eri invern planted -> –e–r–i–i–n–v–e–r–n–p–l–a–n–t–e–d–
+80 schule manchmal koje -> –s–c–h–u–l–e–m–a–n–c–h–m–a–l–k–o–j–e–
+81 manage adelante concord -> –m–a–n–a–g–e–a–d–e–l–a–n–t–e–c–o–n–c–o–r–d–
+82 pled flap vall -> –p–l–e–d–f–l–a–p–v–a–l–l–
+83 leb umano reaction -> –l–e–b–u–m–a–n–o–r–e–a–c–t–i–o–n–
+84 eni warrior leaning -> –e–n–i–w–a–r–r–i–o–r–l–e–a–n–i–n–g–
+85 strlen threaded talent -> –s–t–r–l–e–n–t–h–r–e–a–d–e–d–t–a–l–e–n–t–
+86 udos gep workout -> –u–d–o–s–g–e–p–w–o–r–k–o–u–t–
+87 imbled malad trabaj -> –i–m–b–l–e–d–m–a–l–a–d–t–r–a–b–a–j–
+88 uccess abierto erwartet -> –u–c–c–e–s–s–a–b–i–e–r–t–o–e–r–w–a–r–t–e–t–
+89 vl evolving hill -> –v–l–e–v–o–l–v–i–n–g–h–i–l–l–
+90 iag tuviera period -> –i–a–g–t–u–v–i–e–r–a–p–e–r–i–o–d–
+91 ringer vita hver -> –r–i–n–g–e–r–v–i–t–a–h–v–e–r–
+92 former pozw tangent -> –f–o–r–m–e–r–p–o–z–w–t–a–n–g–e–n–t–
+93 rites zape stick -> –r–i–t–e–s–z–a–p–e–s–t–i–c–k–
+94 icit divul tvrd -> –i–c–i–t–d–i–v–u–l–t–v–r–d–
+95 ypad isra comply -> –y–p–a–d–i–s–r–a–c–o–m–p–l–y–
+96 ted colegio enfat -> –t–e–d–c–o–l–e–g–i–o–e–n–f–a–t–
+97 atriz modern asko -> –a–t–r–i–z–m–o–d–e–r–n–a–s–k–o–
+98 other portug jersey -> –o–t–h–e–r–p–o–r–t–u–g–j–e–r–s–e–y–
+99 mira apps ple -> –m–i–r–a–a–p–p–s–p–l–e–

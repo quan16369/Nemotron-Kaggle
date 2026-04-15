@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 agerung indexing stad
+01 orspr sympt pieza
+02 irre nekaj openings
+
+This is a sample output.
+00 agerung indexing stad -> –a–g–e–r–u–n–g–i–n–d–e–x–i–n–g–s–t–a–d–
+01 orspr sympt pieza -> –o–r–s–p–r–s–y–m–p–t–p–i–e–z–a–
+02 irre nekaj openings -> –i–r–r–e–n–e–k–a–j–o–p–e–n–i–n–g–s–
+
+This is your input.
+00 glut reasons tart
+01 eux vrijeme lip
+02 lobal compress incurs
+03 card generic planet
+04 link dismant unequal
+05 gave sacerd edi
+06 gers meilleur awards
+07 chafft escrito pression
+08 prises stroked dignity
+09 itoria reached fok
+10 onomia pid acert
+11 rup lobes viktig
+12 mol passent decks
+13 olysis close elezioni
+14 atora nitric ainsi
+15 ify sembrava captura
+16 uret quelle skim
+17 acja diarrhea synchron
+18 aines hypers blason
+19 theit execute pseudo
+20 bia rendu culto
+21 nodes fighters casp
+22 oman theat lives
+23 itzeko jab trovi
+24 duct arguably zb
+25 ography wolf accepts
+26 checked relieve buenos
+27 viz beaut comunes
+28 anken att sut
+29 skin hvil sophist
+30 ep browse maniera
+31 vaj haga aquestes
+32 laub wander camb
+33 bigg gira soport
+34 tile stars gioco
+35 itato premiers reag
+36 engar priest star
+37 assis poudre prins
+38 plan hacerse formalin
+39 within assim tidak
+40 pmatrix bills redis
+41 ycji ef razones
+42 hel dev claiming
+43 laut hech studied
+44 bang xa bullying
+45 ulse chall jatetxe
+46 ampe wagon revi
+47 levant rije pink
+48 stral conceive browsing
+49 arla dialysis honetan
+50 mani furono ame
+51 contents alles llen
+52 aldi gloire guanyar
+53 tej outset beso
+54 urio traffic plupart
+55 inius bero loyalty
+56 jourd impact fratelli
+57 arten crea knees
+58 aises fave comuni
+59 jest sple wk
+60 ismic aura casco
+61 party appoint gens
+62 ont mates poput
+63 itag haine ew
+64 greg hayat shaped
+65 iform anlam seats
+66 remos chorus implique
+67 fits prob produz
+68 ecer oriented nore
+69 bid comporte repris
+70 pron chega psych
+71 jeni svij resize
+72 ri burg commit
+73 lating bold neces
+74 enta std stig
+75 hn macros imagine
+76 eks sklearn katalog
+77 aneiro spirito airline
+78 ikt inutile qur
+79 uvad acceder dilemma
+80 mek mouth apache
+81 elor thinking terd
+82 itettiin junction sied
+83 sp hh kwa
+84 windows muzy tils
+85 yni orifice sommet
+86 agrama english traveled
+87 ystems reign ocupada
+88 deks sha schedule
+89 total diretta deadline
+90 enaire efecto liik
+91 ayt peaking capped
+92 teg wh lait
+93 chine impe anchored
+94 bygg insignia send
+95 atifs top distinct
+96 idden politik phyt
+97 ichtig curve inadvert
+98 itet convient czym
+99 opia banana booking
+[completion]
+00 glut reasons tart -> –g–l–u–t–r–e–a–s–o–n–s–t–a–r–t–
+01 eux vrijeme lip -> –e–u–x–v–r–i–j–e–m–e–l–i–p–
+02 lobal compress incurs -> –l–o–b–a–l–c–o–m–p–r–e–s–s–i–n–c–u–r–s–
+03 card generic planet -> –c–a–r–d–g–e–n–e–r–i–c–p–l–a–n–e–t–
+04 link dismant unequal -> –l–i–n–k–d–i–s–m–a–n–t–u–n–e–q–u–a–l–
+05 gave sacerd edi -> –g–a–v–e–s–a–c–e–r–d–e–d–i–
+06 gers meilleur awards -> –g–e–r–s–m–e–i–l–l–e–u–r–a–w–a–r–d–s–
+07 chafft escrito pression -> –c–h–a–f–f–t–e–s–c–r–i–t–o–p–r–e–s–s–i–o–n–
+08 prises stroked dignity -> –p–r–i–s–e–s–s–t–r–o–k–e–d–d–i–g–n–i–t–y–
+09 itoria reached fok -> –i–t–o–r–i–a–r–e–a–c–h–e–d–f–o–k–
+10 onomia pid acert -> –o–n–o–m–i–a–p–i–d–a–c–e–r–t–
+11 rup lobes viktig -> –r–u–p–l–o–b–e–s–v–i–k–t–i–g–
+12 mol passent decks -> –m–o–l–p–a–s–s–e–n–t–d–e–c–k–s–
+13 olysis close elezioni -> –o–l–y–s–i–s–c–l–o–s–e–e–l–e–z–i–o–n–i–
+14 atora nitric ainsi -> –a–t–o–r–a–n–i–t–r–i–c–a–i–n–s–i–
+15 ify sembrava captura -> –i–f–y–s–e–m–b–r–a–v–a–c–a–p–t–u–r–a–
+16 uret quelle skim -> –u–r–e–t–q–u–e–l–l–e–s–k–i–m–
+17 acja diarrhea synchron -> –a–c–j–a–d–i–a–r–r–h–e–a–s–y–n–c–h–r–o–n–
+18 aines hypers blason -> –a–i–n–e–s–h–y–p–e–r–s–b–l–a–s–o–n–
+19 theit execute pseudo -> –t–h–e–i–t–e–x–e–c–u–t–e–p–s–e–u–d–o–
+20 bia rendu culto -> –b–i–a–r–e–n–d–u–c–u–l–t–o–
+21 nodes fighters casp -> –n–o–d–e–s–f–i–g–h–t–e–r–s–c–a–s–p–
+22 oman theat lives -> –o–m–a–n–t–h–e–a–t–l–i–v–e–s–
+23 itzeko jab trovi -> –i–t–z–e–k–o–j–a–b–t–r–o–v–i–
+24 duct arguably zb -> –d–u–c–t–a–r–g–u–a–b–l–y–z–b–
+25 ography wolf accepts -> –o–g–r–a–p–h–y–w–o–l–f–a–c–c–e–p–t–s–
+26 checked relieve buenos -> –c–h–e–c–k–e–d–r–e–l–i–e–v–e–b–u–e–n–o–s–
+27 viz beaut comunes -> –v–i–z–b–e–a–u–t–c–o–m–u–n–e–s–
+28 anken att sut -> –a–n–k–e–n–a–t–t–s–u–t–
+29 skin hvil sophist -> –s–k–i–n–h–v–i–l–s–o–p–h–i–s–t–
+30 ep browse maniera -> –e–p–b–r–o–w–s–e–m–a–n–i–e–r–a–
+31 vaj haga aquestes -> –v–a–j–h–a–g–a–a–q–u–e–s–t–e–s–
+32 laub wander camb -> –l–a–u–b–w–a–n–d–e–r–c–a–m–b–
+33 bigg gira soport -> –b–i–g–g–g–i–r–a–s–o–p–o–r–t–
+34 tile stars gioco -> –t–i–l–e–s–t–a–r–s–g–i–o–c–o–
+35 itato premiers reag -> –i–t–a–t–o–p–r–e–m–i–e–r–s–r–e–a–g–
+36 engar priest star -> –e–n–g–a–r–p–r–i–e–s–t–s–t–a–r–
+37 assis poudre prins -> –a–s–s–i–s–p–o–u–d–r–e–p–r–i–n–s–
+38 plan hacerse formalin -> –p–l–a–n–h–a–c–e–r–s–e–f–o–r–m–a–l–i–n–
+39 within assim tidak -> –w–i–t–h–i–n–a–s–s–i–m–t–i–d–a–k–
+40 pmatrix bills redis -> –p–m–a–t–r–i–x–b–i–l–l–s–r–e–d–i–s–
+41 ycji ef razones -> –y–c–j–i–e–f–r–a–z–o–n–e–s–
+42 hel dev claiming -> –h–e–l–d–e–v–c–l–a–i–m–i–n–g–
+43 laut hech studied -> –l–a–u–t–h–e–c–h–s–t–u–d–i–e–d–
+44 bang xa bullying -> –b–a–n–g–x–a–b–u–l–l–y–i–n–g–
+45 ulse chall jatetxe -> –u–l–s–e–c–h–a–l–l–j–a–t–e–t–x–e–
+46 ampe wagon revi -> –a–m–p–e–w–a–g–o–n–r–e–v–i–
+47 levant rije pink -> –l–e–v–a–n–t–r–i–j–e–p–i–n–k–
+48 stral conceive browsing -> –s–t–r–a–l–c–o–n–c–e–i–v–e–b–r–o–w–s–i–n–g–
+49 arla dialysis honetan -> –a–r–l–a–d–i–a–l–y–s–i–s–h–o–n–e–t–a–n–
+50 mani furono ame -> –m–a–n–i–f–u–r–o–n–o–a–m–e–
+51 contents alles llen -> –c–o–n–t–e–n–t–s–a–l–l–e–s–l–l–e–n–
+52 aldi gloire guanyar -> –a–l–d–i–g–l–o–i–r–e–g–u–a–n–y–a–r–
+53 tej outset beso -> –t–e–j–o–u–t–s–e–t–b–e–s–o–
+54 urio traffic plupart -> –u–r–i–o–t–r–a–f–f–i–c–p–l–u–p–a–r–t–
+55 inius bero loyalty -> –i–n–i–u–s–b–e–r–o–l–o–y–a–l–t–y–
+56 jourd impact fratelli -> –j–o–u–r–d–i–m–p–a–c–t–f–r–a–t–e–l–l–i–
+57 arten crea knees -> –a–r–t–e–n–c–r–e–a–k–n–e–e–s–
+58 aises fave comuni -> –a–i–s–e–s–f–a–v–e–c–o–m–u–n–i–
+59 jest sple wk -> –j–e–s–t–s–p–l–e–w–k–
+60 ismic aura casco -> –i–s–m–i–c–a–u–r–a–c–a–s–c–o–
+61 party appoint gens -> –p–a–r–t–y–a–p–p–o–i–n–t–g–e–n–s–
+62 ont mates poput -> –o–n–t–m–a–t–e–s–p–o–p–u–t–
+63 itag haine ew -> –i–t–a–g–h–a–i–n–e–e–w–
+64 greg hayat shaped -> –g–r–e–g–h–a–y–a–t–s–h–a–p–e–d–
+65 iform anlam seats -> –i–f–o–r–m–a–n–l–a–m–s–e–a–t–s–
+66 remos chorus implique -> –r–e–m–o–s–c–h–o–r–u–s–i–m–p–l–i–q–u–e–
+67 fits prob produz -> –f–i–t–s–p–r–o–b–p–r–o–d–u–z–
+68 ecer oriented nore -> –e–c–e–r–o–r–i–e–n–t–e–d–n–o–r–e–
+69 bid comporte repris -> –b–i–d–c–o–m–p–o–r–t–e–r–e–p–r–i–s–
+70 pron chega psych -> –p–r–o–n–c–h–e–g–a–p–s–y–c–h–
+71 jeni svij resize -> –j–e–n–i–s–v–i–j–r–e–s–i–z–e–
+72 ri burg commit -> –r–i–b–u–r–g–c–o–m–m–i–t–
+73 lating bold neces -> –l–a–t–i–n–g–b–o–l–d–n–e–c–e–s–
+74 enta std stig -> –e–n–t–a–s–t–d–s–t–i–g–
+75 hn macros imagine -> –h–n–m–a–c–r–o–s–i–m–a–g–i–n–e–
+76 eks sklearn katalog -> –e–k–s–s–k–l–e–a–r–n–k–a–t–a–l–o–g–
+77 aneiro spirito airline -> –a–n–e–i–r–o–s–p–i–r–i–t–o–a–i–r–l–i–n–e–
+78 ikt inutile qur -> –i–k–t–i–n–u–t–i–l–e–q–u–r–
+79 uvad acceder dilemma -> –u–v–a–d–a–c–c–e–d–e–r–d–i–l–e–m–m–a–
+80 mek mouth apache -> –m–e–k–m–o–u–t–h–a–p–a–c–h–e–
+81 elor thinking terd -> –e–l–o–r–t–h–i–n–k–i–n–g–t–e–r–d–
+82 itettiin junction sied -> –i–t–e–t–t–i–i–n–j–u–n–c–t–i–o–n–s–i–e–d–
+83 sp hh kwa -> –s–p–h–h–k–w–a–
+84 windows muzy tils -> –w–i–n–d–o–w–s–m–u–z–y–t–i–l–s–
+85 yni orifice sommet -> –y–n–i–o–r–i–f–i–c–e–s–o–m–m–e–t–
+86 agrama english traveled -> –a–g–r–a–m–a–e–n–g–l–i–s–h–t–r–a–v–e–l–e–d–
+87 ystems reign ocupada -> –y–s–t–e–m–s–r–e–i–g–n–o–c–u–p–a–d–a–
+88 deks sha schedule -> –d–e–k–s–s–h–a–s–c–h–e–d–u–l–e–
+89 total diretta deadline -> –t–o–t–a–l–d–i–r–e–t–t–a–d–e–a–d–l–i–n–e–
+90 enaire efecto liik -> –e–n–a–i–r–e–e–f–e–c–t–o–l–i–i–k–
+91 ayt peaking capped -> –a–y–t–p–e–a–k–i–n–g–c–a–p–p–e–d–
+92 teg wh lait -> –t–e–g–w–h–l–a–i–t–
+93 chine impe anchored -> –c–h–i–n–e–i–m–p–e–a–n–c–h–o–r–e–d–
+94 bygg insignia send -> –b–y–g–g–i–n–s–i–g–n–i–a–s–e–n–d–
+95 atifs top distinct -> –a–t–i–f–s–t–o–p–d–i–s–t–i–n–c–t–
+96 idden politik phyt -> –i–d–d–e–n–p–o–l–i–t–i–k–p–h–y–t–
+97 ichtig curve inadvert -> –i–c–h–t–i–g–c–u–r–v–e–i–n–a–d–v–e–r–t–
+98 itet convient czym -> –i–t–e–t–c–o–n–v–i–e–n–t–c–z–y–m–
+99 opia banana booking -> –o–p–i–a–b–a–n–a–n–a–b–o–o–k–i–n–g–

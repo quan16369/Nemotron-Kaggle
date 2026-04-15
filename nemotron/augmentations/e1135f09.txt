@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 essen souligne genutzt
+01 early wurden verbe
+02 ahr necess euc
+
+This is a sample output.
+00 essen souligne genutzt -> –e–s–s–e–n–s–o–u–l–i–g–n–e–g–e–n–u–t–z–t–
+01 early wurden verbe -> –e–a–r–l–y–w–u–r–d–e–n–v–e–r–b–e–
+02 ahr necess euc -> –a–h–r–n–e–c–e–s–s–e–u–c–
+
+This is your input.
+00 heastern grud manifold
+01 acci grob bilim
+02 icolas eerder kelt
+03 ersion messo suicidal
+04 alh grazie programs
+05 otov usine gesam
+06 emeinde fm marques
+07 verbose debido claw
+08 paste lokale ingleses
+09 ijen began dividend
+10 rich parede flanking
+11 yset abbiamo bueno
+12 oids nesk edust
+13 elingen codon retro
+14 cosse jednog previa
+15 rze fu dax
+16 der studio odre
+17 ademia eigene pueden
+18 enan relax divenne
+19 nommen ay granting
+20 iba orbit bits
+21 ekte truppe valves
+22 rog cosm megsz
+23 preuves colony postul
+24 zda fluent celt
+25 abila figli equip
+26 iology ventana chiam
+27 uran composed margol
+28 leute stmt erbaut
+29 oload haf glass
+30 ona alberg membro
+31 umbers accompl carp
+32 ordered laid pared
+33 jer pinn ii
+34 vest separ dto
+35 esty vap nurses
+36 discount asserts bos
+37 cars crises felsz
+38 aul men asker
+39 auft fele creer
+40 inear olivat adhere
+41 ibir competed uomini
+42 destroy prebival builds
+43 raina terrains seas
+44 mo acara ulcers
+45 zz adjac fato
+46 edy verd coer
+47 iliated sfr markers
+48 pir ret turf
+49 tered bant quer
+50 ubuntu trafic starten
+51 witch sob targets
+52 ely adib tutte
+53 engl crop oppure
+54 olloin interdit brown
+55 czne gebracht hairs
+56 alk beaches baff
+57 atives expir erabilt
+58 imetres onders rief
+59 jny byen embry
+60 itled widely miast
+61 rr niveles contexte
+62 racted student ml
+63 ospital elves hacia
+64 fers disputa evalu
+65 istin werd multzoan
+66 fter efficacy jouant
+67 ifetime rotate boshl
+68 mkdir kori tred
+69 nach rezult autobus
+70 ymour aik ortaya
+71 ufen hepar toim
+72 inne lor parked
+73 uestos zuen oa
+74 chair shortly clothes
+75 idas nhanh attained
+76 uvian blind gaire
+77 dd remedies uffic
+78 edge aim rebel
+79 owned partid ril
+80 imation stabbed juegos
+81 ams pump twenty
+82 vaise colleg outper
+83 public verk historie
+84 zy sentir gewe
+85 usste tendre kernel
+86 headers betray calci
+87 addle eigen praw
+88 angles maneuver panc
+89 cement siden cortes
+90 assembly porn displ
+91 schw menulis vrai
+92 itte nyky allevi
+93 regon sast narr
+94 formin envisage reconnue
+95 aser products histoire
+96 rato poule aires
+97 ederal transmis disk
+98 olina vontade siento
+99 cliffe adapter pedest
+[completion]
+00 heastern grud manifold -> –h–e–a–s–t–e–r–n–g–r–u–d–m–a–n–i–f–o–l–d–
+01 acci grob bilim -> –a–c–c–i–g–r–o–b–b–i–l–i–m–
+02 icolas eerder kelt -> –i–c–o–l–a–s–e–e–r–d–e–r–k–e–l–t–
+03 ersion messo suicidal -> –e–r–s–i–o–n–m–e–s–s–o–s–u–i–c–i–d–a–l–
+04 alh grazie programs -> –a–l–h–g–r–a–z–i–e–p–r–o–g–r–a–m–s–
+05 otov usine gesam -> –o–t–o–v–u–s–i–n–e–g–e–s–a–m–
+06 emeinde fm marques -> –e–m–e–i–n–d–e–f–m–m–a–r–q–u–e–s–
+07 verbose debido claw -> –v–e–r–b–o–s–e–d–e–b–i–d–o–c–l–a–w–
+08 paste lokale ingleses -> –p–a–s–t–e–l–o–k–a–l–e–i–n–g–l–e–s–e–s–
+09 ijen began dividend -> –i–j–e–n–b–e–g–a–n–d–i–v–i–d–e–n–d–
+10 rich parede flanking -> –r–i–c–h–p–a–r–e–d–e–f–l–a–n–k–i–n–g–
+11 yset abbiamo bueno -> –y–s–e–t–a–b–b–i–a–m–o–b–u–e–n–o–
+12 oids nesk edust -> –o–i–d–s–n–e–s–k–e–d–u–s–t–
+13 elingen codon retro -> –e–l–i–n–g–e–n–c–o–d–o–n–r–e–t–r–o–
+14 cosse jednog previa -> –c–o–s–s–e–j–e–d–n–o–g–p–r–e–v–i–a–
+15 rze fu dax -> –r–z–e–f–u–d–a–x–
+16 der studio odre -> –d–e–r–s–t–u–d–i–o–o–d–r–e–
+17 ademia eigene pueden -> –a–d–e–m–i–a–e–i–g–e–n–e–p–u–e–d–e–n–
+18 enan relax divenne -> –e–n–a–n–r–e–l–a–x–d–i–v–e–n–n–e–
+19 nommen ay granting -> –n–o–m–m–e–n–a–y–g–r–a–n–t–i–n–g–
+20 iba orbit bits -> –i–b–a–o–r–b–i–t–b–i–t–s–
+21 ekte truppe valves -> –e–k–t–e–t–r–u–p–p–e–v–a–l–v–e–s–
+22 rog cosm megsz -> –r–o–g–c–o–s–m–m–e–g–s–z–
+23 preuves colony postul -> –p–r–e–u–v–e–s–c–o–l–o–n–y–p–o–s–t–u–l–
+24 zda fluent celt -> –z–d–a–f–l–u–e–n–t–c–e–l–t–
+25 abila figli equip -> –a–b–i–l–a–f–i–g–l–i–e–q–u–i–p–
+26 iology ventana chiam -> –i–o–l–o–g–y–v–e–n–t–a–n–a–c–h–i–a–m–
+27 uran composed margol -> –u–r–a–n–c–o–m–p–o–s–e–d–m–a–r–g–o–l–
+28 leute stmt erbaut -> –l–e–u–t–e–s–t–m–t–e–r–b–a–u–t–
+29 oload haf glass -> –o–l–o–a–d–h–a–f–g–l–a–s–s–
+30 ona alberg membro -> –o–n–a–a–l–b–e–r–g–m–e–m–b–r–o–
+31 umbers accompl carp -> –u–m–b–e–r–s–a–c–c–o–m–p–l–c–a–r–p–
+32 ordered laid pared -> –o–r–d–e–r–e–d–l–a–i–d–p–a–r–e–d–
+33 jer pinn ii -> –j–e–r–p–i–n–n–i–i–
+34 vest separ dto -> –v–e–s–t–s–e–p–a–r–d–t–o–
+35 esty vap nurses -> –e–s–t–y–v–a–p–n–u–r–s–e–s–
+36 discount asserts bos -> –d–i–s–c–o–u–n–t–a–s–s–e–r–t–s–b–o–s–
+37 cars crises felsz -> –c–a–r–s–c–r–i–s–e–s–f–e–l–s–z–
+38 aul men asker -> –a–u–l–m–e–n–a–s–k–e–r–
+39 auft fele creer -> –a–u–f–t–f–e–l–e–c–r–e–e–r–
+40 inear olivat adhere -> –i–n–e–a–r–o–l–i–v–a–t–a–d–h–e–r–e–
+41 ibir competed uomini -> –i–b–i–r–c–o–m–p–e–t–e–d–u–o–m–i–n–i–
+42 destroy prebival builds -> –d–e–s–t–r–o–y–p–r–e–b–i–v–a–l–b–u–i–l–d–s–
+43 raina terrains seas -> –r–a–i–n–a–t–e–r–r–a–i–n–s–s–e–a–s–
+44 mo acara ulcers -> –m–o–a–c–a–r–a–u–l–c–e–r–s–
+45 zz adjac fato -> –z–z–a–d–j–a–c–f–a–t–o–
+46 edy verd coer -> –e–d–y–v–e–r–d–c–o–e–r–
+47 iliated sfr markers -> –i–l–i–a–t–e–d–s–f–r–m–a–r–k–e–r–s–
+48 pir ret turf -> –p–i–r–r–e–t–t–u–r–f–
+49 tered bant quer -> –t–e–r–e–d–b–a–n–t–q–u–e–r–
+50 ubuntu trafic starten -> –u–b–u–n–t–u–t–r–a–f–i–c–s–t–a–r–t–e–n–
+51 witch sob targets -> –w–i–t–c–h–s–o–b–t–a–r–g–e–t–s–
+52 ely adib tutte -> –e–l–y–a–d–i–b–t–u–t–t–e–
+53 engl crop oppure -> –e–n–g–l–c–r–o–p–o–p–p–u–r–e–
+54 olloin interdit brown -> –o–l–l–o–i–n–i–n–t–e–r–d–i–t–b–r–o–w–n–
+55 czne gebracht hairs -> –c–z–n–e–g–e–b–r–a–c–h–t–h–a–i–r–s–
+56 alk beaches baff -> –a–l–k–b–e–a–c–h–e–s–b–a–f–f–
+57 atives expir erabilt -> –a–t–i–v–e–s–e–x–p–i–r–e–r–a–b–i–l–t–
+58 imetres onders rief -> –i–m–e–t–r–e–s–o–n–d–e–r–s–r–i–e–f–
+59 jny byen embry -> –j–n–y–b–y–e–n–e–m–b–r–y–
+60 itled widely miast -> –i–t–l–e–d–w–i–d–e–l–y–m–i–a–s–t–
+61 rr niveles contexte -> –r–r–n–i–v–e–l–e–s–c–o–n–t–e–x–t–e–
+62 racted student ml -> –r–a–c–t–e–d–s–t–u–d–e–n–t–m–l–
+63 ospital elves hacia -> –o–s–p–i–t–a–l–e–l–v–e–s–h–a–c–i–a–
+64 fers disputa evalu -> –f–e–r–s–d–i–s–p–u–t–a–e–v–a–l–u–
+65 istin werd multzoan -> –i–s–t–i–n–w–e–r–d–m–u–l–t–z–o–a–n–
+66 fter efficacy jouant -> –f–t–e–r–e–f–f–i–c–a–c–y–j–o–u–a–n–t–
+67 ifetime rotate boshl -> –i–f–e–t–i–m–e–r–o–t–a–t–e–b–o–s–h–l–
+68 mkdir kori tred -> –m–k–d–i–r–k–o–r–i–t–r–e–d–
+69 nach rezult autobus -> –n–a–c–h–r–e–z–u–l–t–a–u–t–o–b–u–s–
+70 ymour aik ortaya -> –y–m–o–u–r–a–i–k–o–r–t–a–y–a–
+71 ufen hepar toim -> –u–f–e–n–h–e–p–a–r–t–o–i–m–
+72 inne lor parked -> –i–n–n–e–l–o–r–p–a–r–k–e–d–
+73 uestos zuen oa -> –u–e–s–t–o–s–z–u–e–n–o–a–
+74 chair shortly clothes -> –c–h–a–i–r–s–h–o–r–t–l–y–c–l–o–t–h–e–s–
+75 idas nhanh attained -> –i–d–a–s–n–h–a–n–h–a–t–t–a–i–n–e–d–
+76 uvian blind gaire -> –u–v–i–a–n–b–l–i–n–d–g–a–i–r–e–
+77 dd remedies uffic -> –d–d–r–e–m–e–d–i–e–s–u–f–f–i–c–
+78 edge aim rebel -> –e–d–g–e–a–i–m–r–e–b–e–l–
+79 owned partid ril -> –o–w–n–e–d–p–a–r–t–i–d–r–i–l–
+80 imation stabbed juegos -> –i–m–a–t–i–o–n–s–t–a–b–b–e–d–j–u–e–g–o–s–
+81 ams pump twenty -> –a–m–s–p–u–m–p–t–w–e–n–t–y–
+82 vaise colleg outper -> –v–a–i–s–e–c–o–l–l–e–g–o–u–t–p–e–r–
+83 public verk historie -> –p–u–b–l–i–c–v–e–r–k–h–i–s–t–o–r–i–e–
+84 zy sentir gewe -> –z–y–s–e–n–t–i–r–g–e–w–e–
+85 usste tendre kernel -> –u–s–s–t–e–t–e–n–d–r–e–k–e–r–n–e–l–
+86 headers betray calci -> –h–e–a–d–e–r–s–b–e–t–r–a–y–c–a–l–c–i–
+87 addle eigen praw -> –a–d–d–l–e–e–i–g–e–n–p–r–a–w–
+88 angles maneuver panc -> –a–n–g–l–e–s–m–a–n–e–u–v–e–r–p–a–n–c–
+89 cement siden cortes -> –c–e–m–e–n–t–s–i–d–e–n–c–o–r–t–e–s–
+90 assembly porn displ -> –a–s–s–e–m–b–l–y–p–o–r–n–d–i–s–p–l–
+91 schw menulis vrai -> –s–c–h–w–m–e–n–u–l–i–s–v–r–a–i–
+92 itte nyky allevi -> –i–t–t–e–n–y–k–y–a–l–l–e–v–i–
+93 regon sast narr -> –r–e–g–o–n–s–a–s–t–n–a–r–r–
+94 formin envisage reconnue -> –f–o–r–m–i–n–e–n–v–i–s–a–g–e–r–e–c–o–n–n–u–e–
+95 aser products histoire -> –a–s–e–r–p–r–o–d–u–c–t–s–h–i–s–t–o–i–r–e–
+96 rato poule aires -> –r–a–t–o–p–o–u–l–e–a–i–r–e–s–
+97 ederal transmis disk -> –e–d–e–r–a–l–t–r–a–n–s–m–i–s–d–i–s–k–
+98 olina vontade siento -> –o–l–i–n–a–v–o–n–t–a–d–e–s–i–e–n–t–o–
+99 cliffe adapter pedest -> –c–l–i–f–f–e–a–d–a–p–t–e–r–p–e–d–e–s–t–

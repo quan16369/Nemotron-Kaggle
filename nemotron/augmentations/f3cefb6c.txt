@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 ains dict viennent
+01 ishops analyst triang
+02 ight planets nitro
+
+This is a sample output.
+00 ains dict viennent -> –a–i–n–s–d–i–c–t–v–i–e–n–n–e–n–t–
+01 ishops analyst triang -> –i–s–h–o–p–s–a–n–a–l–y–s–t–t–r–i–a–n–g–
+02 ight planets nitro -> –i–g–h–t–p–l–a–n–e–t–s–n–i–t–r–o–
+
+This is your input.
+00 odor mattered pierced
+01 vr ease ema
+02 haul beliefs mogu
+03 ceptor bowling hon
+04 ra ureth trembl
+05 ummer tulaj unm
+06 jnych whipped crucial
+07 teilung perro petit
+08 eschoss scriv jin
+09 lust modeling rarely
+10 ravel severely certain
+11 man dabei keyst
+12 unnel pozitiv eiland
+13 qq judgment exon
+14 beta achie diffuser
+15 inus tomando fim
+16 iss nero motor
+17 rxjs panels vilket
+18 hid bakarra rask
+19 prite denote anthrop
+20 raut egite handled
+21 encie navires supon
+22 erca fully singer
+23 rition motives calor
+24 omu bou sanity
+25 approval tint mild
+26 question tekrar arrives
+27 wl agir armen
+28 ziej enth streams
+29 anuar feminine rasmi
+30 idor fray toss
+31 time supone obscure
+32 ised adverse drive
+33 ogra eficaz olunur
+34 acos amor ceea
+35 iring thrive goat
+36 andro epoch anders
+37 useinand wasn minimize
+38 wesen avais domaines
+39 arbeiten rectal uid
+40 preis hurt contador
+41 throw additive frontal
+42 ister delay dalle
+43 rador hast launch
+44 chal bounds trad
+45 building antigen earnings
+46 globals veik avesse
+47 ades fondos auc
+48 nev data veux
+49 erver foreign prostate
+50 stated francese kul
+51 arre ashamed tiu
+52 lei bios pesquis
+53 avourite corn accett
+54 zuk adaptive enk
+55 ok dei voluto
+56 nf valuable bir
+57 bug crowded dtype
+58 adto bursting heel
+59 ancouver smell muscular
+60 atte tienda chambres
+61 reement plains parlant
+62 visitor mou wanneer
+63 radio indef pot
+64 gment exist antik
+65 ipa mist export
+66 pern pobre filles
+67 hit selling zra
+68 tert diverted swojej
+69 qual quiere succeed
+70 skim conto koost
+71 bellion nascent gjen
+72 entinel enamor fark
+73 holding centros holdings
+74 urna ty namun
+75 particip static facts
+76 pj indebted samym
+77 ardon multil result
+78 ossos krist sourire
+79 prev beendet listed
+80 chino actuar iz
+81 reen heureux milyon
+82 welling sorties because
+83 illion softer strukt
+84 onien podcast amical
+85 oi is berhasil
+86 quant embro proizvod
+87 ellow worden spun
+88 olds computes instance
+89 ueuse too nombrado
+90 ietic uspe cleaved
+91 quisa glance worst
+92 boro gamm pads
+93 ieties cutter enact
+94 olding subject drunk
+95 anke zak conduite
+96 uldig zah raza
+97 bon planners puisse
+98 yx detailed obsess
+99 dump acima hundred
+[completion]
+00 odor mattered pierced -> –o–d–o–r–m–a–t–t–e–r–e–d–p–i–e–r–c–e–d–
+01 vr ease ema -> –v–r–e–a–s–e–e–m–a–
+02 haul beliefs mogu -> –h–a–u–l–b–e–l–i–e–f–s–m–o–g–u–
+03 ceptor bowling hon -> –c–e–p–t–o–r–b–o–w–l–i–n–g–h–o–n–
+04 ra ureth trembl -> –r–a–u–r–e–t–h–t–r–e–m–b–l–
+05 ummer tulaj unm -> –u–m–m–e–r–t–u–l–a–j–u–n–m–
+06 jnych whipped crucial -> –j–n–y–c–h–w–h–i–p–p–e–d–c–r–u–c–i–a–l–
+07 teilung perro petit -> –t–e–i–l–u–n–g–p–e–r–r–o–p–e–t–i–t–
+08 eschoss scriv jin -> –e–s–c–h–o–s–s–s–c–r–i–v–j–i–n–
+09 lust modeling rarely -> –l–u–s–t–m–o–d–e–l–i–n–g–r–a–r–e–l–y–
+10 ravel severely certain -> –r–a–v–e–l–s–e–v–e–r–e–l–y–c–e–r–t–a–i–n–
+11 man dabei keyst -> –m–a–n–d–a–b–e–i–k–e–y–s–t–
+12 unnel pozitiv eiland -> –u–n–n–e–l–p–o–z–i–t–i–v–e–i–l–a–n–d–
+13 qq judgment exon -> –q–q–j–u–d–g–m–e–n–t–e–x–o–n–
+14 beta achie diffuser -> –b–e–t–a–a–c–h–i–e–d–i–f–f–u–s–e–r–
+15 inus tomando fim -> –i–n–u–s–t–o–m–a–n–d–o–f–i–m–
+16 iss nero motor -> –i–s–s–n–e–r–o–m–o–t–o–r–
+17 rxjs panels vilket -> –r–x–j–s–p–a–n–e–l–s–v–i–l–k–e–t–
+18 hid bakarra rask -> –h–i–d–b–a–k–a–r–r–a–r–a–s–k–
+19 prite denote anthrop -> –p–r–i–t–e–d–e–n–o–t–e–a–n–t–h–r–o–p–
+20 raut egite handled -> –r–a–u–t–e–g–i–t–e–h–a–n–d–l–e–d–
+21 encie navires supon -> –e–n–c–i–e–n–a–v–i–r–e–s–s–u–p–o–n–
+22 erca fully singer -> –e–r–c–a–f–u–l–l–y–s–i–n–g–e–r–
+23 rition motives calor -> –r–i–t–i–o–n–m–o–t–i–v–e–s–c–a–l–o–r–
+24 omu bou sanity -> –o–m–u–b–o–u–s–a–n–i–t–y–
+25 approval tint mild -> –a–p–p–r–o–v–a–l–t–i–n–t–m–i–l–d–
+26 question tekrar arrives -> –q–u–e–s–t–i–o–n–t–e–k–r–a–r–a–r–r–i–v–e–s–
+27 wl agir armen -> –w–l–a–g–i–r–a–r–m–e–n–
+28 ziej enth streams -> –z–i–e–j–e–n–t–h–s–t–r–e–a–m–s–
+29 anuar feminine rasmi -> –a–n–u–a–r–f–e–m–i–n–i–n–e–r–a–s–m–i–
+30 idor fray toss -> –i–d–o–r–f–r–a–y–t–o–s–s–
+31 time supone obscure -> –t–i–m–e–s–u–p–o–n–e–o–b–s–c–u–r–e–
+32 ised adverse drive -> –i–s–e–d–a–d–v–e–r–s–e–d–r–i–v–e–
+33 ogra eficaz olunur -> –o–g–r–a–e–f–i–c–a–z–o–l–u–n–u–r–
+34 acos amor ceea -> –a–c–o–s–a–m–o–r–c–e–e–a–
+35 iring thrive goat -> –i–r–i–n–g–t–h–r–i–v–e–g–o–a–t–
+36 andro epoch anders -> –a–n–d–r–o–e–p–o–c–h–a–n–d–e–r–s–
+37 useinand wasn minimize -> –u–s–e–i–n–a–n–d–w–a–s–n–m–i–n–i–m–i–z–e–
+38 wesen avais domaines -> –w–e–s–e–n–a–v–a–i–s–d–o–m–a–i–n–e–s–
+39 arbeiten rectal uid -> –a–r–b–e–i–t–e–n–r–e–c–t–a–l–u–i–d–
+40 preis hurt contador -> –p–r–e–i–s–h–u–r–t–c–o–n–t–a–d–o–r–
+41 throw additive frontal -> –t–h–r–o–w–a–d–d–i–t–i–v–e–f–r–o–n–t–a–l–
+42 ister delay dalle -> –i–s–t–e–r–d–e–l–a–y–d–a–l–l–e–
+43 rador hast launch -> –r–a–d–o–r–h–a–s–t–l–a–u–n–c–h–
+44 chal bounds trad -> –c–h–a–l–b–o–u–n–d–s–t–r–a–d–
+45 building antigen earnings -> –b–u–i–l–d–i–n–g–a–n–t–i–g–e–n–e–a–r–n–i–n–g–s–
+46 globals veik avesse -> –g–l–o–b–a–l–s–v–e–i–k–a–v–e–s–s–e–
+47 ades fondos auc -> –a–d–e–s–f–o–n–d–o–s–a–u–c–
+48 nev data veux -> –n–e–v–d–a–t–a–v–e–u–x–
+49 erver foreign prostate -> –e–r–v–e–r–f–o–r–e–i–g–n–p–r–o–s–t–a–t–e–
+50 stated francese kul -> –s–t–a–t–e–d–f–r–a–n–c–e–s–e–k–u–l–
+51 arre ashamed tiu -> –a–r–r–e–a–s–h–a–m–e–d–t–i–u–
+52 lei bios pesquis -> –l–e–i–b–i–o–s–p–e–s–q–u–i–s–
+53 avourite corn accett -> –a–v–o–u–r–i–t–e–c–o–r–n–a–c–c–e–t–t–
+54 zuk adaptive enk -> –z–u–k–a–d–a–p–t–i–v–e–e–n–k–
+55 ok dei voluto -> –o–k–d–e–i–v–o–l–u–t–o–
+56 nf valuable bir -> –n–f–v–a–l–u–a–b–l–e–b–i–r–
+57 bug crowded dtype -> –b–u–g–c–r–o–w–d–e–d–d–t–y–p–e–
+58 adto bursting heel -> –a–d–t–o–b–u–r–s–t–i–n–g–h–e–e–l–
+59 ancouver smell muscular -> –a–n–c–o–u–v–e–r–s–m–e–l–l–m–u–s–c–u–l–a–r–
+60 atte tienda chambres -> –a–t–t–e–t–i–e–n–d–a–c–h–a–m–b–r–e–s–
+61 reement plains parlant -> –r–e–e–m–e–n–t–p–l–a–i–n–s–p–a–r–l–a–n–t–
+62 visitor mou wanneer -> –v–i–s–i–t–o–r–m–o–u–w–a–n–n–e–e–r–
+63 radio indef pot -> –r–a–d–i–o–i–n–d–e–f–p–o–t–
+64 gment exist antik -> –g–m–e–n–t–e–x–i–s–t–a–n–t–i–k–
+65 ipa mist export -> –i–p–a–m–i–s–t–e–x–p–o–r–t–
+66 pern pobre filles -> –p–e–r–n–p–o–b–r–e–f–i–l–l–e–s–
+67 hit selling zra -> –h–i–t–s–e–l–l–i–n–g–z–r–a–
+68 tert diverted swojej -> –t–e–r–t–d–i–v–e–r–t–e–d–s–w–o–j–e–j–
+69 qual quiere succeed -> –q–u–a–l–q–u–i–e–r–e–s–u–c–c–e–e–d–
+70 skim conto koost -> –s–k–i–m–c–o–n–t–o–k–o–o–s–t–
+71 bellion nascent gjen -> –b–e–l–l–i–o–n–n–a–s–c–e–n–t–g–j–e–n–
+72 entinel enamor fark -> –e–n–t–i–n–e–l–e–n–a–m–o–r–f–a–r–k–
+73 holding centros holdings -> –h–o–l–d–i–n–g–c–e–n–t–r–o–s–h–o–l–d–i–n–g–s–
+74 urna ty namun -> –u–r–n–a–t–y–n–a–m–u–n–
+75 particip static facts -> –p–a–r–t–i–c–i–p–s–t–a–t–i–c–f–a–c–t–s–
+76 pj indebted samym -> –p–j–i–n–d–e–b–t–e–d–s–a–m–y–m–
+77 ardon multil result -> –a–r–d–o–n–m–u–l–t–i–l–r–e–s–u–l–t–
+78 ossos krist sourire -> –o–s–s–o–s–k–r–i–s–t–s–o–u–r–i–r–e–
+79 prev beendet listed -> –p–r–e–v–b–e–e–n–d–e–t–l–i–s–t–e–d–
+80 chino actuar iz -> –c–h–i–n–o–a–c–t–u–a–r–i–z–
+81 reen heureux milyon -> –r–e–e–n–h–e–u–r–e–u–x–m–i–l–y–o–n–
+82 welling sorties because -> –w–e–l–l–i–n–g–s–o–r–t–i–e–s–b–e–c–a–u–s–e–
+83 illion softer strukt -> –i–l–l–i–o–n–s–o–f–t–e–r–s–t–r–u–k–t–
+84 onien podcast amical -> –o–n–i–e–n–p–o–d–c–a–s–t–a–m–i–c–a–l–
+85 oi is berhasil -> –o–i–i–s–b–e–r–h–a–s–i–l–
+86 quant embro proizvod -> –q–u–a–n–t–e–m–b–r–o–p–r–o–i–z–v–o–d–
+87 ellow worden spun -> –e–l–l–o–w–w–o–r–d–e–n–s–p–u–n–
+88 olds computes instance -> –o–l–d–s–c–o–m–p–u–t–e–s–i–n–s–t–a–n–c–e–
+89 ueuse too nombrado -> –u–e–u–s–e–t–o–o–n–o–m–b–r–a–d–o–
+90 ietic uspe cleaved -> –i–e–t–i–c–u–s–p–e–c–l–e–a–v–e–d–
+91 quisa glance worst -> –q–u–i–s–a–g–l–a–n–c–e–w–o–r–s–t–
+92 boro gamm pads -> –b–o–r–o–g–a–m–m–p–a–d–s–
+93 ieties cutter enact -> –i–e–t–i–e–s–c–u–t–t–e–r–e–n–a–c–t–
+94 olding subject drunk -> –o–l–d–i–n–g–s–u–b–j–e–c–t–d–r–u–n–k–
+95 anke zak conduite -> –a–n–k–e–z–a–k–c–o–n–d–u–i–t–e–
+96 uldig zah raza -> –u–l–d–i–g–z–a–h–r–a–z–a–
+97 bon planners puisse -> –b–o–n–p–l–a–n–n–e–r–s–p–u–i–s–s–e–
+98 yx detailed obsess -> –y–x–d–e–t–a–i–l–e–d–o–b–s–e–s–s–
+99 dump acima hundred -> –d–u–m–p–a–c–i–m–a–h–u–n–d–r–e–d–

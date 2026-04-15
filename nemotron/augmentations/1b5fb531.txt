@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 eo maint sw
+01 cir counts anunciou
+02 art langue ignoring
+
+This is a sample output.
+00 eo maint sw -> –e–o–m–a–i–n–t–s–w–
+01 cir counts anunciou -> –c–i–r–c–o–u–n–t–s–a–n–u–n–c–i–o–u–
+02 art langue ignoring -> –a–r–t–l–a–n–g–u–e–i–g–n–o–r–i–n–g–
+
+This is your input.
+00 toinette definit imaging
+01 ui posibles stunned
+02 antz somet truth
+03 riques aurait tachy
+04 kord tickets jed
+05 agram przyw anhand
+06 werpen ageing proving
+07 ethnic metro recip
+08 roke opis cuart
+09 racuse matin evapor
+10 ateurs chambers enanti
+11 insko jeu serii
+12 minutes cabine timbre
+13 xim graves cada
+14 months trakcie amar
+15 czyk access blessing
+16 vat mencion miners
+17 att refugee retinal
+18 lego bosques grape
+19 lbrack hungry wicht
+20 carbon cure crav
+21 lehem owed desaf
+22 okban ma suicide
+23 ativo revol laboral
+24 car froid novos
+25 song climats magnific
+26 ment driver trouve
+27 ovil trasl verse
+28 aski memberi abrog
+29 ziu loans housing
+30 carb deut symb
+31 esy entry setzte
+32 etzungen often chu
+33 orium verlang lhs
+34 rau couches dividing
+35 lake heavy catheter
+36 intosh excluded histori
+37 akarta biri peque
+38 ordin depr soil
+39 endoza splicing universo
+40 ellus hame phag
+41 acz cake paramet
+42 previous spor earthqu
+43 raven recuer forne
+44 ario saat stets
+45 pretty lhe resmi
+46 irtual marriage ceased
+47 lict zog geist
+48 rale covert przen
+49 amiliar masing zaj
+50 afen ragazza altri
+51 ect ya jedno
+52 iczny drilling devote
+53 zed yeni op
+54 iget oils hasht
+55 ouf ordu dair
+56 otope aes leise
+57 auto erl chor
+58 wo detected pensado
+59 asuna minuto strane
+60 bell educ ritorno
+61 wort mio samoch
+62 gars minister pauses
+63 agr tant exped
+64 afe across alguma
+65 porters blows sketches
+66 ronter actriz skute
+67 ara carot urged
+68 normal seeks mkdir
+69 psych bitter breaking
+70 umbling ngo deion
+71 iquait proyect adultos
+72 itimes bolster concepts
+73 yllis kterou vision
+74 hand swelling faculty
+75 aparte samedi muod
+76 reb iniciou gains
+77 anak ater bahwa
+78 ser pedig seguida
+79 zust frag acus
+80 bano upor altro
+81 astore magical overeen
+82 thel susc mang
+83 voor fen parar
+84 idyl gena paysages
+85 eff brind presso
+86 zem trans stern
+87 ntag odw fragment
+88 pert lymph sejarah
+89 perties cri auxquels
+90 leqslant gle session
+91 inaire finally perdent
+92 ciendo siquiera denoted
+93 teen mati depicts
+94 stellte beeinfl zweig
+95 itto buena estava
+96 enskap utop purch
+97 ivesc aumenta genus
+98 remember formado rel
+99 olar aorta victory
+[completion]
+00 toinette definit imaging -> –t–o–i–n–e–t–t–e–d–e–f–i–n–i–t–i–m–a–g–i–n–g–
+01 ui posibles stunned -> –u–i–p–o–s–i–b–l–e–s–s–t–u–n–n–e–d–
+02 antz somet truth -> –a–n–t–z–s–o–m–e–t–t–r–u–t–h–
+03 riques aurait tachy -> –r–i–q–u–e–s–a–u–r–a–i–t–t–a–c–h–y–
+04 kord tickets jed -> –k–o–r–d–t–i–c–k–e–t–s–j–e–d–
+05 agram przyw anhand -> –a–g–r–a–m–p–r–z–y–w–a–n–h–a–n–d–
+06 werpen ageing proving -> –w–e–r–p–e–n–a–g–e–i–n–g–p–r–o–v–i–n–g–
+07 ethnic metro recip -> –e–t–h–n–i–c–m–e–t–r–o–r–e–c–i–p–
+08 roke opis cuart -> –r–o–k–e–o–p–i–s–c–u–a–r–t–
+09 racuse matin evapor -> –r–a–c–u–s–e–m–a–t–i–n–e–v–a–p–o–r–
+10 ateurs chambers enanti -> –a–t–e–u–r–s–c–h–a–m–b–e–r–s–e–n–a–n–t–i–
+11 insko jeu serii -> –i–n–s–k–o–j–e–u–s–e–r–i–i–
+12 minutes cabine timbre -> –m–i–n–u–t–e–s–c–a–b–i–n–e–t–i–m–b–r–e–
+13 xim graves cada -> –x–i–m–g–r–a–v–e–s–c–a–d–a–
+14 months trakcie amar -> –m–o–n–t–h–s–t–r–a–k–c–i–e–a–m–a–r–
+15 czyk access blessing -> –c–z–y–k–a–c–c–e–s–s–b–l–e–s–s–i–n–g–
+16 vat mencion miners -> –v–a–t–m–e–n–c–i–o–n–m–i–n–e–r–s–
+17 att refugee retinal -> –a–t–t–r–e–f–u–g–e–e–r–e–t–i–n–a–l–
+18 lego bosques grape -> –l–e–g–o–b–o–s–q–u–e–s–g–r–a–p–e–
+19 lbrack hungry wicht -> –l–b–r–a–c–k–h–u–n–g–r–y–w–i–c–h–t–
+20 carbon cure crav -> –c–a–r–b–o–n–c–u–r–e–c–r–a–v–
+21 lehem owed desaf -> –l–e–h–e–m–o–w–e–d–d–e–s–a–f–
+22 okban ma suicide -> –o–k–b–a–n–m–a–s–u–i–c–i–d–e–
+23 ativo revol laboral -> –a–t–i–v–o–r–e–v–o–l–l–a–b–o–r–a–l–
+24 car froid novos -> –c–a–r–f–r–o–i–d–n–o–v–o–s–
+25 song climats magnific -> –s–o–n–g–c–l–i–m–a–t–s–m–a–g–n–i–f–i–c–
+26 ment driver trouve -> –m–e–n–t–d–r–i–v–e–r–t–r–o–u–v–e–
+27 ovil trasl verse -> –o–v–i–l–t–r–a–s–l–v–e–r–s–e–
+28 aski memberi abrog -> –a–s–k–i–m–e–m–b–e–r–i–a–b–r–o–g–
+29 ziu loans housing -> –z–i–u–l–o–a–n–s–h–o–u–s–i–n–g–
+30 carb deut symb -> –c–a–r–b–d–e–u–t–s–y–m–b–
+31 esy entry setzte -> –e–s–y–e–n–t–r–y–s–e–t–z–t–e–
+32 etzungen often chu -> –e–t–z–u–n–g–e–n–o–f–t–e–n–c–h–u–
+33 orium verlang lhs -> –o–r–i–u–m–v–e–r–l–a–n–g–l–h–s–
+34 rau couches dividing -> –r–a–u–c–o–u–c–h–e–s–d–i–v–i–d–i–n–g–
+35 lake heavy catheter -> –l–a–k–e–h–e–a–v–y–c–a–t–h–e–t–e–r–
+36 intosh excluded histori -> –i–n–t–o–s–h–e–x–c–l–u–d–e–d–h–i–s–t–o–r–i–
+37 akarta biri peque -> –a–k–a–r–t–a–b–i–r–i–p–e–q–u–e–
+38 ordin depr soil -> –o–r–d–i–n–d–e–p–r–s–o–i–l–
+39 endoza splicing universo -> –e–n–d–o–z–a–s–p–l–i–c–i–n–g–u–n–i–v–e–r–s–o–
+40 ellus hame phag -> –e–l–l–u–s–h–a–m–e–p–h–a–g–
+41 acz cake paramet -> –a–c–z–c–a–k–e–p–a–r–a–m–e–t–
+42 previous spor earthqu -> –p–r–e–v–i–o–u–s–s–p–o–r–e–a–r–t–h–q–u–
+43 raven recuer forne -> –r–a–v–e–n–r–e–c–u–e–r–f–o–r–n–e–
+44 ario saat stets -> –a–r–i–o–s–a–a–t–s–t–e–t–s–
+45 pretty lhe resmi -> –p–r–e–t–t–y–l–h–e–r–e–s–m–i–
+46 irtual marriage ceased -> –i–r–t–u–a–l–m–a–r–r–i–a–g–e–c–e–a–s–e–d–
+47 lict zog geist -> –l–i–c–t–z–o–g–g–e–i–s–t–
+48 rale covert przen -> –r–a–l–e–c–o–v–e–r–t–p–r–z–e–n–
+49 amiliar masing zaj -> –a–m–i–l–i–a–r–m–a–s–i–n–g–z–a–j–
+50 afen ragazza altri -> –a–f–e–n–r–a–g–a–z–z–a–a–l–t–r–i–
+51 ect ya jedno -> –e–c–t–y–a–j–e–d–n–o–
+52 iczny drilling devote -> –i–c–z–n–y–d–r–i–l–l–i–n–g–d–e–v–o–t–e–
+53 zed yeni op -> –z–e–d–y–e–n–i–o–p–
+54 iget oils hasht -> –i–g–e–t–o–i–l–s–h–a–s–h–t–
+55 ouf ordu dair -> –o–u–f–o–r–d–u–d–a–i–r–
+56 otope aes leise -> –o–t–o–p–e–a–e–s–l–e–i–s–e–
+57 auto erl chor -> –a–u–t–o–e–r–l–c–h–o–r–
+58 wo detected pensado -> –w–o–d–e–t–e–c–t–e–d–p–e–n–s–a–d–o–
+59 asuna minuto strane -> –a–s–u–n–a–m–i–n–u–t–o–s–t–r–a–n–e–
+60 bell educ ritorno -> –b–e–l–l–e–d–u–c–r–i–t–o–r–n–o–
+61 wort mio samoch -> –w–o–r–t–m–i–o–s–a–m–o–c–h–
+62 gars minister pauses -> –g–a–r–s–m–i–n–i–s–t–e–r–p–a–u–s–e–s–
+63 agr tant exped -> –a–g–r–t–a–n–t–e–x–p–e–d–
+64 afe across alguma -> –a–f–e–a–c–r–o–s–s–a–l–g–u–m–a–
+65 porters blows sketches -> –p–o–r–t–e–r–s–b–l–o–w–s–s–k–e–t–c–h–e–s–
+66 ronter actriz skute -> –r–o–n–t–e–r–a–c–t–r–i–z–s–k–u–t–e–
+67 ara carot urged -> –a–r–a–c–a–r–o–t–u–r–g–e–d–
+68 normal seeks mkdir -> –n–o–r–m–a–l–s–e–e–k–s–m–k–d–i–r–
+69 psych bitter breaking -> –p–s–y–c–h–b–i–t–t–e–r–b–r–e–a–k–i–n–g–
+70 umbling ngo deion -> –u–m–b–l–i–n–g–n–g–o–d–e–i–o–n–
+71 iquait proyect adultos -> –i–q–u–a–i–t–p–r–o–y–e–c–t–a–d–u–l–t–o–s–
+72 itimes bolster concepts -> –i–t–i–m–e–s–b–o–l–s–t–e–r–c–o–n–c–e–p–t–s–
+73 yllis kterou vision -> –y–l–l–i–s–k–t–e–r–o–u–v–i–s–i–o–n–
+74 hand swelling faculty -> –h–a–n–d–s–w–e–l–l–i–n–g–f–a–c–u–l–t–y–
+75 aparte samedi muod -> –a–p–a–r–t–e–s–a–m–e–d–i–m–u–o–d–
+76 reb iniciou gains -> –r–e–b–i–n–i–c–i–o–u–g–a–i–n–s–
+77 anak ater bahwa -> –a–n–a–k–a–t–e–r–b–a–h–w–a–
+78 ser pedig seguida -> –s–e–r–p–e–d–i–g–s–e–g–u–i–d–a–
+79 zust frag acus -> –z–u–s–t–f–r–a–g–a–c–u–s–
+80 bano upor altro -> –b–a–n–o–u–p–o–r–a–l–t–r–o–
+81 astore magical overeen -> –a–s–t–o–r–e–m–a–g–i–c–a–l–o–v–e–r–e–e–n–
+82 thel susc mang -> –t–h–e–l–s–u–s–c–m–a–n–g–
+83 voor fen parar -> –v–o–o–r–f–e–n–p–a–r–a–r–
+84 idyl gena paysages -> –i–d–y–l–g–e–n–a–p–a–y–s–a–g–e–s–
+85 eff brind presso -> –e–f–f–b–r–i–n–d–p–r–e–s–s–o–
+86 zem trans stern -> –z–e–m–t–r–a–n–s–s–t–e–r–n–
+87 ntag odw fragment -> –n–t–a–g–o–d–w–f–r–a–g–m–e–n–t–
+88 pert lymph sejarah -> –p–e–r–t–l–y–m–p–h–s–e–j–a–r–a–h–
+89 perties cri auxquels -> –p–e–r–t–i–e–s–c–r–i–a–u–x–q–u–e–l–s–
+90 leqslant gle session -> –l–e–q–s–l–a–n–t–g–l–e–s–e–s–s–i–o–n–
+91 inaire finally perdent -> –i–n–a–i–r–e–f–i–n–a–l–l–y–p–e–r–d–e–n–t–
+92 ciendo siquiera denoted -> –c–i–e–n–d–o–s–i–q–u–i–e–r–a–d–e–n–o–t–e–d–
+93 teen mati depicts -> –t–e–e–n–m–a–t–i–d–e–p–i–c–t–s–
+94 stellte beeinfl zweig -> –s–t–e–l–l–t–e–b–e–e–i–n–f–l–z–w–e–i–g–
+95 itto buena estava -> –i–t–t–o–b–u–e–n–a–e–s–t–a–v–a–
+96 enskap utop purch -> –e–n–s–k–a–p–u–t–o–p–p–u–r–c–h–
+97 ivesc aumenta genus -> –i–v–e–s–c–a–u–m–e–n–t–a–g–e–n–u–s–
+98 remember formado rel -> –r–e–m–e–m–b–e–r–f–o–r–m–a–d–o–r–e–l–
+99 olar aorta victory -> –o–l–a–r–a–o–r–t–a–v–i–c–t–o–r–y–

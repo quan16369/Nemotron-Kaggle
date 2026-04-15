@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 packet acred gauge
+01 pole fog paused
+02 enei wilde insert
+
+This is a sample output.
+00 packet acred gauge -> –p–a–c–k–e–t–a–c–r–e–d–g–a–u–g–e–
+01 pole fog paused -> –p–o–l–e–f–o–g–p–a–u–s–e–d–
+02 enei wilde insert -> –e–n–e–i–w–i–l–d–e–i–n–s–e–r–t–
+
+This is your input.
+00 anz delays jednu
+01 amental werken solitary
+02 origin blending secoua
+03 abric tong partecip
+04 asi arose propone
+05 uelve wag quint
+06 mil bando cie
+07 anty empresas primit
+08 far principe ajouta
+09 elli purely unw
+10 ovan seguir gosp
+11 estimate heads trial
+12 archie chased ruch
+13 eder dah datetime
+14 bolt crawling zaradi
+15 agra assured least
+16 mut deposit scr
+17 ola ranges deja
+18 imbab blacks swept
+19 cord unfolded underg
+20 last verbo erne
+21 istisch automat draws
+22 manent graph basse
+23 nissen negli retval
+24 undan ekspl vencedor
+25 uments borg farewell
+26 ink joking otro
+27 uves guided consequ
+28 vereiro recog caro
+29 illing fuera bonded
+30 central tiempos thu
+31 control vr huj
+32 mathbb neonates exosomes
+33 aq organism explore
+34 raries define kadar
+35 zv eth coast
+36 mother viver denne
+37 gende detach lembr
+38 rate dalam io
+39 vih lai ub
+40 lossenen amet sauter
+41 apon hava desped
+42 escent nuevo recorde
+43 iewe maker adul
+44 clus infantil france
+45 bi ta okol
+46 price anytime tomada
+47 omi pellet cited
+48 igger invitado biod
+49 ulta routines hypox
+50 theme inhabit scoring
+51 ems outwe analysis
+52 psi upgraded puls
+53 by fleste confused
+54 adero segundo serem
+55 riel knock saline
+56 quired elog cors
+57 peptide muodost novela
+58 znej prede nuclear
+59 ferred impaired yer
+60 frame granular royale
+61 bitmap tas router
+62 nik settle carica
+63 pped ausgesch folkl
+64 oclonal ustan trak
+65 abrik eighth pis
+66 rul genannt obron
+67 ammans publica etiology
+68 ivat argparse atten
+69 geons iter junk
+70 anging peanut favor
+71 ciously anomenat traf
+72 ouches contours lunga
+73 precated grav dessa
+74 folg watched hym
+75 arto gennaio pokaz
+76 ention orally acts
+77 ain semblait ocult
+78 oggler cid wors
+79 klam monast fuel
+80 gru intuit nam
+81 ijs ose violence
+82 girl guarn destes
+83 iph conn bahasa
+84 ancier sviluppo haar
+85 rils perdre occupy
+86 ssl launcher geri
+87 iece amended dysp
+88 amt nodo sanit
+89 olated neben hyst
+90 bez gera hotels
+91 epad rankings pinned
+92 avn uniqu timp
+93 atia komert distance
+94 ukat sogar yh
+95 olf halk row
+96 cols invo propuls
+97 ziel waters quiero
+98 chai modific obtient
+99 essoa ritrov bim
+[completion]
+00 anz delays jednu -> –a–n–z–d–e–l–a–y–s–j–e–d–n–u–
+01 amental werken solitary -> –a–m–e–n–t–a–l–w–e–r–k–e–n–s–o–l–i–t–a–r–y–
+02 origin blending secoua -> –o–r–i–g–i–n–b–l–e–n–d–i–n–g–s–e–c–o–u–a–
+03 abric tong partecip -> –a–b–r–i–c–t–o–n–g–p–a–r–t–e–c–i–p–
+04 asi arose propone -> –a–s–i–a–r–o–s–e–p–r–o–p–o–n–e–
+05 uelve wag quint -> –u–e–l–v–e–w–a–g–q–u–i–n–t–
+06 mil bando cie -> –m–i–l–b–a–n–d–o–c–i–e–
+07 anty empresas primit -> –a–n–t–y–e–m–p–r–e–s–a–s–p–r–i–m–i–t–
+08 far principe ajouta -> –f–a–r–p–r–i–n–c–i–p–e–a–j–o–u–t–a–
+09 elli purely unw -> –e–l–l–i–p–u–r–e–l–y–u–n–w–
+10 ovan seguir gosp -> –o–v–a–n–s–e–g–u–i–r–g–o–s–p–
+11 estimate heads trial -> –e–s–t–i–m–a–t–e–h–e–a–d–s–t–r–i–a–l–
+12 archie chased ruch -> –a–r–c–h–i–e–c–h–a–s–e–d–r–u–c–h–
+13 eder dah datetime -> –e–d–e–r–d–a–h–d–a–t–e–t–i–m–e–
+14 bolt crawling zaradi -> –b–o–l–t–c–r–a–w–l–i–n–g–z–a–r–a–d–i–
+15 agra assured least -> –a–g–r–a–a–s–s–u–r–e–d–l–e–a–s–t–
+16 mut deposit scr -> –m–u–t–d–e–p–o–s–i–t–s–c–r–
+17 ola ranges deja -> –o–l–a–r–a–n–g–e–s–d–e–j–a–
+18 imbab blacks swept -> –i–m–b–a–b–b–l–a–c–k–s–s–w–e–p–t–
+19 cord unfolded underg -> –c–o–r–d–u–n–f–o–l–d–e–d–u–n–d–e–r–g–
+20 last verbo erne -> –l–a–s–t–v–e–r–b–o–e–r–n–e–
+21 istisch automat draws -> –i–s–t–i–s–c–h–a–u–t–o–m–a–t–d–r–a–w–s–
+22 manent graph basse -> –m–a–n–e–n–t–g–r–a–p–h–b–a–s–s–e–
+23 nissen negli retval -> –n–i–s–s–e–n–n–e–g–l–i–r–e–t–v–a–l–
+24 undan ekspl vencedor -> –u–n–d–a–n–e–k–s–p–l–v–e–n–c–e–d–o–r–
+25 uments borg farewell -> –u–m–e–n–t–s–b–o–r–g–f–a–r–e–w–e–l–l–
+26 ink joking otro -> –i–n–k–j–o–k–i–n–g–o–t–r–o–
+27 uves guided consequ -> –u–v–e–s–g–u–i–d–e–d–c–o–n–s–e–q–u–
+28 vereiro recog caro -> –v–e–r–e–i–r–o–r–e–c–o–g–c–a–r–o–
+29 illing fuera bonded -> –i–l–l–i–n–g–f–u–e–r–a–b–o–n–d–e–d–
+30 central tiempos thu -> –c–e–n–t–r–a–l–t–i–e–m–p–o–s–t–h–u–
+31 control vr huj -> –c–o–n–t–r–o–l–v–r–h–u–j–
+32 mathbb neonates exosomes -> –m–a–t–h–b–b–n–e–o–n–a–t–e–s–e–x–o–s–o–m–e–s–
+33 aq organism explore -> –a–q–o–r–g–a–n–i–s–m–e–x–p–l–o–r–e–
+34 raries define kadar -> –r–a–r–i–e–s–d–e–f–i–n–e–k–a–d–a–r–
+35 zv eth coast -> –z–v–e–t–h–c–o–a–s–t–
+36 mother viver denne -> –m–o–t–h–e–r–v–i–v–e–r–d–e–n–n–e–
+37 gende detach lembr -> –g–e–n–d–e–d–e–t–a–c–h–l–e–m–b–r–
+38 rate dalam io -> –r–a–t–e–d–a–l–a–m–i–o–
+39 vih lai ub -> –v–i–h–l–a–i–u–b–
+40 lossenen amet sauter -> –l–o–s–s–e–n–e–n–a–m–e–t–s–a–u–t–e–r–
+41 apon hava desped -> –a–p–o–n–h–a–v–a–d–e–s–p–e–d–
+42 escent nuevo recorde -> –e–s–c–e–n–t–n–u–e–v–o–r–e–c–o–r–d–e–
+43 iewe maker adul -> –i–e–w–e–m–a–k–e–r–a–d–u–l–
+44 clus infantil france -> –c–l–u–s–i–n–f–a–n–t–i–l–f–r–a–n–c–e–
+45 bi ta okol -> –b–i–t–a–o–k–o–l–
+46 price anytime tomada -> –p–r–i–c–e–a–n–y–t–i–m–e–t–o–m–a–d–a–
+47 omi pellet cited -> –o–m–i–p–e–l–l–e–t–c–i–t–e–d–
+48 igger invitado biod -> –i–g–g–e–r–i–n–v–i–t–a–d–o–b–i–o–d–
+49 ulta routines hypox -> –u–l–t–a–r–o–u–t–i–n–e–s–h–y–p–o–x–
+50 theme inhabit scoring -> –t–h–e–m–e–i–n–h–a–b–i–t–s–c–o–r–i–n–g–
+51 ems outwe analysis -> –e–m–s–o–u–t–w–e–a–n–a–l–y–s–i–s–
+52 psi upgraded puls -> –p–s–i–u–p–g–r–a–d–e–d–p–u–l–s–
+53 by fleste confused -> –b–y–f–l–e–s–t–e–c–o–n–f–u–s–e–d–
+54 adero segundo serem -> –a–d–e–r–o–s–e–g–u–n–d–o–s–e–r–e–m–
+55 riel knock saline -> –r–i–e–l–k–n–o–c–k–s–a–l–i–n–e–
+56 quired elog cors -> –q–u–i–r–e–d–e–l–o–g–c–o–r–s–
+57 peptide muodost novela -> –p–e–p–t–i–d–e–m–u–o–d–o–s–t–n–o–v–e–l–a–
+58 znej prede nuclear -> –z–n–e–j–p–r–e–d–e–n–u–c–l–e–a–r–
+59 ferred impaired yer -> –f–e–r–r–e–d–i–m–p–a–i–r–e–d–y–e–r–
+60 frame granular royale -> –f–r–a–m–e–g–r–a–n–u–l–a–r–r–o–y–a–l–e–
+61 bitmap tas router -> –b–i–t–m–a–p–t–a–s–r–o–u–t–e–r–
+62 nik settle carica -> –n–i–k–s–e–t–t–l–e–c–a–r–i–c–a–
+63 pped ausgesch folkl -> –p–p–e–d–a–u–s–g–e–s–c–h–f–o–l–k–l–
+64 oclonal ustan trak -> –o–c–l–o–n–a–l–u–s–t–a–n–t–r–a–k–
+65 abrik eighth pis -> –a–b–r–i–k–e–i–g–h–t–h–p–i–s–
+66 rul genannt obron -> –r–u–l–g–e–n–a–n–n–t–o–b–r–o–n–
+67 ammans publica etiology -> –a–m–m–a–n–s–p–u–b–l–i–c–a–e–t–i–o–l–o–g–y–
+68 ivat argparse atten -> –i–v–a–t–a–r–g–p–a–r–s–e–a–t–t–e–n–
+69 geons iter junk -> –g–e–o–n–s–i–t–e–r–j–u–n–k–
+70 anging peanut favor -> –a–n–g–i–n–g–p–e–a–n–u–t–f–a–v–o–r–
+71 ciously anomenat traf -> –c–i–o–u–s–l–y–a–n–o–m–e–n–a–t–t–r–a–f–
+72 ouches contours lunga -> –o–u–c–h–e–s–c–o–n–t–o–u–r–s–l–u–n–g–a–
+73 precated grav dessa -> –p–r–e–c–a–t–e–d–g–r–a–v–d–e–s–s–a–
+74 folg watched hym -> –f–o–l–g–w–a–t–c–h–e–d–h–y–m–
+75 arto gennaio pokaz -> –a–r–t–o–g–e–n–n–a–i–o–p–o–k–a–z–
+76 ention orally acts -> –e–n–t–i–o–n–o–r–a–l–l–y–a–c–t–s–
+77 ain semblait ocult -> –a–i–n–s–e–m–b–l–a–i–t–o–c–u–l–t–
+78 oggler cid wors -> –o–g–g–l–e–r–c–i–d–w–o–r–s–
+79 klam monast fuel -> –k–l–a–m–m–o–n–a–s–t–f–u–e–l–
+80 gru intuit nam -> –g–r–u–i–n–t–u–i–t–n–a–m–
+81 ijs ose violence -> –i–j–s–o–s–e–v–i–o–l–e–n–c–e–
+82 girl guarn destes -> –g–i–r–l–g–u–a–r–n–d–e–s–t–e–s–
+83 iph conn bahasa -> –i–p–h–c–o–n–n–b–a–h–a–s–a–
+84 ancier sviluppo haar -> –a–n–c–i–e–r–s–v–i–l–u–p–p–o–h–a–a–r–
+85 rils perdre occupy -> –r–i–l–s–p–e–r–d–r–e–o–c–c–u–p–y–
+86 ssl launcher geri -> –s–s–l–l–a–u–n–c–h–e–r–g–e–r–i–
+87 iece amended dysp -> –i–e–c–e–a–m–e–n–d–e–d–d–y–s–p–
+88 amt nodo sanit -> –a–m–t–n–o–d–o–s–a–n–i–t–
+89 olated neben hyst -> –o–l–a–t–e–d–n–e–b–e–n–h–y–s–t–
+90 bez gera hotels -> –b–e–z–g–e–r–a–h–o–t–e–l–s–
+91 epad rankings pinned -> –e–p–a–d–r–a–n–k–i–n–g–s–p–i–n–n–e–d–
+92 avn uniqu timp -> –a–v–n–u–n–i–q–u–t–i–m–p–
+93 atia komert distance -> –a–t–i–a–k–o–m–e–r–t–d–i–s–t–a–n–c–e–
+94 ukat sogar yh -> –u–k–a–t–s–o–g–a–r–y–h–
+95 olf halk row -> –o–l–f–h–a–l–k–r–o–w–
+96 cols invo propuls -> –c–o–l–s–i–n–v–o–p–r–o–p–u–l–s–
+97 ziel waters quiero -> –z–i–e–l–w–a–t–e–r–s–q–u–i–e–r–o–
+98 chai modific obtient -> –c–h–a–i–m–o–d–i–f–i–c–o–b–t–i–e–n–t–
+99 essoa ritrov bim -> –e–s–s–o–a–r–i–t–r–o–v–b–i–m–

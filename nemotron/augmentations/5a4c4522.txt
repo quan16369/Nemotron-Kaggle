@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 rer culte brutal
+01 okia torno receive
+02 iral referee eo
+
+This is a sample output.
+00 rer culte brutal -> –r–e–r–c–u–l–t–e–b–r–u–t–a–l–
+01 okia torno receive -> –o–k–i–a–t–o–r–n–o–r–e–c–e–i–v–e–
+02 iral referee eo -> –i–r–a–l–r–e–f–e–r–e–e–e–o–
+
+This is your input.
+00 orale insists enabling
+01 maras szab edited
+02 berapa descanso hemen
+03 cije methane aper
+04 acchi gi tradi
+05 heta tropes fav
+06 guy stones duties
+07 films story discre
+08 reland postao seu
+09 pek poing bake
+10 ercice failures stakes
+11 cida report institu
+12 unarod sterben eset
+13 enties kne planets
+14 owod producir client
+15 string konst cod
+16 orations mirada keep
+17 zac grating kines
+18 agnetic admin papeles
+19 login ninety heavens
+20 onaut sommige bouche
+21 oter enjoy wines
+22 ocyst sensible gegangen
+23 ogram qualific fanno
+24 ways typo elderly
+25 rest begon debate
+26 lungs follower artic
+27 thermal goed hardness
+28 immer onda noble
+29 sensor sergeant kultury
+30 eches bounty machten
+31 mess fuse killing
+32 wej avan moles
+33 relative evaluate alto
+34 ativi bicarbon breit
+35 ibi skup melt
+36 lof article aggl
+37 these zbog chaise
+38 herent fronts morts
+39 ategorie acquist hutsik
+40 tic eq ange
+41 earth replaced persec
+42 iteral kojem forman
+43 opy forhold marital
+44 brach effort selon
+45 depth ensured talk
+46 jillo poderoso amplio
+47 mir values nul
+48 wurf somos vas
+49 hetti cerca handing
+50 flur historia interest
+51 valt uzun couvert
+52 umi level attendre
+53 amera siebie fre
+54 portun superb viime
+55 illit hues alej
+56 rapper moved moss
+57 orps phones waarmee
+58 hips corpo padded
+59 unjuk smelled gracias
+60 atzen garde guessed
+61 osexual ketone reg
+62 gged olisi saque
+63 lymouth hotel bajn
+64 lying ovar francesi
+65 nade prouver episodi
+66 andingan envie divided
+67 loga seuls nor
+68 avos facteurs criou
+69 sible dieux hingegen
+70 ichtlich nemico yet
+71 quet palate arrog
+72 rados what tiden
+73 asc dipped medalla
+74 inalg handful scrutiny
+75 update claim sticky
+76 argent prompt autoc
+77 suarios cay unset
+78 urent regresar swell
+79 anner argent befand
+80 ist pozn problema
+81 ovac pala sprang
+82 boolean posz glimpse
+83 icine tolerate stati
+84 endal arkada beb
+85 orphism kes prey
+86 uda wolves geral
+87 imento kind dvor
+88 flush two saliv
+89 arts care restant
+90 prompt revenues elfog
+91 ilangan betrieb respet
+92 ifice tao rum
+93 ipheral pact esta
+94 stituted element sack
+95 gue grud manifold
+96 ikkel grob bilim
+97 eddings eerder kelt
+98 ioso messo suicidal
+99 impin grazie programs
+[completion]
+00 orale insists enabling -> –o–r–a–l–e–i–n–s–i–s–t–s–e–n–a–b–l–i–n–g–
+01 maras szab edited -> –m–a–r–a–s–s–z–a–b–e–d–i–t–e–d–
+02 berapa descanso hemen -> –b–e–r–a–p–a–d–e–s–c–a–n–s–o–h–e–m–e–n–
+03 cije methane aper -> –c–i–j–e–m–e–t–h–a–n–e–a–p–e–r–
+04 acchi gi tradi -> –a–c–c–h–i–g–i–t–r–a–d–i–
+05 heta tropes fav -> –h–e–t–a–t–r–o–p–e–s–f–a–v–
+06 guy stones duties -> –g–u–y–s–t–o–n–e–s–d–u–t–i–e–s–
+07 films story discre -> –f–i–l–m–s–s–t–o–r–y–d–i–s–c–r–e–
+08 reland postao seu -> –r–e–l–a–n–d–p–o–s–t–a–o–s–e–u–
+09 pek poing bake -> –p–e–k–p–o–i–n–g–b–a–k–e–
+10 ercice failures stakes -> –e–r–c–i–c–e–f–a–i–l–u–r–e–s–s–t–a–k–e–s–
+11 cida report institu -> –c–i–d–a–r–e–p–o–r–t–i–n–s–t–i–t–u–
+12 unarod sterben eset -> –u–n–a–r–o–d–s–t–e–r–b–e–n–e–s–e–t–
+13 enties kne planets -> –e–n–t–i–e–s–k–n–e–p–l–a–n–e–t–s–
+14 owod producir client -> –o–w–o–d–p–r–o–d–u–c–i–r–c–l–i–e–n–t–
+15 string konst cod -> –s–t–r–i–n–g–k–o–n–s–t–c–o–d–
+16 orations mirada keep -> –o–r–a–t–i–o–n–s–m–i–r–a–d–a–k–e–e–p–
+17 zac grating kines -> –z–a–c–g–r–a–t–i–n–g–k–i–n–e–s–
+18 agnetic admin papeles -> –a–g–n–e–t–i–c–a–d–m–i–n–p–a–p–e–l–e–s–
+19 login ninety heavens -> –l–o–g–i–n–n–i–n–e–t–y–h–e–a–v–e–n–s–
+20 onaut sommige bouche -> –o–n–a–u–t–s–o–m–m–i–g–e–b–o–u–c–h–e–
+21 oter enjoy wines -> –o–t–e–r–e–n–j–o–y–w–i–n–e–s–
+22 ocyst sensible gegangen -> –o–c–y–s–t–s–e–n–s–i–b–l–e–g–e–g–a–n–g–e–n–
+23 ogram qualific fanno -> –o–g–r–a–m–q–u–a–l–i–f–i–c–f–a–n–n–o–
+24 ways typo elderly -> –w–a–y–s–t–y–p–o–e–l–d–e–r–l–y–
+25 rest begon debate -> –r–e–s–t–b–e–g–o–n–d–e–b–a–t–e–
+26 lungs follower artic -> –l–u–n–g–s–f–o–l–l–o–w–e–r–a–r–t–i–c–
+27 thermal goed hardness -> –t–h–e–r–m–a–l–g–o–e–d–h–a–r–d–n–e–s–s–
+28 immer onda noble -> –i–m–m–e–r–o–n–d–a–n–o–b–l–e–
+29 sensor sergeant kultury -> –s–e–n–s–o–r–s–e–r–g–e–a–n–t–k–u–l–t–u–r–y–
+30 eches bounty machten -> –e–c–h–e–s–b–o–u–n–t–y–m–a–c–h–t–e–n–
+31 mess fuse killing -> –m–e–s–s–f–u–s–e–k–i–l–l–i–n–g–
+32 wej avan moles -> –w–e–j–a–v–a–n–m–o–l–e–s–
+33 relative evaluate alto -> –r–e–l–a–t–i–v–e–e–v–a–l–u–a–t–e–a–l–t–o–
+34 ativi bicarbon breit -> –a–t–i–v–i–b–i–c–a–r–b–o–n–b–r–e–i–t–
+35 ibi skup melt -> –i–b–i–s–k–u–p–m–e–l–t–
+36 lof article aggl -> –l–o–f–a–r–t–i–c–l–e–a–g–g–l–
+37 these zbog chaise -> –t–h–e–s–e–z–b–o–g–c–h–a–i–s–e–
+38 herent fronts morts -> –h–e–r–e–n–t–f–r–o–n–t–s–m–o–r–t–s–
+39 ategorie acquist hutsik -> –a–t–e–g–o–r–i–e–a–c–q–u–i–s–t–h–u–t–s–i–k–
+40 tic eq ange -> –t–i–c–e–q–a–n–g–e–
+41 earth replaced persec -> –e–a–r–t–h–r–e–p–l–a–c–e–d–p–e–r–s–e–c–
+42 iteral kojem forman -> –i–t–e–r–a–l–k–o–j–e–m–f–o–r–m–a–n–
+43 opy forhold marital -> –o–p–y–f–o–r–h–o–l–d–m–a–r–i–t–a–l–
+44 brach effort selon -> –b–r–a–c–h–e–f–f–o–r–t–s–e–l–o–n–
+45 depth ensured talk -> –d–e–p–t–h–e–n–s–u–r–e–d–t–a–l–k–
+46 jillo poderoso amplio -> –j–i–l–l–o–p–o–d–e–r–o–s–o–a–m–p–l–i–o–
+47 mir values nul -> –m–i–r–v–a–l–u–e–s–n–u–l–
+48 wurf somos vas -> –w–u–r–f–s–o–m–o–s–v–a–s–
+49 hetti cerca handing -> –h–e–t–t–i–c–e–r–c–a–h–a–n–d–i–n–g–
+50 flur historia interest -> –f–l–u–r–h–i–s–t–o–r–i–a–i–n–t–e–r–e–s–t–
+51 valt uzun couvert -> –v–a–l–t–u–z–u–n–c–o–u–v–e–r–t–
+52 umi level attendre -> –u–m–i–l–e–v–e–l–a–t–t–e–n–d–r–e–
+53 amera siebie fre -> –a–m–e–r–a–s–i–e–b–i–e–f–r–e–
+54 portun superb viime -> –p–o–r–t–u–n–s–u–p–e–r–b–v–i–i–m–e–
+55 illit hues alej -> –i–l–l–i–t–h–u–e–s–a–l–e–j–
+56 rapper moved moss -> –r–a–p–p–e–r–m–o–v–e–d–m–o–s–s–
+57 orps phones waarmee -> –o–r–p–s–p–h–o–n–e–s–w–a–a–r–m–e–e–
+58 hips corpo padded -> –h–i–p–s–c–o–r–p–o–p–a–d–d–e–d–
+59 unjuk smelled gracias -> –u–n–j–u–k–s–m–e–l–l–e–d–g–r–a–c–i–a–s–
+60 atzen garde guessed -> –a–t–z–e–n–g–a–r–d–e–g–u–e–s–s–e–d–
+61 osexual ketone reg -> –o–s–e–x–u–a–l–k–e–t–o–n–e–r–e–g–
+62 gged olisi saque -> –g–g–e–d–o–l–i–s–i–s–a–q–u–e–
+63 lymouth hotel bajn -> –l–y–m–o–u–t–h–h–o–t–e–l–b–a–j–n–
+64 lying ovar francesi -> –l–y–i–n–g–o–v–a–r–f–r–a–n–c–e–s–i–
+65 nade prouver episodi -> –n–a–d–e–p–r–o–u–v–e–r–e–p–i–s–o–d–i–
+66 andingan envie divided -> –a–n–d–i–n–g–a–n–e–n–v–i–e–d–i–v–i–d–e–d–
+67 loga seuls nor -> –l–o–g–a–s–e–u–l–s–n–o–r–
+68 avos facteurs criou -> –a–v–o–s–f–a–c–t–e–u–r–s–c–r–i–o–u–
+69 sible dieux hingegen -> –s–i–b–l–e–d–i–e–u–x–h–i–n–g–e–g–e–n–
+70 ichtlich nemico yet -> –i–c–h–t–l–i–c–h–n–e–m–i–c–o–y–e–t–
+71 quet palate arrog -> –q–u–e–t–p–a–l–a–t–e–a–r–r–o–g–
+72 rados what tiden -> –r–a–d–o–s–w–h–a–t–t–i–d–e–n–
+73 asc dipped medalla -> –a–s–c–d–i–p–p–e–d–m–e–d–a–l–l–a–
+74 inalg handful scrutiny -> –i–n–a–l–g–h–a–n–d–f–u–l–s–c–r–u–t–i–n–y–
+75 update claim sticky -> –u–p–d–a–t–e–c–l–a–i–m–s–t–i–c–k–y–
+76 argent prompt autoc -> –a–r–g–e–n–t–p–r–o–m–p–t–a–u–t–o–c–
+77 suarios cay unset -> –s–u–a–r–i–o–s–c–a–y–u–n–s–e–t–
+78 urent regresar swell -> –u–r–e–n–t–r–e–g–r–e–s–a–r–s–w–e–l–l–
+79 anner argent befand -> –a–n–n–e–r–a–r–g–e–n–t–b–e–f–a–n–d–
+80 ist pozn problema -> –i–s–t–p–o–z–n–p–r–o–b–l–e–m–a–
+81 ovac pala sprang -> –o–v–a–c–p–a–l–a–s–p–r–a–n–g–
+82 boolean posz glimpse -> –b–o–o–l–e–a–n–p–o–s–z–g–l–i–m–p–s–e–
+83 icine tolerate stati -> –i–c–i–n–e–t–o–l–e–r–a–t–e–s–t–a–t–i–
+84 endal arkada beb -> –e–n–d–a–l–a–r–k–a–d–a–b–e–b–
+85 orphism kes prey -> –o–r–p–h–i–s–m–k–e–s–p–r–e–y–
+86 uda wolves geral -> –u–d–a–w–o–l–v–e–s–g–e–r–a–l–
+87 imento kind dvor -> –i–m–e–n–t–o–k–i–n–d–d–v–o–r–
+88 flush two saliv -> –f–l–u–s–h–t–w–o–s–a–l–i–v–
+89 arts care restant -> –a–r–t–s–c–a–r–e–r–e–s–t–a–n–t–
+90 prompt revenues elfog -> –p–r–o–m–p–t–r–e–v–e–n–u–e–s–e–l–f–o–g–
+91 ilangan betrieb respet -> –i–l–a–n–g–a–n–b–e–t–r–i–e–b–r–e–s–p–e–t–
+92 ifice tao rum -> –i–f–i–c–e–t–a–o–r–u–m–
+93 ipheral pact esta -> –i–p–h–e–r–a–l–p–a–c–t–e–s–t–a–
+94 stituted element sack -> –s–t–i–t–u–t–e–d–e–l–e–m–e–n–t–s–a–c–k–
+95 gue grud manifold -> –g–u–e–g–r–u–d–m–a–n–i–f–o–l–d–
+96 ikkel grob bilim -> –i–k–k–e–l–g–r–o–b–b–i–l–i–m–
+97 eddings eerder kelt -> –e–d–d–i–n–g–s–e–e–r–d–e–r–k–e–l–t–
+98 ioso messo suicidal -> –i–o–s–o–m–e–s–s–o–s–u–i–c–i–d–a–l–
+99 impin grazie programs -> –i–m–p–i–n–g–r–a–z–i–e–p–r–o–g–r–a–m–s–

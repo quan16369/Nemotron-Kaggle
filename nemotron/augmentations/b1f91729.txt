@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 activity enviado estrange
+01 brough holdings neat
+02 rig ascribed tactics
+
+This is a sample output.
+00 activity enviado estrange -> –a–c–t–i–v–i–t–y–e–n–v–i–a–d–o–e–s–t–r–a–n–g–e–
+01 brough holdings neat -> –b–r–o–u–g–h–h–o–l–d–i–n–g–s–n–e–a–t–
+02 rig ascribed tactics -> –r–i–g–a–s–c–r–i–b–e–d–t–a–c–t–i–c–s–
+
+This is your input.
+00 islation almacen redress
+01 ibold cuts waarop
+02 njem merc qued
+03 rowned spac annih
+04 ornos cambia xs
+05 envol insists enabling
+06 attering szab edited
+07 cel descanso hemen
+08 rages methane aper
+09 lags gi tradi
+10 plicity tropes fav
+11 hm stones duties
+12 osta story discre
+13 ket postao seu
+14 hi poing bake
+15 erson failures stakes
+16 urais report institu
+17 ouleurs sterben eset
+18 cit kne planets
+19 utom producir client
+20 ads konst cod
+21 len mirada keep
+22 subject grating kines
+23 neur admin papeles
+24 comfort ninety heavens
+25 ampton sommige bouche
+26 uesta enjoy wines
+27 inois sensible gegangen
+28 ski qualific fanno
+29 grey typo elderly
+30 roc begon debate
+31 ynes follower artic
+32 ksen goed hardness
+33 osal onda noble
+34 iser sergeant kultury
+35 ibili bounty machten
+36 sett fuse killing
+37 inic avan moles
+38 textrm evaluate alto
+39 aleko bicarbon breit
+40 rugu skup melt
+41 iesen article aggl
+42 omethane zbog chaise
+43 ifest fronts morts
+44 ologue acquist hutsik
+45 episode eq ange
+46 one replaced persec
+47 ostruct kojem forman
+48 more forhold marital
+49 azione effort selon
+50 rib ensured talk
+51 dera poderoso amplio
+52 ullar values nul
+53 sat somos vas
+54 wegs cerca handing
+55 leti historia interest
+56 set uzun couvert
+57 whatever level attendre
+58 comp siebie fre
+59 phonse superb viime
+60 yd hues alej
+61 udia moved moss
+62 mbito phones waarmee
+63 rauch corpo padded
+64 qdm smelled gracias
+65 rc garde guessed
+66 ordine ketone reg
+67 clam olisi saque
+68 inds hotel bajn
+69 iett ovar francesi
+70 arrera prouver episodi
+71 izont envie divided
+72 hets seuls nor
+73 ml facteurs criou
+74 anske dieux hingegen
+75 oldown nemico yet
+76 efa palate arrog
+77 liko what tiden
+78 acol dipped medalla
+79 ough handful scrutiny
+80 mn claim sticky
+81 essem prompt autoc
+82 usid cay unset
+83 rific regresar swell
+84 oway argent befand
+85 arashtra pozn problema
+86 report pala sprang
+87 gos posz glimpse
+88 elius tolerate stati
+89 pflicht arkada beb
+90 almaz kes prey
+91 gebiet wolves geral
+92 utas kind dvor
+93 bir two saliv
+94 chule care restant
+95 anlagen revenues elfog
+96 piro betrieb respet
+97 istem tao rum
+98 rf pact esta
+99 ulla element sack
+[completion]
+00 islation almacen redress -> –i–s–l–a–t–i–o–n–a–l–m–a–c–e–n–r–e–d–r–e–s–s–
+01 ibold cuts waarop -> –i–b–o–l–d–c–u–t–s–w–a–a–r–o–p–
+02 njem merc qued -> –n–j–e–m–m–e–r–c–q–u–e–d–
+03 rowned spac annih -> –r–o–w–n–e–d–s–p–a–c–a–n–n–i–h–
+04 ornos cambia xs -> –o–r–n–o–s–c–a–m–b–i–a–x–s–
+05 envol insists enabling -> –e–n–v–o–l–i–n–s–i–s–t–s–e–n–a–b–l–i–n–g–
+06 attering szab edited -> –a–t–t–e–r–i–n–g–s–z–a–b–e–d–i–t–e–d–
+07 cel descanso hemen -> –c–e–l–d–e–s–c–a–n–s–o–h–e–m–e–n–
+08 rages methane aper -> –r–a–g–e–s–m–e–t–h–a–n–e–a–p–e–r–
+09 lags gi tradi -> –l–a–g–s–g–i–t–r–a–d–i–
+10 plicity tropes fav -> –p–l–i–c–i–t–y–t–r–o–p–e–s–f–a–v–
+11 hm stones duties -> –h–m–s–t–o–n–e–s–d–u–t–i–e–s–
+12 osta story discre -> –o–s–t–a–s–t–o–r–y–d–i–s–c–r–e–
+13 ket postao seu -> –k–e–t–p–o–s–t–a–o–s–e–u–
+14 hi poing bake -> –h–i–p–o–i–n–g–b–a–k–e–
+15 erson failures stakes -> –e–r–s–o–n–f–a–i–l–u–r–e–s–s–t–a–k–e–s–
+16 urais report institu -> –u–r–a–i–s–r–e–p–o–r–t–i–n–s–t–i–t–u–
+17 ouleurs sterben eset -> –o–u–l–e–u–r–s–s–t–e–r–b–e–n–e–s–e–t–
+18 cit kne planets -> –c–i–t–k–n–e–p–l–a–n–e–t–s–
+19 utom producir client -> –u–t–o–m–p–r–o–d–u–c–i–r–c–l–i–e–n–t–
+20 ads konst cod -> –a–d–s–k–o–n–s–t–c–o–d–
+21 len mirada keep -> –l–e–n–m–i–r–a–d–a–k–e–e–p–
+22 subject grating kines -> –s–u–b–j–e–c–t–g–r–a–t–i–n–g–k–i–n–e–s–
+23 neur admin papeles -> –n–e–u–r–a–d–m–i–n–p–a–p–e–l–e–s–
+24 comfort ninety heavens -> –c–o–m–f–o–r–t–n–i–n–e–t–y–h–e–a–v–e–n–s–
+25 ampton sommige bouche -> –a–m–p–t–o–n–s–o–m–m–i–g–e–b–o–u–c–h–e–
+26 uesta enjoy wines -> –u–e–s–t–a–e–n–j–o–y–w–i–n–e–s–
+27 inois sensible gegangen -> –i–n–o–i–s–s–e–n–s–i–b–l–e–g–e–g–a–n–g–e–n–
+28 ski qualific fanno -> –s–k–i–q–u–a–l–i–f–i–c–f–a–n–n–o–
+29 grey typo elderly -> –g–r–e–y–t–y–p–o–e–l–d–e–r–l–y–
+30 roc begon debate -> –r–o–c–b–e–g–o–n–d–e–b–a–t–e–
+31 ynes follower artic -> –y–n–e–s–f–o–l–l–o–w–e–r–a–r–t–i–c–
+32 ksen goed hardness -> –k–s–e–n–g–o–e–d–h–a–r–d–n–e–s–s–
+33 osal onda noble -> –o–s–a–l–o–n–d–a–n–o–b–l–e–
+34 iser sergeant kultury -> –i–s–e–r–s–e–r–g–e–a–n–t–k–u–l–t–u–r–y–
+35 ibili bounty machten -> –i–b–i–l–i–b–o–u–n–t–y–m–a–c–h–t–e–n–
+36 sett fuse killing -> –s–e–t–t–f–u–s–e–k–i–l–l–i–n–g–
+37 inic avan moles -> –i–n–i–c–a–v–a–n–m–o–l–e–s–
+38 textrm evaluate alto -> –t–e–x–t–r–m–e–v–a–l–u–a–t–e–a–l–t–o–
+39 aleko bicarbon breit -> –a–l–e–k–o–b–i–c–a–r–b–o–n–b–r–e–i–t–
+40 rugu skup melt -> –r–u–g–u–s–k–u–p–m–e–l–t–
+41 iesen article aggl -> –i–e–s–e–n–a–r–t–i–c–l–e–a–g–g–l–
+42 omethane zbog chaise -> –o–m–e–t–h–a–n–e–z–b–o–g–c–h–a–i–s–e–
+43 ifest fronts morts -> –i–f–e–s–t–f–r–o–n–t–s–m–o–r–t–s–
+44 ologue acquist hutsik -> –o–l–o–g–u–e–a–c–q–u–i–s–t–h–u–t–s–i–k–
+45 episode eq ange -> –e–p–i–s–o–d–e–e–q–a–n–g–e–
+46 one replaced persec -> –o–n–e–r–e–p–l–a–c–e–d–p–e–r–s–e–c–
+47 ostruct kojem forman -> –o–s–t–r–u–c–t–k–o–j–e–m–f–o–r–m–a–n–
+48 more forhold marital -> –m–o–r–e–f–o–r–h–o–l–d–m–a–r–i–t–a–l–
+49 azione effort selon -> –a–z–i–o–n–e–e–f–f–o–r–t–s–e–l–o–n–
+50 rib ensured talk -> –r–i–b–e–n–s–u–r–e–d–t–a–l–k–
+51 dera poderoso amplio -> –d–e–r–a–p–o–d–e–r–o–s–o–a–m–p–l–i–o–
+52 ullar values nul -> –u–l–l–a–r–v–a–l–u–e–s–n–u–l–
+53 sat somos vas -> –s–a–t–s–o–m–o–s–v–a–s–
+54 wegs cerca handing -> –w–e–g–s–c–e–r–c–a–h–a–n–d–i–n–g–
+55 leti historia interest -> –l–e–t–i–h–i–s–t–o–r–i–a–i–n–t–e–r–e–s–t–
+56 set uzun couvert -> –s–e–t–u–z–u–n–c–o–u–v–e–r–t–
+57 whatever level attendre -> –w–h–a–t–e–v–e–r–l–e–v–e–l–a–t–t–e–n–d–r–e–
+58 comp siebie fre -> –c–o–m–p–s–i–e–b–i–e–f–r–e–
+59 phonse superb viime -> –p–h–o–n–s–e–s–u–p–e–r–b–v–i–i–m–e–
+60 yd hues alej -> –y–d–h–u–e–s–a–l–e–j–
+61 udia moved moss -> –u–d–i–a–m–o–v–e–d–m–o–s–s–
+62 mbito phones waarmee -> –m–b–i–t–o–p–h–o–n–e–s–w–a–a–r–m–e–e–
+63 rauch corpo padded -> –r–a–u–c–h–c–o–r–p–o–p–a–d–d–e–d–
+64 qdm smelled gracias -> –q–d–m–s–m–e–l–l–e–d–g–r–a–c–i–a–s–
+65 rc garde guessed -> –r–c–g–a–r–d–e–g–u–e–s–s–e–d–
+66 ordine ketone reg -> –o–r–d–i–n–e–k–e–t–o–n–e–r–e–g–
+67 clam olisi saque -> –c–l–a–m–o–l–i–s–i–s–a–q–u–e–
+68 inds hotel bajn -> –i–n–d–s–h–o–t–e–l–b–a–j–n–
+69 iett ovar francesi -> –i–e–t–t–o–v–a–r–f–r–a–n–c–e–s–i–
+70 arrera prouver episodi -> –a–r–r–e–r–a–p–r–o–u–v–e–r–e–p–i–s–o–d–i–
+71 izont envie divided -> –i–z–o–n–t–e–n–v–i–e–d–i–v–i–d–e–d–
+72 hets seuls nor -> –h–e–t–s–s–e–u–l–s–n–o–r–
+73 ml facteurs criou -> –m–l–f–a–c–t–e–u–r–s–c–r–i–o–u–
+74 anske dieux hingegen -> –a–n–s–k–e–d–i–e–u–x–h–i–n–g–e–g–e–n–
+75 oldown nemico yet -> –o–l–d–o–w–n–n–e–m–i–c–o–y–e–t–
+76 efa palate arrog -> –e–f–a–p–a–l–a–t–e–a–r–r–o–g–
+77 liko what tiden -> –l–i–k–o–w–h–a–t–t–i–d–e–n–
+78 acol dipped medalla -> –a–c–o–l–d–i–p–p–e–d–m–e–d–a–l–l–a–
+79 ough handful scrutiny -> –o–u–g–h–h–a–n–d–f–u–l–s–c–r–u–t–i–n–y–
+80 mn claim sticky -> –m–n–c–l–a–i–m–s–t–i–c–k–y–
+81 essem prompt autoc -> –e–s–s–e–m–p–r–o–m–p–t–a–u–t–o–c–
+82 usid cay unset -> –u–s–i–d–c–a–y–u–n–s–e–t–
+83 rific regresar swell -> –r–i–f–i–c–r–e–g–r–e–s–a–r–s–w–e–l–l–
+84 oway argent befand -> –o–w–a–y–a–r–g–e–n–t–b–e–f–a–n–d–
+85 arashtra pozn problema -> –a–r–a–s–h–t–r–a–p–o–z–n–p–r–o–b–l–e–m–a–
+86 report pala sprang -> –r–e–p–o–r–t–p–a–l–a–s–p–r–a–n–g–
+87 gos posz glimpse -> –g–o–s–p–o–s–z–g–l–i–m–p–s–e–
+88 elius tolerate stati -> –e–l–i–u–s–t–o–l–e–r–a–t–e–s–t–a–t–i–
+89 pflicht arkada beb -> –p–f–l–i–c–h–t–a–r–k–a–d–a–b–e–b–
+90 almaz kes prey -> –a–l–m–a–z–k–e–s–p–r–e–y–
+91 gebiet wolves geral -> –g–e–b–i–e–t–w–o–l–v–e–s–g–e–r–a–l–
+92 utas kind dvor -> –u–t–a–s–k–i–n–d–d–v–o–r–
+93 bir two saliv -> –b–i–r–t–w–o–s–a–l–i–v–
+94 chule care restant -> –c–h–u–l–e–c–a–r–e–r–e–s–t–a–n–t–
+95 anlagen revenues elfog -> –a–n–l–a–g–e–n–r–e–v–e–n–u–e–s–e–l–f–o–g–
+96 piro betrieb respet -> –p–i–r–o–b–e–t–r–i–e–b–r–e–s–p–e–t–
+97 istem tao rum -> –i–s–t–e–m–t–a–o–r–u–m–
+98 rf pact esta -> –r–f–p–a–c–t–e–s–t–a–
+99 ulla element sack -> –u–l–l–a–e–l–e–m–e–n–t–s–a–c–k–

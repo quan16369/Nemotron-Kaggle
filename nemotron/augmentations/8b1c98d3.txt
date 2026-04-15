@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 itness removal mutually
+01 combin merely obsessed
+02 mana triggers rodu
+
+This is a sample output.
+00 itness removal mutually -> –i–t–n–e–s–s–r–e–m–o–v–a–l–m–u–t–u–a–l–l–y–
+01 combin merely obsessed -> –c–o–m–b–i–n–m–e–r–e–l–y–o–b–s–e–s–s–e–d–
+02 mana triggers rodu -> –m–a–n–a–t–r–i–g–g–e–r–s–r–o–d–u–
+
+This is your input.
+00 urpose hypoc label
+01 edium budget regiment
+02 button arkitekt nicotine
+03 anvas nueva mier
+04 ahren opl provinc
+05 opus bitmap erst
+06 arc hoped juste
+07 material shock tesoro
+08 ztet indoss grace
+09 achment handia edificio
+10 itant miel securely
+11 iaus angels taille
+12 zet liaison illetve
+13 olytic reminds sect
+14 product kuj wyn
+15 ptide dentist golden
+16 hedron repairs akadem
+17 lassen trasc congen
+18 handlung istnie vinto
+19 fone zelo fecha
+20 oral metam song
+21 ocin uses fasc
+22 dle warmer adulte
+23 stre bif lineup
+24 ellar ciertas madera
+25 omb fisk opr
+26 ciencia puntu painter
+27 ichtung cando rechte
+28 unas objects bloody
+29 ulos why accesses
+30 embled sentit pensare
+31 isters obst tornou
+32 idere ep embrace
+33 ventory vase ka
+34 acu negl seq
+35 aua caut trif
+36 ivering isang crashes
+37 way track punts
+38 pla kra secol
+39 embangan ating resting
+40 izados def popul
+41 daughter fotbal poseb
+42 oston palp frances
+43 inta darkened sandbox
+44 rett puzzled liber
+45 geom osa ocurre
+46 roga carreg tule
+47 rogate snack maggiore
+48 front alba harass
+49 ileen dahil tire
+50 fut sdk deterior
+51 phosph terc cardiomy
+52 awning solves leverage
+53 appar okt mutex
+54 outil blunt rig
+55 letus ugly marx
+56 acting repay domic
+57 atics tenien coloc
+58 kunde tyl helium
+59 icano vanwege pali
+60 pytest alegr node
+61 embre enim pronto
+62 lides crois barred
+63 prising editors liberal
+64 ilen affected helyi
+65 toa cauc gutxi
+66 stv interloc notices
+67 ijos elephant sah
+68 advant loud give
+69 emand pursuit denial
+70 png urs amerikai
+71 beste traps candy
+72 column fool subtle
+73 usik imperio contrast
+74 vise executor mediante
+75 asma meer fewer
+76 rique catalyst refers
+77 icture voler ignition
+78 esk daughter cambi
+79 ysk trobar tool
+80 edstrijd sad mix
+81 erno bei beau
+82 arije marco attore
+83 dam chan estud
+84 bag legisl voulu
+85 negative opens mariage
+86 full unsett greeting
+87 cv suav geheel
+88 jek plated hot
+89 rie projekt taller
+90 cls global kiel
+91 icule anges chaotic
+92 ettu troba rappeler
+93 oside blast gamma
+94 ocardi scris invloed
+95 enni verteilt irrig
+96 incipal seguenti usar
+97 elenium attaque ext
+98 bola hope lobbying
+99 journ insights tattoo
+[completion]
+00 urpose hypoc label -> –u–r–p–o–s–e–h–y–p–o–c–l–a–b–e–l–
+01 edium budget regiment -> –e–d–i–u–m–b–u–d–g–e–t–r–e–g–i–m–e–n–t–
+02 button arkitekt nicotine -> –b–u–t–t–o–n–a–r–k–i–t–e–k–t–n–i–c–o–t–i–n–e–
+03 anvas nueva mier -> –a–n–v–a–s–n–u–e–v–a–m–i–e–r–
+04 ahren opl provinc -> –a–h–r–e–n–o–p–l–p–r–o–v–i–n–c–
+05 opus bitmap erst -> –o–p–u–s–b–i–t–m–a–p–e–r–s–t–
+06 arc hoped juste -> –a–r–c–h–o–p–e–d–j–u–s–t–e–
+07 material shock tesoro -> –m–a–t–e–r–i–a–l–s–h–o–c–k–t–e–s–o–r–o–
+08 ztet indoss grace -> –z–t–e–t–i–n–d–o–s–s–g–r–a–c–e–
+09 achment handia edificio -> –a–c–h–m–e–n–t–h–a–n–d–i–a–e–d–i–f–i–c–i–o–
+10 itant miel securely -> –i–t–a–n–t–m–i–e–l–s–e–c–u–r–e–l–y–
+11 iaus angels taille -> –i–a–u–s–a–n–g–e–l–s–t–a–i–l–l–e–
+12 zet liaison illetve -> –z–e–t–l–i–a–i–s–o–n–i–l–l–e–t–v–e–
+13 olytic reminds sect -> –o–l–y–t–i–c–r–e–m–i–n–d–s–s–e–c–t–
+14 product kuj wyn -> –p–r–o–d–u–c–t–k–u–j–w–y–n–
+15 ptide dentist golden -> –p–t–i–d–e–d–e–n–t–i–s–t–g–o–l–d–e–n–
+16 hedron repairs akadem -> –h–e–d–r–o–n–r–e–p–a–i–r–s–a–k–a–d–e–m–
+17 lassen trasc congen -> –l–a–s–s–e–n–t–r–a–s–c–c–o–n–g–e–n–
+18 handlung istnie vinto -> –h–a–n–d–l–u–n–g–i–s–t–n–i–e–v–i–n–t–o–
+19 fone zelo fecha -> –f–o–n–e–z–e–l–o–f–e–c–h–a–
+20 oral metam song -> –o–r–a–l–m–e–t–a–m–s–o–n–g–
+21 ocin uses fasc -> –o–c–i–n–u–s–e–s–f–a–s–c–
+22 dle warmer adulte -> –d–l–e–w–a–r–m–e–r–a–d–u–l–t–e–
+23 stre bif lineup -> –s–t–r–e–b–i–f–l–i–n–e–u–p–
+24 ellar ciertas madera -> –e–l–l–a–r–c–i–e–r–t–a–s–m–a–d–e–r–a–
+25 omb fisk opr -> –o–m–b–f–i–s–k–o–p–r–
+26 ciencia puntu painter -> –c–i–e–n–c–i–a–p–u–n–t–u–p–a–i–n–t–e–r–
+27 ichtung cando rechte -> –i–c–h–t–u–n–g–c–a–n–d–o–r–e–c–h–t–e–
+28 unas objects bloody -> –u–n–a–s–o–b–j–e–c–t–s–b–l–o–o–d–y–
+29 ulos why accesses -> –u–l–o–s–w–h–y–a–c–c–e–s–s–e–s–
+30 embled sentit pensare -> –e–m–b–l–e–d–s–e–n–t–i–t–p–e–n–s–a–r–e–
+31 isters obst tornou -> –i–s–t–e–r–s–o–b–s–t–t–o–r–n–o–u–
+32 idere ep embrace -> –i–d–e–r–e–e–p–e–m–b–r–a–c–e–
+33 ventory vase ka -> –v–e–n–t–o–r–y–v–a–s–e–k–a–
+34 acu negl seq -> –a–c–u–n–e–g–l–s–e–q–
+35 aua caut trif -> –a–u–a–c–a–u–t–t–r–i–f–
+36 ivering isang crashes -> –i–v–e–r–i–n–g–i–s–a–n–g–c–r–a–s–h–e–s–
+37 way track punts -> –w–a–y–t–r–a–c–k–p–u–n–t–s–
+38 pla kra secol -> –p–l–a–k–r–a–s–e–c–o–l–
+39 embangan ating resting -> –e–m–b–a–n–g–a–n–a–t–i–n–g–r–e–s–t–i–n–g–
+40 izados def popul -> –i–z–a–d–o–s–d–e–f–p–o–p–u–l–
+41 daughter fotbal poseb -> –d–a–u–g–h–t–e–r–f–o–t–b–a–l–p–o–s–e–b–
+42 oston palp frances -> –o–s–t–o–n–p–a–l–p–f–r–a–n–c–e–s–
+43 inta darkened sandbox -> –i–n–t–a–d–a–r–k–e–n–e–d–s–a–n–d–b–o–x–
+44 rett puzzled liber -> –r–e–t–t–p–u–z–z–l–e–d–l–i–b–e–r–
+45 geom osa ocurre -> –g–e–o–m–o–s–a–o–c–u–r–r–e–
+46 roga carreg tule -> –r–o–g–a–c–a–r–r–e–g–t–u–l–e–
+47 rogate snack maggiore -> –r–o–g–a–t–e–s–n–a–c–k–m–a–g–g–i–o–r–e–
+48 front alba harass -> –f–r–o–n–t–a–l–b–a–h–a–r–a–s–s–
+49 ileen dahil tire -> –i–l–e–e–n–d–a–h–i–l–t–i–r–e–
+50 fut sdk deterior -> –f–u–t–s–d–k–d–e–t–e–r–i–o–r–
+51 phosph terc cardiomy -> –p–h–o–s–p–h–t–e–r–c–c–a–r–d–i–o–m–y–
+52 awning solves leverage -> –a–w–n–i–n–g–s–o–l–v–e–s–l–e–v–e–r–a–g–e–
+53 appar okt mutex -> –a–p–p–a–r–o–k–t–m–u–t–e–x–
+54 outil blunt rig -> –o–u–t–i–l–b–l–u–n–t–r–i–g–
+55 letus ugly marx -> –l–e–t–u–s–u–g–l–y–m–a–r–x–
+56 acting repay domic -> –a–c–t–i–n–g–r–e–p–a–y–d–o–m–i–c–
+57 atics tenien coloc -> –a–t–i–c–s–t–e–n–i–e–n–c–o–l–o–c–
+58 kunde tyl helium -> –k–u–n–d–e–t–y–l–h–e–l–i–u–m–
+59 icano vanwege pali -> –i–c–a–n–o–v–a–n–w–e–g–e–p–a–l–i–
+60 pytest alegr node -> –p–y–t–e–s–t–a–l–e–g–r–n–o–d–e–
+61 embre enim pronto -> –e–m–b–r–e–e–n–i–m–p–r–o–n–t–o–
+62 lides crois barred -> –l–i–d–e–s–c–r–o–i–s–b–a–r–r–e–d–
+63 prising editors liberal -> –p–r–i–s–i–n–g–e–d–i–t–o–r–s–l–i–b–e–r–a–l–
+64 ilen affected helyi -> –i–l–e–n–a–f–f–e–c–t–e–d–h–e–l–y–i–
+65 toa cauc gutxi -> –t–o–a–c–a–u–c–g–u–t–x–i–
+66 stv interloc notices -> –s–t–v–i–n–t–e–r–l–o–c–n–o–t–i–c–e–s–
+67 ijos elephant sah -> –i–j–o–s–e–l–e–p–h–a–n–t–s–a–h–
+68 advant loud give -> –a–d–v–a–n–t–l–o–u–d–g–i–v–e–
+69 emand pursuit denial -> –e–m–a–n–d–p–u–r–s–u–i–t–d–e–n–i–a–l–
+70 png urs amerikai -> –p–n–g–u–r–s–a–m–e–r–i–k–a–i–
+71 beste traps candy -> –b–e–s–t–e–t–r–a–p–s–c–a–n–d–y–
+72 column fool subtle -> –c–o–l–u–m–n–f–o–o–l–s–u–b–t–l–e–
+73 usik imperio contrast -> –u–s–i–k–i–m–p–e–r–i–o–c–o–n–t–r–a–s–t–
+74 vise executor mediante -> –v–i–s–e–e–x–e–c–u–t–o–r–m–e–d–i–a–n–t–e–
+75 asma meer fewer -> –a–s–m–a–m–e–e–r–f–e–w–e–r–
+76 rique catalyst refers -> –r–i–q–u–e–c–a–t–a–l–y–s–t–r–e–f–e–r–s–
+77 icture voler ignition -> –i–c–t–u–r–e–v–o–l–e–r–i–g–n–i–t–i–o–n–
+78 esk daughter cambi -> –e–s–k–d–a–u–g–h–t–e–r–c–a–m–b–i–
+79 ysk trobar tool -> –y–s–k–t–r–o–b–a–r–t–o–o–l–
+80 edstrijd sad mix -> –e–d–s–t–r–i–j–d–s–a–d–m–i–x–
+81 erno bei beau -> –e–r–n–o–b–e–i–b–e–a–u–
+82 arije marco attore -> –a–r–i–j–e–m–a–r–c–o–a–t–t–o–r–e–
+83 dam chan estud -> –d–a–m–c–h–a–n–e–s–t–u–d–
+84 bag legisl voulu -> –b–a–g–l–e–g–i–s–l–v–o–u–l–u–
+85 negative opens mariage -> –n–e–g–a–t–i–v–e–o–p–e–n–s–m–a–r–i–a–g–e–
+86 full unsett greeting -> –f–u–l–l–u–n–s–e–t–t–g–r–e–e–t–i–n–g–
+87 cv suav geheel -> –c–v–s–u–a–v–g–e–h–e–e–l–
+88 jek plated hot -> –j–e–k–p–l–a–t–e–d–h–o–t–
+89 rie projekt taller -> –r–i–e–p–r–o–j–e–k–t–t–a–l–l–e–r–
+90 cls global kiel -> –c–l–s–g–l–o–b–a–l–k–i–e–l–
+91 icule anges chaotic -> –i–c–u–l–e–a–n–g–e–s–c–h–a–o–t–i–c–
+92 ettu troba rappeler -> –e–t–t–u–t–r–o–b–a–r–a–p–p–e–l–e–r–
+93 oside blast gamma -> –o–s–i–d–e–b–l–a–s–t–g–a–m–m–a–
+94 ocardi scris invloed -> –o–c–a–r–d–i–s–c–r–i–s–i–n–v–l–o–e–d–
+95 enni verteilt irrig -> –e–n–n–i–v–e–r–t–e–i–l–t–i–r–r–i–g–
+96 incipal seguenti usar -> –i–n–c–i–p–a–l–s–e–g–u–e–n–t–i–u–s–a–r–
+97 elenium attaque ext -> –e–l–e–n–i–u–m–a–t–t–a–q–u–e–e–x–t–
+98 bola hope lobbying -> –b–o–l–a–h–o–p–e–l–o–b–b–y–i–n–g–
+99 journ insights tattoo -> –j–o–u–r–n–i–n–s–i–g–h–t–s–t–a–t–t–o–o–

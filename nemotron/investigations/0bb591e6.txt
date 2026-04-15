@@ -1,0 +1,65 @@
+problem id: 0bb591e6
+category: cryptarithm_guess
+
+examples:
+1. `)(-)( = "`
+2. `&(-(( = <`
+3. `$(-(% = )<`
+4. `<%-%$ = ??`
+
+inferred rule:
+Treat each non-operator symbol as a decimal digit and read each 2-symbol operand as the 2-digit number written in that order.
+
+The examples support this partial digit map:
+
+- `" = 0`
+- `) = 1`
+- `< = 2`
+- `? = 3`
+- `& = 4`
+- `% = 5`
+- `( = 6`
+- `$ = 8`
+
+For `-`, compute the absolute difference of the two decoded numbers, reverse the digits of that numeric result, then encode the reversed digits back into symbols. If the reversed result starts with `0`, drop that leading zero.
+
+step-by-step check on the examples:
+1. `)(-)(`
+   `)(` is `16` and `)(` is `16`.
+   `|16 - 16| = 0`.
+   Reversing `0` still gives `0`, which encodes as `"`.
+
+2. `&(-((`
+   `&(` is `46` and `((` is `66`.
+   `|46 - 66| = 20`.
+   Reverse `20 -> 02`, then drop the leading zero to get `2`.
+   `2` encodes as `<`.
+
+3. `$(-(%`
+   `$(` is `86` and `(%` is `65`.
+   `|86 - 65| = 21`.
+   Reverse `21 -> 12`.
+   `1 -> )` and `2 -> <`, so the output is `)<`.
+
+4. `<%-%$`
+   `<%` is `25` and `%$` is `58`.
+   `|25 - 58| = 33`.
+   Reverse `33 -> 33`.
+   `3` encodes as `?`, so the output is `??`.
+
+step-by-step application to the query:
+Query: `"$+%%`
+
+1. `"$` decodes to `08`, i.e. `8`.
+2. `%%` decodes to `55`.
+3. Treat the unseen `+` as ordinary addition: `8 + 55 = 63`.
+4. Reverse the result digits: `63 -> 36`.
+5. Encode `36` back into symbols:
+   `3 -> ?`
+   `6 -> (`
+
+predicted answer:
+`?(`
+
+confidence note:
+Low-medium confidence. All four subtraction examples fit this rule exactly, but the training set does not show `+`, and it also does not completely rule out an alternate convention where the two input symbols are read in reverse order before subtracting. I chose the more literal read-as-written version.

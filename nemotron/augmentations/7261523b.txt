@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 rania haze recruits
+01 illons etxeak verteid
+02 ttet outrage eleg
+
+This is a sample output.
+00 rania haze recruits -> –r–a–n–i–a–h–a–z–e–r–e–c–r–u–i–t–s–
+01 illons etxeak verteid -> –i–l–l–o–n–s–e–t–x–e–a–k–v–e–r–t–e–i–d–
+02 ttet outrage eleg -> –t–t–e–t–o–u–t–r–a–g–e–e–l–e–g–
+
+This is your input.
+00 auten hosp fourteen
+01 schied juxtap academic
+02 chwitz sectors valleys
+03 akai musul airborne
+04 ocre dolo accad
+05 vezet antigua ca
+06 gere haupt locul
+07 placing guide hardware
+08 chw diu concrete
+09 iative printers unfair
+10 ije form ziy
+11 adors ashes patch
+12 iante sprint serb
+13 ocrat hell setzten
+14 olda teljes erot
+15 patic repres stammt
+16 usson rocket koriste
+17 undenen kategori troupe
+18 glass getter upside
+19 fstream prestige tirer
+20 verts weaving kuni
+21 bil obras prot
+22 perhaps particle ssh
+23 vig art spanning
+24 kind klubu mercury
+25 ias nasional volled
+26 ili sorris ball
+27 entials aihe abrir
+28 ein skiing entregar
+29 ardin diarr agli
+30 olfo chercher arrived
+31 cento cierto sent
+32 ypte dealt eerst
+33 uzione propose associ
+34 emaker rearr temu
+35 end tell zituzten
+36 igion stil wra
+37 ributes lass andar
+38 irildi overwhel sehr
+39 amaan teaching courage
+40 elho solved quarta
+41 ronic esegu erretir
+42 ante phosphat teritor
+43 iz monster engage
+44 arki regained dressing
+45 esan comand sina
+46 lus tiga facade
+47 agd komen potable
+48 track brains supp
+49 sef resent stronie
+50 ltim fai tenere
+51 ission monoton tired
+52 beans cardiac teens
+53 acji comedy staged
+54 osto har wellness
+55 iver backed sermon
+56 inders vorm planar
+57 egen matern quarant
+58 jim kulturn positiv
+59 sia visits pear
+60 bury paio museums
+61 stell popol cor
+62 estor civic estado
+63 rical herald uterine
+64 ype casting proche
+65 riture morale eleg
+66 lates solic basil
+67 prima jambes poln
+68 conv echt poche
+69 plotlib recover wonders
+70 onnais ferro ferait
+71 ring issus fait
+72 pect faim fourni
+73 dig dein sje
+74 pera masuk batez
+75 inite rex gait
+76 mus paralle nost
+77 etadata until stud
+78 jections bede pengh
+79 nders captur zgin
+80 nyv advertis grecque
+81 vente tomb hubungan
+82 anno entity rozhod
+83 ensin contrary palazzo
+84 ataj prefect hitz
+85 sak entorno kurul
+86 arrows annuelle unul
+87 activate viens urugu
+88 isuus arches excess
+89 artu kval suffer
+90 halt bac powod
+91 byter afer worker
+92 izens tels belts
+93 appy recently knapp
+94 preuve positiva prol
+95 atosis discurso anest
+96 chau deco oncology
+97 adon riding gent
+98 mittel estuvo due
+99 pland stazione sufr
+[completion]
+00 auten hosp fourteen -> –a–u–t–e–n–h–o–s–p–f–o–u–r–t–e–e–n–
+01 schied juxtap academic -> –s–c–h–i–e–d–j–u–x–t–a–p–a–c–a–d–e–m–i–c–
+02 chwitz sectors valleys -> –c–h–w–i–t–z–s–e–c–t–o–r–s–v–a–l–l–e–y–s–
+03 akai musul airborne -> –a–k–a–i–m–u–s–u–l–a–i–r–b–o–r–n–e–
+04 ocre dolo accad -> –o–c–r–e–d–o–l–o–a–c–c–a–d–
+05 vezet antigua ca -> –v–e–z–e–t–a–n–t–i–g–u–a–c–a–
+06 gere haupt locul -> –g–e–r–e–h–a–u–p–t–l–o–c–u–l–
+07 placing guide hardware -> –p–l–a–c–i–n–g–g–u–i–d–e–h–a–r–d–w–a–r–e–
+08 chw diu concrete -> –c–h–w–d–i–u–c–o–n–c–r–e–t–e–
+09 iative printers unfair -> –i–a–t–i–v–e–p–r–i–n–t–e–r–s–u–n–f–a–i–r–
+10 ije form ziy -> –i–j–e–f–o–r–m–z–i–y–
+11 adors ashes patch -> –a–d–o–r–s–a–s–h–e–s–p–a–t–c–h–
+12 iante sprint serb -> –i–a–n–t–e–s–p–r–i–n–t–s–e–r–b–
+13 ocrat hell setzten -> –o–c–r–a–t–h–e–l–l–s–e–t–z–t–e–n–
+14 olda teljes erot -> –o–l–d–a–t–e–l–j–e–s–e–r–o–t–
+15 patic repres stammt -> –p–a–t–i–c–r–e–p–r–e–s–s–t–a–m–m–t–
+16 usson rocket koriste -> –u–s–s–o–n–r–o–c–k–e–t–k–o–r–i–s–t–e–
+17 undenen kategori troupe -> –u–n–d–e–n–e–n–k–a–t–e–g–o–r–i–t–r–o–u–p–e–
+18 glass getter upside -> –g–l–a–s–s–g–e–t–t–e–r–u–p–s–i–d–e–
+19 fstream prestige tirer -> –f–s–t–r–e–a–m–p–r–e–s–t–i–g–e–t–i–r–e–r–
+20 verts weaving kuni -> –v–e–r–t–s–w–e–a–v–i–n–g–k–u–n–i–
+21 bil obras prot -> –b–i–l–o–b–r–a–s–p–r–o–t–
+22 perhaps particle ssh -> –p–e–r–h–a–p–s–p–a–r–t–i–c–l–e–s–s–h–
+23 vig art spanning -> –v–i–g–a–r–t–s–p–a–n–n–i–n–g–
+24 kind klubu mercury -> –k–i–n–d–k–l–u–b–u–m–e–r–c–u–r–y–
+25 ias nasional volled -> –i–a–s–n–a–s–i–o–n–a–l–v–o–l–l–e–d–
+26 ili sorris ball -> –i–l–i–s–o–r–r–i–s–b–a–l–l–
+27 entials aihe abrir -> –e–n–t–i–a–l–s–a–i–h–e–a–b–r–i–r–
+28 ein skiing entregar -> –e–i–n–s–k–i–i–n–g–e–n–t–r–e–g–a–r–
+29 ardin diarr agli -> –a–r–d–i–n–d–i–a–r–r–a–g–l–i–
+30 olfo chercher arrived -> –o–l–f–o–c–h–e–r–c–h–e–r–a–r–r–i–v–e–d–
+31 cento cierto sent -> –c–e–n–t–o–c–i–e–r–t–o–s–e–n–t–
+32 ypte dealt eerst -> –y–p–t–e–d–e–a–l–t–e–e–r–s–t–
+33 uzione propose associ -> –u–z–i–o–n–e–p–r–o–p–o–s–e–a–s–s–o–c–i–
+34 emaker rearr temu -> –e–m–a–k–e–r–r–e–a–r–r–t–e–m–u–
+35 end tell zituzten -> –e–n–d–t–e–l–l–z–i–t–u–z–t–e–n–
+36 igion stil wra -> –i–g–i–o–n–s–t–i–l–w–r–a–
+37 ributes lass andar -> –r–i–b–u–t–e–s–l–a–s–s–a–n–d–a–r–
+38 irildi overwhel sehr -> –i–r–i–l–d–i–o–v–e–r–w–h–e–l–s–e–h–r–
+39 amaan teaching courage -> –a–m–a–a–n–t–e–a–c–h–i–n–g–c–o–u–r–a–g–e–
+40 elho solved quarta -> –e–l–h–o–s–o–l–v–e–d–q–u–a–r–t–a–
+41 ronic esegu erretir -> –r–o–n–i–c–e–s–e–g–u–e–r–r–e–t–i–r–
+42 ante phosphat teritor -> –a–n–t–e–p–h–o–s–p–h–a–t–t–e–r–i–t–o–r–
+43 iz monster engage -> –i–z–m–o–n–s–t–e–r–e–n–g–a–g–e–
+44 arki regained dressing -> –a–r–k–i–r–e–g–a–i–n–e–d–d–r–e–s–s–i–n–g–
+45 esan comand sina -> –e–s–a–n–c–o–m–a–n–d–s–i–n–a–
+46 lus tiga facade -> –l–u–s–t–i–g–a–f–a–c–a–d–e–
+47 agd komen potable -> –a–g–d–k–o–m–e–n–p–o–t–a–b–l–e–
+48 track brains supp -> –t–r–a–c–k–b–r–a–i–n–s–s–u–p–p–
+49 sef resent stronie -> –s–e–f–r–e–s–e–n–t–s–t–r–o–n–i–e–
+50 ltim fai tenere -> –l–t–i–m–f–a–i–t–e–n–e–r–e–
+51 ission monoton tired -> –i–s–s–i–o–n–m–o–n–o–t–o–n–t–i–r–e–d–
+52 beans cardiac teens -> –b–e–a–n–s–c–a–r–d–i–a–c–t–e–e–n–s–
+53 acji comedy staged -> –a–c–j–i–c–o–m–e–d–y–s–t–a–g–e–d–
+54 osto har wellness -> –o–s–t–o–h–a–r–w–e–l–l–n–e–s–s–
+55 iver backed sermon -> –i–v–e–r–b–a–c–k–e–d–s–e–r–m–o–n–
+56 inders vorm planar -> –i–n–d–e–r–s–v–o–r–m–p–l–a–n–a–r–
+57 egen matern quarant -> –e–g–e–n–m–a–t–e–r–n–q–u–a–r–a–n–t–
+58 jim kulturn positiv -> –j–i–m–k–u–l–t–u–r–n–p–o–s–i–t–i–v–
+59 sia visits pear -> –s–i–a–v–i–s–i–t–s–p–e–a–r–
+60 bury paio museums -> –b–u–r–y–p–a–i–o–m–u–s–e–u–m–s–
+61 stell popol cor -> –s–t–e–l–l–p–o–p–o–l–c–o–r–
+62 estor civic estado -> –e–s–t–o–r–c–i–v–i–c–e–s–t–a–d–o–
+63 rical herald uterine -> –r–i–c–a–l–h–e–r–a–l–d–u–t–e–r–i–n–e–
+64 ype casting proche -> –y–p–e–c–a–s–t–i–n–g–p–r–o–c–h–e–
+65 riture morale eleg -> –r–i–t–u–r–e–m–o–r–a–l–e–e–l–e–g–
+66 lates solic basil -> –l–a–t–e–s–s–o–l–i–c–b–a–s–i–l–
+67 prima jambes poln -> –p–r–i–m–a–j–a–m–b–e–s–p–o–l–n–
+68 conv echt poche -> –c–o–n–v–e–c–h–t–p–o–c–h–e–
+69 plotlib recover wonders -> –p–l–o–t–l–i–b–r–e–c–o–v–e–r–w–o–n–d–e–r–s–
+70 onnais ferro ferait -> –o–n–n–a–i–s–f–e–r–r–o–f–e–r–a–i–t–
+71 ring issus fait -> –r–i–n–g–i–s–s–u–s–f–a–i–t–
+72 pect faim fourni -> –p–e–c–t–f–a–i–m–f–o–u–r–n–i–
+73 dig dein sje -> –d–i–g–d–e–i–n–s–j–e–
+74 pera masuk batez -> –p–e–r–a–m–a–s–u–k–b–a–t–e–z–
+75 inite rex gait -> –i–n–i–t–e–r–e–x–g–a–i–t–
+76 mus paralle nost -> –m–u–s–p–a–r–a–l–l–e–n–o–s–t–
+77 etadata until stud -> –e–t–a–d–a–t–a–u–n–t–i–l–s–t–u–d–
+78 jections bede pengh -> –j–e–c–t–i–o–n–s–b–e–d–e–p–e–n–g–h–
+79 nders captur zgin -> –n–d–e–r–s–c–a–p–t–u–r–z–g–i–n–
+80 nyv advertis grecque -> –n–y–v–a–d–v–e–r–t–i–s–g–r–e–c–q–u–e–
+81 vente tomb hubungan -> –v–e–n–t–e–t–o–m–b–h–u–b–u–n–g–a–n–
+82 anno entity rozhod -> –a–n–n–o–e–n–t–i–t–y–r–o–z–h–o–d–
+83 ensin contrary palazzo -> –e–n–s–i–n–c–o–n–t–r–a–r–y–p–a–l–a–z–z–o–
+84 ataj prefect hitz -> –a–t–a–j–p–r–e–f–e–c–t–h–i–t–z–
+85 sak entorno kurul -> –s–a–k–e–n–t–o–r–n–o–k–u–r–u–l–
+86 arrows annuelle unul -> –a–r–r–o–w–s–a–n–n–u–e–l–l–e–u–n–u–l–
+87 activate viens urugu -> –a–c–t–i–v–a–t–e–v–i–e–n–s–u–r–u–g–u–
+88 isuus arches excess -> –i–s–u–u–s–a–r–c–h–e–s–e–x–c–e–s–s–
+89 artu kval suffer -> –a–r–t–u–k–v–a–l–s–u–f–f–e–r–
+90 halt bac powod -> –h–a–l–t–b–a–c–p–o–w–o–d–
+91 byter afer worker -> –b–y–t–e–r–a–f–e–r–w–o–r–k–e–r–
+92 izens tels belts -> –i–z–e–n–s–t–e–l–s–b–e–l–t–s–
+93 appy recently knapp -> –a–p–p–y–r–e–c–e–n–t–l–y–k–n–a–p–p–
+94 preuve positiva prol -> –p–r–e–u–v–e–p–o–s–i–t–i–v–a–p–r–o–l–
+95 atosis discurso anest -> –a–t–o–s–i–s–d–i–s–c–u–r–s–o–a–n–e–s–t–
+96 chau deco oncology -> –c–h–a–u–d–e–c–o–o–n–c–o–l–o–g–y–
+97 adon riding gent -> –a–d–o–n–r–i–d–i–n–g–g–e–n–t–
+98 mittel estuvo due -> –m–i–t–t–e–l–e–s–t–u–v–o–d–u–e–
+99 pland stazione sufr -> –p–l–a–n–d–s–t–a–z–i–o–n–e–s–u–f–r–

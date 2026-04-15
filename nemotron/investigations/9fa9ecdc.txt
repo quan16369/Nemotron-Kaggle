@@ -1,0 +1,33 @@
+problem id: 9fa9ecdc
+category: equation_numeric_guess
+
+examples:
+- 97%32 = 3103
+- 25/84 = 109
+- 31%85 = 2634
+- 59/46 = 105
+- 45/67 = 112
+- query: 50^86
+
+inferred rule:
+- `/` is ordinary addition.
+- `%` is multiplication minus 1.
+- The query operator `^` is not shown in the examples, so the final step is an inference. The most plausible remaining basic rule is absolute difference.
+
+why this fits the examples:
+- 25/84 = 25 + 84 = 109
+- 59/46 = 59 + 46 = 105
+- 45/67 = 45 + 67 = 112
+- 97%32 = 97 x 32 - 1 = 3104 - 1 = 3103
+- 31%85 = 31 x 85 - 1 = 2635 - 1 = 2634
+
+step-by-step application to the query:
+1. Read the query as 50 ^ 86.
+2. Since `^` is unseen, use the best-fitting remaining arithmetic rule: absolute difference.
+3. Compute |50 - 86| = 36.
+
+predicted answer:
+36
+
+confidence note:
+Medium. The `/` and `%` rules are strongly supported by the examples. The `^` rule is not directly demonstrated, so the last step is an informed inference rather than a proved mapping.

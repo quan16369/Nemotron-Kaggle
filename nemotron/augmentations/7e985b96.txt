@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 ilty neuro uyg
+01 ensory trains pink
+02 ilar sher noms
+
+This is a sample output.
+00 ilty neuro uyg -> –i–l–t–y–n–e–u–r–o–u–y–g–
+01 ensory trains pink -> –e–n–s–o–r–y–t–r–a–i–n–s–p–i–n–k–
+02 ilar sher noms -> –i–l–a–r–s–h–e–r–n–o–m–s–
+
+This is your input.
+00 cito unmittel highest
+01 ierenden help oxygen
+02 ially concern crashed
+03 endue equation ell
+04 berger argc argon
+05 ortal nus enemy
+06 unjukkan taxi sierpnia
+07 orga atteint also
+08 roffenen prosecut ventes
+09 tit simb autonomy
+10 iqu espan enlight
+11 asha fell chars
+12 isinin cumpl mondiale
+13 oo dura bracket
+14 uest pretty criter
+15 iseer tampoco legacy
+16 apses siblings magique
+17 pars pilotes baisse
+18 glied predomin libros
+19 zeichnet optim beeld
+20 hofs income lucky
+21 inson try ilm
+22 ustos verify itu
+23 textbf bring ern
+24 lijn titel daite
+25 args picnic cann
+26 mspace couvent conforme
+27 orage bbox bank
+28 raca ott colpo
+29 amed tissu vuelo
+30 ismu auteur pavillon
+31 verein whom quebr
+32 oller vince hinunter
+33 rote fs signor
+34 innings anticoag sabor
+35 ulfide werde desac
+36 flement lect hint
+37 antidad sint merging
+38 chaff seizure amalgam
+39 volatile princip withdrew
+40 udian harness consecu
+41 beeld jumps nuestra
+42 eper proclam holistic
+43 scene attaques clamping
+44 herme aire hierdie
+45 dade tul reinado
+46 yska weather funny
+47 katan moy rol
+48 adapter truc tree
+49 ativ forensic murder
+50 erde folds categ
+51 oves hans mitotic
+52 lations resemble ctrl
+53 eran prolong komunik
+54 atrice secrecy moest
+55 inion coronary tribe
+56 rait julkais billets
+57 erland mapping unclear
+58 olu smiled analy
+59 olat alveolar gezogen
+60 cription contex driven
+61 ossa females gizon
+62 lede ador template
+63 fluence markdown khoa
+64 agai exhibit weekly
+65 uch pantal pierde
+66 oline ditu azul
+67 asten geven churn
+68 along rive retom
+69 ishes troubl single
+70 prefix doors pool
+71 ariate ritual hap
+72 phy offen wrong
+73 rode fname cook
+74 origine udaler occupant
+75 segment scena invested
+76 kor hometown abused
+77 ieju septemb enamel
+78 irez excav noroeste
+79 akit avvic jefe
+80 perform consume tilb
+81 uchen forget dispost
+82 urso lame monsieur
+83 ossz bateria fils
+84 ricing right naw
+85 vendor openings player
+86 fish bl hesab
+87 kri screens ze
+88 odes kosten buon
+89 gyi patro tricks
+90 ylum albuma nimi
+91 bours pulled oma
+92 izlik expands escas
+93 itesi royalty repress
+94 lesias therm entero
+95 jenost rag sentito
+96 innt heteroc vuelto
+97 arring distract techo
+98 ctic hudeb readings
+99 lukan implode projetos
+[completion]
+00 cito unmittel highest -> –c–i–t–o–u–n–m–i–t–t–e–l–h–i–g–h–e–s–t–
+01 ierenden help oxygen -> –i–e–r–e–n–d–e–n–h–e–l–p–o–x–y–g–e–n–
+02 ially concern crashed -> –i–a–l–l–y–c–o–n–c–e–r–n–c–r–a–s–h–e–d–
+03 endue equation ell -> –e–n–d–u–e–e–q–u–a–t–i–o–n–e–l–l–
+04 berger argc argon -> –b–e–r–g–e–r–a–r–g–c–a–r–g–o–n–
+05 ortal nus enemy -> –o–r–t–a–l–n–u–s–e–n–e–m–y–
+06 unjukkan taxi sierpnia -> –u–n–j–u–k–k–a–n–t–a–x–i–s–i–e–r–p–n–i–a–
+07 orga atteint also -> –o–r–g–a–a–t–t–e–i–n–t–a–l–s–o–
+08 roffenen prosecut ventes -> –r–o–f–f–e–n–e–n–p–r–o–s–e–c–u–t–v–e–n–t–e–s–
+09 tit simb autonomy -> –t–i–t–s–i–m–b–a–u–t–o–n–o–m–y–
+10 iqu espan enlight -> –i–q–u–e–s–p–a–n–e–n–l–i–g–h–t–
+11 asha fell chars -> –a–s–h–a–f–e–l–l–c–h–a–r–s–
+12 isinin cumpl mondiale -> –i–s–i–n–i–n–c–u–m–p–l–m–o–n–d–i–a–l–e–
+13 oo dura bracket -> –o–o–d–u–r–a–b–r–a–c–k–e–t–
+14 uest pretty criter -> –u–e–s–t–p–r–e–t–t–y–c–r–i–t–e–r–
+15 iseer tampoco legacy -> –i–s–e–e–r–t–a–m–p–o–c–o–l–e–g–a–c–y–
+16 apses siblings magique -> –a–p–s–e–s–s–i–b–l–i–n–g–s–m–a–g–i–q–u–e–
+17 pars pilotes baisse -> –p–a–r–s–p–i–l–o–t–e–s–b–a–i–s–s–e–
+18 glied predomin libros -> –g–l–i–e–d–p–r–e–d–o–m–i–n–l–i–b–r–o–s–
+19 zeichnet optim beeld -> –z–e–i–c–h–n–e–t–o–p–t–i–m–b–e–e–l–d–
+20 hofs income lucky -> –h–o–f–s–i–n–c–o–m–e–l–u–c–k–y–
+21 inson try ilm -> –i–n–s–o–n–t–r–y–i–l–m–
+22 ustos verify itu -> –u–s–t–o–s–v–e–r–i–f–y–i–t–u–
+23 textbf bring ern -> –t–e–x–t–b–f–b–r–i–n–g–e–r–n–
+24 lijn titel daite -> –l–i–j–n–t–i–t–e–l–d–a–i–t–e–
+25 args picnic cann -> –a–r–g–s–p–i–c–n–i–c–c–a–n–n–
+26 mspace couvent conforme -> –m–s–p–a–c–e–c–o–u–v–e–n–t–c–o–n–f–o–r–m–e–
+27 orage bbox bank -> –o–r–a–g–e–b–b–o–x–b–a–n–k–
+28 raca ott colpo -> –r–a–c–a–o–t–t–c–o–l–p–o–
+29 amed tissu vuelo -> –a–m–e–d–t–i–s–s–u–v–u–e–l–o–
+30 ismu auteur pavillon -> –i–s–m–u–a–u–t–e–u–r–p–a–v–i–l–l–o–n–
+31 verein whom quebr -> –v–e–r–e–i–n–w–h–o–m–q–u–e–b–r–
+32 oller vince hinunter -> –o–l–l–e–r–v–i–n–c–e–h–i–n–u–n–t–e–r–
+33 rote fs signor -> –r–o–t–e–f–s–s–i–g–n–o–r–
+34 innings anticoag sabor -> –i–n–n–i–n–g–s–a–n–t–i–c–o–a–g–s–a–b–o–r–
+35 ulfide werde desac -> –u–l–f–i–d–e–w–e–r–d–e–d–e–s–a–c–
+36 flement lect hint -> –f–l–e–m–e–n–t–l–e–c–t–h–i–n–t–
+37 antidad sint merging -> –a–n–t–i–d–a–d–s–i–n–t–m–e–r–g–i–n–g–
+38 chaff seizure amalgam -> –c–h–a–f–f–s–e–i–z–u–r–e–a–m–a–l–g–a–m–
+39 volatile princip withdrew -> –v–o–l–a–t–i–l–e–p–r–i–n–c–i–p–w–i–t–h–d–r–e–w–
+40 udian harness consecu -> –u–d–i–a–n–h–a–r–n–e–s–s–c–o–n–s–e–c–u–
+41 beeld jumps nuestra -> –b–e–e–l–d–j–u–m–p–s–n–u–e–s–t–r–a–
+42 eper proclam holistic -> –e–p–e–r–p–r–o–c–l–a–m–h–o–l–i–s–t–i–c–
+43 scene attaques clamping -> –s–c–e–n–e–a–t–t–a–q–u–e–s–c–l–a–m–p–i–n–g–
+44 herme aire hierdie -> –h–e–r–m–e–a–i–r–e–h–i–e–r–d–i–e–
+45 dade tul reinado -> –d–a–d–e–t–u–l–r–e–i–n–a–d–o–
+46 yska weather funny -> –y–s–k–a–w–e–a–t–h–e–r–f–u–n–n–y–
+47 katan moy rol -> –k–a–t–a–n–m–o–y–r–o–l–
+48 adapter truc tree -> –a–d–a–p–t–e–r–t–r–u–c–t–r–e–e–
+49 ativ forensic murder -> –a–t–i–v–f–o–r–e–n–s–i–c–m–u–r–d–e–r–
+50 erde folds categ -> –e–r–d–e–f–o–l–d–s–c–a–t–e–g–
+51 oves hans mitotic -> –o–v–e–s–h–a–n–s–m–i–t–o–t–i–c–
+52 lations resemble ctrl -> –l–a–t–i–o–n–s–r–e–s–e–m–b–l–e–c–t–r–l–
+53 eran prolong komunik -> –e–r–a–n–p–r–o–l–o–n–g–k–o–m–u–n–i–k–
+54 atrice secrecy moest -> –a–t–r–i–c–e–s–e–c–r–e–c–y–m–o–e–s–t–
+55 inion coronary tribe -> –i–n–i–o–n–c–o–r–o–n–a–r–y–t–r–i–b–e–
+56 rait julkais billets -> –r–a–i–t–j–u–l–k–a–i–s–b–i–l–l–e–t–s–
+57 erland mapping unclear -> –e–r–l–a–n–d–m–a–p–p–i–n–g–u–n–c–l–e–a–r–
+58 olu smiled analy -> –o–l–u–s–m–i–l–e–d–a–n–a–l–y–
+59 olat alveolar gezogen -> –o–l–a–t–a–l–v–e–o–l–a–r–g–e–z–o–g–e–n–
+60 cription contex driven -> –c–r–i–p–t–i–o–n–c–o–n–t–e–x–d–r–i–v–e–n–
+61 ossa females gizon -> –o–s–s–a–f–e–m–a–l–e–s–g–i–z–o–n–
+62 lede ador template -> –l–e–d–e–a–d–o–r–t–e–m–p–l–a–t–e–
+63 fluence markdown khoa -> –f–l–u–e–n–c–e–m–a–r–k–d–o–w–n–k–h–o–a–
+64 agai exhibit weekly -> –a–g–a–i–e–x–h–i–b–i–t–w–e–e–k–l–y–
+65 uch pantal pierde -> –u–c–h–p–a–n–t–a–l–p–i–e–r–d–e–
+66 oline ditu azul -> –o–l–i–n–e–d–i–t–u–a–z–u–l–
+67 asten geven churn -> –a–s–t–e–n–g–e–v–e–n–c–h–u–r–n–
+68 along rive retom -> –a–l–o–n–g–r–i–v–e–r–e–t–o–m–
+69 ishes troubl single -> –i–s–h–e–s–t–r–o–u–b–l–s–i–n–g–l–e–
+70 prefix doors pool -> –p–r–e–f–i–x–d–o–o–r–s–p–o–o–l–
+71 ariate ritual hap -> –a–r–i–a–t–e–r–i–t–u–a–l–h–a–p–
+72 phy offen wrong -> –p–h–y–o–f–f–e–n–w–r–o–n–g–
+73 rode fname cook -> –r–o–d–e–f–n–a–m–e–c–o–o–k–
+74 origine udaler occupant -> –o–r–i–g–i–n–e–u–d–a–l–e–r–o–c–c–u–p–a–n–t–
+75 segment scena invested -> –s–e–g–m–e–n–t–s–c–e–n–a–i–n–v–e–s–t–e–d–
+76 kor hometown abused -> –k–o–r–h–o–m–e–t–o–w–n–a–b–u–s–e–d–
+77 ieju septemb enamel -> –i–e–j–u–s–e–p–t–e–m–b–e–n–a–m–e–l–
+78 irez excav noroeste -> –i–r–e–z–e–x–c–a–v–n–o–r–o–e–s–t–e–
+79 akit avvic jefe -> –a–k–i–t–a–v–v–i–c–j–e–f–e–
+80 perform consume tilb -> –p–e–r–f–o–r–m–c–o–n–s–u–m–e–t–i–l–b–
+81 uchen forget dispost -> –u–c–h–e–n–f–o–r–g–e–t–d–i–s–p–o–s–t–
+82 urso lame monsieur -> –u–r–s–o–l–a–m–e–m–o–n–s–i–e–u–r–
+83 ossz bateria fils -> –o–s–s–z–b–a–t–e–r–i–a–f–i–l–s–
+84 ricing right naw -> –r–i–c–i–n–g–r–i–g–h–t–n–a–w–
+85 vendor openings player -> –v–e–n–d–o–r–o–p–e–n–i–n–g–s–p–l–a–y–e–r–
+86 fish bl hesab -> –f–i–s–h–b–l–h–e–s–a–b–
+87 kri screens ze -> –k–r–i–s–c–r–e–e–n–s–z–e–
+88 odes kosten buon -> –o–d–e–s–k–o–s–t–e–n–b–u–o–n–
+89 gyi patro tricks -> –g–y–i–p–a–t–r–o–t–r–i–c–k–s–
+90 ylum albuma nimi -> –y–l–u–m–a–l–b–u–m–a–n–i–m–i–
+91 bours pulled oma -> –b–o–u–r–s–p–u–l–l–e–d–o–m–a–
+92 izlik expands escas -> –i–z–l–i–k–e–x–p–a–n–d–s–e–s–c–a–s–
+93 itesi royalty repress -> –i–t–e–s–i–r–o–y–a–l–t–y–r–e–p–r–e–s–s–
+94 lesias therm entero -> –l–e–s–i–a–s–t–h–e–r–m–e–n–t–e–r–o–
+95 jenost rag sentito -> –j–e–n–o–s–t–r–a–g–s–e–n–t–i–t–o–
+96 innt heteroc vuelto -> –i–n–n–t–h–e–t–e–r–o–c–v–u–e–l–t–o–
+97 arring distract techo -> –a–r–r–i–n–g–d–i–s–t–r–a–c–t–t–e–c–h–o–
+98 ctic hudeb readings -> –c–t–i–c–h–u–d–e–b–r–e–a–d–i–n–g–s–
+99 lukan implode projetos -> –l–u–k–a–n–i–m–p–l–o–d–e–p–r–o–j–e–t–o–s–

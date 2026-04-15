@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 haul beans pasado
+01 teau moiety kcal
+02 iest wyniku recinto
+
+This is a sample output.
+00 haul beans pasado -> –h–a–u–l–b–e–a–n–s–p–a–s–a–d–o–
+01 teau moiety kcal -> –t–e–a–u–m–o–i–e–t–y–k–c–a–l–
+02 iest wyniku recinto -> –i–e–s–t–w–y–n–i–k–u–r–e–c–i–n–t–o–
+
+This is your input.
+00 dua compost tijdens
+01 apes bathroom argile
+02 ceive rocky shortcut
+03 isierung czerwca trace
+04 itecture celebra denk
+05 uslar multe evoked
+06 mett navi fra
+07 akte randomly jovens
+08 hew routed estis
+09 ausse comb croy
+10 liy niemieck assault
+11 ln davvero compens
+12 antib lay autre
+13 emas then paar
+14 frak syringe peered
+15 alt fluorine deflect
+16 ible thesis adaptor
+17 elij evit diferen
+18 etzen poj upgrad
+19 swer desejo junge
+20 onk produt navios
+21 linear clarify pokud
+22 urie descrito fixed
+23 gression camps battle
+24 ba verified rights
+25 return diverses airplane
+26 justed eruption debajo
+27 auen tak nit
+28 launch presupp gardens
+29 itivity dep sok
+30 yente raid attach
+31 avano schaffen broadly
+32 ivil epile bateaux
+33 entukan peuvent dauer
+34 enet vog loin
+35 ypass entfernt diede
+36 marine tarp meter
+37 undle consci genom
+38 caire cosine movement
+39 jk falou pioneer
+40 sel bio exponent
+41 beam asunto produc
+42 ud salida broke
+43 ockeys cultivo branded
+44 escence entails aspect
+45 plik jet trent
+46 elligen ap divides
+47 ascular plunger trash
+48 itekten periode simpl
+49 aba registro ellen
+50 oled vette cuest
+51 adge nurse fee
+52 sw joue verbre
+53 abora entail ingreso
+54 kh fallait mia
+55 quita torment masc
+56 even mock tenis
+57 uttosto trailer alf
+58 holds kolem iste
+59 heart indip raconte
+60 pril lah wing
+61 initial motore bare
+62 rada threaten etwa
+63 ittiin traiter surn
+64 wy alta nimet
+65 chend rezerv km
+66 caff envers geen
+67 idia exited follows
+68 zsche listened intensiv
+69 dec happ elemento
+70 spur duplic linii
+71 aken debug kinet
+72 irs suivie rhythmic
+73 kal bicycle contoh
+74 index kaupung drum
+75 umin toute mint
+76 itado labels saliva
+77 ince partage over
+78 royo algemeen heutige
+79 export incap piezo
+80 third mettere opinions
+81 sample stesso drug
+82 kezi flott poucos
+83 itum alloc knows
+84 luents sal kraj
+85 ibern counties trova
+86 aldo town locking
+87 chae blant cam
+88 tru vital egal
+89 chst modest kurzen
+90 polar variance recht
+91 ighte mestu welding
+92 pn statues eski
+93 chan abut catalana
+94 koj fracture embassy
+95 zeption delight volant
+96 china vendido nail
+97 zwungen estos emerg
+98 voire tekint exagger
+99 gom buques classify
+[completion]
+00 dua compost tijdens -> –d–u–a–c–o–m–p–o–s–t–t–i–j–d–e–n–s–
+01 apes bathroom argile -> –a–p–e–s–b–a–t–h–r–o–o–m–a–r–g–i–l–e–
+02 ceive rocky shortcut -> –c–e–i–v–e–r–o–c–k–y–s–h–o–r–t–c–u–t–
+03 isierung czerwca trace -> –i–s–i–e–r–u–n–g–c–z–e–r–w–c–a–t–r–a–c–e–
+04 itecture celebra denk -> –i–t–e–c–t–u–r–e–c–e–l–e–b–r–a–d–e–n–k–
+05 uslar multe evoked -> –u–s–l–a–r–m–u–l–t–e–e–v–o–k–e–d–
+06 mett navi fra -> –m–e–t–t–n–a–v–i–f–r–a–
+07 akte randomly jovens -> –a–k–t–e–r–a–n–d–o–m–l–y–j–o–v–e–n–s–
+08 hew routed estis -> –h–e–w–r–o–u–t–e–d–e–s–t–i–s–
+09 ausse comb croy -> –a–u–s–s–e–c–o–m–b–c–r–o–y–
+10 liy niemieck assault -> –l–i–y–n–i–e–m–i–e–c–k–a–s–s–a–u–l–t–
+11 ln davvero compens -> –l–n–d–a–v–v–e–r–o–c–o–m–p–e–n–s–
+12 antib lay autre -> –a–n–t–i–b–l–a–y–a–u–t–r–e–
+13 emas then paar -> –e–m–a–s–t–h–e–n–p–a–a–r–
+14 frak syringe peered -> –f–r–a–k–s–y–r–i–n–g–e–p–e–e–r–e–d–
+15 alt fluorine deflect -> –a–l–t–f–l–u–o–r–i–n–e–d–e–f–l–e–c–t–
+16 ible thesis adaptor -> –i–b–l–e–t–h–e–s–i–s–a–d–a–p–t–o–r–
+17 elij evit diferen -> –e–l–i–j–e–v–i–t–d–i–f–e–r–e–n–
+18 etzen poj upgrad -> –e–t–z–e–n–p–o–j–u–p–g–r–a–d–
+19 swer desejo junge -> –s–w–e–r–d–e–s–e–j–o–j–u–n–g–e–
+20 onk produt navios -> –o–n–k–p–r–o–d–u–t–n–a–v–i–o–s–
+21 linear clarify pokud -> –l–i–n–e–a–r–c–l–a–r–i–f–y–p–o–k–u–d–
+22 urie descrito fixed -> –u–r–i–e–d–e–s–c–r–i–t–o–f–i–x–e–d–
+23 gression camps battle -> –g–r–e–s–s–i–o–n–c–a–m–p–s–b–a–t–t–l–e–
+24 ba verified rights -> –b–a–v–e–r–i–f–i–e–d–r–i–g–h–t–s–
+25 return diverses airplane -> –r–e–t–u–r–n–d–i–v–e–r–s–e–s–a–i–r–p–l–a–n–e–
+26 justed eruption debajo -> –j–u–s–t–e–d–e–r–u–p–t–i–o–n–d–e–b–a–j–o–
+27 auen tak nit -> –a–u–e–n–t–a–k–n–i–t–
+28 launch presupp gardens -> –l–a–u–n–c–h–p–r–e–s–u–p–p–g–a–r–d–e–n–s–
+29 itivity dep sok -> –i–t–i–v–i–t–y–d–e–p–s–o–k–
+30 yente raid attach -> –y–e–n–t–e–r–a–i–d–a–t–t–a–c–h–
+31 avano schaffen broadly -> –a–v–a–n–o–s–c–h–a–f–f–e–n–b–r–o–a–d–l–y–
+32 ivil epile bateaux -> –i–v–i–l–e–p–i–l–e–b–a–t–e–a–u–x–
+33 entukan peuvent dauer -> –e–n–t–u–k–a–n–p–e–u–v–e–n–t–d–a–u–e–r–
+34 enet vog loin -> –e–n–e–t–v–o–g–l–o–i–n–
+35 ypass entfernt diede -> –y–p–a–s–s–e–n–t–f–e–r–n–t–d–i–e–d–e–
+36 marine tarp meter -> –m–a–r–i–n–e–t–a–r–p–m–e–t–e–r–
+37 undle consci genom -> –u–n–d–l–e–c–o–n–s–c–i–g–e–n–o–m–
+38 caire cosine movement -> –c–a–i–r–e–c–o–s–i–n–e–m–o–v–e–m–e–n–t–
+39 jk falou pioneer -> –j–k–f–a–l–o–u–p–i–o–n–e–e–r–
+40 sel bio exponent -> –s–e–l–b–i–o–e–x–p–o–n–e–n–t–
+41 beam asunto produc -> –b–e–a–m–a–s–u–n–t–o–p–r–o–d–u–c–
+42 ud salida broke -> –u–d–s–a–l–i–d–a–b–r–o–k–e–
+43 ockeys cultivo branded -> –o–c–k–e–y–s–c–u–l–t–i–v–o–b–r–a–n–d–e–d–
+44 escence entails aspect -> –e–s–c–e–n–c–e–e–n–t–a–i–l–s–a–s–p–e–c–t–
+45 plik jet trent -> –p–l–i–k–j–e–t–t–r–e–n–t–
+46 elligen ap divides -> –e–l–l–i–g–e–n–a–p–d–i–v–i–d–e–s–
+47 ascular plunger trash -> –a–s–c–u–l–a–r–p–l–u–n–g–e–r–t–r–a–s–h–
+48 itekten periode simpl -> –i–t–e–k–t–e–n–p–e–r–i–o–d–e–s–i–m–p–l–
+49 aba registro ellen -> –a–b–a–r–e–g–i–s–t–r–o–e–l–l–e–n–
+50 oled vette cuest -> –o–l–e–d–v–e–t–t–e–c–u–e–s–t–
+51 adge nurse fee -> –a–d–g–e–n–u–r–s–e–f–e–e–
+52 sw joue verbre -> –s–w–j–o–u–e–v–e–r–b–r–e–
+53 abora entail ingreso -> –a–b–o–r–a–e–n–t–a–i–l–i–n–g–r–e–s–o–
+54 kh fallait mia -> –k–h–f–a–l–l–a–i–t–m–i–a–
+55 quita torment masc -> –q–u–i–t–a–t–o–r–m–e–n–t–m–a–s–c–
+56 even mock tenis -> –e–v–e–n–m–o–c–k–t–e–n–i–s–
+57 uttosto trailer alf -> –u–t–t–o–s–t–o–t–r–a–i–l–e–r–a–l–f–
+58 holds kolem iste -> –h–o–l–d–s–k–o–l–e–m–i–s–t–e–
+59 heart indip raconte -> –h–e–a–r–t–i–n–d–i–p–r–a–c–o–n–t–e–
+60 pril lah wing -> –p–r–i–l–l–a–h–w–i–n–g–
+61 initial motore bare -> –i–n–i–t–i–a–l–m–o–t–o–r–e–b–a–r–e–
+62 rada threaten etwa -> –r–a–d–a–t–h–r–e–a–t–e–n–e–t–w–a–
+63 ittiin traiter surn -> –i–t–t–i–i–n–t–r–a–i–t–e–r–s–u–r–n–
+64 wy alta nimet -> –w–y–a–l–t–a–n–i–m–e–t–
+65 chend rezerv km -> –c–h–e–n–d–r–e–z–e–r–v–k–m–
+66 caff envers geen -> –c–a–f–f–e–n–v–e–r–s–g–e–e–n–
+67 idia exited follows -> –i–d–i–a–e–x–i–t–e–d–f–o–l–l–o–w–s–
+68 zsche listened intensiv -> –z–s–c–h–e–l–i–s–t–e–n–e–d–i–n–t–e–n–s–i–v–
+69 dec happ elemento -> –d–e–c–h–a–p–p–e–l–e–m–e–n–t–o–
+70 spur duplic linii -> –s–p–u–r–d–u–p–l–i–c–l–i–n–i–i–
+71 aken debug kinet -> –a–k–e–n–d–e–b–u–g–k–i–n–e–t–
+72 irs suivie rhythmic -> –i–r–s–s–u–i–v–i–e–r–h–y–t–h–m–i–c–
+73 kal bicycle contoh -> –k–a–l–b–i–c–y–c–l–e–c–o–n–t–o–h–
+74 index kaupung drum -> –i–n–d–e–x–k–a–u–p–u–n–g–d–r–u–m–
+75 umin toute mint -> –u–m–i–n–t–o–u–t–e–m–i–n–t–
+76 itado labels saliva -> –i–t–a–d–o–l–a–b–e–l–s–s–a–l–i–v–a–
+77 ince partage over -> –i–n–c–e–p–a–r–t–a–g–e–o–v–e–r–
+78 royo algemeen heutige -> –r–o–y–o–a–l–g–e–m–e–e–n–h–e–u–t–i–g–e–
+79 export incap piezo -> –e–x–p–o–r–t–i–n–c–a–p–p–i–e–z–o–
+80 third mettere opinions -> –t–h–i–r–d–m–e–t–t–e–r–e–o–p–i–n–i–o–n–s–
+81 sample stesso drug -> –s–a–m–p–l–e–s–t–e–s–s–o–d–r–u–g–
+82 kezi flott poucos -> –k–e–z–i–f–l–o–t–t–p–o–u–c–o–s–
+83 itum alloc knows -> –i–t–u–m–a–l–l–o–c–k–n–o–w–s–
+84 luents sal kraj -> –l–u–e–n–t–s–s–a–l–k–r–a–j–
+85 ibern counties trova -> –i–b–e–r–n–c–o–u–n–t–i–e–s–t–r–o–v–a–
+86 aldo town locking -> –a–l–d–o–t–o–w–n–l–o–c–k–i–n–g–
+87 chae blant cam -> –c–h–a–e–b–l–a–n–t–c–a–m–
+88 tru vital egal -> –t–r–u–v–i–t–a–l–e–g–a–l–
+89 chst modest kurzen -> –c–h–s–t–m–o–d–e–s–t–k–u–r–z–e–n–
+90 polar variance recht -> –p–o–l–a–r–v–a–r–i–a–n–c–e–r–e–c–h–t–
+91 ighte mestu welding -> –i–g–h–t–e–m–e–s–t–u–w–e–l–d–i–n–g–
+92 pn statues eski -> –p–n–s–t–a–t–u–e–s–e–s–k–i–
+93 chan abut catalana -> –c–h–a–n–a–b–u–t–c–a–t–a–l–a–n–a–
+94 koj fracture embassy -> –k–o–j–f–r–a–c–t–u–r–e–e–m–b–a–s–s–y–
+95 zeption delight volant -> –z–e–p–t–i–o–n–d–e–l–i–g–h–t–v–o–l–a–n–t–
+96 china vendido nail -> –c–h–i–n–a–v–e–n–d–i–d–o–n–a–i–l–
+97 zwungen estos emerg -> –z–w–u–n–g–e–n–e–s–t–o–s–e–m–e–r–g–
+98 voire tekint exagger -> –v–o–i–r–e–t–e–k–i–n–t–e–x–a–g–g–e–r–
+99 gom buques classify -> –g–o–m–b–u–q–u–e–s–c–l–a–s–s–i–f–y–

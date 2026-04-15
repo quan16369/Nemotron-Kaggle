@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 ruz natuur concept
+01 haupt formalin develop
+02 inar infamous gathered
+
+This is a sample output.
+00 ruz natuur concept -> –r–u–z–n–a–t–u–u–r–c–o–n–c–e–p–t–
+01 haupt formalin develop -> –h–a–u–p–t–f–o–r–m–a–l–i–n–d–e–v–e–l–o–p–
+02 inar infamous gathered -> –i–n–a–r–i–n–f–a–m–o–u–s–g–a–t–h–e–r–e–d–
+
+This is your input.
+00 andbox accompan seda
+01 cza detox snippet
+02 odet znaj sulfon
+03 hek reports passive
+04 ylate adept gjith
+05 hao recouv taking
+06 ory sil pond
+07 anim turning cosmic
+08 charge beider horizont
+09 werp hubiese throttle
+10 steller wan monst
+11 major retrans brach
+12 opolitan aquellos abund
+13 iseks estrateg imped
+14 cz female prefers
+15 ftar ovvero herm
+16 features repet terug
+17 bilt harml offence
+18 pora giovane pisos
+19 ustomed caz compar
+20 lices vocals surround
+21 ials igen byg
+22 ollary year botan
+23 orth kjent hears
+24 enco amylo enrolled
+25 athol linna halfway
+26 ikte chromium shuffled
+27 adi batean walls
+28 callback aimait venues
+29 pectrum actress point
+30 odzi divis draped
+31 unehmen erud ulcer
+32 ldrich aurr dislike
+33 aya remed reversal
+34 ocation trz witch
+35 imai gh editor
+36 ynn pronunci flash
+37 ratch needles okre
+38 trade arrested concerto
+39 antin hasil erb
+40 argument him remarks
+41 observ bringing stor
+42 izi sente gcc
+43 ron patients faible
+44 icode fauteu bepa
+45 iaque enter textual
+46 ved hover poc
+47 ouin kial wyda
+48 oarece fibrous cot
+49 keeping corred modello
+50 radi pkg bordo
+51 beck foraging durant
+52 ex unaware solder
+53 atges fights une
+54 aj torno spine
+55 hibition perang meadow
+56 ropic utilitz fc
+57 ls mosaic flank
+58 waukee superfic fare
+59 similar agricole restaur
+60 ilder alph enable
+61 arni shelf cost
+62 orry revenus welfare
+63 opold bijna replied
+64 uc amine escriure
+65 avl nesse allora
+66 adt kwam encrypt
+67 adir yapt nostra
+68 etch mehrere malign
+69 iegen toege homem
+70 adik objetivo horr
+71 anca vivants render
+72 ened kunde stream
+73 ents warmed visions
+74 anic atom amber
+75 rijke kling kingdom
+76 tra geb fields
+77 uman vat savun
+78 ins aux imb
+79 rolet perioada humain
+80 aties complex present
+81 yki north needed
+82 ail zn proves
+83 elio extends ers
+84 gericht regista preko
+85 ifornia wouldn jaro
+86 idy equival aport
+87 anmoins pity immagin
+88 cona rollers larges
+89 meida benoem lup
+90 ipeline amikor wereld
+91 ollern scared hort
+92 acteur conect relent
+93 baren papiers fant
+94 iena fratt checkbox
+95 huis obj bizi
+96 otimes filiale puol
+97 uclease coex pantalon
+98 transfer nossa vila
+99 flatten els fizeram
+[completion]
+00 andbox accompan seda -> –a–n–d–b–o–x–a–c–c–o–m–p–a–n–s–e–d–a–
+01 cza detox snippet -> –c–z–a–d–e–t–o–x–s–n–i–p–p–e–t–
+02 odet znaj sulfon -> –o–d–e–t–z–n–a–j–s–u–l–f–o–n–
+03 hek reports passive -> –h–e–k–r–e–p–o–r–t–s–p–a–s–s–i–v–e–
+04 ylate adept gjith -> –y–l–a–t–e–a–d–e–p–t–g–j–i–t–h–
+05 hao recouv taking -> –h–a–o–r–e–c–o–u–v–t–a–k–i–n–g–
+06 ory sil pond -> –o–r–y–s–i–l–p–o–n–d–
+07 anim turning cosmic -> –a–n–i–m–t–u–r–n–i–n–g–c–o–s–m–i–c–
+08 charge beider horizont -> –c–h–a–r–g–e–b–e–i–d–e–r–h–o–r–i–z–o–n–t–
+09 werp hubiese throttle -> –w–e–r–p–h–u–b–i–e–s–e–t–h–r–o–t–t–l–e–
+10 steller wan monst -> –s–t–e–l–l–e–r–w–a–n–m–o–n–s–t–
+11 major retrans brach -> –m–a–j–o–r–r–e–t–r–a–n–s–b–r–a–c–h–
+12 opolitan aquellos abund -> –o–p–o–l–i–t–a–n–a–q–u–e–l–l–o–s–a–b–u–n–d–
+13 iseks estrateg imped -> –i–s–e–k–s–e–s–t–r–a–t–e–g–i–m–p–e–d–
+14 cz female prefers -> –c–z–f–e–m–a–l–e–p–r–e–f–e–r–s–
+15 ftar ovvero herm -> –f–t–a–r–o–v–v–e–r–o–h–e–r–m–
+16 features repet terug -> –f–e–a–t–u–r–e–s–r–e–p–e–t–t–e–r–u–g–
+17 bilt harml offence -> –b–i–l–t–h–a–r–m–l–o–f–f–e–n–c–e–
+18 pora giovane pisos -> –p–o–r–a–g–i–o–v–a–n–e–p–i–s–o–s–
+19 ustomed caz compar -> –u–s–t–o–m–e–d–c–a–z–c–o–m–p–a–r–
+20 lices vocals surround -> –l–i–c–e–s–v–o–c–a–l–s–s–u–r–r–o–u–n–d–
+21 ials igen byg -> –i–a–l–s–i–g–e–n–b–y–g–
+22 ollary year botan -> –o–l–l–a–r–y–y–e–a–r–b–o–t–a–n–
+23 orth kjent hears -> –o–r–t–h–k–j–e–n–t–h–e–a–r–s–
+24 enco amylo enrolled -> –e–n–c–o–a–m–y–l–o–e–n–r–o–l–l–e–d–
+25 athol linna halfway -> –a–t–h–o–l–l–i–n–n–a–h–a–l–f–w–a–y–
+26 ikte chromium shuffled -> –i–k–t–e–c–h–r–o–m–i–u–m–s–h–u–f–f–l–e–d–
+27 adi batean walls -> –a–d–i–b–a–t–e–a–n–w–a–l–l–s–
+28 callback aimait venues -> –c–a–l–l–b–a–c–k–a–i–m–a–i–t–v–e–n–u–e–s–
+29 pectrum actress point -> –p–e–c–t–r–u–m–a–c–t–r–e–s–s–p–o–i–n–t–
+30 odzi divis draped -> –o–d–z–i–d–i–v–i–s–d–r–a–p–e–d–
+31 unehmen erud ulcer -> –u–n–e–h–m–e–n–e–r–u–d–u–l–c–e–r–
+32 ldrich aurr dislike -> –l–d–r–i–c–h–a–u–r–r–d–i–s–l–i–k–e–
+33 aya remed reversal -> –a–y–a–r–e–m–e–d–r–e–v–e–r–s–a–l–
+34 ocation trz witch -> –o–c–a–t–i–o–n–t–r–z–w–i–t–c–h–
+35 imai gh editor -> –i–m–a–i–g–h–e–d–i–t–o–r–
+36 ynn pronunci flash -> –y–n–n–p–r–o–n–u–n–c–i–f–l–a–s–h–
+37 ratch needles okre -> –r–a–t–c–h–n–e–e–d–l–e–s–o–k–r–e–
+38 trade arrested concerto -> –t–r–a–d–e–a–r–r–e–s–t–e–d–c–o–n–c–e–r–t–o–
+39 antin hasil erb -> –a–n–t–i–n–h–a–s–i–l–e–r–b–
+40 argument him remarks -> –a–r–g–u–m–e–n–t–h–i–m–r–e–m–a–r–k–s–
+41 observ bringing stor -> –o–b–s–e–r–v–b–r–i–n–g–i–n–g–s–t–o–r–
+42 izi sente gcc -> –i–z–i–s–e–n–t–e–g–c–c–
+43 ron patients faible -> –r–o–n–p–a–t–i–e–n–t–s–f–a–i–b–l–e–
+44 icode fauteu bepa -> –i–c–o–d–e–f–a–u–t–e–u–b–e–p–a–
+45 iaque enter textual -> –i–a–q–u–e–e–n–t–e–r–t–e–x–t–u–a–l–
+46 ved hover poc -> –v–e–d–h–o–v–e–r–p–o–c–
+47 ouin kial wyda -> –o–u–i–n–k–i–a–l–w–y–d–a–
+48 oarece fibrous cot -> –o–a–r–e–c–e–f–i–b–r–o–u–s–c–o–t–
+49 keeping corred modello -> –k–e–e–p–i–n–g–c–o–r–r–e–d–m–o–d–e–l–l–o–
+50 radi pkg bordo -> –r–a–d–i–p–k–g–b–o–r–d–o–
+51 beck foraging durant -> –b–e–c–k–f–o–r–a–g–i–n–g–d–u–r–a–n–t–
+52 ex unaware solder -> –e–x–u–n–a–w–a–r–e–s–o–l–d–e–r–
+53 atges fights une -> –a–t–g–e–s–f–i–g–h–t–s–u–n–e–
+54 aj torno spine -> –a–j–t–o–r–n–o–s–p–i–n–e–
+55 hibition perang meadow -> –h–i–b–i–t–i–o–n–p–e–r–a–n–g–m–e–a–d–o–w–
+56 ropic utilitz fc -> –r–o–p–i–c–u–t–i–l–i–t–z–f–c–
+57 ls mosaic flank -> –l–s–m–o–s–a–i–c–f–l–a–n–k–
+58 waukee superfic fare -> –w–a–u–k–e–e–s–u–p–e–r–f–i–c–f–a–r–e–
+59 similar agricole restaur -> –s–i–m–i–l–a–r–a–g–r–i–c–o–l–e–r–e–s–t–a–u–r–
+60 ilder alph enable -> –i–l–d–e–r–a–l–p–h–e–n–a–b–l–e–
+61 arni shelf cost -> –a–r–n–i–s–h–e–l–f–c–o–s–t–
+62 orry revenus welfare -> –o–r–r–y–r–e–v–e–n–u–s–w–e–l–f–a–r–e–
+63 opold bijna replied -> –o–p–o–l–d–b–i–j–n–a–r–e–p–l–i–e–d–
+64 uc amine escriure -> –u–c–a–m–i–n–e–e–s–c–r–i–u–r–e–
+65 avl nesse allora -> –a–v–l–n–e–s–s–e–a–l–l–o–r–a–
+66 adt kwam encrypt -> –a–d–t–k–w–a–m–e–n–c–r–y–p–t–
+67 adir yapt nostra -> –a–d–i–r–y–a–p–t–n–o–s–t–r–a–
+68 etch mehrere malign -> –e–t–c–h–m–e–h–r–e–r–e–m–a–l–i–g–n–
+69 iegen toege homem -> –i–e–g–e–n–t–o–e–g–e–h–o–m–e–m–
+70 adik objetivo horr -> –a–d–i–k–o–b–j–e–t–i–v–o–h–o–r–r–
+71 anca vivants render -> –a–n–c–a–v–i–v–a–n–t–s–r–e–n–d–e–r–
+72 ened kunde stream -> –e–n–e–d–k–u–n–d–e–s–t–r–e–a–m–
+73 ents warmed visions -> –e–n–t–s–w–a–r–m–e–d–v–i–s–i–o–n–s–
+74 anic atom amber -> –a–n–i–c–a–t–o–m–a–m–b–e–r–
+75 rijke kling kingdom -> –r–i–j–k–e–k–l–i–n–g–k–i–n–g–d–o–m–
+76 tra geb fields -> –t–r–a–g–e–b–f–i–e–l–d–s–
+77 uman vat savun -> –u–m–a–n–v–a–t–s–a–v–u–n–
+78 ins aux imb -> –i–n–s–a–u–x–i–m–b–
+79 rolet perioada humain -> –r–o–l–e–t–p–e–r–i–o–a–d–a–h–u–m–a–i–n–
+80 aties complex present -> –a–t–i–e–s–c–o–m–p–l–e–x–p–r–e–s–e–n–t–
+81 yki north needed -> –y–k–i–n–o–r–t–h–n–e–e–d–e–d–
+82 ail zn proves -> –a–i–l–z–n–p–r–o–v–e–s–
+83 elio extends ers -> –e–l–i–o–e–x–t–e–n–d–s–e–r–s–
+84 gericht regista preko -> –g–e–r–i–c–h–t–r–e–g–i–s–t–a–p–r–e–k–o–
+85 ifornia wouldn jaro -> –i–f–o–r–n–i–a–w–o–u–l–d–n–j–a–r–o–
+86 idy equival aport -> –i–d–y–e–q–u–i–v–a–l–a–p–o–r–t–
+87 anmoins pity immagin -> –a–n–m–o–i–n–s–p–i–t–y–i–m–m–a–g–i–n–
+88 cona rollers larges -> –c–o–n–a–r–o–l–l–e–r–s–l–a–r–g–e–s–
+89 meida benoem lup -> –m–e–i–d–a–b–e–n–o–e–m–l–u–p–
+90 ipeline amikor wereld -> –i–p–e–l–i–n–e–a–m–i–k–o–r–w–e–r–e–l–d–
+91 ollern scared hort -> –o–l–l–e–r–n–s–c–a–r–e–d–h–o–r–t–
+92 acteur conect relent -> –a–c–t–e–u–r–c–o–n–e–c–t–r–e–l–e–n–t–
+93 baren papiers fant -> –b–a–r–e–n–p–a–p–i–e–r–s–f–a–n–t–
+94 iena fratt checkbox -> –i–e–n–a–f–r–a–t–t–c–h–e–c–k–b–o–x–
+95 huis obj bizi -> –h–u–i–s–o–b–j–b–i–z–i–
+96 otimes filiale puol -> –o–t–i–m–e–s–f–i–l–i–a–l–e–p–u–o–l–
+97 uclease coex pantalon -> –u–c–l–e–a–s–e–c–o–e–x–p–a–n–t–a–l–o–n–
+98 transfer nossa vila -> –t–r–a–n–s–f–e–r–n–o–s–s–a–v–i–l–a–
+99 flatten els fizeram -> –f–l–a–t–t–e–n–e–l–s–f–i–z–e–r–a–m–

@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 iyi tog profil
+01 uros mucosal opera
+02 ilm novia uitge
+
+This is a sample output.
+00 iyi tog profil -> –i–y–i–t–o–g–p–r–o–f–i–l–
+01 uros mucosal opera -> –u–r–o–s–m–u–c–o–s–a–l–o–p–e–r–a–
+02 ilm novia uitge -> –i–l–m–n–o–v–i–a–u–i–t–g–e–
+
+This is your input.
+00 ighting verbre entail
+01 angun ingreso fallait
+02 estock mia torment
+03 ug masc mock
+04 perp tenis trailer
+05 tri alf kolem
+06 ersi iste indip
+07 ebiz raconte lah
+08 spoken wing motore
+09 tb bare threaten
+10 db etwa traiter
+11 ococ surn alta
+12 arta nimet rezerv
+13 ricos km envers
+14 alisco geen exited
+15 lje follows listened
+16 edom intensiv happ
+17 uff elemento duplic
+18 ribut linii debug
+19 zca kinet suivie
+20 otine rhythmic bicycle
+21 strument contoh kaupung
+22 ptides drum toute
+23 ritannia mint labels
+24 sprach saliva partage
+25 zuf over algemeen
+26 upy heutige incap
+27 ift piezo mettere
+28 iemi opinions stesso
+29 mero drug flott
+30 accepted poucos alloc
+31 orit knows sal
+32 teil kraj counties
+33 les trova town
+34 checkbox locking blant
+35 igenous cam vital
+36 por egal modest
+37 gor kurzen variance
+38 ppy recht mestu
+39 eprav welding statues
+40 phant eski abut
+41 liq catalana fracture
+42 aru embassy delight
+43 pekt volant vendido
+44 uary nail estos
+45 mini emerg tekint
+46 gest exagger buques
+47 jsx classify tercero
+48 yse flanked sagte
+49 kowej vuonna brev
+50 erc curved ait
+51 opt samb pourrait
+52 ibt draw kontrak
+53 jarige deform em
+54 oscopy trente refugi
+55 amas profess allies
+56 orp coval erwart
+57 uesa interc terrenos
+58 ocaine vred quo
+59 riaren ripple uchun
+60 endi ember entstand
+61 emption estaba meine
+62 binary fundada formulas
+63 alez sea ilg
+64 idos cer adinaren
+65 owana axios qildi
+66 aydi sout aprilie
+67 uskal username markings
+68 rochen surreal bureauc
+69 arly clust fisher
+70 rache polskich previous
+71 combe catar forse
+72 greater begeg arabes
+73 built august jak
+74 ives citizen destiny
+75 ulture conflict chond
+76 ret han trunc
+77 obe mezi nowrap
+78 ula cations respi
+79 line ondoren ult
+80 poll meczu athlet
+81 rompt filmi dominer
+82 fix mann quality
+83 endet patrons formul
+84 owa tide pripad
+85 isi mulai orta
+86 ilig fal dio
+87 quial batalha acab
+88 vention laul pris
+89 shire kie class
+90 gomery fabrik beliau
+91 itrile rocks thin
+92 merchant cooled vissza
+93 raul porod nage
+94 hyde quarts xin
+95 med odst larvae
+96 wanda evil kerana
+97 clip oubl sixth
+98 apsing devenue territor
+99 essin seraient retrieve
+[completion]
+00 ighting verbre entail -> –i–g–h–t–i–n–g–v–e–r–b–r–e–e–n–t–a–i–l–
+01 angun ingreso fallait -> –a–n–g–u–n–i–n–g–r–e–s–o–f–a–l–l–a–i–t–
+02 estock mia torment -> –e–s–t–o–c–k–m–i–a–t–o–r–m–e–n–t–
+03 ug masc mock -> –u–g–m–a–s–c–m–o–c–k–
+04 perp tenis trailer -> –p–e–r–p–t–e–n–i–s–t–r–a–i–l–e–r–
+05 tri alf kolem -> –t–r–i–a–l–f–k–o–l–e–m–
+06 ersi iste indip -> –e–r–s–i–i–s–t–e–i–n–d–i–p–
+07 ebiz raconte lah -> –e–b–i–z–r–a–c–o–n–t–e–l–a–h–
+08 spoken wing motore -> –s–p–o–k–e–n–w–i–n–g–m–o–t–o–r–e–
+09 tb bare threaten -> –t–b–b–a–r–e–t–h–r–e–a–t–e–n–
+10 db etwa traiter -> –d–b–e–t–w–a–t–r–a–i–t–e–r–
+11 ococ surn alta -> –o–c–o–c–s–u–r–n–a–l–t–a–
+12 arta nimet rezerv -> –a–r–t–a–n–i–m–e–t–r–e–z–e–r–v–
+13 ricos km envers -> –r–i–c–o–s–k–m–e–n–v–e–r–s–
+14 alisco geen exited -> –a–l–i–s–c–o–g–e–e–n–e–x–i–t–e–d–
+15 lje follows listened -> –l–j–e–f–o–l–l–o–w–s–l–i–s–t–e–n–e–d–
+16 edom intensiv happ -> –e–d–o–m–i–n–t–e–n–s–i–v–h–a–p–p–
+17 uff elemento duplic -> –u–f–f–e–l–e–m–e–n–t–o–d–u–p–l–i–c–
+18 ribut linii debug -> –r–i–b–u–t–l–i–n–i–i–d–e–b–u–g–
+19 zca kinet suivie -> –z–c–a–k–i–n–e–t–s–u–i–v–i–e–
+20 otine rhythmic bicycle -> –o–t–i–n–e–r–h–y–t–h–m–i–c–b–i–c–y–c–l–e–
+21 strument contoh kaupung -> –s–t–r–u–m–e–n–t–c–o–n–t–o–h–k–a–u–p–u–n–g–
+22 ptides drum toute -> –p–t–i–d–e–s–d–r–u–m–t–o–u–t–e–
+23 ritannia mint labels -> –r–i–t–a–n–n–i–a–m–i–n–t–l–a–b–e–l–s–
+24 sprach saliva partage -> –s–p–r–a–c–h–s–a–l–i–v–a–p–a–r–t–a–g–e–
+25 zuf over algemeen -> –z–u–f–o–v–e–r–a–l–g–e–m–e–e–n–
+26 upy heutige incap -> –u–p–y–h–e–u–t–i–g–e–i–n–c–a–p–
+27 ift piezo mettere -> –i–f–t–p–i–e–z–o–m–e–t–t–e–r–e–
+28 iemi opinions stesso -> –i–e–m–i–o–p–i–n–i–o–n–s–s–t–e–s–s–o–
+29 mero drug flott -> –m–e–r–o–d–r–u–g–f–l–o–t–t–
+30 accepted poucos alloc -> –a–c–c–e–p–t–e–d–p–o–u–c–o–s–a–l–l–o–c–
+31 orit knows sal -> –o–r–i–t–k–n–o–w–s–s–a–l–
+32 teil kraj counties -> –t–e–i–l–k–r–a–j–c–o–u–n–t–i–e–s–
+33 les trova town -> –l–e–s–t–r–o–v–a–t–o–w–n–
+34 checkbox locking blant -> –c–h–e–c–k–b–o–x–l–o–c–k–i–n–g–b–l–a–n–t–
+35 igenous cam vital -> –i–g–e–n–o–u–s–c–a–m–v–i–t–a–l–
+36 por egal modest -> –p–o–r–e–g–a–l–m–o–d–e–s–t–
+37 gor kurzen variance -> –g–o–r–k–u–r–z–e–n–v–a–r–i–a–n–c–e–
+38 ppy recht mestu -> –p–p–y–r–e–c–h–t–m–e–s–t–u–
+39 eprav welding statues -> –e–p–r–a–v–w–e–l–d–i–n–g–s–t–a–t–u–e–s–
+40 phant eski abut -> –p–h–a–n–t–e–s–k–i–a–b–u–t–
+41 liq catalana fracture -> –l–i–q–c–a–t–a–l–a–n–a–f–r–a–c–t–u–r–e–
+42 aru embassy delight -> –a–r–u–e–m–b–a–s–s–y–d–e–l–i–g–h–t–
+43 pekt volant vendido -> –p–e–k–t–v–o–l–a–n–t–v–e–n–d–i–d–o–
+44 uary nail estos -> –u–a–r–y–n–a–i–l–e–s–t–o–s–
+45 mini emerg tekint -> –m–i–n–i–e–m–e–r–g–t–e–k–i–n–t–
+46 gest exagger buques -> –g–e–s–t–e–x–a–g–g–e–r–b–u–q–u–e–s–
+47 jsx classify tercero -> –j–s–x–c–l–a–s–s–i–f–y–t–e–r–c–e–r–o–
+48 yse flanked sagte -> –y–s–e–f–l–a–n–k–e–d–s–a–g–t–e–
+49 kowej vuonna brev -> –k–o–w–e–j–v–u–o–n–n–a–b–r–e–v–
+50 erc curved ait -> –e–r–c–c–u–r–v–e–d–a–i–t–
+51 opt samb pourrait -> –o–p–t–s–a–m–b–p–o–u–r–r–a–i–t–
+52 ibt draw kontrak -> –i–b–t–d–r–a–w–k–o–n–t–r–a–k–
+53 jarige deform em -> –j–a–r–i–g–e–d–e–f–o–r–m–e–m–
+54 oscopy trente refugi -> –o–s–c–o–p–y–t–r–e–n–t–e–r–e–f–u–g–i–
+55 amas profess allies -> –a–m–a–s–p–r–o–f–e–s–s–a–l–l–i–e–s–
+56 orp coval erwart -> –o–r–p–c–o–v–a–l–e–r–w–a–r–t–
+57 uesa interc terrenos -> –u–e–s–a–i–n–t–e–r–c–t–e–r–r–e–n–o–s–
+58 ocaine vred quo -> –o–c–a–i–n–e–v–r–e–d–q–u–o–
+59 riaren ripple uchun -> –r–i–a–r–e–n–r–i–p–p–l–e–u–c–h–u–n–
+60 endi ember entstand -> –e–n–d–i–e–m–b–e–r–e–n–t–s–t–a–n–d–
+61 emption estaba meine -> –e–m–p–t–i–o–n–e–s–t–a–b–a–m–e–i–n–e–
+62 binary fundada formulas -> –b–i–n–a–r–y–f–u–n–d–a–d–a–f–o–r–m–u–l–a–s–
+63 alez sea ilg -> –a–l–e–z–s–e–a–i–l–g–
+64 idos cer adinaren -> –i–d–o–s–c–e–r–a–d–i–n–a–r–e–n–
+65 owana axios qildi -> –o–w–a–n–a–a–x–i–o–s–q–i–l–d–i–
+66 aydi sout aprilie -> –a–y–d–i–s–o–u–t–a–p–r–i–l–i–e–
+67 uskal username markings -> –u–s–k–a–l–u–s–e–r–n–a–m–e–m–a–r–k–i–n–g–s–
+68 rochen surreal bureauc -> –r–o–c–h–e–n–s–u–r–r–e–a–l–b–u–r–e–a–u–c–
+69 arly clust fisher -> –a–r–l–y–c–l–u–s–t–f–i–s–h–e–r–
+70 rache polskich previous -> –r–a–c–h–e–p–o–l–s–k–i–c–h–p–r–e–v–i–o–u–s–
+71 combe catar forse -> –c–o–m–b–e–c–a–t–a–r–f–o–r–s–e–
+72 greater begeg arabes -> –g–r–e–a–t–e–r–b–e–g–e–g–a–r–a–b–e–s–
+73 built august jak -> –b–u–i–l–t–a–u–g–u–s–t–j–a–k–
+74 ives citizen destiny -> –i–v–e–s–c–i–t–i–z–e–n–d–e–s–t–i–n–y–
+75 ulture conflict chond -> –u–l–t–u–r–e–c–o–n–f–l–i–c–t–c–h–o–n–d–
+76 ret han trunc -> –r–e–t–h–a–n–t–r–u–n–c–
+77 obe mezi nowrap -> –o–b–e–m–e–z–i–n–o–w–r–a–p–
+78 ula cations respi -> –u–l–a–c–a–t–i–o–n–s–r–e–s–p–i–
+79 line ondoren ult -> –l–i–n–e–o–n–d–o–r–e–n–u–l–t–
+80 poll meczu athlet -> –p–o–l–l–m–e–c–z–u–a–t–h–l–e–t–
+81 rompt filmi dominer -> –r–o–m–p–t–f–i–l–m–i–d–o–m–i–n–e–r–
+82 fix mann quality -> –f–i–x–m–a–n–n–q–u–a–l–i–t–y–
+83 endet patrons formul -> –e–n–d–e–t–p–a–t–r–o–n–s–f–o–r–m–u–l–
+84 owa tide pripad -> –o–w–a–t–i–d–e–p–r–i–p–a–d–
+85 isi mulai orta -> –i–s–i–m–u–l–a–i–o–r–t–a–
+86 ilig fal dio -> –i–l–i–g–f–a–l–d–i–o–
+87 quial batalha acab -> –q–u–i–a–l–b–a–t–a–l–h–a–a–c–a–b–
+88 vention laul pris -> –v–e–n–t–i–o–n–l–a–u–l–p–r–i–s–
+89 shire kie class -> –s–h–i–r–e–k–i–e–c–l–a–s–s–
+90 gomery fabrik beliau -> –g–o–m–e–r–y–f–a–b–r–i–k–b–e–l–i–a–u–
+91 itrile rocks thin -> –i–t–r–i–l–e–r–o–c–k–s–t–h–i–n–
+92 merchant cooled vissza -> –m–e–r–c–h–a–n–t–c–o–o–l–e–d–v–i–s–s–z–a–
+93 raul porod nage -> –r–a–u–l–p–o–r–o–d–n–a–g–e–
+94 hyde quarts xin -> –h–y–d–e–q–u–a–r–t–s–x–i–n–
+95 med odst larvae -> –m–e–d–o–d–s–t–l–a–r–v–a–e–
+96 wanda evil kerana -> –w–a–n–d–a–e–v–i–l–k–e–r–a–n–a–
+97 clip oubl sixth -> –c–l–i–p–o–u–b–l–s–i–x–t–h–
+98 apsing devenue territor -> –a–p–s–i–n–g–d–e–v–e–n–u–e–t–e–r–r–i–t–o–r–
+99 essin seraient retrieve -> –e–s–s–i–n–s–e–r–a–i–e–n–t–r–e–t–r–i–e–v–e–

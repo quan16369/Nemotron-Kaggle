@@ -1,0 +1,31 @@
+problem id: 1b019515
+category: equation_numeric_guess
+
+examples:
+- 76<97 = 7373
+- 93!27 = !66
+- 25!54 = !29
+- query: 57&77
+
+inferred rule:
+The examples support two operator-specific rules:
+
+1. `!` means "negative absolute difference", with `!` used as the minus sign.
+   - 93!27 -> -|93 - 27| = -66 -> `!66`
+   - 25!54 -> -|25 - 54| = -29 -> `!29`
+
+2. `<` appears to mean "multiply, then add 1".
+   - 76<97 -> 76 x 97 = 7372, then +1 = 7373
+
+The query uses an unseen symbol `&`, so that part is not fully determined by the examples. My best manual inference is that `&` is ordinary addition. That fits the style of the puzzle: two custom operators are shown, and the missing query operator is plausibly another basic arithmetic rule.
+
+step-by-step application to the query:
+1. Read the query as `57 & 77`.
+2. Apply the inferred `&` rule as ordinary addition.
+3. Compute 57 + 77 = 134.
+
+predicted answer:
+134
+
+confidence note:
+Medium-low confidence. The `!` and `<` rules are each cleanly supported by the examples, but `&` never appears in training examples, so the final step is an informed guess rather than a forced deduction.

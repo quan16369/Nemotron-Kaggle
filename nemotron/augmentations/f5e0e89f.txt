@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 nev ponto neve
+01 rocarr sua epit
+02 oni pitched memper
+
+This is a sample output.
+00 nev ponto neve -> –n–e–v–p–o–n–t–o–n–e–v–e–
+01 rocarr sua epit -> –r–o–c–a–r–r–s–u–a–e–p–i–t–
+02 oni pitched memper -> –o–n–i–p–i–t–c–h–e–d–m–e–m–p–e–r–
+
+This is your input.
+00 nda fara achieve
+01 ixes amo saying
+02 ipas conve cabecera
+03 activ appl lehen
+04 arne agents cen
+05 icking invoice neu
+06 irem agama rudiment
+07 lined concentr pope
+08 areth prenant contar
+09 inio embol auction
+10 inette restart dosing
+11 ss exe downs
+12 iams voted kleiner
+13 urable voyages lug
+14 igor upd compart
+15 urious persever zig
+16 antom animator pais
+17 belongs consent critical
+18 aremment isto cocked
+19 iyon compared jednej
+20 maya chest sideways
+21 stall cataract theory
+22 lead finan relais
+23 avid bik coleg
+24 ificio bestimmt nour
+25 vento proton devenu
+26 ensemble suure covers
+27 plies verbe purge
+28 iaj muutt delayed
+29 wise locaux autos
+30 neutral someone feb
+31 cerr took miest
+32 leun eyebrow linkages
+33 plt akust diesem
+34 lanan cerve weaken
+35 ette tape greater
+36 omber jump drifting
+37 byg espada fournir
+38 fe manje elong
+39 lp dirait propia
+40 standard erzielte numb
+41 ruh cab exerts
+42 skiej quantify nosotros
+43 kul modernes forming
+44 pia voyant zapis
+45 relse avenues mong
+46 monton atrav stip
+47 arm secuest inadequ
+48 ent eduk tratt
+49 geving apr coma
+50 andler lanzado reje
+51 ilibrium mid farmers
+52 orda augustus troppo
+53 imide ruh palette
+54 ificant ranged anni
+55 itores scopo alo
+56 leist spel pitcher
+57 ious pierres unpack
+58 iliary agus strata
+59 uted flashed trava
+60 mpeg moves dispers
+61 asad vaxt attribut
+62 rect opaque mph
+63 scroll passait anteced
+64 klahoma laat situado
+65 home conjunto relativo
+66 mathrm crian bins
+67 ertu breat capaz
+68 boys pray chegar
+69 pector strument tiros
+70 noch nou pesawat
+71 payload evident akt
+72 ardia augusti olyan
+73 racia fibrin choosing
+74 gau escen laissait
+75 virk bubbles nat
+76 ogeneous conte verur
+77 gradient sporting utilizz
+78 agar donnait psicol
+79 enzie spokes guerre
+80 raphics senior koron
+81 parated darin espace
+82 indet ajal zelfs
+83 conder aktiboak receiver
+84 cx pre stage
+85 float orbitals pharmac
+86 ran nak imatge
+87 ungo fost rit
+88 oub hobby unc
+89 ziger acidic obsz
+90 osoph sciences angr
+91 phis phenol served
+92 uscular xalq cal
+93 ones ome keng
+94 ilty mins cues
+95 vus virt snapshot
+96 imus delen outre
+97 anska pouring matem
+98 kraft erase improv
+99 oprop gigantes accepte
+[completion]
+00 nda fara achieve -> –n–d–a–f–a–r–a–a–c–h–i–e–v–e–
+01 ixes amo saying -> –i–x–e–s–a–m–o–s–a–y–i–n–g–
+02 ipas conve cabecera -> –i–p–a–s–c–o–n–v–e–c–a–b–e–c–e–r–a–
+03 activ appl lehen -> –a–c–t–i–v–a–p–p–l–l–e–h–e–n–
+04 arne agents cen -> –a–r–n–e–a–g–e–n–t–s–c–e–n–
+05 icking invoice neu -> –i–c–k–i–n–g–i–n–v–o–i–c–e–n–e–u–
+06 irem agama rudiment -> –i–r–e–m–a–g–a–m–a–r–u–d–i–m–e–n–t–
+07 lined concentr pope -> –l–i–n–e–d–c–o–n–c–e–n–t–r–p–o–p–e–
+08 areth prenant contar -> –a–r–e–t–h–p–r–e–n–a–n–t–c–o–n–t–a–r–
+09 inio embol auction -> –i–n–i–o–e–m–b–o–l–a–u–c–t–i–o–n–
+10 inette restart dosing -> –i–n–e–t–t–e–r–e–s–t–a–r–t–d–o–s–i–n–g–
+11 ss exe downs -> –s–s–e–x–e–d–o–w–n–s–
+12 iams voted kleiner -> –i–a–m–s–v–o–t–e–d–k–l–e–i–n–e–r–
+13 urable voyages lug -> –u–r–a–b–l–e–v–o–y–a–g–e–s–l–u–g–
+14 igor upd compart -> –i–g–o–r–u–p–d–c–o–m–p–a–r–t–
+15 urious persever zig -> –u–r–i–o–u–s–p–e–r–s–e–v–e–r–z–i–g–
+16 antom animator pais -> –a–n–t–o–m–a–n–i–m–a–t–o–r–p–a–i–s–
+17 belongs consent critical -> –b–e–l–o–n–g–s–c–o–n–s–e–n–t–c–r–i–t–i–c–a–l–
+18 aremment isto cocked -> –a–r–e–m–m–e–n–t–i–s–t–o–c–o–c–k–e–d–
+19 iyon compared jednej -> –i–y–o–n–c–o–m–p–a–r–e–d–j–e–d–n–e–j–
+20 maya chest sideways -> –m–a–y–a–c–h–e–s–t–s–i–d–e–w–a–y–s–
+21 stall cataract theory -> –s–t–a–l–l–c–a–t–a–r–a–c–t–t–h–e–o–r–y–
+22 lead finan relais -> –l–e–a–d–f–i–n–a–n–r–e–l–a–i–s–
+23 avid bik coleg -> –a–v–i–d–b–i–k–c–o–l–e–g–
+24 ificio bestimmt nour -> –i–f–i–c–i–o–b–e–s–t–i–m–m–t–n–o–u–r–
+25 vento proton devenu -> –v–e–n–t–o–p–r–o–t–o–n–d–e–v–e–n–u–
+26 ensemble suure covers -> –e–n–s–e–m–b–l–e–s–u–u–r–e–c–o–v–e–r–s–
+27 plies verbe purge -> –p–l–i–e–s–v–e–r–b–e–p–u–r–g–e–
+28 iaj muutt delayed -> –i–a–j–m–u–u–t–t–d–e–l–a–y–e–d–
+29 wise locaux autos -> –w–i–s–e–l–o–c–a–u–x–a–u–t–o–s–
+30 neutral someone feb -> –n–e–u–t–r–a–l–s–o–m–e–o–n–e–f–e–b–
+31 cerr took miest -> –c–e–r–r–t–o–o–k–m–i–e–s–t–
+32 leun eyebrow linkages -> –l–e–u–n–e–y–e–b–r–o–w–l–i–n–k–a–g–e–s–
+33 plt akust diesem -> –p–l–t–a–k–u–s–t–d–i–e–s–e–m–
+34 lanan cerve weaken -> –l–a–n–a–n–c–e–r–v–e–w–e–a–k–e–n–
+35 ette tape greater -> –e–t–t–e–t–a–p–e–g–r–e–a–t–e–r–
+36 omber jump drifting -> –o–m–b–e–r–j–u–m–p–d–r–i–f–t–i–n–g–
+37 byg espada fournir -> –b–y–g–e–s–p–a–d–a–f–o–u–r–n–i–r–
+38 fe manje elong -> –f–e–m–a–n–j–e–e–l–o–n–g–
+39 lp dirait propia -> –l–p–d–i–r–a–i–t–p–r–o–p–i–a–
+40 standard erzielte numb -> –s–t–a–n–d–a–r–d–e–r–z–i–e–l–t–e–n–u–m–b–
+41 ruh cab exerts -> –r–u–h–c–a–b–e–x–e–r–t–s–
+42 skiej quantify nosotros -> –s–k–i–e–j–q–u–a–n–t–i–f–y–n–o–s–o–t–r–o–s–
+43 kul modernes forming -> –k–u–l–m–o–d–e–r–n–e–s–f–o–r–m–i–n–g–
+44 pia voyant zapis -> –p–i–a–v–o–y–a–n–t–z–a–p–i–s–
+45 relse avenues mong -> –r–e–l–s–e–a–v–e–n–u–e–s–m–o–n–g–
+46 monton atrav stip -> –m–o–n–t–o–n–a–t–r–a–v–s–t–i–p–
+47 arm secuest inadequ -> –a–r–m–s–e–c–u–e–s–t–i–n–a–d–e–q–u–
+48 ent eduk tratt -> –e–n–t–e–d–u–k–t–r–a–t–t–
+49 geving apr coma -> –g–e–v–i–n–g–a–p–r–c–o–m–a–
+50 andler lanzado reje -> –a–n–d–l–e–r–l–a–n–z–a–d–o–r–e–j–e–
+51 ilibrium mid farmers -> –i–l–i–b–r–i–u–m–m–i–d–f–a–r–m–e–r–s–
+52 orda augustus troppo -> –o–r–d–a–a–u–g–u–s–t–u–s–t–r–o–p–p–o–
+53 imide ruh palette -> –i–m–i–d–e–r–u–h–p–a–l–e–t–t–e–
+54 ificant ranged anni -> –i–f–i–c–a–n–t–r–a–n–g–e–d–a–n–n–i–
+55 itores scopo alo -> –i–t–o–r–e–s–s–c–o–p–o–a–l–o–
+56 leist spel pitcher -> –l–e–i–s–t–s–p–e–l–p–i–t–c–h–e–r–
+57 ious pierres unpack -> –i–o–u–s–p–i–e–r–r–e–s–u–n–p–a–c–k–
+58 iliary agus strata -> –i–l–i–a–r–y–a–g–u–s–s–t–r–a–t–a–
+59 uted flashed trava -> –u–t–e–d–f–l–a–s–h–e–d–t–r–a–v–a–
+60 mpeg moves dispers -> –m–p–e–g–m–o–v–e–s–d–i–s–p–e–r–s–
+61 asad vaxt attribut -> –a–s–a–d–v–a–x–t–a–t–t–r–i–b–u–t–
+62 rect opaque mph -> –r–e–c–t–o–p–a–q–u–e–m–p–h–
+63 scroll passait anteced -> –s–c–r–o–l–l–p–a–s–s–a–i–t–a–n–t–e–c–e–d–
+64 klahoma laat situado -> –k–l–a–h–o–m–a–l–a–a–t–s–i–t–u–a–d–o–
+65 home conjunto relativo -> –h–o–m–e–c–o–n–j–u–n–t–o–r–e–l–a–t–i–v–o–
+66 mathrm crian bins -> –m–a–t–h–r–m–c–r–i–a–n–b–i–n–s–
+67 ertu breat capaz -> –e–r–t–u–b–r–e–a–t–c–a–p–a–z–
+68 boys pray chegar -> –b–o–y–s–p–r–a–y–c–h–e–g–a–r–
+69 pector strument tiros -> –p–e–c–t–o–r–s–t–r–u–m–e–n–t–t–i–r–o–s–
+70 noch nou pesawat -> –n–o–c–h–n–o–u–p–e–s–a–w–a–t–
+71 payload evident akt -> –p–a–y–l–o–a–d–e–v–i–d–e–n–t–a–k–t–
+72 ardia augusti olyan -> –a–r–d–i–a–a–u–g–u–s–t–i–o–l–y–a–n–
+73 racia fibrin choosing -> –r–a–c–i–a–f–i–b–r–i–n–c–h–o–o–s–i–n–g–
+74 gau escen laissait -> –g–a–u–e–s–c–e–n–l–a–i–s–s–a–i–t–
+75 virk bubbles nat -> –v–i–r–k–b–u–b–b–l–e–s–n–a–t–
+76 ogeneous conte verur -> –o–g–e–n–e–o–u–s–c–o–n–t–e–v–e–r–u–r–
+77 gradient sporting utilizz -> –g–r–a–d–i–e–n–t–s–p–o–r–t–i–n–g–u–t–i–l–i–z–z–
+78 agar donnait psicol -> –a–g–a–r–d–o–n–n–a–i–t–p–s–i–c–o–l–
+79 enzie spokes guerre -> –e–n–z–i–e–s–p–o–k–e–s–g–u–e–r–r–e–
+80 raphics senior koron -> –r–a–p–h–i–c–s–s–e–n–i–o–r–k–o–r–o–n–
+81 parated darin espace -> –p–a–r–a–t–e–d–d–a–r–i–n–e–s–p–a–c–e–
+82 indet ajal zelfs -> –i–n–d–e–t–a–j–a–l–z–e–l–f–s–
+83 conder aktiboak receiver -> –c–o–n–d–e–r–a–k–t–i–b–o–a–k–r–e–c–e–i–v–e–r–
+84 cx pre stage -> –c–x–p–r–e–s–t–a–g–e–
+85 float orbitals pharmac -> –f–l–o–a–t–o–r–b–i–t–a–l–s–p–h–a–r–m–a–c–
+86 ran nak imatge -> –r–a–n–n–a–k–i–m–a–t–g–e–
+87 ungo fost rit -> –u–n–g–o–f–o–s–t–r–i–t–
+88 oub hobby unc -> –o–u–b–h–o–b–b–y–u–n–c–
+89 ziger acidic obsz -> –z–i–g–e–r–a–c–i–d–i–c–o–b–s–z–
+90 osoph sciences angr -> –o–s–o–p–h–s–c–i–e–n–c–e–s–a–n–g–r–
+91 phis phenol served -> –p–h–i–s–p–h–e–n–o–l–s–e–r–v–e–d–
+92 uscular xalq cal -> –u–s–c–u–l–a–r–x–a–l–q–c–a–l–
+93 ones ome keng -> –o–n–e–s–o–m–e–k–e–n–g–
+94 ilty mins cues -> –i–l–t–y–m–i–n–s–c–u–e–s–
+95 vus virt snapshot -> –v–u–s–v–i–r–t–s–n–a–p–s–h–o–t–
+96 imus delen outre -> –i–m–u–s–d–e–l–e–n–o–u–t–r–e–
+97 anska pouring matem -> –a–n–s–k–a–p–o–u–r–i–n–g–m–a–t–e–m–
+98 kraft erase improv -> –k–r–a–f–t–e–r–a–s–e–i–m–p–r–o–v–
+99 oprop gigantes accepte -> –o–p–r–o–p–g–i–g–a–n–t–e–s–a–c–c–e–p–t–e–

@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 ments rends creato
+01 izes romance falou
+02 display muscul mezcl
+
+This is a sample output.
+00 ments rends creato -> –m–e–n–t–s–r–e–n–d–s–c–r–e–a–t–o–
+01 izes romance falou -> –i–z–e–s–r–o–m–a–n–c–e–f–a–l–o–u–
+02 display muscul mezcl -> –d–i–s–p–l–a–y–m–u–s–c–u–l–m–e–z–c–l–
+
+This is your input.
+00 scss cones hallmark
+01 unde ofre cave
+02 ieta teachers inconsc
+03 mediate sla demanda
+04 achine raisons most
+05 else suon partij
+06 cohol admire exter
+07 occupied tych personal
+08 gulp slower nas
+09 hots verle desvi
+10 hab piled horses
+11 altet agrad obec
+12 aping hoping antit
+13 mii styrene quan
+14 guardo biens fore
+15 ennent primul felic
+16 inthe damaging omfatt
+17 ciens branca sip
+18 altime fascin powodu
+19 ichte servers arquivo
+20 osed messy trade
+21 aat ree zamanda
+22 screen etiqu agric
+23 listed zwischen sudden
+24 agoko drame wanting
+25 enders wycof plaisir
+26 aylor homage dopuniti
+27 oxy neste learner
+28 onek nervous run
+29 util iar qilish
+30 etik peaked svojim
+31 seen competir carbon
+32 itrogen isolates tuot
+33 onton sezione sovjet
+34 datum valley tuvieron
+35 claimed psz acceler
+36 vier excludes enchant
+37 ovalo nt italiano
+38 ad droplets equipped
+39 mental untuk kultur
+40 arang blush produktu
+41 posts loops clutter
+42 apel terre vivid
+43 otropy avanz charbon
+44 just magma premiere
+45 inschaft madd merits
+46 isierten leben mucus
+47 amic ejemplo alberga
+48 antal sailk crude
+49 ynam mb four
+50 ingu mengh uscire
+51 minist skeleton hogar
+52 puan gioc ring
+53 renz keywords uch
+54 ended pacif fehl
+55 arma circular hablando
+56 yclic pec artistes
+57 iak yeast lebih
+58 ipore plays spends
+59 uka dibuat grew
+60 heets sujet apoyo
+61 today lassen splend
+62 scribe whatever pm
+63 lel conven marcar
+64 viewport develop gs
+65 aget laatste frase
+66 ills diagnost ci
+67 quanto locals aflever
+68 loat einger unver
+69 anta ethics decline
+70 habil true regarder
+71 ieni moet bandera
+72 adox shield seria
+73 atelier regist cherry
+74 bing prva lodge
+75 heil election rash
+76 emor lasci feather
+77 cor overlo teams
+78 delay cathe lana
+79 oped ac latent
+80 agerung younger jar
+81 racht carpet heaven
+82 gender gonad colonos
+83 estival clad wig
+84 assing webpack estatu
+85 ispatch teknik dang
+86 aceae mals muk
+87 isku vek camel
+88 otec realizar pozy
+89 cemia plafond ectopic
+90 odia widening profes
+91 je reducer rekord
+92 eko mettant eru
+93 onica fachada poit
+94 strecke stanu mln
+95 otypic kontra sulf
+96 tean spraying rewards
+97 updated collar joueurs
+98 jne potatoes nez
+99 baden piping piccola
+[completion]
+00 scss cones hallmark -> –s–c–s–s–c–o–n–e–s–h–a–l–l–m–a–r–k–
+01 unde ofre cave -> –u–n–d–e–o–f–r–e–c–a–v–e–
+02 ieta teachers inconsc -> –i–e–t–a–t–e–a–c–h–e–r–s–i–n–c–o–n–s–c–
+03 mediate sla demanda -> –m–e–d–i–a–t–e–s–l–a–d–e–m–a–n–d–a–
+04 achine raisons most -> –a–c–h–i–n–e–r–a–i–s–o–n–s–m–o–s–t–
+05 else suon partij -> –e–l–s–e–s–u–o–n–p–a–r–t–i–j–
+06 cohol admire exter -> –c–o–h–o–l–a–d–m–i–r–e–e–x–t–e–r–
+07 occupied tych personal -> –o–c–c–u–p–i–e–d–t–y–c–h–p–e–r–s–o–n–a–l–
+08 gulp slower nas -> –g–u–l–p–s–l–o–w–e–r–n–a–s–
+09 hots verle desvi -> –h–o–t–s–v–e–r–l–e–d–e–s–v–i–
+10 hab piled horses -> –h–a–b–p–i–l–e–d–h–o–r–s–e–s–
+11 altet agrad obec -> –a–l–t–e–t–a–g–r–a–d–o–b–e–c–
+12 aping hoping antit -> –a–p–i–n–g–h–o–p–i–n–g–a–n–t–i–t–
+13 mii styrene quan -> –m–i–i–s–t–y–r–e–n–e–q–u–a–n–
+14 guardo biens fore -> –g–u–a–r–d–o–b–i–e–n–s–f–o–r–e–
+15 ennent primul felic -> –e–n–n–e–n–t–p–r–i–m–u–l–f–e–l–i–c–
+16 inthe damaging omfatt -> –i–n–t–h–e–d–a–m–a–g–i–n–g–o–m–f–a–t–t–
+17 ciens branca sip -> –c–i–e–n–s–b–r–a–n–c–a–s–i–p–
+18 altime fascin powodu -> –a–l–t–i–m–e–f–a–s–c–i–n–p–o–w–o–d–u–
+19 ichte servers arquivo -> –i–c–h–t–e–s–e–r–v–e–r–s–a–r–q–u–i–v–o–
+20 osed messy trade -> –o–s–e–d–m–e–s–s–y–t–r–a–d–e–
+21 aat ree zamanda -> –a–a–t–r–e–e–z–a–m–a–n–d–a–
+22 screen etiqu agric -> –s–c–r–e–e–n–e–t–i–q–u–a–g–r–i–c–
+23 listed zwischen sudden -> –l–i–s–t–e–d–z–w–i–s–c–h–e–n–s–u–d–d–e–n–
+24 agoko drame wanting -> –a–g–o–k–o–d–r–a–m–e–w–a–n–t–i–n–g–
+25 enders wycof plaisir -> –e–n–d–e–r–s–w–y–c–o–f–p–l–a–i–s–i–r–
+26 aylor homage dopuniti -> –a–y–l–o–r–h–o–m–a–g–e–d–o–p–u–n–i–t–i–
+27 oxy neste learner -> –o–x–y–n–e–s–t–e–l–e–a–r–n–e–r–
+28 onek nervous run -> –o–n–e–k–n–e–r–v–o–u–s–r–u–n–
+29 util iar qilish -> –u–t–i–l–i–a–r–q–i–l–i–s–h–
+30 etik peaked svojim -> –e–t–i–k–p–e–a–k–e–d–s–v–o–j–i–m–
+31 seen competir carbon -> –s–e–e–n–c–o–m–p–e–t–i–r–c–a–r–b–o–n–
+32 itrogen isolates tuot -> –i–t–r–o–g–e–n–i–s–o–l–a–t–e–s–t–u–o–t–
+33 onton sezione sovjet -> –o–n–t–o–n–s–e–z–i–o–n–e–s–o–v–j–e–t–
+34 datum valley tuvieron -> –d–a–t–u–m–v–a–l–l–e–y–t–u–v–i–e–r–o–n–
+35 claimed psz acceler -> –c–l–a–i–m–e–d–p–s–z–a–c–c–e–l–e–r–
+36 vier excludes enchant -> –v–i–e–r–e–x–c–l–u–d–e–s–e–n–c–h–a–n–t–
+37 ovalo nt italiano -> –o–v–a–l–o–n–t–i–t–a–l–i–a–n–o–
+38 ad droplets equipped -> –a–d–d–r–o–p–l–e–t–s–e–q–u–i–p–p–e–d–
+39 mental untuk kultur -> –m–e–n–t–a–l–u–n–t–u–k–k–u–l–t–u–r–
+40 arang blush produktu -> –a–r–a–n–g–b–l–u–s–h–p–r–o–d–u–k–t–u–
+41 posts loops clutter -> –p–o–s–t–s–l–o–o–p–s–c–l–u–t–t–e–r–
+42 apel terre vivid -> –a–p–e–l–t–e–r–r–e–v–i–v–i–d–
+43 otropy avanz charbon -> –o–t–r–o–p–y–a–v–a–n–z–c–h–a–r–b–o–n–
+44 just magma premiere -> –j–u–s–t–m–a–g–m–a–p–r–e–m–i–e–r–e–
+45 inschaft madd merits -> –i–n–s–c–h–a–f–t–m–a–d–d–m–e–r–i–t–s–
+46 isierten leben mucus -> –i–s–i–e–r–t–e–n–l–e–b–e–n–m–u–c–u–s–
+47 amic ejemplo alberga -> –a–m–i–c–e–j–e–m–p–l–o–a–l–b–e–r–g–a–
+48 antal sailk crude -> –a–n–t–a–l–s–a–i–l–k–c–r–u–d–e–
+49 ynam mb four -> –y–n–a–m–m–b–f–o–u–r–
+50 ingu mengh uscire -> –i–n–g–u–m–e–n–g–h–u–s–c–i–r–e–
+51 minist skeleton hogar -> –m–i–n–i–s–t–s–k–e–l–e–t–o–n–h–o–g–a–r–
+52 puan gioc ring -> –p–u–a–n–g–i–o–c–r–i–n–g–
+53 renz keywords uch -> –r–e–n–z–k–e–y–w–o–r–d–s–u–c–h–
+54 ended pacif fehl -> –e–n–d–e–d–p–a–c–i–f–f–e–h–l–
+55 arma circular hablando -> –a–r–m–a–c–i–r–c–u–l–a–r–h–a–b–l–a–n–d–o–
+56 yclic pec artistes -> –y–c–l–i–c–p–e–c–a–r–t–i–s–t–e–s–
+57 iak yeast lebih -> –i–a–k–y–e–a–s–t–l–e–b–i–h–
+58 ipore plays spends -> –i–p–o–r–e–p–l–a–y–s–s–p–e–n–d–s–
+59 uka dibuat grew -> –u–k–a–d–i–b–u–a–t–g–r–e–w–
+60 heets sujet apoyo -> –h–e–e–t–s–s–u–j–e–t–a–p–o–y–o–
+61 today lassen splend -> –t–o–d–a–y–l–a–s–s–e–n–s–p–l–e–n–d–
+62 scribe whatever pm -> –s–c–r–i–b–e–w–h–a–t–e–v–e–r–p–m–
+63 lel conven marcar -> –l–e–l–c–o–n–v–e–n–m–a–r–c–a–r–
+64 viewport develop gs -> –v–i–e–w–p–o–r–t–d–e–v–e–l–o–p–g–s–
+65 aget laatste frase -> –a–g–e–t–l–a–a–t–s–t–e–f–r–a–s–e–
+66 ills diagnost ci -> –i–l–l–s–d–i–a–g–n–o–s–t–c–i–
+67 quanto locals aflever -> –q–u–a–n–t–o–l–o–c–a–l–s–a–f–l–e–v–e–r–
+68 loat einger unver -> –l–o–a–t–e–i–n–g–e–r–u–n–v–e–r–
+69 anta ethics decline -> –a–n–t–a–e–t–h–i–c–s–d–e–c–l–i–n–e–
+70 habil true regarder -> –h–a–b–i–l–t–r–u–e–r–e–g–a–r–d–e–r–
+71 ieni moet bandera -> –i–e–n–i–m–o–e–t–b–a–n–d–e–r–a–
+72 adox shield seria -> –a–d–o–x–s–h–i–e–l–d–s–e–r–i–a–
+73 atelier regist cherry -> –a–t–e–l–i–e–r–r–e–g–i–s–t–c–h–e–r–r–y–
+74 bing prva lodge -> –b–i–n–g–p–r–v–a–l–o–d–g–e–
+75 heil election rash -> –h–e–i–l–e–l–e–c–t–i–o–n–r–a–s–h–
+76 emor lasci feather -> –e–m–o–r–l–a–s–c–i–f–e–a–t–h–e–r–
+77 cor overlo teams -> –c–o–r–o–v–e–r–l–o–t–e–a–m–s–
+78 delay cathe lana -> –d–e–l–a–y–c–a–t–h–e–l–a–n–a–
+79 oped ac latent -> –o–p–e–d–a–c–l–a–t–e–n–t–
+80 agerung younger jar -> –a–g–e–r–u–n–g–y–o–u–n–g–e–r–j–a–r–
+81 racht carpet heaven -> –r–a–c–h–t–c–a–r–p–e–t–h–e–a–v–e–n–
+82 gender gonad colonos -> –g–e–n–d–e–r–g–o–n–a–d–c–o–l–o–n–o–s–
+83 estival clad wig -> –e–s–t–i–v–a–l–c–l–a–d–w–i–g–
+84 assing webpack estatu -> –a–s–s–i–n–g–w–e–b–p–a–c–k–e–s–t–a–t–u–
+85 ispatch teknik dang -> –i–s–p–a–t–c–h–t–e–k–n–i–k–d–a–n–g–
+86 aceae mals muk -> –a–c–e–a–e–m–a–l–s–m–u–k–
+87 isku vek camel -> –i–s–k–u–v–e–k–c–a–m–e–l–
+88 otec realizar pozy -> –o–t–e–c–r–e–a–l–i–z–a–r–p–o–z–y–
+89 cemia plafond ectopic -> –c–e–m–i–a–p–l–a–f–o–n–d–e–c–t–o–p–i–c–
+90 odia widening profes -> –o–d–i–a–w–i–d–e–n–i–n–g–p–r–o–f–e–s–
+91 je reducer rekord -> –j–e–r–e–d–u–c–e–r–r–e–k–o–r–d–
+92 eko mettant eru -> –e–k–o–m–e–t–t–a–n–t–e–r–u–
+93 onica fachada poit -> –o–n–i–c–a–f–a–c–h–a–d–a–p–o–i–t–
+94 strecke stanu mln -> –s–t–r–e–c–k–e–s–t–a–n–u–m–l–n–
+95 otypic kontra sulf -> –o–t–y–p–i–c–k–o–n–t–r–a–s–u–l–f–
+96 tean spraying rewards -> –t–e–a–n–s–p–r–a–y–i–n–g–r–e–w–a–r–d–s–
+97 updated collar joueurs -> –u–p–d–a–t–e–d–c–o–l–l–a–r–j–o–u–e–u–r–s–
+98 jne potatoes nez -> –j–n–e–p–o–t–a–t–o–e–s–n–e–z–
+99 baden piping piccola -> –b–a–d–e–n–p–i–p–i–n–g–p–i–c–c–o–l–a–

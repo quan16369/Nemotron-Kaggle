@@ -1,0 +1,29 @@
+Problem ID: e667f2d7
+Category: equation_numeric_deduce
+
+Examples:
+- 62*82 = *2
+- 77*61 = *16
+- 46*88 = *42
+
+Inferred rule:
+- The `*` symbol is not multiplication here. It acts like a formatting marker on the output.
+- Compute the absolute difference between the two 2-digit numbers, then prefix the result with a literal `*`.
+- When that difference ends in `0`, the trailing zero appears to be dropped.
+- Checks:
+- `|62 - 82| = 20`, and dropping the trailing zero gives `2`, so `62*82 -> *2`.
+- `|77 - 61| = 16`, so `77*61 -> *16`.
+- `|46 - 88| = 42`, so `46*88 -> *42`.
+
+Step-by-step application to the query:
+- Query: `73*33`
+- Compute the absolute difference: `|73 - 33| = 40`
+- Apply the same formatting seen in the examples: prefix with `*`
+- Match the `20 -> 2` behavior from `62*82 = *2`, so drop the trailing zero from `40` to get `4`
+- Final transformed result: `*4`
+
+Predicted answer:
+- *4
+
+Confidence note:
+- Medium-high. The absolute-difference pattern fits all three examples, and the only ambiguity is whether trimming a trailing zero is a general rule or just a property of the `20` example. I still predict `*4` because that is the most consistent extension of the visible pattern.

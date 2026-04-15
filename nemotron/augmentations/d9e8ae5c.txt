@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 udni novel markup
+01 ijer thus droplets
+02 cles only std
+
+This is a sample output.
+00 udni novel markup -> –u–d–n–i–n–o–v–e–l–m–a–r–k–u–p–
+01 ijer thus droplets -> –i–j–e–r–t–h–u–s–d–r–o–p–l–e–t–s–
+02 cles only std -> –c–l–e–s–o–n–l–y–s–t–d–
+
+This is your input.
+00 ocracia rope dono
+01 atuta pricing misery
+02 apie ping sedation
+03 mysqli transpos svilu
+04 ebru postup dua
+05 ocol rass clouds
+06 stens wireless powiet
+07 atories recul vuos
+08 uffy salmon diput
+09 spiele logged breathe
+10 compact detects sample
+11 enschap herein chance
+12 orrh melan zach
+13 zev gaps unsere
+14 dfs schwed pattes
+15 normally sued coales
+16 nal speeds impulses
+17 ict apostol yol
+18 avorites gros revealed
+19 enant souci homology
+20 iaries outlook dintre
+21 igital scheme almas
+22 ansing boul britiske
+23 astro barrel gentle
+24 ashtu systemat curled
+25 itev setup akzept
+26 arie unui reserv
+27 anlage bb izin
+28 emia hus slogan
+29 iske cao cleaner
+30 ro eesti jerked
+31 osc kork adhered
+32 ector behand mayo
+33 reiben piccole packet
+34 ycz secondo jeter
+35 ighty jew atop
+36 ombie indica essai
+37 keeper placing dovuto
+38 utions mitjan recibir
+39 others vecchio semic
+40 isers sees jovem
+41 tt kod becomes
+42 featured dai ziemlich
+43 nten deadly khu
+44 si lumber either
+45 ructura rgb bromide
+46 kappa amigos stamp
+47 lautern brod shoes
+48 ony aimed mois
+49 hook verfol prim
+50 dated rack nied
+51 mitted ruin samma
+52 valor circond caf
+53 calc perceive resort
+54 neaux egyet beinahe
+55 uler abge jours
+56 ologna regal tara
+57 ota suss steel
+58 liyi incre tangan
+59 unted barb su
+60 angl imply curse
+61 ountry festiv harvest
+62 du drainage knowing
+63 ovi shutdown assent
+64 lash enriched fond
+65 elcome applied sujeto
+66 simeq praising lir
+67 conom atroc svensk
+68 apkan insects recesses
+69 zzle finit stove
+70 walk terrem chantier
+71 idding clearer ankles
+72 shown artil pericol
+73 ystyrene shark photons
+74 press capac polls
+75 ance arisen cine
+76 what essaie outro
+77 omiast invoked logout
+78 issances respond extens
+79 izada pela fifty
+80 ropri liczba bw
+81 stw tc rangs
+82 imar usado elektr
+83 igli hk exemple
+84 usion embedded sixteen
+85 dob stessi cyber
+86 under infiltr parejas
+87 oto contral thing
+88 eze modality intrac
+89 pies injury prizes
+90 tych parent imao
+91 rats remis fiatal
+92 etheus enters scans
+93 kry coli skut
+94 rikes perdu wyd
+95 zm tug nej
+96 rese vaid cookie
+97 ogly rund differ
+98 erin rivel uplink
+99 emptyset conclu regroup
+[completion]
+00 ocracia rope dono -> –o–c–r–a–c–i–a–r–o–p–e–d–o–n–o–
+01 atuta pricing misery -> –a–t–u–t–a–p–r–i–c–i–n–g–m–i–s–e–r–y–
+02 apie ping sedation -> –a–p–i–e–p–i–n–g–s–e–d–a–t–i–o–n–
+03 mysqli transpos svilu -> –m–y–s–q–l–i–t–r–a–n–s–p–o–s–s–v–i–l–u–
+04 ebru postup dua -> –e–b–r–u–p–o–s–t–u–p–d–u–a–
+05 ocol rass clouds -> –o–c–o–l–r–a–s–s–c–l–o–u–d–s–
+06 stens wireless powiet -> –s–t–e–n–s–w–i–r–e–l–e–s–s–p–o–w–i–e–t–
+07 atories recul vuos -> –a–t–o–r–i–e–s–r–e–c–u–l–v–u–o–s–
+08 uffy salmon diput -> –u–f–f–y–s–a–l–m–o–n–d–i–p–u–t–
+09 spiele logged breathe -> –s–p–i–e–l–e–l–o–g–g–e–d–b–r–e–a–t–h–e–
+10 compact detects sample -> –c–o–m–p–a–c–t–d–e–t–e–c–t–s–s–a–m–p–l–e–
+11 enschap herein chance -> –e–n–s–c–h–a–p–h–e–r–e–i–n–c–h–a–n–c–e–
+12 orrh melan zach -> –o–r–r–h–m–e–l–a–n–z–a–c–h–
+13 zev gaps unsere -> –z–e–v–g–a–p–s–u–n–s–e–r–e–
+14 dfs schwed pattes -> –d–f–s–s–c–h–w–e–d–p–a–t–t–e–s–
+15 normally sued coales -> –n–o–r–m–a–l–l–y–s–u–e–d–c–o–a–l–e–s–
+16 nal speeds impulses -> –n–a–l–s–p–e–e–d–s–i–m–p–u–l–s–e–s–
+17 ict apostol yol -> –i–c–t–a–p–o–s–t–o–l–y–o–l–
+18 avorites gros revealed -> –a–v–o–r–i–t–e–s–g–r–o–s–r–e–v–e–a–l–e–d–
+19 enant souci homology -> –e–n–a–n–t–s–o–u–c–i–h–o–m–o–l–o–g–y–
+20 iaries outlook dintre -> –i–a–r–i–e–s–o–u–t–l–o–o–k–d–i–n–t–r–e–
+21 igital scheme almas -> –i–g–i–t–a–l–s–c–h–e–m–e–a–l–m–a–s–
+22 ansing boul britiske -> –a–n–s–i–n–g–b–o–u–l–b–r–i–t–i–s–k–e–
+23 astro barrel gentle -> –a–s–t–r–o–b–a–r–r–e–l–g–e–n–t–l–e–
+24 ashtu systemat curled -> –a–s–h–t–u–s–y–s–t–e–m–a–t–c–u–r–l–e–d–
+25 itev setup akzept -> –i–t–e–v–s–e–t–u–p–a–k–z–e–p–t–
+26 arie unui reserv -> –a–r–i–e–u–n–u–i–r–e–s–e–r–v–
+27 anlage bb izin -> –a–n–l–a–g–e–b–b–i–z–i–n–
+28 emia hus slogan -> –e–m–i–a–h–u–s–s–l–o–g–a–n–
+29 iske cao cleaner -> –i–s–k–e–c–a–o–c–l–e–a–n–e–r–
+30 ro eesti jerked -> –r–o–e–e–s–t–i–j–e–r–k–e–d–
+31 osc kork adhered -> –o–s–c–k–o–r–k–a–d–h–e–r–e–d–
+32 ector behand mayo -> –e–c–t–o–r–b–e–h–a–n–d–m–a–y–o–
+33 reiben piccole packet -> –r–e–i–b–e–n–p–i–c–c–o–l–e–p–a–c–k–e–t–
+34 ycz secondo jeter -> –y–c–z–s–e–c–o–n–d–o–j–e–t–e–r–
+35 ighty jew atop -> –i–g–h–t–y–j–e–w–a–t–o–p–
+36 ombie indica essai -> –o–m–b–i–e–i–n–d–i–c–a–e–s–s–a–i–
+37 keeper placing dovuto -> –k–e–e–p–e–r–p–l–a–c–i–n–g–d–o–v–u–t–o–
+38 utions mitjan recibir -> –u–t–i–o–n–s–m–i–t–j–a–n–r–e–c–i–b–i–r–
+39 others vecchio semic -> –o–t–h–e–r–s–v–e–c–c–h–i–o–s–e–m–i–c–
+40 isers sees jovem -> –i–s–e–r–s–s–e–e–s–j–o–v–e–m–
+41 tt kod becomes -> –t–t–k–o–d–b–e–c–o–m–e–s–
+42 featured dai ziemlich -> –f–e–a–t–u–r–e–d–d–a–i–z–i–e–m–l–i–c–h–
+43 nten deadly khu -> –n–t–e–n–d–e–a–d–l–y–k–h–u–
+44 si lumber either -> –s–i–l–u–m–b–e–r–e–i–t–h–e–r–
+45 ructura rgb bromide -> –r–u–c–t–u–r–a–r–g–b–b–r–o–m–i–d–e–
+46 kappa amigos stamp -> –k–a–p–p–a–a–m–i–g–o–s–s–t–a–m–p–
+47 lautern brod shoes -> –l–a–u–t–e–r–n–b–r–o–d–s–h–o–e–s–
+48 ony aimed mois -> –o–n–y–a–i–m–e–d–m–o–i–s–
+49 hook verfol prim -> –h–o–o–k–v–e–r–f–o–l–p–r–i–m–
+50 dated rack nied -> –d–a–t–e–d–r–a–c–k–n–i–e–d–
+51 mitted ruin samma -> –m–i–t–t–e–d–r–u–i–n–s–a–m–m–a–
+52 valor circond caf -> –v–a–l–o–r–c–i–r–c–o–n–d–c–a–f–
+53 calc perceive resort -> –c–a–l–c–p–e–r–c–e–i–v–e–r–e–s–o–r–t–
+54 neaux egyet beinahe -> –n–e–a–u–x–e–g–y–e–t–b–e–i–n–a–h–e–
+55 uler abge jours -> –u–l–e–r–a–b–g–e–j–o–u–r–s–
+56 ologna regal tara -> –o–l–o–g–n–a–r–e–g–a–l–t–a–r–a–
+57 ota suss steel -> –o–t–a–s–u–s–s–s–t–e–e–l–
+58 liyi incre tangan -> –l–i–y–i–i–n–c–r–e–t–a–n–g–a–n–
+59 unted barb su -> –u–n–t–e–d–b–a–r–b–s–u–
+60 angl imply curse -> –a–n–g–l–i–m–p–l–y–c–u–r–s–e–
+61 ountry festiv harvest -> –o–u–n–t–r–y–f–e–s–t–i–v–h–a–r–v–e–s–t–
+62 du drainage knowing -> –d–u–d–r–a–i–n–a–g–e–k–n–o–w–i–n–g–
+63 ovi shutdown assent -> –o–v–i–s–h–u–t–d–o–w–n–a–s–s–e–n–t–
+64 lash enriched fond -> –l–a–s–h–e–n–r–i–c–h–e–d–f–o–n–d–
+65 elcome applied sujeto -> –e–l–c–o–m–e–a–p–p–l–i–e–d–s–u–j–e–t–o–
+66 simeq praising lir -> –s–i–m–e–q–p–r–a–i–s–i–n–g–l–i–r–
+67 conom atroc svensk -> –c–o–n–o–m–a–t–r–o–c–s–v–e–n–s–k–
+68 apkan insects recesses -> –a–p–k–a–n–i–n–s–e–c–t–s–r–e–c–e–s–s–e–s–
+69 zzle finit stove -> –z–z–l–e–f–i–n–i–t–s–t–o–v–e–
+70 walk terrem chantier -> –w–a–l–k–t–e–r–r–e–m–c–h–a–n–t–i–e–r–
+71 idding clearer ankles -> –i–d–d–i–n–g–c–l–e–a–r–e–r–a–n–k–l–e–s–
+72 shown artil pericol -> –s–h–o–w–n–a–r–t–i–l–p–e–r–i–c–o–l–
+73 ystyrene shark photons -> –y–s–t–y–r–e–n–e–s–h–a–r–k–p–h–o–t–o–n–s–
+74 press capac polls -> –p–r–e–s–s–c–a–p–a–c–p–o–l–l–s–
+75 ance arisen cine -> –a–n–c–e–a–r–i–s–e–n–c–i–n–e–
+76 what essaie outro -> –w–h–a–t–e–s–s–a–i–e–o–u–t–r–o–
+77 omiast invoked logout -> –o–m–i–a–s–t–i–n–v–o–k–e–d–l–o–g–o–u–t–
+78 issances respond extens -> –i–s–s–a–n–c–e–s–r–e–s–p–o–n–d–e–x–t–e–n–s–
+79 izada pela fifty -> –i–z–a–d–a–p–e–l–a–f–i–f–t–y–
+80 ropri liczba bw -> –r–o–p–r–i–l–i–c–z–b–a–b–w–
+81 stw tc rangs -> –s–t–w–t–c–r–a–n–g–s–
+82 imar usado elektr -> –i–m–a–r–u–s–a–d–o–e–l–e–k–t–r–
+83 igli hk exemple -> –i–g–l–i–h–k–e–x–e–m–p–l–e–
+84 usion embedded sixteen -> –u–s–i–o–n–e–m–b–e–d–d–e–d–s–i–x–t–e–e–n–
+85 dob stessi cyber -> –d–o–b–s–t–e–s–s–i–c–y–b–e–r–
+86 under infiltr parejas -> –u–n–d–e–r–i–n–f–i–l–t–r–p–a–r–e–j–a–s–
+87 oto contral thing -> –o–t–o–c–o–n–t–r–a–l–t–h–i–n–g–
+88 eze modality intrac -> –e–z–e–m–o–d–a–l–i–t–y–i–n–t–r–a–c–
+89 pies injury prizes -> –p–i–e–s–i–n–j–u–r–y–p–r–i–z–e–s–
+90 tych parent imao -> –t–y–c–h–p–a–r–e–n–t–i–m–a–o–
+91 rats remis fiatal -> –r–a–t–s–r–e–m–i–s–f–i–a–t–a–l–
+92 etheus enters scans -> –e–t–h–e–u–s–e–n–t–e–r–s–s–c–a–n–s–
+93 kry coli skut -> –k–r–y–c–o–l–i–s–k–u–t–
+94 rikes perdu wyd -> –r–i–k–e–s–p–e–r–d–u–w–y–d–
+95 zm tug nej -> –z–m–t–u–g–n–e–j–
+96 rese vaid cookie -> –r–e–s–e–v–a–i–d–c–o–o–k–i–e–
+97 ogly rund differ -> –o–g–l–y–r–u–n–d–d–i–f–f–e–r–
+98 erin rivel uplink -> –e–r–i–n–r–i–v–e–l–u–p–l–i–n–k–
+99 emptyset conclu regroup -> –e–m–p–t–y–s–e–t–c–o–n–c–l–u–r–e–g–r–o–u–p–

@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 chod argileux baff
+01 eterm cour bottlene
+02 ziel superim paste
+
+This is a sample output.
+00 chod argileux baff -> –c–h–o–d–a–r–g–i–l–e–u–x–b–a–f–f–
+01 eterm cour bottlene -> –e–t–e–r–m–c–o–u–r–b–o–t–t–l–e–n–e–
+02 ziel superim paste -> –z–i–e–l–s–u–p–e–r–i–m–p–a–s–t–e–
+
+This is your input.
+00 ulas guida deixar
+01 utorial minas auquel
+02 ansion dividida convince
+03 erty dass aufgel
+04 machine influ abad
+05 atham ressent diffuse
+06 sta catches fringe
+07 reib godzin infatti
+08 atique collided kvar
+09 loader buc autres
+10 oseks ambigu function
+11 kten sets pylori
+12 ifecycle dib frei
+13 repo giving tand
+14 uerto women oscill
+15 plied cloning syn
+16 rance accol diru
+17 urre capital hubo
+18 anggal expenses viewer
+19 wiki sello blir
+20 iley thighs adulto
+21 omac tmp garbage
+22 kaj glaz lingua
+23 anka highways intends
+24 puty canals possu
+25 rawl clones stood
+26 auvais posiada commonly
+27 omers pard pode
+28 ashi fearful tres
+29 nd memoria salute
+30 jenih nje stellen
+31 round auton particip
+32 cdn calmly imposing
+33 ligere feelings begge
+34 uron celebr dreams
+35 ilev rot integer
+36 illaient acht pointed
+37 batis padr iddia
+38 owing docs stranici
+39 medium screamed compass
+40 plified strany psi
+41 ografie qaz emplo
+42 eket items cin
+43 osamente porto kife
+44 adar nyel coolant
+45 jou incision nuts
+46 jet fila chari
+47 olist simply suchte
+48 seaux stav zespo
+49 ugo recinto march
+50 orschung aveug protease
+51 collapse monastic rusk
+52 gesehen nowhere jeunes
+53 ully deixa pages
+54 irik abusive monot
+55 ykle oce ongoing
+56 cart mixt cabello
+57 rail molest jue
+58 attr kapott vaccine
+59 js eli kompleks
+60 added vacances maks
+61 ilateral prince stalled
+62 cimiento sirve irrit
+63 bin cocktail voce
+64 orska nursing hul
+65 oeg adopts curling
+66 eners chaud kup
+67 lr molyb sierp
+68 isko encarg seno
+69 udiantes seznam horror
+70 wiad beinh stopping
+71 hin oyida inverter
+72 otherapy matric dal
+73 mode earth ful
+74 ussed zw prestig
+75 credit dumb absurd
+76 vido katol orosz
+77 idin glac peripher
+78 option terakhir ayud
+79 release devotion unico
+80 enging tourne mese
+81 duce persoon lamin
+82 tvrt effettu hennes
+83 romad copia familiar
+84 merged embora scarcely
+85 skiego cola seam
+86 avar stamm sharing
+87 sing ctx scarce
+88 every devam sunlight
+89 rank classe celu
+90 nu dek cuer
+91 avit message briefly
+92 onas etmek believes
+93 gow llegar diagnose
+94 obei cellular xhr
+95 ivot plaf bringt
+96 bard monarch ostens
+97 amming null ostat
+98 rece oath dissolve
+99 zym agr conceito
+[completion]
+00 ulas guida deixar -> –u–l–a–s–g–u–i–d–a–d–e–i–x–a–r–
+01 utorial minas auquel -> –u–t–o–r–i–a–l–m–i–n–a–s–a–u–q–u–e–l–
+02 ansion dividida convince -> –a–n–s–i–o–n–d–i–v–i–d–i–d–a–c–o–n–v–i–n–c–e–
+03 erty dass aufgel -> –e–r–t–y–d–a–s–s–a–u–f–g–e–l–
+04 machine influ abad -> –m–a–c–h–i–n–e–i–n–f–l–u–a–b–a–d–
+05 atham ressent diffuse -> –a–t–h–a–m–r–e–s–s–e–n–t–d–i–f–f–u–s–e–
+06 sta catches fringe -> –s–t–a–c–a–t–c–h–e–s–f–r–i–n–g–e–
+07 reib godzin infatti -> –r–e–i–b–g–o–d–z–i–n–i–n–f–a–t–t–i–
+08 atique collided kvar -> –a–t–i–q–u–e–c–o–l–l–i–d–e–d–k–v–a–r–
+09 loader buc autres -> –l–o–a–d–e–r–b–u–c–a–u–t–r–e–s–
+10 oseks ambigu function -> –o–s–e–k–s–a–m–b–i–g–u–f–u–n–c–t–i–o–n–
+11 kten sets pylori -> –k–t–e–n–s–e–t–s–p–y–l–o–r–i–
+12 ifecycle dib frei -> –i–f–e–c–y–c–l–e–d–i–b–f–r–e–i–
+13 repo giving tand -> –r–e–p–o–g–i–v–i–n–g–t–a–n–d–
+14 uerto women oscill -> –u–e–r–t–o–w–o–m–e–n–o–s–c–i–l–l–
+15 plied cloning syn -> –p–l–i–e–d–c–l–o–n–i–n–g–s–y–n–
+16 rance accol diru -> –r–a–n–c–e–a–c–c–o–l–d–i–r–u–
+17 urre capital hubo -> –u–r–r–e–c–a–p–i–t–a–l–h–u–b–o–
+18 anggal expenses viewer -> –a–n–g–g–a–l–e–x–p–e–n–s–e–s–v–i–e–w–e–r–
+19 wiki sello blir -> –w–i–k–i–s–e–l–l–o–b–l–i–r–
+20 iley thighs adulto -> –i–l–e–y–t–h–i–g–h–s–a–d–u–l–t–o–
+21 omac tmp garbage -> –o–m–a–c–t–m–p–g–a–r–b–a–g–e–
+22 kaj glaz lingua -> –k–a–j–g–l–a–z–l–i–n–g–u–a–
+23 anka highways intends -> –a–n–k–a–h–i–g–h–w–a–y–s–i–n–t–e–n–d–s–
+24 puty canals possu -> –p–u–t–y–c–a–n–a–l–s–p–o–s–s–u–
+25 rawl clones stood -> –r–a–w–l–c–l–o–n–e–s–s–t–o–o–d–
+26 auvais posiada commonly -> –a–u–v–a–i–s–p–o–s–i–a–d–a–c–o–m–m–o–n–l–y–
+27 omers pard pode -> –o–m–e–r–s–p–a–r–d–p–o–d–e–
+28 ashi fearful tres -> –a–s–h–i–f–e–a–r–f–u–l–t–r–e–s–
+29 nd memoria salute -> –n–d–m–e–m–o–r–i–a–s–a–l–u–t–e–
+30 jenih nje stellen -> –j–e–n–i–h–n–j–e–s–t–e–l–l–e–n–
+31 round auton particip -> –r–o–u–n–d–a–u–t–o–n–p–a–r–t–i–c–i–p–
+32 cdn calmly imposing -> –c–d–n–c–a–l–m–l–y–i–m–p–o–s–i–n–g–
+33 ligere feelings begge -> –l–i–g–e–r–e–f–e–e–l–i–n–g–s–b–e–g–g–e–
+34 uron celebr dreams -> –u–r–o–n–c–e–l–e–b–r–d–r–e–a–m–s–
+35 ilev rot integer -> –i–l–e–v–r–o–t–i–n–t–e–g–e–r–
+36 illaient acht pointed -> –i–l–l–a–i–e–n–t–a–c–h–t–p–o–i–n–t–e–d–
+37 batis padr iddia -> –b–a–t–i–s–p–a–d–r–i–d–d–i–a–
+38 owing docs stranici -> –o–w–i–n–g–d–o–c–s–s–t–r–a–n–i–c–i–
+39 medium screamed compass -> –m–e–d–i–u–m–s–c–r–e–a–m–e–d–c–o–m–p–a–s–s–
+40 plified strany psi -> –p–l–i–f–i–e–d–s–t–r–a–n–y–p–s–i–
+41 ografie qaz emplo -> –o–g–r–a–f–i–e–q–a–z–e–m–p–l–o–
+42 eket items cin -> –e–k–e–t–i–t–e–m–s–c–i–n–
+43 osamente porto kife -> –o–s–a–m–e–n–t–e–p–o–r–t–o–k–i–f–e–
+44 adar nyel coolant -> –a–d–a–r–n–y–e–l–c–o–o–l–a–n–t–
+45 jou incision nuts -> –j–o–u–i–n–c–i–s–i–o–n–n–u–t–s–
+46 jet fila chari -> –j–e–t–f–i–l–a–c–h–a–r–i–
+47 olist simply suchte -> –o–l–i–s–t–s–i–m–p–l–y–s–u–c–h–t–e–
+48 seaux stav zespo -> –s–e–a–u–x–s–t–a–v–z–e–s–p–o–
+49 ugo recinto march -> –u–g–o–r–e–c–i–n–t–o–m–a–r–c–h–
+50 orschung aveug protease -> –o–r–s–c–h–u–n–g–a–v–e–u–g–p–r–o–t–e–a–s–e–
+51 collapse monastic rusk -> –c–o–l–l–a–p–s–e–m–o–n–a–s–t–i–c–r–u–s–k–
+52 gesehen nowhere jeunes -> –g–e–s–e–h–e–n–n–o–w–h–e–r–e–j–e–u–n–e–s–
+53 ully deixa pages -> –u–l–l–y–d–e–i–x–a–p–a–g–e–s–
+54 irik abusive monot -> –i–r–i–k–a–b–u–s–i–v–e–m–o–n–o–t–
+55 ykle oce ongoing -> –y–k–l–e–o–c–e–o–n–g–o–i–n–g–
+56 cart mixt cabello -> –c–a–r–t–m–i–x–t–c–a–b–e–l–l–o–
+57 rail molest jue -> –r–a–i–l–m–o–l–e–s–t–j–u–e–
+58 attr kapott vaccine -> –a–t–t–r–k–a–p–o–t–t–v–a–c–c–i–n–e–
+59 js eli kompleks -> –j–s–e–l–i–k–o–m–p–l–e–k–s–
+60 added vacances maks -> –a–d–d–e–d–v–a–c–a–n–c–e–s–m–a–k–s–
+61 ilateral prince stalled -> –i–l–a–t–e–r–a–l–p–r–i–n–c–e–s–t–a–l–l–e–d–
+62 cimiento sirve irrit -> –c–i–m–i–e–n–t–o–s–i–r–v–e–i–r–r–i–t–
+63 bin cocktail voce -> –b–i–n–c–o–c–k–t–a–i–l–v–o–c–e–
+64 orska nursing hul -> –o–r–s–k–a–n–u–r–s–i–n–g–h–u–l–
+65 oeg adopts curling -> –o–e–g–a–d–o–p–t–s–c–u–r–l–i–n–g–
+66 eners chaud kup -> –e–n–e–r–s–c–h–a–u–d–k–u–p–
+67 lr molyb sierp -> –l–r–m–o–l–y–b–s–i–e–r–p–
+68 isko encarg seno -> –i–s–k–o–e–n–c–a–r–g–s–e–n–o–
+69 udiantes seznam horror -> –u–d–i–a–n–t–e–s–s–e–z–n–a–m–h–o–r–r–o–r–
+70 wiad beinh stopping -> –w–i–a–d–b–e–i–n–h–s–t–o–p–p–i–n–g–
+71 hin oyida inverter -> –h–i–n–o–y–i–d–a–i–n–v–e–r–t–e–r–
+72 otherapy matric dal -> –o–t–h–e–r–a–p–y–m–a–t–r–i–c–d–a–l–
+73 mode earth ful -> –m–o–d–e–e–a–r–t–h–f–u–l–
+74 ussed zw prestig -> –u–s–s–e–d–z–w–p–r–e–s–t–i–g–
+75 credit dumb absurd -> –c–r–e–d–i–t–d–u–m–b–a–b–s–u–r–d–
+76 vido katol orosz -> –v–i–d–o–k–a–t–o–l–o–r–o–s–z–
+77 idin glac peripher -> –i–d–i–n–g–l–a–c–p–e–r–i–p–h–e–r–
+78 option terakhir ayud -> –o–p–t–i–o–n–t–e–r–a–k–h–i–r–a–y–u–d–
+79 release devotion unico -> –r–e–l–e–a–s–e–d–e–v–o–t–i–o–n–u–n–i–c–o–
+80 enging tourne mese -> –e–n–g–i–n–g–t–o–u–r–n–e–m–e–s–e–
+81 duce persoon lamin -> –d–u–c–e–p–e–r–s–o–o–n–l–a–m–i–n–
+82 tvrt effettu hennes -> –t–v–r–t–e–f–f–e–t–t–u–h–e–n–n–e–s–
+83 romad copia familiar -> –r–o–m–a–d–c–o–p–i–a–f–a–m–i–l–i–a–r–
+84 merged embora scarcely -> –m–e–r–g–e–d–e–m–b–o–r–a–s–c–a–r–c–e–l–y–
+85 skiego cola seam -> –s–k–i–e–g–o–c–o–l–a–s–e–a–m–
+86 avar stamm sharing -> –a–v–a–r–s–t–a–m–m–s–h–a–r–i–n–g–
+87 sing ctx scarce -> –s–i–n–g–c–t–x–s–c–a–r–c–e–
+88 every devam sunlight -> –e–v–e–r–y–d–e–v–a–m–s–u–n–l–i–g–h–t–
+89 rank classe celu -> –r–a–n–k–c–l–a–s–s–e–c–e–l–u–
+90 nu dek cuer -> –n–u–d–e–k–c–u–e–r–
+91 avit message briefly -> –a–v–i–t–m–e–s–s–a–g–e–b–r–i–e–f–l–y–
+92 onas etmek believes -> –o–n–a–s–e–t–m–e–k–b–e–l–i–e–v–e–s–
+93 gow llegar diagnose -> –g–o–w–l–l–e–g–a–r–d–i–a–g–n–o–s–e–
+94 obei cellular xhr -> –o–b–e–i–c–e–l–l–u–l–a–r–x–h–r–
+95 ivot plaf bringt -> –i–v–o–t–p–l–a–f–b–r–i–n–g–t–
+96 bard monarch ostens -> –b–a–r–d–m–o–n–a–r–c–h–o–s–t–e–n–s–
+97 amming null ostat -> –a–m–m–i–n–g–n–u–l–l–o–s–t–a–t–
+98 rece oath dissolve -> –r–e–c–e–o–a–t–h–d–i–s–s–o–l–v–e–
+99 zym agr conceito -> –z–y–m–a–g–r–c–o–n–c–e–i–t–o–

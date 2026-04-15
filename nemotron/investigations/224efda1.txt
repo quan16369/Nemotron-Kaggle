@@ -1,0 +1,31 @@
+problem id: 224efda1
+category: equation_numeric_deduce
+
+examples:
+- 22]67 = ]45
+- 39@99 = 3999
+- 53]91 = ]38
+- query: 61]54
+
+inferred rule:
+The operators appear to define different transformations. For the `]` operator, the rule is standard subtraction of the two 2-digit numbers.
+
+If the subtraction result is negative, the puzzle writes `]` in place of the usual minus sign.
+
+Checks:
+- 22 - 67 = -45, written here as ]45
+- 53 - 91 = -38, written here as ]38
+
+The `39@99 = 3999` example seems to belong to a separate operator family and is not needed to determine the `]` rule.
+
+step-by-step application to the query:
+1. Take the query expression 61]54.
+2. Apply the `]` rule as subtraction: 61 - 54.
+3. Compute the result: 7.
+4. The result is positive, so no leading `]` sign is needed.
+
+predicted answer:
+7
+
+confidence:
+Moderately high. There are only two `]` examples, but both fit ordinary subtraction exactly, including the use of `]` as a stand-in negative sign.

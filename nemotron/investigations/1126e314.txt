@@ -1,0 +1,60 @@
+Problem ID: 1126e314
+Category: bit_manipulation
+
+Examples:
+- 11110010 -> 11101001
+- 11100100 -> 11010000
+- 10111101 -> 01111110
+- 01100001 -> 10000000
+- 10110110 -> 01011001
+- 10101110 -> 01011101
+- 00111011 -> 01111100
+- query: 10010011
+
+Inferred rule:
+- Let
+  `A = input >> 1`
+  `B = ROL1(input)`  (rotate left by 1 bit)
+  `C = (input << 2) mod 256`
+- The output is the bitwise majority of those three intermediate bytes:
+  `output = MAJ(A, B, C) = (A & B) | (A & C) | (B & C)`
+- In other words, each output bit is `1` exactly when at least two of the corresponding bits in `A`, `B`, and `C` are `1`.
+- This matches all seven training examples exactly.
+
+Quick checks from the examples:
+- For `11110010`:
+  `A = 01111001`
+  `B = 11100101`
+  `C = 11001000`
+  `MAJ(A, B, C) = 11101001`
+- For `01100001`:
+  `A = 00110000`
+  `B = 11000010`
+  `C = 10000100`
+  `MAJ(A, B, C) = 10000000`
+- For `00111011`:
+  `A = 00011101`
+  `B = 01110110`
+  `C = 11101100`
+  `MAJ(A, B, C) = 01111100`
+
+Step-by-step application to the query:
+1. Query input is `10010011`.
+2. Shift right by 1:
+   `A = 01001001`
+3. Rotate left by 1:
+   `B = 00100111`
+4. Shift left by 2 and keep 8 bits:
+   `C = 01001100`
+5. Take the bitwise majority column by column:
+   `A = 01001001`
+   `B = 00100111`
+   `C = 01001100`
+   `MAJ = 01001101`
+6. Therefore the predicted output is `01001101`.
+
+Predicted answer:
+- 01001101
+
+Confidence note:
+- High confidence. The majority-of-three-transforms rule is simple, exact on every example, and has only trivial equivalent rewrites such as swapping the order of the `MAJ` arguments or writing `ROL1` as `ROR7`.

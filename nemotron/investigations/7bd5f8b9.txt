@@ -1,0 +1,29 @@
+Problem ID: 7bd5f8b9
+Category: equation_numeric_deduce
+
+Examples:
+- 45-54 = -9
+- 43+09 = 421
+- 44-59 = -15
+- 03+98 = 911
+- 89-62 = -27
+
+Inferred rule:
+- The symbols appear to define different transformations.
+- For the `-` operator, the result is the negative absolute difference of the two numbers.
+- Evidence from the subtraction examples:
+  - `|45 - 54| = 9`, so the output is `-9`
+  - `|44 - 59| = 15`, so the output is `-15`
+  - `|89 - 62| = 27`, so the output is `-27`
+- The `+` examples seem to follow a separate rule, but they are not needed to solve a `-` query.
+
+Step-by-step application to the query:
+- Query: `97-97`
+- Compute the absolute difference: `|97 - 97| = 0`
+- Apply the `-` formatting rule. Since the magnitude is zero, the natural normalized output is `0` rather than `-0`.
+
+Predicted answer:
+- `0`
+
+Confidence:
+- High for the `-` rule itself. The only small ambiguity is whether zero should be written as `0` or `-0`, and `0` is the more natural numeric form.

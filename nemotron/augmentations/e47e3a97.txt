@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 dog rays region
+01 sys piir cun
+02 aucoup hann puits
+
+This is a sample output.
+00 dog rays region -> –d–o–g–r–a–y–s–r–e–g–i–o–n–
+01 sys piir cun -> –s–y–s–p–i–i–r–c–u–n–
+02 aucoup hann puits -> –a–u–c–o–u–p–h–a–n–n–p–u–i–t–s–
+
+This is your input.
+00 alsevol tone katika
+01 ied kompoz bard
+02 vain glances ate
+03 lion ali pouvais
+04 allows arguing flagship
+05 oir ont preg
+06 culator deb fiesta
+07 oggia infolge seaw
+08 thane lovers concerne
+09 uctural scav guests
+10 udet ned ended
+11 mais holidays kont
+12 bane old vegada
+13 iali tile erlaubt
+14 words syysku willing
+15 irm ultim invari
+16 chnen augmente liter
+17 ignon err substit
+18 le damalige harm
+19 inten tapped despl
+20 ivid refrain zweite
+21 lem des contiene
+22 claimer blow grouping
+23 zier maires dever
+24 istible justice unified
+25 codigo avsl fibro
+26 tex aceea affirm
+27 fono divisor krig
+28 appoint anaest osvoj
+29 tois norske afforded
+30 utos autism crawled
+31 gart archive kaf
+32 suit atras reunion
+33 crum sparked paris
+34 zar variants vyt
+35 vider billing patrols
+36 console undersc ritir
+37 month pride swung
+38 unning meestal ios
+39 reiber gravel wybor
+40 erapeut hegem rester
+41 azy us quen
+42 beat legte css
+43 queta obvious already
+44 unsch sw clause
+45 ervices tvr refining
+46 borough psychiat json
+47 users biztos culte
+48 iciary assur helyez
+49 jwt kao kunst
+50 code inserted minist
+51 athering van visitor
+52 riko notified ocean
+53 ifacts cirka sguardo
+54 abt dwell answer
+55 bage electr francusk
+56 kti chasing abband
+57 ximately amour zum
+58 tiny immens stature
+59 geordnet eeuw octobre
+60 fruit spada menerima
+61 izou inc propias
+62 iegos baron risk
+63 etan seeing compete
+64 unte relies margins
+65 pk cale lions
+66 pei lini teles
+67 azo synonym panel
+68 ijas mongol string
+69 aughters moon hod
+70 gebras alla subjects
+71 zahlen dim ima
+72 estead enfrent stranger
+73 mals protesta ligands
+74 job lighter intro
+75 zea flight regel
+76 shift tyrosine biocom
+77 spor llegan starken
+78 yte ihren abl
+79 ihydro andata af
+80 kehren guruh nested
+81 partial znalaz marcou
+82 rho salts incess
+83 deploy edges lady
+84 avant enero zweiten
+85 reduce during barne
+86 edad fleeing cacher
+87 cria krav commenc
+88 partum conex savais
+89 rista tecn owns
+90 urop meget ro
+91 win nebul condens
+92 ools dot collabor
+93 lan adop ihrem
+94 vey residue sai
+95 glieder quart jabearen
+96 kop conflito blade
+97 ategi marks indie
+98 ouss digne bacteria
+99 atching gente quand
+[completion]
+00 alsevol tone katika -> –a–l–s–e–v–o–l–t–o–n–e–k–a–t–i–k–a–
+01 ied kompoz bard -> –i–e–d–k–o–m–p–o–z–b–a–r–d–
+02 vain glances ate -> –v–a–i–n–g–l–a–n–c–e–s–a–t–e–
+03 lion ali pouvais -> –l–i–o–n–a–l–i–p–o–u–v–a–i–s–
+04 allows arguing flagship -> –a–l–l–o–w–s–a–r–g–u–i–n–g–f–l–a–g–s–h–i–p–
+05 oir ont preg -> –o–i–r–o–n–t–p–r–e–g–
+06 culator deb fiesta -> –c–u–l–a–t–o–r–d–e–b–f–i–e–s–t–a–
+07 oggia infolge seaw -> –o–g–g–i–a–i–n–f–o–l–g–e–s–e–a–w–
+08 thane lovers concerne -> –t–h–a–n–e–l–o–v–e–r–s–c–o–n–c–e–r–n–e–
+09 uctural scav guests -> –u–c–t–u–r–a–l–s–c–a–v–g–u–e–s–t–s–
+10 udet ned ended -> –u–d–e–t–n–e–d–e–n–d–e–d–
+11 mais holidays kont -> –m–a–i–s–h–o–l–i–d–a–y–s–k–o–n–t–
+12 bane old vegada -> –b–a–n–e–o–l–d–v–e–g–a–d–a–
+13 iali tile erlaubt -> –i–a–l–i–t–i–l–e–e–r–l–a–u–b–t–
+14 words syysku willing -> –w–o–r–d–s–s–y–y–s–k–u–w–i–l–l–i–n–g–
+15 irm ultim invari -> –i–r–m–u–l–t–i–m–i–n–v–a–r–i–
+16 chnen augmente liter -> –c–h–n–e–n–a–u–g–m–e–n–t–e–l–i–t–e–r–
+17 ignon err substit -> –i–g–n–o–n–e–r–r–s–u–b–s–t–i–t–
+18 le damalige harm -> –l–e–d–a–m–a–l–i–g–e–h–a–r–m–
+19 inten tapped despl -> –i–n–t–e–n–t–a–p–p–e–d–d–e–s–p–l–
+20 ivid refrain zweite -> –i–v–i–d–r–e–f–r–a–i–n–z–w–e–i–t–e–
+21 lem des contiene -> –l–e–m–d–e–s–c–o–n–t–i–e–n–e–
+22 claimer blow grouping -> –c–l–a–i–m–e–r–b–l–o–w–g–r–o–u–p–i–n–g–
+23 zier maires dever -> –z–i–e–r–m–a–i–r–e–s–d–e–v–e–r–
+24 istible justice unified -> –i–s–t–i–b–l–e–j–u–s–t–i–c–e–u–n–i–f–i–e–d–
+25 codigo avsl fibro -> –c–o–d–i–g–o–a–v–s–l–f–i–b–r–o–
+26 tex aceea affirm -> –t–e–x–a–c–e–e–a–a–f–f–i–r–m–
+27 fono divisor krig -> –f–o–n–o–d–i–v–i–s–o–r–k–r–i–g–
+28 appoint anaest osvoj -> –a–p–p–o–i–n–t–a–n–a–e–s–t–o–s–v–o–j–
+29 tois norske afforded -> –t–o–i–s–n–o–r–s–k–e–a–f–f–o–r–d–e–d–
+30 utos autism crawled -> –u–t–o–s–a–u–t–i–s–m–c–r–a–w–l–e–d–
+31 gart archive kaf -> –g–a–r–t–a–r–c–h–i–v–e–k–a–f–
+32 suit atras reunion -> –s–u–i–t–a–t–r–a–s–r–e–u–n–i–o–n–
+33 crum sparked paris -> –c–r–u–m–s–p–a–r–k–e–d–p–a–r–i–s–
+34 zar variants vyt -> –z–a–r–v–a–r–i–a–n–t–s–v–y–t–
+35 vider billing patrols -> –v–i–d–e–r–b–i–l–l–i–n–g–p–a–t–r–o–l–s–
+36 console undersc ritir -> –c–o–n–s–o–l–e–u–n–d–e–r–s–c–r–i–t–i–r–
+37 month pride swung -> –m–o–n–t–h–p–r–i–d–e–s–w–u–n–g–
+38 unning meestal ios -> –u–n–n–i–n–g–m–e–e–s–t–a–l–i–o–s–
+39 reiber gravel wybor -> –r–e–i–b–e–r–g–r–a–v–e–l–w–y–b–o–r–
+40 erapeut hegem rester -> –e–r–a–p–e–u–t–h–e–g–e–m–r–e–s–t–e–r–
+41 azy us quen -> –a–z–y–u–s–q–u–e–n–
+42 beat legte css -> –b–e–a–t–l–e–g–t–e–c–s–s–
+43 queta obvious already -> –q–u–e–t–a–o–b–v–i–o–u–s–a–l–r–e–a–d–y–
+44 unsch sw clause -> –u–n–s–c–h–s–w–c–l–a–u–s–e–
+45 ervices tvr refining -> –e–r–v–i–c–e–s–t–v–r–r–e–f–i–n–i–n–g–
+46 borough psychiat json -> –b–o–r–o–u–g–h–p–s–y–c–h–i–a–t–j–s–o–n–
+47 users biztos culte -> –u–s–e–r–s–b–i–z–t–o–s–c–u–l–t–e–
+48 iciary assur helyez -> –i–c–i–a–r–y–a–s–s–u–r–h–e–l–y–e–z–
+49 jwt kao kunst -> –j–w–t–k–a–o–k–u–n–s–t–
+50 code inserted minist -> –c–o–d–e–i–n–s–e–r–t–e–d–m–i–n–i–s–t–
+51 athering van visitor -> –a–t–h–e–r–i–n–g–v–a–n–v–i–s–i–t–o–r–
+52 riko notified ocean -> –r–i–k–o–n–o–t–i–f–i–e–d–o–c–e–a–n–
+53 ifacts cirka sguardo -> –i–f–a–c–t–s–c–i–r–k–a–s–g–u–a–r–d–o–
+54 abt dwell answer -> –a–b–t–d–w–e–l–l–a–n–s–w–e–r–
+55 bage electr francusk -> –b–a–g–e–e–l–e–c–t–r–f–r–a–n–c–u–s–k–
+56 kti chasing abband -> –k–t–i–c–h–a–s–i–n–g–a–b–b–a–n–d–
+57 ximately amour zum -> –x–i–m–a–t–e–l–y–a–m–o–u–r–z–u–m–
+58 tiny immens stature -> –t–i–n–y–i–m–m–e–n–s–s–t–a–t–u–r–e–
+59 geordnet eeuw octobre -> –g–e–o–r–d–n–e–t–e–e–u–w–o–c–t–o–b–r–e–
+60 fruit spada menerima -> –f–r–u–i–t–s–p–a–d–a–m–e–n–e–r–i–m–a–
+61 izou inc propias -> –i–z–o–u–i–n–c–p–r–o–p–i–a–s–
+62 iegos baron risk -> –i–e–g–o–s–b–a–r–o–n–r–i–s–k–
+63 etan seeing compete -> –e–t–a–n–s–e–e–i–n–g–c–o–m–p–e–t–e–
+64 unte relies margins -> –u–n–t–e–r–e–l–i–e–s–m–a–r–g–i–n–s–
+65 pk cale lions -> –p–k–c–a–l–e–l–i–o–n–s–
+66 pei lini teles -> –p–e–i–l–i–n–i–t–e–l–e–s–
+67 azo synonym panel -> –a–z–o–s–y–n–o–n–y–m–p–a–n–e–l–
+68 ijas mongol string -> –i–j–a–s–m–o–n–g–o–l–s–t–r–i–n–g–
+69 aughters moon hod -> –a–u–g–h–t–e–r–s–m–o–o–n–h–o–d–
+70 gebras alla subjects -> –g–e–b–r–a–s–a–l–l–a–s–u–b–j–e–c–t–s–
+71 zahlen dim ima -> –z–a–h–l–e–n–d–i–m–i–m–a–
+72 estead enfrent stranger -> –e–s–t–e–a–d–e–n–f–r–e–n–t–s–t–r–a–n–g–e–r–
+73 mals protesta ligands -> –m–a–l–s–p–r–o–t–e–s–t–a–l–i–g–a–n–d–s–
+74 job lighter intro -> –j–o–b–l–i–g–h–t–e–r–i–n–t–r–o–
+75 zea flight regel -> –z–e–a–f–l–i–g–h–t–r–e–g–e–l–
+76 shift tyrosine biocom -> –s–h–i–f–t–t–y–r–o–s–i–n–e–b–i–o–c–o–m–
+77 spor llegan starken -> –s–p–o–r–l–l–e–g–a–n–s–t–a–r–k–e–n–
+78 yte ihren abl -> –y–t–e–i–h–r–e–n–a–b–l–
+79 ihydro andata af -> –i–h–y–d–r–o–a–n–d–a–t–a–a–f–
+80 kehren guruh nested -> –k–e–h–r–e–n–g–u–r–u–h–n–e–s–t–e–d–
+81 partial znalaz marcou -> –p–a–r–t–i–a–l–z–n–a–l–a–z–m–a–r–c–o–u–
+82 rho salts incess -> –r–h–o–s–a–l–t–s–i–n–c–e–s–s–
+83 deploy edges lady -> –d–e–p–l–o–y–e–d–g–e–s–l–a–d–y–
+84 avant enero zweiten -> –a–v–a–n–t–e–n–e–r–o–z–w–e–i–t–e–n–
+85 reduce during barne -> –r–e–d–u–c–e–d–u–r–i–n–g–b–a–r–n–e–
+86 edad fleeing cacher -> –e–d–a–d–f–l–e–e–i–n–g–c–a–c–h–e–r–
+87 cria krav commenc -> –c–r–i–a–k–r–a–v–c–o–m–m–e–n–c–
+88 partum conex savais -> –p–a–r–t–u–m–c–o–n–e–x–s–a–v–a–i–s–
+89 rista tecn owns -> –r–i–s–t–a–t–e–c–n–o–w–n–s–
+90 urop meget ro -> –u–r–o–p–m–e–g–e–t–r–o–
+91 win nebul condens -> –w–i–n–n–e–b–u–l–c–o–n–d–e–n–s–
+92 ools dot collabor -> –o–o–l–s–d–o–t–c–o–l–l–a–b–o–r–
+93 lan adop ihrem -> –l–a–n–a–d–o–p–i–h–r–e–m–
+94 vey residue sai -> –v–e–y–r–e–s–i–d–u–e–s–a–i–
+95 glieder quart jabearen -> –g–l–i–e–d–e–r–q–u–a–r–t–j–a–b–e–a–r–e–n–
+96 kop conflito blade -> –k–o–p–c–o–n–f–l–i–t–o–b–l–a–d–e–
+97 ategi marks indie -> –a–t–e–g–i–m–a–r–k–s–i–n–d–i–e–
+98 ouss digne bacteria -> –o–u–s–s–d–i–g–n–e–b–a–c–t–e–r–i–a–
+99 atching gente quand -> –a–t–c–h–i–n–g–g–e–n–t–e–q–u–a–n–d–

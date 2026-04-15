@@ -1,0 +1,47 @@
+problem id: 7c0c5227
+category: equation_numeric_guess
+
+examples:
+- 58*47 = 0926
+- 63+23 = 2363
+- 68*18 = 6696
+- query: 69-55
+
+inferred rule:
+Reverse both two-digit operands, apply the arithmetic operation suggested by the symbol to the reversed numbers, then reverse the digits of the result.
+
+step-by-step check on the examples:
+1. 58*47
+   Reverse operands: 58 -> 85, 47 -> 74
+   Multiply: 85 * 74 = 6290
+   Reverse result: 6290 -> 0926
+   This matches.
+2. 63+23
+   Reverse operands: 63 -> 36, 23 -> 32
+   Add: 36 + 32 = 68
+   Reverse result: 68 -> 86
+   The puzzle shows 2363 instead, so this line does not fit the rule.
+3. 68*18
+   Reverse operands: 68 -> 86, 18 -> 81
+   Multiply: 86 * 81 = 6966
+   Reverse result: 6966 -> 6696
+   This matches.
+
+why this rule is still the best fit:
+The two `*` examples agree exactly with the same reverse-operands / operate / reverse-result pattern. The lone `+` example appears inconsistent and is likely a bad example line or a mislabeled operator. I am therefore using the repeated, exact pattern from the `*` examples and extending the same wrapper to the query operator.
+
+step-by-step application to the query:
+1. Query: 69-55
+2. Reverse operands:
+   69 -> 96
+   55 -> 55
+3. Apply subtraction:
+   96 - 55 = 41
+4. Reverse the result:
+   41 -> 14
+
+predicted answer:
+14
+
+confidence note:
+Medium confidence. The multiplication examples fit perfectly, but the single `63+23 = 2363` line conflicts with the otherwise clean pattern, so I am treating that line as noisy.

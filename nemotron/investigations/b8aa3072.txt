@@ -1,0 +1,43 @@
+problem id: b8aa3072
+category: bit_manipulation
+
+examples:
+- 11001101 -> 11000110
+- 01111111 -> 00000111
+- 00110010 -> 00010001
+- 11110100 -> 00101010
+- 00110110 -> 00000011
+- 10100010 -> 01011001
+- 00111010 -> 00010101
+- query: 00101111
+
+inferred rule:
+- Let `a = x << 2` (logical left shift by 2).
+- Let `b = x >> 4` (logical right shift by 4).
+- Let `c = rotr1(x)` (rotate right by 1).
+- Output is `ch(a, b, c)` where `ch(a,b,c) = (a & b) | (~a & c)`.
+- In words: where bits of `a` are 1, keep bits from `b`; where bits of `a` are 0, take bits from `c`.
+
+why this rule fits all examples:
+- For `11001101`: `a = 00001100`, `b = 00001000`, `c = 11100110`; `(a & b) | (~a & c) = 11000110`.
+- For `01111111`: `a = 11111100`, `b = 00000111`, `c = 10111111`; `(a & b) | (~a & c) = 00000111`.
+- For `00110010`: `a = 11001000`, `b = 00000011`, `c = 00011001`; `(a & b) | (~a & c) = 00010001`.
+- For `11110100`: `a = 11010000`, `b = 00001111`, `c = 01111010`; `(a & b) | (~a & c) = 00101010`.
+- For `00110110`: `a = 01101100`, `b = 00000011`, `c = 00011011`; `(a & b) | (~a & c) = 00000011`.
+- For `10100010`: `a = 10001000`, `b = 00001010`, `c = 01010001`; `(a & b) | (~a & c) = 01011001`.
+- For `00111010`: `a = 11101000`, `b = 00000011`, `c = 10011101`; `(a & b) | (~a & c) = 00010101`.
+
+step-by-step application to the query:
+1. Start with `x = 00101111`.
+2. Compute `a = x << 2 = 10111100`.
+3. Compute `b = x >> 4 = 00000010`.
+4. Compute `c = rotr1(x) = 10010111`.
+5. Compute `a & b = 10111100 & 00000010 = 00000010`.
+6. Compute `~a & c = 01000011 & 10010111 = 00000001`.
+7. OR the two parts: `00000010 | 00000001 = 00000011`.
+
+predicted answer:
+- 00000011
+
+confidence note:
+- High confidence. The exact choice-function expression matches all seven examples bit-for-bit.

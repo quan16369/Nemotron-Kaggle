@@ -1,0 +1,28 @@
+problem id: dc240ebd
+category: cryptarithm_deduce
+
+symbol-to-digit mapping:
+  '"' = 6
+  ')' = 7
+  ':' = 2
+  '<' = 8
+  '>' = 5
+  '@' = 1
+  '\\' = 0
+  '`' = 4
+  '|' = 3
+  '}' = 9
+
+operator-to-operation mapping:
+  '-' = mul
+
+examples:
+  >@-`` = ::``  =>  51 * 44 = 2244
+  :}-:: = "|<  =>  29 * 22 = 638
+  )>-)> = >":>  =>  75 * 75 = 5625
+  @>-)< = @@)\  =>  15 * 78 = 1170
+  )|-<" = ":)<  =>  73 * 86 = 6278
+
+query: >|-}|  =>  53 * 93 = 4929
+
+predicted answer: `}:}

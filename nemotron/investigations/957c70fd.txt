@@ -1,0 +1,48 @@
+problem id: 957c70fd
+category: equation_numeric_deduce
+
+examples:
+- 89-96 = 92
+- 69+79 = 291
+- 96+07 = 831
+- 28-37 = 9
+- query: 07-77
+
+inferred rule:
+The query uses `-`, so the relevant evidence is the two `-` examples.
+
+For `A-B`:
+1. Reverse both 2-digit inputs.
+2. Subtract the reversed second number from the reversed first number.
+3. Reverse the digits of that result to get the written output.
+
+Checks:
+- 89-96:
+  89 -> 98, 96 -> 69
+  98 - 69 = 29
+  reverse 29 -> 92
+- 28-37:
+  28 -> 82, 37 -> 73
+  82 - 73 = 9
+  reverse 9 -> 9
+
+The `+` examples appear to use a different operator-specific rule and are not
+needed for the query.
+
+step-by-step application to the query:
+1. Query: 07-77
+2. Reverse both inputs:
+   07 -> 70
+   77 -> 77
+3. Subtract:
+   70 - 77 = -7
+4. Reverse the result digits:
+   -7 stays -7
+
+predicted answer:
+-7
+
+confidence note:
+Moderately high confidence. There are only two direct `-` examples, but both
+fit the same transformation cleanly, and that rule gives a simple result for
+the query.

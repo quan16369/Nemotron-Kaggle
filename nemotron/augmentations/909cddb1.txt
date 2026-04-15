@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 le orderly shoot
+01 pf maximal thick
+02 iety nimmt gou
+
+This is a sample output.
+00 le orderly shoot -> –l–e–o–r–d–e–r–l–y–s–h–o–o–t–
+01 pf maximal thick -> –p–f–m–a–x–i–m–a–l–t–h–i–c–k–
+02 iety nimmt gou -> –i–e–t–y–n–i–m–m–t–g–o–u–
+
+This is your input.
+00 flix custod meinen
+01 plate provo iglesia
+02 crop accord przyp
+03 ovirus ofere razd
+04 propyl raport gotta
+05 react ulogu worm
+06 leh exclus lok
+07 venida sav rear
+08 deleted copa confined
+09 yka faute roce
+10 illons chances buffered
+11 obile sie zeg
+12 ueux annet aand
+13 lag indeed cliff
+14 enska prom ted
+15 ccc membros tabl
+16 ligne inclou together
+17 weif beard rabbits
+18 istenza oxidized hog
+19 ordnet decimal finite
+20 avi iy mesos
+21 autor neurom interval
+22 required programm chino
+23 lation solely elseif
+24 registro puzz spray
+25 ansk brusqu hole
+26 slow normas guarding
+27 itori dile entrepr
+28 pte yar surviv
+29 argest lesbian pointers
+30 aptcha bate presque
+31 weig browsers testo
+32 mas nodes contou
+33 uko tempr fruits
+34 ellent virtues olur
+35 ancial sono tensile
+36 eline wod phases
+37 fg tcp retorn
+38 seller outlets belang
+39 suario treize outliers
+40 ul unu spolo
+41 ial przypad desp
+42 vens good affaires
+43 atial szczeg zap
+44 adora laure knife
+45 itud kuten meng
+46 gebracht siempre kalan
+47 nisse flip arreg
+48 ab jog stated
+49 utsal minima supra
+50 lant stain brow
+51 vac prakty erhoben
+52 ringe savez westlich
+53 wiz academia folders
+54 lehnt ziren entrega
+55 caled frames nagyobb
+56 related handler ricon
+57 icier says lignes
+58 zelfde involuc cycl
+59 create byla nomi
+60 ocations wherever siglo
+61 zak maakte russ
+62 ometri parc review
+63 term mex numer
+64 execute isset councils
+65 oked electric domen
+66 uenza sampling kuri
+67 atalina tuli fetal
+68 usses hert optic
+69 jing judges vijf
+70 chs bagian weitere
+71 reit licensed curios
+72 izontal libra gelijk
+73 ysty newer inflater
+74 ensa current impacto
+75 ponsive assegn spent
+76 uing zahl parks
+77 possible columns sincer
+78 wnie intitul terwijl
+79 abled seized fugg
+80 ipients emigr quinta
+81 buff dahin svak
+82 indent tedy rejected
+83 eto apoio couronne
+84 athon pover brake
+85 gypt barbar diez
+86 omorf ang gaat
+87 retta spect phen
+88 enth obraz amidst
+89 rash edizione cuerpo
+90 led regarded tissue
+91 umably edits arrows
+92 ounce tratto uint
+93 ativa longa charme
+94 porter polg olmak
+95 oue abrite impieg
+96 acked calcul dig
+97 wait puts afirma
+98 ubation deutsche veel
+99 litz vehicles reclaim
+[completion]
+00 flix custod meinen -> –f–l–i–x–c–u–s–t–o–d–m–e–i–n–e–n–
+01 plate provo iglesia -> –p–l–a–t–e–p–r–o–v–o–i–g–l–e–s–i–a–
+02 crop accord przyp -> –c–r–o–p–a–c–c–o–r–d–p–r–z–y–p–
+03 ovirus ofere razd -> –o–v–i–r–u–s–o–f–e–r–e–r–a–z–d–
+04 propyl raport gotta -> –p–r–o–p–y–l–r–a–p–o–r–t–g–o–t–t–a–
+05 react ulogu worm -> –r–e–a–c–t–u–l–o–g–u–w–o–r–m–
+06 leh exclus lok -> –l–e–h–e–x–c–l–u–s–l–o–k–
+07 venida sav rear -> –v–e–n–i–d–a–s–a–v–r–e–a–r–
+08 deleted copa confined -> –d–e–l–e–t–e–d–c–o–p–a–c–o–n–f–i–n–e–d–
+09 yka faute roce -> –y–k–a–f–a–u–t–e–r–o–c–e–
+10 illons chances buffered -> –i–l–l–o–n–s–c–h–a–n–c–e–s–b–u–f–f–e–r–e–d–
+11 obile sie zeg -> –o–b–i–l–e–s–i–e–z–e–g–
+12 ueux annet aand -> –u–e–u–x–a–n–n–e–t–a–a–n–d–
+13 lag indeed cliff -> –l–a–g–i–n–d–e–e–d–c–l–i–f–f–
+14 enska prom ted -> –e–n–s–k–a–p–r–o–m–t–e–d–
+15 ccc membros tabl -> –c–c–c–m–e–m–b–r–o–s–t–a–b–l–
+16 ligne inclou together -> –l–i–g–n–e–i–n–c–l–o–u–t–o–g–e–t–h–e–r–
+17 weif beard rabbits -> –w–e–i–f–b–e–a–r–d–r–a–b–b–i–t–s–
+18 istenza oxidized hog -> –i–s–t–e–n–z–a–o–x–i–d–i–z–e–d–h–o–g–
+19 ordnet decimal finite -> –o–r–d–n–e–t–d–e–c–i–m–a–l–f–i–n–i–t–e–
+20 avi iy mesos -> –a–v–i–i–y–m–e–s–o–s–
+21 autor neurom interval -> –a–u–t–o–r–n–e–u–r–o–m–i–n–t–e–r–v–a–l–
+22 required programm chino -> –r–e–q–u–i–r–e–d–p–r–o–g–r–a–m–m–c–h–i–n–o–
+23 lation solely elseif -> –l–a–t–i–o–n–s–o–l–e–l–y–e–l–s–e–i–f–
+24 registro puzz spray -> –r–e–g–i–s–t–r–o–p–u–z–z–s–p–r–a–y–
+25 ansk brusqu hole -> –a–n–s–k–b–r–u–s–q–u–h–o–l–e–
+26 slow normas guarding -> –s–l–o–w–n–o–r–m–a–s–g–u–a–r–d–i–n–g–
+27 itori dile entrepr -> –i–t–o–r–i–d–i–l–e–e–n–t–r–e–p–r–
+28 pte yar surviv -> –p–t–e–y–a–r–s–u–r–v–i–v–
+29 argest lesbian pointers -> –a–r–g–e–s–t–l–e–s–b–i–a–n–p–o–i–n–t–e–r–s–
+30 aptcha bate presque -> –a–p–t–c–h–a–b–a–t–e–p–r–e–s–q–u–e–
+31 weig browsers testo -> –w–e–i–g–b–r–o–w–s–e–r–s–t–e–s–t–o–
+32 mas nodes contou -> –m–a–s–n–o–d–e–s–c–o–n–t–o–u–
+33 uko tempr fruits -> –u–k–o–t–e–m–p–r–f–r–u–i–t–s–
+34 ellent virtues olur -> –e–l–l–e–n–t–v–i–r–t–u–e–s–o–l–u–r–
+35 ancial sono tensile -> –a–n–c–i–a–l–s–o–n–o–t–e–n–s–i–l–e–
+36 eline wod phases -> –e–l–i–n–e–w–o–d–p–h–a–s–e–s–
+37 fg tcp retorn -> –f–g–t–c–p–r–e–t–o–r–n–
+38 seller outlets belang -> –s–e–l–l–e–r–o–u–t–l–e–t–s–b–e–l–a–n–g–
+39 suario treize outliers -> –s–u–a–r–i–o–t–r–e–i–z–e–o–u–t–l–i–e–r–s–
+40 ul unu spolo -> –u–l–u–n–u–s–p–o–l–o–
+41 ial przypad desp -> –i–a–l–p–r–z–y–p–a–d–d–e–s–p–
+42 vens good affaires -> –v–e–n–s–g–o–o–d–a–f–f–a–i–r–e–s–
+43 atial szczeg zap -> –a–t–i–a–l–s–z–c–z–e–g–z–a–p–
+44 adora laure knife -> –a–d–o–r–a–l–a–u–r–e–k–n–i–f–e–
+45 itud kuten meng -> –i–t–u–d–k–u–t–e–n–m–e–n–g–
+46 gebracht siempre kalan -> –g–e–b–r–a–c–h–t–s–i–e–m–p–r–e–k–a–l–a–n–
+47 nisse flip arreg -> –n–i–s–s–e–f–l–i–p–a–r–r–e–g–
+48 ab jog stated -> –a–b–j–o–g–s–t–a–t–e–d–
+49 utsal minima supra -> –u–t–s–a–l–m–i–n–i–m–a–s–u–p–r–a–
+50 lant stain brow -> –l–a–n–t–s–t–a–i–n–b–r–o–w–
+51 vac prakty erhoben -> –v–a–c–p–r–a–k–t–y–e–r–h–o–b–e–n–
+52 ringe savez westlich -> –r–i–n–g–e–s–a–v–e–z–w–e–s–t–l–i–c–h–
+53 wiz academia folders -> –w–i–z–a–c–a–d–e–m–i–a–f–o–l–d–e–r–s–
+54 lehnt ziren entrega -> –l–e–h–n–t–z–i–r–e–n–e–n–t–r–e–g–a–
+55 caled frames nagyobb -> –c–a–l–e–d–f–r–a–m–e–s–n–a–g–y–o–b–b–
+56 related handler ricon -> –r–e–l–a–t–e–d–h–a–n–d–l–e–r–r–i–c–o–n–
+57 icier says lignes -> –i–c–i–e–r–s–a–y–s–l–i–g–n–e–s–
+58 zelfde involuc cycl -> –z–e–l–f–d–e–i–n–v–o–l–u–c–c–y–c–l–
+59 create byla nomi -> –c–r–e–a–t–e–b–y–l–a–n–o–m–i–
+60 ocations wherever siglo -> –o–c–a–t–i–o–n–s–w–h–e–r–e–v–e–r–s–i–g–l–o–
+61 zak maakte russ -> –z–a–k–m–a–a–k–t–e–r–u–s–s–
+62 ometri parc review -> –o–m–e–t–r–i–p–a–r–c–r–e–v–i–e–w–
+63 term mex numer -> –t–e–r–m–m–e–x–n–u–m–e–r–
+64 execute isset councils -> –e–x–e–c–u–t–e–i–s–s–e–t–c–o–u–n–c–i–l–s–
+65 oked electric domen -> –o–k–e–d–e–l–e–c–t–r–i–c–d–o–m–e–n–
+66 uenza sampling kuri -> –u–e–n–z–a–s–a–m–p–l–i–n–g–k–u–r–i–
+67 atalina tuli fetal -> –a–t–a–l–i–n–a–t–u–l–i–f–e–t–a–l–
+68 usses hert optic -> –u–s–s–e–s–h–e–r–t–o–p–t–i–c–
+69 jing judges vijf -> –j–i–n–g–j–u–d–g–e–s–v–i–j–f–
+70 chs bagian weitere -> –c–h–s–b–a–g–i–a–n–w–e–i–t–e–r–e–
+71 reit licensed curios -> –r–e–i–t–l–i–c–e–n–s–e–d–c–u–r–i–o–s–
+72 izontal libra gelijk -> –i–z–o–n–t–a–l–l–i–b–r–a–g–e–l–i–j–k–
+73 ysty newer inflater -> –y–s–t–y–n–e–w–e–r–i–n–f–l–a–t–e–r–
+74 ensa current impacto -> –e–n–s–a–c–u–r–r–e–n–t–i–m–p–a–c–t–o–
+75 ponsive assegn spent -> –p–o–n–s–i–v–e–a–s–s–e–g–n–s–p–e–n–t–
+76 uing zahl parks -> –u–i–n–g–z–a–h–l–p–a–r–k–s–
+77 possible columns sincer -> –p–o–s–s–i–b–l–e–c–o–l–u–m–n–s–s–i–n–c–e–r–
+78 wnie intitul terwijl -> –w–n–i–e–i–n–t–i–t–u–l–t–e–r–w–i–j–l–
+79 abled seized fugg -> –a–b–l–e–d–s–e–i–z–e–d–f–u–g–g–
+80 ipients emigr quinta -> –i–p–i–e–n–t–s–e–m–i–g–r–q–u–i–n–t–a–
+81 buff dahin svak -> –b–u–f–f–d–a–h–i–n–s–v–a–k–
+82 indent tedy rejected -> –i–n–d–e–n–t–t–e–d–y–r–e–j–e–c–t–e–d–
+83 eto apoio couronne -> –e–t–o–a–p–o–i–o–c–o–u–r–o–n–n–e–
+84 athon pover brake -> –a–t–h–o–n–p–o–v–e–r–b–r–a–k–e–
+85 gypt barbar diez -> –g–y–p–t–b–a–r–b–a–r–d–i–e–z–
+86 omorf ang gaat -> –o–m–o–r–f–a–n–g–g–a–a–t–
+87 retta spect phen -> –r–e–t–t–a–s–p–e–c–t–p–h–e–n–
+88 enth obraz amidst -> –e–n–t–h–o–b–r–a–z–a–m–i–d–s–t–
+89 rash edizione cuerpo -> –r–a–s–h–e–d–i–z–i–o–n–e–c–u–e–r–p–o–
+90 led regarded tissue -> –l–e–d–r–e–g–a–r–d–e–d–t–i–s–s–u–e–
+91 umably edits arrows -> –u–m–a–b–l–y–e–d–i–t–s–a–r–r–o–w–s–
+92 ounce tratto uint -> –o–u–n–c–e–t–r–a–t–t–o–u–i–n–t–
+93 ativa longa charme -> –a–t–i–v–a–l–o–n–g–a–c–h–a–r–m–e–
+94 porter polg olmak -> –p–o–r–t–e–r–p–o–l–g–o–l–m–a–k–
+95 oue abrite impieg -> –o–u–e–a–b–r–i–t–e–i–m–p–i–e–g–
+96 acked calcul dig -> –a–c–k–e–d–c–a–l–c–u–l–d–i–g–
+97 wait puts afirma -> –w–a–i–t–p–u–t–s–a–f–i–r–m–a–
+98 ubation deutsche veel -> –u–b–a–t–i–o–n–d–e–u–t–s–c–h–e–v–e–e–l–
+99 litz vehicles reclaim -> –l–i–t–z–v–e–h–i–c–l–e–s–r–e–c–l–a–i–m–

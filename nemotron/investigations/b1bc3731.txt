@@ -1,0 +1,26 @@
+problem id: b1bc3731
+category: equation_numeric_deduce
+
+examples:
+- 47"22 = 25
+- 65)12 = 67
+- 02"87 = "85
+
+inferred rule:
+- The query uses `"`, so the two `"` examples are the important evidence.
+- `47"22 = 25` matches ordinary subtraction: 47 - 22 = 25.
+- `02"87 = "85` matches the same subtraction rule if a negative result is written with a leading `"`, because 02 - 87 = -85.
+- The `)` example is a different operator-specific rule and is not needed to answer the query.
+- So `A"B` means: subtract the right two-digit number from the left two-digit number, and if the result is negative, write the magnitude after a leading `"`.
+
+step-by-step application to the query:
+1. The query is `07"43`.
+2. Apply the `"` rule as subtraction: 07 - 43 = -36.
+3. Negative results are written with a leading `"`.
+4. Therefore the query result should be `"36`.
+
+predicted answer:
+- "36
+
+confidence note:
+- High confidence. The two `"` examples directly show the positive and negative cases of the same subtraction rule, so the query is only a straightforward reuse of that pattern.

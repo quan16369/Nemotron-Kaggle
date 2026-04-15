@@ -1,0 +1,31 @@
+problem id: c84544db
+category: equation_numeric_guess
+
+examples:
+- 18|74 = |56
+- 61|89 = |28
+- 95|59 = 36
+- 13|99 = |86
+- query: 20#24
+
+inferred rule:
+- The `|` operator means ordinary subtraction of the right number from the left number.
+- When that subtraction is negative, the puzzle writes the leading minus sign as `|` instead of `-`.
+- Check:
+- 18 - 74 = -56, written as `|56`
+- 61 - 89 = -28, written as `|28`
+- 95 - 59 = 36
+- 13 - 99 = -86, written as `|86`
+- The query uses an unseen operator, `#`. Since subtraction is already fully occupied by `|`, the most defensible remaining simple rule is concatenation: keep the left two-digit block first and the right two-digit block second.
+
+step-by-step application to the query:
+1. Read the query as left block `20`, operator `#`, right block `24`.
+2. Apply the inferred `#` rule as concatenation.
+3. Write the left block followed by the right block: `20` then `24`.
+4. This gives `2024`.
+
+predicted answer:
+2024
+
+confidence note:
+Moderate confidence. The subtraction rule for `|` is directly supported by all four examples. The only ambiguity is the unseen `#` operator, but concatenation is the cleanest remaining rule and it produces a structurally natural output for the query.

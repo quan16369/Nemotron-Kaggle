@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 yser bidang umet
+01 stantial oper armas
+02 ala jednu couronne
+
+This is a sample output.
+00 yser bidang umet -> –y–s–e–r–b–i–d–a–n–g–u–m–e–t–
+01 stantial oper armas -> –s–t–a–n–t–i–a–l–o–p–e–r–a–r–m–a–s–
+02 ala jednu couronne -> –a–l–a–j–e–d–n–u–c–o–u–r–o–n–n–e–
+
+This is your input.
+00 iyat enlace almac
+01 ducers mut mitra
+02 runtime giust distal
+03 factor dossier academy
+04 rooms etxetan his
+05 nios affluent squares
+06 hado fama regexp
+07 herence wipe disques
+08 written hetero ureter
+09 obili flashing lleva
+10 iop fug syndrome
+11 abria asthma ordres
+12 uv rele symbols
+13 uetooth davant pav
+14 xc rient gol
+15 eq titulada peut
+16 isha aval brass
+17 ycl auga implicit
+18 arched donde gig
+19 tha chloro beste
+20 dues apre involved
+21 ocuments quest polizia
+22 veer pertain big
+23 uvchi adultes feudal
+24 ursday canto drums
+25 forum emot famine
+26 hospital lutter mistaken
+27 tanleria faced infinity
+28 auge treten drag
+29 heck bloom picker
+30 oxin nell grants
+31 enciado fallback diam
+32 utin invasion pairing
+33 apun tennis pit
+34 ately plating telah
+35 ites curta mys
+36 berecht geldi depois
+37 mutex montrant pyram
+38 prov enz carga
+39 fertigt sublime malv
+40 choose nomencl haj
+41 burn replace tardi
+42 paces meteor militari
+43 ulis gid sum
+44 maal ct sofr
+45 omed quae eclipse
+46 good employs shrug
+47 asan jonka nearer
+48 oby ung licenses
+49 bbi enam era
+50 ancies reales valu
+51 mesine pumps pers
+52 tsk encoded phim
+53 atori hanem weil
+54 ijer olduk reviewed
+55 icals ehemal sharp
+56 cone metaph really
+57 score vrij prefs
+58 abi sche bomba
+59 erez bet aficion
+60 flip tones externe
+61 akia hala endpoint
+62 gate publie escape
+63 criptive refuse celles
+64 thor oito judge
+65 adikan bateau quinto
+66 fus bevor santo
+67 ropol menace summing
+68 weets fonction vz
+69 odied duque crush
+70 uning tient stret
+71 os destacar lengthy
+72 rops uman poh
+73 usahaan besch soldier
+74 lig knots mixer
+75 ianz arru rendered
+76 oresis severed dictated
+77 ir armas implies
+78 embles pip terminus
+79 pool todos gestion
+80 endu bree doubts
+81 ishop md riots
+82 omotive burns emp
+83 tot assists tai
+84 lew seeded cooking
+85 pra propio sprintf
+86 tep entra wyst
+87 ree confound omni
+88 ribute lege foment
+89 capital obliv hers
+90 ize ocurrido eighty
+91 ronto mantener surmont
+92 ignant hills circul
+93 earched biome utilizar
+94 ragung fury motion
+95 olella leak fasse
+96 ikos ingred dokon
+97 earch straw yerine
+98 wirk curric grada
+99 ourn barcos trabajos
+[completion]
+00 iyat enlace almac -> –i–y–a–t–e–n–l–a–c–e–a–l–m–a–c–
+01 ducers mut mitra -> –d–u–c–e–r–s–m–u–t–m–i–t–r–a–
+02 runtime giust distal -> –r–u–n–t–i–m–e–g–i–u–s–t–d–i–s–t–a–l–
+03 factor dossier academy -> –f–a–c–t–o–r–d–o–s–s–i–e–r–a–c–a–d–e–m–y–
+04 rooms etxetan his -> –r–o–o–m–s–e–t–x–e–t–a–n–h–i–s–
+05 nios affluent squares -> –n–i–o–s–a–f–f–l–u–e–n–t–s–q–u–a–r–e–s–
+06 hado fama regexp -> –h–a–d–o–f–a–m–a–r–e–g–e–x–p–
+07 herence wipe disques -> –h–e–r–e–n–c–e–w–i–p–e–d–i–s–q–u–e–s–
+08 written hetero ureter -> –w–r–i–t–t–e–n–h–e–t–e–r–o–u–r–e–t–e–r–
+09 obili flashing lleva -> –o–b–i–l–i–f–l–a–s–h–i–n–g–l–l–e–v–a–
+10 iop fug syndrome -> –i–o–p–f–u–g–s–y–n–d–r–o–m–e–
+11 abria asthma ordres -> –a–b–r–i–a–a–s–t–h–m–a–o–r–d–r–e–s–
+12 uv rele symbols -> –u–v–r–e–l–e–s–y–m–b–o–l–s–
+13 uetooth davant pav -> –u–e–t–o–o–t–h–d–a–v–a–n–t–p–a–v–
+14 xc rient gol -> –x–c–r–i–e–n–t–g–o–l–
+15 eq titulada peut -> –e–q–t–i–t–u–l–a–d–a–p–e–u–t–
+16 isha aval brass -> –i–s–h–a–a–v–a–l–b–r–a–s–s–
+17 ycl auga implicit -> –y–c–l–a–u–g–a–i–m–p–l–i–c–i–t–
+18 arched donde gig -> –a–r–c–h–e–d–d–o–n–d–e–g–i–g–
+19 tha chloro beste -> –t–h–a–c–h–l–o–r–o–b–e–s–t–e–
+20 dues apre involved -> –d–u–e–s–a–p–r–e–i–n–v–o–l–v–e–d–
+21 ocuments quest polizia -> –o–c–u–m–e–n–t–s–q–u–e–s–t–p–o–l–i–z–i–a–
+22 veer pertain big -> –v–e–e–r–p–e–r–t–a–i–n–b–i–g–
+23 uvchi adultes feudal -> –u–v–c–h–i–a–d–u–l–t–e–s–f–e–u–d–a–l–
+24 ursday canto drums -> –u–r–s–d–a–y–c–a–n–t–o–d–r–u–m–s–
+25 forum emot famine -> –f–o–r–u–m–e–m–o–t–f–a–m–i–n–e–
+26 hospital lutter mistaken -> –h–o–s–p–i–t–a–l–l–u–t–t–e–r–m–i–s–t–a–k–e–n–
+27 tanleria faced infinity -> –t–a–n–l–e–r–i–a–f–a–c–e–d–i–n–f–i–n–i–t–y–
+28 auge treten drag -> –a–u–g–e–t–r–e–t–e–n–d–r–a–g–
+29 heck bloom picker -> –h–e–c–k–b–l–o–o–m–p–i–c–k–e–r–
+30 oxin nell grants -> –o–x–i–n–n–e–l–l–g–r–a–n–t–s–
+31 enciado fallback diam -> –e–n–c–i–a–d–o–f–a–l–l–b–a–c–k–d–i–a–m–
+32 utin invasion pairing -> –u–t–i–n–i–n–v–a–s–i–o–n–p–a–i–r–i–n–g–
+33 apun tennis pit -> –a–p–u–n–t–e–n–n–i–s–p–i–t–
+34 ately plating telah -> –a–t–e–l–y–p–l–a–t–i–n–g–t–e–l–a–h–
+35 ites curta mys -> –i–t–e–s–c–u–r–t–a–m–y–s–
+36 berecht geldi depois -> –b–e–r–e–c–h–t–g–e–l–d–i–d–e–p–o–i–s–
+37 mutex montrant pyram -> –m–u–t–e–x–m–o–n–t–r–a–n–t–p–y–r–a–m–
+38 prov enz carga -> –p–r–o–v–e–n–z–c–a–r–g–a–
+39 fertigt sublime malv -> –f–e–r–t–i–g–t–s–u–b–l–i–m–e–m–a–l–v–
+40 choose nomencl haj -> –c–h–o–o–s–e–n–o–m–e–n–c–l–h–a–j–
+41 burn replace tardi -> –b–u–r–n–r–e–p–l–a–c–e–t–a–r–d–i–
+42 paces meteor militari -> –p–a–c–e–s–m–e–t–e–o–r–m–i–l–i–t–a–r–i–
+43 ulis gid sum -> –u–l–i–s–g–i–d–s–u–m–
+44 maal ct sofr -> –m–a–a–l–c–t–s–o–f–r–
+45 omed quae eclipse -> –o–m–e–d–q–u–a–e–e–c–l–i–p–s–e–
+46 good employs shrug -> –g–o–o–d–e–m–p–l–o–y–s–s–h–r–u–g–
+47 asan jonka nearer -> –a–s–a–n–j–o–n–k–a–n–e–a–r–e–r–
+48 oby ung licenses -> –o–b–y–u–n–g–l–i–c–e–n–s–e–s–
+49 bbi enam era -> –b–b–i–e–n–a–m–e–r–a–
+50 ancies reales valu -> –a–n–c–i–e–s–r–e–a–l–e–s–v–a–l–u–
+51 mesine pumps pers -> –m–e–s–i–n–e–p–u–m–p–s–p–e–r–s–
+52 tsk encoded phim -> –t–s–k–e–n–c–o–d–e–d–p–h–i–m–
+53 atori hanem weil -> –a–t–o–r–i–h–a–n–e–m–w–e–i–l–
+54 ijer olduk reviewed -> –i–j–e–r–o–l–d–u–k–r–e–v–i–e–w–e–d–
+55 icals ehemal sharp -> –i–c–a–l–s–e–h–e–m–a–l–s–h–a–r–p–
+56 cone metaph really -> –c–o–n–e–m–e–t–a–p–h–r–e–a–l–l–y–
+57 score vrij prefs -> –s–c–o–r–e–v–r–i–j–p–r–e–f–s–
+58 abi sche bomba -> –a–b–i–s–c–h–e–b–o–m–b–a–
+59 erez bet aficion -> –e–r–e–z–b–e–t–a–f–i–c–i–o–n–
+60 flip tones externe -> –f–l–i–p–t–o–n–e–s–e–x–t–e–r–n–e–
+61 akia hala endpoint -> –a–k–i–a–h–a–l–a–e–n–d–p–o–i–n–t–
+62 gate publie escape -> –g–a–t–e–p–u–b–l–i–e–e–s–c–a–p–e–
+63 criptive refuse celles -> –c–r–i–p–t–i–v–e–r–e–f–u–s–e–c–e–l–l–e–s–
+64 thor oito judge -> –t–h–o–r–o–i–t–o–j–u–d–g–e–
+65 adikan bateau quinto -> –a–d–i–k–a–n–b–a–t–e–a–u–q–u–i–n–t–o–
+66 fus bevor santo -> –f–u–s–b–e–v–o–r–s–a–n–t–o–
+67 ropol menace summing -> –r–o–p–o–l–m–e–n–a–c–e–s–u–m–m–i–n–g–
+68 weets fonction vz -> –w–e–e–t–s–f–o–n–c–t–i–o–n–v–z–
+69 odied duque crush -> –o–d–i–e–d–d–u–q–u–e–c–r–u–s–h–
+70 uning tient stret -> –u–n–i–n–g–t–i–e–n–t–s–t–r–e–t–
+71 os destacar lengthy -> –o–s–d–e–s–t–a–c–a–r–l–e–n–g–t–h–y–
+72 rops uman poh -> –r–o–p–s–u–m–a–n–p–o–h–
+73 usahaan besch soldier -> –u–s–a–h–a–a–n–b–e–s–c–h–s–o–l–d–i–e–r–
+74 lig knots mixer -> –l–i–g–k–n–o–t–s–m–i–x–e–r–
+75 ianz arru rendered -> –i–a–n–z–a–r–r–u–r–e–n–d–e–r–e–d–
+76 oresis severed dictated -> –o–r–e–s–i–s–s–e–v–e–r–e–d–d–i–c–t–a–t–e–d–
+77 ir armas implies -> –i–r–a–r–m–a–s–i–m–p–l–i–e–s–
+78 embles pip terminus -> –e–m–b–l–e–s–p–i–p–t–e–r–m–i–n–u–s–
+79 pool todos gestion -> –p–o–o–l–t–o–d–o–s–g–e–s–t–i–o–n–
+80 endu bree doubts -> –e–n–d–u–b–r–e–e–d–o–u–b–t–s–
+81 ishop md riots -> –i–s–h–o–p–m–d–r–i–o–t–s–
+82 omotive burns emp -> –o–m–o–t–i–v–e–b–u–r–n–s–e–m–p–
+83 tot assists tai -> –t–o–t–a–s–s–i–s–t–s–t–a–i–
+84 lew seeded cooking -> –l–e–w–s–e–e–d–e–d–c–o–o–k–i–n–g–
+85 pra propio sprintf -> –p–r–a–p–r–o–p–i–o–s–p–r–i–n–t–f–
+86 tep entra wyst -> –t–e–p–e–n–t–r–a–w–y–s–t–
+87 ree confound omni -> –r–e–e–c–o–n–f–o–u–n–d–o–m–n–i–
+88 ribute lege foment -> –r–i–b–u–t–e–l–e–g–e–f–o–m–e–n–t–
+89 capital obliv hers -> –c–a–p–i–t–a–l–o–b–l–i–v–h–e–r–s–
+90 ize ocurrido eighty -> –i–z–e–o–c–u–r–r–i–d–o–e–i–g–h–t–y–
+91 ronto mantener surmont -> –r–o–n–t–o–m–a–n–t–e–n–e–r–s–u–r–m–o–n–t–
+92 ignant hills circul -> –i–g–n–a–n–t–h–i–l–l–s–c–i–r–c–u–l–
+93 earched biome utilizar -> –e–a–r–c–h–e–d–b–i–o–m–e–u–t–i–l–i–z–a–r–
+94 ragung fury motion -> –r–a–g–u–n–g–f–u–r–y–m–o–t–i–o–n–
+95 olella leak fasse -> –o–l–e–l–l–a–l–e–a–k–f–a–s–s–e–
+96 ikos ingred dokon -> –i–k–o–s–i–n–g–r–e–d–d–o–k–o–n–
+97 earch straw yerine -> –e–a–r–c–h–s–t–r–a–w–y–e–r–i–n–e–
+98 wirk curric grada -> –w–i–r–k–c–u–r–r–i–c–g–r–a–d–a–
+99 ourn barcos trabajos -> –o–u–r–n–b–a–r–c–o–s–t–r–a–b–a–j–o–s–

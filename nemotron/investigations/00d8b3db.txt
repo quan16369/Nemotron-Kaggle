@@ -1,0 +1,40 @@
+Problem ID: 00d8b3db
+Category: equation_numeric_deduce
+
+Examples:
+- 34/44 = 1
+- 41/32 = 9
+- 34|25 = 69
+- 87\64 = 8853
+- Query: 69/52
+
+Inferred rule:
+For the `/` operator, take the absolute difference of the two 2-digit numbers,
+then reverse the digits of that difference. Equivalently on these examples, you
+can reverse each operand first and then take the absolute difference.
+
+Why this fits the `/` examples:
+- `34/44 = 1`
+  - Ordinary absolute difference: `|34 - 44| = 10`
+  - Reverse the difference digits: `10 -> 01`
+  - Drop the leading zero: `1`
+- `41/32 = 9`
+  - Ordinary absolute difference: `|41 - 32| = 9`
+  - Reversing a 1-digit result leaves it unchanged: `9`
+
+The `|` and `\` examples appear to use different operator rules, so they are
+not needed for the query.
+
+Step-by-step application to the query:
+1. Query: `69/52`
+2. Take the absolute difference:
+   - `|69 - 52| = 17`
+3. Reverse the difference digits:
+   - `17 -> 71`
+
+Predicted answer:
+71
+
+Confidence note:
+Moderate. There are only two `/` examples, so multiple nearby formulations are
+possible, but the natural ones agree on the query result `71`.

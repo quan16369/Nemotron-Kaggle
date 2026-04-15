@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 atra clipped elastic
+01 kcji molar corro
+02 too garlic umbrella
+
+This is a sample output.
+00 atra clipped elastic -> –a–t–r–a–c–l–i–p–p–e–d–e–l–a–s–t–i–c–
+01 kcji molar corro -> –k–c–j–i–m–o–l–a–r–c–o–r–r–o–
+02 too garlic umbrella -> –t–o–o–g–a–r–l–i–c–u–m–b–r–e–l–l–a–
+
+This is your input.
+00 ieken pulls quarters
+01 zna amongst grille
+02 uos kres hombro
+03 aconda accred afect
+04 website playa abol
+05 gef dec bundles
+06 urn kaynak suic
+07 niejsze awaiting proposer
+08 uting backdrop rodents
+09 ugal alert fatto
+10 histor pieza buddy
+11 arlier mother immune
+12 smouth blame sepsis
+13 asters situ inset
+14 igten engine dors
+15 kaan liet fel
+16 lli diagram breath
+17 zij overs ventil
+18 iod melawan theater
+19 ina deriva intrigu
+20 close habl bureau
+21 aries devenir incluido
+22 xia conde nota
+23 zt tartoz komed
+24 environ load kwart
+25 html suport temps
+26 inqu ranger linearly
+27 wil buds bp
+28 aby humana chooses
+29 around trousers workload
+30 atalyst slag anatomy
+31 huma destroys deserved
+32 underte richi exiting
+33 iene distrut tutt
+34 quie cycles tubes
+35 tenance luogo pleasing
+36 ologne bandar safely
+37 pl behaved chords
+38 idan relativ isk
+39 sid tillegg attire
+40 entity rozgryw acres
+41 arcin haqq rejects
+42 vity sucedido postan
+43 plats contient llevan
+44 emblance particul quicker
+45 etu equality hrab
+46 oga gras stone
+47 arget taxe posed
+48 zmann gull votes
+49 orem spar eingef
+50 mysql legg comienza
+51 oubtedly terminer melting
+52 cle opd retour
+53 uclear tis ammonium
+54 icker trois eyeb
+55 lit queue forever
+56 holder total barro
+57 edale interrog zuerst
+58 iuseppe bandet corpus
+59 thur textarea ns
+60 ercio volumen ave
+61 ologues slight proved
+62 ai mondial prud
+63 geno alkyl deferred
+64 ifax bardzo werden
+65 nga renou oui
+66 ocytosis microp sauvage
+67 oare naming attract
+68 haben ranks fixes
+69 vanje nema enclosed
+70 effect profunda simpat
+71 inery tenor topon
+72 ashire inguruko tower
+73 ammers enpres rising
+74 hea cared handicap
+75 ragma polygon novas
+76 izu thicker parser
+77 apse bushes cocoa
+78 verages receb posa
+79 ovie exces tentang
+80 baycan hesit comp
+81 quier tah biased
+82 ultiple iodide postwar
+83 idla hen erkenn
+84 given jest kabul
+85 ylan membres fiction
+86 otos jel tf
+87 ien fenn uud
+88 marked kvant rast
+89 elle seemed levou
+90 rist recordar personas
+91 canvas dien lub
+92 ext disin quartet
+93 appale privat prop
+94 ifically lys mig
+95 plast octubre rut
+96 rative algorit ethyl
+97 bert gifts aerosol
+98 nahmen convento ej
+99 uga skate milliard
+[completion]
+00 ieken pulls quarters -> –i–e–k–e–n–p–u–l–l–s–q–u–a–r–t–e–r–s–
+01 zna amongst grille -> –z–n–a–a–m–o–n–g–s–t–g–r–i–l–l–e–
+02 uos kres hombro -> –u–o–s–k–r–e–s–h–o–m–b–r–o–
+03 aconda accred afect -> –a–c–o–n–d–a–a–c–c–r–e–d–a–f–e–c–t–
+04 website playa abol -> –w–e–b–s–i–t–e–p–l–a–y–a–a–b–o–l–
+05 gef dec bundles -> –g–e–f–d–e–c–b–u–n–d–l–e–s–
+06 urn kaynak suic -> –u–r–n–k–a–y–n–a–k–s–u–i–c–
+07 niejsze awaiting proposer -> –n–i–e–j–s–z–e–a–w–a–i–t–i–n–g–p–r–o–p–o–s–e–r–
+08 uting backdrop rodents -> –u–t–i–n–g–b–a–c–k–d–r–o–p–r–o–d–e–n–t–s–
+09 ugal alert fatto -> –u–g–a–l–a–l–e–r–t–f–a–t–t–o–
+10 histor pieza buddy -> –h–i–s–t–o–r–p–i–e–z–a–b–u–d–d–y–
+11 arlier mother immune -> –a–r–l–i–e–r–m–o–t–h–e–r–i–m–m–u–n–e–
+12 smouth blame sepsis -> –s–m–o–u–t–h–b–l–a–m–e–s–e–p–s–i–s–
+13 asters situ inset -> –a–s–t–e–r–s–s–i–t–u–i–n–s–e–t–
+14 igten engine dors -> –i–g–t–e–n–e–n–g–i–n–e–d–o–r–s–
+15 kaan liet fel -> –k–a–a–n–l–i–e–t–f–e–l–
+16 lli diagram breath -> –l–l–i–d–i–a–g–r–a–m–b–r–e–a–t–h–
+17 zij overs ventil -> –z–i–j–o–v–e–r–s–v–e–n–t–i–l–
+18 iod melawan theater -> –i–o–d–m–e–l–a–w–a–n–t–h–e–a–t–e–r–
+19 ina deriva intrigu -> –i–n–a–d–e–r–i–v–a–i–n–t–r–i–g–u–
+20 close habl bureau -> –c–l–o–s–e–h–a–b–l–b–u–r–e–a–u–
+21 aries devenir incluido -> –a–r–i–e–s–d–e–v–e–n–i–r–i–n–c–l–u–i–d–o–
+22 xia conde nota -> –x–i–a–c–o–n–d–e–n–o–t–a–
+23 zt tartoz komed -> –z–t–t–a–r–t–o–z–k–o–m–e–d–
+24 environ load kwart -> –e–n–v–i–r–o–n–l–o–a–d–k–w–a–r–t–
+25 html suport temps -> –h–t–m–l–s–u–p–o–r–t–t–e–m–p–s–
+26 inqu ranger linearly -> –i–n–q–u–r–a–n–g–e–r–l–i–n–e–a–r–l–y–
+27 wil buds bp -> –w–i–l–b–u–d–s–b–p–
+28 aby humana chooses -> –a–b–y–h–u–m–a–n–a–c–h–o–o–s–e–s–
+29 around trousers workload -> –a–r–o–u–n–d–t–r–o–u–s–e–r–s–w–o–r–k–l–o–a–d–
+30 atalyst slag anatomy -> –a–t–a–l–y–s–t–s–l–a–g–a–n–a–t–o–m–y–
+31 huma destroys deserved -> –h–u–m–a–d–e–s–t–r–o–y–s–d–e–s–e–r–v–e–d–
+32 underte richi exiting -> –u–n–d–e–r–t–e–r–i–c–h–i–e–x–i–t–i–n–g–
+33 iene distrut tutt -> –i–e–n–e–d–i–s–t–r–u–t–t–u–t–t–
+34 quie cycles tubes -> –q–u–i–e–c–y–c–l–e–s–t–u–b–e–s–
+35 tenance luogo pleasing -> –t–e–n–a–n–c–e–l–u–o–g–o–p–l–e–a–s–i–n–g–
+36 ologne bandar safely -> –o–l–o–g–n–e–b–a–n–d–a–r–s–a–f–e–l–y–
+37 pl behaved chords -> –p–l–b–e–h–a–v–e–d–c–h–o–r–d–s–
+38 idan relativ isk -> –i–d–a–n–r–e–l–a–t–i–v–i–s–k–
+39 sid tillegg attire -> –s–i–d–t–i–l–l–e–g–g–a–t–t–i–r–e–
+40 entity rozgryw acres -> –e–n–t–i–t–y–r–o–z–g–r–y–w–a–c–r–e–s–
+41 arcin haqq rejects -> –a–r–c–i–n–h–a–q–q–r–e–j–e–c–t–s–
+42 vity sucedido postan -> –v–i–t–y–s–u–c–e–d–i–d–o–p–o–s–t–a–n–
+43 plats contient llevan -> –p–l–a–t–s–c–o–n–t–i–e–n–t–l–l–e–v–a–n–
+44 emblance particul quicker -> –e–m–b–l–a–n–c–e–p–a–r–t–i–c–u–l–q–u–i–c–k–e–r–
+45 etu equality hrab -> –e–t–u–e–q–u–a–l–i–t–y–h–r–a–b–
+46 oga gras stone -> –o–g–a–g–r–a–s–s–t–o–n–e–
+47 arget taxe posed -> –a–r–g–e–t–t–a–x–e–p–o–s–e–d–
+48 zmann gull votes -> –z–m–a–n–n–g–u–l–l–v–o–t–e–s–
+49 orem spar eingef -> –o–r–e–m–s–p–a–r–e–i–n–g–e–f–
+50 mysql legg comienza -> –m–y–s–q–l–l–e–g–g–c–o–m–i–e–n–z–a–
+51 oubtedly terminer melting -> –o–u–b–t–e–d–l–y–t–e–r–m–i–n–e–r–m–e–l–t–i–n–g–
+52 cle opd retour -> –c–l–e–o–p–d–r–e–t–o–u–r–
+53 uclear tis ammonium -> –u–c–l–e–a–r–t–i–s–a–m–m–o–n–i–u–m–
+54 icker trois eyeb -> –i–c–k–e–r–t–r–o–i–s–e–y–e–b–
+55 lit queue forever -> –l–i–t–q–u–e–u–e–f–o–r–e–v–e–r–
+56 holder total barro -> –h–o–l–d–e–r–t–o–t–a–l–b–a–r–r–o–
+57 edale interrog zuerst -> –e–d–a–l–e–i–n–t–e–r–r–o–g–z–u–e–r–s–t–
+58 iuseppe bandet corpus -> –i–u–s–e–p–p–e–b–a–n–d–e–t–c–o–r–p–u–s–
+59 thur textarea ns -> –t–h–u–r–t–e–x–t–a–r–e–a–n–s–
+60 ercio volumen ave -> –e–r–c–i–o–v–o–l–u–m–e–n–a–v–e–
+61 ologues slight proved -> –o–l–o–g–u–e–s–s–l–i–g–h–t–p–r–o–v–e–d–
+62 ai mondial prud -> –a–i–m–o–n–d–i–a–l–p–r–u–d–
+63 geno alkyl deferred -> –g–e–n–o–a–l–k–y–l–d–e–f–e–r–r–e–d–
+64 ifax bardzo werden -> –i–f–a–x–b–a–r–d–z–o–w–e–r–d–e–n–
+65 nga renou oui -> –n–g–a–r–e–n–o–u–o–u–i–
+66 ocytosis microp sauvage -> –o–c–y–t–o–s–i–s–m–i–c–r–o–p–s–a–u–v–a–g–e–
+67 oare naming attract -> –o–a–r–e–n–a–m–i–n–g–a–t–t–r–a–c–t–
+68 haben ranks fixes -> –h–a–b–e–n–r–a–n–k–s–f–i–x–e–s–
+69 vanje nema enclosed -> –v–a–n–j–e–n–e–m–a–e–n–c–l–o–s–e–d–
+70 effect profunda simpat -> –e–f–f–e–c–t–p–r–o–f–u–n–d–a–s–i–m–p–a–t–
+71 inery tenor topon -> –i–n–e–r–y–t–e–n–o–r–t–o–p–o–n–
+72 ashire inguruko tower -> –a–s–h–i–r–e–i–n–g–u–r–u–k–o–t–o–w–e–r–
+73 ammers enpres rising -> –a–m–m–e–r–s–e–n–p–r–e–s–r–i–s–i–n–g–
+74 hea cared handicap -> –h–e–a–c–a–r–e–d–h–a–n–d–i–c–a–p–
+75 ragma polygon novas -> –r–a–g–m–a–p–o–l–y–g–o–n–n–o–v–a–s–
+76 izu thicker parser -> –i–z–u–t–h–i–c–k–e–r–p–a–r–s–e–r–
+77 apse bushes cocoa -> –a–p–s–e–b–u–s–h–e–s–c–o–c–o–a–
+78 verages receb posa -> –v–e–r–a–g–e–s–r–e–c–e–b–p–o–s–a–
+79 ovie exces tentang -> –o–v–i–e–e–x–c–e–s–t–e–n–t–a–n–g–
+80 baycan hesit comp -> –b–a–y–c–a–n–h–e–s–i–t–c–o–m–p–
+81 quier tah biased -> –q–u–i–e–r–t–a–h–b–i–a–s–e–d–
+82 ultiple iodide postwar -> –u–l–t–i–p–l–e–i–o–d–i–d–e–p–o–s–t–w–a–r–
+83 idla hen erkenn -> –i–d–l–a–h–e–n–e–r–k–e–n–n–
+84 given jest kabul -> –g–i–v–e–n–j–e–s–t–k–a–b–u–l–
+85 ylan membres fiction -> –y–l–a–n–m–e–m–b–r–e–s–f–i–c–t–i–o–n–
+86 otos jel tf -> –o–t–o–s–j–e–l–t–f–
+87 ien fenn uud -> –i–e–n–f–e–n–n–u–u–d–
+88 marked kvant rast -> –m–a–r–k–e–d–k–v–a–n–t–r–a–s–t–
+89 elle seemed levou -> –e–l–l–e–s–e–e–m–e–d–l–e–v–o–u–
+90 rist recordar personas -> –r–i–s–t–r–e–c–o–r–d–a–r–p–e–r–s–o–n–a–s–
+91 canvas dien lub -> –c–a–n–v–a–s–d–i–e–n–l–u–b–
+92 ext disin quartet -> –e–x–t–d–i–s–i–n–q–u–a–r–t–e–t–
+93 appale privat prop -> –a–p–p–a–l–e–p–r–i–v–a–t–p–r–o–p–
+94 ifically lys mig -> –i–f–i–c–a–l–l–y–l–y–s–m–i–g–
+95 plast octubre rut -> –p–l–a–s–t–o–c–t–u–b–r–e–r–u–t–
+96 rative algorit ethyl -> –r–a–t–i–v–e–a–l–g–o–r–i–t–e–t–h–y–l–
+97 bert gifts aerosol -> –b–e–r–t–g–i–f–t–s–a–e–r–o–s–o–l–
+98 nahmen convento ej -> –n–a–h–m–e–n–c–o–n–v–e–n–t–o–e–j–
+99 uga skate milliard -> –u–g–a–s–k–a–t–e–m–i–l–l–i–a–r–d–

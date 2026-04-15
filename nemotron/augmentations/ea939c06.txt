@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 onk neurolog supplies
+01 ilic wart planned
+02 rob piste spaces
+
+This is a sample output.
+00 onk neurolog supplies -> –o–n–k–n–e–u–r–o–l–o–g–s–u–p–p–l–i–e–s–
+01 ilic wart planned -> –i–l–i–c–w–a–r–t–p–l–a–n–n–e–d–
+02 rob piste spaces -> –r–o–b–p–i–s–t–e–s–p–a–c–e–s–
+
+This is your input.
+00 ajima covering ske
+01 ietro broch options
+02 stav medios veril
+03 posite couleurs adalah
+04 istiin blei blau
+05 ela came blick
+06 prise kih requiere
+07 isted homeost very
+08 leading cumul iff
+09 ilib dansk ruim
+10 ushing teng urge
+11 iegend ernst trium
+12 ozilla lit egyre
+13 liwo religion sunny
+14 unct oppon treaties
+15 nb errores tratando
+16 ikl chim victims
+17 length hydroxy anecd
+18 uteur nood lv
+19 ortun cres mendapat
+20 raw lively metals
+21 scr autrich win
+22 orted tech uploaded
+23 bod observa scored
+24 aneo daarvan estreno
+25 malink bizant glav
+26 entric huh tails
+27 echo manager lhes
+28 zas vign jealous
+29 vd parec pouvoir
+30 steig vill creat
+31 enri neglect exit
+32 allis elkaar encara
+33 uerpo tubing correct
+34 clide casas fats
+35 icago temporal repart
+36 idence atmos liquid
+37 uj ovarian glycos
+38 cla parvient hoof
+39 iej flung ocupa
+40 stud merchand allait
+41 omycin vse eventos
+42 arod towns fourth
+43 pay pests remote
+44 uesto srps cross
+45 itung pk tourn
+46 iso ts tratados
+47 vious href svat
+48 figur proto read
+49 atoes fauna niego
+50 riangle thrown sampled
+51 archy inches naj
+52 ze stamps bire
+53 omeric chanson orderly
+54 cesso zg darkness
+55 problem nib elle
+56 agles bask occupies
+57 asename film apoder
+58 tbl daiteke bassist
+59 itats surface economy
+60 no teste tanta
+61 okat presenta maze
+62 orgung couvre majd
+63 ovej dissemin querc
+64 arily malades distric
+65 imetric comenz advoc
+66 abo grabar ties
+67 hund tetapi embarc
+68 ustin leading forego
+69 bot kors samples
+70 ival brug dizaine
+71 ligi consider contenu
+72 memory finest tett
+73 raine vos souvenir
+74 ambah houve kini
+75 arynx creates batterie
+76 vede parecer qay
+77 ew valut sprach
+78 erview ao peloton
+79 oreign sulfur olem
+80 ensko miedo civ
+81 viation regla tav
+82 ljiv ather juga
+83 ihara fuori holl
+84 colare scholars infin
+85 czeg namn sabemos
+86 ging hypergly lineage
+87 assert monaster viento
+88 amment thy phenolic
+89 useeland sembla elig
+90 inctions passar altitude
+91 obod tailored flan
+92 ccane pt convirti
+93 props vial adquir
+94 watch dast park
+95 aina guy disque
+96 quista huk insuf
+97 ocyt bayer oba
+98 nes aquella tourist
+99 groups probabil peasant
+[completion]
+00 ajima covering ske -> –a–j–i–m–a–c–o–v–e–r–i–n–g–s–k–e–
+01 ietro broch options -> –i–e–t–r–o–b–r–o–c–h–o–p–t–i–o–n–s–
+02 stav medios veril -> –s–t–a–v–m–e–d–i–o–s–v–e–r–i–l–
+03 posite couleurs adalah -> –p–o–s–i–t–e–c–o–u–l–e–u–r–s–a–d–a–l–a–h–
+04 istiin blei blau -> –i–s–t–i–i–n–b–l–e–i–b–l–a–u–
+05 ela came blick -> –e–l–a–c–a–m–e–b–l–i–c–k–
+06 prise kih requiere -> –p–r–i–s–e–k–i–h–r–e–q–u–i–e–r–e–
+07 isted homeost very -> –i–s–t–e–d–h–o–m–e–o–s–t–v–e–r–y–
+08 leading cumul iff -> –l–e–a–d–i–n–g–c–u–m–u–l–i–f–f–
+09 ilib dansk ruim -> –i–l–i–b–d–a–n–s–k–r–u–i–m–
+10 ushing teng urge -> –u–s–h–i–n–g–t–e–n–g–u–r–g–e–
+11 iegend ernst trium -> –i–e–g–e–n–d–e–r–n–s–t–t–r–i–u–m–
+12 ozilla lit egyre -> –o–z–i–l–l–a–l–i–t–e–g–y–r–e–
+13 liwo religion sunny -> –l–i–w–o–r–e–l–i–g–i–o–n–s–u–n–n–y–
+14 unct oppon treaties -> –u–n–c–t–o–p–p–o–n–t–r–e–a–t–i–e–s–
+15 nb errores tratando -> –n–b–e–r–r–o–r–e–s–t–r–a–t–a–n–d–o–
+16 ikl chim victims -> –i–k–l–c–h–i–m–v–i–c–t–i–m–s–
+17 length hydroxy anecd -> –l–e–n–g–t–h–h–y–d–r–o–x–y–a–n–e–c–d–
+18 uteur nood lv -> –u–t–e–u–r–n–o–o–d–l–v–
+19 ortun cres mendapat -> –o–r–t–u–n–c–r–e–s–m–e–n–d–a–p–a–t–
+20 raw lively metals -> –r–a–w–l–i–v–e–l–y–m–e–t–a–l–s–
+21 scr autrich win -> –s–c–r–a–u–t–r–i–c–h–w–i–n–
+22 orted tech uploaded -> –o–r–t–e–d–t–e–c–h–u–p–l–o–a–d–e–d–
+23 bod observa scored -> –b–o–d–o–b–s–e–r–v–a–s–c–o–r–e–d–
+24 aneo daarvan estreno -> –a–n–e–o–d–a–a–r–v–a–n–e–s–t–r–e–n–o–
+25 malink bizant glav -> –m–a–l–i–n–k–b–i–z–a–n–t–g–l–a–v–
+26 entric huh tails -> –e–n–t–r–i–c–h–u–h–t–a–i–l–s–
+27 echo manager lhes -> –e–c–h–o–m–a–n–a–g–e–r–l–h–e–s–
+28 zas vign jealous -> –z–a–s–v–i–g–n–j–e–a–l–o–u–s–
+29 vd parec pouvoir -> –v–d–p–a–r–e–c–p–o–u–v–o–i–r–
+30 steig vill creat -> –s–t–e–i–g–v–i–l–l–c–r–e–a–t–
+31 enri neglect exit -> –e–n–r–i–n–e–g–l–e–c–t–e–x–i–t–
+32 allis elkaar encara -> –a–l–l–i–s–e–l–k–a–a–r–e–n–c–a–r–a–
+33 uerpo tubing correct -> –u–e–r–p–o–t–u–b–i–n–g–c–o–r–r–e–c–t–
+34 clide casas fats -> –c–l–i–d–e–c–a–s–a–s–f–a–t–s–
+35 icago temporal repart -> –i–c–a–g–o–t–e–m–p–o–r–a–l–r–e–p–a–r–t–
+36 idence atmos liquid -> –i–d–e–n–c–e–a–t–m–o–s–l–i–q–u–i–d–
+37 uj ovarian glycos -> –u–j–o–v–a–r–i–a–n–g–l–y–c–o–s–
+38 cla parvient hoof -> –c–l–a–p–a–r–v–i–e–n–t–h–o–o–f–
+39 iej flung ocupa -> –i–e–j–f–l–u–n–g–o–c–u–p–a–
+40 stud merchand allait -> –s–t–u–d–m–e–r–c–h–a–n–d–a–l–l–a–i–t–
+41 omycin vse eventos -> –o–m–y–c–i–n–v–s–e–e–v–e–n–t–o–s–
+42 arod towns fourth -> –a–r–o–d–t–o–w–n–s–f–o–u–r–t–h–
+43 pay pests remote -> –p–a–y–p–e–s–t–s–r–e–m–o–t–e–
+44 uesto srps cross -> –u–e–s–t–o–s–r–p–s–c–r–o–s–s–
+45 itung pk tourn -> –i–t–u–n–g–p–k–t–o–u–r–n–
+46 iso ts tratados -> –i–s–o–t–s–t–r–a–t–a–d–o–s–
+47 vious href svat -> –v–i–o–u–s–h–r–e–f–s–v–a–t–
+48 figur proto read -> –f–i–g–u–r–p–r–o–t–o–r–e–a–d–
+49 atoes fauna niego -> –a–t–o–e–s–f–a–u–n–a–n–i–e–g–o–
+50 riangle thrown sampled -> –r–i–a–n–g–l–e–t–h–r–o–w–n–s–a–m–p–l–e–d–
+51 archy inches naj -> –a–r–c–h–y–i–n–c–h–e–s–n–a–j–
+52 ze stamps bire -> –z–e–s–t–a–m–p–s–b–i–r–e–
+53 omeric chanson orderly -> –o–m–e–r–i–c–c–h–a–n–s–o–n–o–r–d–e–r–l–y–
+54 cesso zg darkness -> –c–e–s–s–o–z–g–d–a–r–k–n–e–s–s–
+55 problem nib elle -> –p–r–o–b–l–e–m–n–i–b–e–l–l–e–
+56 agles bask occupies -> –a–g–l–e–s–b–a–s–k–o–c–c–u–p–i–e–s–
+57 asename film apoder -> –a–s–e–n–a–m–e–f–i–l–m–a–p–o–d–e–r–
+58 tbl daiteke bassist -> –t–b–l–d–a–i–t–e–k–e–b–a–s–s–i–s–t–
+59 itats surface economy -> –i–t–a–t–s–s–u–r–f–a–c–e–e–c–o–n–o–m–y–
+60 no teste tanta -> –n–o–t–e–s–t–e–t–a–n–t–a–
+61 okat presenta maze -> –o–k–a–t–p–r–e–s–e–n–t–a–m–a–z–e–
+62 orgung couvre majd -> –o–r–g–u–n–g–c–o–u–v–r–e–m–a–j–d–
+63 ovej dissemin querc -> –o–v–e–j–d–i–s–s–e–m–i–n–q–u–e–r–c–
+64 arily malades distric -> –a–r–i–l–y–m–a–l–a–d–e–s–d–i–s–t–r–i–c–
+65 imetric comenz advoc -> –i–m–e–t–r–i–c–c–o–m–e–n–z–a–d–v–o–c–
+66 abo grabar ties -> –a–b–o–g–r–a–b–a–r–t–i–e–s–
+67 hund tetapi embarc -> –h–u–n–d–t–e–t–a–p–i–e–m–b–a–r–c–
+68 ustin leading forego -> –u–s–t–i–n–l–e–a–d–i–n–g–f–o–r–e–g–o–
+69 bot kors samples -> –b–o–t–k–o–r–s–s–a–m–p–l–e–s–
+70 ival brug dizaine -> –i–v–a–l–b–r–u–g–d–i–z–a–i–n–e–
+71 ligi consider contenu -> –l–i–g–i–c–o–n–s–i–d–e–r–c–o–n–t–e–n–u–
+72 memory finest tett -> –m–e–m–o–r–y–f–i–n–e–s–t–t–e–t–t–
+73 raine vos souvenir -> –r–a–i–n–e–v–o–s–s–o–u–v–e–n–i–r–
+74 ambah houve kini -> –a–m–b–a–h–h–o–u–v–e–k–i–n–i–
+75 arynx creates batterie -> –a–r–y–n–x–c–r–e–a–t–e–s–b–a–t–t–e–r–i–e–
+76 vede parecer qay -> –v–e–d–e–p–a–r–e–c–e–r–q–a–y–
+77 ew valut sprach -> –e–w–v–a–l–u–t–s–p–r–a–c–h–
+78 erview ao peloton -> –e–r–v–i–e–w–a–o–p–e–l–o–t–o–n–
+79 oreign sulfur olem -> –o–r–e–i–g–n–s–u–l–f–u–r–o–l–e–m–
+80 ensko miedo civ -> –e–n–s–k–o–m–i–e–d–o–c–i–v–
+81 viation regla tav -> –v–i–a–t–i–o–n–r–e–g–l–a–t–a–v–
+82 ljiv ather juga -> –l–j–i–v–a–t–h–e–r–j–u–g–a–
+83 ihara fuori holl -> –i–h–a–r–a–f–u–o–r–i–h–o–l–l–
+84 colare scholars infin -> –c–o–l–a–r–e–s–c–h–o–l–a–r–s–i–n–f–i–n–
+85 czeg namn sabemos -> –c–z–e–g–n–a–m–n–s–a–b–e–m–o–s–
+86 ging hypergly lineage -> –g–i–n–g–h–y–p–e–r–g–l–y–l–i–n–e–a–g–e–
+87 assert monaster viento -> –a–s–s–e–r–t–m–o–n–a–s–t–e–r–v–i–e–n–t–o–
+88 amment thy phenolic -> –a–m–m–e–n–t–t–h–y–p–h–e–n–o–l–i–c–
+89 useeland sembla elig -> –u–s–e–e–l–a–n–d–s–e–m–b–l–a–e–l–i–g–
+90 inctions passar altitude -> –i–n–c–t–i–o–n–s–p–a–s–s–a–r–a–l–t–i–t–u–d–e–
+91 obod tailored flan -> –o–b–o–d–t–a–i–l–o–r–e–d–f–l–a–n–
+92 ccane pt convirti -> –c–c–a–n–e–p–t–c–o–n–v–i–r–t–i–
+93 props vial adquir -> –p–r–o–p–s–v–i–a–l–a–d–q–u–i–r–
+94 watch dast park -> –w–a–t–c–h–d–a–s–t–p–a–r–k–
+95 aina guy disque -> –a–i–n–a–g–u–y–d–i–s–q–u–e–
+96 quista huk insuf -> –q–u–i–s–t–a–h–u–k–i–n–s–u–f–
+97 ocyt bayer oba -> –o–c–y–t–b–a–y–e–r–o–b–a–
+98 nes aquella tourist -> –n–e–s–a–q–u–e–l–l–a–t–o–u–r–i–s–t–
+99 groups probabil peasant -> –g–r–o–u–p–s–p–r–o–b–a–b–i–l–p–e–a–s–a–n–t–

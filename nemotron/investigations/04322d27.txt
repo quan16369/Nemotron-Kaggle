@@ -1,0 +1,29 @@
+Problem ID: 04322d27
+Category: equation_numeric_deduce
+
+Examples:
+- 96$54 = 5184
+- 50$41 = 2050
+- 51$95 = 4845
+- 89$47 = 4183
+
+Inferred rule:
+The symbol `$` is ordinary multiplication of the two two-digit numbers.
+
+Why this fits the examples:
+- 96 x 54 = 5184
+- 50 x 41 = 2050
+- 51 x 95 = 4845
+- 89 x 47 = 4183
+
+Step-by-step application to the query:
+Query: 59$49
+1. Interpret `$` as multiplication.
+2. Compute 59 x 49.
+3. 59 x 49 = 59 x (50 - 1) = 2950 - 59 = 2891.
+
+Predicted answer:
+2891
+
+Confidence:
+High. Every example matches standard multiplication exactly with no extra transformation.

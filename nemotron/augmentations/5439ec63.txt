@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 lossenen prob waste
+01 urch gira qat
+02 eschi sorted realizar
+
+This is a sample output.
+00 lossenen prob waste -> –l–o–s–s–e–n–e–n–p–r–o–b–w–a–s–t–e–
+01 urch gira qat -> –u–r–c–h–g–i–r–a–q–a–t–
+02 eschi sorted realizar -> –e–s–c–h–i–s–o–r–t–e–d–r–e–a–l–i–z–a–r–
+
+This is your input.
+00 employ zak conduite
+01 isting zah raza
+02 iol planners puisse
+03 cean detailed obsess
+04 stil acima hundred
+05 hnte martyr sre
+06 cur coined heater
+07 ieri www nos
+08 abla besitzt crimen
+09 ieran ligue responds
+10 iyot knew begynd
+11 oid exposing danse
+12 rictions cohesion inflated
+13 zez dialects vys
+14 lak fortress relate
+15 bination tran artistas
+16 omor cumpr rushing
+17 ffiti miner satisf
+18 guard plazo neigh
+19 lude arbeitet parted
+20 inom rozgry maj
+21 sizeof tard assay
+22 insen moan special
+23 gic ruins classic
+24 illary cef recorded
+25 ractice condom fatigu
+26 oor gesamte manners
+27 mente locais plein
+28 iertos scare reprise
+29 spinal alz sore
+30 uders cirk distint
+31 inib codes esquema
+32 jut effected folio
+33 berd pentru tendency
+34 vot meant zm
+35 ium tan map
+36 emit flot zajedno
+37 merge debugger jou
+38 acetyl voltant treffen
+39 osk accomp distante
+40 uis alleg guerr
+41 cycl ise transmit
+42 alculate entrare zod
+43 corn garner specie
+44 schech filozof igra
+45 waj gehalten mae
+46 iner kamu plans
+47 forge preto camera
+48 graf exclude incid
+49 usel bee chicas
+50 atorios otras recreate
+51 ahoo hang kaksi
+52 erste kidney full
+53 stalled stretch artist
+54 appelijk matcher media
+55 unta gdy om
+56 umat abierta leukemia
+57 ulent drastic awk
+58 urat znac ba
+59 jna arrogant funciona
+60 mailto salaries koska
+61 roso protest feld
+62 ajem than abogado
+63 clav absence griech
+64 haupt aussi gigante
+65 oule unlocked engl
+66 vers dout ionic
+67 wrapper kara convinc
+68 edeut leh clash
+69 cheiden dimost subsets
+70 ttiin folyt adduct
+71 clerotic terrain reverted
+72 su sender cavall
+73 ruptions kojima silver
+74 upi prati abbia
+75 iment scalable mosque
+76 okee designer actitud
+77 aque mental popolo
+78 pat unite nights
+79 enin textile evol
+80 mel uncover organic
+81 wei calend blitt
+82 prud announce blu
+83 slug accurate ophthal
+84 gram ions probl
+85 please bu eit
+86 otten concat skon
+87 endosi systems showcase
+88 derung galt shrine
+89 reek xix plena
+90 ulin spille rakenn
+91 icar showing podczas
+92 imeter smallest pockets
+93 adav rec sock
+94 uvi perdi witches
+95 pias charming seri
+96 oc latitude pots
+97 ainer maiden banking
+98 eves hallway pl
+99 rosion grandeur tendit
+[completion]
+00 employ zak conduite -> –e–m–p–l–o–y–z–a–k–c–o–n–d–u–i–t–e–
+01 isting zah raza -> –i–s–t–i–n–g–z–a–h–r–a–z–a–
+02 iol planners puisse -> –i–o–l–p–l–a–n–n–e–r–s–p–u–i–s–s–e–
+03 cean detailed obsess -> –c–e–a–n–d–e–t–a–i–l–e–d–o–b–s–e–s–s–
+04 stil acima hundred -> –s–t–i–l–a–c–i–m–a–h–u–n–d–r–e–d–
+05 hnte martyr sre -> –h–n–t–e–m–a–r–t–y–r–s–r–e–
+06 cur coined heater -> –c–u–r–c–o–i–n–e–d–h–e–a–t–e–r–
+07 ieri www nos -> –i–e–r–i–w–w–w–n–o–s–
+08 abla besitzt crimen -> –a–b–l–a–b–e–s–i–t–z–t–c–r–i–m–e–n–
+09 ieran ligue responds -> –i–e–r–a–n–l–i–g–u–e–r–e–s–p–o–n–d–s–
+10 iyot knew begynd -> –i–y–o–t–k–n–e–w–b–e–g–y–n–d–
+11 oid exposing danse -> –o–i–d–e–x–p–o–s–i–n–g–d–a–n–s–e–
+12 rictions cohesion inflated -> –r–i–c–t–i–o–n–s–c–o–h–e–s–i–o–n–i–n–f–l–a–t–e–d–
+13 zez dialects vys -> –z–e–z–d–i–a–l–e–c–t–s–v–y–s–
+14 lak fortress relate -> –l–a–k–f–o–r–t–r–e–s–s–r–e–l–a–t–e–
+15 bination tran artistas -> –b–i–n–a–t–i–o–n–t–r–a–n–a–r–t–i–s–t–a–s–
+16 omor cumpr rushing -> –o–m–o–r–c–u–m–p–r–r–u–s–h–i–n–g–
+17 ffiti miner satisf -> –f–f–i–t–i–m–i–n–e–r–s–a–t–i–s–f–
+18 guard plazo neigh -> –g–u–a–r–d–p–l–a–z–o–n–e–i–g–h–
+19 lude arbeitet parted -> –l–u–d–e–a–r–b–e–i–t–e–t–p–a–r–t–e–d–
+20 inom rozgry maj -> –i–n–o–m–r–o–z–g–r–y–m–a–j–
+21 sizeof tard assay -> –s–i–z–e–o–f–t–a–r–d–a–s–s–a–y–
+22 insen moan special -> –i–n–s–e–n–m–o–a–n–s–p–e–c–i–a–l–
+23 gic ruins classic -> –g–i–c–r–u–i–n–s–c–l–a–s–s–i–c–
+24 illary cef recorded -> –i–l–l–a–r–y–c–e–f–r–e–c–o–r–d–e–d–
+25 ractice condom fatigu -> –r–a–c–t–i–c–e–c–o–n–d–o–m–f–a–t–i–g–u–
+26 oor gesamte manners -> –o–o–r–g–e–s–a–m–t–e–m–a–n–n–e–r–s–
+27 mente locais plein -> –m–e–n–t–e–l–o–c–a–i–s–p–l–e–i–n–
+28 iertos scare reprise -> –i–e–r–t–o–s–s–c–a–r–e–r–e–p–r–i–s–e–
+29 spinal alz sore -> –s–p–i–n–a–l–a–l–z–s–o–r–e–
+30 uders cirk distint -> –u–d–e–r–s–c–i–r–k–d–i–s–t–i–n–t–
+31 inib codes esquema -> –i–n–i–b–c–o–d–e–s–e–s–q–u–e–m–a–
+32 jut effected folio -> –j–u–t–e–f–f–e–c–t–e–d–f–o–l–i–o–
+33 berd pentru tendency -> –b–e–r–d–p–e–n–t–r–u–t–e–n–d–e–n–c–y–
+34 vot meant zm -> –v–o–t–m–e–a–n–t–z–m–
+35 ium tan map -> –i–u–m–t–a–n–m–a–p–
+36 emit flot zajedno -> –e–m–i–t–f–l–o–t–z–a–j–e–d–n–o–
+37 merge debugger jou -> –m–e–r–g–e–d–e–b–u–g–g–e–r–j–o–u–
+38 acetyl voltant treffen -> –a–c–e–t–y–l–v–o–l–t–a–n–t–t–r–e–f–f–e–n–
+39 osk accomp distante -> –o–s–k–a–c–c–o–m–p–d–i–s–t–a–n–t–e–
+40 uis alleg guerr -> –u–i–s–a–l–l–e–g–g–u–e–r–r–
+41 cycl ise transmit -> –c–y–c–l–i–s–e–t–r–a–n–s–m–i–t–
+42 alculate entrare zod -> –a–l–c–u–l–a–t–e–e–n–t–r–a–r–e–z–o–d–
+43 corn garner specie -> –c–o–r–n–g–a–r–n–e–r–s–p–e–c–i–e–
+44 schech filozof igra -> –s–c–h–e–c–h–f–i–l–o–z–o–f–i–g–r–a–
+45 waj gehalten mae -> –w–a–j–g–e–h–a–l–t–e–n–m–a–e–
+46 iner kamu plans -> –i–n–e–r–k–a–m–u–p–l–a–n–s–
+47 forge preto camera -> –f–o–r–g–e–p–r–e–t–o–c–a–m–e–r–a–
+48 graf exclude incid -> –g–r–a–f–e–x–c–l–u–d–e–i–n–c–i–d–
+49 usel bee chicas -> –u–s–e–l–b–e–e–c–h–i–c–a–s–
+50 atorios otras recreate -> –a–t–o–r–i–o–s–o–t–r–a–s–r–e–c–r–e–a–t–e–
+51 ahoo hang kaksi -> –a–h–o–o–h–a–n–g–k–a–k–s–i–
+52 erste kidney full -> –e–r–s–t–e–k–i–d–n–e–y–f–u–l–l–
+53 stalled stretch artist -> –s–t–a–l–l–e–d–s–t–r–e–t–c–h–a–r–t–i–s–t–
+54 appelijk matcher media -> –a–p–p–e–l–i–j–k–m–a–t–c–h–e–r–m–e–d–i–a–
+55 unta gdy om -> –u–n–t–a–g–d–y–o–m–
+56 umat abierta leukemia -> –u–m–a–t–a–b–i–e–r–t–a–l–e–u–k–e–m–i–a–
+57 ulent drastic awk -> –u–l–e–n–t–d–r–a–s–t–i–c–a–w–k–
+58 urat znac ba -> –u–r–a–t–z–n–a–c–b–a–
+59 jna arrogant funciona -> –j–n–a–a–r–r–o–g–a–n–t–f–u–n–c–i–o–n–a–
+60 mailto salaries koska -> –m–a–i–l–t–o–s–a–l–a–r–i–e–s–k–o–s–k–a–
+61 roso protest feld -> –r–o–s–o–p–r–o–t–e–s–t–f–e–l–d–
+62 ajem than abogado -> –a–j–e–m–t–h–a–n–a–b–o–g–a–d–o–
+63 clav absence griech -> –c–l–a–v–a–b–s–e–n–c–e–g–r–i–e–c–h–
+64 haupt aussi gigante -> –h–a–u–p–t–a–u–s–s–i–g–i–g–a–n–t–e–
+65 oule unlocked engl -> –o–u–l–e–u–n–l–o–c–k–e–d–e–n–g–l–
+66 vers dout ionic -> –v–e–r–s–d–o–u–t–i–o–n–i–c–
+67 wrapper kara convinc -> –w–r–a–p–p–e–r–k–a–r–a–c–o–n–v–i–n–c–
+68 edeut leh clash -> –e–d–e–u–t–l–e–h–c–l–a–s–h–
+69 cheiden dimost subsets -> –c–h–e–i–d–e–n–d–i–m–o–s–t–s–u–b–s–e–t–s–
+70 ttiin folyt adduct -> –t–t–i–i–n–f–o–l–y–t–a–d–d–u–c–t–
+71 clerotic terrain reverted -> –c–l–e–r–o–t–i–c–t–e–r–r–a–i–n–r–e–v–e–r–t–e–d–
+72 su sender cavall -> –s–u–s–e–n–d–e–r–c–a–v–a–l–l–
+73 ruptions kojima silver -> –r–u–p–t–i–o–n–s–k–o–j–i–m–a–s–i–l–v–e–r–
+74 upi prati abbia -> –u–p–i–p–r–a–t–i–a–b–b–i–a–
+75 iment scalable mosque -> –i–m–e–n–t–s–c–a–l–a–b–l–e–m–o–s–q–u–e–
+76 okee designer actitud -> –o–k–e–e–d–e–s–i–g–n–e–r–a–c–t–i–t–u–d–
+77 aque mental popolo -> –a–q–u–e–m–e–n–t–a–l–p–o–p–o–l–o–
+78 pat unite nights -> –p–a–t–u–n–i–t–e–n–i–g–h–t–s–
+79 enin textile evol -> –e–n–i–n–t–e–x–t–i–l–e–e–v–o–l–
+80 mel uncover organic -> –m–e–l–u–n–c–o–v–e–r–o–r–g–a–n–i–c–
+81 wei calend blitt -> –w–e–i–c–a–l–e–n–d–b–l–i–t–t–
+82 prud announce blu -> –p–r–u–d–a–n–n–o–u–n–c–e–b–l–u–
+83 slug accurate ophthal -> –s–l–u–g–a–c–c–u–r–a–t–e–o–p–h–t–h–a–l–
+84 gram ions probl -> –g–r–a–m–i–o–n–s–p–r–o–b–l–
+85 please bu eit -> –p–l–e–a–s–e–b–u–e–i–t–
+86 otten concat skon -> –o–t–t–e–n–c–o–n–c–a–t–s–k–o–n–
+87 endosi systems showcase -> –e–n–d–o–s–i–s–y–s–t–e–m–s–s–h–o–w–c–a–s–e–
+88 derung galt shrine -> –d–e–r–u–n–g–g–a–l–t–s–h–r–i–n–e–
+89 reek xix plena -> –r–e–e–k–x–i–x–p–l–e–n–a–
+90 ulin spille rakenn -> –u–l–i–n–s–p–i–l–l–e–r–a–k–e–n–n–
+91 icar showing podczas -> –i–c–a–r–s–h–o–w–i–n–g–p–o–d–c–z–a–s–
+92 imeter smallest pockets -> –i–m–e–t–e–r–s–m–a–l–l–e–s–t–p–o–c–k–e–t–s–
+93 adav rec sock -> –a–d–a–v–r–e–c–s–o–c–k–
+94 uvi perdi witches -> –u–v–i–p–e–r–d–i–w–i–t–c–h–e–s–
+95 pias charming seri -> –p–i–a–s–c–h–a–r–m–i–n–g–s–e–r–i–
+96 oc latitude pots -> –o–c–l–a–t–i–t–u–d–e–p–o–t–s–
+97 ainer maiden banking -> –a–i–n–e–r–m–a–i–d–e–n–b–a–n–k–i–n–g–
+98 eves hallway pl -> –e–v–e–s–h–a–l–l–w–a–y–p–l–
+99 rosion grandeur tendit -> –r–o–s–i–o–n–g–r–a–n–d–e–u–r–t–e–n–d–i–t–

@@ -1,0 +1,17 @@
+problem id: 0dcfd566
+category: cryptarithm_deduce
+
+symbol-to-digit mapping:
+
+operator-to-operation mapping:
+  '+' = concat
+
+examples:
+  ")+\` = ")\`
+  \`-#" = ?(
+  `{*(# = ?{){
+  (?+@@ = (?@@
+
+query: )@+\{
+
+predicted answer: )@\{

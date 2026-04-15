@@ -1,0 +1,25 @@
+problem id: 10fdae00
+category: equation_numeric_deduce
+
+examples:
+- 64*81 = 928
+- 95+95 = 911
+- 97-03 = 94
+
+inferred rule:
+This puzzle appears to use operator-specific rules rather than one single rule for every symbol.
+- For `-`, interpret the two inputs as ordinary whole numbers and subtract the second from the first.
+  - 97 - 03 = 94
+- The `*` and `+` examples likely follow different operator-specific rules, but each appears only once and is not needed for the query, so I do not rely on them.
+
+step-by-step application to the query:
+- Query: 52-99
+- The operator is `-`, so apply ordinary subtraction to the two 2-digit numbers.
+- Compute 52 - 99.
+- 52 - 99 = -47
+
+predicted answer:
+-47
+
+confidence note:
+Moderate. The subtraction rule matches the only `-` example exactly, including the use of a leading zero in `03`, but there is still only one direct subtraction example.

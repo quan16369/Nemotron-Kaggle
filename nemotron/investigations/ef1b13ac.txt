@@ -1,0 +1,27 @@
+problem id: ef1b13ac
+category: equation_numeric_guess
+
+examples:
+- 19$41 = 60
+- 51?71 = 5171
+- 85$70 = 155
+- query: 74+66
+
+inferred rule:
+- `$` means ordinary addition.
+  - 19 + 41 = 60
+  - 85 + 70 = 155
+- `?` means concatenation of the two two-digit inputs in their original order.
+  - 51?71 -> 5171
+- The query symbol `+` is unseen in the examples, so this is not fully determined. The strongest remaining hypothesis is that `+` asks for the difference between the two inputs, reported as an absolute value.
+
+step-by-step application to the query:
+1. Start with 74 and 66.
+2. Apply the hypothesized `+` rule as absolute difference.
+3. Compute |74 - 66| = 8.
+
+predicted answer:
+8
+
+confidence note:
+Moderate confidence only. The examples clearly establish addition and concatenation, but the query operator itself never appears in the training examples, so the subtraction/absolute-difference interpretation is an informed guess rather than a certain rule.

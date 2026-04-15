@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 uren smile gebou
+01 opis knji algemeen
+02 mouth came conflict
+
+This is a sample output.
+00 uren smile gebou -> –u–r–e–n–s–m–i–l–e–g–e–b–o–u–
+01 opis knji algemeen -> –o–p–i–s–k–n–j–i–a–l–g–e–m–e–e–n–
+02 mouth came conflict -> –m–o–u–t–h–c–a–m–e–c–o–n–f–l–i–c–t–
+
+This is your input.
+00 allen plaf bringt
+01 unsigned monarch ostens
+02 jol null ostat
+03 edding oath dissolve
+04 yster agr conceito
+05 ot wer onc
+06 mesh occ bees
+07 astas invit cari
+08 endant deduce anxious
+09 bruk rho seitdem
+10 ibid pointe existait
+11 ceil inund schaff
+12 marks paljon membran
+13 pling vectors sorrow
+14 amps espec remedy
+15 htt carbono direkten
+16 juan diret horrib
+17 ipsis prolet prepared
+18 iyada miej bekannte
+19 appe cappella aparecen
+20 olari cinemat berl
+21 mill lurr five
+22 enny fuoco locali
+23 angsa recebeu verf
+24 kriegs victoire agente
+25 equation smooth adopted
+26 immune burnt heap
+27 gra popis consulta
+28 ahrt nd sit
+29 atsby reinfor hide
+30 entropy longest zij
+31 avanja linkage consigo
+32 reibung video knight
+33 cein warmth scol
+34 energy bieten genetics
+35 keys ders flames
+36 kowe jusqu removing
+37 heater cai wyr
+38 iyas plaatsen citrate
+39 case sponsors runat
+40 ackage egun mapper
+41 pec vivo tris
+42 ttes embryos towel
+43 phones stopped listes
+44 vait homog antif
+45 atterson ji produto
+46 ullen bihurt anciens
+47 orbed apesar dread
+48 ors ammo folgten
+49 sled eser custody
+50 ampions lute forment
+51 super pumped reveal
+52 ocort tig bakar
+53 zlich anon eagerly
+54 aton imaginar squadron
+55 inde deine muse
+56 slice potencia ricerca
+57 elve incontr lead
+58 ancia expert modifier
+59 elic nadat attack
+60 taire cabel officier
+61 partei corpse mula
+62 fire acoustic impulso
+63 anking jaz gt
+64 ondation embod hinein
+65 ouis saved kompon
+66 une racc apost
+67 won fingers equipe
+68 whose inizi romaine
+69 ientas rust cheveux
+70 gent hartzen causas
+71 lecht soft money
+72 bras aanv cham
+73 culated leis sigh
+74 juju recept hvert
+75 refour sales unicode
+76 finished intended di
+77 areas fase seriam
+78 erne rhetor congress
+79 boost dimens sites
+80 yek rendant bene
+81 psia dimin assurer
+82 vemente einge default
+83 omnia gegeben govori
+84 posta shells analyt
+85 ridor infants tramway
+86 zir argitar ethn
+87 woman ym relates
+88 risto penj trzy
+89 izzare cinq venda
+90 plasia garden sulphate
+91 oldt alte kirk
+92 estaan temper supervis
+93 radas allemand bestimm
+94 ifica roja accents
+95 rekt pagina filmu
+96 aldas pierws instruct
+97 diff hex kay
+98 xes wyb chart
+99 activity tracing heg
+[completion]
+00 allen plaf bringt -> –a–l–l–e–n–p–l–a–f–b–r–i–n–g–t–
+01 unsigned monarch ostens -> –u–n–s–i–g–n–e–d–m–o–n–a–r–c–h–o–s–t–e–n–s–
+02 jol null ostat -> –j–o–l–n–u–l–l–o–s–t–a–t–
+03 edding oath dissolve -> –e–d–d–i–n–g–o–a–t–h–d–i–s–s–o–l–v–e–
+04 yster agr conceito -> –y–s–t–e–r–a–g–r–c–o–n–c–e–i–t–o–
+05 ot wer onc -> –o–t–w–e–r–o–n–c–
+06 mesh occ bees -> –m–e–s–h–o–c–c–b–e–e–s–
+07 astas invit cari -> –a–s–t–a–s–i–n–v–i–t–c–a–r–i–
+08 endant deduce anxious -> –e–n–d–a–n–t–d–e–d–u–c–e–a–n–x–i–o–u–s–
+09 bruk rho seitdem -> –b–r–u–k–r–h–o–s–e–i–t–d–e–m–
+10 ibid pointe existait -> –i–b–i–d–p–o–i–n–t–e–e–x–i–s–t–a–i–t–
+11 ceil inund schaff -> –c–e–i–l–i–n–u–n–d–s–c–h–a–f–f–
+12 marks paljon membran -> –m–a–r–k–s–p–a–l–j–o–n–m–e–m–b–r–a–n–
+13 pling vectors sorrow -> –p–l–i–n–g–v–e–c–t–o–r–s–s–o–r–r–o–w–
+14 amps espec remedy -> –a–m–p–s–e–s–p–e–c–r–e–m–e–d–y–
+15 htt carbono direkten -> –h–t–t–c–a–r–b–o–n–o–d–i–r–e–k–t–e–n–
+16 juan diret horrib -> –j–u–a–n–d–i–r–e–t–h–o–r–r–i–b–
+17 ipsis prolet prepared -> –i–p–s–i–s–p–r–o–l–e–t–p–r–e–p–a–r–e–d–
+18 iyada miej bekannte -> –i–y–a–d–a–m–i–e–j–b–e–k–a–n–n–t–e–
+19 appe cappella aparecen -> –a–p–p–e–c–a–p–p–e–l–l–a–a–p–a–r–e–c–e–n–
+20 olari cinemat berl -> –o–l–a–r–i–c–i–n–e–m–a–t–b–e–r–l–
+21 mill lurr five -> –m–i–l–l–l–u–r–r–f–i–v–e–
+22 enny fuoco locali -> –e–n–n–y–f–u–o–c–o–l–o–c–a–l–i–
+23 angsa recebeu verf -> –a–n–g–s–a–r–e–c–e–b–e–u–v–e–r–f–
+24 kriegs victoire agente -> –k–r–i–e–g–s–v–i–c–t–o–i–r–e–a–g–e–n–t–e–
+25 equation smooth adopted -> –e–q–u–a–t–i–o–n–s–m–o–o–t–h–a–d–o–p–t–e–d–
+26 immune burnt heap -> –i–m–m–u–n–e–b–u–r–n–t–h–e–a–p–
+27 gra popis consulta -> –g–r–a–p–o–p–i–s–c–o–n–s–u–l–t–a–
+28 ahrt nd sit -> –a–h–r–t–n–d–s–i–t–
+29 atsby reinfor hide -> –a–t–s–b–y–r–e–i–n–f–o–r–h–i–d–e–
+30 entropy longest zij -> –e–n–t–r–o–p–y–l–o–n–g–e–s–t–z–i–j–
+31 avanja linkage consigo -> –a–v–a–n–j–a–l–i–n–k–a–g–e–c–o–n–s–i–g–o–
+32 reibung video knight -> –r–e–i–b–u–n–g–v–i–d–e–o–k–n–i–g–h–t–
+33 cein warmth scol -> –c–e–i–n–w–a–r–m–t–h–s–c–o–l–
+34 energy bieten genetics -> –e–n–e–r–g–y–b–i–e–t–e–n–g–e–n–e–t–i–c–s–
+35 keys ders flames -> –k–e–y–s–d–e–r–s–f–l–a–m–e–s–
+36 kowe jusqu removing -> –k–o–w–e–j–u–s–q–u–r–e–m–o–v–i–n–g–
+37 heater cai wyr -> –h–e–a–t–e–r–c–a–i–w–y–r–
+38 iyas plaatsen citrate -> –i–y–a–s–p–l–a–a–t–s–e–n–c–i–t–r–a–t–e–
+39 case sponsors runat -> –c–a–s–e–s–p–o–n–s–o–r–s–r–u–n–a–t–
+40 ackage egun mapper -> –a–c–k–a–g–e–e–g–u–n–m–a–p–p–e–r–
+41 pec vivo tris -> –p–e–c–v–i–v–o–t–r–i–s–
+42 ttes embryos towel -> –t–t–e–s–e–m–b–r–y–o–s–t–o–w–e–l–
+43 phones stopped listes -> –p–h–o–n–e–s–s–t–o–p–p–e–d–l–i–s–t–e–s–
+44 vait homog antif -> –v–a–i–t–h–o–m–o–g–a–n–t–i–f–
+45 atterson ji produto -> –a–t–t–e–r–s–o–n–j–i–p–r–o–d–u–t–o–
+46 ullen bihurt anciens -> –u–l–l–e–n–b–i–h–u–r–t–a–n–c–i–e–n–s–
+47 orbed apesar dread -> –o–r–b–e–d–a–p–e–s–a–r–d–r–e–a–d–
+48 ors ammo folgten -> –o–r–s–a–m–m–o–f–o–l–g–t–e–n–
+49 sled eser custody -> –s–l–e–d–e–s–e–r–c–u–s–t–o–d–y–
+50 ampions lute forment -> –a–m–p–i–o–n–s–l–u–t–e–f–o–r–m–e–n–t–
+51 super pumped reveal -> –s–u–p–e–r–p–u–m–p–e–d–r–e–v–e–a–l–
+52 ocort tig bakar -> –o–c–o–r–t–t–i–g–b–a–k–a–r–
+53 zlich anon eagerly -> –z–l–i–c–h–a–n–o–n–e–a–g–e–r–l–y–
+54 aton imaginar squadron -> –a–t–o–n–i–m–a–g–i–n–a–r–s–q–u–a–d–r–o–n–
+55 inde deine muse -> –i–n–d–e–d–e–i–n–e–m–u–s–e–
+56 slice potencia ricerca -> –s–l–i–c–e–p–o–t–e–n–c–i–a–r–i–c–e–r–c–a–
+57 elve incontr lead -> –e–l–v–e–i–n–c–o–n–t–r–l–e–a–d–
+58 ancia expert modifier -> –a–n–c–i–a–e–x–p–e–r–t–m–o–d–i–f–i–e–r–
+59 elic nadat attack -> –e–l–i–c–n–a–d–a–t–a–t–t–a–c–k–
+60 taire cabel officier -> –t–a–i–r–e–c–a–b–e–l–o–f–f–i–c–i–e–r–
+61 partei corpse mula -> –p–a–r–t–e–i–c–o–r–p–s–e–m–u–l–a–
+62 fire acoustic impulso -> –f–i–r–e–a–c–o–u–s–t–i–c–i–m–p–u–l–s–o–
+63 anking jaz gt -> –a–n–k–i–n–g–j–a–z–g–t–
+64 ondation embod hinein -> –o–n–d–a–t–i–o–n–e–m–b–o–d–h–i–n–e–i–n–
+65 ouis saved kompon -> –o–u–i–s–s–a–v–e–d–k–o–m–p–o–n–
+66 une racc apost -> –u–n–e–r–a–c–c–a–p–o–s–t–
+67 won fingers equipe -> –w–o–n–f–i–n–g–e–r–s–e–q–u–i–p–e–
+68 whose inizi romaine -> –w–h–o–s–e–i–n–i–z–i–r–o–m–a–i–n–e–
+69 ientas rust cheveux -> –i–e–n–t–a–s–r–u–s–t–c–h–e–v–e–u–x–
+70 gent hartzen causas -> –g–e–n–t–h–a–r–t–z–e–n–c–a–u–s–a–s–
+71 lecht soft money -> –l–e–c–h–t–s–o–f–t–m–o–n–e–y–
+72 bras aanv cham -> –b–r–a–s–a–a–n–v–c–h–a–m–
+73 culated leis sigh -> –c–u–l–a–t–e–d–l–e–i–s–s–i–g–h–
+74 juju recept hvert -> –j–u–j–u–r–e–c–e–p–t–h–v–e–r–t–
+75 refour sales unicode -> –r–e–f–o–u–r–s–a–l–e–s–u–n–i–c–o–d–e–
+76 finished intended di -> –f–i–n–i–s–h–e–d–i–n–t–e–n–d–e–d–d–i–
+77 areas fase seriam -> –a–r–e–a–s–f–a–s–e–s–e–r–i–a–m–
+78 erne rhetor congress -> –e–r–n–e–r–h–e–t–o–r–c–o–n–g–r–e–s–s–
+79 boost dimens sites -> –b–o–o–s–t–d–i–m–e–n–s–s–i–t–e–s–
+80 yek rendant bene -> –y–e–k–r–e–n–d–a–n–t–b–e–n–e–
+81 psia dimin assurer -> –p–s–i–a–d–i–m–i–n–a–s–s–u–r–e–r–
+82 vemente einge default -> –v–e–m–e–n–t–e–e–i–n–g–e–d–e–f–a–u–l–t–
+83 omnia gegeben govori -> –o–m–n–i–a–g–e–g–e–b–e–n–g–o–v–o–r–i–
+84 posta shells analyt -> –p–o–s–t–a–s–h–e–l–l–s–a–n–a–l–y–t–
+85 ridor infants tramway -> –r–i–d–o–r–i–n–f–a–n–t–s–t–r–a–m–w–a–y–
+86 zir argitar ethn -> –z–i–r–a–r–g–i–t–a–r–e–t–h–n–
+87 woman ym relates -> –w–o–m–a–n–y–m–r–e–l–a–t–e–s–
+88 risto penj trzy -> –r–i–s–t–o–p–e–n–j–t–r–z–y–
+89 izzare cinq venda -> –i–z–z–a–r–e–c–i–n–q–v–e–n–d–a–
+90 plasia garden sulphate -> –p–l–a–s–i–a–g–a–r–d–e–n–s–u–l–p–h–a–t–e–
+91 oldt alte kirk -> –o–l–d–t–a–l–t–e–k–i–r–k–
+92 estaan temper supervis -> –e–s–t–a–a–n–t–e–m–p–e–r–s–u–p–e–r–v–i–s–
+93 radas allemand bestimm -> –r–a–d–a–s–a–l–l–e–m–a–n–d–b–e–s–t–i–m–m–
+94 ifica roja accents -> –i–f–i–c–a–r–o–j–a–a–c–c–e–n–t–s–
+95 rekt pagina filmu -> –r–e–k–t–p–a–g–i–n–a–f–i–l–m–u–
+96 aldas pierws instruct -> –a–l–d–a–s–p–i–e–r–w–s–i–n–s–t–r–u–c–t–
+97 diff hex kay -> –d–i–f–f–h–e–x–k–a–y–
+98 xes wyb chart -> –x–e–s–w–y–b–c–h–a–r–t–
+99 activity tracing heg -> –a–c–t–i–v–i–t–y–t–r–a–c–i–n–g–h–e–g–

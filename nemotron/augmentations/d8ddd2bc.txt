@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 eldi switched wash
+01 made espa android
+02 rement tendit bedeutet
+
+This is a sample output.
+00 eldi switched wash -> –e–l–d–i–s–w–i–t–c–h–e–d–w–a–s–h–
+01 made espa android -> –m–a–d–e–e–s–p–a–a–n–d–r–o–i–d–
+02 rement tendit bedeutet -> –r–e–m–e–n–t–t–e–n–d–i–t–b–e–d–e–u–t–e–t–
+
+This is your input.
+00 lava tenu julio
+01 rator achieves voltou
+02 jada bilir turist
+03 uenta aggrav known
+04 refer roup prover
+05 ikipedia physical muitos
+06 xico island memoir
+07 renal come bored
+08 ondo allant clone
+09 ali esc alloys
+10 scan vague muitas
+11 igos queria bie
+12 not mr jealousy
+13 arlos dessins mee
+14 reload kamer scenery
+15 uter jellem belongs
+16 icas official vass
+17 ints vroeg chin
+18 onesia pwd subnet
+19 enaient promin prostit
+20 aler menudo postgres
+21 ethoxy erg planning
+22 naj agregar nagu
+23 ove tois cuore
+24 avalt listop warten
+25 eson taman unser
+26 pid suf conna
+27 setminus profonde gereg
+28 efit dpi preva
+29 pu mandato serv
+30 dad disturb term
+31 insi tic agonists
+32 nm torso arcs
+33 ouvoir nih fitting
+34 ssh letters cambiar
+35 vio hinten pourra
+36 inal moi ablation
+37 isateur fron ending
+38 agent reich boom
+39 esor stwor kamen
+40 ovis laughing affili
+41 irke berasal statutes
+42 kap fist marcha
+43 aur western treas
+44 oured remit artiller
+45 num roya ugl
+46 pielt bert mica
+47 ieren kleines hosp
+48 block fourteen juxtap
+49 may academic sectors
+50 alchemy valleys musul
+51 zwischen airborne dolo
+52 eing accad antigua
+53 legten ca haupt
+54 ominant locul guide
+55 qtis hardware diu
+56 otic concrete printers
+57 forced unfair form
+58 enschaft ziy ashes
+59 portal patch sprint
+60 appings serb hell
+61 motor setzten teljes
+62 scriber erot repres
+63 ometer stammt rocket
+64 atical koriste kategori
+65 ricane troupe getter
+66 ees upside prestige
+67 leps tirer weaving
+68 outines kuni obras
+69 ular prot particle
+70 zil ssh art
+71 derabad spanning klubu
+72 fork mercury nasional
+73 disc volled sorris
+74 obl ball aihe
+75 ffic abrir skiing
+76 liers entregar diarr
+77 dek agli chercher
+78 icult arrived cierto
+79 osos sent dealt
+80 slide eerst propose
+81 fa associ rearr
+82 omba temu tell
+83 azen zituzten stil
+84 percent wra lass
+85 cong andar overwhel
+86 irror sehr teaching
+87 zina courage solved
+88 asome quarta esegu
+89 endez erretir phosphat
+90 inence teritor monster
+91 altungs engage regained
+92 global dressing comand
+93 chutz sina tiga
+94 inti facade komen
+95 fallen potable brains
+96 ionine supp resent
+97 braio stronie fai
+98 ibilidad tenere monoton
+99 lista tired cardiac
+[completion]
+00 lava tenu julio -> –l–a–v–a–t–e–n–u–j–u–l–i–o–
+01 rator achieves voltou -> –r–a–t–o–r–a–c–h–i–e–v–e–s–v–o–l–t–o–u–
+02 jada bilir turist -> –j–a–d–a–b–i–l–i–r–t–u–r–i–s–t–
+03 uenta aggrav known -> –u–e–n–t–a–a–g–g–r–a–v–k–n–o–w–n–
+04 refer roup prover -> –r–e–f–e–r–r–o–u–p–p–r–o–v–e–r–
+05 ikipedia physical muitos -> –i–k–i–p–e–d–i–a–p–h–y–s–i–c–a–l–m–u–i–t–o–s–
+06 xico island memoir -> –x–i–c–o–i–s–l–a–n–d–m–e–m–o–i–r–
+07 renal come bored -> –r–e–n–a–l–c–o–m–e–b–o–r–e–d–
+08 ondo allant clone -> –o–n–d–o–a–l–l–a–n–t–c–l–o–n–e–
+09 ali esc alloys -> –a–l–i–e–s–c–a–l–l–o–y–s–
+10 scan vague muitas -> –s–c–a–n–v–a–g–u–e–m–u–i–t–a–s–
+11 igos queria bie -> –i–g–o–s–q–u–e–r–i–a–b–i–e–
+12 not mr jealousy -> –n–o–t–m–r–j–e–a–l–o–u–s–y–
+13 arlos dessins mee -> –a–r–l–o–s–d–e–s–s–i–n–s–m–e–e–
+14 reload kamer scenery -> –r–e–l–o–a–d–k–a–m–e–r–s–c–e–n–e–r–y–
+15 uter jellem belongs -> –u–t–e–r–j–e–l–l–e–m–b–e–l–o–n–g–s–
+16 icas official vass -> –i–c–a–s–o–f–f–i–c–i–a–l–v–a–s–s–
+17 ints vroeg chin -> –i–n–t–s–v–r–o–e–g–c–h–i–n–
+18 onesia pwd subnet -> –o–n–e–s–i–a–p–w–d–s–u–b–n–e–t–
+19 enaient promin prostit -> –e–n–a–i–e–n–t–p–r–o–m–i–n–p–r–o–s–t–i–t–
+20 aler menudo postgres -> –a–l–e–r–m–e–n–u–d–o–p–o–s–t–g–r–e–s–
+21 ethoxy erg planning -> –e–t–h–o–x–y–e–r–g–p–l–a–n–n–i–n–g–
+22 naj agregar nagu -> –n–a–j–a–g–r–e–g–a–r–n–a–g–u–
+23 ove tois cuore -> –o–v–e–t–o–i–s–c–u–o–r–e–
+24 avalt listop warten -> –a–v–a–l–t–l–i–s–t–o–p–w–a–r–t–e–n–
+25 eson taman unser -> –e–s–o–n–t–a–m–a–n–u–n–s–e–r–
+26 pid suf conna -> –p–i–d–s–u–f–c–o–n–n–a–
+27 setminus profonde gereg -> –s–e–t–m–i–n–u–s–p–r–o–f–o–n–d–e–g–e–r–e–g–
+28 efit dpi preva -> –e–f–i–t–d–p–i–p–r–e–v–a–
+29 pu mandato serv -> –p–u–m–a–n–d–a–t–o–s–e–r–v–
+30 dad disturb term -> –d–a–d–d–i–s–t–u–r–b–t–e–r–m–
+31 insi tic agonists -> –i–n–s–i–t–i–c–a–g–o–n–i–s–t–s–
+32 nm torso arcs -> –n–m–t–o–r–s–o–a–r–c–s–
+33 ouvoir nih fitting -> –o–u–v–o–i–r–n–i–h–f–i–t–t–i–n–g–
+34 ssh letters cambiar -> –s–s–h–l–e–t–t–e–r–s–c–a–m–b–i–a–r–
+35 vio hinten pourra -> –v–i–o–h–i–n–t–e–n–p–o–u–r–r–a–
+36 inal moi ablation -> –i–n–a–l–m–o–i–a–b–l–a–t–i–o–n–
+37 isateur fron ending -> –i–s–a–t–e–u–r–f–r–o–n–e–n–d–i–n–g–
+38 agent reich boom -> –a–g–e–n–t–r–e–i–c–h–b–o–o–m–
+39 esor stwor kamen -> –e–s–o–r–s–t–w–o–r–k–a–m–e–n–
+40 ovis laughing affili -> –o–v–i–s–l–a–u–g–h–i–n–g–a–f–f–i–l–i–
+41 irke berasal statutes -> –i–r–k–e–b–e–r–a–s–a–l–s–t–a–t–u–t–e–s–
+42 kap fist marcha -> –k–a–p–f–i–s–t–m–a–r–c–h–a–
+43 aur western treas -> –a–u–r–w–e–s–t–e–r–n–t–r–e–a–s–
+44 oured remit artiller -> –o–u–r–e–d–r–e–m–i–t–a–r–t–i–l–l–e–r–
+45 num roya ugl -> –n–u–m–r–o–y–a–u–g–l–
+46 pielt bert mica -> –p–i–e–l–t–b–e–r–t–m–i–c–a–
+47 ieren kleines hosp -> –i–e–r–e–n–k–l–e–i–n–e–s–h–o–s–p–
+48 block fourteen juxtap -> –b–l–o–c–k–f–o–u–r–t–e–e–n–j–u–x–t–a–p–
+49 may academic sectors -> –m–a–y–a–c–a–d–e–m–i–c–s–e–c–t–o–r–s–
+50 alchemy valleys musul -> –a–l–c–h–e–m–y–v–a–l–l–e–y–s–m–u–s–u–l–
+51 zwischen airborne dolo -> –z–w–i–s–c–h–e–n–a–i–r–b–o–r–n–e–d–o–l–o–
+52 eing accad antigua -> –e–i–n–g–a–c–c–a–d–a–n–t–i–g–u–a–
+53 legten ca haupt -> –l–e–g–t–e–n–c–a–h–a–u–p–t–
+54 ominant locul guide -> –o–m–i–n–a–n–t–l–o–c–u–l–g–u–i–d–e–
+55 qtis hardware diu -> –q–t–i–s–h–a–r–d–w–a–r–e–d–i–u–
+56 otic concrete printers -> –o–t–i–c–c–o–n–c–r–e–t–e–p–r–i–n–t–e–r–s–
+57 forced unfair form -> –f–o–r–c–e–d–u–n–f–a–i–r–f–o–r–m–
+58 enschaft ziy ashes -> –e–n–s–c–h–a–f–t–z–i–y–a–s–h–e–s–
+59 portal patch sprint -> –p–o–r–t–a–l–p–a–t–c–h–s–p–r–i–n–t–
+60 appings serb hell -> –a–p–p–i–n–g–s–s–e–r–b–h–e–l–l–
+61 motor setzten teljes -> –m–o–t–o–r–s–e–t–z–t–e–n–t–e–l–j–e–s–
+62 scriber erot repres -> –s–c–r–i–b–e–r–e–r–o–t–r–e–p–r–e–s–
+63 ometer stammt rocket -> –o–m–e–t–e–r–s–t–a–m–m–t–r–o–c–k–e–t–
+64 atical koriste kategori -> –a–t–i–c–a–l–k–o–r–i–s–t–e–k–a–t–e–g–o–r–i–
+65 ricane troupe getter -> –r–i–c–a–n–e–t–r–o–u–p–e–g–e–t–t–e–r–
+66 ees upside prestige -> –e–e–s–u–p–s–i–d–e–p–r–e–s–t–i–g–e–
+67 leps tirer weaving -> –l–e–p–s–t–i–r–e–r–w–e–a–v–i–n–g–
+68 outines kuni obras -> –o–u–t–i–n–e–s–k–u–n–i–o–b–r–a–s–
+69 ular prot particle -> –u–l–a–r–p–r–o–t–p–a–r–t–i–c–l–e–
+70 zil ssh art -> –z–i–l–s–s–h–a–r–t–
+71 derabad spanning klubu -> –d–e–r–a–b–a–d–s–p–a–n–n–i–n–g–k–l–u–b–u–
+72 fork mercury nasional -> –f–o–r–k–m–e–r–c–u–r–y–n–a–s–i–o–n–a–l–
+73 disc volled sorris -> –d–i–s–c–v–o–l–l–e–d–s–o–r–r–i–s–
+74 obl ball aihe -> –o–b–l–b–a–l–l–a–i–h–e–
+75 ffic abrir skiing -> –f–f–i–c–a–b–r–i–r–s–k–i–i–n–g–
+76 liers entregar diarr -> –l–i–e–r–s–e–n–t–r–e–g–a–r–d–i–a–r–r–
+77 dek agli chercher -> –d–e–k–a–g–l–i–c–h–e–r–c–h–e–r–
+78 icult arrived cierto -> –i–c–u–l–t–a–r–r–i–v–e–d–c–i–e–r–t–o–
+79 osos sent dealt -> –o–s–o–s–s–e–n–t–d–e–a–l–t–
+80 slide eerst propose -> –s–l–i–d–e–e–e–r–s–t–p–r–o–p–o–s–e–
+81 fa associ rearr -> –f–a–a–s–s–o–c–i–r–e–a–r–r–
+82 omba temu tell -> –o–m–b–a–t–e–m–u–t–e–l–l–
+83 azen zituzten stil -> –a–z–e–n–z–i–t–u–z–t–e–n–s–t–i–l–
+84 percent wra lass -> –p–e–r–c–e–n–t–w–r–a–l–a–s–s–
+85 cong andar overwhel -> –c–o–n–g–a–n–d–a–r–o–v–e–r–w–h–e–l–
+86 irror sehr teaching -> –i–r–r–o–r–s–e–h–r–t–e–a–c–h–i–n–g–
+87 zina courage solved -> –z–i–n–a–c–o–u–r–a–g–e–s–o–l–v–e–d–
+88 asome quarta esegu -> –a–s–o–m–e–q–u–a–r–t–a–e–s–e–g–u–
+89 endez erretir phosphat -> –e–n–d–e–z–e–r–r–e–t–i–r–p–h–o–s–p–h–a–t–
+90 inence teritor monster -> –i–n–e–n–c–e–t–e–r–i–t–o–r–m–o–n–s–t–e–r–
+91 altungs engage regained -> –a–l–t–u–n–g–s–e–n–g–a–g–e–r–e–g–a–i–n–e–d–
+92 global dressing comand -> –g–l–o–b–a–l–d–r–e–s–s–i–n–g–c–o–m–a–n–d–
+93 chutz sina tiga -> –c–h–u–t–z–s–i–n–a–t–i–g–a–
+94 inti facade komen -> –i–n–t–i–f–a–c–a–d–e–k–o–m–e–n–
+95 fallen potable brains -> –f–a–l–l–e–n–p–o–t–a–b–l–e–b–r–a–i–n–s–
+96 ionine supp resent -> –i–o–n–i–n–e–s–u–p–p–r–e–s–e–n–t–
+97 braio stronie fai -> –b–r–a–i–o–s–t–r–o–n–i–e–f–a–i–
+98 ibilidad tenere monoton -> –i–b–i–l–i–d–a–d–t–e–n–e–r–e–m–o–n–o–t–o–n–
+99 lista tired cardiac -> –l–i–s–t–a–t–i–r–e–d–c–a–r–d–i–a–c–

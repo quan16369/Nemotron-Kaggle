@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 iami pasaba kuv
+01 master pylori miest
+02 ziger cuid fine
+
+This is a sample output.
+00 iami pasaba kuv -> –i–a–m–i–p–a–s–a–b–a–k–u–v–
+01 master pylori miest -> –m–a–s–t–e–r–p–y–l–o–r–i–m–i–e–s–t–
+02 ziger cuid fine -> –z–i–g–e–r–c–u–i–d–f–i–n–e–
+
+This is your input.
+00 andel sch sunt
+01 zinho efforts hesitate
+02 wand silicone oppose
+03 sup einiger winning
+04 imes acesta dwelling
+05 argon slike tyd
+06 oise athletes far
+07 aining expr hearts
+08 ktrum mara nakonec
+09 manifest myocard megfelel
+10 ventura erupt pensar
+11 itaine fungus soldati
+12 gency salient conj
+13 illas detener baixa
+14 ockey tipo arqu
+15 ol melhores drap
+16 iets pools hakem
+17 eds jun pensiero
+18 wezig obtenir inwardly
+19 utto wrap meny
+20 protocol creada went
+21 mot caves shutting
+22 ptive vorge tick
+23 gre topped gson
+24 ois looking broth
+25 ios insect iza
+26 tiles vertical flu
+27 wehr escudo solicit
+28 cesis cours gratu
+29 cri cog decay
+30 iciais naveg douceur
+31 lical atac vro
+32 ford mennes batzuk
+33 eller strip diente
+34 aid coastal lettera
+35 itive renal cartas
+36 ysql building nguy
+37 ieke ush api
+38 ount innych cuda
+39 elem daje volcano
+40 inations anh taal
+41 cedes dollari sof
+42 statt aven fordi
+43 achable croire nom
+44 ebol acceso sulph
+45 hed neighbor uw
+46 clerc minimum divide
+47 asyon ktor ds
+48 hra crusher frem
+49 rn umani selects
+50 acija lexical jih
+51 owego estudo mik
+52 inkel mezzo viral
+53 ikistan fram romanos
+54 amba sequel purse
+55 chnitten provin nenhuma
+56 uze pawn sab
+57 ensed ergibt ordem
+58 sheet verw cattle
+59 znych bund vua
+60 prote bunun tind
+61 ieli puro quadro
+62 imo incident follow
+63 erner add reboot
+64 uelo famil mexicano
+65 yo digging rapports
+66 ng znovu crew
+67 gebou filed liquids
+68 kon expanded aston
+69 geq cutoff kilogram
+70 ogon ajax fumble
+71 ptes synov wiped
+72 azard indoor morir
+73 ipment fus irres
+74 selector neke duct
+75 ataset enl insc
+76 nection trenches surs
+77 leyball resided matching
+78 req prayer lign
+79 asiya eastern nipples
+80 spe anos social
+81 analyse owning lagi
+82 rainer subtitle ps
+83 omorph milling feder
+84 exp pure tylko
+85 schen explains site
+86 abell native incon
+87 rowning nitrate metu
+88 eday filmin bibliot
+89 ynia amazed beide
+90 wikk jamb wholes
+91 mete recursos hervor
+92 volt beast pia
+93 zos ezen mellitus
+94 orters danach grados
+95 adzie fille ligt
+96 amate dawn sy
+97 auern risks erinn
+98 ate modelo zan
+99 jar sensors phone
+[completion]
+00 andel sch sunt -> –a–n–d–e–l–s–c–h–s–u–n–t–
+01 zinho efforts hesitate -> –z–i–n–h–o–e–f–f–o–r–t–s–h–e–s–i–t–a–t–e–
+02 wand silicone oppose -> –w–a–n–d–s–i–l–i–c–o–n–e–o–p–p–o–s–e–
+03 sup einiger winning -> –s–u–p–e–i–n–i–g–e–r–w–i–n–n–i–n–g–
+04 imes acesta dwelling -> –i–m–e–s–a–c–e–s–t–a–d–w–e–l–l–i–n–g–
+05 argon slike tyd -> –a–r–g–o–n–s–l–i–k–e–t–y–d–
+06 oise athletes far -> –o–i–s–e–a–t–h–l–e–t–e–s–f–a–r–
+07 aining expr hearts -> –a–i–n–i–n–g–e–x–p–r–h–e–a–r–t–s–
+08 ktrum mara nakonec -> –k–t–r–u–m–m–a–r–a–n–a–k–o–n–e–c–
+09 manifest myocard megfelel -> –m–a–n–i–f–e–s–t–m–y–o–c–a–r–d–m–e–g–f–e–l–e–l–
+10 ventura erupt pensar -> –v–e–n–t–u–r–a–e–r–u–p–t–p–e–n–s–a–r–
+11 itaine fungus soldati -> –i–t–a–i–n–e–f–u–n–g–u–s–s–o–l–d–a–t–i–
+12 gency salient conj -> –g–e–n–c–y–s–a–l–i–e–n–t–c–o–n–j–
+13 illas detener baixa -> –i–l–l–a–s–d–e–t–e–n–e–r–b–a–i–x–a–
+14 ockey tipo arqu -> –o–c–k–e–y–t–i–p–o–a–r–q–u–
+15 ol melhores drap -> –o–l–m–e–l–h–o–r–e–s–d–r–a–p–
+16 iets pools hakem -> –i–e–t–s–p–o–o–l–s–h–a–k–e–m–
+17 eds jun pensiero -> –e–d–s–j–u–n–p–e–n–s–i–e–r–o–
+18 wezig obtenir inwardly -> –w–e–z–i–g–o–b–t–e–n–i–r–i–n–w–a–r–d–l–y–
+19 utto wrap meny -> –u–t–t–o–w–r–a–p–m–e–n–y–
+20 protocol creada went -> –p–r–o–t–o–c–o–l–c–r–e–a–d–a–w–e–n–t–
+21 mot caves shutting -> –m–o–t–c–a–v–e–s–s–h–u–t–t–i–n–g–
+22 ptive vorge tick -> –p–t–i–v–e–v–o–r–g–e–t–i–c–k–
+23 gre topped gson -> –g–r–e–t–o–p–p–e–d–g–s–o–n–
+24 ois looking broth -> –o–i–s–l–o–o–k–i–n–g–b–r–o–t–h–
+25 ios insect iza -> –i–o–s–i–n–s–e–c–t–i–z–a–
+26 tiles vertical flu -> –t–i–l–e–s–v–e–r–t–i–c–a–l–f–l–u–
+27 wehr escudo solicit -> –w–e–h–r–e–s–c–u–d–o–s–o–l–i–c–i–t–
+28 cesis cours gratu -> –c–e–s–i–s–c–o–u–r–s–g–r–a–t–u–
+29 cri cog decay -> –c–r–i–c–o–g–d–e–c–a–y–
+30 iciais naveg douceur -> –i–c–i–a–i–s–n–a–v–e–g–d–o–u–c–e–u–r–
+31 lical atac vro -> –l–i–c–a–l–a–t–a–c–v–r–o–
+32 ford mennes batzuk -> –f–o–r–d–m–e–n–n–e–s–b–a–t–z–u–k–
+33 eller strip diente -> –e–l–l–e–r–s–t–r–i–p–d–i–e–n–t–e–
+34 aid coastal lettera -> –a–i–d–c–o–a–s–t–a–l–l–e–t–t–e–r–a–
+35 itive renal cartas -> –i–t–i–v–e–r–e–n–a–l–c–a–r–t–a–s–
+36 ysql building nguy -> –y–s–q–l–b–u–i–l–d–i–n–g–n–g–u–y–
+37 ieke ush api -> –i–e–k–e–u–s–h–a–p–i–
+38 ount innych cuda -> –o–u–n–t–i–n–n–y–c–h–c–u–d–a–
+39 elem daje volcano -> –e–l–e–m–d–a–j–e–v–o–l–c–a–n–o–
+40 inations anh taal -> –i–n–a–t–i–o–n–s–a–n–h–t–a–a–l–
+41 cedes dollari sof -> –c–e–d–e–s–d–o–l–l–a–r–i–s–o–f–
+42 statt aven fordi -> –s–t–a–t–t–a–v–e–n–f–o–r–d–i–
+43 achable croire nom -> –a–c–h–a–b–l–e–c–r–o–i–r–e–n–o–m–
+44 ebol acceso sulph -> –e–b–o–l–a–c–c–e–s–o–s–u–l–p–h–
+45 hed neighbor uw -> –h–e–d–n–e–i–g–h–b–o–r–u–w–
+46 clerc minimum divide -> –c–l–e–r–c–m–i–n–i–m–u–m–d–i–v–i–d–e–
+47 asyon ktor ds -> –a–s–y–o–n–k–t–o–r–d–s–
+48 hra crusher frem -> –h–r–a–c–r–u–s–h–e–r–f–r–e–m–
+49 rn umani selects -> –r–n–u–m–a–n–i–s–e–l–e–c–t–s–
+50 acija lexical jih -> –a–c–i–j–a–l–e–x–i–c–a–l–j–i–h–
+51 owego estudo mik -> –o–w–e–g–o–e–s–t–u–d–o–m–i–k–
+52 inkel mezzo viral -> –i–n–k–e–l–m–e–z–z–o–v–i–r–a–l–
+53 ikistan fram romanos -> –i–k–i–s–t–a–n–f–r–a–m–r–o–m–a–n–o–s–
+54 amba sequel purse -> –a–m–b–a–s–e–q–u–e–l–p–u–r–s–e–
+55 chnitten provin nenhuma -> –c–h–n–i–t–t–e–n–p–r–o–v–i–n–n–e–n–h–u–m–a–
+56 uze pawn sab -> –u–z–e–p–a–w–n–s–a–b–
+57 ensed ergibt ordem -> –e–n–s–e–d–e–r–g–i–b–t–o–r–d–e–m–
+58 sheet verw cattle -> –s–h–e–e–t–v–e–r–w–c–a–t–t–l–e–
+59 znych bund vua -> –z–n–y–c–h–b–u–n–d–v–u–a–
+60 prote bunun tind -> –p–r–o–t–e–b–u–n–u–n–t–i–n–d–
+61 ieli puro quadro -> –i–e–l–i–p–u–r–o–q–u–a–d–r–o–
+62 imo incident follow -> –i–m–o–i–n–c–i–d–e–n–t–f–o–l–l–o–w–
+63 erner add reboot -> –e–r–n–e–r–a–d–d–r–e–b–o–o–t–
+64 uelo famil mexicano -> –u–e–l–o–f–a–m–i–l–m–e–x–i–c–a–n–o–
+65 yo digging rapports -> –y–o–d–i–g–g–i–n–g–r–a–p–p–o–r–t–s–
+66 ng znovu crew -> –n–g–z–n–o–v–u–c–r–e–w–
+67 gebou filed liquids -> –g–e–b–o–u–f–i–l–e–d–l–i–q–u–i–d–s–
+68 kon expanded aston -> –k–o–n–e–x–p–a–n–d–e–d–a–s–t–o–n–
+69 geq cutoff kilogram -> –g–e–q–c–u–t–o–f–f–k–i–l–o–g–r–a–m–
+70 ogon ajax fumble -> –o–g–o–n–a–j–a–x–f–u–m–b–l–e–
+71 ptes synov wiped -> –p–t–e–s–s–y–n–o–v–w–i–p–e–d–
+72 azard indoor morir -> –a–z–a–r–d–i–n–d–o–o–r–m–o–r–i–r–
+73 ipment fus irres -> –i–p–m–e–n–t–f–u–s–i–r–r–e–s–
+74 selector neke duct -> –s–e–l–e–c–t–o–r–n–e–k–e–d–u–c–t–
+75 ataset enl insc -> –a–t–a–s–e–t–e–n–l–i–n–s–c–
+76 nection trenches surs -> –n–e–c–t–i–o–n–t–r–e–n–c–h–e–s–s–u–r–s–
+77 leyball resided matching -> –l–e–y–b–a–l–l–r–e–s–i–d–e–d–m–a–t–c–h–i–n–g–
+78 req prayer lign -> –r–e–q–p–r–a–y–e–r–l–i–g–n–
+79 asiya eastern nipples -> –a–s–i–y–a–e–a–s–t–e–r–n–n–i–p–p–l–e–s–
+80 spe anos social -> –s–p–e–a–n–o–s–s–o–c–i–a–l–
+81 analyse owning lagi -> –a–n–a–l–y–s–e–o–w–n–i–n–g–l–a–g–i–
+82 rainer subtitle ps -> –r–a–i–n–e–r–s–u–b–t–i–t–l–e–p–s–
+83 omorph milling feder -> –o–m–o–r–p–h–m–i–l–l–i–n–g–f–e–d–e–r–
+84 exp pure tylko -> –e–x–p–p–u–r–e–t–y–l–k–o–
+85 schen explains site -> –s–c–h–e–n–e–x–p–l–a–i–n–s–s–i–t–e–
+86 abell native incon -> –a–b–e–l–l–n–a–t–i–v–e–i–n–c–o–n–
+87 rowning nitrate metu -> –r–o–w–n–i–n–g–n–i–t–r–a–t–e–m–e–t–u–
+88 eday filmin bibliot -> –e–d–a–y–f–i–l–m–i–n–b–i–b–l–i–o–t–
+89 ynia amazed beide -> –y–n–i–a–a–m–a–z–e–d–b–e–i–d–e–
+90 wikk jamb wholes -> –w–i–k–k–j–a–m–b–w–h–o–l–e–s–
+91 mete recursos hervor -> –m–e–t–e–r–e–c–u–r–s–o–s–h–e–r–v–o–r–
+92 volt beast pia -> –v–o–l–t–b–e–a–s–t–p–i–a–
+93 zos ezen mellitus -> –z–o–s–e–z–e–n–m–e–l–l–i–t–u–s–
+94 orters danach grados -> –o–r–t–e–r–s–d–a–n–a–c–h–g–r–a–d–o–s–
+95 adzie fille ligt -> –a–d–z–i–e–f–i–l–l–e–l–i–g–t–
+96 amate dawn sy -> –a–m–a–t–e–d–a–w–n–s–y–
+97 auern risks erinn -> –a–u–e–r–n–r–i–s–k–s–e–r–i–n–n–
+98 ate modelo zan -> –a–t–e–m–o–d–e–l–o–z–a–n–
+99 jar sensors phone -> –j–a–r–s–e–n–s–o–r–s–p–h–o–n–e–

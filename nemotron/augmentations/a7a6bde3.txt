@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 peratore robotic aktive
+01 floor seized sorti
+02 ns quot brains
+
+This is a sample output.
+00 peratore robotic aktive -> –p–e–r–a–t–o–r–e–r–o–b–o–t–i–c–a–k–t–i–v–e–
+01 floor seized sorti -> –f–l–o–o–r–s–e–i–z–e–d–s–o–r–t–i–
+02 ns quot brains -> –n–s–q–u–o–t–b–r–a–i–n–s–
+
+This is your input.
+00 kin chauff provides
+01 utch esque doubles
+02 imize bancos faill
+03 rosc sirv trang
+04 vascular infar helik
+05 manager selector idi
+06 aktivni profund daraus
+07 ulae fon etched
+08 trm solenoid mis
+09 okuv approx selts
+10 phal zahr wuchs
+11 rically iler csoport
+12 illement oval worries
+13 ou yes fontos
+14 ifs osteo boucl
+15 lys escuchar furrow
+16 grass cul dzies
+17 acios wert antigo
+18 uve stam mantuvo
+19 edited pintor latach
+20 ahy personn dieses
+21 are peas tuf
+22 emain lately niece
+23 jad regul giud
+24 said facile oldu
+25 okie lens satire
+26 agini apare bun
+27 redis dite piem
+28 agu komb dziew
+29 flex rad prawa
+30 fra pall neoplas
+31 ah cambiado mutagen
+32 czes quarter paradig
+33 patient sej white
+34 chaient seni wrapping
+35 asa nanom socio
+36 emento climatic duca
+37 iiv vois ganado
+38 jela intimid viola
+39 sprechen pon logger
+40 role myths managers
+41 akon registre database
+42 kte apropi peintre
+43 egin cumple colores
+44 anan fasting firms
+45 etc without praying
+46 lox fent hel
+47 irre sombr vuel
+48 ivament nonin bullets
+49 astolic maint inspect
+50 ewel troub deliver
+51 ocio zdecyd career
+52 varez warf amaz
+53 phase ops parece
+54 ractor zs juta
+55 ouille souri horien
+56 ilor rimasto fatty
+57 riak sys boli
+58 pletion lesion voet
+59 oires wusste freedom
+60 ollo okto war
+61 yarakat falsa symptoms
+62 iki sehe vero
+63 chas confirms fenomen
+64 baan hanno geval
+65 unque black winters
+66 riche restes rins
+67 alam inertial erine
+68 attia magna ordering
+69 rtl dic voidaan
+70 rances changing summers
+71 alent bila disf
+72 ding mutate pasaba
+73 pris taxon creator
+74 lerin quant pasta
+75 ork tag lectures
+76 itts jude rov
+77 hydro olid scene
+78 fos alkoi comfort
+79 inputs celor loses
+80 ording hacen veille
+81 qui siano jer
+82 valo jis thereon
+83 uden adier privacy
+84 urally birthday agua
+85 yzer afili szen
+86 cov sour breaks
+87 offset mocked lateral
+88 lookup twelfth vieux
+89 yin baja forest
+90 ilingan sist modified
+91 htm gebieden shr
+92 ulp alkal kvarter
+93 annel berada assass
+94 eret peel jang
+95 hait remonter coco
+96 rocyte lij pobl
+97 ilot saisit lokal
+98 icycle eind marathon
+99 erais affid grin
+[completion]
+00 kin chauff provides -> –k–i–n–c–h–a–u–f–f–p–r–o–v–i–d–e–s–
+01 utch esque doubles -> –u–t–c–h–e–s–q–u–e–d–o–u–b–l–e–s–
+02 imize bancos faill -> –i–m–i–z–e–b–a–n–c–o–s–f–a–i–l–l–
+03 rosc sirv trang -> –r–o–s–c–s–i–r–v–t–r–a–n–g–
+04 vascular infar helik -> –v–a–s–c–u–l–a–r–i–n–f–a–r–h–e–l–i–k–
+05 manager selector idi -> –m–a–n–a–g–e–r–s–e–l–e–c–t–o–r–i–d–i–
+06 aktivni profund daraus -> –a–k–t–i–v–n–i–p–r–o–f–u–n–d–d–a–r–a–u–s–
+07 ulae fon etched -> –u–l–a–e–f–o–n–e–t–c–h–e–d–
+08 trm solenoid mis -> –t–r–m–s–o–l–e–n–o–i–d–m–i–s–
+09 okuv approx selts -> –o–k–u–v–a–p–p–r–o–x–s–e–l–t–s–
+10 phal zahr wuchs -> –p–h–a–l–z–a–h–r–w–u–c–h–s–
+11 rically iler csoport -> –r–i–c–a–l–l–y–i–l–e–r–c–s–o–p–o–r–t–
+12 illement oval worries -> –i–l–l–e–m–e–n–t–o–v–a–l–w–o–r–r–i–e–s–
+13 ou yes fontos -> –o–u–y–e–s–f–o–n–t–o–s–
+14 ifs osteo boucl -> –i–f–s–o–s–t–e–o–b–o–u–c–l–
+15 lys escuchar furrow -> –l–y–s–e–s–c–u–c–h–a–r–f–u–r–r–o–w–
+16 grass cul dzies -> –g–r–a–s–s–c–u–l–d–z–i–e–s–
+17 acios wert antigo -> –a–c–i–o–s–w–e–r–t–a–n–t–i–g–o–
+18 uve stam mantuvo -> –u–v–e–s–t–a–m–m–a–n–t–u–v–o–
+19 edited pintor latach -> –e–d–i–t–e–d–p–i–n–t–o–r–l–a–t–a–c–h–
+20 ahy personn dieses -> –a–h–y–p–e–r–s–o–n–n–d–i–e–s–e–s–
+21 are peas tuf -> –a–r–e–p–e–a–s–t–u–f–
+22 emain lately niece -> –e–m–a–i–n–l–a–t–e–l–y–n–i–e–c–e–
+23 jad regul giud -> –j–a–d–r–e–g–u–l–g–i–u–d–
+24 said facile oldu -> –s–a–i–d–f–a–c–i–l–e–o–l–d–u–
+25 okie lens satire -> –o–k–i–e–l–e–n–s–s–a–t–i–r–e–
+26 agini apare bun -> –a–g–i–n–i–a–p–a–r–e–b–u–n–
+27 redis dite piem -> –r–e–d–i–s–d–i–t–e–p–i–e–m–
+28 agu komb dziew -> –a–g–u–k–o–m–b–d–z–i–e–w–
+29 flex rad prawa -> –f–l–e–x–r–a–d–p–r–a–w–a–
+30 fra pall neoplas -> –f–r–a–p–a–l–l–n–e–o–p–l–a–s–
+31 ah cambiado mutagen -> –a–h–c–a–m–b–i–a–d–o–m–u–t–a–g–e–n–
+32 czes quarter paradig -> –c–z–e–s–q–u–a–r–t–e–r–p–a–r–a–d–i–g–
+33 patient sej white -> –p–a–t–i–e–n–t–s–e–j–w–h–i–t–e–
+34 chaient seni wrapping -> –c–h–a–i–e–n–t–s–e–n–i–w–r–a–p–p–i–n–g–
+35 asa nanom socio -> –a–s–a–n–a–n–o–m–s–o–c–i–o–
+36 emento climatic duca -> –e–m–e–n–t–o–c–l–i–m–a–t–i–c–d–u–c–a–
+37 iiv vois ganado -> –i–i–v–v–o–i–s–g–a–n–a–d–o–
+38 jela intimid viola -> –j–e–l–a–i–n–t–i–m–i–d–v–i–o–l–a–
+39 sprechen pon logger -> –s–p–r–e–c–h–e–n–p–o–n–l–o–g–g–e–r–
+40 role myths managers -> –r–o–l–e–m–y–t–h–s–m–a–n–a–g–e–r–s–
+41 akon registre database -> –a–k–o–n–r–e–g–i–s–t–r–e–d–a–t–a–b–a–s–e–
+42 kte apropi peintre -> –k–t–e–a–p–r–o–p–i–p–e–i–n–t–r–e–
+43 egin cumple colores -> –e–g–i–n–c–u–m–p–l–e–c–o–l–o–r–e–s–
+44 anan fasting firms -> –a–n–a–n–f–a–s–t–i–n–g–f–i–r–m–s–
+45 etc without praying -> –e–t–c–w–i–t–h–o–u–t–p–r–a–y–i–n–g–
+46 lox fent hel -> –l–o–x–f–e–n–t–h–e–l–
+47 irre sombr vuel -> –i–r–r–e–s–o–m–b–r–v–u–e–l–
+48 ivament nonin bullets -> –i–v–a–m–e–n–t–n–o–n–i–n–b–u–l–l–e–t–s–
+49 astolic maint inspect -> –a–s–t–o–l–i–c–m–a–i–n–t–i–n–s–p–e–c–t–
+50 ewel troub deliver -> –e–w–e–l–t–r–o–u–b–d–e–l–i–v–e–r–
+51 ocio zdecyd career -> –o–c–i–o–z–d–e–c–y–d–c–a–r–e–e–r–
+52 varez warf amaz -> –v–a–r–e–z–w–a–r–f–a–m–a–z–
+53 phase ops parece -> –p–h–a–s–e–o–p–s–p–a–r–e–c–e–
+54 ractor zs juta -> –r–a–c–t–o–r–z–s–j–u–t–a–
+55 ouille souri horien -> –o–u–i–l–l–e–s–o–u–r–i–h–o–r–i–e–n–
+56 ilor rimasto fatty -> –i–l–o–r–r–i–m–a–s–t–o–f–a–t–t–y–
+57 riak sys boli -> –r–i–a–k–s–y–s–b–o–l–i–
+58 pletion lesion voet -> –p–l–e–t–i–o–n–l–e–s–i–o–n–v–o–e–t–
+59 oires wusste freedom -> –o–i–r–e–s–w–u–s–s–t–e–f–r–e–e–d–o–m–
+60 ollo okto war -> –o–l–l–o–o–k–t–o–w–a–r–
+61 yarakat falsa symptoms -> –y–a–r–a–k–a–t–f–a–l–s–a–s–y–m–p–t–o–m–s–
+62 iki sehe vero -> –i–k–i–s–e–h–e–v–e–r–o–
+63 chas confirms fenomen -> –c–h–a–s–c–o–n–f–i–r–m–s–f–e–n–o–m–e–n–
+64 baan hanno geval -> –b–a–a–n–h–a–n–n–o–g–e–v–a–l–
+65 unque black winters -> –u–n–q–u–e–b–l–a–c–k–w–i–n–t–e–r–s–
+66 riche restes rins -> –r–i–c–h–e–r–e–s–t–e–s–r–i–n–s–
+67 alam inertial erine -> –a–l–a–m–i–n–e–r–t–i–a–l–e–r–i–n–e–
+68 attia magna ordering -> –a–t–t–i–a–m–a–g–n–a–o–r–d–e–r–i–n–g–
+69 rtl dic voidaan -> –r–t–l–d–i–c–v–o–i–d–a–a–n–
+70 rances changing summers -> –r–a–n–c–e–s–c–h–a–n–g–i–n–g–s–u–m–m–e–r–s–
+71 alent bila disf -> –a–l–e–n–t–b–i–l–a–d–i–s–f–
+72 ding mutate pasaba -> –d–i–n–g–m–u–t–a–t–e–p–a–s–a–b–a–
+73 pris taxon creator -> –p–r–i–s–t–a–x–o–n–c–r–e–a–t–o–r–
+74 lerin quant pasta -> –l–e–r–i–n–q–u–a–n–t–p–a–s–t–a–
+75 ork tag lectures -> –o–r–k–t–a–g–l–e–c–t–u–r–e–s–
+76 itts jude rov -> –i–t–t–s–j–u–d–e–r–o–v–
+77 hydro olid scene -> –h–y–d–r–o–o–l–i–d–s–c–e–n–e–
+78 fos alkoi comfort -> –f–o–s–a–l–k–o–i–c–o–m–f–o–r–t–
+79 inputs celor loses -> –i–n–p–u–t–s–c–e–l–o–r–l–o–s–e–s–
+80 ording hacen veille -> –o–r–d–i–n–g–h–a–c–e–n–v–e–i–l–l–e–
+81 qui siano jer -> –q–u–i–s–i–a–n–o–j–e–r–
+82 valo jis thereon -> –v–a–l–o–j–i–s–t–h–e–r–e–o–n–
+83 uden adier privacy -> –u–d–e–n–a–d–i–e–r–p–r–i–v–a–c–y–
+84 urally birthday agua -> –u–r–a–l–l–y–b–i–r–t–h–d–a–y–a–g–u–a–
+85 yzer afili szen -> –y–z–e–r–a–f–i–l–i–s–z–e–n–
+86 cov sour breaks -> –c–o–v–s–o–u–r–b–r–e–a–k–s–
+87 offset mocked lateral -> –o–f–f–s–e–t–m–o–c–k–e–d–l–a–t–e–r–a–l–
+88 lookup twelfth vieux -> –l–o–o–k–u–p–t–w–e–l–f–t–h–v–i–e–u–x–
+89 yin baja forest -> –y–i–n–b–a–j–a–f–o–r–e–s–t–
+90 ilingan sist modified -> –i–l–i–n–g–a–n–s–i–s–t–m–o–d–i–f–i–e–d–
+91 htm gebieden shr -> –h–t–m–g–e–b–i–e–d–e–n–s–h–r–
+92 ulp alkal kvarter -> –u–l–p–a–l–k–a–l–k–v–a–r–t–e–r–
+93 annel berada assass -> –a–n–n–e–l–b–e–r–a–d–a–a–s–s–a–s–s–
+94 eret peel jang -> –e–r–e–t–p–e–e–l–j–a–n–g–
+95 hait remonter coco -> –h–a–i–t–r–e–m–o–n–t–e–r–c–o–c–o–
+96 rocyte lij pobl -> –r–o–c–y–t–e–l–i–j–p–o–b–l–
+97 ilot saisit lokal -> –i–l–o–t–s–a–i–s–i–t–l–o–k–a–l–
+98 icycle eind marathon -> –i–c–y–c–l–e–e–i–n–d–m–a–r–a–t–h–o–n–
+99 erais affid grin -> –e–r–a–i–s–a–f–f–i–d–g–r–i–n–

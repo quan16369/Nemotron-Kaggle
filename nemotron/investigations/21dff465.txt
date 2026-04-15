@@ -1,0 +1,28 @@
+problem id: 21dff465
+category: equation_numeric
+
+examples:
+- 30?45 = 75
+- 57?67 = 124
+- 40?37 = 77
+- query: 73@82
+
+inferred rule:
+- `?` denotes ordinary addition.
+- The unseen symbol `@` is best read as subtraction, and negative outputs are written with `@` in place of the minus sign.
+
+step-by-step check on the examples:
+1. 30 + 45 = 75
+2. 57 + 67 = 124
+3. 40 + 37 = 77
+
+step-by-step application to the query:
+1. Interpret `73@82` as `73 - 82`.
+2. Compute the difference: `73 - 82 = -9`.
+3. Rewrite the negative sign in the puzzle's symbol style, giving `@9`.
+
+predicted answer:
+- @9
+
+confidence note:
+- Moderate. The addition rule for `?` is fully supported by the examples, but `@` never appears in the training examples, so the subtraction reading is an inference rather than a directly demonstrated rule.

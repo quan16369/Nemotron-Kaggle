@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 yers supp hallway
+01 orts vitre schemas
+02 meg together run
+
+This is a sample output.
+00 yers supp hallway -> –y–e–r–s–s–u–p–p–h–a–l–l–w–a–y–
+01 orts vitre schemas -> –o–r–t–s–v–i–t–r–e–s–c–h–e–m–a–s–
+02 meg together run -> –m–e–g–t–o–g–e–t–h–e–r–r–u–n–
+
+This is your input.
+00 ted bedroom woven
+01 atriz hin liable
+02 other sinus sortie
+03 mira bronce lourd
+04 acent sytu change
+05 acakt menu clipped
+06 co roc alum
+07 endrer qilgan melanoma
+08 iguo conjunt daude
+09 leted alfab silica
+10 nin guer ozn
+11 esez crafts peny
+12 arekin mag ordre
+13 eg cadrul hun
+14 istor belief ligand
+15 encv utiliser kid
+16 odo hare calc
+17 utet openness pesar
+18 re exons strcpy
+19 midt diven zut
+20 natal quienes aprend
+21 umar fede antiga
+22 unistd mano marg
+23 iter fek realiza
+24 edia clase yearly
+25 immel rodent politic
+26 waar mangan vins
+27 zony dames czyli
+28 icate mening turnout
+29 illac ofensiva sistemas
+30 konom spos langage
+31 inais zogen breiten
+32 abat province appeler
+33 ril richesse crystals
+34 nud ovog maisons
+35 avy occhi bort
+36 iterate linhas roots
+37 prepare sis mailing
+38 atre premier extrema
+39 stream li unsur
+40 larla salari besa
+41 alap happy zug
+42 njih hindi ngay
+43 istic blinking tedious
+44 olog geeft exc
+45 asaki engels antic
+46 obacht vous cuidado
+47 blem inscrits treatise
+48 ilio stuffed suite
+49 jection cea credo
+50 olver inspira passing
+51 ctl indice coop
+52 adel lg pub
+53 atel kuv hinweg
+54 ayah bead elev
+55 ieber muscul lt
+56 iculo ambul gene
+57 edical mout tivesse
+58 xf dud colour
+59 ndrome bt playoff
+60 nict helpless terem
+61 ritable aunque trabal
+62 ore doigt nacido
+63 cell concurso besitzen
+64 ziehen fej franqu
+65 proxy populate sar
+66 uye acyl partly
+67 oted cujo simili
+68 below lati szko
+69 nom sealed doesnt
+70 sku lograron passiert
+71 owicz vite matrices
+72 cesor medan posicion
+73 itel concurr tutto
+74 isper bunch escrib
+75 uds hundreds guardian
+76 zuhalten zonder disposal
+77 dire bevol prende
+78 ricanes nude wizard
+79 esi direita doing
+80 oes colonel releases
+81 owanych suffit filme
+82 ttps repas xsi
+83 rof oste noi
+84 utta chloride grups
+85 ciam segn doct
+86 enea directe pie
+87 vim js leid
+88 owie diviz cafeter
+89 bild vente regimens
+90 small saldo frapp
+91 alaritza df etwas
+92 kafka gia trom
+93 azioko wordt abras
+94 caffold mald dropout
+95 nej casi sach
+96 mern tung formerly
+97 avent tibial crawl
+98 aliy amp tota
+99 elsh ono vaz
+[completion]
+00 ted bedroom woven -> –t–e–d–b–e–d–r–o–o–m–w–o–v–e–n–
+01 atriz hin liable -> –a–t–r–i–z–h–i–n–l–i–a–b–l–e–
+02 other sinus sortie -> –o–t–h–e–r–s–i–n–u–s–s–o–r–t–i–e–
+03 mira bronce lourd -> –m–i–r–a–b–r–o–n–c–e–l–o–u–r–d–
+04 acent sytu change -> –a–c–e–n–t–s–y–t–u–c–h–a–n–g–e–
+05 acakt menu clipped -> –a–c–a–k–t–m–e–n–u–c–l–i–p–p–e–d–
+06 co roc alum -> –c–o–r–o–c–a–l–u–m–
+07 endrer qilgan melanoma -> –e–n–d–r–e–r–q–i–l–g–a–n–m–e–l–a–n–o–m–a–
+08 iguo conjunt daude -> –i–g–u–o–c–o–n–j–u–n–t–d–a–u–d–e–
+09 leted alfab silica -> –l–e–t–e–d–a–l–f–a–b–s–i–l–i–c–a–
+10 nin guer ozn -> –n–i–n–g–u–e–r–o–z–n–
+11 esez crafts peny -> –e–s–e–z–c–r–a–f–t–s–p–e–n–y–
+12 arekin mag ordre -> –a–r–e–k–i–n–m–a–g–o–r–d–r–e–
+13 eg cadrul hun -> –e–g–c–a–d–r–u–l–h–u–n–
+14 istor belief ligand -> –i–s–t–o–r–b–e–l–i–e–f–l–i–g–a–n–d–
+15 encv utiliser kid -> –e–n–c–v–u–t–i–l–i–s–e–r–k–i–d–
+16 odo hare calc -> –o–d–o–h–a–r–e–c–a–l–c–
+17 utet openness pesar -> –u–t–e–t–o–p–e–n–n–e–s–s–p–e–s–a–r–
+18 re exons strcpy -> –r–e–e–x–o–n–s–s–t–r–c–p–y–
+19 midt diven zut -> –m–i–d–t–d–i–v–e–n–z–u–t–
+20 natal quienes aprend -> –n–a–t–a–l–q–u–i–e–n–e–s–a–p–r–e–n–d–
+21 umar fede antiga -> –u–m–a–r–f–e–d–e–a–n–t–i–g–a–
+22 unistd mano marg -> –u–n–i–s–t–d–m–a–n–o–m–a–r–g–
+23 iter fek realiza -> –i–t–e–r–f–e–k–r–e–a–l–i–z–a–
+24 edia clase yearly -> –e–d–i–a–c–l–a–s–e–y–e–a–r–l–y–
+25 immel rodent politic -> –i–m–m–e–l–r–o–d–e–n–t–p–o–l–i–t–i–c–
+26 waar mangan vins -> –w–a–a–r–m–a–n–g–a–n–v–i–n–s–
+27 zony dames czyli -> –z–o–n–y–d–a–m–e–s–c–z–y–l–i–
+28 icate mening turnout -> –i–c–a–t–e–m–e–n–i–n–g–t–u–r–n–o–u–t–
+29 illac ofensiva sistemas -> –i–l–l–a–c–o–f–e–n–s–i–v–a–s–i–s–t–e–m–a–s–
+30 konom spos langage -> –k–o–n–o–m–s–p–o–s–l–a–n–g–a–g–e–
+31 inais zogen breiten -> –i–n–a–i–s–z–o–g–e–n–b–r–e–i–t–e–n–
+32 abat province appeler -> –a–b–a–t–p–r–o–v–i–n–c–e–a–p–p–e–l–e–r–
+33 ril richesse crystals -> –r–i–l–r–i–c–h–e–s–s–e–c–r–y–s–t–a–l–s–
+34 nud ovog maisons -> –n–u–d–o–v–o–g–m–a–i–s–o–n–s–
+35 avy occhi bort -> –a–v–y–o–c–c–h–i–b–o–r–t–
+36 iterate linhas roots -> –i–t–e–r–a–t–e–l–i–n–h–a–s–r–o–o–t–s–
+37 prepare sis mailing -> –p–r–e–p–a–r–e–s–i–s–m–a–i–l–i–n–g–
+38 atre premier extrema -> –a–t–r–e–p–r–e–m–i–e–r–e–x–t–r–e–m–a–
+39 stream li unsur -> –s–t–r–e–a–m–l–i–u–n–s–u–r–
+40 larla salari besa -> –l–a–r–l–a–s–a–l–a–r–i–b–e–s–a–
+41 alap happy zug -> –a–l–a–p–h–a–p–p–y–z–u–g–
+42 njih hindi ngay -> –n–j–i–h–h–i–n–d–i–n–g–a–y–
+43 istic blinking tedious -> –i–s–t–i–c–b–l–i–n–k–i–n–g–t–e–d–i–o–u–s–
+44 olog geeft exc -> –o–l–o–g–g–e–e–f–t–e–x–c–
+45 asaki engels antic -> –a–s–a–k–i–e–n–g–e–l–s–a–n–t–i–c–
+46 obacht vous cuidado -> –o–b–a–c–h–t–v–o–u–s–c–u–i–d–a–d–o–
+47 blem inscrits treatise -> –b–l–e–m–i–n–s–c–r–i–t–s–t–r–e–a–t–i–s–e–
+48 ilio stuffed suite -> –i–l–i–o–s–t–u–f–f–e–d–s–u–i–t–e–
+49 jection cea credo -> –j–e–c–t–i–o–n–c–e–a–c–r–e–d–o–
+50 olver inspira passing -> –o–l–v–e–r–i–n–s–p–i–r–a–p–a–s–s–i–n–g–
+51 ctl indice coop -> –c–t–l–i–n–d–i–c–e–c–o–o–p–
+52 adel lg pub -> –a–d–e–l–l–g–p–u–b–
+53 atel kuv hinweg -> –a–t–e–l–k–u–v–h–i–n–w–e–g–
+54 ayah bead elev -> –a–y–a–h–b–e–a–d–e–l–e–v–
+55 ieber muscul lt -> –i–e–b–e–r–m–u–s–c–u–l–l–t–
+56 iculo ambul gene -> –i–c–u–l–o–a–m–b–u–l–g–e–n–e–
+57 edical mout tivesse -> –e–d–i–c–a–l–m–o–u–t–t–i–v–e–s–s–e–
+58 xf dud colour -> –x–f–d–u–d–c–o–l–o–u–r–
+59 ndrome bt playoff -> –n–d–r–o–m–e–b–t–p–l–a–y–o–f–f–
+60 nict helpless terem -> –n–i–c–t–h–e–l–p–l–e–s–s–t–e–r–e–m–
+61 ritable aunque trabal -> –r–i–t–a–b–l–e–a–u–n–q–u–e–t–r–a–b–a–l–
+62 ore doigt nacido -> –o–r–e–d–o–i–g–t–n–a–c–i–d–o–
+63 cell concurso besitzen -> –c–e–l–l–c–o–n–c–u–r–s–o–b–e–s–i–t–z–e–n–
+64 ziehen fej franqu -> –z–i–e–h–e–n–f–e–j–f–r–a–n–q–u–
+65 proxy populate sar -> –p–r–o–x–y–p–o–p–u–l–a–t–e–s–a–r–
+66 uye acyl partly -> –u–y–e–a–c–y–l–p–a–r–t–l–y–
+67 oted cujo simili -> –o–t–e–d–c–u–j–o–s–i–m–i–l–i–
+68 below lati szko -> –b–e–l–o–w–l–a–t–i–s–z–k–o–
+69 nom sealed doesnt -> –n–o–m–s–e–a–l–e–d–d–o–e–s–n–t–
+70 sku lograron passiert -> –s–k–u–l–o–g–r–a–r–o–n–p–a–s–s–i–e–r–t–
+71 owicz vite matrices -> –o–w–i–c–z–v–i–t–e–m–a–t–r–i–c–e–s–
+72 cesor medan posicion -> –c–e–s–o–r–m–e–d–a–n–p–o–s–i–c–i–o–n–
+73 itel concurr tutto -> –i–t–e–l–c–o–n–c–u–r–r–t–u–t–t–o–
+74 isper bunch escrib -> –i–s–p–e–r–b–u–n–c–h–e–s–c–r–i–b–
+75 uds hundreds guardian -> –u–d–s–h–u–n–d–r–e–d–s–g–u–a–r–d–i–a–n–
+76 zuhalten zonder disposal -> –z–u–h–a–l–t–e–n–z–o–n–d–e–r–d–i–s–p–o–s–a–l–
+77 dire bevol prende -> –d–i–r–e–b–e–v–o–l–p–r–e–n–d–e–
+78 ricanes nude wizard -> –r–i–c–a–n–e–s–n–u–d–e–w–i–z–a–r–d–
+79 esi direita doing -> –e–s–i–d–i–r–e–i–t–a–d–o–i–n–g–
+80 oes colonel releases -> –o–e–s–c–o–l–o–n–e–l–r–e–l–e–a–s–e–s–
+81 owanych suffit filme -> –o–w–a–n–y–c–h–s–u–f–f–i–t–f–i–l–m–e–
+82 ttps repas xsi -> –t–t–p–s–r–e–p–a–s–x–s–i–
+83 rof oste noi -> –r–o–f–o–s–t–e–n–o–i–
+84 utta chloride grups -> –u–t–t–a–c–h–l–o–r–i–d–e–g–r–u–p–s–
+85 ciam segn doct -> –c–i–a–m–s–e–g–n–d–o–c–t–
+86 enea directe pie -> –e–n–e–a–d–i–r–e–c–t–e–p–i–e–
+87 vim js leid -> –v–i–m–j–s–l–e–i–d–
+88 owie diviz cafeter -> –o–w–i–e–d–i–v–i–z–c–a–f–e–t–e–r–
+89 bild vente regimens -> –b–i–l–d–v–e–n–t–e–r–e–g–i–m–e–n–s–
+90 small saldo frapp -> –s–m–a–l–l–s–a–l–d–o–f–r–a–p–p–
+91 alaritza df etwas -> –a–l–a–r–i–t–z–a–d–f–e–t–w–a–s–
+92 kafka gia trom -> –k–a–f–k–a–g–i–a–t–r–o–m–
+93 azioko wordt abras -> –a–z–i–o–k–o–w–o–r–d–t–a–b–r–a–s–
+94 caffold mald dropout -> –c–a–f–f–o–l–d–m–a–l–d–d–r–o–p–o–u–t–
+95 nej casi sach -> –n–e–j–c–a–s–i–s–a–c–h–
+96 mern tung formerly -> –m–e–r–n–t–u–n–g–f–o–r–m–e–r–l–y–
+97 avent tibial crawl -> –a–v–e–n–t–t–i–b–i–a–l–c–r–a–w–l–
+98 aliy amp tota -> –a–l–i–y–a–m–p–t–o–t–a–
+99 elsh ono vaz -> –e–l–s–h–o–n–o–v–a–z–

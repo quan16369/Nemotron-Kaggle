@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 ris mangan onun
+01 itekt zod focal
+02 cip due seats
+
+This is a sample output.
+00 ris mangan onun -> –r–i–s–m–a–n–g–a–n–o–n–u–n–
+01 itekt zod focal -> –i–t–e–k–t–z–o–d–f–o–c–a–l–
+02 cip due seats -> –c–i–p–d–u–e–s–e–a–t–s–
+
+This is your input.
+00 aven dart riz
+01 single sahiptir neige
+02 gestellt liquor biasa
+03 ross alent another
+04 onders descub circuits
+05 icolo sian tandem
+06 zip boot pthread
+07 find clade respons
+08 arez demandes bile
+09 physics booth time
+10 urrence polity passport
+11 avir gada flirt
+12 ierend cohes olev
+13 oria valamint writers
+14 parsed params sentire
+15 voegd yn reset
+16 firebase lactate thanh
+17 henyl apply sadece
+18 beding broy tertentu
+19 orka allowed gir
+20 mouse bon marches
+21 arca manufact olan
+22 gne microm passou
+23 blogs hunter moments
+24 npm foam alle
+25 opup sober adoption
+26 ppo tradic vulner
+27 ename kies pomer
+28 esome vorbe kej
+29 iedz novelty abil
+30 otted locale narc
+31 lop electron focusing
+32 article mehreren opportun
+33 ggel aast mot
+34 ankan enga solista
+35 goto suscept genome
+36 onomic schn volc
+37 olit origins pisc
+38 roots europeos strands
+39 amily canton desa
+40 nikov covered hi
+41 otus formal blink
+42 gruppe skept enh
+43 ridine pane spomen
+44 igur relie tono
+45 ieht doctrina vojska
+46 unset turns isso
+47 ichy eingeg machen
+48 iamine bal okolic
+49 bul riot recrut
+50 ochond meses kung
+51 kot rotary superim
+52 ks hoje demain
+53 ington centred dissim
+54 urnal southern avuto
+55 phins gag birinchi
+56 emeni armor mellem
+57 alari flee metres
+58 char scanner sku
+59 oning bind sman
+60 jed enviar vencer
+61 areness precipit gotten
+62 pleted junio rom
+63 har goodness pla
+64 tbody tl peeled
+65 ships shiny workers
+66 astian grinder jener
+67 usan grupa resonant
+68 anes bikes andra
+69 via optics negra
+70 ja vere roi
+71 istes pianist nozzles
+72 oad perme pago
+73 gallery flashes absolv
+74 cluding fortific cielo
+75 ophe sentido pushes
+76 memor vn config
+77 shadow propre tritur
+78 ionat embark linked
+79 valid memen autoph
+80 quete perten perm
+81 rossover raped ponad
+82 lla conflits closure
+83 modern brillant nella
+84 is maja metr
+85 idou broj wiel
+86 jez trovato geleg
+87 nesday convex ailes
+88 oder rez multidis
+89 ulations defensa alcance
+90 ong subs njegove
+91 app buyer door
+92 estas spaced limited
+93 zonder cation tubo
+94 ibor knih epo
+95 anat endured anx
+96 aktor rf afet
+97 iotic fogo edil
+98 irr paradox stava
+99 volta lyn exempl
+[completion]
+00 aven dart riz -> –a–v–e–n–d–a–r–t–r–i–z–
+01 single sahiptir neige -> –s–i–n–g–l–e–s–a–h–i–p–t–i–r–n–e–i–g–e–
+02 gestellt liquor biasa -> –g–e–s–t–e–l–l–t–l–i–q–u–o–r–b–i–a–s–a–
+03 ross alent another -> –r–o–s–s–a–l–e–n–t–a–n–o–t–h–e–r–
+04 onders descub circuits -> –o–n–d–e–r–s–d–e–s–c–u–b–c–i–r–c–u–i–t–s–
+05 icolo sian tandem -> –i–c–o–l–o–s–i–a–n–t–a–n–d–e–m–
+06 zip boot pthread -> –z–i–p–b–o–o–t–p–t–h–r–e–a–d–
+07 find clade respons -> –f–i–n–d–c–l–a–d–e–r–e–s–p–o–n–s–
+08 arez demandes bile -> –a–r–e–z–d–e–m–a–n–d–e–s–b–i–l–e–
+09 physics booth time -> –p–h–y–s–i–c–s–b–o–o–t–h–t–i–m–e–
+10 urrence polity passport -> –u–r–r–e–n–c–e–p–o–l–i–t–y–p–a–s–s–p–o–r–t–
+11 avir gada flirt -> –a–v–i–r–g–a–d–a–f–l–i–r–t–
+12 ierend cohes olev -> –i–e–r–e–n–d–c–o–h–e–s–o–l–e–v–
+13 oria valamint writers -> –o–r–i–a–v–a–l–a–m–i–n–t–w–r–i–t–e–r–s–
+14 parsed params sentire -> –p–a–r–s–e–d–p–a–r–a–m–s–s–e–n–t–i–r–e–
+15 voegd yn reset -> –v–o–e–g–d–y–n–r–e–s–e–t–
+16 firebase lactate thanh -> –f–i–r–e–b–a–s–e–l–a–c–t–a–t–e–t–h–a–n–h–
+17 henyl apply sadece -> –h–e–n–y–l–a–p–p–l–y–s–a–d–e–c–e–
+18 beding broy tertentu -> –b–e–d–i–n–g–b–r–o–y–t–e–r–t–e–n–t–u–
+19 orka allowed gir -> –o–r–k–a–a–l–l–o–w–e–d–g–i–r–
+20 mouse bon marches -> –m–o–u–s–e–b–o–n–m–a–r–c–h–e–s–
+21 arca manufact olan -> –a–r–c–a–m–a–n–u–f–a–c–t–o–l–a–n–
+22 gne microm passou -> –g–n–e–m–i–c–r–o–m–p–a–s–s–o–u–
+23 blogs hunter moments -> –b–l–o–g–s–h–u–n–t–e–r–m–o–m–e–n–t–s–
+24 npm foam alle -> –n–p–m–f–o–a–m–a–l–l–e–
+25 opup sober adoption -> –o–p–u–p–s–o–b–e–r–a–d–o–p–t–i–o–n–
+26 ppo tradic vulner -> –p–p–o–t–r–a–d–i–c–v–u–l–n–e–r–
+27 ename kies pomer -> –e–n–a–m–e–k–i–e–s–p–o–m–e–r–
+28 esome vorbe kej -> –e–s–o–m–e–v–o–r–b–e–k–e–j–
+29 iedz novelty abil -> –i–e–d–z–n–o–v–e–l–t–y–a–b–i–l–
+30 otted locale narc -> –o–t–t–e–d–l–o–c–a–l–e–n–a–r–c–
+31 lop electron focusing -> –l–o–p–e–l–e–c–t–r–o–n–f–o–c–u–s–i–n–g–
+32 article mehreren opportun -> –a–r–t–i–c–l–e–m–e–h–r–e–r–e–n–o–p–p–o–r–t–u–n–
+33 ggel aast mot -> –g–g–e–l–a–a–s–t–m–o–t–
+34 ankan enga solista -> –a–n–k–a–n–e–n–g–a–s–o–l–i–s–t–a–
+35 goto suscept genome -> –g–o–t–o–s–u–s–c–e–p–t–g–e–n–o–m–e–
+36 onomic schn volc -> –o–n–o–m–i–c–s–c–h–n–v–o–l–c–
+37 olit origins pisc -> –o–l–i–t–o–r–i–g–i–n–s–p–i–s–c–
+38 roots europeos strands -> –r–o–o–t–s–e–u–r–o–p–e–o–s–s–t–r–a–n–d–s–
+39 amily canton desa -> –a–m–i–l–y–c–a–n–t–o–n–d–e–s–a–
+40 nikov covered hi -> –n–i–k–o–v–c–o–v–e–r–e–d–h–i–
+41 otus formal blink -> –o–t–u–s–f–o–r–m–a–l–b–l–i–n–k–
+42 gruppe skept enh -> –g–r–u–p–p–e–s–k–e–p–t–e–n–h–
+43 ridine pane spomen -> –r–i–d–i–n–e–p–a–n–e–s–p–o–m–e–n–
+44 igur relie tono -> –i–g–u–r–r–e–l–i–e–t–o–n–o–
+45 ieht doctrina vojska -> –i–e–h–t–d–o–c–t–r–i–n–a–v–o–j–s–k–a–
+46 unset turns isso -> –u–n–s–e–t–t–u–r–n–s–i–s–s–o–
+47 ichy eingeg machen -> –i–c–h–y–e–i–n–g–e–g–m–a–c–h–e–n–
+48 iamine bal okolic -> –i–a–m–i–n–e–b–a–l–o–k–o–l–i–c–
+49 bul riot recrut -> –b–u–l–r–i–o–t–r–e–c–r–u–t–
+50 ochond meses kung -> –o–c–h–o–n–d–m–e–s–e–s–k–u–n–g–
+51 kot rotary superim -> –k–o–t–r–o–t–a–r–y–s–u–p–e–r–i–m–
+52 ks hoje demain -> –k–s–h–o–j–e–d–e–m–a–i–n–
+53 ington centred dissim -> –i–n–g–t–o–n–c–e–n–t–r–e–d–d–i–s–s–i–m–
+54 urnal southern avuto -> –u–r–n–a–l–s–o–u–t–h–e–r–n–a–v–u–t–o–
+55 phins gag birinchi -> –p–h–i–n–s–g–a–g–b–i–r–i–n–c–h–i–
+56 emeni armor mellem -> –e–m–e–n–i–a–r–m–o–r–m–e–l–l–e–m–
+57 alari flee metres -> –a–l–a–r–i–f–l–e–e–m–e–t–r–e–s–
+58 char scanner sku -> –c–h–a–r–s–c–a–n–n–e–r–s–k–u–
+59 oning bind sman -> –o–n–i–n–g–b–i–n–d–s–m–a–n–
+60 jed enviar vencer -> –j–e–d–e–n–v–i–a–r–v–e–n–c–e–r–
+61 areness precipit gotten -> –a–r–e–n–e–s–s–p–r–e–c–i–p–i–t–g–o–t–t–e–n–
+62 pleted junio rom -> –p–l–e–t–e–d–j–u–n–i–o–r–o–m–
+63 har goodness pla -> –h–a–r–g–o–o–d–n–e–s–s–p–l–a–
+64 tbody tl peeled -> –t–b–o–d–y–t–l–p–e–e–l–e–d–
+65 ships shiny workers -> –s–h–i–p–s–s–h–i–n–y–w–o–r–k–e–r–s–
+66 astian grinder jener -> –a–s–t–i–a–n–g–r–i–n–d–e–r–j–e–n–e–r–
+67 usan grupa resonant -> –u–s–a–n–g–r–u–p–a–r–e–s–o–n–a–n–t–
+68 anes bikes andra -> –a–n–e–s–b–i–k–e–s–a–n–d–r–a–
+69 via optics negra -> –v–i–a–o–p–t–i–c–s–n–e–g–r–a–
+70 ja vere roi -> –j–a–v–e–r–e–r–o–i–
+71 istes pianist nozzles -> –i–s–t–e–s–p–i–a–n–i–s–t–n–o–z–z–l–e–s–
+72 oad perme pago -> –o–a–d–p–e–r–m–e–p–a–g–o–
+73 gallery flashes absolv -> –g–a–l–l–e–r–y–f–l–a–s–h–e–s–a–b–s–o–l–v–
+74 cluding fortific cielo -> –c–l–u–d–i–n–g–f–o–r–t–i–f–i–c–c–i–e–l–o–
+75 ophe sentido pushes -> –o–p–h–e–s–e–n–t–i–d–o–p–u–s–h–e–s–
+76 memor vn config -> –m–e–m–o–r–v–n–c–o–n–f–i–g–
+77 shadow propre tritur -> –s–h–a–d–o–w–p–r–o–p–r–e–t–r–i–t–u–r–
+78 ionat embark linked -> –i–o–n–a–t–e–m–b–a–r–k–l–i–n–k–e–d–
+79 valid memen autoph -> –v–a–l–i–d–m–e–m–e–n–a–u–t–o–p–h–
+80 quete perten perm -> –q–u–e–t–e–p–e–r–t–e–n–p–e–r–m–
+81 rossover raped ponad -> –r–o–s–s–o–v–e–r–r–a–p–e–d–p–o–n–a–d–
+82 lla conflits closure -> –l–l–a–c–o–n–f–l–i–t–s–c–l–o–s–u–r–e–
+83 modern brillant nella -> –m–o–d–e–r–n–b–r–i–l–l–a–n–t–n–e–l–l–a–
+84 is maja metr -> –i–s–m–a–j–a–m–e–t–r–
+85 idou broj wiel -> –i–d–o–u–b–r–o–j–w–i–e–l–
+86 jez trovato geleg -> –j–e–z–t–r–o–v–a–t–o–g–e–l–e–g–
+87 nesday convex ailes -> –n–e–s–d–a–y–c–o–n–v–e–x–a–i–l–e–s–
+88 oder rez multidis -> –o–d–e–r–r–e–z–m–u–l–t–i–d–i–s–
+89 ulations defensa alcance -> –u–l–a–t–i–o–n–s–d–e–f–e–n–s–a–a–l–c–a–n–c–e–
+90 ong subs njegove -> –o–n–g–s–u–b–s–n–j–e–g–o–v–e–
+91 app buyer door -> –a–p–p–b–u–y–e–r–d–o–o–r–
+92 estas spaced limited -> –e–s–t–a–s–s–p–a–c–e–d–l–i–m–i–t–e–d–
+93 zonder cation tubo -> –z–o–n–d–e–r–c–a–t–i–o–n–t–u–b–o–
+94 ibor knih epo -> –i–b–o–r–k–n–i–h–e–p–o–
+95 anat endured anx -> –a–n–a–t–e–n–d–u–r–e–d–a–n–x–
+96 aktor rf afet -> –a–k–t–o–r–r–f–a–f–e–t–
+97 iotic fogo edil -> –i–o–t–i–c–f–o–g–o–e–d–i–l–
+98 irr paradox stava -> –i–r–r–p–a–r–a–d–o–x–s–t–a–v–a–
+99 volta lyn exempl -> –v–o–l–t–a–l–y–n–e–x–e–m–p–l–

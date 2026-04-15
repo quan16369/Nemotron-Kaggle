@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 inspace addr hyvin
+01 uters taip paral
+02 rina advent oncology
+
+This is a sample output.
+00 inspace addr hyvin -> –i–n–s–p–a–c–e–a–d–d–r–h–y–v–i–n–
+01 uters taip paral -> –u–t–e–r–s–t–a–i–p–p–a–r–a–l–
+02 rina advent oncology -> –r–i–n–a–a–d–v–e–n–t–o–n–c–o–l–o–g–y–
+
+This is your input.
+00 ctype kah sinks
+01 sto voies moc
+02 ricts carne davlat
+03 iyy allergic adult
+04 lerinde ignores totals
+05 atal bip titer
+06 angu yr blanket
+07 cesse changer merkez
+08 onate reloj suffix
+09 ashboard taper eleito
+10 ffix publish sait
+11 ambio verdi und
+12 channel toimi oto
+13 acute puntata duch
+14 awah venait cae
+15 elmi horiek resumed
+16 omorphic paese hoofd
+17 ispanic agenda nausea
+18 little blankets sconf
+19 ituitary specific gleich
+20 ystall threw wis
+21 akov urllib mindset
+22 trin beings contag
+23 orro salaire stro
+24 sche zur quell
+25 irea tashkil stark
+26 delegate ontstaan kam
+27 learning deeply mida
+28 rollers prest muzik
+29 odef spill former
+30 readonly silic gesch
+31 mid dedic gana
+32 guide gede lokaku
+33 uniform boiling bulun
+34 adece dallo imperial
+35 tak erfolgen tournant
+36 iziner enpresak woj
+37 fib typical aspirin
+38 anggap certa apert
+39 iem analyst attende
+40 itura precede ferry
+41 elia results khusus
+42 aging policing comput
+43 jorde perfect eax
+44 akei zile guys
+45 orne sott stint
+46 ogether dachte klass
+47 inflate pouvez nyt
+48 arg both vzt
+49 itosan szerk fps
+50 ritter general souriant
+51 mnt pizza sonar
+52 ienna plomb szezon
+53 otrophic suture piezas
+54 com occupied recopil
+55 idopsis shy effects
+56 alas rotates revenue
+57 nation greeted puerta
+58 ologija circonst details
+59 esz trains senador
+60 irical hatch dey
+61 aran mess further
+62 gye adhesive diz
+63 ocy notor respir
+64 arnas demand insurg
+65 ample bear sobren
+66 nder notable apo
+67 raft rud detta
+68 goal esperar plan
+69 hren beats pudieron
+70 aturas many elektri
+71 vira clazz pupil
+72 idosis empl anderem
+73 ablement olun envy
+74 reet hvor apareceu
+75 answers share gato
+76 ighton feeder zp
+77 weapon nahmen stay
+78 iszter invite choir
+79 iv nascita cert
+80 ablo thankful room
+81 ienza giri conoce
+82 ure invoke voters
+83 bol jolloin entrou
+84 ented nod scandal
+85 umba grounds mudar
+86 aku peg pitchers
+87 aban brother reforms
+88 bla jedes asem
+89 weiht attacked idx
+90 trieben aumento batalion
+91 start monetary replic
+92 oltre seule onclick
+93 maq honestly pair
+94 oyal chatting livres
+95 ajos campi halluc
+96 rated tilted inex
+97 enerator security gray
+98 initely destek defect
+99 atakan someday heroin
+[completion]
+00 ctype kah sinks -> –c–t–y–p–e–k–a–h–s–i–n–k–s–
+01 sto voies moc -> –s–t–o–v–o–i–e–s–m–o–c–
+02 ricts carne davlat -> –r–i–c–t–s–c–a–r–n–e–d–a–v–l–a–t–
+03 iyy allergic adult -> –i–y–y–a–l–l–e–r–g–i–c–a–d–u–l–t–
+04 lerinde ignores totals -> –l–e–r–i–n–d–e–i–g–n–o–r–e–s–t–o–t–a–l–s–
+05 atal bip titer -> –a–t–a–l–b–i–p–t–i–t–e–r–
+06 angu yr blanket -> –a–n–g–u–y–r–b–l–a–n–k–e–t–
+07 cesse changer merkez -> –c–e–s–s–e–c–h–a–n–g–e–r–m–e–r–k–e–z–
+08 onate reloj suffix -> –o–n–a–t–e–r–e–l–o–j–s–u–f–f–i–x–
+09 ashboard taper eleito -> –a–s–h–b–o–a–r–d–t–a–p–e–r–e–l–e–i–t–o–
+10 ffix publish sait -> –f–f–i–x–p–u–b–l–i–s–h–s–a–i–t–
+11 ambio verdi und -> –a–m–b–i–o–v–e–r–d–i–u–n–d–
+12 channel toimi oto -> –c–h–a–n–n–e–l–t–o–i–m–i–o–t–o–
+13 acute puntata duch -> –a–c–u–t–e–p–u–n–t–a–t–a–d–u–c–h–
+14 awah venait cae -> –a–w–a–h–v–e–n–a–i–t–c–a–e–
+15 elmi horiek resumed -> –e–l–m–i–h–o–r–i–e–k–r–e–s–u–m–e–d–
+16 omorphic paese hoofd -> –o–m–o–r–p–h–i–c–p–a–e–s–e–h–o–o–f–d–
+17 ispanic agenda nausea -> –i–s–p–a–n–i–c–a–g–e–n–d–a–n–a–u–s–e–a–
+18 little blankets sconf -> –l–i–t–t–l–e–b–l–a–n–k–e–t–s–s–c–o–n–f–
+19 ituitary specific gleich -> –i–t–u–i–t–a–r–y–s–p–e–c–i–f–i–c–g–l–e–i–c–h–
+20 ystall threw wis -> –y–s–t–a–l–l–t–h–r–e–w–w–i–s–
+21 akov urllib mindset -> –a–k–o–v–u–r–l–l–i–b–m–i–n–d–s–e–t–
+22 trin beings contag -> –t–r–i–n–b–e–i–n–g–s–c–o–n–t–a–g–
+23 orro salaire stro -> –o–r–r–o–s–a–l–a–i–r–e–s–t–r–o–
+24 sche zur quell -> –s–c–h–e–z–u–r–q–u–e–l–l–
+25 irea tashkil stark -> –i–r–e–a–t–a–s–h–k–i–l–s–t–a–r–k–
+26 delegate ontstaan kam -> –d–e–l–e–g–a–t–e–o–n–t–s–t–a–a–n–k–a–m–
+27 learning deeply mida -> –l–e–a–r–n–i–n–g–d–e–e–p–l–y–m–i–d–a–
+28 rollers prest muzik -> –r–o–l–l–e–r–s–p–r–e–s–t–m–u–z–i–k–
+29 odef spill former -> –o–d–e–f–s–p–i–l–l–f–o–r–m–e–r–
+30 readonly silic gesch -> –r–e–a–d–o–n–l–y–s–i–l–i–c–g–e–s–c–h–
+31 mid dedic gana -> –m–i–d–d–e–d–i–c–g–a–n–a–
+32 guide gede lokaku -> –g–u–i–d–e–g–e–d–e–l–o–k–a–k–u–
+33 uniform boiling bulun -> –u–n–i–f–o–r–m–b–o–i–l–i–n–g–b–u–l–u–n–
+34 adece dallo imperial -> –a–d–e–c–e–d–a–l–l–o–i–m–p–e–r–i–a–l–
+35 tak erfolgen tournant -> –t–a–k–e–r–f–o–l–g–e–n–t–o–u–r–n–a–n–t–
+36 iziner enpresak woj -> –i–z–i–n–e–r–e–n–p–r–e–s–a–k–w–o–j–
+37 fib typical aspirin -> –f–i–b–t–y–p–i–c–a–l–a–s–p–i–r–i–n–
+38 anggap certa apert -> –a–n–g–g–a–p–c–e–r–t–a–a–p–e–r–t–
+39 iem analyst attende -> –i–e–m–a–n–a–l–y–s–t–a–t–t–e–n–d–e–
+40 itura precede ferry -> –i–t–u–r–a–p–r–e–c–e–d–e–f–e–r–r–y–
+41 elia results khusus -> –e–l–i–a–r–e–s–u–l–t–s–k–h–u–s–u–s–
+42 aging policing comput -> –a–g–i–n–g–p–o–l–i–c–i–n–g–c–o–m–p–u–t–
+43 jorde perfect eax -> –j–o–r–d–e–p–e–r–f–e–c–t–e–a–x–
+44 akei zile guys -> –a–k–e–i–z–i–l–e–g–u–y–s–
+45 orne sott stint -> –o–r–n–e–s–o–t–t–s–t–i–n–t–
+46 ogether dachte klass -> –o–g–e–t–h–e–r–d–a–c–h–t–e–k–l–a–s–s–
+47 inflate pouvez nyt -> –i–n–f–l–a–t–e–p–o–u–v–e–z–n–y–t–
+48 arg both vzt -> –a–r–g–b–o–t–h–v–z–t–
+49 itosan szerk fps -> –i–t–o–s–a–n–s–z–e–r–k–f–p–s–
+50 ritter general souriant -> –r–i–t–t–e–r–g–e–n–e–r–a–l–s–o–u–r–i–a–n–t–
+51 mnt pizza sonar -> –m–n–t–p–i–z–z–a–s–o–n–a–r–
+52 ienna plomb szezon -> –i–e–n–n–a–p–l–o–m–b–s–z–e–z–o–n–
+53 otrophic suture piezas -> –o–t–r–o–p–h–i–c–s–u–t–u–r–e–p–i–e–z–a–s–
+54 com occupied recopil -> –c–o–m–o–c–c–u–p–i–e–d–r–e–c–o–p–i–l–
+55 idopsis shy effects -> –i–d–o–p–s–i–s–s–h–y–e–f–f–e–c–t–s–
+56 alas rotates revenue -> –a–l–a–s–r–o–t–a–t–e–s–r–e–v–e–n–u–e–
+57 nation greeted puerta -> –n–a–t–i–o–n–g–r–e–e–t–e–d–p–u–e–r–t–a–
+58 ologija circonst details -> –o–l–o–g–i–j–a–c–i–r–c–o–n–s–t–d–e–t–a–i–l–s–
+59 esz trains senador -> –e–s–z–t–r–a–i–n–s–s–e–n–a–d–o–r–
+60 irical hatch dey -> –i–r–i–c–a–l–h–a–t–c–h–d–e–y–
+61 aran mess further -> –a–r–a–n–m–e–s–s–f–u–r–t–h–e–r–
+62 gye adhesive diz -> –g–y–e–a–d–h–e–s–i–v–e–d–i–z–
+63 ocy notor respir -> –o–c–y–n–o–t–o–r–r–e–s–p–i–r–
+64 arnas demand insurg -> –a–r–n–a–s–d–e–m–a–n–d–i–n–s–u–r–g–
+65 ample bear sobren -> –a–m–p–l–e–b–e–a–r–s–o–b–r–e–n–
+66 nder notable apo -> –n–d–e–r–n–o–t–a–b–l–e–a–p–o–
+67 raft rud detta -> –r–a–f–t–r–u–d–d–e–t–t–a–
+68 goal esperar plan -> –g–o–a–l–e–s–p–e–r–a–r–p–l–a–n–
+69 hren beats pudieron -> –h–r–e–n–b–e–a–t–s–p–u–d–i–e–r–o–n–
+70 aturas many elektri -> –a–t–u–r–a–s–m–a–n–y–e–l–e–k–t–r–i–
+71 vira clazz pupil -> –v–i–r–a–c–l–a–z–z–p–u–p–i–l–
+72 idosis empl anderem -> –i–d–o–s–i–s–e–m–p–l–a–n–d–e–r–e–m–
+73 ablement olun envy -> –a–b–l–e–m–e–n–t–o–l–u–n–e–n–v–y–
+74 reet hvor apareceu -> –r–e–e–t–h–v–o–r–a–p–a–r–e–c–e–u–
+75 answers share gato -> –a–n–s–w–e–r–s–s–h–a–r–e–g–a–t–o–
+76 ighton feeder zp -> –i–g–h–t–o–n–f–e–e–d–e–r–z–p–
+77 weapon nahmen stay -> –w–e–a–p–o–n–n–a–h–m–e–n–s–t–a–y–
+78 iszter invite choir -> –i–s–z–t–e–r–i–n–v–i–t–e–c–h–o–i–r–
+79 iv nascita cert -> –i–v–n–a–s–c–i–t–a–c–e–r–t–
+80 ablo thankful room -> –a–b–l–o–t–h–a–n–k–f–u–l–r–o–o–m–
+81 ienza giri conoce -> –i–e–n–z–a–g–i–r–i–c–o–n–o–c–e–
+82 ure invoke voters -> –u–r–e–i–n–v–o–k–e–v–o–t–e–r–s–
+83 bol jolloin entrou -> –b–o–l–j–o–l–l–o–i–n–e–n–t–r–o–u–
+84 ented nod scandal -> –e–n–t–e–d–n–o–d–s–c–a–n–d–a–l–
+85 umba grounds mudar -> –u–m–b–a–g–r–o–u–n–d–s–m–u–d–a–r–
+86 aku peg pitchers -> –a–k–u–p–e–g–p–i–t–c–h–e–r–s–
+87 aban brother reforms -> –a–b–a–n–b–r–o–t–h–e–r–r–e–f–o–r–m–s–
+88 bla jedes asem -> –b–l–a–j–e–d–e–s–a–s–e–m–
+89 weiht attacked idx -> –w–e–i–h–t–a–t–t–a–c–k–e–d–i–d–x–
+90 trieben aumento batalion -> –t–r–i–e–b–e–n–a–u–m–e–n–t–o–b–a–t–a–l–i–o–n–
+91 start monetary replic -> –s–t–a–r–t–m–o–n–e–t–a–r–y–r–e–p–l–i–c–
+92 oltre seule onclick -> –o–l–t–r–e–s–e–u–l–e–o–n–c–l–i–c–k–
+93 maq honestly pair -> –m–a–q–h–o–n–e–s–t–l–y–p–a–i–r–
+94 oyal chatting livres -> –o–y–a–l–c–h–a–t–t–i–n–g–l–i–v–r–e–s–
+95 ajos campi halluc -> –a–j–o–s–c–a–m–p–i–h–a–l–l–u–c–
+96 rated tilted inex -> –r–a–t–e–d–t–i–l–t–e–d–i–n–e–x–
+97 enerator security gray -> –e–n–e–r–a–t–o–r–s–e–c–u–r–i–t–y–g–r–a–y–
+98 initely destek defect -> –i–n–i–t–e–l–y–d–e–s–t–e–k–d–e–f–e–c–t–
+99 atakan someday heroin -> –a–t–a–k–a–n–s–o–m–e–d–a–y–h–e–r–o–i–n–

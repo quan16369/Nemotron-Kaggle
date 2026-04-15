@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 ythe zmar witch
+01 overty href ebbe
+02 idamente conclut harmonic
+
+This is a sample output.
+00 ythe zmar witch -> –y–t–h–e–z–m–a–r–w–i–t–c–h–
+01 overty href ebbe -> –o–v–e–r–t–y–h–r–e–f–e–b–b–e–
+02 idamente conclut harmonic -> –i–d–a–m–e–n–t–e–c–o–n–c–l–u–t–h–a–r–m–o–n–i–c–
+
+This is your input.
+00 yak ibil franca
+01 ehicle mekan kings
+02 allocate hug legend
+03 usso megal colabor
+04 ovaly centers suprim
+05 tmp sacks finding
+06 hens comienzo kau
+07 sections nazw codec
+08 fels chegada noir
+09 ages issuing embryo
+10 rip dyn attended
+11 urra chap posit
+12 review pelas cerebral
+13 quin pres insulin
+14 iar eingesch gebe
+15 numero wys circ
+16 ikk dhe chose
+17 othe pu mena
+18 money olmay proper
+19 geal singel dc
+20 udella masih spread
+21 entat leased wiring
+22 antino kisses stares
+23 ellten parle rurales
+24 emberg skip cargos
+25 osity bounding lao
+26 naud instanti tema
+27 ieurs shot pausa
+28 reis mam cancer
+29 covery an ron
+30 itectura mirar werk
+31 stock busca analges
+32 aw ranch tent
+33 place adhes derniers
+34 ruppe comorbid alters
+35 ificate tribus terme
+36 argas overload terra
+37 enness cil missions
+38 ifiers aufgeh afast
+39 ticket parench presume
+40 oster interpr scout
+41 obody adott sle
+42 arded formulae tornar
+43 verde erh gay
+44 popup fix verhaal
+45 birds tvar lire
+46 ietan mairie pobo
+47 estyle cultura massac
+48 inama my cleft
+49 nelly tub cue
+50 ram errno ruines
+51 jednoc illet belir
+52 olation szint modify
+53 iers akkor kas
+54 amedi vreme stri
+55 rocal plenty leer
+56 ograp rada omitted
+57 speaker cats vieron
+58 geo votos koos
+59 zuge verde lle
+60 leistung tho zumeist
+61 sets placed enca
+62 stod familial gou
+63 urbo kron orde
+64 feller troops perc
+65 among deuter dissol
+66 oxys emport clans
+67 roid rivalry dikt
+68 ectin vezet odd
+69 atu ammon striking
+70 rhs felf largest
+71 ind ded tril
+72 spot mean acess
+73 gorithms estan ild
+74 ocia punten percor
+75 orria svoj lignin
+76 meye cinco adding
+77 opping priced fung
+78 face glyph secre
+79 rectomy ov desktop
+80 verify pristine oficial
+81 otor magazine ajouter
+82 unused indeterm waardoor
+83 mal decides initiale
+84 teren happens east
+85 dist granic ilha
+86 ifiziert judicia servizi
+87 arra imediat spars
+88 macro command nii
+89 vation br parlare
+90 roz optimize cint
+91 partment integral tuo
+92 mc blanc remar
+93 ouden deserves mastery
+94 oons simpler magia
+95 bres akhirnya cy
+96 hol wprowad boots
+97 iris veo persists
+98 non movable rpm
+99 arters gymnast herv
+[completion]
+00 yak ibil franca -> –y–a–k–i–b–i–l–f–r–a–n–c–a–
+01 ehicle mekan kings -> –e–h–i–c–l–e–m–e–k–a–n–k–i–n–g–s–
+02 allocate hug legend -> –a–l–l–o–c–a–t–e–h–u–g–l–e–g–e–n–d–
+03 usso megal colabor -> –u–s–s–o–m–e–g–a–l–c–o–l–a–b–o–r–
+04 ovaly centers suprim -> –o–v–a–l–y–c–e–n–t–e–r–s–s–u–p–r–i–m–
+05 tmp sacks finding -> –t–m–p–s–a–c–k–s–f–i–n–d–i–n–g–
+06 hens comienzo kau -> –h–e–n–s–c–o–m–i–e–n–z–o–k–a–u–
+07 sections nazw codec -> –s–e–c–t–i–o–n–s–n–a–z–w–c–o–d–e–c–
+08 fels chegada noir -> –f–e–l–s–c–h–e–g–a–d–a–n–o–i–r–
+09 ages issuing embryo -> –a–g–e–s–i–s–s–u–i–n–g–e–m–b–r–y–o–
+10 rip dyn attended -> –r–i–p–d–y–n–a–t–t–e–n–d–e–d–
+11 urra chap posit -> –u–r–r–a–c–h–a–p–p–o–s–i–t–
+12 review pelas cerebral -> –r–e–v–i–e–w–p–e–l–a–s–c–e–r–e–b–r–a–l–
+13 quin pres insulin -> –q–u–i–n–p–r–e–s–i–n–s–u–l–i–n–
+14 iar eingesch gebe -> –i–a–r–e–i–n–g–e–s–c–h–g–e–b–e–
+15 numero wys circ -> –n–u–m–e–r–o–w–y–s–c–i–r–c–
+16 ikk dhe chose -> –i–k–k–d–h–e–c–h–o–s–e–
+17 othe pu mena -> –o–t–h–e–p–u–m–e–n–a–
+18 money olmay proper -> –m–o–n–e–y–o–l–m–a–y–p–r–o–p–e–r–
+19 geal singel dc -> –g–e–a–l–s–i–n–g–e–l–d–c–
+20 udella masih spread -> –u–d–e–l–l–a–m–a–s–i–h–s–p–r–e–a–d–
+21 entat leased wiring -> –e–n–t–a–t–l–e–a–s–e–d–w–i–r–i–n–g–
+22 antino kisses stares -> –a–n–t–i–n–o–k–i–s–s–e–s–s–t–a–r–e–s–
+23 ellten parle rurales -> –e–l–l–t–e–n–p–a–r–l–e–r–u–r–a–l–e–s–
+24 emberg skip cargos -> –e–m–b–e–r–g–s–k–i–p–c–a–r–g–o–s–
+25 osity bounding lao -> –o–s–i–t–y–b–o–u–n–d–i–n–g–l–a–o–
+26 naud instanti tema -> –n–a–u–d–i–n–s–t–a–n–t–i–t–e–m–a–
+27 ieurs shot pausa -> –i–e–u–r–s–s–h–o–t–p–a–u–s–a–
+28 reis mam cancer -> –r–e–i–s–m–a–m–c–a–n–c–e–r–
+29 covery an ron -> –c–o–v–e–r–y–a–n–r–o–n–
+30 itectura mirar werk -> –i–t–e–c–t–u–r–a–m–i–r–a–r–w–e–r–k–
+31 stock busca analges -> –s–t–o–c–k–b–u–s–c–a–a–n–a–l–g–e–s–
+32 aw ranch tent -> –a–w–r–a–n–c–h–t–e–n–t–
+33 place adhes derniers -> –p–l–a–c–e–a–d–h–e–s–d–e–r–n–i–e–r–s–
+34 ruppe comorbid alters -> –r–u–p–p–e–c–o–m–o–r–b–i–d–a–l–t–e–r–s–
+35 ificate tribus terme -> –i–f–i–c–a–t–e–t–r–i–b–u–s–t–e–r–m–e–
+36 argas overload terra -> –a–r–g–a–s–o–v–e–r–l–o–a–d–t–e–r–r–a–
+37 enness cil missions -> –e–n–n–e–s–s–c–i–l–m–i–s–s–i–o–n–s–
+38 ifiers aufgeh afast -> –i–f–i–e–r–s–a–u–f–g–e–h–a–f–a–s–t–
+39 ticket parench presume -> –t–i–c–k–e–t–p–a–r–e–n–c–h–p–r–e–s–u–m–e–
+40 oster interpr scout -> –o–s–t–e–r–i–n–t–e–r–p–r–s–c–o–u–t–
+41 obody adott sle -> –o–b–o–d–y–a–d–o–t–t–s–l–e–
+42 arded formulae tornar -> –a–r–d–e–d–f–o–r–m–u–l–a–e–t–o–r–n–a–r–
+43 verde erh gay -> –v–e–r–d–e–e–r–h–g–a–y–
+44 popup fix verhaal -> –p–o–p–u–p–f–i–x–v–e–r–h–a–a–l–
+45 birds tvar lire -> –b–i–r–d–s–t–v–a–r–l–i–r–e–
+46 ietan mairie pobo -> –i–e–t–a–n–m–a–i–r–i–e–p–o–b–o–
+47 estyle cultura massac -> –e–s–t–y–l–e–c–u–l–t–u–r–a–m–a–s–s–a–c–
+48 inama my cleft -> –i–n–a–m–a–m–y–c–l–e–f–t–
+49 nelly tub cue -> –n–e–l–l–y–t–u–b–c–u–e–
+50 ram errno ruines -> –r–a–m–e–r–r–n–o–r–u–i–n–e–s–
+51 jednoc illet belir -> –j–e–d–n–o–c–i–l–l–e–t–b–e–l–i–r–
+52 olation szint modify -> –o–l–a–t–i–o–n–s–z–i–n–t–m–o–d–i–f–y–
+53 iers akkor kas -> –i–e–r–s–a–k–k–o–r–k–a–s–
+54 amedi vreme stri -> –a–m–e–d–i–v–r–e–m–e–s–t–r–i–
+55 rocal plenty leer -> –r–o–c–a–l–p–l–e–n–t–y–l–e–e–r–
+56 ograp rada omitted -> –o–g–r–a–p–r–a–d–a–o–m–i–t–t–e–d–
+57 speaker cats vieron -> –s–p–e–a–k–e–r–c–a–t–s–v–i–e–r–o–n–
+58 geo votos koos -> –g–e–o–v–o–t–o–s–k–o–o–s–
+59 zuge verde lle -> –z–u–g–e–v–e–r–d–e–l–l–e–
+60 leistung tho zumeist -> –l–e–i–s–t–u–n–g–t–h–o–z–u–m–e–i–s–t–
+61 sets placed enca -> –s–e–t–s–p–l–a–c–e–d–e–n–c–a–
+62 stod familial gou -> –s–t–o–d–f–a–m–i–l–i–a–l–g–o–u–
+63 urbo kron orde -> –u–r–b–o–k–r–o–n–o–r–d–e–
+64 feller troops perc -> –f–e–l–l–e–r–t–r–o–o–p–s–p–e–r–c–
+65 among deuter dissol -> –a–m–o–n–g–d–e–u–t–e–r–d–i–s–s–o–l–
+66 oxys emport clans -> –o–x–y–s–e–m–p–o–r–t–c–l–a–n–s–
+67 roid rivalry dikt -> –r–o–i–d–r–i–v–a–l–r–y–d–i–k–t–
+68 ectin vezet odd -> –e–c–t–i–n–v–e–z–e–t–o–d–d–
+69 atu ammon striking -> –a–t–u–a–m–m–o–n–s–t–r–i–k–i–n–g–
+70 rhs felf largest -> –r–h–s–f–e–l–f–l–a–r–g–e–s–t–
+71 ind ded tril -> –i–n–d–d–e–d–t–r–i–l–
+72 spot mean acess -> –s–p–o–t–m–e–a–n–a–c–e–s–s–
+73 gorithms estan ild -> –g–o–r–i–t–h–m–s–e–s–t–a–n–i–l–d–
+74 ocia punten percor -> –o–c–i–a–p–u–n–t–e–n–p–e–r–c–o–r–
+75 orria svoj lignin -> –o–r–r–i–a–s–v–o–j–l–i–g–n–i–n–
+76 meye cinco adding -> –m–e–y–e–c–i–n–c–o–a–d–d–i–n–g–
+77 opping priced fung -> –o–p–p–i–n–g–p–r–i–c–e–d–f–u–n–g–
+78 face glyph secre -> –f–a–c–e–g–l–y–p–h–s–e–c–r–e–
+79 rectomy ov desktop -> –r–e–c–t–o–m–y–o–v–d–e–s–k–t–o–p–
+80 verify pristine oficial -> –v–e–r–i–f–y–p–r–i–s–t–i–n–e–o–f–i–c–i–a–l–
+81 otor magazine ajouter -> –o–t–o–r–m–a–g–a–z–i–n–e–a–j–o–u–t–e–r–
+82 unused indeterm waardoor -> –u–n–u–s–e–d–i–n–d–e–t–e–r–m–w–a–a–r–d–o–o–r–
+83 mal decides initiale -> –m–a–l–d–e–c–i–d–e–s–i–n–i–t–i–a–l–e–
+84 teren happens east -> –t–e–r–e–n–h–a–p–p–e–n–s–e–a–s–t–
+85 dist granic ilha -> –d–i–s–t–g–r–a–n–i–c–i–l–h–a–
+86 ifiziert judicia servizi -> –i–f–i–z–i–e–r–t–j–u–d–i–c–i–a–s–e–r–v–i–z–i–
+87 arra imediat spars -> –a–r–r–a–i–m–e–d–i–a–t–s–p–a–r–s–
+88 macro command nii -> –m–a–c–r–o–c–o–m–m–a–n–d–n–i–i–
+89 vation br parlare -> –v–a–t–i–o–n–b–r–p–a–r–l–a–r–e–
+90 roz optimize cint -> –r–o–z–o–p–t–i–m–i–z–e–c–i–n–t–
+91 partment integral tuo -> –p–a–r–t–m–e–n–t–i–n–t–e–g–r–a–l–t–u–o–
+92 mc blanc remar -> –m–c–b–l–a–n–c–r–e–m–a–r–
+93 ouden deserves mastery -> –o–u–d–e–n–d–e–s–e–r–v–e–s–m–a–s–t–e–r–y–
+94 oons simpler magia -> –o–o–n–s–s–i–m–p–l–e–r–m–a–g–i–a–
+95 bres akhirnya cy -> –b–r–e–s–a–k–h–i–r–n–y–a–c–y–
+96 hol wprowad boots -> –h–o–l–w–p–r–o–w–a–d–b–o–o–t–s–
+97 iris veo persists -> –i–r–i–s–v–e–o–p–e–r–s–i–s–t–s–
+98 non movable rpm -> –n–o–n–m–o–v–a–b–l–e–r–p–m–
+99 arters gymnast herv -> –a–r–t–e–r–s–g–y–m–n–a–s–t–h–e–r–v–

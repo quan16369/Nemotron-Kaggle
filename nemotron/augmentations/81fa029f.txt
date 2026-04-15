@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 ibia losing catalana
+01 ende merkez intraven
+02 compile externe fact
+
+This is a sample output.
+00 ibia losing catalana -> –i–b–i–a–l–o–s–i–n–g–c–a–t–a–l–a–n–a–
+01 ende merkez intraven -> –e–n–d–e–m–e–r–k–e–z–i–n–t–r–a–v–e–n–
+02 compile externe fact -> –c–o–m–p–i–l–e–e–x–t–e–r–n–e–f–a–c–t–
+
+This is your input.
+00 oc tega itse
+01 ainer soaked arbust
+02 eves harga ponte
+03 rosion aneur progr
+04 py github dituzte
+05 sym typeof quanto
+06 asterxml hypnot curb
+07 ferrer beg innan
+08 sk lebt priorit
+09 eroids avere ziehen
+10 izo erinnert escrav
+11 balanced zust blocked
+12 lder forty thinning
+13 ython yii jej
+14 ispiel modules hlas
+15 ajas medico finns
+16 atility poll bulunan
+17 ak puissant flujo
+18 intang laptop koncert
+19 adek tiz ner
+20 stone poste dibuj
+21 sept fear pran
+22 kien secular bleek
+23 ingen gau kautta
+24 ql antigos tabac
+25 endit clutch uneven
+26 ike grec mensen
+27 enzo mister ine
+28 eppe payment menus
+29 iern billion indicar
+30 reso tedes sienne
+31 esium beteg abz
+32 efehl campagne net
+33 cock car podle
+34 raits izg sim
+35 styled effector pharmacy
+36 model lia dar
+37 cont ano alimento
+38 assic regering sway
+39 endon nahm erforder
+40 schluss gewonnen vend
+41 ising postoje isolated
+42 erea rejon hameau
+43 ixe prolifer locality
+44 lass imen otr
+45 handler shower hela
+46 ceptors geboren fn
+47 rije besie tabs
+48 artifact precios oncle
+49 circle dello singul
+50 later nick montre
+51 usk coa liga
+52 olic digits capsules
+53 fle habitat dato
+54 ynaptic again wojska
+55 viu kenn ese
+56 uju qs twelve
+57 gain poorly calculus
+58 ip caminos picks
+59 teger outbreak ellipt
+60 ordat pneum prek
+61 usetzen logrado saf
+62 dataset lagata suppose
+63 raska edildi relation
+64 ethe ees intento
+65 jeve faults devem
+66 agas attrice mars
+67 currency mahdoll ato
+68 ificates estimate occult
+69 osex predic verl
+70 rise jaw paging
+71 ogens solute jewelry
+72 eken aktu przes
+73 plastic quedar hemod
+74 logne fondo enem
+75 eled ilust queryset
+76 iksi restent parall
+77 tags disabled hiper
+78 jeron inn mound
+79 piar hora povo
+80 ogle algunas predator
+81 itarian alue facet
+82 nent verdes hopeless
+83 zione entfer critics
+84 fasste esim cause
+85 znam zudem national
+86 ault atoms rehe
+87 joht bundled kazan
+88 ignor casinos appar
+89 hetic decre navale
+90 anao dismin dramas
+91 emies relating komt
+92 ayan verz kialak
+93 rg tirar peroxide
+94 oirs simples anten
+95 seq nunca keizer
+96 boss ajuda garments
+97 adia rotating muestra
+98 ctomy caudal tiendas
+99 eltz iniz and
+[completion]
+00 oc tega itse -> –o–c–t–e–g–a–i–t–s–e–
+01 ainer soaked arbust -> –a–i–n–e–r–s–o–a–k–e–d–a–r–b–u–s–t–
+02 eves harga ponte -> –e–v–e–s–h–a–r–g–a–p–o–n–t–e–
+03 rosion aneur progr -> –r–o–s–i–o–n–a–n–e–u–r–p–r–o–g–r–
+04 py github dituzte -> –p–y–g–i–t–h–u–b–d–i–t–u–z–t–e–
+05 sym typeof quanto -> –s–y–m–t–y–p–e–o–f–q–u–a–n–t–o–
+06 asterxml hypnot curb -> –a–s–t–e–r–x–m–l–h–y–p–n–o–t–c–u–r–b–
+07 ferrer beg innan -> –f–e–r–r–e–r–b–e–g–i–n–n–a–n–
+08 sk lebt priorit -> –s–k–l–e–b–t–p–r–i–o–r–i–t–
+09 eroids avere ziehen -> –e–r–o–i–d–s–a–v–e–r–e–z–i–e–h–e–n–
+10 izo erinnert escrav -> –i–z–o–e–r–i–n–n–e–r–t–e–s–c–r–a–v–
+11 balanced zust blocked -> –b–a–l–a–n–c–e–d–z–u–s–t–b–l–o–c–k–e–d–
+12 lder forty thinning -> –l–d–e–r–f–o–r–t–y–t–h–i–n–n–i–n–g–
+13 ython yii jej -> –y–t–h–o–n–y–i–i–j–e–j–
+14 ispiel modules hlas -> –i–s–p–i–e–l–m–o–d–u–l–e–s–h–l–a–s–
+15 ajas medico finns -> –a–j–a–s–m–e–d–i–c–o–f–i–n–n–s–
+16 atility poll bulunan -> –a–t–i–l–i–t–y–p–o–l–l–b–u–l–u–n–a–n–
+17 ak puissant flujo -> –a–k–p–u–i–s–s–a–n–t–f–l–u–j–o–
+18 intang laptop koncert -> –i–n–t–a–n–g–l–a–p–t–o–p–k–o–n–c–e–r–t–
+19 adek tiz ner -> –a–d–e–k–t–i–z–n–e–r–
+20 stone poste dibuj -> –s–t–o–n–e–p–o–s–t–e–d–i–b–u–j–
+21 sept fear pran -> –s–e–p–t–f–e–a–r–p–r–a–n–
+22 kien secular bleek -> –k–i–e–n–s–e–c–u–l–a–r–b–l–e–e–k–
+23 ingen gau kautta -> –i–n–g–e–n–g–a–u–k–a–u–t–t–a–
+24 ql antigos tabac -> –q–l–a–n–t–i–g–o–s–t–a–b–a–c–
+25 endit clutch uneven -> –e–n–d–i–t–c–l–u–t–c–h–u–n–e–v–e–n–
+26 ike grec mensen -> –i–k–e–g–r–e–c–m–e–n–s–e–n–
+27 enzo mister ine -> –e–n–z–o–m–i–s–t–e–r–i–n–e–
+28 eppe payment menus -> –e–p–p–e–p–a–y–m–e–n–t–m–e–n–u–s–
+29 iern billion indicar -> –i–e–r–n–b–i–l–l–i–o–n–i–n–d–i–c–a–r–
+30 reso tedes sienne -> –r–e–s–o–t–e–d–e–s–s–i–e–n–n–e–
+31 esium beteg abz -> –e–s–i–u–m–b–e–t–e–g–a–b–z–
+32 efehl campagne net -> –e–f–e–h–l–c–a–m–p–a–g–n–e–n–e–t–
+33 cock car podle -> –c–o–c–k–c–a–r–p–o–d–l–e–
+34 raits izg sim -> –r–a–i–t–s–i–z–g–s–i–m–
+35 styled effector pharmacy -> –s–t–y–l–e–d–e–f–f–e–c–t–o–r–p–h–a–r–m–a–c–y–
+36 model lia dar -> –m–o–d–e–l–l–i–a–d–a–r–
+37 cont ano alimento -> –c–o–n–t–a–n–o–a–l–i–m–e–n–t–o–
+38 assic regering sway -> –a–s–s–i–c–r–e–g–e–r–i–n–g–s–w–a–y–
+39 endon nahm erforder -> –e–n–d–o–n–n–a–h–m–e–r–f–o–r–d–e–r–
+40 schluss gewonnen vend -> –s–c–h–l–u–s–s–g–e–w–o–n–n–e–n–v–e–n–d–
+41 ising postoje isolated -> –i–s–i–n–g–p–o–s–t–o–j–e–i–s–o–l–a–t–e–d–
+42 erea rejon hameau -> –e–r–e–a–r–e–j–o–n–h–a–m–e–a–u–
+43 ixe prolifer locality -> –i–x–e–p–r–o–l–i–f–e–r–l–o–c–a–l–i–t–y–
+44 lass imen otr -> –l–a–s–s–i–m–e–n–o–t–r–
+45 handler shower hela -> –h–a–n–d–l–e–r–s–h–o–w–e–r–h–e–l–a–
+46 ceptors geboren fn -> –c–e–p–t–o–r–s–g–e–b–o–r–e–n–f–n–
+47 rije besie tabs -> –r–i–j–e–b–e–s–i–e–t–a–b–s–
+48 artifact precios oncle -> –a–r–t–i–f–a–c–t–p–r–e–c–i–o–s–o–n–c–l–e–
+49 circle dello singul -> –c–i–r–c–l–e–d–e–l–l–o–s–i–n–g–u–l–
+50 later nick montre -> –l–a–t–e–r–n–i–c–k–m–o–n–t–r–e–
+51 usk coa liga -> –u–s–k–c–o–a–l–i–g–a–
+52 olic digits capsules -> –o–l–i–c–d–i–g–i–t–s–c–a–p–s–u–l–e–s–
+53 fle habitat dato -> –f–l–e–h–a–b–i–t–a–t–d–a–t–o–
+54 ynaptic again wojska -> –y–n–a–p–t–i–c–a–g–a–i–n–w–o–j–s–k–a–
+55 viu kenn ese -> –v–i–u–k–e–n–n–e–s–e–
+56 uju qs twelve -> –u–j–u–q–s–t–w–e–l–v–e–
+57 gain poorly calculus -> –g–a–i–n–p–o–o–r–l–y–c–a–l–c–u–l–u–s–
+58 ip caminos picks -> –i–p–c–a–m–i–n–o–s–p–i–c–k–s–
+59 teger outbreak ellipt -> –t–e–g–e–r–o–u–t–b–r–e–a–k–e–l–l–i–p–t–
+60 ordat pneum prek -> –o–r–d–a–t–p–n–e–u–m–p–r–e–k–
+61 usetzen logrado saf -> –u–s–e–t–z–e–n–l–o–g–r–a–d–o–s–a–f–
+62 dataset lagata suppose -> –d–a–t–a–s–e–t–l–a–g–a–t–a–s–u–p–p–o–s–e–
+63 raska edildi relation -> –r–a–s–k–a–e–d–i–l–d–i–r–e–l–a–t–i–o–n–
+64 ethe ees intento -> –e–t–h–e–e–e–s–i–n–t–e–n–t–o–
+65 jeve faults devem -> –j–e–v–e–f–a–u–l–t–s–d–e–v–e–m–
+66 agas attrice mars -> –a–g–a–s–a–t–t–r–i–c–e–m–a–r–s–
+67 currency mahdoll ato -> –c–u–r–r–e–n–c–y–m–a–h–d–o–l–l–a–t–o–
+68 ificates estimate occult -> –i–f–i–c–a–t–e–s–e–s–t–i–m–a–t–e–o–c–c–u–l–t–
+69 osex predic verl -> –o–s–e–x–p–r–e–d–i–c–v–e–r–l–
+70 rise jaw paging -> –r–i–s–e–j–a–w–p–a–g–i–n–g–
+71 ogens solute jewelry -> –o–g–e–n–s–s–o–l–u–t–e–j–e–w–e–l–r–y–
+72 eken aktu przes -> –e–k–e–n–a–k–t–u–p–r–z–e–s–
+73 plastic quedar hemod -> –p–l–a–s–t–i–c–q–u–e–d–a–r–h–e–m–o–d–
+74 logne fondo enem -> –l–o–g–n–e–f–o–n–d–o–e–n–e–m–
+75 eled ilust queryset -> –e–l–e–d–i–l–u–s–t–q–u–e–r–y–s–e–t–
+76 iksi restent parall -> –i–k–s–i–r–e–s–t–e–n–t–p–a–r–a–l–l–
+77 tags disabled hiper -> –t–a–g–s–d–i–s–a–b–l–e–d–h–i–p–e–r–
+78 jeron inn mound -> –j–e–r–o–n–i–n–n–m–o–u–n–d–
+79 piar hora povo -> –p–i–a–r–h–o–r–a–p–o–v–o–
+80 ogle algunas predator -> –o–g–l–e–a–l–g–u–n–a–s–p–r–e–d–a–t–o–r–
+81 itarian alue facet -> –i–t–a–r–i–a–n–a–l–u–e–f–a–c–e–t–
+82 nent verdes hopeless -> –n–e–n–t–v–e–r–d–e–s–h–o–p–e–l–e–s–s–
+83 zione entfer critics -> –z–i–o–n–e–e–n–t–f–e–r–c–r–i–t–i–c–s–
+84 fasste esim cause -> –f–a–s–s–t–e–e–s–i–m–c–a–u–s–e–
+85 znam zudem national -> –z–n–a–m–z–u–d–e–m–n–a–t–i–o–n–a–l–
+86 ault atoms rehe -> –a–u–l–t–a–t–o–m–s–r–e–h–e–
+87 joht bundled kazan -> –j–o–h–t–b–u–n–d–l–e–d–k–a–z–a–n–
+88 ignor casinos appar -> –i–g–n–o–r–c–a–s–i–n–o–s–a–p–p–a–r–
+89 hetic decre navale -> –h–e–t–i–c–d–e–c–r–e–n–a–v–a–l–e–
+90 anao dismin dramas -> –a–n–a–o–d–i–s–m–i–n–d–r–a–m–a–s–
+91 emies relating komt -> –e–m–i–e–s–r–e–l–a–t–i–n–g–k–o–m–t–
+92 ayan verz kialak -> –a–y–a–n–v–e–r–z–k–i–a–l–a–k–
+93 rg tirar peroxide -> –r–g–t–i–r–a–r–p–e–r–o–x–i–d–e–
+94 oirs simples anten -> –o–i–r–s–s–i–m–p–l–e–s–a–n–t–e–n–
+95 seq nunca keizer -> –s–e–q–n–u–n–c–a–k–e–i–z–e–r–
+96 boss ajuda garments -> –b–o–s–s–a–j–u–d–a–g–a–r–m–e–n–t–s–
+97 adia rotating muestra -> –a–d–i–a–r–o–t–a–t–i–n–g–m–u–e–s–t–r–a–
+98 ctomy caudal tiendas -> –c–t–o–m–y–c–a–u–d–a–l–t–i–e–n–d–a–s–
+99 eltz iniz and -> –e–l–t–z–i–n–i–z–a–n–d–

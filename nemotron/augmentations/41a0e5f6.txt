@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 etc septentr casi
+01 itta illicit levantar
+02 anning konserv peng
+
+This is a sample output.
+00 etc septentr casi -> –e–t–c–s–e–p–t–e–n–t–r–c–a–s–i–
+01 itta illicit levantar -> –i–t–t–a–i–l–l–i–c–i–t–l–e–v–a–n–t–a–r–
+02 anning konserv peng -> –a–n–n–i–n–g–k–o–n–s–e–r–v–p–e–n–g–
+
+This is your input.
+00 hide deseo tako
+01 mpi colonnes aprender
+02 uas obso doubted
+03 ellement saav fibre
+04 xo dashed wt
+05 jen gmin palavra
+06 ierter umgeben izango
+07 arman strike poses
+08 agation pendant gravit
+09 izabeth dynast capitano
+10 fil softened roofs
+11 ized rayon federal
+12 isher camion coff
+13 keep entrance gauge
+14 izards permit fores
+15 burgh downg abra
+16 sql civil caching
+17 col toit tumours
+18 fly travaux ausge
+19 pos helpful bli
+20 minton cono polygons
+21 gerald currency maqu
+22 business chiq rena
+23 emet devrait internal
+24 ilh erinner cord
+25 odge axiom fifth
+26 idone skr pois
+27 eta kunne avian
+28 amek employ loos
+29 ase quarante plastics
+30 bean kter enfants
+31 yrinth wedge ouvir
+32 ionar employee derrota
+33 entieth societal aks
+34 auch biasanya pleaded
+35 iset consists nurt
+36 ellikle arena zeuden
+37 ftp bag ontst
+38 ataka ober discou
+39 spin unanim importa
+40 kees colegas pinch
+41 uin wp length
+42 registry giappon anderen
+43 awang skew atrib
+44 udas runway clubes
+45 haw momento jq
+46 pure creep thematic
+47 fu sequest rata
+48 we qat gehen
+49 fluss vp polyn
+50 bergen restring klin
+51 vy euro nord
+52 zczy mata here
+53 curl tuber tinggal
+54 isches procent restrict
+55 usza sortant zvl
+56 iladi emphasis immature
+57 ingway numele jogos
+58 bud caratter shq
+59 anding lalu energ
+60 override atomic kota
+61 anus senators konsek
+62 udd suff pouv
+63 eway casa wies
+64 wahn funks kol
+65 ousing cent cmd
+66 sep plut quy
+67 sect punti ot
+68 zze ritu sportif
+69 itete ans ft
+70 umbs cath bov
+71 on csap stron
+72 esture rhet sine
+73 wire feuilles yaz
+74 olaire mah degli
+75 izan erity inscri
+76 aill slammed clo
+77 ometric tapo vowels
+78 trar sieb cult
+79 stvo alguien bapt
+80 menn achieved contrat
+81 resource femur groom
+82 default bolesti covalent
+83 opens slog pouss
+84 ensit lado stellten
+85 min obow urgency
+86 rial sinal poter
+87 omphe punish pronon
+88 tu aby kari
+89 usehen permiss doesn
+90 ahawks armi vyb
+91 aley progn stato
+92 maj adorn bulk
+93 gris minutes stedet
+94 oard nahr monitors
+95 porte wrapper entr
+96 oje outdoors nei
+97 ordan tabel dos
+98 cha wars decision
+99 bow lex templom
+[completion]
+00 hide deseo tako -> –h–i–d–e–d–e–s–e–o–t–a–k–o–
+01 mpi colonnes aprender -> –m–p–i–c–o–l–o–n–n–e–s–a–p–r–e–n–d–e–r–
+02 uas obso doubted -> –u–a–s–o–b–s–o–d–o–u–b–t–e–d–
+03 ellement saav fibre -> –e–l–l–e–m–e–n–t–s–a–a–v–f–i–b–r–e–
+04 xo dashed wt -> –x–o–d–a–s–h–e–d–w–t–
+05 jen gmin palavra -> –j–e–n–g–m–i–n–p–a–l–a–v–r–a–
+06 ierter umgeben izango -> –i–e–r–t–e–r–u–m–g–e–b–e–n–i–z–a–n–g–o–
+07 arman strike poses -> –a–r–m–a–n–s–t–r–i–k–e–p–o–s–e–s–
+08 agation pendant gravit -> –a–g–a–t–i–o–n–p–e–n–d–a–n–t–g–r–a–v–i–t–
+09 izabeth dynast capitano -> –i–z–a–b–e–t–h–d–y–n–a–s–t–c–a–p–i–t–a–n–o–
+10 fil softened roofs -> –f–i–l–s–o–f–t–e–n–e–d–r–o–o–f–s–
+11 ized rayon federal -> –i–z–e–d–r–a–y–o–n–f–e–d–e–r–a–l–
+12 isher camion coff -> –i–s–h–e–r–c–a–m–i–o–n–c–o–f–f–
+13 keep entrance gauge -> –k–e–e–p–e–n–t–r–a–n–c–e–g–a–u–g–e–
+14 izards permit fores -> –i–z–a–r–d–s–p–e–r–m–i–t–f–o–r–e–s–
+15 burgh downg abra -> –b–u–r–g–h–d–o–w–n–g–a–b–r–a–
+16 sql civil caching -> –s–q–l–c–i–v–i–l–c–a–c–h–i–n–g–
+17 col toit tumours -> –c–o–l–t–o–i–t–t–u–m–o–u–r–s–
+18 fly travaux ausge -> –f–l–y–t–r–a–v–a–u–x–a–u–s–g–e–
+19 pos helpful bli -> –p–o–s–h–e–l–p–f–u–l–b–l–i–
+20 minton cono polygons -> –m–i–n–t–o–n–c–o–n–o–p–o–l–y–g–o–n–s–
+21 gerald currency maqu -> –g–e–r–a–l–d–c–u–r–r–e–n–c–y–m–a–q–u–
+22 business chiq rena -> –b–u–s–i–n–e–s–s–c–h–i–q–r–e–n–a–
+23 emet devrait internal -> –e–m–e–t–d–e–v–r–a–i–t–i–n–t–e–r–n–a–l–
+24 ilh erinner cord -> –i–l–h–e–r–i–n–n–e–r–c–o–r–d–
+25 odge axiom fifth -> –o–d–g–e–a–x–i–o–m–f–i–f–t–h–
+26 idone skr pois -> –i–d–o–n–e–s–k–r–p–o–i–s–
+27 eta kunne avian -> –e–t–a–k–u–n–n–e–a–v–i–a–n–
+28 amek employ loos -> –a–m–e–k–e–m–p–l–o–y–l–o–o–s–
+29 ase quarante plastics -> –a–s–e–q–u–a–r–a–n–t–e–p–l–a–s–t–i–c–s–
+30 bean kter enfants -> –b–e–a–n–k–t–e–r–e–n–f–a–n–t–s–
+31 yrinth wedge ouvir -> –y–r–i–n–t–h–w–e–d–g–e–o–u–v–i–r–
+32 ionar employee derrota -> –i–o–n–a–r–e–m–p–l–o–y–e–e–d–e–r–r–o–t–a–
+33 entieth societal aks -> –e–n–t–i–e–t–h–s–o–c–i–e–t–a–l–a–k–s–
+34 auch biasanya pleaded -> –a–u–c–h–b–i–a–s–a–n–y–a–p–l–e–a–d–e–d–
+35 iset consists nurt -> –i–s–e–t–c–o–n–s–i–s–t–s–n–u–r–t–
+36 ellikle arena zeuden -> –e–l–l–i–k–l–e–a–r–e–n–a–z–e–u–d–e–n–
+37 ftp bag ontst -> –f–t–p–b–a–g–o–n–t–s–t–
+38 ataka ober discou -> –a–t–a–k–a–o–b–e–r–d–i–s–c–o–u–
+39 spin unanim importa -> –s–p–i–n–u–n–a–n–i–m–i–m–p–o–r–t–a–
+40 kees colegas pinch -> –k–e–e–s–c–o–l–e–g–a–s–p–i–n–c–h–
+41 uin wp length -> –u–i–n–w–p–l–e–n–g–t–h–
+42 registry giappon anderen -> –r–e–g–i–s–t–r–y–g–i–a–p–p–o–n–a–n–d–e–r–e–n–
+43 awang skew atrib -> –a–w–a–n–g–s–k–e–w–a–t–r–i–b–
+44 udas runway clubes -> –u–d–a–s–r–u–n–w–a–y–c–l–u–b–e–s–
+45 haw momento jq -> –h–a–w–m–o–m–e–n–t–o–j–q–
+46 pure creep thematic -> –p–u–r–e–c–r–e–e–p–t–h–e–m–a–t–i–c–
+47 fu sequest rata -> –f–u–s–e–q–u–e–s–t–r–a–t–a–
+48 we qat gehen -> –w–e–q–a–t–g–e–h–e–n–
+49 fluss vp polyn -> –f–l–u–s–s–v–p–p–o–l–y–n–
+50 bergen restring klin -> –b–e–r–g–e–n–r–e–s–t–r–i–n–g–k–l–i–n–
+51 vy euro nord -> –v–y–e–u–r–o–n–o–r–d–
+52 zczy mata here -> –z–c–z–y–m–a–t–a–h–e–r–e–
+53 curl tuber tinggal -> –c–u–r–l–t–u–b–e–r–t–i–n–g–g–a–l–
+54 isches procent restrict -> –i–s–c–h–e–s–p–r–o–c–e–n–t–r–e–s–t–r–i–c–t–
+55 usza sortant zvl -> –u–s–z–a–s–o–r–t–a–n–t–z–v–l–
+56 iladi emphasis immature -> –i–l–a–d–i–e–m–p–h–a–s–i–s–i–m–m–a–t–u–r–e–
+57 ingway numele jogos -> –i–n–g–w–a–y–n–u–m–e–l–e–j–o–g–o–s–
+58 bud caratter shq -> –b–u–d–c–a–r–a–t–t–e–r–s–h–q–
+59 anding lalu energ -> –a–n–d–i–n–g–l–a–l–u–e–n–e–r–g–
+60 override atomic kota -> –o–v–e–r–r–i–d–e–a–t–o–m–i–c–k–o–t–a–
+61 anus senators konsek -> –a–n–u–s–s–e–n–a–t–o–r–s–k–o–n–s–e–k–
+62 udd suff pouv -> –u–d–d–s–u–f–f–p–o–u–v–
+63 eway casa wies -> –e–w–a–y–c–a–s–a–w–i–e–s–
+64 wahn funks kol -> –w–a–h–n–f–u–n–k–s–k–o–l–
+65 ousing cent cmd -> –o–u–s–i–n–g–c–e–n–t–c–m–d–
+66 sep plut quy -> –s–e–p–p–l–u–t–q–u–y–
+67 sect punti ot -> –s–e–c–t–p–u–n–t–i–o–t–
+68 zze ritu sportif -> –z–z–e–r–i–t–u–s–p–o–r–t–i–f–
+69 itete ans ft -> –i–t–e–t–e–a–n–s–f–t–
+70 umbs cath bov -> –u–m–b–s–c–a–t–h–b–o–v–
+71 on csap stron -> –o–n–c–s–a–p–s–t–r–o–n–
+72 esture rhet sine -> –e–s–t–u–r–e–r–h–e–t–s–i–n–e–
+73 wire feuilles yaz -> –w–i–r–e–f–e–u–i–l–l–e–s–y–a–z–
+74 olaire mah degli -> –o–l–a–i–r–e–m–a–h–d–e–g–l–i–
+75 izan erity inscri -> –i–z–a–n–e–r–i–t–y–i–n–s–c–r–i–
+76 aill slammed clo -> –a–i–l–l–s–l–a–m–m–e–d–c–l–o–
+77 ometric tapo vowels -> –o–m–e–t–r–i–c–t–a–p–o–v–o–w–e–l–s–
+78 trar sieb cult -> –t–r–a–r–s–i–e–b–c–u–l–t–
+79 stvo alguien bapt -> –s–t–v–o–a–l–g–u–i–e–n–b–a–p–t–
+80 menn achieved contrat -> –m–e–n–n–a–c–h–i–e–v–e–d–c–o–n–t–r–a–t–
+81 resource femur groom -> –r–e–s–o–u–r–c–e–f–e–m–u–r–g–r–o–o–m–
+82 default bolesti covalent -> –d–e–f–a–u–l–t–b–o–l–e–s–t–i–c–o–v–a–l–e–n–t–
+83 opens slog pouss -> –o–p–e–n–s–s–l–o–g–p–o–u–s–s–
+84 ensit lado stellten -> –e–n–s–i–t–l–a–d–o–s–t–e–l–l–t–e–n–
+85 min obow urgency -> –m–i–n–o–b–o–w–u–r–g–e–n–c–y–
+86 rial sinal poter -> –r–i–a–l–s–i–n–a–l–p–o–t–e–r–
+87 omphe punish pronon -> –o–m–p–h–e–p–u–n–i–s–h–p–r–o–n–o–n–
+88 tu aby kari -> –t–u–a–b–y–k–a–r–i–
+89 usehen permiss doesn -> –u–s–e–h–e–n–p–e–r–m–i–s–s–d–o–e–s–n–
+90 ahawks armi vyb -> –a–h–a–w–k–s–a–r–m–i–v–y–b–
+91 aley progn stato -> –a–l–e–y–p–r–o–g–n–s–t–a–t–o–
+92 maj adorn bulk -> –m–a–j–a–d–o–r–n–b–u–l–k–
+93 gris minutes stedet -> –g–r–i–s–m–i–n–u–t–e–s–s–t–e–d–e–t–
+94 oard nahr monitors -> –o–a–r–d–n–a–h–r–m–o–n–i–t–o–r–s–
+95 porte wrapper entr -> –p–o–r–t–e–w–r–a–p–p–e–r–e–n–t–r–
+96 oje outdoors nei -> –o–j–e–o–u–t–d–o–o–r–s–n–e–i–
+97 ordan tabel dos -> –o–r–d–a–n–t–a–b–e–l–d–o–s–
+98 cha wars decision -> –c–h–a–w–a–r–s–d–e–c–i–s–i–o–n–
+99 bow lex templom -> –b–o–w–l–e–x–t–e–m–p–l–o–m–

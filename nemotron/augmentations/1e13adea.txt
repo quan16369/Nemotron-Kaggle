@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 hei stata sono
+01 afety impegn logarith
+02 icile seen campan
+
+This is a sample output.
+00 hei stata sono -> –h–e–i–s–t–a–t–a–s–o–n–o–
+01 afety impegn logarith -> –a–f–e–t–y–i–m–p–e–g–n–l–o–g–a–r–i–t–h–
+02 icile seen campan -> –i–c–i–l–e–s–e–e–n–c–a–m–p–a–n–
+
+This is your input.
+00 pn steps portes
+01 chan hydrogel steroids
+02 koj poign sue
+03 zeption colonna obyv
+04 china falso hollow
+05 zwungen necessit tada
+06 voire loc couper
+07 gom incor tele
+08 gens jef lahko
+09 riends methanol advice
+10 core umfang najbol
+11 schemas flavor bands
+12 redirect voient chronic
+13 neh fertile szem
+14 eden sebbene ales
+15 ham foster eus
+16 solid desigual avril
+17 trecht staple partner
+18 arnos trusting basal
+19 ptember medizin travail
+20 ica strict wil
+21 redu eml cup
+22 mur zitu cuando
+23 hesia sett sandy
+24 asks seren tingkat
+25 attack mitjana diet
+26 igrate pac averaged
+27 ovich governor icons
+28 istry valve formula
+29 remote passare qal
+30 plash compter pudesse
+31 ellor ahor lamina
+32 woordig staat ratio
+33 iete grabs margen
+34 iseconds novelist tend
+35 gu inert radial
+36 nelle erricht symbolic
+37 isis ihres theorem
+38 hasil zlat portions
+39 osit fos stycznia
+40 adou breadth bereits
+41 ieras infused slick
+42 hem chaper befol
+43 rzy bist densely
+44 stoff romanzo maestro
+45 ichen express proteger
+46 concat blurred drie
+47 eness prezent pomoc
+48 ective iran sne
+49 olos baz whence
+50 ena asust composto
+51 shaft veloc largely
+52 inx spawned remake
+53 zuela undert merchant
+54 cium krom atmosf
+55 require precaut famoso
+56 horst alem rigor
+57 skirts branding ide
+58 ilea faj promptly
+59 ynamics absolut qad
+60 istol testi concave
+61 ijn copy arc
+62 ching aliases adsorb
+63 llam pixel acceptor
+64 idebar discours mad
+65 native tratar devised
+66 untz dragging zvan
+67 ande jugando sahipt
+68 ber von bije
+69 zeni taste hatt
+70 inary renov wine
+71 umped roll revient
+72 ensch fab determin
+73 rington deve indique
+74 achi vais pluvi
+75 owanej suburban solar
+76 bors mud wszyst
+77 chant attitude vrste
+78 iq agreed refres
+79 yme cemetery trumpet
+80 asida unnecess mobility
+81 zten pred paz
+82 ucture kins tarix
+83 bole lud magnetic
+84 vant inspired quil
+85 taient platelet jakarta
+86 nois floods gelten
+87 fund eram onion
+88 jerne etdi kb
+89 ractical kilomet beef
+90 geme qualcuno sud
+91 ndia sainte newsp
+92 rows bottle royaume
+93 endente quals decade
+94 court dehyd clos
+95 ropdown folks letzter
+96 schafter annular noct
+97 amad vio planned
+98 jego gl drummer
+99 arit no darunter
+[completion]
+00 pn steps portes -> –p–n–s–t–e–p–s–p–o–r–t–e–s–
+01 chan hydrogel steroids -> –c–h–a–n–h–y–d–r–o–g–e–l–s–t–e–r–o–i–d–s–
+02 koj poign sue -> –k–o–j–p–o–i–g–n–s–u–e–
+03 zeption colonna obyv -> –z–e–p–t–i–o–n–c–o–l–o–n–n–a–o–b–y–v–
+04 china falso hollow -> –c–h–i–n–a–f–a–l–s–o–h–o–l–l–o–w–
+05 zwungen necessit tada -> –z–w–u–n–g–e–n–n–e–c–e–s–s–i–t–t–a–d–a–
+06 voire loc couper -> –v–o–i–r–e–l–o–c–c–o–u–p–e–r–
+07 gom incor tele -> –g–o–m–i–n–c–o–r–t–e–l–e–
+08 gens jef lahko -> –g–e–n–s–j–e–f–l–a–h–k–o–
+09 riends methanol advice -> –r–i–e–n–d–s–m–e–t–h–a–n–o–l–a–d–v–i–c–e–
+10 core umfang najbol -> –c–o–r–e–u–m–f–a–n–g–n–a–j–b–o–l–
+11 schemas flavor bands -> –s–c–h–e–m–a–s–f–l–a–v–o–r–b–a–n–d–s–
+12 redirect voient chronic -> –r–e–d–i–r–e–c–t–v–o–i–e–n–t–c–h–r–o–n–i–c–
+13 neh fertile szem -> –n–e–h–f–e–r–t–i–l–e–s–z–e–m–
+14 eden sebbene ales -> –e–d–e–n–s–e–b–b–e–n–e–a–l–e–s–
+15 ham foster eus -> –h–a–m–f–o–s–t–e–r–e–u–s–
+16 solid desigual avril -> –s–o–l–i–d–d–e–s–i–g–u–a–l–a–v–r–i–l–
+17 trecht staple partner -> –t–r–e–c–h–t–s–t–a–p–l–e–p–a–r–t–n–e–r–
+18 arnos trusting basal -> –a–r–n–o–s–t–r–u–s–t–i–n–g–b–a–s–a–l–
+19 ptember medizin travail -> –p–t–e–m–b–e–r–m–e–d–i–z–i–n–t–r–a–v–a–i–l–
+20 ica strict wil -> –i–c–a–s–t–r–i–c–t–w–i–l–
+21 redu eml cup -> –r–e–d–u–e–m–l–c–u–p–
+22 mur zitu cuando -> –m–u–r–z–i–t–u–c–u–a–n–d–o–
+23 hesia sett sandy -> –h–e–s–i–a–s–e–t–t–s–a–n–d–y–
+24 asks seren tingkat -> –a–s–k–s–s–e–r–e–n–t–i–n–g–k–a–t–
+25 attack mitjana diet -> –a–t–t–a–c–k–m–i–t–j–a–n–a–d–i–e–t–
+26 igrate pac averaged -> –i–g–r–a–t–e–p–a–c–a–v–e–r–a–g–e–d–
+27 ovich governor icons -> –o–v–i–c–h–g–o–v–e–r–n–o–r–i–c–o–n–s–
+28 istry valve formula -> –i–s–t–r–y–v–a–l–v–e–f–o–r–m–u–l–a–
+29 remote passare qal -> –r–e–m–o–t–e–p–a–s–s–a–r–e–q–a–l–
+30 plash compter pudesse -> –p–l–a–s–h–c–o–m–p–t–e–r–p–u–d–e–s–s–e–
+31 ellor ahor lamina -> –e–l–l–o–r–a–h–o–r–l–a–m–i–n–a–
+32 woordig staat ratio -> –w–o–o–r–d–i–g–s–t–a–a–t–r–a–t–i–o–
+33 iete grabs margen -> –i–e–t–e–g–r–a–b–s–m–a–r–g–e–n–
+34 iseconds novelist tend -> –i–s–e–c–o–n–d–s–n–o–v–e–l–i–s–t–t–e–n–d–
+35 gu inert radial -> –g–u–i–n–e–r–t–r–a–d–i–a–l–
+36 nelle erricht symbolic -> –n–e–l–l–e–e–r–r–i–c–h–t–s–y–m–b–o–l–i–c–
+37 isis ihres theorem -> –i–s–i–s–i–h–r–e–s–t–h–e–o–r–e–m–
+38 hasil zlat portions -> –h–a–s–i–l–z–l–a–t–p–o–r–t–i–o–n–s–
+39 osit fos stycznia -> –o–s–i–t–f–o–s–s–t–y–c–z–n–i–a–
+40 adou breadth bereits -> –a–d–o–u–b–r–e–a–d–t–h–b–e–r–e–i–t–s–
+41 ieras infused slick -> –i–e–r–a–s–i–n–f–u–s–e–d–s–l–i–c–k–
+42 hem chaper befol -> –h–e–m–c–h–a–p–e–r–b–e–f–o–l–
+43 rzy bist densely -> –r–z–y–b–i–s–t–d–e–n–s–e–l–y–
+44 stoff romanzo maestro -> –s–t–o–f–f–r–o–m–a–n–z–o–m–a–e–s–t–r–o–
+45 ichen express proteger -> –i–c–h–e–n–e–x–p–r–e–s–s–p–r–o–t–e–g–e–r–
+46 concat blurred drie -> –c–o–n–c–a–t–b–l–u–r–r–e–d–d–r–i–e–
+47 eness prezent pomoc -> –e–n–e–s–s–p–r–e–z–e–n–t–p–o–m–o–c–
+48 ective iran sne -> –e–c–t–i–v–e–i–r–a–n–s–n–e–
+49 olos baz whence -> –o–l–o–s–b–a–z–w–h–e–n–c–e–
+50 ena asust composto -> –e–n–a–a–s–u–s–t–c–o–m–p–o–s–t–o–
+51 shaft veloc largely -> –s–h–a–f–t–v–e–l–o–c–l–a–r–g–e–l–y–
+52 inx spawned remake -> –i–n–x–s–p–a–w–n–e–d–r–e–m–a–k–e–
+53 zuela undert merchant -> –z–u–e–l–a–u–n–d–e–r–t–m–e–r–c–h–a–n–t–
+54 cium krom atmosf -> –c–i–u–m–k–r–o–m–a–t–m–o–s–f–
+55 require precaut famoso -> –r–e–q–u–i–r–e–p–r–e–c–a–u–t–f–a–m–o–s–o–
+56 horst alem rigor -> –h–o–r–s–t–a–l–e–m–r–i–g–o–r–
+57 skirts branding ide -> –s–k–i–r–t–s–b–r–a–n–d–i–n–g–i–d–e–
+58 ilea faj promptly -> –i–l–e–a–f–a–j–p–r–o–m–p–t–l–y–
+59 ynamics absolut qad -> –y–n–a–m–i–c–s–a–b–s–o–l–u–t–q–a–d–
+60 istol testi concave -> –i–s–t–o–l–t–e–s–t–i–c–o–n–c–a–v–e–
+61 ijn copy arc -> –i–j–n–c–o–p–y–a–r–c–
+62 ching aliases adsorb -> –c–h–i–n–g–a–l–i–a–s–e–s–a–d–s–o–r–b–
+63 llam pixel acceptor -> –l–l–a–m–p–i–x–e–l–a–c–c–e–p–t–o–r–
+64 idebar discours mad -> –i–d–e–b–a–r–d–i–s–c–o–u–r–s–m–a–d–
+65 native tratar devised -> –n–a–t–i–v–e–t–r–a–t–a–r–d–e–v–i–s–e–d–
+66 untz dragging zvan -> –u–n–t–z–d–r–a–g–g–i–n–g–z–v–a–n–
+67 ande jugando sahipt -> –a–n–d–e–j–u–g–a–n–d–o–s–a–h–i–p–t–
+68 ber von bije -> –b–e–r–v–o–n–b–i–j–e–
+69 zeni taste hatt -> –z–e–n–i–t–a–s–t–e–h–a–t–t–
+70 inary renov wine -> –i–n–a–r–y–r–e–n–o–v–w–i–n–e–
+71 umped roll revient -> –u–m–p–e–d–r–o–l–l–r–e–v–i–e–n–t–
+72 ensch fab determin -> –e–n–s–c–h–f–a–b–d–e–t–e–r–m–i–n–
+73 rington deve indique -> –r–i–n–g–t–o–n–d–e–v–e–i–n–d–i–q–u–e–
+74 achi vais pluvi -> –a–c–h–i–v–a–i–s–p–l–u–v–i–
+75 owanej suburban solar -> –o–w–a–n–e–j–s–u–b–u–r–b–a–n–s–o–l–a–r–
+76 bors mud wszyst -> –b–o–r–s–m–u–d–w–s–z–y–s–t–
+77 chant attitude vrste -> –c–h–a–n–t–a–t–t–i–t–u–d–e–v–r–s–t–e–
+78 iq agreed refres -> –i–q–a–g–r–e–e–d–r–e–f–r–e–s–
+79 yme cemetery trumpet -> –y–m–e–c–e–m–e–t–e–r–y–t–r–u–m–p–e–t–
+80 asida unnecess mobility -> –a–s–i–d–a–u–n–n–e–c–e–s–s–m–o–b–i–l–i–t–y–
+81 zten pred paz -> –z–t–e–n–p–r–e–d–p–a–z–
+82 ucture kins tarix -> –u–c–t–u–r–e–k–i–n–s–t–a–r–i–x–
+83 bole lud magnetic -> –b–o–l–e–l–u–d–m–a–g–n–e–t–i–c–
+84 vant inspired quil -> –v–a–n–t–i–n–s–p–i–r–e–d–q–u–i–l–
+85 taient platelet jakarta -> –t–a–i–e–n–t–p–l–a–t–e–l–e–t–j–a–k–a–r–t–a–
+86 nois floods gelten -> –n–o–i–s–f–l–o–o–d–s–g–e–l–t–e–n–
+87 fund eram onion -> –f–u–n–d–e–r–a–m–o–n–i–o–n–
+88 jerne etdi kb -> –j–e–r–n–e–e–t–d–i–k–b–
+89 ractical kilomet beef -> –r–a–c–t–i–c–a–l–k–i–l–o–m–e–t–b–e–e–f–
+90 geme qualcuno sud -> –g–e–m–e–q–u–a–l–c–u–n–o–s–u–d–
+91 ndia sainte newsp -> –n–d–i–a–s–a–i–n–t–e–n–e–w–s–p–
+92 rows bottle royaume -> –r–o–w–s–b–o–t–t–l–e–r–o–y–a–u–m–e–
+93 endente quals decade -> –e–n–d–e–n–t–e–q–u–a–l–s–d–e–c–a–d–e–
+94 court dehyd clos -> –c–o–u–r–t–d–e–h–y–d–c–l–o–s–
+95 ropdown folks letzter -> –r–o–p–d–o–w–n–f–o–l–k–s–l–e–t–z–t–e–r–
+96 schafter annular noct -> –s–c–h–a–f–t–e–r–a–n–n–u–l–a–r–n–o–c–t–
+97 amad vio planned -> –a–m–a–d–v–i–o–p–l–a–n–n–e–d–
+98 jego gl drummer -> –j–e–g–o–g–l–d–r–u–m–m–e–r–
+99 arit no darunter -> –a–r–i–t–n–o–d–a–r–u–n–t–e–r–

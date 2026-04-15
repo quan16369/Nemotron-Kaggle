@@ -1,0 +1,30 @@
+problem id: 758308ea
+category: cryptarithm_deduce
+
+symbol-to-digit mapping:
+  '$' = 6
+  '%' = 9
+  "'" = 0
+  '(' = 3
+  '/' = 5
+  ':' = 7
+  '<' = 1
+  '?' = 8
+  '[' = 2
+  '}' = 4
+
+operator-to-operation mapping:
+  '#' = abs_diff
+  '@' = add
+  '\\' = mul
+
+examples:
+  <$@(} = /'  =>  16 + 34 = 50
+  ?(\}: = (%'<  =>  83 * 47 = 3901
+  :<#%( = [[  =>  |71 - 93| = 22
+  }$#%' = }}  =>  |46 - 90| = 44
+  :}@<% = %(  =>  74 + 19 = 93
+
+query: <(#<$  =>  |13 - 16| = 3
+
+predicted answer: (

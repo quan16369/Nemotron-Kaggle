@@ -1,0 +1,43 @@
+problem id: 017a871e
+category: cryptarithm_deduce
+
+examples:
+  1. #]+\# = "!
+  2. #^-{] = ]#
+  3. \{*\! = #\^:
+
+inferred rule:
+  Read each prompt as AB op CD, where AB and CD are two-digit numbers written in symbols.
+  A consistent arithmetic interpretation is:
+  - `+` means absolute difference
+  - `-` means ordinary addition
+  - `*` means ordinary multiplication
+
+  One symbol-to-digit assignment that fits all three examples is:
+  - `#` = 2
+  - `]` = 2
+  - `"` = 3
+  - `\` = 5
+  - `!` = 0
+  - `^` = 0
+  - `{` = 0
+  - `:` = 0
+
+why this fits the examples:
+  - `#]+\#` becomes `22 + 52` under the `+` rule, interpreted as `|22 - 52| = 30`, which is written as `"!`.
+  - `#^-{]` becomes `20 - 02` under the `-` rule, interpreted as `20 + 02 = 22`, which is written as `]#`.
+  - `\{*\!` becomes `50 * 50 = 2500`, which is written as `#\^:`.
+
+step-by-step application to the query:
+  - Query: `#!-"^`
+  - Left operand `#!` = 20
+  - The middle symbol is `-`, which under this rule means addition
+  - Right operand `"^` = 30
+  - Compute `20 + 30 = 50`
+  - With the same symbol assignment, `5` is `\` and `0` is `:`
+
+predicted answer:
+  \:
+
+confidence note:
+  Moderate confidence. This operator mapping explains all three examples cleanly, but the digit mapping is not unique: several symbols collapse to `0`, and both `#` and `]` act like `2`.

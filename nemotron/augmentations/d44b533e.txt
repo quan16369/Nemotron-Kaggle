@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 cycle vij portato
+01 ought since gold
+02 inist plunged tuition
+
+This is a sample output.
+00 cycle vij portato -> –c–y–c–l–e–v–i–j–p–o–r–t–a–t–o–
+01 ought since gold -> –o–u–g–h–t–s–i–n–c–e–g–o–l–d–
+02 inist plunged tuition -> –i–n–i–s–t–p–l–u–n–g–e–d–t–u–i–t–i–o–n–
+
+This is your input.
+00 author straf lam
+01 estis volledig potente
+02 raum hom cel
+03 ileg captures ad
+04 https giur wett
+05 ids prevail maintien
+06 cludes metade credible
+07 based kata cesse
+08 olerance rodz gezien
+09 checking substitu tenait
+10 oprotein recuerdo buff
+11 oksen viven depths
+12 valuable reserves banyak
+13 referto cu encycl
+14 idget flying armoured
+15 frist romantic serve
+16 ietako cassette dropdown
+17 inaldo district buz
+18 ektar immortal rigid
+19 yt pencha feathers
+20 esas ida betre
+21 aternary prove taxonomy
+22 texto arh rises
+23 abama gick umet
+24 amm locom powered
+25 winner neatly eukary
+26 angel relatif equally
+27 ologen unge hasta
+28 ave hearing couvrant
+29 urant stew varie
+30 odium looping hidup
+31 seed tham chess
+32 osphate fy coups
+33 ynthesis sho sqrt
+34 inden amounted commens
+35 leton sedang blonde
+36 extract searched levantar
+37 found bisog malade
+38 czenie aiz crede
+39 continue isn curs
+40 intes deed hein
+41 www realms outra
+42 raising soient diante
+43 ipel firing pomen
+44 ribu lux vib
+45 bigr currents earn
+46 owano tad lemma
+47 ocr rumah fat
+48 dit otto monar
+49 prochen dir handed
+50 anel beim inj
+51 uu parsing kinderen
+52 ublin kelas admi
+53 llo datatype algorith
+54 atelj negro flies
+55 verw advers hran
+56 ignait parto overcome
+57 fiel po paint
+58 chim zen aktiv
+59 insert syndicat tin
+60 ories servants gear
+61 gemeinde dr divert
+62 isaient abitanti diversa
+63 atiu diskut kong
+64 orable felhaszn reads
+65 maps kik depends
+66 chat keys chacune
+67 lingen waking rispose
+68 haltung gates vikt
+69 inding ular dale
+70 inae ruhig muff
+71 dater embarked vst
+72 scode faits labeled
+73 ankind toner conserva
+74 ream denotes dejando
+75 itere candidat organise
+76 bundle want preds
+77 ock descans intr
+78 putusan extreme srp
+79 ikir insuff tremend
+80 onym vul anyway
+81 pap gek offenbar
+82 sharp assume weder
+83 anth unlaw refused
+84 raining maf infe
+85 omonas errors tissues
+86 igna tasted scon
+87 aste choisit starter
+88 jn bond boc
+89 avat seks puisque
+90 prom prac beverage
+91 esc mosquito dij
+92 oughton traj offre
+93 irmed excurs corner
+94 stes tenga tank
+95 hetics fried lcd
+96 atiker kry preset
+97 ystick tomon sele
+98 usse stale desl
+99 ailing plugs quella
+[completion]
+00 author straf lam -> –a–u–t–h–o–r–s–t–r–a–f–l–a–m–
+01 estis volledig potente -> –e–s–t–i–s–v–o–l–l–e–d–i–g–p–o–t–e–n–t–e–
+02 raum hom cel -> –r–a–u–m–h–o–m–c–e–l–
+03 ileg captures ad -> –i–l–e–g–c–a–p–t–u–r–e–s–a–d–
+04 https giur wett -> –h–t–t–p–s–g–i–u–r–w–e–t–t–
+05 ids prevail maintien -> –i–d–s–p–r–e–v–a–i–l–m–a–i–n–t–i–e–n–
+06 cludes metade credible -> –c–l–u–d–e–s–m–e–t–a–d–e–c–r–e–d–i–b–l–e–
+07 based kata cesse -> –b–a–s–e–d–k–a–t–a–c–e–s–s–e–
+08 olerance rodz gezien -> –o–l–e–r–a–n–c–e–r–o–d–z–g–e–z–i–e–n–
+09 checking substitu tenait -> –c–h–e–c–k–i–n–g–s–u–b–s–t–i–t–u–t–e–n–a–i–t–
+10 oprotein recuerdo buff -> –o–p–r–o–t–e–i–n–r–e–c–u–e–r–d–o–b–u–f–f–
+11 oksen viven depths -> –o–k–s–e–n–v–i–v–e–n–d–e–p–t–h–s–
+12 valuable reserves banyak -> –v–a–l–u–a–b–l–e–r–e–s–e–r–v–e–s–b–a–n–y–a–k–
+13 referto cu encycl -> –r–e–f–e–r–t–o–c–u–e–n–c–y–c–l–
+14 idget flying armoured -> –i–d–g–e–t–f–l–y–i–n–g–a–r–m–o–u–r–e–d–
+15 frist romantic serve -> –f–r–i–s–t–r–o–m–a–n–t–i–c–s–e–r–v–e–
+16 ietako cassette dropdown -> –i–e–t–a–k–o–c–a–s–s–e–t–t–e–d–r–o–p–d–o–w–n–
+17 inaldo district buz -> –i–n–a–l–d–o–d–i–s–t–r–i–c–t–b–u–z–
+18 ektar immortal rigid -> –e–k–t–a–r–i–m–m–o–r–t–a–l–r–i–g–i–d–
+19 yt pencha feathers -> –y–t–p–e–n–c–h–a–f–e–a–t–h–e–r–s–
+20 esas ida betre -> –e–s–a–s–i–d–a–b–e–t–r–e–
+21 aternary prove taxonomy -> –a–t–e–r–n–a–r–y–p–r–o–v–e–t–a–x–o–n–o–m–y–
+22 texto arh rises -> –t–e–x–t–o–a–r–h–r–i–s–e–s–
+23 abama gick umet -> –a–b–a–m–a–g–i–c–k–u–m–e–t–
+24 amm locom powered -> –a–m–m–l–o–c–o–m–p–o–w–e–r–e–d–
+25 winner neatly eukary -> –w–i–n–n–e–r–n–e–a–t–l–y–e–u–k–a–r–y–
+26 angel relatif equally -> –a–n–g–e–l–r–e–l–a–t–i–f–e–q–u–a–l–l–y–
+27 ologen unge hasta -> –o–l–o–g–e–n–u–n–g–e–h–a–s–t–a–
+28 ave hearing couvrant -> –a–v–e–h–e–a–r–i–n–g–c–o–u–v–r–a–n–t–
+29 urant stew varie -> –u–r–a–n–t–s–t–e–w–v–a–r–i–e–
+30 odium looping hidup -> –o–d–i–u–m–l–o–o–p–i–n–g–h–i–d–u–p–
+31 seed tham chess -> –s–e–e–d–t–h–a–m–c–h–e–s–s–
+32 osphate fy coups -> –o–s–p–h–a–t–e–f–y–c–o–u–p–s–
+33 ynthesis sho sqrt -> –y–n–t–h–e–s–i–s–s–h–o–s–q–r–t–
+34 inden amounted commens -> –i–n–d–e–n–a–m–o–u–n–t–e–d–c–o–m–m–e–n–s–
+35 leton sedang blonde -> –l–e–t–o–n–s–e–d–a–n–g–b–l–o–n–d–e–
+36 extract searched levantar -> –e–x–t–r–a–c–t–s–e–a–r–c–h–e–d–l–e–v–a–n–t–a–r–
+37 found bisog malade -> –f–o–u–n–d–b–i–s–o–g–m–a–l–a–d–e–
+38 czenie aiz crede -> –c–z–e–n–i–e–a–i–z–c–r–e–d–e–
+39 continue isn curs -> –c–o–n–t–i–n–u–e–i–s–n–c–u–r–s–
+40 intes deed hein -> –i–n–t–e–s–d–e–e–d–h–e–i–n–
+41 www realms outra -> –w–w–w–r–e–a–l–m–s–o–u–t–r–a–
+42 raising soient diante -> –r–a–i–s–i–n–g–s–o–i–e–n–t–d–i–a–n–t–e–
+43 ipel firing pomen -> –i–p–e–l–f–i–r–i–n–g–p–o–m–e–n–
+44 ribu lux vib -> –r–i–b–u–l–u–x–v–i–b–
+45 bigr currents earn -> –b–i–g–r–c–u–r–r–e–n–t–s–e–a–r–n–
+46 owano tad lemma -> –o–w–a–n–o–t–a–d–l–e–m–m–a–
+47 ocr rumah fat -> –o–c–r–r–u–m–a–h–f–a–t–
+48 dit otto monar -> –d–i–t–o–t–t–o–m–o–n–a–r–
+49 prochen dir handed -> –p–r–o–c–h–e–n–d–i–r–h–a–n–d–e–d–
+50 anel beim inj -> –a–n–e–l–b–e–i–m–i–n–j–
+51 uu parsing kinderen -> –u–u–p–a–r–s–i–n–g–k–i–n–d–e–r–e–n–
+52 ublin kelas admi -> –u–b–l–i–n–k–e–l–a–s–a–d–m–i–
+53 llo datatype algorith -> –l–l–o–d–a–t–a–t–y–p–e–a–l–g–o–r–i–t–h–
+54 atelj negro flies -> –a–t–e–l–j–n–e–g–r–o–f–l–i–e–s–
+55 verw advers hran -> –v–e–r–w–a–d–v–e–r–s–h–r–a–n–
+56 ignait parto overcome -> –i–g–n–a–i–t–p–a–r–t–o–o–v–e–r–c–o–m–e–
+57 fiel po paint -> –f–i–e–l–p–o–p–a–i–n–t–
+58 chim zen aktiv -> –c–h–i–m–z–e–n–a–k–t–i–v–
+59 insert syndicat tin -> –i–n–s–e–r–t–s–y–n–d–i–c–a–t–t–i–n–
+60 ories servants gear -> –o–r–i–e–s–s–e–r–v–a–n–t–s–g–e–a–r–
+61 gemeinde dr divert -> –g–e–m–e–i–n–d–e–d–r–d–i–v–e–r–t–
+62 isaient abitanti diversa -> –i–s–a–i–e–n–t–a–b–i–t–a–n–t–i–d–i–v–e–r–s–a–
+63 atiu diskut kong -> –a–t–i–u–d–i–s–k–u–t–k–o–n–g–
+64 orable felhaszn reads -> –o–r–a–b–l–e–f–e–l–h–a–s–z–n–r–e–a–d–s–
+65 maps kik depends -> –m–a–p–s–k–i–k–d–e–p–e–n–d–s–
+66 chat keys chacune -> –c–h–a–t–k–e–y–s–c–h–a–c–u–n–e–
+67 lingen waking rispose -> –l–i–n–g–e–n–w–a–k–i–n–g–r–i–s–p–o–s–e–
+68 haltung gates vikt -> –h–a–l–t–u–n–g–g–a–t–e–s–v–i–k–t–
+69 inding ular dale -> –i–n–d–i–n–g–u–l–a–r–d–a–l–e–
+70 inae ruhig muff -> –i–n–a–e–r–u–h–i–g–m–u–f–f–
+71 dater embarked vst -> –d–a–t–e–r–e–m–b–a–r–k–e–d–v–s–t–
+72 scode faits labeled -> –s–c–o–d–e–f–a–i–t–s–l–a–b–e–l–e–d–
+73 ankind toner conserva -> –a–n–k–i–n–d–t–o–n–e–r–c–o–n–s–e–r–v–a–
+74 ream denotes dejando -> –r–e–a–m–d–e–n–o–t–e–s–d–e–j–a–n–d–o–
+75 itere candidat organise -> –i–t–e–r–e–c–a–n–d–i–d–a–t–o–r–g–a–n–i–s–e–
+76 bundle want preds -> –b–u–n–d–l–e–w–a–n–t–p–r–e–d–s–
+77 ock descans intr -> –o–c–k–d–e–s–c–a–n–s–i–n–t–r–
+78 putusan extreme srp -> –p–u–t–u–s–a–n–e–x–t–r–e–m–e–s–r–p–
+79 ikir insuff tremend -> –i–k–i–r–i–n–s–u–f–f–t–r–e–m–e–n–d–
+80 onym vul anyway -> –o–n–y–m–v–u–l–a–n–y–w–a–y–
+81 pap gek offenbar -> –p–a–p–g–e–k–o–f–f–e–n–b–a–r–
+82 sharp assume weder -> –s–h–a–r–p–a–s–s–u–m–e–w–e–d–e–r–
+83 anth unlaw refused -> –a–n–t–h–u–n–l–a–w–r–e–f–u–s–e–d–
+84 raining maf infe -> –r–a–i–n–i–n–g–m–a–f–i–n–f–e–
+85 omonas errors tissues -> –o–m–o–n–a–s–e–r–r–o–r–s–t–i–s–s–u–e–s–
+86 igna tasted scon -> –i–g–n–a–t–a–s–t–e–d–s–c–o–n–
+87 aste choisit starter -> –a–s–t–e–c–h–o–i–s–i–t–s–t–a–r–t–e–r–
+88 jn bond boc -> –j–n–b–o–n–d–b–o–c–
+89 avat seks puisque -> –a–v–a–t–s–e–k–s–p–u–i–s–q–u–e–
+90 prom prac beverage -> –p–r–o–m–p–r–a–c–b–e–v–e–r–a–g–e–
+91 esc mosquito dij -> –e–s–c–m–o–s–q–u–i–t–o–d–i–j–
+92 oughton traj offre -> –o–u–g–h–t–o–n–t–r–a–j–o–f–f–r–e–
+93 irmed excurs corner -> –i–r–m–e–d–e–x–c–u–r–s–c–o–r–n–e–r–
+94 stes tenga tank -> –s–t–e–s–t–e–n–g–a–t–a–n–k–
+95 hetics fried lcd -> –h–e–t–i–c–s–f–r–i–e–d–l–c–d–
+96 atiker kry preset -> –a–t–i–k–e–r–k–r–y–p–r–e–s–e–t–
+97 ystick tomon sele -> –y–s–t–i–c–k–t–o–m–o–n–s–e–l–e–
+98 usse stale desl -> –u–s–s–e–s–t–a–l–e–d–e–s–l–
+99 ailing plugs quella -> –a–i–l–i–n–g–p–l–u–g–s–q–u–e–l–l–a–

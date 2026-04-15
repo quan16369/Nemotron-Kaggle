@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 ologna niveaux manten
+01 peonatos deben repeats
+02 contre laure suma
+
+This is a sample output.
+00 ologna niveaux manten -> –o–l–o–g–n–a–n–i–v–e–a–u–x–m–a–n–t–e–n–
+01 peonatos deben repeats -> –p–e–o–n–a–t–o–s–d–e–b–e–n–r–e–p–e–a–t–s–
+02 contre laure suma -> –c–o–n–t–r–e–l–a–u–r–e–s–u–m–a–
+
+This is your input.
+00 dopodob lunch aro
+01 arri carre repeated
+02 mega spin azpian
+03 help luxury grid
+04 cita wilayah imit
+05 phere veliko gefol
+06 jud emprunt jag
+07 imat or surfact
+08 itic wak depende
+09 uated contando arroz
+10 amatan deutlich abd
+11 uidas average delar
+12 isebb semble denom
+13 oste tal nivel
+14 ucky mari ingen
+15 argli hatal rendez
+16 serde especial reconc
+17 aryng terut stap
+18 hours itali bomber
+19 ateko camis feel
+20 ulated labor equals
+21 acement sticks wheat
+22 zeit accepter creators
+23 estos resp herriak
+24 mathit spheres estran
+25 amb quite testim
+26 ajar verab rau
+27 ogli entwick phi
+28 ussia nil largeur
+29 atur ezag olevan
+30 starting despite za
+31 reja freezing days
+32 yez cinn galaxy
+33 employee jelen hau
+34 ley entrev reput
+35 undu miejs royal
+36 owel carton palace
+37 ropathy chicken visitar
+38 umpulan scary schrij
+39 barkeit alb tray
+40 orban salvage silico
+41 uchi doar inde
+42 skou difund aud
+43 jeg joke japan
+44 aczy resta sintet
+45 usqu weg vitro
+46 system tredje ale
+47 arren snatched rites
+48 save potom miniser
+49 ugins corr conseils
+50 orah yap formar
+51 fahr discount shared
+52 anese couleur empresa
+53 ientras selbst oy
+54 opolys libertad sharpen
+55 icrosoft prior literar
+56 urtles cookies etxek
+57 lea manip badge
+58 thy trem agon
+59 ulg phenomen shifts
+60 ivative existe kein
+61 avais egyen action
+62 andet chegou barr
+63 oglio konnte thua
+64 razioni la disa
+65 eus layer vs
+66 endis replen refroid
+67 ugar voulait padding
+68 ifact annak tromp
+69 sier forecast northern
+70 ammt vals bolt
+71 ognitive ouvriers hydrocar
+72 ae medicine lic
+73 uitable larmes neun
+74 ler mainland katta
+75 ells tuer extr
+76 iehen speaks pigments
+77 redients strained maupun
+78 alance azt microbes
+79 amus street woh
+80 ierende braces skin
+81 idences tidal lineal
+82 hawks lej salon
+83 denly halten mezcl
+84 letto toll utveck
+85 anine oinar limbs
+86 asures operand sx
+87 anger doce ages
+88 oll synt volv
+89 onor serie expects
+90 oxid distingu zi
+91 oudre prends limite
+92 nimmt inhibits dinastia
+93 zeros swallow alarms
+94 anha alku finely
+95 ocolate rough outward
+96 supp centrum libero
+97 igon hing alebo
+98 park izaz chemo
+99 izzo carn chrome
+[completion]
+00 dopodob lunch aro -> –d–o–p–o–d–o–b–l–u–n–c–h–a–r–o–
+01 arri carre repeated -> –a–r–r–i–c–a–r–r–e–r–e–p–e–a–t–e–d–
+02 mega spin azpian -> –m–e–g–a–s–p–i–n–a–z–p–i–a–n–
+03 help luxury grid -> –h–e–l–p–l–u–x–u–r–y–g–r–i–d–
+04 cita wilayah imit -> –c–i–t–a–w–i–l–a–y–a–h–i–m–i–t–
+05 phere veliko gefol -> –p–h–e–r–e–v–e–l–i–k–o–g–e–f–o–l–
+06 jud emprunt jag -> –j–u–d–e–m–p–r–u–n–t–j–a–g–
+07 imat or surfact -> –i–m–a–t–o–r–s–u–r–f–a–c–t–
+08 itic wak depende -> –i–t–i–c–w–a–k–d–e–p–e–n–d–e–
+09 uated contando arroz -> –u–a–t–e–d–c–o–n–t–a–n–d–o–a–r–r–o–z–
+10 amatan deutlich abd -> –a–m–a–t–a–n–d–e–u–t–l–i–c–h–a–b–d–
+11 uidas average delar -> –u–i–d–a–s–a–v–e–r–a–g–e–d–e–l–a–r–
+12 isebb semble denom -> –i–s–e–b–b–s–e–m–b–l–e–d–e–n–o–m–
+13 oste tal nivel -> –o–s–t–e–t–a–l–n–i–v–e–l–
+14 ucky mari ingen -> –u–c–k–y–m–a–r–i–i–n–g–e–n–
+15 argli hatal rendez -> –a–r–g–l–i–h–a–t–a–l–r–e–n–d–e–z–
+16 serde especial reconc -> –s–e–r–d–e–e–s–p–e–c–i–a–l–r–e–c–o–n–c–
+17 aryng terut stap -> –a–r–y–n–g–t–e–r–u–t–s–t–a–p–
+18 hours itali bomber -> –h–o–u–r–s–i–t–a–l–i–b–o–m–b–e–r–
+19 ateko camis feel -> –a–t–e–k–o–c–a–m–i–s–f–e–e–l–
+20 ulated labor equals -> –u–l–a–t–e–d–l–a–b–o–r–e–q–u–a–l–s–
+21 acement sticks wheat -> –a–c–e–m–e–n–t–s–t–i–c–k–s–w–h–e–a–t–
+22 zeit accepter creators -> –z–e–i–t–a–c–c–e–p–t–e–r–c–r–e–a–t–o–r–s–
+23 estos resp herriak -> –e–s–t–o–s–r–e–s–p–h–e–r–r–i–a–k–
+24 mathit spheres estran -> –m–a–t–h–i–t–s–p–h–e–r–e–s–e–s–t–r–a–n–
+25 amb quite testim -> –a–m–b–q–u–i–t–e–t–e–s–t–i–m–
+26 ajar verab rau -> –a–j–a–r–v–e–r–a–b–r–a–u–
+27 ogli entwick phi -> –o–g–l–i–e–n–t–w–i–c–k–p–h–i–
+28 ussia nil largeur -> –u–s–s–i–a–n–i–l–l–a–r–g–e–u–r–
+29 atur ezag olevan -> –a–t–u–r–e–z–a–g–o–l–e–v–a–n–
+30 starting despite za -> –s–t–a–r–t–i–n–g–d–e–s–p–i–t–e–z–a–
+31 reja freezing days -> –r–e–j–a–f–r–e–e–z–i–n–g–d–a–y–s–
+32 yez cinn galaxy -> –y–e–z–c–i–n–n–g–a–l–a–x–y–
+33 employee jelen hau -> –e–m–p–l–o–y–e–e–j–e–l–e–n–h–a–u–
+34 ley entrev reput -> –l–e–y–e–n–t–r–e–v–r–e–p–u–t–
+35 undu miejs royal -> –u–n–d–u–m–i–e–j–s–r–o–y–a–l–
+36 owel carton palace -> –o–w–e–l–c–a–r–t–o–n–p–a–l–a–c–e–
+37 ropathy chicken visitar -> –r–o–p–a–t–h–y–c–h–i–c–k–e–n–v–i–s–i–t–a–r–
+38 umpulan scary schrij -> –u–m–p–u–l–a–n–s–c–a–r–y–s–c–h–r–i–j–
+39 barkeit alb tray -> –b–a–r–k–e–i–t–a–l–b–t–r–a–y–
+40 orban salvage silico -> –o–r–b–a–n–s–a–l–v–a–g–e–s–i–l–i–c–o–
+41 uchi doar inde -> –u–c–h–i–d–o–a–r–i–n–d–e–
+42 skou difund aud -> –s–k–o–u–d–i–f–u–n–d–a–u–d–
+43 jeg joke japan -> –j–e–g–j–o–k–e–j–a–p–a–n–
+44 aczy resta sintet -> –a–c–z–y–r–e–s–t–a–s–i–n–t–e–t–
+45 usqu weg vitro -> –u–s–q–u–w–e–g–v–i–t–r–o–
+46 system tredje ale -> –s–y–s–t–e–m–t–r–e–d–j–e–a–l–e–
+47 arren snatched rites -> –a–r–r–e–n–s–n–a–t–c–h–e–d–r–i–t–e–s–
+48 save potom miniser -> –s–a–v–e–p–o–t–o–m–m–i–n–i–s–e–r–
+49 ugins corr conseils -> –u–g–i–n–s–c–o–r–r–c–o–n–s–e–i–l–s–
+50 orah yap formar -> –o–r–a–h–y–a–p–f–o–r–m–a–r–
+51 fahr discount shared -> –f–a–h–r–d–i–s–c–o–u–n–t–s–h–a–r–e–d–
+52 anese couleur empresa -> –a–n–e–s–e–c–o–u–l–e–u–r–e–m–p–r–e–s–a–
+53 ientras selbst oy -> –i–e–n–t–r–a–s–s–e–l–b–s–t–o–y–
+54 opolys libertad sharpen -> –o–p–o–l–y–s–l–i–b–e–r–t–a–d–s–h–a–r–p–e–n–
+55 icrosoft prior literar -> –i–c–r–o–s–o–f–t–p–r–i–o–r–l–i–t–e–r–a–r–
+56 urtles cookies etxek -> –u–r–t–l–e–s–c–o–o–k–i–e–s–e–t–x–e–k–
+57 lea manip badge -> –l–e–a–m–a–n–i–p–b–a–d–g–e–
+58 thy trem agon -> –t–h–y–t–r–e–m–a–g–o–n–
+59 ulg phenomen shifts -> –u–l–g–p–h–e–n–o–m–e–n–s–h–i–f–t–s–
+60 ivative existe kein -> –i–v–a–t–i–v–e–e–x–i–s–t–e–k–e–i–n–
+61 avais egyen action -> –a–v–a–i–s–e–g–y–e–n–a–c–t–i–o–n–
+62 andet chegou barr -> –a–n–d–e–t–c–h–e–g–o–u–b–a–r–r–
+63 oglio konnte thua -> –o–g–l–i–o–k–o–n–n–t–e–t–h–u–a–
+64 razioni la disa -> –r–a–z–i–o–n–i–l–a–d–i–s–a–
+65 eus layer vs -> –e–u–s–l–a–y–e–r–v–s–
+66 endis replen refroid -> –e–n–d–i–s–r–e–p–l–e–n–r–e–f–r–o–i–d–
+67 ugar voulait padding -> –u–g–a–r–v–o–u–l–a–i–t–p–a–d–d–i–n–g–
+68 ifact annak tromp -> –i–f–a–c–t–a–n–n–a–k–t–r–o–m–p–
+69 sier forecast northern -> –s–i–e–r–f–o–r–e–c–a–s–t–n–o–r–t–h–e–r–n–
+70 ammt vals bolt -> –a–m–m–t–v–a–l–s–b–o–l–t–
+71 ognitive ouvriers hydrocar -> –o–g–n–i–t–i–v–e–o–u–v–r–i–e–r–s–h–y–d–r–o–c–a–r–
+72 ae medicine lic -> –a–e–m–e–d–i–c–i–n–e–l–i–c–
+73 uitable larmes neun -> –u–i–t–a–b–l–e–l–a–r–m–e–s–n–e–u–n–
+74 ler mainland katta -> –l–e–r–m–a–i–n–l–a–n–d–k–a–t–t–a–
+75 ells tuer extr -> –e–l–l–s–t–u–e–r–e–x–t–r–
+76 iehen speaks pigments -> –i–e–h–e–n–s–p–e–a–k–s–p–i–g–m–e–n–t–s–
+77 redients strained maupun -> –r–e–d–i–e–n–t–s–s–t–r–a–i–n–e–d–m–a–u–p–u–n–
+78 alance azt microbes -> –a–l–a–n–c–e–a–z–t–m–i–c–r–o–b–e–s–
+79 amus street woh -> –a–m–u–s–s–t–r–e–e–t–w–o–h–
+80 ierende braces skin -> –i–e–r–e–n–d–e–b–r–a–c–e–s–s–k–i–n–
+81 idences tidal lineal -> –i–d–e–n–c–e–s–t–i–d–a–l–l–i–n–e–a–l–
+82 hawks lej salon -> –h–a–w–k–s–l–e–j–s–a–l–o–n–
+83 denly halten mezcl -> –d–e–n–l–y–h–a–l–t–e–n–m–e–z–c–l–
+84 letto toll utveck -> –l–e–t–t–o–t–o–l–l–u–t–v–e–c–k–
+85 anine oinar limbs -> –a–n–i–n–e–o–i–n–a–r–l–i–m–b–s–
+86 asures operand sx -> –a–s–u–r–e–s–o–p–e–r–a–n–d–s–x–
+87 anger doce ages -> –a–n–g–e–r–d–o–c–e–a–g–e–s–
+88 oll synt volv -> –o–l–l–s–y–n–t–v–o–l–v–
+89 onor serie expects -> –o–n–o–r–s–e–r–i–e–e–x–p–e–c–t–s–
+90 oxid distingu zi -> –o–x–i–d–d–i–s–t–i–n–g–u–z–i–
+91 oudre prends limite -> –o–u–d–r–e–p–r–e–n–d–s–l–i–m–i–t–e–
+92 nimmt inhibits dinastia -> –n–i–m–m–t–i–n–h–i–b–i–t–s–d–i–n–a–s–t–i–a–
+93 zeros swallow alarms -> –z–e–r–o–s–s–w–a–l–l–o–w–a–l–a–r–m–s–
+94 anha alku finely -> –a–n–h–a–a–l–k–u–f–i–n–e–l–y–
+95 ocolate rough outward -> –o–c–o–l–a–t–e–r–o–u–g–h–o–u–t–w–a–r–d–
+96 supp centrum libero -> –s–u–p–p–c–e–n–t–r–u–m–l–i–b–e–r–o–
+97 igon hing alebo -> –i–g–o–n–h–i–n–g–a–l–e–b–o–
+98 park izaz chemo -> –p–a–r–k–i–z–a–z–c–h–e–m–o–
+99 izzo carn chrome -> –i–z–z–o–c–a–r–n–c–h–r–o–m–e–

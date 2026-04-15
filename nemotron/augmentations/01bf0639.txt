@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 cie slopes epiz
+01 hey music war
+02 opathy enviados bindings
+
+This is a sample output.
+00 cie slopes epiz -> –c–i–e–s–l–o–p–e–s–e–p–i–z–
+01 hey music war -> –h–e–y–m–u–s–i–c–w–a–r–
+02 opathy enviados bindings -> –o–p–a–t–h–y–e–n–v–i–a–d–o–s–b–i–n–d–i–n–g–s–
+
+This is your input.
+00 rosa refor ought
+01 spec tapered cutting
+02 orney suspend quarto
+03 anten importe bureaux
+04 nasia cual accommod
+05 ateria personer cockpit
+06 ividad soumis endemic
+07 cieron subsequ gives
+08 diri nests arcos
+09 krie kan sodium
+10 ubicin gas region
+11 endra escl belles
+12 asuring reactors sunset
+13 onti observer ultima
+14 ans incoming rank
+15 ath lazy tappa
+16 ophen przyby stanov
+17 ray tastes lager
+18 beth diber landet
+19 pload dazu infine
+20 orio analogue bouncing
+21 mateix chemp pug
+22 ined gevonden sonora
+23 uginosa ferm favour
+24 urger orch payer
+25 gree agosto tbl
+26 holz idol drawing
+27 anya ambos gram
+28 ensi escre makanan
+29 erville runde izve
+30 ovenant waarbij zituen
+31 akh cavallo bakter
+32 loo goog opener
+33 vorm bedeut inductor
+34 frau dzie escritor
+35 sung dor pasa
+36 vue jedn rhe
+37 nante decir capill
+38 rante intensa mourning
+39 agh meinem schrift
+40 meg espacios belegte
+41 rav capitale improved
+42 chr dinero holds
+43 organiz empr acept
+44 urende beach clerk
+45 cache eht dy
+46 ilis encourag vin
+47 gal ris main
+48 rather reflects forte
+49 fname others enemigo
+50 rowth ber doubtful
+51 ueblos fiestas scelta
+52 hanced doch setiap
+53 kiem kryty mods
+54 kez dataset tends
+55 week fren bitten
+56 uffix altru tk
+57 ne opinion idle
+58 zni reb integers
+59 eless czter markup
+60 enti extras coupon
+61 fen manifi apain
+62 wap lop corri
+63 accia emig websites
+64 gett terminal pri
+65 omain reiste changes
+66 ccan creato cultures
+67 okon eternal versen
+68 fmt cattur studies
+69 lining sme putative
+70 idity esso oral
+71 ody occurr herbal
+72 messages films essayer
+73 ano reptiles kimi
+74 dzy coloured liking
+75 pom disguise destaca
+76 ouch socks episcop
+77 ithe explode lunes
+78 ffee androidx canc
+79 plona unveiled afirmou
+80 voie unas embraced
+81 roits zufolge desempe
+82 laise ako prue
+83 isbane erheb envolv
+84 ono kurt prof
+85 elen confus kullan
+86 olecular quieres oberen
+87 ordinate zweiter rally
+88 amide elegido urgently
+89 perg pasado service
+90 iqua bgcolor adh
+91 mirante tr queer
+92 voiced chamado bishop
+93 jach ray gleiche
+94 ares penet ideology
+95 stalle unor allez
+96 catch hely me
+97 jap tracks bid
+98 incinn vulgaris destra
+99 breaking deepest punished
+[completion]
+00 rosa refor ought -> –r–o–s–a–r–e–f–o–r–o–u–g–h–t–
+01 spec tapered cutting -> –s–p–e–c–t–a–p–e–r–e–d–c–u–t–t–i–n–g–
+02 orney suspend quarto -> –o–r–n–e–y–s–u–s–p–e–n–d–q–u–a–r–t–o–
+03 anten importe bureaux -> –a–n–t–e–n–i–m–p–o–r–t–e–b–u–r–e–a–u–x–
+04 nasia cual accommod -> –n–a–s–i–a–c–u–a–l–a–c–c–o–m–m–o–d–
+05 ateria personer cockpit -> –a–t–e–r–i–a–p–e–r–s–o–n–e–r–c–o–c–k–p–i–t–
+06 ividad soumis endemic -> –i–v–i–d–a–d–s–o–u–m–i–s–e–n–d–e–m–i–c–
+07 cieron subsequ gives -> –c–i–e–r–o–n–s–u–b–s–e–q–u–g–i–v–e–s–
+08 diri nests arcos -> –d–i–r–i–n–e–s–t–s–a–r–c–o–s–
+09 krie kan sodium -> –k–r–i–e–k–a–n–s–o–d–i–u–m–
+10 ubicin gas region -> –u–b–i–c–i–n–g–a–s–r–e–g–i–o–n–
+11 endra escl belles -> –e–n–d–r–a–e–s–c–l–b–e–l–l–e–s–
+12 asuring reactors sunset -> –a–s–u–r–i–n–g–r–e–a–c–t–o–r–s–s–u–n–s–e–t–
+13 onti observer ultima -> –o–n–t–i–o–b–s–e–r–v–e–r–u–l–t–i–m–a–
+14 ans incoming rank -> –a–n–s–i–n–c–o–m–i–n–g–r–a–n–k–
+15 ath lazy tappa -> –a–t–h–l–a–z–y–t–a–p–p–a–
+16 ophen przyby stanov -> –o–p–h–e–n–p–r–z–y–b–y–s–t–a–n–o–v–
+17 ray tastes lager -> –r–a–y–t–a–s–t–e–s–l–a–g–e–r–
+18 beth diber landet -> –b–e–t–h–d–i–b–e–r–l–a–n–d–e–t–
+19 pload dazu infine -> –p–l–o–a–d–d–a–z–u–i–n–f–i–n–e–
+20 orio analogue bouncing -> –o–r–i–o–a–n–a–l–o–g–u–e–b–o–u–n–c–i–n–g–
+21 mateix chemp pug -> –m–a–t–e–i–x–c–h–e–m–p–p–u–g–
+22 ined gevonden sonora -> –i–n–e–d–g–e–v–o–n–d–e–n–s–o–n–o–r–a–
+23 uginosa ferm favour -> –u–g–i–n–o–s–a–f–e–r–m–f–a–v–o–u–r–
+24 urger orch payer -> –u–r–g–e–r–o–r–c–h–p–a–y–e–r–
+25 gree agosto tbl -> –g–r–e–e–a–g–o–s–t–o–t–b–l–
+26 holz idol drawing -> –h–o–l–z–i–d–o–l–d–r–a–w–i–n–g–
+27 anya ambos gram -> –a–n–y–a–a–m–b–o–s–g–r–a–m–
+28 ensi escre makanan -> –e–n–s–i–e–s–c–r–e–m–a–k–a–n–a–n–
+29 erville runde izve -> –e–r–v–i–l–l–e–r–u–n–d–e–i–z–v–e–
+30 ovenant waarbij zituen -> –o–v–e–n–a–n–t–w–a–a–r–b–i–j–z–i–t–u–e–n–
+31 akh cavallo bakter -> –a–k–h–c–a–v–a–l–l–o–b–a–k–t–e–r–
+32 loo goog opener -> –l–o–o–g–o–o–g–o–p–e–n–e–r–
+33 vorm bedeut inductor -> –v–o–r–m–b–e–d–e–u–t–i–n–d–u–c–t–o–r–
+34 frau dzie escritor -> –f–r–a–u–d–z–i–e–e–s–c–r–i–t–o–r–
+35 sung dor pasa -> –s–u–n–g–d–o–r–p–a–s–a–
+36 vue jedn rhe -> –v–u–e–j–e–d–n–r–h–e–
+37 nante decir capill -> –n–a–n–t–e–d–e–c–i–r–c–a–p–i–l–l–
+38 rante intensa mourning -> –r–a–n–t–e–i–n–t–e–n–s–a–m–o–u–r–n–i–n–g–
+39 agh meinem schrift -> –a–g–h–m–e–i–n–e–m–s–c–h–r–i–f–t–
+40 meg espacios belegte -> –m–e–g–e–s–p–a–c–i–o–s–b–e–l–e–g–t–e–
+41 rav capitale improved -> –r–a–v–c–a–p–i–t–a–l–e–i–m–p–r–o–v–e–d–
+42 chr dinero holds -> –c–h–r–d–i–n–e–r–o–h–o–l–d–s–
+43 organiz empr acept -> –o–r–g–a–n–i–z–e–m–p–r–a–c–e–p–t–
+44 urende beach clerk -> –u–r–e–n–d–e–b–e–a–c–h–c–l–e–r–k–
+45 cache eht dy -> –c–a–c–h–e–e–h–t–d–y–
+46 ilis encourag vin -> –i–l–i–s–e–n–c–o–u–r–a–g–v–i–n–
+47 gal ris main -> –g–a–l–r–i–s–m–a–i–n–
+48 rather reflects forte -> –r–a–t–h–e–r–r–e–f–l–e–c–t–s–f–o–r–t–e–
+49 fname others enemigo -> –f–n–a–m–e–o–t–h–e–r–s–e–n–e–m–i–g–o–
+50 rowth ber doubtful -> –r–o–w–t–h–b–e–r–d–o–u–b–t–f–u–l–
+51 ueblos fiestas scelta -> –u–e–b–l–o–s–f–i–e–s–t–a–s–s–c–e–l–t–a–
+52 hanced doch setiap -> –h–a–n–c–e–d–d–o–c–h–s–e–t–i–a–p–
+53 kiem kryty mods -> –k–i–e–m–k–r–y–t–y–m–o–d–s–
+54 kez dataset tends -> –k–e–z–d–a–t–a–s–e–t–t–e–n–d–s–
+55 week fren bitten -> –w–e–e–k–f–r–e–n–b–i–t–t–e–n–
+56 uffix altru tk -> –u–f–f–i–x–a–l–t–r–u–t–k–
+57 ne opinion idle -> –n–e–o–p–i–n–i–o–n–i–d–l–e–
+58 zni reb integers -> –z–n–i–r–e–b–i–n–t–e–g–e–r–s–
+59 eless czter markup -> –e–l–e–s–s–c–z–t–e–r–m–a–r–k–u–p–
+60 enti extras coupon -> –e–n–t–i–e–x–t–r–a–s–c–o–u–p–o–n–
+61 fen manifi apain -> –f–e–n–m–a–n–i–f–i–a–p–a–i–n–
+62 wap lop corri -> –w–a–p–l–o–p–c–o–r–r–i–
+63 accia emig websites -> –a–c–c–i–a–e–m–i–g–w–e–b–s–i–t–e–s–
+64 gett terminal pri -> –g–e–t–t–t–e–r–m–i–n–a–l–p–r–i–
+65 omain reiste changes -> –o–m–a–i–n–r–e–i–s–t–e–c–h–a–n–g–e–s–
+66 ccan creato cultures -> –c–c–a–n–c–r–e–a–t–o–c–u–l–t–u–r–e–s–
+67 okon eternal versen -> –o–k–o–n–e–t–e–r–n–a–l–v–e–r–s–e–n–
+68 fmt cattur studies -> –f–m–t–c–a–t–t–u–r–s–t–u–d–i–e–s–
+69 lining sme putative -> –l–i–n–i–n–g–s–m–e–p–u–t–a–t–i–v–e–
+70 idity esso oral -> –i–d–i–t–y–e–s–s–o–o–r–a–l–
+71 ody occurr herbal -> –o–d–y–o–c–c–u–r–r–h–e–r–b–a–l–
+72 messages films essayer -> –m–e–s–s–a–g–e–s–f–i–l–m–s–e–s–s–a–y–e–r–
+73 ano reptiles kimi -> –a–n–o–r–e–p–t–i–l–e–s–k–i–m–i–
+74 dzy coloured liking -> –d–z–y–c–o–l–o–u–r–e–d–l–i–k–i–n–g–
+75 pom disguise destaca -> –p–o–m–d–i–s–g–u–i–s–e–d–e–s–t–a–c–a–
+76 ouch socks episcop -> –o–u–c–h–s–o–c–k–s–e–p–i–s–c–o–p–
+77 ithe explode lunes -> –i–t–h–e–e–x–p–l–o–d–e–l–u–n–e–s–
+78 ffee androidx canc -> –f–f–e–e–a–n–d–r–o–i–d–x–c–a–n–c–
+79 plona unveiled afirmou -> –p–l–o–n–a–u–n–v–e–i–l–e–d–a–f–i–r–m–o–u–
+80 voie unas embraced -> –v–o–i–e–u–n–a–s–e–m–b–r–a–c–e–d–
+81 roits zufolge desempe -> –r–o–i–t–s–z–u–f–o–l–g–e–d–e–s–e–m–p–e–
+82 laise ako prue -> –l–a–i–s–e–a–k–o–p–r–u–e–
+83 isbane erheb envolv -> –i–s–b–a–n–e–e–r–h–e–b–e–n–v–o–l–v–
+84 ono kurt prof -> –o–n–o–k–u–r–t–p–r–o–f–
+85 elen confus kullan -> –e–l–e–n–c–o–n–f–u–s–k–u–l–l–a–n–
+86 olecular quieres oberen -> –o–l–e–c–u–l–a–r–q–u–i–e–r–e–s–o–b–e–r–e–n–
+87 ordinate zweiter rally -> –o–r–d–i–n–a–t–e–z–w–e–i–t–e–r–r–a–l–l–y–
+88 amide elegido urgently -> –a–m–i–d–e–e–l–e–g–i–d–o–u–r–g–e–n–t–l–y–
+89 perg pasado service -> –p–e–r–g–p–a–s–a–d–o–s–e–r–v–i–c–e–
+90 iqua bgcolor adh -> –i–q–u–a–b–g–c–o–l–o–r–a–d–h–
+91 mirante tr queer -> –m–i–r–a–n–t–e–t–r–q–u–e–e–r–
+92 voiced chamado bishop -> –v–o–i–c–e–d–c–h–a–m–a–d–o–b–i–s–h–o–p–
+93 jach ray gleiche -> –j–a–c–h–r–a–y–g–l–e–i–c–h–e–
+94 ares penet ideology -> –a–r–e–s–p–e–n–e–t–i–d–e–o–l–o–g–y–
+95 stalle unor allez -> –s–t–a–l–l–e–u–n–o–r–a–l–l–e–z–
+96 catch hely me -> –c–a–t–c–h–h–e–l–y–m–e–
+97 jap tracks bid -> –j–a–p–t–r–a–c–k–s–b–i–d–
+98 incinn vulgaris destra -> –i–n–c–i–n–n–v–u–l–g–a–r–i–s–d–e–s–t–r–a–
+99 breaking deepest punished -> –b–r–e–a–k–i–n–g–d–e–e–p–e–s–t–p–u–n–i–s–h–e–d–

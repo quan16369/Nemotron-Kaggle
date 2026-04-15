@@ -1,0 +1,77 @@
+problem id: 468bf9fc
+category: cryptarithm_guess
+
+examples:
+1. !!-`? = %\
+2. &&->% = \?
+3. >?-}? = >
+4. :%-|` = &?
+
+inferred rule:
+Treat each non-operator symbol as a decimal digit and read each 2-symbol operand as a 2-digit number written in order.
+
+The examples fit this operation rule exactly:
+
+- `-` means take the absolute difference of the two decoded numbers.
+- Reverse the decimal digits of that numeric result before encoding it back into symbols.
+- If reversing produces a leading zero, drop that zero.
+
+One exact digit assignment that satisfies all four examples is:
+
+- | = 0
+- \ = 1
+- ? = 2
+- : = 3
+- > = 4
+- % = 5
+- & = 6
+- ! = 7
+- } = 8
+- ` = 9
+
+step-by-step check on the examples:
+1. !!-`?
+   !! decodes to 77.
+   `? decodes to 92.
+   |77 - 92| = 15.
+   Reverse 15 -> 51.
+   5 -> %, 1 -> \, so the output is %\.
+
+2. &&->%
+   && decodes to 66.
+   >% decodes to 45.
+   |66 - 45| = 21.
+   Reverse 21 -> 12.
+   1 -> \, 2 -> ?, so the output is \?.
+
+3. >?-}?
+   >? decodes to 42.
+   }? decodes to 82.
+   |42 - 82| = 40.
+   Reverse 40 -> 04, then drop the leading zero to get 4.
+   4 -> >, so the output is >.
+
+4. :%-|`
+   :% decodes to 35.
+   |` decodes to 09, i.e. 9.
+   |35 - 9| = 26.
+   Reverse 26 -> 62.
+   6 -> &, 2 -> ?, so the output is &?.
+
+step-by-step application to the query:
+Query: !!+:!
+
+1. !! decodes to 77.
+2. :! decodes to 37.
+3. The examples only show -, so taking + as ordinary addition is an extrapolation: 77 + 37 = 114.
+4. Keep the same reverse-the-result convention: 114 -> 411.
+5. Encode 411 back into symbols:
+   4 -> >
+   1 -> \
+   1 -> \
+
+predicted answer:
+>\\
+
+confidence note:
+Low confidence. The subtraction-plus-reverse-result rule fits all shown examples exactly, but the training examples do not uniquely determine the digit map, and `+` never appears in the examples, so the query step is a real extrapolation.

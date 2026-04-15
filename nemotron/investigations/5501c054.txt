@@ -1,0 +1,85 @@
+problem id: 5501c054
+category: cryptarithm_guess
+
+examples:
+1. `'){^' = #[`
+2. `"!{#^ = ^>`
+3. `[#}\" = #>`
+4. `!&}"" = ^["`
+5. `#)}'\ = ^!>`
+
+inferred rule:
+Treat each non-middle symbol as a decimal digit. Read the first two symbols as a 2-digit left operand and the last two symbols as a 2-digit right operand.
+
+The five examples force one clean digit map:
+
+- `' = 9`
+- `) = 3`
+- `^ = 1`
+- `# = 7`
+- `[ = 4`
+- `" = 8`
+- `! = 6`
+- `> = 5`
+- `\ = 2`
+- `& = 0`
+
+Under that map:
+
+- `{` means absolute difference.
+- `}` means ordinary addition.
+- The query's unseen `$` is most defensibly ordinary multiplication, because the examples already use the other two basic arithmetic operations.
+
+step-by-step check on the examples:
+1. `'){^'`
+   `') = 93`
+   `^' = 19`
+   `|93 - 19| = 74`
+   `7 -> #`, `4 -> [`
+   Output: `#[`
+
+2. `"!{#^`
+   `"! = 86`
+   `#^ = 71`
+   `|86 - 71| = 15`
+   `1 -> ^`, `5 -> >`
+   Output: `^>`
+
+3. `[#}\"`
+   `[# = 47`
+   `\" = 28`
+   `47 + 28 = 75`
+   `7 -> #`, `5 -> >`
+   Output: `#>`
+
+4. `!&}""`
+   `!& = 60`
+   `"" = 88`
+   `60 + 88 = 148`
+   `1 -> ^`, `4 -> [`, `8 -> "`
+   Output: `^["`
+
+5. `#)}'\`
+   `#) = 73`
+   `'\ = 92`
+   `73 + 92 = 165`
+   `1 -> ^`, `6 -> !`, `5 -> >`
+   Output: `^!>`
+
+step-by-step application to the query:
+Query: `!#$#^`
+
+1. `!#` decodes to `67`.
+2. `#^` decodes to `71`.
+3. Apply the inferred `$` rule as multiplication: `67 * 71 = 4757`.
+4. Encode `4757` with the digit map:
+   `4 -> [`
+   `7 -> #`
+   `5 -> >`
+   `7 -> #`
+
+predicted answer:
+`[#>#`
+
+confidence note:
+Medium-high. The digit map is pinned down cleanly by the five examples, and `{` plus `}` are directly demonstrated. The only extrapolation is assigning the unseen `$` to multiplication, but that is the natural remaining basic arithmetic rule.

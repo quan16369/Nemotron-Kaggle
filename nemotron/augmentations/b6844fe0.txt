@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 adus hydroph come
+01 isses alap tercer
+02 ciation insights samen
+
+This is a sample output.
+00 adus hydroph come -> –a–d–u–s–h–y–d–r–o–p–h–c–o–m–e–
+01 isses alap tercer -> –i–s–s–e–s–a–l–a–p–t–e–r–c–e–r–
+02 ciation insights samen -> –c–i–a–t–i–o–n–i–n–s–i–g–h–t–s–s–a–m–e–n–
+
+This is your input.
+00 iekt laughter oktober
+01 reux beber ech
+02 leich pupp egym
+03 ivered rescued facing
+04 ifies devint es
+05 rames unamb tabela
+06 ffective morally wart
+07 ki median exerted
+08 tos peric nanos
+09 xml lapar intern
+10 into rt verir
+11 idazole alak tooth
+12 junto uczest parven
+13 friends kirch cpu
+14 orus subir hai
+15 jera bodily naps
+16 iry grou villes
+17 det melihat dipl
+18 back choice nemmeno
+19 jat vier skupiny
+20 aume promesse mp
+21 larni emitting sold
+22 tect espacial prose
+23 ihak sospe moral
+24 landi nessuno pell
+25 cano facility styled
+26 omod thank sape
+27 vana cancell lenguaje
+28 affee transfer eredet
+29 wherein volum tropas
+30 riez banque querying
+31 endom sci halo
+32 plane ejerc whole
+33 leva trein sensor
+34 cert shru padres
+35 changes consid kidneys
+36 prin valle about
+37 hampton aggreg torne
+38 lund cens sell
+39 kev caminh supr
+40 iong vitesse vengono
+41 ignes lecz lagen
+42 ponses elevada cytoplas
+43 filters emis analogy
+44 qda such ning
+45 ider defence russes
+46 elm communic damn
+47 olem pev custod
+48 allel meinen provo
+49 unit iglesia accord
+50 liter przyp ofere
+51 ses razd raport
+52 rad gotta ulogu
+53 neys worm exclus
+54 ryl lok sav
+55 wards rear copa
+56 hrt confined faute
+57 irc roce chances
+58 gior buffered sie
+59 ojas zeg annet
+60 leaf aand indeed
+61 chen cliff prom
+62 kkue ted membros
+63 estr tabl inclou
+64 ismarck together beard
+65 ivalente rabbits oxidized
+66 galkan hog decimal
+67 iminal finite iy
+68 iona mesos neurom
+69 utable interval programm
+70 ername chino solely
+71 zobispo elseif puzz
+72 iences spray brusqu
+73 amina hole normas
+74 otides guarding dile
+75 inceton entrepr yar
+76 off surviv lesbian
+77 ococcus pointers bate
+78 shield presque browsers
+79 rasse testo nodes
+80 richtung contou tempr
+81 asus fruits virtues
+82 pciones olur sono
+83 ibia tensile wod
+84 modal phases tcp
+85 iot retorn outlets
+86 ithmetic belang treize
+87 but outliers unu
+88 atie spolo przypad
+89 owo desp good
+90 wek affaires szczeg
+91 rona zap laure
+92 abar knife kuten
+93 ieten meng siempre
+94 zew kalan flip
+95 ifik arreg jog
+96 ustom stated minima
+97 ahi supra stain
+98 cho brow prakty
+99 unakan erhoben savez
+[completion]
+00 iekt laughter oktober -> –i–e–k–t–l–a–u–g–h–t–e–r–o–k–t–o–b–e–r–
+01 reux beber ech -> –r–e–u–x–b–e–b–e–r–e–c–h–
+02 leich pupp egym -> –l–e–i–c–h–p–u–p–p–e–g–y–m–
+03 ivered rescued facing -> –i–v–e–r–e–d–r–e–s–c–u–e–d–f–a–c–i–n–g–
+04 ifies devint es -> –i–f–i–e–s–d–e–v–i–n–t–e–s–
+05 rames unamb tabela -> –r–a–m–e–s–u–n–a–m–b–t–a–b–e–l–a–
+06 ffective morally wart -> –f–f–e–c–t–i–v–e–m–o–r–a–l–l–y–w–a–r–t–
+07 ki median exerted -> –k–i–m–e–d–i–a–n–e–x–e–r–t–e–d–
+08 tos peric nanos -> –t–o–s–p–e–r–i–c–n–a–n–o–s–
+09 xml lapar intern -> –x–m–l–l–a–p–a–r–i–n–t–e–r–n–
+10 into rt verir -> –i–n–t–o–r–t–v–e–r–i–r–
+11 idazole alak tooth -> –i–d–a–z–o–l–e–a–l–a–k–t–o–o–t–h–
+12 junto uczest parven -> –j–u–n–t–o–u–c–z–e–s–t–p–a–r–v–e–n–
+13 friends kirch cpu -> –f–r–i–e–n–d–s–k–i–r–c–h–c–p–u–
+14 orus subir hai -> –o–r–u–s–s–u–b–i–r–h–a–i–
+15 jera bodily naps -> –j–e–r–a–b–o–d–i–l–y–n–a–p–s–
+16 iry grou villes -> –i–r–y–g–r–o–u–v–i–l–l–e–s–
+17 det melihat dipl -> –d–e–t–m–e–l–i–h–a–t–d–i–p–l–
+18 back choice nemmeno -> –b–a–c–k–c–h–o–i–c–e–n–e–m–m–e–n–o–
+19 jat vier skupiny -> –j–a–t–v–i–e–r–s–k–u–p–i–n–y–
+20 aume promesse mp -> –a–u–m–e–p–r–o–m–e–s–s–e–m–p–
+21 larni emitting sold -> –l–a–r–n–i–e–m–i–t–t–i–n–g–s–o–l–d–
+22 tect espacial prose -> –t–e–c–t–e–s–p–a–c–i–a–l–p–r–o–s–e–
+23 ihak sospe moral -> –i–h–a–k–s–o–s–p–e–m–o–r–a–l–
+24 landi nessuno pell -> –l–a–n–d–i–n–e–s–s–u–n–o–p–e–l–l–
+25 cano facility styled -> –c–a–n–o–f–a–c–i–l–i–t–y–s–t–y–l–e–d–
+26 omod thank sape -> –o–m–o–d–t–h–a–n–k–s–a–p–e–
+27 vana cancell lenguaje -> –v–a–n–a–c–a–n–c–e–l–l–l–e–n–g–u–a–j–e–
+28 affee transfer eredet -> –a–f–f–e–e–t–r–a–n–s–f–e–r–e–r–e–d–e–t–
+29 wherein volum tropas -> –w–h–e–r–e–i–n–v–o–l–u–m–t–r–o–p–a–s–
+30 riez banque querying -> –r–i–e–z–b–a–n–q–u–e–q–u–e–r–y–i–n–g–
+31 endom sci halo -> –e–n–d–o–m–s–c–i–h–a–l–o–
+32 plane ejerc whole -> –p–l–a–n–e–e–j–e–r–c–w–h–o–l–e–
+33 leva trein sensor -> –l–e–v–a–t–r–e–i–n–s–e–n–s–o–r–
+34 cert shru padres -> –c–e–r–t–s–h–r–u–p–a–d–r–e–s–
+35 changes consid kidneys -> –c–h–a–n–g–e–s–c–o–n–s–i–d–k–i–d–n–e–y–s–
+36 prin valle about -> –p–r–i–n–v–a–l–l–e–a–b–o–u–t–
+37 hampton aggreg torne -> –h–a–m–p–t–o–n–a–g–g–r–e–g–t–o–r–n–e–
+38 lund cens sell -> –l–u–n–d–c–e–n–s–s–e–l–l–
+39 kev caminh supr -> –k–e–v–c–a–m–i–n–h–s–u–p–r–
+40 iong vitesse vengono -> –i–o–n–g–v–i–t–e–s–s–e–v–e–n–g–o–n–o–
+41 ignes lecz lagen -> –i–g–n–e–s–l–e–c–z–l–a–g–e–n–
+42 ponses elevada cytoplas -> –p–o–n–s–e–s–e–l–e–v–a–d–a–c–y–t–o–p–l–a–s–
+43 filters emis analogy -> –f–i–l–t–e–r–s–e–m–i–s–a–n–a–l–o–g–y–
+44 qda such ning -> –q–d–a–s–u–c–h–n–i–n–g–
+45 ider defence russes -> –i–d–e–r–d–e–f–e–n–c–e–r–u–s–s–e–s–
+46 elm communic damn -> –e–l–m–c–o–m–m–u–n–i–c–d–a–m–n–
+47 olem pev custod -> –o–l–e–m–p–e–v–c–u–s–t–o–d–
+48 allel meinen provo -> –a–l–l–e–l–m–e–i–n–e–n–p–r–o–v–o–
+49 unit iglesia accord -> –u–n–i–t–i–g–l–e–s–i–a–a–c–c–o–r–d–
+50 liter przyp ofere -> –l–i–t–e–r–p–r–z–y–p–o–f–e–r–e–
+51 ses razd raport -> –s–e–s–r–a–z–d–r–a–p–o–r–t–
+52 rad gotta ulogu -> –r–a–d–g–o–t–t–a–u–l–o–g–u–
+53 neys worm exclus -> –n–e–y–s–w–o–r–m–e–x–c–l–u–s–
+54 ryl lok sav -> –r–y–l–l–o–k–s–a–v–
+55 wards rear copa -> –w–a–r–d–s–r–e–a–r–c–o–p–a–
+56 hrt confined faute -> –h–r–t–c–o–n–f–i–n–e–d–f–a–u–t–e–
+57 irc roce chances -> –i–r–c–r–o–c–e–c–h–a–n–c–e–s–
+58 gior buffered sie -> –g–i–o–r–b–u–f–f–e–r–e–d–s–i–e–
+59 ojas zeg annet -> –o–j–a–s–z–e–g–a–n–n–e–t–
+60 leaf aand indeed -> –l–e–a–f–a–a–n–d–i–n–d–e–e–d–
+61 chen cliff prom -> –c–h–e–n–c–l–i–f–f–p–r–o–m–
+62 kkue ted membros -> –k–k–u–e–t–e–d–m–e–m–b–r–o–s–
+63 estr tabl inclou -> –e–s–t–r–t–a–b–l–i–n–c–l–o–u–
+64 ismarck together beard -> –i–s–m–a–r–c–k–t–o–g–e–t–h–e–r–b–e–a–r–d–
+65 ivalente rabbits oxidized -> –i–v–a–l–e–n–t–e–r–a–b–b–i–t–s–o–x–i–d–i–z–e–d–
+66 galkan hog decimal -> –g–a–l–k–a–n–h–o–g–d–e–c–i–m–a–l–
+67 iminal finite iy -> –i–m–i–n–a–l–f–i–n–i–t–e–i–y–
+68 iona mesos neurom -> –i–o–n–a–m–e–s–o–s–n–e–u–r–o–m–
+69 utable interval programm -> –u–t–a–b–l–e–i–n–t–e–r–v–a–l–p–r–o–g–r–a–m–m–
+70 ername chino solely -> –e–r–n–a–m–e–c–h–i–n–o–s–o–l–e–l–y–
+71 zobispo elseif puzz -> –z–o–b–i–s–p–o–e–l–s–e–i–f–p–u–z–z–
+72 iences spray brusqu -> –i–e–n–c–e–s–s–p–r–a–y–b–r–u–s–q–u–
+73 amina hole normas -> –a–m–i–n–a–h–o–l–e–n–o–r–m–a–s–
+74 otides guarding dile -> –o–t–i–d–e–s–g–u–a–r–d–i–n–g–d–i–l–e–
+75 inceton entrepr yar -> –i–n–c–e–t–o–n–e–n–t–r–e–p–r–y–a–r–
+76 off surviv lesbian -> –o–f–f–s–u–r–v–i–v–l–e–s–b–i–a–n–
+77 ococcus pointers bate -> –o–c–o–c–c–u–s–p–o–i–n–t–e–r–s–b–a–t–e–
+78 shield presque browsers -> –s–h–i–e–l–d–p–r–e–s–q–u–e–b–r–o–w–s–e–r–s–
+79 rasse testo nodes -> –r–a–s–s–e–t–e–s–t–o–n–o–d–e–s–
+80 richtung contou tempr -> –r–i–c–h–t–u–n–g–c–o–n–t–o–u–t–e–m–p–r–
+81 asus fruits virtues -> –a–s–u–s–f–r–u–i–t–s–v–i–r–t–u–e–s–
+82 pciones olur sono -> –p–c–i–o–n–e–s–o–l–u–r–s–o–n–o–
+83 ibia tensile wod -> –i–b–i–a–t–e–n–s–i–l–e–w–o–d–
+84 modal phases tcp -> –m–o–d–a–l–p–h–a–s–e–s–t–c–p–
+85 iot retorn outlets -> –i–o–t–r–e–t–o–r–n–o–u–t–l–e–t–s–
+86 ithmetic belang treize -> –i–t–h–m–e–t–i–c–b–e–l–a–n–g–t–r–e–i–z–e–
+87 but outliers unu -> –b–u–t–o–u–t–l–i–e–r–s–u–n–u–
+88 atie spolo przypad -> –a–t–i–e–s–p–o–l–o–p–r–z–y–p–a–d–
+89 owo desp good -> –o–w–o–d–e–s–p–g–o–o–d–
+90 wek affaires szczeg -> –w–e–k–a–f–f–a–i–r–e–s–s–z–c–z–e–g–
+91 rona zap laure -> –r–o–n–a–z–a–p–l–a–u–r–e–
+92 abar knife kuten -> –a–b–a–r–k–n–i–f–e–k–u–t–e–n–
+93 ieten meng siempre -> –i–e–t–e–n–m–e–n–g–s–i–e–m–p–r–e–
+94 zew kalan flip -> –z–e–w–k–a–l–a–n–f–l–i–p–
+95 ifik arreg jog -> –i–f–i–k–a–r–r–e–g–j–o–g–
+96 ustom stated minima -> –u–s–t–o–m–s–t–a–t–e–d–m–i–n–i–m–a–
+97 ahi supra stain -> –a–h–i–s–u–p–r–a–s–t–a–i–n–
+98 cho brow prakty -> –c–h–o–b–r–o–w–p–r–a–k–t–y–
+99 unakan erhoben savez -> –u–n–a–k–a–n–e–r–h–o–b–e–n–s–a–v–e–z–

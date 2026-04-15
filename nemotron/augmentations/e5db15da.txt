@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 ppsala bio ignored
+01 urity image repas
+02 alet ethyl auch
+
+This is a sample output.
+00 ppsala bio ignored -> –p–p–s–a–l–a–b–i–o–i–g–n–o–r–e–d–
+01 urity image repas -> –u–r–i–t–y–i–m–a–g–e–r–e–p–a–s–
+02 alet ethyl auch -> –a–l–e–t–e–t–h–y–l–a–u–c–h–
+
+This is your input.
+00 pression intitol gepl
+01 lice retros bike
+02 paravant mentres societ
+03 cade kurs nel
+04 ickers inqu attorno
+05 certain keiser gets
+06 hall campan shores
+07 skip convert tert
+08 asun atmosfer madness
+09 engono coll neb
+10 szere drones kapal
+11 adr nelle nesta
+12 udin lev okoli
+13 aites faceva migli
+14 anyol enjo aikana
+15 iosa consist europ
+16 zke thirst gorgeous
+17 ebug skulpt confocal
+18 openh rende months
+19 miral corde she
+20 itare metal eins
+21 asset ai domain
+22 vara yan harbor
+23 lf alors keen
+24 heter glisser khai
+25 icy ville luc
+26 iversity risque chasse
+27 ikleri gla juda
+28 uity tecl bent
+29 iling dunk apag
+30 staaten vomiting overseas
+31 iedades palest tutti
+32 alu wake piercing
+33 abb extra listing
+34 ategor reak trimmed
+35 ending voller pesos
+36 herr wash network
+37 annte volgens linh
+38 width pounding printer
+39 dead learning strok
+40 xic online platform
+41 ackages tt game
+42 integr abandon compost
+43 grand tijdens bathroom
+44 qr argile rocky
+45 weiter shortcut czerwca
+46 arka trace celebra
+47 om denk multe
+48 cem evoked navi
+49 fully fra randomly
+50 hebung jovens routed
+51 ynthia estis comb
+52 appon croy niemieck
+53 weights assault davvero
+54 bc compens lay
+55 steen autre then
+56 astr paar syringe
+57 mann peered fluorine
+58 omin deflect thesis
+59 driver adaptor evit
+60 ocl diferen poj
+61 univers upgrad desejo
+62 tom junge produt
+63 cing navios clarify
+64 ssch pokud descrito
+65 maso fixed camps
+66 iera battle verified
+67 mera rights diverses
+68 abelle airplane eruption
+69 choice debajo tak
+70 rik nit presupp
+71 ettek gardens dep
+72 roffen sok raid
+73 iculty attach schaffen
+74 ches broadly epile
+75 nat bateaux peuvent
+76 orra dauer vog
+77 zza loin entfernt
+78 hor diede tarp
+79 ocytes meter consci
+80 lysis genom cosine
+81 uert movement falou
+82 vis pioneer bio
+83 ood exponent asunto
+84 its produc salida
+85 omia broke cultivo
+86 inen branded entails
+87 som aspect jet
+88 backup trent ap
+89 gary divides plunger
+90 rick trash periode
+91 zta simpl registro
+92 assem ellen vette
+93 naam cuest nurse
+94 quement fee joue
+95 texte verbre entail
+96 icie ingreso fallait
+97 xion mia torment
+98 iany masc mock
+99 kw tenis trailer
+[completion]
+00 pression intitol gepl -> –p–r–e–s–s–i–o–n–i–n–t–i–t–o–l–g–e–p–l–
+01 lice retros bike -> –l–i–c–e–r–e–t–r–o–s–b–i–k–e–
+02 paravant mentres societ -> –p–a–r–a–v–a–n–t–m–e–n–t–r–e–s–s–o–c–i–e–t–
+03 cade kurs nel -> –c–a–d–e–k–u–r–s–n–e–l–
+04 ickers inqu attorno -> –i–c–k–e–r–s–i–n–q–u–a–t–t–o–r–n–o–
+05 certain keiser gets -> –c–e–r–t–a–i–n–k–e–i–s–e–r–g–e–t–s–
+06 hall campan shores -> –h–a–l–l–c–a–m–p–a–n–s–h–o–r–e–s–
+07 skip convert tert -> –s–k–i–p–c–o–n–v–e–r–t–t–e–r–t–
+08 asun atmosfer madness -> –a–s–u–n–a–t–m–o–s–f–e–r–m–a–d–n–e–s–s–
+09 engono coll neb -> –e–n–g–o–n–o–c–o–l–l–n–e–b–
+10 szere drones kapal -> –s–z–e–r–e–d–r–o–n–e–s–k–a–p–a–l–
+11 adr nelle nesta -> –a–d–r–n–e–l–l–e–n–e–s–t–a–
+12 udin lev okoli -> –u–d–i–n–l–e–v–o–k–o–l–i–
+13 aites faceva migli -> –a–i–t–e–s–f–a–c–e–v–a–m–i–g–l–i–
+14 anyol enjo aikana -> –a–n–y–o–l–e–n–j–o–a–i–k–a–n–a–
+15 iosa consist europ -> –i–o–s–a–c–o–n–s–i–s–t–e–u–r–o–p–
+16 zke thirst gorgeous -> –z–k–e–t–h–i–r–s–t–g–o–r–g–e–o–u–s–
+17 ebug skulpt confocal -> –e–b–u–g–s–k–u–l–p–t–c–o–n–f–o–c–a–l–
+18 openh rende months -> –o–p–e–n–h–r–e–n–d–e–m–o–n–t–h–s–
+19 miral corde she -> –m–i–r–a–l–c–o–r–d–e–s–h–e–
+20 itare metal eins -> –i–t–a–r–e–m–e–t–a–l–e–i–n–s–
+21 asset ai domain -> –a–s–s–e–t–a–i–d–o–m–a–i–n–
+22 vara yan harbor -> –v–a–r–a–y–a–n–h–a–r–b–o–r–
+23 lf alors keen -> –l–f–a–l–o–r–s–k–e–e–n–
+24 heter glisser khai -> –h–e–t–e–r–g–l–i–s–s–e–r–k–h–a–i–
+25 icy ville luc -> –i–c–y–v–i–l–l–e–l–u–c–
+26 iversity risque chasse -> –i–v–e–r–s–i–t–y–r–i–s–q–u–e–c–h–a–s–s–e–
+27 ikleri gla juda -> –i–k–l–e–r–i–g–l–a–j–u–d–a–
+28 uity tecl bent -> –u–i–t–y–t–e–c–l–b–e–n–t–
+29 iling dunk apag -> –i–l–i–n–g–d–u–n–k–a–p–a–g–
+30 staaten vomiting overseas -> –s–t–a–a–t–e–n–v–o–m–i–t–i–n–g–o–v–e–r–s–e–a–s–
+31 iedades palest tutti -> –i–e–d–a–d–e–s–p–a–l–e–s–t–t–u–t–t–i–
+32 alu wake piercing -> –a–l–u–w–a–k–e–p–i–e–r–c–i–n–g–
+33 abb extra listing -> –a–b–b–e–x–t–r–a–l–i–s–t–i–n–g–
+34 ategor reak trimmed -> –a–t–e–g–o–r–r–e–a–k–t–r–i–m–m–e–d–
+35 ending voller pesos -> –e–n–d–i–n–g–v–o–l–l–e–r–p–e–s–o–s–
+36 herr wash network -> –h–e–r–r–w–a–s–h–n–e–t–w–o–r–k–
+37 annte volgens linh -> –a–n–n–t–e–v–o–l–g–e–n–s–l–i–n–h–
+38 width pounding printer -> –w–i–d–t–h–p–o–u–n–d–i–n–g–p–r–i–n–t–e–r–
+39 dead learning strok -> –d–e–a–d–l–e–a–r–n–i–n–g–s–t–r–o–k–
+40 xic online platform -> –x–i–c–o–n–l–i–n–e–p–l–a–t–f–o–r–m–
+41 ackages tt game -> –a–c–k–a–g–e–s–t–t–g–a–m–e–
+42 integr abandon compost -> –i–n–t–e–g–r–a–b–a–n–d–o–n–c–o–m–p–o–s–t–
+43 grand tijdens bathroom -> –g–r–a–n–d–t–i–j–d–e–n–s–b–a–t–h–r–o–o–m–
+44 qr argile rocky -> –q–r–a–r–g–i–l–e–r–o–c–k–y–
+45 weiter shortcut czerwca -> –w–e–i–t–e–r–s–h–o–r–t–c–u–t–c–z–e–r–w–c–a–
+46 arka trace celebra -> –a–r–k–a–t–r–a–c–e–c–e–l–e–b–r–a–
+47 om denk multe -> –o–m–d–e–n–k–m–u–l–t–e–
+48 cem evoked navi -> –c–e–m–e–v–o–k–e–d–n–a–v–i–
+49 fully fra randomly -> –f–u–l–l–y–f–r–a–r–a–n–d–o–m–l–y–
+50 hebung jovens routed -> –h–e–b–u–n–g–j–o–v–e–n–s–r–o–u–t–e–d–
+51 ynthia estis comb -> –y–n–t–h–i–a–e–s–t–i–s–c–o–m–b–
+52 appon croy niemieck -> –a–p–p–o–n–c–r–o–y–n–i–e–m–i–e–c–k–
+53 weights assault davvero -> –w–e–i–g–h–t–s–a–s–s–a–u–l–t–d–a–v–v–e–r–o–
+54 bc compens lay -> –b–c–c–o–m–p–e–n–s–l–a–y–
+55 steen autre then -> –s–t–e–e–n–a–u–t–r–e–t–h–e–n–
+56 astr paar syringe -> –a–s–t–r–p–a–a–r–s–y–r–i–n–g–e–
+57 mann peered fluorine -> –m–a–n–n–p–e–e–r–e–d–f–l–u–o–r–i–n–e–
+58 omin deflect thesis -> –o–m–i–n–d–e–f–l–e–c–t–t–h–e–s–i–s–
+59 driver adaptor evit -> –d–r–i–v–e–r–a–d–a–p–t–o–r–e–v–i–t–
+60 ocl diferen poj -> –o–c–l–d–i–f–e–r–e–n–p–o–j–
+61 univers upgrad desejo -> –u–n–i–v–e–r–s–u–p–g–r–a–d–d–e–s–e–j–o–
+62 tom junge produt -> –t–o–m–j–u–n–g–e–p–r–o–d–u–t–
+63 cing navios clarify -> –c–i–n–g–n–a–v–i–o–s–c–l–a–r–i–f–y–
+64 ssch pokud descrito -> –s–s–c–h–p–o–k–u–d–d–e–s–c–r–i–t–o–
+65 maso fixed camps -> –m–a–s–o–f–i–x–e–d–c–a–m–p–s–
+66 iera battle verified -> –i–e–r–a–b–a–t–t–l–e–v–e–r–i–f–i–e–d–
+67 mera rights diverses -> –m–e–r–a–r–i–g–h–t–s–d–i–v–e–r–s–e–s–
+68 abelle airplane eruption -> –a–b–e–l–l–e–a–i–r–p–l–a–n–e–e–r–u–p–t–i–o–n–
+69 choice debajo tak -> –c–h–o–i–c–e–d–e–b–a–j–o–t–a–k–
+70 rik nit presupp -> –r–i–k–n–i–t–p–r–e–s–u–p–p–
+71 ettek gardens dep -> –e–t–t–e–k–g–a–r–d–e–n–s–d–e–p–
+72 roffen sok raid -> –r–o–f–f–e–n–s–o–k–r–a–i–d–
+73 iculty attach schaffen -> –i–c–u–l–t–y–a–t–t–a–c–h–s–c–h–a–f–f–e–n–
+74 ches broadly epile -> –c–h–e–s–b–r–o–a–d–l–y–e–p–i–l–e–
+75 nat bateaux peuvent -> –n–a–t–b–a–t–e–a–u–x–p–e–u–v–e–n–t–
+76 orra dauer vog -> –o–r–r–a–d–a–u–e–r–v–o–g–
+77 zza loin entfernt -> –z–z–a–l–o–i–n–e–n–t–f–e–r–n–t–
+78 hor diede tarp -> –h–o–r–d–i–e–d–e–t–a–r–p–
+79 ocytes meter consci -> –o–c–y–t–e–s–m–e–t–e–r–c–o–n–s–c–i–
+80 lysis genom cosine -> –l–y–s–i–s–g–e–n–o–m–c–o–s–i–n–e–
+81 uert movement falou -> –u–e–r–t–m–o–v–e–m–e–n–t–f–a–l–o–u–
+82 vis pioneer bio -> –v–i–s–p–i–o–n–e–e–r–b–i–o–
+83 ood exponent asunto -> –o–o–d–e–x–p–o–n–e–n–t–a–s–u–n–t–o–
+84 its produc salida -> –i–t–s–p–r–o–d–u–c–s–a–l–i–d–a–
+85 omia broke cultivo -> –o–m–i–a–b–r–o–k–e–c–u–l–t–i–v–o–
+86 inen branded entails -> –i–n–e–n–b–r–a–n–d–e–d–e–n–t–a–i–l–s–
+87 som aspect jet -> –s–o–m–a–s–p–e–c–t–j–e–t–
+88 backup trent ap -> –b–a–c–k–u–p–t–r–e–n–t–a–p–
+89 gary divides plunger -> –g–a–r–y–d–i–v–i–d–e–s–p–l–u–n–g–e–r–
+90 rick trash periode -> –r–i–c–k–t–r–a–s–h–p–e–r–i–o–d–e–
+91 zta simpl registro -> –z–t–a–s–i–m–p–l–r–e–g–i–s–t–r–o–
+92 assem ellen vette -> –a–s–s–e–m–e–l–l–e–n–v–e–t–t–e–
+93 naam cuest nurse -> –n–a–a–m–c–u–e–s–t–n–u–r–s–e–
+94 quement fee joue -> –q–u–e–m–e–n–t–f–e–e–j–o–u–e–
+95 texte verbre entail -> –t–e–x–t–e–v–e–r–b–r–e–e–n–t–a–i–l–
+96 icie ingreso fallait -> –i–c–i–e–i–n–g–r–e–s–o–f–a–l–l–a–i–t–
+97 xion mia torment -> –x–i–o–n–m–i–a–t–o–r–m–e–n–t–
+98 iany masc mock -> –i–a–n–y–m–a–s–c–m–o–c–k–
+99 kw tenis trailer -> –k–w–t–e–n–i–s–t–r–a–i–l–e–r–

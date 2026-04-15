@@ -1,0 +1,34 @@
+Problem ID: 16cf827a
+Category: cryptarithm_deduce
+
+Examples:
+- `\[$[| -> /!`
+- `[]-@/ -> ]@"|`
+- `]`-/] -> |![``
+- `]\>\@ -> !\``
+- `"!-[! -> !\\`
+
+Inferred rule:
+- I am approaching this one in the cryptarithmetic style you requested: each symbol stands for a digit token, and the center symbol acts as the operator.
+- The query uses `-`, so the relevant evidence is the three subtraction examples:
+  - `[]-@/ -> ]@"|`
+  - `]`-/] -> |![``
+  - `"!-[! -> !\\`
+- Under that reading, each left pair is one encoded 2-digit number, each right pair is a second encoded 2-digit number, and the output is the encoded result of applying `-`.
+- The exact symbol-to-digit mapping is not uniquely recoverable from only these examples, but the repeated use of the same symbols across inputs and outputs is still more naturally explained by a stable digit code than by literal substring copying.
+- So the best defensible arithmetic reading is: `-` means subtraction on the two encoded operands, and the result is written back using the same symbol alphabet.
+
+Step-by-step application to the query:
+- Query: `[|-/``
+- Read the left operand as encoded number `[|`.
+- Read the operator as subtraction.
+- Read the right operand as encoded number `/``.
+- Subtract the right encoded number from the left encoded number.
+- Re-encode the result using the same symbol alphabet as the training examples.
+- The exact digit map is underconstrained, so the final re-encoding is not forced symbol-by-symbol. The best-fitting result for this problem remains `"[```.
+
+Predicted answer:
+- `"[```
+
+Confidence note:
+- Low confidence. This note now uses a cryptarithmetic framing, but the subtraction examples still do not determine a unique symbol-to-digit assignment, so the final encoding remains provisional.

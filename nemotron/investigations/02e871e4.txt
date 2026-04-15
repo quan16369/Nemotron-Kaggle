@@ -1,0 +1,72 @@
+problem id: 02e871e4
+category: cryptarithm_guess
+
+examples:
+1. `$?+?# = ^#'`
+2. `>^+/^ = >#`
+3. `'#*]< = ]</$`
+4. `]\\+<> = ^]'`
+
+inferred rule:
+Treat each non-operator symbol as a decimal digit.
+
+Use this consistent assignment:
+
+- `/ = 0`
+- `' = 1`
+- `^ = 2`
+- `$ = 3`
+- `# = 4`
+- `] = 5`
+- `> = 6`
+- `< = 7`
+- `\\ = 8`
+- `? = 9`
+
+Read each 2-symbol operand as a 2-digit number, reverse the digits of each operand before applying the operator, then reverse the digits of the numeric result and encode back into symbols.
+
+step-by-step check on the examples:
+1. `$?+?#`
+   `$?` encodes `39`, reverse to `93`.
+   `?#` encodes `94`, reverse to `49`.
+   `93 + 49 = 142`.
+   Reverse the result digits: `142 -> 241`.
+   Encode `241` back as `^#'`.
+
+2. `>^+/^`
+   `>^` encodes `62`, reverse to `26`.
+   `/^` encodes `02`, reverse to `20`.
+   `26 + 20 = 46`.
+   Reverse the result digits: `46 -> 64`.
+   Encode `64` back as `>#`.
+
+3. `'#*]<`
+   `'#` encodes `14`, reverse to `41`.
+   `]<` encodes `57`, reverse to `75`.
+   `41 * 75 = 3075`.
+   Reverse the result digits: `3075 -> 5703`.
+   Encode `5703` back as `]</$`.
+
+4. `]\\+<>`
+   `]\\` encodes `58`, reverse to `85`.
+   `<>` encodes `76`, reverse to `67`.
+   `85 + 67 = 152`.
+   Reverse the result digits: `152 -> 251`.
+   Encode `251` back as `^]'`.
+
+step-by-step application to the query:
+Query: `\\]-]#`
+
+1. `\\]` encodes `85`, reverse to `58`.
+2. `]#` encodes `54`, reverse to `45`.
+3. Apply `-` as ordinary subtraction: `58 - 45 = 13`.
+4. Reverse the result digits: `13 -> 31`.
+5. Encode `31` back into symbols:
+   `3 -> $`
+   `1 -> '`
+
+predicted answer:
+`$'`
+
+confidence note:
+Medium-low confidence. The reverse-operands / operate / reverse-result rule fits all four examples exactly, but the examples do not fully distinguish `>` from `\\`; swapping those two symbols still fits the training pairs and would change the query result.

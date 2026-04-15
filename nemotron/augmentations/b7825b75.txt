@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 arri turtle filme
+01 gt intends obj
+02 utions releg series
+
+This is a sample output.
+00 arri turtle filme -> –a–r–r–i–t–u–r–t–l–e–f–i–l–m–e–
+01 gt intends obj -> –g–t–i–n–t–e–n–d–s–o–b–j–
+02 utions releg series -> –u–t–i–o–n–s–r–e–l–e–g–s–e–r–i–e–s–
+
+This is your input.
+00 atico drawings yy
+01 male grandson ejemplos
+02 approved ganze latino
+03 uracy reply aspett
+04 people based entw
+05 laid ampli jon
+06 rok samp assumed
+07 ruk prises necrosis
+08 velope coe task
+09 ni misch callback
+10 rbit opted qty
+11 ouer frowned midd
+12 eme animales whe
+13 reise rounded feces
+14 doch referees tapa
+15 orms eight vorher
+16 ledi central helped
+17 recipe retorna slug
+18 isne majeure cuentan
+19 upra texts awful
+20 pected iqtis hando
+21 ilan microbi dettag
+22 icien compiler bleue
+23 obar schen puedes
+24 rali blinked firm
+25 yers harmless eres
+26 borne rains theatre
+27 it alokair debilit
+28 ays derecha auditor
+29 dominal lainnya remind
+30 drive gesetzt hor
+31 odegrad sunk alatt
+32 ibernate buiten vrlo
+33 romagn scompar taps
+34 rolling visas blob
+35 atr vand ere
+36 uine canales ammonia
+37 flare guild order
+38 rewsbury argu unua
+39 peon wirst vint
+40 jana potesse ante
+41 outs adicion devast
+42 iglie dubbed curated
+43 sent lejos sao
+44 ffffff birinci instru
+45 isecond ideia vertebra
+46 atschapp itib lavor
+47 sor asupra formas
+48 ang mitten mode
+49 too rumors referral
+50 owitz hu asi
+51 htaccess thorough concess
+52 oplastic livello giugno
+53 eniendo koning sitting
+54 ackbar uph redox
+55 merce grain presenza
+56 poz diverg redirect
+57 wing poussa glm
+58 famil extinct ella
+59 ucid pret dissi
+60 zis molten meghat
+61 rawing sport metadata
+62 intendo pregunta focused
+63 eku litres azonos
+64 unu plek manor
+65 xx ward tapaht
+66 acea estiver pigment
+67 ements famous microns
+68 gebaut item pys
+69 ros gifted ni
+70 bbox beaucoup deveria
+71 ckte stats silence
+72 arum vice vicinity
+73 oscopic so artef
+74 ifty saison fau
+75 arian anului begyn
+76 ukov wsi surgeon
+77 kei shoe haben
+78 yz wraz sel
+79 iglio conocido ruby
+80 omething boule usw
+81 ocken seur noises
+82 chet fox standby
+83 welcome color index
+84 reci unatt rem
+85 utton promen lumin
+86 match wild phys
+87 ettiin rifles enige
+88 gress semblent tradiz
+89 qu sentence hakk
+90 acts pantalla boosting
+91 cles fantasy oder
+92 politik account quota
+93 endor hangar mejores
+94 onto behar naves
+95 irements anno around
+96 ps done compreh
+97 sce attracts mills
+98 gia toprak zero
+99 atif arms biti
+[completion]
+00 atico drawings yy -> –a–t–i–c–o–d–r–a–w–i–n–g–s–y–y–
+01 male grandson ejemplos -> –m–a–l–e–g–r–a–n–d–s–o–n–e–j–e–m–p–l–o–s–
+02 approved ganze latino -> –a–p–p–r–o–v–e–d–g–a–n–z–e–l–a–t–i–n–o–
+03 uracy reply aspett -> –u–r–a–c–y–r–e–p–l–y–a–s–p–e–t–t–
+04 people based entw -> –p–e–o–p–l–e–b–a–s–e–d–e–n–t–w–
+05 laid ampli jon -> –l–a–i–d–a–m–p–l–i–j–o–n–
+06 rok samp assumed -> –r–o–k–s–a–m–p–a–s–s–u–m–e–d–
+07 ruk prises necrosis -> –r–u–k–p–r–i–s–e–s–n–e–c–r–o–s–i–s–
+08 velope coe task -> –v–e–l–o–p–e–c–o–e–t–a–s–k–
+09 ni misch callback -> –n–i–m–i–s–c–h–c–a–l–l–b–a–c–k–
+10 rbit opted qty -> –r–b–i–t–o–p–t–e–d–q–t–y–
+11 ouer frowned midd -> –o–u–e–r–f–r–o–w–n–e–d–m–i–d–d–
+12 eme animales whe -> –e–m–e–a–n–i–m–a–l–e–s–w–h–e–
+13 reise rounded feces -> –r–e–i–s–e–r–o–u–n–d–e–d–f–e–c–e–s–
+14 doch referees tapa -> –d–o–c–h–r–e–f–e–r–e–e–s–t–a–p–a–
+15 orms eight vorher -> –o–r–m–s–e–i–g–h–t–v–o–r–h–e–r–
+16 ledi central helped -> –l–e–d–i–c–e–n–t–r–a–l–h–e–l–p–e–d–
+17 recipe retorna slug -> –r–e–c–i–p–e–r–e–t–o–r–n–a–s–l–u–g–
+18 isne majeure cuentan -> –i–s–n–e–m–a–j–e–u–r–e–c–u–e–n–t–a–n–
+19 upra texts awful -> –u–p–r–a–t–e–x–t–s–a–w–f–u–l–
+20 pected iqtis hando -> –p–e–c–t–e–d–i–q–t–i–s–h–a–n–d–o–
+21 ilan microbi dettag -> –i–l–a–n–m–i–c–r–o–b–i–d–e–t–t–a–g–
+22 icien compiler bleue -> –i–c–i–e–n–c–o–m–p–i–l–e–r–b–l–e–u–e–
+23 obar schen puedes -> –o–b–a–r–s–c–h–e–n–p–u–e–d–e–s–
+24 rali blinked firm -> –r–a–l–i–b–l–i–n–k–e–d–f–i–r–m–
+25 yers harmless eres -> –y–e–r–s–h–a–r–m–l–e–s–s–e–r–e–s–
+26 borne rains theatre -> –b–o–r–n–e–r–a–i–n–s–t–h–e–a–t–r–e–
+27 it alokair debilit -> –i–t–a–l–o–k–a–i–r–d–e–b–i–l–i–t–
+28 ays derecha auditor -> –a–y–s–d–e–r–e–c–h–a–a–u–d–i–t–o–r–
+29 dominal lainnya remind -> –d–o–m–i–n–a–l–l–a–i–n–n–y–a–r–e–m–i–n–d–
+30 drive gesetzt hor -> –d–r–i–v–e–g–e–s–e–t–z–t–h–o–r–
+31 odegrad sunk alatt -> –o–d–e–g–r–a–d–s–u–n–k–a–l–a–t–t–
+32 ibernate buiten vrlo -> –i–b–e–r–n–a–t–e–b–u–i–t–e–n–v–r–l–o–
+33 romagn scompar taps -> –r–o–m–a–g–n–s–c–o–m–p–a–r–t–a–p–s–
+34 rolling visas blob -> –r–o–l–l–i–n–g–v–i–s–a–s–b–l–o–b–
+35 atr vand ere -> –a–t–r–v–a–n–d–e–r–e–
+36 uine canales ammonia -> –u–i–n–e–c–a–n–a–l–e–s–a–m–m–o–n–i–a–
+37 flare guild order -> –f–l–a–r–e–g–u–i–l–d–o–r–d–e–r–
+38 rewsbury argu unua -> –r–e–w–s–b–u–r–y–a–r–g–u–u–n–u–a–
+39 peon wirst vint -> –p–e–o–n–w–i–r–s–t–v–i–n–t–
+40 jana potesse ante -> –j–a–n–a–p–o–t–e–s–s–e–a–n–t–e–
+41 outs adicion devast -> –o–u–t–s–a–d–i–c–i–o–n–d–e–v–a–s–t–
+42 iglie dubbed curated -> –i–g–l–i–e–d–u–b–b–e–d–c–u–r–a–t–e–d–
+43 sent lejos sao -> –s–e–n–t–l–e–j–o–s–s–a–o–
+44 ffffff birinci instru -> –f–f–f–f–f–f–b–i–r–i–n–c–i–i–n–s–t–r–u–
+45 isecond ideia vertebra -> –i–s–e–c–o–n–d–i–d–e–i–a–v–e–r–t–e–b–r–a–
+46 atschapp itib lavor -> –a–t–s–c–h–a–p–p–i–t–i–b–l–a–v–o–r–
+47 sor asupra formas -> –s–o–r–a–s–u–p–r–a–f–o–r–m–a–s–
+48 ang mitten mode -> –a–n–g–m–i–t–t–e–n–m–o–d–e–
+49 too rumors referral -> –t–o–o–r–u–m–o–r–s–r–e–f–e–r–r–a–l–
+50 owitz hu asi -> –o–w–i–t–z–h–u–a–s–i–
+51 htaccess thorough concess -> –h–t–a–c–c–e–s–s–t–h–o–r–o–u–g–h–c–o–n–c–e–s–s–
+52 oplastic livello giugno -> –o–p–l–a–s–t–i–c–l–i–v–e–l–l–o–g–i–u–g–n–o–
+53 eniendo koning sitting -> –e–n–i–e–n–d–o–k–o–n–i–n–g–s–i–t–t–i–n–g–
+54 ackbar uph redox -> –a–c–k–b–a–r–u–p–h–r–e–d–o–x–
+55 merce grain presenza -> –m–e–r–c–e–g–r–a–i–n–p–r–e–s–e–n–z–a–
+56 poz diverg redirect -> –p–o–z–d–i–v–e–r–g–r–e–d–i–r–e–c–t–
+57 wing poussa glm -> –w–i–n–g–p–o–u–s–s–a–g–l–m–
+58 famil extinct ella -> –f–a–m–i–l–e–x–t–i–n–c–t–e–l–l–a–
+59 ucid pret dissi -> –u–c–i–d–p–r–e–t–d–i–s–s–i–
+60 zis molten meghat -> –z–i–s–m–o–l–t–e–n–m–e–g–h–a–t–
+61 rawing sport metadata -> –r–a–w–i–n–g–s–p–o–r–t–m–e–t–a–d–a–t–a–
+62 intendo pregunta focused -> –i–n–t–e–n–d–o–p–r–e–g–u–n–t–a–f–o–c–u–s–e–d–
+63 eku litres azonos -> –e–k–u–l–i–t–r–e–s–a–z–o–n–o–s–
+64 unu plek manor -> –u–n–u–p–l–e–k–m–a–n–o–r–
+65 xx ward tapaht -> –x–x–w–a–r–d–t–a–p–a–h–t–
+66 acea estiver pigment -> –a–c–e–a–e–s–t–i–v–e–r–p–i–g–m–e–n–t–
+67 ements famous microns -> –e–m–e–n–t–s–f–a–m–o–u–s–m–i–c–r–o–n–s–
+68 gebaut item pys -> –g–e–b–a–u–t–i–t–e–m–p–y–s–
+69 ros gifted ni -> –r–o–s–g–i–f–t–e–d–n–i–
+70 bbox beaucoup deveria -> –b–b–o–x–b–e–a–u–c–o–u–p–d–e–v–e–r–i–a–
+71 ckte stats silence -> –c–k–t–e–s–t–a–t–s–s–i–l–e–n–c–e–
+72 arum vice vicinity -> –a–r–u–m–v–i–c–e–v–i–c–i–n–i–t–y–
+73 oscopic so artef -> –o–s–c–o–p–i–c–s–o–a–r–t–e–f–
+74 ifty saison fau -> –i–f–t–y–s–a–i–s–o–n–f–a–u–
+75 arian anului begyn -> –a–r–i–a–n–a–n–u–l–u–i–b–e–g–y–n–
+76 ukov wsi surgeon -> –u–k–o–v–w–s–i–s–u–r–g–e–o–n–
+77 kei shoe haben -> –k–e–i–s–h–o–e–h–a–b–e–n–
+78 yz wraz sel -> –y–z–w–r–a–z–s–e–l–
+79 iglio conocido ruby -> –i–g–l–i–o–c–o–n–o–c–i–d–o–r–u–b–y–
+80 omething boule usw -> –o–m–e–t–h–i–n–g–b–o–u–l–e–u–s–w–
+81 ocken seur noises -> –o–c–k–e–n–s–e–u–r–n–o–i–s–e–s–
+82 chet fox standby -> –c–h–e–t–f–o–x–s–t–a–n–d–b–y–
+83 welcome color index -> –w–e–l–c–o–m–e–c–o–l–o–r–i–n–d–e–x–
+84 reci unatt rem -> –r–e–c–i–u–n–a–t–t–r–e–m–
+85 utton promen lumin -> –u–t–t–o–n–p–r–o–m–e–n–l–u–m–i–n–
+86 match wild phys -> –m–a–t–c–h–w–i–l–d–p–h–y–s–
+87 ettiin rifles enige -> –e–t–t–i–i–n–r–i–f–l–e–s–e–n–i–g–e–
+88 gress semblent tradiz -> –g–r–e–s–s–s–e–m–b–l–e–n–t–t–r–a–d–i–z–
+89 qu sentence hakk -> –q–u–s–e–n–t–e–n–c–e–h–a–k–k–
+90 acts pantalla boosting -> –a–c–t–s–p–a–n–t–a–l–l–a–b–o–o–s–t–i–n–g–
+91 cles fantasy oder -> –c–l–e–s–f–a–n–t–a–s–y–o–d–e–r–
+92 politik account quota -> –p–o–l–i–t–i–k–a–c–c–o–u–n–t–q–u–o–t–a–
+93 endor hangar mejores -> –e–n–d–o–r–h–a–n–g–a–r–m–e–j–o–r–e–s–
+94 onto behar naves -> –o–n–t–o–b–e–h–a–r–n–a–v–e–s–
+95 irements anno around -> –i–r–e–m–e–n–t–s–a–n–n–o–a–r–o–u–n–d–
+96 ps done compreh -> –p–s–d–o–n–e–c–o–m–p–r–e–h–
+97 sce attracts mills -> –s–c–e–a–t–t–r–a–c–t–s–m–i–l–l–s–
+98 gia toprak zero -> –g–i–a–t–o–p–r–a–k–z–e–r–o–
+99 atif arms biti -> –a–t–i–f–a–r–m–s–b–i–t–i–

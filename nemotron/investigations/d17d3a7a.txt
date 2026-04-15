@@ -1,0 +1,34 @@
+Problem ID: d17d3a7a
+Category: equation_numeric_deduce
+
+Examples:
+- 29-52 = 76
+  Reverse the operands first: 29 -> 92 and 52 -> 25.
+  Apply subtraction: 92 - 25 = 67.
+  Reverse the result digits: 67 -> 76.
+- 18>29 = 2918
+  Reverse the operands first: 18 -> 81 and 29 -> 92.
+  Treat `>` as concatenation of the two reversed operands: 81 followed by 92 gives 8192.
+  Reverse the result digits: 8192 -> 2918.
+- 55>11 = 1155
+  Reverse the operands first: 55 -> 55 and 11 -> 11.
+  Concatenate: 5511.
+  Reverse the result digits: 5511 -> 1155.
+
+Inferred rule:
+1. Reverse the digits of each two-digit operand.
+2. Apply the shown operator on those reversed operands.
+3. Reverse the digits of the resulting number/string to get the final output.
+4. In this puzzle, `>` behaves like concatenation.
+
+Step-by-step application to the query:
+- Query: 66-67
+- Reverse the operands: 66 -> 66 and 67 -> 76.
+- Apply subtraction: 66 - 76 = -10.
+- Reverse the result digits while keeping the negative sign in front: -10 -> -01.
+
+Predicted answer:
+-01
+
+Confidence note:
+Moderately high. All three examples fit the same reverse-operands / reverse-result rule exactly. The only small inference is how to format a negative reversed result, but keeping the minus sign in front is the most natural extension.

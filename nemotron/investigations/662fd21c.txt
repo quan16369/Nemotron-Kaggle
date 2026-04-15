@@ -1,0 +1,29 @@
+problem id: 662fd21c
+category: equation_numeric_guess
+
+examples:
+- 51!65 = 116
+- 43[47 = 2022
+- 20[79 = 1581
+- query: 70]53
+
+inferred rule:
+- `!` denotes ordinary addition.
+- `[` denotes multiplication, then add 1 to the product.
+- The query symbol `]` does not appear in the examples, so its meaning must be inferred indirectly. With addition already used and the second seen symbol tied to a product-based rule, the most defensible remaining simple rule is ordinary subtraction or absolute difference. For `70` and `53`, both give the same result: `17`.
+
+step-by-step check on the examples:
+1. `51!65 = 116` fits addition because `51 + 65 = 116`.
+2. `43[47 = 2022` fits the product-plus-one rule because `43 * 47 = 2021`, and `2021 + 1 = 2022`.
+3. `20[79 = 1581` fits the same rule because `20 * 79 = 1580`, and `1580 + 1 = 1581`.
+
+step-by-step application to the query:
+1. Treat `70]53` as a plain difference-style operation.
+2. Compute `70 - 53 = 17`.
+3. Since `70` is larger than `53`, the ordinary subtraction and absolute difference interpretations agree.
+
+predicted answer:
+- 17
+
+confidence note:
+- Moderate confidence. The `!` and `[` rules are well supported by the examples. The only ambiguity is that `]` is unseen, so the final step is still an inference by elimination rather than a directly demonstrated mapping.

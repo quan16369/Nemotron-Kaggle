@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 keits aufgeh refusal
+01 omina pursue rot
+02 roscopy nennt alter
+
+This is a sample output.
+00 keits aufgeh refusal -> –k–e–i–t–s–a–u–f–g–e–h–r–e–f–u–s–a–l–
+01 omina pursue rot -> –o–m–i–n–a–p–u–r–s–u–e–r–o–t–
+02 roscopy nennt alter -> –r–o–s–c–o–p–y–n–e–n–n–t–a–l–t–e–r–
+
+This is your input.
+00 imestamp ocup bij
+01 students rann formato
+02 icza course dando
+03 ulario trong code
+04 pre calories backing
+05 reats vra tiro
+06 oure ciudades peng
+07 onesa vrouw sag
+08 requency idee ailleurs
+09 ousias fluids downtown
+10 obox palabra dynamics
+11 esota shirt free
+12 calar penn jeux
+13 chos albicans bitcoin
+14 ile retailer puede
+15 atement obtiene arcade
+16 zean simplic gastro
+17 arin propi replaces
+18 olge outside scheint
+19 zahl arteries subito
+20 aires they palacio
+21 nosti alam semaine
+22 urban steering except
+23 xffff eldest anunci
+24 ampir nola nr
+25 bit zwar trader
+26 cl fri into
+27 aman warum tunnel
+28 pens tactics comunale
+29 erns inoltre estamos
+30 riebe nanocom escuela
+31 mad catedral pels
+32 aptured tenir making
+33 mond sarrerak bygg
+34 ijal aquest pal
+35 utely oz olaraq
+36 oris goats fulfill
+37 dis vivir dort
+38 elfare autour winner
+39 ivet futur denen
+40 acc sul aucune
+41 izations xung uttry
+42 umna solvents obstacle
+43 irectory glove celui
+44 ust muest cb
+45 ench cerrado forces
+46 abli televiz affairs
+47 plicated energy drove
+48 onical gute heureuse
+49 atri lambda kald
+50 ciem convoy recent
+51 eston nullptr homeless
+52 specific resident jwt
+53 finals mempun said
+54 field stops trouva
+55 yas catching konstru
+56 aments counted harsh
+57 lesia gering morm
+58 unud bedrooms juntas
+59 camp narrowed glau
+60 blob buona canta
+61 vonne draining neut
+62 ceu well distinto
+63 upload bleeding voir
+64 iddle stos posse
+65 ousse internet origen
+66 buttons brings seja
+67 ptic owners indis
+68 idon locally provoked
+69 light telesc upotre
+70 argement mediates ja
+71 iako radio pert
+72 mean gall concept
+73 atischen il pide
+74 pathetic forza kw
+75 opol painting estall
+76 cast educated grond
+77 odies firmly comunic
+78 mez hooks itt
+79 uns blijven przez
+80 presents sends princ
+81 otions ventric observes
+82 udience sustent regiones
+83 cht adv sinking
+84 agian aggi arranger
+85 iooni mlad karena
+86 peut mostrar proiect
+87 richten incluso wildly
+88 ierte unit hija
+89 azos seconds reconst
+90 ci dus pottery
+91 prowad metaphys granted
+92 lis shoot chileno
+93 pause improper gestellt
+94 iostream shapes ribbon
+95 isateurs zeta instaur
+96 urry fixtures dlou
+97 oming stom umfasste
+98 loc affin milion
+99 ettatori surgeons yazar
+[completion]
+00 imestamp ocup bij -> –i–m–e–s–t–a–m–p–o–c–u–p–b–i–j–
+01 students rann formato -> –s–t–u–d–e–n–t–s–r–a–n–n–f–o–r–m–a–t–o–
+02 icza course dando -> –i–c–z–a–c–o–u–r–s–e–d–a–n–d–o–
+03 ulario trong code -> –u–l–a–r–i–o–t–r–o–n–g–c–o–d–e–
+04 pre calories backing -> –p–r–e–c–a–l–o–r–i–e–s–b–a–c–k–i–n–g–
+05 reats vra tiro -> –r–e–a–t–s–v–r–a–t–i–r–o–
+06 oure ciudades peng -> –o–u–r–e–c–i–u–d–a–d–e–s–p–e–n–g–
+07 onesa vrouw sag -> –o–n–e–s–a–v–r–o–u–w–s–a–g–
+08 requency idee ailleurs -> –r–e–q–u–e–n–c–y–i–d–e–e–a–i–l–l–e–u–r–s–
+09 ousias fluids downtown -> –o–u–s–i–a–s–f–l–u–i–d–s–d–o–w–n–t–o–w–n–
+10 obox palabra dynamics -> –o–b–o–x–p–a–l–a–b–r–a–d–y–n–a–m–i–c–s–
+11 esota shirt free -> –e–s–o–t–a–s–h–i–r–t–f–r–e–e–
+12 calar penn jeux -> –c–a–l–a–r–p–e–n–n–j–e–u–x–
+13 chos albicans bitcoin -> –c–h–o–s–a–l–b–i–c–a–n–s–b–i–t–c–o–i–n–
+14 ile retailer puede -> –i–l–e–r–e–t–a–i–l–e–r–p–u–e–d–e–
+15 atement obtiene arcade -> –a–t–e–m–e–n–t–o–b–t–i–e–n–e–a–r–c–a–d–e–
+16 zean simplic gastro -> –z–e–a–n–s–i–m–p–l–i–c–g–a–s–t–r–o–
+17 arin propi replaces -> –a–r–i–n–p–r–o–p–i–r–e–p–l–a–c–e–s–
+18 olge outside scheint -> –o–l–g–e–o–u–t–s–i–d–e–s–c–h–e–i–n–t–
+19 zahl arteries subito -> –z–a–h–l–a–r–t–e–r–i–e–s–s–u–b–i–t–o–
+20 aires they palacio -> –a–i–r–e–s–t–h–e–y–p–a–l–a–c–i–o–
+21 nosti alam semaine -> –n–o–s–t–i–a–l–a–m–s–e–m–a–i–n–e–
+22 urban steering except -> –u–r–b–a–n–s–t–e–e–r–i–n–g–e–x–c–e–p–t–
+23 xffff eldest anunci -> –x–f–f–f–f–e–l–d–e–s–t–a–n–u–n–c–i–
+24 ampir nola nr -> –a–m–p–i–r–n–o–l–a–n–r–
+25 bit zwar trader -> –b–i–t–z–w–a–r–t–r–a–d–e–r–
+26 cl fri into -> –c–l–f–r–i–i–n–t–o–
+27 aman warum tunnel -> –a–m–a–n–w–a–r–u–m–t–u–n–n–e–l–
+28 pens tactics comunale -> –p–e–n–s–t–a–c–t–i–c–s–c–o–m–u–n–a–l–e–
+29 erns inoltre estamos -> –e–r–n–s–i–n–o–l–t–r–e–e–s–t–a–m–o–s–
+30 riebe nanocom escuela -> –r–i–e–b–e–n–a–n–o–c–o–m–e–s–c–u–e–l–a–
+31 mad catedral pels -> –m–a–d–c–a–t–e–d–r–a–l–p–e–l–s–
+32 aptured tenir making -> –a–p–t–u–r–e–d–t–e–n–i–r–m–a–k–i–n–g–
+33 mond sarrerak bygg -> –m–o–n–d–s–a–r–r–e–r–a–k–b–y–g–g–
+34 ijal aquest pal -> –i–j–a–l–a–q–u–e–s–t–p–a–l–
+35 utely oz olaraq -> –u–t–e–l–y–o–z–o–l–a–r–a–q–
+36 oris goats fulfill -> –o–r–i–s–g–o–a–t–s–f–u–l–f–i–l–l–
+37 dis vivir dort -> –d–i–s–v–i–v–i–r–d–o–r–t–
+38 elfare autour winner -> –e–l–f–a–r–e–a–u–t–o–u–r–w–i–n–n–e–r–
+39 ivet futur denen -> –i–v–e–t–f–u–t–u–r–d–e–n–e–n–
+40 acc sul aucune -> –a–c–c–s–u–l–a–u–c–u–n–e–
+41 izations xung uttry -> –i–z–a–t–i–o–n–s–x–u–n–g–u–t–t–r–y–
+42 umna solvents obstacle -> –u–m–n–a–s–o–l–v–e–n–t–s–o–b–s–t–a–c–l–e–
+43 irectory glove celui -> –i–r–e–c–t–o–r–y–g–l–o–v–e–c–e–l–u–i–
+44 ust muest cb -> –u–s–t–m–u–e–s–t–c–b–
+45 ench cerrado forces -> –e–n–c–h–c–e–r–r–a–d–o–f–o–r–c–e–s–
+46 abli televiz affairs -> –a–b–l–i–t–e–l–e–v–i–z–a–f–f–a–i–r–s–
+47 plicated energy drove -> –p–l–i–c–a–t–e–d–e–n–e–r–g–y–d–r–o–v–e–
+48 onical gute heureuse -> –o–n–i–c–a–l–g–u–t–e–h–e–u–r–e–u–s–e–
+49 atri lambda kald -> –a–t–r–i–l–a–m–b–d–a–k–a–l–d–
+50 ciem convoy recent -> –c–i–e–m–c–o–n–v–o–y–r–e–c–e–n–t–
+51 eston nullptr homeless -> –e–s–t–o–n–n–u–l–l–p–t–r–h–o–m–e–l–e–s–s–
+52 specific resident jwt -> –s–p–e–c–i–f–i–c–r–e–s–i–d–e–n–t–j–w–t–
+53 finals mempun said -> –f–i–n–a–l–s–m–e–m–p–u–n–s–a–i–d–
+54 field stops trouva -> –f–i–e–l–d–s–t–o–p–s–t–r–o–u–v–a–
+55 yas catching konstru -> –y–a–s–c–a–t–c–h–i–n–g–k–o–n–s–t–r–u–
+56 aments counted harsh -> –a–m–e–n–t–s–c–o–u–n–t–e–d–h–a–r–s–h–
+57 lesia gering morm -> –l–e–s–i–a–g–e–r–i–n–g–m–o–r–m–
+58 unud bedrooms juntas -> –u–n–u–d–b–e–d–r–o–o–m–s–j–u–n–t–a–s–
+59 camp narrowed glau -> –c–a–m–p–n–a–r–r–o–w–e–d–g–l–a–u–
+60 blob buona canta -> –b–l–o–b–b–u–o–n–a–c–a–n–t–a–
+61 vonne draining neut -> –v–o–n–n–e–d–r–a–i–n–i–n–g–n–e–u–t–
+62 ceu well distinto -> –c–e–u–w–e–l–l–d–i–s–t–i–n–t–o–
+63 upload bleeding voir -> –u–p–l–o–a–d–b–l–e–e–d–i–n–g–v–o–i–r–
+64 iddle stos posse -> –i–d–d–l–e–s–t–o–s–p–o–s–s–e–
+65 ousse internet origen -> –o–u–s–s–e–i–n–t–e–r–n–e–t–o–r–i–g–e–n–
+66 buttons brings seja -> –b–u–t–t–o–n–s–b–r–i–n–g–s–s–e–j–a–
+67 ptic owners indis -> –p–t–i–c–o–w–n–e–r–s–i–n–d–i–s–
+68 idon locally provoked -> –i–d–o–n–l–o–c–a–l–l–y–p–r–o–v–o–k–e–d–
+69 light telesc upotre -> –l–i–g–h–t–t–e–l–e–s–c–u–p–o–t–r–e–
+70 argement mediates ja -> –a–r–g–e–m–e–n–t–m–e–d–i–a–t–e–s–j–a–
+71 iako radio pert -> –i–a–k–o–r–a–d–i–o–p–e–r–t–
+72 mean gall concept -> –m–e–a–n–g–a–l–l–c–o–n–c–e–p–t–
+73 atischen il pide -> –a–t–i–s–c–h–e–n–i–l–p–i–d–e–
+74 pathetic forza kw -> –p–a–t–h–e–t–i–c–f–o–r–z–a–k–w–
+75 opol painting estall -> –o–p–o–l–p–a–i–n–t–i–n–g–e–s–t–a–l–l–
+76 cast educated grond -> –c–a–s–t–e–d–u–c–a–t–e–d–g–r–o–n–d–
+77 odies firmly comunic -> –o–d–i–e–s–f–i–r–m–l–y–c–o–m–u–n–i–c–
+78 mez hooks itt -> –m–e–z–h–o–o–k–s–i–t–t–
+79 uns blijven przez -> –u–n–s–b–l–i–j–v–e–n–p–r–z–e–z–
+80 presents sends princ -> –p–r–e–s–e–n–t–s–s–e–n–d–s–p–r–i–n–c–
+81 otions ventric observes -> –o–t–i–o–n–s–v–e–n–t–r–i–c–o–b–s–e–r–v–e–s–
+82 udience sustent regiones -> –u–d–i–e–n–c–e–s–u–s–t–e–n–t–r–e–g–i–o–n–e–s–
+83 cht adv sinking -> –c–h–t–a–d–v–s–i–n–k–i–n–g–
+84 agian aggi arranger -> –a–g–i–a–n–a–g–g–i–a–r–r–a–n–g–e–r–
+85 iooni mlad karena -> –i–o–o–n–i–m–l–a–d–k–a–r–e–n–a–
+86 peut mostrar proiect -> –p–e–u–t–m–o–s–t–r–a–r–p–r–o–i–e–c–t–
+87 richten incluso wildly -> –r–i–c–h–t–e–n–i–n–c–l–u–s–o–w–i–l–d–l–y–
+88 ierte unit hija -> –i–e–r–t–e–u–n–i–t–h–i–j–a–
+89 azos seconds reconst -> –a–z–o–s–s–e–c–o–n–d–s–r–e–c–o–n–s–t–
+90 ci dus pottery -> –c–i–d–u–s–p–o–t–t–e–r–y–
+91 prowad metaphys granted -> –p–r–o–w–a–d–m–e–t–a–p–h–y–s–g–r–a–n–t–e–d–
+92 lis shoot chileno -> –l–i–s–s–h–o–o–t–c–h–i–l–e–n–o–
+93 pause improper gestellt -> –p–a–u–s–e–i–m–p–r–o–p–e–r–g–e–s–t–e–l–l–t–
+94 iostream shapes ribbon -> –i–o–s–t–r–e–a–m–s–h–a–p–e–s–r–i–b–b–o–n–
+95 isateurs zeta instaur -> –i–s–a–t–e–u–r–s–z–e–t–a–i–n–s–t–a–u–r–
+96 urry fixtures dlou -> –u–r–r–y–f–i–x–t–u–r–e–s–d–l–o–u–
+97 oming stom umfasste -> –o–m–i–n–g–s–t–o–m–u–m–f–a–s–s–t–e–
+98 loc affin milion -> –l–o–c–a–f–f–i–n–m–i–l–i–o–n–
+99 ettatori surgeons yazar -> –e–t–t–a–t–o–r–i–s–u–r–g–e–o–n–s–y–a–z–a–r–

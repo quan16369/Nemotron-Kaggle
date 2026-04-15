@@ -1,0 +1,75 @@
+problem id: 8a0c1aab
+category: cryptarithm_guess
+
+examples:
+1. `?:+[} = >}$`
+2. `?$+&[ = $?`
+3. `?>*:< = <[($`
+4. `&>+?[ = $^`
+
+inferred rule:
+Treat each non-operator symbol as a decimal digit with this map:
+
+- `( = 0`
+- `$ = 1`
+- `> = 2`
+- `< = 3`
+- `& = 4`
+- `[ = 5`
+- `} = 6`
+- `? = 7`
+- `^ = 8`
+- `: = 9`
+
+Read each 2-symbol operand in reverse order, so the right-hand symbol is the tens digit and the left-hand symbol is the ones digit.
+
+Then:
+
+- `+` means ordinary addition.
+- `*` means ordinary multiplication.
+- After computing the numeric result, reverse its decimal digits before encoding them back into symbols.
+- For the unseen `-`, the most defensible completion is absolute difference, so `ab-cd` becomes `|ab-cd|` before the same reverse-and-encode step.
+
+check on the examples:
+1. `?:+[}`
+   `?:` decodes as `97`.
+   `[}` decodes as `65`.
+   `97 + 65 = 162`.
+   Reverse the result digits: `162 -> 261`.
+   `2 -> >`, `6 -> }`, `1 -> $`, so the output is `>}$`.
+
+2. `?$+&[`
+   `?$` decodes as `17`.
+   `&[` decodes as `54`.
+   `17 + 54 = 71`.
+   Reverse the result digits: `71 -> 17`.
+   `1 -> $`, `7 -> ?`, so the output is `$?`.
+
+3. `?>*:<`
+   `?>` decodes as `27`.
+   `:<` decodes as `39`.
+   `27 * 39 = 1053`.
+   Reverse the result digits: `1053 -> 3501`.
+   `3 -> <`, `5 -> [`, `0 -> (`, `1 -> $`, so the output is `<[($`.
+
+4. `&>+?[`
+   `&>` decodes as `24`.
+   `?[` decodes as `57`.
+   `24 + 57 = 81`.
+   Reverse the result digits: `81 -> 18`.
+   `1 -> $`, `8 -> ^`, so the output is `$^`.
+
+step-by-step application to the query:
+Query: `<[-}[`
+
+1. `<[` decodes as `53`.
+2. `}[` decodes as `56`.
+3. Use the unseen `-` as absolute difference: `|53 - 56| = 3`.
+4. Reversing a one-digit result keeps it the same: `3`.
+5. Encode `3` back into symbols: `3 -> <`.
+
+predicted answer:
+`<`
+
+confidence note:
+High. The same digit map, reversed-operand reading, and reversed-result encoding fit all four examples exactly. The only extrapolation is treating the unseen `-` as absolute difference, and the query result landing on the one-digit symbol `<` is consistent with that rule.

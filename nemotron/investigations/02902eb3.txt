@@ -1,0 +1,60 @@
+problem id: 02902eb3
+category: cryptarithm_guess
+
+examples:
+1. `!&*%% = }%>%`
+2. `%&-/> = $)`
+3. `$]*&& = }&&}`
+
+inferred rule:
+Treat each non-operator symbol as a decimal digit and read each 2-symbol chunk as the 2-digit number written in that order.
+
+The three examples are fit exactly by this digit map:
+
+- `! = 4`
+- `& = 7`
+- `% = 5`
+- `} = 2`
+- `> = 8`
+- `/ = 1`
+- `$ = 3`
+- `) = 9`
+- `] = 6`
+
+With that map:
+
+- `*` is ordinary multiplication.
+- `-` is ordinary subtraction.
+- The query's unseen `+` is most defensibly taken as ordinary addition, since the examples already use the other two basic arithmetic operators.
+
+step-by-step check on the examples:
+1. `!&*%%`
+   `!&` is `47` and `%%` is `55`.
+   `47 * 55 = 2585`.
+   `2 -> }`, `5 -> %`, `8 -> >`, `5 -> %`, so the output is `}%>%`.
+
+2. `%&-/>`
+   `%&` is `57` and `/>` is `18`.
+   `57 - 18 = 39`.
+   `3 -> $`, `9 -> )`, so the output is `$)`.
+
+3. `$]*&&`
+   `$]` is `36` and `&&` is `77`.
+   `36 * 77 = 2772`.
+   `2 -> }`, `7 -> &`, `7 -> &`, `2 -> }`, so the output is `}&&}`.
+
+step-by-step application to the query:
+Query: `!!+$>`
+
+1. `!!` decodes to `44`.
+2. `$>` decodes to `38`.
+3. Apply the unseen `+` as ordinary addition: `44 + 38 = 82`.
+4. Encode `82` back into symbols:
+   `8 -> >`
+   `2 -> }`
+
+predicted answer:
+`>}`
+
+confidence note:
+Medium-low confidence. The symbol-to-digit mapping and the meanings of `*` and `-` are clean and exact on all three examples. The only ambiguity is that `+` never appears in the training examples, so treating it as ordinary addition is an extrapolation.

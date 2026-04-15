@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 enciar jej retrofit
+01 oney relief pharmacy
+02 ylem girl steering
+
+This is a sample output.
+00 enciar jej retrofit -> –e–n–c–i–a–r–j–e–j–r–e–t–r–o–f–i–t–
+01 oney relief pharmacy -> –o–n–e–y–r–e–l–i–e–f–p–h–a–r–m–a–c–y–
+02 ylem girl steering -> –y–l–e–m–g–i–r–l–s–t–e–e–r–i–n–g–
+
+This is your input.
+00 itte blockade vigor
+01 regon comarca rou
+02 formin batch weapons
+03 aser bang flux
+04 rato bru advance
+05 ederal off easiest
+06 olina system hectares
+07 cliffe luglio fantas
+08 conduct voraus demo
+09 operto nove perl
+10 thead skeptic mushroom
+11 ogs hace quam
+12 toinette tripul accident
+13 ui seper cheer
+14 antz piir clicks
+15 riques lze trolley
+16 kord endete escolha
+17 agram kohta pjes
+18 werpen piccolo sang
+19 ethnic ph parce
+20 roke centroid famosos
+21 racuse obres design
+22 ateurs keeping hogy
+23 insko emoc recv
+24 minutes folos cantora
+25 xim excel porous
+26 months ann moreover
+27 czyk femoral knockout
+28 vat sensing getan
+29 att caras normale
+30 lego cranial tenure
+31 lbrack aj lyrics
+32 carbon konpont ix
+33 lehem labeling vaikut
+34 okban unhappy magasin
+35 ativo mand disebut
+36 car output que
+37 song leads axis
+38 ment quartier varied
+39 ovil formada limitada
+40 aski efectu odgov
+41 ziu heridos sein
+42 carb ye visita
+43 esy soziale squared
+44 etzungen trob everyone
+45 orium marito tos
+46 rau pouvant modo
+47 lake sever fits
+48 intosh dana koordin
+49 akarta proble rodada
+50 ordin chiqar intenz
+51 endoza medals authent
+52 ellus dennoch persona
+53 acz kilom photo
+54 previous metallic compares
+55 raven konk enjoying
+56 ario ordained saint
+57 pretty niew conf
+58 irtual mega komple
+59 lict fis vlasti
+60 rale boost poza
+61 amiliar funzion abord
+62 afen uni inel
+63 ect setzt handelte
+64 iczny gradu mejora
+65 zed hostile nac
+66 iget melalui uzav
+67 ouf informes sher
+68 otope dotted executes
+69 auto early allele
+70 wo revoir starrte
+71 asuna pojav wor
+72 bell adopting peu
+73 wort residual poured
+74 gars cukup geworden
+75 agr charge gav
+76 afe kinda figlia
+77 porters avert poursuiv
+78 ronter compl ils
+79 ara cohesive wealth
+80 normal same atlet
+81 psych verband faixa
+82 umbling medium neues
+83 iquait proiz edifici
+84 itimes pregunt eau
+85 yllis etern phylogen
+86 hand resulted accessed
+87 aparte resource onset
+88 reb event bawah
+89 anak verloor folded
+90 ser francia iam
+91 zust promised platinum
+92 bano baita obszar
+93 astore prices olhou
+94 thel alien comedia
+95 voor phosphor droplet
+96 idyl couche szt
+97 eff heading login
+98 zem peroxid fiori
+99 ntag urkund cannot
+[completion]
+00 itte blockade vigor -> –i–t–t–e–b–l–o–c–k–a–d–e–v–i–g–o–r–
+01 regon comarca rou -> –r–e–g–o–n–c–o–m–a–r–c–a–r–o–u–
+02 formin batch weapons -> –f–o–r–m–i–n–b–a–t–c–h–w–e–a–p–o–n–s–
+03 aser bang flux -> –a–s–e–r–b–a–n–g–f–l–u–x–
+04 rato bru advance -> –r–a–t–o–b–r–u–a–d–v–a–n–c–e–
+05 ederal off easiest -> –e–d–e–r–a–l–o–f–f–e–a–s–i–e–s–t–
+06 olina system hectares -> –o–l–i–n–a–s–y–s–t–e–m–h–e–c–t–a–r–e–s–
+07 cliffe luglio fantas -> –c–l–i–f–f–e–l–u–g–l–i–o–f–a–n–t–a–s–
+08 conduct voraus demo -> –c–o–n–d–u–c–t–v–o–r–a–u–s–d–e–m–o–
+09 operto nove perl -> –o–p–e–r–t–o–n–o–v–e–p–e–r–l–
+10 thead skeptic mushroom -> –t–h–e–a–d–s–k–e–p–t–i–c–m–u–s–h–r–o–o–m–
+11 ogs hace quam -> –o–g–s–h–a–c–e–q–u–a–m–
+12 toinette tripul accident -> –t–o–i–n–e–t–t–e–t–r–i–p–u–l–a–c–c–i–d–e–n–t–
+13 ui seper cheer -> –u–i–s–e–p–e–r–c–h–e–e–r–
+14 antz piir clicks -> –a–n–t–z–p–i–i–r–c–l–i–c–k–s–
+15 riques lze trolley -> –r–i–q–u–e–s–l–z–e–t–r–o–l–l–e–y–
+16 kord endete escolha -> –k–o–r–d–e–n–d–e–t–e–e–s–c–o–l–h–a–
+17 agram kohta pjes -> –a–g–r–a–m–k–o–h–t–a–p–j–e–s–
+18 werpen piccolo sang -> –w–e–r–p–e–n–p–i–c–c–o–l–o–s–a–n–g–
+19 ethnic ph parce -> –e–t–h–n–i–c–p–h–p–a–r–c–e–
+20 roke centroid famosos -> –r–o–k–e–c–e–n–t–r–o–i–d–f–a–m–o–s–o–s–
+21 racuse obres design -> –r–a–c–u–s–e–o–b–r–e–s–d–e–s–i–g–n–
+22 ateurs keeping hogy -> –a–t–e–u–r–s–k–e–e–p–i–n–g–h–o–g–y–
+23 insko emoc recv -> –i–n–s–k–o–e–m–o–c–r–e–c–v–
+24 minutes folos cantora -> –m–i–n–u–t–e–s–f–o–l–o–s–c–a–n–t–o–r–a–
+25 xim excel porous -> –x–i–m–e–x–c–e–l–p–o–r–o–u–s–
+26 months ann moreover -> –m–o–n–t–h–s–a–n–n–m–o–r–e–o–v–e–r–
+27 czyk femoral knockout -> –c–z–y–k–f–e–m–o–r–a–l–k–n–o–c–k–o–u–t–
+28 vat sensing getan -> –v–a–t–s–e–n–s–i–n–g–g–e–t–a–n–
+29 att caras normale -> –a–t–t–c–a–r–a–s–n–o–r–m–a–l–e–
+30 lego cranial tenure -> –l–e–g–o–c–r–a–n–i–a–l–t–e–n–u–r–e–
+31 lbrack aj lyrics -> –l–b–r–a–c–k–a–j–l–y–r–i–c–s–
+32 carbon konpont ix -> –c–a–r–b–o–n–k–o–n–p–o–n–t–i–x–
+33 lehem labeling vaikut -> –l–e–h–e–m–l–a–b–e–l–i–n–g–v–a–i–k–u–t–
+34 okban unhappy magasin -> –o–k–b–a–n–u–n–h–a–p–p–y–m–a–g–a–s–i–n–
+35 ativo mand disebut -> –a–t–i–v–o–m–a–n–d–d–i–s–e–b–u–t–
+36 car output que -> –c–a–r–o–u–t–p–u–t–q–u–e–
+37 song leads axis -> –s–o–n–g–l–e–a–d–s–a–x–i–s–
+38 ment quartier varied -> –m–e–n–t–q–u–a–r–t–i–e–r–v–a–r–i–e–d–
+39 ovil formada limitada -> –o–v–i–l–f–o–r–m–a–d–a–l–i–m–i–t–a–d–a–
+40 aski efectu odgov -> –a–s–k–i–e–f–e–c–t–u–o–d–g–o–v–
+41 ziu heridos sein -> –z–i–u–h–e–r–i–d–o–s–s–e–i–n–
+42 carb ye visita -> –c–a–r–b–y–e–v–i–s–i–t–a–
+43 esy soziale squared -> –e–s–y–s–o–z–i–a–l–e–s–q–u–a–r–e–d–
+44 etzungen trob everyone -> –e–t–z–u–n–g–e–n–t–r–o–b–e–v–e–r–y–o–n–e–
+45 orium marito tos -> –o–r–i–u–m–m–a–r–i–t–o–t–o–s–
+46 rau pouvant modo -> –r–a–u–p–o–u–v–a–n–t–m–o–d–o–
+47 lake sever fits -> –l–a–k–e–s–e–v–e–r–f–i–t–s–
+48 intosh dana koordin -> –i–n–t–o–s–h–d–a–n–a–k–o–o–r–d–i–n–
+49 akarta proble rodada -> –a–k–a–r–t–a–p–r–o–b–l–e–r–o–d–a–d–a–
+50 ordin chiqar intenz -> –o–r–d–i–n–c–h–i–q–a–r–i–n–t–e–n–z–
+51 endoza medals authent -> –e–n–d–o–z–a–m–e–d–a–l–s–a–u–t–h–e–n–t–
+52 ellus dennoch persona -> –e–l–l–u–s–d–e–n–n–o–c–h–p–e–r–s–o–n–a–
+53 acz kilom photo -> –a–c–z–k–i–l–o–m–p–h–o–t–o–
+54 previous metallic compares -> –p–r–e–v–i–o–u–s–m–e–t–a–l–l–i–c–c–o–m–p–a–r–e–s–
+55 raven konk enjoying -> –r–a–v–e–n–k–o–n–k–e–n–j–o–y–i–n–g–
+56 ario ordained saint -> –a–r–i–o–o–r–d–a–i–n–e–d–s–a–i–n–t–
+57 pretty niew conf -> –p–r–e–t–t–y–n–i–e–w–c–o–n–f–
+58 irtual mega komple -> –i–r–t–u–a–l–m–e–g–a–k–o–m–p–l–e–
+59 lict fis vlasti -> –l–i–c–t–f–i–s–v–l–a–s–t–i–
+60 rale boost poza -> –r–a–l–e–b–o–o–s–t–p–o–z–a–
+61 amiliar funzion abord -> –a–m–i–l–i–a–r–f–u–n–z–i–o–n–a–b–o–r–d–
+62 afen uni inel -> –a–f–e–n–u–n–i–i–n–e–l–
+63 ect setzt handelte -> –e–c–t–s–e–t–z–t–h–a–n–d–e–l–t–e–
+64 iczny gradu mejora -> –i–c–z–n–y–g–r–a–d–u–m–e–j–o–r–a–
+65 zed hostile nac -> –z–e–d–h–o–s–t–i–l–e–n–a–c–
+66 iget melalui uzav -> –i–g–e–t–m–e–l–a–l–u–i–u–z–a–v–
+67 ouf informes sher -> –o–u–f–i–n–f–o–r–m–e–s–s–h–e–r–
+68 otope dotted executes -> –o–t–o–p–e–d–o–t–t–e–d–e–x–e–c–u–t–e–s–
+69 auto early allele -> –a–u–t–o–e–a–r–l–y–a–l–l–e–l–e–
+70 wo revoir starrte -> –w–o–r–e–v–o–i–r–s–t–a–r–r–t–e–
+71 asuna pojav wor -> –a–s–u–n–a–p–o–j–a–v–w–o–r–
+72 bell adopting peu -> –b–e–l–l–a–d–o–p–t–i–n–g–p–e–u–
+73 wort residual poured -> –w–o–r–t–r–e–s–i–d–u–a–l–p–o–u–r–e–d–
+74 gars cukup geworden -> –g–a–r–s–c–u–k–u–p–g–e–w–o–r–d–e–n–
+75 agr charge gav -> –a–g–r–c–h–a–r–g–e–g–a–v–
+76 afe kinda figlia -> –a–f–e–k–i–n–d–a–f–i–g–l–i–a–
+77 porters avert poursuiv -> –p–o–r–t–e–r–s–a–v–e–r–t–p–o–u–r–s–u–i–v–
+78 ronter compl ils -> –r–o–n–t–e–r–c–o–m–p–l–i–l–s–
+79 ara cohesive wealth -> –a–r–a–c–o–h–e–s–i–v–e–w–e–a–l–t–h–
+80 normal same atlet -> –n–o–r–m–a–l–s–a–m–e–a–t–l–e–t–
+81 psych verband faixa -> –p–s–y–c–h–v–e–r–b–a–n–d–f–a–i–x–a–
+82 umbling medium neues -> –u–m–b–l–i–n–g–m–e–d–i–u–m–n–e–u–e–s–
+83 iquait proiz edifici -> –i–q–u–a–i–t–p–r–o–i–z–e–d–i–f–i–c–i–
+84 itimes pregunt eau -> –i–t–i–m–e–s–p–r–e–g–u–n–t–e–a–u–
+85 yllis etern phylogen -> –y–l–l–i–s–e–t–e–r–n–p–h–y–l–o–g–e–n–
+86 hand resulted accessed -> –h–a–n–d–r–e–s–u–l–t–e–d–a–c–c–e–s–s–e–d–
+87 aparte resource onset -> –a–p–a–r–t–e–r–e–s–o–u–r–c–e–o–n–s–e–t–
+88 reb event bawah -> –r–e–b–e–v–e–n–t–b–a–w–a–h–
+89 anak verloor folded -> –a–n–a–k–v–e–r–l–o–o–r–f–o–l–d–e–d–
+90 ser francia iam -> –s–e–r–f–r–a–n–c–i–a–i–a–m–
+91 zust promised platinum -> –z–u–s–t–p–r–o–m–i–s–e–d–p–l–a–t–i–n–u–m–
+92 bano baita obszar -> –b–a–n–o–b–a–i–t–a–o–b–s–z–a–r–
+93 astore prices olhou -> –a–s–t–o–r–e–p–r–i–c–e–s–o–l–h–o–u–
+94 thel alien comedia -> –t–h–e–l–a–l–i–e–n–c–o–m–e–d–i–a–
+95 voor phosphor droplet -> –v–o–o–r–p–h–o–s–p–h–o–r–d–r–o–p–l–e–t–
+96 idyl couche szt -> –i–d–y–l–c–o–u–c–h–e–s–z–t–
+97 eff heading login -> –e–f–f–h–e–a–d–i–n–g–l–o–g–i–n–
+98 zem peroxid fiori -> –z–e–m–p–e–r–o–x–i–d–f–i–o–r–i–
+99 ntag urkund cannot -> –n–t–a–g–u–r–k–u–n–d–c–a–n–n–o–t–

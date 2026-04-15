@@ -1,0 +1,71 @@
+problem id: 398478f6
+category: cryptarithm_guess
+
+examples:
+1. `[]-@] = -!`
+2. `][*\\[ = @@!\\`
+3. `:)*\`@ = \`|))`
+
+inferred rule:
+Treat each non-operator symbol as a decimal digit, but read each 2-symbol operand in reverse order before decoding it.
+
+One exact digit assignment that fits all three examples is:
+- `[ = 6`
+- `] = 7`
+- `@ = 8`
+- `! = 2`
+- `\\ = 4`
+- `: = 9`
+- `) = 3`
+- backtick (`) = 5
+- `| = 1`
+
+Operator behavior:
+- `-` means ordinary subtraction.
+- `*` means ordinary multiplication.
+- After computing the numeric result, reverse the result digits before encoding them back into symbols.
+- If subtraction is negative, keep a literal leading `-` and encode the reversed magnitude after it.
+
+check on the examples:
+1. `[]-@]`
+   Reverse the operands: `[] -> ][`, `@] -> ]@`.
+   `][ = 76`, `]@ = 78`.
+   `76 - 78 = -2`.
+   The magnitude is `2`; reversing it does nothing.
+   `2 -> !`, so the output is `-!`.
+
+2. `][*\\[`
+   Reverse the operands: `][ -> []`, `\\[ -> [\\`.
+   `[] = 67`, `[\\ = 64`.
+   `67 * 64 = 4288`.
+   Reverse the result digits: `4288 -> 8824`.
+   `8 -> @`, `8 -> @`, `2 -> !`, `4 -> \\`, so the output is `@@!\\`.
+
+3. `:)*\`@`
+   Reverse the operands: ":)" -> "):", "`@" -> "@`".
+   "):" = 39, "@`" = 85.
+   `39 * 85 = 3315`.
+   Reverse the result digits: `3315 -> 5133`.
+   `5 -> backtick`, `1 -> |`, `3 -> )`, `3 -> )`, so the output is "`|))".
+
+step-by-step application to the query:
+Query: `|)+@)`
+
+1. Reverse the left operand `|)` to `)|`.
+2. Reverse the right operand `@)` to `)@`.
+3. Decode them with the same symbol map:
+   `)| = 31`
+   `)@ = 38`
+4. The examples already use subtraction and multiplication, so the unseen `+` is most naturally ordinary addition with the same digit-reversal convention.
+5. Compute the sum: `31 + 38 = 69`.
+6. Reverse the result digits: `69 -> 96`.
+7. Encode `96` back into symbols:
+   `9 -> :`
+   `6 -> [`
+8. Predicted result: `:[`.
+
+predicted answer:
+`:[`
+
+confidence note:
+Medium-high. The symbol map, reversed-operand convention, subtraction rule, multiplication rule, and reversed-result encoding fit all three examples exactly. The only extrapolation is taking the unseen `+` to be ordinary addition.

@@ -1,0 +1,42 @@
+problem id: 000b53cf
+category: bit_manipulation
+
+examples:
+- 10001110 -> 00100110
+- 10011001 -> 01000100
+- 01100100 -> 00010001
+- 10000010 -> 00001010
+- 00011011 -> 01001100
+- 00111010 -> 10011100
+- 01101111 -> 00110111
+- 10010110 -> 01011010
+- 00001010 -> 00101100
+- query: 11100000
+
+inferred rule:
+- Let `a = x << 1` using an 8-bit logical left shift.
+- Let `b = x >> 1` using an 8-bit logical right shift.
+- Let `c = rol(x, 2)`, a rotate-left by 2 bits.
+- The output is `ch(a, b, c) = (a & b) | (~a & c)`.
+- In words: use the shifted-left bits as a control mask. Where `a` has a 1, take the bit from `b`; where `a` has a 0, take the bit from `c`.
+
+why this rule fits the examples:
+- For `10001110`, `a = 00011100`, `b = 01000111`, `c = 00111010`. Then `(a & b) | (~a & c) = 00100110`.
+- For `10011001`, `a = 00110010`, `b = 01001100`, `c = 01100110`. The same formula gives `01000100`.
+- For `01101111`, `a = 11011110`, `b = 00110111`, `c = 10111101`. The same formula gives `00110111`.
+- Running the same computation on all nine provided examples reproduces every output exactly.
+
+step-by-step application to the query:
+1. Start with `x = 11100000`.
+2. Shift left by 1: `a = 11000000`.
+3. Shift right by 1: `b = 01110000`.
+4. Rotate left by 2: `c = 10000011`.
+5. Compute `a & b = 11000000 & 01110000 = 01000000`.
+6. Compute `~a & c = 00111111 & 10000011 = 00000011`.
+7. Combine the two pieces: `01000000 | 00000011 = 01000011`.
+
+predicted answer:
+- 01000011
+
+confidence note:
+- High confidence. This exact 8-bit choice rule matches every example cleanly with no exceptions. There may be equivalent rewrites of the same boolean function, but the behavior itself looks well constrained by the examples.

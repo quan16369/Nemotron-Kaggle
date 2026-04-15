@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 lanan entails comeback
+01 tocols control suicide
+02 ertation almost cykl
+
+This is a sample output.
+00 lanan entails comeback -> –l–a–n–a–n–e–n–t–a–i–l–s–c–o–m–e–b–a–c–k–
+01 tocols control suicide -> –t–o–c–o–l–s–c–o–n–t–r–o–l–s–u–i–c–i–d–e–
+02 ertation almost cykl -> –e–r–t–a–t–i–o–n–a–l–m–o–s–t–c–y–k–l–
+
+This is your input.
+00 ulating mammals paik
+01 idae defenses chines
+02 lessness jack canceled
+03 otlin capire glu
+04 merksam wenig elif
+05 ustus sta racont
+06 esterol discard arsenic
+07 ercises zmien inicial
+08 posit grands unsafe
+09 luit migrants recuper
+10 helium trouble maman
+11 itat numerals preuve
+12 sko emploi zit
+13 itul admired templo
+14 pero infect netto
+15 ovnih configs inaugur
+16 dan donn fors
+17 perna oil didn
+18 estore farsi choke
+19 wod typing trend
+20 ewise sauvages majeur
+21 ebel reciente offense
+22 exist geriet peligro
+23 using implant zdoby
+24 ersen flaps spielten
+25 emble velho beschou
+26 znym focus invern
+27 itimate planted manchmal
+28 uksia koje adelante
+29 ensing concord flap
+30 ownload vall umano
+31 onden reaction warrior
+32 rx leaning threaded
+33 ulti talent gep
+34 ributors workout malad
+35 otics trabaj abierto
+36 yna erwartet evolving
+37 li hill tuviera
+38 hammer period vita
+39 lauf hver pozw
+40 irie tangent zape
+41 che stick divul
+42 folk tvrd isra
+43 icom comply colegio
+44 kund enfat modern
+45 itada asko portug
+46 orial jersey apps
+47 utz ple polyg
+48 witz delegate dehors
+49 danger vzd faites
+50 kinchi questi ne
+51 bank apari gov
+52 pet pocket ofta
+53 vet burst dise
+54 top dents prid
+55 qiq appro pivot
+56 ispiele mateixa sapere
+57 oclip muc victor
+58 spiel choose polished
+59 ulkan estes arriving
+60 ijd radar prava
+61 cuper vieille airfield
+62 ovre hareket errone
+63 ikh anunciou grans
+64 bohyd kitchen apparten
+65 ilic multitud sourit
+66 weeks reserved indust
+67 inink absoluta youth
+68 adla cubic templ
+69 colors bara ponovno
+70 aterra fingert kept
+71 pawn empez affect
+72 mentar minder exceeds
+73 ainkan masse servlet
+74 ellt married soldi
+75 ought contaba mises
+76 bio rb vampire
+77 true coppia leng
+78 uya jointly leiding
+79 umont quasi motivi
+80 teko scrap caret
+81 oleh bust estrada
+82 ksi pute marine
+83 ceso getrennt anul
+84 itazione reve viszont
+85 zer gem perturb
+86 ussian necklace vraie
+87 posed informe path
+88 wem peuple plasmid
+89 mint hum kolei
+90 mission unten kla
+91 uly arke eased
+92 rlig ch testimon
+93 ops recon exhaust
+94 ensor paralel tumb
+95 istant llor cabo
+96 niejs prizn yil
+97 tail luna ambient
+98 oler violin asse
+99 ovel onde cuenta
+[completion]
+00 ulating mammals paik -> –u–l–a–t–i–n–g–m–a–m–m–a–l–s–p–a–i–k–
+01 idae defenses chines -> –i–d–a–e–d–e–f–e–n–s–e–s–c–h–i–n–e–s–
+02 lessness jack canceled -> –l–e–s–s–n–e–s–s–j–a–c–k–c–a–n–c–e–l–e–d–
+03 otlin capire glu -> –o–t–l–i–n–c–a–p–i–r–e–g–l–u–
+04 merksam wenig elif -> –m–e–r–k–s–a–m–w–e–n–i–g–e–l–i–f–
+05 ustus sta racont -> –u–s–t–u–s–s–t–a–r–a–c–o–n–t–
+06 esterol discard arsenic -> –e–s–t–e–r–o–l–d–i–s–c–a–r–d–a–r–s–e–n–i–c–
+07 ercises zmien inicial -> –e–r–c–i–s–e–s–z–m–i–e–n–i–n–i–c–i–a–l–
+08 posit grands unsafe -> –p–o–s–i–t–g–r–a–n–d–s–u–n–s–a–f–e–
+09 luit migrants recuper -> –l–u–i–t–m–i–g–r–a–n–t–s–r–e–c–u–p–e–r–
+10 helium trouble maman -> –h–e–l–i–u–m–t–r–o–u–b–l–e–m–a–m–a–n–
+11 itat numerals preuve -> –i–t–a–t–n–u–m–e–r–a–l–s–p–r–e–u–v–e–
+12 sko emploi zit -> –s–k–o–e–m–p–l–o–i–z–i–t–
+13 itul admired templo -> –i–t–u–l–a–d–m–i–r–e–d–t–e–m–p–l–o–
+14 pero infect netto -> –p–e–r–o–i–n–f–e–c–t–n–e–t–t–o–
+15 ovnih configs inaugur -> –o–v–n–i–h–c–o–n–f–i–g–s–i–n–a–u–g–u–r–
+16 dan donn fors -> –d–a–n–d–o–n–n–f–o–r–s–
+17 perna oil didn -> –p–e–r–n–a–o–i–l–d–i–d–n–
+18 estore farsi choke -> –e–s–t–o–r–e–f–a–r–s–i–c–h–o–k–e–
+19 wod typing trend -> –w–o–d–t–y–p–i–n–g–t–r–e–n–d–
+20 ewise sauvages majeur -> –e–w–i–s–e–s–a–u–v–a–g–e–s–m–a–j–e–u–r–
+21 ebel reciente offense -> –e–b–e–l–r–e–c–i–e–n–t–e–o–f–f–e–n–s–e–
+22 exist geriet peligro -> –e–x–i–s–t–g–e–r–i–e–t–p–e–l–i–g–r–o–
+23 using implant zdoby -> –u–s–i–n–g–i–m–p–l–a–n–t–z–d–o–b–y–
+24 ersen flaps spielten -> –e–r–s–e–n–f–l–a–p–s–s–p–i–e–l–t–e–n–
+25 emble velho beschou -> –e–m–b–l–e–v–e–l–h–o–b–e–s–c–h–o–u–
+26 znym focus invern -> –z–n–y–m–f–o–c–u–s–i–n–v–e–r–n–
+27 itimate planted manchmal -> –i–t–i–m–a–t–e–p–l–a–n–t–e–d–m–a–n–c–h–m–a–l–
+28 uksia koje adelante -> –u–k–s–i–a–k–o–j–e–a–d–e–l–a–n–t–e–
+29 ensing concord flap -> –e–n–s–i–n–g–c–o–n–c–o–r–d–f–l–a–p–
+30 ownload vall umano -> –o–w–n–l–o–a–d–v–a–l–l–u–m–a–n–o–
+31 onden reaction warrior -> –o–n–d–e–n–r–e–a–c–t–i–o–n–w–a–r–r–i–o–r–
+32 rx leaning threaded -> –r–x–l–e–a–n–i–n–g–t–h–r–e–a–d–e–d–
+33 ulti talent gep -> –u–l–t–i–t–a–l–e–n–t–g–e–p–
+34 ributors workout malad -> –r–i–b–u–t–o–r–s–w–o–r–k–o–u–t–m–a–l–a–d–
+35 otics trabaj abierto -> –o–t–i–c–s–t–r–a–b–a–j–a–b–i–e–r–t–o–
+36 yna erwartet evolving -> –y–n–a–e–r–w–a–r–t–e–t–e–v–o–l–v–i–n–g–
+37 li hill tuviera -> –l–i–h–i–l–l–t–u–v–i–e–r–a–
+38 hammer period vita -> –h–a–m–m–e–r–p–e–r–i–o–d–v–i–t–a–
+39 lauf hver pozw -> –l–a–u–f–h–v–e–r–p–o–z–w–
+40 irie tangent zape -> –i–r–i–e–t–a–n–g–e–n–t–z–a–p–e–
+41 che stick divul -> –c–h–e–s–t–i–c–k–d–i–v–u–l–
+42 folk tvrd isra -> –f–o–l–k–t–v–r–d–i–s–r–a–
+43 icom comply colegio -> –i–c–o–m–c–o–m–p–l–y–c–o–l–e–g–i–o–
+44 kund enfat modern -> –k–u–n–d–e–n–f–a–t–m–o–d–e–r–n–
+45 itada asko portug -> –i–t–a–d–a–a–s–k–o–p–o–r–t–u–g–
+46 orial jersey apps -> –o–r–i–a–l–j–e–r–s–e–y–a–p–p–s–
+47 utz ple polyg -> –u–t–z–p–l–e–p–o–l–y–g–
+48 witz delegate dehors -> –w–i–t–z–d–e–l–e–g–a–t–e–d–e–h–o–r–s–
+49 danger vzd faites -> –d–a–n–g–e–r–v–z–d–f–a–i–t–e–s–
+50 kinchi questi ne -> –k–i–n–c–h–i–q–u–e–s–t–i–n–e–
+51 bank apari gov -> –b–a–n–k–a–p–a–r–i–g–o–v–
+52 pet pocket ofta -> –p–e–t–p–o–c–k–e–t–o–f–t–a–
+53 vet burst dise -> –v–e–t–b–u–r–s–t–d–i–s–e–
+54 top dents prid -> –t–o–p–d–e–n–t–s–p–r–i–d–
+55 qiq appro pivot -> –q–i–q–a–p–p–r–o–p–i–v–o–t–
+56 ispiele mateixa sapere -> –i–s–p–i–e–l–e–m–a–t–e–i–x–a–s–a–p–e–r–e–
+57 oclip muc victor -> –o–c–l–i–p–m–u–c–v–i–c–t–o–r–
+58 spiel choose polished -> –s–p–i–e–l–c–h–o–o–s–e–p–o–l–i–s–h–e–d–
+59 ulkan estes arriving -> –u–l–k–a–n–e–s–t–e–s–a–r–r–i–v–i–n–g–
+60 ijd radar prava -> –i–j–d–r–a–d–a–r–p–r–a–v–a–
+61 cuper vieille airfield -> –c–u–p–e–r–v–i–e–i–l–l–e–a–i–r–f–i–e–l–d–
+62 ovre hareket errone -> –o–v–r–e–h–a–r–e–k–e–t–e–r–r–o–n–e–
+63 ikh anunciou grans -> –i–k–h–a–n–u–n–c–i–o–u–g–r–a–n–s–
+64 bohyd kitchen apparten -> –b–o–h–y–d–k–i–t–c–h–e–n–a–p–p–a–r–t–e–n–
+65 ilic multitud sourit -> –i–l–i–c–m–u–l–t–i–t–u–d–s–o–u–r–i–t–
+66 weeks reserved indust -> –w–e–e–k–s–r–e–s–e–r–v–e–d–i–n–d–u–s–t–
+67 inink absoluta youth -> –i–n–i–n–k–a–b–s–o–l–u–t–a–y–o–u–t–h–
+68 adla cubic templ -> –a–d–l–a–c–u–b–i–c–t–e–m–p–l–
+69 colors bara ponovno -> –c–o–l–o–r–s–b–a–r–a–p–o–n–o–v–n–o–
+70 aterra fingert kept -> –a–t–e–r–r–a–f–i–n–g–e–r–t–k–e–p–t–
+71 pawn empez affect -> –p–a–w–n–e–m–p–e–z–a–f–f–e–c–t–
+72 mentar minder exceeds -> –m–e–n–t–a–r–m–i–n–d–e–r–e–x–c–e–e–d–s–
+73 ainkan masse servlet -> –a–i–n–k–a–n–m–a–s–s–e–s–e–r–v–l–e–t–
+74 ellt married soldi -> –e–l–l–t–m–a–r–r–i–e–d–s–o–l–d–i–
+75 ought contaba mises -> –o–u–g–h–t–c–o–n–t–a–b–a–m–i–s–e–s–
+76 bio rb vampire -> –b–i–o–r–b–v–a–m–p–i–r–e–
+77 true coppia leng -> –t–r–u–e–c–o–p–p–i–a–l–e–n–g–
+78 uya jointly leiding -> –u–y–a–j–o–i–n–t–l–y–l–e–i–d–i–n–g–
+79 umont quasi motivi -> –u–m–o–n–t–q–u–a–s–i–m–o–t–i–v–i–
+80 teko scrap caret -> –t–e–k–o–s–c–r–a–p–c–a–r–e–t–
+81 oleh bust estrada -> –o–l–e–h–b–u–s–t–e–s–t–r–a–d–a–
+82 ksi pute marine -> –k–s–i–p–u–t–e–m–a–r–i–n–e–
+83 ceso getrennt anul -> –c–e–s–o–g–e–t–r–e–n–n–t–a–n–u–l–
+84 itazione reve viszont -> –i–t–a–z–i–o–n–e–r–e–v–e–v–i–s–z–o–n–t–
+85 zer gem perturb -> –z–e–r–g–e–m–p–e–r–t–u–r–b–
+86 ussian necklace vraie -> –u–s–s–i–a–n–n–e–c–k–l–a–c–e–v–r–a–i–e–
+87 posed informe path -> –p–o–s–e–d–i–n–f–o–r–m–e–p–a–t–h–
+88 wem peuple plasmid -> –w–e–m–p–e–u–p–l–e–p–l–a–s–m–i–d–
+89 mint hum kolei -> –m–i–n–t–h–u–m–k–o–l–e–i–
+90 mission unten kla -> –m–i–s–s–i–o–n–u–n–t–e–n–k–l–a–
+91 uly arke eased -> –u–l–y–a–r–k–e–e–a–s–e–d–
+92 rlig ch testimon -> –r–l–i–g–c–h–t–e–s–t–i–m–o–n–
+93 ops recon exhaust -> –o–p–s–r–e–c–o–n–e–x–h–a–u–s–t–
+94 ensor paralel tumb -> –e–n–s–o–r–p–a–r–a–l–e–l–t–u–m–b–
+95 istant llor cabo -> –i–s–t–a–n–t–l–l–o–r–c–a–b–o–
+96 niejs prizn yil -> –n–i–e–j–s–p–r–i–z–n–y–i–l–
+97 tail luna ambient -> –t–a–i–l–l–u–n–a–a–m–b–i–e–n–t–
+98 oler violin asse -> –o–l–e–r–v–i–o–l–i–n–a–s–s–e–
+99 ovel onde cuenta -> –o–v–e–l–o–n–d–e–c–u–e–n–t–a–

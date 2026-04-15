@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 ponde ignores verify
+01 domada stim helpful
+02 ential frost vib
+
+This is a sample output.
+00 ponde ignores verify -> –p–o–n–d–e–i–g–n–o–r–e–s–v–e–r–i–f–y–
+01 domada stim helpful -> –d–o–m–a–d–a–s–t–i–m–h–e–l–p–f–u–l–
+02 ential frost vib -> –e–n–t–i–a–l–f–r–o–s–t–v–i–b–
+
+This is your input.
+00 hooting fleuve rich
+01 uce llevar verand
+02 ausen extrem abajo
+03 ytt mus verh
+04 skap sailing servir
+05 inge remarqu ditem
+06 esters sieht wen
+07 bron miracles tow
+08 vezett ceramics mein
+09 inawa recurr adhesion
+10 ilih querer glory
+11 cribing olay retrou
+12 utan eines reminis
+13 annya povas call
+14 fy docteur novembre
+15 lekt block ministre
+16 duced chefe nuo
+17 forecast dizer bend
+18 pler zenb heim
+19 gab athletic wird
+20 ollision popula caccia
+21 agnar negeri nueve
+22 ulaires recru villain
+23 uper regno etn
+24 hei ennemi dute
+25 ected backbone gp
+26 nance pick combine
+27 ow bande twice
+28 erdere diren uralkod
+29 ianos brid fortal
+30 fahrt probleme filming
+31 decyd routing apunt
+32 chief derivada murm
+33 aisons topical swollen
+34 enche ensuing evening
+35 roda slou swords
+36 helpers devait union
+37 arah famously eusk
+38 vista exercise pictures
+39 umente qol modulus
+40 olph author biolog
+41 ruck portant unt
+42 daction politico produk
+43 ibliot floors battant
+44 el parsed hossz
+45 inely cadres secu
+46 ydown letech annon
+47 stern spinal jednost
+48 bahnen dragged untern
+49 adena ensuite pihak
+50 ogue yak womit
+51 ver utilize ae
+52 orative sheer queries
+53 iding nahe ovaj
+54 igste inviting doba
+55 met slice chopped
+56 nement yl trouvait
+57 verified west rouges
+58 ycin fot coun
+59 async encou duet
+60 bject guidance endings
+61 ophyll incapaz barg
+62 iculture stagione age
+63 ilaren knob odl
+64 blos denomina obtuvo
+65 testing pione decipher
+66 coord skill offices
+67 abolic kinship kelu
+68 connect pien happened
+69 zono pack relacion
+70 odil crowned siguen
+71 ubi incurred dedu
+72 ottak satisfy nud
+73 nelles live pergunta
+74 zott usually partout
+75 zehn tracked jem
+76 lager febrero advisory
+77 yroidism refusal corris
+78 bra grabbing refiere
+79 como edo ampl
+80 erio enqu sex
+81 unst fastest kotlin
+82 orer gender roof
+83 ilience coorden coches
+84 pektive tanques uri
+85 itated cried gesehen
+86 keen stesse milit
+87 untza tip notwend
+88 max grasped series
+89 icamente quando cuir
+90 adesh tokens groan
+91 fast gehien tit
+92 gat javafx pulses
+93 pen kall emerged
+94 lard ambiente garganta
+95 pecial phras corredor
+96 wier confront vij
+97 umann anxiety resign
+98 urf force quartz
+99 itur faudrait telefone
+[completion]
+00 hooting fleuve rich -> –h–o–o–t–i–n–g–f–l–e–u–v–e–r–i–c–h–
+01 uce llevar verand -> –u–c–e–l–l–e–v–a–r–v–e–r–a–n–d–
+02 ausen extrem abajo -> –a–u–s–e–n–e–x–t–r–e–m–a–b–a–j–o–
+03 ytt mus verh -> –y–t–t–m–u–s–v–e–r–h–
+04 skap sailing servir -> –s–k–a–p–s–a–i–l–i–n–g–s–e–r–v–i–r–
+05 inge remarqu ditem -> –i–n–g–e–r–e–m–a–r–q–u–d–i–t–e–m–
+06 esters sieht wen -> –e–s–t–e–r–s–s–i–e–h–t–w–e–n–
+07 bron miracles tow -> –b–r–o–n–m–i–r–a–c–l–e–s–t–o–w–
+08 vezett ceramics mein -> –v–e–z–e–t–t–c–e–r–a–m–i–c–s–m–e–i–n–
+09 inawa recurr adhesion -> –i–n–a–w–a–r–e–c–u–r–r–a–d–h–e–s–i–o–n–
+10 ilih querer glory -> –i–l–i–h–q–u–e–r–e–r–g–l–o–r–y–
+11 cribing olay retrou -> –c–r–i–b–i–n–g–o–l–a–y–r–e–t–r–o–u–
+12 utan eines reminis -> –u–t–a–n–e–i–n–e–s–r–e–m–i–n–i–s–
+13 annya povas call -> –a–n–n–y–a–p–o–v–a–s–c–a–l–l–
+14 fy docteur novembre -> –f–y–d–o–c–t–e–u–r–n–o–v–e–m–b–r–e–
+15 lekt block ministre -> –l–e–k–t–b–l–o–c–k–m–i–n–i–s–t–r–e–
+16 duced chefe nuo -> –d–u–c–e–d–c–h–e–f–e–n–u–o–
+17 forecast dizer bend -> –f–o–r–e–c–a–s–t–d–i–z–e–r–b–e–n–d–
+18 pler zenb heim -> –p–l–e–r–z–e–n–b–h–e–i–m–
+19 gab athletic wird -> –g–a–b–a–t–h–l–e–t–i–c–w–i–r–d–
+20 ollision popula caccia -> –o–l–l–i–s–i–o–n–p–o–p–u–l–a–c–a–c–c–i–a–
+21 agnar negeri nueve -> –a–g–n–a–r–n–e–g–e–r–i–n–u–e–v–e–
+22 ulaires recru villain -> –u–l–a–i–r–e–s–r–e–c–r–u–v–i–l–l–a–i–n–
+23 uper regno etn -> –u–p–e–r–r–e–g–n–o–e–t–n–
+24 hei ennemi dute -> –h–e–i–e–n–n–e–m–i–d–u–t–e–
+25 ected backbone gp -> –e–c–t–e–d–b–a–c–k–b–o–n–e–g–p–
+26 nance pick combine -> –n–a–n–c–e–p–i–c–k–c–o–m–b–i–n–e–
+27 ow bande twice -> –o–w–b–a–n–d–e–t–w–i–c–e–
+28 erdere diren uralkod -> –e–r–d–e–r–e–d–i–r–e–n–u–r–a–l–k–o–d–
+29 ianos brid fortal -> –i–a–n–o–s–b–r–i–d–f–o–r–t–a–l–
+30 fahrt probleme filming -> –f–a–h–r–t–p–r–o–b–l–e–m–e–f–i–l–m–i–n–g–
+31 decyd routing apunt -> –d–e–c–y–d–r–o–u–t–i–n–g–a–p–u–n–t–
+32 chief derivada murm -> –c–h–i–e–f–d–e–r–i–v–a–d–a–m–u–r–m–
+33 aisons topical swollen -> –a–i–s–o–n–s–t–o–p–i–c–a–l–s–w–o–l–l–e–n–
+34 enche ensuing evening -> –e–n–c–h–e–e–n–s–u–i–n–g–e–v–e–n–i–n–g–
+35 roda slou swords -> –r–o–d–a–s–l–o–u–s–w–o–r–d–s–
+36 helpers devait union -> –h–e–l–p–e–r–s–d–e–v–a–i–t–u–n–i–o–n–
+37 arah famously eusk -> –a–r–a–h–f–a–m–o–u–s–l–y–e–u–s–k–
+38 vista exercise pictures -> –v–i–s–t–a–e–x–e–r–c–i–s–e–p–i–c–t–u–r–e–s–
+39 umente qol modulus -> –u–m–e–n–t–e–q–o–l–m–o–d–u–l–u–s–
+40 olph author biolog -> –o–l–p–h–a–u–t–h–o–r–b–i–o–l–o–g–
+41 ruck portant unt -> –r–u–c–k–p–o–r–t–a–n–t–u–n–t–
+42 daction politico produk -> –d–a–c–t–i–o–n–p–o–l–i–t–i–c–o–p–r–o–d–u–k–
+43 ibliot floors battant -> –i–b–l–i–o–t–f–l–o–o–r–s–b–a–t–t–a–n–t–
+44 el parsed hossz -> –e–l–p–a–r–s–e–d–h–o–s–s–z–
+45 inely cadres secu -> –i–n–e–l–y–c–a–d–r–e–s–s–e–c–u–
+46 ydown letech annon -> –y–d–o–w–n–l–e–t–e–c–h–a–n–n–o–n–
+47 stern spinal jednost -> –s–t–e–r–n–s–p–i–n–a–l–j–e–d–n–o–s–t–
+48 bahnen dragged untern -> –b–a–h–n–e–n–d–r–a–g–g–e–d–u–n–t–e–r–n–
+49 adena ensuite pihak -> –a–d–e–n–a–e–n–s–u–i–t–e–p–i–h–a–k–
+50 ogue yak womit -> –o–g–u–e–y–a–k–w–o–m–i–t–
+51 ver utilize ae -> –v–e–r–u–t–i–l–i–z–e–a–e–
+52 orative sheer queries -> –o–r–a–t–i–v–e–s–h–e–e–r–q–u–e–r–i–e–s–
+53 iding nahe ovaj -> –i–d–i–n–g–n–a–h–e–o–v–a–j–
+54 igste inviting doba -> –i–g–s–t–e–i–n–v–i–t–i–n–g–d–o–b–a–
+55 met slice chopped -> –m–e–t–s–l–i–c–e–c–h–o–p–p–e–d–
+56 nement yl trouvait -> –n–e–m–e–n–t–y–l–t–r–o–u–v–a–i–t–
+57 verified west rouges -> –v–e–r–i–f–i–e–d–w–e–s–t–r–o–u–g–e–s–
+58 ycin fot coun -> –y–c–i–n–f–o–t–c–o–u–n–
+59 async encou duet -> –a–s–y–n–c–e–n–c–o–u–d–u–e–t–
+60 bject guidance endings -> –b–j–e–c–t–g–u–i–d–a–n–c–e–e–n–d–i–n–g–s–
+61 ophyll incapaz barg -> –o–p–h–y–l–l–i–n–c–a–p–a–z–b–a–r–g–
+62 iculture stagione age -> –i–c–u–l–t–u–r–e–s–t–a–g–i–o–n–e–a–g–e–
+63 ilaren knob odl -> –i–l–a–r–e–n–k–n–o–b–o–d–l–
+64 blos denomina obtuvo -> –b–l–o–s–d–e–n–o–m–i–n–a–o–b–t–u–v–o–
+65 testing pione decipher -> –t–e–s–t–i–n–g–p–i–o–n–e–d–e–c–i–p–h–e–r–
+66 coord skill offices -> –c–o–o–r–d–s–k–i–l–l–o–f–f–i–c–e–s–
+67 abolic kinship kelu -> –a–b–o–l–i–c–k–i–n–s–h–i–p–k–e–l–u–
+68 connect pien happened -> –c–o–n–n–e–c–t–p–i–e–n–h–a–p–p–e–n–e–d–
+69 zono pack relacion -> –z–o–n–o–p–a–c–k–r–e–l–a–c–i–o–n–
+70 odil crowned siguen -> –o–d–i–l–c–r–o–w–n–e–d–s–i–g–u–e–n–
+71 ubi incurred dedu -> –u–b–i–i–n–c–u–r–r–e–d–d–e–d–u–
+72 ottak satisfy nud -> –o–t–t–a–k–s–a–t–i–s–f–y–n–u–d–
+73 nelles live pergunta -> –n–e–l–l–e–s–l–i–v–e–p–e–r–g–u–n–t–a–
+74 zott usually partout -> –z–o–t–t–u–s–u–a–l–l–y–p–a–r–t–o–u–t–
+75 zehn tracked jem -> –z–e–h–n–t–r–a–c–k–e–d–j–e–m–
+76 lager febrero advisory -> –l–a–g–e–r–f–e–b–r–e–r–o–a–d–v–i–s–o–r–y–
+77 yroidism refusal corris -> –y–r–o–i–d–i–s–m–r–e–f–u–s–a–l–c–o–r–r–i–s–
+78 bra grabbing refiere -> –b–r–a–g–r–a–b–b–i–n–g–r–e–f–i–e–r–e–
+79 como edo ampl -> –c–o–m–o–e–d–o–a–m–p–l–
+80 erio enqu sex -> –e–r–i–o–e–n–q–u–s–e–x–
+81 unst fastest kotlin -> –u–n–s–t–f–a–s–t–e–s–t–k–o–t–l–i–n–
+82 orer gender roof -> –o–r–e–r–g–e–n–d–e–r–r–o–o–f–
+83 ilience coorden coches -> –i–l–i–e–n–c–e–c–o–o–r–d–e–n–c–o–c–h–e–s–
+84 pektive tanques uri -> –p–e–k–t–i–v–e–t–a–n–q–u–e–s–u–r–i–
+85 itated cried gesehen -> –i–t–a–t–e–d–c–r–i–e–d–g–e–s–e–h–e–n–
+86 keen stesse milit -> –k–e–e–n–s–t–e–s–s–e–m–i–l–i–t–
+87 untza tip notwend -> –u–n–t–z–a–t–i–p–n–o–t–w–e–n–d–
+88 max grasped series -> –m–a–x–g–r–a–s–p–e–d–s–e–r–i–e–s–
+89 icamente quando cuir -> –i–c–a–m–e–n–t–e–q–u–a–n–d–o–c–u–i–r–
+90 adesh tokens groan -> –a–d–e–s–h–t–o–k–e–n–s–g–r–o–a–n–
+91 fast gehien tit -> –f–a–s–t–g–e–h–i–e–n–t–i–t–
+92 gat javafx pulses -> –g–a–t–j–a–v–a–f–x–p–u–l–s–e–s–
+93 pen kall emerged -> –p–e–n–k–a–l–l–e–m–e–r–g–e–d–
+94 lard ambiente garganta -> –l–a–r–d–a–m–b–i–e–n–t–e–g–a–r–g–a–n–t–a–
+95 pecial phras corredor -> –p–e–c–i–a–l–p–h–r–a–s–c–o–r–r–e–d–o–r–
+96 wier confront vij -> –w–i–e–r–c–o–n–f–r–o–n–t–v–i–j–
+97 umann anxiety resign -> –u–m–a–n–n–a–n–x–i–e–t–y–r–e–s–i–g–n–
+98 urf force quartz -> –u–r–f–f–o–r–c–e–q–u–a–r–t–z–
+99 itur faudrait telefone -> –i–t–u–r–f–a–u–d–r–a–i–t–t–e–l–e–f–o–n–e–

@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 jenje jamb erfahren
+01 olated bancos expr
+02 atem trend typedef
+
+This is a sample output.
+00 jenje jamb erfahren -> –j–e–n–j–e–j–a–m–b–e–r–f–a–h–r–e–n–
+01 olated bancos expr -> –o–l–a–t–e–d–b–a–n–c–o–s–e–x–p–r–
+02 atem trend typedef -> –a–t–e–m–t–r–e–n–d–t–y–p–e–d–e–f–
+
+This is your input.
+00 liest tirs cosidd
+01 ant oeste terreno
+02 onda pozost letting
+03 inator seres capturar
+04 isa masked aged
+05 apit repr dals
+06 acs struct appr
+07 ographe recited bad
+08 javax prepar riesgo
+09 ukkit rosto shear
+10 ywidual suger sells
+11 osh ander promoc
+12 rattutto lifest hither
+13 wania literary schwar
+14 unnan guvern ev
+15 guid semin kojoj
+16 upid ultra esfera
+17 oble villas primeros
+18 herzog raison retourna
+19 mov pies prin
+20 iennent husband multif
+21 height aves chir
+22 udder vicom toga
+23 fahrer relato fees
+24 lichen diretto faux
+25 ambil sozial afdel
+26 itro upt etc
+27 quele indisc sprayed
+28 urada convol includ
+29 patch abgeb poolt
+30 uria clamped races
+31 iseerd assure fet
+32 ionales estrel green
+33 periode fiber cra
+34 iquit records genera
+35 ircular use seiner
+36 ailaren escorted released
+37 search combined imposed
+38 itch maps frost
+39 ignment viva irrevers
+40 two soins ig
+41 ocs doping zmar
+42 oche annually feeling
+43 izaron kring mely
+44 ripp ceramic ninete
+45 zeichnen naval thinner
+46 authors triang fourn
+47 cip insight lato
+48 ipt suck biling
+49 rocarr colonies lr
+50 ctor pir korte
+51 iah percep januari
+52 jde prendre torneio
+53 atsua logique ar
+54 utsch nilai regress
+55 atch tactic retirar
+56 ijo imprison files
+57 ensure farmer pant
+58 thus equ touching
+59 noi hack fecal
+60 theless amide promote
+61 jaya enkele ateliers
+62 ahme erhielt mue
+63 comm obsc slumped
+64 istar xmlns ware
+65 ers glaub riport
+66 alsa verso mineral
+67 avenir git taas
+68 ciones hainbat ingin
+69 al aparte escolar
+70 unes punto anys
+71 rotation pem context
+72 atat immer sjever
+73 usual accanto cabelo
+74 adu shocked dienst
+75 atures gond poderes
+76 antas jeune portait
+77 tocols rural dwarf
+78 empuan liked couples
+79 examples enacted coral
+80 aber nyil sampler
+81 prop licha mun
+82 eneg infancy wanted
+83 lator watching veden
+84 argers usage batalla
+85 know garraio location
+86 icana deals svenska
+87 acter heav isomer
+88 andel connu tonnes
+89 zinho moesten basement
+90 wand scenario inter
+91 sup vennero organiz
+92 imes slash estrell
+93 argon dernier cantons
+94 oise rota football
+95 aining ouvrage truck
+96 ktrum dispos flood
+97 manifest tamanho frontera
+98 ventura ropa outright
+99 itaine swine reprend
+[completion]
+00 liest tirs cosidd -> –l–i–e–s–t–t–i–r–s–c–o–s–i–d–d–
+01 ant oeste terreno -> –a–n–t–o–e–s–t–e–t–e–r–r–e–n–o–
+02 onda pozost letting -> –o–n–d–a–p–o–z–o–s–t–l–e–t–t–i–n–g–
+03 inator seres capturar -> –i–n–a–t–o–r–s–e–r–e–s–c–a–p–t–u–r–a–r–
+04 isa masked aged -> –i–s–a–m–a–s–k–e–d–a–g–e–d–
+05 apit repr dals -> –a–p–i–t–r–e–p–r–d–a–l–s–
+06 acs struct appr -> –a–c–s–s–t–r–u–c–t–a–p–p–r–
+07 ographe recited bad -> –o–g–r–a–p–h–e–r–e–c–i–t–e–d–b–a–d–
+08 javax prepar riesgo -> –j–a–v–a–x–p–r–e–p–a–r–r–i–e–s–g–o–
+09 ukkit rosto shear -> –u–k–k–i–t–r–o–s–t–o–s–h–e–a–r–
+10 ywidual suger sells -> –y–w–i–d–u–a–l–s–u–g–e–r–s–e–l–l–s–
+11 osh ander promoc -> –o–s–h–a–n–d–e–r–p–r–o–m–o–c–
+12 rattutto lifest hither -> –r–a–t–t–u–t–t–o–l–i–f–e–s–t–h–i–t–h–e–r–
+13 wania literary schwar -> –w–a–n–i–a–l–i–t–e–r–a–r–y–s–c–h–w–a–r–
+14 unnan guvern ev -> –u–n–n–a–n–g–u–v–e–r–n–e–v–
+15 guid semin kojoj -> –g–u–i–d–s–e–m–i–n–k–o–j–o–j–
+16 upid ultra esfera -> –u–p–i–d–u–l–t–r–a–e–s–f–e–r–a–
+17 oble villas primeros -> –o–b–l–e–v–i–l–l–a–s–p–r–i–m–e–r–o–s–
+18 herzog raison retourna -> –h–e–r–z–o–g–r–a–i–s–o–n–r–e–t–o–u–r–n–a–
+19 mov pies prin -> –m–o–v–p–i–e–s–p–r–i–n–
+20 iennent husband multif -> –i–e–n–n–e–n–t–h–u–s–b–a–n–d–m–u–l–t–i–f–
+21 height aves chir -> –h–e–i–g–h–t–a–v–e–s–c–h–i–r–
+22 udder vicom toga -> –u–d–d–e–r–v–i–c–o–m–t–o–g–a–
+23 fahrer relato fees -> –f–a–h–r–e–r–r–e–l–a–t–o–f–e–e–s–
+24 lichen diretto faux -> –l–i–c–h–e–n–d–i–r–e–t–t–o–f–a–u–x–
+25 ambil sozial afdel -> –a–m–b–i–l–s–o–z–i–a–l–a–f–d–e–l–
+26 itro upt etc -> –i–t–r–o–u–p–t–e–t–c–
+27 quele indisc sprayed -> –q–u–e–l–e–i–n–d–i–s–c–s–p–r–a–y–e–d–
+28 urada convol includ -> –u–r–a–d–a–c–o–n–v–o–l–i–n–c–l–u–d–
+29 patch abgeb poolt -> –p–a–t–c–h–a–b–g–e–b–p–o–o–l–t–
+30 uria clamped races -> –u–r–i–a–c–l–a–m–p–e–d–r–a–c–e–s–
+31 iseerd assure fet -> –i–s–e–e–r–d–a–s–s–u–r–e–f–e–t–
+32 ionales estrel green -> –i–o–n–a–l–e–s–e–s–t–r–e–l–g–r–e–e–n–
+33 periode fiber cra -> –p–e–r–i–o–d–e–f–i–b–e–r–c–r–a–
+34 iquit records genera -> –i–q–u–i–t–r–e–c–o–r–d–s–g–e–n–e–r–a–
+35 ircular use seiner -> –i–r–c–u–l–a–r–u–s–e–s–e–i–n–e–r–
+36 ailaren escorted released -> –a–i–l–a–r–e–n–e–s–c–o–r–t–e–d–r–e–l–e–a–s–e–d–
+37 search combined imposed -> –s–e–a–r–c–h–c–o–m–b–i–n–e–d–i–m–p–o–s–e–d–
+38 itch maps frost -> –i–t–c–h–m–a–p–s–f–r–o–s–t–
+39 ignment viva irrevers -> –i–g–n–m–e–n–t–v–i–v–a–i–r–r–e–v–e–r–s–
+40 two soins ig -> –t–w–o–s–o–i–n–s–i–g–
+41 ocs doping zmar -> –o–c–s–d–o–p–i–n–g–z–m–a–r–
+42 oche annually feeling -> –o–c–h–e–a–n–n–u–a–l–l–y–f–e–e–l–i–n–g–
+43 izaron kring mely -> –i–z–a–r–o–n–k–r–i–n–g–m–e–l–y–
+44 ripp ceramic ninete -> –r–i–p–p–c–e–r–a–m–i–c–n–i–n–e–t–e–
+45 zeichnen naval thinner -> –z–e–i–c–h–n–e–n–n–a–v–a–l–t–h–i–n–n–e–r–
+46 authors triang fourn -> –a–u–t–h–o–r–s–t–r–i–a–n–g–f–o–u–r–n–
+47 cip insight lato -> –c–i–p–i–n–s–i–g–h–t–l–a–t–o–
+48 ipt suck biling -> –i–p–t–s–u–c–k–b–i–l–i–n–g–
+49 rocarr colonies lr -> –r–o–c–a–r–r–c–o–l–o–n–i–e–s–l–r–
+50 ctor pir korte -> –c–t–o–r–p–i–r–k–o–r–t–e–
+51 iah percep januari -> –i–a–h–p–e–r–c–e–p–j–a–n–u–a–r–i–
+52 jde prendre torneio -> –j–d–e–p–r–e–n–d–r–e–t–o–r–n–e–i–o–
+53 atsua logique ar -> –a–t–s–u–a–l–o–g–i–q–u–e–a–r–
+54 utsch nilai regress -> –u–t–s–c–h–n–i–l–a–i–r–e–g–r–e–s–s–
+55 atch tactic retirar -> –a–t–c–h–t–a–c–t–i–c–r–e–t–i–r–a–r–
+56 ijo imprison files -> –i–j–o–i–m–p–r–i–s–o–n–f–i–l–e–s–
+57 ensure farmer pant -> –e–n–s–u–r–e–f–a–r–m–e–r–p–a–n–t–
+58 thus equ touching -> –t–h–u–s–e–q–u–t–o–u–c–h–i–n–g–
+59 noi hack fecal -> –n–o–i–h–a–c–k–f–e–c–a–l–
+60 theless amide promote -> –t–h–e–l–e–s–s–a–m–i–d–e–p–r–o–m–o–t–e–
+61 jaya enkele ateliers -> –j–a–y–a–e–n–k–e–l–e–a–t–e–l–i–e–r–s–
+62 ahme erhielt mue -> –a–h–m–e–e–r–h–i–e–l–t–m–u–e–
+63 comm obsc slumped -> –c–o–m–m–o–b–s–c–s–l–u–m–p–e–d–
+64 istar xmlns ware -> –i–s–t–a–r–x–m–l–n–s–w–a–r–e–
+65 ers glaub riport -> –e–r–s–g–l–a–u–b–r–i–p–o–r–t–
+66 alsa verso mineral -> –a–l–s–a–v–e–r–s–o–m–i–n–e–r–a–l–
+67 avenir git taas -> –a–v–e–n–i–r–g–i–t–t–a–a–s–
+68 ciones hainbat ingin -> –c–i–o–n–e–s–h–a–i–n–b–a–t–i–n–g–i–n–
+69 al aparte escolar -> –a–l–a–p–a–r–t–e–e–s–c–o–l–a–r–
+70 unes punto anys -> –u–n–e–s–p–u–n–t–o–a–n–y–s–
+71 rotation pem context -> –r–o–t–a–t–i–o–n–p–e–m–c–o–n–t–e–x–t–
+72 atat immer sjever -> –a–t–a–t–i–m–m–e–r–s–j–e–v–e–r–
+73 usual accanto cabelo -> –u–s–u–a–l–a–c–c–a–n–t–o–c–a–b–e–l–o–
+74 adu shocked dienst -> –a–d–u–s–h–o–c–k–e–d–d–i–e–n–s–t–
+75 atures gond poderes -> –a–t–u–r–e–s–g–o–n–d–p–o–d–e–r–e–s–
+76 antas jeune portait -> –a–n–t–a–s–j–e–u–n–e–p–o–r–t–a–i–t–
+77 tocols rural dwarf -> –t–o–c–o–l–s–r–u–r–a–l–d–w–a–r–f–
+78 empuan liked couples -> –e–m–p–u–a–n–l–i–k–e–d–c–o–u–p–l–e–s–
+79 examples enacted coral -> –e–x–a–m–p–l–e–s–e–n–a–c–t–e–d–c–o–r–a–l–
+80 aber nyil sampler -> –a–b–e–r–n–y–i–l–s–a–m–p–l–e–r–
+81 prop licha mun -> –p–r–o–p–l–i–c–h–a–m–u–n–
+82 eneg infancy wanted -> –e–n–e–g–i–n–f–a–n–c–y–w–a–n–t–e–d–
+83 lator watching veden -> –l–a–t–o–r–w–a–t–c–h–i–n–g–v–e–d–e–n–
+84 argers usage batalla -> –a–r–g–e–r–s–u–s–a–g–e–b–a–t–a–l–l–a–
+85 know garraio location -> –k–n–o–w–g–a–r–r–a–i–o–l–o–c–a–t–i–o–n–
+86 icana deals svenska -> –i–c–a–n–a–d–e–a–l–s–s–v–e–n–s–k–a–
+87 acter heav isomer -> –a–c–t–e–r–h–e–a–v–i–s–o–m–e–r–
+88 andel connu tonnes -> –a–n–d–e–l–c–o–n–n–u–t–o–n–n–e–s–
+89 zinho moesten basement -> –z–i–n–h–o–m–o–e–s–t–e–n–b–a–s–e–m–e–n–t–
+90 wand scenario inter -> –w–a–n–d–s–c–e–n–a–r–i–o–i–n–t–e–r–
+91 sup vennero organiz -> –s–u–p–v–e–n–n–e–r–o–o–r–g–a–n–i–z–
+92 imes slash estrell -> –i–m–e–s–s–l–a–s–h–e–s–t–r–e–l–l–
+93 argon dernier cantons -> –a–r–g–o–n–d–e–r–n–i–e–r–c–a–n–t–o–n–s–
+94 oise rota football -> –o–i–s–e–r–o–t–a–f–o–o–t–b–a–l–l–
+95 aining ouvrage truck -> –a–i–n–i–n–g–o–u–v–r–a–g–e–t–r–u–c–k–
+96 ktrum dispos flood -> –k–t–r–u–m–d–i–s–p–o–s–f–l–o–o–d–
+97 manifest tamanho frontera -> –m–a–n–i–f–e–s–t–t–a–m–a–n–h–o–f–r–o–n–t–e–r–a–
+98 ventura ropa outright -> –v–e–n–t–u–r–a–r–o–p–a–o–u–t–r–i–g–h–t–
+99 itaine swine reprend -> –i–t–a–i–n–e–s–w–i–n–e–r–e–p–r–e–n–d–

@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 azio grupos kiam
+01 ordin market walked
+02 langan qarshi sad
+
+This is a sample output.
+00 azio grupos kiam -> –a–z–i–o–g–r–u–p–o–s–k–i–a–m–
+01 ordin market walked -> –o–r–d–i–n–m–a–r–k–e–t–w–a–l–k–e–d–
+02 langan qarshi sad -> –l–a–n–g–a–n–q–a–r–s–h–i–s–a–d–
+
+This is your input.
+00 conduct gelen blanche
+01 operto utilise ruso
+02 thead pedir parts
+03 ogs leyes futuro
+04 toinette ellipse scaffold
+05 ui each beper
+06 antz cold purpose
+07 riques peau orange
+08 kord austri graft
+09 agram ruk epochs
+10 werpen vapeur equilib
+11 ethnic sieve posture
+12 roke are paciente
+13 racuse yhd homen
+14 ateurs adina chapters
+15 insko webs inspe
+16 minutes zich tomba
+17 xim drank involves
+18 months sque maio
+19 czyk fence angeb
+20 vat uniforme superior
+21 att dunque disorder
+22 lego sides domanda
+23 lbrack this next
+24 carbon mapped jaren
+25 lehem surpris nm
+26 okban antis inte
+27 ativo quas riches
+28 car grains faire
+29 song fertig kiam
+30 ment keh leaving
+31 ovil forme germline
+32 aski scor passado
+33 ziu interrom zela
+34 carb gutter fabri
+35 esy glauben album
+36 etzungen loan vacancy
+37 orium college pior
+38 rau ergeben mengal
+39 lake habil births
+40 intosh ganzen naar
+41 akarta acquire fought
+42 ordin nouve fest
+43 endoza discul mos
+44 ellus burden mattina
+45 acz herram dictate
+46 previous closed nahi
+47 raven vele revised
+48 ario enrol romant
+49 pretty combin datos
+50 irtual elles estoy
+51 lict tempada else
+52 rale smoothed ruled
+53 amiliar sonra pater
+54 afen testify signe
+55 ect berb cheap
+56 iczny braccio son
+57 zed compr sollte
+58 iget anions raising
+59 ouf love ed
+60 otope orage scalp
+61 auto pic fec
+62 wo comedian arbitr
+63 asuna drowned specjal
+64 bell campagna potre
+65 wort gasped bucket
+66 gars pun asuntos
+67 agr boutique elokuv
+68 afe lb nombre
+69 porters knj obscured
+70 ronter finn you
+71 ara toe reest
+72 normal trov euk
+73 psych slit mull
+74 umbling sua plur
+75 iquait separat seksual
+76 itimes imports politica
+77 yllis fascia comprom
+78 hand ucciso parad
+79 aparte camar comuna
+80 reb fichier theo
+81 anak segona peux
+82 ser castell soc
+83 zust stop tablet
+84 bano nennt intent
+85 astore vender spieg
+86 thel republic expose
+87 voor foyer remon
+88 idyl duo mycket
+89 eff couns neo
+90 zem vitre match
+91 ntag diff army
+92 pert februar eu
+93 perties env freely
+94 leqslant antiqu acteur
+95 inaire diving revanche
+96 ciendo herr occured
+97 teen estacion alanine
+98 stellte ulicy algum
+99 itto gett waits
+[completion]
+00 conduct gelen blanche -> –c–o–n–d–u–c–t–g–e–l–e–n–b–l–a–n–c–h–e–
+01 operto utilise ruso -> –o–p–e–r–t–o–u–t–i–l–i–s–e–r–u–s–o–
+02 thead pedir parts -> –t–h–e–a–d–p–e–d–i–r–p–a–r–t–s–
+03 ogs leyes futuro -> –o–g–s–l–e–y–e–s–f–u–t–u–r–o–
+04 toinette ellipse scaffold -> –t–o–i–n–e–t–t–e–e–l–l–i–p–s–e–s–c–a–f–f–o–l–d–
+05 ui each beper -> –u–i–e–a–c–h–b–e–p–e–r–
+06 antz cold purpose -> –a–n–t–z–c–o–l–d–p–u–r–p–o–s–e–
+07 riques peau orange -> –r–i–q–u–e–s–p–e–a–u–o–r–a–n–g–e–
+08 kord austri graft -> –k–o–r–d–a–u–s–t–r–i–g–r–a–f–t–
+09 agram ruk epochs -> –a–g–r–a–m–r–u–k–e–p–o–c–h–s–
+10 werpen vapeur equilib -> –w–e–r–p–e–n–v–a–p–e–u–r–e–q–u–i–l–i–b–
+11 ethnic sieve posture -> –e–t–h–n–i–c–s–i–e–v–e–p–o–s–t–u–r–e–
+12 roke are paciente -> –r–o–k–e–a–r–e–p–a–c–i–e–n–t–e–
+13 racuse yhd homen -> –r–a–c–u–s–e–y–h–d–h–o–m–e–n–
+14 ateurs adina chapters -> –a–t–e–u–r–s–a–d–i–n–a–c–h–a–p–t–e–r–s–
+15 insko webs inspe -> –i–n–s–k–o–w–e–b–s–i–n–s–p–e–
+16 minutes zich tomba -> –m–i–n–u–t–e–s–z–i–c–h–t–o–m–b–a–
+17 xim drank involves -> –x–i–m–d–r–a–n–k–i–n–v–o–l–v–e–s–
+18 months sque maio -> –m–o–n–t–h–s–s–q–u–e–m–a–i–o–
+19 czyk fence angeb -> –c–z–y–k–f–e–n–c–e–a–n–g–e–b–
+20 vat uniforme superior -> –v–a–t–u–n–i–f–o–r–m–e–s–u–p–e–r–i–o–r–
+21 att dunque disorder -> –a–t–t–d–u–n–q–u–e–d–i–s–o–r–d–e–r–
+22 lego sides domanda -> –l–e–g–o–s–i–d–e–s–d–o–m–a–n–d–a–
+23 lbrack this next -> –l–b–r–a–c–k–t–h–i–s–n–e–x–t–
+24 carbon mapped jaren -> –c–a–r–b–o–n–m–a–p–p–e–d–j–a–r–e–n–
+25 lehem surpris nm -> –l–e–h–e–m–s–u–r–p–r–i–s–n–m–
+26 okban antis inte -> –o–k–b–a–n–a–n–t–i–s–i–n–t–e–
+27 ativo quas riches -> –a–t–i–v–o–q–u–a–s–r–i–c–h–e–s–
+28 car grains faire -> –c–a–r–g–r–a–i–n–s–f–a–i–r–e–
+29 song fertig kiam -> –s–o–n–g–f–e–r–t–i–g–k–i–a–m–
+30 ment keh leaving -> –m–e–n–t–k–e–h–l–e–a–v–i–n–g–
+31 ovil forme germline -> –o–v–i–l–f–o–r–m–e–g–e–r–m–l–i–n–e–
+32 aski scor passado -> –a–s–k–i–s–c–o–r–p–a–s–s–a–d–o–
+33 ziu interrom zela -> –z–i–u–i–n–t–e–r–r–o–m–z–e–l–a–
+34 carb gutter fabri -> –c–a–r–b–g–u–t–t–e–r–f–a–b–r–i–
+35 esy glauben album -> –e–s–y–g–l–a–u–b–e–n–a–l–b–u–m–
+36 etzungen loan vacancy -> –e–t–z–u–n–g–e–n–l–o–a–n–v–a–c–a–n–c–y–
+37 orium college pior -> –o–r–i–u–m–c–o–l–l–e–g–e–p–i–o–r–
+38 rau ergeben mengal -> –r–a–u–e–r–g–e–b–e–n–m–e–n–g–a–l–
+39 lake habil births -> –l–a–k–e–h–a–b–i–l–b–i–r–t–h–s–
+40 intosh ganzen naar -> –i–n–t–o–s–h–g–a–n–z–e–n–n–a–a–r–
+41 akarta acquire fought -> –a–k–a–r–t–a–a–c–q–u–i–r–e–f–o–u–g–h–t–
+42 ordin nouve fest -> –o–r–d–i–n–n–o–u–v–e–f–e–s–t–
+43 endoza discul mos -> –e–n–d–o–z–a–d–i–s–c–u–l–m–o–s–
+44 ellus burden mattina -> –e–l–l–u–s–b–u–r–d–e–n–m–a–t–t–i–n–a–
+45 acz herram dictate -> –a–c–z–h–e–r–r–a–m–d–i–c–t–a–t–e–
+46 previous closed nahi -> –p–r–e–v–i–o–u–s–c–l–o–s–e–d–n–a–h–i–
+47 raven vele revised -> –r–a–v–e–n–v–e–l–e–r–e–v–i–s–e–d–
+48 ario enrol romant -> –a–r–i–o–e–n–r–o–l–r–o–m–a–n–t–
+49 pretty combin datos -> –p–r–e–t–t–y–c–o–m–b–i–n–d–a–t–o–s–
+50 irtual elles estoy -> –i–r–t–u–a–l–e–l–l–e–s–e–s–t–o–y–
+51 lict tempada else -> –l–i–c–t–t–e–m–p–a–d–a–e–l–s–e–
+52 rale smoothed ruled -> –r–a–l–e–s–m–o–o–t–h–e–d–r–u–l–e–d–
+53 amiliar sonra pater -> –a–m–i–l–i–a–r–s–o–n–r–a–p–a–t–e–r–
+54 afen testify signe -> –a–f–e–n–t–e–s–t–i–f–y–s–i–g–n–e–
+55 ect berb cheap -> –e–c–t–b–e–r–b–c–h–e–a–p–
+56 iczny braccio son -> –i–c–z–n–y–b–r–a–c–c–i–o–s–o–n–
+57 zed compr sollte -> –z–e–d–c–o–m–p–r–s–o–l–l–t–e–
+58 iget anions raising -> –i–g–e–t–a–n–i–o–n–s–r–a–i–s–i–n–g–
+59 ouf love ed -> –o–u–f–l–o–v–e–e–d–
+60 otope orage scalp -> –o–t–o–p–e–o–r–a–g–e–s–c–a–l–p–
+61 auto pic fec -> –a–u–t–o–p–i–c–f–e–c–
+62 wo comedian arbitr -> –w–o–c–o–m–e–d–i–a–n–a–r–b–i–t–r–
+63 asuna drowned specjal -> –a–s–u–n–a–d–r–o–w–n–e–d–s–p–e–c–j–a–l–
+64 bell campagna potre -> –b–e–l–l–c–a–m–p–a–g–n–a–p–o–t–r–e–
+65 wort gasped bucket -> –w–o–r–t–g–a–s–p–e–d–b–u–c–k–e–t–
+66 gars pun asuntos -> –g–a–r–s–p–u–n–a–s–u–n–t–o–s–
+67 agr boutique elokuv -> –a–g–r–b–o–u–t–i–q–u–e–e–l–o–k–u–v–
+68 afe lb nombre -> –a–f–e–l–b–n–o–m–b–r–e–
+69 porters knj obscured -> –p–o–r–t–e–r–s–k–n–j–o–b–s–c–u–r–e–d–
+70 ronter finn you -> –r–o–n–t–e–r–f–i–n–n–y–o–u–
+71 ara toe reest -> –a–r–a–t–o–e–r–e–e–s–t–
+72 normal trov euk -> –n–o–r–m–a–l–t–r–o–v–e–u–k–
+73 psych slit mull -> –p–s–y–c–h–s–l–i–t–m–u–l–l–
+74 umbling sua plur -> –u–m–b–l–i–n–g–s–u–a–p–l–u–r–
+75 iquait separat seksual -> –i–q–u–a–i–t–s–e–p–a–r–a–t–s–e–k–s–u–a–l–
+76 itimes imports politica -> –i–t–i–m–e–s–i–m–p–o–r–t–s–p–o–l–i–t–i–c–a–
+77 yllis fascia comprom -> –y–l–l–i–s–f–a–s–c–i–a–c–o–m–p–r–o–m–
+78 hand ucciso parad -> –h–a–n–d–u–c–c–i–s–o–p–a–r–a–d–
+79 aparte camar comuna -> –a–p–a–r–t–e–c–a–m–a–r–c–o–m–u–n–a–
+80 reb fichier theo -> –r–e–b–f–i–c–h–i–e–r–t–h–e–o–
+81 anak segona peux -> –a–n–a–k–s–e–g–o–n–a–p–e–u–x–
+82 ser castell soc -> –s–e–r–c–a–s–t–e–l–l–s–o–c–
+83 zust stop tablet -> –z–u–s–t–s–t–o–p–t–a–b–l–e–t–
+84 bano nennt intent -> –b–a–n–o–n–e–n–n–t–i–n–t–e–n–t–
+85 astore vender spieg -> –a–s–t–o–r–e–v–e–n–d–e–r–s–p–i–e–g–
+86 thel republic expose -> –t–h–e–l–r–e–p–u–b–l–i–c–e–x–p–o–s–e–
+87 voor foyer remon -> –v–o–o–r–f–o–y–e–r–r–e–m–o–n–
+88 idyl duo mycket -> –i–d–y–l–d–u–o–m–y–c–k–e–t–
+89 eff couns neo -> –e–f–f–c–o–u–n–s–n–e–o–
+90 zem vitre match -> –z–e–m–v–i–t–r–e–m–a–t–c–h–
+91 ntag diff army -> –n–t–a–g–d–i–f–f–a–r–m–y–
+92 pert februar eu -> –p–e–r–t–f–e–b–r–u–a–r–e–u–
+93 perties env freely -> –p–e–r–t–i–e–s–e–n–v–f–r–e–e–l–y–
+94 leqslant antiqu acteur -> –l–e–q–s–l–a–n–t–a–n–t–i–q–u–a–c–t–e–u–r–
+95 inaire diving revanche -> –i–n–a–i–r–e–d–i–v–i–n–g–r–e–v–a–n–c–h–e–
+96 ciendo herr occured -> –c–i–e–n–d–o–h–e–r–r–o–c–c–u–r–e–d–
+97 teen estacion alanine -> –t–e–e–n–e–s–t–a–c–i–o–n–a–l–a–n–i–n–e–
+98 stellte ulicy algum -> –s–t–e–l–l–t–e–u–l–i–c–y–a–l–g–u–m–
+99 itto gett waits -> –i–t–t–o–g–e–t–t–w–a–i–t–s–

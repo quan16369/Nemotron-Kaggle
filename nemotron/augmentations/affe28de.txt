@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 hetics cabine crept
+01 yml femur destruir
+02 atson analyte lago
+
+This is a sample output.
+00 hetics cabine crept -> –h–e–t–i–c–s–c–a–b–i–n–e–c–r–e–p–t–
+01 yml femur destruir -> –y–m–l–f–e–m–u–r–d–e–s–t–r–u–i–r–
+02 atson analyte lago -> –a–t–s–o–n–a–n–a–l–y–t–e–l–a–g–o–
+
+This is your input.
+00 boss owned espacio
+01 adia umgebaut mensagem
+02 ctomy sons podpor
+03 eltz kampan suspects
+04 ulas fashion whales
+05 utorial smashed supl
+06 ansion spark recib
+07 erty renamed fuego
+08 machine korral suisse
+09 atham tengo embargo
+10 sta clip stir
+11 reib avevo avez
+12 atique tighter aer
+13 loader blood dunia
+14 oseks organizz corsa
+15 kten males jut
+16 ifecycle tet spagn
+17 repo trasfer scenes
+18 uerto taxa drafting
+19 plied vigueur konkre
+20 rance unha intake
+21 urre gebied solt
+22 anggal atta nerve
+23 wiki mora waves
+24 iley amoureux ideias
+25 omac rattach automate
+26 kaj primaria sociale
+27 anka daxil conform
+28 puty bekam menny
+29 rawl wir certains
+30 auvais supper acredit
+31 omers vrsta jelly
+32 ashi juris desper
+33 nd hilt stupid
+34 jenih linn fruto
+35 round stra ultimi
+36 cdn mehr mimo
+37 ligere querido anget
+38 uron met sota
+39 ilev qualify gently
+40 illaient usp temsil
+41 batis subdu periods
+42 owing lata materia
+43 medium apical keine
+44 plified filter anuncia
+45 ografie psychos pays
+46 eket criada myth
+47 osamente shortage tying
+48 adar minst kog
+49 jou wurde muy
+50 jet intox provided
+51 olist fing antig
+52 seaux paved halls
+53 ugo cubierta ftp
+54 orschung conject plugin
+55 collapse mediana drogue
+56 gesehen upl matters
+57 ully tij gef
+58 irik venire cabec
+59 ykle obtain terhadap
+60 cart scores heb
+61 rail lantern bair
+62 attr novemb prow
+63 js feminist bisschen
+64 added reach fancy
+65 ilateral nya acoust
+66 cimiento coal lawsuit
+67 bin pariet sodass
+68 orska minimal vasta
+69 oeg stared venivano
+70 eners wb verg
+71 lr staden plaza
+72 isko footage texto
+73 udiantes desap idioma
+74 wiad glimp essendo
+75 hin bisexual politici
+76 otherapy surveys henne
+77 mode students worship
+78 ussed llamado manch
+79 credit sna coins
+80 vido privile libri
+81 idin mort amenaz
+82 option puissent tunt
+83 release aclar mobile
+84 enging trasform piani
+85 duce mateix discut
+86 tvrt pediu szemben
+87 romad berm framed
+88 merged suits mund
+89 skiego infrared escenas
+90 avar bek comme
+91 sing massive eksp
+92 every minuti maladies
+93 rank sess assessed
+94 nu antip bain
+95 avit dislik sf
+96 onas manier clube
+97 gow nouveau kissed
+98 obei semaines vertices
+99 ivot integ recruit
+[completion]
+00 boss owned espacio -> –b–o–s–s–o–w–n–e–d–e–s–p–a–c–i–o–
+01 adia umgebaut mensagem -> –a–d–i–a–u–m–g–e–b–a–u–t–m–e–n–s–a–g–e–m–
+02 ctomy sons podpor -> –c–t–o–m–y–s–o–n–s–p–o–d–p–o–r–
+03 eltz kampan suspects -> –e–l–t–z–k–a–m–p–a–n–s–u–s–p–e–c–t–s–
+04 ulas fashion whales -> –u–l–a–s–f–a–s–h–i–o–n–w–h–a–l–e–s–
+05 utorial smashed supl -> –u–t–o–r–i–a–l–s–m–a–s–h–e–d–s–u–p–l–
+06 ansion spark recib -> –a–n–s–i–o–n–s–p–a–r–k–r–e–c–i–b–
+07 erty renamed fuego -> –e–r–t–y–r–e–n–a–m–e–d–f–u–e–g–o–
+08 machine korral suisse -> –m–a–c–h–i–n–e–k–o–r–r–a–l–s–u–i–s–s–e–
+09 atham tengo embargo -> –a–t–h–a–m–t–e–n–g–o–e–m–b–a–r–g–o–
+10 sta clip stir -> –s–t–a–c–l–i–p–s–t–i–r–
+11 reib avevo avez -> –r–e–i–b–a–v–e–v–o–a–v–e–z–
+12 atique tighter aer -> –a–t–i–q–u–e–t–i–g–h–t–e–r–a–e–r–
+13 loader blood dunia -> –l–o–a–d–e–r–b–l–o–o–d–d–u–n–i–a–
+14 oseks organizz corsa -> –o–s–e–k–s–o–r–g–a–n–i–z–z–c–o–r–s–a–
+15 kten males jut -> –k–t–e–n–m–a–l–e–s–j–u–t–
+16 ifecycle tet spagn -> –i–f–e–c–y–c–l–e–t–e–t–s–p–a–g–n–
+17 repo trasfer scenes -> –r–e–p–o–t–r–a–s–f–e–r–s–c–e–n–e–s–
+18 uerto taxa drafting -> –u–e–r–t–o–t–a–x–a–d–r–a–f–t–i–n–g–
+19 plied vigueur konkre -> –p–l–i–e–d–v–i–g–u–e–u–r–k–o–n–k–r–e–
+20 rance unha intake -> –r–a–n–c–e–u–n–h–a–i–n–t–a–k–e–
+21 urre gebied solt -> –u–r–r–e–g–e–b–i–e–d–s–o–l–t–
+22 anggal atta nerve -> –a–n–g–g–a–l–a–t–t–a–n–e–r–v–e–
+23 wiki mora waves -> –w–i–k–i–m–o–r–a–w–a–v–e–s–
+24 iley amoureux ideias -> –i–l–e–y–a–m–o–u–r–e–u–x–i–d–e–i–a–s–
+25 omac rattach automate -> –o–m–a–c–r–a–t–t–a–c–h–a–u–t–o–m–a–t–e–
+26 kaj primaria sociale -> –k–a–j–p–r–i–m–a–r–i–a–s–o–c–i–a–l–e–
+27 anka daxil conform -> –a–n–k–a–d–a–x–i–l–c–o–n–f–o–r–m–
+28 puty bekam menny -> –p–u–t–y–b–e–k–a–m–m–e–n–n–y–
+29 rawl wir certains -> –r–a–w–l–w–i–r–c–e–r–t–a–i–n–s–
+30 auvais supper acredit -> –a–u–v–a–i–s–s–u–p–p–e–r–a–c–r–e–d–i–t–
+31 omers vrsta jelly -> –o–m–e–r–s–v–r–s–t–a–j–e–l–l–y–
+32 ashi juris desper -> –a–s–h–i–j–u–r–i–s–d–e–s–p–e–r–
+33 nd hilt stupid -> –n–d–h–i–l–t–s–t–u–p–i–d–
+34 jenih linn fruto -> –j–e–n–i–h–l–i–n–n–f–r–u–t–o–
+35 round stra ultimi -> –r–o–u–n–d–s–t–r–a–u–l–t–i–m–i–
+36 cdn mehr mimo -> –c–d–n–m–e–h–r–m–i–m–o–
+37 ligere querido anget -> –l–i–g–e–r–e–q–u–e–r–i–d–o–a–n–g–e–t–
+38 uron met sota -> –u–r–o–n–m–e–t–s–o–t–a–
+39 ilev qualify gently -> –i–l–e–v–q–u–a–l–i–f–y–g–e–n–t–l–y–
+40 illaient usp temsil -> –i–l–l–a–i–e–n–t–u–s–p–t–e–m–s–i–l–
+41 batis subdu periods -> –b–a–t–i–s–s–u–b–d–u–p–e–r–i–o–d–s–
+42 owing lata materia -> –o–w–i–n–g–l–a–t–a–m–a–t–e–r–i–a–
+43 medium apical keine -> –m–e–d–i–u–m–a–p–i–c–a–l–k–e–i–n–e–
+44 plified filter anuncia -> –p–l–i–f–i–e–d–f–i–l–t–e–r–a–n–u–n–c–i–a–
+45 ografie psychos pays -> –o–g–r–a–f–i–e–p–s–y–c–h–o–s–p–a–y–s–
+46 eket criada myth -> –e–k–e–t–c–r–i–a–d–a–m–y–t–h–
+47 osamente shortage tying -> –o–s–a–m–e–n–t–e–s–h–o–r–t–a–g–e–t–y–i–n–g–
+48 adar minst kog -> –a–d–a–r–m–i–n–s–t–k–o–g–
+49 jou wurde muy -> –j–o–u–w–u–r–d–e–m–u–y–
+50 jet intox provided -> –j–e–t–i–n–t–o–x–p–r–o–v–i–d–e–d–
+51 olist fing antig -> –o–l–i–s–t–f–i–n–g–a–n–t–i–g–
+52 seaux paved halls -> –s–e–a–u–x–p–a–v–e–d–h–a–l–l–s–
+53 ugo cubierta ftp -> –u–g–o–c–u–b–i–e–r–t–a–f–t–p–
+54 orschung conject plugin -> –o–r–s–c–h–u–n–g–c–o–n–j–e–c–t–p–l–u–g–i–n–
+55 collapse mediana drogue -> –c–o–l–l–a–p–s–e–m–e–d–i–a–n–a–d–r–o–g–u–e–
+56 gesehen upl matters -> –g–e–s–e–h–e–n–u–p–l–m–a–t–t–e–r–s–
+57 ully tij gef -> –u–l–l–y–t–i–j–g–e–f–
+58 irik venire cabec -> –i–r–i–k–v–e–n–i–r–e–c–a–b–e–c–
+59 ykle obtain terhadap -> –y–k–l–e–o–b–t–a–i–n–t–e–r–h–a–d–a–p–
+60 cart scores heb -> –c–a–r–t–s–c–o–r–e–s–h–e–b–
+61 rail lantern bair -> –r–a–i–l–l–a–n–t–e–r–n–b–a–i–r–
+62 attr novemb prow -> –a–t–t–r–n–o–v–e–m–b–p–r–o–w–
+63 js feminist bisschen -> –j–s–f–e–m–i–n–i–s–t–b–i–s–s–c–h–e–n–
+64 added reach fancy -> –a–d–d–e–d–r–e–a–c–h–f–a–n–c–y–
+65 ilateral nya acoust -> –i–l–a–t–e–r–a–l–n–y–a–a–c–o–u–s–t–
+66 cimiento coal lawsuit -> –c–i–m–i–e–n–t–o–c–o–a–l–l–a–w–s–u–i–t–
+67 bin pariet sodass -> –b–i–n–p–a–r–i–e–t–s–o–d–a–s–s–
+68 orska minimal vasta -> –o–r–s–k–a–m–i–n–i–m–a–l–v–a–s–t–a–
+69 oeg stared venivano -> –o–e–g–s–t–a–r–e–d–v–e–n–i–v–a–n–o–
+70 eners wb verg -> –e–n–e–r–s–w–b–v–e–r–g–
+71 lr staden plaza -> –l–r–s–t–a–d–e–n–p–l–a–z–a–
+72 isko footage texto -> –i–s–k–o–f–o–o–t–a–g–e–t–e–x–t–o–
+73 udiantes desap idioma -> –u–d–i–a–n–t–e–s–d–e–s–a–p–i–d–i–o–m–a–
+74 wiad glimp essendo -> –w–i–a–d–g–l–i–m–p–e–s–s–e–n–d–o–
+75 hin bisexual politici -> –h–i–n–b–i–s–e–x–u–a–l–p–o–l–i–t–i–c–i–
+76 otherapy surveys henne -> –o–t–h–e–r–a–p–y–s–u–r–v–e–y–s–h–e–n–n–e–
+77 mode students worship -> –m–o–d–e–s–t–u–d–e–n–t–s–w–o–r–s–h–i–p–
+78 ussed llamado manch -> –u–s–s–e–d–l–l–a–m–a–d–o–m–a–n–c–h–
+79 credit sna coins -> –c–r–e–d–i–t–s–n–a–c–o–i–n–s–
+80 vido privile libri -> –v–i–d–o–p–r–i–v–i–l–e–l–i–b–r–i–
+81 idin mort amenaz -> –i–d–i–n–m–o–r–t–a–m–e–n–a–z–
+82 option puissent tunt -> –o–p–t–i–o–n–p–u–i–s–s–e–n–t–t–u–n–t–
+83 release aclar mobile -> –r–e–l–e–a–s–e–a–c–l–a–r–m–o–b–i–l–e–
+84 enging trasform piani -> –e–n–g–i–n–g–t–r–a–s–f–o–r–m–p–i–a–n–i–
+85 duce mateix discut -> –d–u–c–e–m–a–t–e–i–x–d–i–s–c–u–t–
+86 tvrt pediu szemben -> –t–v–r–t–p–e–d–i–u–s–z–e–m–b–e–n–
+87 romad berm framed -> –r–o–m–a–d–b–e–r–m–f–r–a–m–e–d–
+88 merged suits mund -> –m–e–r–g–e–d–s–u–i–t–s–m–u–n–d–
+89 skiego infrared escenas -> –s–k–i–e–g–o–i–n–f–r–a–r–e–d–e–s–c–e–n–a–s–
+90 avar bek comme -> –a–v–a–r–b–e–k–c–o–m–m–e–
+91 sing massive eksp -> –s–i–n–g–m–a–s–s–i–v–e–e–k–s–p–
+92 every minuti maladies -> –e–v–e–r–y–m–i–n–u–t–i–m–a–l–a–d–i–e–s–
+93 rank sess assessed -> –r–a–n–k–s–e–s–s–a–s–s–e–s–s–e–d–
+94 nu antip bain -> –n–u–a–n–t–i–p–b–a–i–n–
+95 avit dislik sf -> –a–v–i–t–d–i–s–l–i–k–s–f–
+96 onas manier clube -> –o–n–a–s–m–a–n–i–e–r–c–l–u–b–e–
+97 gow nouveau kissed -> –g–o–w–n–o–u–v–e–a–u–k–i–s–s–e–d–
+98 obei semaines vertices -> –o–b–e–i–s–e–m–a–i–n–e–s–v–e–r–t–i–c–e–s–
+99 ivot integ recruit -> –i–v–o–t–i–n–t–e–g–r–e–c–r–u–i–t–

@@ -1,0 +1,29 @@
+problem id: 162ff61a
+category: cryptarithm_deduce
+
+symbol-to-digit mapping:
+  '!' = 1
+  '%' = 5
+  '&' = 5
+  '<' = 1
+  '>' = 0
+  '?' = 5
+  '[' = 2
+  '\\' = 5
+  ']' = 0
+  '^' = 0
+
+operator-to-operation mapping:
+  '*' = concat
+  '{' = add
+  '|' = mul
+
+examples:
+  ?%*!% = %?!\  =>  concat(55, 15) = 5515
+  ]!|?\ = ??  =>  1 * 55 = 55
+  \>{^! = &<  =>  50 + 1 = 51
+  >%|?! = [&&  =>  5 * 51 = 255
+
+query: ?>{]<  =>  50 + 1 = 51
+
+predicted answer: ?!

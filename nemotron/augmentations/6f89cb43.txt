@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 odel museum sigma
+01 olves cutoff architek
+02 ernes parishes npc
+
+This is a sample output.
+00 odel museum sigma -> –o–d–e–l–m–u–s–e–u–m–s–i–g–m–a–
+01 olves cutoff architek -> –o–l–v–e–s–c–u–t–o–f–f–a–r–c–h–i–t–e–k–
+02 ernes parishes npc -> –e–r–n–e–s–p–a–r–i–s–h–e–s–n–p–c–
+
+This is your input.
+00 sl mu siis
+01 ras shouldn enf
+02 iek casado wo
+03 ielten local insert
+04 ceria reacts ellas
+05 panjang lattice somm
+06 teve pied learners
+07 stieg preview kdy
+08 imb wojsk cherche
+09 iku once ibn
+10 teria suma engra
+11 ltr dangers spiritu
+12 notation volunte fakt
+13 vare acces verlief
+14 inek unpre pesca
+15 atorias ard pratique
+16 rilled pad cerebro
+17 file mamm blanches
+18 sr legion tahun
+19 hw vive confirm
+20 unist ramp vm
+21 iciencia sentiu posts
+22 ulous improvis rev
+23 iquer control sebagai
+24 agus parf incluye
+25 iap arhitekt dan
+26 aiset subsid possess
+27 ytest morning nett
+28 trica sinc ismert
+29 puts hurting concer
+30 requires fact rie
+31 nico books memorial
+32 intent iulie lobby
+33 ources pouvons strana
+34 rios visant stems
+35 gis toxins genel
+36 illerie inform neveu
+37 yml karier lifts
+38 plic reclut delta
+39 pip lleno infer
+40 alion shipped herd
+41 google conveyor potenza
+42 there prit kandid
+43 overe sorted kcal
+44 geschoss damages preci
+45 ivre nombres xog
+46 don jquery retras
+47 fine bourg jelent
+48 unden gaining asesin
+49 akis eo urma
+50 lies teorie prova
+51 igin metab tiles
+52 ontre arrang slider
+53 uire abr mom
+54 ool sword timber
+55 attere va flown
+56 peed status alten
+57 inp fini drained
+58 lerine nyom freshly
+59 aut throw frecu
+60 ivement balk some
+61 fog arr reaching
+62 pros affirmed dengue
+63 aco luce wherein
+64 greso visa outdoor
+65 elj aph ancienne
+66 hos kinases strugg
+67 always lengu barre
+68 unce einigen created
+69 rechter szerint bamb
+70 yon oben pul
+71 prime troubled allen
+72 respond flat fogl
+73 arcy proprio tangible
+74 unched recibe multipl
+75 auso erlang bones
+76 ukaan cesar agency
+77 vila democr np
+78 riers anderes sudo
+79 pisode unir church
+80 letion drone muss
+81 alert few consegu
+82 player gospel chromos
+83 plements antih giovani
+84 contre alleged sockets
+85 uppl maize francesa
+86 ions bets katon
+87 eba marketed disagre
+88 entas singers einges
+89 php jugar atypical
+90 zimmer bye curative
+91 agem vermo komis
+92 than mnogo gradual
+93 rische aa folyam
+94 seca adresse asum
+95 cience savoir angg
+96 po aanwezig casual
+97 egu samego bietet
+98 energia existed sql
+99 ands fused resurre
+[completion]
+00 sl mu siis -> –s–l–m–u–s–i–i–s–
+01 ras shouldn enf -> –r–a–s–s–h–o–u–l–d–n–e–n–f–
+02 iek casado wo -> –i–e–k–c–a–s–a–d–o–w–o–
+03 ielten local insert -> –i–e–l–t–e–n–l–o–c–a–l–i–n–s–e–r–t–
+04 ceria reacts ellas -> –c–e–r–i–a–r–e–a–c–t–s–e–l–l–a–s–
+05 panjang lattice somm -> –p–a–n–j–a–n–g–l–a–t–t–i–c–e–s–o–m–m–
+06 teve pied learners -> –t–e–v–e–p–i–e–d–l–e–a–r–n–e–r–s–
+07 stieg preview kdy -> –s–t–i–e–g–p–r–e–v–i–e–w–k–d–y–
+08 imb wojsk cherche -> –i–m–b–w–o–j–s–k–c–h–e–r–c–h–e–
+09 iku once ibn -> –i–k–u–o–n–c–e–i–b–n–
+10 teria suma engra -> –t–e–r–i–a–s–u–m–a–e–n–g–r–a–
+11 ltr dangers spiritu -> –l–t–r–d–a–n–g–e–r–s–s–p–i–r–i–t–u–
+12 notation volunte fakt -> –n–o–t–a–t–i–o–n–v–o–l–u–n–t–e–f–a–k–t–
+13 vare acces verlief -> –v–a–r–e–a–c–c–e–s–v–e–r–l–i–e–f–
+14 inek unpre pesca -> –i–n–e–k–u–n–p–r–e–p–e–s–c–a–
+15 atorias ard pratique -> –a–t–o–r–i–a–s–a–r–d–p–r–a–t–i–q–u–e–
+16 rilled pad cerebro -> –r–i–l–l–e–d–p–a–d–c–e–r–e–b–r–o–
+17 file mamm blanches -> –f–i–l–e–m–a–m–m–b–l–a–n–c–h–e–s–
+18 sr legion tahun -> –s–r–l–e–g–i–o–n–t–a–h–u–n–
+19 hw vive confirm -> –h–w–v–i–v–e–c–o–n–f–i–r–m–
+20 unist ramp vm -> –u–n–i–s–t–r–a–m–p–v–m–
+21 iciencia sentiu posts -> –i–c–i–e–n–c–i–a–s–e–n–t–i–u–p–o–s–t–s–
+22 ulous improvis rev -> –u–l–o–u–s–i–m–p–r–o–v–i–s–r–e–v–
+23 iquer control sebagai -> –i–q–u–e–r–c–o–n–t–r–o–l–s–e–b–a–g–a–i–
+24 agus parf incluye -> –a–g–u–s–p–a–r–f–i–n–c–l–u–y–e–
+25 iap arhitekt dan -> –i–a–p–a–r–h–i–t–e–k–t–d–a–n–
+26 aiset subsid possess -> –a–i–s–e–t–s–u–b–s–i–d–p–o–s–s–e–s–s–
+27 ytest morning nett -> –y–t–e–s–t–m–o–r–n–i–n–g–n–e–t–t–
+28 trica sinc ismert -> –t–r–i–c–a–s–i–n–c–i–s–m–e–r–t–
+29 puts hurting concer -> –p–u–t–s–h–u–r–t–i–n–g–c–o–n–c–e–r–
+30 requires fact rie -> –r–e–q–u–i–r–e–s–f–a–c–t–r–i–e–
+31 nico books memorial -> –n–i–c–o–b–o–o–k–s–m–e–m–o–r–i–a–l–
+32 intent iulie lobby -> –i–n–t–e–n–t–i–u–l–i–e–l–o–b–b–y–
+33 ources pouvons strana -> –o–u–r–c–e–s–p–o–u–v–o–n–s–s–t–r–a–n–a–
+34 rios visant stems -> –r–i–o–s–v–i–s–a–n–t–s–t–e–m–s–
+35 gis toxins genel -> –g–i–s–t–o–x–i–n–s–g–e–n–e–l–
+36 illerie inform neveu -> –i–l–l–e–r–i–e–i–n–f–o–r–m–n–e–v–e–u–
+37 yml karier lifts -> –y–m–l–k–a–r–i–e–r–l–i–f–t–s–
+38 plic reclut delta -> –p–l–i–c–r–e–c–l–u–t–d–e–l–t–a–
+39 pip lleno infer -> –p–i–p–l–l–e–n–o–i–n–f–e–r–
+40 alion shipped herd -> –a–l–i–o–n–s–h–i–p–p–e–d–h–e–r–d–
+41 google conveyor potenza -> –g–o–o–g–l–e–c–o–n–v–e–y–o–r–p–o–t–e–n–z–a–
+42 there prit kandid -> –t–h–e–r–e–p–r–i–t–k–a–n–d–i–d–
+43 overe sorted kcal -> –o–v–e–r–e–s–o–r–t–e–d–k–c–a–l–
+44 geschoss damages preci -> –g–e–s–c–h–o–s–s–d–a–m–a–g–e–s–p–r–e–c–i–
+45 ivre nombres xog -> –i–v–r–e–n–o–m–b–r–e–s–x–o–g–
+46 don jquery retras -> –d–o–n–j–q–u–e–r–y–r–e–t–r–a–s–
+47 fine bourg jelent -> –f–i–n–e–b–o–u–r–g–j–e–l–e–n–t–
+48 unden gaining asesin -> –u–n–d–e–n–g–a–i–n–i–n–g–a–s–e–s–i–n–
+49 akis eo urma -> –a–k–i–s–e–o–u–r–m–a–
+50 lies teorie prova -> –l–i–e–s–t–e–o–r–i–e–p–r–o–v–a–
+51 igin metab tiles -> –i–g–i–n–m–e–t–a–b–t–i–l–e–s–
+52 ontre arrang slider -> –o–n–t–r–e–a–r–r–a–n–g–s–l–i–d–e–r–
+53 uire abr mom -> –u–i–r–e–a–b–r–m–o–m–
+54 ool sword timber -> –o–o–l–s–w–o–r–d–t–i–m–b–e–r–
+55 attere va flown -> –a–t–t–e–r–e–v–a–f–l–o–w–n–
+56 peed status alten -> –p–e–e–d–s–t–a–t–u–s–a–l–t–e–n–
+57 inp fini drained -> –i–n–p–f–i–n–i–d–r–a–i–n–e–d–
+58 lerine nyom freshly -> –l–e–r–i–n–e–n–y–o–m–f–r–e–s–h–l–y–
+59 aut throw frecu -> –a–u–t–t–h–r–o–w–f–r–e–c–u–
+60 ivement balk some -> –i–v–e–m–e–n–t–b–a–l–k–s–o–m–e–
+61 fog arr reaching -> –f–o–g–a–r–r–r–e–a–c–h–i–n–g–
+62 pros affirmed dengue -> –p–r–o–s–a–f–f–i–r–m–e–d–d–e–n–g–u–e–
+63 aco luce wherein -> –a–c–o–l–u–c–e–w–h–e–r–e–i–n–
+64 greso visa outdoor -> –g–r–e–s–o–v–i–s–a–o–u–t–d–o–o–r–
+65 elj aph ancienne -> –e–l–j–a–p–h–a–n–c–i–e–n–n–e–
+66 hos kinases strugg -> –h–o–s–k–i–n–a–s–e–s–s–t–r–u–g–g–
+67 always lengu barre -> –a–l–w–a–y–s–l–e–n–g–u–b–a–r–r–e–
+68 unce einigen created -> –u–n–c–e–e–i–n–i–g–e–n–c–r–e–a–t–e–d–
+69 rechter szerint bamb -> –r–e–c–h–t–e–r–s–z–e–r–i–n–t–b–a–m–b–
+70 yon oben pul -> –y–o–n–o–b–e–n–p–u–l–
+71 prime troubled allen -> –p–r–i–m–e–t–r–o–u–b–l–e–d–a–l–l–e–n–
+72 respond flat fogl -> –r–e–s–p–o–n–d–f–l–a–t–f–o–g–l–
+73 arcy proprio tangible -> –a–r–c–y–p–r–o–p–r–i–o–t–a–n–g–i–b–l–e–
+74 unched recibe multipl -> –u–n–c–h–e–d–r–e–c–i–b–e–m–u–l–t–i–p–l–
+75 auso erlang bones -> –a–u–s–o–e–r–l–a–n–g–b–o–n–e–s–
+76 ukaan cesar agency -> –u–k–a–a–n–c–e–s–a–r–a–g–e–n–c–y–
+77 vila democr np -> –v–i–l–a–d–e–m–o–c–r–n–p–
+78 riers anderes sudo -> –r–i–e–r–s–a–n–d–e–r–e–s–s–u–d–o–
+79 pisode unir church -> –p–i–s–o–d–e–u–n–i–r–c–h–u–r–c–h–
+80 letion drone muss -> –l–e–t–i–o–n–d–r–o–n–e–m–u–s–s–
+81 alert few consegu -> –a–l–e–r–t–f–e–w–c–o–n–s–e–g–u–
+82 player gospel chromos -> –p–l–a–y–e–r–g–o–s–p–e–l–c–h–r–o–m–o–s–
+83 plements antih giovani -> –p–l–e–m–e–n–t–s–a–n–t–i–h–g–i–o–v–a–n–i–
+84 contre alleged sockets -> –c–o–n–t–r–e–a–l–l–e–g–e–d–s–o–c–k–e–t–s–
+85 uppl maize francesa -> –u–p–p–l–m–a–i–z–e–f–r–a–n–c–e–s–a–
+86 ions bets katon -> –i–o–n–s–b–e–t–s–k–a–t–o–n–
+87 eba marketed disagre -> –e–b–a–m–a–r–k–e–t–e–d–d–i–s–a–g–r–e–
+88 entas singers einges -> –e–n–t–a–s–s–i–n–g–e–r–s–e–i–n–g–e–s–
+89 php jugar atypical -> –p–h–p–j–u–g–a–r–a–t–y–p–i–c–a–l–
+90 zimmer bye curative -> –z–i–m–m–e–r–b–y–e–c–u–r–a–t–i–v–e–
+91 agem vermo komis -> –a–g–e–m–v–e–r–m–o–k–o–m–i–s–
+92 than mnogo gradual -> –t–h–a–n–m–n–o–g–o–g–r–a–d–u–a–l–
+93 rische aa folyam -> –r–i–s–c–h–e–a–a–f–o–l–y–a–m–
+94 seca adresse asum -> –s–e–c–a–a–d–r–e–s–s–e–a–s–u–m–
+95 cience savoir angg -> –c–i–e–n–c–e–s–a–v–o–i–r–a–n–g–g–
+96 po aanwezig casual -> –p–o–a–a–n–w–e–z–i–g–c–a–s–u–a–l–
+97 egu samego bietet -> –e–g–u–s–a–m–e–g–o–b–i–e–t–e–t–
+98 energia existed sql -> –e–n–e–r–g–i–a–e–x–i–s–t–e–d–s–q–l–
+99 ands fused resurre -> –a–n–d–s–f–u–s–e–d–r–e–s–u–r–r–e–

@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 dest avantage diamond
+01 ogat noe artiste
+02 lev bidez embr
+
+This is a sample output.
+00 dest avantage diamond -> –d–e–s–t–a–v–a–n–t–a–g–e–d–i–a–m–o–n–d–
+01 ogat noe artiste -> –o–g–a–t–n–o–e–a–r–t–i–s–t–e–
+02 lev bidez embr -> –l–e–v–b–i–d–e–z–e–m–b–r–
+
+This is your input.
+00 ildan discurso anest
+01 aterina deco oncology
+02 ostro riding gent
+03 giore estuvo due
+04 ibli stazione sufr
+05 adelph threads teatral
+06 istel operated pore
+07 exual fuss molding
+08 mage crews disrupt
+09 phys workbook upward
+10 itzar bezogen doan
+11 lated convey imagen
+12 journal neuros furt
+13 jid jsou greatly
+14 uur faith megh
+15 nerie angles asegurar
+16 express fiscal japonais
+17 quia facteur hire
+18 odob toilet veng
+19 ierta props civile
+20 whole shrim strik
+21 fs demost pelvis
+22 ocular fij julho
+23 ges decid inom
+24 ukas profundo nasc
+25 kej aspects waktu
+26 wedge kult inducing
+27 blad mej enregist
+28 iran inaktibo nut
+29 kirchen entendu waiter
+30 issions plateau drifted
+31 tox atunci sleeves
+32 plays cento core
+33 bahnhof better maszyn
+34 aland damit tutor
+35 ukan locks compat
+36 urgo modes foi
+37 izm afirmar mito
+38 igar vendas realizan
+39 jons delanter seinem
+40 stattung divina coached
+41 creation proud throne
+42 berta stunt legally
+43 rbp revista notation
+44 iasc servei agonist
+45 loor poprzez acog
+46 guest temples lacks
+47 rozen perio pointing
+48 icians scatter palms
+49 iest seventy stroke
+50 zpan calle freed
+51 avil zusammen binding
+52 attan capsule amount
+53 ocket schaute batting
+54 ouest hate communes
+55 uned liegen virtual
+56 erta norweg nuove
+57 ligt mediated motions
+58 rene destined gerade
+59 ionic cr denda
+60 ject chinois schwe
+61 iedlung vocab materi
+62 ueb adel aucun
+63 urr singles infinite
+64 write hyperbol legno
+65 iai caught aufgrund
+66 consider gat ignore
+67 lyn malloc diabetic
+68 meck colline kombin
+69 amento linux faut
+70 ifting triom stur
+71 alm collines rhiz
+72 iate analyse parfaite
+73 igheid disjoint sollev
+74 rena heir guarda
+75 ulative morf runs
+76 prints analyze port
+77 wrong sagt ridges
+78 azaki ons jemand
+79 in marro harder
+80 atches voyage timed
+81 achelor cytos ferv
+82 lections metast roten
+83 video trup loom
+84 ismos outfile membri
+85 ost messe propioa
+86 opolymer woll keratin
+87 nij rendit genotype
+88 iw ascolt desem
+89 erves explorer recom
+90 ugh signora glancing
+91 amaa composer godt
+92 hide ragazzo altra
+93 mpi assis actores
+94 uas offset klav
+95 ellement aut kasutat
+96 xo honest feed
+97 jen ses pengguna
+98 ierter calles sins
+99 arman widths existem
+[completion]
+00 ildan discurso anest -> –i–l–d–a–n–d–i–s–c–u–r–s–o–a–n–e–s–t–
+01 aterina deco oncology -> –a–t–e–r–i–n–a–d–e–c–o–o–n–c–o–l–o–g–y–
+02 ostro riding gent -> –o–s–t–r–o–r–i–d–i–n–g–g–e–n–t–
+03 giore estuvo due -> –g–i–o–r–e–e–s–t–u–v–o–d–u–e–
+04 ibli stazione sufr -> –i–b–l–i–s–t–a–z–i–o–n–e–s–u–f–r–
+05 adelph threads teatral -> –a–d–e–l–p–h–t–h–r–e–a–d–s–t–e–a–t–r–a–l–
+06 istel operated pore -> –i–s–t–e–l–o–p–e–r–a–t–e–d–p–o–r–e–
+07 exual fuss molding -> –e–x–u–a–l–f–u–s–s–m–o–l–d–i–n–g–
+08 mage crews disrupt -> –m–a–g–e–c–r–e–w–s–d–i–s–r–u–p–t–
+09 phys workbook upward -> –p–h–y–s–w–o–r–k–b–o–o–k–u–p–w–a–r–d–
+10 itzar bezogen doan -> –i–t–z–a–r–b–e–z–o–g–e–n–d–o–a–n–
+11 lated convey imagen -> –l–a–t–e–d–c–o–n–v–e–y–i–m–a–g–e–n–
+12 journal neuros furt -> –j–o–u–r–n–a–l–n–e–u–r–o–s–f–u–r–t–
+13 jid jsou greatly -> –j–i–d–j–s–o–u–g–r–e–a–t–l–y–
+14 uur faith megh -> –u–u–r–f–a–i–t–h–m–e–g–h–
+15 nerie angles asegurar -> –n–e–r–i–e–a–n–g–l–e–s–a–s–e–g–u–r–a–r–
+16 express fiscal japonais -> –e–x–p–r–e–s–s–f–i–s–c–a–l–j–a–p–o–n–a–i–s–
+17 quia facteur hire -> –q–u–i–a–f–a–c–t–e–u–r–h–i–r–e–
+18 odob toilet veng -> –o–d–o–b–t–o–i–l–e–t–v–e–n–g–
+19 ierta props civile -> –i–e–r–t–a–p–r–o–p–s–c–i–v–i–l–e–
+20 whole shrim strik -> –w–h–o–l–e–s–h–r–i–m–s–t–r–i–k–
+21 fs demost pelvis -> –f–s–d–e–m–o–s–t–p–e–l–v–i–s–
+22 ocular fij julho -> –o–c–u–l–a–r–f–i–j–j–u–l–h–o–
+23 ges decid inom -> –g–e–s–d–e–c–i–d–i–n–o–m–
+24 ukas profundo nasc -> –u–k–a–s–p–r–o–f–u–n–d–o–n–a–s–c–
+25 kej aspects waktu -> –k–e–j–a–s–p–e–c–t–s–w–a–k–t–u–
+26 wedge kult inducing -> –w–e–d–g–e–k–u–l–t–i–n–d–u–c–i–n–g–
+27 blad mej enregist -> –b–l–a–d–m–e–j–e–n–r–e–g–i–s–t–
+28 iran inaktibo nut -> –i–r–a–n–i–n–a–k–t–i–b–o–n–u–t–
+29 kirchen entendu waiter -> –k–i–r–c–h–e–n–e–n–t–e–n–d–u–w–a–i–t–e–r–
+30 issions plateau drifted -> –i–s–s–i–o–n–s–p–l–a–t–e–a–u–d–r–i–f–t–e–d–
+31 tox atunci sleeves -> –t–o–x–a–t–u–n–c–i–s–l–e–e–v–e–s–
+32 plays cento core -> –p–l–a–y–s–c–e–n–t–o–c–o–r–e–
+33 bahnhof better maszyn -> –b–a–h–n–h–o–f–b–e–t–t–e–r–m–a–s–z–y–n–
+34 aland damit tutor -> –a–l–a–n–d–d–a–m–i–t–t–u–t–o–r–
+35 ukan locks compat -> –u–k–a–n–l–o–c–k–s–c–o–m–p–a–t–
+36 urgo modes foi -> –u–r–g–o–m–o–d–e–s–f–o–i–
+37 izm afirmar mito -> –i–z–m–a–f–i–r–m–a–r–m–i–t–o–
+38 igar vendas realizan -> –i–g–a–r–v–e–n–d–a–s–r–e–a–l–i–z–a–n–
+39 jons delanter seinem -> –j–o–n–s–d–e–l–a–n–t–e–r–s–e–i–n–e–m–
+40 stattung divina coached -> –s–t–a–t–t–u–n–g–d–i–v–i–n–a–c–o–a–c–h–e–d–
+41 creation proud throne -> –c–r–e–a–t–i–o–n–p–r–o–u–d–t–h–r–o–n–e–
+42 berta stunt legally -> –b–e–r–t–a–s–t–u–n–t–l–e–g–a–l–l–y–
+43 rbp revista notation -> –r–b–p–r–e–v–i–s–t–a–n–o–t–a–t–i–o–n–
+44 iasc servei agonist -> –i–a–s–c–s–e–r–v–e–i–a–g–o–n–i–s–t–
+45 loor poprzez acog -> –l–o–o–r–p–o–p–r–z–e–z–a–c–o–g–
+46 guest temples lacks -> –g–u–e–s–t–t–e–m–p–l–e–s–l–a–c–k–s–
+47 rozen perio pointing -> –r–o–z–e–n–p–e–r–i–o–p–o–i–n–t–i–n–g–
+48 icians scatter palms -> –i–c–i–a–n–s–s–c–a–t–t–e–r–p–a–l–m–s–
+49 iest seventy stroke -> –i–e–s–t–s–e–v–e–n–t–y–s–t–r–o–k–e–
+50 zpan calle freed -> –z–p–a–n–c–a–l–l–e–f–r–e–e–d–
+51 avil zusammen binding -> –a–v–i–l–z–u–s–a–m–m–e–n–b–i–n–d–i–n–g–
+52 attan capsule amount -> –a–t–t–a–n–c–a–p–s–u–l–e–a–m–o–u–n–t–
+53 ocket schaute batting -> –o–c–k–e–t–s–c–h–a–u–t–e–b–a–t–t–i–n–g–
+54 ouest hate communes -> –o–u–e–s–t–h–a–t–e–c–o–m–m–u–n–e–s–
+55 uned liegen virtual -> –u–n–e–d–l–i–e–g–e–n–v–i–r–t–u–a–l–
+56 erta norweg nuove -> –e–r–t–a–n–o–r–w–e–g–n–u–o–v–e–
+57 ligt mediated motions -> –l–i–g–t–m–e–d–i–a–t–e–d–m–o–t–i–o–n–s–
+58 rene destined gerade -> –r–e–n–e–d–e–s–t–i–n–e–d–g–e–r–a–d–e–
+59 ionic cr denda -> –i–o–n–i–c–c–r–d–e–n–d–a–
+60 ject chinois schwe -> –j–e–c–t–c–h–i–n–o–i–s–s–c–h–w–e–
+61 iedlung vocab materi -> –i–e–d–l–u–n–g–v–o–c–a–b–m–a–t–e–r–i–
+62 ueb adel aucun -> –u–e–b–a–d–e–l–a–u–c–u–n–
+63 urr singles infinite -> –u–r–r–s–i–n–g–l–e–s–i–n–f–i–n–i–t–e–
+64 write hyperbol legno -> –w–r–i–t–e–h–y–p–e–r–b–o–l–l–e–g–n–o–
+65 iai caught aufgrund -> –i–a–i–c–a–u–g–h–t–a–u–f–g–r–u–n–d–
+66 consider gat ignore -> –c–o–n–s–i–d–e–r–g–a–t–i–g–n–o–r–e–
+67 lyn malloc diabetic -> –l–y–n–m–a–l–l–o–c–d–i–a–b–e–t–i–c–
+68 meck colline kombin -> –m–e–c–k–c–o–l–l–i–n–e–k–o–m–b–i–n–
+69 amento linux faut -> –a–m–e–n–t–o–l–i–n–u–x–f–a–u–t–
+70 ifting triom stur -> –i–f–t–i–n–g–t–r–i–o–m–s–t–u–r–
+71 alm collines rhiz -> –a–l–m–c–o–l–l–i–n–e–s–r–h–i–z–
+72 iate analyse parfaite -> –i–a–t–e–a–n–a–l–y–s–e–p–a–r–f–a–i–t–e–
+73 igheid disjoint sollev -> –i–g–h–e–i–d–d–i–s–j–o–i–n–t–s–o–l–l–e–v–
+74 rena heir guarda -> –r–e–n–a–h–e–i–r–g–u–a–r–d–a–
+75 ulative morf runs -> –u–l–a–t–i–v–e–m–o–r–f–r–u–n–s–
+76 prints analyze port -> –p–r–i–n–t–s–a–n–a–l–y–z–e–p–o–r–t–
+77 wrong sagt ridges -> –w–r–o–n–g–s–a–g–t–r–i–d–g–e–s–
+78 azaki ons jemand -> –a–z–a–k–i–o–n–s–j–e–m–a–n–d–
+79 in marro harder -> –i–n–m–a–r–r–o–h–a–r–d–e–r–
+80 atches voyage timed -> –a–t–c–h–e–s–v–o–y–a–g–e–t–i–m–e–d–
+81 achelor cytos ferv -> –a–c–h–e–l–o–r–c–y–t–o–s–f–e–r–v–
+82 lections metast roten -> –l–e–c–t–i–o–n–s–m–e–t–a–s–t–r–o–t–e–n–
+83 video trup loom -> –v–i–d–e–o–t–r–u–p–l–o–o–m–
+84 ismos outfile membri -> –i–s–m–o–s–o–u–t–f–i–l–e–m–e–m–b–r–i–
+85 ost messe propioa -> –o–s–t–m–e–s–s–e–p–r–o–p–i–o–a–
+86 opolymer woll keratin -> –o–p–o–l–y–m–e–r–w–o–l–l–k–e–r–a–t–i–n–
+87 nij rendit genotype -> –n–i–j–r–e–n–d–i–t–g–e–n–o–t–y–p–e–
+88 iw ascolt desem -> –i–w–a–s–c–o–l–t–d–e–s–e–m–
+89 erves explorer recom -> –e–r–v–e–s–e–x–p–l–o–r–e–r–r–e–c–o–m–
+90 ugh signora glancing -> –u–g–h–s–i–g–n–o–r–a–g–l–a–n–c–i–n–g–
+91 amaa composer godt -> –a–m–a–a–c–o–m–p–o–s–e–r–g–o–d–t–
+92 hide ragazzo altra -> –h–i–d–e–r–a–g–a–z–z–o–a–l–t–r–a–
+93 mpi assis actores -> –m–p–i–a–s–s–i–s–a–c–t–o–r–e–s–
+94 uas offset klav -> –u–a–s–o–f–f–s–e–t–k–l–a–v–
+95 ellement aut kasutat -> –e–l–l–e–m–e–n–t–a–u–t–k–a–s–u–t–a–t–
+96 xo honest feed -> –x–o–h–o–n–e–s–t–f–e–e–d–
+97 jen ses pengguna -> –j–e–n–s–e–s–p–e–n–g–g–u–n–a–
+98 ierter calles sins -> –i–e–r–t–e–r–c–a–l–l–e–s–s–i–n–s–
+99 arman widths existem -> –a–r–m–a–n–w–i–d–t–h–s–e–x–i–s–t–e–m–

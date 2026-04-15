@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 true armas dens
+01 duce doubled lifted
+02 ariable lure invent
+
+This is a sample output.
+00 true armas dens -> –t–r–u–e–a–r–m–a–s–d–e–n–s–
+01 duce doubled lifted -> –d–u–c–e–d–o–u–b–l–e–d–l–i–f–t–e–d–
+02 ariable lure invent -> –a–r–i–a–b–l–e–l–u–r–e–i–n–v–e–n–t–
+
+This is your input.
+00 tolower gitar able
+01 ession acknow holid
+02 odos angry scanned
+03 krieg intellig journals
+04 issa eld faud
+05 ijek caer ports
+06 pp pueblos increase
+07 adura vivos traball
+08 func safegu frame
+09 ymph mail modelos
+10 iette module diplom
+11 smarty naast rapides
+12 ariant portail phosph
+13 nerg kunnen nation
+14 aar perdido blev
+15 pull mesure weekend
+16 aysia spod ofens
+17 ediated co mente
+18 zburg rebuilt loy
+19 erved expos cables
+20 ca lesen odnosno
+21 eggi lange ehem
+22 phe dejar upright
+23 doc ced prise
+24 annot sred ums
+25 aisse applying commands
+26 import kuk comien
+27 elligent creek empower
+28 rody cei francos
+29 lera contains boa
+30 icii alfabet bride
+31 letons poetry treg
+32 nox bons spezi
+33 staben vue grund
+34 views mellom exclu
+35 issen pasaj pauvres
+36 genomen embr ural
+37 aient familles tenta
+38 bangan decreto subtil
+39 which esan pourquoi
+40 lg rink ehk
+41 icios trypsin logs
+42 iul signing haft
+43 yeron perlu cooked
+44 estes murders clicking
+45 aniem learns carb
+46 was parfait edhe
+47 predict ah trac
+48 chn rated esem
+49 ly destin millor
+50 umbing satir mantiene
+51 nochen ong episod
+52 enu bracht entrar
+53 rament cach kem
+54 stedt aveva contenir
+55 five mens mur
+56 losti demi valg
+57 amous assuming irod
+58 benhav milioni beating
+59 ld coucher privada
+60 jenja ary prefix
+61 illar consac scrape
+62 ami guardia legge
+63 enum herself acon
+64 emo positie druge
+65 human rapport cage
+66 init canvas aust
+67 const perfor pravil
+68 goire benign youngest
+69 uridad effet lumbar
+70 oved empleo arrow
+71 closing educator compone
+72 wahlen redor bor
+73 alf spiral mism
+74 illir salud mell
+75 uiten republik aceptar
+76 seud derart parasite
+77 ifier saus interpre
+78 sicht soprav sought
+79 endarmer odlu mour
+80 iva tapping traje
+81 orius scandale macrom
+82 uta eager quotid
+83 alth incendie possuem
+84 kis tome conical
+85 cre wire cursos
+86 lah aktual host
+87 keydown et ocen
+88 ued belakang figlio
+89 nothing open eb
+90 library allt submar
+91 zeug proch nurs
+92 yb pigs geword
+93 feo armies repouss
+94 alia svi sense
+95 ssa slic batter
+96 jack bowler servi
+97 urrency spat revolt
+98 away pam poorer
+99 uhl cities still
+[completion]
+00 tolower gitar able -> –t–o–l–o–w–e–r–g–i–t–a–r–a–b–l–e–
+01 ession acknow holid -> –e–s–s–i–o–n–a–c–k–n–o–w–h–o–l–i–d–
+02 odos angry scanned -> –o–d–o–s–a–n–g–r–y–s–c–a–n–n–e–d–
+03 krieg intellig journals -> –k–r–i–e–g–i–n–t–e–l–l–i–g–j–o–u–r–n–a–l–s–
+04 issa eld faud -> –i–s–s–a–e–l–d–f–a–u–d–
+05 ijek caer ports -> –i–j–e–k–c–a–e–r–p–o–r–t–s–
+06 pp pueblos increase -> –p–p–p–u–e–b–l–o–s–i–n–c–r–e–a–s–e–
+07 adura vivos traball -> –a–d–u–r–a–v–i–v–o–s–t–r–a–b–a–l–l–
+08 func safegu frame -> –f–u–n–c–s–a–f–e–g–u–f–r–a–m–e–
+09 ymph mail modelos -> –y–m–p–h–m–a–i–l–m–o–d–e–l–o–s–
+10 iette module diplom -> –i–e–t–t–e–m–o–d–u–l–e–d–i–p–l–o–m–
+11 smarty naast rapides -> –s–m–a–r–t–y–n–a–a–s–t–r–a–p–i–d–e–s–
+12 ariant portail phosph -> –a–r–i–a–n–t–p–o–r–t–a–i–l–p–h–o–s–p–h–
+13 nerg kunnen nation -> –n–e–r–g–k–u–n–n–e–n–n–a–t–i–o–n–
+14 aar perdido blev -> –a–a–r–p–e–r–d–i–d–o–b–l–e–v–
+15 pull mesure weekend -> –p–u–l–l–m–e–s–u–r–e–w–e–e–k–e–n–d–
+16 aysia spod ofens -> –a–y–s–i–a–s–p–o–d–o–f–e–n–s–
+17 ediated co mente -> –e–d–i–a–t–e–d–c–o–m–e–n–t–e–
+18 zburg rebuilt loy -> –z–b–u–r–g–r–e–b–u–i–l–t–l–o–y–
+19 erved expos cables -> –e–r–v–e–d–e–x–p–o–s–c–a–b–l–e–s–
+20 ca lesen odnosno -> –c–a–l–e–s–e–n–o–d–n–o–s–n–o–
+21 eggi lange ehem -> –e–g–g–i–l–a–n–g–e–e–h–e–m–
+22 phe dejar upright -> –p–h–e–d–e–j–a–r–u–p–r–i–g–h–t–
+23 doc ced prise -> –d–o–c–c–e–d–p–r–i–s–e–
+24 annot sred ums -> –a–n–n–o–t–s–r–e–d–u–m–s–
+25 aisse applying commands -> –a–i–s–s–e–a–p–p–l–y–i–n–g–c–o–m–m–a–n–d–s–
+26 import kuk comien -> –i–m–p–o–r–t–k–u–k–c–o–m–i–e–n–
+27 elligent creek empower -> –e–l–l–i–g–e–n–t–c–r–e–e–k–e–m–p–o–w–e–r–
+28 rody cei francos -> –r–o–d–y–c–e–i–f–r–a–n–c–o–s–
+29 lera contains boa -> –l–e–r–a–c–o–n–t–a–i–n–s–b–o–a–
+30 icii alfabet bride -> –i–c–i–i–a–l–f–a–b–e–t–b–r–i–d–e–
+31 letons poetry treg -> –l–e–t–o–n–s–p–o–e–t–r–y–t–r–e–g–
+32 nox bons spezi -> –n–o–x–b–o–n–s–s–p–e–z–i–
+33 staben vue grund -> –s–t–a–b–e–n–v–u–e–g–r–u–n–d–
+34 views mellom exclu -> –v–i–e–w–s–m–e–l–l–o–m–e–x–c–l–u–
+35 issen pasaj pauvres -> –i–s–s–e–n–p–a–s–a–j–p–a–u–v–r–e–s–
+36 genomen embr ural -> –g–e–n–o–m–e–n–e–m–b–r–u–r–a–l–
+37 aient familles tenta -> –a–i–e–n–t–f–a–m–i–l–l–e–s–t–e–n–t–a–
+38 bangan decreto subtil -> –b–a–n–g–a–n–d–e–c–r–e–t–o–s–u–b–t–i–l–
+39 which esan pourquoi -> –w–h–i–c–h–e–s–a–n–p–o–u–r–q–u–o–i–
+40 lg rink ehk -> –l–g–r–i–n–k–e–h–k–
+41 icios trypsin logs -> –i–c–i–o–s–t–r–y–p–s–i–n–l–o–g–s–
+42 iul signing haft -> –i–u–l–s–i–g–n–i–n–g–h–a–f–t–
+43 yeron perlu cooked -> –y–e–r–o–n–p–e–r–l–u–c–o–o–k–e–d–
+44 estes murders clicking -> –e–s–t–e–s–m–u–r–d–e–r–s–c–l–i–c–k–i–n–g–
+45 aniem learns carb -> –a–n–i–e–m–l–e–a–r–n–s–c–a–r–b–
+46 was parfait edhe -> –w–a–s–p–a–r–f–a–i–t–e–d–h–e–
+47 predict ah trac -> –p–r–e–d–i–c–t–a–h–t–r–a–c–
+48 chn rated esem -> –c–h–n–r–a–t–e–d–e–s–e–m–
+49 ly destin millor -> –l–y–d–e–s–t–i–n–m–i–l–l–o–r–
+50 umbing satir mantiene -> –u–m–b–i–n–g–s–a–t–i–r–m–a–n–t–i–e–n–e–
+51 nochen ong episod -> –n–o–c–h–e–n–o–n–g–e–p–i–s–o–d–
+52 enu bracht entrar -> –e–n–u–b–r–a–c–h–t–e–n–t–r–a–r–
+53 rament cach kem -> –r–a–m–e–n–t–c–a–c–h–k–e–m–
+54 stedt aveva contenir -> –s–t–e–d–t–a–v–e–v–a–c–o–n–t–e–n–i–r–
+55 five mens mur -> –f–i–v–e–m–e–n–s–m–u–r–
+56 losti demi valg -> –l–o–s–t–i–d–e–m–i–v–a–l–g–
+57 amous assuming irod -> –a–m–o–u–s–a–s–s–u–m–i–n–g–i–r–o–d–
+58 benhav milioni beating -> –b–e–n–h–a–v–m–i–l–i–o–n–i–b–e–a–t–i–n–g–
+59 ld coucher privada -> –l–d–c–o–u–c–h–e–r–p–r–i–v–a–d–a–
+60 jenja ary prefix -> –j–e–n–j–a–a–r–y–p–r–e–f–i–x–
+61 illar consac scrape -> –i–l–l–a–r–c–o–n–s–a–c–s–c–r–a–p–e–
+62 ami guardia legge -> –a–m–i–g–u–a–r–d–i–a–l–e–g–g–e–
+63 enum herself acon -> –e–n–u–m–h–e–r–s–e–l–f–a–c–o–n–
+64 emo positie druge -> –e–m–o–p–o–s–i–t–i–e–d–r–u–g–e–
+65 human rapport cage -> –h–u–m–a–n–r–a–p–p–o–r–t–c–a–g–e–
+66 init canvas aust -> –i–n–i–t–c–a–n–v–a–s–a–u–s–t–
+67 const perfor pravil -> –c–o–n–s–t–p–e–r–f–o–r–p–r–a–v–i–l–
+68 goire benign youngest -> –g–o–i–r–e–b–e–n–i–g–n–y–o–u–n–g–e–s–t–
+69 uridad effet lumbar -> –u–r–i–d–a–d–e–f–f–e–t–l–u–m–b–a–r–
+70 oved empleo arrow -> –o–v–e–d–e–m–p–l–e–o–a–r–r–o–w–
+71 closing educator compone -> –c–l–o–s–i–n–g–e–d–u–c–a–t–o–r–c–o–m–p–o–n–e–
+72 wahlen redor bor -> –w–a–h–l–e–n–r–e–d–o–r–b–o–r–
+73 alf spiral mism -> –a–l–f–s–p–i–r–a–l–m–i–s–m–
+74 illir salud mell -> –i–l–l–i–r–s–a–l–u–d–m–e–l–l–
+75 uiten republik aceptar -> –u–i–t–e–n–r–e–p–u–b–l–i–k–a–c–e–p–t–a–r–
+76 seud derart parasite -> –s–e–u–d–d–e–r–a–r–t–p–a–r–a–s–i–t–e–
+77 ifier saus interpre -> –i–f–i–e–r–s–a–u–s–i–n–t–e–r–p–r–e–
+78 sicht soprav sought -> –s–i–c–h–t–s–o–p–r–a–v–s–o–u–g–h–t–
+79 endarmer odlu mour -> –e–n–d–a–r–m–e–r–o–d–l–u–m–o–u–r–
+80 iva tapping traje -> –i–v–a–t–a–p–p–i–n–g–t–r–a–j–e–
+81 orius scandale macrom -> –o–r–i–u–s–s–c–a–n–d–a–l–e–m–a–c–r–o–m–
+82 uta eager quotid -> –u–t–a–e–a–g–e–r–q–u–o–t–i–d–
+83 alth incendie possuem -> –a–l–t–h–i–n–c–e–n–d–i–e–p–o–s–s–u–e–m–
+84 kis tome conical -> –k–i–s–t–o–m–e–c–o–n–i–c–a–l–
+85 cre wire cursos -> –c–r–e–w–i–r–e–c–u–r–s–o–s–
+86 lah aktual host -> –l–a–h–a–k–t–u–a–l–h–o–s–t–
+87 keydown et ocen -> –k–e–y–d–o–w–n–e–t–o–c–e–n–
+88 ued belakang figlio -> –u–e–d–b–e–l–a–k–a–n–g–f–i–g–l–i–o–
+89 nothing open eb -> –n–o–t–h–i–n–g–o–p–e–n–e–b–
+90 library allt submar -> –l–i–b–r–a–r–y–a–l–l–t–s–u–b–m–a–r–
+91 zeug proch nurs -> –z–e–u–g–p–r–o–c–h–n–u–r–s–
+92 yb pigs geword -> –y–b–p–i–g–s–g–e–w–o–r–d–
+93 feo armies repouss -> –f–e–o–a–r–m–i–e–s–r–e–p–o–u–s–s–
+94 alia svi sense -> –a–l–i–a–s–v–i–s–e–n–s–e–
+95 ssa slic batter -> –s–s–a–s–l–i–c–b–a–t–t–e–r–
+96 jack bowler servi -> –j–a–c–k–b–o–w–l–e–r–s–e–r–v–i–
+97 urrency spat revolt -> –u–r–r–e–n–c–y–s–p–a–t–r–e–v–o–l–t–
+98 away pam poorer -> –a–w–a–y–p–a–m–p–o–o–r–e–r–
+99 uhl cities still -> –u–h–l–c–i–t–i–e–s–s–t–i–l–l–

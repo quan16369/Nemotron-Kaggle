@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 oble fina desert
+01 iry theory athlete
+02 success conduit because
+
+This is a sample output.
+00 oble fina desert -> –o–b–l–e–f–i–n–a–d–e–s–e–r–t–
+01 iry theory athlete -> –i–r–y–t–h–e–o–r–y–a–t–h–l–e–t–e–
+02 success conduit because -> –s–u–c–c–e–s–s–c–o–n–d–u–i–t–b–e–c–a–u–s–e–
+
+This is your input.
+00 ductor abrite impieg
+01 rot calcul dig
+02 ertid puts afirma
+03 jugated deutsche veel
+04 onymie vehicles reclaim
+05 utlich depres cached
+06 vements simulate lots
+07 metadata drapeau edad
+08 ivel bib hence
+09 form legado steward
+10 target acerca unint
+11 objects prost portar
+12 align noin kys
+13 otti massa eben
+14 ocracy subdiv nephew
+15 uk chiamata teacher
+16 apsed patr dresses
+17 ruzione inline parentes
+18 umbn amel exec
+19 brei rib exceeded
+20 hole bahan bes
+21 emph kereszt inclin
+22 cuador glad blotting
+23 edev recol lessons
+24 oded visiting daquele
+25 enso xan ouvrages
+26 zeta carrera stayed
+27 ekin manj harc
+28 plas delt ragazzi
+29 izer trop sech
+30 ultural producer azok
+31 ciples tranquil weiteren
+32 uie nations lesquels
+33 mers bait tee
+34 prost farther ces
+35 hip thief conspic
+36 fon infek conmigo
+37 istique gouvern reliance
+38 riker keel constru
+39 tar tips relied
+40 schrift beasts gestures
+41 halte villa posso
+42 ifie sajtu kommer
+43 arry http kle
+44 ropy revenge dementia
+45 pline epidemic weeks
+46 ocytic align venom
+47 acidad finanz ishte
+48 lear reimburs typename
+49 retto algu kop
+50 ochet brush histor
+51 ikawa gameplay pitt
+52 forme parental devido
+53 edin regelm inglesa
+54 download several sasto
+55 idez mice rasa
+56 pli machte ind
+57 ends binder lider
+58 ritical mall verletzt
+59 items advances bav
+60 ags deur bekannt
+61 union agent temel
+62 irken rimase studie
+63 zeugen trakt blended
+64 gunta await power
+65 elow alkalo regarde
+66 ithub revert ora
+67 mai miasta sortit
+68 icot fluxes hagy
+69 inking spez comenzar
+70 emples remarque hauts
+71 nim mala solubil
+72 rians valence precisa
+73 endre jobs bardziej
+74 wydd alkot dicha
+75 atos neurons trek
+76 gyan suku voxel
+77 etta looked weary
+78 jarah studi vivent
+79 antwort kuvvet darf
+80 lost russe upcoming
+81 zkod podium distanza
+82 jero cationic abundant
+83 igny satis fortunes
+84 chent osn diffic
+85 engo barley acuity
+86 umb zar strept
+87 skom juven laying
+88 ights dish sce
+89 ylic bec vendor
+90 stasy checked mache
+91 oran lacked dilated
+92 usz garantir ottenuto
+93 heet dairy clara
+94 heiro branches raya
+95 move bass rainy
+96 ntil disseny pros
+97 espan pittore qua
+98 lights garder cintura
+99 armed jeta ocurr
+[completion]
+00 ductor abrite impieg -> –d–u–c–t–o–r–a–b–r–i–t–e–i–m–p–i–e–g–
+01 rot calcul dig -> –r–o–t–c–a–l–c–u–l–d–i–g–
+02 ertid puts afirma -> –e–r–t–i–d–p–u–t–s–a–f–i–r–m–a–
+03 jugated deutsche veel -> –j–u–g–a–t–e–d–d–e–u–t–s–c–h–e–v–e–e–l–
+04 onymie vehicles reclaim -> –o–n–y–m–i–e–v–e–h–i–c–l–e–s–r–e–c–l–a–i–m–
+05 utlich depres cached -> –u–t–l–i–c–h–d–e–p–r–e–s–c–a–c–h–e–d–
+06 vements simulate lots -> –v–e–m–e–n–t–s–s–i–m–u–l–a–t–e–l–o–t–s–
+07 metadata drapeau edad -> –m–e–t–a–d–a–t–a–d–r–a–p–e–a–u–e–d–a–d–
+08 ivel bib hence -> –i–v–e–l–b–i–b–h–e–n–c–e–
+09 form legado steward -> –f–o–r–m–l–e–g–a–d–o–s–t–e–w–a–r–d–
+10 target acerca unint -> –t–a–r–g–e–t–a–c–e–r–c–a–u–n–i–n–t–
+11 objects prost portar -> –o–b–j–e–c–t–s–p–r–o–s–t–p–o–r–t–a–r–
+12 align noin kys -> –a–l–i–g–n–n–o–i–n–k–y–s–
+13 otti massa eben -> –o–t–t–i–m–a–s–s–a–e–b–e–n–
+14 ocracy subdiv nephew -> –o–c–r–a–c–y–s–u–b–d–i–v–n–e–p–h–e–w–
+15 uk chiamata teacher -> –u–k–c–h–i–a–m–a–t–a–t–e–a–c–h–e–r–
+16 apsed patr dresses -> –a–p–s–e–d–p–a–t–r–d–r–e–s–s–e–s–
+17 ruzione inline parentes -> –r–u–z–i–o–n–e–i–n–l–i–n–e–p–a–r–e–n–t–e–s–
+18 umbn amel exec -> –u–m–b–n–a–m–e–l–e–x–e–c–
+19 brei rib exceeded -> –b–r–e–i–r–i–b–e–x–c–e–e–d–e–d–
+20 hole bahan bes -> –h–o–l–e–b–a–h–a–n–b–e–s–
+21 emph kereszt inclin -> –e–m–p–h–k–e–r–e–s–z–t–i–n–c–l–i–n–
+22 cuador glad blotting -> –c–u–a–d–o–r–g–l–a–d–b–l–o–t–t–i–n–g–
+23 edev recol lessons -> –e–d–e–v–r–e–c–o–l–l–e–s–s–o–n–s–
+24 oded visiting daquele -> –o–d–e–d–v–i–s–i–t–i–n–g–d–a–q–u–e–l–e–
+25 enso xan ouvrages -> –e–n–s–o–x–a–n–o–u–v–r–a–g–e–s–
+26 zeta carrera stayed -> –z–e–t–a–c–a–r–r–e–r–a–s–t–a–y–e–d–
+27 ekin manj harc -> –e–k–i–n–m–a–n–j–h–a–r–c–
+28 plas delt ragazzi -> –p–l–a–s–d–e–l–t–r–a–g–a–z–z–i–
+29 izer trop sech -> –i–z–e–r–t–r–o–p–s–e–c–h–
+30 ultural producer azok -> –u–l–t–u–r–a–l–p–r–o–d–u–c–e–r–a–z–o–k–
+31 ciples tranquil weiteren -> –c–i–p–l–e–s–t–r–a–n–q–u–i–l–w–e–i–t–e–r–e–n–
+32 uie nations lesquels -> –u–i–e–n–a–t–i–o–n–s–l–e–s–q–u–e–l–s–
+33 mers bait tee -> –m–e–r–s–b–a–i–t–t–e–e–
+34 prost farther ces -> –p–r–o–s–t–f–a–r–t–h–e–r–c–e–s–
+35 hip thief conspic -> –h–i–p–t–h–i–e–f–c–o–n–s–p–i–c–
+36 fon infek conmigo -> –f–o–n–i–n–f–e–k–c–o–n–m–i–g–o–
+37 istique gouvern reliance -> –i–s–t–i–q–u–e–g–o–u–v–e–r–n–r–e–l–i–a–n–c–e–
+38 riker keel constru -> –r–i–k–e–r–k–e–e–l–c–o–n–s–t–r–u–
+39 tar tips relied -> –t–a–r–t–i–p–s–r–e–l–i–e–d–
+40 schrift beasts gestures -> –s–c–h–r–i–f–t–b–e–a–s–t–s–g–e–s–t–u–r–e–s–
+41 halte villa posso -> –h–a–l–t–e–v–i–l–l–a–p–o–s–s–o–
+42 ifie sajtu kommer -> –i–f–i–e–s–a–j–t–u–k–o–m–m–e–r–
+43 arry http kle -> –a–r–r–y–h–t–t–p–k–l–e–
+44 ropy revenge dementia -> –r–o–p–y–r–e–v–e–n–g–e–d–e–m–e–n–t–i–a–
+45 pline epidemic weeks -> –p–l–i–n–e–e–p–i–d–e–m–i–c–w–e–e–k–s–
+46 ocytic align venom -> –o–c–y–t–i–c–a–l–i–g–n–v–e–n–o–m–
+47 acidad finanz ishte -> –a–c–i–d–a–d–f–i–n–a–n–z–i–s–h–t–e–
+48 lear reimburs typename -> –l–e–a–r–r–e–i–m–b–u–r–s–t–y–p–e–n–a–m–e–
+49 retto algu kop -> –r–e–t–t–o–a–l–g–u–k–o–p–
+50 ochet brush histor -> –o–c–h–e–t–b–r–u–s–h–h–i–s–t–o–r–
+51 ikawa gameplay pitt -> –i–k–a–w–a–g–a–m–e–p–l–a–y–p–i–t–t–
+52 forme parental devido -> –f–o–r–m–e–p–a–r–e–n–t–a–l–d–e–v–i–d–o–
+53 edin regelm inglesa -> –e–d–i–n–r–e–g–e–l–m–i–n–g–l–e–s–a–
+54 download several sasto -> –d–o–w–n–l–o–a–d–s–e–v–e–r–a–l–s–a–s–t–o–
+55 idez mice rasa -> –i–d–e–z–m–i–c–e–r–a–s–a–
+56 pli machte ind -> –p–l–i–m–a–c–h–t–e–i–n–d–
+57 ends binder lider -> –e–n–d–s–b–i–n–d–e–r–l–i–d–e–r–
+58 ritical mall verletzt -> –r–i–t–i–c–a–l–m–a–l–l–v–e–r–l–e–t–z–t–
+59 items advances bav -> –i–t–e–m–s–a–d–v–a–n–c–e–s–b–a–v–
+60 ags deur bekannt -> –a–g–s–d–e–u–r–b–e–k–a–n–n–t–
+61 union agent temel -> –u–n–i–o–n–a–g–e–n–t–t–e–m–e–l–
+62 irken rimase studie -> –i–r–k–e–n–r–i–m–a–s–e–s–t–u–d–i–e–
+63 zeugen trakt blended -> –z–e–u–g–e–n–t–r–a–k–t–b–l–e–n–d–e–d–
+64 gunta await power -> –g–u–n–t–a–a–w–a–i–t–p–o–w–e–r–
+65 elow alkalo regarde -> –e–l–o–w–a–l–k–a–l–o–r–e–g–a–r–d–e–
+66 ithub revert ora -> –i–t–h–u–b–r–e–v–e–r–t–o–r–a–
+67 mai miasta sortit -> –m–a–i–m–i–a–s–t–a–s–o–r–t–i–t–
+68 icot fluxes hagy -> –i–c–o–t–f–l–u–x–e–s–h–a–g–y–
+69 inking spez comenzar -> –i–n–k–i–n–g–s–p–e–z–c–o–m–e–n–z–a–r–
+70 emples remarque hauts -> –e–m–p–l–e–s–r–e–m–a–r–q–u–e–h–a–u–t–s–
+71 nim mala solubil -> –n–i–m–m–a–l–a–s–o–l–u–b–i–l–
+72 rians valence precisa -> –r–i–a–n–s–v–a–l–e–n–c–e–p–r–e–c–i–s–a–
+73 endre jobs bardziej -> –e–n–d–r–e–j–o–b–s–b–a–r–d–z–i–e–j–
+74 wydd alkot dicha -> –w–y–d–d–a–l–k–o–t–d–i–c–h–a–
+75 atos neurons trek -> –a–t–o–s–n–e–u–r–o–n–s–t–r–e–k–
+76 gyan suku voxel -> –g–y–a–n–s–u–k–u–v–o–x–e–l–
+77 etta looked weary -> –e–t–t–a–l–o–o–k–e–d–w–e–a–r–y–
+78 jarah studi vivent -> –j–a–r–a–h–s–t–u–d–i–v–i–v–e–n–t–
+79 antwort kuvvet darf -> –a–n–t–w–o–r–t–k–u–v–v–e–t–d–a–r–f–
+80 lost russe upcoming -> –l–o–s–t–r–u–s–s–e–u–p–c–o–m–i–n–g–
+81 zkod podium distanza -> –z–k–o–d–p–o–d–i–u–m–d–i–s–t–a–n–z–a–
+82 jero cationic abundant -> –j–e–r–o–c–a–t–i–o–n–i–c–a–b–u–n–d–a–n–t–
+83 igny satis fortunes -> –i–g–n–y–s–a–t–i–s–f–o–r–t–u–n–e–s–
+84 chent osn diffic -> –c–h–e–n–t–o–s–n–d–i–f–f–i–c–
+85 engo barley acuity -> –e–n–g–o–b–a–r–l–e–y–a–c–u–i–t–y–
+86 umb zar strept -> –u–m–b–z–a–r–s–t–r–e–p–t–
+87 skom juven laying -> –s–k–o–m–j–u–v–e–n–l–a–y–i–n–g–
+88 ights dish sce -> –i–g–h–t–s–d–i–s–h–s–c–e–
+89 ylic bec vendor -> –y–l–i–c–b–e–c–v–e–n–d–o–r–
+90 stasy checked mache -> –s–t–a–s–y–c–h–e–c–k–e–d–m–a–c–h–e–
+91 oran lacked dilated -> –o–r–a–n–l–a–c–k–e–d–d–i–l–a–t–e–d–
+92 usz garantir ottenuto -> –u–s–z–g–a–r–a–n–t–i–r–o–t–t–e–n–u–t–o–
+93 heet dairy clara -> –h–e–e–t–d–a–i–r–y–c–l–a–r–a–
+94 heiro branches raya -> –h–e–i–r–o–b–r–a–n–c–h–e–s–r–a–y–a–
+95 move bass rainy -> –m–o–v–e–b–a–s–s–r–a–i–n–y–
+96 ntil disseny pros -> –n–t–i–l–d–i–s–s–e–n–y–p–r–o–s–
+97 espan pittore qua -> –e–s–p–a–n–p–i–t–t–o–r–e–q–u–a–
+98 lights garder cintura -> –l–i–g–h–t–s–g–a–r–d–e–r–c–i–n–t–u–r–a–
+99 armed jeta ocurr -> –a–r–m–e–d–j–e–t–a–o–c–u–r–r–

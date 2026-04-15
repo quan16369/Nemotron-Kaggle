@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 jpg huk scales
+01 compass quedar carrying
+02 ress posso shaded
+
+This is a sample output.
+00 jpg huk scales -> –j–p–g–h–u–k–s–c–a–l–e–s–
+01 compass quedar carrying -> –c–o–m–p–a–s–s–q–u–e–d–a–r–c–a–r–r–y–i–n–g–
+02 ress posso shaded -> –r–e–s–s–p–o–s–s–o–s–h–a–d–e–d–
+
+This is your input.
+00 ishops archives lebten
+01 aph tableau secured
+02 vora admir revue
+03 ggregate factors olmayan
+04 ichting dira fosse
+05 copa killings lungs
+06 weg maest adjusted
+07 ropole sympathy logos
+08 arct flytt umbrella
+09 isante socially dropped
+10 ococc guitarra secteurs
+11 ception thumbs quitter
+12 leurs volante marins
+13 inescent fauteuil staff
+14 enen scholar exactly
+15 oderma reuse conse
+16 abu croyait arrive
+17 nienia ligation kappale
+18 imore yra lance
+19 ztr derby html
+20 kele soul esse
+21 haft accue ged
+22 ormal cheerful switch
+23 edi duc komme
+24 cutta arsenal agricult
+25 dafrika sabia shoulder
+26 deutsch rac dumped
+27 rior osallist drept
+28 ussen titolo benach
+29 ographer hens timeline
+30 uded emo dict
+31 api mutat caden
+32 aucun eigener arrivare
+33 va tek succeeds
+34 force kalk wc
+35 ordnung descend pig
+36 dao partita unf
+37 theta mercato summary
+38 rome atte portanto
+39 ayette inspi dimanche
+40 aline krij weisen
+41 itse asemenea amphib
+42 enca polic aspart
+43 bere uniforms handlers
+44 icum shred deleter
+45 elect powie raccont
+46 span relativa grotes
+47 zbek braccia dilem
+48 inker arche plaint
+49 door aurre tegen
+50 riendly suminist gambling
+51 komst outgoing grep
+52 ourd lago voiture
+53 munition odnos wysoko
+54 uzko herum carbone
+55 geb operate alone
+56 ocom onze bleibt
+57 minster killer mesto
+58 oyant linking maus
+59 ences sectores zombie
+60 oin doigts molto
+61 hk complete hep
+62 midd froze dosz
+63 iana siglos prend
+64 kv lbs photore
+65 nieuw pod tense
+66 inned rarity puis
+67 anded plag heraus
+68 fore solchen spermat
+69 arean breeding pessoa
+70 aming cadr renowned
+71 nums theolog souls
+72 adv oblast avoided
+73 objc isim archa
+74 ament linkovi dimer
+75 loge opcode especies
+76 iyalar conosci joie
+77 amiseks exalt ilyen
+78 picture baru programu
+79 urther staging chef
+80 doll molts lagu
+81 aginator verst sorta
+82 him mukaan ikus
+83 mes sacar crocod
+84 rame rip disposit
+85 orsi outils calf
+86 szak dbo person
+87 kaar remporte dessas
+88 aphore suites inim
+89 ayu categor wink
+90 yline hadden volupt
+91 age portable applic
+92 raj schuf anderer
+93 reason mo corto
+94 uario parro derived
+95 ref textbox mime
+96 atica deque vel
+97 lagt kel revint
+98 urgie cris suivants
+99 ongs buy indirect
+[completion]
+00 ishops archives lebten -> –i–s–h–o–p–s–a–r–c–h–i–v–e–s–l–e–b–t–e–n–
+01 aph tableau secured -> –a–p–h–t–a–b–l–e–a–u–s–e–c–u–r–e–d–
+02 vora admir revue -> –v–o–r–a–a–d–m–i–r–r–e–v–u–e–
+03 ggregate factors olmayan -> –g–g–r–e–g–a–t–e–f–a–c–t–o–r–s–o–l–m–a–y–a–n–
+04 ichting dira fosse -> –i–c–h–t–i–n–g–d–i–r–a–f–o–s–s–e–
+05 copa killings lungs -> –c–o–p–a–k–i–l–l–i–n–g–s–l–u–n–g–s–
+06 weg maest adjusted -> –w–e–g–m–a–e–s–t–a–d–j–u–s–t–e–d–
+07 ropole sympathy logos -> –r–o–p–o–l–e–s–y–m–p–a–t–h–y–l–o–g–o–s–
+08 arct flytt umbrella -> –a–r–c–t–f–l–y–t–t–u–m–b–r–e–l–l–a–
+09 isante socially dropped -> –i–s–a–n–t–e–s–o–c–i–a–l–l–y–d–r–o–p–p–e–d–
+10 ococc guitarra secteurs -> –o–c–o–c–c–g–u–i–t–a–r–r–a–s–e–c–t–e–u–r–s–
+11 ception thumbs quitter -> –c–e–p–t–i–o–n–t–h–u–m–b–s–q–u–i–t–t–e–r–
+12 leurs volante marins -> –l–e–u–r–s–v–o–l–a–n–t–e–m–a–r–i–n–s–
+13 inescent fauteuil staff -> –i–n–e–s–c–e–n–t–f–a–u–t–e–u–i–l–s–t–a–f–f–
+14 enen scholar exactly -> –e–n–e–n–s–c–h–o–l–a–r–e–x–a–c–t–l–y–
+15 oderma reuse conse -> –o–d–e–r–m–a–r–e–u–s–e–c–o–n–s–e–
+16 abu croyait arrive -> –a–b–u–c–r–o–y–a–i–t–a–r–r–i–v–e–
+17 nienia ligation kappale -> –n–i–e–n–i–a–l–i–g–a–t–i–o–n–k–a–p–p–a–l–e–
+18 imore yra lance -> –i–m–o–r–e–y–r–a–l–a–n–c–e–
+19 ztr derby html -> –z–t–r–d–e–r–b–y–h–t–m–l–
+20 kele soul esse -> –k–e–l–e–s–o–u–l–e–s–s–e–
+21 haft accue ged -> –h–a–f–t–a–c–c–u–e–g–e–d–
+22 ormal cheerful switch -> –o–r–m–a–l–c–h–e–e–r–f–u–l–s–w–i–t–c–h–
+23 edi duc komme -> –e–d–i–d–u–c–k–o–m–m–e–
+24 cutta arsenal agricult -> –c–u–t–t–a–a–r–s–e–n–a–l–a–g–r–i–c–u–l–t–
+25 dafrika sabia shoulder -> –d–a–f–r–i–k–a–s–a–b–i–a–s–h–o–u–l–d–e–r–
+26 deutsch rac dumped -> –d–e–u–t–s–c–h–r–a–c–d–u–m–p–e–d–
+27 rior osallist drept -> –r–i–o–r–o–s–a–l–l–i–s–t–d–r–e–p–t–
+28 ussen titolo benach -> –u–s–s–e–n–t–i–t–o–l–o–b–e–n–a–c–h–
+29 ographer hens timeline -> –o–g–r–a–p–h–e–r–h–e–n–s–t–i–m–e–l–i–n–e–
+30 uded emo dict -> –u–d–e–d–e–m–o–d–i–c–t–
+31 api mutat caden -> –a–p–i–m–u–t–a–t–c–a–d–e–n–
+32 aucun eigener arrivare -> –a–u–c–u–n–e–i–g–e–n–e–r–a–r–r–i–v–a–r–e–
+33 va tek succeeds -> –v–a–t–e–k–s–u–c–c–e–e–d–s–
+34 force kalk wc -> –f–o–r–c–e–k–a–l–k–w–c–
+35 ordnung descend pig -> –o–r–d–n–u–n–g–d–e–s–c–e–n–d–p–i–g–
+36 dao partita unf -> –d–a–o–p–a–r–t–i–t–a–u–n–f–
+37 theta mercato summary -> –t–h–e–t–a–m–e–r–c–a–t–o–s–u–m–m–a–r–y–
+38 rome atte portanto -> –r–o–m–e–a–t–t–e–p–o–r–t–a–n–t–o–
+39 ayette inspi dimanche -> –a–y–e–t–t–e–i–n–s–p–i–d–i–m–a–n–c–h–e–
+40 aline krij weisen -> –a–l–i–n–e–k–r–i–j–w–e–i–s–e–n–
+41 itse asemenea amphib -> –i–t–s–e–a–s–e–m–e–n–e–a–a–m–p–h–i–b–
+42 enca polic aspart -> –e–n–c–a–p–o–l–i–c–a–s–p–a–r–t–
+43 bere uniforms handlers -> –b–e–r–e–u–n–i–f–o–r–m–s–h–a–n–d–l–e–r–s–
+44 icum shred deleter -> –i–c–u–m–s–h–r–e–d–d–e–l–e–t–e–r–
+45 elect powie raccont -> –e–l–e–c–t–p–o–w–i–e–r–a–c–c–o–n–t–
+46 span relativa grotes -> –s–p–a–n–r–e–l–a–t–i–v–a–g–r–o–t–e–s–
+47 zbek braccia dilem -> –z–b–e–k–b–r–a–c–c–i–a–d–i–l–e–m–
+48 inker arche plaint -> –i–n–k–e–r–a–r–c–h–e–p–l–a–i–n–t–
+49 door aurre tegen -> –d–o–o–r–a–u–r–r–e–t–e–g–e–n–
+50 riendly suminist gambling -> –r–i–e–n–d–l–y–s–u–m–i–n–i–s–t–g–a–m–b–l–i–n–g–
+51 komst outgoing grep -> –k–o–m–s–t–o–u–t–g–o–i–n–g–g–r–e–p–
+52 ourd lago voiture -> –o–u–r–d–l–a–g–o–v–o–i–t–u–r–e–
+53 munition odnos wysoko -> –m–u–n–i–t–i–o–n–o–d–n–o–s–w–y–s–o–k–o–
+54 uzko herum carbone -> –u–z–k–o–h–e–r–u–m–c–a–r–b–o–n–e–
+55 geb operate alone -> –g–e–b–o–p–e–r–a–t–e–a–l–o–n–e–
+56 ocom onze bleibt -> –o–c–o–m–o–n–z–e–b–l–e–i–b–t–
+57 minster killer mesto -> –m–i–n–s–t–e–r–k–i–l–l–e–r–m–e–s–t–o–
+58 oyant linking maus -> –o–y–a–n–t–l–i–n–k–i–n–g–m–a–u–s–
+59 ences sectores zombie -> –e–n–c–e–s–s–e–c–t–o–r–e–s–z–o–m–b–i–e–
+60 oin doigts molto -> –o–i–n–d–o–i–g–t–s–m–o–l–t–o–
+61 hk complete hep -> –h–k–c–o–m–p–l–e–t–e–h–e–p–
+62 midd froze dosz -> –m–i–d–d–f–r–o–z–e–d–o–s–z–
+63 iana siglos prend -> –i–a–n–a–s–i–g–l–o–s–p–r–e–n–d–
+64 kv lbs photore -> –k–v–l–b–s–p–h–o–t–o–r–e–
+65 nieuw pod tense -> –n–i–e–u–w–p–o–d–t–e–n–s–e–
+66 inned rarity puis -> –i–n–n–e–d–r–a–r–i–t–y–p–u–i–s–
+67 anded plag heraus -> –a–n–d–e–d–p–l–a–g–h–e–r–a–u–s–
+68 fore solchen spermat -> –f–o–r–e–s–o–l–c–h–e–n–s–p–e–r–m–a–t–
+69 arean breeding pessoa -> –a–r–e–a–n–b–r–e–e–d–i–n–g–p–e–s–s–o–a–
+70 aming cadr renowned -> –a–m–i–n–g–c–a–d–r–r–e–n–o–w–n–e–d–
+71 nums theolog souls -> –n–u–m–s–t–h–e–o–l–o–g–s–o–u–l–s–
+72 adv oblast avoided -> –a–d–v–o–b–l–a–s–t–a–v–o–i–d–e–d–
+73 objc isim archa -> –o–b–j–c–i–s–i–m–a–r–c–h–a–
+74 ament linkovi dimer -> –a–m–e–n–t–l–i–n–k–o–v–i–d–i–m–e–r–
+75 loge opcode especies -> –l–o–g–e–o–p–c–o–d–e–e–s–p–e–c–i–e–s–
+76 iyalar conosci joie -> –i–y–a–l–a–r–c–o–n–o–s–c–i–j–o–i–e–
+77 amiseks exalt ilyen -> –a–m–i–s–e–k–s–e–x–a–l–t–i–l–y–e–n–
+78 picture baru programu -> –p–i–c–t–u–r–e–b–a–r–u–p–r–o–g–r–a–m–u–
+79 urther staging chef -> –u–r–t–h–e–r–s–t–a–g–i–n–g–c–h–e–f–
+80 doll molts lagu -> –d–o–l–l–m–o–l–t–s–l–a–g–u–
+81 aginator verst sorta -> –a–g–i–n–a–t–o–r–v–e–r–s–t–s–o–r–t–a–
+82 him mukaan ikus -> –h–i–m–m–u–k–a–a–n–i–k–u–s–
+83 mes sacar crocod -> –m–e–s–s–a–c–a–r–c–r–o–c–o–d–
+84 rame rip disposit -> –r–a–m–e–r–i–p–d–i–s–p–o–s–i–t–
+85 orsi outils calf -> –o–r–s–i–o–u–t–i–l–s–c–a–l–f–
+86 szak dbo person -> –s–z–a–k–d–b–o–p–e–r–s–o–n–
+87 kaar remporte dessas -> –k–a–a–r–r–e–m–p–o–r–t–e–d–e–s–s–a–s–
+88 aphore suites inim -> –a–p–h–o–r–e–s–u–i–t–e–s–i–n–i–m–
+89 ayu categor wink -> –a–y–u–c–a–t–e–g–o–r–w–i–n–k–
+90 yline hadden volupt -> –y–l–i–n–e–h–a–d–d–e–n–v–o–l–u–p–t–
+91 age portable applic -> –a–g–e–p–o–r–t–a–b–l–e–a–p–p–l–i–c–
+92 raj schuf anderer -> –r–a–j–s–c–h–u–f–a–n–d–e–r–e–r–
+93 reason mo corto -> –r–e–a–s–o–n–m–o–c–o–r–t–o–
+94 uario parro derived -> –u–a–r–i–o–p–a–r–r–o–d–e–r–i–v–e–d–
+95 ref textbox mime -> –r–e–f–t–e–x–t–b–o–x–m–i–m–e–
+96 atica deque vel -> –a–t–i–c–a–d–e–q–u–e–v–e–l–
+97 lagt kel revint -> –l–a–g–t–k–e–l–r–e–v–i–n–t–
+98 urgie cris suivants -> –u–r–g–i–e–c–r–i–s–s–u–i–v–a–n–t–s–
+99 ongs buy indirect -> –o–n–g–s–b–u–y–i–n–d–i–r–e–c–t–

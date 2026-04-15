@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 images belegte dys
+01 sv weather guardia
+02 arl offset farms
+
+This is a sample output.
+00 images belegte dys -> –i–m–a–g–e–s–b–e–l–e–g–t–e–d–y–s–
+01 sv weather guardia -> –s–v–w–e–a–t–h–e–r–g–u–a–r–d–i–a–
+02 arl offset farms -> –a–r–l–o–f–f–s–e–t–f–a–r–m–s–
+
+This is your input.
+00 obec desn sucess
+01 liament lluvia zeb
+02 impl austr grateful
+03 urgical islands leden
+04 iyat utterly depth
+05 ducers minhas duke
+06 runtime constitu humans
+07 factor blat library
+08 rooms slate kanon
+09 nios judicial vlast
+10 hado ninth artisan
+11 herence enfin facilit
+12 written amin lume
+13 obili veget aperture
+14 iop ungef desde
+15 abria flared voork
+16 uv projeto vaqt
+17 uetooth demonst kor
+18 xc wirklich veld
+19 eq ezek larval
+20 isha ouvrit poskyt
+21 ycl peat mutual
+22 arched estuv enfor
+23 tha payments campes
+24 dues shotgun dump
+25 ocuments anima think
+26 veer sorte persegu
+27 uvchi cidades viser
+28 ursday havde szerepl
+29 forum huom abs
+30 hospital bel dressed
+31 tanleria mulher actor
+32 auge questo cardinal
+33 heck convenc terminou
+34 oxin benefits saw
+35 enciado raket gare
+36 utin devia systemic
+37 apun examines piac
+38 ately miesz nb
+39 ites apprent vitt
+40 berecht cohort obed
+41 mutex biais pandemia
+42 prov manner dock
+43 fertigt chois fraction
+44 choose migrate dramatic
+45 burn paying clamp
+46 paces kemudian chats
+47 ulis laug velvet
+48 maal ok intercal
+49 omed gu indul
+50 good spl sede
+51 asan deklar pone
+52 oby causar injured
+53 bbi inverno these
+54 ancies fructose pernah
+55 mesine hain pojawi
+56 tsk hyd ingl
+57 atori erased konci
+58 ijer counter switches
+59 icals annat meest
+60 cone industri mudah
+61 score venta kroz
+62 abi lone fleur
+63 erez besar artific
+64 flip welcome monarchy
+65 akia doubt charcoal
+66 gate explique reflet
+67 criptive expon happen
+68 thor flags rocking
+69 adikan zuletzt inhab
+70 fus courir ukrain
+71 ropol ras health
+72 weets diputado ofrec
+73 odied world edu
+74 uning dirig elektro
+75 os scramb logical
+76 rops nale pellets
+77 usahaan cooler journal
+78 lig assort guarded
+79 ianz teoria abdomen
+80 oresis laten servant
+81 ir pilots unst
+82 embles nooit morgen
+83 pool sans kerk
+84 endu laik conjug
+85 ishop fixing whip
+86 omotive reunited rozd
+87 tot letoun jotka
+88 lew anionic criar
+89 pra act precip
+90 tep spacious llamar
+91 ree koncept talking
+92 ribute jas inflex
+93 capital nal its
+94 ize aloud abond
+95 ronto hasn having
+96 ignant montrer remov
+97 earched bom stimuli
+98 ragung reformed rush
+99 olella measures newly
+[completion]
+00 obec desn sucess -> –o–b–e–c–d–e–s–n–s–u–c–e–s–s–
+01 liament lluvia zeb -> –l–i–a–m–e–n–t–l–l–u–v–i–a–z–e–b–
+02 impl austr grateful -> –i–m–p–l–a–u–s–t–r–g–r–a–t–e–f–u–l–
+03 urgical islands leden -> –u–r–g–i–c–a–l–i–s–l–a–n–d–s–l–e–d–e–n–
+04 iyat utterly depth -> –i–y–a–t–u–t–t–e–r–l–y–d–e–p–t–h–
+05 ducers minhas duke -> –d–u–c–e–r–s–m–i–n–h–a–s–d–u–k–e–
+06 runtime constitu humans -> –r–u–n–t–i–m–e–c–o–n–s–t–i–t–u–h–u–m–a–n–s–
+07 factor blat library -> –f–a–c–t–o–r–b–l–a–t–l–i–b–r–a–r–y–
+08 rooms slate kanon -> –r–o–o–m–s–s–l–a–t–e–k–a–n–o–n–
+09 nios judicial vlast -> –n–i–o–s–j–u–d–i–c–i–a–l–v–l–a–s–t–
+10 hado ninth artisan -> –h–a–d–o–n–i–n–t–h–a–r–t–i–s–a–n–
+11 herence enfin facilit -> –h–e–r–e–n–c–e–e–n–f–i–n–f–a–c–i–l–i–t–
+12 written amin lume -> –w–r–i–t–t–e–n–a–m–i–n–l–u–m–e–
+13 obili veget aperture -> –o–b–i–l–i–v–e–g–e–t–a–p–e–r–t–u–r–e–
+14 iop ungef desde -> –i–o–p–u–n–g–e–f–d–e–s–d–e–
+15 abria flared voork -> –a–b–r–i–a–f–l–a–r–e–d–v–o–o–r–k–
+16 uv projeto vaqt -> –u–v–p–r–o–j–e–t–o–v–a–q–t–
+17 uetooth demonst kor -> –u–e–t–o–o–t–h–d–e–m–o–n–s–t–k–o–r–
+18 xc wirklich veld -> –x–c–w–i–r–k–l–i–c–h–v–e–l–d–
+19 eq ezek larval -> –e–q–e–z–e–k–l–a–r–v–a–l–
+20 isha ouvrit poskyt -> –i–s–h–a–o–u–v–r–i–t–p–o–s–k–y–t–
+21 ycl peat mutual -> –y–c–l–p–e–a–t–m–u–t–u–a–l–
+22 arched estuv enfor -> –a–r–c–h–e–d–e–s–t–u–v–e–n–f–o–r–
+23 tha payments campes -> –t–h–a–p–a–y–m–e–n–t–s–c–a–m–p–e–s–
+24 dues shotgun dump -> –d–u–e–s–s–h–o–t–g–u–n–d–u–m–p–
+25 ocuments anima think -> –o–c–u–m–e–n–t–s–a–n–i–m–a–t–h–i–n–k–
+26 veer sorte persegu -> –v–e–e–r–s–o–r–t–e–p–e–r–s–e–g–u–
+27 uvchi cidades viser -> –u–v–c–h–i–c–i–d–a–d–e–s–v–i–s–e–r–
+28 ursday havde szerepl -> –u–r–s–d–a–y–h–a–v–d–e–s–z–e–r–e–p–l–
+29 forum huom abs -> –f–o–r–u–m–h–u–o–m–a–b–s–
+30 hospital bel dressed -> –h–o–s–p–i–t–a–l–b–e–l–d–r–e–s–s–e–d–
+31 tanleria mulher actor -> –t–a–n–l–e–r–i–a–m–u–l–h–e–r–a–c–t–o–r–
+32 auge questo cardinal -> –a–u–g–e–q–u–e–s–t–o–c–a–r–d–i–n–a–l–
+33 heck convenc terminou -> –h–e–c–k–c–o–n–v–e–n–c–t–e–r–m–i–n–o–u–
+34 oxin benefits saw -> –o–x–i–n–b–e–n–e–f–i–t–s–s–a–w–
+35 enciado raket gare -> –e–n–c–i–a–d–o–r–a–k–e–t–g–a–r–e–
+36 utin devia systemic -> –u–t–i–n–d–e–v–i–a–s–y–s–t–e–m–i–c–
+37 apun examines piac -> –a–p–u–n–e–x–a–m–i–n–e–s–p–i–a–c–
+38 ately miesz nb -> –a–t–e–l–y–m–i–e–s–z–n–b–
+39 ites apprent vitt -> –i–t–e–s–a–p–p–r–e–n–t–v–i–t–t–
+40 berecht cohort obed -> –b–e–r–e–c–h–t–c–o–h–o–r–t–o–b–e–d–
+41 mutex biais pandemia -> –m–u–t–e–x–b–i–a–i–s–p–a–n–d–e–m–i–a–
+42 prov manner dock -> –p–r–o–v–m–a–n–n–e–r–d–o–c–k–
+43 fertigt chois fraction -> –f–e–r–t–i–g–t–c–h–o–i–s–f–r–a–c–t–i–o–n–
+44 choose migrate dramatic -> –c–h–o–o–s–e–m–i–g–r–a–t–e–d–r–a–m–a–t–i–c–
+45 burn paying clamp -> –b–u–r–n–p–a–y–i–n–g–c–l–a–m–p–
+46 paces kemudian chats -> –p–a–c–e–s–k–e–m–u–d–i–a–n–c–h–a–t–s–
+47 ulis laug velvet -> –u–l–i–s–l–a–u–g–v–e–l–v–e–t–
+48 maal ok intercal -> –m–a–a–l–o–k–i–n–t–e–r–c–a–l–
+49 omed gu indul -> –o–m–e–d–g–u–i–n–d–u–l–
+50 good spl sede -> –g–o–o–d–s–p–l–s–e–d–e–
+51 asan deklar pone -> –a–s–a–n–d–e–k–l–a–r–p–o–n–e–
+52 oby causar injured -> –o–b–y–c–a–u–s–a–r–i–n–j–u–r–e–d–
+53 bbi inverno these -> –b–b–i–i–n–v–e–r–n–o–t–h–e–s–e–
+54 ancies fructose pernah -> –a–n–c–i–e–s–f–r–u–c–t–o–s–e–p–e–r–n–a–h–
+55 mesine hain pojawi -> –m–e–s–i–n–e–h–a–i–n–p–o–j–a–w–i–
+56 tsk hyd ingl -> –t–s–k–h–y–d–i–n–g–l–
+57 atori erased konci -> –a–t–o–r–i–e–r–a–s–e–d–k–o–n–c–i–
+58 ijer counter switches -> –i–j–e–r–c–o–u–n–t–e–r–s–w–i–t–c–h–e–s–
+59 icals annat meest -> –i–c–a–l–s–a–n–n–a–t–m–e–e–s–t–
+60 cone industri mudah -> –c–o–n–e–i–n–d–u–s–t–r–i–m–u–d–a–h–
+61 score venta kroz -> –s–c–o–r–e–v–e–n–t–a–k–r–o–z–
+62 abi lone fleur -> –a–b–i–l–o–n–e–f–l–e–u–r–
+63 erez besar artific -> –e–r–e–z–b–e–s–a–r–a–r–t–i–f–i–c–
+64 flip welcome monarchy -> –f–l–i–p–w–e–l–c–o–m–e–m–o–n–a–r–c–h–y–
+65 akia doubt charcoal -> –a–k–i–a–d–o–u–b–t–c–h–a–r–c–o–a–l–
+66 gate explique reflet -> –g–a–t–e–e–x–p–l–i–q–u–e–r–e–f–l–e–t–
+67 criptive expon happen -> –c–r–i–p–t–i–v–e–e–x–p–o–n–h–a–p–p–e–n–
+68 thor flags rocking -> –t–h–o–r–f–l–a–g–s–r–o–c–k–i–n–g–
+69 adikan zuletzt inhab -> –a–d–i–k–a–n–z–u–l–e–t–z–t–i–n–h–a–b–
+70 fus courir ukrain -> –f–u–s–c–o–u–r–i–r–u–k–r–a–i–n–
+71 ropol ras health -> –r–o–p–o–l–r–a–s–h–e–a–l–t–h–
+72 weets diputado ofrec -> –w–e–e–t–s–d–i–p–u–t–a–d–o–o–f–r–e–c–
+73 odied world edu -> –o–d–i–e–d–w–o–r–l–d–e–d–u–
+74 uning dirig elektro -> –u–n–i–n–g–d–i–r–i–g–e–l–e–k–t–r–o–
+75 os scramb logical -> –o–s–s–c–r–a–m–b–l–o–g–i–c–a–l–
+76 rops nale pellets -> –r–o–p–s–n–a–l–e–p–e–l–l–e–t–s–
+77 usahaan cooler journal -> –u–s–a–h–a–a–n–c–o–o–l–e–r–j–o–u–r–n–a–l–
+78 lig assort guarded -> –l–i–g–a–s–s–o–r–t–g–u–a–r–d–e–d–
+79 ianz teoria abdomen -> –i–a–n–z–t–e–o–r–i–a–a–b–d–o–m–e–n–
+80 oresis laten servant -> –o–r–e–s–i–s–l–a–t–e–n–s–e–r–v–a–n–t–
+81 ir pilots unst -> –i–r–p–i–l–o–t–s–u–n–s–t–
+82 embles nooit morgen -> –e–m–b–l–e–s–n–o–o–i–t–m–o–r–g–e–n–
+83 pool sans kerk -> –p–o–o–l–s–a–n–s–k–e–r–k–
+84 endu laik conjug -> –e–n–d–u–l–a–i–k–c–o–n–j–u–g–
+85 ishop fixing whip -> –i–s–h–o–p–f–i–x–i–n–g–w–h–i–p–
+86 omotive reunited rozd -> –o–m–o–t–i–v–e–r–e–u–n–i–t–e–d–r–o–z–d–
+87 tot letoun jotka -> –t–o–t–l–e–t–o–u–n–j–o–t–k–a–
+88 lew anionic criar -> –l–e–w–a–n–i–o–n–i–c–c–r–i–a–r–
+89 pra act precip -> –p–r–a–a–c–t–p–r–e–c–i–p–
+90 tep spacious llamar -> –t–e–p–s–p–a–c–i–o–u–s–l–l–a–m–a–r–
+91 ree koncept talking -> –r–e–e–k–o–n–c–e–p–t–t–a–l–k–i–n–g–
+92 ribute jas inflex -> –r–i–b–u–t–e–j–a–s–i–n–f–l–e–x–
+93 capital nal its -> –c–a–p–i–t–a–l–n–a–l–i–t–s–
+94 ize aloud abond -> –i–z–e–a–l–o–u–d–a–b–o–n–d–
+95 ronto hasn having -> –r–o–n–t–o–h–a–s–n–h–a–v–i–n–g–
+96 ignant montrer remov -> –i–g–n–a–n–t–m–o–n–t–r–e–r–r–e–m–o–v–
+97 earched bom stimuli -> –e–a–r–c–h–e–d–b–o–m–s–t–i–m–u–l–i–
+98 ragung reformed rush -> –r–a–g–u–n–g–r–e–f–o–r–m–e–d–r–u–s–h–
+99 olella measures newly -> –o–l–e–l–l–a–m–e–a–s–u–r–e–s–n–e–w–l–y–

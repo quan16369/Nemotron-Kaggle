@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 resolve hypoxia wired
+01 ysku rector febrero
+02 ostic amen amet
+
+This is a sample output.
+00 resolve hypoxia wired -> –r–e–s–o–l–v–e–h–y–p–o–x–i–a–w–i–r–e–d–
+01 ysku rector febrero -> –y–s–k–u–r–e–c–t–o–r–f–e–b–r–e–r–o–
+02 ostic amen amet -> –o–s–t–i–c–a–m–e–n–a–m–e–t–
+
+This is your input.
+00 trm arm finestra
+01 okuv tires nuestras
+02 phal rebound lat
+03 rically uncont countr
+04 illement parac tempted
+05 ou marr darg
+06 ifs fle suo
+07 lys vedere voltak
+08 grass cuenca blown
+09 acios brief triangle
+10 uve glitter bol
+11 edited pulp kob
+12 ahy tanc desk
+13 are btn noord
+14 emain scopre nostrils
+15 jad malo ascenso
+16 said welche scritto
+17 okie amateur bahawa
+18 agini dej poss
+19 redis slechts micro
+20 agu keg parl
+21 flex verseny rabbit
+22 fra erad peek
+23 ah physic inverted
+24 czes ship chunk
+25 patient cute retire
+26 chaient polo granite
+27 asa zouden letzte
+28 emento preocup begonnen
+29 iiv serine partir
+30 jela gdje were
+31 sprechen pancreas porque
+32 role allein termos
+33 akon blocking ceremon
+34 kte coordon monet
+35 egin rege savage
+36 anan pedestal racist
+37 etc jur scri
+38 lox blond sklad
+39 irre bull februari
+40 ivament amm cuivre
+41 astolic sporadic lore
+42 ewel boys carreras
+43 ocio defined pote
+44 varez viewing peptides
+45 phase talvez neutral
+46 ractor toate amelynek
+47 ouille confirme melted
+48 ilor darab fifteen
+49 riak bath agglomer
+50 pletion moderno chancel
+51 oires quay soix
+52 ollo gastr steh
+53 yarakat people edge
+54 iki devenit mev
+55 chas hib turne
+56 baan eran exhibits
+57 unque filtr rounds
+58 riche obiekt offering
+59 alam assimil gala
+60 attia offer ek
+61 rtl corrug calcular
+62 rances komun lorsque
+63 alent candle generar
+64 ding prophecy kond
+65 pris lysates vorn
+66 lerin mighty tw
+67 ork neat dom
+68 itts barracks ence
+69 hydro trump played
+70 fos tarde otvor
+71 inputs girls remont
+72 ording app page
+73 qui famiglie surge
+74 valo sn hav
+75 uden baseline expelled
+76 urally harmadik abuse
+77 yzer ranked flame
+78 cov puestos tomorrow
+79 offset problems prata
+80 lookup sebagian regj
+81 yin fever alcan
+82 ilingan aplica ezer
+83 htm clases neutroph
+84 ulp oficer reload
+85 annel moh atau
+86 eret routine baza
+87 hait altura tur
+88 rocyte how gyer
+89 ilot calme material
+90 icycle maailman limit
+91 erais trai avea
+92 leid wid alarm
+93 router noticing streets
+94 edores essi pilota
+95 weeney banned regina
+96 ingos stadig bin
+97 ifers cosa meurt
+98 iky twitch miatt
+99 la fairly milag
+[completion]
+00 trm arm finestra -> –t–r–m–a–r–m–f–i–n–e–s–t–r–a–
+01 okuv tires nuestras -> –o–k–u–v–t–i–r–e–s–n–u–e–s–t–r–a–s–
+02 phal rebound lat -> –p–h–a–l–r–e–b–o–u–n–d–l–a–t–
+03 rically uncont countr -> –r–i–c–a–l–l–y–u–n–c–o–n–t–c–o–u–n–t–r–
+04 illement parac tempted -> –i–l–l–e–m–e–n–t–p–a–r–a–c–t–e–m–p–t–e–d–
+05 ou marr darg -> –o–u–m–a–r–r–d–a–r–g–
+06 ifs fle suo -> –i–f–s–f–l–e–s–u–o–
+07 lys vedere voltak -> –l–y–s–v–e–d–e–r–e–v–o–l–t–a–k–
+08 grass cuenca blown -> –g–r–a–s–s–c–u–e–n–c–a–b–l–o–w–n–
+09 acios brief triangle -> –a–c–i–o–s–b–r–i–e–f–t–r–i–a–n–g–l–e–
+10 uve glitter bol -> –u–v–e–g–l–i–t–t–e–r–b–o–l–
+11 edited pulp kob -> –e–d–i–t–e–d–p–u–l–p–k–o–b–
+12 ahy tanc desk -> –a–h–y–t–a–n–c–d–e–s–k–
+13 are btn noord -> –a–r–e–b–t–n–n–o–o–r–d–
+14 emain scopre nostrils -> –e–m–a–i–n–s–c–o–p–r–e–n–o–s–t–r–i–l–s–
+15 jad malo ascenso -> –j–a–d–m–a–l–o–a–s–c–e–n–s–o–
+16 said welche scritto -> –s–a–i–d–w–e–l–c–h–e–s–c–r–i–t–t–o–
+17 okie amateur bahawa -> –o–k–i–e–a–m–a–t–e–u–r–b–a–h–a–w–a–
+18 agini dej poss -> –a–g–i–n–i–d–e–j–p–o–s–s–
+19 redis slechts micro -> –r–e–d–i–s–s–l–e–c–h–t–s–m–i–c–r–o–
+20 agu keg parl -> –a–g–u–k–e–g–p–a–r–l–
+21 flex verseny rabbit -> –f–l–e–x–v–e–r–s–e–n–y–r–a–b–b–i–t–
+22 fra erad peek -> –f–r–a–e–r–a–d–p–e–e–k–
+23 ah physic inverted -> –a–h–p–h–y–s–i–c–i–n–v–e–r–t–e–d–
+24 czes ship chunk -> –c–z–e–s–s–h–i–p–c–h–u–n–k–
+25 patient cute retire -> –p–a–t–i–e–n–t–c–u–t–e–r–e–t–i–r–e–
+26 chaient polo granite -> –c–h–a–i–e–n–t–p–o–l–o–g–r–a–n–i–t–e–
+27 asa zouden letzte -> –a–s–a–z–o–u–d–e–n–l–e–t–z–t–e–
+28 emento preocup begonnen -> –e–m–e–n–t–o–p–r–e–o–c–u–p–b–e–g–o–n–n–e–n–
+29 iiv serine partir -> –i–i–v–s–e–r–i–n–e–p–a–r–t–i–r–
+30 jela gdje were -> –j–e–l–a–g–d–j–e–w–e–r–e–
+31 sprechen pancreas porque -> –s–p–r–e–c–h–e–n–p–a–n–c–r–e–a–s–p–o–r–q–u–e–
+32 role allein termos -> –r–o–l–e–a–l–l–e–i–n–t–e–r–m–o–s–
+33 akon blocking ceremon -> –a–k–o–n–b–l–o–c–k–i–n–g–c–e–r–e–m–o–n–
+34 kte coordon monet -> –k–t–e–c–o–o–r–d–o–n–m–o–n–e–t–
+35 egin rege savage -> –e–g–i–n–r–e–g–e–s–a–v–a–g–e–
+36 anan pedestal racist -> –a–n–a–n–p–e–d–e–s–t–a–l–r–a–c–i–s–t–
+37 etc jur scri -> –e–t–c–j–u–r–s–c–r–i–
+38 lox blond sklad -> –l–o–x–b–l–o–n–d–s–k–l–a–d–
+39 irre bull februari -> –i–r–r–e–b–u–l–l–f–e–b–r–u–a–r–i–
+40 ivament amm cuivre -> –i–v–a–m–e–n–t–a–m–m–c–u–i–v–r–e–
+41 astolic sporadic lore -> –a–s–t–o–l–i–c–s–p–o–r–a–d–i–c–l–o–r–e–
+42 ewel boys carreras -> –e–w–e–l–b–o–y–s–c–a–r–r–e–r–a–s–
+43 ocio defined pote -> –o–c–i–o–d–e–f–i–n–e–d–p–o–t–e–
+44 varez viewing peptides -> –v–a–r–e–z–v–i–e–w–i–n–g–p–e–p–t–i–d–e–s–
+45 phase talvez neutral -> –p–h–a–s–e–t–a–l–v–e–z–n–e–u–t–r–a–l–
+46 ractor toate amelynek -> –r–a–c–t–o–r–t–o–a–t–e–a–m–e–l–y–n–e–k–
+47 ouille confirme melted -> –o–u–i–l–l–e–c–o–n–f–i–r–m–e–m–e–l–t–e–d–
+48 ilor darab fifteen -> –i–l–o–r–d–a–r–a–b–f–i–f–t–e–e–n–
+49 riak bath agglomer -> –r–i–a–k–b–a–t–h–a–g–g–l–o–m–e–r–
+50 pletion moderno chancel -> –p–l–e–t–i–o–n–m–o–d–e–r–n–o–c–h–a–n–c–e–l–
+51 oires quay soix -> –o–i–r–e–s–q–u–a–y–s–o–i–x–
+52 ollo gastr steh -> –o–l–l–o–g–a–s–t–r–s–t–e–h–
+53 yarakat people edge -> –y–a–r–a–k–a–t–p–e–o–p–l–e–e–d–g–e–
+54 iki devenit mev -> –i–k–i–d–e–v–e–n–i–t–m–e–v–
+55 chas hib turne -> –c–h–a–s–h–i–b–t–u–r–n–e–
+56 baan eran exhibits -> –b–a–a–n–e–r–a–n–e–x–h–i–b–i–t–s–
+57 unque filtr rounds -> –u–n–q–u–e–f–i–l–t–r–r–o–u–n–d–s–
+58 riche obiekt offering -> –r–i–c–h–e–o–b–i–e–k–t–o–f–f–e–r–i–n–g–
+59 alam assimil gala -> –a–l–a–m–a–s–s–i–m–i–l–g–a–l–a–
+60 attia offer ek -> –a–t–t–i–a–o–f–f–e–r–e–k–
+61 rtl corrug calcular -> –r–t–l–c–o–r–r–u–g–c–a–l–c–u–l–a–r–
+62 rances komun lorsque -> –r–a–n–c–e–s–k–o–m–u–n–l–o–r–s–q–u–e–
+63 alent candle generar -> –a–l–e–n–t–c–a–n–d–l–e–g–e–n–e–r–a–r–
+64 ding prophecy kond -> –d–i–n–g–p–r–o–p–h–e–c–y–k–o–n–d–
+65 pris lysates vorn -> –p–r–i–s–l–y–s–a–t–e–s–v–o–r–n–
+66 lerin mighty tw -> –l–e–r–i–n–m–i–g–h–t–y–t–w–
+67 ork neat dom -> –o–r–k–n–e–a–t–d–o–m–
+68 itts barracks ence -> –i–t–t–s–b–a–r–r–a–c–k–s–e–n–c–e–
+69 hydro trump played -> –h–y–d–r–o–t–r–u–m–p–p–l–a–y–e–d–
+70 fos tarde otvor -> –f–o–s–t–a–r–d–e–o–t–v–o–r–
+71 inputs girls remont -> –i–n–p–u–t–s–g–i–r–l–s–r–e–m–o–n–t–
+72 ording app page -> –o–r–d–i–n–g–a–p–p–p–a–g–e–
+73 qui famiglie surge -> –q–u–i–f–a–m–i–g–l–i–e–s–u–r–g–e–
+74 valo sn hav -> –v–a–l–o–s–n–h–a–v–
+75 uden baseline expelled -> –u–d–e–n–b–a–s–e–l–i–n–e–e–x–p–e–l–l–e–d–
+76 urally harmadik abuse -> –u–r–a–l–l–y–h–a–r–m–a–d–i–k–a–b–u–s–e–
+77 yzer ranked flame -> –y–z–e–r–r–a–n–k–e–d–f–l–a–m–e–
+78 cov puestos tomorrow -> –c–o–v–p–u–e–s–t–o–s–t–o–m–o–r–r–o–w–
+79 offset problems prata -> –o–f–f–s–e–t–p–r–o–b–l–e–m–s–p–r–a–t–a–
+80 lookup sebagian regj -> –l–o–o–k–u–p–s–e–b–a–g–i–a–n–r–e–g–j–
+81 yin fever alcan -> –y–i–n–f–e–v–e–r–a–l–c–a–n–
+82 ilingan aplica ezer -> –i–l–i–n–g–a–n–a–p–l–i–c–a–e–z–e–r–
+83 htm clases neutroph -> –h–t–m–c–l–a–s–e–s–n–e–u–t–r–o–p–h–
+84 ulp oficer reload -> –u–l–p–o–f–i–c–e–r–r–e–l–o–a–d–
+85 annel moh atau -> –a–n–n–e–l–m–o–h–a–t–a–u–
+86 eret routine baza -> –e–r–e–t–r–o–u–t–i–n–e–b–a–z–a–
+87 hait altura tur -> –h–a–i–t–a–l–t–u–r–a–t–u–r–
+88 rocyte how gyer -> –r–o–c–y–t–e–h–o–w–g–y–e–r–
+89 ilot calme material -> –i–l–o–t–c–a–l–m–e–m–a–t–e–r–i–a–l–
+90 icycle maailman limit -> –i–c–y–c–l–e–m–a–a–i–l–m–a–n–l–i–m–i–t–
+91 erais trai avea -> –e–r–a–i–s–t–r–a–i–a–v–e–a–
+92 leid wid alarm -> –l–e–i–d–w–i–d–a–l–a–r–m–
+93 router noticing streets -> –r–o–u–t–e–r–n–o–t–i–c–i–n–g–s–t–r–e–e–t–s–
+94 edores essi pilota -> –e–d–o–r–e–s–e–s–s–i–p–i–l–o–t–a–
+95 weeney banned regina -> –w–e–e–n–e–y–b–a–n–n–e–d–r–e–g–i–n–a–
+96 ingos stadig bin -> –i–n–g–o–s–s–t–a–d–i–g–b–i–n–
+97 ifers cosa meurt -> –i–f–e–r–s–c–o–s–a–m–e–u–r–t–
+98 iky twitch miatt -> –i–k–y–t–w–i–t–c–h–m–i–a–t–t–
+99 la fairly milag -> –l–a–f–a–i–r–l–y–m–i–l–a–g–

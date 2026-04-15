@@ -1,0 +1,49 @@
+problem id: 1a493b13
+category: cryptarithm_guess
+
+examples:
+1. `//+]] = @@`
+2. `$]+@% = :^`
+3. `^:+^} = %}:`
+4. `%]+"/ = >@`
+5. `%^*/] = $^:`
+
+inferred rule:
+Treat each expression as a left 2-symbol number, a middle operator, and a right 2-symbol number.
+
+The four `+` examples fit ordinary addition very cleanly, and together they force a unique digit map:
+
+- `//+]] = @@` gives `22 + 44 = 66`, so `/ = 2`, `] = 4`, `@ = 6`.
+- `$]+@% = :^` then becomes `34 + 61 = 95`, so `$ = 3`, `% = 1`, `: = 9`, `^ = 5`.
+- `^:+^} = %}:` becomes `59 + 50 = 109`, so `} = 0`.
+- `%]+"/ = >@` becomes `14 + 72 = 86`, so `" = 7`, `> = 8`.
+
+That yields the full symbol-to-digit assignment used by the `+` family:
+
+- `% = 1`
+- `/ = 2`
+- `$ = 3`
+- `] = 4`
+- `^ = 5`
+- `@ = 6`
+- `" = 7`
+- `> = 8`
+- `: = 9`
+- `} = 0`
+
+The lone `*` example, `%^*/] = $^:`, does not fit ordinary multiplication under this same map, so it appears to belong to a separate operator-specific rule family and is not needed for the query. Since the query uses the unseen `-` operator, the most natural continuation is to keep the same digit map and read `-` as ordinary subtraction.
+
+step-by-step application to the query:
+Query: `@^-@:`
+
+1. Decode the left chunk `@^` as `65`.
+2. Decode the right chunk `@:` as `69`.
+3. Apply ordinary subtraction: `65 - 69 = -4`.
+4. Re-encode the magnitude `4` with the learned map: `4 -> ]`.
+5. Keep the minus sign as a literal leading sign.
+
+predicted answer:
+`-]`
+
+confidence note:
+Moderate. The `+` examples pin down the digit map very tightly, but the `-` operator itself never appears in the examples, so the final subtraction step is still an extrapolation. It is, however, the cleanest and most natural completion of the operator set.

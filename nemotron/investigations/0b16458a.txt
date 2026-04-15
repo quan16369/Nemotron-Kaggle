@@ -1,0 +1,50 @@
+problem id: 0b16458a
+category: bit_manipulation
+
+examples:
+- 00111001 -> 10000001
+- 01100111 -> 00111000
+- 11010111 -> 00111010
+- 00010100 -> 00000000
+- 11110100 -> 00000110
+- 00010001 -> 00000000
+- 01010000 -> 00000010
+- 10011001 -> 10010000
+- 00111100 -> 11000001
+- query: 10001110
+
+inferred rule:
+- Let `A = (x << 4) & 11111111`.
+- Let `B = x >> 3`.
+- Let `C = rol(x, 3)`, the 8-bit input rotated left by 3 positions.
+- The output is the bitwise majority of `A`, `B`, and `C`:
+  `output = maj(A, B, C) = (A & B) | (A & C) | (B & C)`.
+- In other words, each output bit is `1` exactly when at least two of those three derived values have a `1` in that position.
+
+why this rule fits the examples:
+- `00111001`: `A = 10010000`, `B = 00000111`, `C = 11001001`. The overlapping `1` bits give `10000001`, matching the example.
+- `01100111`: `A = 01110000`, `B = 00001100`, `C = 00111011`. Taking the majority bit by bit gives `00111000`, which matches.
+- `11110100`: `A = 01000000`, `B = 00011110`, `C = 10100111`. The shared `1` bits are `00000110`, matching exactly.
+- `00111100`: `A = 11000000`, `B = 00000111`, `C = 11100001`. The majority result is `11000001`, again matching.
+- Running the same computation on all nine training examples reproduces every output exactly.
+
+step-by-step application to the query:
+1. Start with `x = 10001110`.
+2. Shift left by 4 and keep 8 bits:
+   `A = (x << 4) & 11111111 = 11100000`.
+3. Shift right by 3:
+   `B = x >> 3 = 00010001`.
+4. Rotate left by 3:
+   `C = rol(x, 3) = 01110100`.
+5. Compute the pairwise overlaps:
+   `A & B = 00000000`
+   `A & C = 01100000`
+   `B & C = 00010000`
+6. OR those overlaps together:
+   `00000000 | 01100000 | 00010000 = 01110000`.
+
+predicted answer:
+- 01110000
+
+confidence note:
+- High confidence. The majority rule is compact, uses only standard operations named in the prompt, and matches every provided example exactly.

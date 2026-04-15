@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 onte discut startup
+01 oks dating welcome
+02 sy nahm primaire
+
+This is a sample output.
+00 onte discut startup -> –o–n–t–e–d–i–s–c–u–t–s–t–a–r–t–u–p–
+01 oks dating welcome -> –o–k–s–d–a–t–i–n–g–w–e–l–c–o–m–e–
+02 sy nahm primaire -> –s–y–n–a–h–m–p–r–i–m–a–i–r–e–
+
+This is your input.
+00 sqrt giro breton
+01 redux disent spring
+02 cipline annivers mention
+03 bl cone did
+04 iteiten geplant crime
+05 achim noisy motto
+06 werking apont telle
+07 vic must servizio
+08 rence cij pg
+09 virt mentally amplit
+10 ella teniendo podstaw
+11 ration subi grens
+12 azu stoichi dizendo
+13 achten gled sculpt
+14 kata zo landed
+15 aniu empieza milliers
+16 querque piccoli quadru
+17 rypto uter competit
+18 qua missing rosyj
+19 ihad romp madre
+20 svg ballot bacter
+21 upt toque hidro
+22 isiones fixture peste
+23 lub pire from
+24 oki wollen afford
+25 oppy fists stuff
+26 qd acc basket
+27 apan rendel gezeigt
+28 idem blan dobro
+29 encia tossed remer
+30 patrick pistas biz
+31 olus perf cites
+32 itor please republ
+33 inosa butt spielte
+34 inement phon sink
+35 pectives overlaps vivant
+36 warn witness ramen
+37 iciones formule selama
+38 erv terus utama
+39 terne draft meci
+40 rement chag vols
+41 rection oro isomers
+42 bled percept soi
+43 fam voluntad reconna
+44 larini chains jette
+45 orphous guessing autori
+46 gatherer pacing teren
+47 rables degrad dart
+48 apple riz sahiptir
+49 inar neige liquor
+50 ilvania biasa alent
+51 imp another descub
+52 bits circuits sian
+53 ities tandem boot
+54 musiker pthread clade
+55 raltar respons demandes
+56 ustomer bile booth
+57 versal time polity
+58 istance passport gada
+59 rump flirt cohes
+60 eak olev valamint
+61 ependant writers params
+62 iversary sentire yn
+63 ugas reset lactate
+64 compile thanh apply
+65 neas sadece broy
+66 rum tertentu allowed
+67 astra gir bon
+68 zyma marches manufact
+69 ured olan microm
+70 ildir passou hunter
+71 ater moments foam
+72 ouluku alle sober
+73 ocyan adoption tradic
+74 izmu vulner kies
+75 enn pomer vorbe
+76 arras kej novelty
+77 okal abil locale
+78 oya narc electron
+79 rocarril focusing mehreren
+80 het opportun aast
+81 entries mot enga
+82 yield solista suscept
+83 wid genome schn
+84 flies volc origins
+85 presa pisc europeos
+86 itus strands canton
+87 fasst desa covered
+88 icos hi formal
+89 gae blink skept
+90 boldmath enh pane
+91 ofib spomen relie
+92 ates tono doctrina
+93 resh vojska turns
+94 chedule isso eingeg
+95 atted machen bal
+96 amel okolic riot
+97 latest recrut meses
+98 ffiche kung rotary
+99 lemental superim hoje
+[completion]
+00 sqrt giro breton -> –s–q–r–t–g–i–r–o–b–r–e–t–o–n–
+01 redux disent spring -> –r–e–d–u–x–d–i–s–e–n–t–s–p–r–i–n–g–
+02 cipline annivers mention -> –c–i–p–l–i–n–e–a–n–n–i–v–e–r–s–m–e–n–t–i–o–n–
+03 bl cone did -> –b–l–c–o–n–e–d–i–d–
+04 iteiten geplant crime -> –i–t–e–i–t–e–n–g–e–p–l–a–n–t–c–r–i–m–e–
+05 achim noisy motto -> –a–c–h–i–m–n–o–i–s–y–m–o–t–t–o–
+06 werking apont telle -> –w–e–r–k–i–n–g–a–p–o–n–t–t–e–l–l–e–
+07 vic must servizio -> –v–i–c–m–u–s–t–s–e–r–v–i–z–i–o–
+08 rence cij pg -> –r–e–n–c–e–c–i–j–p–g–
+09 virt mentally amplit -> –v–i–r–t–m–e–n–t–a–l–l–y–a–m–p–l–i–t–
+10 ella teniendo podstaw -> –e–l–l–a–t–e–n–i–e–n–d–o–p–o–d–s–t–a–w–
+11 ration subi grens -> –r–a–t–i–o–n–s–u–b–i–g–r–e–n–s–
+12 azu stoichi dizendo -> –a–z–u–s–t–o–i–c–h–i–d–i–z–e–n–d–o–
+13 achten gled sculpt -> –a–c–h–t–e–n–g–l–e–d–s–c–u–l–p–t–
+14 kata zo landed -> –k–a–t–a–z–o–l–a–n–d–e–d–
+15 aniu empieza milliers -> –a–n–i–u–e–m–p–i–e–z–a–m–i–l–l–i–e–r–s–
+16 querque piccoli quadru -> –q–u–e–r–q–u–e–p–i–c–c–o–l–i–q–u–a–d–r–u–
+17 rypto uter competit -> –r–y–p–t–o–u–t–e–r–c–o–m–p–e–t–i–t–
+18 qua missing rosyj -> –q–u–a–m–i–s–s–i–n–g–r–o–s–y–j–
+19 ihad romp madre -> –i–h–a–d–r–o–m–p–m–a–d–r–e–
+20 svg ballot bacter -> –s–v–g–b–a–l–l–o–t–b–a–c–t–e–r–
+21 upt toque hidro -> –u–p–t–t–o–q–u–e–h–i–d–r–o–
+22 isiones fixture peste -> –i–s–i–o–n–e–s–f–i–x–t–u–r–e–p–e–s–t–e–
+23 lub pire from -> –l–u–b–p–i–r–e–f–r–o–m–
+24 oki wollen afford -> –o–k–i–w–o–l–l–e–n–a–f–f–o–r–d–
+25 oppy fists stuff -> –o–p–p–y–f–i–s–t–s–s–t–u–f–f–
+26 qd acc basket -> –q–d–a–c–c–b–a–s–k–e–t–
+27 apan rendel gezeigt -> –a–p–a–n–r–e–n–d–e–l–g–e–z–e–i–g–t–
+28 idem blan dobro -> –i–d–e–m–b–l–a–n–d–o–b–r–o–
+29 encia tossed remer -> –e–n–c–i–a–t–o–s–s–e–d–r–e–m–e–r–
+30 patrick pistas biz -> –p–a–t–r–i–c–k–p–i–s–t–a–s–b–i–z–
+31 olus perf cites -> –o–l–u–s–p–e–r–f–c–i–t–e–s–
+32 itor please republ -> –i–t–o–r–p–l–e–a–s–e–r–e–p–u–b–l–
+33 inosa butt spielte -> –i–n–o–s–a–b–u–t–t–s–p–i–e–l–t–e–
+34 inement phon sink -> –i–n–e–m–e–n–t–p–h–o–n–s–i–n–k–
+35 pectives overlaps vivant -> –p–e–c–t–i–v–e–s–o–v–e–r–l–a–p–s–v–i–v–a–n–t–
+36 warn witness ramen -> –w–a–r–n–w–i–t–n–e–s–s–r–a–m–e–n–
+37 iciones formule selama -> –i–c–i–o–n–e–s–f–o–r–m–u–l–e–s–e–l–a–m–a–
+38 erv terus utama -> –e–r–v–t–e–r–u–s–u–t–a–m–a–
+39 terne draft meci -> –t–e–r–n–e–d–r–a–f–t–m–e–c–i–
+40 rement chag vols -> –r–e–m–e–n–t–c–h–a–g–v–o–l–s–
+41 rection oro isomers -> –r–e–c–t–i–o–n–o–r–o–i–s–o–m–e–r–s–
+42 bled percept soi -> –b–l–e–d–p–e–r–c–e–p–t–s–o–i–
+43 fam voluntad reconna -> –f–a–m–v–o–l–u–n–t–a–d–r–e–c–o–n–n–a–
+44 larini chains jette -> –l–a–r–i–n–i–c–h–a–i–n–s–j–e–t–t–e–
+45 orphous guessing autori -> –o–r–p–h–o–u–s–g–u–e–s–s–i–n–g–a–u–t–o–r–i–
+46 gatherer pacing teren -> –g–a–t–h–e–r–e–r–p–a–c–i–n–g–t–e–r–e–n–
+47 rables degrad dart -> –r–a–b–l–e–s–d–e–g–r–a–d–d–a–r–t–
+48 apple riz sahiptir -> –a–p–p–l–e–r–i–z–s–a–h–i–p–t–i–r–
+49 inar neige liquor -> –i–n–a–r–n–e–i–g–e–l–i–q–u–o–r–
+50 ilvania biasa alent -> –i–l–v–a–n–i–a–b–i–a–s–a–a–l–e–n–t–
+51 imp another descub -> –i–m–p–a–n–o–t–h–e–r–d–e–s–c–u–b–
+52 bits circuits sian -> –b–i–t–s–c–i–r–c–u–i–t–s–s–i–a–n–
+53 ities tandem boot -> –i–t–i–e–s–t–a–n–d–e–m–b–o–o–t–
+54 musiker pthread clade -> –m–u–s–i–k–e–r–p–t–h–r–e–a–d–c–l–a–d–e–
+55 raltar respons demandes -> –r–a–l–t–a–r–r–e–s–p–o–n–s–d–e–m–a–n–d–e–s–
+56 ustomer bile booth -> –u–s–t–o–m–e–r–b–i–l–e–b–o–o–t–h–
+57 versal time polity -> –v–e–r–s–a–l–t–i–m–e–p–o–l–i–t–y–
+58 istance passport gada -> –i–s–t–a–n–c–e–p–a–s–s–p–o–r–t–g–a–d–a–
+59 rump flirt cohes -> –r–u–m–p–f–l–i–r–t–c–o–h–e–s–
+60 eak olev valamint -> –e–a–k–o–l–e–v–v–a–l–a–m–i–n–t–
+61 ependant writers params -> –e–p–e–n–d–a–n–t–w–r–i–t–e–r–s–p–a–r–a–m–s–
+62 iversary sentire yn -> –i–v–e–r–s–a–r–y–s–e–n–t–i–r–e–y–n–
+63 ugas reset lactate -> –u–g–a–s–r–e–s–e–t–l–a–c–t–a–t–e–
+64 compile thanh apply -> –c–o–m–p–i–l–e–t–h–a–n–h–a–p–p–l–y–
+65 neas sadece broy -> –n–e–a–s–s–a–d–e–c–e–b–r–o–y–
+66 rum tertentu allowed -> –r–u–m–t–e–r–t–e–n–t–u–a–l–l–o–w–e–d–
+67 astra gir bon -> –a–s–t–r–a–g–i–r–b–o–n–
+68 zyma marches manufact -> –z–y–m–a–m–a–r–c–h–e–s–m–a–n–u–f–a–c–t–
+69 ured olan microm -> –u–r–e–d–o–l–a–n–m–i–c–r–o–m–
+70 ildir passou hunter -> –i–l–d–i–r–p–a–s–s–o–u–h–u–n–t–e–r–
+71 ater moments foam -> –a–t–e–r–m–o–m–e–n–t–s–f–o–a–m–
+72 ouluku alle sober -> –o–u–l–u–k–u–a–l–l–e–s–o–b–e–r–
+73 ocyan adoption tradic -> –o–c–y–a–n–a–d–o–p–t–i–o–n–t–r–a–d–i–c–
+74 izmu vulner kies -> –i–z–m–u–v–u–l–n–e–r–k–i–e–s–
+75 enn pomer vorbe -> –e–n–n–p–o–m–e–r–v–o–r–b–e–
+76 arras kej novelty -> –a–r–r–a–s–k–e–j–n–o–v–e–l–t–y–
+77 okal abil locale -> –o–k–a–l–a–b–i–l–l–o–c–a–l–e–
+78 oya narc electron -> –o–y–a–n–a–r–c–e–l–e–c–t–r–o–n–
+79 rocarril focusing mehreren -> –r–o–c–a–r–r–i–l–f–o–c–u–s–i–n–g–m–e–h–r–e–r–e–n–
+80 het opportun aast -> –h–e–t–o–p–p–o–r–t–u–n–a–a–s–t–
+81 entries mot enga -> –e–n–t–r–i–e–s–m–o–t–e–n–g–a–
+82 yield solista suscept -> –y–i–e–l–d–s–o–l–i–s–t–a–s–u–s–c–e–p–t–
+83 wid genome schn -> –w–i–d–g–e–n–o–m–e–s–c–h–n–
+84 flies volc origins -> –f–l–i–e–s–v–o–l–c–o–r–i–g–i–n–s–
+85 presa pisc europeos -> –p–r–e–s–a–p–i–s–c–e–u–r–o–p–e–o–s–
+86 itus strands canton -> –i–t–u–s–s–t–r–a–n–d–s–c–a–n–t–o–n–
+87 fasst desa covered -> –f–a–s–s–t–d–e–s–a–c–o–v–e–r–e–d–
+88 icos hi formal -> –i–c–o–s–h–i–f–o–r–m–a–l–
+89 gae blink skept -> –g–a–e–b–l–i–n–k–s–k–e–p–t–
+90 boldmath enh pane -> –b–o–l–d–m–a–t–h–e–n–h–p–a–n–e–
+91 ofib spomen relie -> –o–f–i–b–s–p–o–m–e–n–r–e–l–i–e–
+92 ates tono doctrina -> –a–t–e–s–t–o–n–o–d–o–c–t–r–i–n–a–
+93 resh vojska turns -> –r–e–s–h–v–o–j–s–k–a–t–u–r–n–s–
+94 chedule isso eingeg -> –c–h–e–d–u–l–e–i–s–s–o–e–i–n–g–e–g–
+95 atted machen bal -> –a–t–t–e–d–m–a–c–h–e–n–b–a–l–
+96 amel okolic riot -> –a–m–e–l–o–k–o–l–i–c–r–i–o–t–
+97 latest recrut meses -> –l–a–t–e–s–t–r–e–c–r–u–t–m–e–s–e–s–
+98 ffiche kung rotary -> –f–f–i–c–h–e–k–u–n–g–r–o–t–a–r–y–
+99 lemental superim hoje -> –l–e–m–e–n–t–a–l–s–u–p–e–r–i–m–h–o–j–e–

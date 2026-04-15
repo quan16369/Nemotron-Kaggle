@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 hood declines zie
+01 weets pista torneo
+02 weise compart minutes
+
+This is a sample output.
+00 hood declines zie -> –h–o–o–d–d–e–c–l–i–n–e–s–z–i–e–
+01 weets pista torneo -> –w–e–e–t–s–p–i–s–t–a–t–o–r–n–e–o–
+02 weise compart minutes -> –w–e–i–s–e–c–o–m–p–a–r–t–m–i–n–u–t–e–s–
+
+This is your input.
+00 ustain bezala base
+01 llen newline kako
+02 icester inev dificult
+03 itched stables quot
+04 omot trust collagen
+05 amil zuk yay
+06 emplates tagged pase
+07 viamente motoc niet
+08 nych fazia relig
+09 sc purpos huv
+10 crete chlorine sunshine
+11 socket attempt hemat
+12 camera geh asylum
+13 ilibre bef negocio
+14 ladi produs munt
+15 janjian completa tourists
+16 identes culturas sexta
+17 rime uzna suivi
+18 wrap charity indoors
+19 rev vari pertson
+20 venir attir promoter
+21 inie srpna bunk
+22 medi required pud
+23 otte somme retten
+24 ibile wise financ
+25 confirm pain hour
+26 ter binnen gib
+27 iskey preserve seating
+28 rodu affirme chansons
+29 session kontinu links
+30 finally encore ojos
+31 elijke effett guzt
+32 lay wyp neuf
+33 einander behav atoi
+34 ioj discrete climax
+35 rocess domu stile
+36 ranch faisant moieties
+37 rators besten zume
+38 essaging reproduc comunque
+39 ocier soap banlieue
+40 inos doprowad jah
+41 eleri checker via
+42 ponse estable polonais
+43 otional pronouns testing
+44 iance appareil enabled
+45 ijing xy bre
+46 unj tsunami zwanzig
+47 ineux stoch let
+48 posa habitats season
+49 ccions encodes pipes
+50 setup occas arty
+51 ojo satu mexicana
+52 riam unb giro
+53 owl breton disent
+54 sty spring annivers
+55 ciences mention cone
+56 cancel did geplant
+57 box crime noisy
+58 icolor motto apont
+59 niet telle must
+60 awi servizio cij
+61 office pg mentally
+62 resa amplit teniendo
+63 grenze podstaw subi
+64 types grens stoichi
+65 aktu dizendo gled
+66 kyt sculpt zo
+67 uszt landed empieza
+68 table milliers piccoli
+69 leine quadru uter
+70 riages competit missing
+71 zad rosyj romp
+72 assen madre ballot
+73 ronde bacter toque
+74 ety hidro fixture
+75 apped peste pire
+76 brain from wollen
+77 balle afford fists
+78 economic stuff acc
+79 comment basket rendel
+80 itors gezeigt blan
+81 rero dobro tossed
+82 halb remer pistas
+83 detail biz perf
+84 cible cites please
+85 filled republ butt
+86 iaire spielte phon
+87 adil sink overlaps
+88 tran vivant witness
+89 jobs ramen formule
+90 illy selama terus
+91 osin utama draft
+92 onim meci chag
+93 arshi vols oro
+94 ky isomers percept
+95 oute soi voluntad
+96 ucks reconna chains
+97 stration jette guessing
+98 uten autori pacing
+99 ureka teren degrad
+[completion]
+00 ustain bezala base -> –u–s–t–a–i–n–b–e–z–a–l–a–b–a–s–e–
+01 llen newline kako -> –l–l–e–n–n–e–w–l–i–n–e–k–a–k–o–
+02 icester inev dificult -> –i–c–e–s–t–e–r–i–n–e–v–d–i–f–i–c–u–l–t–
+03 itched stables quot -> –i–t–c–h–e–d–s–t–a–b–l–e–s–q–u–o–t–
+04 omot trust collagen -> –o–m–o–t–t–r–u–s–t–c–o–l–l–a–g–e–n–
+05 amil zuk yay -> –a–m–i–l–z–u–k–y–a–y–
+06 emplates tagged pase -> –e–m–p–l–a–t–e–s–t–a–g–g–e–d–p–a–s–e–
+07 viamente motoc niet -> –v–i–a–m–e–n–t–e–m–o–t–o–c–n–i–e–t–
+08 nych fazia relig -> –n–y–c–h–f–a–z–i–a–r–e–l–i–g–
+09 sc purpos huv -> –s–c–p–u–r–p–o–s–h–u–v–
+10 crete chlorine sunshine -> –c–r–e–t–e–c–h–l–o–r–i–n–e–s–u–n–s–h–i–n–e–
+11 socket attempt hemat -> –s–o–c–k–e–t–a–t–t–e–m–p–t–h–e–m–a–t–
+12 camera geh asylum -> –c–a–m–e–r–a–g–e–h–a–s–y–l–u–m–
+13 ilibre bef negocio -> –i–l–i–b–r–e–b–e–f–n–e–g–o–c–i–o–
+14 ladi produs munt -> –l–a–d–i–p–r–o–d–u–s–m–u–n–t–
+15 janjian completa tourists -> –j–a–n–j–i–a–n–c–o–m–p–l–e–t–a–t–o–u–r–i–s–t–s–
+16 identes culturas sexta -> –i–d–e–n–t–e–s–c–u–l–t–u–r–a–s–s–e–x–t–a–
+17 rime uzna suivi -> –r–i–m–e–u–z–n–a–s–u–i–v–i–
+18 wrap charity indoors -> –w–r–a–p–c–h–a–r–i–t–y–i–n–d–o–o–r–s–
+19 rev vari pertson -> –r–e–v–v–a–r–i–p–e–r–t–s–o–n–
+20 venir attir promoter -> –v–e–n–i–r–a–t–t–i–r–p–r–o–m–o–t–e–r–
+21 inie srpna bunk -> –i–n–i–e–s–r–p–n–a–b–u–n–k–
+22 medi required pud -> –m–e–d–i–r–e–q–u–i–r–e–d–p–u–d–
+23 otte somme retten -> –o–t–t–e–s–o–m–m–e–r–e–t–t–e–n–
+24 ibile wise financ -> –i–b–i–l–e–w–i–s–e–f–i–n–a–n–c–
+25 confirm pain hour -> –c–o–n–f–i–r–m–p–a–i–n–h–o–u–r–
+26 ter binnen gib -> –t–e–r–b–i–n–n–e–n–g–i–b–
+27 iskey preserve seating -> –i–s–k–e–y–p–r–e–s–e–r–v–e–s–e–a–t–i–n–g–
+28 rodu affirme chansons -> –r–o–d–u–a–f–f–i–r–m–e–c–h–a–n–s–o–n–s–
+29 session kontinu links -> –s–e–s–s–i–o–n–k–o–n–t–i–n–u–l–i–n–k–s–
+30 finally encore ojos -> –f–i–n–a–l–l–y–e–n–c–o–r–e–o–j–o–s–
+31 elijke effett guzt -> –e–l–i–j–k–e–e–f–f–e–t–t–g–u–z–t–
+32 lay wyp neuf -> –l–a–y–w–y–p–n–e–u–f–
+33 einander behav atoi -> –e–i–n–a–n–d–e–r–b–e–h–a–v–a–t–o–i–
+34 ioj discrete climax -> –i–o–j–d–i–s–c–r–e–t–e–c–l–i–m–a–x–
+35 rocess domu stile -> –r–o–c–e–s–s–d–o–m–u–s–t–i–l–e–
+36 ranch faisant moieties -> –r–a–n–c–h–f–a–i–s–a–n–t–m–o–i–e–t–i–e–s–
+37 rators besten zume -> –r–a–t–o–r–s–b–e–s–t–e–n–z–u–m–e–
+38 essaging reproduc comunque -> –e–s–s–a–g–i–n–g–r–e–p–r–o–d–u–c–c–o–m–u–n–q–u–e–
+39 ocier soap banlieue -> –o–c–i–e–r–s–o–a–p–b–a–n–l–i–e–u–e–
+40 inos doprowad jah -> –i–n–o–s–d–o–p–r–o–w–a–d–j–a–h–
+41 eleri checker via -> –e–l–e–r–i–c–h–e–c–k–e–r–v–i–a–
+42 ponse estable polonais -> –p–o–n–s–e–e–s–t–a–b–l–e–p–o–l–o–n–a–i–s–
+43 otional pronouns testing -> –o–t–i–o–n–a–l–p–r–o–n–o–u–n–s–t–e–s–t–i–n–g–
+44 iance appareil enabled -> –i–a–n–c–e–a–p–p–a–r–e–i–l–e–n–a–b–l–e–d–
+45 ijing xy bre -> –i–j–i–n–g–x–y–b–r–e–
+46 unj tsunami zwanzig -> –u–n–j–t–s–u–n–a–m–i–z–w–a–n–z–i–g–
+47 ineux stoch let -> –i–n–e–u–x–s–t–o–c–h–l–e–t–
+48 posa habitats season -> –p–o–s–a–h–a–b–i–t–a–t–s–s–e–a–s–o–n–
+49 ccions encodes pipes -> –c–c–i–o–n–s–e–n–c–o–d–e–s–p–i–p–e–s–
+50 setup occas arty -> –s–e–t–u–p–o–c–c–a–s–a–r–t–y–
+51 ojo satu mexicana -> –o–j–o–s–a–t–u–m–e–x–i–c–a–n–a–
+52 riam unb giro -> –r–i–a–m–u–n–b–g–i–r–o–
+53 owl breton disent -> –o–w–l–b–r–e–t–o–n–d–i–s–e–n–t–
+54 sty spring annivers -> –s–t–y–s–p–r–i–n–g–a–n–n–i–v–e–r–s–
+55 ciences mention cone -> –c–i–e–n–c–e–s–m–e–n–t–i–o–n–c–o–n–e–
+56 cancel did geplant -> –c–a–n–c–e–l–d–i–d–g–e–p–l–a–n–t–
+57 box crime noisy -> –b–o–x–c–r–i–m–e–n–o–i–s–y–
+58 icolor motto apont -> –i–c–o–l–o–r–m–o–t–t–o–a–p–o–n–t–
+59 niet telle must -> –n–i–e–t–t–e–l–l–e–m–u–s–t–
+60 awi servizio cij -> –a–w–i–s–e–r–v–i–z–i–o–c–i–j–
+61 office pg mentally -> –o–f–f–i–c–e–p–g–m–e–n–t–a–l–l–y–
+62 resa amplit teniendo -> –r–e–s–a–a–m–p–l–i–t–t–e–n–i–e–n–d–o–
+63 grenze podstaw subi -> –g–r–e–n–z–e–p–o–d–s–t–a–w–s–u–b–i–
+64 types grens stoichi -> –t–y–p–e–s–g–r–e–n–s–s–t–o–i–c–h–i–
+65 aktu dizendo gled -> –a–k–t–u–d–i–z–e–n–d–o–g–l–e–d–
+66 kyt sculpt zo -> –k–y–t–s–c–u–l–p–t–z–o–
+67 uszt landed empieza -> –u–s–z–t–l–a–n–d–e–d–e–m–p–i–e–z–a–
+68 table milliers piccoli -> –t–a–b–l–e–m–i–l–l–i–e–r–s–p–i–c–c–o–l–i–
+69 leine quadru uter -> –l–e–i–n–e–q–u–a–d–r–u–u–t–e–r–
+70 riages competit missing -> –r–i–a–g–e–s–c–o–m–p–e–t–i–t–m–i–s–s–i–n–g–
+71 zad rosyj romp -> –z–a–d–r–o–s–y–j–r–o–m–p–
+72 assen madre ballot -> –a–s–s–e–n–m–a–d–r–e–b–a–l–l–o–t–
+73 ronde bacter toque -> –r–o–n–d–e–b–a–c–t–e–r–t–o–q–u–e–
+74 ety hidro fixture -> –e–t–y–h–i–d–r–o–f–i–x–t–u–r–e–
+75 apped peste pire -> –a–p–p–e–d–p–e–s–t–e–p–i–r–e–
+76 brain from wollen -> –b–r–a–i–n–f–r–o–m–w–o–l–l–e–n–
+77 balle afford fists -> –b–a–l–l–e–a–f–f–o–r–d–f–i–s–t–s–
+78 economic stuff acc -> –e–c–o–n–o–m–i–c–s–t–u–f–f–a–c–c–
+79 comment basket rendel -> –c–o–m–m–e–n–t–b–a–s–k–e–t–r–e–n–d–e–l–
+80 itors gezeigt blan -> –i–t–o–r–s–g–e–z–e–i–g–t–b–l–a–n–
+81 rero dobro tossed -> –r–e–r–o–d–o–b–r–o–t–o–s–s–e–d–
+82 halb remer pistas -> –h–a–l–b–r–e–m–e–r–p–i–s–t–a–s–
+83 detail biz perf -> –d–e–t–a–i–l–b–i–z–p–e–r–f–
+84 cible cites please -> –c–i–b–l–e–c–i–t–e–s–p–l–e–a–s–e–
+85 filled republ butt -> –f–i–l–l–e–d–r–e–p–u–b–l–b–u–t–t–
+86 iaire spielte phon -> –i–a–i–r–e–s–p–i–e–l–t–e–p–h–o–n–
+87 adil sink overlaps -> –a–d–i–l–s–i–n–k–o–v–e–r–l–a–p–s–
+88 tran vivant witness -> –t–r–a–n–v–i–v–a–n–t–w–i–t–n–e–s–s–
+89 jobs ramen formule -> –j–o–b–s–r–a–m–e–n–f–o–r–m–u–l–e–
+90 illy selama terus -> –i–l–l–y–s–e–l–a–m–a–t–e–r–u–s–
+91 osin utama draft -> –o–s–i–n–u–t–a–m–a–d–r–a–f–t–
+92 onim meci chag -> –o–n–i–m–m–e–c–i–c–h–a–g–
+93 arshi vols oro -> –a–r–s–h–i–v–o–l–s–o–r–o–
+94 ky isomers percept -> –k–y–i–s–o–m–e–r–s–p–e–r–c–e–p–t–
+95 oute soi voluntad -> –o–u–t–e–s–o–i–v–o–l–u–n–t–a–d–
+96 ucks reconna chains -> –u–c–k–s–r–e–c–o–n–n–a–c–h–a–i–n–s–
+97 stration jette guessing -> –s–t–r–a–t–i–o–n–j–e–t–t–e–g–u–e–s–s–i–n–g–
+98 uten autori pacing -> –u–t–e–n–a–u–t–o–r–i–p–a–c–i–n–g–
+99 ureka teren degrad -> –u–r–e–k–a–t–e–r–e–n–d–e–g–r–a–d–

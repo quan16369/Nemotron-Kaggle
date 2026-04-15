@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 rochen institu ricevuto
+01 pard warming eclesi
+02 iblement hunting partisan
+
+This is a sample output.
+00 rochen institu ricevuto -> –r–o–c–h–e–n–i–n–s–t–i–t–u–r–i–c–e–v–u–t–o–
+01 pard warming eclesi -> –p–a–r–d–w–a–r–m–i–n–g–e–c–l–e–s–i–
+02 iblement hunting partisan -> –i–b–l–e–m–e–n–t–h–u–n–t–i–n–g–p–a–r–t–i–s–a–n–
+
+This is your input.
+00 minor nekaj lon
+01 beitet integra synthase
+02 qs argv deel
+03 ierro relat enroll
+04 oting dirigea prem
+05 property handic onafhank
+06 udz glue overse
+07 tap kai oblasti
+08 bide ischemia morph
+09 emper held fetching
+10 ayashi quem bash
+11 peat stu robe
+12 avana succ teas
+13 optera veure reliant
+14 view hechos boundary
+15 anderen stoletja advisor
+16 ijske moderna toluene
+17 azz stirred birds
+18 artzen mejor scaling
+19 otyping azon zawier
+20 kdir organ balance
+21 entiel bah verbal
+22 province cyclin frequent
+23 estro workshop suks
+24 ethod solcher acted
+25 perc volk establ
+26 geben indic extender
+27 centage vont elevado
+28 leges fusil show
+29 niej parishes luar
+30 erve richness gif
+31 late replica set
+32 heses leaks daarop
+33 means enorme herrsch
+34 andes diffus dilution
+35 daki beta teorema
+36 daf clang teljesen
+37 bass dipole rassembl
+38 odio pousser contente
+39 cdots fibrosis dode
+40 imin denunci biomass
+41 ologe acordo partager
+42 ociate diamonds mir
+43 pira bacteri repe
+44 herrsch strateg garant
+45 ovic nieuwe verme
+46 named text rob
+47 debug osasun theta
+48 electron docking novembro
+49 rod dispar playlist
+50 ingleton sechs hepat
+51 ariat kuul biograf
+52 held tonic astronom
+53 ennis echoes erabil
+54 tienne supply mensajes
+55 aire accep brigade
+56 ewish torp brighter
+57 riffe dicho bizarre
+58 roh donation conduc
+59 assuming terminar autobi
+60 ursors cip ryw
+61 docs carrier splic
+62 lia hub semi
+63 inist naquele secs
+64 ponde reed crushed
+65 alho vista sangue
+66 lerden wz afges
+67 ibald tranqu adi
+68 lessly bestand boshqa
+69 entities escapes typedef
+70 ydia crept barok
+71 ritt keadaan dere
+72 atina wol eta
+73 push caste coche
+74 ligini allo chamada
+75 unii parvenir heels
+76 mans spowod boek
+77 irano steadily month
+78 cence blo finans
+79 esto freund omission
+80 xide display processo
+81 ursive fer touch
+82 eres inevit combate
+83 aisen inakt theaters
+84 eth xl mass
+85 verk peasants joukkue
+86 aimana identify kerja
+87 manie tatt flavour
+88 redicate wrist tanul
+89 ceiving anything lad
+90 itude unwanted nip
+91 standers dones kojih
+92 pil gown albeit
+93 sever ramo adoles
+94 urer sculp collects
+95 ouses angle private
+96 ragen husbands birtok
+97 ix wobei myelin
+98 opic somehow foarte
+99 ritten aqueles ileg
+[completion]
+00 minor nekaj lon -> –m–i–n–o–r–n–e–k–a–j–l–o–n–
+01 beitet integra synthase -> –b–e–i–t–e–t–i–n–t–e–g–r–a–s–y–n–t–h–a–s–e–
+02 qs argv deel -> –q–s–a–r–g–v–d–e–e–l–
+03 ierro relat enroll -> –i–e–r–r–o–r–e–l–a–t–e–n–r–o–l–l–
+04 oting dirigea prem -> –o–t–i–n–g–d–i–r–i–g–e–a–p–r–e–m–
+05 property handic onafhank -> –p–r–o–p–e–r–t–y–h–a–n–d–i–c–o–n–a–f–h–a–n–k–
+06 udz glue overse -> –u–d–z–g–l–u–e–o–v–e–r–s–e–
+07 tap kai oblasti -> –t–a–p–k–a–i–o–b–l–a–s–t–i–
+08 bide ischemia morph -> –b–i–d–e–i–s–c–h–e–m–i–a–m–o–r–p–h–
+09 emper held fetching -> –e–m–p–e–r–h–e–l–d–f–e–t–c–h–i–n–g–
+10 ayashi quem bash -> –a–y–a–s–h–i–q–u–e–m–b–a–s–h–
+11 peat stu robe -> –p–e–a–t–s–t–u–r–o–b–e–
+12 avana succ teas -> –a–v–a–n–a–s–u–c–c–t–e–a–s–
+13 optera veure reliant -> –o–p–t–e–r–a–v–e–u–r–e–r–e–l–i–a–n–t–
+14 view hechos boundary -> –v–i–e–w–h–e–c–h–o–s–b–o–u–n–d–a–r–y–
+15 anderen stoletja advisor -> –a–n–d–e–r–e–n–s–t–o–l–e–t–j–a–a–d–v–i–s–o–r–
+16 ijske moderna toluene -> –i–j–s–k–e–m–o–d–e–r–n–a–t–o–l–u–e–n–e–
+17 azz stirred birds -> –a–z–z–s–t–i–r–r–e–d–b–i–r–d–s–
+18 artzen mejor scaling -> –a–r–t–z–e–n–m–e–j–o–r–s–c–a–l–i–n–g–
+19 otyping azon zawier -> –o–t–y–p–i–n–g–a–z–o–n–z–a–w–i–e–r–
+20 kdir organ balance -> –k–d–i–r–o–r–g–a–n–b–a–l–a–n–c–e–
+21 entiel bah verbal -> –e–n–t–i–e–l–b–a–h–v–e–r–b–a–l–
+22 province cyclin frequent -> –p–r–o–v–i–n–c–e–c–y–c–l–i–n–f–r–e–q–u–e–n–t–
+23 estro workshop suks -> –e–s–t–r–o–w–o–r–k–s–h–o–p–s–u–k–s–
+24 ethod solcher acted -> –e–t–h–o–d–s–o–l–c–h–e–r–a–c–t–e–d–
+25 perc volk establ -> –p–e–r–c–v–o–l–k–e–s–t–a–b–l–
+26 geben indic extender -> –g–e–b–e–n–i–n–d–i–c–e–x–t–e–n–d–e–r–
+27 centage vont elevado -> –c–e–n–t–a–g–e–v–o–n–t–e–l–e–v–a–d–o–
+28 leges fusil show -> –l–e–g–e–s–f–u–s–i–l–s–h–o–w–
+29 niej parishes luar -> –n–i–e–j–p–a–r–i–s–h–e–s–l–u–a–r–
+30 erve richness gif -> –e–r–v–e–r–i–c–h–n–e–s–s–g–i–f–
+31 late replica set -> –l–a–t–e–r–e–p–l–i–c–a–s–e–t–
+32 heses leaks daarop -> –h–e–s–e–s–l–e–a–k–s–d–a–a–r–o–p–
+33 means enorme herrsch -> –m–e–a–n–s–e–n–o–r–m–e–h–e–r–r–s–c–h–
+34 andes diffus dilution -> –a–n–d–e–s–d–i–f–f–u–s–d–i–l–u–t–i–o–n–
+35 daki beta teorema -> –d–a–k–i–b–e–t–a–t–e–o–r–e–m–a–
+36 daf clang teljesen -> –d–a–f–c–l–a–n–g–t–e–l–j–e–s–e–n–
+37 bass dipole rassembl -> –b–a–s–s–d–i–p–o–l–e–r–a–s–s–e–m–b–l–
+38 odio pousser contente -> –o–d–i–o–p–o–u–s–s–e–r–c–o–n–t–e–n–t–e–
+39 cdots fibrosis dode -> –c–d–o–t–s–f–i–b–r–o–s–i–s–d–o–d–e–
+40 imin denunci biomass -> –i–m–i–n–d–e–n–u–n–c–i–b–i–o–m–a–s–s–
+41 ologe acordo partager -> –o–l–o–g–e–a–c–o–r–d–o–p–a–r–t–a–g–e–r–
+42 ociate diamonds mir -> –o–c–i–a–t–e–d–i–a–m–o–n–d–s–m–i–r–
+43 pira bacteri repe -> –p–i–r–a–b–a–c–t–e–r–i–r–e–p–e–
+44 herrsch strateg garant -> –h–e–r–r–s–c–h–s–t–r–a–t–e–g–g–a–r–a–n–t–
+45 ovic nieuwe verme -> –o–v–i–c–n–i–e–u–w–e–v–e–r–m–e–
+46 named text rob -> –n–a–m–e–d–t–e–x–t–r–o–b–
+47 debug osasun theta -> –d–e–b–u–g–o–s–a–s–u–n–t–h–e–t–a–
+48 electron docking novembro -> –e–l–e–c–t–r–o–n–d–o–c–k–i–n–g–n–o–v–e–m–b–r–o–
+49 rod dispar playlist -> –r–o–d–d–i–s–p–a–r–p–l–a–y–l–i–s–t–
+50 ingleton sechs hepat -> –i–n–g–l–e–t–o–n–s–e–c–h–s–h–e–p–a–t–
+51 ariat kuul biograf -> –a–r–i–a–t–k–u–u–l–b–i–o–g–r–a–f–
+52 held tonic astronom -> –h–e–l–d–t–o–n–i–c–a–s–t–r–o–n–o–m–
+53 ennis echoes erabil -> –e–n–n–i–s–e–c–h–o–e–s–e–r–a–b–i–l–
+54 tienne supply mensajes -> –t–i–e–n–n–e–s–u–p–p–l–y–m–e–n–s–a–j–e–s–
+55 aire accep brigade -> –a–i–r–e–a–c–c–e–p–b–r–i–g–a–d–e–
+56 ewish torp brighter -> –e–w–i–s–h–t–o–r–p–b–r–i–g–h–t–e–r–
+57 riffe dicho bizarre -> –r–i–f–f–e–d–i–c–h–o–b–i–z–a–r–r–e–
+58 roh donation conduc -> –r–o–h–d–o–n–a–t–i–o–n–c–o–n–d–u–c–
+59 assuming terminar autobi -> –a–s–s–u–m–i–n–g–t–e–r–m–i–n–a–r–a–u–t–o–b–i–
+60 ursors cip ryw -> –u–r–s–o–r–s–c–i–p–r–y–w–
+61 docs carrier splic -> –d–o–c–s–c–a–r–r–i–e–r–s–p–l–i–c–
+62 lia hub semi -> –l–i–a–h–u–b–s–e–m–i–
+63 inist naquele secs -> –i–n–i–s–t–n–a–q–u–e–l–e–s–e–c–s–
+64 ponde reed crushed -> –p–o–n–d–e–r–e–e–d–c–r–u–s–h–e–d–
+65 alho vista sangue -> –a–l–h–o–v–i–s–t–a–s–a–n–g–u–e–
+66 lerden wz afges -> –l–e–r–d–e–n–w–z–a–f–g–e–s–
+67 ibald tranqu adi -> –i–b–a–l–d–t–r–a–n–q–u–a–d–i–
+68 lessly bestand boshqa -> –l–e–s–s–l–y–b–e–s–t–a–n–d–b–o–s–h–q–a–
+69 entities escapes typedef -> –e–n–t–i–t–i–e–s–e–s–c–a–p–e–s–t–y–p–e–d–e–f–
+70 ydia crept barok -> –y–d–i–a–c–r–e–p–t–b–a–r–o–k–
+71 ritt keadaan dere -> –r–i–t–t–k–e–a–d–a–a–n–d–e–r–e–
+72 atina wol eta -> –a–t–i–n–a–w–o–l–e–t–a–
+73 push caste coche -> –p–u–s–h–c–a–s–t–e–c–o–c–h–e–
+74 ligini allo chamada -> –l–i–g–i–n–i–a–l–l–o–c–h–a–m–a–d–a–
+75 unii parvenir heels -> –u–n–i–i–p–a–r–v–e–n–i–r–h–e–e–l–s–
+76 mans spowod boek -> –m–a–n–s–s–p–o–w–o–d–b–o–e–k–
+77 irano steadily month -> –i–r–a–n–o–s–t–e–a–d–i–l–y–m–o–n–t–h–
+78 cence blo finans -> –c–e–n–c–e–b–l–o–f–i–n–a–n–s–
+79 esto freund omission -> –e–s–t–o–f–r–e–u–n–d–o–m–i–s–s–i–o–n–
+80 xide display processo -> –x–i–d–e–d–i–s–p–l–a–y–p–r–o–c–e–s–s–o–
+81 ursive fer touch -> –u–r–s–i–v–e–f–e–r–t–o–u–c–h–
+82 eres inevit combate -> –e–r–e–s–i–n–e–v–i–t–c–o–m–b–a–t–e–
+83 aisen inakt theaters -> –a–i–s–e–n–i–n–a–k–t–t–h–e–a–t–e–r–s–
+84 eth xl mass -> –e–t–h–x–l–m–a–s–s–
+85 verk peasants joukkue -> –v–e–r–k–p–e–a–s–a–n–t–s–j–o–u–k–k–u–e–
+86 aimana identify kerja -> –a–i–m–a–n–a–i–d–e–n–t–i–f–y–k–e–r–j–a–
+87 manie tatt flavour -> –m–a–n–i–e–t–a–t–t–f–l–a–v–o–u–r–
+88 redicate wrist tanul -> –r–e–d–i–c–a–t–e–w–r–i–s–t–t–a–n–u–l–
+89 ceiving anything lad -> –c–e–i–v–i–n–g–a–n–y–t–h–i–n–g–l–a–d–
+90 itude unwanted nip -> –i–t–u–d–e–u–n–w–a–n–t–e–d–n–i–p–
+91 standers dones kojih -> –s–t–a–n–d–e–r–s–d–o–n–e–s–k–o–j–i–h–
+92 pil gown albeit -> –p–i–l–g–o–w–n–a–l–b–e–i–t–
+93 sever ramo adoles -> –s–e–v–e–r–r–a–m–o–a–d–o–l–e–s–
+94 urer sculp collects -> –u–r–e–r–s–c–u–l–p–c–o–l–l–e–c–t–s–
+95 ouses angle private -> –o–u–s–e–s–a–n–g–l–e–p–r–i–v–a–t–e–
+96 ragen husbands birtok -> –r–a–g–e–n–h–u–s–b–a–n–d–s–b–i–r–t–o–k–
+97 ix wobei myelin -> –i–x–w–o–b–e–i–m–y–e–l–i–n–
+98 opic somehow foarte -> –o–p–i–c–s–o–m–e–h–o–w–f–o–a–r–t–e–
+99 ritten aqueles ileg -> –r–i–t–t–e–n–a–q–u–e–l–e–s–i–l–e–g–

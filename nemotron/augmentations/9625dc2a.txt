@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 ativity lascia glauben
+01 zeich permit fetch
+02 neg natal novel
+
+This is a sample output.
+00 ativity lascia glauben -> –a–t–i–v–i–t–y–l–a–s–c–i–a–g–l–a–u–b–e–n–
+01 zeich permit fetch -> –z–e–i–c–h–p–e–r–m–i–t–f–e–t–c–h–
+02 neg natal novel -> –n–e–g–n–a–t–a–l–n–o–v–e–l–
+
+This is your input.
+00 ecurity metres scanner
+01 point sku bind
+02 ousands sman enviar
+03 bath vencer precipit
+04 endenti gotten junio
+05 ellte rom goodness
+06 ctions pla tl
+07 iverse peeled shiny
+08 th workers grinder
+09 ueur jener grupa
+10 chool resonant bikes
+11 cribe andra optics
+12 gangenen negra vere
+13 urch roi pianist
+14 racing nozzles perme
+15 inu pago flashes
+16 pto absolv fortific
+17 matic cielo sentido
+18 ozy pushes vn
+19 photo config propre
+20 hoot tritur embark
+21 iders linked memen
+22 process autoph perten
+23 outlined perm raped
+24 terna ponad conflits
+25 denes closure brillant
+26 versch nella maja
+27 atoria metr broj
+28 ubli wiel trovato
+29 probably geleg convex
+30 illers ailes rez
+31 qa multidis defensa
+32 owment alcance subs
+33 isch njegove buyer
+34 asku door spaced
+35 ocate limited cation
+36 ovar tubo knih
+37 stag epo endured
+38 res anx rf
+39 olj afet fogo
+40 umbent edil paradox
+41 ningen stava lyn
+42 nist exempl ruined
+43 ultura domaine immense
+44 antis bro comerci
+45 andi asoci acte
+46 alim foods lend
+47 onium vein dum
+48 gewand keb quantity
+49 numpy aging vincul
+50 ows brak replicas
+51 cpp mediator suppl
+52 uais redu accepted
+53 gras gateway opciones
+54 emb majoria passed
+55 gresql zonas digital
+56 pers widen mounts
+57 ratched format parti
+58 cji semplice vivre
+59 gunakan msg commits
+60 elf nh perin
+61 igado died flore
+62 yel spoken billions
+63 staat recre vacuum
+64 yles anal verte
+65 arth editions attribu
+66 rous reste azken
+67 uggest to effic
+68 bew zuz hoch
+69 cum ten sns
+70 iraju eps mince
+71 meros apoi kok
+72 ownik verboten atract
+73 ill estancia beobacht
+74 tant het proport
+75 uttavia bought seizures
+76 itmap anchors palab
+77 oring capacity jeopard
+78 udeau trotzdem rouge
+79 beg mali uncom
+80 itations double mejorar
+81 anci carg eserc
+82 embly bread marginal
+83 caster benzer mx
+84 alette fick langt
+85 adron senhor ciclo
+86 hus afric verko
+87 ublished instead mynd
+88 unga append matchs
+89 hh parole stacks
+90 cie teeth restos
+91 ributor declare retry
+92 serial explicit epidem
+93 jpeg girone poco
+94 eneva parla predstav
+95 ampiyon refor ought
+96 eger tapered cutting
+97 aner suspend quarto
+98 bru importe bureaux
+99 lists cual accommod
+[completion]
+00 ecurity metres scanner -> –e–c–u–r–i–t–y–m–e–t–r–e–s–s–c–a–n–n–e–r–
+01 point sku bind -> –p–o–i–n–t–s–k–u–b–i–n–d–
+02 ousands sman enviar -> –o–u–s–a–n–d–s–s–m–a–n–e–n–v–i–a–r–
+03 bath vencer precipit -> –b–a–t–h–v–e–n–c–e–r–p–r–e–c–i–p–i–t–
+04 endenti gotten junio -> –e–n–d–e–n–t–i–g–o–t–t–e–n–j–u–n–i–o–
+05 ellte rom goodness -> –e–l–l–t–e–r–o–m–g–o–o–d–n–e–s–s–
+06 ctions pla tl -> –c–t–i–o–n–s–p–l–a–t–l–
+07 iverse peeled shiny -> –i–v–e–r–s–e–p–e–e–l–e–d–s–h–i–n–y–
+08 th workers grinder -> –t–h–w–o–r–k–e–r–s–g–r–i–n–d–e–r–
+09 ueur jener grupa -> –u–e–u–r–j–e–n–e–r–g–r–u–p–a–
+10 chool resonant bikes -> –c–h–o–o–l–r–e–s–o–n–a–n–t–b–i–k–e–s–
+11 cribe andra optics -> –c–r–i–b–e–a–n–d–r–a–o–p–t–i–c–s–
+12 gangenen negra vere -> –g–a–n–g–e–n–e–n–n–e–g–r–a–v–e–r–e–
+13 urch roi pianist -> –u–r–c–h–r–o–i–p–i–a–n–i–s–t–
+14 racing nozzles perme -> –r–a–c–i–n–g–n–o–z–z–l–e–s–p–e–r–m–e–
+15 inu pago flashes -> –i–n–u–p–a–g–o–f–l–a–s–h–e–s–
+16 pto absolv fortific -> –p–t–o–a–b–s–o–l–v–f–o–r–t–i–f–i–c–
+17 matic cielo sentido -> –m–a–t–i–c–c–i–e–l–o–s–e–n–t–i–d–o–
+18 ozy pushes vn -> –o–z–y–p–u–s–h–e–s–v–n–
+19 photo config propre -> –p–h–o–t–o–c–o–n–f–i–g–p–r–o–p–r–e–
+20 hoot tritur embark -> –h–o–o–t–t–r–i–t–u–r–e–m–b–a–r–k–
+21 iders linked memen -> –i–d–e–r–s–l–i–n–k–e–d–m–e–m–e–n–
+22 process autoph perten -> –p–r–o–c–e–s–s–a–u–t–o–p–h–p–e–r–t–e–n–
+23 outlined perm raped -> –o–u–t–l–i–n–e–d–p–e–r–m–r–a–p–e–d–
+24 terna ponad conflits -> –t–e–r–n–a–p–o–n–a–d–c–o–n–f–l–i–t–s–
+25 denes closure brillant -> –d–e–n–e–s–c–l–o–s–u–r–e–b–r–i–l–l–a–n–t–
+26 versch nella maja -> –v–e–r–s–c–h–n–e–l–l–a–m–a–j–a–
+27 atoria metr broj -> –a–t–o–r–i–a–m–e–t–r–b–r–o–j–
+28 ubli wiel trovato -> –u–b–l–i–w–i–e–l–t–r–o–v–a–t–o–
+29 probably geleg convex -> –p–r–o–b–a–b–l–y–g–e–l–e–g–c–o–n–v–e–x–
+30 illers ailes rez -> –i–l–l–e–r–s–a–i–l–e–s–r–e–z–
+31 qa multidis defensa -> –q–a–m–u–l–t–i–d–i–s–d–e–f–e–n–s–a–
+32 owment alcance subs -> –o–w–m–e–n–t–a–l–c–a–n–c–e–s–u–b–s–
+33 isch njegove buyer -> –i–s–c–h–n–j–e–g–o–v–e–b–u–y–e–r–
+34 asku door spaced -> –a–s–k–u–d–o–o–r–s–p–a–c–e–d–
+35 ocate limited cation -> –o–c–a–t–e–l–i–m–i–t–e–d–c–a–t–i–o–n–
+36 ovar tubo knih -> –o–v–a–r–t–u–b–o–k–n–i–h–
+37 stag epo endured -> –s–t–a–g–e–p–o–e–n–d–u–r–e–d–
+38 res anx rf -> –r–e–s–a–n–x–r–f–
+39 olj afet fogo -> –o–l–j–a–f–e–t–f–o–g–o–
+40 umbent edil paradox -> –u–m–b–e–n–t–e–d–i–l–p–a–r–a–d–o–x–
+41 ningen stava lyn -> –n–i–n–g–e–n–s–t–a–v–a–l–y–n–
+42 nist exempl ruined -> –n–i–s–t–e–x–e–m–p–l–r–u–i–n–e–d–
+43 ultura domaine immense -> –u–l–t–u–r–a–d–o–m–a–i–n–e–i–m–m–e–n–s–e–
+44 antis bro comerci -> –a–n–t–i–s–b–r–o–c–o–m–e–r–c–i–
+45 andi asoci acte -> –a–n–d–i–a–s–o–c–i–a–c–t–e–
+46 alim foods lend -> –a–l–i–m–f–o–o–d–s–l–e–n–d–
+47 onium vein dum -> –o–n–i–u–m–v–e–i–n–d–u–m–
+48 gewand keb quantity -> –g–e–w–a–n–d–k–e–b–q–u–a–n–t–i–t–y–
+49 numpy aging vincul -> –n–u–m–p–y–a–g–i–n–g–v–i–n–c–u–l–
+50 ows brak replicas -> –o–w–s–b–r–a–k–r–e–p–l–i–c–a–s–
+51 cpp mediator suppl -> –c–p–p–m–e–d–i–a–t–o–r–s–u–p–p–l–
+52 uais redu accepted -> –u–a–i–s–r–e–d–u–a–c–c–e–p–t–e–d–
+53 gras gateway opciones -> –g–r–a–s–g–a–t–e–w–a–y–o–p–c–i–o–n–e–s–
+54 emb majoria passed -> –e–m–b–m–a–j–o–r–i–a–p–a–s–s–e–d–
+55 gresql zonas digital -> –g–r–e–s–q–l–z–o–n–a–s–d–i–g–i–t–a–l–
+56 pers widen mounts -> –p–e–r–s–w–i–d–e–n–m–o–u–n–t–s–
+57 ratched format parti -> –r–a–t–c–h–e–d–f–o–r–m–a–t–p–a–r–t–i–
+58 cji semplice vivre -> –c–j–i–s–e–m–p–l–i–c–e–v–i–v–r–e–
+59 gunakan msg commits -> –g–u–n–a–k–a–n–m–s–g–c–o–m–m–i–t–s–
+60 elf nh perin -> –e–l–f–n–h–p–e–r–i–n–
+61 igado died flore -> –i–g–a–d–o–d–i–e–d–f–l–o–r–e–
+62 yel spoken billions -> –y–e–l–s–p–o–k–e–n–b–i–l–l–i–o–n–s–
+63 staat recre vacuum -> –s–t–a–a–t–r–e–c–r–e–v–a–c–u–u–m–
+64 yles anal verte -> –y–l–e–s–a–n–a–l–v–e–r–t–e–
+65 arth editions attribu -> –a–r–t–h–e–d–i–t–i–o–n–s–a–t–t–r–i–b–u–
+66 rous reste azken -> –r–o–u–s–r–e–s–t–e–a–z–k–e–n–
+67 uggest to effic -> –u–g–g–e–s–t–t–o–e–f–f–i–c–
+68 bew zuz hoch -> –b–e–w–z–u–z–h–o–c–h–
+69 cum ten sns -> –c–u–m–t–e–n–s–n–s–
+70 iraju eps mince -> –i–r–a–j–u–e–p–s–m–i–n–c–e–
+71 meros apoi kok -> –m–e–r–o–s–a–p–o–i–k–o–k–
+72 ownik verboten atract -> –o–w–n–i–k–v–e–r–b–o–t–e–n–a–t–r–a–c–t–
+73 ill estancia beobacht -> –i–l–l–e–s–t–a–n–c–i–a–b–e–o–b–a–c–h–t–
+74 tant het proport -> –t–a–n–t–h–e–t–p–r–o–p–o–r–t–
+75 uttavia bought seizures -> –u–t–t–a–v–i–a–b–o–u–g–h–t–s–e–i–z–u–r–e–s–
+76 itmap anchors palab -> –i–t–m–a–p–a–n–c–h–o–r–s–p–a–l–a–b–
+77 oring capacity jeopard -> –o–r–i–n–g–c–a–p–a–c–i–t–y–j–e–o–p–a–r–d–
+78 udeau trotzdem rouge -> –u–d–e–a–u–t–r–o–t–z–d–e–m–r–o–u–g–e–
+79 beg mali uncom -> –b–e–g–m–a–l–i–u–n–c–o–m–
+80 itations double mejorar -> –i–t–a–t–i–o–n–s–d–o–u–b–l–e–m–e–j–o–r–a–r–
+81 anci carg eserc -> –a–n–c–i–c–a–r–g–e–s–e–r–c–
+82 embly bread marginal -> –e–m–b–l–y–b–r–e–a–d–m–a–r–g–i–n–a–l–
+83 caster benzer mx -> –c–a–s–t–e–r–b–e–n–z–e–r–m–x–
+84 alette fick langt -> –a–l–e–t–t–e–f–i–c–k–l–a–n–g–t–
+85 adron senhor ciclo -> –a–d–r–o–n–s–e–n–h–o–r–c–i–c–l–o–
+86 hus afric verko -> –h–u–s–a–f–r–i–c–v–e–r–k–o–
+87 ublished instead mynd -> –u–b–l–i–s–h–e–d–i–n–s–t–e–a–d–m–y–n–d–
+88 unga append matchs -> –u–n–g–a–a–p–p–e–n–d–m–a–t–c–h–s–
+89 hh parole stacks -> –h–h–p–a–r–o–l–e–s–t–a–c–k–s–
+90 cie teeth restos -> –c–i–e–t–e–e–t–h–r–e–s–t–o–s–
+91 ributor declare retry -> –r–i–b–u–t–o–r–d–e–c–l–a–r–e–r–e–t–r–y–
+92 serial explicit epidem -> –s–e–r–i–a–l–e–x–p–l–i–c–i–t–e–p–i–d–e–m–
+93 jpeg girone poco -> –j–p–e–g–g–i–r–o–n–e–p–o–c–o–
+94 eneva parla predstav -> –e–n–e–v–a–p–a–r–l–a–p–r–e–d–s–t–a–v–
+95 ampiyon refor ought -> –a–m–p–i–y–o–n–r–e–f–o–r–o–u–g–h–t–
+96 eger tapered cutting -> –e–g–e–r–t–a–p–e–r–e–d–c–u–t–t–i–n–g–
+97 aner suspend quarto -> –a–n–e–r–s–u–s–p–e–n–d–q–u–a–r–t–o–
+98 bru importe bureaux -> –b–r–u–i–m–p–o–r–t–e–b–u–r–e–a–u–x–
+99 lists cual accommod -> –l–i–s–t–s–c–u–a–l–a–c–c–o–m–m–o–d–

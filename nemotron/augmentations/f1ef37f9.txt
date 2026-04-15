@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 riker embodied stacked
+01 yon tredje cum
+02 islav dye incap
+
+This is a sample output.
+00 riker embodied stacked -> –r–i–k–e–r–e–m–b–o–d–i–e–d–s–t–a–c–k–e–d–
+01 yon tredje cum -> –y–o–n–t–r–e–d–j–e–c–u–m–
+02 islav dye incap -> –i–s–l–a–v–d–y–e–i–n–c–a–p–
+
+This is your input.
+00 unction besk verbess
+01 inder ganar philos
+02 urale reveals estatua
+03 inc cuanto sete
+04 anceled sinist llarg
+05 ming wyk saj
+06 servlet oamen welchem
+07 ydro endet rojo
+08 nx monte titled
+09 cy keeper stderr
+10 str disp varying
+11 ib leaking her
+12 rabbit arises memset
+13 both axe llamadas
+14 odeon fetus ene
+15 viders janari seconda
+16 laf lunettes see
+17 ously excision danh
+18 arbeitet python belong
+19 vik peine numa
+20 fiddle windows conver
+21 year passion cloth
+22 esia sqlite convuls
+23 abe behaupt poultry
+24 enched seeding serai
+25 conn product labelled
+26 onitrile waren caff
+27 ycznych eh nutr
+28 beau yas noter
+29 lemands spike dinheiro
+30 smith egin obl
+31 ernen versant helper
+32 stel comuns grading
+33 iasi addict plu
+34 izace regl filos
+35 riters sportive pills
+36 gon cette advocate
+37 formed pastoral axon
+38 site kar adress
+39 arr langue comic
+40 ohist gluten cornea
+41 swiper drafted epiz
+42 icons aprendiz provoz
+43 ppers che lump
+44 demo reden dichiar
+45 ific solvent vod
+46 ulte numeral fib
+47 vate proprie kde
+48 pcion trick soup
+49 pective modernos djel
+50 keras thigh difer
+51 acak quit booked
+52 indako czasu alred
+53 klen cientos concep
+54 dehyde etd parody
+55 illards victimes notch
+56 igem irland spit
+57 ixa fez borrowed
+58 chus tika trah
+59 tere marching propri
+60 uge metre fournit
+61 plement anore norme
+62 iele malheure carved
+63 actor practic servicio
+64 hlung juifs takt
+65 oving pinturas alfa
+66 uvia meist tego
+67 media joues ostrov
+68 bauer upper wood
+69 wer puertas rivol
+70 amente column confes
+71 vu dancer campus
+72 eva checking tempo
+73 garten mixtures entender
+74 plicable orden reflex
+75 ientes vanished impair
+76 cznego enc wtedy
+77 raal goto arousal
+78 vida kierunku depre
+79 uries sofa kwal
+80 abele ache expand
+81 ubl ogr obwohl
+82 books dominant bi
+83 helf crisis surt
+84 ived ceiling may
+85 pton huit ribosome
+86 hoek gebouwd apresent
+87 itario dados genre
+88 issez ve dels
+89 rezz opera perfume
+90 avel teatro chico
+91 doctor reglas thrilled
+92 seit asserted sod
+93 iszt pom lack
+94 icanos pursued ton
+95 zeum foo nearest
+96 mige velocity paid
+97 lap bed mixed
+98 umumkan parents amput
+99 ickt storm requests
+[completion]
+00 unction besk verbess -> –u–n–c–t–i–o–n–b–e–s–k–v–e–r–b–e–s–s–
+01 inder ganar philos -> –i–n–d–e–r–g–a–n–a–r–p–h–i–l–o–s–
+02 urale reveals estatua -> –u–r–a–l–e–r–e–v–e–a–l–s–e–s–t–a–t–u–a–
+03 inc cuanto sete -> –i–n–c–c–u–a–n–t–o–s–e–t–e–
+04 anceled sinist llarg -> –a–n–c–e–l–e–d–s–i–n–i–s–t–l–l–a–r–g–
+05 ming wyk saj -> –m–i–n–g–w–y–k–s–a–j–
+06 servlet oamen welchem -> –s–e–r–v–l–e–t–o–a–m–e–n–w–e–l–c–h–e–m–
+07 ydro endet rojo -> –y–d–r–o–e–n–d–e–t–r–o–j–o–
+08 nx monte titled -> –n–x–m–o–n–t–e–t–i–t–l–e–d–
+09 cy keeper stderr -> –c–y–k–e–e–p–e–r–s–t–d–e–r–r–
+10 str disp varying -> –s–t–r–d–i–s–p–v–a–r–y–i–n–g–
+11 ib leaking her -> –i–b–l–e–a–k–i–n–g–h–e–r–
+12 rabbit arises memset -> –r–a–b–b–i–t–a–r–i–s–e–s–m–e–m–s–e–t–
+13 both axe llamadas -> –b–o–t–h–a–x–e–l–l–a–m–a–d–a–s–
+14 odeon fetus ene -> –o–d–e–o–n–f–e–t–u–s–e–n–e–
+15 viders janari seconda -> –v–i–d–e–r–s–j–a–n–a–r–i–s–e–c–o–n–d–a–
+16 laf lunettes see -> –l–a–f–l–u–n–e–t–t–e–s–s–e–e–
+17 ously excision danh -> –o–u–s–l–y–e–x–c–i–s–i–o–n–d–a–n–h–
+18 arbeitet python belong -> –a–r–b–e–i–t–e–t–p–y–t–h–o–n–b–e–l–o–n–g–
+19 vik peine numa -> –v–i–k–p–e–i–n–e–n–u–m–a–
+20 fiddle windows conver -> –f–i–d–d–l–e–w–i–n–d–o–w–s–c–o–n–v–e–r–
+21 year passion cloth -> –y–e–a–r–p–a–s–s–i–o–n–c–l–o–t–h–
+22 esia sqlite convuls -> –e–s–i–a–s–q–l–i–t–e–c–o–n–v–u–l–s–
+23 abe behaupt poultry -> –a–b–e–b–e–h–a–u–p–t–p–o–u–l–t–r–y–
+24 enched seeding serai -> –e–n–c–h–e–d–s–e–e–d–i–n–g–s–e–r–a–i–
+25 conn product labelled -> –c–o–n–n–p–r–o–d–u–c–t–l–a–b–e–l–l–e–d–
+26 onitrile waren caff -> –o–n–i–t–r–i–l–e–w–a–r–e–n–c–a–f–f–
+27 ycznych eh nutr -> –y–c–z–n–y–c–h–e–h–n–u–t–r–
+28 beau yas noter -> –b–e–a–u–y–a–s–n–o–t–e–r–
+29 lemands spike dinheiro -> –l–e–m–a–n–d–s–s–p–i–k–e–d–i–n–h–e–i–r–o–
+30 smith egin obl -> –s–m–i–t–h–e–g–i–n–o–b–l–
+31 ernen versant helper -> –e–r–n–e–n–v–e–r–s–a–n–t–h–e–l–p–e–r–
+32 stel comuns grading -> –s–t–e–l–c–o–m–u–n–s–g–r–a–d–i–n–g–
+33 iasi addict plu -> –i–a–s–i–a–d–d–i–c–t–p–l–u–
+34 izace regl filos -> –i–z–a–c–e–r–e–g–l–f–i–l–o–s–
+35 riters sportive pills -> –r–i–t–e–r–s–s–p–o–r–t–i–v–e–p–i–l–l–s–
+36 gon cette advocate -> –g–o–n–c–e–t–t–e–a–d–v–o–c–a–t–e–
+37 formed pastoral axon -> –f–o–r–m–e–d–p–a–s–t–o–r–a–l–a–x–o–n–
+38 site kar adress -> –s–i–t–e–k–a–r–a–d–r–e–s–s–
+39 arr langue comic -> –a–r–r–l–a–n–g–u–e–c–o–m–i–c–
+40 ohist gluten cornea -> –o–h–i–s–t–g–l–u–t–e–n–c–o–r–n–e–a–
+41 swiper drafted epiz -> –s–w–i–p–e–r–d–r–a–f–t–e–d–e–p–i–z–
+42 icons aprendiz provoz -> –i–c–o–n–s–a–p–r–e–n–d–i–z–p–r–o–v–o–z–
+43 ppers che lump -> –p–p–e–r–s–c–h–e–l–u–m–p–
+44 demo reden dichiar -> –d–e–m–o–r–e–d–e–n–d–i–c–h–i–a–r–
+45 ific solvent vod -> –i–f–i–c–s–o–l–v–e–n–t–v–o–d–
+46 ulte numeral fib -> –u–l–t–e–n–u–m–e–r–a–l–f–i–b–
+47 vate proprie kde -> –v–a–t–e–p–r–o–p–r–i–e–k–d–e–
+48 pcion trick soup -> –p–c–i–o–n–t–r–i–c–k–s–o–u–p–
+49 pective modernos djel -> –p–e–c–t–i–v–e–m–o–d–e–r–n–o–s–d–j–e–l–
+50 keras thigh difer -> –k–e–r–a–s–t–h–i–g–h–d–i–f–e–r–
+51 acak quit booked -> –a–c–a–k–q–u–i–t–b–o–o–k–e–d–
+52 indako czasu alred -> –i–n–d–a–k–o–c–z–a–s–u–a–l–r–e–d–
+53 klen cientos concep -> –k–l–e–n–c–i–e–n–t–o–s–c–o–n–c–e–p–
+54 dehyde etd parody -> –d–e–h–y–d–e–e–t–d–p–a–r–o–d–y–
+55 illards victimes notch -> –i–l–l–a–r–d–s–v–i–c–t–i–m–e–s–n–o–t–c–h–
+56 igem irland spit -> –i–g–e–m–i–r–l–a–n–d–s–p–i–t–
+57 ixa fez borrowed -> –i–x–a–f–e–z–b–o–r–r–o–w–e–d–
+58 chus tika trah -> –c–h–u–s–t–i–k–a–t–r–a–h–
+59 tere marching propri -> –t–e–r–e–m–a–r–c–h–i–n–g–p–r–o–p–r–i–
+60 uge metre fournit -> –u–g–e–m–e–t–r–e–f–o–u–r–n–i–t–
+61 plement anore norme -> –p–l–e–m–e–n–t–a–n–o–r–e–n–o–r–m–e–
+62 iele malheure carved -> –i–e–l–e–m–a–l–h–e–u–r–e–c–a–r–v–e–d–
+63 actor practic servicio -> –a–c–t–o–r–p–r–a–c–t–i–c–s–e–r–v–i–c–i–o–
+64 hlung juifs takt -> –h–l–u–n–g–j–u–i–f–s–t–a–k–t–
+65 oving pinturas alfa -> –o–v–i–n–g–p–i–n–t–u–r–a–s–a–l–f–a–
+66 uvia meist tego -> –u–v–i–a–m–e–i–s–t–t–e–g–o–
+67 media joues ostrov -> –m–e–d–i–a–j–o–u–e–s–o–s–t–r–o–v–
+68 bauer upper wood -> –b–a–u–e–r–u–p–p–e–r–w–o–o–d–
+69 wer puertas rivol -> –w–e–r–p–u–e–r–t–a–s–r–i–v–o–l–
+70 amente column confes -> –a–m–e–n–t–e–c–o–l–u–m–n–c–o–n–f–e–s–
+71 vu dancer campus -> –v–u–d–a–n–c–e–r–c–a–m–p–u–s–
+72 eva checking tempo -> –e–v–a–c–h–e–c–k–i–n–g–t–e–m–p–o–
+73 garten mixtures entender -> –g–a–r–t–e–n–m–i–x–t–u–r–e–s–e–n–t–e–n–d–e–r–
+74 plicable orden reflex -> –p–l–i–c–a–b–l–e–o–r–d–e–n–r–e–f–l–e–x–
+75 ientes vanished impair -> –i–e–n–t–e–s–v–a–n–i–s–h–e–d–i–m–p–a–i–r–
+76 cznego enc wtedy -> –c–z–n–e–g–o–e–n–c–w–t–e–d–y–
+77 raal goto arousal -> –r–a–a–l–g–o–t–o–a–r–o–u–s–a–l–
+78 vida kierunku depre -> –v–i–d–a–k–i–e–r–u–n–k–u–d–e–p–r–e–
+79 uries sofa kwal -> –u–r–i–e–s–s–o–f–a–k–w–a–l–
+80 abele ache expand -> –a–b–e–l–e–a–c–h–e–e–x–p–a–n–d–
+81 ubl ogr obwohl -> –u–b–l–o–g–r–o–b–w–o–h–l–
+82 books dominant bi -> –b–o–o–k–s–d–o–m–i–n–a–n–t–b–i–
+83 helf crisis surt -> –h–e–l–f–c–r–i–s–i–s–s–u–r–t–
+84 ived ceiling may -> –i–v–e–d–c–e–i–l–i–n–g–m–a–y–
+85 pton huit ribosome -> –p–t–o–n–h–u–i–t–r–i–b–o–s–o–m–e–
+86 hoek gebouwd apresent -> –h–o–e–k–g–e–b–o–u–w–d–a–p–r–e–s–e–n–t–
+87 itario dados genre -> –i–t–a–r–i–o–d–a–d–o–s–g–e–n–r–e–
+88 issez ve dels -> –i–s–s–e–z–v–e–d–e–l–s–
+89 rezz opera perfume -> –r–e–z–z–o–p–e–r–a–p–e–r–f–u–m–e–
+90 avel teatro chico -> –a–v–e–l–t–e–a–t–r–o–c–h–i–c–o–
+91 doctor reglas thrilled -> –d–o–c–t–o–r–r–e–g–l–a–s–t–h–r–i–l–l–e–d–
+92 seit asserted sod -> –s–e–i–t–a–s–s–e–r–t–e–d–s–o–d–
+93 iszt pom lack -> –i–s–z–t–p–o–m–l–a–c–k–
+94 icanos pursued ton -> –i–c–a–n–o–s–p–u–r–s–u–e–d–t–o–n–
+95 zeum foo nearest -> –z–e–u–m–f–o–o–n–e–a–r–e–s–t–
+96 mige velocity paid -> –m–i–g–e–v–e–l–o–c–i–t–y–p–a–i–d–
+97 lap bed mixed -> –l–a–p–b–e–d–m–i–x–e–d–
+98 umumkan parents amput -> –u–m–u–m–k–a–n–p–a–r–e–n–t–s–a–m–p–u–t–
+99 ickt storm requests -> –i–c–k–t–s–t–o–r–m–r–e–q–u–e–s–t–s–

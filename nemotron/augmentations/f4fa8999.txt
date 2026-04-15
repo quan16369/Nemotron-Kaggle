@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 orange capital privil
+01 ceptive zoon pau
+02 mile disabled komen
+
+This is a sample output.
+00 orange capital privil -> –o–r–a–n–g–e–c–a–p–i–t–a–l–p–r–i–v–i–l–
+01 ceptive zoon pau -> –c–e–p–t–i–v–e–z–o–o–n–p–a–u–
+02 mile disabled komen -> –m–i–l–e–d–i–s–a–b–l–e–d–k–o–m–e–n–
+
+This is your input.
+00 ics recycled crank
+01 liv destroy blues
+02 auses perspect mets
+03 usern hors bako
+04 gut estar plana
+05 jord methods failing
+06 irish justo addr
+07 pelen pik le
+08 utu steroid mortal
+09 stack esos leider
+10 wargs intron shaft
+11 ascade inm unies
+12 irdi passo membawa
+13 wara tantas jurado
+14 bigcup maail buried
+15 ediat veces prieur
+16 oq judged repose
+17 ovation motifs thereof
+18 judul extravag hebre
+19 posium oct swipe
+20 astre analiz remise
+21 pts ela contrato
+22 play hurry floor
+23 ardino ish erected
+24 caught decyz mem
+25 roll anak ponct
+26 akume stair asked
+27 area pudiera einf
+28 rany foydalan woodland
+29 plos german boj
+30 kant slim chez
+31 onucle carbur speelde
+32 ared games maa
+33 bridge disch haya
+34 illis waarin einzelne
+35 estinal algo examin
+36 ards estekak tom
+37 azole melyet courte
+38 urcht spur sugg
+39 aszt brasile getragen
+40 zeko parecido lecture
+41 preter flare innov
+42 comes customs shine
+43 rana lettres hanya
+44 riss taraf logrando
+45 were pipe child
+46 nsk useless extant
+47 ikes asalto bezala
+48 tees base newline
+49 ying kako inev
+50 signup dificult stables
+51 gorod quot trust
+52 moil collagen zuk
+53 pared yay tagged
+54 commerce pase motoc
+55 overty niet fazia
+56 olland relig purpos
+57 ivalent huv chlorine
+58 enium sunshine attempt
+59 ieme hemat geh
+60 feed asylum bef
+61 eve negocio produs
+62 hafte munt completa
+63 trieb tourists culturas
+64 layout sexta uzna
+65 erade suivi charity
+66 iempo indoors vari
+67 neum pertson attir
+68 uo promoter srpna
+69 variant bunk required
+70 viously pud somme
+71 well retten wise
+72 empor financ pain
+73 omyc hour binnen
+74 tenant gib preserve
+75 ythmias seating affirme
+76 enerated chansons kontinu
+77 ogan links encore
+78 iens ojos effett
+79 inese guzt wyp
+80 jmu neuf behav
+81 patible atoi discrete
+82 band climax domu
+83 cline stile faisant
+84 ith moieties besten
+85 arks zume reproduc
+86 yicha comunque soap
+87 ostante banlieue doprowad
+88 entina jah checker
+89 afrika via estable
+90 atet polonais pronouns
+91 agers testing appareil
+92 isation enabled xy
+93 quit bre tsunami
+94 schod zwanzig stoch
+95 auro let habitats
+96 odu season encodes
+97 cipl pipes occas
+98 seat arty satu
+99 ocht mexicana unb
+[completion]
+00 ics recycled crank -> –i–c–s–r–e–c–y–c–l–e–d–c–r–a–n–k–
+01 liv destroy blues -> –l–i–v–d–e–s–t–r–o–y–b–l–u–e–s–
+02 auses perspect mets -> –a–u–s–e–s–p–e–r–s–p–e–c–t–m–e–t–s–
+03 usern hors bako -> –u–s–e–r–n–h–o–r–s–b–a–k–o–
+04 gut estar plana -> –g–u–t–e–s–t–a–r–p–l–a–n–a–
+05 jord methods failing -> –j–o–r–d–m–e–t–h–o–d–s–f–a–i–l–i–n–g–
+06 irish justo addr -> –i–r–i–s–h–j–u–s–t–o–a–d–d–r–
+07 pelen pik le -> –p–e–l–e–n–p–i–k–l–e–
+08 utu steroid mortal -> –u–t–u–s–t–e–r–o–i–d–m–o–r–t–a–l–
+09 stack esos leider -> –s–t–a–c–k–e–s–o–s–l–e–i–d–e–r–
+10 wargs intron shaft -> –w–a–r–g–s–i–n–t–r–o–n–s–h–a–f–t–
+11 ascade inm unies -> –a–s–c–a–d–e–i–n–m–u–n–i–e–s–
+12 irdi passo membawa -> –i–r–d–i–p–a–s–s–o–m–e–m–b–a–w–a–
+13 wara tantas jurado -> –w–a–r–a–t–a–n–t–a–s–j–u–r–a–d–o–
+14 bigcup maail buried -> –b–i–g–c–u–p–m–a–a–i–l–b–u–r–i–e–d–
+15 ediat veces prieur -> –e–d–i–a–t–v–e–c–e–s–p–r–i–e–u–r–
+16 oq judged repose -> –o–q–j–u–d–g–e–d–r–e–p–o–s–e–
+17 ovation motifs thereof -> –o–v–a–t–i–o–n–m–o–t–i–f–s–t–h–e–r–e–o–f–
+18 judul extravag hebre -> –j–u–d–u–l–e–x–t–r–a–v–a–g–h–e–b–r–e–
+19 posium oct swipe -> –p–o–s–i–u–m–o–c–t–s–w–i–p–e–
+20 astre analiz remise -> –a–s–t–r–e–a–n–a–l–i–z–r–e–m–i–s–e–
+21 pts ela contrato -> –p–t–s–e–l–a–c–o–n–t–r–a–t–o–
+22 play hurry floor -> –p–l–a–y–h–u–r–r–y–f–l–o–o–r–
+23 ardino ish erected -> –a–r–d–i–n–o–i–s–h–e–r–e–c–t–e–d–
+24 caught decyz mem -> –c–a–u–g–h–t–d–e–c–y–z–m–e–m–
+25 roll anak ponct -> –r–o–l–l–a–n–a–k–p–o–n–c–t–
+26 akume stair asked -> –a–k–u–m–e–s–t–a–i–r–a–s–k–e–d–
+27 area pudiera einf -> –a–r–e–a–p–u–d–i–e–r–a–e–i–n–f–
+28 rany foydalan woodland -> –r–a–n–y–f–o–y–d–a–l–a–n–w–o–o–d–l–a–n–d–
+29 plos german boj -> –p–l–o–s–g–e–r–m–a–n–b–o–j–
+30 kant slim chez -> –k–a–n–t–s–l–i–m–c–h–e–z–
+31 onucle carbur speelde -> –o–n–u–c–l–e–c–a–r–b–u–r–s–p–e–e–l–d–e–
+32 ared games maa -> –a–r–e–d–g–a–m–e–s–m–a–a–
+33 bridge disch haya -> –b–r–i–d–g–e–d–i–s–c–h–h–a–y–a–
+34 illis waarin einzelne -> –i–l–l–i–s–w–a–a–r–i–n–e–i–n–z–e–l–n–e–
+35 estinal algo examin -> –e–s–t–i–n–a–l–a–l–g–o–e–x–a–m–i–n–
+36 ards estekak tom -> –a–r–d–s–e–s–t–e–k–a–k–t–o–m–
+37 azole melyet courte -> –a–z–o–l–e–m–e–l–y–e–t–c–o–u–r–t–e–
+38 urcht spur sugg -> –u–r–c–h–t–s–p–u–r–s–u–g–g–
+39 aszt brasile getragen -> –a–s–z–t–b–r–a–s–i–l–e–g–e–t–r–a–g–e–n–
+40 zeko parecido lecture -> –z–e–k–o–p–a–r–e–c–i–d–o–l–e–c–t–u–r–e–
+41 preter flare innov -> –p–r–e–t–e–r–f–l–a–r–e–i–n–n–o–v–
+42 comes customs shine -> –c–o–m–e–s–c–u–s–t–o–m–s–s–h–i–n–e–
+43 rana lettres hanya -> –r–a–n–a–l–e–t–t–r–e–s–h–a–n–y–a–
+44 riss taraf logrando -> –r–i–s–s–t–a–r–a–f–l–o–g–r–a–n–d–o–
+45 were pipe child -> –w–e–r–e–p–i–p–e–c–h–i–l–d–
+46 nsk useless extant -> –n–s–k–u–s–e–l–e–s–s–e–x–t–a–n–t–
+47 ikes asalto bezala -> –i–k–e–s–a–s–a–l–t–o–b–e–z–a–l–a–
+48 tees base newline -> –t–e–e–s–b–a–s–e–n–e–w–l–i–n–e–
+49 ying kako inev -> –y–i–n–g–k–a–k–o–i–n–e–v–
+50 signup dificult stables -> –s–i–g–n–u–p–d–i–f–i–c–u–l–t–s–t–a–b–l–e–s–
+51 gorod quot trust -> –g–o–r–o–d–q–u–o–t–t–r–u–s–t–
+52 moil collagen zuk -> –m–o–i–l–c–o–l–l–a–g–e–n–z–u–k–
+53 pared yay tagged -> –p–a–r–e–d–y–a–y–t–a–g–g–e–d–
+54 commerce pase motoc -> –c–o–m–m–e–r–c–e–p–a–s–e–m–o–t–o–c–
+55 overty niet fazia -> –o–v–e–r–t–y–n–i–e–t–f–a–z–i–a–
+56 olland relig purpos -> –o–l–l–a–n–d–r–e–l–i–g–p–u–r–p–o–s–
+57 ivalent huv chlorine -> –i–v–a–l–e–n–t–h–u–v–c–h–l–o–r–i–n–e–
+58 enium sunshine attempt -> –e–n–i–u–m–s–u–n–s–h–i–n–e–a–t–t–e–m–p–t–
+59 ieme hemat geh -> –i–e–m–e–h–e–m–a–t–g–e–h–
+60 feed asylum bef -> –f–e–e–d–a–s–y–l–u–m–b–e–f–
+61 eve negocio produs -> –e–v–e–n–e–g–o–c–i–o–p–r–o–d–u–s–
+62 hafte munt completa -> –h–a–f–t–e–m–u–n–t–c–o–m–p–l–e–t–a–
+63 trieb tourists culturas -> –t–r–i–e–b–t–o–u–r–i–s–t–s–c–u–l–t–u–r–a–s–
+64 layout sexta uzna -> –l–a–y–o–u–t–s–e–x–t–a–u–z–n–a–
+65 erade suivi charity -> –e–r–a–d–e–s–u–i–v–i–c–h–a–r–i–t–y–
+66 iempo indoors vari -> –i–e–m–p–o–i–n–d–o–o–r–s–v–a–r–i–
+67 neum pertson attir -> –n–e–u–m–p–e–r–t–s–o–n–a–t–t–i–r–
+68 uo promoter srpna -> –u–o–p–r–o–m–o–t–e–r–s–r–p–n–a–
+69 variant bunk required -> –v–a–r–i–a–n–t–b–u–n–k–r–e–q–u–i–r–e–d–
+70 viously pud somme -> –v–i–o–u–s–l–y–p–u–d–s–o–m–m–e–
+71 well retten wise -> –w–e–l–l–r–e–t–t–e–n–w–i–s–e–
+72 empor financ pain -> –e–m–p–o–r–f–i–n–a–n–c–p–a–i–n–
+73 omyc hour binnen -> –o–m–y–c–h–o–u–r–b–i–n–n–e–n–
+74 tenant gib preserve -> –t–e–n–a–n–t–g–i–b–p–r–e–s–e–r–v–e–
+75 ythmias seating affirme -> –y–t–h–m–i–a–s–s–e–a–t–i–n–g–a–f–f–i–r–m–e–
+76 enerated chansons kontinu -> –e–n–e–r–a–t–e–d–c–h–a–n–s–o–n–s–k–o–n–t–i–n–u–
+77 ogan links encore -> –o–g–a–n–l–i–n–k–s–e–n–c–o–r–e–
+78 iens ojos effett -> –i–e–n–s–o–j–o–s–e–f–f–e–t–t–
+79 inese guzt wyp -> –i–n–e–s–e–g–u–z–t–w–y–p–
+80 jmu neuf behav -> –j–m–u–n–e–u–f–b–e–h–a–v–
+81 patible atoi discrete -> –p–a–t–i–b–l–e–a–t–o–i–d–i–s–c–r–e–t–e–
+82 band climax domu -> –b–a–n–d–c–l–i–m–a–x–d–o–m–u–
+83 cline stile faisant -> –c–l–i–n–e–s–t–i–l–e–f–a–i–s–a–n–t–
+84 ith moieties besten -> –i–t–h–m–o–i–e–t–i–e–s–b–e–s–t–e–n–
+85 arks zume reproduc -> –a–r–k–s–z–u–m–e–r–e–p–r–o–d–u–c–
+86 yicha comunque soap -> –y–i–c–h–a–c–o–m–u–n–q–u–e–s–o–a–p–
+87 ostante banlieue doprowad -> –o–s–t–a–n–t–e–b–a–n–l–i–e–u–e–d–o–p–r–o–w–a–d–
+88 entina jah checker -> –e–n–t–i–n–a–j–a–h–c–h–e–c–k–e–r–
+89 afrika via estable -> –a–f–r–i–k–a–v–i–a–e–s–t–a–b–l–e–
+90 atet polonais pronouns -> –a–t–e–t–p–o–l–o–n–a–i–s–p–r–o–n–o–u–n–s–
+91 agers testing appareil -> –a–g–e–r–s–t–e–s–t–i–n–g–a–p–p–a–r–e–i–l–
+92 isation enabled xy -> –i–s–a–t–i–o–n–e–n–a–b–l–e–d–x–y–
+93 quit bre tsunami -> –q–u–i–t–b–r–e–t–s–u–n–a–m–i–
+94 schod zwanzig stoch -> –s–c–h–o–d–z–w–a–n–z–i–g–s–t–o–c–h–
+95 auro let habitats -> –a–u–r–o–l–e–t–h–a–b–i–t–a–t–s–
+96 odu season encodes -> –o–d–u–s–e–a–s–o–n–e–n–c–o–d–e–s–
+97 cipl pipes occas -> –c–i–p–l–p–i–p–e–s–o–c–c–a–s–
+98 seat arty satu -> –s–e–a–t–a–r–t–y–s–a–t–u–
+99 ocht mexicana unb -> –o–c–h–t–m–e–x–i–c–a–n–a–u–n–b–

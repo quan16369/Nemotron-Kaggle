@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 doch comptes oficiais
+01 cop workflow quis
+02 ogenic notar figlio
+
+This is a sample output.
+00 doch comptes oficiais -> –d–o–c–h–c–o–m–p–t–e–s–o–f–i–c–i–a–i–s–
+01 cop workflow quis -> –c–o–p–w–o–r–k–f–l–o–w–q–u–i–s–
+02 ogenic notar figlio -> –o–g–e–n–i–c–n–o–t–a–r–f–i–g–l–i–o–
+
+This is your input.
+00 gat lados acetate
+01 pen aure zest
+02 lard blockers inge
+03 pecial escri raw
+04 wier bertan shout
+05 umann aina novi
+06 urf grapes thyroid
+07 itur fb located
+08 ieres diesen fechas
+09 iko armour infinit
+10 urers resposta hosted
+11 rade dew anot
+12 eler laps lipca
+13 llib meurtre ouest
+14 rone trud meet
+15 ization sind million
+16 anal baseado ered
+17 texttt proven viscous
+18 clos duty dent
+19 entes hoge energie
+20 upan kib mellan
+21 agy arbeit digo
+22 etter jeho unbed
+23 avao rendent ent
+24 current postoji punte
+25 dop colocado tkinter
+26 ving readers enough
+27 onu planes copie
+28 arikat plano juli
+29 ammed drugih unstable
+30 oks wrestler peupl
+31 ologic pensaba makers
+32 ti egiten parecia
+33 roma coloca applies
+34 ichia findet esf
+35 icin mon langer
+36 ighbor toca merger
+37 constit letzten rules
+38 ibo gonna soda
+39 usters landing customer
+40 store muita target
+41 bro yarat premio
+42 ighet prv borrow
+43 osabb commerc papel
+44 andus estad crypt
+45 tes viaggio decades
+46 atten exported chamb
+47 iket declara gitar
+48 path able acknow
+49 autta holid angry
+50 opi scanned intellig
+51 raumatic journals eld
+52 sequence faud caer
+53 gle ports pueblos
+54 englad increase vivos
+55 andom traball safegu
+56 nienie frame mail
+57 ibel modelos module
+58 esseur diplom naast
+59 lug rapides portail
+60 atsapp phosph kunnen
+61 antage nation perdido
+62 iada blev mesure
+63 cr weekend spod
+64 alls ofens co
+65 getragen mente rebuilt
+66 vid loy expos
+67 yskyt cables lesen
+68 culos odnosno lange
+69 zyc ehem dejar
+70 urse upright ced
+71 fade prise sred
+72 uvo ums applying
+73 alib commands kuk
+74 aguay comien creek
+75 acij empower cei
+76 naden francos contains
+77 elon boa alfabet
+78 sign bride poetry
+79 undai treg bons
+80 gara spezi vue
+81 arios grund mellom
+82 orspronk exclu pasaj
+83 malar pauvres embr
+84 so ural familles
+85 igd tenta decreto
+86 umeurs subtil esan
+87 try pourquoi rink
+88 ivanje ehk trypsin
+89 pta logs signing
+90 orse haft perlu
+91 aqu cooked murders
+92 itoral clicking learns
+93 adion carb parfait
+94 yendo edhe ah
+95 usele trac rated
+96 urne esem destin
+97 erte millor satir
+98 jac mantiene ong
+99 ivision episod bracht
+[completion]
+00 gat lados acetate -> –g–a–t–l–a–d–o–s–a–c–e–t–a–t–e–
+01 pen aure zest -> –p–e–n–a–u–r–e–z–e–s–t–
+02 lard blockers inge -> –l–a–r–d–b–l–o–c–k–e–r–s–i–n–g–e–
+03 pecial escri raw -> –p–e–c–i–a–l–e–s–c–r–i–r–a–w–
+04 wier bertan shout -> –w–i–e–r–b–e–r–t–a–n–s–h–o–u–t–
+05 umann aina novi -> –u–m–a–n–n–a–i–n–a–n–o–v–i–
+06 urf grapes thyroid -> –u–r–f–g–r–a–p–e–s–t–h–y–r–o–i–d–
+07 itur fb located -> –i–t–u–r–f–b–l–o–c–a–t–e–d–
+08 ieres diesen fechas -> –i–e–r–e–s–d–i–e–s–e–n–f–e–c–h–a–s–
+09 iko armour infinit -> –i–k–o–a–r–m–o–u–r–i–n–f–i–n–i–t–
+10 urers resposta hosted -> –u–r–e–r–s–r–e–s–p–o–s–t–a–h–o–s–t–e–d–
+11 rade dew anot -> –r–a–d–e–d–e–w–a–n–o–t–
+12 eler laps lipca -> –e–l–e–r–l–a–p–s–l–i–p–c–a–
+13 llib meurtre ouest -> –l–l–i–b–m–e–u–r–t–r–e–o–u–e–s–t–
+14 rone trud meet -> –r–o–n–e–t–r–u–d–m–e–e–t–
+15 ization sind million -> –i–z–a–t–i–o–n–s–i–n–d–m–i–l–l–i–o–n–
+16 anal baseado ered -> –a–n–a–l–b–a–s–e–a–d–o–e–r–e–d–
+17 texttt proven viscous -> –t–e–x–t–t–t–p–r–o–v–e–n–v–i–s–c–o–u–s–
+18 clos duty dent -> –c–l–o–s–d–u–t–y–d–e–n–t–
+19 entes hoge energie -> –e–n–t–e–s–h–o–g–e–e–n–e–r–g–i–e–
+20 upan kib mellan -> –u–p–a–n–k–i–b–m–e–l–l–a–n–
+21 agy arbeit digo -> –a–g–y–a–r–b–e–i–t–d–i–g–o–
+22 etter jeho unbed -> –e–t–t–e–r–j–e–h–o–u–n–b–e–d–
+23 avao rendent ent -> –a–v–a–o–r–e–n–d–e–n–t–e–n–t–
+24 current postoji punte -> –c–u–r–r–e–n–t–p–o–s–t–o–j–i–p–u–n–t–e–
+25 dop colocado tkinter -> –d–o–p–c–o–l–o–c–a–d–o–t–k–i–n–t–e–r–
+26 ving readers enough -> –v–i–n–g–r–e–a–d–e–r–s–e–n–o–u–g–h–
+27 onu planes copie -> –o–n–u–p–l–a–n–e–s–c–o–p–i–e–
+28 arikat plano juli -> –a–r–i–k–a–t–p–l–a–n–o–j–u–l–i–
+29 ammed drugih unstable -> –a–m–m–e–d–d–r–u–g–i–h–u–n–s–t–a–b–l–e–
+30 oks wrestler peupl -> –o–k–s–w–r–e–s–t–l–e–r–p–e–u–p–l–
+31 ologic pensaba makers -> –o–l–o–g–i–c–p–e–n–s–a–b–a–m–a–k–e–r–s–
+32 ti egiten parecia -> –t–i–e–g–i–t–e–n–p–a–r–e–c–i–a–
+33 roma coloca applies -> –r–o–m–a–c–o–l–o–c–a–a–p–p–l–i–e–s–
+34 ichia findet esf -> –i–c–h–i–a–f–i–n–d–e–t–e–s–f–
+35 icin mon langer -> –i–c–i–n–m–o–n–l–a–n–g–e–r–
+36 ighbor toca merger -> –i–g–h–b–o–r–t–o–c–a–m–e–r–g–e–r–
+37 constit letzten rules -> –c–o–n–s–t–i–t–l–e–t–z–t–e–n–r–u–l–e–s–
+38 ibo gonna soda -> –i–b–o–g–o–n–n–a–s–o–d–a–
+39 usters landing customer -> –u–s–t–e–r–s–l–a–n–d–i–n–g–c–u–s–t–o–m–e–r–
+40 store muita target -> –s–t–o–r–e–m–u–i–t–a–t–a–r–g–e–t–
+41 bro yarat premio -> –b–r–o–y–a–r–a–t–p–r–e–m–i–o–
+42 ighet prv borrow -> –i–g–h–e–t–p–r–v–b–o–r–r–o–w–
+43 osabb commerc papel -> –o–s–a–b–b–c–o–m–m–e–r–c–p–a–p–e–l–
+44 andus estad crypt -> –a–n–d–u–s–e–s–t–a–d–c–r–y–p–t–
+45 tes viaggio decades -> –t–e–s–v–i–a–g–g–i–o–d–e–c–a–d–e–s–
+46 atten exported chamb -> –a–t–t–e–n–e–x–p–o–r–t–e–d–c–h–a–m–b–
+47 iket declara gitar -> –i–k–e–t–d–e–c–l–a–r–a–g–i–t–a–r–
+48 path able acknow -> –p–a–t–h–a–b–l–e–a–c–k–n–o–w–
+49 autta holid angry -> –a–u–t–t–a–h–o–l–i–d–a–n–g–r–y–
+50 opi scanned intellig -> –o–p–i–s–c–a–n–n–e–d–i–n–t–e–l–l–i–g–
+51 raumatic journals eld -> –r–a–u–m–a–t–i–c–j–o–u–r–n–a–l–s–e–l–d–
+52 sequence faud caer -> –s–e–q–u–e–n–c–e–f–a–u–d–c–a–e–r–
+53 gle ports pueblos -> –g–l–e–p–o–r–t–s–p–u–e–b–l–o–s–
+54 englad increase vivos -> –e–n–g–l–a–d–i–n–c–r–e–a–s–e–v–i–v–o–s–
+55 andom traball safegu -> –a–n–d–o–m–t–r–a–b–a–l–l–s–a–f–e–g–u–
+56 nienie frame mail -> –n–i–e–n–i–e–f–r–a–m–e–m–a–i–l–
+57 ibel modelos module -> –i–b–e–l–m–o–d–e–l–o–s–m–o–d–u–l–e–
+58 esseur diplom naast -> –e–s–s–e–u–r–d–i–p–l–o–m–n–a–a–s–t–
+59 lug rapides portail -> –l–u–g–r–a–p–i–d–e–s–p–o–r–t–a–i–l–
+60 atsapp phosph kunnen -> –a–t–s–a–p–p–p–h–o–s–p–h–k–u–n–n–e–n–
+61 antage nation perdido -> –a–n–t–a–g–e–n–a–t–i–o–n–p–e–r–d–i–d–o–
+62 iada blev mesure -> –i–a–d–a–b–l–e–v–m–e–s–u–r–e–
+63 cr weekend spod -> –c–r–w–e–e–k–e–n–d–s–p–o–d–
+64 alls ofens co -> –a–l–l–s–o–f–e–n–s–c–o–
+65 getragen mente rebuilt -> –g–e–t–r–a–g–e–n–m–e–n–t–e–r–e–b–u–i–l–t–
+66 vid loy expos -> –v–i–d–l–o–y–e–x–p–o–s–
+67 yskyt cables lesen -> –y–s–k–y–t–c–a–b–l–e–s–l–e–s–e–n–
+68 culos odnosno lange -> –c–u–l–o–s–o–d–n–o–s–n–o–l–a–n–g–e–
+69 zyc ehem dejar -> –z–y–c–e–h–e–m–d–e–j–a–r–
+70 urse upright ced -> –u–r–s–e–u–p–r–i–g–h–t–c–e–d–
+71 fade prise sred -> –f–a–d–e–p–r–i–s–e–s–r–e–d–
+72 uvo ums applying -> –u–v–o–u–m–s–a–p–p–l–y–i–n–g–
+73 alib commands kuk -> –a–l–i–b–c–o–m–m–a–n–d–s–k–u–k–
+74 aguay comien creek -> –a–g–u–a–y–c–o–m–i–e–n–c–r–e–e–k–
+75 acij empower cei -> –a–c–i–j–e–m–p–o–w–e–r–c–e–i–
+76 naden francos contains -> –n–a–d–e–n–f–r–a–n–c–o–s–c–o–n–t–a–i–n–s–
+77 elon boa alfabet -> –e–l–o–n–b–o–a–a–l–f–a–b–e–t–
+78 sign bride poetry -> –s–i–g–n–b–r–i–d–e–p–o–e–t–r–y–
+79 undai treg bons -> –u–n–d–a–i–t–r–e–g–b–o–n–s–
+80 gara spezi vue -> –g–a–r–a–s–p–e–z–i–v–u–e–
+81 arios grund mellom -> –a–r–i–o–s–g–r–u–n–d–m–e–l–l–o–m–
+82 orspronk exclu pasaj -> –o–r–s–p–r–o–n–k–e–x–c–l–u–p–a–s–a–j–
+83 malar pauvres embr -> –m–a–l–a–r–p–a–u–v–r–e–s–e–m–b–r–
+84 so ural familles -> –s–o–u–r–a–l–f–a–m–i–l–l–e–s–
+85 igd tenta decreto -> –i–g–d–t–e–n–t–a–d–e–c–r–e–t–o–
+86 umeurs subtil esan -> –u–m–e–u–r–s–s–u–b–t–i–l–e–s–a–n–
+87 try pourquoi rink -> –t–r–y–p–o–u–r–q–u–o–i–r–i–n–k–
+88 ivanje ehk trypsin -> –i–v–a–n–j–e–e–h–k–t–r–y–p–s–i–n–
+89 pta logs signing -> –p–t–a–l–o–g–s–s–i–g–n–i–n–g–
+90 orse haft perlu -> –o–r–s–e–h–a–f–t–p–e–r–l–u–
+91 aqu cooked murders -> –a–q–u–c–o–o–k–e–d–m–u–r–d–e–r–s–
+92 itoral clicking learns -> –i–t–o–r–a–l–c–l–i–c–k–i–n–g–l–e–a–r–n–s–
+93 adion carb parfait -> –a–d–i–o–n–c–a–r–b–p–a–r–f–a–i–t–
+94 yendo edhe ah -> –y–e–n–d–o–e–d–h–e–a–h–
+95 usele trac rated -> –u–s–e–l–e–t–r–a–c–r–a–t–e–d–
+96 urne esem destin -> –u–r–n–e–e–s–e–m–d–e–s–t–i–n–
+97 erte millor satir -> –e–r–t–e–m–i–l–l–o–r–s–a–t–i–r–
+98 jac mantiene ong -> –j–a–c–m–a–n–t–i–e–n–e–o–n–g–
+99 ivision episod bracht -> –i–v–i–s–i–o–n–e–p–i–s–o–d–b–r–a–c–h–t–

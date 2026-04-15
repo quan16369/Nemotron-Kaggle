@@ -1,0 +1,70 @@
+problem id: 4a02017f
+category: cryptarithm_guess
+
+examples:
+1. `""-[: = ?`
+2. `[/-&[ = -@"`
+3. `/[-&" = [/`
+query: `#?+'"`
+
+inferred rule:
+Treat each symbol as a decimal digit, but read each 2-symbol operand backwards before decoding it as a 2-digit number.
+
+Then:
+- apply the visible operator to those decoded numbers
+- reverse the decimal digits of the numeric result before encoding it back into symbols
+- if the result is negative, keep the literal leading `-` and reverse only the magnitude
+
+One exact-fit digit assignment is:
+- `# = 0`
+- `} = 1`
+- `/ = 2`
+- `& = 3`
+- `@ = 4`
+- `: = 5`
+- `" = 6`
+- `? = 7`
+- `' = 8`
+- `[ = 9`
+
+why this fits the examples:
+1. `""-[:`
+   Left operand `""` stays `""`, so it decodes to `66`.
+   Right operand `[:` is read backwards as `:[`, so it decodes to `59`.
+   `66 - 59 = 7`.
+   `7 -> ?`, so the output is `?`.
+
+2. `[/-&[`
+   Left operand `[/` is read backwards as `/[`, so it decodes to `29`.
+   Right operand `&[` is read backwards as `[&`, so it decodes to `93`.
+   `29 - 93 = -64`.
+   Keep the leading `-`, reverse the magnitude `64 -> 46`, and encode:
+   `4 -> @`, `6 -> "`.
+   The output is `-@"`.
+
+3. `/[-&"`
+   Left operand `/[` is read backwards as `[/`, so it decodes to `92`.
+   Right operand `&"` is read backwards as `"&`, so it decodes to `63`.
+   `92 - 63 = 29`.
+   Reverse the result digits: `29 -> 92`.
+   `9 -> [`, `2 -> /`.
+   The output is `[/`.
+
+step-by-step application to the query:
+Query: `#?+'"`
+
+1. Read the left operand `#?` backwards as `?#`, which decodes to `70`.
+2. Read the right operand `'"` backwards as `"'"`, which decodes to `68`.
+3. The training examples only show `-`, but the most natural extension for the unseen `+` is ordinary addition while keeping the same backward-decoding and reverse-the-result convention.
+4. `70 + 68 = 138`.
+5. Reverse the result digits: `138 -> 831`.
+6. Encode `831` back into symbols:
+   `8 -> '`
+   `3 -> &`
+   `1 -> }`
+
+predicted answer:
+`'&}`
+
+confidence note:
+Medium-low confidence. The backward-decoding plus reverse-the-result rule fits all three examples exactly. The only real ambiguity is the unseen `+` in the query, so treating it as ordinary addition is still an extrapolation.

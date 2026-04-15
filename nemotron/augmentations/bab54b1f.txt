@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 src tickets android
+01 ategor moon gorge
+02 uncate arising cr
+
+This is a sample output.
+00 src tickets android -> –s–r–c–t–i–c–k–e–t–s–a–n–d–r–o–i–d–
+01 ategor moon gorge -> –a–t–e–g–o–r–m–o–o–n–g–o–r–g–e–
+02 uncate arising cr -> –u–n–c–a–t–e–a–r–i–s–i–n–g–c–r–
+
+This is your input.
+00 zerte lasted oll
+01 enna ocur kissing
+02 osso retin painful
+03 range cytok maximize
+04 voltage serta oriental
+05 ibly libres smug
+06 urb rasp epis
+07 augh wires septic
+08 lected lasts bob
+09 ension trotz doctrine
+10 actors ari dollars
+11 ietet encerr relev
+12 roq acetone fate
+13 armi latein emperor
+14 iasis elegans topics
+15 lok eff raises
+16 seconds setembre rescue
+17 thiop dose entre
+18 iffe ocorrer dokt
+19 otation aroused aerobic
+20 prav trim humble
+21 otion int jul
+22 useum panjang hablar
+23 ec gazed flooded
+24 rayer filler baking
+25 be domicile gian
+26 apeut school llamados
+27 ision vet lachte
+28 atkan egip recessed
+29 seau dram atrium
+30 gua gran struck
+31 uent kindly esclavos
+32 rained value tie
+33 ullo kisebb cria
+34 wde pergunt ash
+35 itelj nome osteopor
+36 std extremos jarra
+37 endlich mounting relinqu
+38 cats ekip kicked
+39 student circuit carrying
+40 eral poems wirkte
+41 jado resc venge
+42 lardan apel gust
+43 iatan delivery pol
+44 uite humid orquest
+45 veled inici couv
+46 rollback fuerte anomen
+47 ayaan realm eigh
+48 cripts beat unless
+49 chev lont teasing
+50 unwrap import findings
+51 rakt olla zad
+52 genstein koll solid
+53 ettings array torque
+54 arme weekends empat
+55 awy plac colonie
+56 ptime mongo charging
+57 zki prisma rych
+58 mlung pequ horn
+59 aita anion paw
+60 inin debat quotes
+61 rons fica magic
+62 film rescu filo
+63 alat simult opposing
+64 onitor auxili pand
+65 zelf malware soybean
+66 ases sage chiamato
+67 olders issued amelior
+68 bagai pietra amyloid
+69 tection analyte arrival
+70 oui nen majority
+71 ordes matriz sobie
+72 reste tangled ruta
+73 portivo louder caffeine
+74 ready anaer campo
+75 otropic laget induces
+76 emporary hats trophy
+77 ognition carbide tortured
+78 coles gradient livros
+79 omas sog remport
+80 domada frozen manoir
+81 hez rechten arma
+82 schap vlak divid
+83 oblast umjet administ
+84 yped begr jambe
+85 ryd alcanz abi
+86 rieron pets bao
+87 esson spas kraju
+88 summary colspan rsp
+89 iyeti ombre yaw
+90 raga survey second
+91 obic feature beneath
+92 amar kesk planos
+93 rael skrev vain
+94 riminal excuse articul
+95 outing reconoc gehe
+96 ucle bih oggi
+97 umpy muito dissen
+98 achel dull training
+99 ereien cifra isoforms
+[completion]
+00 zerte lasted oll -> –z–e–r–t–e–l–a–s–t–e–d–o–l–l–
+01 enna ocur kissing -> –e–n–n–a–o–c–u–r–k–i–s–s–i–n–g–
+02 osso retin painful -> –o–s–s–o–r–e–t–i–n–p–a–i–n–f–u–l–
+03 range cytok maximize -> –r–a–n–g–e–c–y–t–o–k–m–a–x–i–m–i–z–e–
+04 voltage serta oriental -> –v–o–l–t–a–g–e–s–e–r–t–a–o–r–i–e–n–t–a–l–
+05 ibly libres smug -> –i–b–l–y–l–i–b–r–e–s–s–m–u–g–
+06 urb rasp epis -> –u–r–b–r–a–s–p–e–p–i–s–
+07 augh wires septic -> –a–u–g–h–w–i–r–e–s–s–e–p–t–i–c–
+08 lected lasts bob -> –l–e–c–t–e–d–l–a–s–t–s–b–o–b–
+09 ension trotz doctrine -> –e–n–s–i–o–n–t–r–o–t–z–d–o–c–t–r–i–n–e–
+10 actors ari dollars -> –a–c–t–o–r–s–a–r–i–d–o–l–l–a–r–s–
+11 ietet encerr relev -> –i–e–t–e–t–e–n–c–e–r–r–r–e–l–e–v–
+12 roq acetone fate -> –r–o–q–a–c–e–t–o–n–e–f–a–t–e–
+13 armi latein emperor -> –a–r–m–i–l–a–t–e–i–n–e–m–p–e–r–o–r–
+14 iasis elegans topics -> –i–a–s–i–s–e–l–e–g–a–n–s–t–o–p–i–c–s–
+15 lok eff raises -> –l–o–k–e–f–f–r–a–i–s–e–s–
+16 seconds setembre rescue -> –s–e–c–o–n–d–s–s–e–t–e–m–b–r–e–r–e–s–c–u–e–
+17 thiop dose entre -> –t–h–i–o–p–d–o–s–e–e–n–t–r–e–
+18 iffe ocorrer dokt -> –i–f–f–e–o–c–o–r–r–e–r–d–o–k–t–
+19 otation aroused aerobic -> –o–t–a–t–i–o–n–a–r–o–u–s–e–d–a–e–r–o–b–i–c–
+20 prav trim humble -> –p–r–a–v–t–r–i–m–h–u–m–b–l–e–
+21 otion int jul -> –o–t–i–o–n–i–n–t–j–u–l–
+22 useum panjang hablar -> –u–s–e–u–m–p–a–n–j–a–n–g–h–a–b–l–a–r–
+23 ec gazed flooded -> –e–c–g–a–z–e–d–f–l–o–o–d–e–d–
+24 rayer filler baking -> –r–a–y–e–r–f–i–l–l–e–r–b–a–k–i–n–g–
+25 be domicile gian -> –b–e–d–o–m–i–c–i–l–e–g–i–a–n–
+26 apeut school llamados -> –a–p–e–u–t–s–c–h–o–o–l–l–l–a–m–a–d–o–s–
+27 ision vet lachte -> –i–s–i–o–n–v–e–t–l–a–c–h–t–e–
+28 atkan egip recessed -> –a–t–k–a–n–e–g–i–p–r–e–c–e–s–s–e–d–
+29 seau dram atrium -> –s–e–a–u–d–r–a–m–a–t–r–i–u–m–
+30 gua gran struck -> –g–u–a–g–r–a–n–s–t–r–u–c–k–
+31 uent kindly esclavos -> –u–e–n–t–k–i–n–d–l–y–e–s–c–l–a–v–o–s–
+32 rained value tie -> –r–a–i–n–e–d–v–a–l–u–e–t–i–e–
+33 ullo kisebb cria -> –u–l–l–o–k–i–s–e–b–b–c–r–i–a–
+34 wde pergunt ash -> –w–d–e–p–e–r–g–u–n–t–a–s–h–
+35 itelj nome osteopor -> –i–t–e–l–j–n–o–m–e–o–s–t–e–o–p–o–r–
+36 std extremos jarra -> –s–t–d–e–x–t–r–e–m–o–s–j–a–r–r–a–
+37 endlich mounting relinqu -> –e–n–d–l–i–c–h–m–o–u–n–t–i–n–g–r–e–l–i–n–q–u–
+38 cats ekip kicked -> –c–a–t–s–e–k–i–p–k–i–c–k–e–d–
+39 student circuit carrying -> –s–t–u–d–e–n–t–c–i–r–c–u–i–t–c–a–r–r–y–i–n–g–
+40 eral poems wirkte -> –e–r–a–l–p–o–e–m–s–w–i–r–k–t–e–
+41 jado resc venge -> –j–a–d–o–r–e–s–c–v–e–n–g–e–
+42 lardan apel gust -> –l–a–r–d–a–n–a–p–e–l–g–u–s–t–
+43 iatan delivery pol -> –i–a–t–a–n–d–e–l–i–v–e–r–y–p–o–l–
+44 uite humid orquest -> –u–i–t–e–h–u–m–i–d–o–r–q–u–e–s–t–
+45 veled inici couv -> –v–e–l–e–d–i–n–i–c–i–c–o–u–v–
+46 rollback fuerte anomen -> –r–o–l–l–b–a–c–k–f–u–e–r–t–e–a–n–o–m–e–n–
+47 ayaan realm eigh -> –a–y–a–a–n–r–e–a–l–m–e–i–g–h–
+48 cripts beat unless -> –c–r–i–p–t–s–b–e–a–t–u–n–l–e–s–s–
+49 chev lont teasing -> –c–h–e–v–l–o–n–t–t–e–a–s–i–n–g–
+50 unwrap import findings -> –u–n–w–r–a–p–i–m–p–o–r–t–f–i–n–d–i–n–g–s–
+51 rakt olla zad -> –r–a–k–t–o–l–l–a–z–a–d–
+52 genstein koll solid -> –g–e–n–s–t–e–i–n–k–o–l–l–s–o–l–i–d–
+53 ettings array torque -> –e–t–t–i–n–g–s–a–r–r–a–y–t–o–r–q–u–e–
+54 arme weekends empat -> –a–r–m–e–w–e–e–k–e–n–d–s–e–m–p–a–t–
+55 awy plac colonie -> –a–w–y–p–l–a–c–c–o–l–o–n–i–e–
+56 ptime mongo charging -> –p–t–i–m–e–m–o–n–g–o–c–h–a–r–g–i–n–g–
+57 zki prisma rych -> –z–k–i–p–r–i–s–m–a–r–y–c–h–
+58 mlung pequ horn -> –m–l–u–n–g–p–e–q–u–h–o–r–n–
+59 aita anion paw -> –a–i–t–a–a–n–i–o–n–p–a–w–
+60 inin debat quotes -> –i–n–i–n–d–e–b–a–t–q–u–o–t–e–s–
+61 rons fica magic -> –r–o–n–s–f–i–c–a–m–a–g–i–c–
+62 film rescu filo -> –f–i–l–m–r–e–s–c–u–f–i–l–o–
+63 alat simult opposing -> –a–l–a–t–s–i–m–u–l–t–o–p–p–o–s–i–n–g–
+64 onitor auxili pand -> –o–n–i–t–o–r–a–u–x–i–l–i–p–a–n–d–
+65 zelf malware soybean -> –z–e–l–f–m–a–l–w–a–r–e–s–o–y–b–e–a–n–
+66 ases sage chiamato -> –a–s–e–s–s–a–g–e–c–h–i–a–m–a–t–o–
+67 olders issued amelior -> –o–l–d–e–r–s–i–s–s–u–e–d–a–m–e–l–i–o–r–
+68 bagai pietra amyloid -> –b–a–g–a–i–p–i–e–t–r–a–a–m–y–l–o–i–d–
+69 tection analyte arrival -> –t–e–c–t–i–o–n–a–n–a–l–y–t–e–a–r–r–i–v–a–l–
+70 oui nen majority -> –o–u–i–n–e–n–m–a–j–o–r–i–t–y–
+71 ordes matriz sobie -> –o–r–d–e–s–m–a–t–r–i–z–s–o–b–i–e–
+72 reste tangled ruta -> –r–e–s–t–e–t–a–n–g–l–e–d–r–u–t–a–
+73 portivo louder caffeine -> –p–o–r–t–i–v–o–l–o–u–d–e–r–c–a–f–f–e–i–n–e–
+74 ready anaer campo -> –r–e–a–d–y–a–n–a–e–r–c–a–m–p–o–
+75 otropic laget induces -> –o–t–r–o–p–i–c–l–a–g–e–t–i–n–d–u–c–e–s–
+76 emporary hats trophy -> –e–m–p–o–r–a–r–y–h–a–t–s–t–r–o–p–h–y–
+77 ognition carbide tortured -> –o–g–n–i–t–i–o–n–c–a–r–b–i–d–e–t–o–r–t–u–r–e–d–
+78 coles gradient livros -> –c–o–l–e–s–g–r–a–d–i–e–n–t–l–i–v–r–o–s–
+79 omas sog remport -> –o–m–a–s–s–o–g–r–e–m–p–o–r–t–
+80 domada frozen manoir -> –d–o–m–a–d–a–f–r–o–z–e–n–m–a–n–o–i–r–
+81 hez rechten arma -> –h–e–z–r–e–c–h–t–e–n–a–r–m–a–
+82 schap vlak divid -> –s–c–h–a–p–v–l–a–k–d–i–v–i–d–
+83 oblast umjet administ -> –o–b–l–a–s–t–u–m–j–e–t–a–d–m–i–n–i–s–t–
+84 yped begr jambe -> –y–p–e–d–b–e–g–r–j–a–m–b–e–
+85 ryd alcanz abi -> –r–y–d–a–l–c–a–n–z–a–b–i–
+86 rieron pets bao -> –r–i–e–r–o–n–p–e–t–s–b–a–o–
+87 esson spas kraju -> –e–s–s–o–n–s–p–a–s–k–r–a–j–u–
+88 summary colspan rsp -> –s–u–m–m–a–r–y–c–o–l–s–p–a–n–r–s–p–
+89 iyeti ombre yaw -> –i–y–e–t–i–o–m–b–r–e–y–a–w–
+90 raga survey second -> –r–a–g–a–s–u–r–v–e–y–s–e–c–o–n–d–
+91 obic feature beneath -> –o–b–i–c–f–e–a–t–u–r–e–b–e–n–e–a–t–h–
+92 amar kesk planos -> –a–m–a–r–k–e–s–k–p–l–a–n–o–s–
+93 rael skrev vain -> –r–a–e–l–s–k–r–e–v–v–a–i–n–
+94 riminal excuse articul -> –r–i–m–i–n–a–l–e–x–c–u–s–e–a–r–t–i–c–u–l–
+95 outing reconoc gehe -> –o–u–t–i–n–g–r–e–c–o–n–o–c–g–e–h–e–
+96 ucle bih oggi -> –u–c–l–e–b–i–h–o–g–g–i–
+97 umpy muito dissen -> –u–m–p–y–m–u–i–t–o–d–i–s–s–e–n–
+98 achel dull training -> –a–c–h–e–l–d–u–l–l–t–r–a–i–n–i–n–g–
+99 ereien cifra isoforms -> –e–r–e–i–e–n–c–i–f–r–a–i–s–o–f–o–r–m–s–

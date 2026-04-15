@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 acios responde vastu
+01 borne confort caut
+02 igare primit relaxed
+
+This is a sample output.
+00 acios responde vastu -> –a–c–i–o–s–r–e–s–p–o–n–d–e–v–a–s–t–u–
+01 borne confort caut -> –b–o–r–n–e–c–o–n–f–o–r–t–c–a–u–t–
+02 igare primit relaxed -> –i–g–a–r–e–p–r–i–m–i–t–r–e–l–a–x–e–d–
+
+This is your input.
+00 chau az riprese
+01 adon trast vistas
+02 mittel clan terdiri
+03 pland sont roche
+04 mese weltweit lending
+05 phants number ruido
+06 ordn konden klas
+07 imis bewe monol
+08 herin dauden timely
+09 ur tipi recruits
+10 filename variet drogas
+11 script trabajo lipid
+12 urgia reactive tomatoes
+13 ronym hangs citoyens
+14 isions package hospital
+15 ibera escaped nj
+16 agara abrit bases
+17 project fined doub
+18 protein diaph veteran
+19 ienze sinuso shepherd
+20 joner turbines verific
+21 position tante weniger
+22 aporan weiter souff
+23 istische simil veh
+24 bent atl granul
+25 paration egys promot
+26 dal postala furnish
+27 bardziej agress sanat
+28 atio noexcept pelvic
+29 hatt legit features
+30 labor amounts bestuur
+31 unut hisp tweets
+32 wan veter llegaron
+33 ellekt tercer corrobor
+34 meni bax inhib
+35 uelles hydraul kana
+36 mith lying corso
+37 ublisher vaginal identity
+38 htra dall squad
+39 igraph electro stairs
+40 ryan grip gewann
+41 alanine aime lesser
+42 ague ernannt flour
+43 kega proceed betting
+44 irche prou exemplo
+45 oln negativ seat
+46 terno ressort acusado
+47 urbs aw count
+48 ather caval antrop
+49 sei frm jogador
+50 unner conserve rozw
+51 havior challeng ziem
+52 typedef hoher kak
+53 ongo cran ansible
+54 chemic wounded wiki
+55 stick retra veio
+56 cul parallel eraik
+57 essment sicuro horretan
+58 clear trasport altres
+59 upakan cortic contrari
+60 aln success monomer
+61 error mutable accuse
+62 sales wiping uma
+63 onuclear vapour silent
+64 olome globals ponder
+65 ablanca vuelta stepwise
+66 ado musique gols
+67 ane sol naturels
+68 opor orient lasers
+69 ragt sexu clim
+70 esen reality alter
+71 yntax mankind feuille
+72 acetic clung civils
+73 reurs sino coup
+74 bitro acompan elbows
+75 ila schweren propos
+76 hoz bs greatest
+77 kreis enemigos meters
+78 ccount sier episodes
+79 ividu simplest provocar
+80 zik lj esiste
+81 actions reciproc opacity
+82 prechen keyword curv
+83 uste stores muz
+84 wal followed journey
+85 ridges gon julka
+86 loe meaning bibli
+87 weit hori glyc
+88 aker ultras patience
+89 chilar varios sexto
+90 inked rod shrimp
+91 libs saga od
+92 aje funk terkenal
+93 itudes poprzed domin
+94 weis dynamic wreck
+95 feit logging plaques
+96 tranger guns friends
+97 lings drugs blickte
+98 ell secund suje
+99 punten feste gout
+[completion]
+00 chau az riprese -> –c–h–a–u–a–z–r–i–p–r–e–s–e–
+01 adon trast vistas -> –a–d–o–n–t–r–a–s–t–v–i–s–t–a–s–
+02 mittel clan terdiri -> –m–i–t–t–e–l–c–l–a–n–t–e–r–d–i–r–i–
+03 pland sont roche -> –p–l–a–n–d–s–o–n–t–r–o–c–h–e–
+04 mese weltweit lending -> –m–e–s–e–w–e–l–t–w–e–i–t–l–e–n–d–i–n–g–
+05 phants number ruido -> –p–h–a–n–t–s–n–u–m–b–e–r–r–u–i–d–o–
+06 ordn konden klas -> –o–r–d–n–k–o–n–d–e–n–k–l–a–s–
+07 imis bewe monol -> –i–m–i–s–b–e–w–e–m–o–n–o–l–
+08 herin dauden timely -> –h–e–r–i–n–d–a–u–d–e–n–t–i–m–e–l–y–
+09 ur tipi recruits -> –u–r–t–i–p–i–r–e–c–r–u–i–t–s–
+10 filename variet drogas -> –f–i–l–e–n–a–m–e–v–a–r–i–e–t–d–r–o–g–a–s–
+11 script trabajo lipid -> –s–c–r–i–p–t–t–r–a–b–a–j–o–l–i–p–i–d–
+12 urgia reactive tomatoes -> –u–r–g–i–a–r–e–a–c–t–i–v–e–t–o–m–a–t–o–e–s–
+13 ronym hangs citoyens -> –r–o–n–y–m–h–a–n–g–s–c–i–t–o–y–e–n–s–
+14 isions package hospital -> –i–s–i–o–n–s–p–a–c–k–a–g–e–h–o–s–p–i–t–a–l–
+15 ibera escaped nj -> –i–b–e–r–a–e–s–c–a–p–e–d–n–j–
+16 agara abrit bases -> –a–g–a–r–a–a–b–r–i–t–b–a–s–e–s–
+17 project fined doub -> –p–r–o–j–e–c–t–f–i–n–e–d–d–o–u–b–
+18 protein diaph veteran -> –p–r–o–t–e–i–n–d–i–a–p–h–v–e–t–e–r–a–n–
+19 ienze sinuso shepherd -> –i–e–n–z–e–s–i–n–u–s–o–s–h–e–p–h–e–r–d–
+20 joner turbines verific -> –j–o–n–e–r–t–u–r–b–i–n–e–s–v–e–r–i–f–i–c–
+21 position tante weniger -> –p–o–s–i–t–i–o–n–t–a–n–t–e–w–e–n–i–g–e–r–
+22 aporan weiter souff -> –a–p–o–r–a–n–w–e–i–t–e–r–s–o–u–f–f–
+23 istische simil veh -> –i–s–t–i–s–c–h–e–s–i–m–i–l–v–e–h–
+24 bent atl granul -> –b–e–n–t–a–t–l–g–r–a–n–u–l–
+25 paration egys promot -> –p–a–r–a–t–i–o–n–e–g–y–s–p–r–o–m–o–t–
+26 dal postala furnish -> –d–a–l–p–o–s–t–a–l–a–f–u–r–n–i–s–h–
+27 bardziej agress sanat -> –b–a–r–d–z–i–e–j–a–g–r–e–s–s–s–a–n–a–t–
+28 atio noexcept pelvic -> –a–t–i–o–n–o–e–x–c–e–p–t–p–e–l–v–i–c–
+29 hatt legit features -> –h–a–t–t–l–e–g–i–t–f–e–a–t–u–r–e–s–
+30 labor amounts bestuur -> –l–a–b–o–r–a–m–o–u–n–t–s–b–e–s–t–u–u–r–
+31 unut hisp tweets -> –u–n–u–t–h–i–s–p–t–w–e–e–t–s–
+32 wan veter llegaron -> –w–a–n–v–e–t–e–r–l–l–e–g–a–r–o–n–
+33 ellekt tercer corrobor -> –e–l–l–e–k–t–t–e–r–c–e–r–c–o–r–r–o–b–o–r–
+34 meni bax inhib -> –m–e–n–i–b–a–x–i–n–h–i–b–
+35 uelles hydraul kana -> –u–e–l–l–e–s–h–y–d–r–a–u–l–k–a–n–a–
+36 mith lying corso -> –m–i–t–h–l–y–i–n–g–c–o–r–s–o–
+37 ublisher vaginal identity -> –u–b–l–i–s–h–e–r–v–a–g–i–n–a–l–i–d–e–n–t–i–t–y–
+38 htra dall squad -> –h–t–r–a–d–a–l–l–s–q–u–a–d–
+39 igraph electro stairs -> –i–g–r–a–p–h–e–l–e–c–t–r–o–s–t–a–i–r–s–
+40 ryan grip gewann -> –r–y–a–n–g–r–i–p–g–e–w–a–n–n–
+41 alanine aime lesser -> –a–l–a–n–i–n–e–a–i–m–e–l–e–s–s–e–r–
+42 ague ernannt flour -> –a–g–u–e–e–r–n–a–n–n–t–f–l–o–u–r–
+43 kega proceed betting -> –k–e–g–a–p–r–o–c–e–e–d–b–e–t–t–i–n–g–
+44 irche prou exemplo -> –i–r–c–h–e–p–r–o–u–e–x–e–m–p–l–o–
+45 oln negativ seat -> –o–l–n–n–e–g–a–t–i–v–s–e–a–t–
+46 terno ressort acusado -> –t–e–r–n–o–r–e–s–s–o–r–t–a–c–u–s–a–d–o–
+47 urbs aw count -> –u–r–b–s–a–w–c–o–u–n–t–
+48 ather caval antrop -> –a–t–h–e–r–c–a–v–a–l–a–n–t–r–o–p–
+49 sei frm jogador -> –s–e–i–f–r–m–j–o–g–a–d–o–r–
+50 unner conserve rozw -> –u–n–n–e–r–c–o–n–s–e–r–v–e–r–o–z–w–
+51 havior challeng ziem -> –h–a–v–i–o–r–c–h–a–l–l–e–n–g–z–i–e–m–
+52 typedef hoher kak -> –t–y–p–e–d–e–f–h–o–h–e–r–k–a–k–
+53 ongo cran ansible -> –o–n–g–o–c–r–a–n–a–n–s–i–b–l–e–
+54 chemic wounded wiki -> –c–h–e–m–i–c–w–o–u–n–d–e–d–w–i–k–i–
+55 stick retra veio -> –s–t–i–c–k–r–e–t–r–a–v–e–i–o–
+56 cul parallel eraik -> –c–u–l–p–a–r–a–l–l–e–l–e–r–a–i–k–
+57 essment sicuro horretan -> –e–s–s–m–e–n–t–s–i–c–u–r–o–h–o–r–r–e–t–a–n–
+58 clear trasport altres -> –c–l–e–a–r–t–r–a–s–p–o–r–t–a–l–t–r–e–s–
+59 upakan cortic contrari -> –u–p–a–k–a–n–c–o–r–t–i–c–c–o–n–t–r–a–r–i–
+60 aln success monomer -> –a–l–n–s–u–c–c–e–s–s–m–o–n–o–m–e–r–
+61 error mutable accuse -> –e–r–r–o–r–m–u–t–a–b–l–e–a–c–c–u–s–e–
+62 sales wiping uma -> –s–a–l–e–s–w–i–p–i–n–g–u–m–a–
+63 onuclear vapour silent -> –o–n–u–c–l–e–a–r–v–a–p–o–u–r–s–i–l–e–n–t–
+64 olome globals ponder -> –o–l–o–m–e–g–l–o–b–a–l–s–p–o–n–d–e–r–
+65 ablanca vuelta stepwise -> –a–b–l–a–n–c–a–v–u–e–l–t–a–s–t–e–p–w–i–s–e–
+66 ado musique gols -> –a–d–o–m–u–s–i–q–u–e–g–o–l–s–
+67 ane sol naturels -> –a–n–e–s–o–l–n–a–t–u–r–e–l–s–
+68 opor orient lasers -> –o–p–o–r–o–r–i–e–n–t–l–a–s–e–r–s–
+69 ragt sexu clim -> –r–a–g–t–s–e–x–u–c–l–i–m–
+70 esen reality alter -> –e–s–e–n–r–e–a–l–i–t–y–a–l–t–e–r–
+71 yntax mankind feuille -> –y–n–t–a–x–m–a–n–k–i–n–d–f–e–u–i–l–l–e–
+72 acetic clung civils -> –a–c–e–t–i–c–c–l–u–n–g–c–i–v–i–l–s–
+73 reurs sino coup -> –r–e–u–r–s–s–i–n–o–c–o–u–p–
+74 bitro acompan elbows -> –b–i–t–r–o–a–c–o–m–p–a–n–e–l–b–o–w–s–
+75 ila schweren propos -> –i–l–a–s–c–h–w–e–r–e–n–p–r–o–p–o–s–
+76 hoz bs greatest -> –h–o–z–b–s–g–r–e–a–t–e–s–t–
+77 kreis enemigos meters -> –k–r–e–i–s–e–n–e–m–i–g–o–s–m–e–t–e–r–s–
+78 ccount sier episodes -> –c–c–o–u–n–t–s–i–e–r–e–p–i–s–o–d–e–s–
+79 ividu simplest provocar -> –i–v–i–d–u–s–i–m–p–l–e–s–t–p–r–o–v–o–c–a–r–
+80 zik lj esiste -> –z–i–k–l–j–e–s–i–s–t–e–
+81 actions reciproc opacity -> –a–c–t–i–o–n–s–r–e–c–i–p–r–o–c–o–p–a–c–i–t–y–
+82 prechen keyword curv -> –p–r–e–c–h–e–n–k–e–y–w–o–r–d–c–u–r–v–
+83 uste stores muz -> –u–s–t–e–s–t–o–r–e–s–m–u–z–
+84 wal followed journey -> –w–a–l–f–o–l–l–o–w–e–d–j–o–u–r–n–e–y–
+85 ridges gon julka -> –r–i–d–g–e–s–g–o–n–j–u–l–k–a–
+86 loe meaning bibli -> –l–o–e–m–e–a–n–i–n–g–b–i–b–l–i–
+87 weit hori glyc -> –w–e–i–t–h–o–r–i–g–l–y–c–
+88 aker ultras patience -> –a–k–e–r–u–l–t–r–a–s–p–a–t–i–e–n–c–e–
+89 chilar varios sexto -> –c–h–i–l–a–r–v–a–r–i–o–s–s–e–x–t–o–
+90 inked rod shrimp -> –i–n–k–e–d–r–o–d–s–h–r–i–m–p–
+91 libs saga od -> –l–i–b–s–s–a–g–a–o–d–
+92 aje funk terkenal -> –a–j–e–f–u–n–k–t–e–r–k–e–n–a–l–
+93 itudes poprzed domin -> –i–t–u–d–e–s–p–o–p–r–z–e–d–d–o–m–i–n–
+94 weis dynamic wreck -> –w–e–i–s–d–y–n–a–m–i–c–w–r–e–c–k–
+95 feit logging plaques -> –f–e–i–t–l–o–g–g–i–n–g–p–l–a–q–u–e–s–
+96 tranger guns friends -> –t–r–a–n–g–e–r–g–u–n–s–f–r–i–e–n–d–s–
+97 lings drugs blickte -> –l–i–n–g–s–d–r–u–g–s–b–l–i–c–k–t–e–
+98 ell secund suje -> –e–l–l–s–e–c–u–n–d–s–u–j–e–
+99 punten feste gout -> –p–u–n–t–e–n–f–e–s–t–e–g–o–u–t–

@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 ameth voll currency
+01 ous sympt mucho
+02 oses kay rol
+
+This is a sample output.
+00 ameth voll currency -> –a–m–e–t–h–v–o–l–l–c–u–r–r–e–n–c–y–
+01 ous sympt mucho -> –o–u–s–s–y–m–p–t–m–u–c–h–o–
+02 oses kay rol -> –o–s–e–s–k–a–y–r–o–l–
+
+This is your input.
+00 posal comput perfect
+01 atuak eax zile
+02 edly guys sott
+03 emy stint dachte
+04 ffer klass pouvez
+05 epend nyt both
+06 iping vzt szerk
+07 pekte fps general
+08 heure souriant pizza
+09 gica sonar plomb
+10 likely szezon suture
+11 rah piezas occupied
+12 imard recopil shy
+13 haria effects rotates
+14 larga revenue greeted
+15 live puerta circonst
+16 isseurs details trains
+17 ibu senador hatch
+18 mons dey mess
+19 orman further adhesive
+20 ffe diz notor
+21 els respir demand
+22 owe insurg bear
+23 iging sobren notable
+24 ducation apo rud
+25 ett detta esperar
+26 ars plan beats
+27 aderos pudieron many
+28 roupes elektri clazz
+29 invalid pupil empl
+30 ivable anderem olun
+31 plaats envy hvor
+32 onik apareceu share
+33 istiche gato feeder
+34 ovsk zp nahmen
+35 ellas stay invite
+36 reda choir nascita
+37 loaded cert thankful
+38 work room giri
+39 wich conoce invoke
+40 poor voters jolloin
+41 ellig entrou nod
+42 arges scandal grounds
+43 coma mudar peg
+44 kern pitchers brother
+45 aciji reforms jedes
+46 location asem attacked
+47 erintah idx aumento
+48 ulator batalion monetary
+49 pe replic seule
+50 nice onclick honestly
+51 uldade pair chatting
+52 ert livres campi
+53 gz halluc tilted
+54 enean inex security
+55 ruption gray destek
+56 hmen defect someday
+57 dem heroin herman
+58 itta infantry slapped
+59 cimentos fleurs maternal
+60 gele cuad ork
+61 tokens summed consumes
+62 ivit escap nok
+63 ahm bd sid
+64 great shuff cnt
+65 yg sucrose pix
+66 oru acaba automne
+67 ociated physique canad
+68 me probable infrastr
+69 isco wij gan
+70 rar seldom blancs
+71 elson rozgr promu
+72 ionych transf unusual
+73 ulk epiderm vy
+74 erse deer holders
+75 arial mez sotto
+76 stuk passa wr
+77 emarken garn grafting
+78 tools vaccines temat
+79 garde group ovary
+80 entr fazem shrugged
+81 nek miles gesetz
+82 prus til erste
+83 stelle human presenti
+84 indra cleaned destac
+85 iscopal dia descart
+86 ither mater harus
+87 rieb spoon telefono
+88 leg metode incur
+89 uty sting chemok
+90 serve przew phase
+91 odik kingdoms appetite
+92 enze gober dans
+93 opatra kelet voisin
+94 kommer salah riv
+95 pung rd odio
+96 children strani arme
+97 indows pyramid eyebrows
+98 border grac gevolg
+99 phicon flooding envi
+[completion]
+00 posal comput perfect -> –p–o–s–a–l–c–o–m–p–u–t–p–e–r–f–e–c–t–
+01 atuak eax zile -> –a–t–u–a–k–e–a–x–z–i–l–e–
+02 edly guys sott -> –e–d–l–y–g–u–y–s–s–o–t–t–
+03 emy stint dachte -> –e–m–y–s–t–i–n–t–d–a–c–h–t–e–
+04 ffer klass pouvez -> –f–f–e–r–k–l–a–s–s–p–o–u–v–e–z–
+05 epend nyt both -> –e–p–e–n–d–n–y–t–b–o–t–h–
+06 iping vzt szerk -> –i–p–i–n–g–v–z–t–s–z–e–r–k–
+07 pekte fps general -> –p–e–k–t–e–f–p–s–g–e–n–e–r–a–l–
+08 heure souriant pizza -> –h–e–u–r–e–s–o–u–r–i–a–n–t–p–i–z–z–a–
+09 gica sonar plomb -> –g–i–c–a–s–o–n–a–r–p–l–o–m–b–
+10 likely szezon suture -> –l–i–k–e–l–y–s–z–e–z–o–n–s–u–t–u–r–e–
+11 rah piezas occupied -> –r–a–h–p–i–e–z–a–s–o–c–c–u–p–i–e–d–
+12 imard recopil shy -> –i–m–a–r–d–r–e–c–o–p–i–l–s–h–y–
+13 haria effects rotates -> –h–a–r–i–a–e–f–f–e–c–t–s–r–o–t–a–t–e–s–
+14 larga revenue greeted -> –l–a–r–g–a–r–e–v–e–n–u–e–g–r–e–e–t–e–d–
+15 live puerta circonst -> –l–i–v–e–p–u–e–r–t–a–c–i–r–c–o–n–s–t–
+16 isseurs details trains -> –i–s–s–e–u–r–s–d–e–t–a–i–l–s–t–r–a–i–n–s–
+17 ibu senador hatch -> –i–b–u–s–e–n–a–d–o–r–h–a–t–c–h–
+18 mons dey mess -> –m–o–n–s–d–e–y–m–e–s–s–
+19 orman further adhesive -> –o–r–m–a–n–f–u–r–t–h–e–r–a–d–h–e–s–i–v–e–
+20 ffe diz notor -> –f–f–e–d–i–z–n–o–t–o–r–
+21 els respir demand -> –e–l–s–r–e–s–p–i–r–d–e–m–a–n–d–
+22 owe insurg bear -> –o–w–e–i–n–s–u–r–g–b–e–a–r–
+23 iging sobren notable -> –i–g–i–n–g–s–o–b–r–e–n–n–o–t–a–b–l–e–
+24 ducation apo rud -> –d–u–c–a–t–i–o–n–a–p–o–r–u–d–
+25 ett detta esperar -> –e–t–t–d–e–t–t–a–e–s–p–e–r–a–r–
+26 ars plan beats -> –a–r–s–p–l–a–n–b–e–a–t–s–
+27 aderos pudieron many -> –a–d–e–r–o–s–p–u–d–i–e–r–o–n–m–a–n–y–
+28 roupes elektri clazz -> –r–o–u–p–e–s–e–l–e–k–t–r–i–c–l–a–z–z–
+29 invalid pupil empl -> –i–n–v–a–l–i–d–p–u–p–i–l–e–m–p–l–
+30 ivable anderem olun -> –i–v–a–b–l–e–a–n–d–e–r–e–m–o–l–u–n–
+31 plaats envy hvor -> –p–l–a–a–t–s–e–n–v–y–h–v–o–r–
+32 onik apareceu share -> –o–n–i–k–a–p–a–r–e–c–e–u–s–h–a–r–e–
+33 istiche gato feeder -> –i–s–t–i–c–h–e–g–a–t–o–f–e–e–d–e–r–
+34 ovsk zp nahmen -> –o–v–s–k–z–p–n–a–h–m–e–n–
+35 ellas stay invite -> –e–l–l–a–s–s–t–a–y–i–n–v–i–t–e–
+36 reda choir nascita -> –r–e–d–a–c–h–o–i–r–n–a–s–c–i–t–a–
+37 loaded cert thankful -> –l–o–a–d–e–d–c–e–r–t–t–h–a–n–k–f–u–l–
+38 work room giri -> –w–o–r–k–r–o–o–m–g–i–r–i–
+39 wich conoce invoke -> –w–i–c–h–c–o–n–o–c–e–i–n–v–o–k–e–
+40 poor voters jolloin -> –p–o–o–r–v–o–t–e–r–s–j–o–l–l–o–i–n–
+41 ellig entrou nod -> –e–l–l–i–g–e–n–t–r–o–u–n–o–d–
+42 arges scandal grounds -> –a–r–g–e–s–s–c–a–n–d–a–l–g–r–o–u–n–d–s–
+43 coma mudar peg -> –c–o–m–a–m–u–d–a–r–p–e–g–
+44 kern pitchers brother -> –k–e–r–n–p–i–t–c–h–e–r–s–b–r–o–t–h–e–r–
+45 aciji reforms jedes -> –a–c–i–j–i–r–e–f–o–r–m–s–j–e–d–e–s–
+46 location asem attacked -> –l–o–c–a–t–i–o–n–a–s–e–m–a–t–t–a–c–k–e–d–
+47 erintah idx aumento -> –e–r–i–n–t–a–h–i–d–x–a–u–m–e–n–t–o–
+48 ulator batalion monetary -> –u–l–a–t–o–r–b–a–t–a–l–i–o–n–m–o–n–e–t–a–r–y–
+49 pe replic seule -> –p–e–r–e–p–l–i–c–s–e–u–l–e–
+50 nice onclick honestly -> –n–i–c–e–o–n–c–l–i–c–k–h–o–n–e–s–t–l–y–
+51 uldade pair chatting -> –u–l–d–a–d–e–p–a–i–r–c–h–a–t–t–i–n–g–
+52 ert livres campi -> –e–r–t–l–i–v–r–e–s–c–a–m–p–i–
+53 gz halluc tilted -> –g–z–h–a–l–l–u–c–t–i–l–t–e–d–
+54 enean inex security -> –e–n–e–a–n–i–n–e–x–s–e–c–u–r–i–t–y–
+55 ruption gray destek -> –r–u–p–t–i–o–n–g–r–a–y–d–e–s–t–e–k–
+56 hmen defect someday -> –h–m–e–n–d–e–f–e–c–t–s–o–m–e–d–a–y–
+57 dem heroin herman -> –d–e–m–h–e–r–o–i–n–h–e–r–m–a–n–
+58 itta infantry slapped -> –i–t–t–a–i–n–f–a–n–t–r–y–s–l–a–p–p–e–d–
+59 cimentos fleurs maternal -> –c–i–m–e–n–t–o–s–f–l–e–u–r–s–m–a–t–e–r–n–a–l–
+60 gele cuad ork -> –g–e–l–e–c–u–a–d–o–r–k–
+61 tokens summed consumes -> –t–o–k–e–n–s–s–u–m–m–e–d–c–o–n–s–u–m–e–s–
+62 ivit escap nok -> –i–v–i–t–e–s–c–a–p–n–o–k–
+63 ahm bd sid -> –a–h–m–b–d–s–i–d–
+64 great shuff cnt -> –g–r–e–a–t–s–h–u–f–f–c–n–t–
+65 yg sucrose pix -> –y–g–s–u–c–r–o–s–e–p–i–x–
+66 oru acaba automne -> –o–r–u–a–c–a–b–a–a–u–t–o–m–n–e–
+67 ociated physique canad -> –o–c–i–a–t–e–d–p–h–y–s–i–q–u–e–c–a–n–a–d–
+68 me probable infrastr -> –m–e–p–r–o–b–a–b–l–e–i–n–f–r–a–s–t–r–
+69 isco wij gan -> –i–s–c–o–w–i–j–g–a–n–
+70 rar seldom blancs -> –r–a–r–s–e–l–d–o–m–b–l–a–n–c–s–
+71 elson rozgr promu -> –e–l–s–o–n–r–o–z–g–r–p–r–o–m–u–
+72 ionych transf unusual -> –i–o–n–y–c–h–t–r–a–n–s–f–u–n–u–s–u–a–l–
+73 ulk epiderm vy -> –u–l–k–e–p–i–d–e–r–m–v–y–
+74 erse deer holders -> –e–r–s–e–d–e–e–r–h–o–l–d–e–r–s–
+75 arial mez sotto -> –a–r–i–a–l–m–e–z–s–o–t–t–o–
+76 stuk passa wr -> –s–t–u–k–p–a–s–s–a–w–r–
+77 emarken garn grafting -> –e–m–a–r–k–e–n–g–a–r–n–g–r–a–f–t–i–n–g–
+78 tools vaccines temat -> –t–o–o–l–s–v–a–c–c–i–n–e–s–t–e–m–a–t–
+79 garde group ovary -> –g–a–r–d–e–g–r–o–u–p–o–v–a–r–y–
+80 entr fazem shrugged -> –e–n–t–r–f–a–z–e–m–s–h–r–u–g–g–e–d–
+81 nek miles gesetz -> –n–e–k–m–i–l–e–s–g–e–s–e–t–z–
+82 prus til erste -> –p–r–u–s–t–i–l–e–r–s–t–e–
+83 stelle human presenti -> –s–t–e–l–l–e–h–u–m–a–n–p–r–e–s–e–n–t–i–
+84 indra cleaned destac -> –i–n–d–r–a–c–l–e–a–n–e–d–d–e–s–t–a–c–
+85 iscopal dia descart -> –i–s–c–o–p–a–l–d–i–a–d–e–s–c–a–r–t–
+86 ither mater harus -> –i–t–h–e–r–m–a–t–e–r–h–a–r–u–s–
+87 rieb spoon telefono -> –r–i–e–b–s–p–o–o–n–t–e–l–e–f–o–n–o–
+88 leg metode incur -> –l–e–g–m–e–t–o–d–e–i–n–c–u–r–
+89 uty sting chemok -> –u–t–y–s–t–i–n–g–c–h–e–m–o–k–
+90 serve przew phase -> –s–e–r–v–e–p–r–z–e–w–p–h–a–s–e–
+91 odik kingdoms appetite -> –o–d–i–k–k–i–n–g–d–o–m–s–a–p–p–e–t–i–t–e–
+92 enze gober dans -> –e–n–z–e–g–o–b–e–r–d–a–n–s–
+93 opatra kelet voisin -> –o–p–a–t–r–a–k–e–l–e–t–v–o–i–s–i–n–
+94 kommer salah riv -> –k–o–m–m–e–r–s–a–l–a–h–r–i–v–
+95 pung rd odio -> –p–u–n–g–r–d–o–d–i–o–
+96 children strani arme -> –c–h–i–l–d–r–e–n–s–t–r–a–n–i–a–r–m–e–
+97 indows pyramid eyebrows -> –i–n–d–o–w–s–p–y–r–a–m–i–d–e–y–e–b–r–o–w–s–
+98 border grac gevolg -> –b–o–r–d–e–r–g–r–a–c–g–e–v–o–l–g–
+99 phicon flooding envi -> –p–h–i–c–o–n–f–l–o–o–d–i–n–g–e–n–v–i–

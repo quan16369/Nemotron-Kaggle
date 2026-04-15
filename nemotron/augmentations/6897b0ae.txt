@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 ented szer yeniden
+01 wny lazy memset
+02 ragments aplica executes
+
+This is a sample output.
+00 ented szer yeniden -> –e–n–t–e–d–s–z–e–r–y–e–n–i–d–e–n–
+01 wny lazy memset -> –w–n–y–l–a–z–y–m–e–m–s–e–t–
+02 ragments aplica executes -> –r–a–g–m–e–n–t–s–a–p–l–i–c–a–e–x–e–c–u–t–e–s–
+
+This is your input.
+00 pository textos kyr
+01 lang terceira conoc
+02 kami autonome papa
+03 event inesper goals
+04 anime helyzet incom
+05 kiye court piso
+06 gegen chitar tunn
+07 side uprav loint
+08 hooting vesicle relief
+09 uce incluyen fire
+10 ausen millions png
+11 ytt isot sky
+12 skap vard ponto
+13 inge znajduje quelques
+14 esters voto bombers
+15 bron producto wrote
+16 vezett posto pytest
+17 inawa fine restruct
+18 ilih soutient entendre
+19 cribing soff victime
+20 utan chemin obter
+21 annya pintura pieno
+22 fy kreeg cyl
+23 lekt vecinos spermato
+24 duced bias redout
+25 forecast axonal evento
+26 pler neutrons presumed
+27 gab fueran ignor
+28 ollision aprov grup
+29 agnar reck kontroll
+30 ulaires profile sympath
+31 uper gebeur bure
+32 hei escol active
+33 ected illust gaseous
+34 nance bladder majors
+35 ow dotycz ranc
+36 erdere refle miss
+37 ianos brushing capa
+38 fahrt suy drei
+39 decyd agitated przeciw
+40 chief jamo tanpa
+41 aisons measure fly
+42 enche presse senza
+43 roda rusa pickle
+44 helpers edir frappe
+45 arah obliged colonias
+46 vista anarch sorting
+47 umente of rythme
+48 olph beein become
+49 ruck fut retenir
+50 daction owe idea
+51 ibliot adorable cyclo
+52 el numerous levar
+53 inely cuartos loved
+54 ydown nx pou
+55 stern vagy zas
+56 bahnen silla vot
+57 adena verv nobile
+58 ogue ingres boca
+59 ver immunos craft
+60 orative squ durante
+61 iding gagn solo
+62 igste negras erreg
+63 met disse alloy
+64 nement mesin pelle
+65 verified illustr modeled
+66 ycin terzo redesign
+67 async cavern dancing
+68 bject einige viele
+69 ophyll hind wydar
+70 iculture enfo woods
+71 ilaren kub actuel
+72 blos grotte aqueous
+73 testing labs zunehm
+74 coord heroes zaz
+75 abolic solide druga
+76 connect modul manifest
+77 zono ju tropical
+78 odil ouverte folle
+79 ubi sparse led
+80 ottak vjet erreur
+81 nelles sangat adrenal
+82 zott carousel turno
+83 zehn prej respecto
+84 lager estek doivent
+85 yroidism staten carreira
+86 bra mak faixas
+87 como sheath mettent
+88 erio sketch sacr
+89 unst clandest unfor
+90 orer resolves nummer
+91 ilience porosity swiftly
+92 pektive subgroup kidn
+93 itated dub vak
+94 keen robot contro
+95 untza produkt museum
+96 max freeze hitherto
+97 icamente recipe inhom
+98 adesh yksi daytime
+99 fast study rug
+[completion]
+00 pository textos kyr -> –p–o–s–i–t–o–r–y–t–e–x–t–o–s–k–y–r–
+01 lang terceira conoc -> –l–a–n–g–t–e–r–c–e–i–r–a–c–o–n–o–c–
+02 kami autonome papa -> –k–a–m–i–a–u–t–o–n–o–m–e–p–a–p–a–
+03 event inesper goals -> –e–v–e–n–t–i–n–e–s–p–e–r–g–o–a–l–s–
+04 anime helyzet incom -> –a–n–i–m–e–h–e–l–y–z–e–t–i–n–c–o–m–
+05 kiye court piso -> –k–i–y–e–c–o–u–r–t–p–i–s–o–
+06 gegen chitar tunn -> –g–e–g–e–n–c–h–i–t–a–r–t–u–n–n–
+07 side uprav loint -> –s–i–d–e–u–p–r–a–v–l–o–i–n–t–
+08 hooting vesicle relief -> –h–o–o–t–i–n–g–v–e–s–i–c–l–e–r–e–l–i–e–f–
+09 uce incluyen fire -> –u–c–e–i–n–c–l–u–y–e–n–f–i–r–e–
+10 ausen millions png -> –a–u–s–e–n–m–i–l–l–i–o–n–s–p–n–g–
+11 ytt isot sky -> –y–t–t–i–s–o–t–s–k–y–
+12 skap vard ponto -> –s–k–a–p–v–a–r–d–p–o–n–t–o–
+13 inge znajduje quelques -> –i–n–g–e–z–n–a–j–d–u–j–e–q–u–e–l–q–u–e–s–
+14 esters voto bombers -> –e–s–t–e–r–s–v–o–t–o–b–o–m–b–e–r–s–
+15 bron producto wrote -> –b–r–o–n–p–r–o–d–u–c–t–o–w–r–o–t–e–
+16 vezett posto pytest -> –v–e–z–e–t–t–p–o–s–t–o–p–y–t–e–s–t–
+17 inawa fine restruct -> –i–n–a–w–a–f–i–n–e–r–e–s–t–r–u–c–t–
+18 ilih soutient entendre -> –i–l–i–h–s–o–u–t–i–e–n–t–e–n–t–e–n–d–r–e–
+19 cribing soff victime -> –c–r–i–b–i–n–g–s–o–f–f–v–i–c–t–i–m–e–
+20 utan chemin obter -> –u–t–a–n–c–h–e–m–i–n–o–b–t–e–r–
+21 annya pintura pieno -> –a–n–n–y–a–p–i–n–t–u–r–a–p–i–e–n–o–
+22 fy kreeg cyl -> –f–y–k–r–e–e–g–c–y–l–
+23 lekt vecinos spermato -> –l–e–k–t–v–e–c–i–n–o–s–s–p–e–r–m–a–t–o–
+24 duced bias redout -> –d–u–c–e–d–b–i–a–s–r–e–d–o–u–t–
+25 forecast axonal evento -> –f–o–r–e–c–a–s–t–a–x–o–n–a–l–e–v–e–n–t–o–
+26 pler neutrons presumed -> –p–l–e–r–n–e–u–t–r–o–n–s–p–r–e–s–u–m–e–d–
+27 gab fueran ignor -> –g–a–b–f–u–e–r–a–n–i–g–n–o–r–
+28 ollision aprov grup -> –o–l–l–i–s–i–o–n–a–p–r–o–v–g–r–u–p–
+29 agnar reck kontroll -> –a–g–n–a–r–r–e–c–k–k–o–n–t–r–o–l–l–
+30 ulaires profile sympath -> –u–l–a–i–r–e–s–p–r–o–f–i–l–e–s–y–m–p–a–t–h–
+31 uper gebeur bure -> –u–p–e–r–g–e–b–e–u–r–b–u–r–e–
+32 hei escol active -> –h–e–i–e–s–c–o–l–a–c–t–i–v–e–
+33 ected illust gaseous -> –e–c–t–e–d–i–l–l–u–s–t–g–a–s–e–o–u–s–
+34 nance bladder majors -> –n–a–n–c–e–b–l–a–d–d–e–r–m–a–j–o–r–s–
+35 ow dotycz ranc -> –o–w–d–o–t–y–c–z–r–a–n–c–
+36 erdere refle miss -> –e–r–d–e–r–e–r–e–f–l–e–m–i–s–s–
+37 ianos brushing capa -> –i–a–n–o–s–b–r–u–s–h–i–n–g–c–a–p–a–
+38 fahrt suy drei -> –f–a–h–r–t–s–u–y–d–r–e–i–
+39 decyd agitated przeciw -> –d–e–c–y–d–a–g–i–t–a–t–e–d–p–r–z–e–c–i–w–
+40 chief jamo tanpa -> –c–h–i–e–f–j–a–m–o–t–a–n–p–a–
+41 aisons measure fly -> –a–i–s–o–n–s–m–e–a–s–u–r–e–f–l–y–
+42 enche presse senza -> –e–n–c–h–e–p–r–e–s–s–e–s–e–n–z–a–
+43 roda rusa pickle -> –r–o–d–a–r–u–s–a–p–i–c–k–l–e–
+44 helpers edir frappe -> –h–e–l–p–e–r–s–e–d–i–r–f–r–a–p–p–e–
+45 arah obliged colonias -> –a–r–a–h–o–b–l–i–g–e–d–c–o–l–o–n–i–a–s–
+46 vista anarch sorting -> –v–i–s–t–a–a–n–a–r–c–h–s–o–r–t–i–n–g–
+47 umente of rythme -> –u–m–e–n–t–e–o–f–r–y–t–h–m–e–
+48 olph beein become -> –o–l–p–h–b–e–e–i–n–b–e–c–o–m–e–
+49 ruck fut retenir -> –r–u–c–k–f–u–t–r–e–t–e–n–i–r–
+50 daction owe idea -> –d–a–c–t–i–o–n–o–w–e–i–d–e–a–
+51 ibliot adorable cyclo -> –i–b–l–i–o–t–a–d–o–r–a–b–l–e–c–y–c–l–o–
+52 el numerous levar -> –e–l–n–u–m–e–r–o–u–s–l–e–v–a–r–
+53 inely cuartos loved -> –i–n–e–l–y–c–u–a–r–t–o–s–l–o–v–e–d–
+54 ydown nx pou -> –y–d–o–w–n–n–x–p–o–u–
+55 stern vagy zas -> –s–t–e–r–n–v–a–g–y–z–a–s–
+56 bahnen silla vot -> –b–a–h–n–e–n–s–i–l–l–a–v–o–t–
+57 adena verv nobile -> –a–d–e–n–a–v–e–r–v–n–o–b–i–l–e–
+58 ogue ingres boca -> –o–g–u–e–i–n–g–r–e–s–b–o–c–a–
+59 ver immunos craft -> –v–e–r–i–m–m–u–n–o–s–c–r–a–f–t–
+60 orative squ durante -> –o–r–a–t–i–v–e–s–q–u–d–u–r–a–n–t–e–
+61 iding gagn solo -> –i–d–i–n–g–g–a–g–n–s–o–l–o–
+62 igste negras erreg -> –i–g–s–t–e–n–e–g–r–a–s–e–r–r–e–g–
+63 met disse alloy -> –m–e–t–d–i–s–s–e–a–l–l–o–y–
+64 nement mesin pelle -> –n–e–m–e–n–t–m–e–s–i–n–p–e–l–l–e–
+65 verified illustr modeled -> –v–e–r–i–f–i–e–d–i–l–l–u–s–t–r–m–o–d–e–l–e–d–
+66 ycin terzo redesign -> –y–c–i–n–t–e–r–z–o–r–e–d–e–s–i–g–n–
+67 async cavern dancing -> –a–s–y–n–c–c–a–v–e–r–n–d–a–n–c–i–n–g–
+68 bject einige viele -> –b–j–e–c–t–e–i–n–i–g–e–v–i–e–l–e–
+69 ophyll hind wydar -> –o–p–h–y–l–l–h–i–n–d–w–y–d–a–r–
+70 iculture enfo woods -> –i–c–u–l–t–u–r–e–e–n–f–o–w–o–o–d–s–
+71 ilaren kub actuel -> –i–l–a–r–e–n–k–u–b–a–c–t–u–e–l–
+72 blos grotte aqueous -> –b–l–o–s–g–r–o–t–t–e–a–q–u–e–o–u–s–
+73 testing labs zunehm -> –t–e–s–t–i–n–g–l–a–b–s–z–u–n–e–h–m–
+74 coord heroes zaz -> –c–o–o–r–d–h–e–r–o–e–s–z–a–z–
+75 abolic solide druga -> –a–b–o–l–i–c–s–o–l–i–d–e–d–r–u–g–a–
+76 connect modul manifest -> –c–o–n–n–e–c–t–m–o–d–u–l–m–a–n–i–f–e–s–t–
+77 zono ju tropical -> –z–o–n–o–j–u–t–r–o–p–i–c–a–l–
+78 odil ouverte folle -> –o–d–i–l–o–u–v–e–r–t–e–f–o–l–l–e–
+79 ubi sparse led -> –u–b–i–s–p–a–r–s–e–l–e–d–
+80 ottak vjet erreur -> –o–t–t–a–k–v–j–e–t–e–r–r–e–u–r–
+81 nelles sangat adrenal -> –n–e–l–l–e–s–s–a–n–g–a–t–a–d–r–e–n–a–l–
+82 zott carousel turno -> –z–o–t–t–c–a–r–o–u–s–e–l–t–u–r–n–o–
+83 zehn prej respecto -> –z–e–h–n–p–r–e–j–r–e–s–p–e–c–t–o–
+84 lager estek doivent -> –l–a–g–e–r–e–s–t–e–k–d–o–i–v–e–n–t–
+85 yroidism staten carreira -> –y–r–o–i–d–i–s–m–s–t–a–t–e–n–c–a–r–r–e–i–r–a–
+86 bra mak faixas -> –b–r–a–m–a–k–f–a–i–x–a–s–
+87 como sheath mettent -> –c–o–m–o–s–h–e–a–t–h–m–e–t–t–e–n–t–
+88 erio sketch sacr -> –e–r–i–o–s–k–e–t–c–h–s–a–c–r–
+89 unst clandest unfor -> –u–n–s–t–c–l–a–n–d–e–s–t–u–n–f–o–r–
+90 orer resolves nummer -> –o–r–e–r–r–e–s–o–l–v–e–s–n–u–m–m–e–r–
+91 ilience porosity swiftly -> –i–l–i–e–n–c–e–p–o–r–o–s–i–t–y–s–w–i–f–t–l–y–
+92 pektive subgroup kidn -> –p–e–k–t–i–v–e–s–u–b–g–r–o–u–p–k–i–d–n–
+93 itated dub vak -> –i–t–a–t–e–d–d–u–b–v–a–k–
+94 keen robot contro -> –k–e–e–n–r–o–b–o–t–c–o–n–t–r–o–
+95 untza produkt museum -> –u–n–t–z–a–p–r–o–d–u–k–t–m–u–s–e–u–m–
+96 max freeze hitherto -> –m–a–x–f–r–e–e–z–e–h–i–t–h–e–r–t–o–
+97 icamente recipe inhom -> –i–c–a–m–e–n–t–e–r–e–c–i–p–e–i–n–h–o–m–
+98 adesh yksi daytime -> –a–d–e–s–h–y–k–s–i–d–a–y–t–i–m–e–
+99 fast study rug -> –f–a–s–t–s–t–u–d–y–r–u–g–

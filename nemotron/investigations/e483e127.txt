@@ -1,0 +1,26 @@
+problem id: e483e127
+category: cryptarithm_deduce
+
+symbol-to-digit mapping:
+  '#' = 3
+  "'" = 1
+  ')' = 4
+  ':' = 8
+  '<' = 0
+  '>' = 6
+  ']' = 2
+  '`' = 5
+  '|' = 7
+
+operator-to-operation mapping:
+  '{' = add
+  '}' = mul
+
+examples:
+  )]}>) = ]>::  =>  42 * 64 = 2688
+  )'{)< = :'  =>  41 + 40 = 81
+  `#{|' = '])  =>  53 + 71 = 124
+
+query: :]}#:  =>  82 * 38 = 3116
+
+predicted answer: #''>

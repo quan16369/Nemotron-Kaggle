@@ -1,0 +1,55 @@
+Problem ID: febd3442
+Category: equation_numeric_deduce
+
+Examples:
+- 96-27 = 3
+- 78+05 = 631
+- 31*82 = 463
+- 76-66 = 1
+- Query: 64-77
+
+Cryptarithmetic-style setup:
+Treat each 2-digit block `xy` as the decimal number `10x + y`.
+Define a digit-reversal function on 2-digit numbers:
+`rev(10x + y) = 10y + x`.
+
+Inferred rule:
+For the `-` operator, decode both operands, reverse each 2-digit number,
+take the absolute difference, then reverse the digits of that result.
+
+In symbols:
+`ab - cd -> rev(|rev(ab) - rev(cd)|)`.
+
+Why this fits the `-` examples:
+- `96-27 = 3`
+  - `rev(96) = 69`
+  - `rev(27) = 72`
+  - `|69 - 72| = 3`
+  - `rev(3) = 3`
+- `76-66 = 1`
+  - `rev(76) = 67`
+  - `rev(66) = 66`
+  - `|67 - 66| = 1`
+  - `rev(1) = 1`
+
+The `+` and `*` examples belong to different operator families and are not
+needed for the query.
+
+Step-by-step application to the query:
+1. Decode the operands `64` and `77`.
+2. Reverse them:
+   - `rev(64) = 46`
+   - `rev(77) = 77`
+3. Take the absolute difference:
+   - `|46 - 77| = 31`
+4. Reverse the result digits:
+   - `rev(31) = 13`
+
+Predicted answer:
+13
+
+Confidence note:
+Moderate to high. Both `-` examples fit the same digit-reversal equation
+exactly. The only uncertainty is that there are just two training examples
+for `-`, so a more elaborate operator-specific rule cannot be ruled out
+completely.

@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 avnom carbur armi
+01 ijon jacket basta
+02 uerite arrogant algorith
+
+This is a sample output.
+00 avnom carbur armi -> –a–v–n–o–m–c–a–r–b–u–r–a–r–m–i–
+01 ijon jacket basta -> –i–j–o–n–j–a–c–k–e–t–b–a–s–t–a–
+02 uerite arrogant algorith -> –u–e–r–i–t–e–a–r–r–o–g–a–n–t–a–l–g–o–r–i–t–h–
+
+This is your input.
+00 ta ut dve
+01 lerde llegado atto
+02 inak nimmt seawater
+03 owaniu totally proclaim
+04 anz sucking kese
+05 amental reacted dedica
+06 origin gusto jong
+07 abric assign trape
+08 asi train enpresa
+09 uelve pavement flag
+10 mil costat lui
+11 anty ersche citizens
+12 far vald kinetics
+13 elli supports could
+14 ovan pleno soutenu
+15 estimate perce trip
+16 archie svemiru teamm
+17 eder sew indist
+18 bolt kinh tantos
+19 agra femme absorber
+20 mut asset revenu
+21 ola arrange amelyek
+22 imbab neutron mesma
+23 cord paroiss aquela
+24 last nieder symmet
+25 istisch towers args
+26 manent schnell pada
+27 nissen gasoline dental
+28 undan uitz beyond
+29 uments piacere operable
+30 ink vacation nucl
+31 uves posting razem
+32 vereiro rey corre
+33 illing prejud bois
+34 central cunha fellows
+35 control gems ge
+36 mathbb sinds panor
+37 aq charm klein
+38 raries halv intenta
+39 zv couch walking
+40 mother riun speed
+41 gende avait kap
+42 rate siyas slow
+43 vih might cac
+44 lossenen voud dirigir
+45 apon blessure biv
+46 escent regreso sexuelle
+47 iewe danske hides
+48 clus blogs vapor
+49 bi toplam tes
+50 price adults annual
+51 omi ancient unable
+52 igger fork danger
+53 ulta naro wont
+54 theme birth prepare
+55 ems transc marche
+56 psi being minute
+57 by seasons thrott
+58 adero small brachte
+59 riel seus emblem
+60 quired talento drugim
+61 peptide traten tally
+62 znej sucked utr
+63 ferred comprend vorbere
+64 frame humides feminin
+65 bitmap fech bry
+66 nik porta pint
+67 pped imm blocs
+68 oclonal proceso slutt
+69 abrik este beri
+70 rul praise romain
+71 ammans partite atender
+72 ivat essere clocks
+73 geons wsk tester
+74 anging desires perox
+75 ciously atter compiled
+76 ouches reconnu znis
+77 precated leaked oak
+78 folg pruebas chairman
+79 arto poissons entrambi
+80 ention audi closes
+81 ain charter rect
+82 oggler breeze neither
+83 klam polymer kett
+84 gru gev unfold
+85 ijs somente aldea
+86 girl ehe rodzin
+87 iph fegy hason
+88 ancier fprintf mnoho
+89 rils ruling degrees
+90 ssl master monnaie
+91 iece einsch quali
+92 amt poesia resides
+93 olated stratum move
+94 bez housed sugar
+95 epad subclass stellt
+96 avn suatu petrol
+97 atia filters datasets
+98 ukat entier mesi
+99 olf caus maar
+[completion]
+00 ta ut dve -> –t–a–u–t–d–v–e–
+01 lerde llegado atto -> –l–e–r–d–e–l–l–e–g–a–d–o–a–t–t–o–
+02 inak nimmt seawater -> –i–n–a–k–n–i–m–m–t–s–e–a–w–a–t–e–r–
+03 owaniu totally proclaim -> –o–w–a–n–i–u–t–o–t–a–l–l–y–p–r–o–c–l–a–i–m–
+04 anz sucking kese -> –a–n–z–s–u–c–k–i–n–g–k–e–s–e–
+05 amental reacted dedica -> –a–m–e–n–t–a–l–r–e–a–c–t–e–d–d–e–d–i–c–a–
+06 origin gusto jong -> –o–r–i–g–i–n–g–u–s–t–o–j–o–n–g–
+07 abric assign trape -> –a–b–r–i–c–a–s–s–i–g–n–t–r–a–p–e–
+08 asi train enpresa -> –a–s–i–t–r–a–i–n–e–n–p–r–e–s–a–
+09 uelve pavement flag -> –u–e–l–v–e–p–a–v–e–m–e–n–t–f–l–a–g–
+10 mil costat lui -> –m–i–l–c–o–s–t–a–t–l–u–i–
+11 anty ersche citizens -> –a–n–t–y–e–r–s–c–h–e–c–i–t–i–z–e–n–s–
+12 far vald kinetics -> –f–a–r–v–a–l–d–k–i–n–e–t–i–c–s–
+13 elli supports could -> –e–l–l–i–s–u–p–p–o–r–t–s–c–o–u–l–d–
+14 ovan pleno soutenu -> –o–v–a–n–p–l–e–n–o–s–o–u–t–e–n–u–
+15 estimate perce trip -> –e–s–t–i–m–a–t–e–p–e–r–c–e–t–r–i–p–
+16 archie svemiru teamm -> –a–r–c–h–i–e–s–v–e–m–i–r–u–t–e–a–m–m–
+17 eder sew indist -> –e–d–e–r–s–e–w–i–n–d–i–s–t–
+18 bolt kinh tantos -> –b–o–l–t–k–i–n–h–t–a–n–t–o–s–
+19 agra femme absorber -> –a–g–r–a–f–e–m–m–e–a–b–s–o–r–b–e–r–
+20 mut asset revenu -> –m–u–t–a–s–s–e–t–r–e–v–e–n–u–
+21 ola arrange amelyek -> –o–l–a–a–r–r–a–n–g–e–a–m–e–l–y–e–k–
+22 imbab neutron mesma -> –i–m–b–a–b–n–e–u–t–r–o–n–m–e–s–m–a–
+23 cord paroiss aquela -> –c–o–r–d–p–a–r–o–i–s–s–a–q–u–e–l–a–
+24 last nieder symmet -> –l–a–s–t–n–i–e–d–e–r–s–y–m–m–e–t–
+25 istisch towers args -> –i–s–t–i–s–c–h–t–o–w–e–r–s–a–r–g–s–
+26 manent schnell pada -> –m–a–n–e–n–t–s–c–h–n–e–l–l–p–a–d–a–
+27 nissen gasoline dental -> –n–i–s–s–e–n–g–a–s–o–l–i–n–e–d–e–n–t–a–l–
+28 undan uitz beyond -> –u–n–d–a–n–u–i–t–z–b–e–y–o–n–d–
+29 uments piacere operable -> –u–m–e–n–t–s–p–i–a–c–e–r–e–o–p–e–r–a–b–l–e–
+30 ink vacation nucl -> –i–n–k–v–a–c–a–t–i–o–n–n–u–c–l–
+31 uves posting razem -> –u–v–e–s–p–o–s–t–i–n–g–r–a–z–e–m–
+32 vereiro rey corre -> –v–e–r–e–i–r–o–r–e–y–c–o–r–r–e–
+33 illing prejud bois -> –i–l–l–i–n–g–p–r–e–j–u–d–b–o–i–s–
+34 central cunha fellows -> –c–e–n–t–r–a–l–c–u–n–h–a–f–e–l–l–o–w–s–
+35 control gems ge -> –c–o–n–t–r–o–l–g–e–m–s–g–e–
+36 mathbb sinds panor -> –m–a–t–h–b–b–s–i–n–d–s–p–a–n–o–r–
+37 aq charm klein -> –a–q–c–h–a–r–m–k–l–e–i–n–
+38 raries halv intenta -> –r–a–r–i–e–s–h–a–l–v–i–n–t–e–n–t–a–
+39 zv couch walking -> –z–v–c–o–u–c–h–w–a–l–k–i–n–g–
+40 mother riun speed -> –m–o–t–h–e–r–r–i–u–n–s–p–e–e–d–
+41 gende avait kap -> –g–e–n–d–e–a–v–a–i–t–k–a–p–
+42 rate siyas slow -> –r–a–t–e–s–i–y–a–s–s–l–o–w–
+43 vih might cac -> –v–i–h–m–i–g–h–t–c–a–c–
+44 lossenen voud dirigir -> –l–o–s–s–e–n–e–n–v–o–u–d–d–i–r–i–g–i–r–
+45 apon blessure biv -> –a–p–o–n–b–l–e–s–s–u–r–e–b–i–v–
+46 escent regreso sexuelle -> –e–s–c–e–n–t–r–e–g–r–e–s–o–s–e–x–u–e–l–l–e–
+47 iewe danske hides -> –i–e–w–e–d–a–n–s–k–e–h–i–d–e–s–
+48 clus blogs vapor -> –c–l–u–s–b–l–o–g–s–v–a–p–o–r–
+49 bi toplam tes -> –b–i–t–o–p–l–a–m–t–e–s–
+50 price adults annual -> –p–r–i–c–e–a–d–u–l–t–s–a–n–n–u–a–l–
+51 omi ancient unable -> –o–m–i–a–n–c–i–e–n–t–u–n–a–b–l–e–
+52 igger fork danger -> –i–g–g–e–r–f–o–r–k–d–a–n–g–e–r–
+53 ulta naro wont -> –u–l–t–a–n–a–r–o–w–o–n–t–
+54 theme birth prepare -> –t–h–e–m–e–b–i–r–t–h–p–r–e–p–a–r–e–
+55 ems transc marche -> –e–m–s–t–r–a–n–s–c–m–a–r–c–h–e–
+56 psi being minute -> –p–s–i–b–e–i–n–g–m–i–n–u–t–e–
+57 by seasons thrott -> –b–y–s–e–a–s–o–n–s–t–h–r–o–t–t–
+58 adero small brachte -> –a–d–e–r–o–s–m–a–l–l–b–r–a–c–h–t–e–
+59 riel seus emblem -> –r–i–e–l–s–e–u–s–e–m–b–l–e–m–
+60 quired talento drugim -> –q–u–i–r–e–d–t–a–l–e–n–t–o–d–r–u–g–i–m–
+61 peptide traten tally -> –p–e–p–t–i–d–e–t–r–a–t–e–n–t–a–l–l–y–
+62 znej sucked utr -> –z–n–e–j–s–u–c–k–e–d–u–t–r–
+63 ferred comprend vorbere -> –f–e–r–r–e–d–c–o–m–p–r–e–n–d–v–o–r–b–e–r–e–
+64 frame humides feminin -> –f–r–a–m–e–h–u–m–i–d–e–s–f–e–m–i–n–i–n–
+65 bitmap fech bry -> –b–i–t–m–a–p–f–e–c–h–b–r–y–
+66 nik porta pint -> –n–i–k–p–o–r–t–a–p–i–n–t–
+67 pped imm blocs -> –p–p–e–d–i–m–m–b–l–o–c–s–
+68 oclonal proceso slutt -> –o–c–l–o–n–a–l–p–r–o–c–e–s–o–s–l–u–t–t–
+69 abrik este beri -> –a–b–r–i–k–e–s–t–e–b–e–r–i–
+70 rul praise romain -> –r–u–l–p–r–a–i–s–e–r–o–m–a–i–n–
+71 ammans partite atender -> –a–m–m–a–n–s–p–a–r–t–i–t–e–a–t–e–n–d–e–r–
+72 ivat essere clocks -> –i–v–a–t–e–s–s–e–r–e–c–l–o–c–k–s–
+73 geons wsk tester -> –g–e–o–n–s–w–s–k–t–e–s–t–e–r–
+74 anging desires perox -> –a–n–g–i–n–g–d–e–s–i–r–e–s–p–e–r–o–x–
+75 ciously atter compiled -> –c–i–o–u–s–l–y–a–t–t–e–r–c–o–m–p–i–l–e–d–
+76 ouches reconnu znis -> –o–u–c–h–e–s–r–e–c–o–n–n–u–z–n–i–s–
+77 precated leaked oak -> –p–r–e–c–a–t–e–d–l–e–a–k–e–d–o–a–k–
+78 folg pruebas chairman -> –f–o–l–g–p–r–u–e–b–a–s–c–h–a–i–r–m–a–n–
+79 arto poissons entrambi -> –a–r–t–o–p–o–i–s–s–o–n–s–e–n–t–r–a–m–b–i–
+80 ention audi closes -> –e–n–t–i–o–n–a–u–d–i–c–l–o–s–e–s–
+81 ain charter rect -> –a–i–n–c–h–a–r–t–e–r–r–e–c–t–
+82 oggler breeze neither -> –o–g–g–l–e–r–b–r–e–e–z–e–n–e–i–t–h–e–r–
+83 klam polymer kett -> –k–l–a–m–p–o–l–y–m–e–r–k–e–t–t–
+84 gru gev unfold -> –g–r–u–g–e–v–u–n–f–o–l–d–
+85 ijs somente aldea -> –i–j–s–s–o–m–e–n–t–e–a–l–d–e–a–
+86 girl ehe rodzin -> –g–i–r–l–e–h–e–r–o–d–z–i–n–
+87 iph fegy hason -> –i–p–h–f–e–g–y–h–a–s–o–n–
+88 ancier fprintf mnoho -> –a–n–c–i–e–r–f–p–r–i–n–t–f–m–n–o–h–o–
+89 rils ruling degrees -> –r–i–l–s–r–u–l–i–n–g–d–e–g–r–e–e–s–
+90 ssl master monnaie -> –s–s–l–m–a–s–t–e–r–m–o–n–n–a–i–e–
+91 iece einsch quali -> –i–e–c–e–e–i–n–s–c–h–q–u–a–l–i–
+92 amt poesia resides -> –a–m–t–p–o–e–s–i–a–r–e–s–i–d–e–s–
+93 olated stratum move -> –o–l–a–t–e–d–s–t–r–a–t–u–m–m–o–v–e–
+94 bez housed sugar -> –b–e–z–h–o–u–s–e–d–s–u–g–a–r–
+95 epad subclass stellt -> –e–p–a–d–s–u–b–c–l–a–s–s–s–t–e–l–l–t–
+96 avn suatu petrol -> –a–v–n–s–u–a–t–u–p–e–t–r–o–l–
+97 atia filters datasets -> –a–t–i–a–f–i–l–t–e–r–s–d–a–t–a–s–e–t–s–
+98 ukat entier mesi -> –u–k–a–t–e–n–t–i–e–r–m–e–s–i–
+99 olf caus maar -> –o–l–f–c–a–u–s–m–a–a–r–

@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 usal handful discours
+01 ructor costume tough
+02 ational prowad sok
+
+This is a sample output.
+00 usal handful discours -> –u–s–a–l–h–a–n–d–f–u–l–d–i–s–c–o–u–r–s–
+01 ructor costume tough -> –r–u–c–t–o–r–c–o–s–t–u–m–e–t–o–u–g–h–
+02 ational prowad sok -> –a–t–i–o–n–a–l–p–r–o–w–a–d–s–o–k–
+
+This is your input.
+00 rachten pomoc iran
+01 attes sne baz
+02 formance whence asust
+03 compar composto veloc
+04 posal largely spawned
+05 atuak remake undert
+06 edly merchant krom
+07 emy atmosf precaut
+08 ffer famoso alem
+09 epend rigor branding
+10 iping ide faj
+11 pekte promptly absolut
+12 heure qad testi
+13 gica concave copy
+14 likely arc aliases
+15 rah adsorb pixel
+16 imard acceptor discours
+17 haria mad tratar
+18 larga devised dragging
+19 live zvan jugando
+20 isseurs sahipt von
+21 ibu bije taste
+22 mons hatt renov
+23 orman wine roll
+24 ffe revient fab
+25 els determin deve
+26 owe indique vais
+27 iging pluvi suburban
+28 ducation solar mud
+29 ett wszyst attitude
+30 ars vrste agreed
+31 aderos refres cemetery
+32 roupes trumpet unnecess
+33 invalid mobility pred
+34 ivable paz kins
+35 plaats tarix lud
+36 onik magnetic inspired
+37 istiche quil platelet
+38 ovsk jakarta floods
+39 ellas gelten eram
+40 reda onion etdi
+41 loaded kb kilomet
+42 work beef qualcuno
+43 wich sud sainte
+44 poor newsp bottle
+45 ellig royaume quals
+46 arges decade dehyd
+47 coma clos folks
+48 kern letzter annular
+49 aciji noct vio
+50 location planned gl
+51 erintah drummer no
+52 ulator darunter nosso
+53 pe panic arbeiten
+54 nice chitosan appart
+55 uldade alp ondas
+56 ert demanded awesome
+57 gz betek claws
+58 enean boda consumer
+59 ruption unavo backs
+60 hmen shell models
+61 dem groupe privaten
+62 itta expiry ala
+63 cimentos seroton forms
+64 gele talents anybody
+65 tokens governed buah
+66 ivit resist cores
+67 ahm sensual everyday
+68 great partis falling
+69 yg esde eles
+70 oru cascade textbook
+71 ociated plantes paraf
+72 me japon polyphen
+73 isco costumes entradas
+74 rar offic basso
+75 elson aws wodurch
+76 ionych venezol suelo
+77 ulk forum feito
+78 erse illicit radical
+79 arial sure tackles
+80 stuk ordonne stell
+81 emarken crise gelangen
+82 tools assets baute
+83 garde treaty aversion
+84 entr exemplar armada
+85 nek tail itself
+86 prus warrant tais
+87 stelle anastom discern
+88 indra notes mene
+89 iscopal officer gewinnen
+90 ither jarduera mener
+91 rieb fruitful espaces
+92 leg anerk effectu
+93 uty nessa cadmium
+94 serve curing unexpl
+95 odik ocup bij
+96 enze rann formato
+97 opatra course dando
+98 kommer trong code
+99 pung calories backing
+[completion]
+00 rachten pomoc iran -> –r–a–c–h–t–e–n–p–o–m–o–c–i–r–a–n–
+01 attes sne baz -> –a–t–t–e–s–s–n–e–b–a–z–
+02 formance whence asust -> –f–o–r–m–a–n–c–e–w–h–e–n–c–e–a–s–u–s–t–
+03 compar composto veloc -> –c–o–m–p–a–r–c–o–m–p–o–s–t–o–v–e–l–o–c–
+04 posal largely spawned -> –p–o–s–a–l–l–a–r–g–e–l–y–s–p–a–w–n–e–d–
+05 atuak remake undert -> –a–t–u–a–k–r–e–m–a–k–e–u–n–d–e–r–t–
+06 edly merchant krom -> –e–d–l–y–m–e–r–c–h–a–n–t–k–r–o–m–
+07 emy atmosf precaut -> –e–m–y–a–t–m–o–s–f–p–r–e–c–a–u–t–
+08 ffer famoso alem -> –f–f–e–r–f–a–m–o–s–o–a–l–e–m–
+09 epend rigor branding -> –e–p–e–n–d–r–i–g–o–r–b–r–a–n–d–i–n–g–
+10 iping ide faj -> –i–p–i–n–g–i–d–e–f–a–j–
+11 pekte promptly absolut -> –p–e–k–t–e–p–r–o–m–p–t–l–y–a–b–s–o–l–u–t–
+12 heure qad testi -> –h–e–u–r–e–q–a–d–t–e–s–t–i–
+13 gica concave copy -> –g–i–c–a–c–o–n–c–a–v–e–c–o–p–y–
+14 likely arc aliases -> –l–i–k–e–l–y–a–r–c–a–l–i–a–s–e–s–
+15 rah adsorb pixel -> –r–a–h–a–d–s–o–r–b–p–i–x–e–l–
+16 imard acceptor discours -> –i–m–a–r–d–a–c–c–e–p–t–o–r–d–i–s–c–o–u–r–s–
+17 haria mad tratar -> –h–a–r–i–a–m–a–d–t–r–a–t–a–r–
+18 larga devised dragging -> –l–a–r–g–a–d–e–v–i–s–e–d–d–r–a–g–g–i–n–g–
+19 live zvan jugando -> –l–i–v–e–z–v–a–n–j–u–g–a–n–d–o–
+20 isseurs sahipt von -> –i–s–s–e–u–r–s–s–a–h–i–p–t–v–o–n–
+21 ibu bije taste -> –i–b–u–b–i–j–e–t–a–s–t–e–
+22 mons hatt renov -> –m–o–n–s–h–a–t–t–r–e–n–o–v–
+23 orman wine roll -> –o–r–m–a–n–w–i–n–e–r–o–l–l–
+24 ffe revient fab -> –f–f–e–r–e–v–i–e–n–t–f–a–b–
+25 els determin deve -> –e–l–s–d–e–t–e–r–m–i–n–d–e–v–e–
+26 owe indique vais -> –o–w–e–i–n–d–i–q–u–e–v–a–i–s–
+27 iging pluvi suburban -> –i–g–i–n–g–p–l–u–v–i–s–u–b–u–r–b–a–n–
+28 ducation solar mud -> –d–u–c–a–t–i–o–n–s–o–l–a–r–m–u–d–
+29 ett wszyst attitude -> –e–t–t–w–s–z–y–s–t–a–t–t–i–t–u–d–e–
+30 ars vrste agreed -> –a–r–s–v–r–s–t–e–a–g–r–e–e–d–
+31 aderos refres cemetery -> –a–d–e–r–o–s–r–e–f–r–e–s–c–e–m–e–t–e–r–y–
+32 roupes trumpet unnecess -> –r–o–u–p–e–s–t–r–u–m–p–e–t–u–n–n–e–c–e–s–s–
+33 invalid mobility pred -> –i–n–v–a–l–i–d–m–o–b–i–l–i–t–y–p–r–e–d–
+34 ivable paz kins -> –i–v–a–b–l–e–p–a–z–k–i–n–s–
+35 plaats tarix lud -> –p–l–a–a–t–s–t–a–r–i–x–l–u–d–
+36 onik magnetic inspired -> –o–n–i–k–m–a–g–n–e–t–i–c–i–n–s–p–i–r–e–d–
+37 istiche quil platelet -> –i–s–t–i–c–h–e–q–u–i–l–p–l–a–t–e–l–e–t–
+38 ovsk jakarta floods -> –o–v–s–k–j–a–k–a–r–t–a–f–l–o–o–d–s–
+39 ellas gelten eram -> –e–l–l–a–s–g–e–l–t–e–n–e–r–a–m–
+40 reda onion etdi -> –r–e–d–a–o–n–i–o–n–e–t–d–i–
+41 loaded kb kilomet -> –l–o–a–d–e–d–k–b–k–i–l–o–m–e–t–
+42 work beef qualcuno -> –w–o–r–k–b–e–e–f–q–u–a–l–c–u–n–o–
+43 wich sud sainte -> –w–i–c–h–s–u–d–s–a–i–n–t–e–
+44 poor newsp bottle -> –p–o–o–r–n–e–w–s–p–b–o–t–t–l–e–
+45 ellig royaume quals -> –e–l–l–i–g–r–o–y–a–u–m–e–q–u–a–l–s–
+46 arges decade dehyd -> –a–r–g–e–s–d–e–c–a–d–e–d–e–h–y–d–
+47 coma clos folks -> –c–o–m–a–c–l–o–s–f–o–l–k–s–
+48 kern letzter annular -> –k–e–r–n–l–e–t–z–t–e–r–a–n–n–u–l–a–r–
+49 aciji noct vio -> –a–c–i–j–i–n–o–c–t–v–i–o–
+50 location planned gl -> –l–o–c–a–t–i–o–n–p–l–a–n–n–e–d–g–l–
+51 erintah drummer no -> –e–r–i–n–t–a–h–d–r–u–m–m–e–r–n–o–
+52 ulator darunter nosso -> –u–l–a–t–o–r–d–a–r–u–n–t–e–r–n–o–s–s–o–
+53 pe panic arbeiten -> –p–e–p–a–n–i–c–a–r–b–e–i–t–e–n–
+54 nice chitosan appart -> –n–i–c–e–c–h–i–t–o–s–a–n–a–p–p–a–r–t–
+55 uldade alp ondas -> –u–l–d–a–d–e–a–l–p–o–n–d–a–s–
+56 ert demanded awesome -> –e–r–t–d–e–m–a–n–d–e–d–a–w–e–s–o–m–e–
+57 gz betek claws -> –g–z–b–e–t–e–k–c–l–a–w–s–
+58 enean boda consumer -> –e–n–e–a–n–b–o–d–a–c–o–n–s–u–m–e–r–
+59 ruption unavo backs -> –r–u–p–t–i–o–n–u–n–a–v–o–b–a–c–k–s–
+60 hmen shell models -> –h–m–e–n–s–h–e–l–l–m–o–d–e–l–s–
+61 dem groupe privaten -> –d–e–m–g–r–o–u–p–e–p–r–i–v–a–t–e–n–
+62 itta expiry ala -> –i–t–t–a–e–x–p–i–r–y–a–l–a–
+63 cimentos seroton forms -> –c–i–m–e–n–t–o–s–s–e–r–o–t–o–n–f–o–r–m–s–
+64 gele talents anybody -> –g–e–l–e–t–a–l–e–n–t–s–a–n–y–b–o–d–y–
+65 tokens governed buah -> –t–o–k–e–n–s–g–o–v–e–r–n–e–d–b–u–a–h–
+66 ivit resist cores -> –i–v–i–t–r–e–s–i–s–t–c–o–r–e–s–
+67 ahm sensual everyday -> –a–h–m–s–e–n–s–u–a–l–e–v–e–r–y–d–a–y–
+68 great partis falling -> –g–r–e–a–t–p–a–r–t–i–s–f–a–l–l–i–n–g–
+69 yg esde eles -> –y–g–e–s–d–e–e–l–e–s–
+70 oru cascade textbook -> –o–r–u–c–a–s–c–a–d–e–t–e–x–t–b–o–o–k–
+71 ociated plantes paraf -> –o–c–i–a–t–e–d–p–l–a–n–t–e–s–p–a–r–a–f–
+72 me japon polyphen -> –m–e–j–a–p–o–n–p–o–l–y–p–h–e–n–
+73 isco costumes entradas -> –i–s–c–o–c–o–s–t–u–m–e–s–e–n–t–r–a–d–a–s–
+74 rar offic basso -> –r–a–r–o–f–f–i–c–b–a–s–s–o–
+75 elson aws wodurch -> –e–l–s–o–n–a–w–s–w–o–d–u–r–c–h–
+76 ionych venezol suelo -> –i–o–n–y–c–h–v–e–n–e–z–o–l–s–u–e–l–o–
+77 ulk forum feito -> –u–l–k–f–o–r–u–m–f–e–i–t–o–
+78 erse illicit radical -> –e–r–s–e–i–l–l–i–c–i–t–r–a–d–i–c–a–l–
+79 arial sure tackles -> –a–r–i–a–l–s–u–r–e–t–a–c–k–l–e–s–
+80 stuk ordonne stell -> –s–t–u–k–o–r–d–o–n–n–e–s–t–e–l–l–
+81 emarken crise gelangen -> –e–m–a–r–k–e–n–c–r–i–s–e–g–e–l–a–n–g–e–n–
+82 tools assets baute -> –t–o–o–l–s–a–s–s–e–t–s–b–a–u–t–e–
+83 garde treaty aversion -> –g–a–r–d–e–t–r–e–a–t–y–a–v–e–r–s–i–o–n–
+84 entr exemplar armada -> –e–n–t–r–e–x–e–m–p–l–a–r–a–r–m–a–d–a–
+85 nek tail itself -> –n–e–k–t–a–i–l–i–t–s–e–l–f–
+86 prus warrant tais -> –p–r–u–s–w–a–r–r–a–n–t–t–a–i–s–
+87 stelle anastom discern -> –s–t–e–l–l–e–a–n–a–s–t–o–m–d–i–s–c–e–r–n–
+88 indra notes mene -> –i–n–d–r–a–n–o–t–e–s–m–e–n–e–
+89 iscopal officer gewinnen -> –i–s–c–o–p–a–l–o–f–f–i–c–e–r–g–e–w–i–n–n–e–n–
+90 ither jarduera mener -> –i–t–h–e–r–j–a–r–d–u–e–r–a–m–e–n–e–r–
+91 rieb fruitful espaces -> –r–i–e–b–f–r–u–i–t–f–u–l–e–s–p–a–c–e–s–
+92 leg anerk effectu -> –l–e–g–a–n–e–r–k–e–f–f–e–c–t–u–
+93 uty nessa cadmium -> –u–t–y–n–e–s–s–a–c–a–d–m–i–u–m–
+94 serve curing unexpl -> –s–e–r–v–e–c–u–r–i–n–g–u–n–e–x–p–l–
+95 odik ocup bij -> –o–d–i–k–o–c–u–p–b–i–j–
+96 enze rann formato -> –e–n–z–e–r–a–n–n–f–o–r–m–a–t–o–
+97 opatra course dando -> –o–p–a–t–r–a–c–o–u–r–s–e–d–a–n–d–o–
+98 kommer trong code -> –k–o–m–m–e–r–t–r–o–n–g–c–o–d–e–
+99 pung calories backing -> –p–u–n–g–c–a–l–o–r–i–e–s–b–a–c–k–i–n–g–

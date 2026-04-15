@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 land gira directa
+01 raut infantry assisted
+02 ittel francese juni
+
+This is a sample output.
+00 land gira directa -> –l–a–n–d–g–i–r–a–d–i–r–e–c–t–a–
+01 raut infantry assisted -> –r–a–u–t–i–n–f–a–n–t–r–y–a–s–s–i–s–t–e–d–
+02 ittel francese juni -> –i–t–t–e–l–f–r–a–n–c–e–s–e–j–u–n–i–
+
+This is your input.
+00 roffenen boring clenched
+01 tit beginnen sensit
+02 iqu sangre connue
+03 asha preserv accords
+04 isinin cyst prompted
+05 oo experi insiste
+06 uest instit primo
+07 iseer shipping dome
+08 apses bisher domingo
+09 pars valore by
+10 glied inspire pursue
+11 zeichnet used cell
+12 hofs risult summoned
+13 inson pleurer foren
+14 ustos kezd costru
+15 textbf antid franch
+16 lijn predicts century
+17 args aryl duquel
+18 mspace lymphoma belg
+19 orage niz donc
+20 raca passando aliment
+21 amed empf loup
+22 ismu modeste recomp
+23 verein refriger restante
+24 oller igjen stranded
+25 rote das pierw
+26 innings vents kad
+27 ulfide ding hp
+28 flement terrest portent
+29 antidad granda regimes
+30 chaff skilled marca
+31 volatile trapping lascia
+32 udian fuentes einer
+33 beeld gold easier
+34 eper aasta homes
+35 scene brukt opp
+36 herme oscuro usages
+37 dade sponsor gabe
+38 yska prohibit mod
+39 katan keluarga seated
+40 adapter publiko mov
+41 ativ dat samol
+42 erde jazz przyst
+43 oves stup doubled
+44 lations spots cler
+45 eran empleado centr
+46 atrice izan utility
+47 inion avent generals
+48 rait taip nes
+49 erland chambre heard
+50 olu immobili italiana
+51 olat korun publi
+52 cription dispens trasm
+53 ossa cercando najm
+54 lede mannen scent
+55 fluence olish palpable
+56 agai akibat forced
+57 uch oss steps
+58 oline portes hydrogel
+59 asten steroids poign
+60 along sue colonna
+61 ishes obyv falso
+62 prefix hollow necessit
+63 ariate tada loc
+64 phy couper incor
+65 rode tele jef
+66 origine lahko methanol
+67 segment advice umfang
+68 kor najbol flavor
+69 ieju bands voient
+70 irez chronic fertile
+71 akit szem sebbene
+72 perform ales foster
+73 uchen eus desigual
+74 urso avril staple
+75 ossz partner trusting
+76 ricing basal medizin
+77 vendor travail strict
+78 fish wil eml
+79 kri cup zitu
+80 odes cuando sett
+81 gyi sandy seren
+82 ylum tingkat mitjana
+83 bours diet pac
+84 izlik averaged governor
+85 itesi icons valve
+86 lesias formula passare
+87 jenost qal compter
+88 innt pudesse ahor
+89 arring lamina staat
+90 ctic ratio grabs
+91 lukan margen novelist
+92 orrow tend inert
+93 ritu radial erricht
+94 radius symbolic ihres
+95 mathtt theorem zlat
+96 ku portions fos
+97 dim stycznia breadth
+98 fass bereits infused
+99 pb slick chaper
+[completion]
+00 roffenen boring clenched -> –r–o–f–f–e–n–e–n–b–o–r–i–n–g–c–l–e–n–c–h–e–d–
+01 tit beginnen sensit -> –t–i–t–b–e–g–i–n–n–e–n–s–e–n–s–i–t–
+02 iqu sangre connue -> –i–q–u–s–a–n–g–r–e–c–o–n–n–u–e–
+03 asha preserv accords -> –a–s–h–a–p–r–e–s–e–r–v–a–c–c–o–r–d–s–
+04 isinin cyst prompted -> –i–s–i–n–i–n–c–y–s–t–p–r–o–m–p–t–e–d–
+05 oo experi insiste -> –o–o–e–x–p–e–r–i–i–n–s–i–s–t–e–
+06 uest instit primo -> –u–e–s–t–i–n–s–t–i–t–p–r–i–m–o–
+07 iseer shipping dome -> –i–s–e–e–r–s–h–i–p–p–i–n–g–d–o–m–e–
+08 apses bisher domingo -> –a–p–s–e–s–b–i–s–h–e–r–d–o–m–i–n–g–o–
+09 pars valore by -> –p–a–r–s–v–a–l–o–r–e–b–y–
+10 glied inspire pursue -> –g–l–i–e–d–i–n–s–p–i–r–e–p–u–r–s–u–e–
+11 zeichnet used cell -> –z–e–i–c–h–n–e–t–u–s–e–d–c–e–l–l–
+12 hofs risult summoned -> –h–o–f–s–r–i–s–u–l–t–s–u–m–m–o–n–e–d–
+13 inson pleurer foren -> –i–n–s–o–n–p–l–e–u–r–e–r–f–o–r–e–n–
+14 ustos kezd costru -> –u–s–t–o–s–k–e–z–d–c–o–s–t–r–u–
+15 textbf antid franch -> –t–e–x–t–b–f–a–n–t–i–d–f–r–a–n–c–h–
+16 lijn predicts century -> –l–i–j–n–p–r–e–d–i–c–t–s–c–e–n–t–u–r–y–
+17 args aryl duquel -> –a–r–g–s–a–r–y–l–d–u–q–u–e–l–
+18 mspace lymphoma belg -> –m–s–p–a–c–e–l–y–m–p–h–o–m–a–b–e–l–g–
+19 orage niz donc -> –o–r–a–g–e–n–i–z–d–o–n–c–
+20 raca passando aliment -> –r–a–c–a–p–a–s–s–a–n–d–o–a–l–i–m–e–n–t–
+21 amed empf loup -> –a–m–e–d–e–m–p–f–l–o–u–p–
+22 ismu modeste recomp -> –i–s–m–u–m–o–d–e–s–t–e–r–e–c–o–m–p–
+23 verein refriger restante -> –v–e–r–e–i–n–r–e–f–r–i–g–e–r–r–e–s–t–a–n–t–e–
+24 oller igjen stranded -> –o–l–l–e–r–i–g–j–e–n–s–t–r–a–n–d–e–d–
+25 rote das pierw -> –r–o–t–e–d–a–s–p–i–e–r–w–
+26 innings vents kad -> –i–n–n–i–n–g–s–v–e–n–t–s–k–a–d–
+27 ulfide ding hp -> –u–l–f–i–d–e–d–i–n–g–h–p–
+28 flement terrest portent -> –f–l–e–m–e–n–t–t–e–r–r–e–s–t–p–o–r–t–e–n–t–
+29 antidad granda regimes -> –a–n–t–i–d–a–d–g–r–a–n–d–a–r–e–g–i–m–e–s–
+30 chaff skilled marca -> –c–h–a–f–f–s–k–i–l–l–e–d–m–a–r–c–a–
+31 volatile trapping lascia -> –v–o–l–a–t–i–l–e–t–r–a–p–p–i–n–g–l–a–s–c–i–a–
+32 udian fuentes einer -> –u–d–i–a–n–f–u–e–n–t–e–s–e–i–n–e–r–
+33 beeld gold easier -> –b–e–e–l–d–g–o–l–d–e–a–s–i–e–r–
+34 eper aasta homes -> –e–p–e–r–a–a–s–t–a–h–o–m–e–s–
+35 scene brukt opp -> –s–c–e–n–e–b–r–u–k–t–o–p–p–
+36 herme oscuro usages -> –h–e–r–m–e–o–s–c–u–r–o–u–s–a–g–e–s–
+37 dade sponsor gabe -> –d–a–d–e–s–p–o–n–s–o–r–g–a–b–e–
+38 yska prohibit mod -> –y–s–k–a–p–r–o–h–i–b–i–t–m–o–d–
+39 katan keluarga seated -> –k–a–t–a–n–k–e–l–u–a–r–g–a–s–e–a–t–e–d–
+40 adapter publiko mov -> –a–d–a–p–t–e–r–p–u–b–l–i–k–o–m–o–v–
+41 ativ dat samol -> –a–t–i–v–d–a–t–s–a–m–o–l–
+42 erde jazz przyst -> –e–r–d–e–j–a–z–z–p–r–z–y–s–t–
+43 oves stup doubled -> –o–v–e–s–s–t–u–p–d–o–u–b–l–e–d–
+44 lations spots cler -> –l–a–t–i–o–n–s–s–p–o–t–s–c–l–e–r–
+45 eran empleado centr -> –e–r–a–n–e–m–p–l–e–a–d–o–c–e–n–t–r–
+46 atrice izan utility -> –a–t–r–i–c–e–i–z–a–n–u–t–i–l–i–t–y–
+47 inion avent generals -> –i–n–i–o–n–a–v–e–n–t–g–e–n–e–r–a–l–s–
+48 rait taip nes -> –r–a–i–t–t–a–i–p–n–e–s–
+49 erland chambre heard -> –e–r–l–a–n–d–c–h–a–m–b–r–e–h–e–a–r–d–
+50 olu immobili italiana -> –o–l–u–i–m–m–o–b–i–l–i–i–t–a–l–i–a–n–a–
+51 olat korun publi -> –o–l–a–t–k–o–r–u–n–p–u–b–l–i–
+52 cription dispens trasm -> –c–r–i–p–t–i–o–n–d–i–s–p–e–n–s–t–r–a–s–m–
+53 ossa cercando najm -> –o–s–s–a–c–e–r–c–a–n–d–o–n–a–j–m–
+54 lede mannen scent -> –l–e–d–e–m–a–n–n–e–n–s–c–e–n–t–
+55 fluence olish palpable -> –f–l–u–e–n–c–e–o–l–i–s–h–p–a–l–p–a–b–l–e–
+56 agai akibat forced -> –a–g–a–i–a–k–i–b–a–t–f–o–r–c–e–d–
+57 uch oss steps -> –u–c–h–o–s–s–s–t–e–p–s–
+58 oline portes hydrogel -> –o–l–i–n–e–p–o–r–t–e–s–h–y–d–r–o–g–e–l–
+59 asten steroids poign -> –a–s–t–e–n–s–t–e–r–o–i–d–s–p–o–i–g–n–
+60 along sue colonna -> –a–l–o–n–g–s–u–e–c–o–l–o–n–n–a–
+61 ishes obyv falso -> –i–s–h–e–s–o–b–y–v–f–a–l–s–o–
+62 prefix hollow necessit -> –p–r–e–f–i–x–h–o–l–l–o–w–n–e–c–e–s–s–i–t–
+63 ariate tada loc -> –a–r–i–a–t–e–t–a–d–a–l–o–c–
+64 phy couper incor -> –p–h–y–c–o–u–p–e–r–i–n–c–o–r–
+65 rode tele jef -> –r–o–d–e–t–e–l–e–j–e–f–
+66 origine lahko methanol -> –o–r–i–g–i–n–e–l–a–h–k–o–m–e–t–h–a–n–o–l–
+67 segment advice umfang -> –s–e–g–m–e–n–t–a–d–v–i–c–e–u–m–f–a–n–g–
+68 kor najbol flavor -> –k–o–r–n–a–j–b–o–l–f–l–a–v–o–r–
+69 ieju bands voient -> –i–e–j–u–b–a–n–d–s–v–o–i–e–n–t–
+70 irez chronic fertile -> –i–r–e–z–c–h–r–o–n–i–c–f–e–r–t–i–l–e–
+71 akit szem sebbene -> –a–k–i–t–s–z–e–m–s–e–b–b–e–n–e–
+72 perform ales foster -> –p–e–r–f–o–r–m–a–l–e–s–f–o–s–t–e–r–
+73 uchen eus desigual -> –u–c–h–e–n–e–u–s–d–e–s–i–g–u–a–l–
+74 urso avril staple -> –u–r–s–o–a–v–r–i–l–s–t–a–p–l–e–
+75 ossz partner trusting -> –o–s–s–z–p–a–r–t–n–e–r–t–r–u–s–t–i–n–g–
+76 ricing basal medizin -> –r–i–c–i–n–g–b–a–s–a–l–m–e–d–i–z–i–n–
+77 vendor travail strict -> –v–e–n–d–o–r–t–r–a–v–a–i–l–s–t–r–i–c–t–
+78 fish wil eml -> –f–i–s–h–w–i–l–e–m–l–
+79 kri cup zitu -> –k–r–i–c–u–p–z–i–t–u–
+80 odes cuando sett -> –o–d–e–s–c–u–a–n–d–o–s–e–t–t–
+81 gyi sandy seren -> –g–y–i–s–a–n–d–y–s–e–r–e–n–
+82 ylum tingkat mitjana -> –y–l–u–m–t–i–n–g–k–a–t–m–i–t–j–a–n–a–
+83 bours diet pac -> –b–o–u–r–s–d–i–e–t–p–a–c–
+84 izlik averaged governor -> –i–z–l–i–k–a–v–e–r–a–g–e–d–g–o–v–e–r–n–o–r–
+85 itesi icons valve -> –i–t–e–s–i–i–c–o–n–s–v–a–l–v–e–
+86 lesias formula passare -> –l–e–s–i–a–s–f–o–r–m–u–l–a–p–a–s–s–a–r–e–
+87 jenost qal compter -> –j–e–n–o–s–t–q–a–l–c–o–m–p–t–e–r–
+88 innt pudesse ahor -> –i–n–n–t–p–u–d–e–s–s–e–a–h–o–r–
+89 arring lamina staat -> –a–r–r–i–n–g–l–a–m–i–n–a–s–t–a–a–t–
+90 ctic ratio grabs -> –c–t–i–c–r–a–t–i–o–g–r–a–b–s–
+91 lukan margen novelist -> –l–u–k–a–n–m–a–r–g–e–n–n–o–v–e–l–i–s–t–
+92 orrow tend inert -> –o–r–r–o–w–t–e–n–d–i–n–e–r–t–
+93 ritu radial erricht -> –r–i–t–u–r–a–d–i–a–l–e–r–r–i–c–h–t–
+94 radius symbolic ihres -> –r–a–d–i–u–s–s–y–m–b–o–l–i–c–i–h–r–e–s–
+95 mathtt theorem zlat -> –m–a–t–h–t–t–t–h–e–o–r–e–m–z–l–a–t–
+96 ku portions fos -> –k–u–p–o–r–t–i–o–n–s–f–o–s–
+97 dim stycznia breadth -> –d–i–m–s–t–y–c–z–n–i–a–b–r–e–a–d–t–h–
+98 fass bereits infused -> –f–a–s–s–b–e–r–e–i–t–s–i–n–f–u–s–e–d–
+99 pb slick chaper -> –p–b–s–l–i–c–k–c–h–a–p–e–r–

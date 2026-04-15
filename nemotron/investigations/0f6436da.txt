@@ -1,0 +1,26 @@
+problem id: 0f6436da
+category: cryptarithm_deduce
+
+symbol-to-digit mapping:
+  '#' = 2
+  '$' = 7
+  '%' = 5
+  "'" = 6
+  '/' = 0
+  '<' = 9
+  '>' = 1
+  '?' = 8
+  '|' = 3
+
+operator-to-operation mapping:
+  '+' = add
+
+examples:
+  >#+>| = #%  =>  12 + 13 = 25
+  %?+$< = >|$  =>  58 + 79 = 137
+  |/^%| = |/%|  =>  ?
+  %?+'# = >#/  =>  58 + 62 = 120
+
+query: '>+>$  =>  61 + 17 = 78
+
+predicted answer: $?

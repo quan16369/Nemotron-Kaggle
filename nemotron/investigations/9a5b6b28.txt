@@ -1,0 +1,26 @@
+Problem ID: 9a5b6b28
+Category: equation_numeric_deduce
+
+Examples:
+- 19^37 = ^18
+- 16^24 = ^8
+- 21^48 = ^27
+
+Inferred rule:
+The `^` operator outputs the absolute difference between the two whole numbers, and the result keeps a leading `^`.
+
+Why this fits the examples:
+- |19 - 37| = 18, so 19^37 -> ^18
+- |16 - 24| = 8, so 16^24 -> ^8
+- |21 - 48| = 27, so 21^48 -> ^27
+
+Apply the rule to the query:
+- Query: 81^59
+- Compute the absolute difference: |81 - 59| = 22
+- Keep the leading `^`
+
+Predicted answer:
+^22
+
+Confidence note:
+High confidence. All three training examples use the same operator and match this rule exactly.

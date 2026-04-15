@@ -1,0 +1,28 @@
+problem id: 6beb3a1f
+category: cryptarithm_deduce
+
+symbol-to-digit mapping:
+  '&' = 5
+  ')' = 8
+  '/' = 3
+  ':' = 1
+  '?' = 6
+  '[' = 2
+  '\\' = 7
+  '^' = 4
+  '`' = 9
+  '}' = 0
+
+operator-to-operation mapping:
+  '*' = mul
+  '-' = abs_diff
+
+examples:
+  &\*&[ = [`?^  =>  57 * 52 = 2964
+  :)-^^ = [?  =>  |18 - 44| = 26
+  &`-/} = [`  =>  |59 - 30| = 29
+  ^:*`: = /\/:  =>  41 * 91 = 3731
+
+query: `)-/[  =>  |98 - 32| = 66
+
+predicted answer: ??

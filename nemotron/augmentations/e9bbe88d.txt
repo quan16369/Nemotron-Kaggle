@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 queur actu praised
+01 ega glaub pear
+02 passt bronze dichotom
+
+This is a sample output.
+00 queur actu praised -> –q–u–e–u–r–a–c–t–u–p–r–a–i–s–e–d–
+01 ega glaub pear -> –e–g–a–g–l–a–u–b–p–e–a–r–
+02 passt bronze dichotom -> –p–a–s–s–t–b–r–o–n–z–e–d–i–c–h–o–t–o–m–
+
+This is your input.
+00 bara meets rocas
+01 aranja krat missile
+02 leitung defini tabla
+03 ungi benut mains
+04 function distress telles
+05 grant players arro
+06 epsilon piloto complexe
+07 eka profound prag
+08 essing trenes recogn
+09 playlist romans scrutin
+10 apping populace sabotage
+11 inher tuple latency
+12 erek felt ort
+13 elik genutzt cohorts
+14 oku sig specimen
+15 itions forward neurolog
+16 koi amante mysqli
+17 rikt segunda fueron
+18 ysz gleichen effect
+19 ern schwarz paire
+20 omega ankle adequate
+21 tem perd anim
+22 embros invaded delas
+23 rati genital camisa
+24 energic doble chain
+25 ioned doanh blur
+26 istas laun fina
+27 ubic evitar written
+28 raction tumult porcel
+29 bur tela estaban
+30 unto dispatch spec
+31 inspace constat mn
+32 licos filosof biliary
+33 urrent ratios incluem
+34 studio amerik liturg
+35 imenti umo lungo
+36 jee topp insp
+37 unea approu pits
+38 ponente nodal vara
+39 skoj inflamm activist
+40 ocrate dao ende
+41 inken todo colore
+42 undes sh epic
+43 yskland nagyon tempi
+44 frames auch havien
+45 nez altas petition
+46 lott patches policy
+47 larida oprac king
+48 orter heal tron
+49 iscing primeiro venceu
+50 scanf troubles selepas
+51 ayn hipp ade
+52 ira closest kon
+53 ature berbeda bolts
+54 ting kwietnia acid
+55 utils bisa haber
+56 emon bells embaj
+57 lon informa traged
+58 ambo mart exitos
+59 ischte ambas observed
+60 kich tel proceeds
+61 package kapit showc
+62 season settling amid
+63 chie capture metaf
+64 doi wealthy fari
+65 images permis rama
+66 rin builders jumping
+67 atalytic pandemic qiladi
+68 zob magyar cible
+69 rez ys chiar
+70 ub devono mundial
+71 rasi vitam volont
+72 ung rainfall combat
+73 acan dije vaguely
+74 ovat hat extract
+75 optic zwei escoc
+76 bine tasked divulg
+77 elta has ito
+78 ifiques extrac beter
+79 ivities atrial patrocin
+80 ido encabez locus
+81 pail renewal plato
+82 pole traz roue
+83 conomia gehiago tanggal
+84 mia law repaired
+85 oli plant shortest
+86 umbnails partie urte
+87 ikor certeza gee
+88 ipur filho ematen
+89 anud emergent causes
+90 rets added sometime
+91 toare duel joc
+92 ocks button diction
+93 istence donnant gris
+94 emaa writes fission
+95 alos ibil franca
+96 aggi mekan kings
+97 bind hug legend
+98 creator megal colabor
+99 select centers suprim
+[completion]
+00 bara meets rocas -> –b–a–r–a–m–e–e–t–s–r–o–c–a–s–
+01 aranja krat missile -> –a–r–a–n–j–a–k–r–a–t–m–i–s–s–i–l–e–
+02 leitung defini tabla -> –l–e–i–t–u–n–g–d–e–f–i–n–i–t–a–b–l–a–
+03 ungi benut mains -> –u–n–g–i–b–e–n–u–t–m–a–i–n–s–
+04 function distress telles -> –f–u–n–c–t–i–o–n–d–i–s–t–r–e–s–s–t–e–l–l–e–s–
+05 grant players arro -> –g–r–a–n–t–p–l–a–y–e–r–s–a–r–r–o–
+06 epsilon piloto complexe -> –e–p–s–i–l–o–n–p–i–l–o–t–o–c–o–m–p–l–e–x–e–
+07 eka profound prag -> –e–k–a–p–r–o–f–o–u–n–d–p–r–a–g–
+08 essing trenes recogn -> –e–s–s–i–n–g–t–r–e–n–e–s–r–e–c–o–g–n–
+09 playlist romans scrutin -> –p–l–a–y–l–i–s–t–r–o–m–a–n–s–s–c–r–u–t–i–n–
+10 apping populace sabotage -> –a–p–p–i–n–g–p–o–p–u–l–a–c–e–s–a–b–o–t–a–g–e–
+11 inher tuple latency -> –i–n–h–e–r–t–u–p–l–e–l–a–t–e–n–c–y–
+12 erek felt ort -> –e–r–e–k–f–e–l–t–o–r–t–
+13 elik genutzt cohorts -> –e–l–i–k–g–e–n–u–t–z–t–c–o–h–o–r–t–s–
+14 oku sig specimen -> –o–k–u–s–i–g–s–p–e–c–i–m–e–n–
+15 itions forward neurolog -> –i–t–i–o–n–s–f–o–r–w–a–r–d–n–e–u–r–o–l–o–g–
+16 koi amante mysqli -> –k–o–i–a–m–a–n–t–e–m–y–s–q–l–i–
+17 rikt segunda fueron -> –r–i–k–t–s–e–g–u–n–d–a–f–u–e–r–o–n–
+18 ysz gleichen effect -> –y–s–z–g–l–e–i–c–h–e–n–e–f–f–e–c–t–
+19 ern schwarz paire -> –e–r–n–s–c–h–w–a–r–z–p–a–i–r–e–
+20 omega ankle adequate -> –o–m–e–g–a–a–n–k–l–e–a–d–e–q–u–a–t–e–
+21 tem perd anim -> –t–e–m–p–e–r–d–a–n–i–m–
+22 embros invaded delas -> –e–m–b–r–o–s–i–n–v–a–d–e–d–d–e–l–a–s–
+23 rati genital camisa -> –r–a–t–i–g–e–n–i–t–a–l–c–a–m–i–s–a–
+24 energic doble chain -> –e–n–e–r–g–i–c–d–o–b–l–e–c–h–a–i–n–
+25 ioned doanh blur -> –i–o–n–e–d–d–o–a–n–h–b–l–u–r–
+26 istas laun fina -> –i–s–t–a–s–l–a–u–n–f–i–n–a–
+27 ubic evitar written -> –u–b–i–c–e–v–i–t–a–r–w–r–i–t–t–e–n–
+28 raction tumult porcel -> –r–a–c–t–i–o–n–t–u–m–u–l–t–p–o–r–c–e–l–
+29 bur tela estaban -> –b–u–r–t–e–l–a–e–s–t–a–b–a–n–
+30 unto dispatch spec -> –u–n–t–o–d–i–s–p–a–t–c–h–s–p–e–c–
+31 inspace constat mn -> –i–n–s–p–a–c–e–c–o–n–s–t–a–t–m–n–
+32 licos filosof biliary -> –l–i–c–o–s–f–i–l–o–s–o–f–b–i–l–i–a–r–y–
+33 urrent ratios incluem -> –u–r–r–e–n–t–r–a–t–i–o–s–i–n–c–l–u–e–m–
+34 studio amerik liturg -> –s–t–u–d–i–o–a–m–e–r–i–k–l–i–t–u–r–g–
+35 imenti umo lungo -> –i–m–e–n–t–i–u–m–o–l–u–n–g–o–
+36 jee topp insp -> –j–e–e–t–o–p–p–i–n–s–p–
+37 unea approu pits -> –u–n–e–a–a–p–p–r–o–u–p–i–t–s–
+38 ponente nodal vara -> –p–o–n–e–n–t–e–n–o–d–a–l–v–a–r–a–
+39 skoj inflamm activist -> –s–k–o–j–i–n–f–l–a–m–m–a–c–t–i–v–i–s–t–
+40 ocrate dao ende -> –o–c–r–a–t–e–d–a–o–e–n–d–e–
+41 inken todo colore -> –i–n–k–e–n–t–o–d–o–c–o–l–o–r–e–
+42 undes sh epic -> –u–n–d–e–s–s–h–e–p–i–c–
+43 yskland nagyon tempi -> –y–s–k–l–a–n–d–n–a–g–y–o–n–t–e–m–p–i–
+44 frames auch havien -> –f–r–a–m–e–s–a–u–c–h–h–a–v–i–e–n–
+45 nez altas petition -> –n–e–z–a–l–t–a–s–p–e–t–i–t–i–o–n–
+46 lott patches policy -> –l–o–t–t–p–a–t–c–h–e–s–p–o–l–i–c–y–
+47 larida oprac king -> –l–a–r–i–d–a–o–p–r–a–c–k–i–n–g–
+48 orter heal tron -> –o–r–t–e–r–h–e–a–l–t–r–o–n–
+49 iscing primeiro venceu -> –i–s–c–i–n–g–p–r–i–m–e–i–r–o–v–e–n–c–e–u–
+50 scanf troubles selepas -> –s–c–a–n–f–t–r–o–u–b–l–e–s–s–e–l–e–p–a–s–
+51 ayn hipp ade -> –a–y–n–h–i–p–p–a–d–e–
+52 ira closest kon -> –i–r–a–c–l–o–s–e–s–t–k–o–n–
+53 ature berbeda bolts -> –a–t–u–r–e–b–e–r–b–e–d–a–b–o–l–t–s–
+54 ting kwietnia acid -> –t–i–n–g–k–w–i–e–t–n–i–a–a–c–i–d–
+55 utils bisa haber -> –u–t–i–l–s–b–i–s–a–h–a–b–e–r–
+56 emon bells embaj -> –e–m–o–n–b–e–l–l–s–e–m–b–a–j–
+57 lon informa traged -> –l–o–n–i–n–f–o–r–m–a–t–r–a–g–e–d–
+58 ambo mart exitos -> –a–m–b–o–m–a–r–t–e–x–i–t–o–s–
+59 ischte ambas observed -> –i–s–c–h–t–e–a–m–b–a–s–o–b–s–e–r–v–e–d–
+60 kich tel proceeds -> –k–i–c–h–t–e–l–p–r–o–c–e–e–d–s–
+61 package kapit showc -> –p–a–c–k–a–g–e–k–a–p–i–t–s–h–o–w–c–
+62 season settling amid -> –s–e–a–s–o–n–s–e–t–t–l–i–n–g–a–m–i–d–
+63 chie capture metaf -> –c–h–i–e–c–a–p–t–u–r–e–m–e–t–a–f–
+64 doi wealthy fari -> –d–o–i–w–e–a–l–t–h–y–f–a–r–i–
+65 images permis rama -> –i–m–a–g–e–s–p–e–r–m–i–s–r–a–m–a–
+66 rin builders jumping -> –r–i–n–b–u–i–l–d–e–r–s–j–u–m–p–i–n–g–
+67 atalytic pandemic qiladi -> –a–t–a–l–y–t–i–c–p–a–n–d–e–m–i–c–q–i–l–a–d–i–
+68 zob magyar cible -> –z–o–b–m–a–g–y–a–r–c–i–b–l–e–
+69 rez ys chiar -> –r–e–z–y–s–c–h–i–a–r–
+70 ub devono mundial -> –u–b–d–e–v–o–n–o–m–u–n–d–i–a–l–
+71 rasi vitam volont -> –r–a–s–i–v–i–t–a–m–v–o–l–o–n–t–
+72 ung rainfall combat -> –u–n–g–r–a–i–n–f–a–l–l–c–o–m–b–a–t–
+73 acan dije vaguely -> –a–c–a–n–d–i–j–e–v–a–g–u–e–l–y–
+74 ovat hat extract -> –o–v–a–t–h–a–t–e–x–t–r–a–c–t–
+75 optic zwei escoc -> –o–p–t–i–c–z–w–e–i–e–s–c–o–c–
+76 bine tasked divulg -> –b–i–n–e–t–a–s–k–e–d–d–i–v–u–l–g–
+77 elta has ito -> –e–l–t–a–h–a–s–i–t–o–
+78 ifiques extrac beter -> –i–f–i–q–u–e–s–e–x–t–r–a–c–b–e–t–e–r–
+79 ivities atrial patrocin -> –i–v–i–t–i–e–s–a–t–r–i–a–l–p–a–t–r–o–c–i–n–
+80 ido encabez locus -> –i–d–o–e–n–c–a–b–e–z–l–o–c–u–s–
+81 pail renewal plato -> –p–a–i–l–r–e–n–e–w–a–l–p–l–a–t–o–
+82 pole traz roue -> –p–o–l–e–t–r–a–z–r–o–u–e–
+83 conomia gehiago tanggal -> –c–o–n–o–m–i–a–g–e–h–i–a–g–o–t–a–n–g–g–a–l–
+84 mia law repaired -> –m–i–a–l–a–w–r–e–p–a–i–r–e–d–
+85 oli plant shortest -> –o–l–i–p–l–a–n–t–s–h–o–r–t–e–s–t–
+86 umbnails partie urte -> –u–m–b–n–a–i–l–s–p–a–r–t–i–e–u–r–t–e–
+87 ikor certeza gee -> –i–k–o–r–c–e–r–t–e–z–a–g–e–e–
+88 ipur filho ematen -> –i–p–u–r–f–i–l–h–o–e–m–a–t–e–n–
+89 anud emergent causes -> –a–n–u–d–e–m–e–r–g–e–n–t–c–a–u–s–e–s–
+90 rets added sometime -> –r–e–t–s–a–d–d–e–d–s–o–m–e–t–i–m–e–
+91 toare duel joc -> –t–o–a–r–e–d–u–e–l–j–o–c–
+92 ocks button diction -> –o–c–k–s–b–u–t–t–o–n–d–i–c–t–i–o–n–
+93 istence donnant gris -> –i–s–t–e–n–c–e–d–o–n–n–a–n–t–g–r–i–s–
+94 emaa writes fission -> –e–m–a–a–w–r–i–t–e–s–f–i–s–s–i–o–n–
+95 alos ibil franca -> –a–l–o–s–i–b–i–l–f–r–a–n–c–a–
+96 aggi mekan kings -> –a–g–g–i–m–e–k–a–n–k–i–n–g–s–
+97 bind hug legend -> –b–i–n–d–h–u–g–l–e–g–e–n–d–
+98 creator megal colabor -> –c–r–e–a–t–o–r–m–e–g–a–l–c–o–l–a–b–o–r–
+99 select centers suprim -> –s–e–l–e–c–t–c–e–n–t–e–r–s–s–u–p–r–i–m–

@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 subtitle hypoxia hills
+01 esity maggiore dades
+02 abled ders civiles
+
+This is a sample output.
+00 subtitle hypoxia hills -> –s–u–b–t–i–t–l–e–h–y–p–o–x–i–a–h–i–l–l–s–
+01 esity maggiore dades -> –e–s–i–t–y–m–a–g–g–i–o–r–e–d–a–d–e–s–
+02 abled ders civiles -> –a–b–l–e–d–d–e–r–s–c–i–v–i–l–e–s–
+
+This is your input.
+00 website modify akkor
+01 gef kas vreme
+02 urn stri plenty
+03 niejsze leer rada
+04 uting omitted cats
+05 ugal vieron votos
+06 histor koos verde
+07 arlier lle tho
+08 smouth zumeist placed
+09 asters enca familial
+10 igten gou kron
+11 kaan orde troops
+12 lli perc deuter
+13 zij dissol emport
+14 iod clans rivalry
+15 ina dikt vezet
+16 close odd ammon
+17 aries striking felf
+18 xia largest ded
+19 zt tril mean
+20 environ acess estan
+21 html ild punten
+22 inqu percor svoj
+23 wil lignin cinco
+24 aby adding priced
+25 around fung glyph
+26 atalyst secre ov
+27 huma desktop pristine
+28 underte oficial magazine
+29 iene ajouter indeterm
+30 quie waardoor decides
+31 tenance initiale happens
+32 ologne east granic
+33 pl ilha judicia
+34 idan servizi imediat
+35 sid spars command
+36 entity nii br
+37 arcin parlare optimize
+38 vity cint integral
+39 plats tuo blanc
+40 emblance remar deserves
+41 etu mastery simpler
+42 oga magia akhirnya
+43 arget cy wprowad
+44 zmann boots veo
+45 orem persists movable
+46 mysql rpm gymnast
+47 oubtedly herv reject
+48 cle craint consolid
+49 uclear neuen quedan
+50 icker przeg tempest
+51 lit appe sekt
+52 holder am prevents
+53 edale carried espoir
+54 iuseppe desired fantasma
+55 thur shades ideally
+56 ercio bok reforma
+57 ologues genet init
+58 ai lar lenses
+59 geno ausger altitud
+60 ifax parler facult
+61 nga poja channel
+62 ocytosis impot tere
+63 oare mutation issues
+64 haben invasive estim
+65 vanje interv nichts
+66 effect lastname halted
+67 inery resolver bedro
+68 ashire accur traits
+69 ammers diversas donors
+70 hea avenue sadness
+71 ragma responde leth
+72 izu walki monthly
+73 apse breed derrotar
+74 verages surpass skull
+75 ovie notre sing
+76 baycan quattro kov
+77 quier geste jj
+78 ultiple renuncia longer
+79 idla revis vie
+80 given tamam sempl
+81 ylan hampir diagrams
+82 otos climat cha
+83 ien tendo viste
+84 marked volunt jes
+85 elle zdrav immers
+86 rist property sworn
+87 canvas interse adher
+88 ext twe dunha
+89 appale magnitud impr
+90 ifically famiglia izquier
+91 plast shuffle wartime
+92 rative sacred irm
+93 bert avvicin diritti
+94 nahmen best sortable
+95 uga cater river
+96 rient dades massima
+97 foot entdeckt baixo
+98 where gero tinh
+99 aisia cuarenta medical
+[completion]
+00 website modify akkor -> –w–e–b–s–i–t–e–m–o–d–i–f–y–a–k–k–o–r–
+01 gef kas vreme -> –g–e–f–k–a–s–v–r–e–m–e–
+02 urn stri plenty -> –u–r–n–s–t–r–i–p–l–e–n–t–y–
+03 niejsze leer rada -> –n–i–e–j–s–z–e–l–e–e–r–r–a–d–a–
+04 uting omitted cats -> –u–t–i–n–g–o–m–i–t–t–e–d–c–a–t–s–
+05 ugal vieron votos -> –u–g–a–l–v–i–e–r–o–n–v–o–t–o–s–
+06 histor koos verde -> –h–i–s–t–o–r–k–o–o–s–v–e–r–d–e–
+07 arlier lle tho -> –a–r–l–i–e–r–l–l–e–t–h–o–
+08 smouth zumeist placed -> –s–m–o–u–t–h–z–u–m–e–i–s–t–p–l–a–c–e–d–
+09 asters enca familial -> –a–s–t–e–r–s–e–n–c–a–f–a–m–i–l–i–a–l–
+10 igten gou kron -> –i–g–t–e–n–g–o–u–k–r–o–n–
+11 kaan orde troops -> –k–a–a–n–o–r–d–e–t–r–o–o–p–s–
+12 lli perc deuter -> –l–l–i–p–e–r–c–d–e–u–t–e–r–
+13 zij dissol emport -> –z–i–j–d–i–s–s–o–l–e–m–p–o–r–t–
+14 iod clans rivalry -> –i–o–d–c–l–a–n–s–r–i–v–a–l–r–y–
+15 ina dikt vezet -> –i–n–a–d–i–k–t–v–e–z–e–t–
+16 close odd ammon -> –c–l–o–s–e–o–d–d–a–m–m–o–n–
+17 aries striking felf -> –a–r–i–e–s–s–t–r–i–k–i–n–g–f–e–l–f–
+18 xia largest ded -> –x–i–a–l–a–r–g–e–s–t–d–e–d–
+19 zt tril mean -> –z–t–t–r–i–l–m–e–a–n–
+20 environ acess estan -> –e–n–v–i–r–o–n–a–c–e–s–s–e–s–t–a–n–
+21 html ild punten -> –h–t–m–l–i–l–d–p–u–n–t–e–n–
+22 inqu percor svoj -> –i–n–q–u–p–e–r–c–o–r–s–v–o–j–
+23 wil lignin cinco -> –w–i–l–l–i–g–n–i–n–c–i–n–c–o–
+24 aby adding priced -> –a–b–y–a–d–d–i–n–g–p–r–i–c–e–d–
+25 around fung glyph -> –a–r–o–u–n–d–f–u–n–g–g–l–y–p–h–
+26 atalyst secre ov -> –a–t–a–l–y–s–t–s–e–c–r–e–o–v–
+27 huma desktop pristine -> –h–u–m–a–d–e–s–k–t–o–p–p–r–i–s–t–i–n–e–
+28 underte oficial magazine -> –u–n–d–e–r–t–e–o–f–i–c–i–a–l–m–a–g–a–z–i–n–e–
+29 iene ajouter indeterm -> –i–e–n–e–a–j–o–u–t–e–r–i–n–d–e–t–e–r–m–
+30 quie waardoor decides -> –q–u–i–e–w–a–a–r–d–o–o–r–d–e–c–i–d–e–s–
+31 tenance initiale happens -> –t–e–n–a–n–c–e–i–n–i–t–i–a–l–e–h–a–p–p–e–n–s–
+32 ologne east granic -> –o–l–o–g–n–e–e–a–s–t–g–r–a–n–i–c–
+33 pl ilha judicia -> –p–l–i–l–h–a–j–u–d–i–c–i–a–
+34 idan servizi imediat -> –i–d–a–n–s–e–r–v–i–z–i–i–m–e–d–i–a–t–
+35 sid spars command -> –s–i–d–s–p–a–r–s–c–o–m–m–a–n–d–
+36 entity nii br -> –e–n–t–i–t–y–n–i–i–b–r–
+37 arcin parlare optimize -> –a–r–c–i–n–p–a–r–l–a–r–e–o–p–t–i–m–i–z–e–
+38 vity cint integral -> –v–i–t–y–c–i–n–t–i–n–t–e–g–r–a–l–
+39 plats tuo blanc -> –p–l–a–t–s–t–u–o–b–l–a–n–c–
+40 emblance remar deserves -> –e–m–b–l–a–n–c–e–r–e–m–a–r–d–e–s–e–r–v–e–s–
+41 etu mastery simpler -> –e–t–u–m–a–s–t–e–r–y–s–i–m–p–l–e–r–
+42 oga magia akhirnya -> –o–g–a–m–a–g–i–a–a–k–h–i–r–n–y–a–
+43 arget cy wprowad -> –a–r–g–e–t–c–y–w–p–r–o–w–a–d–
+44 zmann boots veo -> –z–m–a–n–n–b–o–o–t–s–v–e–o–
+45 orem persists movable -> –o–r–e–m–p–e–r–s–i–s–t–s–m–o–v–a–b–l–e–
+46 mysql rpm gymnast -> –m–y–s–q–l–r–p–m–g–y–m–n–a–s–t–
+47 oubtedly herv reject -> –o–u–b–t–e–d–l–y–h–e–r–v–r–e–j–e–c–t–
+48 cle craint consolid -> –c–l–e–c–r–a–i–n–t–c–o–n–s–o–l–i–d–
+49 uclear neuen quedan -> –u–c–l–e–a–r–n–e–u–e–n–q–u–e–d–a–n–
+50 icker przeg tempest -> –i–c–k–e–r–p–r–z–e–g–t–e–m–p–e–s–t–
+51 lit appe sekt -> –l–i–t–a–p–p–e–s–e–k–t–
+52 holder am prevents -> –h–o–l–d–e–r–a–m–p–r–e–v–e–n–t–s–
+53 edale carried espoir -> –e–d–a–l–e–c–a–r–r–i–e–d–e–s–p–o–i–r–
+54 iuseppe desired fantasma -> –i–u–s–e–p–p–e–d–e–s–i–r–e–d–f–a–n–t–a–s–m–a–
+55 thur shades ideally -> –t–h–u–r–s–h–a–d–e–s–i–d–e–a–l–l–y–
+56 ercio bok reforma -> –e–r–c–i–o–b–o–k–r–e–f–o–r–m–a–
+57 ologues genet init -> –o–l–o–g–u–e–s–g–e–n–e–t–i–n–i–t–
+58 ai lar lenses -> –a–i–l–a–r–l–e–n–s–e–s–
+59 geno ausger altitud -> –g–e–n–o–a–u–s–g–e–r–a–l–t–i–t–u–d–
+60 ifax parler facult -> –i–f–a–x–p–a–r–l–e–r–f–a–c–u–l–t–
+61 nga poja channel -> –n–g–a–p–o–j–a–c–h–a–n–n–e–l–
+62 ocytosis impot tere -> –o–c–y–t–o–s–i–s–i–m–p–o–t–t–e–r–e–
+63 oare mutation issues -> –o–a–r–e–m–u–t–a–t–i–o–n–i–s–s–u–e–s–
+64 haben invasive estim -> –h–a–b–e–n–i–n–v–a–s–i–v–e–e–s–t–i–m–
+65 vanje interv nichts -> –v–a–n–j–e–i–n–t–e–r–v–n–i–c–h–t–s–
+66 effect lastname halted -> –e–f–f–e–c–t–l–a–s–t–n–a–m–e–h–a–l–t–e–d–
+67 inery resolver bedro -> –i–n–e–r–y–r–e–s–o–l–v–e–r–b–e–d–r–o–
+68 ashire accur traits -> –a–s–h–i–r–e–a–c–c–u–r–t–r–a–i–t–s–
+69 ammers diversas donors -> –a–m–m–e–r–s–d–i–v–e–r–s–a–s–d–o–n–o–r–s–
+70 hea avenue sadness -> –h–e–a–a–v–e–n–u–e–s–a–d–n–e–s–s–
+71 ragma responde leth -> –r–a–g–m–a–r–e–s–p–o–n–d–e–l–e–t–h–
+72 izu walki monthly -> –i–z–u–w–a–l–k–i–m–o–n–t–h–l–y–
+73 apse breed derrotar -> –a–p–s–e–b–r–e–e–d–d–e–r–r–o–t–a–r–
+74 verages surpass skull -> –v–e–r–a–g–e–s–s–u–r–p–a–s–s–s–k–u–l–l–
+75 ovie notre sing -> –o–v–i–e–n–o–t–r–e–s–i–n–g–
+76 baycan quattro kov -> –b–a–y–c–a–n–q–u–a–t–t–r–o–k–o–v–
+77 quier geste jj -> –q–u–i–e–r–g–e–s–t–e–j–j–
+78 ultiple renuncia longer -> –u–l–t–i–p–l–e–r–e–n–u–n–c–i–a–l–o–n–g–e–r–
+79 idla revis vie -> –i–d–l–a–r–e–v–i–s–v–i–e–
+80 given tamam sempl -> –g–i–v–e–n–t–a–m–a–m–s–e–m–p–l–
+81 ylan hampir diagrams -> –y–l–a–n–h–a–m–p–i–r–d–i–a–g–r–a–m–s–
+82 otos climat cha -> –o–t–o–s–c–l–i–m–a–t–c–h–a–
+83 ien tendo viste -> –i–e–n–t–e–n–d–o–v–i–s–t–e–
+84 marked volunt jes -> –m–a–r–k–e–d–v–o–l–u–n–t–j–e–s–
+85 elle zdrav immers -> –e–l–l–e–z–d–r–a–v–i–m–m–e–r–s–
+86 rist property sworn -> –r–i–s–t–p–r–o–p–e–r–t–y–s–w–o–r–n–
+87 canvas interse adher -> –c–a–n–v–a–s–i–n–t–e–r–s–e–a–d–h–e–r–
+88 ext twe dunha -> –e–x–t–t–w–e–d–u–n–h–a–
+89 appale magnitud impr -> –a–p–p–a–l–e–m–a–g–n–i–t–u–d–i–m–p–r–
+90 ifically famiglia izquier -> –i–f–i–c–a–l–l–y–f–a–m–i–g–l–i–a–i–z–q–u–i–e–r–
+91 plast shuffle wartime -> –p–l–a–s–t–s–h–u–f–f–l–e–w–a–r–t–i–m–e–
+92 rative sacred irm -> –r–a–t–i–v–e–s–a–c–r–e–d–i–r–m–
+93 bert avvicin diritti -> –b–e–r–t–a–v–v–i–c–i–n–d–i–r–i–t–t–i–
+94 nahmen best sortable -> –n–a–h–m–e–n–b–e–s–t–s–o–r–t–a–b–l–e–
+95 uga cater river -> –u–g–a–c–a–t–e–r–r–i–v–e–r–
+96 rient dades massima -> –r–i–e–n–t–d–a–d–e–s–m–a–s–s–i–m–a–
+97 foot entdeckt baixo -> –f–o–o–t–e–n–t–d–e–c–k–t–b–a–i–x–o–
+98 where gero tinh -> –w–h–e–r–e–g–e–r–o–t–i–n–h–
+99 aisia cuarenta medical -> –a–i–s–i–a–c–u–a–r–e–n–t–a–m–e–d–i–c–a–l–

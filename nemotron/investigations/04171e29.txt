@@ -1,0 +1,42 @@
+Problem ID: 04171e29
+Category: equation_numeric_deduce
+
+Examples:
+- 34-73 = 6
+  Reverse the operands: 34 -> 43 and 73 -> 37.
+  Apply the operator: 43 - 37 = 6.
+  Reverse the result digits: 6 -> 6.
+- 28*71 = 4931
+  Reverse the operands: 28 -> 82 and 71 -> 17.
+  Apply the operator: 82 * 17 = 1394.
+  Reverse the result digits: 1394 -> 4931.
+- 56-45 = 11
+  Reverse the operands: 56 -> 65 and 45 -> 54.
+  Apply the operator: 65 - 54 = 11.
+  Reverse the result digits: 11 -> 11.
+- 13*39 = 3882
+  Reverse the operands: 13 -> 31 and 39 -> 93.
+  Apply the operator: 31 * 93 = 2883.
+  Reverse the result digits: 2883 -> 3882.
+- 57*67 = 0075
+  Reverse the operands: 57 -> 75 and 67 -> 76.
+  Apply the operator: 75 * 76 = 5700.
+  Reverse the result digits: 5700 -> 0075.
+
+Inferred rule:
+1. Reverse the digits of both two-digit operands.
+2. Apply the shown operator with its usual meaning.
+3. Reverse the digits of the numeric result to get the final output.
+4. If reversing the result creates leading zeroes, keep them, as shown by 5700 -> 0075.
+
+Step-by-step application to the query:
+- Query: 97-65
+- Reverse the operands: 97 -> 79 and 65 -> 56.
+- Apply subtraction: 79 - 56 = 23.
+- Reverse the result digits: 23 -> 32.
+
+Predicted answer:
+32
+
+Confidence note:
+High. All five examples fit this rule exactly, including both subtraction and multiplication cases.

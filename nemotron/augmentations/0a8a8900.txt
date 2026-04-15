@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 ela stroma hor
+01 peg swo estek
+02 voi coex veroor
+
+This is a sample output.
+00 ela stroma hor -> –e–l–a–s–t–r–o–m–a–h–o–r–
+01 peg swo estek -> –p–e–g–s–w–o–e–s–t–e–k–
+02 voi coex veroor -> –v–o–i–c–o–e–x–v–e–r–o–o–r–
+
+This is your input.
+00 ovaly shelters enforced
+01 tmp overlap sarc
+02 hens shut madame
+03 sections pero etx
+04 fels econ celular
+05 ages jury eds
+06 rip roz replay
+07 urra printing alcohol
+08 review viss passers
+09 quin grootste luminal
+10 iar cells tenant
+11 numero banlie overhead
+12 ikk superar bore
+13 othe photon rebotes
+14 money seca un
+15 geal sprite torneo
+16 udella warns parade
+17 entat dunkel settore
+18 antino dinner vestido
+19 ellten lifting revolver
+20 emberg infl perfe
+21 osity longo sph
+22 naud infected avg
+23 ieurs metric non
+24 reis generale walk
+25 covery ganando metri
+26 itectura yields he
+27 stock efectos kommun
+28 aw vowel cambios
+29 place cidad omdat
+30 ruppe humour contin
+31 ificate plo recens
+32 argas minds zbud
+33 enness ry violate
+34 ifiers trout endl
+35 ticket linea canal
+36 oster ubicada produjo
+37 obody te niem
+38 arded permits esport
+39 verde hydroxyl comum
+40 popup qualche worth
+41 birds mum contact
+42 ietan vett anymore
+43 estyle moderne npm
+44 inama mapa ascribed
+45 nelly humorous farming
+46 ram appena blevet
+47 jednoc istor jaws
+48 olation debts abit
+49 iers naturel ani
+50 amedi src tund
+51 rocal seal comment
+52 ograp ethers kralja
+53 speaker objeto hizk
+54 geo lograr polarity
+55 zuge descent party
+56 leistung hatred telef
+57 sets warnings robbery
+58 stod tramo clue
+59 urbo ratt disgust
+60 feller convin manga
+61 among jene respeito
+62 oxys adviser machines
+63 roid sir geld
+64 ectin tenho fitness
+65 atu cls handheld
+66 rhs delic mercen
+67 ind antico layered
+68 spot dilat medial
+69 gorithms provis presence
+70 ocia chaleur regras
+71 orria seules wildcard
+72 meye reeks imper
+73 opping schwier salary
+74 face darum voe
+75 rectomy traced lp
+76 verify zain lysine
+77 otor junto prese
+78 unused poprz jard
+79 mal laissant peoples
+80 teren huid nonzero
+81 dist ianuarie watches
+82 ifiziert sembra navigate
+83 arra permitir promoted
+84 macro gehi derives
+85 vation worn ordine
+86 roz shooter facial
+87 partment expend upwards
+88 mc esprit kada
+89 ouden veya suunn
+90 oons signific koji
+91 bres rebuild opts
+92 hol sost reale
+93 iris kannte cheating
+94 non titulo lucr
+95 arters vars erz
+96 brace dubna wounds
+97 log ottenere fanden
+98 juje effusion descri
+99 lix uncommon hands
+[completion]
+00 ovaly shelters enforced -> –o–v–a–l–y–s–h–e–l–t–e–r–s–e–n–f–o–r–c–e–d–
+01 tmp overlap sarc -> –t–m–p–o–v–e–r–l–a–p–s–a–r–c–
+02 hens shut madame -> –h–e–n–s–s–h–u–t–m–a–d–a–m–e–
+03 sections pero etx -> –s–e–c–t–i–o–n–s–p–e–r–o–e–t–x–
+04 fels econ celular -> –f–e–l–s–e–c–o–n–c–e–l–u–l–a–r–
+05 ages jury eds -> –a–g–e–s–j–u–r–y–e–d–s–
+06 rip roz replay -> –r–i–p–r–o–z–r–e–p–l–a–y–
+07 urra printing alcohol -> –u–r–r–a–p–r–i–n–t–i–n–g–a–l–c–o–h–o–l–
+08 review viss passers -> –r–e–v–i–e–w–v–i–s–s–p–a–s–s–e–r–s–
+09 quin grootste luminal -> –q–u–i–n–g–r–o–o–t–s–t–e–l–u–m–i–n–a–l–
+10 iar cells tenant -> –i–a–r–c–e–l–l–s–t–e–n–a–n–t–
+11 numero banlie overhead -> –n–u–m–e–r–o–b–a–n–l–i–e–o–v–e–r–h–e–a–d–
+12 ikk superar bore -> –i–k–k–s–u–p–e–r–a–r–b–o–r–e–
+13 othe photon rebotes -> –o–t–h–e–p–h–o–t–o–n–r–e–b–o–t–e–s–
+14 money seca un -> –m–o–n–e–y–s–e–c–a–u–n–
+15 geal sprite torneo -> –g–e–a–l–s–p–r–i–t–e–t–o–r–n–e–o–
+16 udella warns parade -> –u–d–e–l–l–a–w–a–r–n–s–p–a–r–a–d–e–
+17 entat dunkel settore -> –e–n–t–a–t–d–u–n–k–e–l–s–e–t–t–o–r–e–
+18 antino dinner vestido -> –a–n–t–i–n–o–d–i–n–n–e–r–v–e–s–t–i–d–o–
+19 ellten lifting revolver -> –e–l–l–t–e–n–l–i–f–t–i–n–g–r–e–v–o–l–v–e–r–
+20 emberg infl perfe -> –e–m–b–e–r–g–i–n–f–l–p–e–r–f–e–
+21 osity longo sph -> –o–s–i–t–y–l–o–n–g–o–s–p–h–
+22 naud infected avg -> –n–a–u–d–i–n–f–e–c–t–e–d–a–v–g–
+23 ieurs metric non -> –i–e–u–r–s–m–e–t–r–i–c–n–o–n–
+24 reis generale walk -> –r–e–i–s–g–e–n–e–r–a–l–e–w–a–l–k–
+25 covery ganando metri -> –c–o–v–e–r–y–g–a–n–a–n–d–o–m–e–t–r–i–
+26 itectura yields he -> –i–t–e–c–t–u–r–a–y–i–e–l–d–s–h–e–
+27 stock efectos kommun -> –s–t–o–c–k–e–f–e–c–t–o–s–k–o–m–m–u–n–
+28 aw vowel cambios -> –a–w–v–o–w–e–l–c–a–m–b–i–o–s–
+29 place cidad omdat -> –p–l–a–c–e–c–i–d–a–d–o–m–d–a–t–
+30 ruppe humour contin -> –r–u–p–p–e–h–u–m–o–u–r–c–o–n–t–i–n–
+31 ificate plo recens -> –i–f–i–c–a–t–e–p–l–o–r–e–c–e–n–s–
+32 argas minds zbud -> –a–r–g–a–s–m–i–n–d–s–z–b–u–d–
+33 enness ry violate -> –e–n–n–e–s–s–r–y–v–i–o–l–a–t–e–
+34 ifiers trout endl -> –i–f–i–e–r–s–t–r–o–u–t–e–n–d–l–
+35 ticket linea canal -> –t–i–c–k–e–t–l–i–n–e–a–c–a–n–a–l–
+36 oster ubicada produjo -> –o–s–t–e–r–u–b–i–c–a–d–a–p–r–o–d–u–j–o–
+37 obody te niem -> –o–b–o–d–y–t–e–n–i–e–m–
+38 arded permits esport -> –a–r–d–e–d–p–e–r–m–i–t–s–e–s–p–o–r–t–
+39 verde hydroxyl comum -> –v–e–r–d–e–h–y–d–r–o–x–y–l–c–o–m–u–m–
+40 popup qualche worth -> –p–o–p–u–p–q–u–a–l–c–h–e–w–o–r–t–h–
+41 birds mum contact -> –b–i–r–d–s–m–u–m–c–o–n–t–a–c–t–
+42 ietan vett anymore -> –i–e–t–a–n–v–e–t–t–a–n–y–m–o–r–e–
+43 estyle moderne npm -> –e–s–t–y–l–e–m–o–d–e–r–n–e–n–p–m–
+44 inama mapa ascribed -> –i–n–a–m–a–m–a–p–a–a–s–c–r–i–b–e–d–
+45 nelly humorous farming -> –n–e–l–l–y–h–u–m–o–r–o–u–s–f–a–r–m–i–n–g–
+46 ram appena blevet -> –r–a–m–a–p–p–e–n–a–b–l–e–v–e–t–
+47 jednoc istor jaws -> –j–e–d–n–o–c–i–s–t–o–r–j–a–w–s–
+48 olation debts abit -> –o–l–a–t–i–o–n–d–e–b–t–s–a–b–i–t–
+49 iers naturel ani -> –i–e–r–s–n–a–t–u–r–e–l–a–n–i–
+50 amedi src tund -> –a–m–e–d–i–s–r–c–t–u–n–d–
+51 rocal seal comment -> –r–o–c–a–l–s–e–a–l–c–o–m–m–e–n–t–
+52 ograp ethers kralja -> –o–g–r–a–p–e–t–h–e–r–s–k–r–a–l–j–a–
+53 speaker objeto hizk -> –s–p–e–a–k–e–r–o–b–j–e–t–o–h–i–z–k–
+54 geo lograr polarity -> –g–e–o–l–o–g–r–a–r–p–o–l–a–r–i–t–y–
+55 zuge descent party -> –z–u–g–e–d–e–s–c–e–n–t–p–a–r–t–y–
+56 leistung hatred telef -> –l–e–i–s–t–u–n–g–h–a–t–r–e–d–t–e–l–e–f–
+57 sets warnings robbery -> –s–e–t–s–w–a–r–n–i–n–g–s–r–o–b–b–e–r–y–
+58 stod tramo clue -> –s–t–o–d–t–r–a–m–o–c–l–u–e–
+59 urbo ratt disgust -> –u–r–b–o–r–a–t–t–d–i–s–g–u–s–t–
+60 feller convin manga -> –f–e–l–l–e–r–c–o–n–v–i–n–m–a–n–g–a–
+61 among jene respeito -> –a–m–o–n–g–j–e–n–e–r–e–s–p–e–i–t–o–
+62 oxys adviser machines -> –o–x–y–s–a–d–v–i–s–e–r–m–a–c–h–i–n–e–s–
+63 roid sir geld -> –r–o–i–d–s–i–r–g–e–l–d–
+64 ectin tenho fitness -> –e–c–t–i–n–t–e–n–h–o–f–i–t–n–e–s–s–
+65 atu cls handheld -> –a–t–u–c–l–s–h–a–n–d–h–e–l–d–
+66 rhs delic mercen -> –r–h–s–d–e–l–i–c–m–e–r–c–e–n–
+67 ind antico layered -> –i–n–d–a–n–t–i–c–o–l–a–y–e–r–e–d–
+68 spot dilat medial -> –s–p–o–t–d–i–l–a–t–m–e–d–i–a–l–
+69 gorithms provis presence -> –g–o–r–i–t–h–m–s–p–r–o–v–i–s–p–r–e–s–e–n–c–e–
+70 ocia chaleur regras -> –o–c–i–a–c–h–a–l–e–u–r–r–e–g–r–a–s–
+71 orria seules wildcard -> –o–r–r–i–a–s–e–u–l–e–s–w–i–l–d–c–a–r–d–
+72 meye reeks imper -> –m–e–y–e–r–e–e–k–s–i–m–p–e–r–
+73 opping schwier salary -> –o–p–p–i–n–g–s–c–h–w–i–e–r–s–a–l–a–r–y–
+74 face darum voe -> –f–a–c–e–d–a–r–u–m–v–o–e–
+75 rectomy traced lp -> –r–e–c–t–o–m–y–t–r–a–c–e–d–l–p–
+76 verify zain lysine -> –v–e–r–i–f–y–z–a–i–n–l–y–s–i–n–e–
+77 otor junto prese -> –o–t–o–r–j–u–n–t–o–p–r–e–s–e–
+78 unused poprz jard -> –u–n–u–s–e–d–p–o–p–r–z–j–a–r–d–
+79 mal laissant peoples -> –m–a–l–l–a–i–s–s–a–n–t–p–e–o–p–l–e–s–
+80 teren huid nonzero -> –t–e–r–e–n–h–u–i–d–n–o–n–z–e–r–o–
+81 dist ianuarie watches -> –d–i–s–t–i–a–n–u–a–r–i–e–w–a–t–c–h–e–s–
+82 ifiziert sembra navigate -> –i–f–i–z–i–e–r–t–s–e–m–b–r–a–n–a–v–i–g–a–t–e–
+83 arra permitir promoted -> –a–r–r–a–p–e–r–m–i–t–i–r–p–r–o–m–o–t–e–d–
+84 macro gehi derives -> –m–a–c–r–o–g–e–h–i–d–e–r–i–v–e–s–
+85 vation worn ordine -> –v–a–t–i–o–n–w–o–r–n–o–r–d–i–n–e–
+86 roz shooter facial -> –r–o–z–s–h–o–o–t–e–r–f–a–c–i–a–l–
+87 partment expend upwards -> –p–a–r–t–m–e–n–t–e–x–p–e–n–d–u–p–w–a–r–d–s–
+88 mc esprit kada -> –m–c–e–s–p–r–i–t–k–a–d–a–
+89 ouden veya suunn -> –o–u–d–e–n–v–e–y–a–s–u–u–n–n–
+90 oons signific koji -> –o–o–n–s–s–i–g–n–i–f–i–c–k–o–j–i–
+91 bres rebuild opts -> –b–r–e–s–r–e–b–u–i–l–d–o–p–t–s–
+92 hol sost reale -> –h–o–l–s–o–s–t–r–e–a–l–e–
+93 iris kannte cheating -> –i–r–i–s–k–a–n–n–t–e–c–h–e–a–t–i–n–g–
+94 non titulo lucr -> –n–o–n–t–i–t–u–l–o–l–u–c–r–
+95 arters vars erz -> –a–r–t–e–r–s–v–a–r–s–e–r–z–
+96 brace dubna wounds -> –b–r–a–c–e–d–u–b–n–a–w–o–u–n–d–s–
+97 log ottenere fanden -> –l–o–g–o–t–t–e–n–e–r–e–f–a–n–d–e–n–
+98 juje effusion descri -> –j–u–j–e–e–f–f–u–s–i–o–n–d–e–s–c–r–i–
+99 lix uncommon hands -> –l–i–x–u–n–c–o–m–m–o–n–h–a–n–d–s–

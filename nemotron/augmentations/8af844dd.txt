@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 trieben colegas disf
+01 cript rosa romaine
+02 act suave ono
+
+This is a sample output.
+00 trieben colegas disf -> –t–r–i–e–b–e–n–c–o–l–e–g–a–s–d–i–s–f–
+01 cript rosa romaine -> –c–r–i–p–t–r–o–s–a–r–o–m–a–i–n–e–
+02 act suave ono -> –a–c–t–s–u–a–v–e–o–n–o–
+
+This is your input.
+00 cuts hac nga
+01 failure zemlje fuels
+02 ombrie dst allows
+03 mis blends sweeping
+04 iekt descente giant
+05 reux lig aktibo
+06 leich beteil seg
+07 ivered zam zieht
+08 ifies elevate rand
+09 rames verurs acud
+10 ffective njega acre
+11 ki cima rate
+12 tos dol ego
+13 xml even vitin
+14 into momentos jejich
+15 idazole esencial jumlah
+16 junto moines weeds
+17 friends overt convict
+18 orus cultiv pocos
+19 jera inkl epilepsy
+20 iry painted forb
+21 det fa gor
+22 back vede title
+23 jat destacan neph
+24 aume betrug meisten
+25 larni konge tau
+26 tect durfte einfach
+27 ihak shakes utiliz
+28 landi entren kiuj
+29 cano mine biggest
+30 omod uninter alguno
+31 vana luggage elm
+32 affee nice exempel
+33 wherein lands abert
+34 riez owl curious
+35 endom ocupar synthes
+36 plane golf dormant
+37 leva easy groups
+38 cert kits worms
+39 changes ast regard
+40 prin rejoint destino
+41 hampton absolute cocina
+42 lund becoming brightly
+43 kev chanc rempl
+44 iong lanzar penalty
+45 ignes glorious slowed
+46 ponses amt paste
+47 filters sobrev abc
+48 qda effluent arising
+49 ider spreads selfish
+50 elm calcium cur
+51 olem baix plaus
+52 allel ain radius
+53 unit siendo fres
+54 liter religios hizmet
+55 ses pledge rout
+56 rad checkout cabe
+57 neys utc anunc
+58 ryl spe caja
+59 wards esquerda hook
+60 hrt wear obt
+61 irc sauver jelle
+62 gior perk anex
+63 ojas gland mobil
+64 leaf incompet gripped
+65 chen mg soir
+66 kkue dolor plata
+67 estr symmetry fetch
+68 ismarck verts perform
+69 ivalente halide lime
+70 galkan acumul consigue
+71 iminal fungi scope
+72 iona membre ropes
+73 utable cracks avenida
+74 ername obli riman
+75 zobispo reemplaz molecule
+76 iences notify creare
+77 amina cordes weighed
+78 otides fluor inhal
+79 inceton vascular rost
+80 off syllable lethal
+81 ococcus blaz inqui
+82 shield bernama buts
+83 rasse fatigue death
+84 richtung autop ped
+85 asus scroll erre
+86 pciones byly graphite
+87 ibia falls rightly
+88 modal damp aeronave
+89 iot rius nouveaux
+90 ithmetic codigo collo
+91 but comptait beginnt
+92 atie admiral sortir
+93 owo reaches fclose
+94 wek shed futures
+95 rona incluant heller
+96 abar faisait mote
+97 ieten piece caring
+98 zew voire kater
+99 ifik escritas roca
+[completion]
+00 cuts hac nga -> –c–u–t–s–h–a–c–n–g–a–
+01 failure zemlje fuels -> –f–a–i–l–u–r–e–z–e–m–l–j–e–f–u–e–l–s–
+02 ombrie dst allows -> –o–m–b–r–i–e–d–s–t–a–l–l–o–w–s–
+03 mis blends sweeping -> –m–i–s–b–l–e–n–d–s–s–w–e–e–p–i–n–g–
+04 iekt descente giant -> –i–e–k–t–d–e–s–c–e–n–t–e–g–i–a–n–t–
+05 reux lig aktibo -> –r–e–u–x–l–i–g–a–k–t–i–b–o–
+06 leich beteil seg -> –l–e–i–c–h–b–e–t–e–i–l–s–e–g–
+07 ivered zam zieht -> –i–v–e–r–e–d–z–a–m–z–i–e–h–t–
+08 ifies elevate rand -> –i–f–i–e–s–e–l–e–v–a–t–e–r–a–n–d–
+09 rames verurs acud -> –r–a–m–e–s–v–e–r–u–r–s–a–c–u–d–
+10 ffective njega acre -> –f–f–e–c–t–i–v–e–n–j–e–g–a–a–c–r–e–
+11 ki cima rate -> –k–i–c–i–m–a–r–a–t–e–
+12 tos dol ego -> –t–o–s–d–o–l–e–g–o–
+13 xml even vitin -> –x–m–l–e–v–e–n–v–i–t–i–n–
+14 into momentos jejich -> –i–n–t–o–m–o–m–e–n–t–o–s–j–e–j–i–c–h–
+15 idazole esencial jumlah -> –i–d–a–z–o–l–e–e–s–e–n–c–i–a–l–j–u–m–l–a–h–
+16 junto moines weeds -> –j–u–n–t–o–m–o–i–n–e–s–w–e–e–d–s–
+17 friends overt convict -> –f–r–i–e–n–d–s–o–v–e–r–t–c–o–n–v–i–c–t–
+18 orus cultiv pocos -> –o–r–u–s–c–u–l–t–i–v–p–o–c–o–s–
+19 jera inkl epilepsy -> –j–e–r–a–i–n–k–l–e–p–i–l–e–p–s–y–
+20 iry painted forb -> –i–r–y–p–a–i–n–t–e–d–f–o–r–b–
+21 det fa gor -> –d–e–t–f–a–g–o–r–
+22 back vede title -> –b–a–c–k–v–e–d–e–t–i–t–l–e–
+23 jat destacan neph -> –j–a–t–d–e–s–t–a–c–a–n–n–e–p–h–
+24 aume betrug meisten -> –a–u–m–e–b–e–t–r–u–g–m–e–i–s–t–e–n–
+25 larni konge tau -> –l–a–r–n–i–k–o–n–g–e–t–a–u–
+26 tect durfte einfach -> –t–e–c–t–d–u–r–f–t–e–e–i–n–f–a–c–h–
+27 ihak shakes utiliz -> –i–h–a–k–s–h–a–k–e–s–u–t–i–l–i–z–
+28 landi entren kiuj -> –l–a–n–d–i–e–n–t–r–e–n–k–i–u–j–
+29 cano mine biggest -> –c–a–n–o–m–i–n–e–b–i–g–g–e–s–t–
+30 omod uninter alguno -> –o–m–o–d–u–n–i–n–t–e–r–a–l–g–u–n–o–
+31 vana luggage elm -> –v–a–n–a–l–u–g–g–a–g–e–e–l–m–
+32 affee nice exempel -> –a–f–f–e–e–n–i–c–e–e–x–e–m–p–e–l–
+33 wherein lands abert -> –w–h–e–r–e–i–n–l–a–n–d–s–a–b–e–r–t–
+34 riez owl curious -> –r–i–e–z–o–w–l–c–u–r–i–o–u–s–
+35 endom ocupar synthes -> –e–n–d–o–m–o–c–u–p–a–r–s–y–n–t–h–e–s–
+36 plane golf dormant -> –p–l–a–n–e–g–o–l–f–d–o–r–m–a–n–t–
+37 leva easy groups -> –l–e–v–a–e–a–s–y–g–r–o–u–p–s–
+38 cert kits worms -> –c–e–r–t–k–i–t–s–w–o–r–m–s–
+39 changes ast regard -> –c–h–a–n–g–e–s–a–s–t–r–e–g–a–r–d–
+40 prin rejoint destino -> –p–r–i–n–r–e–j–o–i–n–t–d–e–s–t–i–n–o–
+41 hampton absolute cocina -> –h–a–m–p–t–o–n–a–b–s–o–l–u–t–e–c–o–c–i–n–a–
+42 lund becoming brightly -> –l–u–n–d–b–e–c–o–m–i–n–g–b–r–i–g–h–t–l–y–
+43 kev chanc rempl -> –k–e–v–c–h–a–n–c–r–e–m–p–l–
+44 iong lanzar penalty -> –i–o–n–g–l–a–n–z–a–r–p–e–n–a–l–t–y–
+45 ignes glorious slowed -> –i–g–n–e–s–g–l–o–r–i–o–u–s–s–l–o–w–e–d–
+46 ponses amt paste -> –p–o–n–s–e–s–a–m–t–p–a–s–t–e–
+47 filters sobrev abc -> –f–i–l–t–e–r–s–s–o–b–r–e–v–a–b–c–
+48 qda effluent arising -> –q–d–a–e–f–f–l–u–e–n–t–a–r–i–s–i–n–g–
+49 ider spreads selfish -> –i–d–e–r–s–p–r–e–a–d–s–s–e–l–f–i–s–h–
+50 elm calcium cur -> –e–l–m–c–a–l–c–i–u–m–c–u–r–
+51 olem baix plaus -> –o–l–e–m–b–a–i–x–p–l–a–u–s–
+52 allel ain radius -> –a–l–l–e–l–a–i–n–r–a–d–i–u–s–
+53 unit siendo fres -> –u–n–i–t–s–i–e–n–d–o–f–r–e–s–
+54 liter religios hizmet -> –l–i–t–e–r–r–e–l–i–g–i–o–s–h–i–z–m–e–t–
+55 ses pledge rout -> –s–e–s–p–l–e–d–g–e–r–o–u–t–
+56 rad checkout cabe -> –r–a–d–c–h–e–c–k–o–u–t–c–a–b–e–
+57 neys utc anunc -> –n–e–y–s–u–t–c–a–n–u–n–c–
+58 ryl spe caja -> –r–y–l–s–p–e–c–a–j–a–
+59 wards esquerda hook -> –w–a–r–d–s–e–s–q–u–e–r–d–a–h–o–o–k–
+60 hrt wear obt -> –h–r–t–w–e–a–r–o–b–t–
+61 irc sauver jelle -> –i–r–c–s–a–u–v–e–r–j–e–l–l–e–
+62 gior perk anex -> –g–i–o–r–p–e–r–k–a–n–e–x–
+63 ojas gland mobil -> –o–j–a–s–g–l–a–n–d–m–o–b–i–l–
+64 leaf incompet gripped -> –l–e–a–f–i–n–c–o–m–p–e–t–g–r–i–p–p–e–d–
+65 chen mg soir -> –c–h–e–n–m–g–s–o–i–r–
+66 kkue dolor plata -> –k–k–u–e–d–o–l–o–r–p–l–a–t–a–
+67 estr symmetry fetch -> –e–s–t–r–s–y–m–m–e–t–r–y–f–e–t–c–h–
+68 ismarck verts perform -> –i–s–m–a–r–c–k–v–e–r–t–s–p–e–r–f–o–r–m–
+69 ivalente halide lime -> –i–v–a–l–e–n–t–e–h–a–l–i–d–e–l–i–m–e–
+70 galkan acumul consigue -> –g–a–l–k–a–n–a–c–u–m–u–l–c–o–n–s–i–g–u–e–
+71 iminal fungi scope -> –i–m–i–n–a–l–f–u–n–g–i–s–c–o–p–e–
+72 iona membre ropes -> –i–o–n–a–m–e–m–b–r–e–r–o–p–e–s–
+73 utable cracks avenida -> –u–t–a–b–l–e–c–r–a–c–k–s–a–v–e–n–i–d–a–
+74 ername obli riman -> –e–r–n–a–m–e–o–b–l–i–r–i–m–a–n–
+75 zobispo reemplaz molecule -> –z–o–b–i–s–p–o–r–e–e–m–p–l–a–z–m–o–l–e–c–u–l–e–
+76 iences notify creare -> –i–e–n–c–e–s–n–o–t–i–f–y–c–r–e–a–r–e–
+77 amina cordes weighed -> –a–m–i–n–a–c–o–r–d–e–s–w–e–i–g–h–e–d–
+78 otides fluor inhal -> –o–t–i–d–e–s–f–l–u–o–r–i–n–h–a–l–
+79 inceton vascular rost -> –i–n–c–e–t–o–n–v–a–s–c–u–l–a–r–r–o–s–t–
+80 off syllable lethal -> –o–f–f–s–y–l–l–a–b–l–e–l–e–t–h–a–l–
+81 ococcus blaz inqui -> –o–c–o–c–c–u–s–b–l–a–z–i–n–q–u–i–
+82 shield bernama buts -> –s–h–i–e–l–d–b–e–r–n–a–m–a–b–u–t–s–
+83 rasse fatigue death -> –r–a–s–s–e–f–a–t–i–g–u–e–d–e–a–t–h–
+84 richtung autop ped -> –r–i–c–h–t–u–n–g–a–u–t–o–p–p–e–d–
+85 asus scroll erre -> –a–s–u–s–s–c–r–o–l–l–e–r–r–e–
+86 pciones byly graphite -> –p–c–i–o–n–e–s–b–y–l–y–g–r–a–p–h–i–t–e–
+87 ibia falls rightly -> –i–b–i–a–f–a–l–l–s–r–i–g–h–t–l–y–
+88 modal damp aeronave -> –m–o–d–a–l–d–a–m–p–a–e–r–o–n–a–v–e–
+89 iot rius nouveaux -> –i–o–t–r–i–u–s–n–o–u–v–e–a–u–x–
+90 ithmetic codigo collo -> –i–t–h–m–e–t–i–c–c–o–d–i–g–o–c–o–l–l–o–
+91 but comptait beginnt -> –b–u–t–c–o–m–p–t–a–i–t–b–e–g–i–n–n–t–
+92 atie admiral sortir -> –a–t–i–e–a–d–m–i–r–a–l–s–o–r–t–i–r–
+93 owo reaches fclose -> –o–w–o–r–e–a–c–h–e–s–f–c–l–o–s–e–
+94 wek shed futures -> –w–e–k–s–h–e–d–f–u–t–u–r–e–s–
+95 rona incluant heller -> –r–o–n–a–i–n–c–l–u–a–n–t–h–e–l–l–e–r–
+96 abar faisait mote -> –a–b–a–r–f–a–i–s–a–i–t–m–o–t–e–
+97 ieten piece caring -> –i–e–t–e–n–p–i–e–c–e–c–a–r–i–n–g–
+98 zew voire kater -> –z–e–w–v–o–i–r–e–k–a–t–e–r–
+99 ifik escritas roca -> –i–f–i–k–e–s–c–r–i–t–a–s–r–o–c–a–

@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 play erfolg recorde
+01 line held tekrar
+02 clama elong promises
+
+This is a sample output.
+00 play erfolg recorde -> –p–l–a–y–e–r–f–o–l–g–r–e–c–o–r–d–e–
+01 line held tekrar -> –l–i–n–e–h–e–l–d–t–e–k–r–a–r–
+02 clama elong promises -> –c–l–a–m–a–e–l–o–n–g–p–r–o–m–i–s–e–s–
+
+This is your input.
+00 clesi trac rated
+01 iguous esem destin
+02 enzel millor satir
+03 ardo mantiene ong
+04 teilt episod bracht
+05 lod entrar cach
+06 mud kem aveva
+07 uby contenir mens
+08 config mur demi
+09 quelle valg assuming
+10 istu irod milioni
+11 pdo beating coucher
+12 key privada ary
+13 unse prefix consac
+14 iau scrape guardia
+15 strings legge herself
+16 esten acon positie
+17 laan druge rapport
+18 ierten cage canvas
+19 orst aust perfor
+20 guild pravil benign
+21 roup youngest effet
+22 national lumbar empleo
+23 miss arrow educator
+24 justify compone redor
+25 avu bor spiral
+26 dding mism salud
+27 parte mell republik
+28 rowser aceptar derart
+29 ipos parasite saus
+30 exe interpre soprav
+31 cale sought odlu
+32 mph mour tapping
+33 kua traje scandale
+34 turn macrom eager
+35 criber quotid incendie
+36 aky possuem tome
+37 ov conical wire
+38 otrans cursos aktual
+39 outh host et
+40 enko ocen belakang
+41 anyl figlio open
+42 zyna eb allt
+43 lendi submar proch
+44 ruction nurs pigs
+45 neo geword armies
+46 cea repouss svi
+47 jor sense slic
+48 cpu batter bowler
+49 olla servi spat
+50 achen revolt pam
+51 yor poorer cities
+52 jas still var
+53 adat totaal primaire
+54 amis schema reten
+55 roix paquet parcour
+56 oust chauss ouvrir
+57 coh ader meta
+58 incia hinaus consomm
+59 endus strain spectra
+60 nil anomaly bron
+61 doors mortes eingeb
+62 oti dessous gebru
+63 dir resisted prosec
+64 tev podem tribun
+65 burger colonial aange
+66 earing dominio utile
+67 raux young alcun
+68 ryf emotions inferior
+69 ibur operates replies
+70 iya slid voetbal
+71 otoxin negara inser
+72 owane yen saman
+73 iple lays acheter
+74 spre gin strikes
+75 alp galact funzione
+76 obacter contempl pemain
+77 komm comun plaats
+78 phyr bizony legjobb
+79 agland body arte
+80 idential spear higiez
+81 apat pains climb
+82 stellung moving germana
+83 abilir buf xx
+84 edx mewn najleps
+85 atitis suas sixty
+86 amura kita scoped
+87 genic dramat heart
+88 oloog humanas leptin
+89 stand pribli deployed
+90 iaux ponds financi
+91 tat upload orang
+92 cko acclaim denken
+93 udes regain bony
+94 lisabeth biom fortune
+95 your boarding unrest
+96 ellij genesis laufen
+97 ruz towards diets
+98 fetch quiz thor
+99 ikoaren heiligen wobec
+[completion]
+00 clesi trac rated -> –c–l–e–s–i–t–r–a–c–r–a–t–e–d–
+01 iguous esem destin -> –i–g–u–o–u–s–e–s–e–m–d–e–s–t–i–n–
+02 enzel millor satir -> –e–n–z–e–l–m–i–l–l–o–r–s–a–t–i–r–
+03 ardo mantiene ong -> –a–r–d–o–m–a–n–t–i–e–n–e–o–n–g–
+04 teilt episod bracht -> –t–e–i–l–t–e–p–i–s–o–d–b–r–a–c–h–t–
+05 lod entrar cach -> –l–o–d–e–n–t–r–a–r–c–a–c–h–
+06 mud kem aveva -> –m–u–d–k–e–m–a–v–e–v–a–
+07 uby contenir mens -> –u–b–y–c–o–n–t–e–n–i–r–m–e–n–s–
+08 config mur demi -> –c–o–n–f–i–g–m–u–r–d–e–m–i–
+09 quelle valg assuming -> –q–u–e–l–l–e–v–a–l–g–a–s–s–u–m–i–n–g–
+10 istu irod milioni -> –i–s–t–u–i–r–o–d–m–i–l–i–o–n–i–
+11 pdo beating coucher -> –p–d–o–b–e–a–t–i–n–g–c–o–u–c–h–e–r–
+12 key privada ary -> –k–e–y–p–r–i–v–a–d–a–a–r–y–
+13 unse prefix consac -> –u–n–s–e–p–r–e–f–i–x–c–o–n–s–a–c–
+14 iau scrape guardia -> –i–a–u–s–c–r–a–p–e–g–u–a–r–d–i–a–
+15 strings legge herself -> –s–t–r–i–n–g–s–l–e–g–g–e–h–e–r–s–e–l–f–
+16 esten acon positie -> –e–s–t–e–n–a–c–o–n–p–o–s–i–t–i–e–
+17 laan druge rapport -> –l–a–a–n–d–r–u–g–e–r–a–p–p–o–r–t–
+18 ierten cage canvas -> –i–e–r–t–e–n–c–a–g–e–c–a–n–v–a–s–
+19 orst aust perfor -> –o–r–s–t–a–u–s–t–p–e–r–f–o–r–
+20 guild pravil benign -> –g–u–i–l–d–p–r–a–v–i–l–b–e–n–i–g–n–
+21 roup youngest effet -> –r–o–u–p–y–o–u–n–g–e–s–t–e–f–f–e–t–
+22 national lumbar empleo -> –n–a–t–i–o–n–a–l–l–u–m–b–a–r–e–m–p–l–e–o–
+23 miss arrow educator -> –m–i–s–s–a–r–r–o–w–e–d–u–c–a–t–o–r–
+24 justify compone redor -> –j–u–s–t–i–f–y–c–o–m–p–o–n–e–r–e–d–o–r–
+25 avu bor spiral -> –a–v–u–b–o–r–s–p–i–r–a–l–
+26 dding mism salud -> –d–d–i–n–g–m–i–s–m–s–a–l–u–d–
+27 parte mell republik -> –p–a–r–t–e–m–e–l–l–r–e–p–u–b–l–i–k–
+28 rowser aceptar derart -> –r–o–w–s–e–r–a–c–e–p–t–a–r–d–e–r–a–r–t–
+29 ipos parasite saus -> –i–p–o–s–p–a–r–a–s–i–t–e–s–a–u–s–
+30 exe interpre soprav -> –e–x–e–i–n–t–e–r–p–r–e–s–o–p–r–a–v–
+31 cale sought odlu -> –c–a–l–e–s–o–u–g–h–t–o–d–l–u–
+32 mph mour tapping -> –m–p–h–m–o–u–r–t–a–p–p–i–n–g–
+33 kua traje scandale -> –k–u–a–t–r–a–j–e–s–c–a–n–d–a–l–e–
+34 turn macrom eager -> –t–u–r–n–m–a–c–r–o–m–e–a–g–e–r–
+35 criber quotid incendie -> –c–r–i–b–e–r–q–u–o–t–i–d–i–n–c–e–n–d–i–e–
+36 aky possuem tome -> –a–k–y–p–o–s–s–u–e–m–t–o–m–e–
+37 ov conical wire -> –o–v–c–o–n–i–c–a–l–w–i–r–e–
+38 otrans cursos aktual -> –o–t–r–a–n–s–c–u–r–s–o–s–a–k–t–u–a–l–
+39 outh host et -> –o–u–t–h–h–o–s–t–e–t–
+40 enko ocen belakang -> –e–n–k–o–o–c–e–n–b–e–l–a–k–a–n–g–
+41 anyl figlio open -> –a–n–y–l–f–i–g–l–i–o–o–p–e–n–
+42 zyna eb allt -> –z–y–n–a–e–b–a–l–l–t–
+43 lendi submar proch -> –l–e–n–d–i–s–u–b–m–a–r–p–r–o–c–h–
+44 ruction nurs pigs -> –r–u–c–t–i–o–n–n–u–r–s–p–i–g–s–
+45 neo geword armies -> –n–e–o–g–e–w–o–r–d–a–r–m–i–e–s–
+46 cea repouss svi -> –c–e–a–r–e–p–o–u–s–s–s–v–i–
+47 jor sense slic -> –j–o–r–s–e–n–s–e–s–l–i–c–
+48 cpu batter bowler -> –c–p–u–b–a–t–t–e–r–b–o–w–l–e–r–
+49 olla servi spat -> –o–l–l–a–s–e–r–v–i–s–p–a–t–
+50 achen revolt pam -> –a–c–h–e–n–r–e–v–o–l–t–p–a–m–
+51 yor poorer cities -> –y–o–r–p–o–o–r–e–r–c–i–t–i–e–s–
+52 jas still var -> –j–a–s–s–t–i–l–l–v–a–r–
+53 adat totaal primaire -> –a–d–a–t–t–o–t–a–a–l–p–r–i–m–a–i–r–e–
+54 amis schema reten -> –a–m–i–s–s–c–h–e–m–a–r–e–t–e–n–
+55 roix paquet parcour -> –r–o–i–x–p–a–q–u–e–t–p–a–r–c–o–u–r–
+56 oust chauss ouvrir -> –o–u–s–t–c–h–a–u–s–s–o–u–v–r–i–r–
+57 coh ader meta -> –c–o–h–a–d–e–r–m–e–t–a–
+58 incia hinaus consomm -> –i–n–c–i–a–h–i–n–a–u–s–c–o–n–s–o–m–m–
+59 endus strain spectra -> –e–n–d–u–s–s–t–r–a–i–n–s–p–e–c–t–r–a–
+60 nil anomaly bron -> –n–i–l–a–n–o–m–a–l–y–b–r–o–n–
+61 doors mortes eingeb -> –d–o–o–r–s–m–o–r–t–e–s–e–i–n–g–e–b–
+62 oti dessous gebru -> –o–t–i–d–e–s–s–o–u–s–g–e–b–r–u–
+63 dir resisted prosec -> –d–i–r–r–e–s–i–s–t–e–d–p–r–o–s–e–c–
+64 tev podem tribun -> –t–e–v–p–o–d–e–m–t–r–i–b–u–n–
+65 burger colonial aange -> –b–u–r–g–e–r–c–o–l–o–n–i–a–l–a–a–n–g–e–
+66 earing dominio utile -> –e–a–r–i–n–g–d–o–m–i–n–i–o–u–t–i–l–e–
+67 raux young alcun -> –r–a–u–x–y–o–u–n–g–a–l–c–u–n–
+68 ryf emotions inferior -> –r–y–f–e–m–o–t–i–o–n–s–i–n–f–e–r–i–o–r–
+69 ibur operates replies -> –i–b–u–r–o–p–e–r–a–t–e–s–r–e–p–l–i–e–s–
+70 iya slid voetbal -> –i–y–a–s–l–i–d–v–o–e–t–b–a–l–
+71 otoxin negara inser -> –o–t–o–x–i–n–n–e–g–a–r–a–i–n–s–e–r–
+72 owane yen saman -> –o–w–a–n–e–y–e–n–s–a–m–a–n–
+73 iple lays acheter -> –i–p–l–e–l–a–y–s–a–c–h–e–t–e–r–
+74 spre gin strikes -> –s–p–r–e–g–i–n–s–t–r–i–k–e–s–
+75 alp galact funzione -> –a–l–p–g–a–l–a–c–t–f–u–n–z–i–o–n–e–
+76 obacter contempl pemain -> –o–b–a–c–t–e–r–c–o–n–t–e–m–p–l–p–e–m–a–i–n–
+77 komm comun plaats -> –k–o–m–m–c–o–m–u–n–p–l–a–a–t–s–
+78 phyr bizony legjobb -> –p–h–y–r–b–i–z–o–n–y–l–e–g–j–o–b–b–
+79 agland body arte -> –a–g–l–a–n–d–b–o–d–y–a–r–t–e–
+80 idential spear higiez -> –i–d–e–n–t–i–a–l–s–p–e–a–r–h–i–g–i–e–z–
+81 apat pains climb -> –a–p–a–t–p–a–i–n–s–c–l–i–m–b–
+82 stellung moving germana -> –s–t–e–l–l–u–n–g–m–o–v–i–n–g–g–e–r–m–a–n–a–
+83 abilir buf xx -> –a–b–i–l–i–r–b–u–f–x–x–
+84 edx mewn najleps -> –e–d–x–m–e–w–n–n–a–j–l–e–p–s–
+85 atitis suas sixty -> –a–t–i–t–i–s–s–u–a–s–s–i–x–t–y–
+86 amura kita scoped -> –a–m–u–r–a–k–i–t–a–s–c–o–p–e–d–
+87 genic dramat heart -> –g–e–n–i–c–d–r–a–m–a–t–h–e–a–r–t–
+88 oloog humanas leptin -> –o–l–o–o–g–h–u–m–a–n–a–s–l–e–p–t–i–n–
+89 stand pribli deployed -> –s–t–a–n–d–p–r–i–b–l–i–d–e–p–l–o–y–e–d–
+90 iaux ponds financi -> –i–a–u–x–p–o–n–d–s–f–i–n–a–n–c–i–
+91 tat upload orang -> –t–a–t–u–p–l–o–a–d–o–r–a–n–g–
+92 cko acclaim denken -> –c–k–o–a–c–c–l–a–i–m–d–e–n–k–e–n–
+93 udes regain bony -> –u–d–e–s–r–e–g–a–i–n–b–o–n–y–
+94 lisabeth biom fortune -> –l–i–s–a–b–e–t–h–b–i–o–m–f–o–r–t–u–n–e–
+95 your boarding unrest -> –y–o–u–r–b–o–a–r–d–i–n–g–u–n–r–e–s–t–
+96 ellij genesis laufen -> –e–l–l–i–j–g–e–n–e–s–i–s–l–a–u–f–e–n–
+97 ruz towards diets -> –r–u–z–t–o–w–a–r–d–s–d–i–e–t–s–
+98 fetch quiz thor -> –f–e–t–c–h–q–u–i–z–t–h–o–r–
+99 ikoaren heiligen wobec -> –i–k–o–a–r–e–n–h–e–i–l–i–g–e–n–w–o–b–e–c–

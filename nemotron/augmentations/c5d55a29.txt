@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 hero terminer topic
+01 scanf selama gez
+02 velopp intox costas
+
+This is a sample output.
+00 hero terminer topic -> –h–e–r–o–t–e–r–m–i–n–e–r–t–o–p–i–c–
+01 scanf selama gez -> –s–c–a–n–f–s–e–l–a–m–a–g–e–z–
+02 velopp intox costas -> –v–e–l–o–p–p–i–n–t–o–x–c–o–s–t–a–s–
+
+This is your input.
+00 wier gtk markets
+01 umann juliol mostly
+02 urf puppet otom
+03 itur span rupture
+04 ieres air clave
+05 iko avoiding explain
+06 urers ank fusion
+07 rade volt activos
+08 eler verdade femenina
+09 llib helmet incar
+10 rone tuk plus
+11 ization freq clonal
+12 anal scorer ense
+13 texttt vermeld tinggi
+14 clos rendsz mature
+15 entes membrana bolo
+16 upan mision baggage
+17 agy reven dati
+18 etter azioni forz
+19 avao orphan scrit
+20 current envelop toeg
+21 dop czas januar
+22 ving wegens marges
+23 onu audible obtener
+24 arikat seen serves
+25 ammed crus besides
+26 oks febbraio amiga
+27 ologic eer colet
+28 ti grooves kwamen
+29 roma tente vendu
+30 ichia risc primi
+31 icin isother martie
+32 ighbor disag voc
+33 constit conseil chiral
+34 ibo muassa entered
+35 usters bx airflow
+36 store otros uh
+37 bro texture indire
+38 ighet warning quei
+39 osabb eighteen abges
+40 andus scoperto wedding
+41 tes inneh joueur
+42 atten suces vlada
+43 iket airing sharply
+44 path kev galax
+45 autta restric council
+46 opi company holte
+47 raumatic razor sus
+48 sequence ik conjunct
+49 gle pinc leans
+50 englad proteins sekitar
+51 andom streak bras
+52 nienie spikes depended
+53 ibel frog cotid
+54 esseur vertex phased
+55 lug goles multis
+56 atsapp dese afge
+57 antage pont dying
+58 iada trees kobiet
+59 cr membuat speaking
+60 alls stdin genug
+61 getragen apertura ultimate
+62 vid dogs existir
+63 yskyt mich playback
+64 culos shone compound
+65 zyc modular animais
+66 urse cient archivos
+67 fade dest schlug
+68 uvo carc likes
+69 alib superst cet
+70 aguay cheaper brace
+71 acij rock atyp
+72 naden confisc threat
+73 elon longtime nan
+74 sign chil snap
+75 undai tore chassis
+76 gara volle cour
+77 arios assayed lente
+78 orspronk sessions skrz
+79 malar brows overturn
+80 so require eco
+81 igd bleu turbul
+82 umeurs standard rc
+83 try accus suddenly
+84 ivanje autore disperse
+85 pta paus thirteen
+86 orse we domand
+87 aqu gr brom
+88 itoral alphabet ingresos
+89 adion vendre de
+90 yendo voting costa
+91 usele allgeme brytyj
+92 urne quitte ebenso
+93 erte dagli infil
+94 jac bat names
+95 ivision ceci thunder
+96 branch random rail
+97 logos spelled trough
+98 okies vaisseau gospodar
+99 aud fossem ais
+[completion]
+00 wier gtk markets -> –w–i–e–r–g–t–k–m–a–r–k–e–t–s–
+01 umann juliol mostly -> –u–m–a–n–n–j–u–l–i–o–l–m–o–s–t–l–y–
+02 urf puppet otom -> –u–r–f–p–u–p–p–e–t–o–t–o–m–
+03 itur span rupture -> –i–t–u–r–s–p–a–n–r–u–p–t–u–r–e–
+04 ieres air clave -> –i–e–r–e–s–a–i–r–c–l–a–v–e–
+05 iko avoiding explain -> –i–k–o–a–v–o–i–d–i–n–g–e–x–p–l–a–i–n–
+06 urers ank fusion -> –u–r–e–r–s–a–n–k–f–u–s–i–o–n–
+07 rade volt activos -> –r–a–d–e–v–o–l–t–a–c–t–i–v–o–s–
+08 eler verdade femenina -> –e–l–e–r–v–e–r–d–a–d–e–f–e–m–e–n–i–n–a–
+09 llib helmet incar -> –l–l–i–b–h–e–l–m–e–t–i–n–c–a–r–
+10 rone tuk plus -> –r–o–n–e–t–u–k–p–l–u–s–
+11 ization freq clonal -> –i–z–a–t–i–o–n–f–r–e–q–c–l–o–n–a–l–
+12 anal scorer ense -> –a–n–a–l–s–c–o–r–e–r–e–n–s–e–
+13 texttt vermeld tinggi -> –t–e–x–t–t–t–v–e–r–m–e–l–d–t–i–n–g–g–i–
+14 clos rendsz mature -> –c–l–o–s–r–e–n–d–s–z–m–a–t–u–r–e–
+15 entes membrana bolo -> –e–n–t–e–s–m–e–m–b–r–a–n–a–b–o–l–o–
+16 upan mision baggage -> –u–p–a–n–m–i–s–i–o–n–b–a–g–g–a–g–e–
+17 agy reven dati -> –a–g–y–r–e–v–e–n–d–a–t–i–
+18 etter azioni forz -> –e–t–t–e–r–a–z–i–o–n–i–f–o–r–z–
+19 avao orphan scrit -> –a–v–a–o–o–r–p–h–a–n–s–c–r–i–t–
+20 current envelop toeg -> –c–u–r–r–e–n–t–e–n–v–e–l–o–p–t–o–e–g–
+21 dop czas januar -> –d–o–p–c–z–a–s–j–a–n–u–a–r–
+22 ving wegens marges -> –v–i–n–g–w–e–g–e–n–s–m–a–r–g–e–s–
+23 onu audible obtener -> –o–n–u–a–u–d–i–b–l–e–o–b–t–e–n–e–r–
+24 arikat seen serves -> –a–r–i–k–a–t–s–e–e–n–s–e–r–v–e–s–
+25 ammed crus besides -> –a–m–m–e–d–c–r–u–s–b–e–s–i–d–e–s–
+26 oks febbraio amiga -> –o–k–s–f–e–b–b–r–a–i–o–a–m–i–g–a–
+27 ologic eer colet -> –o–l–o–g–i–c–e–e–r–c–o–l–e–t–
+28 ti grooves kwamen -> –t–i–g–r–o–o–v–e–s–k–w–a–m–e–n–
+29 roma tente vendu -> –r–o–m–a–t–e–n–t–e–v–e–n–d–u–
+30 ichia risc primi -> –i–c–h–i–a–r–i–s–c–p–r–i–m–i–
+31 icin isother martie -> –i–c–i–n–i–s–o–t–h–e–r–m–a–r–t–i–e–
+32 ighbor disag voc -> –i–g–h–b–o–r–d–i–s–a–g–v–o–c–
+33 constit conseil chiral -> –c–o–n–s–t–i–t–c–o–n–s–e–i–l–c–h–i–r–a–l–
+34 ibo muassa entered -> –i–b–o–m–u–a–s–s–a–e–n–t–e–r–e–d–
+35 usters bx airflow -> –u–s–t–e–r–s–b–x–a–i–r–f–l–o–w–
+36 store otros uh -> –s–t–o–r–e–o–t–r–o–s–u–h–
+37 bro texture indire -> –b–r–o–t–e–x–t–u–r–e–i–n–d–i–r–e–
+38 ighet warning quei -> –i–g–h–e–t–w–a–r–n–i–n–g–q–u–e–i–
+39 osabb eighteen abges -> –o–s–a–b–b–e–i–g–h–t–e–e–n–a–b–g–e–s–
+40 andus scoperto wedding -> –a–n–d–u–s–s–c–o–p–e–r–t–o–w–e–d–d–i–n–g–
+41 tes inneh joueur -> –t–e–s–i–n–n–e–h–j–o–u–e–u–r–
+42 atten suces vlada -> –a–t–t–e–n–s–u–c–e–s–v–l–a–d–a–
+43 iket airing sharply -> –i–k–e–t–a–i–r–i–n–g–s–h–a–r–p–l–y–
+44 path kev galax -> –p–a–t–h–k–e–v–g–a–l–a–x–
+45 autta restric council -> –a–u–t–t–a–r–e–s–t–r–i–c–c–o–u–n–c–i–l–
+46 opi company holte -> –o–p–i–c–o–m–p–a–n–y–h–o–l–t–e–
+47 raumatic razor sus -> –r–a–u–m–a–t–i–c–r–a–z–o–r–s–u–s–
+48 sequence ik conjunct -> –s–e–q–u–e–n–c–e–i–k–c–o–n–j–u–n–c–t–
+49 gle pinc leans -> –g–l–e–p–i–n–c–l–e–a–n–s–
+50 englad proteins sekitar -> –e–n–g–l–a–d–p–r–o–t–e–i–n–s–s–e–k–i–t–a–r–
+51 andom streak bras -> –a–n–d–o–m–s–t–r–e–a–k–b–r–a–s–
+52 nienie spikes depended -> –n–i–e–n–i–e–s–p–i–k–e–s–d–e–p–e–n–d–e–d–
+53 ibel frog cotid -> –i–b–e–l–f–r–o–g–c–o–t–i–d–
+54 esseur vertex phased -> –e–s–s–e–u–r–v–e–r–t–e–x–p–h–a–s–e–d–
+55 lug goles multis -> –l–u–g–g–o–l–e–s–m–u–l–t–i–s–
+56 atsapp dese afge -> –a–t–s–a–p–p–d–e–s–e–a–f–g–e–
+57 antage pont dying -> –a–n–t–a–g–e–p–o–n–t–d–y–i–n–g–
+58 iada trees kobiet -> –i–a–d–a–t–r–e–e–s–k–o–b–i–e–t–
+59 cr membuat speaking -> –c–r–m–e–m–b–u–a–t–s–p–e–a–k–i–n–g–
+60 alls stdin genug -> –a–l–l–s–s–t–d–i–n–g–e–n–u–g–
+61 getragen apertura ultimate -> –g–e–t–r–a–g–e–n–a–p–e–r–t–u–r–a–u–l–t–i–m–a–t–e–
+62 vid dogs existir -> –v–i–d–d–o–g–s–e–x–i–s–t–i–r–
+63 yskyt mich playback -> –y–s–k–y–t–m–i–c–h–p–l–a–y–b–a–c–k–
+64 culos shone compound -> –c–u–l–o–s–s–h–o–n–e–c–o–m–p–o–u–n–d–
+65 zyc modular animais -> –z–y–c–m–o–d–u–l–a–r–a–n–i–m–a–i–s–
+66 urse cient archivos -> –u–r–s–e–c–i–e–n–t–a–r–c–h–i–v–o–s–
+67 fade dest schlug -> –f–a–d–e–d–e–s–t–s–c–h–l–u–g–
+68 uvo carc likes -> –u–v–o–c–a–r–c–l–i–k–e–s–
+69 alib superst cet -> –a–l–i–b–s–u–p–e–r–s–t–c–e–t–
+70 aguay cheaper brace -> –a–g–u–a–y–c–h–e–a–p–e–r–b–r–a–c–e–
+71 acij rock atyp -> –a–c–i–j–r–o–c–k–a–t–y–p–
+72 naden confisc threat -> –n–a–d–e–n–c–o–n–f–i–s–c–t–h–r–e–a–t–
+73 elon longtime nan -> –e–l–o–n–l–o–n–g–t–i–m–e–n–a–n–
+74 sign chil snap -> –s–i–g–n–c–h–i–l–s–n–a–p–
+75 undai tore chassis -> –u–n–d–a–i–t–o–r–e–c–h–a–s–s–i–s–
+76 gara volle cour -> –g–a–r–a–v–o–l–l–e–c–o–u–r–
+77 arios assayed lente -> –a–r–i–o–s–a–s–s–a–y–e–d–l–e–n–t–e–
+78 orspronk sessions skrz -> –o–r–s–p–r–o–n–k–s–e–s–s–i–o–n–s–s–k–r–z–
+79 malar brows overturn -> –m–a–l–a–r–b–r–o–w–s–o–v–e–r–t–u–r–n–
+80 so require eco -> –s–o–r–e–q–u–i–r–e–e–c–o–
+81 igd bleu turbul -> –i–g–d–b–l–e–u–t–u–r–b–u–l–
+82 umeurs standard rc -> –u–m–e–u–r–s–s–t–a–n–d–a–r–d–r–c–
+83 try accus suddenly -> –t–r–y–a–c–c–u–s–s–u–d–d–e–n–l–y–
+84 ivanje autore disperse -> –i–v–a–n–j–e–a–u–t–o–r–e–d–i–s–p–e–r–s–e–
+85 pta paus thirteen -> –p–t–a–p–a–u–s–t–h–i–r–t–e–e–n–
+86 orse we domand -> –o–r–s–e–w–e–d–o–m–a–n–d–
+87 aqu gr brom -> –a–q–u–g–r–b–r–o–m–
+88 itoral alphabet ingresos -> –i–t–o–r–a–l–a–l–p–h–a–b–e–t–i–n–g–r–e–s–o–s–
+89 adion vendre de -> –a–d–i–o–n–v–e–n–d–r–e–d–e–
+90 yendo voting costa -> –y–e–n–d–o–v–o–t–i–n–g–c–o–s–t–a–
+91 usele allgeme brytyj -> –u–s–e–l–e–a–l–l–g–e–m–e–b–r–y–t–y–j–
+92 urne quitte ebenso -> –u–r–n–e–q–u–i–t–t–e–e–b–e–n–s–o–
+93 erte dagli infil -> –e–r–t–e–d–a–g–l–i–i–n–f–i–l–
+94 jac bat names -> –j–a–c–b–a–t–n–a–m–e–s–
+95 ivision ceci thunder -> –i–v–i–s–i–o–n–c–e–c–i–t–h–u–n–d–e–r–
+96 branch random rail -> –b–r–a–n–c–h–r–a–n–d–o–m–r–a–i–l–
+97 logos spelled trough -> –l–o–g–o–s–s–p–e–l–l–e–d–t–r–o–u–g–h–
+98 okies vaisseau gospodar -> –o–k–i–e–s–v–a–i–s–s–e–a–u–g–o–s–p–o–d–a–r–
+99 aud fossem ais -> –a–u–d–f–o–s–s–e–m–a–i–s–

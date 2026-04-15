@@ -1,0 +1,28 @@
+problem id: 094bf548
+category: equation_numeric
+
+examples:
+- 88(64 = 8864
+- 27:81 = 54
+- 52:57 = 5
+- 25:81 = 56
+
+inferred rule:
+- `(` concatenates the two two-digit inputs: `88(64 -> 8864`.
+- `:` returns the absolute difference between the two inputs.
+  - `27:81 -> |27 - 81| = 54`
+  - `52:57 -> |52 - 57| = 5`
+  - `25:81 -> |25 - 81| = 56`
+
+The `:` examples all have the second number larger, so `b-a` also fits those examples. I still prefer absolute difference because it generalizes cleanly to the query, where the first number is larger.
+
+step-by-step application to the query:
+- Query: `80:32`
+- Apply the `:` rule as absolute difference.
+- Compute `|80 - 32| = 48`
+
+predicted answer:
+- 48
+
+confidence note:
+- Moderate to high. The `:` rule is well supported by the three examples, but the direction is slightly ambiguous because every training example has `b > a`. Absolute difference is the most defensible extension.

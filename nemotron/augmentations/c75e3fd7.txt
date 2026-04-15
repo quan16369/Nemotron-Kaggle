@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 aves highways esso
+01 ostra poser brid
+02 woman formalin agentes
+
+This is a sample output.
+00 aves highways esso -> –a–v–e–s–h–i–g–h–w–a–y–s–e–s–s–o–
+01 ostra poser brid -> –o–s–t–r–a–p–o–s–e–r–b–r–i–d–
+02 woman formalin agentes -> –w–o–m–a–n–f–o–r–m–a–l–i–n–a–g–e–n–t–e–s–
+
+This is your input.
+00 shme hameau prolifer
+01 ene locality imen
+02 ypes otr shower
+03 glob hela geboren
+04 mass fn besie
+05 ylon tabs precios
+06 klasse oncle dello
+07 rir singul nick
+08 anze montre coa
+09 sites liga digits
+10 rennen capsules habitat
+11 logu dato again
+12 imeq wojska kenn
+13 erior ese qs
+14 ocarcin twelve poorly
+15 aphys calculus caminos
+16 ishga picks outbreak
+17 ettel ellipt pneum
+18 ussy prek logrado
+19 cki saf lagata
+20 subseteq suppose edildi
+21 roli relation ees
+22 icks intento faults
+23 avorable devem attrice
+24 pha mars mahdoll
+25 tta ato estimate
+26 atutako occult predic
+27 dirname verl jaw
+28 ycle paging solute
+29 olicies jewelry aktu
+30 agena przes quedar
+31 ajal hemod fondo
+32 compute enem ilust
+33 okin queryset restent
+34 lafen parall disabled
+35 occasion hiper inn
+36 podob mound hora
+37 inst povo algunas
+38 ryn predator alue
+39 wia facet verdes
+40 mosph hopeless entfer
+41 part critics esim
+42 usep cause zudem
+43 orte national atoms
+44 uyer rehe bundled
+45 fol kazan casinos
+46 nummer appar decre
+47 griff navale dismin
+48 constant dramas relating
+49 elling komt verz
+50 irma kialak tirar
+51 quotes peroxide simples
+52 uminense anten nunca
+53 asikan keizer ajuda
+54 ups garments rotating
+55 enzi muestra caudal
+56 period tiendas iniz
+57 eram and guida
+58 inale deixar minas
+59 leck auquel dividida
+60 ashed convince dass
+61 ties aufgel influ
+62 nas abad ressent
+63 identity diffuse catches
+64 produced fringe godzin
+65 lements infatti collided
+66 reichen kvar buc
+67 message autres ambigu
+68 lige function sets
+69 ennessee pylori dib
+70 oscope frei giving
+71 ieniu tand women
+72 idal oscill cloning
+73 ehr syn accol
+74 ulton diru capital
+75 oja hubo expenses
+76 uera viewer sello
+77 ifices blir thighs
+78 isce adulto tmp
+79 zenia garbage glaz
+80 til lingua highways
+81 solution intends canals
+82 odem possu clones
+83 amoto stood posiada
+84 ocratic commonly pard
+85 defaults pode fearful
+86 pt tres memoria
+87 inia salute nje
+88 ues stellen auton
+89 idigt particip calmly
+90 rys imposing feelings
+91 ixture begge celebr
+92 osition dreams rot
+93 betrieb integer acht
+94 arer pointed padr
+95 umm iddia docs
+96 aison stranici screamed
+97 temps compass strany
+98 itives psi qaz
+99 kow emplo items
+[completion]
+00 shme hameau prolifer -> –s–h–m–e–h–a–m–e–a–u–p–r–o–l–i–f–e–r–
+01 ene locality imen -> –e–n–e–l–o–c–a–l–i–t–y–i–m–e–n–
+02 ypes otr shower -> –y–p–e–s–o–t–r–s–h–o–w–e–r–
+03 glob hela geboren -> –g–l–o–b–h–e–l–a–g–e–b–o–r–e–n–
+04 mass fn besie -> –m–a–s–s–f–n–b–e–s–i–e–
+05 ylon tabs precios -> –y–l–o–n–t–a–b–s–p–r–e–c–i–o–s–
+06 klasse oncle dello -> –k–l–a–s–s–e–o–n–c–l–e–d–e–l–l–o–
+07 rir singul nick -> –r–i–r–s–i–n–g–u–l–n–i–c–k–
+08 anze montre coa -> –a–n–z–e–m–o–n–t–r–e–c–o–a–
+09 sites liga digits -> –s–i–t–e–s–l–i–g–a–d–i–g–i–t–s–
+10 rennen capsules habitat -> –r–e–n–n–e–n–c–a–p–s–u–l–e–s–h–a–b–i–t–a–t–
+11 logu dato again -> –l–o–g–u–d–a–t–o–a–g–a–i–n–
+12 imeq wojska kenn -> –i–m–e–q–w–o–j–s–k–a–k–e–n–n–
+13 erior ese qs -> –e–r–i–o–r–e–s–e–q–s–
+14 ocarcin twelve poorly -> –o–c–a–r–c–i–n–t–w–e–l–v–e–p–o–o–r–l–y–
+15 aphys calculus caminos -> –a–p–h–y–s–c–a–l–c–u–l–u–s–c–a–m–i–n–o–s–
+16 ishga picks outbreak -> –i–s–h–g–a–p–i–c–k–s–o–u–t–b–r–e–a–k–
+17 ettel ellipt pneum -> –e–t–t–e–l–e–l–l–i–p–t–p–n–e–u–m–
+18 ussy prek logrado -> –u–s–s–y–p–r–e–k–l–o–g–r–a–d–o–
+19 cki saf lagata -> –c–k–i–s–a–f–l–a–g–a–t–a–
+20 subseteq suppose edildi -> –s–u–b–s–e–t–e–q–s–u–p–p–o–s–e–e–d–i–l–d–i–
+21 roli relation ees -> –r–o–l–i–r–e–l–a–t–i–o–n–e–e–s–
+22 icks intento faults -> –i–c–k–s–i–n–t–e–n–t–o–f–a–u–l–t–s–
+23 avorable devem attrice -> –a–v–o–r–a–b–l–e–d–e–v–e–m–a–t–t–r–i–c–e–
+24 pha mars mahdoll -> –p–h–a–m–a–r–s–m–a–h–d–o–l–l–
+25 tta ato estimate -> –t–t–a–a–t–o–e–s–t–i–m–a–t–e–
+26 atutako occult predic -> –a–t–u–t–a–k–o–o–c–c–u–l–t–p–r–e–d–i–c–
+27 dirname verl jaw -> –d–i–r–n–a–m–e–v–e–r–l–j–a–w–
+28 ycle paging solute -> –y–c–l–e–p–a–g–i–n–g–s–o–l–u–t–e–
+29 olicies jewelry aktu -> –o–l–i–c–i–e–s–j–e–w–e–l–r–y–a–k–t–u–
+30 agena przes quedar -> –a–g–e–n–a–p–r–z–e–s–q–u–e–d–a–r–
+31 ajal hemod fondo -> –a–j–a–l–h–e–m–o–d–f–o–n–d–o–
+32 compute enem ilust -> –c–o–m–p–u–t–e–e–n–e–m–i–l–u–s–t–
+33 okin queryset restent -> –o–k–i–n–q–u–e–r–y–s–e–t–r–e–s–t–e–n–t–
+34 lafen parall disabled -> –l–a–f–e–n–p–a–r–a–l–l–d–i–s–a–b–l–e–d–
+35 occasion hiper inn -> –o–c–c–a–s–i–o–n–h–i–p–e–r–i–n–n–
+36 podob mound hora -> –p–o–d–o–b–m–o–u–n–d–h–o–r–a–
+37 inst povo algunas -> –i–n–s–t–p–o–v–o–a–l–g–u–n–a–s–
+38 ryn predator alue -> –r–y–n–p–r–e–d–a–t–o–r–a–l–u–e–
+39 wia facet verdes -> –w–i–a–f–a–c–e–t–v–e–r–d–e–s–
+40 mosph hopeless entfer -> –m–o–s–p–h–h–o–p–e–l–e–s–s–e–n–t–f–e–r–
+41 part critics esim -> –p–a–r–t–c–r–i–t–i–c–s–e–s–i–m–
+42 usep cause zudem -> –u–s–e–p–c–a–u–s–e–z–u–d–e–m–
+43 orte national atoms -> –o–r–t–e–n–a–t–i–o–n–a–l–a–t–o–m–s–
+44 uyer rehe bundled -> –u–y–e–r–r–e–h–e–b–u–n–d–l–e–d–
+45 fol kazan casinos -> –f–o–l–k–a–z–a–n–c–a–s–i–n–o–s–
+46 nummer appar decre -> –n–u–m–m–e–r–a–p–p–a–r–d–e–c–r–e–
+47 griff navale dismin -> –g–r–i–f–f–n–a–v–a–l–e–d–i–s–m–i–n–
+48 constant dramas relating -> –c–o–n–s–t–a–n–t–d–r–a–m–a–s–r–e–l–a–t–i–n–g–
+49 elling komt verz -> –e–l–l–i–n–g–k–o–m–t–v–e–r–z–
+50 irma kialak tirar -> –i–r–m–a–k–i–a–l–a–k–t–i–r–a–r–
+51 quotes peroxide simples -> –q–u–o–t–e–s–p–e–r–o–x–i–d–e–s–i–m–p–l–e–s–
+52 uminense anten nunca -> –u–m–i–n–e–n–s–e–a–n–t–e–n–n–u–n–c–a–
+53 asikan keizer ajuda -> –a–s–i–k–a–n–k–e–i–z–e–r–a–j–u–d–a–
+54 ups garments rotating -> –u–p–s–g–a–r–m–e–n–t–s–r–o–t–a–t–i–n–g–
+55 enzi muestra caudal -> –e–n–z–i–m–u–e–s–t–r–a–c–a–u–d–a–l–
+56 period tiendas iniz -> –p–e–r–i–o–d–t–i–e–n–d–a–s–i–n–i–z–
+57 eram and guida -> –e–r–a–m–a–n–d–g–u–i–d–a–
+58 inale deixar minas -> –i–n–a–l–e–d–e–i–x–a–r–m–i–n–a–s–
+59 leck auquel dividida -> –l–e–c–k–a–u–q–u–e–l–d–i–v–i–d–i–d–a–
+60 ashed convince dass -> –a–s–h–e–d–c–o–n–v–i–n–c–e–d–a–s–s–
+61 ties aufgel influ -> –t–i–e–s–a–u–f–g–e–l–i–n–f–l–u–
+62 nas abad ressent -> –n–a–s–a–b–a–d–r–e–s–s–e–n–t–
+63 identity diffuse catches -> –i–d–e–n–t–i–t–y–d–i–f–f–u–s–e–c–a–t–c–h–e–s–
+64 produced fringe godzin -> –p–r–o–d–u–c–e–d–f–r–i–n–g–e–g–o–d–z–i–n–
+65 lements infatti collided -> –l–e–m–e–n–t–s–i–n–f–a–t–t–i–c–o–l–l–i–d–e–d–
+66 reichen kvar buc -> –r–e–i–c–h–e–n–k–v–a–r–b–u–c–
+67 message autres ambigu -> –m–e–s–s–a–g–e–a–u–t–r–e–s–a–m–b–i–g–u–
+68 lige function sets -> –l–i–g–e–f–u–n–c–t–i–o–n–s–e–t–s–
+69 ennessee pylori dib -> –e–n–n–e–s–s–e–e–p–y–l–o–r–i–d–i–b–
+70 oscope frei giving -> –o–s–c–o–p–e–f–r–e–i–g–i–v–i–n–g–
+71 ieniu tand women -> –i–e–n–i–u–t–a–n–d–w–o–m–e–n–
+72 idal oscill cloning -> –i–d–a–l–o–s–c–i–l–l–c–l–o–n–i–n–g–
+73 ehr syn accol -> –e–h–r–s–y–n–a–c–c–o–l–
+74 ulton diru capital -> –u–l–t–o–n–d–i–r–u–c–a–p–i–t–a–l–
+75 oja hubo expenses -> –o–j–a–h–u–b–o–e–x–p–e–n–s–e–s–
+76 uera viewer sello -> –u–e–r–a–v–i–e–w–e–r–s–e–l–l–o–
+77 ifices blir thighs -> –i–f–i–c–e–s–b–l–i–r–t–h–i–g–h–s–
+78 isce adulto tmp -> –i–s–c–e–a–d–u–l–t–o–t–m–p–
+79 zenia garbage glaz -> –z–e–n–i–a–g–a–r–b–a–g–e–g–l–a–z–
+80 til lingua highways -> –t–i–l–l–i–n–g–u–a–h–i–g–h–w–a–y–s–
+81 solution intends canals -> –s–o–l–u–t–i–o–n–i–n–t–e–n–d–s–c–a–n–a–l–s–
+82 odem possu clones -> –o–d–e–m–p–o–s–s–u–c–l–o–n–e–s–
+83 amoto stood posiada -> –a–m–o–t–o–s–t–o–o–d–p–o–s–i–a–d–a–
+84 ocratic commonly pard -> –o–c–r–a–t–i–c–c–o–m–m–o–n–l–y–p–a–r–d–
+85 defaults pode fearful -> –d–e–f–a–u–l–t–s–p–o–d–e–f–e–a–r–f–u–l–
+86 pt tres memoria -> –p–t–t–r–e–s–m–e–m–o–r–i–a–
+87 inia salute nje -> –i–n–i–a–s–a–l–u–t–e–n–j–e–
+88 ues stellen auton -> –u–e–s–s–t–e–l–l–e–n–a–u–t–o–n–
+89 idigt particip calmly -> –i–d–i–g–t–p–a–r–t–i–c–i–p–c–a–l–m–l–y–
+90 rys imposing feelings -> –r–y–s–i–m–p–o–s–i–n–g–f–e–e–l–i–n–g–s–
+91 ixture begge celebr -> –i–x–t–u–r–e–b–e–g–g–e–c–e–l–e–b–r–
+92 osition dreams rot -> –o–s–i–t–i–o–n–d–r–e–a–m–s–r–o–t–
+93 betrieb integer acht -> –b–e–t–r–i–e–b–i–n–t–e–g–e–r–a–c–h–t–
+94 arer pointed padr -> –a–r–e–r–p–o–i–n–t–e–d–p–a–d–r–
+95 umm iddia docs -> –u–m–m–i–d–d–i–a–d–o–c–s–
+96 aison stranici screamed -> –a–i–s–o–n–s–t–r–a–n–i–c–i–s–c–r–e–a–m–e–d–
+97 temps compass strany -> –t–e–m–p–s–c–o–m–p–a–s–s–s–t–r–a–n–y–
+98 itives psi qaz -> –i–t–i–v–e–s–p–s–i–q–a–z–
+99 kow emplo items -> –k–o–w–e–m–p–l–o–i–t–e–m–s–

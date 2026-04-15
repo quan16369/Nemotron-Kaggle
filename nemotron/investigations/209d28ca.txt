@@ -1,0 +1,32 @@
+problem id: 209d28ca
+category: equation_numeric_guess
+
+examples:
+- 35}22 = 13
+- 10^96 = 961
+- 66}15 = 51
+- 23^91 = 2094
+- query: 84[87
+
+inferred rule:
+This problem appears to use a small family of basic arithmetic operations, each written with a different symbol.
+
+- `}` means ordinary subtraction:
+  - 35 - 22 = 13
+  - 66 - 15 = 51
+- `^` means multiplication, then add 1:
+  - 10 * 96 = 960, then +1 = 961
+  - 23 * 91 = 2093, then +1 = 2094
+
+The query uses a third symbol, `[`. With subtraction and multiplication-plus-1 already accounted for, the cleanest remaining rule is that `[` stands for ordinary addition.
+
+step-by-step application to the query:
+1. Query: 84[87
+2. Interpret `[` as addition.
+3. Compute 84 + 87 = 171.
+
+predicted answer:
+171
+
+confidence note:
+Medium confidence. The `}` and `^` rules are strongly supported by the examples. The only inference is extending the set with `[` as addition, since there is no direct training example for `[`. That extension is simple and coherent, but not fully proven by the provided examples alone.

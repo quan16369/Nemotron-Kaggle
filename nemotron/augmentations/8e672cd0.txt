@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 elenium theolog elect
+01 voor quoi menu
+02 elong oversee relativ
+
+This is a sample output.
+00 elenium theolog elect -> –e–l–e–n–i–u–m–t–h–e–o–l–o–g–e–l–e–c–t–
+01 voor quoi menu -> –v–o–o–r–q–u–o–i–m–e–n–u–
+02 elong oversee relativ -> –e–l–o–n–g–o–v–e–r–s–e–e–r–e–l–a–t–i–v–
+
+This is your input.
+00 aron grasping secoli
+01 uss prog lot
+02 skie escrever obbl
+03 ols dow berh
+04 indt bulan ulterior
+05 mutable della piena
+06 cil calendar pli
+07 zug just quotient
+08 inject nomme goods
+09 oph eiusmod reform
+10 kins slo bata
+11 ismiss tou dirigida
+12 chern enhances software
+13 reating tipus llibre
+14 rem prochain econom
+15 veh swim colored
+16 mier secreted negation
+17 entzia sits lif
+18 st eaten trajet
+19 ossen sedikit rumor
+20 rent fundador prison
+21 adur weights garnison
+22 naio ozone preceded
+23 metros desember line
+24 uba medidas nessun
+25 taires tactile arteri
+26 otan bers reuni
+27 yordu naziv ost
+28 aronne grupo rector
+29 aglia retali sums
+30 empo appear pitching
+31 zor cas gri
+32 uvre kitab horrible
+33 pute hob arom
+34 inance haul stance
+35 unami inse cominci
+36 wig tocar chien
+37 nila tenen variable
+38 aram proib revital
+39 inf mucosal nort
+40 ividade entire znajdu
+41 leit degree exchange
+42 izon slender nato
+43 erad mite plotted
+44 igest juego durable
+45 patched failed llevado
+46 fecture dak wagons
+47 overs vagues agree
+48 isjon stolet ensino
+49 aurice dummy prefer
+50 ingo deploy vastly
+51 estiwal bounced slips
+52 maximum yana resin
+53 stats entanto slack
+54 rang chair riqueza
+55 yat cannab packed
+56 fh iets arriver
+57 rouille listings closer
+58 cdot aperta meur
+59 andid dash jetzt
+60 zionale cuant kritik
+61 bek consum curso
+62 sters klim janvier
+63 ensory envoie makes
+64 blank tiveram wall
+65 ons pept sette
+66 ebe gaz semen
+67 letter meanings invited
+68 ativen inclu arbre
+69 vival tills svo
+70 cout squadra anyone
+71 se honour escapar
+72 oretic deren nello
+73 nbsp penduduk oggetto
+74 okan fotograf reduces
+75 roscopy talde defer
+76 romos assert cricket
+77 ensions feas houses
+78 eh dess moeten
+79 ovanje marchand aans
+80 antic ventas maak
+81 iplex cocaine needing
+82 ualmente modelled myel
+83 pel muut crowds
+84 escu ie rundt
+85 phen aspir ester
+86 estial na souvent
+87 eed midst csv
+88 ais nope usk
+89 ete presum sitt
+90 isman hr outflow
+91 neros privadas invas
+92 ovies retorno accent
+93 ushi befolk carte
+94 igung ajo colitis
+95 abili esk sembl
+96 bring przeci maior
+97 aper amare ghost
+98 links arbor tha
+99 cheen funer nun
+[completion]
+00 aron grasping secoli -> –a–r–o–n–g–r–a–s–p–i–n–g–s–e–c–o–l–i–
+01 uss prog lot -> –u–s–s–p–r–o–g–l–o–t–
+02 skie escrever obbl -> –s–k–i–e–e–s–c–r–e–v–e–r–o–b–b–l–
+03 ols dow berh -> –o–l–s–d–o–w–b–e–r–h–
+04 indt bulan ulterior -> –i–n–d–t–b–u–l–a–n–u–l–t–e–r–i–o–r–
+05 mutable della piena -> –m–u–t–a–b–l–e–d–e–l–l–a–p–i–e–n–a–
+06 cil calendar pli -> –c–i–l–c–a–l–e–n–d–a–r–p–l–i–
+07 zug just quotient -> –z–u–g–j–u–s–t–q–u–o–t–i–e–n–t–
+08 inject nomme goods -> –i–n–j–e–c–t–n–o–m–m–e–g–o–o–d–s–
+09 oph eiusmod reform -> –o–p–h–e–i–u–s–m–o–d–r–e–f–o–r–m–
+10 kins slo bata -> –k–i–n–s–s–l–o–b–a–t–a–
+11 ismiss tou dirigida -> –i–s–m–i–s–s–t–o–u–d–i–r–i–g–i–d–a–
+12 chern enhances software -> –c–h–e–r–n–e–n–h–a–n–c–e–s–s–o–f–t–w–a–r–e–
+13 reating tipus llibre -> –r–e–a–t–i–n–g–t–i–p–u–s–l–l–i–b–r–e–
+14 rem prochain econom -> –r–e–m–p–r–o–c–h–a–i–n–e–c–o–n–o–m–
+15 veh swim colored -> –v–e–h–s–w–i–m–c–o–l–o–r–e–d–
+16 mier secreted negation -> –m–i–e–r–s–e–c–r–e–t–e–d–n–e–g–a–t–i–o–n–
+17 entzia sits lif -> –e–n–t–z–i–a–s–i–t–s–l–i–f–
+18 st eaten trajet -> –s–t–e–a–t–e–n–t–r–a–j–e–t–
+19 ossen sedikit rumor -> –o–s–s–e–n–s–e–d–i–k–i–t–r–u–m–o–r–
+20 rent fundador prison -> –r–e–n–t–f–u–n–d–a–d–o–r–p–r–i–s–o–n–
+21 adur weights garnison -> –a–d–u–r–w–e–i–g–h–t–s–g–a–r–n–i–s–o–n–
+22 naio ozone preceded -> –n–a–i–o–o–z–o–n–e–p–r–e–c–e–d–e–d–
+23 metros desember line -> –m–e–t–r–o–s–d–e–s–e–m–b–e–r–l–i–n–e–
+24 uba medidas nessun -> –u–b–a–m–e–d–i–d–a–s–n–e–s–s–u–n–
+25 taires tactile arteri -> –t–a–i–r–e–s–t–a–c–t–i–l–e–a–r–t–e–r–i–
+26 otan bers reuni -> –o–t–a–n–b–e–r–s–r–e–u–n–i–
+27 yordu naziv ost -> –y–o–r–d–u–n–a–z–i–v–o–s–t–
+28 aronne grupo rector -> –a–r–o–n–n–e–g–r–u–p–o–r–e–c–t–o–r–
+29 aglia retali sums -> –a–g–l–i–a–r–e–t–a–l–i–s–u–m–s–
+30 empo appear pitching -> –e–m–p–o–a–p–p–e–a–r–p–i–t–c–h–i–n–g–
+31 zor cas gri -> –z–o–r–c–a–s–g–r–i–
+32 uvre kitab horrible -> –u–v–r–e–k–i–t–a–b–h–o–r–r–i–b–l–e–
+33 pute hob arom -> –p–u–t–e–h–o–b–a–r–o–m–
+34 inance haul stance -> –i–n–a–n–c–e–h–a–u–l–s–t–a–n–c–e–
+35 unami inse cominci -> –u–n–a–m–i–i–n–s–e–c–o–m–i–n–c–i–
+36 wig tocar chien -> –w–i–g–t–o–c–a–r–c–h–i–e–n–
+37 nila tenen variable -> –n–i–l–a–t–e–n–e–n–v–a–r–i–a–b–l–e–
+38 aram proib revital -> –a–r–a–m–p–r–o–i–b–r–e–v–i–t–a–l–
+39 inf mucosal nort -> –i–n–f–m–u–c–o–s–a–l–n–o–r–t–
+40 ividade entire znajdu -> –i–v–i–d–a–d–e–e–n–t–i–r–e–z–n–a–j–d–u–
+41 leit degree exchange -> –l–e–i–t–d–e–g–r–e–e–e–x–c–h–a–n–g–e–
+42 izon slender nato -> –i–z–o–n–s–l–e–n–d–e–r–n–a–t–o–
+43 erad mite plotted -> –e–r–a–d–m–i–t–e–p–l–o–t–t–e–d–
+44 igest juego durable -> –i–g–e–s–t–j–u–e–g–o–d–u–r–a–b–l–e–
+45 patched failed llevado -> –p–a–t–c–h–e–d–f–a–i–l–e–d–l–l–e–v–a–d–o–
+46 fecture dak wagons -> –f–e–c–t–u–r–e–d–a–k–w–a–g–o–n–s–
+47 overs vagues agree -> –o–v–e–r–s–v–a–g–u–e–s–a–g–r–e–e–
+48 isjon stolet ensino -> –i–s–j–o–n–s–t–o–l–e–t–e–n–s–i–n–o–
+49 aurice dummy prefer -> –a–u–r–i–c–e–d–u–m–m–y–p–r–e–f–e–r–
+50 ingo deploy vastly -> –i–n–g–o–d–e–p–l–o–y–v–a–s–t–l–y–
+51 estiwal bounced slips -> –e–s–t–i–w–a–l–b–o–u–n–c–e–d–s–l–i–p–s–
+52 maximum yana resin -> –m–a–x–i–m–u–m–y–a–n–a–r–e–s–i–n–
+53 stats entanto slack -> –s–t–a–t–s–e–n–t–a–n–t–o–s–l–a–c–k–
+54 rang chair riqueza -> –r–a–n–g–c–h–a–i–r–r–i–q–u–e–z–a–
+55 yat cannab packed -> –y–a–t–c–a–n–n–a–b–p–a–c–k–e–d–
+56 fh iets arriver -> –f–h–i–e–t–s–a–r–r–i–v–e–r–
+57 rouille listings closer -> –r–o–u–i–l–l–e–l–i–s–t–i–n–g–s–c–l–o–s–e–r–
+58 cdot aperta meur -> –c–d–o–t–a–p–e–r–t–a–m–e–u–r–
+59 andid dash jetzt -> –a–n–d–i–d–d–a–s–h–j–e–t–z–t–
+60 zionale cuant kritik -> –z–i–o–n–a–l–e–c–u–a–n–t–k–r–i–t–i–k–
+61 bek consum curso -> –b–e–k–c–o–n–s–u–m–c–u–r–s–o–
+62 sters klim janvier -> –s–t–e–r–s–k–l–i–m–j–a–n–v–i–e–r–
+63 ensory envoie makes -> –e–n–s–o–r–y–e–n–v–o–i–e–m–a–k–e–s–
+64 blank tiveram wall -> –b–l–a–n–k–t–i–v–e–r–a–m–w–a–l–l–
+65 ons pept sette -> –o–n–s–p–e–p–t–s–e–t–t–e–
+66 ebe gaz semen -> –e–b–e–g–a–z–s–e–m–e–n–
+67 letter meanings invited -> –l–e–t–t–e–r–m–e–a–n–i–n–g–s–i–n–v–i–t–e–d–
+68 ativen inclu arbre -> –a–t–i–v–e–n–i–n–c–l–u–a–r–b–r–e–
+69 vival tills svo -> –v–i–v–a–l–t–i–l–l–s–s–v–o–
+70 cout squadra anyone -> –c–o–u–t–s–q–u–a–d–r–a–a–n–y–o–n–e–
+71 se honour escapar -> –s–e–h–o–n–o–u–r–e–s–c–a–p–a–r–
+72 oretic deren nello -> –o–r–e–t–i–c–d–e–r–e–n–n–e–l–l–o–
+73 nbsp penduduk oggetto -> –n–b–s–p–p–e–n–d–u–d–u–k–o–g–g–e–t–t–o–
+74 okan fotograf reduces -> –o–k–a–n–f–o–t–o–g–r–a–f–r–e–d–u–c–e–s–
+75 roscopy talde defer -> –r–o–s–c–o–p–y–t–a–l–d–e–d–e–f–e–r–
+76 romos assert cricket -> –r–o–m–o–s–a–s–s–e–r–t–c–r–i–c–k–e–t–
+77 ensions feas houses -> –e–n–s–i–o–n–s–f–e–a–s–h–o–u–s–e–s–
+78 eh dess moeten -> –e–h–d–e–s–s–m–o–e–t–e–n–
+79 ovanje marchand aans -> –o–v–a–n–j–e–m–a–r–c–h–a–n–d–a–a–n–s–
+80 antic ventas maak -> –a–n–t–i–c–v–e–n–t–a–s–m–a–a–k–
+81 iplex cocaine needing -> –i–p–l–e–x–c–o–c–a–i–n–e–n–e–e–d–i–n–g–
+82 ualmente modelled myel -> –u–a–l–m–e–n–t–e–m–o–d–e–l–l–e–d–m–y–e–l–
+83 pel muut crowds -> –p–e–l–m–u–u–t–c–r–o–w–d–s–
+84 escu ie rundt -> –e–s–c–u–i–e–r–u–n–d–t–
+85 phen aspir ester -> –p–h–e–n–a–s–p–i–r–e–s–t–e–r–
+86 estial na souvent -> –e–s–t–i–a–l–n–a–s–o–u–v–e–n–t–
+87 eed midst csv -> –e–e–d–m–i–d–s–t–c–s–v–
+88 ais nope usk -> –a–i–s–n–o–p–e–u–s–k–
+89 ete presum sitt -> –e–t–e–p–r–e–s–u–m–s–i–t–t–
+90 isman hr outflow -> –i–s–m–a–n–h–r–o–u–t–f–l–o–w–
+91 neros privadas invas -> –n–e–r–o–s–p–r–i–v–a–d–a–s–i–n–v–a–s–
+92 ovies retorno accent -> –o–v–i–e–s–r–e–t–o–r–n–o–a–c–c–e–n–t–
+93 ushi befolk carte -> –u–s–h–i–b–e–f–o–l–k–c–a–r–t–e–
+94 igung ajo colitis -> –i–g–u–n–g–a–j–o–c–o–l–i–t–i–s–
+95 abili esk sembl -> –a–b–i–l–i–e–s–k–s–e–m–b–l–
+96 bring przeci maior -> –b–r–i–n–g–p–r–z–e–c–i–m–a–i–o–r–
+97 aper amare ghost -> –a–p–e–r–a–m–a–r–e–g–h–o–s–t–
+98 links arbor tha -> –l–i–n–k–s–a–r–b–o–r–t–h–a–
+99 cheen funer nun -> –c–h–e–e–n–f–u–n–e–r–n–u–n–

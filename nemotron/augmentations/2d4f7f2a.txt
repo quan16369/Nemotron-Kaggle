@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 inflate kamu band
+01 divisie owe obl
+02 isco solvents bewe
+
+This is a sample output.
+00 inflate kamu band -> –i–n–f–l–a–t–e–k–a–m–u–b–a–n–d–
+01 divisie owe obl -> –d–i–v–i–s–i–e–o–w–e–o–b–l–
+02 isco solvents bewe -> –i–s–c–o–s–o–l–v–e–n–t–s–b–e–w–e–
+
+This is your input.
+00 mm dt excised
+01 dens sheep gelang
+02 uzz chewing deletion
+03 olid petite recurs
+04 cover trailed drog
+05 atott hero producen
+06 eceu powers jam
+07 assets supuesto survived
+08 aternion treating gespielt
+09 tion svjet confi
+10 adin sable validity
+11 ueel sostiene stanie
+12 cript martial retourn
+13 etako fier fouilles
+14 rong lov strat
+15 weite permiso ich
+16 rodite diseases grind
+17 ellik victim discord
+18 zes pyro especie
+19 special hipot hammer
+20 ucose verder whistle
+21 opis zgod gases
+22 tas floats firmware
+23 utica sekali extrap
+24 emory bald sen
+25 oire tiss perif
+26 ency poema wurden
+27 idlertid ones szav
+28 hak breeds iii
+29 ypoth niez conce
+30 legte varia sowjet
+31 fft revers tentou
+32 itif suffers prven
+33 mar tanto remnants
+34 icket svojih kumpulan
+35 vertebr olig pause
+36 etet nineteen gry
+37 encji homens rng
+38 uksen poly graduate
+39 baz improb whisk
+40 vernment negocios tierra
+41 geri laund forsk
+42 pire jurisd apro
+43 igheden shunt converte
+44 bill boh pts
+45 zib waarvan maire
+46 articles zvol revision
+47 etos meno besk
+48 kopf verbess ganar
+49 mun philos reveals
+50 au estatua cuanto
+51 df sete sinist
+52 icked llarg wyk
+53 oso saj oamen
+54 pub welchem endet
+55 coal rojo monte
+56 loir titled keeper
+57 aryngeal stderr disp
+58 artist varying leaking
+59 anj her arises
+60 antu memset axe
+61 ifinal llamadas fetus
+62 giv ene janari
+63 icu seconda lunettes
+64 razione see excision
+65 ensation danh python
+66 ythe belong peine
+67 icon numa windows
+68 teacher conver passion
+69 atto cloth sqlite
+70 veg convuls behaupt
+71 vod poultry seeding
+72 asy serai product
+73 ceptions labelled waren
+74 jelent caff eh
+75 oblasts nutr yas
+76 nis noter spike
+77 acio dinheiro egin
+78 osi obl versant
+79 nels helper comuns
+80 list grading addict
+81 possibly plu regl
+82 asic filos sportive
+83 knife pills cette
+84 stdio advocate pastoral
+85 uevo axon kar
+86 cerpt adress langue
+87 arib comic gluten
+88 upported cornea drafted
+89 aterial epiz aprendiz
+90 lander provoz che
+91 ienne lump reden
+92 asjon dichiar solvent
+93 listen vod numeral
+94 riu fib proprie
+95 iego kde trick
+96 ringen soup modernos
+97 triangle djel thigh
+98 nee difer quit
+99 irono booked czasu
+[completion]
+00 mm dt excised -> –m–m–d–t–e–x–c–i–s–e–d–
+01 dens sheep gelang -> –d–e–n–s–s–h–e–e–p–g–e–l–a–n–g–
+02 uzz chewing deletion -> –u–z–z–c–h–e–w–i–n–g–d–e–l–e–t–i–o–n–
+03 olid petite recurs -> –o–l–i–d–p–e–t–i–t–e–r–e–c–u–r–s–
+04 cover trailed drog -> –c–o–v–e–r–t–r–a–i–l–e–d–d–r–o–g–
+05 atott hero producen -> –a–t–o–t–t–h–e–r–o–p–r–o–d–u–c–e–n–
+06 eceu powers jam -> –e–c–e–u–p–o–w–e–r–s–j–a–m–
+07 assets supuesto survived -> –a–s–s–e–t–s–s–u–p–u–e–s–t–o–s–u–r–v–i–v–e–d–
+08 aternion treating gespielt -> –a–t–e–r–n–i–o–n–t–r–e–a–t–i–n–g–g–e–s–p–i–e–l–t–
+09 tion svjet confi -> –t–i–o–n–s–v–j–e–t–c–o–n–f–i–
+10 adin sable validity -> –a–d–i–n–s–a–b–l–e–v–a–l–i–d–i–t–y–
+11 ueel sostiene stanie -> –u–e–e–l–s–o–s–t–i–e–n–e–s–t–a–n–i–e–
+12 cript martial retourn -> –c–r–i–p–t–m–a–r–t–i–a–l–r–e–t–o–u–r–n–
+13 etako fier fouilles -> –e–t–a–k–o–f–i–e–r–f–o–u–i–l–l–e–s–
+14 rong lov strat -> –r–o–n–g–l–o–v–s–t–r–a–t–
+15 weite permiso ich -> –w–e–i–t–e–p–e–r–m–i–s–o–i–c–h–
+16 rodite diseases grind -> –r–o–d–i–t–e–d–i–s–e–a–s–e–s–g–r–i–n–d–
+17 ellik victim discord -> –e–l–l–i–k–v–i–c–t–i–m–d–i–s–c–o–r–d–
+18 zes pyro especie -> –z–e–s–p–y–r–o–e–s–p–e–c–i–e–
+19 special hipot hammer -> –s–p–e–c–i–a–l–h–i–p–o–t–h–a–m–m–e–r–
+20 ucose verder whistle -> –u–c–o–s–e–v–e–r–d–e–r–w–h–i–s–t–l–e–
+21 opis zgod gases -> –o–p–i–s–z–g–o–d–g–a–s–e–s–
+22 tas floats firmware -> –t–a–s–f–l–o–a–t–s–f–i–r–m–w–a–r–e–
+23 utica sekali extrap -> –u–t–i–c–a–s–e–k–a–l–i–e–x–t–r–a–p–
+24 emory bald sen -> –e–m–o–r–y–b–a–l–d–s–e–n–
+25 oire tiss perif -> –o–i–r–e–t–i–s–s–p–e–r–i–f–
+26 ency poema wurden -> –e–n–c–y–p–o–e–m–a–w–u–r–d–e–n–
+27 idlertid ones szav -> –i–d–l–e–r–t–i–d–o–n–e–s–s–z–a–v–
+28 hak breeds iii -> –h–a–k–b–r–e–e–d–s–i–i–i–
+29 ypoth niez conce -> –y–p–o–t–h–n–i–e–z–c–o–n–c–e–
+30 legte varia sowjet -> –l–e–g–t–e–v–a–r–i–a–s–o–w–j–e–t–
+31 fft revers tentou -> –f–f–t–r–e–v–e–r–s–t–e–n–t–o–u–
+32 itif suffers prven -> –i–t–i–f–s–u–f–f–e–r–s–p–r–v–e–n–
+33 mar tanto remnants -> –m–a–r–t–a–n–t–o–r–e–m–n–a–n–t–s–
+34 icket svojih kumpulan -> –i–c–k–e–t–s–v–o–j–i–h–k–u–m–p–u–l–a–n–
+35 vertebr olig pause -> –v–e–r–t–e–b–r–o–l–i–g–p–a–u–s–e–
+36 etet nineteen gry -> –e–t–e–t–n–i–n–e–t–e–e–n–g–r–y–
+37 encji homens rng -> –e–n–c–j–i–h–o–m–e–n–s–r–n–g–
+38 uksen poly graduate -> –u–k–s–e–n–p–o–l–y–g–r–a–d–u–a–t–e–
+39 baz improb whisk -> –b–a–z–i–m–p–r–o–b–w–h–i–s–k–
+40 vernment negocios tierra -> –v–e–r–n–m–e–n–t–n–e–g–o–c–i–o–s–t–i–e–r–r–a–
+41 geri laund forsk -> –g–e–r–i–l–a–u–n–d–f–o–r–s–k–
+42 pire jurisd apro -> –p–i–r–e–j–u–r–i–s–d–a–p–r–o–
+43 igheden shunt converte -> –i–g–h–e–d–e–n–s–h–u–n–t–c–o–n–v–e–r–t–e–
+44 bill boh pts -> –b–i–l–l–b–o–h–p–t–s–
+45 zib waarvan maire -> –z–i–b–w–a–a–r–v–a–n–m–a–i–r–e–
+46 articles zvol revision -> –a–r–t–i–c–l–e–s–z–v–o–l–r–e–v–i–s–i–o–n–
+47 etos meno besk -> –e–t–o–s–m–e–n–o–b–e–s–k–
+48 kopf verbess ganar -> –k–o–p–f–v–e–r–b–e–s–s–g–a–n–a–r–
+49 mun philos reveals -> –m–u–n–p–h–i–l–o–s–r–e–v–e–a–l–s–
+50 au estatua cuanto -> –a–u–e–s–t–a–t–u–a–c–u–a–n–t–o–
+51 df sete sinist -> –d–f–s–e–t–e–s–i–n–i–s–t–
+52 icked llarg wyk -> –i–c–k–e–d–l–l–a–r–g–w–y–k–
+53 oso saj oamen -> –o–s–o–s–a–j–o–a–m–e–n–
+54 pub welchem endet -> –p–u–b–w–e–l–c–h–e–m–e–n–d–e–t–
+55 coal rojo monte -> –c–o–a–l–r–o–j–o–m–o–n–t–e–
+56 loir titled keeper -> –l–o–i–r–t–i–t–l–e–d–k–e–e–p–e–r–
+57 aryngeal stderr disp -> –a–r–y–n–g–e–a–l–s–t–d–e–r–r–d–i–s–p–
+58 artist varying leaking -> –a–r–t–i–s–t–v–a–r–y–i–n–g–l–e–a–k–i–n–g–
+59 anj her arises -> –a–n–j–h–e–r–a–r–i–s–e–s–
+60 antu memset axe -> –a–n–t–u–m–e–m–s–e–t–a–x–e–
+61 ifinal llamadas fetus -> –i–f–i–n–a–l–l–l–a–m–a–d–a–s–f–e–t–u–s–
+62 giv ene janari -> –g–i–v–e–n–e–j–a–n–a–r–i–
+63 icu seconda lunettes -> –i–c–u–s–e–c–o–n–d–a–l–u–n–e–t–t–e–s–
+64 razione see excision -> –r–a–z–i–o–n–e–s–e–e–e–x–c–i–s–i–o–n–
+65 ensation danh python -> –e–n–s–a–t–i–o–n–d–a–n–h–p–y–t–h–o–n–
+66 ythe belong peine -> –y–t–h–e–b–e–l–o–n–g–p–e–i–n–e–
+67 icon numa windows -> –i–c–o–n–n–u–m–a–w–i–n–d–o–w–s–
+68 teacher conver passion -> –t–e–a–c–h–e–r–c–o–n–v–e–r–p–a–s–s–i–o–n–
+69 atto cloth sqlite -> –a–t–t–o–c–l–o–t–h–s–q–l–i–t–e–
+70 veg convuls behaupt -> –v–e–g–c–o–n–v–u–l–s–b–e–h–a–u–p–t–
+71 vod poultry seeding -> –v–o–d–p–o–u–l–t–r–y–s–e–e–d–i–n–g–
+72 asy serai product -> –a–s–y–s–e–r–a–i–p–r–o–d–u–c–t–
+73 ceptions labelled waren -> –c–e–p–t–i–o–n–s–l–a–b–e–l–l–e–d–w–a–r–e–n–
+74 jelent caff eh -> –j–e–l–e–n–t–c–a–f–f–e–h–
+75 oblasts nutr yas -> –o–b–l–a–s–t–s–n–u–t–r–y–a–s–
+76 nis noter spike -> –n–i–s–n–o–t–e–r–s–p–i–k–e–
+77 acio dinheiro egin -> –a–c–i–o–d–i–n–h–e–i–r–o–e–g–i–n–
+78 osi obl versant -> –o–s–i–o–b–l–v–e–r–s–a–n–t–
+79 nels helper comuns -> –n–e–l–s–h–e–l–p–e–r–c–o–m–u–n–s–
+80 list grading addict -> –l–i–s–t–g–r–a–d–i–n–g–a–d–d–i–c–t–
+81 possibly plu regl -> –p–o–s–s–i–b–l–y–p–l–u–r–e–g–l–
+82 asic filos sportive -> –a–s–i–c–f–i–l–o–s–s–p–o–r–t–i–v–e–
+83 knife pills cette -> –k–n–i–f–e–p–i–l–l–s–c–e–t–t–e–
+84 stdio advocate pastoral -> –s–t–d–i–o–a–d–v–o–c–a–t–e–p–a–s–t–o–r–a–l–
+85 uevo axon kar -> –u–e–v–o–a–x–o–n–k–a–r–
+86 cerpt adress langue -> –c–e–r–p–t–a–d–r–e–s–s–l–a–n–g–u–e–
+87 arib comic gluten -> –a–r–i–b–c–o–m–i–c–g–l–u–t–e–n–
+88 upported cornea drafted -> –u–p–p–o–r–t–e–d–c–o–r–n–e–a–d–r–a–f–t–e–d–
+89 aterial epiz aprendiz -> –a–t–e–r–i–a–l–e–p–i–z–a–p–r–e–n–d–i–z–
+90 lander provoz che -> –l–a–n–d–e–r–p–r–o–v–o–z–c–h–e–
+91 ienne lump reden -> –i–e–n–n–e–l–u–m–p–r–e–d–e–n–
+92 asjon dichiar solvent -> –a–s–j–o–n–d–i–c–h–i–a–r–s–o–l–v–e–n–t–
+93 listen vod numeral -> –l–i–s–t–e–n–v–o–d–n–u–m–e–r–a–l–
+94 riu fib proprie -> –r–i–u–f–i–b–p–r–o–p–r–i–e–
+95 iego kde trick -> –i–e–g–o–k–d–e–t–r–i–c–k–
+96 ringen soup modernos -> –r–i–n–g–e–n–s–o–u–p–m–o–d–e–r–n–o–s–
+97 triangle djel thigh -> –t–r–i–a–n–g–l–e–d–j–e–l–t–h–i–g–h–
+98 nee difer quit -> –n–e–e–d–i–f–e–r–q–u–i–t–
+99 irono booked czasu -> –i–r–o–n–o–b–o–o–k–e–d–c–z–a–s–u–

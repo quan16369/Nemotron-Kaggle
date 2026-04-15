@@ -1,0 +1,27 @@
+problem id: c69b17bf
+category: cryptarithm_deduce
+
+symbol-to-digit mapping:
+  '$' = 6
+  '%' = 9
+  '&' = 7
+  ')' = 5
+  '/' = 8
+  ':' = 2
+  '>' = 4
+  '?' = 1
+  '^' = 0
+  '`' = 3
+
+operator-to-operation mapping:
+  '+' = add
+  '-' = abs_diff
+
+examples:
+  )%-%> = `)  =>  |59 - 94| = 35
+  ?>+)$ = &^  =>  14 + 56 = 70
+  :&+/& = ??>  =>  27 + 87 = 114
+
+query: )^-$)  =>  |50 - 65| = 15
+
+predicted answer: ?)

@@ -1,0 +1,41 @@
+Problem ID: 4aabfc3b
+Category: equation_numeric_deduce
+
+Examples:
+- 03*61 = 64
+- 05*84 = 89
+- 27"97 = 8865
+- Query: 31*85
+
+Cryptarithmetic-style setup:
+Treat each 2-digit block `xy` as the ordinary decimal number `10x + y`.
+For the query we only need the `*` operator, so the relevant question is:
+what arithmetic rule on two decoded 2-digit numbers is forced by the two `*`
+examples?
+
+Inferred rule:
+`*` behaves like ordinary addition on the decoded 2-digit numbers.
+
+Why this fits:
+- `03*61 = 64` becomes `3 + 61 = 64`.
+- `05*84 = 89` becomes `5 + 84 = 89`.
+
+So at the digit-equation level:
+`(10a + b) * (10c + d) = (10a + b) + (10c + d)`.
+
+The `"` example belongs to a different operator family and is not needed to
+determine the query rule.
+
+Step-by-step application to the query:
+1. Decode `31` as `10*3 + 1 = 31`.
+2. Decode `85` as `10*8 + 5 = 85`.
+3. Apply the inferred `*` rule as addition:
+   `31 * 85 -> 31 + 85 = 116`.
+
+Predicted answer:
+116
+
+Confidence note:
+Moderate. There are only two `*` examples, but both fit the same decoded
+decimal equation exactly. A digitwise-column reading also collapses to the
+same final value for this query, so the prediction is stable.

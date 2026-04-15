@@ -1,0 +1,26 @@
+problem id: 272bde97
+category: equation_numeric
+
+examples:
+- 31-55 = -24
+- 21-97 = -76
+- 47*44 = 4447
+- query: 14+31
+
+inferred rule:
+- `-` means ordinary subtraction of the two numbers.
+- `*` means write the second number first and the first number second (concatenate in reverse order).
+- The remaining unseen operator `+` is most plausibly ordinary addition. This fits the style of these problems: each symbol stands for a basic operation or a simple string transformation, and the query uses the only obvious basic operation not yet shown.
+
+step-by-step application to the query:
+1. From 31-55 = -24, compute 31 - 55 = -24. So `-` is subtraction.
+2. From 21-97 = -76, compute 21 - 97 = -76. This confirms `-` is subtraction.
+3. From 47*44 = 4447, the output is the concatenation of the right operand and then the left operand: `44` + `47` -> `4447`.
+4. The query is 14+31. Since `+` is the remaining natural arithmetic operation, apply ordinary addition.
+5. Compute 14 + 31 = 45.
+
+predicted answer:
+45
+
+confidence note:
+Moderate confidence. The subtraction and reverse-concatenation rules are directly supported by the examples. The only mild ambiguity is that `+` is not shown in the examples, but ordinary addition is the most defensible completion of the operator set.

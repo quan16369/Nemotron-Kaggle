@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 circle pozn expres
+01 vice toen aeros
+02 print clever coron
+
+This is a sample output.
+00 circle pozn expres -> –c–i–r–c–l–e–p–o–z–n–e–x–p–r–e–s–
+01 vice toen aeros -> –v–i–c–e–t–o–e–n–a–e–r–o–s–
+02 print clever coron -> –p–r–i–n–t–c–l–e–v–e–r–c–o–r–o–n–
+
+This is your input.
+00 function shoes aimed
+01 grant mois verfol
+02 epsilon prim rack
+03 eka nied ruin
+04 essing samma circond
+05 playlist caf perceive
+06 apping resort egyet
+07 inher beinahe abge
+08 erek jours regal
+09 elik tara suss
+10 oku steel incre
+11 itions tangan barb
+12 koi su imply
+13 rikt curse festiv
+14 ysz harvest drainage
+15 ern knowing shutdown
+16 omega assent enriched
+17 tem fond applied
+18 embros sujeto praising
+19 rati lir atroc
+20 energic svensk insects
+21 ioned recesses finit
+22 istas stove terrem
+23 ubic chantier clearer
+24 raction ankles artil
+25 bur pericol shark
+26 unto photons capac
+27 inspace polls arisen
+28 licos cine essaie
+29 urrent outro invoked
+30 studio logout respond
+31 imenti extens pela
+32 jee fifty liczba
+33 unea bw tc
+34 ponente rangs usado
+35 skoj elektr hk
+36 ocrate exemple embedded
+37 inken sixteen stessi
+38 undes cyber infiltr
+39 yskland parejas contral
+40 frames thing modality
+41 nez intrac injury
+42 lott prizes parent
+43 larida imao remis
+44 orter fiatal enters
+45 iscing scans coli
+46 scanf skut perdu
+47 ayn wyd tug
+48 ira nej vaid
+49 ature cookie rund
+50 ting differ rivel
+51 utils uplink conclu
+52 emon regroup clocher
+53 lon annoying chemins
+54 ambo cicl stem
+55 ischte scuola reluct
+56 kich kab chante
+57 package fires skins
+58 season rainbow begged
+59 chie nodig lid
+60 doi fonts lebte
+61 images suis seis
+62 rin impegn anhydro
+63 atalytic definido logarith
+64 zob wings inlet
+65 rez cyto versos
+66 ub later affir
+67 rasi pedal grandes
+68 ung coste know
+69 acan colonne diken
+70 ovat peril etabl
+71 optic yeux helps
+72 bine binary pierwszy
+73 elta reicht dd
+74 ifiques haver pollen
+75 ivities disable innocent
+76 ido image viene
+77 pail fulfil lapt
+78 pole cavities politika
+79 conomia jeunesse eux
+80 mia medzi moyenne
+81 oli sockaddr logic
+82 umbnails skeletal presup
+83 ikor before cred
+84 ipur elect despois
+85 anud doel uda
+86 rets enterr anglais
+87 toare ug sommes
+88 ocks locales strong
+89 istence mezcla venc
+90 emaa coping noticia
+91 alos supplies popup
+92 aggi conclus where
+93 bind oks voices
+94 creator paix anywhere
+95 select shelters enforced
+96 eback overlap sarc
+97 fit shut madame
+98 ostat pero etx
+99 eking econ celular
+[completion]
+00 function shoes aimed -> –f–u–n–c–t–i–o–n–s–h–o–e–s–a–i–m–e–d–
+01 grant mois verfol -> –g–r–a–n–t–m–o–i–s–v–e–r–f–o–l–
+02 epsilon prim rack -> –e–p–s–i–l–o–n–p–r–i–m–r–a–c–k–
+03 eka nied ruin -> –e–k–a–n–i–e–d–r–u–i–n–
+04 essing samma circond -> –e–s–s–i–n–g–s–a–m–m–a–c–i–r–c–o–n–d–
+05 playlist caf perceive -> –p–l–a–y–l–i–s–t–c–a–f–p–e–r–c–e–i–v–e–
+06 apping resort egyet -> –a–p–p–i–n–g–r–e–s–o–r–t–e–g–y–e–t–
+07 inher beinahe abge -> –i–n–h–e–r–b–e–i–n–a–h–e–a–b–g–e–
+08 erek jours regal -> –e–r–e–k–j–o–u–r–s–r–e–g–a–l–
+09 elik tara suss -> –e–l–i–k–t–a–r–a–s–u–s–s–
+10 oku steel incre -> –o–k–u–s–t–e–e–l–i–n–c–r–e–
+11 itions tangan barb -> –i–t–i–o–n–s–t–a–n–g–a–n–b–a–r–b–
+12 koi su imply -> –k–o–i–s–u–i–m–p–l–y–
+13 rikt curse festiv -> –r–i–k–t–c–u–r–s–e–f–e–s–t–i–v–
+14 ysz harvest drainage -> –y–s–z–h–a–r–v–e–s–t–d–r–a–i–n–a–g–e–
+15 ern knowing shutdown -> –e–r–n–k–n–o–w–i–n–g–s–h–u–t–d–o–w–n–
+16 omega assent enriched -> –o–m–e–g–a–a–s–s–e–n–t–e–n–r–i–c–h–e–d–
+17 tem fond applied -> –t–e–m–f–o–n–d–a–p–p–l–i–e–d–
+18 embros sujeto praising -> –e–m–b–r–o–s–s–u–j–e–t–o–p–r–a–i–s–i–n–g–
+19 rati lir atroc -> –r–a–t–i–l–i–r–a–t–r–o–c–
+20 energic svensk insects -> –e–n–e–r–g–i–c–s–v–e–n–s–k–i–n–s–e–c–t–s–
+21 ioned recesses finit -> –i–o–n–e–d–r–e–c–e–s–s–e–s–f–i–n–i–t–
+22 istas stove terrem -> –i–s–t–a–s–s–t–o–v–e–t–e–r–r–e–m–
+23 ubic chantier clearer -> –u–b–i–c–c–h–a–n–t–i–e–r–c–l–e–a–r–e–r–
+24 raction ankles artil -> –r–a–c–t–i–o–n–a–n–k–l–e–s–a–r–t–i–l–
+25 bur pericol shark -> –b–u–r–p–e–r–i–c–o–l–s–h–a–r–k–
+26 unto photons capac -> –u–n–t–o–p–h–o–t–o–n–s–c–a–p–a–c–
+27 inspace polls arisen -> –i–n–s–p–a–c–e–p–o–l–l–s–a–r–i–s–e–n–
+28 licos cine essaie -> –l–i–c–o–s–c–i–n–e–e–s–s–a–i–e–
+29 urrent outro invoked -> –u–r–r–e–n–t–o–u–t–r–o–i–n–v–o–k–e–d–
+30 studio logout respond -> –s–t–u–d–i–o–l–o–g–o–u–t–r–e–s–p–o–n–d–
+31 imenti extens pela -> –i–m–e–n–t–i–e–x–t–e–n–s–p–e–l–a–
+32 jee fifty liczba -> –j–e–e–f–i–f–t–y–l–i–c–z–b–a–
+33 unea bw tc -> –u–n–e–a–b–w–t–c–
+34 ponente rangs usado -> –p–o–n–e–n–t–e–r–a–n–g–s–u–s–a–d–o–
+35 skoj elektr hk -> –s–k–o–j–e–l–e–k–t–r–h–k–
+36 ocrate exemple embedded -> –o–c–r–a–t–e–e–x–e–m–p–l–e–e–m–b–e–d–d–e–d–
+37 inken sixteen stessi -> –i–n–k–e–n–s–i–x–t–e–e–n–s–t–e–s–s–i–
+38 undes cyber infiltr -> –u–n–d–e–s–c–y–b–e–r–i–n–f–i–l–t–r–
+39 yskland parejas contral -> –y–s–k–l–a–n–d–p–a–r–e–j–a–s–c–o–n–t–r–a–l–
+40 frames thing modality -> –f–r–a–m–e–s–t–h–i–n–g–m–o–d–a–l–i–t–y–
+41 nez intrac injury -> –n–e–z–i–n–t–r–a–c–i–n–j–u–r–y–
+42 lott prizes parent -> –l–o–t–t–p–r–i–z–e–s–p–a–r–e–n–t–
+43 larida imao remis -> –l–a–r–i–d–a–i–m–a–o–r–e–m–i–s–
+44 orter fiatal enters -> –o–r–t–e–r–f–i–a–t–a–l–e–n–t–e–r–s–
+45 iscing scans coli -> –i–s–c–i–n–g–s–c–a–n–s–c–o–l–i–
+46 scanf skut perdu -> –s–c–a–n–f–s–k–u–t–p–e–r–d–u–
+47 ayn wyd tug -> –a–y–n–w–y–d–t–u–g–
+48 ira nej vaid -> –i–r–a–n–e–j–v–a–i–d–
+49 ature cookie rund -> –a–t–u–r–e–c–o–o–k–i–e–r–u–n–d–
+50 ting differ rivel -> –t–i–n–g–d–i–f–f–e–r–r–i–v–e–l–
+51 utils uplink conclu -> –u–t–i–l–s–u–p–l–i–n–k–c–o–n–c–l–u–
+52 emon regroup clocher -> –e–m–o–n–r–e–g–r–o–u–p–c–l–o–c–h–e–r–
+53 lon annoying chemins -> –l–o–n–a–n–n–o–y–i–n–g–c–h–e–m–i–n–s–
+54 ambo cicl stem -> –a–m–b–o–c–i–c–l–s–t–e–m–
+55 ischte scuola reluct -> –i–s–c–h–t–e–s–c–u–o–l–a–r–e–l–u–c–t–
+56 kich kab chante -> –k–i–c–h–k–a–b–c–h–a–n–t–e–
+57 package fires skins -> –p–a–c–k–a–g–e–f–i–r–e–s–s–k–i–n–s–
+58 season rainbow begged -> –s–e–a–s–o–n–r–a–i–n–b–o–w–b–e–g–g–e–d–
+59 chie nodig lid -> –c–h–i–e–n–o–d–i–g–l–i–d–
+60 doi fonts lebte -> –d–o–i–f–o–n–t–s–l–e–b–t–e–
+61 images suis seis -> –i–m–a–g–e–s–s–u–i–s–s–e–i–s–
+62 rin impegn anhydro -> –r–i–n–i–m–p–e–g–n–a–n–h–y–d–r–o–
+63 atalytic definido logarith -> –a–t–a–l–y–t–i–c–d–e–f–i–n–i–d–o–l–o–g–a–r–i–t–h–
+64 zob wings inlet -> –z–o–b–w–i–n–g–s–i–n–l–e–t–
+65 rez cyto versos -> –r–e–z–c–y–t–o–v–e–r–s–o–s–
+66 ub later affir -> –u–b–l–a–t–e–r–a–f–f–i–r–
+67 rasi pedal grandes -> –r–a–s–i–p–e–d–a–l–g–r–a–n–d–e–s–
+68 ung coste know -> –u–n–g–c–o–s–t–e–k–n–o–w–
+69 acan colonne diken -> –a–c–a–n–c–o–l–o–n–n–e–d–i–k–e–n–
+70 ovat peril etabl -> –o–v–a–t–p–e–r–i–l–e–t–a–b–l–
+71 optic yeux helps -> –o–p–t–i–c–y–e–u–x–h–e–l–p–s–
+72 bine binary pierwszy -> –b–i–n–e–b–i–n–a–r–y–p–i–e–r–w–s–z–y–
+73 elta reicht dd -> –e–l–t–a–r–e–i–c–h–t–d–d–
+74 ifiques haver pollen -> –i–f–i–q–u–e–s–h–a–v–e–r–p–o–l–l–e–n–
+75 ivities disable innocent -> –i–v–i–t–i–e–s–d–i–s–a–b–l–e–i–n–n–o–c–e–n–t–
+76 ido image viene -> –i–d–o–i–m–a–g–e–v–i–e–n–e–
+77 pail fulfil lapt -> –p–a–i–l–f–u–l–f–i–l–l–a–p–t–
+78 pole cavities politika -> –p–o–l–e–c–a–v–i–t–i–e–s–p–o–l–i–t–i–k–a–
+79 conomia jeunesse eux -> –c–o–n–o–m–i–a–j–e–u–n–e–s–s–e–e–u–x–
+80 mia medzi moyenne -> –m–i–a–m–e–d–z–i–m–o–y–e–n–n–e–
+81 oli sockaddr logic -> –o–l–i–s–o–c–k–a–d–d–r–l–o–g–i–c–
+82 umbnails skeletal presup -> –u–m–b–n–a–i–l–s–s–k–e–l–e–t–a–l–p–r–e–s–u–p–
+83 ikor before cred -> –i–k–o–r–b–e–f–o–r–e–c–r–e–d–
+84 ipur elect despois -> –i–p–u–r–e–l–e–c–t–d–e–s–p–o–i–s–
+85 anud doel uda -> –a–n–u–d–d–o–e–l–u–d–a–
+86 rets enterr anglais -> –r–e–t–s–e–n–t–e–r–r–a–n–g–l–a–i–s–
+87 toare ug sommes -> –t–o–a–r–e–u–g–s–o–m–m–e–s–
+88 ocks locales strong -> –o–c–k–s–l–o–c–a–l–e–s–s–t–r–o–n–g–
+89 istence mezcla venc -> –i–s–t–e–n–c–e–m–e–z–c–l–a–v–e–n–c–
+90 emaa coping noticia -> –e–m–a–a–c–o–p–i–n–g–n–o–t–i–c–i–a–
+91 alos supplies popup -> –a–l–o–s–s–u–p–p–l–i–e–s–p–o–p–u–p–
+92 aggi conclus where -> –a–g–g–i–c–o–n–c–l–u–s–w–h–e–r–e–
+93 bind oks voices -> –b–i–n–d–o–k–s–v–o–i–c–e–s–
+94 creator paix anywhere -> –c–r–e–a–t–o–r–p–a–i–x–a–n–y–w–h–e–r–e–
+95 select shelters enforced -> –s–e–l–e–c–t–s–h–e–l–t–e–r–s–e–n–f–o–r–c–e–d–
+96 eback overlap sarc -> –e–b–a–c–k–o–v–e–r–l–a–p–s–a–r–c–
+97 fit shut madame -> –f–i–t–s–h–u–t–m–a–d–a–m–e–
+98 ostat pero etx -> –o–s–t–a–t–p–e–r–o–e–t–x–
+99 eking econ celular -> –e–k–i–n–g–e–c–o–n–c–e–l–u–l–a–r–

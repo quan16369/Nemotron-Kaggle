@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 pte idioma flaps
+01 atuur dise elevator
+02 ot dobro mesmos
+
+This is a sample output.
+00 pte idioma flaps -> –p–t–e–i–d–i–o–m–a–f–l–a–p–s–
+01 atuur dise elevator -> –a–t–u–u–r–d–i–s–e–e–l–e–v–a–t–o–r–
+02 ot dobro mesmos -> –o–t–d–o–b–r–o–m–e–s–m–o–s–
+
+This is your input.
+00 arine remonter coco
+01 insel lij pobl
+02 played saisit lokal
+03 chard eind marathon
+04 iou affid grin
+05 usr tio encima
+06 yty writ enzymes
+07 aucoup sexually elt
+08 cribed firef voix
+09 ivali plaz propor
+10 writing approach gjort
+11 esseurs estrut intorno
+12 ococcal rendait deny
+13 device huvud village
+14 int pat sfor
+15 peratore supprim organize
+16 engan release tempor
+17 riele assigned afro
+18 ening pubblica adjuvant
+19 atrix sia desen
+20 ucing plum allied
+21 iegel consult dirt
+22 kg tunnels rotated
+23 izers quatorze iban
+24 clerosis symbole eget
+25 qi atmosph ejected
+26 agn smells projektu
+27 uparrow franc hard
+28 empel bonuses ocasion
+29 errors tuy teht
+30 oon milions coil
+31 foo down brav
+32 ificada blessed quais
+33 ibar veil wound
+34 landen versus dolgo
+35 ban spectrom depos
+36 mesi vendors prodotti
+37 appal tim nieuw
+38 talk agentes torn
+39 inoid sezon crosses
+40 icho bona pequeno
+41 icent genres concepto
+42 ionato panorama menores
+43 otyp deliber epit
+44 boru manque jour
+45 oak trigger rer
+46 airement publique modell
+47 mart murs bosh
+48 idi zerbitzu kathol
+49 iado types mes
+50 iatu dispose puedan
+51 ongodb quickly polar
+52 rine spons tourner
+53 elar sering entreten
+54 annes future nag
+55 unie ensemble potenti
+56 ajo puesta sust
+57 yenne guise llama
+58 riting atheros mensch
+59 ott harmony makeup
+60 obre claro inexp
+61 ben elas tabindex
+62 ueil monkeys maybe
+63 zele envah pener
+64 ouard rara napad
+65 rap differed sopra
+66 sb land enlisted
+67 kam omb konserv
+68 ialis invade chung
+69 igned clinics tohoto
+70 ome retina dessert
+71 oslov archae debates
+72 uschauer isolate rept
+73 ancellor prophe urtean
+74 rosis gui cousin
+75 ungs taxes riche
+76 erein laundry animals
+77 indest inconn going
+78 stwa ejempl spare
+79 hib champs gm
+80 prim healed boil
+81 trigger filmes diary
+82 interval devices void
+83 hetized therein risques
+84 inoc view storia
+85 ovir handel swoim
+86 ceed vault inicia
+87 imbledon terceiro bian
+88 poch unik ng
+89 np jeszcze fro
+90 xis guiding zien
+91 ffen toutes elk
+92 etus enthal ainda
+93 orescent boven afl
+94 gery bambino logra
+95 arach lunch aro
+96 tape carre repeated
+97 gage spin azpian
+98 etra luxury grid
+99 level wilayah imit
+[completion]
+00 arine remonter coco -> –a–r–i–n–e–r–e–m–o–n–t–e–r–c–o–c–o–
+01 insel lij pobl -> –i–n–s–e–l–l–i–j–p–o–b–l–
+02 played saisit lokal -> –p–l–a–y–e–d–s–a–i–s–i–t–l–o–k–a–l–
+03 chard eind marathon -> –c–h–a–r–d–e–i–n–d–m–a–r–a–t–h–o–n–
+04 iou affid grin -> –i–o–u–a–f–f–i–d–g–r–i–n–
+05 usr tio encima -> –u–s–r–t–i–o–e–n–c–i–m–a–
+06 yty writ enzymes -> –y–t–y–w–r–i–t–e–n–z–y–m–e–s–
+07 aucoup sexually elt -> –a–u–c–o–u–p–s–e–x–u–a–l–l–y–e–l–t–
+08 cribed firef voix -> –c–r–i–b–e–d–f–i–r–e–f–v–o–i–x–
+09 ivali plaz propor -> –i–v–a–l–i–p–l–a–z–p–r–o–p–o–r–
+10 writing approach gjort -> –w–r–i–t–i–n–g–a–p–p–r–o–a–c–h–g–j–o–r–t–
+11 esseurs estrut intorno -> –e–s–s–e–u–r–s–e–s–t–r–u–t–i–n–t–o–r–n–o–
+12 ococcal rendait deny -> –o–c–o–c–c–a–l–r–e–n–d–a–i–t–d–e–n–y–
+13 device huvud village -> –d–e–v–i–c–e–h–u–v–u–d–v–i–l–l–a–g–e–
+14 int pat sfor -> –i–n–t–p–a–t–s–f–o–r–
+15 peratore supprim organize -> –p–e–r–a–t–o–r–e–s–u–p–p–r–i–m–o–r–g–a–n–i–z–e–
+16 engan release tempor -> –e–n–g–a–n–r–e–l–e–a–s–e–t–e–m–p–o–r–
+17 riele assigned afro -> –r–i–e–l–e–a–s–s–i–g–n–e–d–a–f–r–o–
+18 ening pubblica adjuvant -> –e–n–i–n–g–p–u–b–b–l–i–c–a–a–d–j–u–v–a–n–t–
+19 atrix sia desen -> –a–t–r–i–x–s–i–a–d–e–s–e–n–
+20 ucing plum allied -> –u–c–i–n–g–p–l–u–m–a–l–l–i–e–d–
+21 iegel consult dirt -> –i–e–g–e–l–c–o–n–s–u–l–t–d–i–r–t–
+22 kg tunnels rotated -> –k–g–t–u–n–n–e–l–s–r–o–t–a–t–e–d–
+23 izers quatorze iban -> –i–z–e–r–s–q–u–a–t–o–r–z–e–i–b–a–n–
+24 clerosis symbole eget -> –c–l–e–r–o–s–i–s–s–y–m–b–o–l–e–e–g–e–t–
+25 qi atmosph ejected -> –q–i–a–t–m–o–s–p–h–e–j–e–c–t–e–d–
+26 agn smells projektu -> –a–g–n–s–m–e–l–l–s–p–r–o–j–e–k–t–u–
+27 uparrow franc hard -> –u–p–a–r–r–o–w–f–r–a–n–c–h–a–r–d–
+28 empel bonuses ocasion -> –e–m–p–e–l–b–o–n–u–s–e–s–o–c–a–s–i–o–n–
+29 errors tuy teht -> –e–r–r–o–r–s–t–u–y–t–e–h–t–
+30 oon milions coil -> –o–o–n–m–i–l–i–o–n–s–c–o–i–l–
+31 foo down brav -> –f–o–o–d–o–w–n–b–r–a–v–
+32 ificada blessed quais -> –i–f–i–c–a–d–a–b–l–e–s–s–e–d–q–u–a–i–s–
+33 ibar veil wound -> –i–b–a–r–v–e–i–l–w–o–u–n–d–
+34 landen versus dolgo -> –l–a–n–d–e–n–v–e–r–s–u–s–d–o–l–g–o–
+35 ban spectrom depos -> –b–a–n–s–p–e–c–t–r–o–m–d–e–p–o–s–
+36 mesi vendors prodotti -> –m–e–s–i–v–e–n–d–o–r–s–p–r–o–d–o–t–t–i–
+37 appal tim nieuw -> –a–p–p–a–l–t–i–m–n–i–e–u–w–
+38 talk agentes torn -> –t–a–l–k–a–g–e–n–t–e–s–t–o–r–n–
+39 inoid sezon crosses -> –i–n–o–i–d–s–e–z–o–n–c–r–o–s–s–e–s–
+40 icho bona pequeno -> –i–c–h–o–b–o–n–a–p–e–q–u–e–n–o–
+41 icent genres concepto -> –i–c–e–n–t–g–e–n–r–e–s–c–o–n–c–e–p–t–o–
+42 ionato panorama menores -> –i–o–n–a–t–o–p–a–n–o–r–a–m–a–m–e–n–o–r–e–s–
+43 otyp deliber epit -> –o–t–y–p–d–e–l–i–b–e–r–e–p–i–t–
+44 boru manque jour -> –b–o–r–u–m–a–n–q–u–e–j–o–u–r–
+45 oak trigger rer -> –o–a–k–t–r–i–g–g–e–r–r–e–r–
+46 airement publique modell -> –a–i–r–e–m–e–n–t–p–u–b–l–i–q–u–e–m–o–d–e–l–l–
+47 mart murs bosh -> –m–a–r–t–m–u–r–s–b–o–s–h–
+48 idi zerbitzu kathol -> –i–d–i–z–e–r–b–i–t–z–u–k–a–t–h–o–l–
+49 iado types mes -> –i–a–d–o–t–y–p–e–s–m–e–s–
+50 iatu dispose puedan -> –i–a–t–u–d–i–s–p–o–s–e–p–u–e–d–a–n–
+51 ongodb quickly polar -> –o–n–g–o–d–b–q–u–i–c–k–l–y–p–o–l–a–r–
+52 rine spons tourner -> –r–i–n–e–s–p–o–n–s–t–o–u–r–n–e–r–
+53 elar sering entreten -> –e–l–a–r–s–e–r–i–n–g–e–n–t–r–e–t–e–n–
+54 annes future nag -> –a–n–n–e–s–f–u–t–u–r–e–n–a–g–
+55 unie ensemble potenti -> –u–n–i–e–e–n–s–e–m–b–l–e–p–o–t–e–n–t–i–
+56 ajo puesta sust -> –a–j–o–p–u–e–s–t–a–s–u–s–t–
+57 yenne guise llama -> –y–e–n–n–e–g–u–i–s–e–l–l–a–m–a–
+58 riting atheros mensch -> –r–i–t–i–n–g–a–t–h–e–r–o–s–m–e–n–s–c–h–
+59 ott harmony makeup -> –o–t–t–h–a–r–m–o–n–y–m–a–k–e–u–p–
+60 obre claro inexp -> –o–b–r–e–c–l–a–r–o–i–n–e–x–p–
+61 ben elas tabindex -> –b–e–n–e–l–a–s–t–a–b–i–n–d–e–x–
+62 ueil monkeys maybe -> –u–e–i–l–m–o–n–k–e–y–s–m–a–y–b–e–
+63 zele envah pener -> –z–e–l–e–e–n–v–a–h–p–e–n–e–r–
+64 ouard rara napad -> –o–u–a–r–d–r–a–r–a–n–a–p–a–d–
+65 rap differed sopra -> –r–a–p–d–i–f–f–e–r–e–d–s–o–p–r–a–
+66 sb land enlisted -> –s–b–l–a–n–d–e–n–l–i–s–t–e–d–
+67 kam omb konserv -> –k–a–m–o–m–b–k–o–n–s–e–r–v–
+68 ialis invade chung -> –i–a–l–i–s–i–n–v–a–d–e–c–h–u–n–g–
+69 igned clinics tohoto -> –i–g–n–e–d–c–l–i–n–i–c–s–t–o–h–o–t–o–
+70 ome retina dessert -> –o–m–e–r–e–t–i–n–a–d–e–s–s–e–r–t–
+71 oslov archae debates -> –o–s–l–o–v–a–r–c–h–a–e–d–e–b–a–t–e–s–
+72 uschauer isolate rept -> –u–s–c–h–a–u–e–r–i–s–o–l–a–t–e–r–e–p–t–
+73 ancellor prophe urtean -> –a–n–c–e–l–l–o–r–p–r–o–p–h–e–u–r–t–e–a–n–
+74 rosis gui cousin -> –r–o–s–i–s–g–u–i–c–o–u–s–i–n–
+75 ungs taxes riche -> –u–n–g–s–t–a–x–e–s–r–i–c–h–e–
+76 erein laundry animals -> –e–r–e–i–n–l–a–u–n–d–r–y–a–n–i–m–a–l–s–
+77 indest inconn going -> –i–n–d–e–s–t–i–n–c–o–n–n–g–o–i–n–g–
+78 stwa ejempl spare -> –s–t–w–a–e–j–e–m–p–l–s–p–a–r–e–
+79 hib champs gm -> –h–i–b–c–h–a–m–p–s–g–m–
+80 prim healed boil -> –p–r–i–m–h–e–a–l–e–d–b–o–i–l–
+81 trigger filmes diary -> –t–r–i–g–g–e–r–f–i–l–m–e–s–d–i–a–r–y–
+82 interval devices void -> –i–n–t–e–r–v–a–l–d–e–v–i–c–e–s–v–o–i–d–
+83 hetized therein risques -> –h–e–t–i–z–e–d–t–h–e–r–e–i–n–r–i–s–q–u–e–s–
+84 inoc view storia -> –i–n–o–c–v–i–e–w–s–t–o–r–i–a–
+85 ovir handel swoim -> –o–v–i–r–h–a–n–d–e–l–s–w–o–i–m–
+86 ceed vault inicia -> –c–e–e–d–v–a–u–l–t–i–n–i–c–i–a–
+87 imbledon terceiro bian -> –i–m–b–l–e–d–o–n–t–e–r–c–e–i–r–o–b–i–a–n–
+88 poch unik ng -> –p–o–c–h–u–n–i–k–n–g–
+89 np jeszcze fro -> –n–p–j–e–s–z–c–z–e–f–r–o–
+90 xis guiding zien -> –x–i–s–g–u–i–d–i–n–g–z–i–e–n–
+91 ffen toutes elk -> –f–f–e–n–t–o–u–t–e–s–e–l–k–
+92 etus enthal ainda -> –e–t–u–s–e–n–t–h–a–l–a–i–n–d–a–
+93 orescent boven afl -> –o–r–e–s–c–e–n–t–b–o–v–e–n–a–f–l–
+94 gery bambino logra -> –g–e–r–y–b–a–m–b–i–n–o–l–o–g–r–a–
+95 arach lunch aro -> –a–r–a–c–h–l–u–n–c–h–a–r–o–
+96 tape carre repeated -> –t–a–p–e–c–a–r–r–e–r–e–p–e–a–t–e–d–
+97 gage spin azpian -> –g–a–g–e–s–p–i–n–a–z–p–i–a–n–
+98 etra luxury grid -> –e–t–r–a–l–u–x–u–r–y–g–r–i–d–
+99 level wilayah imit -> –l–e–v–e–l–w–i–l–a–y–a–h–i–m–i–t–

@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 integr miel wedi
+01 gger glove moieties
+02 results motive segno
+
+This is a sample output.
+00 integr miel wedi -> –i–n–t–e–g–r–m–i–e–l–w–e–d–i–
+01 gger glove moieties -> –g–g–e–r–g–l–o–v–e–m–o–i–e–t–i–e–s–
+02 results motive segno -> –r–e–s–u–l–t–s–m–o–t–i–v–e–s–e–g–n–o–
+
+This is your input.
+00 imen major manual
+01 lsx liv dwa
+02 gift integrin secure
+03 bye clear ligi
+04 unnable enig pounds
+05 uet tid vocation
+06 ken nalazi argue
+07 elt contest glomer
+08 cate memories algumas
+09 otox juge curva
+10 ract fastened ladies
+11 onta deme tum
+12 quipe sez galerie
+13 against continua encha
+14 ativos itiner poor
+15 piration muerte creando
+16 allist nylon multi
+17 fabrik sewage indios
+18 anners exploded rzec
+19 ften ook suit
+20 ipada escreveu mont
+21 pan kust salv
+22 poss support frot
+23 wares kum simbol
+24 ashion racional noyau
+25 istico skre alcoh
+26 heiten berbagai pregn
+27 shared pumping antique
+28 raq sehingga endast
+29 dagi chord vierde
+30 unktion ky aviones
+31 hang puente academ
+32 flow komand achter
+33 heits erection summit
+34 bef captive contain
+35 prot appelle kafka
+36 atonin verhind trata
+37 arging decor tp
+38 udan sau aiut
+39 etur uved perp
+40 astype longe barrage
+41 itesse suomal cep
+42 aggreg autores healing
+43 hav presents contacto
+44 bn cyan propon
+45 uro gant plast
+46 ovou years evoke
+47 nar varit millones
+48 weiler always miesto
+49 riage tracker soprano
+50 ientos ido distra
+51 icillin seem dez
+52 insky wes bandas
+53 roviral parcel gelir
+54 urile creado waving
+55 voeg large autonom
+56 modify sile dorsal
+57 lope naud innings
+58 kinci dens expuls
+59 jt imprim crate
+60 taining agarr queen
+61 ener aroma heated
+62 reshold treasure ecol
+63 acion diocese pancre
+64 ataire spectrum arables
+65 imps retard minor
+66 github consta unequ
+67 vog middel kalt
+68 onna salas meth
+69 otre estilo battles
+70 onges takeover blog
+71 maid diagon lac
+72 alles apparent entdeck
+73 ocrates cephal ce
+74 onner nutrient niej
+75 unately anv persa
+76 hnt clown doses
+77 oro outputs proj
+78 oras boolean downward
+79 shake learned cholin
+80 aterally causal verlegt
+81 argar vertebr funktion
+82 omere gain ponts
+83 usalem funt less
+84 lectual tanks todas
+85 pecially subunits fapt
+86 yes unl vandal
+87 ako homo yd
+88 lete devient batal
+89 ilian olymp culture
+90 owanym charset chanteur
+91 jeta shader begins
+92 lb emulate swoich
+93 ubah speech coda
+94 most monocyte tare
+95 itando archives lebten
+96 rict tableau secured
+97 iolet admir revue
+98 anzas factors olmayan
+99 icorn dira fosse
+[completion]
+00 imen major manual -> –i–m–e–n–m–a–j–o–r–m–a–n–u–a–l–
+01 lsx liv dwa -> –l–s–x–l–i–v–d–w–a–
+02 gift integrin secure -> –g–i–f–t–i–n–t–e–g–r–i–n–s–e–c–u–r–e–
+03 bye clear ligi -> –b–y–e–c–l–e–a–r–l–i–g–i–
+04 unnable enig pounds -> –u–n–n–a–b–l–e–e–n–i–g–p–o–u–n–d–s–
+05 uet tid vocation -> –u–e–t–t–i–d–v–o–c–a–t–i–o–n–
+06 ken nalazi argue -> –k–e–n–n–a–l–a–z–i–a–r–g–u–e–
+07 elt contest glomer -> –e–l–t–c–o–n–t–e–s–t–g–l–o–m–e–r–
+08 cate memories algumas -> –c–a–t–e–m–e–m–o–r–i–e–s–a–l–g–u–m–a–s–
+09 otox juge curva -> –o–t–o–x–j–u–g–e–c–u–r–v–a–
+10 ract fastened ladies -> –r–a–c–t–f–a–s–t–e–n–e–d–l–a–d–i–e–s–
+11 onta deme tum -> –o–n–t–a–d–e–m–e–t–u–m–
+12 quipe sez galerie -> –q–u–i–p–e–s–e–z–g–a–l–e–r–i–e–
+13 against continua encha -> –a–g–a–i–n–s–t–c–o–n–t–i–n–u–a–e–n–c–h–a–
+14 ativos itiner poor -> –a–t–i–v–o–s–i–t–i–n–e–r–p–o–o–r–
+15 piration muerte creando -> –p–i–r–a–t–i–o–n–m–u–e–r–t–e–c–r–e–a–n–d–o–
+16 allist nylon multi -> –a–l–l–i–s–t–n–y–l–o–n–m–u–l–t–i–
+17 fabrik sewage indios -> –f–a–b–r–i–k–s–e–w–a–g–e–i–n–d–i–o–s–
+18 anners exploded rzec -> –a–n–n–e–r–s–e–x–p–l–o–d–e–d–r–z–e–c–
+19 ften ook suit -> –f–t–e–n–o–o–k–s–u–i–t–
+20 ipada escreveu mont -> –i–p–a–d–a–e–s–c–r–e–v–e–u–m–o–n–t–
+21 pan kust salv -> –p–a–n–k–u–s–t–s–a–l–v–
+22 poss support frot -> –p–o–s–s–s–u–p–p–o–r–t–f–r–o–t–
+23 wares kum simbol -> –w–a–r–e–s–k–u–m–s–i–m–b–o–l–
+24 ashion racional noyau -> –a–s–h–i–o–n–r–a–c–i–o–n–a–l–n–o–y–a–u–
+25 istico skre alcoh -> –i–s–t–i–c–o–s–k–r–e–a–l–c–o–h–
+26 heiten berbagai pregn -> –h–e–i–t–e–n–b–e–r–b–a–g–a–i–p–r–e–g–n–
+27 shared pumping antique -> –s–h–a–r–e–d–p–u–m–p–i–n–g–a–n–t–i–q–u–e–
+28 raq sehingga endast -> –r–a–q–s–e–h–i–n–g–g–a–e–n–d–a–s–t–
+29 dagi chord vierde -> –d–a–g–i–c–h–o–r–d–v–i–e–r–d–e–
+30 unktion ky aviones -> –u–n–k–t–i–o–n–k–y–a–v–i–o–n–e–s–
+31 hang puente academ -> –h–a–n–g–p–u–e–n–t–e–a–c–a–d–e–m–
+32 flow komand achter -> –f–l–o–w–k–o–m–a–n–d–a–c–h–t–e–r–
+33 heits erection summit -> –h–e–i–t–s–e–r–e–c–t–i–o–n–s–u–m–m–i–t–
+34 bef captive contain -> –b–e–f–c–a–p–t–i–v–e–c–o–n–t–a–i–n–
+35 prot appelle kafka -> –p–r–o–t–a–p–p–e–l–l–e–k–a–f–k–a–
+36 atonin verhind trata -> –a–t–o–n–i–n–v–e–r–h–i–n–d–t–r–a–t–a–
+37 arging decor tp -> –a–r–g–i–n–g–d–e–c–o–r–t–p–
+38 udan sau aiut -> –u–d–a–n–s–a–u–a–i–u–t–
+39 etur uved perp -> –e–t–u–r–u–v–e–d–p–e–r–p–
+40 astype longe barrage -> –a–s–t–y–p–e–l–o–n–g–e–b–a–r–r–a–g–e–
+41 itesse suomal cep -> –i–t–e–s–s–e–s–u–o–m–a–l–c–e–p–
+42 aggreg autores healing -> –a–g–g–r–e–g–a–u–t–o–r–e–s–h–e–a–l–i–n–g–
+43 hav presents contacto -> –h–a–v–p–r–e–s–e–n–t–s–c–o–n–t–a–c–t–o–
+44 bn cyan propon -> –b–n–c–y–a–n–p–r–o–p–o–n–
+45 uro gant plast -> –u–r–o–g–a–n–t–p–l–a–s–t–
+46 ovou years evoke -> –o–v–o–u–y–e–a–r–s–e–v–o–k–e–
+47 nar varit millones -> –n–a–r–v–a–r–i–t–m–i–l–l–o–n–e–s–
+48 weiler always miesto -> –w–e–i–l–e–r–a–l–w–a–y–s–m–i–e–s–t–o–
+49 riage tracker soprano -> –r–i–a–g–e–t–r–a–c–k–e–r–s–o–p–r–a–n–o–
+50 ientos ido distra -> –i–e–n–t–o–s–i–d–o–d–i–s–t–r–a–
+51 icillin seem dez -> –i–c–i–l–l–i–n–s–e–e–m–d–e–z–
+52 insky wes bandas -> –i–n–s–k–y–w–e–s–b–a–n–d–a–s–
+53 roviral parcel gelir -> –r–o–v–i–r–a–l–p–a–r–c–e–l–g–e–l–i–r–
+54 urile creado waving -> –u–r–i–l–e–c–r–e–a–d–o–w–a–v–i–n–g–
+55 voeg large autonom -> –v–o–e–g–l–a–r–g–e–a–u–t–o–n–o–m–
+56 modify sile dorsal -> –m–o–d–i–f–y–s–i–l–e–d–o–r–s–a–l–
+57 lope naud innings -> –l–o–p–e–n–a–u–d–i–n–n–i–n–g–s–
+58 kinci dens expuls -> –k–i–n–c–i–d–e–n–s–e–x–p–u–l–s–
+59 jt imprim crate -> –j–t–i–m–p–r–i–m–c–r–a–t–e–
+60 taining agarr queen -> –t–a–i–n–i–n–g–a–g–a–r–r–q–u–e–e–n–
+61 ener aroma heated -> –e–n–e–r–a–r–o–m–a–h–e–a–t–e–d–
+62 reshold treasure ecol -> –r–e–s–h–o–l–d–t–r–e–a–s–u–r–e–e–c–o–l–
+63 acion diocese pancre -> –a–c–i–o–n–d–i–o–c–e–s–e–p–a–n–c–r–e–
+64 ataire spectrum arables -> –a–t–a–i–r–e–s–p–e–c–t–r–u–m–a–r–a–b–l–e–s–
+65 imps retard minor -> –i–m–p–s–r–e–t–a–r–d–m–i–n–o–r–
+66 github consta unequ -> –g–i–t–h–u–b–c–o–n–s–t–a–u–n–e–q–u–
+67 vog middel kalt -> –v–o–g–m–i–d–d–e–l–k–a–l–t–
+68 onna salas meth -> –o–n–n–a–s–a–l–a–s–m–e–t–h–
+69 otre estilo battles -> –o–t–r–e–e–s–t–i–l–o–b–a–t–t–l–e–s–
+70 onges takeover blog -> –o–n–g–e–s–t–a–k–e–o–v–e–r–b–l–o–g–
+71 maid diagon lac -> –m–a–i–d–d–i–a–g–o–n–l–a–c–
+72 alles apparent entdeck -> –a–l–l–e–s–a–p–p–a–r–e–n–t–e–n–t–d–e–c–k–
+73 ocrates cephal ce -> –o–c–r–a–t–e–s–c–e–p–h–a–l–c–e–
+74 onner nutrient niej -> –o–n–n–e–r–n–u–t–r–i–e–n–t–n–i–e–j–
+75 unately anv persa -> –u–n–a–t–e–l–y–a–n–v–p–e–r–s–a–
+76 hnt clown doses -> –h–n–t–c–l–o–w–n–d–o–s–e–s–
+77 oro outputs proj -> –o–r–o–o–u–t–p–u–t–s–p–r–o–j–
+78 oras boolean downward -> –o–r–a–s–b–o–o–l–e–a–n–d–o–w–n–w–a–r–d–
+79 shake learned cholin -> –s–h–a–k–e–l–e–a–r–n–e–d–c–h–o–l–i–n–
+80 aterally causal verlegt -> –a–t–e–r–a–l–l–y–c–a–u–s–a–l–v–e–r–l–e–g–t–
+81 argar vertebr funktion -> –a–r–g–a–r–v–e–r–t–e–b–r–f–u–n–k–t–i–o–n–
+82 omere gain ponts -> –o–m–e–r–e–g–a–i–n–p–o–n–t–s–
+83 usalem funt less -> –u–s–a–l–e–m–f–u–n–t–l–e–s–s–
+84 lectual tanks todas -> –l–e–c–t–u–a–l–t–a–n–k–s–t–o–d–a–s–
+85 pecially subunits fapt -> –p–e–c–i–a–l–l–y–s–u–b–u–n–i–t–s–f–a–p–t–
+86 yes unl vandal -> –y–e–s–u–n–l–v–a–n–d–a–l–
+87 ako homo yd -> –a–k–o–h–o–m–o–y–d–
+88 lete devient batal -> –l–e–t–e–d–e–v–i–e–n–t–b–a–t–a–l–
+89 ilian olymp culture -> –i–l–i–a–n–o–l–y–m–p–c–u–l–t–u–r–e–
+90 owanym charset chanteur -> –o–w–a–n–y–m–c–h–a–r–s–e–t–c–h–a–n–t–e–u–r–
+91 jeta shader begins -> –j–e–t–a–s–h–a–d–e–r–b–e–g–i–n–s–
+92 lb emulate swoich -> –l–b–e–m–u–l–a–t–e–s–w–o–i–c–h–
+93 ubah speech coda -> –u–b–a–h–s–p–e–e–c–h–c–o–d–a–
+94 most monocyte tare -> –m–o–s–t–m–o–n–o–c–y–t–e–t–a–r–e–
+95 itando archives lebten -> –i–t–a–n–d–o–a–r–c–h–i–v–e–s–l–e–b–t–e–n–
+96 rict tableau secured -> –r–i–c–t–t–a–b–l–e–a–u–s–e–c–u–r–e–d–
+97 iolet admir revue -> –i–o–l–e–t–a–d–m–i–r–r–e–v–u–e–
+98 anzas factors olmayan -> –a–n–z–a–s–f–a–c–t–o–r–s–o–l–m–a–y–a–n–
+99 icorn dira fosse -> –i–c–o–r–n–d–i–r–a–f–o–s–s–e–

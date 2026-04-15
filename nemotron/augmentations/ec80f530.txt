@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 theme grading fermer
+01 qvist pagar mp
+02 iek capire storing
+
+This is a sample output.
+00 theme grading fermer -> –t–h–e–m–e–g–r–a–d–i–n–g–f–e–r–m–e–r–
+01 qvist pagar mp -> –q–v–i–s–t–p–a–g–a–r–m–p–
+02 iek capire storing -> –i–e–k–c–a–p–i–r–e–s–t–o–r–i–n–g–
+
+This is your input.
+00 quela hero producen
+01 aji powers jam
+02 bj supuesto survived
+03 install treating gespielt
+04 ertation svjet confi
+05 udu sable validity
+06 clock sostiene stanie
+07 dez martial retourn
+08 history fier fouilles
+09 charset lov strat
+10 imente permiso ich
+11 ourage diseases grind
+12 pons victim discord
+13 ahun pyro especie
+14 pieces hipot hammer
+15 ietta verder whistle
+16 inca zgod gases
+17 pi floats firmware
+18 cements sekali extrap
+19 sequent bald sen
+20 irling tiss perif
+21 aling poema wurden
+22 yled ones szav
+23 racer breeds iii
+24 arrak niez conce
+25 aving varia sowjet
+26 inners revers tentou
+27 onika suffers prven
+28 course tanto remnants
+29 ania svojih kumpulan
+30 affe olig pause
+31 apen nineteen gry
+32 eneral homens rng
+33 naar poly graduate
+34 mostly improb whisk
+35 arem negocios tierra
+36 times laund forsk
+37 olim jurisd apro
+38 ouver shunt converte
+39 ichten boh pts
+40 ulators waarvan maire
+41 cp zvol revision
+42 peek meno besk
+43 duino verbess ganar
+44 aneous philos reveals
+45 acles estatua cuanto
+46 upp sete sinist
+47 would llarg wyk
+48 values saj oamen
+49 ques welchem endet
+50 artikel rojo monte
+51 empl titled keeper
+52 lijke stderr disp
+53 locked varying leaking
+54 iously her arises
+55 viso memset axe
+56 ainan llamadas fetus
+57 chef ene janari
+58 venes seconda lunettes
+59 expect see excision
+60 ponents danh python
+61 amanya belong peine
+62 kannten numa windows
+63 ieza conver passion
+64 hold cloth sqlite
+65 usions convuls behaupt
+66 posent poultry seeding
+67 udur serai product
+68 gern labelled waren
+69 udem caff eh
+70 aleb nutr yas
+71 ntown noter spike
+72 panic dinheiro egin
+73 fee obl versant
+74 roe helper comuns
+75 bted grading addict
+76 arms plu regl
+77 yar filos sportive
+78 ensk pills cette
+79 isar advocate pastoral
+80 fig axon kar
+81 ykl adress langue
+82 dark comic gluten
+83 how cornea drafted
+84 leased epiz aprendiz
+85 atud provoz che
+86 ignet lump reden
+87 fonie dichiar solvent
+88 resident vod numeral
+89 queeze fib proprie
+90 category kde trick
+91 atable soup modernos
+92 wright djel thigh
+93 aten difer quit
+94 mund booked czasu
+95 rals alred cientos
+96 cu concep etd
+97 apas parody victimes
+98 ehir notch irland
+99 equals spit fez
+[completion]
+00 quela hero producen -> –q–u–e–l–a–h–e–r–o–p–r–o–d–u–c–e–n–
+01 aji powers jam -> –a–j–i–p–o–w–e–r–s–j–a–m–
+02 bj supuesto survived -> –b–j–s–u–p–u–e–s–t–o–s–u–r–v–i–v–e–d–
+03 install treating gespielt -> –i–n–s–t–a–l–l–t–r–e–a–t–i–n–g–g–e–s–p–i–e–l–t–
+04 ertation svjet confi -> –e–r–t–a–t–i–o–n–s–v–j–e–t–c–o–n–f–i–
+05 udu sable validity -> –u–d–u–s–a–b–l–e–v–a–l–i–d–i–t–y–
+06 clock sostiene stanie -> –c–l–o–c–k–s–o–s–t–i–e–n–e–s–t–a–n–i–e–
+07 dez martial retourn -> –d–e–z–m–a–r–t–i–a–l–r–e–t–o–u–r–n–
+08 history fier fouilles -> –h–i–s–t–o–r–y–f–i–e–r–f–o–u–i–l–l–e–s–
+09 charset lov strat -> –c–h–a–r–s–e–t–l–o–v–s–t–r–a–t–
+10 imente permiso ich -> –i–m–e–n–t–e–p–e–r–m–i–s–o–i–c–h–
+11 ourage diseases grind -> –o–u–r–a–g–e–d–i–s–e–a–s–e–s–g–r–i–n–d–
+12 pons victim discord -> –p–o–n–s–v–i–c–t–i–m–d–i–s–c–o–r–d–
+13 ahun pyro especie -> –a–h–u–n–p–y–r–o–e–s–p–e–c–i–e–
+14 pieces hipot hammer -> –p–i–e–c–e–s–h–i–p–o–t–h–a–m–m–e–r–
+15 ietta verder whistle -> –i–e–t–t–a–v–e–r–d–e–r–w–h–i–s–t–l–e–
+16 inca zgod gases -> –i–n–c–a–z–g–o–d–g–a–s–e–s–
+17 pi floats firmware -> –p–i–f–l–o–a–t–s–f–i–r–m–w–a–r–e–
+18 cements sekali extrap -> –c–e–m–e–n–t–s–s–e–k–a–l–i–e–x–t–r–a–p–
+19 sequent bald sen -> –s–e–q–u–e–n–t–b–a–l–d–s–e–n–
+20 irling tiss perif -> –i–r–l–i–n–g–t–i–s–s–p–e–r–i–f–
+21 aling poema wurden -> –a–l–i–n–g–p–o–e–m–a–w–u–r–d–e–n–
+22 yled ones szav -> –y–l–e–d–o–n–e–s–s–z–a–v–
+23 racer breeds iii -> –r–a–c–e–r–b–r–e–e–d–s–i–i–i–
+24 arrak niez conce -> –a–r–r–a–k–n–i–e–z–c–o–n–c–e–
+25 aving varia sowjet -> –a–v–i–n–g–v–a–r–i–a–s–o–w–j–e–t–
+26 inners revers tentou -> –i–n–n–e–r–s–r–e–v–e–r–s–t–e–n–t–o–u–
+27 onika suffers prven -> –o–n–i–k–a–s–u–f–f–e–r–s–p–r–v–e–n–
+28 course tanto remnants -> –c–o–u–r–s–e–t–a–n–t–o–r–e–m–n–a–n–t–s–
+29 ania svojih kumpulan -> –a–n–i–a–s–v–o–j–i–h–k–u–m–p–u–l–a–n–
+30 affe olig pause -> –a–f–f–e–o–l–i–g–p–a–u–s–e–
+31 apen nineteen gry -> –a–p–e–n–n–i–n–e–t–e–e–n–g–r–y–
+32 eneral homens rng -> –e–n–e–r–a–l–h–o–m–e–n–s–r–n–g–
+33 naar poly graduate -> –n–a–a–r–p–o–l–y–g–r–a–d–u–a–t–e–
+34 mostly improb whisk -> –m–o–s–t–l–y–i–m–p–r–o–b–w–h–i–s–k–
+35 arem negocios tierra -> –a–r–e–m–n–e–g–o–c–i–o–s–t–i–e–r–r–a–
+36 times laund forsk -> –t–i–m–e–s–l–a–u–n–d–f–o–r–s–k–
+37 olim jurisd apro -> –o–l–i–m–j–u–r–i–s–d–a–p–r–o–
+38 ouver shunt converte -> –o–u–v–e–r–s–h–u–n–t–c–o–n–v–e–r–t–e–
+39 ichten boh pts -> –i–c–h–t–e–n–b–o–h–p–t–s–
+40 ulators waarvan maire -> –u–l–a–t–o–r–s–w–a–a–r–v–a–n–m–a–i–r–e–
+41 cp zvol revision -> –c–p–z–v–o–l–r–e–v–i–s–i–o–n–
+42 peek meno besk -> –p–e–e–k–m–e–n–o–b–e–s–k–
+43 duino verbess ganar -> –d–u–i–n–o–v–e–r–b–e–s–s–g–a–n–a–r–
+44 aneous philos reveals -> –a–n–e–o–u–s–p–h–i–l–o–s–r–e–v–e–a–l–s–
+45 acles estatua cuanto -> –a–c–l–e–s–e–s–t–a–t–u–a–c–u–a–n–t–o–
+46 upp sete sinist -> –u–p–p–s–e–t–e–s–i–n–i–s–t–
+47 would llarg wyk -> –w–o–u–l–d–l–l–a–r–g–w–y–k–
+48 values saj oamen -> –v–a–l–u–e–s–s–a–j–o–a–m–e–n–
+49 ques welchem endet -> –q–u–e–s–w–e–l–c–h–e–m–e–n–d–e–t–
+50 artikel rojo monte -> –a–r–t–i–k–e–l–r–o–j–o–m–o–n–t–e–
+51 empl titled keeper -> –e–m–p–l–t–i–t–l–e–d–k–e–e–p–e–r–
+52 lijke stderr disp -> –l–i–j–k–e–s–t–d–e–r–r–d–i–s–p–
+53 locked varying leaking -> –l–o–c–k–e–d–v–a–r–y–i–n–g–l–e–a–k–i–n–g–
+54 iously her arises -> –i–o–u–s–l–y–h–e–r–a–r–i–s–e–s–
+55 viso memset axe -> –v–i–s–o–m–e–m–s–e–t–a–x–e–
+56 ainan llamadas fetus -> –a–i–n–a–n–l–l–a–m–a–d–a–s–f–e–t–u–s–
+57 chef ene janari -> –c–h–e–f–e–n–e–j–a–n–a–r–i–
+58 venes seconda lunettes -> –v–e–n–e–s–s–e–c–o–n–d–a–l–u–n–e–t–t–e–s–
+59 expect see excision -> –e–x–p–e–c–t–s–e–e–e–x–c–i–s–i–o–n–
+60 ponents danh python -> –p–o–n–e–n–t–s–d–a–n–h–p–y–t–h–o–n–
+61 amanya belong peine -> –a–m–a–n–y–a–b–e–l–o–n–g–p–e–i–n–e–
+62 kannten numa windows -> –k–a–n–n–t–e–n–n–u–m–a–w–i–n–d–o–w–s–
+63 ieza conver passion -> –i–e–z–a–c–o–n–v–e–r–p–a–s–s–i–o–n–
+64 hold cloth sqlite -> –h–o–l–d–c–l–o–t–h–s–q–l–i–t–e–
+65 usions convuls behaupt -> –u–s–i–o–n–s–c–o–n–v–u–l–s–b–e–h–a–u–p–t–
+66 posent poultry seeding -> –p–o–s–e–n–t–p–o–u–l–t–r–y–s–e–e–d–i–n–g–
+67 udur serai product -> –u–d–u–r–s–e–r–a–i–p–r–o–d–u–c–t–
+68 gern labelled waren -> –g–e–r–n–l–a–b–e–l–l–e–d–w–a–r–e–n–
+69 udem caff eh -> –u–d–e–m–c–a–f–f–e–h–
+70 aleb nutr yas -> –a–l–e–b–n–u–t–r–y–a–s–
+71 ntown noter spike -> –n–t–o–w–n–n–o–t–e–r–s–p–i–k–e–
+72 panic dinheiro egin -> –p–a–n–i–c–d–i–n–h–e–i–r–o–e–g–i–n–
+73 fee obl versant -> –f–e–e–o–b–l–v–e–r–s–a–n–t–
+74 roe helper comuns -> –r–o–e–h–e–l–p–e–r–c–o–m–u–n–s–
+75 bted grading addict -> –b–t–e–d–g–r–a–d–i–n–g–a–d–d–i–c–t–
+76 arms plu regl -> –a–r–m–s–p–l–u–r–e–g–l–
+77 yar filos sportive -> –y–a–r–f–i–l–o–s–s–p–o–r–t–i–v–e–
+78 ensk pills cette -> –e–n–s–k–p–i–l–l–s–c–e–t–t–e–
+79 isar advocate pastoral -> –i–s–a–r–a–d–v–o–c–a–t–e–p–a–s–t–o–r–a–l–
+80 fig axon kar -> –f–i–g–a–x–o–n–k–a–r–
+81 ykl adress langue -> –y–k–l–a–d–r–e–s–s–l–a–n–g–u–e–
+82 dark comic gluten -> –d–a–r–k–c–o–m–i–c–g–l–u–t–e–n–
+83 how cornea drafted -> –h–o–w–c–o–r–n–e–a–d–r–a–f–t–e–d–
+84 leased epiz aprendiz -> –l–e–a–s–e–d–e–p–i–z–a–p–r–e–n–d–i–z–
+85 atud provoz che -> –a–t–u–d–p–r–o–v–o–z–c–h–e–
+86 ignet lump reden -> –i–g–n–e–t–l–u–m–p–r–e–d–e–n–
+87 fonie dichiar solvent -> –f–o–n–i–e–d–i–c–h–i–a–r–s–o–l–v–e–n–t–
+88 resident vod numeral -> –r–e–s–i–d–e–n–t–v–o–d–n–u–m–e–r–a–l–
+89 queeze fib proprie -> –q–u–e–e–z–e–f–i–b–p–r–o–p–r–i–e–
+90 category kde trick -> –c–a–t–e–g–o–r–y–k–d–e–t–r–i–c–k–
+91 atable soup modernos -> –a–t–a–b–l–e–s–o–u–p–m–o–d–e–r–n–o–s–
+92 wright djel thigh -> –w–r–i–g–h–t–d–j–e–l–t–h–i–g–h–
+93 aten difer quit -> –a–t–e–n–d–i–f–e–r–q–u–i–t–
+94 mund booked czasu -> –m–u–n–d–b–o–o–k–e–d–c–z–a–s–u–
+95 rals alred cientos -> –r–a–l–s–a–l–r–e–d–c–i–e–n–t–o–s–
+96 cu concep etd -> –c–u–c–o–n–c–e–p–e–t–d–
+97 apas parody victimes -> –a–p–a–s–p–a–r–o–d–y–v–i–c–t–i–m–e–s–
+98 ehir notch irland -> –e–h–i–r–n–o–t–c–h–i–r–l–a–n–d–
+99 equals spit fez -> –e–q–u–a–l–s–s–p–i–t–f–e–z–

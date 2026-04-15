@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 spinal spotkan zal
+01 ziger kapt nannte
+02 jamin ksi pthread
+
+This is a sample output.
+00 spinal spotkan zal -> –s–p–i–n–a–l–s–p–o–t–k–a–n–z–a–l–
+01 ziger kapt nannte -> –z–i–g–e–r–k–a–p–t–n–a–n–n–t–e–
+02 jamin ksi pthread -> –j–a–m–i–n–k–s–i–p–t–h–r–e–a–d–
+
+This is your input.
+00 mekt bipolar kuiten
+01 pson finishes paranc
+02 inien schi gly
+03 arsko mould pochod
+04 imentos incluida sized
+05 batch shown anyag
+06 opat bonus stub
+07 itecte koli cinqu
+08 base warm alleen
+09 estellt serais fabric
+10 riterion een freie
+11 itzer println antibody
+12 ultat cortical dem
+13 orghe named passage
+14 oping compute canzone
+15 argento acciones heid
+16 aktiv alok mask
+17 eft honesty doktor
+18 riet intra novels
+19 iep extracts poverty
+20 auan rests among
+21 isy dele crisp
+22 altete casc permiten
+23 cannot excl posled
+24 plus feitas zv
+25 astu valt lemb
+26 aft hizo magn
+27 their izb garg
+28 igneur temos kj
+29 ucat relay hik
+30 fecha retained aquell
+31 wagen deleg convoc
+32 istoire misiones xo
+33 incl rica flora
+34 acjach huile sun
+35 charts desg iba
+36 uncate lief szy
+37 utc mixing entries
+38 heen seize wetlands
+39 direct kur nek
+40 bis throws citt
+41 ruit unh volg
+42 lichkeit multaj moll
+43 iglich somatic look
+44 chy pow segle
+45 iob fo lort
+46 atoxyl ausz kendi
+47 inya paysage val
+48 encial enfer realiz
+49 obb decom knights
+50 ida sifat erf
+51 runde avance benz
+52 chis flo actu
+53 undef vormen neuer
+54 aning awarded theft
+55 acques fundo bildete
+56 nell alat restored
+57 dont reopened dies
+58 urk synapses teil
+59 ocup intel onto
+60 mer nano spes
+61 rophic buyers cogn
+62 idad conspi advocacy
+63 placed swojego settled
+64 ppet zomb animale
+65 ionale predsjed humanos
+66 ramer paras hir
+67 tyabr mutta vanlig
+68 udni pige hash
+69 otherap past hit
+70 ubit sezonie uranium
+71 ikom bottom belle
+72 oints allong proposed
+73 rican cos retract
+74 ich reagent rond
+75 ounds opioid mares
+76 kenal gior gears
+77 loating sync leta
+78 isiin extent portion
+79 iaires tongue chapeau
+80 products warranty cate
+81 rane holder astron
+82 araan champion szk
+83 soon gerek glands
+84 volle reduct raff
+85 ten sigue dear
+86 schaft croit ancestry
+87 rag tapes elementi
+88 akan apenas debated
+89 vist sabe adjo
+90 naval mimics einzig
+91 codes milieux onderaf
+92 olg variety ancestor
+93 entlich acteurs indent
+94 bbit slav toho
+95 eling famili ugyan
+96 opause hand verge
+97 frontend shook refund
+98 cite nomb borders
+99 raten heutigen nemzet
+[completion]
+00 mekt bipolar kuiten -> –m–e–k–t–b–i–p–o–l–a–r–k–u–i–t–e–n–
+01 pson finishes paranc -> –p–s–o–n–f–i–n–i–s–h–e–s–p–a–r–a–n–c–
+02 inien schi gly -> –i–n–i–e–n–s–c–h–i–g–l–y–
+03 arsko mould pochod -> –a–r–s–k–o–m–o–u–l–d–p–o–c–h–o–d–
+04 imentos incluida sized -> –i–m–e–n–t–o–s–i–n–c–l–u–i–d–a–s–i–z–e–d–
+05 batch shown anyag -> –b–a–t–c–h–s–h–o–w–n–a–n–y–a–g–
+06 opat bonus stub -> –o–p–a–t–b–o–n–u–s–s–t–u–b–
+07 itecte koli cinqu -> –i–t–e–c–t–e–k–o–l–i–c–i–n–q–u–
+08 base warm alleen -> –b–a–s–e–w–a–r–m–a–l–l–e–e–n–
+09 estellt serais fabric -> –e–s–t–e–l–l–t–s–e–r–a–i–s–f–a–b–r–i–c–
+10 riterion een freie -> –r–i–t–e–r–i–o–n–e–e–n–f–r–e–i–e–
+11 itzer println antibody -> –i–t–z–e–r–p–r–i–n–t–l–n–a–n–t–i–b–o–d–y–
+12 ultat cortical dem -> –u–l–t–a–t–c–o–r–t–i–c–a–l–d–e–m–
+13 orghe named passage -> –o–r–g–h–e–n–a–m–e–d–p–a–s–s–a–g–e–
+14 oping compute canzone -> –o–p–i–n–g–c–o–m–p–u–t–e–c–a–n–z–o–n–e–
+15 argento acciones heid -> –a–r–g–e–n–t–o–a–c–c–i–o–n–e–s–h–e–i–d–
+16 aktiv alok mask -> –a–k–t–i–v–a–l–o–k–m–a–s–k–
+17 eft honesty doktor -> –e–f–t–h–o–n–e–s–t–y–d–o–k–t–o–r–
+18 riet intra novels -> –r–i–e–t–i–n–t–r–a–n–o–v–e–l–s–
+19 iep extracts poverty -> –i–e–p–e–x–t–r–a–c–t–s–p–o–v–e–r–t–y–
+20 auan rests among -> –a–u–a–n–r–e–s–t–s–a–m–o–n–g–
+21 isy dele crisp -> –i–s–y–d–e–l–e–c–r–i–s–p–
+22 altete casc permiten -> –a–l–t–e–t–e–c–a–s–c–p–e–r–m–i–t–e–n–
+23 cannot excl posled -> –c–a–n–n–o–t–e–x–c–l–p–o–s–l–e–d–
+24 plus feitas zv -> –p–l–u–s–f–e–i–t–a–s–z–v–
+25 astu valt lemb -> –a–s–t–u–v–a–l–t–l–e–m–b–
+26 aft hizo magn -> –a–f–t–h–i–z–o–m–a–g–n–
+27 their izb garg -> –t–h–e–i–r–i–z–b–g–a–r–g–
+28 igneur temos kj -> –i–g–n–e–u–r–t–e–m–o–s–k–j–
+29 ucat relay hik -> –u–c–a–t–r–e–l–a–y–h–i–k–
+30 fecha retained aquell -> –f–e–c–h–a–r–e–t–a–i–n–e–d–a–q–u–e–l–l–
+31 wagen deleg convoc -> –w–a–g–e–n–d–e–l–e–g–c–o–n–v–o–c–
+32 istoire misiones xo -> –i–s–t–o–i–r–e–m–i–s–i–o–n–e–s–x–o–
+33 incl rica flora -> –i–n–c–l–r–i–c–a–f–l–o–r–a–
+34 acjach huile sun -> –a–c–j–a–c–h–h–u–i–l–e–s–u–n–
+35 charts desg iba -> –c–h–a–r–t–s–d–e–s–g–i–b–a–
+36 uncate lief szy -> –u–n–c–a–t–e–l–i–e–f–s–z–y–
+37 utc mixing entries -> –u–t–c–m–i–x–i–n–g–e–n–t–r–i–e–s–
+38 heen seize wetlands -> –h–e–e–n–s–e–i–z–e–w–e–t–l–a–n–d–s–
+39 direct kur nek -> –d–i–r–e–c–t–k–u–r–n–e–k–
+40 bis throws citt -> –b–i–s–t–h–r–o–w–s–c–i–t–t–
+41 ruit unh volg -> –r–u–i–t–u–n–h–v–o–l–g–
+42 lichkeit multaj moll -> –l–i–c–h–k–e–i–t–m–u–l–t–a–j–m–o–l–l–
+43 iglich somatic look -> –i–g–l–i–c–h–s–o–m–a–t–i–c–l–o–o–k–
+44 chy pow segle -> –c–h–y–p–o–w–s–e–g–l–e–
+45 iob fo lort -> –i–o–b–f–o–l–o–r–t–
+46 atoxyl ausz kendi -> –a–t–o–x–y–l–a–u–s–z–k–e–n–d–i–
+47 inya paysage val -> –i–n–y–a–p–a–y–s–a–g–e–v–a–l–
+48 encial enfer realiz -> –e–n–c–i–a–l–e–n–f–e–r–r–e–a–l–i–z–
+49 obb decom knights -> –o–b–b–d–e–c–o–m–k–n–i–g–h–t–s–
+50 ida sifat erf -> –i–d–a–s–i–f–a–t–e–r–f–
+51 runde avance benz -> –r–u–n–d–e–a–v–a–n–c–e–b–e–n–z–
+52 chis flo actu -> –c–h–i–s–f–l–o–a–c–t–u–
+53 undef vormen neuer -> –u–n–d–e–f–v–o–r–m–e–n–n–e–u–e–r–
+54 aning awarded theft -> –a–n–i–n–g–a–w–a–r–d–e–d–t–h–e–f–t–
+55 acques fundo bildete -> –a–c–q–u–e–s–f–u–n–d–o–b–i–l–d–e–t–e–
+56 nell alat restored -> –n–e–l–l–a–l–a–t–r–e–s–t–o–r–e–d–
+57 dont reopened dies -> –d–o–n–t–r–e–o–p–e–n–e–d–d–i–e–s–
+58 urk synapses teil -> –u–r–k–s–y–n–a–p–s–e–s–t–e–i–l–
+59 ocup intel onto -> –o–c–u–p–i–n–t–e–l–o–n–t–o–
+60 mer nano spes -> –m–e–r–n–a–n–o–s–p–e–s–
+61 rophic buyers cogn -> –r–o–p–h–i–c–b–u–y–e–r–s–c–o–g–n–
+62 idad conspi advocacy -> –i–d–a–d–c–o–n–s–p–i–a–d–v–o–c–a–c–y–
+63 placed swojego settled -> –p–l–a–c–e–d–s–w–o–j–e–g–o–s–e–t–t–l–e–d–
+64 ppet zomb animale -> –p–p–e–t–z–o–m–b–a–n–i–m–a–l–e–
+65 ionale predsjed humanos -> –i–o–n–a–l–e–p–r–e–d–s–j–e–d–h–u–m–a–n–o–s–
+66 ramer paras hir -> –r–a–m–e–r–p–a–r–a–s–h–i–r–
+67 tyabr mutta vanlig -> –t–y–a–b–r–m–u–t–t–a–v–a–n–l–i–g–
+68 udni pige hash -> –u–d–n–i–p–i–g–e–h–a–s–h–
+69 otherap past hit -> –o–t–h–e–r–a–p–p–a–s–t–h–i–t–
+70 ubit sezonie uranium -> –u–b–i–t–s–e–z–o–n–i–e–u–r–a–n–i–u–m–
+71 ikom bottom belle -> –i–k–o–m–b–o–t–t–o–m–b–e–l–l–e–
+72 oints allong proposed -> –o–i–n–t–s–a–l–l–o–n–g–p–r–o–p–o–s–e–d–
+73 rican cos retract -> –r–i–c–a–n–c–o–s–r–e–t–r–a–c–t–
+74 ich reagent rond -> –i–c–h–r–e–a–g–e–n–t–r–o–n–d–
+75 ounds opioid mares -> –o–u–n–d–s–o–p–i–o–i–d–m–a–r–e–s–
+76 kenal gior gears -> –k–e–n–a–l–g–i–o–r–g–e–a–r–s–
+77 loating sync leta -> –l–o–a–t–i–n–g–s–y–n–c–l–e–t–a–
+78 isiin extent portion -> –i–s–i–i–n–e–x–t–e–n–t–p–o–r–t–i–o–n–
+79 iaires tongue chapeau -> –i–a–i–r–e–s–t–o–n–g–u–e–c–h–a–p–e–a–u–
+80 products warranty cate -> –p–r–o–d–u–c–t–s–w–a–r–r–a–n–t–y–c–a–t–e–
+81 rane holder astron -> –r–a–n–e–h–o–l–d–e–r–a–s–t–r–o–n–
+82 araan champion szk -> –a–r–a–a–n–c–h–a–m–p–i–o–n–s–z–k–
+83 soon gerek glands -> –s–o–o–n–g–e–r–e–k–g–l–a–n–d–s–
+84 volle reduct raff -> –v–o–l–l–e–r–e–d–u–c–t–r–a–f–f–
+85 ten sigue dear -> –t–e–n–s–i–g–u–e–d–e–a–r–
+86 schaft croit ancestry -> –s–c–h–a–f–t–c–r–o–i–t–a–n–c–e–s–t–r–y–
+87 rag tapes elementi -> –r–a–g–t–a–p–e–s–e–l–e–m–e–n–t–i–
+88 akan apenas debated -> –a–k–a–n–a–p–e–n–a–s–d–e–b–a–t–e–d–
+89 vist sabe adjo -> –v–i–s–t–s–a–b–e–a–d–j–o–
+90 naval mimics einzig -> –n–a–v–a–l–m–i–m–i–c–s–e–i–n–z–i–g–
+91 codes milieux onderaf -> –c–o–d–e–s–m–i–l–i–e–u–x–o–n–d–e–r–a–f–
+92 olg variety ancestor -> –o–l–g–v–a–r–i–e–t–y–a–n–c–e–s–t–o–r–
+93 entlich acteurs indent -> –e–n–t–l–i–c–h–a–c–t–e–u–r–s–i–n–d–e–n–t–
+94 bbit slav toho -> –b–b–i–t–s–l–a–v–t–o–h–o–
+95 eling famili ugyan -> –e–l–i–n–g–f–a–m–i–l–i–u–g–y–a–n–
+96 opause hand verge -> –o–p–a–u–s–e–h–a–n–d–v–e–r–g–e–
+97 frontend shook refund -> –f–r–o–n–t–e–n–d–s–h–o–o–k–r–e–f–u–n–d–
+98 cite nomb borders -> –c–i–t–e–n–o–m–b–b–o–r–d–e–r–s–
+99 raten heutigen nemzet -> –r–a–t–e–n–h–e–u–t–i–g–e–n–n–e–m–z–e–t–

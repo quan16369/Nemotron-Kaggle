@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 pr hanno cette
+01 acey actors invi
+02 urer valam superviv
+
+This is a sample output.
+00 pr hanno cette -> –p–r–h–a–n–n–o–c–e–t–t–e–
+01 acey actors invi -> –a–c–e–y–a–c–t–o–r–s–i–n–v–i–
+02 urer valam superviv -> –u–r–e–r–v–a–l–a–m–s–u–p–e–r–v–i–v–
+
+This is your input.
+00 erdi dum keb
+01 widget quantity aging
+02 iras vincul brak
+03 abc replicas mediator
+04 agon suppl redu
+05 kens accepted gateway
+06 odnic opciones majoria
+07 arcoma passed zonas
+08 rax digital widen
+09 ervice mounts format
+10 abel parti semplice
+11 leterre vivre msg
+12 plete commits nh
+13 ujen perin died
+14 racket flore spoken
+15 rophes billions recre
+16 mathfrak vacuum anal
+17 atok verte editions
+18 eilt attribu reste
+19 orthy azken to
+20 oulder effic zuz
+21 ignan hoch ten
+22 avio sns eps
+23 noten mince apoi
+24 request kok verboten
+25 stelling atract estancia
+26 efined beobacht het
+27 icing proport bought
+28 edor seizures anchors
+29 rates palab capacity
+30 gestion jeopard trotzdem
+31 urp rouge mali
+32 buah uncom double
+33 include mejorar carg
+34 ywiz eserc bread
+35 tai marginal benzer
+36 latitude mx fick
+37 anyang langt senhor
+38 quent ciclo afric
+39 uner verko instead
+40 ovima mynd append
+41 hando matchs parole
+42 notify stacks teeth
+43 mata restos declare
+44 endes retry explicit
+45 azionale epidem girone
+46 ervlet poco parla
+47 angelo predstav refor
+48 ionista ought tapered
+49 uny cutting suspend
+50 arest quarto importe
+51 ahar bureaux cual
+52 ordion accommod personer
+53 imental cockpit soumis
+54 iala endemic subsequ
+55 ibr gives nests
+56 xtures arcos kan
+57 igens sodium gas
+58 opes region escl
+59 rebbero belles reactors
+60 arita sunset observer
+61 avia ultima incoming
+62 ohol rank lazy
+63 endent tappa przyby
+64 est stanov tastes
+65 large lager diber
+66 allas landet dazu
+67 ient infine analogue
+68 ece bouncing chemp
+69 laus pug gevonden
+70 columns sonora ferm
+71 tty favour orch
+72 ega payer agosto
+73 yah tbl idol
+74 hp drawing ambos
+75 unean gram escre
+76 atically makanan runde
+77 tech izve waarbij
+78 platin zituen cavallo
+79 feat bakter goog
+80 cf opener bedeut
+81 ay inductor dzie
+82 elay escritor dor
+83 hibang pasa jedn
+84 leduj rhe decir
+85 iel capill intensa
+86 elesa mourning meinem
+87 ccia schrift espacios
+88 licted belegte capitale
+89 onin improved dinero
+90 incent holds empr
+91 qat acept beach
+92 floor clerk eht
+93 tkaz dy encourag
+94 udad vin ris
+95 joint main reflects
+96 pecies forte others
+97 enei enemigo ber
+98 sed doubtful fiestas
+99 used scelta doch
+[completion]
+00 erdi dum keb -> –e–r–d–i–d–u–m–k–e–b–
+01 widget quantity aging -> –w–i–d–g–e–t–q–u–a–n–t–i–t–y–a–g–i–n–g–
+02 iras vincul brak -> –i–r–a–s–v–i–n–c–u–l–b–r–a–k–
+03 abc replicas mediator -> –a–b–c–r–e–p–l–i–c–a–s–m–e–d–i–a–t–o–r–
+04 agon suppl redu -> –a–g–o–n–s–u–p–p–l–r–e–d–u–
+05 kens accepted gateway -> –k–e–n–s–a–c–c–e–p–t–e–d–g–a–t–e–w–a–y–
+06 odnic opciones majoria -> –o–d–n–i–c–o–p–c–i–o–n–e–s–m–a–j–o–r–i–a–
+07 arcoma passed zonas -> –a–r–c–o–m–a–p–a–s–s–e–d–z–o–n–a–s–
+08 rax digital widen -> –r–a–x–d–i–g–i–t–a–l–w–i–d–e–n–
+09 ervice mounts format -> –e–r–v–i–c–e–m–o–u–n–t–s–f–o–r–m–a–t–
+10 abel parti semplice -> –a–b–e–l–p–a–r–t–i–s–e–m–p–l–i–c–e–
+11 leterre vivre msg -> –l–e–t–e–r–r–e–v–i–v–r–e–m–s–g–
+12 plete commits nh -> –p–l–e–t–e–c–o–m–m–i–t–s–n–h–
+13 ujen perin died -> –u–j–e–n–p–e–r–i–n–d–i–e–d–
+14 racket flore spoken -> –r–a–c–k–e–t–f–l–o–r–e–s–p–o–k–e–n–
+15 rophes billions recre -> –r–o–p–h–e–s–b–i–l–l–i–o–n–s–r–e–c–r–e–
+16 mathfrak vacuum anal -> –m–a–t–h–f–r–a–k–v–a–c–u–u–m–a–n–a–l–
+17 atok verte editions -> –a–t–o–k–v–e–r–t–e–e–d–i–t–i–o–n–s–
+18 eilt attribu reste -> –e–i–l–t–a–t–t–r–i–b–u–r–e–s–t–e–
+19 orthy azken to -> –o–r–t–h–y–a–z–k–e–n–t–o–
+20 oulder effic zuz -> –o–u–l–d–e–r–e–f–f–i–c–z–u–z–
+21 ignan hoch ten -> –i–g–n–a–n–h–o–c–h–t–e–n–
+22 avio sns eps -> –a–v–i–o–s–n–s–e–p–s–
+23 noten mince apoi -> –n–o–t–e–n–m–i–n–c–e–a–p–o–i–
+24 request kok verboten -> –r–e–q–u–e–s–t–k–o–k–v–e–r–b–o–t–e–n–
+25 stelling atract estancia -> –s–t–e–l–l–i–n–g–a–t–r–a–c–t–e–s–t–a–n–c–i–a–
+26 efined beobacht het -> –e–f–i–n–e–d–b–e–o–b–a–c–h–t–h–e–t–
+27 icing proport bought -> –i–c–i–n–g–p–r–o–p–o–r–t–b–o–u–g–h–t–
+28 edor seizures anchors -> –e–d–o–r–s–e–i–z–u–r–e–s–a–n–c–h–o–r–s–
+29 rates palab capacity -> –r–a–t–e–s–p–a–l–a–b–c–a–p–a–c–i–t–y–
+30 gestion jeopard trotzdem -> –g–e–s–t–i–o–n–j–e–o–p–a–r–d–t–r–o–t–z–d–e–m–
+31 urp rouge mali -> –u–r–p–r–o–u–g–e–m–a–l–i–
+32 buah uncom double -> –b–u–a–h–u–n–c–o–m–d–o–u–b–l–e–
+33 include mejorar carg -> –i–n–c–l–u–d–e–m–e–j–o–r–a–r–c–a–r–g–
+34 ywiz eserc bread -> –y–w–i–z–e–s–e–r–c–b–r–e–a–d–
+35 tai marginal benzer -> –t–a–i–m–a–r–g–i–n–a–l–b–e–n–z–e–r–
+36 latitude mx fick -> –l–a–t–i–t–u–d–e–m–x–f–i–c–k–
+37 anyang langt senhor -> –a–n–y–a–n–g–l–a–n–g–t–s–e–n–h–o–r–
+38 quent ciclo afric -> –q–u–e–n–t–c–i–c–l–o–a–f–r–i–c–
+39 uner verko instead -> –u–n–e–r–v–e–r–k–o–i–n–s–t–e–a–d–
+40 ovima mynd append -> –o–v–i–m–a–m–y–n–d–a–p–p–e–n–d–
+41 hando matchs parole -> –h–a–n–d–o–m–a–t–c–h–s–p–a–r–o–l–e–
+42 notify stacks teeth -> –n–o–t–i–f–y–s–t–a–c–k–s–t–e–e–t–h–
+43 mata restos declare -> –m–a–t–a–r–e–s–t–o–s–d–e–c–l–a–r–e–
+44 endes retry explicit -> –e–n–d–e–s–r–e–t–r–y–e–x–p–l–i–c–i–t–
+45 azionale epidem girone -> –a–z–i–o–n–a–l–e–e–p–i–d–e–m–g–i–r–o–n–e–
+46 ervlet poco parla -> –e–r–v–l–e–t–p–o–c–o–p–a–r–l–a–
+47 angelo predstav refor -> –a–n–g–e–l–o–p–r–e–d–s–t–a–v–r–e–f–o–r–
+48 ionista ought tapered -> –i–o–n–i–s–t–a–o–u–g–h–t–t–a–p–e–r–e–d–
+49 uny cutting suspend -> –u–n–y–c–u–t–t–i–n–g–s–u–s–p–e–n–d–
+50 arest quarto importe -> –a–r–e–s–t–q–u–a–r–t–o–i–m–p–o–r–t–e–
+51 ahar bureaux cual -> –a–h–a–r–b–u–r–e–a–u–x–c–u–a–l–
+52 ordion accommod personer -> –o–r–d–i–o–n–a–c–c–o–m–m–o–d–p–e–r–s–o–n–e–r–
+53 imental cockpit soumis -> –i–m–e–n–t–a–l–c–o–c–k–p–i–t–s–o–u–m–i–s–
+54 iala endemic subsequ -> –i–a–l–a–e–n–d–e–m–i–c–s–u–b–s–e–q–u–
+55 ibr gives nests -> –i–b–r–g–i–v–e–s–n–e–s–t–s–
+56 xtures arcos kan -> –x–t–u–r–e–s–a–r–c–o–s–k–a–n–
+57 igens sodium gas -> –i–g–e–n–s–s–o–d–i–u–m–g–a–s–
+58 opes region escl -> –o–p–e–s–r–e–g–i–o–n–e–s–c–l–
+59 rebbero belles reactors -> –r–e–b–b–e–r–o–b–e–l–l–e–s–r–e–a–c–t–o–r–s–
+60 arita sunset observer -> –a–r–i–t–a–s–u–n–s–e–t–o–b–s–e–r–v–e–r–
+61 avia ultima incoming -> –a–v–i–a–u–l–t–i–m–a–i–n–c–o–m–i–n–g–
+62 ohol rank lazy -> –o–h–o–l–r–a–n–k–l–a–z–y–
+63 endent tappa przyby -> –e–n–d–e–n–t–t–a–p–p–a–p–r–z–y–b–y–
+64 est stanov tastes -> –e–s–t–s–t–a–n–o–v–t–a–s–t–e–s–
+65 large lager diber -> –l–a–r–g–e–l–a–g–e–r–d–i–b–e–r–
+66 allas landet dazu -> –a–l–l–a–s–l–a–n–d–e–t–d–a–z–u–
+67 ient infine analogue -> –i–e–n–t–i–n–f–i–n–e–a–n–a–l–o–g–u–e–
+68 ece bouncing chemp -> –e–c–e–b–o–u–n–c–i–n–g–c–h–e–m–p–
+69 laus pug gevonden -> –l–a–u–s–p–u–g–g–e–v–o–n–d–e–n–
+70 columns sonora ferm -> –c–o–l–u–m–n–s–s–o–n–o–r–a–f–e–r–m–
+71 tty favour orch -> –t–t–y–f–a–v–o–u–r–o–r–c–h–
+72 ega payer agosto -> –e–g–a–p–a–y–e–r–a–g–o–s–t–o–
+73 yah tbl idol -> –y–a–h–t–b–l–i–d–o–l–
+74 hp drawing ambos -> –h–p–d–r–a–w–i–n–g–a–m–b–o–s–
+75 unean gram escre -> –u–n–e–a–n–g–r–a–m–e–s–c–r–e–
+76 atically makanan runde -> –a–t–i–c–a–l–l–y–m–a–k–a–n–a–n–r–u–n–d–e–
+77 tech izve waarbij -> –t–e–c–h–i–z–v–e–w–a–a–r–b–i–j–
+78 platin zituen cavallo -> –p–l–a–t–i–n–z–i–t–u–e–n–c–a–v–a–l–l–o–
+79 feat bakter goog -> –f–e–a–t–b–a–k–t–e–r–g–o–o–g–
+80 cf opener bedeut -> –c–f–o–p–e–n–e–r–b–e–d–e–u–t–
+81 ay inductor dzie -> –a–y–i–n–d–u–c–t–o–r–d–z–i–e–
+82 elay escritor dor -> –e–l–a–y–e–s–c–r–i–t–o–r–d–o–r–
+83 hibang pasa jedn -> –h–i–b–a–n–g–p–a–s–a–j–e–d–n–
+84 leduj rhe decir -> –l–e–d–u–j–r–h–e–d–e–c–i–r–
+85 iel capill intensa -> –i–e–l–c–a–p–i–l–l–i–n–t–e–n–s–a–
+86 elesa mourning meinem -> –e–l–e–s–a–m–o–u–r–n–i–n–g–m–e–i–n–e–m–
+87 ccia schrift espacios -> –c–c–i–a–s–c–h–r–i–f–t–e–s–p–a–c–i–o–s–
+88 licted belegte capitale -> –l–i–c–t–e–d–b–e–l–e–g–t–e–c–a–p–i–t–a–l–e–
+89 onin improved dinero -> –o–n–i–n–i–m–p–r–o–v–e–d–d–i–n–e–r–o–
+90 incent holds empr -> –i–n–c–e–n–t–h–o–l–d–s–e–m–p–r–
+91 qat acept beach -> –q–a–t–a–c–e–p–t–b–e–a–c–h–
+92 floor clerk eht -> –f–l–o–o–r–c–l–e–r–k–e–h–t–
+93 tkaz dy encourag -> –t–k–a–z–d–y–e–n–c–o–u–r–a–g–
+94 udad vin ris -> –u–d–a–d–v–i–n–r–i–s–
+95 joint main reflects -> –j–o–i–n–t–m–a–i–n–r–e–f–l–e–c–t–s–
+96 pecies forte others -> –p–e–c–i–e–s–f–o–r–t–e–o–t–h–e–r–s–
+97 enei enemigo ber -> –e–n–e–i–e–n–e–m–i–g–o–b–e–r–
+98 sed doubtful fiestas -> –s–e–d–d–o–u–b–t–f–u–l–f–i–e–s–t–a–s–
+99 used scelta doch -> –u–s–e–d–s–c–e–l–t–a–d–o–c–h–

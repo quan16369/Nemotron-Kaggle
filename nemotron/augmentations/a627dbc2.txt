@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 zte gym problema
+01 imetres logarith ocupar
+02 archie phrase maladies
+
+This is a sample output.
+00 zte gym problema -> –z–t–e–g–y–m–p–r–o–b–l–e–m–a–
+01 imetres logarith ocupar -> –i–m–e–t–r–e–s–l–o–g–a–r–i–t–h–o–c–u–p–a–r–
+02 archie phrase maladies -> –a–r–c–h–i–e–p–h–r–a–s–e–m–a–l–a–d–i–e–s–
+
+This is your input.
+00 tabl bri bland
+01 right bit dedo
+02 annt jos strcmp
+03 heat declarou cystic
+04 urpose designed anar
+05 edium pelos asteroid
+06 button natives oficjal
+07 anvas violon opt
+08 ahren hak przed
+09 opus request factores
+10 arc musician sorprend
+11 material oso vene
+12 ztet exig boiler
+13 achment julg slave
+14 itant powders dorp
+15 iaus zalo tour
+16 zet agora listener
+17 olytic juht enligt
+18 product neki edif
+19 ptide veto baten
+20 hedron rigidity avoir
+21 lassen put utvik
+22 handlung min yuq
+23 fone activo slov
+24 oral znal induce
+25 ocin samostat colons
+26 dle remodel boss
+27 stre tuning decree
+28 ellar direct daug
+29 omb esqu maje
+30 ciencia sahen kaip
+31 ichtung sages garlic
+32 unas estados fonte
+33 ulos difficol renders
+34 embled encode pose
+35 isters massimo starred
+36 idere mavsum conocer
+37 ventory cl phong
+38 acu expect prenait
+39 aua samm thro
+40 ivering pengg claimed
+41 way yell procur
+42 pla publics anden
+43 embangan cooper poteva
+44 izados fmt dirinya
+45 daughter nause cust
+46 oston cleavage aument
+47 inta placer delays
+48 rett jednu werken
+49 geom solitary blending
+50 roga secoua tong
+51 rogate partecip arose
+52 front propone wag
+53 ileen quint bando
+54 fut cie empresas
+55 phosph primit principe
+56 awning ajouta purely
+57 appar unw seguir
+58 outil gosp heads
+59 letus trial chased
+60 acting ruch dah
+61 atics datetime crawling
+62 kunde zaradi assured
+63 icano least deposit
+64 pytest scr ranges
+65 embre deja blacks
+66 lides swept unfolded
+67 prising underg verbo
+68 ilen erne automat
+69 toa draws graph
+70 stv basse negli
+71 ijos retval ekspl
+72 advant vencedor borg
+73 emand farewell joking
+74 png otro guided
+75 beste consequ recog
+76 column caro fuera
+77 usik bonded tiempos
+78 vise thu vr
+79 asma huj neonates
+80 rique exosomes organism
+81 icture explore define
+82 esk kadar eth
+83 ysk coast viver
+84 edstrijd denne detach
+85 erno lembr dalam
+86 arije io lai
+87 dam ub amet
+88 bag sauter hava
+89 negative desped nuevo
+90 full recorde maker
+91 cv adul infantil
+92 jek france ta
+93 rie okol anytime
+94 cls tomada pellet
+95 icule cited invitado
+96 ettu biod routines
+97 oside hypox inhabit
+98 ocardi scoring outwe
+99 enni analysis upgraded
+[completion]
+00 tabl bri bland -> –t–a–b–l–b–r–i–b–l–a–n–d–
+01 right bit dedo -> –r–i–g–h–t–b–i–t–d–e–d–o–
+02 annt jos strcmp -> –a–n–n–t–j–o–s–s–t–r–c–m–p–
+03 heat declarou cystic -> –h–e–a–t–d–e–c–l–a–r–o–u–c–y–s–t–i–c–
+04 urpose designed anar -> –u–r–p–o–s–e–d–e–s–i–g–n–e–d–a–n–a–r–
+05 edium pelos asteroid -> –e–d–i–u–m–p–e–l–o–s–a–s–t–e–r–o–i–d–
+06 button natives oficjal -> –b–u–t–t–o–n–n–a–t–i–v–e–s–o–f–i–c–j–a–l–
+07 anvas violon opt -> –a–n–v–a–s–v–i–o–l–o–n–o–p–t–
+08 ahren hak przed -> –a–h–r–e–n–h–a–k–p–r–z–e–d–
+09 opus request factores -> –o–p–u–s–r–e–q–u–e–s–t–f–a–c–t–o–r–e–s–
+10 arc musician sorprend -> –a–r–c–m–u–s–i–c–i–a–n–s–o–r–p–r–e–n–d–
+11 material oso vene -> –m–a–t–e–r–i–a–l–o–s–o–v–e–n–e–
+12 ztet exig boiler -> –z–t–e–t–e–x–i–g–b–o–i–l–e–r–
+13 achment julg slave -> –a–c–h–m–e–n–t–j–u–l–g–s–l–a–v–e–
+14 itant powders dorp -> –i–t–a–n–t–p–o–w–d–e–r–s–d–o–r–p–
+15 iaus zalo tour -> –i–a–u–s–z–a–l–o–t–o–u–r–
+16 zet agora listener -> –z–e–t–a–g–o–r–a–l–i–s–t–e–n–e–r–
+17 olytic juht enligt -> –o–l–y–t–i–c–j–u–h–t–e–n–l–i–g–t–
+18 product neki edif -> –p–r–o–d–u–c–t–n–e–k–i–e–d–i–f–
+19 ptide veto baten -> –p–t–i–d–e–v–e–t–o–b–a–t–e–n–
+20 hedron rigidity avoir -> –h–e–d–r–o–n–r–i–g–i–d–i–t–y–a–v–o–i–r–
+21 lassen put utvik -> –l–a–s–s–e–n–p–u–t–u–t–v–i–k–
+22 handlung min yuq -> –h–a–n–d–l–u–n–g–m–i–n–y–u–q–
+23 fone activo slov -> –f–o–n–e–a–c–t–i–v–o–s–l–o–v–
+24 oral znal induce -> –o–r–a–l–z–n–a–l–i–n–d–u–c–e–
+25 ocin samostat colons -> –o–c–i–n–s–a–m–o–s–t–a–t–c–o–l–o–n–s–
+26 dle remodel boss -> –d–l–e–r–e–m–o–d–e–l–b–o–s–s–
+27 stre tuning decree -> –s–t–r–e–t–u–n–i–n–g–d–e–c–r–e–e–
+28 ellar direct daug -> –e–l–l–a–r–d–i–r–e–c–t–d–a–u–g–
+29 omb esqu maje -> –o–m–b–e–s–q–u–m–a–j–e–
+30 ciencia sahen kaip -> –c–i–e–n–c–i–a–s–a–h–e–n–k–a–i–p–
+31 ichtung sages garlic -> –i–c–h–t–u–n–g–s–a–g–e–s–g–a–r–l–i–c–
+32 unas estados fonte -> –u–n–a–s–e–s–t–a–d–o–s–f–o–n–t–e–
+33 ulos difficol renders -> –u–l–o–s–d–i–f–f–i–c–o–l–r–e–n–d–e–r–s–
+34 embled encode pose -> –e–m–b–l–e–d–e–n–c–o–d–e–p–o–s–e–
+35 isters massimo starred -> –i–s–t–e–r–s–m–a–s–s–i–m–o–s–t–a–r–r–e–d–
+36 idere mavsum conocer -> –i–d–e–r–e–m–a–v–s–u–m–c–o–n–o–c–e–r–
+37 ventory cl phong -> –v–e–n–t–o–r–y–c–l–p–h–o–n–g–
+38 acu expect prenait -> –a–c–u–e–x–p–e–c–t–p–r–e–n–a–i–t–
+39 aua samm thro -> –a–u–a–s–a–m–m–t–h–r–o–
+40 ivering pengg claimed -> –i–v–e–r–i–n–g–p–e–n–g–g–c–l–a–i–m–e–d–
+41 way yell procur -> –w–a–y–y–e–l–l–p–r–o–c–u–r–
+42 pla publics anden -> –p–l–a–p–u–b–l–i–c–s–a–n–d–e–n–
+43 embangan cooper poteva -> –e–m–b–a–n–g–a–n–c–o–o–p–e–r–p–o–t–e–v–a–
+44 izados fmt dirinya -> –i–z–a–d–o–s–f–m–t–d–i–r–i–n–y–a–
+45 daughter nause cust -> –d–a–u–g–h–t–e–r–n–a–u–s–e–c–u–s–t–
+46 oston cleavage aument -> –o–s–t–o–n–c–l–e–a–v–a–g–e–a–u–m–e–n–t–
+47 inta placer delays -> –i–n–t–a–p–l–a–c–e–r–d–e–l–a–y–s–
+48 rett jednu werken -> –r–e–t–t–j–e–d–n–u–w–e–r–k–e–n–
+49 geom solitary blending -> –g–e–o–m–s–o–l–i–t–a–r–y–b–l–e–n–d–i–n–g–
+50 roga secoua tong -> –r–o–g–a–s–e–c–o–u–a–t–o–n–g–
+51 rogate partecip arose -> –r–o–g–a–t–e–p–a–r–t–e–c–i–p–a–r–o–s–e–
+52 front propone wag -> –f–r–o–n–t–p–r–o–p–o–n–e–w–a–g–
+53 ileen quint bando -> –i–l–e–e–n–q–u–i–n–t–b–a–n–d–o–
+54 fut cie empresas -> –f–u–t–c–i–e–e–m–p–r–e–s–a–s–
+55 phosph primit principe -> –p–h–o–s–p–h–p–r–i–m–i–t–p–r–i–n–c–i–p–e–
+56 awning ajouta purely -> –a–w–n–i–n–g–a–j–o–u–t–a–p–u–r–e–l–y–
+57 appar unw seguir -> –a–p–p–a–r–u–n–w–s–e–g–u–i–r–
+58 outil gosp heads -> –o–u–t–i–l–g–o–s–p–h–e–a–d–s–
+59 letus trial chased -> –l–e–t–u–s–t–r–i–a–l–c–h–a–s–e–d–
+60 acting ruch dah -> –a–c–t–i–n–g–r–u–c–h–d–a–h–
+61 atics datetime crawling -> –a–t–i–c–s–d–a–t–e–t–i–m–e–c–r–a–w–l–i–n–g–
+62 kunde zaradi assured -> –k–u–n–d–e–z–a–r–a–d–i–a–s–s–u–r–e–d–
+63 icano least deposit -> –i–c–a–n–o–l–e–a–s–t–d–e–p–o–s–i–t–
+64 pytest scr ranges -> –p–y–t–e–s–t–s–c–r–r–a–n–g–e–s–
+65 embre deja blacks -> –e–m–b–r–e–d–e–j–a–b–l–a–c–k–s–
+66 lides swept unfolded -> –l–i–d–e–s–s–w–e–p–t–u–n–f–o–l–d–e–d–
+67 prising underg verbo -> –p–r–i–s–i–n–g–u–n–d–e–r–g–v–e–r–b–o–
+68 ilen erne automat -> –i–l–e–n–e–r–n–e–a–u–t–o–m–a–t–
+69 toa draws graph -> –t–o–a–d–r–a–w–s–g–r–a–p–h–
+70 stv basse negli -> –s–t–v–b–a–s–s–e–n–e–g–l–i–
+71 ijos retval ekspl -> –i–j–o–s–r–e–t–v–a–l–e–k–s–p–l–
+72 advant vencedor borg -> –a–d–v–a–n–t–v–e–n–c–e–d–o–r–b–o–r–g–
+73 emand farewell joking -> –e–m–a–n–d–f–a–r–e–w–e–l–l–j–o–k–i–n–g–
+74 png otro guided -> –p–n–g–o–t–r–o–g–u–i–d–e–d–
+75 beste consequ recog -> –b–e–s–t–e–c–o–n–s–e–q–u–r–e–c–o–g–
+76 column caro fuera -> –c–o–l–u–m–n–c–a–r–o–f–u–e–r–a–
+77 usik bonded tiempos -> –u–s–i–k–b–o–n–d–e–d–t–i–e–m–p–o–s–
+78 vise thu vr -> –v–i–s–e–t–h–u–v–r–
+79 asma huj neonates -> –a–s–m–a–h–u–j–n–e–o–n–a–t–e–s–
+80 rique exosomes organism -> –r–i–q–u–e–e–x–o–s–o–m–e–s–o–r–g–a–n–i–s–m–
+81 icture explore define -> –i–c–t–u–r–e–e–x–p–l–o–r–e–d–e–f–i–n–e–
+82 esk kadar eth -> –e–s–k–k–a–d–a–r–e–t–h–
+83 ysk coast viver -> –y–s–k–c–o–a–s–t–v–i–v–e–r–
+84 edstrijd denne detach -> –e–d–s–t–r–i–j–d–d–e–n–n–e–d–e–t–a–c–h–
+85 erno lembr dalam -> –e–r–n–o–l–e–m–b–r–d–a–l–a–m–
+86 arije io lai -> –a–r–i–j–e–i–o–l–a–i–
+87 dam ub amet -> –d–a–m–u–b–a–m–e–t–
+88 bag sauter hava -> –b–a–g–s–a–u–t–e–r–h–a–v–a–
+89 negative desped nuevo -> –n–e–g–a–t–i–v–e–d–e–s–p–e–d–n–u–e–v–o–
+90 full recorde maker -> –f–u–l–l–r–e–c–o–r–d–e–m–a–k–e–r–
+91 cv adul infantil -> –c–v–a–d–u–l–i–n–f–a–n–t–i–l–
+92 jek france ta -> –j–e–k–f–r–a–n–c–e–t–a–
+93 rie okol anytime -> –r–i–e–o–k–o–l–a–n–y–t–i–m–e–
+94 cls tomada pellet -> –c–l–s–t–o–m–a–d–a–p–e–l–l–e–t–
+95 icule cited invitado -> –i–c–u–l–e–c–i–t–e–d–i–n–v–i–t–a–d–o–
+96 ettu biod routines -> –e–t–t–u–b–i–o–d–r–o–u–t–i–n–e–s–
+97 oside hypox inhabit -> –o–s–i–d–e–h–y–p–o–x–i–n–h–a–b–i–t–
+98 ocardi scoring outwe -> –o–c–a–r–d–i–s–c–o–r–i–n–g–o–u–t–w–e–
+99 enni analysis upgraded -> –e–n–n–i–a–n–a–l–y–s–i–s–u–p–g–r–a–d–e–d–

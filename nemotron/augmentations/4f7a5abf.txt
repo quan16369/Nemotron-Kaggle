@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 arono slag stead
+01 brack drummer civili
+02 anut ignores fau
+
+This is a sample output.
+00 arono slag stead -> –a–r–o–n–o–s–l–a–g–s–t–e–a–d–
+01 brack drummer civili -> –b–r–a–c–k–d–r–u–m–m–e–r–c–i–v–i–l–i–
+02 anut ignores fau -> –a–n–u–t–i–g–n–o–r–e–s–f–a–u–
+
+This is your input.
+00 brace reject craint
+01 log consolid neuen
+02 juje quedan przeg
+03 lix tempest appe
+04 rans sekt am
+05 afety prevents carried
+06 fordert espoir desired
+07 quares fantasma shades
+08 ducible ideally bok
+09 ware reforma genet
+10 accum init lar
+11 power lenses ausger
+12 mort altitud parler
+13 kezett facult poja
+14 adec channel impot
+15 esp tere mutation
+16 vite issues invasive
+17 aan estim interv
+18 onado nichts lastname
+19 inton halted resolver
+20 quiera bedro accur
+21 hton traits diversas
+22 encja donors avenue
+23 lik sadness responde
+24 icits leth walki
+25 dess monthly breed
+26 ule derrotar surpass
+27 olja skull notre
+28 riendsch sing quattro
+29 geant kov geste
+30 regular jj renuncia
+31 xor longer revis
+32 icherung vie tamam
+33 geh sempl hampir
+34 utes diagrams climat
+35 foreign cha tendo
+36 stown viste volunt
+37 inn jes zdrav
+38 olymers immers property
+39 zboi sworn interse
+40 ven adher twe
+41 jedin dunha magnitud
+42 igate impr famiglia
+43 lijah izquier shuffle
+44 ubert wartime sacred
+45 puesta irm avvicin
+46 ovali diritti best
+47 imeric sortable cater
+48 ired river dades
+49 ylar massima entdeckt
+50 ata baixo gero
+51 ikut tinh cuarenta
+52 lord medical twor
+53 loss obten llengua
+54 chte spaces espos
+55 olite contend dw
+56 kve undo bewusst
+57 roly ketika desn
+58 coding sucess lluvia
+59 ieb zeb austr
+60 las grateful islands
+61 edstrij leden utterly
+62 asser depth minhas
+63 ulsion duke constitu
+64 kiy humans blat
+65 digital library slate
+66 phil kanon judicial
+67 peur vlast ninth
+68 antan artisan enfin
+69 alen facilit amin
+70 lanadi lume veget
+71 ensus aperture ungef
+72 anco desde flared
+73 preso voork projeto
+74 olik vaqt demonst
+75 tright kor wirklich
+76 hur veld ezek
+77 andria larval ouvrit
+78 ronectin poskyt peat
+79 arab mutual estuv
+80 ivan enfor payments
+81 day campes shotgun
+82 acterial dump anima
+83 antes think sorte
+84 drawable persegu cidades
+85 iatura viser havde
+86 amarca szerepl huom
+87 sus abs bel
+88 kunst dressed mulher
+89 itzat actor questo
+90 ielt cardinal convenc
+91 ainte terminou benefits
+92 asis saw raket
+93 ylvania gare devia
+94 itoba systemic examines
+95 serw piac miesz
+96 roups nb apprent
+97 ainen vitt cohort
+98 chrono obed biais
+99 slider pandemia manner
+[completion]
+00 brace reject craint -> –b–r–a–c–e–r–e–j–e–c–t–c–r–a–i–n–t–
+01 log consolid neuen -> –l–o–g–c–o–n–s–o–l–i–d–n–e–u–e–n–
+02 juje quedan przeg -> –j–u–j–e–q–u–e–d–a–n–p–r–z–e–g–
+03 lix tempest appe -> –l–i–x–t–e–m–p–e–s–t–a–p–p–e–
+04 rans sekt am -> –r–a–n–s–s–e–k–t–a–m–
+05 afety prevents carried -> –a–f–e–t–y–p–r–e–v–e–n–t–s–c–a–r–r–i–e–d–
+06 fordert espoir desired -> –f–o–r–d–e–r–t–e–s–p–o–i–r–d–e–s–i–r–e–d–
+07 quares fantasma shades -> –q–u–a–r–e–s–f–a–n–t–a–s–m–a–s–h–a–d–e–s–
+08 ducible ideally bok -> –d–u–c–i–b–l–e–i–d–e–a–l–l–y–b–o–k–
+09 ware reforma genet -> –w–a–r–e–r–e–f–o–r–m–a–g–e–n–e–t–
+10 accum init lar -> –a–c–c–u–m–i–n–i–t–l–a–r–
+11 power lenses ausger -> –p–o–w–e–r–l–e–n–s–e–s–a–u–s–g–e–r–
+12 mort altitud parler -> –m–o–r–t–a–l–t–i–t–u–d–p–a–r–l–e–r–
+13 kezett facult poja -> –k–e–z–e–t–t–f–a–c–u–l–t–p–o–j–a–
+14 adec channel impot -> –a–d–e–c–c–h–a–n–n–e–l–i–m–p–o–t–
+15 esp tere mutation -> –e–s–p–t–e–r–e–m–u–t–a–t–i–o–n–
+16 vite issues invasive -> –v–i–t–e–i–s–s–u–e–s–i–n–v–a–s–i–v–e–
+17 aan estim interv -> –a–a–n–e–s–t–i–m–i–n–t–e–r–v–
+18 onado nichts lastname -> –o–n–a–d–o–n–i–c–h–t–s–l–a–s–t–n–a–m–e–
+19 inton halted resolver -> –i–n–t–o–n–h–a–l–t–e–d–r–e–s–o–l–v–e–r–
+20 quiera bedro accur -> –q–u–i–e–r–a–b–e–d–r–o–a–c–c–u–r–
+21 hton traits diversas -> –h–t–o–n–t–r–a–i–t–s–d–i–v–e–r–s–a–s–
+22 encja donors avenue -> –e–n–c–j–a–d–o–n–o–r–s–a–v–e–n–u–e–
+23 lik sadness responde -> –l–i–k–s–a–d–n–e–s–s–r–e–s–p–o–n–d–e–
+24 icits leth walki -> –i–c–i–t–s–l–e–t–h–w–a–l–k–i–
+25 dess monthly breed -> –d–e–s–s–m–o–n–t–h–l–y–b–r–e–e–d–
+26 ule derrotar surpass -> –u–l–e–d–e–r–r–o–t–a–r–s–u–r–p–a–s–s–
+27 olja skull notre -> –o–l–j–a–s–k–u–l–l–n–o–t–r–e–
+28 riendsch sing quattro -> –r–i–e–n–d–s–c–h–s–i–n–g–q–u–a–t–t–r–o–
+29 geant kov geste -> –g–e–a–n–t–k–o–v–g–e–s–t–e–
+30 regular jj renuncia -> –r–e–g–u–l–a–r–j–j–r–e–n–u–n–c–i–a–
+31 xor longer revis -> –x–o–r–l–o–n–g–e–r–r–e–v–i–s–
+32 icherung vie tamam -> –i–c–h–e–r–u–n–g–v–i–e–t–a–m–a–m–
+33 geh sempl hampir -> –g–e–h–s–e–m–p–l–h–a–m–p–i–r–
+34 utes diagrams climat -> –u–t–e–s–d–i–a–g–r–a–m–s–c–l–i–m–a–t–
+35 foreign cha tendo -> –f–o–r–e–i–g–n–c–h–a–t–e–n–d–o–
+36 stown viste volunt -> –s–t–o–w–n–v–i–s–t–e–v–o–l–u–n–t–
+37 inn jes zdrav -> –i–n–n–j–e–s–z–d–r–a–v–
+38 olymers immers property -> –o–l–y–m–e–r–s–i–m–m–e–r–s–p–r–o–p–e–r–t–y–
+39 zboi sworn interse -> –z–b–o–i–s–w–o–r–n–i–n–t–e–r–s–e–
+40 ven adher twe -> –v–e–n–a–d–h–e–r–t–w–e–
+41 jedin dunha magnitud -> –j–e–d–i–n–d–u–n–h–a–m–a–g–n–i–t–u–d–
+42 igate impr famiglia -> –i–g–a–t–e–i–m–p–r–f–a–m–i–g–l–i–a–
+43 lijah izquier shuffle -> –l–i–j–a–h–i–z–q–u–i–e–r–s–h–u–f–f–l–e–
+44 ubert wartime sacred -> –u–b–e–r–t–w–a–r–t–i–m–e–s–a–c–r–e–d–
+45 puesta irm avvicin -> –p–u–e–s–t–a–i–r–m–a–v–v–i–c–i–n–
+46 ovali diritti best -> –o–v–a–l–i–d–i–r–i–t–t–i–b–e–s–t–
+47 imeric sortable cater -> –i–m–e–r–i–c–s–o–r–t–a–b–l–e–c–a–t–e–r–
+48 ired river dades -> –i–r–e–d–r–i–v–e–r–d–a–d–e–s–
+49 ylar massima entdeckt -> –y–l–a–r–m–a–s–s–i–m–a–e–n–t–d–e–c–k–t–
+50 ata baixo gero -> –a–t–a–b–a–i–x–o–g–e–r–o–
+51 ikut tinh cuarenta -> –i–k–u–t–t–i–n–h–c–u–a–r–e–n–t–a–
+52 lord medical twor -> –l–o–r–d–m–e–d–i–c–a–l–t–w–o–r–
+53 loss obten llengua -> –l–o–s–s–o–b–t–e–n–l–l–e–n–g–u–a–
+54 chte spaces espos -> –c–h–t–e–s–p–a–c–e–s–e–s–p–o–s–
+55 olite contend dw -> –o–l–i–t–e–c–o–n–t–e–n–d–d–w–
+56 kve undo bewusst -> –k–v–e–u–n–d–o–b–e–w–u–s–s–t–
+57 roly ketika desn -> –r–o–l–y–k–e–t–i–k–a–d–e–s–n–
+58 coding sucess lluvia -> –c–o–d–i–n–g–s–u–c–e–s–s–l–l–u–v–i–a–
+59 ieb zeb austr -> –i–e–b–z–e–b–a–u–s–t–r–
+60 las grateful islands -> –l–a–s–g–r–a–t–e–f–u–l–i–s–l–a–n–d–s–
+61 edstrij leden utterly -> –e–d–s–t–r–i–j–l–e–d–e–n–u–t–t–e–r–l–y–
+62 asser depth minhas -> –a–s–s–e–r–d–e–p–t–h–m–i–n–h–a–s–
+63 ulsion duke constitu -> –u–l–s–i–o–n–d–u–k–e–c–o–n–s–t–i–t–u–
+64 kiy humans blat -> –k–i–y–h–u–m–a–n–s–b–l–a–t–
+65 digital library slate -> –d–i–g–i–t–a–l–l–i–b–r–a–r–y–s–l–a–t–e–
+66 phil kanon judicial -> –p–h–i–l–k–a–n–o–n–j–u–d–i–c–i–a–l–
+67 peur vlast ninth -> –p–e–u–r–v–l–a–s–t–n–i–n–t–h–
+68 antan artisan enfin -> –a–n–t–a–n–a–r–t–i–s–a–n–e–n–f–i–n–
+69 alen facilit amin -> –a–l–e–n–f–a–c–i–l–i–t–a–m–i–n–
+70 lanadi lume veget -> –l–a–n–a–d–i–l–u–m–e–v–e–g–e–t–
+71 ensus aperture ungef -> –e–n–s–u–s–a–p–e–r–t–u–r–e–u–n–g–e–f–
+72 anco desde flared -> –a–n–c–o–d–e–s–d–e–f–l–a–r–e–d–
+73 preso voork projeto -> –p–r–e–s–o–v–o–o–r–k–p–r–o–j–e–t–o–
+74 olik vaqt demonst -> –o–l–i–k–v–a–q–t–d–e–m–o–n–s–t–
+75 tright kor wirklich -> –t–r–i–g–h–t–k–o–r–w–i–r–k–l–i–c–h–
+76 hur veld ezek -> –h–u–r–v–e–l–d–e–z–e–k–
+77 andria larval ouvrit -> –a–n–d–r–i–a–l–a–r–v–a–l–o–u–v–r–i–t–
+78 ronectin poskyt peat -> –r–o–n–e–c–t–i–n–p–o–s–k–y–t–p–e–a–t–
+79 arab mutual estuv -> –a–r–a–b–m–u–t–u–a–l–e–s–t–u–v–
+80 ivan enfor payments -> –i–v–a–n–e–n–f–o–r–p–a–y–m–e–n–t–s–
+81 day campes shotgun -> –d–a–y–c–a–m–p–e–s–s–h–o–t–g–u–n–
+82 acterial dump anima -> –a–c–t–e–r–i–a–l–d–u–m–p–a–n–i–m–a–
+83 antes think sorte -> –a–n–t–e–s–t–h–i–n–k–s–o–r–t–e–
+84 drawable persegu cidades -> –d–r–a–w–a–b–l–e–p–e–r–s–e–g–u–c–i–d–a–d–e–s–
+85 iatura viser havde -> –i–a–t–u–r–a–v–i–s–e–r–h–a–v–d–e–
+86 amarca szerepl huom -> –a–m–a–r–c–a–s–z–e–r–e–p–l–h–u–o–m–
+87 sus abs bel -> –s–u–s–a–b–s–b–e–l–
+88 kunst dressed mulher -> –k–u–n–s–t–d–r–e–s–s–e–d–m–u–l–h–e–r–
+89 itzat actor questo -> –i–t–z–a–t–a–c–t–o–r–q–u–e–s–t–o–
+90 ielt cardinal convenc -> –i–e–l–t–c–a–r–d–i–n–a–l–c–o–n–v–e–n–c–
+91 ainte terminou benefits -> –a–i–n–t–e–t–e–r–m–i–n–o–u–b–e–n–e–f–i–t–s–
+92 asis saw raket -> –a–s–i–s–s–a–w–r–a–k–e–t–
+93 ylvania gare devia -> –y–l–v–a–n–i–a–g–a–r–e–d–e–v–i–a–
+94 itoba systemic examines -> –i–t–o–b–a–s–y–s–t–e–m–i–c–e–x–a–m–i–n–e–s–
+95 serw piac miesz -> –s–e–r–w–p–i–a–c–m–i–e–s–z–
+96 roups nb apprent -> –r–o–u–p–s–n–b–a–p–p–r–e–n–t–
+97 ainen vitt cohort -> –a–i–n–e–n–v–i–t–t–c–o–h–o–r–t–
+98 chrono obed biais -> –c–h–r–o–n–o–o–b–e–d–b–i–a–i–s–
+99 slider pandemia manner -> –s–l–i–d–e–r–p–a–n–d–e–m–i–a–m–a–n–n–e–r–

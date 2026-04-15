@@ -1,0 +1,28 @@
+problem id: d7bcb4a6
+category: cryptarithm_deduce
+
+symbol-to-digit mapping:
+  '"' = 8
+  '#' = 0
+  '%' = 9
+  '/' = 4
+  ':' = 7
+  '>' = 6
+  ']' = 3
+  '{' = 5
+  '|' = 1
+  '}' = 2
+
+operator-to-operation mapping:
+  '+' = abs_diff
+  '@' = mul
+
+examples:
+  >:@": = {"}%  =>  67 * 87 = 5829
+  /"+]} = |>  =>  |48 - 32| = 16
+  }>@/} = |#%}  =>  26 * 42 = 1092
+  |/(|] = |/|]  =>  ?
+
+query: ">+>|  =>  |86 - 61| = 25
+
+predicted answer: }{

@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 ounder fleeing new
+01 chlor dislike wines
+02 ospital subjects estados
+
+This is a sample output.
+00 ounder fleeing new -> –o–u–n–d–e–r–f–l–e–e–i–n–g–n–e–w–
+01 chlor dislike wines -> –c–h–l–o–r–d–i–s–l–i–k–e–w–i–n–e–s–
+02 ospital subjects estados -> –o–s–p–i–t–a–l–s–u–b–j–e–c–t–s–e–s–t–a–d–o–s–
+
+This is your input.
+00 chern passar altitude
+01 reating tailored flan
+02 rem pt convirti
+03 veh vial adquir
+04 mier dast park
+05 entzia guy disque
+06 st huk insuf
+07 ossen bayer oba
+08 rent aquella tourist
+09 adur probabil peasant
+10 naio intitol gepl
+11 metros retros bike
+12 uba mentres societ
+13 taires kurs nel
+14 otan inqu attorno
+15 yordu keiser gets
+16 aronne campan shores
+17 aglia convert tert
+18 empo atmosfer madness
+19 zor coll neb
+20 uvre drones kapal
+21 pute nelle nesta
+22 inance lev okoli
+23 unami faceva migli
+24 wig enjo aikana
+25 nila consist europ
+26 aram thirst gorgeous
+27 inf skulpt confocal
+28 ividade rende months
+29 leit corde she
+30 izon metal eins
+31 erad ai domain
+32 igest yan harbor
+33 patched alors keen
+34 fecture glisser khai
+35 overs ville luc
+36 isjon risque chasse
+37 aurice gla juda
+38 ingo tecl bent
+39 estiwal dunk apag
+40 maximum vomiting overseas
+41 stats palest tutti
+42 rang wake piercing
+43 yat extra listing
+44 fh reak trimmed
+45 rouille voller pesos
+46 cdot wash network
+47 andid volgens linh
+48 zionale pounding printer
+49 bek learning strok
+50 sters online platform
+51 ensory tt game
+52 blank abandon compost
+53 ons tijdens bathroom
+54 ebe argile rocky
+55 letter shortcut czerwca
+56 ativen trace celebra
+57 vival denk multe
+58 cout evoked navi
+59 se fra randomly
+60 oretic jovens routed
+61 nbsp estis comb
+62 okan croy niemieck
+63 roscopy assault davvero
+64 romos compens lay
+65 ensions autre then
+66 eh paar syringe
+67 ovanje peered fluorine
+68 antic deflect thesis
+69 iplex adaptor evit
+70 ualmente diferen poj
+71 pel upgrad desejo
+72 escu junge produt
+73 phen navios clarify
+74 estial pokud descrito
+75 eed fixed camps
+76 ais battle verified
+77 ete rights diverses
+78 isman airplane eruption
+79 neros debajo tak
+80 ovies nit presupp
+81 ushi gardens dep
+82 igung sok raid
+83 abili attach schaffen
+84 bring broadly epile
+85 aper bateaux peuvent
+86 links dauer vog
+87 cheen loin entfernt
+88 elit diede tarp
+89 browser meter consci
+90 arbeit genom cosine
+91 orean movement falou
+92 ensis pioneer bio
+93 deg exponent asunto
+94 oker produc salida
+95 dasarkan broke cultivo
+96 rell branded entails
+97 askar aspect jet
+98 quim trent ap
+99 ochem divides plunger
+[completion]
+00 chern passar altitude -> –c–h–e–r–n–p–a–s–s–a–r–a–l–t–i–t–u–d–e–
+01 reating tailored flan -> –r–e–a–t–i–n–g–t–a–i–l–o–r–e–d–f–l–a–n–
+02 rem pt convirti -> –r–e–m–p–t–c–o–n–v–i–r–t–i–
+03 veh vial adquir -> –v–e–h–v–i–a–l–a–d–q–u–i–r–
+04 mier dast park -> –m–i–e–r–d–a–s–t–p–a–r–k–
+05 entzia guy disque -> –e–n–t–z–i–a–g–u–y–d–i–s–q–u–e–
+06 st huk insuf -> –s–t–h–u–k–i–n–s–u–f–
+07 ossen bayer oba -> –o–s–s–e–n–b–a–y–e–r–o–b–a–
+08 rent aquella tourist -> –r–e–n–t–a–q–u–e–l–l–a–t–o–u–r–i–s–t–
+09 adur probabil peasant -> –a–d–u–r–p–r–o–b–a–b–i–l–p–e–a–s–a–n–t–
+10 naio intitol gepl -> –n–a–i–o–i–n–t–i–t–o–l–g–e–p–l–
+11 metros retros bike -> –m–e–t–r–o–s–r–e–t–r–o–s–b–i–k–e–
+12 uba mentres societ -> –u–b–a–m–e–n–t–r–e–s–s–o–c–i–e–t–
+13 taires kurs nel -> –t–a–i–r–e–s–k–u–r–s–n–e–l–
+14 otan inqu attorno -> –o–t–a–n–i–n–q–u–a–t–t–o–r–n–o–
+15 yordu keiser gets -> –y–o–r–d–u–k–e–i–s–e–r–g–e–t–s–
+16 aronne campan shores -> –a–r–o–n–n–e–c–a–m–p–a–n–s–h–o–r–e–s–
+17 aglia convert tert -> –a–g–l–i–a–c–o–n–v–e–r–t–t–e–r–t–
+18 empo atmosfer madness -> –e–m–p–o–a–t–m–o–s–f–e–r–m–a–d–n–e–s–s–
+19 zor coll neb -> –z–o–r–c–o–l–l–n–e–b–
+20 uvre drones kapal -> –u–v–r–e–d–r–o–n–e–s–k–a–p–a–l–
+21 pute nelle nesta -> –p–u–t–e–n–e–l–l–e–n–e–s–t–a–
+22 inance lev okoli -> –i–n–a–n–c–e–l–e–v–o–k–o–l–i–
+23 unami faceva migli -> –u–n–a–m–i–f–a–c–e–v–a–m–i–g–l–i–
+24 wig enjo aikana -> –w–i–g–e–n–j–o–a–i–k–a–n–a–
+25 nila consist europ -> –n–i–l–a–c–o–n–s–i–s–t–e–u–r–o–p–
+26 aram thirst gorgeous -> –a–r–a–m–t–h–i–r–s–t–g–o–r–g–e–o–u–s–
+27 inf skulpt confocal -> –i–n–f–s–k–u–l–p–t–c–o–n–f–o–c–a–l–
+28 ividade rende months -> –i–v–i–d–a–d–e–r–e–n–d–e–m–o–n–t–h–s–
+29 leit corde she -> –l–e–i–t–c–o–r–d–e–s–h–e–
+30 izon metal eins -> –i–z–o–n–m–e–t–a–l–e–i–n–s–
+31 erad ai domain -> –e–r–a–d–a–i–d–o–m–a–i–n–
+32 igest yan harbor -> –i–g–e–s–t–y–a–n–h–a–r–b–o–r–
+33 patched alors keen -> –p–a–t–c–h–e–d–a–l–o–r–s–k–e–e–n–
+34 fecture glisser khai -> –f–e–c–t–u–r–e–g–l–i–s–s–e–r–k–h–a–i–
+35 overs ville luc -> –o–v–e–r–s–v–i–l–l–e–l–u–c–
+36 isjon risque chasse -> –i–s–j–o–n–r–i–s–q–u–e–c–h–a–s–s–e–
+37 aurice gla juda -> –a–u–r–i–c–e–g–l–a–j–u–d–a–
+38 ingo tecl bent -> –i–n–g–o–t–e–c–l–b–e–n–t–
+39 estiwal dunk apag -> –e–s–t–i–w–a–l–d–u–n–k–a–p–a–g–
+40 maximum vomiting overseas -> –m–a–x–i–m–u–m–v–o–m–i–t–i–n–g–o–v–e–r–s–e–a–s–
+41 stats palest tutti -> –s–t–a–t–s–p–a–l–e–s–t–t–u–t–t–i–
+42 rang wake piercing -> –r–a–n–g–w–a–k–e–p–i–e–r–c–i–n–g–
+43 yat extra listing -> –y–a–t–e–x–t–r–a–l–i–s–t–i–n–g–
+44 fh reak trimmed -> –f–h–r–e–a–k–t–r–i–m–m–e–d–
+45 rouille voller pesos -> –r–o–u–i–l–l–e–v–o–l–l–e–r–p–e–s–o–s–
+46 cdot wash network -> –c–d–o–t–w–a–s–h–n–e–t–w–o–r–k–
+47 andid volgens linh -> –a–n–d–i–d–v–o–l–g–e–n–s–l–i–n–h–
+48 zionale pounding printer -> –z–i–o–n–a–l–e–p–o–u–n–d–i–n–g–p–r–i–n–t–e–r–
+49 bek learning strok -> –b–e–k–l–e–a–r–n–i–n–g–s–t–r–o–k–
+50 sters online platform -> –s–t–e–r–s–o–n–l–i–n–e–p–l–a–t–f–o–r–m–
+51 ensory tt game -> –e–n–s–o–r–y–t–t–g–a–m–e–
+52 blank abandon compost -> –b–l–a–n–k–a–b–a–n–d–o–n–c–o–m–p–o–s–t–
+53 ons tijdens bathroom -> –o–n–s–t–i–j–d–e–n–s–b–a–t–h–r–o–o–m–
+54 ebe argile rocky -> –e–b–e–a–r–g–i–l–e–r–o–c–k–y–
+55 letter shortcut czerwca -> –l–e–t–t–e–r–s–h–o–r–t–c–u–t–c–z–e–r–w–c–a–
+56 ativen trace celebra -> –a–t–i–v–e–n–t–r–a–c–e–c–e–l–e–b–r–a–
+57 vival denk multe -> –v–i–v–a–l–d–e–n–k–m–u–l–t–e–
+58 cout evoked navi -> –c–o–u–t–e–v–o–k–e–d–n–a–v–i–
+59 se fra randomly -> –s–e–f–r–a–r–a–n–d–o–m–l–y–
+60 oretic jovens routed -> –o–r–e–t–i–c–j–o–v–e–n–s–r–o–u–t–e–d–
+61 nbsp estis comb -> –n–b–s–p–e–s–t–i–s–c–o–m–b–
+62 okan croy niemieck -> –o–k–a–n–c–r–o–y–n–i–e–m–i–e–c–k–
+63 roscopy assault davvero -> –r–o–s–c–o–p–y–a–s–s–a–u–l–t–d–a–v–v–e–r–o–
+64 romos compens lay -> –r–o–m–o–s–c–o–m–p–e–n–s–l–a–y–
+65 ensions autre then -> –e–n–s–i–o–n–s–a–u–t–r–e–t–h–e–n–
+66 eh paar syringe -> –e–h–p–a–a–r–s–y–r–i–n–g–e–
+67 ovanje peered fluorine -> –o–v–a–n–j–e–p–e–e–r–e–d–f–l–u–o–r–i–n–e–
+68 antic deflect thesis -> –a–n–t–i–c–d–e–f–l–e–c–t–t–h–e–s–i–s–
+69 iplex adaptor evit -> –i–p–l–e–x–a–d–a–p–t–o–r–e–v–i–t–
+70 ualmente diferen poj -> –u–a–l–m–e–n–t–e–d–i–f–e–r–e–n–p–o–j–
+71 pel upgrad desejo -> –p–e–l–u–p–g–r–a–d–d–e–s–e–j–o–
+72 escu junge produt -> –e–s–c–u–j–u–n–g–e–p–r–o–d–u–t–
+73 phen navios clarify -> –p–h–e–n–n–a–v–i–o–s–c–l–a–r–i–f–y–
+74 estial pokud descrito -> –e–s–t–i–a–l–p–o–k–u–d–d–e–s–c–r–i–t–o–
+75 eed fixed camps -> –e–e–d–f–i–x–e–d–c–a–m–p–s–
+76 ais battle verified -> –a–i–s–b–a–t–t–l–e–v–e–r–i–f–i–e–d–
+77 ete rights diverses -> –e–t–e–r–i–g–h–t–s–d–i–v–e–r–s–e–s–
+78 isman airplane eruption -> –i–s–m–a–n–a–i–r–p–l–a–n–e–e–r–u–p–t–i–o–n–
+79 neros debajo tak -> –n–e–r–o–s–d–e–b–a–j–o–t–a–k–
+80 ovies nit presupp -> –o–v–i–e–s–n–i–t–p–r–e–s–u–p–p–
+81 ushi gardens dep -> –u–s–h–i–g–a–r–d–e–n–s–d–e–p–
+82 igung sok raid -> –i–g–u–n–g–s–o–k–r–a–i–d–
+83 abili attach schaffen -> –a–b–i–l–i–a–t–t–a–c–h–s–c–h–a–f–f–e–n–
+84 bring broadly epile -> –b–r–i–n–g–b–r–o–a–d–l–y–e–p–i–l–e–
+85 aper bateaux peuvent -> –a–p–e–r–b–a–t–e–a–u–x–p–e–u–v–e–n–t–
+86 links dauer vog -> –l–i–n–k–s–d–a–u–e–r–v–o–g–
+87 cheen loin entfernt -> –c–h–e–e–n–l–o–i–n–e–n–t–f–e–r–n–t–
+88 elit diede tarp -> –e–l–i–t–d–i–e–d–e–t–a–r–p–
+89 browser meter consci -> –b–r–o–w–s–e–r–m–e–t–e–r–c–o–n–s–c–i–
+90 arbeit genom cosine -> –a–r–b–e–i–t–g–e–n–o–m–c–o–s–i–n–e–
+91 orean movement falou -> –o–r–e–a–n–m–o–v–e–m–e–n–t–f–a–l–o–u–
+92 ensis pioneer bio -> –e–n–s–i–s–p–i–o–n–e–e–r–b–i–o–
+93 deg exponent asunto -> –d–e–g–e–x–p–o–n–e–n–t–a–s–u–n–t–o–
+94 oker produc salida -> –o–k–e–r–p–r–o–d–u–c–s–a–l–i–d–a–
+95 dasarkan broke cultivo -> –d–a–s–a–r–k–a–n–b–r–o–k–e–c–u–l–t–i–v–o–
+96 rell branded entails -> –r–e–l–l–b–r–a–n–d–e–d–e–n–t–a–i–l–s–
+97 askar aspect jet -> –a–s–k–a–r–a–s–p–e–c–t–j–e–t–
+98 quim trent ap -> –q–u–i–m–t–r–e–n–t–a–p–
+99 ochem divides plunger -> –o–c–h–e–m–d–i–v–i–d–e–s–p–l–u–n–g–e–r–

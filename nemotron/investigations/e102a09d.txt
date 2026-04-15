@@ -1,0 +1,31 @@
+Problem ID: e102a09d
+Category: equation_numeric_deduce
+
+Examples:
+- 43*33 = 3343
+- 78-45 = 33
+- 76+78 = 7876
+- 67+69 = 6967
+- 25*43 = 4325
+- Query: 42-44
+
+Inferred rule:
+- `+` and `*` both write the right-hand 2-digit number first and then the left-hand 2-digit number.
+- `-` is ordinary subtraction.
+- For a 1-digit negative result, keep the 2-digit width of the magnitude, so `-2` is written as `-02`.
+
+Why this rule fits the examples:
+- `43*33 = 3343` and `25*43 = 4325` both match right-then-left concatenation.
+- `76+78 = 7876` and `67+69 = 6967` follow the same right-then-left concatenation rule.
+- `78-45 = 33` matches normal subtraction, so the query should use subtraction as well.
+
+Step-by-step application to the query:
+1. The query is `42-44`, so use the subtraction rule.
+2. Compute the subtraction: `42 - 44 = -2`.
+3. Preserve the 2-digit formatting for the magnitude: `-2 -> -02`.
+
+Predicted answer:
+-02
+
+Confidence note:
+Moderate confidence. The operator split is clear from the examples, but the zero-padding on a 1-digit negative result is inferred rather than shown directly by the lone `-` example.

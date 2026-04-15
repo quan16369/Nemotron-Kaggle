@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 baum filem flaps
+01 abolic goto yan
+02 ctions bonds alpine
+
+This is a sample output.
+00 baum filem flaps -> –b–a–u–m–f–i–l–e–m–f–l–a–p–s–
+01 abolic goto yan -> –a–b–o–l–i–c–g–o–t–o–y–a–n–
+02 ctions bonds alpine -> –c–t–i–o–n–s–b–o–n–d–s–a–l–p–i–n–e–
+
+This is your input.
+00 illiant spines seigne
+01 cedented redund druh
+02 irok kui cartes
+03 perm playing passant
+04 feito certe moteurs
+05 spring pares sentado
+06 inguish optimism hidden
+07 etched weed vide
+08 onson bilden arab
+09 sorted municip decl
+10 kenland atra munk
+11 ometh rubbing keyin
+12 alary recalled kier
+13 usammen pixels visite
+14 leep suur podataka
+15 run declared foref
+16 emate kinetic haviam
+17 alih unve mana
+18 iram gebou severn
+19 iosos tygod stands
+20 queur recombin juice
+21 orship hyster dob
+22 alaisten complejo tendance
+23 kub parque biops
+24 leben dich geg
+25 iet vezes clauses
+26 reros nn dialogue
+27 ushima tact comida
+28 will triumph couloir
+29 igits dwie dx
+30 oulos terres mete
+31 embling subst pra
+32 ordre prov rew
+33 gek spirit dive
+34 tery ranking commen
+35 ings rein frente
+36 chnet date kick
+37 uebla hos diseased
+38 cut bowl milli
+39 cuda rak dra
+40 dummy desapar salut
+41 xase resum offers
+42 eny valued more
+43 adal tungsten it
+44 igungen siyasi gai
+45 zont sed segue
+46 ning physi escal
+47 con spite enhancer
+48 varo elicited vestiges
+49 wierd slipping obje
+50 isson shame leven
+51 markt commence business
+52 maven negros rech
+53 ograph mouths gelo
+54 osome yle qeyd
+55 isk absol rituals
+56 jam emit travers
+57 rh cose rope
+58 istiques dono pricing
+59 apur misery ping
+60 respect sedation transpos
+61 urde svilu postup
+62 vine dua rass
+63 roplast clouds wireless
+64 edst powiet recul
+65 enthal vuos salmon
+66 agnes diput logged
+67 ckt breathe detects
+68 axe sample herein
+69 atanabe chance melan
+70 osph zach gaps
+71 boli unsere schwed
+72 erden pattes sued
+73 mall coales speeds
+74 fd impulses apostol
+75 ijoje yol gros
+76 oustic revealed souci
+77 valu homology outlook
+78 pak dintre scheme
+79 bezirk almas boul
+80 free britiske barrel
+81 cker gentle systemat
+82 atson curled setup
+83 lau akzept unui
+84 annten reserv bb
+85 fre izin hus
+86 sexual slogan cao
+87 between cleaner eesti
+88 ructor jerked kork
+89 azon adhered behand
+90 pier mayo piccole
+91 ube packet secondo
+92 thal jeter jew
+93 pozn atop indica
+94 lene essai placing
+95 bare dovuto mitjan
+96 nestjs recibir vecchio
+97 axial semic sees
+98 ydi jovem kod
+99 oce becomes dai
+[completion]
+00 illiant spines seigne -> –i–l–l–i–a–n–t–s–p–i–n–e–s–s–e–i–g–n–e–
+01 cedented redund druh -> –c–e–d–e–n–t–e–d–r–e–d–u–n–d–d–r–u–h–
+02 irok kui cartes -> –i–r–o–k–k–u–i–c–a–r–t–e–s–
+03 perm playing passant -> –p–e–r–m–p–l–a–y–i–n–g–p–a–s–s–a–n–t–
+04 feito certe moteurs -> –f–e–i–t–o–c–e–r–t–e–m–o–t–e–u–r–s–
+05 spring pares sentado -> –s–p–r–i–n–g–p–a–r–e–s–s–e–n–t–a–d–o–
+06 inguish optimism hidden -> –i–n–g–u–i–s–h–o–p–t–i–m–i–s–m–h–i–d–d–e–n–
+07 etched weed vide -> –e–t–c–h–e–d–w–e–e–d–v–i–d–e–
+08 onson bilden arab -> –o–n–s–o–n–b–i–l–d–e–n–a–r–a–b–
+09 sorted municip decl -> –s–o–r–t–e–d–m–u–n–i–c–i–p–d–e–c–l–
+10 kenland atra munk -> –k–e–n–l–a–n–d–a–t–r–a–m–u–n–k–
+11 ometh rubbing keyin -> –o–m–e–t–h–r–u–b–b–i–n–g–k–e–y–i–n–
+12 alary recalled kier -> –a–l–a–r–y–r–e–c–a–l–l–e–d–k–i–e–r–
+13 usammen pixels visite -> –u–s–a–m–m–e–n–p–i–x–e–l–s–v–i–s–i–t–e–
+14 leep suur podataka -> –l–e–e–p–s–u–u–r–p–o–d–a–t–a–k–a–
+15 run declared foref -> –r–u–n–d–e–c–l–a–r–e–d–f–o–r–e–f–
+16 emate kinetic haviam -> –e–m–a–t–e–k–i–n–e–t–i–c–h–a–v–i–a–m–
+17 alih unve mana -> –a–l–i–h–u–n–v–e–m–a–n–a–
+18 iram gebou severn -> –i–r–a–m–g–e–b–o–u–s–e–v–e–r–n–
+19 iosos tygod stands -> –i–o–s–o–s–t–y–g–o–d–s–t–a–n–d–s–
+20 queur recombin juice -> –q–u–e–u–r–r–e–c–o–m–b–i–n–j–u–i–c–e–
+21 orship hyster dob -> –o–r–s–h–i–p–h–y–s–t–e–r–d–o–b–
+22 alaisten complejo tendance -> –a–l–a–i–s–t–e–n–c–o–m–p–l–e–j–o–t–e–n–d–a–n–c–e–
+23 kub parque biops -> –k–u–b–p–a–r–q–u–e–b–i–o–p–s–
+24 leben dich geg -> –l–e–b–e–n–d–i–c–h–g–e–g–
+25 iet vezes clauses -> –i–e–t–v–e–z–e–s–c–l–a–u–s–e–s–
+26 reros nn dialogue -> –r–e–r–o–s–n–n–d–i–a–l–o–g–u–e–
+27 ushima tact comida -> –u–s–h–i–m–a–t–a–c–t–c–o–m–i–d–a–
+28 will triumph couloir -> –w–i–l–l–t–r–i–u–m–p–h–c–o–u–l–o–i–r–
+29 igits dwie dx -> –i–g–i–t–s–d–w–i–e–d–x–
+30 oulos terres mete -> –o–u–l–o–s–t–e–r–r–e–s–m–e–t–e–
+31 embling subst pra -> –e–m–b–l–i–n–g–s–u–b–s–t–p–r–a–
+32 ordre prov rew -> –o–r–d–r–e–p–r–o–v–r–e–w–
+33 gek spirit dive -> –g–e–k–s–p–i–r–i–t–d–i–v–e–
+34 tery ranking commen -> –t–e–r–y–r–a–n–k–i–n–g–c–o–m–m–e–n–
+35 ings rein frente -> –i–n–g–s–r–e–i–n–f–r–e–n–t–e–
+36 chnet date kick -> –c–h–n–e–t–d–a–t–e–k–i–c–k–
+37 uebla hos diseased -> –u–e–b–l–a–h–o–s–d–i–s–e–a–s–e–d–
+38 cut bowl milli -> –c–u–t–b–o–w–l–m–i–l–l–i–
+39 cuda rak dra -> –c–u–d–a–r–a–k–d–r–a–
+40 dummy desapar salut -> –d–u–m–m–y–d–e–s–a–p–a–r–s–a–l–u–t–
+41 xase resum offers -> –x–a–s–e–r–e–s–u–m–o–f–f–e–r–s–
+42 eny valued more -> –e–n–y–v–a–l–u–e–d–m–o–r–e–
+43 adal tungsten it -> –a–d–a–l–t–u–n–g–s–t–e–n–i–t–
+44 igungen siyasi gai -> –i–g–u–n–g–e–n–s–i–y–a–s–i–g–a–i–
+45 zont sed segue -> –z–o–n–t–s–e–d–s–e–g–u–e–
+46 ning physi escal -> –n–i–n–g–p–h–y–s–i–e–s–c–a–l–
+47 con spite enhancer -> –c–o–n–s–p–i–t–e–e–n–h–a–n–c–e–r–
+48 varo elicited vestiges -> –v–a–r–o–e–l–i–c–i–t–e–d–v–e–s–t–i–g–e–s–
+49 wierd slipping obje -> –w–i–e–r–d–s–l–i–p–p–i–n–g–o–b–j–e–
+50 isson shame leven -> –i–s–s–o–n–s–h–a–m–e–l–e–v–e–n–
+51 markt commence business -> –m–a–r–k–t–c–o–m–m–e–n–c–e–b–u–s–i–n–e–s–s–
+52 maven negros rech -> –m–a–v–e–n–n–e–g–r–o–s–r–e–c–h–
+53 ograph mouths gelo -> –o–g–r–a–p–h–m–o–u–t–h–s–g–e–l–o–
+54 osome yle qeyd -> –o–s–o–m–e–y–l–e–q–e–y–d–
+55 isk absol rituals -> –i–s–k–a–b–s–o–l–r–i–t–u–a–l–s–
+56 jam emit travers -> –j–a–m–e–m–i–t–t–r–a–v–e–r–s–
+57 rh cose rope -> –r–h–c–o–s–e–r–o–p–e–
+58 istiques dono pricing -> –i–s–t–i–q–u–e–s–d–o–n–o–p–r–i–c–i–n–g–
+59 apur misery ping -> –a–p–u–r–m–i–s–e–r–y–p–i–n–g–
+60 respect sedation transpos -> –r–e–s–p–e–c–t–s–e–d–a–t–i–o–n–t–r–a–n–s–p–o–s–
+61 urde svilu postup -> –u–r–d–e–s–v–i–l–u–p–o–s–t–u–p–
+62 vine dua rass -> –v–i–n–e–d–u–a–r–a–s–s–
+63 roplast clouds wireless -> –r–o–p–l–a–s–t–c–l–o–u–d–s–w–i–r–e–l–e–s–s–
+64 edst powiet recul -> –e–d–s–t–p–o–w–i–e–t–r–e–c–u–l–
+65 enthal vuos salmon -> –e–n–t–h–a–l–v–u–o–s–s–a–l–m–o–n–
+66 agnes diput logged -> –a–g–n–e–s–d–i–p–u–t–l–o–g–g–e–d–
+67 ckt breathe detects -> –c–k–t–b–r–e–a–t–h–e–d–e–t–e–c–t–s–
+68 axe sample herein -> –a–x–e–s–a–m–p–l–e–h–e–r–e–i–n–
+69 atanabe chance melan -> –a–t–a–n–a–b–e–c–h–a–n–c–e–m–e–l–a–n–
+70 osph zach gaps -> –o–s–p–h–z–a–c–h–g–a–p–s–
+71 boli unsere schwed -> –b–o–l–i–u–n–s–e–r–e–s–c–h–w–e–d–
+72 erden pattes sued -> –e–r–d–e–n–p–a–t–t–e–s–s–u–e–d–
+73 mall coales speeds -> –m–a–l–l–c–o–a–l–e–s–s–p–e–e–d–s–
+74 fd impulses apostol -> –f–d–i–m–p–u–l–s–e–s–a–p–o–s–t–o–l–
+75 ijoje yol gros -> –i–j–o–j–e–y–o–l–g–r–o–s–
+76 oustic revealed souci -> –o–u–s–t–i–c–r–e–v–e–a–l–e–d–s–o–u–c–i–
+77 valu homology outlook -> –v–a–l–u–h–o–m–o–l–o–g–y–o–u–t–l–o–o–k–
+78 pak dintre scheme -> –p–a–k–d–i–n–t–r–e–s–c–h–e–m–e–
+79 bezirk almas boul -> –b–e–z–i–r–k–a–l–m–a–s–b–o–u–l–
+80 free britiske barrel -> –f–r–e–e–b–r–i–t–i–s–k–e–b–a–r–r–e–l–
+81 cker gentle systemat -> –c–k–e–r–g–e–n–t–l–e–s–y–s–t–e–m–a–t–
+82 atson curled setup -> –a–t–s–o–n–c–u–r–l–e–d–s–e–t–u–p–
+83 lau akzept unui -> –l–a–u–a–k–z–e–p–t–u–n–u–i–
+84 annten reserv bb -> –a–n–n–t–e–n–r–e–s–e–r–v–b–b–
+85 fre izin hus -> –f–r–e–i–z–i–n–h–u–s–
+86 sexual slogan cao -> –s–e–x–u–a–l–s–l–o–g–a–n–c–a–o–
+87 between cleaner eesti -> –b–e–t–w–e–e–n–c–l–e–a–n–e–r–e–e–s–t–i–
+88 ructor jerked kork -> –r–u–c–t–o–r–j–e–r–k–e–d–k–o–r–k–
+89 azon adhered behand -> –a–z–o–n–a–d–h–e–r–e–d–b–e–h–a–n–d–
+90 pier mayo piccole -> –p–i–e–r–m–a–y–o–p–i–c–c–o–l–e–
+91 ube packet secondo -> –u–b–e–p–a–c–k–e–t–s–e–c–o–n–d–o–
+92 thal jeter jew -> –t–h–a–l–j–e–t–e–r–j–e–w–
+93 pozn atop indica -> –p–o–z–n–a–t–o–p–i–n–d–i–c–a–
+94 lene essai placing -> –l–e–n–e–e–s–s–a–i–p–l–a–c–i–n–g–
+95 bare dovuto mitjan -> –b–a–r–e–d–o–v–u–t–o–m–i–t–j–a–n–
+96 nestjs recibir vecchio -> –n–e–s–t–j–s–r–e–c–i–b–i–r–v–e–c–c–h–i–o–
+97 axial semic sees -> –a–x–i–a–l–s–e–m–i–c–s–e–e–s–
+98 ydi jovem kod -> –y–d–i–j–o–v–e–m–k–o–d–
+99 oce becomes dai -> –o–c–e–b–e–c–o–m–e–s–d–a–i–

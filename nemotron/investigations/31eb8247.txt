@@ -1,0 +1,28 @@
+Problem ID: 31eb8247
+Category: equation_numeric_deduce
+
+Examples:
+- 37(46 = 3746
+- 16"59 = "43
+- 48(48 = 4848
+- 59"63 = "4
+
+Inferred rule:
+- Different symbols use different transformations, so I only need the rule for `"` because the query also uses `"`.
+- For `"`, compute the absolute difference between the two numbers and prefix the result with a literal double quote.
+- Check the `"` examples:
+- `|16 - 59| = 43`, so `16"59 -> "43`
+- `|59 - 63| = 4`, so `59"63 -> "4`
+- The `(` examples fit a separate concatenation rule (`37(46 -> 3746`, `48(48 -> 4848`), which does not conflict with the `"` pattern.
+
+Step-by-step application to the query:
+- Query: `25"13`
+- Apply the `"` rule: take the absolute difference.
+- `|25 - 13| = 12`
+- Prefix the result with a literal double quote.
+
+Predicted answer:
+- `"12`
+
+Confidence:
+- High. The same `"` operator appears twice and both examples match the absolute-difference rule exactly.

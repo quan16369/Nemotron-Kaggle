@@ -1,0 +1,35 @@
+Problem ID: b62453dc
+Category: equation_numeric_deduce
+
+Examples:
+- 91*96 = 9691
+  - Reverse each operand: 91 -> 19, 96 -> 69.
+  - For `*`, concatenate the reversed operands: 19 followed by 69 gives 1969.
+  - Reverse the result digits: 1969 -> 9691.
+- 99-98 = 01
+  - Reverse each operand: 99 -> 99, 98 -> 89.
+  - For `-`, subtract the second reversed operand from the first: 99 - 89 = 10.
+  - Reverse the result digits: 10 -> 01.
+- 16*74 = 7416
+  - Reverse each operand: 16 -> 61, 74 -> 47.
+  - Concatenate the reversed operands: 61 followed by 47 gives 6147.
+  - Reverse the result digits: 6147 -> 7416.
+
+Inferred rule:
+1. Reverse the digits of each two-digit operand.
+2. Apply the operator to those reversed operands.
+3. Reverse the digits of the resulting number or string to get the displayed output.
+4. In this puzzle, `*` acts as concatenation, while `-` acts as subtraction.
+5. Keep leading zeroes created by the final reversal, as shown by 10 -> 01.
+
+Step-by-step application to the query:
+- Query: 43-19
+- Reverse each operand: 43 -> 34 and 19 -> 91.
+- Apply subtraction on the reversed operands: 34 - 91 = -57.
+- Reverse the digits of the magnitude while keeping the minus sign in front: -57 -> -75.
+
+Predicted answer:
+-75
+
+Confidence note:
+High confidence. All three examples fit the same reverse-operands, operate, reverse-output pattern exactly. The only operator-specific inference is that `*` means concatenation, and both `*` examples support that directly.

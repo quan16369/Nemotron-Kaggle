@@ -1,0 +1,29 @@
+Problem ID: 824d4bcb
+Category: equation_numeric_deduce
+
+Examples:
+- 09!22 = 0891
+- 49\72 = 121
+- 11:92 = 81:
+- 65!61 = 698
+- 68:06 = 62:
+
+Inferred rule:
+- Different symbols use different transformations. The query uses `:`, so the relevant evidence is the two `:` examples.
+- For `ab:cd`, take the absolute difference between the two two-digit numbers and append `:` to the result.
+- Checks:
+- `11:92` -> `|11 - 92| = 81`, then append `:` -> `81:`
+- `68:06` -> `|68 - 06| = 62`, then append `:` -> `62:`
+- The `!` and `\` examples appear to follow separate symbol-specific rules and are not needed for the query.
+
+Step-by-step application to the query:
+- Query: `24:88`
+- Compute the absolute difference: `|24 - 88| = 64`
+- Append the colon suffix used by the `:` operator
+- Result: `64:`
+
+Predicted answer:
+- 64:
+
+Confidence note:
+- High. Both `:` examples fit this rule exactly, and the query uses the same symbol.

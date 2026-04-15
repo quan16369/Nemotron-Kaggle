@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 ogliere megfelel buques
+01 xel chagrin gears
+02 died haute pane
+
+This is a sample output.
+00 ogliere megfelel buques -> –o–g–l–i–e–r–e–m–e–g–f–e–l–e–l–b–u–q–u–e–s–
+01 xel chagrin gears -> –x–e–l–c–h–a–g–r–i–n–g–e–a–r–s–
+02 died haute pane -> –d–i–e–d–h–a–u–t–e–p–a–n–e–
+
+This is your input.
+00 skop westlich academia
+01 ative folders ziren
+02 tipo entrega frames
+03 jima nagyobb handler
+04 mx ricon says
+05 she lignes involuc
+06 arat cycl byla
+07 son nomi wherever
+08 either siglo maakte
+09 lade russ parc
+10 pipe review mex
+11 yaml numer isset
+12 haus councils electric
+13 conex domen sampling
+14 ixo kuri tuli
+15 pres fetal hert
+16 mask optic judges
+17 isini vijf bagian
+18 puesto weitere licensed
+19 elto curios libra
+20 rought gelijk newer
+21 mica inflater current
+22 schild impacto assegn
+23 ord spent zahl
+24 rob parks columns
+25 attaque sincer intitul
+26 nega terwijl seized
+27 ptr fugg emigr
+28 matches quinta dahin
+29 otting svak tedy
+30 ighter rejected apoio
+31 ap couronne pover
+32 arger brake barbar
+33 datetime diez ang
+34 kum gaat spect
+35 ores phen obraz
+36 holders amidst edizione
+37 animal cuerpo regarded
+38 merican tissue edits
+39 ammen arrows tratto
+40 rza uint longa
+41 endpoint charme polg
+42 war olmak abrite
+43 yan impieg calcul
+44 apart dig puts
+45 original afirma deutsche
+46 contains veel vehicles
+47 phalt reclaim depres
+48 aders cached simulate
+49 rou lots drapeau
+50 haf edad bib
+51 din hence legado
+52 iron steward acerca
+53 gea unint prost
+54 nos portar noin
+55 atado kys massa
+56 cev eben subdiv
+57 acas nephew chiamata
+58 amise teacher patr
+59 describe dresses inline
+60 disable parentes amel
+61 idx exec rib
+62 see exceeded bahan
+63 edish bes kereszt
+64 aday inclin glad
+65 tefan blotting recol
+66 zept lessons visiting
+67 izard daquele xan
+68 fran ouvrages carrera
+69 ery stayed manj
+70 ammar harc delt
+71 onge ragazzi trop
+72 aking sech producer
+73 cznych azok tranquil
+74 only weiteren nations
+75 backend lesquels bait
+76 acia tee farther
+77 ation ces thief
+78 xxx conspic infek
+79 erdem conmigo gouvern
+80 esterday reliance keel
+81 owanego constru tips
+82 oplan relied beasts
+83 ih gestures villa
+84 trad posso sajtu
+85 icated kommer http
+86 zeiro kle revenge
+87 address dementia epidemic
+88 pliers weeks align
+89 unha venom finanz
+90 ically ishte reimburs
+91 ettant typename algu
+92 user kop brush
+93 iches histor gameplay
+94 circ pitt parental
+95 gr devido regelm
+96 afa inglesa several
+97 recken sasto mice
+98 itos rasa machte
+99 iation ind binder
+[completion]
+00 skop westlich academia -> –s–k–o–p–w–e–s–t–l–i–c–h–a–c–a–d–e–m–i–a–
+01 ative folders ziren -> –a–t–i–v–e–f–o–l–d–e–r–s–z–i–r–e–n–
+02 tipo entrega frames -> –t–i–p–o–e–n–t–r–e–g–a–f–r–a–m–e–s–
+03 jima nagyobb handler -> –j–i–m–a–n–a–g–y–o–b–b–h–a–n–d–l–e–r–
+04 mx ricon says -> –m–x–r–i–c–o–n–s–a–y–s–
+05 she lignes involuc -> –s–h–e–l–i–g–n–e–s–i–n–v–o–l–u–c–
+06 arat cycl byla -> –a–r–a–t–c–y–c–l–b–y–l–a–
+07 son nomi wherever -> –s–o–n–n–o–m–i–w–h–e–r–e–v–e–r–
+08 either siglo maakte -> –e–i–t–h–e–r–s–i–g–l–o–m–a–a–k–t–e–
+09 lade russ parc -> –l–a–d–e–r–u–s–s–p–a–r–c–
+10 pipe review mex -> –p–i–p–e–r–e–v–i–e–w–m–e–x–
+11 yaml numer isset -> –y–a–m–l–n–u–m–e–r–i–s–s–e–t–
+12 haus councils electric -> –h–a–u–s–c–o–u–n–c–i–l–s–e–l–e–c–t–r–i–c–
+13 conex domen sampling -> –c–o–n–e–x–d–o–m–e–n–s–a–m–p–l–i–n–g–
+14 ixo kuri tuli -> –i–x–o–k–u–r–i–t–u–l–i–
+15 pres fetal hert -> –p–r–e–s–f–e–t–a–l–h–e–r–t–
+16 mask optic judges -> –m–a–s–k–o–p–t–i–c–j–u–d–g–e–s–
+17 isini vijf bagian -> –i–s–i–n–i–v–i–j–f–b–a–g–i–a–n–
+18 puesto weitere licensed -> –p–u–e–s–t–o–w–e–i–t–e–r–e–l–i–c–e–n–s–e–d–
+19 elto curios libra -> –e–l–t–o–c–u–r–i–o–s–l–i–b–r–a–
+20 rought gelijk newer -> –r–o–u–g–h–t–g–e–l–i–j–k–n–e–w–e–r–
+21 mica inflater current -> –m–i–c–a–i–n–f–l–a–t–e–r–c–u–r–r–e–n–t–
+22 schild impacto assegn -> –s–c–h–i–l–d–i–m–p–a–c–t–o–a–s–s–e–g–n–
+23 ord spent zahl -> –o–r–d–s–p–e–n–t–z–a–h–l–
+24 rob parks columns -> –r–o–b–p–a–r–k–s–c–o–l–u–m–n–s–
+25 attaque sincer intitul -> –a–t–t–a–q–u–e–s–i–n–c–e–r–i–n–t–i–t–u–l–
+26 nega terwijl seized -> –n–e–g–a–t–e–r–w–i–j–l–s–e–i–z–e–d–
+27 ptr fugg emigr -> –p–t–r–f–u–g–g–e–m–i–g–r–
+28 matches quinta dahin -> –m–a–t–c–h–e–s–q–u–i–n–t–a–d–a–h–i–n–
+29 otting svak tedy -> –o–t–t–i–n–g–s–v–a–k–t–e–d–y–
+30 ighter rejected apoio -> –i–g–h–t–e–r–r–e–j–e–c–t–e–d–a–p–o–i–o–
+31 ap couronne pover -> –a–p–c–o–u–r–o–n–n–e–p–o–v–e–r–
+32 arger brake barbar -> –a–r–g–e–r–b–r–a–k–e–b–a–r–b–a–r–
+33 datetime diez ang -> –d–a–t–e–t–i–m–e–d–i–e–z–a–n–g–
+34 kum gaat spect -> –k–u–m–g–a–a–t–s–p–e–c–t–
+35 ores phen obraz -> –o–r–e–s–p–h–e–n–o–b–r–a–z–
+36 holders amidst edizione -> –h–o–l–d–e–r–s–a–m–i–d–s–t–e–d–i–z–i–o–n–e–
+37 animal cuerpo regarded -> –a–n–i–m–a–l–c–u–e–r–p–o–r–e–g–a–r–d–e–d–
+38 merican tissue edits -> –m–e–r–i–c–a–n–t–i–s–s–u–e–e–d–i–t–s–
+39 ammen arrows tratto -> –a–m–m–e–n–a–r–r–o–w–s–t–r–a–t–t–o–
+40 rza uint longa -> –r–z–a–u–i–n–t–l–o–n–g–a–
+41 endpoint charme polg -> –e–n–d–p–o–i–n–t–c–h–a–r–m–e–p–o–l–g–
+42 war olmak abrite -> –w–a–r–o–l–m–a–k–a–b–r–i–t–e–
+43 yan impieg calcul -> –y–a–n–i–m–p–i–e–g–c–a–l–c–u–l–
+44 apart dig puts -> –a–p–a–r–t–d–i–g–p–u–t–s–
+45 original afirma deutsche -> –o–r–i–g–i–n–a–l–a–f–i–r–m–a–d–e–u–t–s–c–h–e–
+46 contains veel vehicles -> –c–o–n–t–a–i–n–s–v–e–e–l–v–e–h–i–c–l–e–s–
+47 phalt reclaim depres -> –p–h–a–l–t–r–e–c–l–a–i–m–d–e–p–r–e–s–
+48 aders cached simulate -> –a–d–e–r–s–c–a–c–h–e–d–s–i–m–u–l–a–t–e–
+49 rou lots drapeau -> –r–o–u–l–o–t–s–d–r–a–p–e–a–u–
+50 haf edad bib -> –h–a–f–e–d–a–d–b–i–b–
+51 din hence legado -> –d–i–n–h–e–n–c–e–l–e–g–a–d–o–
+52 iron steward acerca -> –i–r–o–n–s–t–e–w–a–r–d–a–c–e–r–c–a–
+53 gea unint prost -> –g–e–a–u–n–i–n–t–p–r–o–s–t–
+54 nos portar noin -> –n–o–s–p–o–r–t–a–r–n–o–i–n–
+55 atado kys massa -> –a–t–a–d–o–k–y–s–m–a–s–s–a–
+56 cev eben subdiv -> –c–e–v–e–b–e–n–s–u–b–d–i–v–
+57 acas nephew chiamata -> –a–c–a–s–n–e–p–h–e–w–c–h–i–a–m–a–t–a–
+58 amise teacher patr -> –a–m–i–s–e–t–e–a–c–h–e–r–p–a–t–r–
+59 describe dresses inline -> –d–e–s–c–r–i–b–e–d–r–e–s–s–e–s–i–n–l–i–n–e–
+60 disable parentes amel -> –d–i–s–a–b–l–e–p–a–r–e–n–t–e–s–a–m–e–l–
+61 idx exec rib -> –i–d–x–e–x–e–c–r–i–b–
+62 see exceeded bahan -> –s–e–e–e–x–c–e–e–d–e–d–b–a–h–a–n–
+63 edish bes kereszt -> –e–d–i–s–h–b–e–s–k–e–r–e–s–z–t–
+64 aday inclin glad -> –a–d–a–y–i–n–c–l–i–n–g–l–a–d–
+65 tefan blotting recol -> –t–e–f–a–n–b–l–o–t–t–i–n–g–r–e–c–o–l–
+66 zept lessons visiting -> –z–e–p–t–l–e–s–s–o–n–s–v–i–s–i–t–i–n–g–
+67 izard daquele xan -> –i–z–a–r–d–d–a–q–u–e–l–e–x–a–n–
+68 fran ouvrages carrera -> –f–r–a–n–o–u–v–r–a–g–e–s–c–a–r–r–e–r–a–
+69 ery stayed manj -> –e–r–y–s–t–a–y–e–d–m–a–n–j–
+70 ammar harc delt -> –a–m–m–a–r–h–a–r–c–d–e–l–t–
+71 onge ragazzi trop -> –o–n–g–e–r–a–g–a–z–z–i–t–r–o–p–
+72 aking sech producer -> –a–k–i–n–g–s–e–c–h–p–r–o–d–u–c–e–r–
+73 cznych azok tranquil -> –c–z–n–y–c–h–a–z–o–k–t–r–a–n–q–u–i–l–
+74 only weiteren nations -> –o–n–l–y–w–e–i–t–e–r–e–n–n–a–t–i–o–n–s–
+75 backend lesquels bait -> –b–a–c–k–e–n–d–l–e–s–q–u–e–l–s–b–a–i–t–
+76 acia tee farther -> –a–c–i–a–t–e–e–f–a–r–t–h–e–r–
+77 ation ces thief -> –a–t–i–o–n–c–e–s–t–h–i–e–f–
+78 xxx conspic infek -> –x–x–x–c–o–n–s–p–i–c–i–n–f–e–k–
+79 erdem conmigo gouvern -> –e–r–d–e–m–c–o–n–m–i–g–o–g–o–u–v–e–r–n–
+80 esterday reliance keel -> –e–s–t–e–r–d–a–y–r–e–l–i–a–n–c–e–k–e–e–l–
+81 owanego constru tips -> –o–w–a–n–e–g–o–c–o–n–s–t–r–u–t–i–p–s–
+82 oplan relied beasts -> –o–p–l–a–n–r–e–l–i–e–d–b–e–a–s–t–s–
+83 ih gestures villa -> –i–h–g–e–s–t–u–r–e–s–v–i–l–l–a–
+84 trad posso sajtu -> –t–r–a–d–p–o–s–s–o–s–a–j–t–u–
+85 icated kommer http -> –i–c–a–t–e–d–k–o–m–m–e–r–h–t–t–p–
+86 zeiro kle revenge -> –z–e–i–r–o–k–l–e–r–e–v–e–n–g–e–
+87 address dementia epidemic -> –a–d–d–r–e–s–s–d–e–m–e–n–t–i–a–e–p–i–d–e–m–i–c–
+88 pliers weeks align -> –p–l–i–e–r–s–w–e–e–k–s–a–l–i–g–n–
+89 unha venom finanz -> –u–n–h–a–v–e–n–o–m–f–i–n–a–n–z–
+90 ically ishte reimburs -> –i–c–a–l–l–y–i–s–h–t–e–r–e–i–m–b–u–r–s–
+91 ettant typename algu -> –e–t–t–a–n–t–t–y–p–e–n–a–m–e–a–l–g–u–
+92 user kop brush -> –u–s–e–r–k–o–p–b–r–u–s–h–
+93 iches histor gameplay -> –i–c–h–e–s–h–i–s–t–o–r–g–a–m–e–p–l–a–y–
+94 circ pitt parental -> –c–i–r–c–p–i–t–t–p–a–r–e–n–t–a–l–
+95 gr devido regelm -> –g–r–d–e–v–i–d–o–r–e–g–e–l–m–
+96 afa inglesa several -> –a–f–a–i–n–g–l–e–s–a–s–e–v–e–r–a–l–
+97 recken sasto mice -> –r–e–c–k–e–n–s–a–s–t–o–m–i–c–e–
+98 itos rasa machte -> –i–t–o–s–r–a–s–a–m–a–c–h–t–e–
+99 iation ind binder -> –i–a–t–i–o–n–i–n–d–b–i–n–d–e–r–

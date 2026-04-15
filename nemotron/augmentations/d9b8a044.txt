@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 oshop rozwo demol
+01 hetto arrives asserted
+02 iy inwardly carriera
+
+This is a sample output.
+00 oshop rozwo demol -> –o–s–h–o–p–r–o–z–w–o–d–e–m–o–l–
+01 hetto arrives asserted -> –h–e–t–t–o–a–r–r–i–v–e–s–a–s–s–e–r–t–e–d–
+02 iy inwardly carriera -> –i–y–i–n–w–a–r–d–l–y–c–a–r–r–i–e–r–a–
+
+This is your input.
+00 https slider abr
+01 ids mom sword
+02 cludes timber va
+03 based flown status
+04 olerance alten fini
+05 checking drained nyom
+06 oprotein freshly throw
+07 oksen frecu balk
+08 valuable some arr
+09 referto reaching affirmed
+10 idget dengue luce
+11 frist wherein visa
+12 ietako outdoor aph
+13 inaldo ancienne kinases
+14 ektar strugg lengu
+15 yt barre einigen
+16 esas created szerint
+17 aternary bamb oben
+18 texto pul troubled
+19 abama allen flat
+20 amm fogl proprio
+21 winner tangible recibe
+22 angel multipl erlang
+23 ologen bones cesar
+24 ave agency democr
+25 urant np anderes
+26 odium sudo unir
+27 seed church drone
+28 osphate muss few
+29 ynthesis consegu gospel
+30 inden chromos antih
+31 leton giovani alleged
+32 extract sockets maize
+33 found francesa bets
+34 czenie katon marketed
+35 continue disagre singers
+36 intes einges jugar
+37 www atypical bye
+38 raising curative vermo
+39 ipel komis mnogo
+40 ribu gradual aa
+41 bigr folyam adresse
+42 owano asum savoir
+43 ocr angg aanwezig
+44 dit casual samego
+45 prochen bietet existed
+46 anel sql fused
+47 uu resurre przy
+48 ublin objekt ople
+49 llo dare ricost
+50 atelj lans mv
+51 verw hommes ladr
+52 ignait overly duels
+53 fiel hyp deste
+54 chim tratta aeros
+55 insert gum vagina
+56 ories patron elastic
+57 gemeinde ezt quad
+58 isaient entrando tu
+59 atiu wheel aug
+60 orable neder izra
+61 maps grado repuls
+62 chat ei stock
+63 lingen swore glam
+64 haltung quince dopamine
+65 inding dry casing
+66 inae kwiet arched
+67 dater cest diamet
+68 scode droite litter
+69 ankind pay steal
+70 ream smatra rinsed
+71 itere model trab
+72 bundle moteur fuselage
+73 ock slipped choisi
+74 putusan latina feita
+75 ikir wicket dividido
+76 onym ia fans
+77 pap rooted douleur
+78 sharp curr ladder
+79 anth patria kelompok
+80 raining proof filmen
+81 omonas frequ scop
+82 igna segons activa
+83 aste pontos cracking
+84 jn effekt lem
+85 avat damned pasning
+86 prom jugement recuerda
+87 esc biss tenha
+88 oughton inject actin
+89 irmed opini tua
+90 stes entonces dziel
+91 hetics vise remonte
+92 atiker dop aprovech
+93 ystick bcrypt princesa
+94 usse maal tax
+95 ailing tob standing
+96 plass alma oprav
+97 ipes gaze pasture
+98 gehen alber leder
+99 gher starring vokal
+[completion]
+00 https slider abr -> –h–t–t–p–s–s–l–i–d–e–r–a–b–r–
+01 ids mom sword -> –i–d–s–m–o–m–s–w–o–r–d–
+02 cludes timber va -> –c–l–u–d–e–s–t–i–m–b–e–r–v–a–
+03 based flown status -> –b–a–s–e–d–f–l–o–w–n–s–t–a–t–u–s–
+04 olerance alten fini -> –o–l–e–r–a–n–c–e–a–l–t–e–n–f–i–n–i–
+05 checking drained nyom -> –c–h–e–c–k–i–n–g–d–r–a–i–n–e–d–n–y–o–m–
+06 oprotein freshly throw -> –o–p–r–o–t–e–i–n–f–r–e–s–h–l–y–t–h–r–o–w–
+07 oksen frecu balk -> –o–k–s–e–n–f–r–e–c–u–b–a–l–k–
+08 valuable some arr -> –v–a–l–u–a–b–l–e–s–o–m–e–a–r–r–
+09 referto reaching affirmed -> –r–e–f–e–r–t–o–r–e–a–c–h–i–n–g–a–f–f–i–r–m–e–d–
+10 idget dengue luce -> –i–d–g–e–t–d–e–n–g–u–e–l–u–c–e–
+11 frist wherein visa -> –f–r–i–s–t–w–h–e–r–e–i–n–v–i–s–a–
+12 ietako outdoor aph -> –i–e–t–a–k–o–o–u–t–d–o–o–r–a–p–h–
+13 inaldo ancienne kinases -> –i–n–a–l–d–o–a–n–c–i–e–n–n–e–k–i–n–a–s–e–s–
+14 ektar strugg lengu -> –e–k–t–a–r–s–t–r–u–g–g–l–e–n–g–u–
+15 yt barre einigen -> –y–t–b–a–r–r–e–e–i–n–i–g–e–n–
+16 esas created szerint -> –e–s–a–s–c–r–e–a–t–e–d–s–z–e–r–i–n–t–
+17 aternary bamb oben -> –a–t–e–r–n–a–r–y–b–a–m–b–o–b–e–n–
+18 texto pul troubled -> –t–e–x–t–o–p–u–l–t–r–o–u–b–l–e–d–
+19 abama allen flat -> –a–b–a–m–a–a–l–l–e–n–f–l–a–t–
+20 amm fogl proprio -> –a–m–m–f–o–g–l–p–r–o–p–r–i–o–
+21 winner tangible recibe -> –w–i–n–n–e–r–t–a–n–g–i–b–l–e–r–e–c–i–b–e–
+22 angel multipl erlang -> –a–n–g–e–l–m–u–l–t–i–p–l–e–r–l–a–n–g–
+23 ologen bones cesar -> –o–l–o–g–e–n–b–o–n–e–s–c–e–s–a–r–
+24 ave agency democr -> –a–v–e–a–g–e–n–c–y–d–e–m–o–c–r–
+25 urant np anderes -> –u–r–a–n–t–n–p–a–n–d–e–r–e–s–
+26 odium sudo unir -> –o–d–i–u–m–s–u–d–o–u–n–i–r–
+27 seed church drone -> –s–e–e–d–c–h–u–r–c–h–d–r–o–n–e–
+28 osphate muss few -> –o–s–p–h–a–t–e–m–u–s–s–f–e–w–
+29 ynthesis consegu gospel -> –y–n–t–h–e–s–i–s–c–o–n–s–e–g–u–g–o–s–p–e–l–
+30 inden chromos antih -> –i–n–d–e–n–c–h–r–o–m–o–s–a–n–t–i–h–
+31 leton giovani alleged -> –l–e–t–o–n–g–i–o–v–a–n–i–a–l–l–e–g–e–d–
+32 extract sockets maize -> –e–x–t–r–a–c–t–s–o–c–k–e–t–s–m–a–i–z–e–
+33 found francesa bets -> –f–o–u–n–d–f–r–a–n–c–e–s–a–b–e–t–s–
+34 czenie katon marketed -> –c–z–e–n–i–e–k–a–t–o–n–m–a–r–k–e–t–e–d–
+35 continue disagre singers -> –c–o–n–t–i–n–u–e–d–i–s–a–g–r–e–s–i–n–g–e–r–s–
+36 intes einges jugar -> –i–n–t–e–s–e–i–n–g–e–s–j–u–g–a–r–
+37 www atypical bye -> –w–w–w–a–t–y–p–i–c–a–l–b–y–e–
+38 raising curative vermo -> –r–a–i–s–i–n–g–c–u–r–a–t–i–v–e–v–e–r–m–o–
+39 ipel komis mnogo -> –i–p–e–l–k–o–m–i–s–m–n–o–g–o–
+40 ribu gradual aa -> –r–i–b–u–g–r–a–d–u–a–l–a–a–
+41 bigr folyam adresse -> –b–i–g–r–f–o–l–y–a–m–a–d–r–e–s–s–e–
+42 owano asum savoir -> –o–w–a–n–o–a–s–u–m–s–a–v–o–i–r–
+43 ocr angg aanwezig -> –o–c–r–a–n–g–g–a–a–n–w–e–z–i–g–
+44 dit casual samego -> –d–i–t–c–a–s–u–a–l–s–a–m–e–g–o–
+45 prochen bietet existed -> –p–r–o–c–h–e–n–b–i–e–t–e–t–e–x–i–s–t–e–d–
+46 anel sql fused -> –a–n–e–l–s–q–l–f–u–s–e–d–
+47 uu resurre przy -> –u–u–r–e–s–u–r–r–e–p–r–z–y–
+48 ublin objekt ople -> –u–b–l–i–n–o–b–j–e–k–t–o–p–l–e–
+49 llo dare ricost -> –l–l–o–d–a–r–e–r–i–c–o–s–t–
+50 atelj lans mv -> –a–t–e–l–j–l–a–n–s–m–v–
+51 verw hommes ladr -> –v–e–r–w–h–o–m–m–e–s–l–a–d–r–
+52 ignait overly duels -> –i–g–n–a–i–t–o–v–e–r–l–y–d–u–e–l–s–
+53 fiel hyp deste -> –f–i–e–l–h–y–p–d–e–s–t–e–
+54 chim tratta aeros -> –c–h–i–m–t–r–a–t–t–a–a–e–r–o–s–
+55 insert gum vagina -> –i–n–s–e–r–t–g–u–m–v–a–g–i–n–a–
+56 ories patron elastic -> –o–r–i–e–s–p–a–t–r–o–n–e–l–a–s–t–i–c–
+57 gemeinde ezt quad -> –g–e–m–e–i–n–d–e–e–z–t–q–u–a–d–
+58 isaient entrando tu -> –i–s–a–i–e–n–t–e–n–t–r–a–n–d–o–t–u–
+59 atiu wheel aug -> –a–t–i–u–w–h–e–e–l–a–u–g–
+60 orable neder izra -> –o–r–a–b–l–e–n–e–d–e–r–i–z–r–a–
+61 maps grado repuls -> –m–a–p–s–g–r–a–d–o–r–e–p–u–l–s–
+62 chat ei stock -> –c–h–a–t–e–i–s–t–o–c–k–
+63 lingen swore glam -> –l–i–n–g–e–n–s–w–o–r–e–g–l–a–m–
+64 haltung quince dopamine -> –h–a–l–t–u–n–g–q–u–i–n–c–e–d–o–p–a–m–i–n–e–
+65 inding dry casing -> –i–n–d–i–n–g–d–r–y–c–a–s–i–n–g–
+66 inae kwiet arched -> –i–n–a–e–k–w–i–e–t–a–r–c–h–e–d–
+67 dater cest diamet -> –d–a–t–e–r–c–e–s–t–d–i–a–m–e–t–
+68 scode droite litter -> –s–c–o–d–e–d–r–o–i–t–e–l–i–t–t–e–r–
+69 ankind pay steal -> –a–n–k–i–n–d–p–a–y–s–t–e–a–l–
+70 ream smatra rinsed -> –r–e–a–m–s–m–a–t–r–a–r–i–n–s–e–d–
+71 itere model trab -> –i–t–e–r–e–m–o–d–e–l–t–r–a–b–
+72 bundle moteur fuselage -> –b–u–n–d–l–e–m–o–t–e–u–r–f–u–s–e–l–a–g–e–
+73 ock slipped choisi -> –o–c–k–s–l–i–p–p–e–d–c–h–o–i–s–i–
+74 putusan latina feita -> –p–u–t–u–s–a–n–l–a–t–i–n–a–f–e–i–t–a–
+75 ikir wicket dividido -> –i–k–i–r–w–i–c–k–e–t–d–i–v–i–d–i–d–o–
+76 onym ia fans -> –o–n–y–m–i–a–f–a–n–s–
+77 pap rooted douleur -> –p–a–p–r–o–o–t–e–d–d–o–u–l–e–u–r–
+78 sharp curr ladder -> –s–h–a–r–p–c–u–r–r–l–a–d–d–e–r–
+79 anth patria kelompok -> –a–n–t–h–p–a–t–r–i–a–k–e–l–o–m–p–o–k–
+80 raining proof filmen -> –r–a–i–n–i–n–g–p–r–o–o–f–f–i–l–m–e–n–
+81 omonas frequ scop -> –o–m–o–n–a–s–f–r–e–q–u–s–c–o–p–
+82 igna segons activa -> –i–g–n–a–s–e–g–o–n–s–a–c–t–i–v–a–
+83 aste pontos cracking -> –a–s–t–e–p–o–n–t–o–s–c–r–a–c–k–i–n–g–
+84 jn effekt lem -> –j–n–e–f–f–e–k–t–l–e–m–
+85 avat damned pasning -> –a–v–a–t–d–a–m–n–e–d–p–a–s–n–i–n–g–
+86 prom jugement recuerda -> –p–r–o–m–j–u–g–e–m–e–n–t–r–e–c–u–e–r–d–a–
+87 esc biss tenha -> –e–s–c–b–i–s–s–t–e–n–h–a–
+88 oughton inject actin -> –o–u–g–h–t–o–n–i–n–j–e–c–t–a–c–t–i–n–
+89 irmed opini tua -> –i–r–m–e–d–o–p–i–n–i–t–u–a–
+90 stes entonces dziel -> –s–t–e–s–e–n–t–o–n–c–e–s–d–z–i–e–l–
+91 hetics vise remonte -> –h–e–t–i–c–s–v–i–s–e–r–e–m–o–n–t–e–
+92 atiker dop aprovech -> –a–t–i–k–e–r–d–o–p–a–p–r–o–v–e–c–h–
+93 ystick bcrypt princesa -> –y–s–t–i–c–k–b–c–r–y–p–t–p–r–i–n–c–e–s–a–
+94 usse maal tax -> –u–s–s–e–m–a–a–l–t–a–x–
+95 ailing tob standing -> –a–i–l–i–n–g–t–o–b–s–t–a–n–d–i–n–g–
+96 plass alma oprav -> –p–l–a–s–s–a–l–m–a–o–p–r–a–v–
+97 ipes gaze pasture -> –i–p–e–s–g–a–z–e–p–a–s–t–u–r–e–
+98 gehen alber leder -> –g–e–h–e–n–a–l–b–e–r–l–e–d–e–r–
+99 gher starring vokal -> –g–h–e–r–s–t–a–r–r–i–n–g–v–o–k–a–l–

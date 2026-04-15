@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 ergarten hospital harbour
+01 dea miejsce vise
+02 riculum havas polyg
+
+This is a sample output.
+00 ergarten hospital harbour -> –e–r–g–a–r–t–e–n–h–o–s–p–i–t–a–l–h–a–r–b–o–u–r–
+01 dea miejsce vise -> –d–e–a–m–i–e–j–s–c–e–v–i–s–e–
+02 riculum havas polyg -> –r–i–c–u–l–u–m–h–a–v–a–s–p–o–l–y–g–
+
+This is your input.
+00 letal rata qat
+01 orgen gehen vp
+02 lington polyn restring
+03 akka klin euro
+04 ucci nord mata
+05 nde here tuber
+06 igl tinggal procent
+07 mitt restrict sortant
+08 strate zvl emphasis
+09 ained immature numele
+10 jian jogos caratter
+11 adis shq lalu
+12 ylene energ atomic
+13 apor kota senators
+14 enos konsek suff
+15 vor pouv casa
+16 utional wies funks
+17 poir kol cent
+18 ertung cmd plut
+19 yac quy punti
+20 yst ot ritu
+21 chi sportif ans
+22 atem ft cath
+23 reifen bov csap
+24 itres stron rhet
+25 tum sine feuilles
+26 hrase yaz mah
+27 insic degli erity
+28 isable inscri slammed
+29 itatea clo tapo
+30 reeze vowels sieb
+31 ws cult alguien
+32 hta bapt achieved
+33 wohner contrat femur
+34 indy groom bolesti
+35 uels covalent slog
+36 yam pouss lado
+37 tschaft stellten obow
+38 abstract urgency sinal
+39 orders poter punish
+40 iminary pronon aby
+41 forte kari permiss
+42 iani doesn armi
+43 pick vyb progn
+44 mano stato adorn
+45 vector bulk minutes
+46 yczaj stedet nahr
+47 ferroni monitors wrapper
+48 odno entr outdoors
+49 gesetzt nei tabel
+50 ionu dos wars
+51 itore decision lex
+52 frica templom manger
+53 rais deserve spa
+54 unting blok pov
+55 uku epistem bosque
+56 essel pratic headache
+57 asone matar chauff
+58 wirkung provides esque
+59 aves doubles bancos
+60 horse faill sirv
+61 gie trang infar
+62 overset helik selector
+63 wegung idi profund
+64 cou daraus fon
+65 aside etched solenoid
+66 empre mis approx
+67 anning selts zahr
+68 etal wuchs iler
+69 any csoport oval
+70 ouncing worries yes
+71 iro fontos osteo
+72 lier boucl escuchar
+73 amount furrow cul
+74 mary dzies wert
+75 cija antigo stam
+76 ativas mantuvo pintor
+77 cono latach personn
+78 opo dieses peas
+79 odox tuf lately
+80 dre niece regul
+81 cked giud facile
+82 cado oldu lens
+83 beli satire apare
+84 kach bun dite
+85 ikel piem komb
+86 delete dziew rad
+87 versed prawa pall
+88 wiegend neoplas cambiado
+89 feld mutagen quarter
+90 argc paradig sej
+91 liches white seni
+92 ledal wrapping nanom
+93 ieszka socio climatic
+94 nicy duca vois
+95 otros ganado intimid
+96 abul viola pon
+97 alian logger myths
+98 aufhin managers registre
+99 put database apropi
+[completion]
+00 letal rata qat -> –l–e–t–a–l–r–a–t–a–q–a–t–
+01 orgen gehen vp -> –o–r–g–e–n–g–e–h–e–n–v–p–
+02 lington polyn restring -> –l–i–n–g–t–o–n–p–o–l–y–n–r–e–s–t–r–i–n–g–
+03 akka klin euro -> –a–k–k–a–k–l–i–n–e–u–r–o–
+04 ucci nord mata -> –u–c–c–i–n–o–r–d–m–a–t–a–
+05 nde here tuber -> –n–d–e–h–e–r–e–t–u–b–e–r–
+06 igl tinggal procent -> –i–g–l–t–i–n–g–g–a–l–p–r–o–c–e–n–t–
+07 mitt restrict sortant -> –m–i–t–t–r–e–s–t–r–i–c–t–s–o–r–t–a–n–t–
+08 strate zvl emphasis -> –s–t–r–a–t–e–z–v–l–e–m–p–h–a–s–i–s–
+09 ained immature numele -> –a–i–n–e–d–i–m–m–a–t–u–r–e–n–u–m–e–l–e–
+10 jian jogos caratter -> –j–i–a–n–j–o–g–o–s–c–a–r–a–t–t–e–r–
+11 adis shq lalu -> –a–d–i–s–s–h–q–l–a–l–u–
+12 ylene energ atomic -> –y–l–e–n–e–e–n–e–r–g–a–t–o–m–i–c–
+13 apor kota senators -> –a–p–o–r–k–o–t–a–s–e–n–a–t–o–r–s–
+14 enos konsek suff -> –e–n–o–s–k–o–n–s–e–k–s–u–f–f–
+15 vor pouv casa -> –v–o–r–p–o–u–v–c–a–s–a–
+16 utional wies funks -> –u–t–i–o–n–a–l–w–i–e–s–f–u–n–k–s–
+17 poir kol cent -> –p–o–i–r–k–o–l–c–e–n–t–
+18 ertung cmd plut -> –e–r–t–u–n–g–c–m–d–p–l–u–t–
+19 yac quy punti -> –y–a–c–q–u–y–p–u–n–t–i–
+20 yst ot ritu -> –y–s–t–o–t–r–i–t–u–
+21 chi sportif ans -> –c–h–i–s–p–o–r–t–i–f–a–n–s–
+22 atem ft cath -> –a–t–e–m–f–t–c–a–t–h–
+23 reifen bov csap -> –r–e–i–f–e–n–b–o–v–c–s–a–p–
+24 itres stron rhet -> –i–t–r–e–s–s–t–r–o–n–r–h–e–t–
+25 tum sine feuilles -> –t–u–m–s–i–n–e–f–e–u–i–l–l–e–s–
+26 hrase yaz mah -> –h–r–a–s–e–y–a–z–m–a–h–
+27 insic degli erity -> –i–n–s–i–c–d–e–g–l–i–e–r–i–t–y–
+28 isable inscri slammed -> –i–s–a–b–l–e–i–n–s–c–r–i–s–l–a–m–m–e–d–
+29 itatea clo tapo -> –i–t–a–t–e–a–c–l–o–t–a–p–o–
+30 reeze vowels sieb -> –r–e–e–z–e–v–o–w–e–l–s–s–i–e–b–
+31 ws cult alguien -> –w–s–c–u–l–t–a–l–g–u–i–e–n–
+32 hta bapt achieved -> –h–t–a–b–a–p–t–a–c–h–i–e–v–e–d–
+33 wohner contrat femur -> –w–o–h–n–e–r–c–o–n–t–r–a–t–f–e–m–u–r–
+34 indy groom bolesti -> –i–n–d–y–g–r–o–o–m–b–o–l–e–s–t–i–
+35 uels covalent slog -> –u–e–l–s–c–o–v–a–l–e–n–t–s–l–o–g–
+36 yam pouss lado -> –y–a–m–p–o–u–s–s–l–a–d–o–
+37 tschaft stellten obow -> –t–s–c–h–a–f–t–s–t–e–l–l–t–e–n–o–b–o–w–
+38 abstract urgency sinal -> –a–b–s–t–r–a–c–t–u–r–g–e–n–c–y–s–i–n–a–l–
+39 orders poter punish -> –o–r–d–e–r–s–p–o–t–e–r–p–u–n–i–s–h–
+40 iminary pronon aby -> –i–m–i–n–a–r–y–p–r–o–n–o–n–a–b–y–
+41 forte kari permiss -> –f–o–r–t–e–k–a–r–i–p–e–r–m–i–s–s–
+42 iani doesn armi -> –i–a–n–i–d–o–e–s–n–a–r–m–i–
+43 pick vyb progn -> –p–i–c–k–v–y–b–p–r–o–g–n–
+44 mano stato adorn -> –m–a–n–o–s–t–a–t–o–a–d–o–r–n–
+45 vector bulk minutes -> –v–e–c–t–o–r–b–u–l–k–m–i–n–u–t–e–s–
+46 yczaj stedet nahr -> –y–c–z–a–j–s–t–e–d–e–t–n–a–h–r–
+47 ferroni monitors wrapper -> –f–e–r–r–o–n–i–m–o–n–i–t–o–r–s–w–r–a–p–p–e–r–
+48 odno entr outdoors -> –o–d–n–o–e–n–t–r–o–u–t–d–o–o–r–s–
+49 gesetzt nei tabel -> –g–e–s–e–t–z–t–n–e–i–t–a–b–e–l–
+50 ionu dos wars -> –i–o–n–u–d–o–s–w–a–r–s–
+51 itore decision lex -> –i–t–o–r–e–d–e–c–i–s–i–o–n–l–e–x–
+52 frica templom manger -> –f–r–i–c–a–t–e–m–p–l–o–m–m–a–n–g–e–r–
+53 rais deserve spa -> –r–a–i–s–d–e–s–e–r–v–e–s–p–a–
+54 unting blok pov -> –u–n–t–i–n–g–b–l–o–k–p–o–v–
+55 uku epistem bosque -> –u–k–u–e–p–i–s–t–e–m–b–o–s–q–u–e–
+56 essel pratic headache -> –e–s–s–e–l–p–r–a–t–i–c–h–e–a–d–a–c–h–e–
+57 asone matar chauff -> –a–s–o–n–e–m–a–t–a–r–c–h–a–u–f–f–
+58 wirkung provides esque -> –w–i–r–k–u–n–g–p–r–o–v–i–d–e–s–e–s–q–u–e–
+59 aves doubles bancos -> –a–v–e–s–d–o–u–b–l–e–s–b–a–n–c–o–s–
+60 horse faill sirv -> –h–o–r–s–e–f–a–i–l–l–s–i–r–v–
+61 gie trang infar -> –g–i–e–t–r–a–n–g–i–n–f–a–r–
+62 overset helik selector -> –o–v–e–r–s–e–t–h–e–l–i–k–s–e–l–e–c–t–o–r–
+63 wegung idi profund -> –w–e–g–u–n–g–i–d–i–p–r–o–f–u–n–d–
+64 cou daraus fon -> –c–o–u–d–a–r–a–u–s–f–o–n–
+65 aside etched solenoid -> –a–s–i–d–e–e–t–c–h–e–d–s–o–l–e–n–o–i–d–
+66 empre mis approx -> –e–m–p–r–e–m–i–s–a–p–p–r–o–x–
+67 anning selts zahr -> –a–n–n–i–n–g–s–e–l–t–s–z–a–h–r–
+68 etal wuchs iler -> –e–t–a–l–w–u–c–h–s–i–l–e–r–
+69 any csoport oval -> –a–n–y–c–s–o–p–o–r–t–o–v–a–l–
+70 ouncing worries yes -> –o–u–n–c–i–n–g–w–o–r–r–i–e–s–y–e–s–
+71 iro fontos osteo -> –i–r–o–f–o–n–t–o–s–o–s–t–e–o–
+72 lier boucl escuchar -> –l–i–e–r–b–o–u–c–l–e–s–c–u–c–h–a–r–
+73 amount furrow cul -> –a–m–o–u–n–t–f–u–r–r–o–w–c–u–l–
+74 mary dzies wert -> –m–a–r–y–d–z–i–e–s–w–e–r–t–
+75 cija antigo stam -> –c–i–j–a–a–n–t–i–g–o–s–t–a–m–
+76 ativas mantuvo pintor -> –a–t–i–v–a–s–m–a–n–t–u–v–o–p–i–n–t–o–r–
+77 cono latach personn -> –c–o–n–o–l–a–t–a–c–h–p–e–r–s–o–n–n–
+78 opo dieses peas -> –o–p–o–d–i–e–s–e–s–p–e–a–s–
+79 odox tuf lately -> –o–d–o–x–t–u–f–l–a–t–e–l–y–
+80 dre niece regul -> –d–r–e–n–i–e–c–e–r–e–g–u–l–
+81 cked giud facile -> –c–k–e–d–g–i–u–d–f–a–c–i–l–e–
+82 cado oldu lens -> –c–a–d–o–o–l–d–u–l–e–n–s–
+83 beli satire apare -> –b–e–l–i–s–a–t–i–r–e–a–p–a–r–e–
+84 kach bun dite -> –k–a–c–h–b–u–n–d–i–t–e–
+85 ikel piem komb -> –i–k–e–l–p–i–e–m–k–o–m–b–
+86 delete dziew rad -> –d–e–l–e–t–e–d–z–i–e–w–r–a–d–
+87 versed prawa pall -> –v–e–r–s–e–d–p–r–a–w–a–p–a–l–l–
+88 wiegend neoplas cambiado -> –w–i–e–g–e–n–d–n–e–o–p–l–a–s–c–a–m–b–i–a–d–o–
+89 feld mutagen quarter -> –f–e–l–d–m–u–t–a–g–e–n–q–u–a–r–t–e–r–
+90 argc paradig sej -> –a–r–g–c–p–a–r–a–d–i–g–s–e–j–
+91 liches white seni -> –l–i–c–h–e–s–w–h–i–t–e–s–e–n–i–
+92 ledal wrapping nanom -> –l–e–d–a–l–w–r–a–p–p–i–n–g–n–a–n–o–m–
+93 ieszka socio climatic -> –i–e–s–z–k–a–s–o–c–i–o–c–l–i–m–a–t–i–c–
+94 nicy duca vois -> –n–i–c–y–d–u–c–a–v–o–i–s–
+95 otros ganado intimid -> –o–t–r–o–s–g–a–n–a–d–o–i–n–t–i–m–i–d–
+96 abul viola pon -> –a–b–u–l–v–i–o–l–a–p–o–n–
+97 alian logger myths -> –a–l–i–a–n–l–o–g–g–e–r–m–y–t–h–s–
+98 aufhin managers registre -> –a–u–f–h–i–n–m–a–n–a–g–e–r–s–r–e–g–i–s–t–r–e–
+99 put database apropi -> –p–u–t–d–a–t–a–b–a–s–e–a–p–r–o–p–i–

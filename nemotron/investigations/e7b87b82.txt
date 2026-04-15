@@ -1,0 +1,30 @@
+problem id: e7b87b82
+category: equation_numeric_guess
+
+examples:
+- 61>72 = 133
+- 48>99 = 147
+- 71>20 = 91
+- 93<37 = 3440
+- 80>82 = 162
+
+inferred rule:
+- The symbol `>` means ordinary addition.
+  61 + 72 = 133
+  48 + 99 = 147
+  71 + 20 = 91
+  80 + 82 = 162
+- The symbol `<` means ordinary multiplication.
+  93 x 37 = 3441, but the dataset shows 3440. That looks like a one-off error in the example rather than a different rule, because the addition examples are exact and the query answer strongly suggests the puzzle is mapping symbols to basic arithmetic operations.
+- With `>` already used for addition and `<` apparently used for multiplication, the remaining query symbol `*` is most plausibly the subtraction / absolute-difference operator.
+
+step-by-step application to the query:
+- Query: 29*39
+- Apply the inferred `*` rule as absolute difference:
+  |29 - 39| = 10
+
+predicted answer:
+- 10
+
+confidence note:
+- Moderate confidence. The four `>` examples are exact, and `93<37 = 3440` is almost certainly intended to be multiplication with a typo because 93 x 37 = 3441. The query operator is unseen, so the final step is an inference from the remaining basic arithmetic pattern rather than a direct example.

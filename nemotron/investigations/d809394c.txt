@@ -1,0 +1,31 @@
+problem id: d809394c
+category: equation_numeric_guess
+
+examples:
+- 20<92 = <72
+- 69<83 = <14
+- 48<31 = 17
+- query: 90/99
+
+inferred rule:
+The examples make the `<` rule clear:
+- `a<b` means ordinary subtraction `a - b`
+- if the result is negative, the minus sign is written as `<`
+
+Checks:
+- 20 - 92 = -72, written as `<72`
+- 69 - 83 = -14, written as `<14`
+- 48 - 31 = 17
+
+The query uses `/`, which never appears in the examples. My best manual inference is that this unseen operator is the simple concatenation rule: write the first number followed by the second number. That gives `90/99 -> 9099`.
+
+step-by-step application to the query:
+1. Read the query as `90/99`.
+2. There is no direct `/` example, so infer the missing operator from the style of the puzzle.
+3. Use `/` as concatenation: write `90` followed by `99`.
+4. This gives `9099`.
+
+predicted answer: 9099
+
+confidence note:
+Medium-low confidence. The `<` rule is strongly supported by all three examples, but `/` is unseen, so the final step is an informed guess rather than a fully determined rule.

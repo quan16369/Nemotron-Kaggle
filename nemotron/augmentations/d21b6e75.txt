@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 utar district lord
+01 erdere flora osv
+02 amente debit konkre
+
+This is a sample output.
+00 utar district lord -> –u–t–a–r–d–i–s–t–r–i–c–t–l–o–r–d–
+01 erdere flora osv -> –e–r–d–e–r–e–f–l–o–r–a–o–s–v–
+02 amente debit konkre -> –a–m–e–n–t–e–d–e–b–i–t–k–o–n–k–r–e–
+
+This is your input.
+00 iago jeunes deixa
+01 ached pages abusive
+02 alne monot oce
+03 movie ongoing mixt
+04 verter cabello molest
+05 fest jue kapott
+06 zone vaccine eli
+07 lum kompleks vacances
+08 ibular maks prince
+09 her stalled sirve
+10 abezian irrit cocktail
+11 models voce nursing
+12 rabes hul adopts
+13 kak curling chaud
+14 content kup molyb
+15 ymp sierp encarg
+16 enic seno seznam
+17 inux horror beinh
+18 ischarge stopping oyida
+19 vei inverter matric
+20 entar dal earth
+21 ution ful zw
+22 ategory prestig dumb
+23 arker absurd katol
+24 chter orosz glac
+25 down peripher terakhir
+26 isiert ayud devotion
+27 ubs unico tourne
+28 acao mese persoon
+29 gp lamin effettu
+30 aren hennes copia
+31 unya familiar embora
+32 refs scarcely cola
+33 ipso seam stamm
+34 reset sharing ctx
+35 gorith scarce devam
+36 veni sunlight classe
+37 achstan celu dek
+38 owania cuer message
+39 vald briefly etmek
+40 ynthes believes llegar
+41 ektion diagnose cellular
+42 wey xhr plaf
+43 timeout bringt monarch
+44 aturan ostens null
+45 ered ostat oath
+46 aleza dissolve agr
+47 inat conceito wer
+48 reuse onc occ
+49 hex bees invit
+50 geries cari deduce
+51 osas anxious rho
+52 ittal seitdem pointe
+53 ventures existait inund
+54 auta schaff paljon
+55 aca membran vectors
+56 adjusted sorrow espec
+57 vano remedy carbono
+58 owners direkten diret
+59 parts horrib prolet
+60 trast prepared miej
+61 omm bekannte cappella
+62 lico aparecen cinemat
+63 ster berl lurr
+64 actin five fuoco
+65 edt locali recebeu
+66 after verf victoire
+67 enceu agente smooth
+68 strcmp adopted burnt
+69 avage heap popis
+70 ple consulta nd
+71 iffs sit reinfor
+72 cycles hide longest
+73 ustas zij linkage
+74 haite consigo video
+75 inees knight warmth
+76 nav scol bieten
+77 ussion genetics ders
+78 ymers flames jusqu
+79 terior removing cai
+80 method wyr plaatsen
+81 embley citrate sponsors
+82 atele runat egun
+83 levage mapper vivo
+84 biased tris embryos
+85 raper towel stopped
+86 bah listes homog
+87 otrop antif ji
+88 uremberg produto bihurt
+89 parator anciens apesar
+90 typ dread ammo
+91 suite folgten eser
+92 look custody lute
+93 tainment forment pumped
+94 igu reveal tig
+95 oufl bakar anon
+96 dik eagerly imaginar
+97 platte squadron deine
+98 ausal muse potencia
+99 izier ricerca incontr
+[completion]
+00 iago jeunes deixa -> –i–a–g–o–j–e–u–n–e–s–d–e–i–x–a–
+01 ached pages abusive -> –a–c–h–e–d–p–a–g–e–s–a–b–u–s–i–v–e–
+02 alne monot oce -> –a–l–n–e–m–o–n–o–t–o–c–e–
+03 movie ongoing mixt -> –m–o–v–i–e–o–n–g–o–i–n–g–m–i–x–t–
+04 verter cabello molest -> –v–e–r–t–e–r–c–a–b–e–l–l–o–m–o–l–e–s–t–
+05 fest jue kapott -> –f–e–s–t–j–u–e–k–a–p–o–t–t–
+06 zone vaccine eli -> –z–o–n–e–v–a–c–c–i–n–e–e–l–i–
+07 lum kompleks vacances -> –l–u–m–k–o–m–p–l–e–k–s–v–a–c–a–n–c–e–s–
+08 ibular maks prince -> –i–b–u–l–a–r–m–a–k–s–p–r–i–n–c–e–
+09 her stalled sirve -> –h–e–r–s–t–a–l–l–e–d–s–i–r–v–e–
+10 abezian irrit cocktail -> –a–b–e–z–i–a–n–i–r–r–i–t–c–o–c–k–t–a–i–l–
+11 models voce nursing -> –m–o–d–e–l–s–v–o–c–e–n–u–r–s–i–n–g–
+12 rabes hul adopts -> –r–a–b–e–s–h–u–l–a–d–o–p–t–s–
+13 kak curling chaud -> –k–a–k–c–u–r–l–i–n–g–c–h–a–u–d–
+14 content kup molyb -> –c–o–n–t–e–n–t–k–u–p–m–o–l–y–b–
+15 ymp sierp encarg -> –y–m–p–s–i–e–r–p–e–n–c–a–r–g–
+16 enic seno seznam -> –e–n–i–c–s–e–n–o–s–e–z–n–a–m–
+17 inux horror beinh -> –i–n–u–x–h–o–r–r–o–r–b–e–i–n–h–
+18 ischarge stopping oyida -> –i–s–c–h–a–r–g–e–s–t–o–p–p–i–n–g–o–y–i–d–a–
+19 vei inverter matric -> –v–e–i–i–n–v–e–r–t–e–r–m–a–t–r–i–c–
+20 entar dal earth -> –e–n–t–a–r–d–a–l–e–a–r–t–h–
+21 ution ful zw -> –u–t–i–o–n–f–u–l–z–w–
+22 ategory prestig dumb -> –a–t–e–g–o–r–y–p–r–e–s–t–i–g–d–u–m–b–
+23 arker absurd katol -> –a–r–k–e–r–a–b–s–u–r–d–k–a–t–o–l–
+24 chter orosz glac -> –c–h–t–e–r–o–r–o–s–z–g–l–a–c–
+25 down peripher terakhir -> –d–o–w–n–p–e–r–i–p–h–e–r–t–e–r–a–k–h–i–r–
+26 isiert ayud devotion -> –i–s–i–e–r–t–a–y–u–d–d–e–v–o–t–i–o–n–
+27 ubs unico tourne -> –u–b–s–u–n–i–c–o–t–o–u–r–n–e–
+28 acao mese persoon -> –a–c–a–o–m–e–s–e–p–e–r–s–o–o–n–
+29 gp lamin effettu -> –g–p–l–a–m–i–n–e–f–f–e–t–t–u–
+30 aren hennes copia -> –a–r–e–n–h–e–n–n–e–s–c–o–p–i–a–
+31 unya familiar embora -> –u–n–y–a–f–a–m–i–l–i–a–r–e–m–b–o–r–a–
+32 refs scarcely cola -> –r–e–f–s–s–c–a–r–c–e–l–y–c–o–l–a–
+33 ipso seam stamm -> –i–p–s–o–s–e–a–m–s–t–a–m–m–
+34 reset sharing ctx -> –r–e–s–e–t–s–h–a–r–i–n–g–c–t–x–
+35 gorith scarce devam -> –g–o–r–i–t–h–s–c–a–r–c–e–d–e–v–a–m–
+36 veni sunlight classe -> –v–e–n–i–s–u–n–l–i–g–h–t–c–l–a–s–s–e–
+37 achstan celu dek -> –a–c–h–s–t–a–n–c–e–l–u–d–e–k–
+38 owania cuer message -> –o–w–a–n–i–a–c–u–e–r–m–e–s–s–a–g–e–
+39 vald briefly etmek -> –v–a–l–d–b–r–i–e–f–l–y–e–t–m–e–k–
+40 ynthes believes llegar -> –y–n–t–h–e–s–b–e–l–i–e–v–e–s–l–l–e–g–a–r–
+41 ektion diagnose cellular -> –e–k–t–i–o–n–d–i–a–g–n–o–s–e–c–e–l–l–u–l–a–r–
+42 wey xhr plaf -> –w–e–y–x–h–r–p–l–a–f–
+43 timeout bringt monarch -> –t–i–m–e–o–u–t–b–r–i–n–g–t–m–o–n–a–r–c–h–
+44 aturan ostens null -> –a–t–u–r–a–n–o–s–t–e–n–s–n–u–l–l–
+45 ered ostat oath -> –e–r–e–d–o–s–t–a–t–o–a–t–h–
+46 aleza dissolve agr -> –a–l–e–z–a–d–i–s–s–o–l–v–e–a–g–r–
+47 inat conceito wer -> –i–n–a–t–c–o–n–c–e–i–t–o–w–e–r–
+48 reuse onc occ -> –r–e–u–s–e–o–n–c–o–c–c–
+49 hex bees invit -> –h–e–x–b–e–e–s–i–n–v–i–t–
+50 geries cari deduce -> –g–e–r–i–e–s–c–a–r–i–d–e–d–u–c–e–
+51 osas anxious rho -> –o–s–a–s–a–n–x–i–o–u–s–r–h–o–
+52 ittal seitdem pointe -> –i–t–t–a–l–s–e–i–t–d–e–m–p–o–i–n–t–e–
+53 ventures existait inund -> –v–e–n–t–u–r–e–s–e–x–i–s–t–a–i–t–i–n–u–n–d–
+54 auta schaff paljon -> –a–u–t–a–s–c–h–a–f–f–p–a–l–j–o–n–
+55 aca membran vectors -> –a–c–a–m–e–m–b–r–a–n–v–e–c–t–o–r–s–
+56 adjusted sorrow espec -> –a–d–j–u–s–t–e–d–s–o–r–r–o–w–e–s–p–e–c–
+57 vano remedy carbono -> –v–a–n–o–r–e–m–e–d–y–c–a–r–b–o–n–o–
+58 owners direkten diret -> –o–w–n–e–r–s–d–i–r–e–k–t–e–n–d–i–r–e–t–
+59 parts horrib prolet -> –p–a–r–t–s–h–o–r–r–i–b–p–r–o–l–e–t–
+60 trast prepared miej -> –t–r–a–s–t–p–r–e–p–a–r–e–d–m–i–e–j–
+61 omm bekannte cappella -> –o–m–m–b–e–k–a–n–n–t–e–c–a–p–p–e–l–l–a–
+62 lico aparecen cinemat -> –l–i–c–o–a–p–a–r–e–c–e–n–c–i–n–e–m–a–t–
+63 ster berl lurr -> –s–t–e–r–b–e–r–l–l–u–r–r–
+64 actin five fuoco -> –a–c–t–i–n–f–i–v–e–f–u–o–c–o–
+65 edt locali recebeu -> –e–d–t–l–o–c–a–l–i–r–e–c–e–b–e–u–
+66 after verf victoire -> –a–f–t–e–r–v–e–r–f–v–i–c–t–o–i–r–e–
+67 enceu agente smooth -> –e–n–c–e–u–a–g–e–n–t–e–s–m–o–o–t–h–
+68 strcmp adopted burnt -> –s–t–r–c–m–p–a–d–o–p–t–e–d–b–u–r–n–t–
+69 avage heap popis -> –a–v–a–g–e–h–e–a–p–p–o–p–i–s–
+70 ple consulta nd -> –p–l–e–c–o–n–s–u–l–t–a–n–d–
+71 iffs sit reinfor -> –i–f–f–s–s–i–t–r–e–i–n–f–o–r–
+72 cycles hide longest -> –c–y–c–l–e–s–h–i–d–e–l–o–n–g–e–s–t–
+73 ustas zij linkage -> –u–s–t–a–s–z–i–j–l–i–n–k–a–g–e–
+74 haite consigo video -> –h–a–i–t–e–c–o–n–s–i–g–o–v–i–d–e–o–
+75 inees knight warmth -> –i–n–e–e–s–k–n–i–g–h–t–w–a–r–m–t–h–
+76 nav scol bieten -> –n–a–v–s–c–o–l–b–i–e–t–e–n–
+77 ussion genetics ders -> –u–s–s–i–o–n–g–e–n–e–t–i–c–s–d–e–r–s–
+78 ymers flames jusqu -> –y–m–e–r–s–f–l–a–m–e–s–j–u–s–q–u–
+79 terior removing cai -> –t–e–r–i–o–r–r–e–m–o–v–i–n–g–c–a–i–
+80 method wyr plaatsen -> –m–e–t–h–o–d–w–y–r–p–l–a–a–t–s–e–n–
+81 embley citrate sponsors -> –e–m–b–l–e–y–c–i–t–r–a–t–e–s–p–o–n–s–o–r–s–
+82 atele runat egun -> –a–t–e–l–e–r–u–n–a–t–e–g–u–n–
+83 levage mapper vivo -> –l–e–v–a–g–e–m–a–p–p–e–r–v–i–v–o–
+84 biased tris embryos -> –b–i–a–s–e–d–t–r–i–s–e–m–b–r–y–o–s–
+85 raper towel stopped -> –r–a–p–e–r–t–o–w–e–l–s–t–o–p–p–e–d–
+86 bah listes homog -> –b–a–h–l–i–s–t–e–s–h–o–m–o–g–
+87 otrop antif ji -> –o–t–r–o–p–a–n–t–i–f–j–i–
+88 uremberg produto bihurt -> –u–r–e–m–b–e–r–g–p–r–o–d–u–t–o–b–i–h–u–r–t–
+89 parator anciens apesar -> –p–a–r–a–t–o–r–a–n–c–i–e–n–s–a–p–e–s–a–r–
+90 typ dread ammo -> –t–y–p–d–r–e–a–d–a–m–m–o–
+91 suite folgten eser -> –s–u–i–t–e–f–o–l–g–t–e–n–e–s–e–r–
+92 look custody lute -> –l–o–o–k–c–u–s–t–o–d–y–l–u–t–e–
+93 tainment forment pumped -> –t–a–i–n–m–e–n–t–f–o–r–m–e–n–t–p–u–m–p–e–d–
+94 igu reveal tig -> –i–g–u–r–e–v–e–a–l–t–i–g–
+95 oufl bakar anon -> –o–u–f–l–b–a–k–a–r–a–n–o–n–
+96 dik eagerly imaginar -> –d–i–k–e–a–g–e–r–l–y–i–m–a–g–i–n–a–r–
+97 platte squadron deine -> –p–l–a–t–t–e–s–q–u–a–d–r–o–n–d–e–i–n–e–
+98 ausal muse potencia -> –a–u–s–a–l–m–u–s–e–p–o–t–e–n–c–i–a–
+99 izier ricerca incontr -> –i–z–i–e–r–r–i–c–e–r–c–a–i–n–c–o–n–t–r–

@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 engine spear disputed
+01 veno gewinnt ritual
+02 uell doubl ranger
+
+This is a sample output.
+00 engine spear disputed -> –e–n–g–i–n–e–s–p–e–a–r–d–i–s–p–u–t–e–d–
+01 veno gewinnt ritual -> –v–e–n–o–g–e–w–i–n–n–t–r–i–t–u–a–l–
+02 uell doubl ranger -> –u–e–l–l–d–o–u–b–l–r–a–n–g–e–r–
+
+This is your input.
+00 iteiten juxt rosso
+01 achim pleased saya
+02 werking emple emotion
+03 vic remember tem
+04 rence deformed vine
+05 virt dealers laiss
+06 ella incluir vessel
+07 ration xem illegal
+08 azu sobres tari
+09 achten honom biophys
+10 kata winners dance
+11 aniu lis ss
+12 querque capaces rahv
+13 rypto premises distrito
+14 qua empir larger
+15 ihad fiz rav
+16 svg poem undis
+17 upt exceed diciendo
+18 isiones gere running
+19 lub intelig congreg
+20 oki divorce laz
+21 oppy requis napis
+22 qd launched pierre
+23 apan deutsch externa
+24 idem fisc sobreviv
+25 encia incert denying
+26 patrick poursuit fragr
+27 olus sv cle
+28 itor anemia appears
+29 inosa trillion musica
+30 inement humanity sc
+31 pectives tyre landings
+32 warn iunie tijd
+33 iciones fizik atribu
+34 erv jum escond
+35 terne dieron letra
+36 rement abb pilihan
+37 rection hebben podemos
+38 bled appealed trivial
+39 fam divorced react
+40 larini perda hemos
+41 orphous coherent sociales
+42 gatherer ours pare
+43 rables metros rappel
+44 apple coul sper
+45 inar sekund optimal
+46 ilvania poder rugby
+47 imp orq zusamm
+48 bits banco sagen
+49 ities bija koht
+50 musiker foot motive
+51 raltar salir welcomed
+52 ustomer dif possible
+53 versal division nuls
+54 istance langen molekul
+55 rump lifetime pratica
+56 eak erotic desembre
+57 ependant inwon bright
+58 iversary mineurs any
+59 ugas titles part
+60 compile prehist motility
+61 neas thumb fuga
+62 rum blowing uit
+63 astra produtos pd
+64 zyma rozpoc ilin
+65 ured robotic giz
+66 ildir coisa gels
+67 ater pars exprim
+68 ouluku retrofit mentale
+69 ocyan thromb tj
+70 izmu rivers antal
+71 enn tschech apoy
+72 arras closing cuisine
+73 okal way zag
+74 oya garrison pourvoir
+75 rocarril surprise scre
+76 het meio erosion
+77 entries fisi poli
+78 yield renderer propuso
+79 wid welcher resid
+80 flies musicale lequel
+81 presa quar sonrisa
+82 itus conduce quod
+83 fasst belt demander
+84 icos visibles bemerk
+85 gae counters quero
+86 boldmath list filas
+87 ofib careful moitos
+88 ates posljed ici
+89 resh agit jokes
+90 chedule laut bonnes
+91 atted veu honor
+92 amel inizia encl
+93 latest desse defeats
+94 ffiche board contato
+95 lemental potency ki
+96 hul stations jezik
+97 fb agres zeigt
+98 kim perse listen
+99 neos ersten otra
+[completion]
+00 iteiten juxt rosso -> –i–t–e–i–t–e–n–j–u–x–t–r–o–s–s–o–
+01 achim pleased saya -> –a–c–h–i–m–p–l–e–a–s–e–d–s–a–y–a–
+02 werking emple emotion -> –w–e–r–k–i–n–g–e–m–p–l–e–e–m–o–t–i–o–n–
+03 vic remember tem -> –v–i–c–r–e–m–e–m–b–e–r–t–e–m–
+04 rence deformed vine -> –r–e–n–c–e–d–e–f–o–r–m–e–d–v–i–n–e–
+05 virt dealers laiss -> –v–i–r–t–d–e–a–l–e–r–s–l–a–i–s–s–
+06 ella incluir vessel -> –e–l–l–a–i–n–c–l–u–i–r–v–e–s–s–e–l–
+07 ration xem illegal -> –r–a–t–i–o–n–x–e–m–i–l–l–e–g–a–l–
+08 azu sobres tari -> –a–z–u–s–o–b–r–e–s–t–a–r–i–
+09 achten honom biophys -> –a–c–h–t–e–n–h–o–n–o–m–b–i–o–p–h–y–s–
+10 kata winners dance -> –k–a–t–a–w–i–n–n–e–r–s–d–a–n–c–e–
+11 aniu lis ss -> –a–n–i–u–l–i–s–s–s–
+12 querque capaces rahv -> –q–u–e–r–q–u–e–c–a–p–a–c–e–s–r–a–h–v–
+13 rypto premises distrito -> –r–y–p–t–o–p–r–e–m–i–s–e–s–d–i–s–t–r–i–t–o–
+14 qua empir larger -> –q–u–a–e–m–p–i–r–l–a–r–g–e–r–
+15 ihad fiz rav -> –i–h–a–d–f–i–z–r–a–v–
+16 svg poem undis -> –s–v–g–p–o–e–m–u–n–d–i–s–
+17 upt exceed diciendo -> –u–p–t–e–x–c–e–e–d–d–i–c–i–e–n–d–o–
+18 isiones gere running -> –i–s–i–o–n–e–s–g–e–r–e–r–u–n–n–i–n–g–
+19 lub intelig congreg -> –l–u–b–i–n–t–e–l–i–g–c–o–n–g–r–e–g–
+20 oki divorce laz -> –o–k–i–d–i–v–o–r–c–e–l–a–z–
+21 oppy requis napis -> –o–p–p–y–r–e–q–u–i–s–n–a–p–i–s–
+22 qd launched pierre -> –q–d–l–a–u–n–c–h–e–d–p–i–e–r–r–e–
+23 apan deutsch externa -> –a–p–a–n–d–e–u–t–s–c–h–e–x–t–e–r–n–a–
+24 idem fisc sobreviv -> –i–d–e–m–f–i–s–c–s–o–b–r–e–v–i–v–
+25 encia incert denying -> –e–n–c–i–a–i–n–c–e–r–t–d–e–n–y–i–n–g–
+26 patrick poursuit fragr -> –p–a–t–r–i–c–k–p–o–u–r–s–u–i–t–f–r–a–g–r–
+27 olus sv cle -> –o–l–u–s–s–v–c–l–e–
+28 itor anemia appears -> –i–t–o–r–a–n–e–m–i–a–a–p–p–e–a–r–s–
+29 inosa trillion musica -> –i–n–o–s–a–t–r–i–l–l–i–o–n–m–u–s–i–c–a–
+30 inement humanity sc -> –i–n–e–m–e–n–t–h–u–m–a–n–i–t–y–s–c–
+31 pectives tyre landings -> –p–e–c–t–i–v–e–s–t–y–r–e–l–a–n–d–i–n–g–s–
+32 warn iunie tijd -> –w–a–r–n–i–u–n–i–e–t–i–j–d–
+33 iciones fizik atribu -> –i–c–i–o–n–e–s–f–i–z–i–k–a–t–r–i–b–u–
+34 erv jum escond -> –e–r–v–j–u–m–e–s–c–o–n–d–
+35 terne dieron letra -> –t–e–r–n–e–d–i–e–r–o–n–l–e–t–r–a–
+36 rement abb pilihan -> –r–e–m–e–n–t–a–b–b–p–i–l–i–h–a–n–
+37 rection hebben podemos -> –r–e–c–t–i–o–n–h–e–b–b–e–n–p–o–d–e–m–o–s–
+38 bled appealed trivial -> –b–l–e–d–a–p–p–e–a–l–e–d–t–r–i–v–i–a–l–
+39 fam divorced react -> –f–a–m–d–i–v–o–r–c–e–d–r–e–a–c–t–
+40 larini perda hemos -> –l–a–r–i–n–i–p–e–r–d–a–h–e–m–o–s–
+41 orphous coherent sociales -> –o–r–p–h–o–u–s–c–o–h–e–r–e–n–t–s–o–c–i–a–l–e–s–
+42 gatherer ours pare -> –g–a–t–h–e–r–e–r–o–u–r–s–p–a–r–e–
+43 rables metros rappel -> –r–a–b–l–e–s–m–e–t–r–o–s–r–a–p–p–e–l–
+44 apple coul sper -> –a–p–p–l–e–c–o–u–l–s–p–e–r–
+45 inar sekund optimal -> –i–n–a–r–s–e–k–u–n–d–o–p–t–i–m–a–l–
+46 ilvania poder rugby -> –i–l–v–a–n–i–a–p–o–d–e–r–r–u–g–b–y–
+47 imp orq zusamm -> –i–m–p–o–r–q–z–u–s–a–m–m–
+48 bits banco sagen -> –b–i–t–s–b–a–n–c–o–s–a–g–e–n–
+49 ities bija koht -> –i–t–i–e–s–b–i–j–a–k–o–h–t–
+50 musiker foot motive -> –m–u–s–i–k–e–r–f–o–o–t–m–o–t–i–v–e–
+51 raltar salir welcomed -> –r–a–l–t–a–r–s–a–l–i–r–w–e–l–c–o–m–e–d–
+52 ustomer dif possible -> –u–s–t–o–m–e–r–d–i–f–p–o–s–s–i–b–l–e–
+53 versal division nuls -> –v–e–r–s–a–l–d–i–v–i–s–i–o–n–n–u–l–s–
+54 istance langen molekul -> –i–s–t–a–n–c–e–l–a–n–g–e–n–m–o–l–e–k–u–l–
+55 rump lifetime pratica -> –r–u–m–p–l–i–f–e–t–i–m–e–p–r–a–t–i–c–a–
+56 eak erotic desembre -> –e–a–k–e–r–o–t–i–c–d–e–s–e–m–b–r–e–
+57 ependant inwon bright -> –e–p–e–n–d–a–n–t–i–n–w–o–n–b–r–i–g–h–t–
+58 iversary mineurs any -> –i–v–e–r–s–a–r–y–m–i–n–e–u–r–s–a–n–y–
+59 ugas titles part -> –u–g–a–s–t–i–t–l–e–s–p–a–r–t–
+60 compile prehist motility -> –c–o–m–p–i–l–e–p–r–e–h–i–s–t–m–o–t–i–l–i–t–y–
+61 neas thumb fuga -> –n–e–a–s–t–h–u–m–b–f–u–g–a–
+62 rum blowing uit -> –r–u–m–b–l–o–w–i–n–g–u–i–t–
+63 astra produtos pd -> –a–s–t–r–a–p–r–o–d–u–t–o–s–p–d–
+64 zyma rozpoc ilin -> –z–y–m–a–r–o–z–p–o–c–i–l–i–n–
+65 ured robotic giz -> –u–r–e–d–r–o–b–o–t–i–c–g–i–z–
+66 ildir coisa gels -> –i–l–d–i–r–c–o–i–s–a–g–e–l–s–
+67 ater pars exprim -> –a–t–e–r–p–a–r–s–e–x–p–r–i–m–
+68 ouluku retrofit mentale -> –o–u–l–u–k–u–r–e–t–r–o–f–i–t–m–e–n–t–a–l–e–
+69 ocyan thromb tj -> –o–c–y–a–n–t–h–r–o–m–b–t–j–
+70 izmu rivers antal -> –i–z–m–u–r–i–v–e–r–s–a–n–t–a–l–
+71 enn tschech apoy -> –e–n–n–t–s–c–h–e–c–h–a–p–o–y–
+72 arras closing cuisine -> –a–r–r–a–s–c–l–o–s–i–n–g–c–u–i–s–i–n–e–
+73 okal way zag -> –o–k–a–l–w–a–y–z–a–g–
+74 oya garrison pourvoir -> –o–y–a–g–a–r–r–i–s–o–n–p–o–u–r–v–o–i–r–
+75 rocarril surprise scre -> –r–o–c–a–r–r–i–l–s–u–r–p–r–i–s–e–s–c–r–e–
+76 het meio erosion -> –h–e–t–m–e–i–o–e–r–o–s–i–o–n–
+77 entries fisi poli -> –e–n–t–r–i–e–s–f–i–s–i–p–o–l–i–
+78 yield renderer propuso -> –y–i–e–l–d–r–e–n–d–e–r–e–r–p–r–o–p–u–s–o–
+79 wid welcher resid -> –w–i–d–w–e–l–c–h–e–r–r–e–s–i–d–
+80 flies musicale lequel -> –f–l–i–e–s–m–u–s–i–c–a–l–e–l–e–q–u–e–l–
+81 presa quar sonrisa -> –p–r–e–s–a–q–u–a–r–s–o–n–r–i–s–a–
+82 itus conduce quod -> –i–t–u–s–c–o–n–d–u–c–e–q–u–o–d–
+83 fasst belt demander -> –f–a–s–s–t–b–e–l–t–d–e–m–a–n–d–e–r–
+84 icos visibles bemerk -> –i–c–o–s–v–i–s–i–b–l–e–s–b–e–m–e–r–k–
+85 gae counters quero -> –g–a–e–c–o–u–n–t–e–r–s–q–u–e–r–o–
+86 boldmath list filas -> –b–o–l–d–m–a–t–h–l–i–s–t–f–i–l–a–s–
+87 ofib careful moitos -> –o–f–i–b–c–a–r–e–f–u–l–m–o–i–t–o–s–
+88 ates posljed ici -> –a–t–e–s–p–o–s–l–j–e–d–i–c–i–
+89 resh agit jokes -> –r–e–s–h–a–g–i–t–j–o–k–e–s–
+90 chedule laut bonnes -> –c–h–e–d–u–l–e–l–a–u–t–b–o–n–n–e–s–
+91 atted veu honor -> –a–t–t–e–d–v–e–u–h–o–n–o–r–
+92 amel inizia encl -> –a–m–e–l–i–n–i–z–i–a–e–n–c–l–
+93 latest desse defeats -> –l–a–t–e–s–t–d–e–s–s–e–d–e–f–e–a–t–s–
+94 ffiche board contato -> –f–f–i–c–h–e–b–o–a–r–d–c–o–n–t–a–t–o–
+95 lemental potency ki -> –l–e–m–e–n–t–a–l–p–o–t–e–n–c–y–k–i–
+96 hul stations jezik -> –h–u–l–s–t–a–t–i–o–n–s–j–e–z–i–k–
+97 fb agres zeigt -> –f–b–a–g–r–e–s–z–e–i–g–t–
+98 kim perse listen -> –k–i–m–p–e–r–s–e–l–i–s–t–e–n–
+99 neos ersten otra -> –n–e–o–s–e–r–s–t–e–n–o–t–r–a–

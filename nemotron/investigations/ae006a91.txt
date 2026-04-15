@@ -1,0 +1,16 @@
+problem id: ae006a91
+category: bit_manipulation
+
+rule: ROT(2) XOR SHL(7) XOR NOT SHR(7)
+
+examples:
+  00111000 -> 00011111
+  11110110 -> 00100101
+  00101100 -> 01001111
+  01110000 -> 00111110
+  01000111 -> 01100010
+  01010100 -> 10101110
+  01100011 -> 11110010
+
+query: 01100111
+predicted answer: 11100010

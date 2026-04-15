@@ -1,0 +1,52 @@
+problem id: dba045b0
+category: cryptarithm_guess
+
+examples:
+1. `)@+") = @<`
+2. `{!*}^ = {!}^`
+3. `` `@+){ = "^" ``
+4. `!^+[^ = "")`
+5. `)`*[{ = )`[{`
+
+inferred rule:
+Split each input into a left 2-symbol chunk, the middle operator, and a right 2-symbol chunk.
+
+- `*` is direct concatenation of the two chunks in order. The two `*` examples show this exactly:
+  `{!*}^ -> {!}^`
+  `)`*[{ -> )`[{`
+- A clean exact-fit branch for `+` is ordinary addition on 2-digit numbers encoded by symbols.
+
+One digit assignment that fits all three `+` examples exactly is:
+
+- `) = 4`
+- `@ = 6`
+- `" = 1`
+- `< = 0`
+- `{ = 5`
+- `} = 9`
+- `^ = 2`
+- `` ` = 7``
+- `! = 3`
+- `[ = 8`
+
+Under that map:
+
+- `)@ + ")` means `46 + 14 = 60`, which encodes as `@<`.
+- `` `@ + ){ `` means `76 + 45 = 121`, which encodes as `"^"`.
+- `!^ + [^` means `32 + 82 = 114`, which encodes as `")`.
+
+The query uses the unseen operator `-`. The most plausible completion is that it means the absolute difference of the two decoded numbers.
+
+step-by-step application to the query:
+Query: `}<-}`
+
+1. Decode the left chunk `}<` as `90`.
+2. Decode the right chunk `}`` as `97`.
+3. Apply `-` as absolute difference: `|90 - 97| = 7`.
+4. Encode `7` back into symbols: `7 -> `` ` ``.
+
+predicted answer:
+`` ` ``
+
+confidence note:
+Low-medium confidence. The `*` examples are exact concatenation, and the addition branch above fits all three `+` examples exactly. But the examples do not fully pin down the digit map: there is another exact-fit branch that swaps some symbol values and would change the query result. I chose the branch where `)@ + ")` reads cleanly as `46 + 14 = 60`, so this note should be treated as a defensible manual guess rather than a forced deduction.

@@ -1,0 +1,49 @@
+problem id: 40ba1b6f
+category: cryptarithm_guess
+
+examples:
+1. `` `]+#{ = $$` ``
+2. `'(*{{ = '({{`
+3. `{(*'# = {('#`
+4. `` `(+)` = $(@ ``
+5. `@)*]' = @)]'`
+
+inferred rule:
+Split each input into a left 2-character chunk, the middle operator, and a right 2-character chunk.
+
+- For `*`, just concatenate the two chunks in order. The three `*` examples show this directly:
+  `'(*{{ -> '({{`
+  `{(*'# -> {('#`
+  `@)*]' -> @)]'`
+
+- For `+`, interpret the symbols as digits and add the two 2-digit numbers. A consistent map that fits both `+` examples is:
+  `$ = 1`
+  `] = 2`
+  `@ = 3`
+  `# = 4`
+  `{ = 5`
+  `( = 6`
+  `` ` = 7``
+  `) = 8`
+
+  Then:
+  - `` `] + #{ `` means `72 + 45 = 117`, which re-encodes as `$$``.
+  - `` `( + )` `` means `76 + 87 = 163`, which re-encodes as `$(@`.
+
+The query uses the unseen operator `-`. Given that `*` is concatenation and `+` is ordinary addition, the most defensible completion is that `-` is ordinary subtraction. In this query the left value is larger, so subtraction and absolute difference give the same result anyway.
+
+step-by-step application to the query:
+Query: `@]-$(`
+
+1. Decode the left chunk `@]` as `32`.
+2. Decode the right chunk `$(` as `16`.
+3. Apply `-` as subtraction: `32 - 16 = 16`.
+4. Encode `16` back into symbols:
+   `1 -> $`
+   `6 -> (`
+
+predicted answer:
+`$(`
+
+confidence note:
+Medium-high. The `*` rule is directly demonstrated by three exact concatenation examples, and the `+` rule fits both addition examples exactly. The only extrapolation is assigning the unseen `-` to subtraction, but that is the natural remaining arithmetic rule, and for this specific query it matches absolute difference as well.

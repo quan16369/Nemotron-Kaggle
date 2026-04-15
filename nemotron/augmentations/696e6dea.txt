@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 nab emerge inco
+01 urant ancien decembro
+02 riften morally melyet
+
+This is a sample output.
+00 nab emerge inco -> –n–a–b–e–m–e–r–g–e–i–n–c–o–
+01 urant ancien decembro -> –u–r–a–n–t–a–n–c–i–e–n–d–e–c–e–m–b–r–o–
+02 riften morally melyet -> –r–i–f–t–e–n–m–o–r–a–l–l–y–m–e–l–y–e–t–
+
+This is your input.
+00 gress remarqu ditem
+01 qu sieht wen
+02 acts miracles tow
+03 cles ceramics mein
+04 politik recurr adhesion
+05 endor querer glory
+06 onto olay retrou
+07 irements eines reminis
+08 ps povas call
+09 sce docteur novembre
+10 gia block ministre
+11 atif chefe nuo
+12 compet dizer bend
+13 erat zenb heim
+14 zeigt athletic wird
+15 sea popula caccia
+16 aze negeri nueve
+17 ividual recru villain
+18 ksiyon regno etn
+19 let ennemi dute
+20 omotor backbone gp
+21 ipot pick combine
+22 esper bande twice
+23 grad diren uralkod
+24 atche brid fortal
+25 nr probleme filming
+26 mate routing apunt
+27 exec derivada murm
+28 achter topical swollen
+29 aktion ensuing evening
+30 tte slou swords
+31 ulants devait union
+32 clesiast famously eusk
+33 ixement exercise pictures
+34 romycin qol modulus
+35 ifer author biolog
+36 akin portant unt
+37 chia politico produk
+38 ilever floors battant
+39 stop parsed hossz
+40 akten cadres secu
+41 ppard letech annon
+42 questa spinal jednost
+43 ldots dragged untern
+44 ummies ensuite pihak
+45 ublish yak womit
+46 ophilus utilize ae
+47 arlang sheer queries
+48 rettet nahe ovaj
+49 anden inviting doba
+50 utnant slice chopped
+51 esses yl trouvait
+52 states west rouges
+53 este fot coun
+54 reams encou duet
+55 creen guidance endings
+56 opausal incapaz barg
+57 istro stagione age
+58 istet knob odl
+59 ophys denomina obtuvo
+60 ignons pione decipher
+61 buck skill offices
+62 ylated kinship kelu
+63 abung pien happened
+64 ball pack relacion
+65 riad crowned siguen
+66 oul incurred dedu
+67 usu satisfy nud
+68 issant live pergunta
+69 pmod usually partout
+70 ghan tracked jem
+71 iking febrero advisory
+72 asons refusal corris
+73 amine grabbing refiere
+74 znac edo ampl
+75 omento enqu sex
+76 usia fastest kotlin
+77 larger gender roof
+78 oses coorden coches
+79 amen tanques uri
+80 ellulose cried gesehen
+81 webs stesse milit
+82 nah tip notwend
+83 quisite grasped series
+84 odie quando cuir
+85 atera tokens groan
+86 bal gehien tit
+87 eps javafx pulses
+88 page kall emerged
+89 lywood ambiente garganta
+90 epis phras corredor
+91 unnels confront vij
+92 cted anxiety resign
+93 vez force quartz
+94 itan faudrait telefone
+95 stritten morality xu
+96 endido hrvats mj
+97 opters swimming get
+98 inka incarn feeding
+99 healthy versione eut
+[completion]
+00 gress remarqu ditem -> –g–r–e–s–s–r–e–m–a–r–q–u–d–i–t–e–m–
+01 qu sieht wen -> –q–u–s–i–e–h–t–w–e–n–
+02 acts miracles tow -> –a–c–t–s–m–i–r–a–c–l–e–s–t–o–w–
+03 cles ceramics mein -> –c–l–e–s–c–e–r–a–m–i–c–s–m–e–i–n–
+04 politik recurr adhesion -> –p–o–l–i–t–i–k–r–e–c–u–r–r–a–d–h–e–s–i–o–n–
+05 endor querer glory -> –e–n–d–o–r–q–u–e–r–e–r–g–l–o–r–y–
+06 onto olay retrou -> –o–n–t–o–o–l–a–y–r–e–t–r–o–u–
+07 irements eines reminis -> –i–r–e–m–e–n–t–s–e–i–n–e–s–r–e–m–i–n–i–s–
+08 ps povas call -> –p–s–p–o–v–a–s–c–a–l–l–
+09 sce docteur novembre -> –s–c–e–d–o–c–t–e–u–r–n–o–v–e–m–b–r–e–
+10 gia block ministre -> –g–i–a–b–l–o–c–k–m–i–n–i–s–t–r–e–
+11 atif chefe nuo -> –a–t–i–f–c–h–e–f–e–n–u–o–
+12 compet dizer bend -> –c–o–m–p–e–t–d–i–z–e–r–b–e–n–d–
+13 erat zenb heim -> –e–r–a–t–z–e–n–b–h–e–i–m–
+14 zeigt athletic wird -> –z–e–i–g–t–a–t–h–l–e–t–i–c–w–i–r–d–
+15 sea popula caccia -> –s–e–a–p–o–p–u–l–a–c–a–c–c–i–a–
+16 aze negeri nueve -> –a–z–e–n–e–g–e–r–i–n–u–e–v–e–
+17 ividual recru villain -> –i–v–i–d–u–a–l–r–e–c–r–u–v–i–l–l–a–i–n–
+18 ksiyon regno etn -> –k–s–i–y–o–n–r–e–g–n–o–e–t–n–
+19 let ennemi dute -> –l–e–t–e–n–n–e–m–i–d–u–t–e–
+20 omotor backbone gp -> –o–m–o–t–o–r–b–a–c–k–b–o–n–e–g–p–
+21 ipot pick combine -> –i–p–o–t–p–i–c–k–c–o–m–b–i–n–e–
+22 esper bande twice -> –e–s–p–e–r–b–a–n–d–e–t–w–i–c–e–
+23 grad diren uralkod -> –g–r–a–d–d–i–r–e–n–u–r–a–l–k–o–d–
+24 atche brid fortal -> –a–t–c–h–e–b–r–i–d–f–o–r–t–a–l–
+25 nr probleme filming -> –n–r–p–r–o–b–l–e–m–e–f–i–l–m–i–n–g–
+26 mate routing apunt -> –m–a–t–e–r–o–u–t–i–n–g–a–p–u–n–t–
+27 exec derivada murm -> –e–x–e–c–d–e–r–i–v–a–d–a–m–u–r–m–
+28 achter topical swollen -> –a–c–h–t–e–r–t–o–p–i–c–a–l–s–w–o–l–l–e–n–
+29 aktion ensuing evening -> –a–k–t–i–o–n–e–n–s–u–i–n–g–e–v–e–n–i–n–g–
+30 tte slou swords -> –t–t–e–s–l–o–u–s–w–o–r–d–s–
+31 ulants devait union -> –u–l–a–n–t–s–d–e–v–a–i–t–u–n–i–o–n–
+32 clesiast famously eusk -> –c–l–e–s–i–a–s–t–f–a–m–o–u–s–l–y–e–u–s–k–
+33 ixement exercise pictures -> –i–x–e–m–e–n–t–e–x–e–r–c–i–s–e–p–i–c–t–u–r–e–s–
+34 romycin qol modulus -> –r–o–m–y–c–i–n–q–o–l–m–o–d–u–l–u–s–
+35 ifer author biolog -> –i–f–e–r–a–u–t–h–o–r–b–i–o–l–o–g–
+36 akin portant unt -> –a–k–i–n–p–o–r–t–a–n–t–u–n–t–
+37 chia politico produk -> –c–h–i–a–p–o–l–i–t–i–c–o–p–r–o–d–u–k–
+38 ilever floors battant -> –i–l–e–v–e–r–f–l–o–o–r–s–b–a–t–t–a–n–t–
+39 stop parsed hossz -> –s–t–o–p–p–a–r–s–e–d–h–o–s–s–z–
+40 akten cadres secu -> –a–k–t–e–n–c–a–d–r–e–s–s–e–c–u–
+41 ppard letech annon -> –p–p–a–r–d–l–e–t–e–c–h–a–n–n–o–n–
+42 questa spinal jednost -> –q–u–e–s–t–a–s–p–i–n–a–l–j–e–d–n–o–s–t–
+43 ldots dragged untern -> –l–d–o–t–s–d–r–a–g–g–e–d–u–n–t–e–r–n–
+44 ummies ensuite pihak -> –u–m–m–i–e–s–e–n–s–u–i–t–e–p–i–h–a–k–
+45 ublish yak womit -> –u–b–l–i–s–h–y–a–k–w–o–m–i–t–
+46 ophilus utilize ae -> –o–p–h–i–l–u–s–u–t–i–l–i–z–e–a–e–
+47 arlang sheer queries -> –a–r–l–a–n–g–s–h–e–e–r–q–u–e–r–i–e–s–
+48 rettet nahe ovaj -> –r–e–t–t–e–t–n–a–h–e–o–v–a–j–
+49 anden inviting doba -> –a–n–d–e–n–i–n–v–i–t–i–n–g–d–o–b–a–
+50 utnant slice chopped -> –u–t–n–a–n–t–s–l–i–c–e–c–h–o–p–p–e–d–
+51 esses yl trouvait -> –e–s–s–e–s–y–l–t–r–o–u–v–a–i–t–
+52 states west rouges -> –s–t–a–t–e–s–w–e–s–t–r–o–u–g–e–s–
+53 este fot coun -> –e–s–t–e–f–o–t–c–o–u–n–
+54 reams encou duet -> –r–e–a–m–s–e–n–c–o–u–d–u–e–t–
+55 creen guidance endings -> –c–r–e–e–n–g–u–i–d–a–n–c–e–e–n–d–i–n–g–s–
+56 opausal incapaz barg -> –o–p–a–u–s–a–l–i–n–c–a–p–a–z–b–a–r–g–
+57 istro stagione age -> –i–s–t–r–o–s–t–a–g–i–o–n–e–a–g–e–
+58 istet knob odl -> –i–s–t–e–t–k–n–o–b–o–d–l–
+59 ophys denomina obtuvo -> –o–p–h–y–s–d–e–n–o–m–i–n–a–o–b–t–u–v–o–
+60 ignons pione decipher -> –i–g–n–o–n–s–p–i–o–n–e–d–e–c–i–p–h–e–r–
+61 buck skill offices -> –b–u–c–k–s–k–i–l–l–o–f–f–i–c–e–s–
+62 ylated kinship kelu -> –y–l–a–t–e–d–k–i–n–s–h–i–p–k–e–l–u–
+63 abung pien happened -> –a–b–u–n–g–p–i–e–n–h–a–p–p–e–n–e–d–
+64 ball pack relacion -> –b–a–l–l–p–a–c–k–r–e–l–a–c–i–o–n–
+65 riad crowned siguen -> –r–i–a–d–c–r–o–w–n–e–d–s–i–g–u–e–n–
+66 oul incurred dedu -> –o–u–l–i–n–c–u–r–r–e–d–d–e–d–u–
+67 usu satisfy nud -> –u–s–u–s–a–t–i–s–f–y–n–u–d–
+68 issant live pergunta -> –i–s–s–a–n–t–l–i–v–e–p–e–r–g–u–n–t–a–
+69 pmod usually partout -> –p–m–o–d–u–s–u–a–l–l–y–p–a–r–t–o–u–t–
+70 ghan tracked jem -> –g–h–a–n–t–r–a–c–k–e–d–j–e–m–
+71 iking febrero advisory -> –i–k–i–n–g–f–e–b–r–e–r–o–a–d–v–i–s–o–r–y–
+72 asons refusal corris -> –a–s–o–n–s–r–e–f–u–s–a–l–c–o–r–r–i–s–
+73 amine grabbing refiere -> –a–m–i–n–e–g–r–a–b–b–i–n–g–r–e–f–i–e–r–e–
+74 znac edo ampl -> –z–n–a–c–e–d–o–a–m–p–l–
+75 omento enqu sex -> –o–m–e–n–t–o–e–n–q–u–s–e–x–
+76 usia fastest kotlin -> –u–s–i–a–f–a–s–t–e–s–t–k–o–t–l–i–n–
+77 larger gender roof -> –l–a–r–g–e–r–g–e–n–d–e–r–r–o–o–f–
+78 oses coorden coches -> –o–s–e–s–c–o–o–r–d–e–n–c–o–c–h–e–s–
+79 amen tanques uri -> –a–m–e–n–t–a–n–q–u–e–s–u–r–i–
+80 ellulose cried gesehen -> –e–l–l–u–l–o–s–e–c–r–i–e–d–g–e–s–e–h–e–n–
+81 webs stesse milit -> –w–e–b–s–s–t–e–s–s–e–m–i–l–i–t–
+82 nah tip notwend -> –n–a–h–t–i–p–n–o–t–w–e–n–d–
+83 quisite grasped series -> –q–u–i–s–i–t–e–g–r–a–s–p–e–d–s–e–r–i–e–s–
+84 odie quando cuir -> –o–d–i–e–q–u–a–n–d–o–c–u–i–r–
+85 atera tokens groan -> –a–t–e–r–a–t–o–k–e–n–s–g–r–o–a–n–
+86 bal gehien tit -> –b–a–l–g–e–h–i–e–n–t–i–t–
+87 eps javafx pulses -> –e–p–s–j–a–v–a–f–x–p–u–l–s–e–s–
+88 page kall emerged -> –p–a–g–e–k–a–l–l–e–m–e–r–g–e–d–
+89 lywood ambiente garganta -> –l–y–w–o–o–d–a–m–b–i–e–n–t–e–g–a–r–g–a–n–t–a–
+90 epis phras corredor -> –e–p–i–s–p–h–r–a–s–c–o–r–r–e–d–o–r–
+91 unnels confront vij -> –u–n–n–e–l–s–c–o–n–f–r–o–n–t–v–i–j–
+92 cted anxiety resign -> –c–t–e–d–a–n–x–i–e–t–y–r–e–s–i–g–n–
+93 vez force quartz -> –v–e–z–f–o–r–c–e–q–u–a–r–t–z–
+94 itan faudrait telefone -> –i–t–a–n–f–a–u–d–r–a–i–t–t–e–l–e–f–o–n–e–
+95 stritten morality xu -> –s–t–r–i–t–t–e–n–m–o–r–a–l–i–t–y–x–u–
+96 endido hrvats mj -> –e–n–d–i–d–o–h–r–v–a–t–s–m–j–
+97 opters swimming get -> –o–p–t–e–r–s–s–w–i–m–m–i–n–g–g–e–t–
+98 inka incarn feeding -> –i–n–k–a–i–n–c–a–r–n–f–e–e–d–i–n–g–
+99 healthy versione eut -> –h–e–a–l–t–h–y–v–e–r–s–i–o–n–e–e–u–t–

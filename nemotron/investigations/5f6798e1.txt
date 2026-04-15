@@ -1,0 +1,26 @@
+problem id: 5f6798e1
+category: equation_numeric_deduce
+
+examples:
+- 04-49 = -45
+- 21-74 = -53
+- 83*05 = 0583
+
+inferred rule:
+This puzzle looks operator-specific rather than governed by one formula for every symbol.
+- For `-`, treat each side as an ordinary 2-digit integer and subtract the second from the first.
+  - 04 - 49 = -45
+  - 21 - 74 = -53
+- The lone `*` example is probably a separate rule for `*`, but one example is not enough to identify it confidently, and it is not needed for the query.
+
+step-by-step application to the query:
+- Query: 06-71
+- The operator is `-`, so use ordinary subtraction on the whole numbers.
+- 06 is 6, so compute 6 - 71.
+- 6 - 71 = -65
+
+predicted answer:
+-65
+
+confidence note:
+Moderate to high. The `-` operator is consistent across both available `-` examples, so the rule needed for the query is well supported. Confidence is not absolute only because the unused `*` example suggests each operator may have its own separate rule.

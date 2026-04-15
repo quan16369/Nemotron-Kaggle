@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 ivas porosity tact
+01 aday frag buk
+02 wal allo tales
+
+This is a sample output.
+00 ivas porosity tact -> –i–v–a–s–p–o–r–o–s–i–t–y–t–a–c–t–
+01 aday frag buk -> –a–d–a–y–f–r–a–g–b–u–k–
+02 wal allo tales -> –w–a–l–a–l–l–o–t–a–l–e–s–
+
+This is your input.
+00 supp ocean cirka
+01 igon sguardo dwell
+02 park answer electr
+03 izzo francusk chasing
+04 bons abband amour
+05 hnlich zum immens
+06 lab stature eeuw
+07 cfg octobre spada
+08 idente menerima inc
+09 iye propias baron
+10 spy risk seeing
+11 mos compete relies
+12 dro margins cale
+13 usb lions lini
+14 ansko teles synonym
+15 cii panel mongol
+16 umerable string moon
+17 brechen hod alla
+18 wyd subjects dim
+19 elis ima enfrent
+20 aching stranger protesta
+21 stal ligands lighter
+22 ihe intro flight
+23 ancio regel tyrosine
+24 ala biocom llegan
+25 edit starken ihren
+26 dawn abl andata
+27 anc af guruh
+28 igail nested znalaz
+29 icules marcou salts
+30 nai incess edges
+31 urity lady enero
+32 hom zweiten during
+33 ental barne fleeing
+34 punkt cacher krav
+35 neath commenc conex
+36 ilage savais tecn
+37 stri owns meget
+38 ffff ro nebul
+39 ersk condens dot
+40 ifferent collabor adop
+41 arter ihrem residue
+42 vetica sai quart
+43 atge jabearen conflito
+44 rania blade marks
+45 appen indie digne
+46 prits bacteria gente
+47 amentos quand detained
+48 tfrac higher raced
+49 ouri hastily absolue
+50 iyasi yaml scripts
+51 rotic stubborn ultraf
+52 ienda cousins tush
+53 clicked missione founded
+54 bd courts adjacent
+55 enerbah sexual regional
+56 omme airports smrt
+57 account prve levant
+58 anto amery maan
+59 urdu torr haze
+60 rophe vis venue
+61 eszcze nostri ajudar
+62 unsten eligible tablets
+63 reshape alive conson
+64 upa salinity honek
+65 uites selber minim
+66 hello vo besta
+67 onymous moz metall
+68 spacing branco diode
+69 unite fathers theology
+70 issy posta jungen
+71 hana noches method
+72 illie caspase spindle
+73 oles seguente plague
+74 buf spinning photoc
+75 trieve sezonu rx
+76 cal mentor nyelv
+77 vari citoy bastante
+78 platz spok obnov
+79 sch take artista
+80 wx sewing trib
+81 alten salles governo
+82 sic para tournage
+83 ugl worried sucre
+84 ipi upheld aur
+85 idikan pne toma
+86 ased hits mesmo
+87 kat saber sounds
+88 alais dreaming reader
+89 ouz jaune artifact
+90 ensity quelque llegando
+91 loed zast seven
+92 iscono polys if
+93 agger fich fur
+94 value jede gis
+95 nym rid nie
+96 deal deserted sand
+97 cidos gaan carnaval
+98 ogne grown propr
+99 agnol colt discuter
+[completion]
+00 supp ocean cirka -> –s–u–p–p–o–c–e–a–n–c–i–r–k–a–
+01 igon sguardo dwell -> –i–g–o–n–s–g–u–a–r–d–o–d–w–e–l–l–
+02 park answer electr -> –p–a–r–k–a–n–s–w–e–r–e–l–e–c–t–r–
+03 izzo francusk chasing -> –i–z–z–o–f–r–a–n–c–u–s–k–c–h–a–s–i–n–g–
+04 bons abband amour -> –b–o–n–s–a–b–b–a–n–d–a–m–o–u–r–
+05 hnlich zum immens -> –h–n–l–i–c–h–z–u–m–i–m–m–e–n–s–
+06 lab stature eeuw -> –l–a–b–s–t–a–t–u–r–e–e–e–u–w–
+07 cfg octobre spada -> –c–f–g–o–c–t–o–b–r–e–s–p–a–d–a–
+08 idente menerima inc -> –i–d–e–n–t–e–m–e–n–e–r–i–m–a–i–n–c–
+09 iye propias baron -> –i–y–e–p–r–o–p–i–a–s–b–a–r–o–n–
+10 spy risk seeing -> –s–p–y–r–i–s–k–s–e–e–i–n–g–
+11 mos compete relies -> –m–o–s–c–o–m–p–e–t–e–r–e–l–i–e–s–
+12 dro margins cale -> –d–r–o–m–a–r–g–i–n–s–c–a–l–e–
+13 usb lions lini -> –u–s–b–l–i–o–n–s–l–i–n–i–
+14 ansko teles synonym -> –a–n–s–k–o–t–e–l–e–s–s–y–n–o–n–y–m–
+15 cii panel mongol -> –c–i–i–p–a–n–e–l–m–o–n–g–o–l–
+16 umerable string moon -> –u–m–e–r–a–b–l–e–s–t–r–i–n–g–m–o–o–n–
+17 brechen hod alla -> –b–r–e–c–h–e–n–h–o–d–a–l–l–a–
+18 wyd subjects dim -> –w–y–d–s–u–b–j–e–c–t–s–d–i–m–
+19 elis ima enfrent -> –e–l–i–s–i–m–a–e–n–f–r–e–n–t–
+20 aching stranger protesta -> –a–c–h–i–n–g–s–t–r–a–n–g–e–r–p–r–o–t–e–s–t–a–
+21 stal ligands lighter -> –s–t–a–l–l–i–g–a–n–d–s–l–i–g–h–t–e–r–
+22 ihe intro flight -> –i–h–e–i–n–t–r–o–f–l–i–g–h–t–
+23 ancio regel tyrosine -> –a–n–c–i–o–r–e–g–e–l–t–y–r–o–s–i–n–e–
+24 ala biocom llegan -> –a–l–a–b–i–o–c–o–m–l–l–e–g–a–n–
+25 edit starken ihren -> –e–d–i–t–s–t–a–r–k–e–n–i–h–r–e–n–
+26 dawn abl andata -> –d–a–w–n–a–b–l–a–n–d–a–t–a–
+27 anc af guruh -> –a–n–c–a–f–g–u–r–u–h–
+28 igail nested znalaz -> –i–g–a–i–l–n–e–s–t–e–d–z–n–a–l–a–z–
+29 icules marcou salts -> –i–c–u–l–e–s–m–a–r–c–o–u–s–a–l–t–s–
+30 nai incess edges -> –n–a–i–i–n–c–e–s–s–e–d–g–e–s–
+31 urity lady enero -> –u–r–i–t–y–l–a–d–y–e–n–e–r–o–
+32 hom zweiten during -> –h–o–m–z–w–e–i–t–e–n–d–u–r–i–n–g–
+33 ental barne fleeing -> –e–n–t–a–l–b–a–r–n–e–f–l–e–e–i–n–g–
+34 punkt cacher krav -> –p–u–n–k–t–c–a–c–h–e–r–k–r–a–v–
+35 neath commenc conex -> –n–e–a–t–h–c–o–m–m–e–n–c–c–o–n–e–x–
+36 ilage savais tecn -> –i–l–a–g–e–s–a–v–a–i–s–t–e–c–n–
+37 stri owns meget -> –s–t–r–i–o–w–n–s–m–e–g–e–t–
+38 ffff ro nebul -> –f–f–f–f–r–o–n–e–b–u–l–
+39 ersk condens dot -> –e–r–s–k–c–o–n–d–e–n–s–d–o–t–
+40 ifferent collabor adop -> –i–f–f–e–r–e–n–t–c–o–l–l–a–b–o–r–a–d–o–p–
+41 arter ihrem residue -> –a–r–t–e–r–i–h–r–e–m–r–e–s–i–d–u–e–
+42 vetica sai quart -> –v–e–t–i–c–a–s–a–i–q–u–a–r–t–
+43 atge jabearen conflito -> –a–t–g–e–j–a–b–e–a–r–e–n–c–o–n–f–l–i–t–o–
+44 rania blade marks -> –r–a–n–i–a–b–l–a–d–e–m–a–r–k–s–
+45 appen indie digne -> –a–p–p–e–n–i–n–d–i–e–d–i–g–n–e–
+46 prits bacteria gente -> –p–r–i–t–s–b–a–c–t–e–r–i–a–g–e–n–t–e–
+47 amentos quand detained -> –a–m–e–n–t–o–s–q–u–a–n–d–d–e–t–a–i–n–e–d–
+48 tfrac higher raced -> –t–f–r–a–c–h–i–g–h–e–r–r–a–c–e–d–
+49 ouri hastily absolue -> –o–u–r–i–h–a–s–t–i–l–y–a–b–s–o–l–u–e–
+50 iyasi yaml scripts -> –i–y–a–s–i–y–a–m–l–s–c–r–i–p–t–s–
+51 rotic stubborn ultraf -> –r–o–t–i–c–s–t–u–b–b–o–r–n–u–l–t–r–a–f–
+52 ienda cousins tush -> –i–e–n–d–a–c–o–u–s–i–n–s–t–u–s–h–
+53 clicked missione founded -> –c–l–i–c–k–e–d–m–i–s–s–i–o–n–e–f–o–u–n–d–e–d–
+54 bd courts adjacent -> –b–d–c–o–u–r–t–s–a–d–j–a–c–e–n–t–
+55 enerbah sexual regional -> –e–n–e–r–b–a–h–s–e–x–u–a–l–r–e–g–i–o–n–a–l–
+56 omme airports smrt -> –o–m–m–e–a–i–r–p–o–r–t–s–s–m–r–t–
+57 account prve levant -> –a–c–c–o–u–n–t–p–r–v–e–l–e–v–a–n–t–
+58 anto amery maan -> –a–n–t–o–a–m–e–r–y–m–a–a–n–
+59 urdu torr haze -> –u–r–d–u–t–o–r–r–h–a–z–e–
+60 rophe vis venue -> –r–o–p–h–e–v–i–s–v–e–n–u–e–
+61 eszcze nostri ajudar -> –e–s–z–c–z–e–n–o–s–t–r–i–a–j–u–d–a–r–
+62 unsten eligible tablets -> –u–n–s–t–e–n–e–l–i–g–i–b–l–e–t–a–b–l–e–t–s–
+63 reshape alive conson -> –r–e–s–h–a–p–e–a–l–i–v–e–c–o–n–s–o–n–
+64 upa salinity honek -> –u–p–a–s–a–l–i–n–i–t–y–h–o–n–e–k–
+65 uites selber minim -> –u–i–t–e–s–s–e–l–b–e–r–m–i–n–i–m–
+66 hello vo besta -> –h–e–l–l–o–v–o–b–e–s–t–a–
+67 onymous moz metall -> –o–n–y–m–o–u–s–m–o–z–m–e–t–a–l–l–
+68 spacing branco diode -> –s–p–a–c–i–n–g–b–r–a–n–c–o–d–i–o–d–e–
+69 unite fathers theology -> –u–n–i–t–e–f–a–t–h–e–r–s–t–h–e–o–l–o–g–y–
+70 issy posta jungen -> –i–s–s–y–p–o–s–t–a–j–u–n–g–e–n–
+71 hana noches method -> –h–a–n–a–n–o–c–h–e–s–m–e–t–h–o–d–
+72 illie caspase spindle -> –i–l–l–i–e–c–a–s–p–a–s–e–s–p–i–n–d–l–e–
+73 oles seguente plague -> –o–l–e–s–s–e–g–u–e–n–t–e–p–l–a–g–u–e–
+74 buf spinning photoc -> –b–u–f–s–p–i–n–n–i–n–g–p–h–o–t–o–c–
+75 trieve sezonu rx -> –t–r–i–e–v–e–s–e–z–o–n–u–r–x–
+76 cal mentor nyelv -> –c–a–l–m–e–n–t–o–r–n–y–e–l–v–
+77 vari citoy bastante -> –v–a–r–i–c–i–t–o–y–b–a–s–t–a–n–t–e–
+78 platz spok obnov -> –p–l–a–t–z–s–p–o–k–o–b–n–o–v–
+79 sch take artista -> –s–c–h–t–a–k–e–a–r–t–i–s–t–a–
+80 wx sewing trib -> –w–x–s–e–w–i–n–g–t–r–i–b–
+81 alten salles governo -> –a–l–t–e–n–s–a–l–l–e–s–g–o–v–e–r–n–o–
+82 sic para tournage -> –s–i–c–p–a–r–a–t–o–u–r–n–a–g–e–
+83 ugl worried sucre -> –u–g–l–w–o–r–r–i–e–d–s–u–c–r–e–
+84 ipi upheld aur -> –i–p–i–u–p–h–e–l–d–a–u–r–
+85 idikan pne toma -> –i–d–i–k–a–n–p–n–e–t–o–m–a–
+86 ased hits mesmo -> –a–s–e–d–h–i–t–s–m–e–s–m–o–
+87 kat saber sounds -> –k–a–t–s–a–b–e–r–s–o–u–n–d–s–
+88 alais dreaming reader -> –a–l–a–i–s–d–r–e–a–m–i–n–g–r–e–a–d–e–r–
+89 ouz jaune artifact -> –o–u–z–j–a–u–n–e–a–r–t–i–f–a–c–t–
+90 ensity quelque llegando -> –e–n–s–i–t–y–q–u–e–l–q–u–e–l–l–e–g–a–n–d–o–
+91 loed zast seven -> –l–o–e–d–z–a–s–t–s–e–v–e–n–
+92 iscono polys if -> –i–s–c–o–n–o–p–o–l–y–s–i–f–
+93 agger fich fur -> –a–g–g–e–r–f–i–c–h–f–u–r–
+94 value jede gis -> –v–a–l–u–e–j–e–d–e–g–i–s–
+95 nym rid nie -> –n–y–m–r–i–d–n–i–e–
+96 deal deserted sand -> –d–e–a–l–d–e–s–e–r–t–e–d–s–a–n–d–
+97 cidos gaan carnaval -> –c–i–d–o–s–g–a–a–n–c–a–r–n–a–v–a–l–
+98 ogne grown propr -> –o–g–n–e–g–r–o–w–n–p–r–o–p–r–
+99 agnol colt discuter -> –a–g–n–o–l–c–o–l–t–d–i–s–c–u–t–e–r–

@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 kot vitam revital
+01 undenen veterin provinc
+02 vp redd progr
+
+This is a sample output.
+00 kot vitam revital -> –k–o–t–v–i–t–a–m–r–e–v–i–t–a–l–
+01 undenen veterin provinc -> –u–n–d–e–n–e–n–v–e–t–e–r–i–n–p–r–o–v–i–n–c–
+02 vp redd progr -> –v–p–r–e–d–d–p–r–o–g–r–
+
+This is your input.
+00 upport guy disque
+01 goods huk insuf
+02 ollowing bayer oba
+03 metro aquella tourist
+04 nagy probabil peasant
+05 cation intitol gepl
+06 ifo retros bike
+07 aug mentres societ
+08 cret kurs nel
+09 aints inqu attorno
+10 oct keiser gets
+11 my campan shores
+12 pell convert tert
+13 zek atmosfer madness
+14 banako coll neb
+15 ulty drones kapal
+16 emt nelle nesta
+17 flug lev okoli
+18 etown faceva migli
+19 bran enjo aikana
+20 estens consist europ
+21 leis thirst gorgeous
+22 fect skulpt confocal
+23 dil rende months
+24 nab corde she
+25 tons metal eins
+26 animated ai domain
+27 oda yan harbor
+28 conomic alors keen
+29 ajax glisser khai
+30 elijk ville luc
+31 dda risque chasse
+32 ento gla juda
+33 ouvert tecl bent
+34 ighteous dunk apag
+35 iano vomiting overseas
+36 random palest tutti
+37 nya wake piercing
+38 igkeit extra listing
+39 lal reak trimmed
+40 vodu voller pesos
+41 piper wash network
+42 ckich volgens linh
+43 uuid pounding printer
+44 inch learning strok
+45 aju online platform
+46 plets tt game
+47 schiff abandon compost
+48 story tijdens bathroom
+49 ushed argile rocky
+50 online shortcut czerwca
+51 uzzle trace celebra
+52 ajn denk multe
+53 indow evoked navi
+54 pour fra randomly
+55 ickets jovens routed
+56 xelles estis comb
+57 gamma croy niemieck
+58 itter assault davvero
+59 arked compens lay
+60 uchs autre then
+61 tasks paar syringe
+62 och peered fluorine
+63 already deflect thesis
+64 noj adaptor evit
+65 iggers diferen poj
+66 essa upgrad desejo
+67 zung junge produt
+68 oking navios clarify
+69 elenov pokud descrito
+70 scheid fixed camps
+71 comun battle verified
+72 enticate rights diverses
+73 leten airplane eruption
+74 issi debajo tak
+75 assini nit presupp
+76 colon gardens dep
+77 conti sok raid
+78 estand attach schaffen
+79 ppure broadly epile
+80 giving bateaux peuvent
+81 eso dauer vog
+82 ystem loin entfernt
+83 odb diede tarp
+84 zny meter consci
+85 addr genom cosine
+86 vos movement falou
+87 stances pioneer bio
+88 ffi exponent asunto
+89 stava produc salida
+90 fung broke cultivo
+91 missions branded entails
+92 ucha aspect jet
+93 iances trent ap
+94 de divides plunger
+95 plit trash periode
+96 royable simpl registro
+97 chnology ellen vette
+98 mk cuest nurse
+99 ogenetic fee joue
+[completion]
+00 upport guy disque -> –u–p–p–o–r–t–g–u–y–d–i–s–q–u–e–
+01 goods huk insuf -> –g–o–o–d–s–h–u–k–i–n–s–u–f–
+02 ollowing bayer oba -> –o–l–l–o–w–i–n–g–b–a–y–e–r–o–b–a–
+03 metro aquella tourist -> –m–e–t–r–o–a–q–u–e–l–l–a–t–o–u–r–i–s–t–
+04 nagy probabil peasant -> –n–a–g–y–p–r–o–b–a–b–i–l–p–e–a–s–a–n–t–
+05 cation intitol gepl -> –c–a–t–i–o–n–i–n–t–i–t–o–l–g–e–p–l–
+06 ifo retros bike -> –i–f–o–r–e–t–r–o–s–b–i–k–e–
+07 aug mentres societ -> –a–u–g–m–e–n–t–r–e–s–s–o–c–i–e–t–
+08 cret kurs nel -> –c–r–e–t–k–u–r–s–n–e–l–
+09 aints inqu attorno -> –a–i–n–t–s–i–n–q–u–a–t–t–o–r–n–o–
+10 oct keiser gets -> –o–c–t–k–e–i–s–e–r–g–e–t–s–
+11 my campan shores -> –m–y–c–a–m–p–a–n–s–h–o–r–e–s–
+12 pell convert tert -> –p–e–l–l–c–o–n–v–e–r–t–t–e–r–t–
+13 zek atmosfer madness -> –z–e–k–a–t–m–o–s–f–e–r–m–a–d–n–e–s–s–
+14 banako coll neb -> –b–a–n–a–k–o–c–o–l–l–n–e–b–
+15 ulty drones kapal -> –u–l–t–y–d–r–o–n–e–s–k–a–p–a–l–
+16 emt nelle nesta -> –e–m–t–n–e–l–l–e–n–e–s–t–a–
+17 flug lev okoli -> –f–l–u–g–l–e–v–o–k–o–l–i–
+18 etown faceva migli -> –e–t–o–w–n–f–a–c–e–v–a–m–i–g–l–i–
+19 bran enjo aikana -> –b–r–a–n–e–n–j–o–a–i–k–a–n–a–
+20 estens consist europ -> –e–s–t–e–n–s–c–o–n–s–i–s–t–e–u–r–o–p–
+21 leis thirst gorgeous -> –l–e–i–s–t–h–i–r–s–t–g–o–r–g–e–o–u–s–
+22 fect skulpt confocal -> –f–e–c–t–s–k–u–l–p–t–c–o–n–f–o–c–a–l–
+23 dil rende months -> –d–i–l–r–e–n–d–e–m–o–n–t–h–s–
+24 nab corde she -> –n–a–b–c–o–r–d–e–s–h–e–
+25 tons metal eins -> –t–o–n–s–m–e–t–a–l–e–i–n–s–
+26 animated ai domain -> –a–n–i–m–a–t–e–d–a–i–d–o–m–a–i–n–
+27 oda yan harbor -> –o–d–a–y–a–n–h–a–r–b–o–r–
+28 conomic alors keen -> –c–o–n–o–m–i–c–a–l–o–r–s–k–e–e–n–
+29 ajax glisser khai -> –a–j–a–x–g–l–i–s–s–e–r–k–h–a–i–
+30 elijk ville luc -> –e–l–i–j–k–v–i–l–l–e–l–u–c–
+31 dda risque chasse -> –d–d–a–r–i–s–q–u–e–c–h–a–s–s–e–
+32 ento gla juda -> –e–n–t–o–g–l–a–j–u–d–a–
+33 ouvert tecl bent -> –o–u–v–e–r–t–t–e–c–l–b–e–n–t–
+34 ighteous dunk apag -> –i–g–h–t–e–o–u–s–d–u–n–k–a–p–a–g–
+35 iano vomiting overseas -> –i–a–n–o–v–o–m–i–t–i–n–g–o–v–e–r–s–e–a–s–
+36 random palest tutti -> –r–a–n–d–o–m–p–a–l–e–s–t–t–u–t–t–i–
+37 nya wake piercing -> –n–y–a–w–a–k–e–p–i–e–r–c–i–n–g–
+38 igkeit extra listing -> –i–g–k–e–i–t–e–x–t–r–a–l–i–s–t–i–n–g–
+39 lal reak trimmed -> –l–a–l–r–e–a–k–t–r–i–m–m–e–d–
+40 vodu voller pesos -> –v–o–d–u–v–o–l–l–e–r–p–e–s–o–s–
+41 piper wash network -> –p–i–p–e–r–w–a–s–h–n–e–t–w–o–r–k–
+42 ckich volgens linh -> –c–k–i–c–h–v–o–l–g–e–n–s–l–i–n–h–
+43 uuid pounding printer -> –u–u–i–d–p–o–u–n–d–i–n–g–p–r–i–n–t–e–r–
+44 inch learning strok -> –i–n–c–h–l–e–a–r–n–i–n–g–s–t–r–o–k–
+45 aju online platform -> –a–j–u–o–n–l–i–n–e–p–l–a–t–f–o–r–m–
+46 plets tt game -> –p–l–e–t–s–t–t–g–a–m–e–
+47 schiff abandon compost -> –s–c–h–i–f–f–a–b–a–n–d–o–n–c–o–m–p–o–s–t–
+48 story tijdens bathroom -> –s–t–o–r–y–t–i–j–d–e–n–s–b–a–t–h–r–o–o–m–
+49 ushed argile rocky -> –u–s–h–e–d–a–r–g–i–l–e–r–o–c–k–y–
+50 online shortcut czerwca -> –o–n–l–i–n–e–s–h–o–r–t–c–u–t–c–z–e–r–w–c–a–
+51 uzzle trace celebra -> –u–z–z–l–e–t–r–a–c–e–c–e–l–e–b–r–a–
+52 ajn denk multe -> –a–j–n–d–e–n–k–m–u–l–t–e–
+53 indow evoked navi -> –i–n–d–o–w–e–v–o–k–e–d–n–a–v–i–
+54 pour fra randomly -> –p–o–u–r–f–r–a–r–a–n–d–o–m–l–y–
+55 ickets jovens routed -> –i–c–k–e–t–s–j–o–v–e–n–s–r–o–u–t–e–d–
+56 xelles estis comb -> –x–e–l–l–e–s–e–s–t–i–s–c–o–m–b–
+57 gamma croy niemieck -> –g–a–m–m–a–c–r–o–y–n–i–e–m–i–e–c–k–
+58 itter assault davvero -> –i–t–t–e–r–a–s–s–a–u–l–t–d–a–v–v–e–r–o–
+59 arked compens lay -> –a–r–k–e–d–c–o–m–p–e–n–s–l–a–y–
+60 uchs autre then -> –u–c–h–s–a–u–t–r–e–t–h–e–n–
+61 tasks paar syringe -> –t–a–s–k–s–p–a–a–r–s–y–r–i–n–g–e–
+62 och peered fluorine -> –o–c–h–p–e–e–r–e–d–f–l–u–o–r–i–n–e–
+63 already deflect thesis -> –a–l–r–e–a–d–y–d–e–f–l–e–c–t–t–h–e–s–i–s–
+64 noj adaptor evit -> –n–o–j–a–d–a–p–t–o–r–e–v–i–t–
+65 iggers diferen poj -> –i–g–g–e–r–s–d–i–f–e–r–e–n–p–o–j–
+66 essa upgrad desejo -> –e–s–s–a–u–p–g–r–a–d–d–e–s–e–j–o–
+67 zung junge produt -> –z–u–n–g–j–u–n–g–e–p–r–o–d–u–t–
+68 oking navios clarify -> –o–k–i–n–g–n–a–v–i–o–s–c–l–a–r–i–f–y–
+69 elenov pokud descrito -> –e–l–e–n–o–v–p–o–k–u–d–d–e–s–c–r–i–t–o–
+70 scheid fixed camps -> –s–c–h–e–i–d–f–i–x–e–d–c–a–m–p–s–
+71 comun battle verified -> –c–o–m–u–n–b–a–t–t–l–e–v–e–r–i–f–i–e–d–
+72 enticate rights diverses -> –e–n–t–i–c–a–t–e–r–i–g–h–t–s–d–i–v–e–r–s–e–s–
+73 leten airplane eruption -> –l–e–t–e–n–a–i–r–p–l–a–n–e–e–r–u–p–t–i–o–n–
+74 issi debajo tak -> –i–s–s–i–d–e–b–a–j–o–t–a–k–
+75 assini nit presupp -> –a–s–s–i–n–i–n–i–t–p–r–e–s–u–p–p–
+76 colon gardens dep -> –c–o–l–o–n–g–a–r–d–e–n–s–d–e–p–
+77 conti sok raid -> –c–o–n–t–i–s–o–k–r–a–i–d–
+78 estand attach schaffen -> –e–s–t–a–n–d–a–t–t–a–c–h–s–c–h–a–f–f–e–n–
+79 ppure broadly epile -> –p–p–u–r–e–b–r–o–a–d–l–y–e–p–i–l–e–
+80 giving bateaux peuvent -> –g–i–v–i–n–g–b–a–t–e–a–u–x–p–e–u–v–e–n–t–
+81 eso dauer vog -> –e–s–o–d–a–u–e–r–v–o–g–
+82 ystem loin entfernt -> –y–s–t–e–m–l–o–i–n–e–n–t–f–e–r–n–t–
+83 odb diede tarp -> –o–d–b–d–i–e–d–e–t–a–r–p–
+84 zny meter consci -> –z–n–y–m–e–t–e–r–c–o–n–s–c–i–
+85 addr genom cosine -> –a–d–d–r–g–e–n–o–m–c–o–s–i–n–e–
+86 vos movement falou -> –v–o–s–m–o–v–e–m–e–n–t–f–a–l–o–u–
+87 stances pioneer bio -> –s–t–a–n–c–e–s–p–i–o–n–e–e–r–b–i–o–
+88 ffi exponent asunto -> –f–f–i–e–x–p–o–n–e–n–t–a–s–u–n–t–o–
+89 stava produc salida -> –s–t–a–v–a–p–r–o–d–u–c–s–a–l–i–d–a–
+90 fung broke cultivo -> –f–u–n–g–b–r–o–k–e–c–u–l–t–i–v–o–
+91 missions branded entails -> –m–i–s–s–i–o–n–s–b–r–a–n–d–e–d–e–n–t–a–i–l–s–
+92 ucha aspect jet -> –u–c–h–a–a–s–p–e–c–t–j–e–t–
+93 iances trent ap -> –i–a–n–c–e–s–t–r–e–n–t–a–p–
+94 de divides plunger -> –d–e–d–i–v–i–d–e–s–p–l–u–n–g–e–r–
+95 plit trash periode -> –p–l–i–t–t–r–a–s–h–p–e–r–i–o–d–e–
+96 royable simpl registro -> –r–o–y–a–b–l–e–s–i–m–p–l–r–e–g–i–s–t–r–o–
+97 chnology ellen vette -> –c–h–n–o–l–o–g–y–e–l–l–e–n–v–e–t–t–e–
+98 mk cuest nurse -> –m–k–c–u–e–s–t–n–u–r–s–e–
+99 ogenetic fee joue -> –o–g–e–n–e–t–i–c–f–e–e–j–o–u–e–

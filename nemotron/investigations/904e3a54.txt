@@ -1,0 +1,28 @@
+Problem ID: 904e3a54
+Category: equation_numeric_deduce
+
+Examples:
+- 83(50 = 134
+- 27:29 = :2
+- 49:99 = :50
+- 84/71 = 5963
+- Query: 76:10
+
+Inferred rule:
+- The `:` operator is ordinary subtraction.
+- When the subtraction result is negative, the puzzle writes `:` in place of the minus sign.
+- Evidence:
+  - `27:29 = :2` matches `27 - 29 = -2`.
+  - `49:99 = :50` matches `49 - 99 = -50`.
+- The `(` and `/` examples use different operators, so they are not needed for the query.
+
+Step-by-step application to the query:
+1. Read the query as `76 : 10`.
+2. Apply the inferred `:` rule as subtraction: `76 - 10 = 66`.
+3. The result is positive, so there is no special negative marker to apply.
+
+Predicted answer:
+- 66
+
+Confidence:
+- High. The two `:` examples point to the same rule directly, and the query uses that same operator.

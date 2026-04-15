@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 ennium stage alien
+01 iftet interdis extrap
+02 jade pochod hilt
+
+This is a sample output.
+00 ennium stage alien -> –e–n–n–i–u–m–s–t–a–g–e–a–l–i–e–n–
+01 iftet interdis extrap -> –i–f–t–e–t–i–n–t–e–r–d–i–s–e–x–t–r–a–p–
+02 jade pochod hilt -> –j–a–d–e–p–o–c–h–o–d–h–i–l–t–
+
+This is your input.
+00 dat cater river
+01 mapper dades massima
+02 hood entdeckt baixo
+03 forest gero tinh
+04 rypt cuarenta medical
+05 igr twor obten
+06 mul llengua spaces
+07 wasser espos contend
+08 orpor dw undo
+09 overlay bewusst ketika
+10 vc desn sucess
+11 assador lluvia zeb
+12 aturday austr grateful
+13 iquid islands leden
+14 ebb utterly depth
+15 acie minhas duke
+16 tables constitu humans
+17 ivanja blat library
+18 usal slate kanon
+19 hether judicial vlast
+20 odel ninth artisan
+21 apo enfin facilit
+22 ardless amin lume
+23 utar veget aperture
+24 acious ungef desde
+25 zial flared voork
+26 nh projeto vaqt
+27 uble demonst kor
+28 iquement wirklich veld
+29 blue ezek larval
+30 irection ouvrit poskyt
+31 ickou peat mutual
+32 enty estuv enfor
+33 fo payments campes
+34 ierre shotgun dump
+35 atum anima think
+36 gehenden sorte persegu
+37 ojn cidades viser
+38 zig havde szerepl
+39 switch huom abs
+40 asuk bel dressed
+41 inaren mulher actor
+42 artement questo cardinal
+43 ndon convenc terminou
+44 iten benefits saw
+45 iked raket gare
+46 arus devia systemic
+47 aced examines piac
+48 ual miesz nb
+49 angement apprent vitt
+50 iril cohort obed
+51 bog biais pandemia
+52 subtitle manner dock
+53 yer chois fraction
+54 such migrate dramatic
+55 grep paying clamp
+56 omation kemudian chats
+57 managed laug velvet
+58 siehe ok intercal
+59 fin gu indul
+60 retti spl sede
+61 elsch deklar pone
+62 numeric causar injured
+63 zego inverno these
+64 icht fructose pernah
+65 ilters hain pojawi
+66 ctrl hyd ingl
+67 head erased konci
+68 edio counter switches
+69 kreuz annat meest
+70 rolled industri mudah
+71 isl venta kroz
+72 ports lone fleur
+73 mares besar artific
+74 could welcome monarchy
+75 itation doubt charcoal
+76 oneg explique reflet
+77 skich expon happen
+78 ilerin flags rocking
+79 amma zuletzt inhab
+80 gren courir ukrain
+81 avno ras health
+82 family diputado ofrec
+83 icides world edu
+84 alar dirig elektro
+85 ungkin scramb logical
+86 vad nale pellets
+87 arska cooler journal
+88 izza assort guarded
+89 umption teoria abdomen
+90 quir laten servant
+91 eben pilots unst
+92 lava nooit morgen
+93 rator sans kerk
+94 jada laik conjug
+95 uenta fixing whip
+96 refer reunited rozd
+97 ikipedia letoun jotka
+98 xico anionic criar
+99 renal act precip
+[completion]
+00 dat cater river -> –d–a–t–c–a–t–e–r–r–i–v–e–r–
+01 mapper dades massima -> –m–a–p–p–e–r–d–a–d–e–s–m–a–s–s–i–m–a–
+02 hood entdeckt baixo -> –h–o–o–d–e–n–t–d–e–c–k–t–b–a–i–x–o–
+03 forest gero tinh -> –f–o–r–e–s–t–g–e–r–o–t–i–n–h–
+04 rypt cuarenta medical -> –r–y–p–t–c–u–a–r–e–n–t–a–m–e–d–i–c–a–l–
+05 igr twor obten -> –i–g–r–t–w–o–r–o–b–t–e–n–
+06 mul llengua spaces -> –m–u–l–l–l–e–n–g–u–a–s–p–a–c–e–s–
+07 wasser espos contend -> –w–a–s–s–e–r–e–s–p–o–s–c–o–n–t–e–n–d–
+08 orpor dw undo -> –o–r–p–o–r–d–w–u–n–d–o–
+09 overlay bewusst ketika -> –o–v–e–r–l–a–y–b–e–w–u–s–s–t–k–e–t–i–k–a–
+10 vc desn sucess -> –v–c–d–e–s–n–s–u–c–e–s–s–
+11 assador lluvia zeb -> –a–s–s–a–d–o–r–l–l–u–v–i–a–z–e–b–
+12 aturday austr grateful -> –a–t–u–r–d–a–y–a–u–s–t–r–g–r–a–t–e–f–u–l–
+13 iquid islands leden -> –i–q–u–i–d–i–s–l–a–n–d–s–l–e–d–e–n–
+14 ebb utterly depth -> –e–b–b–u–t–t–e–r–l–y–d–e–p–t–h–
+15 acie minhas duke -> –a–c–i–e–m–i–n–h–a–s–d–u–k–e–
+16 tables constitu humans -> –t–a–b–l–e–s–c–o–n–s–t–i–t–u–h–u–m–a–n–s–
+17 ivanja blat library -> –i–v–a–n–j–a–b–l–a–t–l–i–b–r–a–r–y–
+18 usal slate kanon -> –u–s–a–l–s–l–a–t–e–k–a–n–o–n–
+19 hether judicial vlast -> –h–e–t–h–e–r–j–u–d–i–c–i–a–l–v–l–a–s–t–
+20 odel ninth artisan -> –o–d–e–l–n–i–n–t–h–a–r–t–i–s–a–n–
+21 apo enfin facilit -> –a–p–o–e–n–f–i–n–f–a–c–i–l–i–t–
+22 ardless amin lume -> –a–r–d–l–e–s–s–a–m–i–n–l–u–m–e–
+23 utar veget aperture -> –u–t–a–r–v–e–g–e–t–a–p–e–r–t–u–r–e–
+24 acious ungef desde -> –a–c–i–o–u–s–u–n–g–e–f–d–e–s–d–e–
+25 zial flared voork -> –z–i–a–l–f–l–a–r–e–d–v–o–o–r–k–
+26 nh projeto vaqt -> –n–h–p–r–o–j–e–t–o–v–a–q–t–
+27 uble demonst kor -> –u–b–l–e–d–e–m–o–n–s–t–k–o–r–
+28 iquement wirklich veld -> –i–q–u–e–m–e–n–t–w–i–r–k–l–i–c–h–v–e–l–d–
+29 blue ezek larval -> –b–l–u–e–e–z–e–k–l–a–r–v–a–l–
+30 irection ouvrit poskyt -> –i–r–e–c–t–i–o–n–o–u–v–r–i–t–p–o–s–k–y–t–
+31 ickou peat mutual -> –i–c–k–o–u–p–e–a–t–m–u–t–u–a–l–
+32 enty estuv enfor -> –e–n–t–y–e–s–t–u–v–e–n–f–o–r–
+33 fo payments campes -> –f–o–p–a–y–m–e–n–t–s–c–a–m–p–e–s–
+34 ierre shotgun dump -> –i–e–r–r–e–s–h–o–t–g–u–n–d–u–m–p–
+35 atum anima think -> –a–t–u–m–a–n–i–m–a–t–h–i–n–k–
+36 gehenden sorte persegu -> –g–e–h–e–n–d–e–n–s–o–r–t–e–p–e–r–s–e–g–u–
+37 ojn cidades viser -> –o–j–n–c–i–d–a–d–e–s–v–i–s–e–r–
+38 zig havde szerepl -> –z–i–g–h–a–v–d–e–s–z–e–r–e–p–l–
+39 switch huom abs -> –s–w–i–t–c–h–h–u–o–m–a–b–s–
+40 asuk bel dressed -> –a–s–u–k–b–e–l–d–r–e–s–s–e–d–
+41 inaren mulher actor -> –i–n–a–r–e–n–m–u–l–h–e–r–a–c–t–o–r–
+42 artement questo cardinal -> –a–r–t–e–m–e–n–t–q–u–e–s–t–o–c–a–r–d–i–n–a–l–
+43 ndon convenc terminou -> –n–d–o–n–c–o–n–v–e–n–c–t–e–r–m–i–n–o–u–
+44 iten benefits saw -> –i–t–e–n–b–e–n–e–f–i–t–s–s–a–w–
+45 iked raket gare -> –i–k–e–d–r–a–k–e–t–g–a–r–e–
+46 arus devia systemic -> –a–r–u–s–d–e–v–i–a–s–y–s–t–e–m–i–c–
+47 aced examines piac -> –a–c–e–d–e–x–a–m–i–n–e–s–p–i–a–c–
+48 ual miesz nb -> –u–a–l–m–i–e–s–z–n–b–
+49 angement apprent vitt -> –a–n–g–e–m–e–n–t–a–p–p–r–e–n–t–v–i–t–t–
+50 iril cohort obed -> –i–r–i–l–c–o–h–o–r–t–o–b–e–d–
+51 bog biais pandemia -> –b–o–g–b–i–a–i–s–p–a–n–d–e–m–i–a–
+52 subtitle manner dock -> –s–u–b–t–i–t–l–e–m–a–n–n–e–r–d–o–c–k–
+53 yer chois fraction -> –y–e–r–c–h–o–i–s–f–r–a–c–t–i–o–n–
+54 such migrate dramatic -> –s–u–c–h–m–i–g–r–a–t–e–d–r–a–m–a–t–i–c–
+55 grep paying clamp -> –g–r–e–p–p–a–y–i–n–g–c–l–a–m–p–
+56 omation kemudian chats -> –o–m–a–t–i–o–n–k–e–m–u–d–i–a–n–c–h–a–t–s–
+57 managed laug velvet -> –m–a–n–a–g–e–d–l–a–u–g–v–e–l–v–e–t–
+58 siehe ok intercal -> –s–i–e–h–e–o–k–i–n–t–e–r–c–a–l–
+59 fin gu indul -> –f–i–n–g–u–i–n–d–u–l–
+60 retti spl sede -> –r–e–t–t–i–s–p–l–s–e–d–e–
+61 elsch deklar pone -> –e–l–s–c–h–d–e–k–l–a–r–p–o–n–e–
+62 numeric causar injured -> –n–u–m–e–r–i–c–c–a–u–s–a–r–i–n–j–u–r–e–d–
+63 zego inverno these -> –z–e–g–o–i–n–v–e–r–n–o–t–h–e–s–e–
+64 icht fructose pernah -> –i–c–h–t–f–r–u–c–t–o–s–e–p–e–r–n–a–h–
+65 ilters hain pojawi -> –i–l–t–e–r–s–h–a–i–n–p–o–j–a–w–i–
+66 ctrl hyd ingl -> –c–t–r–l–h–y–d–i–n–g–l–
+67 head erased konci -> –h–e–a–d–e–r–a–s–e–d–k–o–n–c–i–
+68 edio counter switches -> –e–d–i–o–c–o–u–n–t–e–r–s–w–i–t–c–h–e–s–
+69 kreuz annat meest -> –k–r–e–u–z–a–n–n–a–t–m–e–e–s–t–
+70 rolled industri mudah -> –r–o–l–l–e–d–i–n–d–u–s–t–r–i–m–u–d–a–h–
+71 isl venta kroz -> –i–s–l–v–e–n–t–a–k–r–o–z–
+72 ports lone fleur -> –p–o–r–t–s–l–o–n–e–f–l–e–u–r–
+73 mares besar artific -> –m–a–r–e–s–b–e–s–a–r–a–r–t–i–f–i–c–
+74 could welcome monarchy -> –c–o–u–l–d–w–e–l–c–o–m–e–m–o–n–a–r–c–h–y–
+75 itation doubt charcoal -> –i–t–a–t–i–o–n–d–o–u–b–t–c–h–a–r–c–o–a–l–
+76 oneg explique reflet -> –o–n–e–g–e–x–p–l–i–q–u–e–r–e–f–l–e–t–
+77 skich expon happen -> –s–k–i–c–h–e–x–p–o–n–h–a–p–p–e–n–
+78 ilerin flags rocking -> –i–l–e–r–i–n–f–l–a–g–s–r–o–c–k–i–n–g–
+79 amma zuletzt inhab -> –a–m–m–a–z–u–l–e–t–z–t–i–n–h–a–b–
+80 gren courir ukrain -> –g–r–e–n–c–o–u–r–i–r–u–k–r–a–i–n–
+81 avno ras health -> –a–v–n–o–r–a–s–h–e–a–l–t–h–
+82 family diputado ofrec -> –f–a–m–i–l–y–d–i–p–u–t–a–d–o–o–f–r–e–c–
+83 icides world edu -> –i–c–i–d–e–s–w–o–r–l–d–e–d–u–
+84 alar dirig elektro -> –a–l–a–r–d–i–r–i–g–e–l–e–k–t–r–o–
+85 ungkin scramb logical -> –u–n–g–k–i–n–s–c–r–a–m–b–l–o–g–i–c–a–l–
+86 vad nale pellets -> –v–a–d–n–a–l–e–p–e–l–l–e–t–s–
+87 arska cooler journal -> –a–r–s–k–a–c–o–o–l–e–r–j–o–u–r–n–a–l–
+88 izza assort guarded -> –i–z–z–a–a–s–s–o–r–t–g–u–a–r–d–e–d–
+89 umption teoria abdomen -> –u–m–p–t–i–o–n–t–e–o–r–i–a–a–b–d–o–m–e–n–
+90 quir laten servant -> –q–u–i–r–l–a–t–e–n–s–e–r–v–a–n–t–
+91 eben pilots unst -> –e–b–e–n–p–i–l–o–t–s–u–n–s–t–
+92 lava nooit morgen -> –l–a–v–a–n–o–o–i–t–m–o–r–g–e–n–
+93 rator sans kerk -> –r–a–t–o–r–s–a–n–s–k–e–r–k–
+94 jada laik conjug -> –j–a–d–a–l–a–i–k–c–o–n–j–u–g–
+95 uenta fixing whip -> –u–e–n–t–a–f–i–x–i–n–g–w–h–i–p–
+96 refer reunited rozd -> –r–e–f–e–r–r–e–u–n–i–t–e–d–r–o–z–d–
+97 ikipedia letoun jotka -> –i–k–i–p–e–d–i–a–l–e–t–o–u–n–j–o–t–k–a–
+98 xico anionic criar -> –x–i–c–o–a–n–i–o–n–i–c–c–r–i–a–r–
+99 renal act precip -> –r–e–n–a–l–a–c–t–p–r–e–c–i–p–

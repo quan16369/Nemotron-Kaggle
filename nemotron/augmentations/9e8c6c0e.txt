@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 see keratin firstly
+01 requency remer lady
+02 ienst mala srp
+
+This is a sample output.
+00 see keratin firstly -> –s–e–e–k–e–r–a–t–i–n–f–i–r–s–t–l–y–
+01 requency remer lady -> –r–e–q–u–e–n–c–y–r–e–m–e–r–l–a–d–y–
+02 ienst mala srp -> –i–e–n–s–t–m–a–l–a–s–r–p–
+
+This is your input.
+00 anaf here tuber
+01 ino tinggal procent
+02 umor restrict sortant
+03 arket zvl emphasis
+04 andbox immature numele
+05 cza jogos caratter
+06 odet shq lalu
+07 hek energ atomic
+08 ylate kota senators
+09 hao konsek suff
+10 ory pouv casa
+11 anim wies funks
+12 charge kol cent
+13 werp cmd plut
+14 steller quy punti
+15 major ot ritu
+16 opolitan sportif ans
+17 iseks ft cath
+18 cz bov csap
+19 ftar stron rhet
+20 features sine feuilles
+21 bilt yaz mah
+22 pora degli erity
+23 ustomed inscri slammed
+24 lices clo tapo
+25 ials vowels sieb
+26 ollary cult alguien
+27 orth bapt achieved
+28 enco contrat femur
+29 athol groom bolesti
+30 ikte covalent slog
+31 adi pouss lado
+32 callback stellten obow
+33 pectrum urgency sinal
+34 odzi poter punish
+35 unehmen pronon aby
+36 ldrich kari permiss
+37 aya doesn armi
+38 ocation vyb progn
+39 imai stato adorn
+40 ynn bulk minutes
+41 ratch stedet nahr
+42 trade monitors wrapper
+43 antin entr outdoors
+44 argument nei tabel
+45 observ dos wars
+46 izi decision lex
+47 ron templom manger
+48 icode deserve spa
+49 iaque blok pov
+50 ved epistem bosque
+51 ouin pratic headache
+52 oarece matar chauff
+53 keeping provides esque
+54 radi doubles bancos
+55 beck faill sirv
+56 ex trang infar
+57 atges helik selector
+58 aj idi profund
+59 hibition daraus fon
+60 ropic etched solenoid
+61 ls mis approx
+62 waukee selts zahr
+63 similar wuchs iler
+64 ilder csoport oval
+65 arni worries yes
+66 orry fontos osteo
+67 opold boucl escuchar
+68 uc furrow cul
+69 avl dzies wert
+70 adt antigo stam
+71 adir mantuvo pintor
+72 etch latach personn
+73 iegen dieses peas
+74 adik tuf lately
+75 anca niece regul
+76 ened giud facile
+77 ents oldu lens
+78 anic satire apare
+79 rijke bun dite
+80 tra piem komb
+81 uman dziew rad
+82 ins prawa pall
+83 rolet neoplas cambiado
+84 aties mutagen quarter
+85 yki paradig sej
+86 ail white seni
+87 elio wrapping nanom
+88 gericht socio climatic
+89 ifornia duca vois
+90 idy ganado intimid
+91 anmoins viola pon
+92 cona logger myths
+93 meida managers registre
+94 ipeline database apropi
+95 ollern peintre cumple
+96 acteur colores fasting
+97 baren firms without
+98 iena praying fent
+99 huis hel sombr
+[completion]
+00 anaf here tuber -> –a–n–a–f–h–e–r–e–t–u–b–e–r–
+01 ino tinggal procent -> –i–n–o–t–i–n–g–g–a–l–p–r–o–c–e–n–t–
+02 umor restrict sortant -> –u–m–o–r–r–e–s–t–r–i–c–t–s–o–r–t–a–n–t–
+03 arket zvl emphasis -> –a–r–k–e–t–z–v–l–e–m–p–h–a–s–i–s–
+04 andbox immature numele -> –a–n–d–b–o–x–i–m–m–a–t–u–r–e–n–u–m–e–l–e–
+05 cza jogos caratter -> –c–z–a–j–o–g–o–s–c–a–r–a–t–t–e–r–
+06 odet shq lalu -> –o–d–e–t–s–h–q–l–a–l–u–
+07 hek energ atomic -> –h–e–k–e–n–e–r–g–a–t–o–m–i–c–
+08 ylate kota senators -> –y–l–a–t–e–k–o–t–a–s–e–n–a–t–o–r–s–
+09 hao konsek suff -> –h–a–o–k–o–n–s–e–k–s–u–f–f–
+10 ory pouv casa -> –o–r–y–p–o–u–v–c–a–s–a–
+11 anim wies funks -> –a–n–i–m–w–i–e–s–f–u–n–k–s–
+12 charge kol cent -> –c–h–a–r–g–e–k–o–l–c–e–n–t–
+13 werp cmd plut -> –w–e–r–p–c–m–d–p–l–u–t–
+14 steller quy punti -> –s–t–e–l–l–e–r–q–u–y–p–u–n–t–i–
+15 major ot ritu -> –m–a–j–o–r–o–t–r–i–t–u–
+16 opolitan sportif ans -> –o–p–o–l–i–t–a–n–s–p–o–r–t–i–f–a–n–s–
+17 iseks ft cath -> –i–s–e–k–s–f–t–c–a–t–h–
+18 cz bov csap -> –c–z–b–o–v–c–s–a–p–
+19 ftar stron rhet -> –f–t–a–r–s–t–r–o–n–r–h–e–t–
+20 features sine feuilles -> –f–e–a–t–u–r–e–s–s–i–n–e–f–e–u–i–l–l–e–s–
+21 bilt yaz mah -> –b–i–l–t–y–a–z–m–a–h–
+22 pora degli erity -> –p–o–r–a–d–e–g–l–i–e–r–i–t–y–
+23 ustomed inscri slammed -> –u–s–t–o–m–e–d–i–n–s–c–r–i–s–l–a–m–m–e–d–
+24 lices clo tapo -> –l–i–c–e–s–c–l–o–t–a–p–o–
+25 ials vowels sieb -> –i–a–l–s–v–o–w–e–l–s–s–i–e–b–
+26 ollary cult alguien -> –o–l–l–a–r–y–c–u–l–t–a–l–g–u–i–e–n–
+27 orth bapt achieved -> –o–r–t–h–b–a–p–t–a–c–h–i–e–v–e–d–
+28 enco contrat femur -> –e–n–c–o–c–o–n–t–r–a–t–f–e–m–u–r–
+29 athol groom bolesti -> –a–t–h–o–l–g–r–o–o–m–b–o–l–e–s–t–i–
+30 ikte covalent slog -> –i–k–t–e–c–o–v–a–l–e–n–t–s–l–o–g–
+31 adi pouss lado -> –a–d–i–p–o–u–s–s–l–a–d–o–
+32 callback stellten obow -> –c–a–l–l–b–a–c–k–s–t–e–l–l–t–e–n–o–b–o–w–
+33 pectrum urgency sinal -> –p–e–c–t–r–u–m–u–r–g–e–n–c–y–s–i–n–a–l–
+34 odzi poter punish -> –o–d–z–i–p–o–t–e–r–p–u–n–i–s–h–
+35 unehmen pronon aby -> –u–n–e–h–m–e–n–p–r–o–n–o–n–a–b–y–
+36 ldrich kari permiss -> –l–d–r–i–c–h–k–a–r–i–p–e–r–m–i–s–s–
+37 aya doesn armi -> –a–y–a–d–o–e–s–n–a–r–m–i–
+38 ocation vyb progn -> –o–c–a–t–i–o–n–v–y–b–p–r–o–g–n–
+39 imai stato adorn -> –i–m–a–i–s–t–a–t–o–a–d–o–r–n–
+40 ynn bulk minutes -> –y–n–n–b–u–l–k–m–i–n–u–t–e–s–
+41 ratch stedet nahr -> –r–a–t–c–h–s–t–e–d–e–t–n–a–h–r–
+42 trade monitors wrapper -> –t–r–a–d–e–m–o–n–i–t–o–r–s–w–r–a–p–p–e–r–
+43 antin entr outdoors -> –a–n–t–i–n–e–n–t–r–o–u–t–d–o–o–r–s–
+44 argument nei tabel -> –a–r–g–u–m–e–n–t–n–e–i–t–a–b–e–l–
+45 observ dos wars -> –o–b–s–e–r–v–d–o–s–w–a–r–s–
+46 izi decision lex -> –i–z–i–d–e–c–i–s–i–o–n–l–e–x–
+47 ron templom manger -> –r–o–n–t–e–m–p–l–o–m–m–a–n–g–e–r–
+48 icode deserve spa -> –i–c–o–d–e–d–e–s–e–r–v–e–s–p–a–
+49 iaque blok pov -> –i–a–q–u–e–b–l–o–k–p–o–v–
+50 ved epistem bosque -> –v–e–d–e–p–i–s–t–e–m–b–o–s–q–u–e–
+51 ouin pratic headache -> –o–u–i–n–p–r–a–t–i–c–h–e–a–d–a–c–h–e–
+52 oarece matar chauff -> –o–a–r–e–c–e–m–a–t–a–r–c–h–a–u–f–f–
+53 keeping provides esque -> –k–e–e–p–i–n–g–p–r–o–v–i–d–e–s–e–s–q–u–e–
+54 radi doubles bancos -> –r–a–d–i–d–o–u–b–l–e–s–b–a–n–c–o–s–
+55 beck faill sirv -> –b–e–c–k–f–a–i–l–l–s–i–r–v–
+56 ex trang infar -> –e–x–t–r–a–n–g–i–n–f–a–r–
+57 atges helik selector -> –a–t–g–e–s–h–e–l–i–k–s–e–l–e–c–t–o–r–
+58 aj idi profund -> –a–j–i–d–i–p–r–o–f–u–n–d–
+59 hibition daraus fon -> –h–i–b–i–t–i–o–n–d–a–r–a–u–s–f–o–n–
+60 ropic etched solenoid -> –r–o–p–i–c–e–t–c–h–e–d–s–o–l–e–n–o–i–d–
+61 ls mis approx -> –l–s–m–i–s–a–p–p–r–o–x–
+62 waukee selts zahr -> –w–a–u–k–e–e–s–e–l–t–s–z–a–h–r–
+63 similar wuchs iler -> –s–i–m–i–l–a–r–w–u–c–h–s–i–l–e–r–
+64 ilder csoport oval -> –i–l–d–e–r–c–s–o–p–o–r–t–o–v–a–l–
+65 arni worries yes -> –a–r–n–i–w–o–r–r–i–e–s–y–e–s–
+66 orry fontos osteo -> –o–r–r–y–f–o–n–t–o–s–o–s–t–e–o–
+67 opold boucl escuchar -> –o–p–o–l–d–b–o–u–c–l–e–s–c–u–c–h–a–r–
+68 uc furrow cul -> –u–c–f–u–r–r–o–w–c–u–l–
+69 avl dzies wert -> –a–v–l–d–z–i–e–s–w–e–r–t–
+70 adt antigo stam -> –a–d–t–a–n–t–i–g–o–s–t–a–m–
+71 adir mantuvo pintor -> –a–d–i–r–m–a–n–t–u–v–o–p–i–n–t–o–r–
+72 etch latach personn -> –e–t–c–h–l–a–t–a–c–h–p–e–r–s–o–n–n–
+73 iegen dieses peas -> –i–e–g–e–n–d–i–e–s–e–s–p–e–a–s–
+74 adik tuf lately -> –a–d–i–k–t–u–f–l–a–t–e–l–y–
+75 anca niece regul -> –a–n–c–a–n–i–e–c–e–r–e–g–u–l–
+76 ened giud facile -> –e–n–e–d–g–i–u–d–f–a–c–i–l–e–
+77 ents oldu lens -> –e–n–t–s–o–l–d–u–l–e–n–s–
+78 anic satire apare -> –a–n–i–c–s–a–t–i–r–e–a–p–a–r–e–
+79 rijke bun dite -> –r–i–j–k–e–b–u–n–d–i–t–e–
+80 tra piem komb -> –t–r–a–p–i–e–m–k–o–m–b–
+81 uman dziew rad -> –u–m–a–n–d–z–i–e–w–r–a–d–
+82 ins prawa pall -> –i–n–s–p–r–a–w–a–p–a–l–l–
+83 rolet neoplas cambiado -> –r–o–l–e–t–n–e–o–p–l–a–s–c–a–m–b–i–a–d–o–
+84 aties mutagen quarter -> –a–t–i–e–s–m–u–t–a–g–e–n–q–u–a–r–t–e–r–
+85 yki paradig sej -> –y–k–i–p–a–r–a–d–i–g–s–e–j–
+86 ail white seni -> –a–i–l–w–h–i–t–e–s–e–n–i–
+87 elio wrapping nanom -> –e–l–i–o–w–r–a–p–p–i–n–g–n–a–n–o–m–
+88 gericht socio climatic -> –g–e–r–i–c–h–t–s–o–c–i–o–c–l–i–m–a–t–i–c–
+89 ifornia duca vois -> –i–f–o–r–n–i–a–d–u–c–a–v–o–i–s–
+90 idy ganado intimid -> –i–d–y–g–a–n–a–d–o–i–n–t–i–m–i–d–
+91 anmoins viola pon -> –a–n–m–o–i–n–s–v–i–o–l–a–p–o–n–
+92 cona logger myths -> –c–o–n–a–l–o–g–g–e–r–m–y–t–h–s–
+93 meida managers registre -> –m–e–i–d–a–m–a–n–a–g–e–r–s–r–e–g–i–s–t–r–e–
+94 ipeline database apropi -> –i–p–e–l–i–n–e–d–a–t–a–b–a–s–e–a–p–r–o–p–i–
+95 ollern peintre cumple -> –o–l–l–e–r–n–p–e–i–n–t–r–e–c–u–m–p–l–e–
+96 acteur colores fasting -> –a–c–t–e–u–r–c–o–l–o–r–e–s–f–a–s–t–i–n–g–
+97 baren firms without -> –b–a–r–e–n–f–i–r–m–s–w–i–t–h–o–u–t–
+98 iena praying fent -> –i–e–n–a–p–r–a–y–i–n–g–f–e–n–t–
+99 huis hel sombr -> –h–u–i–s–h–e–l–s–o–m–b–r–

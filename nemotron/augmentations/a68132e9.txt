@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 iji ucciso dos
+01 glut cierta nenhum
+02 fluss ortaya drink
+
+This is a sample output.
+00 iji ucciso dos -> –i–j–i–u–c–c–i–s–o–d–o–s–
+01 glut cierta nenhum -> –g–l–u–t–c–i–e–r–t–a–n–e–n–h–u–m–
+02 fluss ortaya drink -> –f–l–u–s–s–o–r–t–a–y–a–d–r–i–n–k–
+
+This is your input.
+00 quipe stool chius
+01 against hab posing
+02 ativos friend lifted
+03 piration lab hommage
+04 allist handles europea
+05 fabrik trifft minus
+06 anners outlined pairs
+07 ften dermed rede
+08 ipada argued abduct
+09 pan comma reass
+10 poss straf lam
+11 wares volledig potente
+12 ashion hom cel
+13 istico captures ad
+14 heiten giur wett
+15 shared prevail maintien
+16 raq metade credible
+17 dagi kata cesse
+18 unktion rodz gezien
+19 hang substitu tenait
+20 flow recuerdo buff
+21 heits viven depths
+22 bef reserves banyak
+23 prot cu encycl
+24 atonin flying armoured
+25 arging romantic serve
+26 udan cassette dropdown
+27 etur district buz
+28 astype immortal rigid
+29 itesse pencha feathers
+30 aggreg ida betre
+31 hav prove taxonomy
+32 bn arh rises
+33 uro gick umet
+34 ovou locom powered
+35 nar neatly eukary
+36 weiler relatif equally
+37 riage unge hasta
+38 ientos hearing couvrant
+39 icillin stew varie
+40 insky looping hidup
+41 roviral tham chess
+42 urile fy coups
+43 voeg sho sqrt
+44 modify amounted commens
+45 lope sedang blonde
+46 kinci searched levantar
+47 jt bisog malade
+48 taining aiz crede
+49 ener isn curs
+50 reshold deed hein
+51 acion realms outra
+52 ataire soient diante
+53 imps firing pomen
+54 github lux vib
+55 vog currents earn
+56 onna tad lemma
+57 otre rumah fat
+58 onges otto monar
+59 maid dir handed
+60 alles beim inj
+61 ocrates parsing kinderen
+62 onner kelas admi
+63 unately datatype algorith
+64 hnt negro flies
+65 oro advers hran
+66 oras parto overcome
+67 shake po paint
+68 aterally zen aktiv
+69 argar syndicat tin
+70 omere servants gear
+71 usalem dr divert
+72 lectual abitanti diversa
+73 pecially diskut kong
+74 yes felhaszn reads
+75 ako kik depends
+76 lete keys chacune
+77 ilian waking rispose
+78 owanym gates vikt
+79 jeta ular dale
+80 lb ruhig muff
+81 ubah embarked vst
+82 most faits labeled
+83 itando toner conserva
+84 rict denotes dejando
+85 iolet candidat organise
+86 anzas want preds
+87 icorn descans intr
+88 yss extreme srp
+89 plicit insuff tremend
+90 bouw vul anyway
+91 ordam gek offenbar
+92 ence assume weder
+93 ellos unlaw refused
+94 signal maf infe
+95 ologies errors tissues
+96 basic tasted scon
+97 reo choisit starter
+98 osten bond boc
+99 ihan seks puisque
+[completion]
+00 quipe stool chius -> –q–u–i–p–e–s–t–o–o–l–c–h–i–u–s–
+01 against hab posing -> –a–g–a–i–n–s–t–h–a–b–p–o–s–i–n–g–
+02 ativos friend lifted -> –a–t–i–v–o–s–f–r–i–e–n–d–l–i–f–t–e–d–
+03 piration lab hommage -> –p–i–r–a–t–i–o–n–l–a–b–h–o–m–m–a–g–e–
+04 allist handles europea -> –a–l–l–i–s–t–h–a–n–d–l–e–s–e–u–r–o–p–e–a–
+05 fabrik trifft minus -> –f–a–b–r–i–k–t–r–i–f–f–t–m–i–n–u–s–
+06 anners outlined pairs -> –a–n–n–e–r–s–o–u–t–l–i–n–e–d–p–a–i–r–s–
+07 ften dermed rede -> –f–t–e–n–d–e–r–m–e–d–r–e–d–e–
+08 ipada argued abduct -> –i–p–a–d–a–a–r–g–u–e–d–a–b–d–u–c–t–
+09 pan comma reass -> –p–a–n–c–o–m–m–a–r–e–a–s–s–
+10 poss straf lam -> –p–o–s–s–s–t–r–a–f–l–a–m–
+11 wares volledig potente -> –w–a–r–e–s–v–o–l–l–e–d–i–g–p–o–t–e–n–t–e–
+12 ashion hom cel -> –a–s–h–i–o–n–h–o–m–c–e–l–
+13 istico captures ad -> –i–s–t–i–c–o–c–a–p–t–u–r–e–s–a–d–
+14 heiten giur wett -> –h–e–i–t–e–n–g–i–u–r–w–e–t–t–
+15 shared prevail maintien -> –s–h–a–r–e–d–p–r–e–v–a–i–l–m–a–i–n–t–i–e–n–
+16 raq metade credible -> –r–a–q–m–e–t–a–d–e–c–r–e–d–i–b–l–e–
+17 dagi kata cesse -> –d–a–g–i–k–a–t–a–c–e–s–s–e–
+18 unktion rodz gezien -> –u–n–k–t–i–o–n–r–o–d–z–g–e–z–i–e–n–
+19 hang substitu tenait -> –h–a–n–g–s–u–b–s–t–i–t–u–t–e–n–a–i–t–
+20 flow recuerdo buff -> –f–l–o–w–r–e–c–u–e–r–d–o–b–u–f–f–
+21 heits viven depths -> –h–e–i–t–s–v–i–v–e–n–d–e–p–t–h–s–
+22 bef reserves banyak -> –b–e–f–r–e–s–e–r–v–e–s–b–a–n–y–a–k–
+23 prot cu encycl -> –p–r–o–t–c–u–e–n–c–y–c–l–
+24 atonin flying armoured -> –a–t–o–n–i–n–f–l–y–i–n–g–a–r–m–o–u–r–e–d–
+25 arging romantic serve -> –a–r–g–i–n–g–r–o–m–a–n–t–i–c–s–e–r–v–e–
+26 udan cassette dropdown -> –u–d–a–n–c–a–s–s–e–t–t–e–d–r–o–p–d–o–w–n–
+27 etur district buz -> –e–t–u–r–d–i–s–t–r–i–c–t–b–u–z–
+28 astype immortal rigid -> –a–s–t–y–p–e–i–m–m–o–r–t–a–l–r–i–g–i–d–
+29 itesse pencha feathers -> –i–t–e–s–s–e–p–e–n–c–h–a–f–e–a–t–h–e–r–s–
+30 aggreg ida betre -> –a–g–g–r–e–g–i–d–a–b–e–t–r–e–
+31 hav prove taxonomy -> –h–a–v–p–r–o–v–e–t–a–x–o–n–o–m–y–
+32 bn arh rises -> –b–n–a–r–h–r–i–s–e–s–
+33 uro gick umet -> –u–r–o–g–i–c–k–u–m–e–t–
+34 ovou locom powered -> –o–v–o–u–l–o–c–o–m–p–o–w–e–r–e–d–
+35 nar neatly eukary -> –n–a–r–n–e–a–t–l–y–e–u–k–a–r–y–
+36 weiler relatif equally -> –w–e–i–l–e–r–r–e–l–a–t–i–f–e–q–u–a–l–l–y–
+37 riage unge hasta -> –r–i–a–g–e–u–n–g–e–h–a–s–t–a–
+38 ientos hearing couvrant -> –i–e–n–t–o–s–h–e–a–r–i–n–g–c–o–u–v–r–a–n–t–
+39 icillin stew varie -> –i–c–i–l–l–i–n–s–t–e–w–v–a–r–i–e–
+40 insky looping hidup -> –i–n–s–k–y–l–o–o–p–i–n–g–h–i–d–u–p–
+41 roviral tham chess -> –r–o–v–i–r–a–l–t–h–a–m–c–h–e–s–s–
+42 urile fy coups -> –u–r–i–l–e–f–y–c–o–u–p–s–
+43 voeg sho sqrt -> –v–o–e–g–s–h–o–s–q–r–t–
+44 modify amounted commens -> –m–o–d–i–f–y–a–m–o–u–n–t–e–d–c–o–m–m–e–n–s–
+45 lope sedang blonde -> –l–o–p–e–s–e–d–a–n–g–b–l–o–n–d–e–
+46 kinci searched levantar -> –k–i–n–c–i–s–e–a–r–c–h–e–d–l–e–v–a–n–t–a–r–
+47 jt bisog malade -> –j–t–b–i–s–o–g–m–a–l–a–d–e–
+48 taining aiz crede -> –t–a–i–n–i–n–g–a–i–z–c–r–e–d–e–
+49 ener isn curs -> –e–n–e–r–i–s–n–c–u–r–s–
+50 reshold deed hein -> –r–e–s–h–o–l–d–d–e–e–d–h–e–i–n–
+51 acion realms outra -> –a–c–i–o–n–r–e–a–l–m–s–o–u–t–r–a–
+52 ataire soient diante -> –a–t–a–i–r–e–s–o–i–e–n–t–d–i–a–n–t–e–
+53 imps firing pomen -> –i–m–p–s–f–i–r–i–n–g–p–o–m–e–n–
+54 github lux vib -> –g–i–t–h–u–b–l–u–x–v–i–b–
+55 vog currents earn -> –v–o–g–c–u–r–r–e–n–t–s–e–a–r–n–
+56 onna tad lemma -> –o–n–n–a–t–a–d–l–e–m–m–a–
+57 otre rumah fat -> –o–t–r–e–r–u–m–a–h–f–a–t–
+58 onges otto monar -> –o–n–g–e–s–o–t–t–o–m–o–n–a–r–
+59 maid dir handed -> –m–a–i–d–d–i–r–h–a–n–d–e–d–
+60 alles beim inj -> –a–l–l–e–s–b–e–i–m–i–n–j–
+61 ocrates parsing kinderen -> –o–c–r–a–t–e–s–p–a–r–s–i–n–g–k–i–n–d–e–r–e–n–
+62 onner kelas admi -> –o–n–n–e–r–k–e–l–a–s–a–d–m–i–
+63 unately datatype algorith -> –u–n–a–t–e–l–y–d–a–t–a–t–y–p–e–a–l–g–o–r–i–t–h–
+64 hnt negro flies -> –h–n–t–n–e–g–r–o–f–l–i–e–s–
+65 oro advers hran -> –o–r–o–a–d–v–e–r–s–h–r–a–n–
+66 oras parto overcome -> –o–r–a–s–p–a–r–t–o–o–v–e–r–c–o–m–e–
+67 shake po paint -> –s–h–a–k–e–p–o–p–a–i–n–t–
+68 aterally zen aktiv -> –a–t–e–r–a–l–l–y–z–e–n–a–k–t–i–v–
+69 argar syndicat tin -> –a–r–g–a–r–s–y–n–d–i–c–a–t–t–i–n–
+70 omere servants gear -> –o–m–e–r–e–s–e–r–v–a–n–t–s–g–e–a–r–
+71 usalem dr divert -> –u–s–a–l–e–m–d–r–d–i–v–e–r–t–
+72 lectual abitanti diversa -> –l–e–c–t–u–a–l–a–b–i–t–a–n–t–i–d–i–v–e–r–s–a–
+73 pecially diskut kong -> –p–e–c–i–a–l–l–y–d–i–s–k–u–t–k–o–n–g–
+74 yes felhaszn reads -> –y–e–s–f–e–l–h–a–s–z–n–r–e–a–d–s–
+75 ako kik depends -> –a–k–o–k–i–k–d–e–p–e–n–d–s–
+76 lete keys chacune -> –l–e–t–e–k–e–y–s–c–h–a–c–u–n–e–
+77 ilian waking rispose -> –i–l–i–a–n–w–a–k–i–n–g–r–i–s–p–o–s–e–
+78 owanym gates vikt -> –o–w–a–n–y–m–g–a–t–e–s–v–i–k–t–
+79 jeta ular dale -> –j–e–t–a–u–l–a–r–d–a–l–e–
+80 lb ruhig muff -> –l–b–r–u–h–i–g–m–u–f–f–
+81 ubah embarked vst -> –u–b–a–h–e–m–b–a–r–k–e–d–v–s–t–
+82 most faits labeled -> –m–o–s–t–f–a–i–t–s–l–a–b–e–l–e–d–
+83 itando toner conserva -> –i–t–a–n–d–o–t–o–n–e–r–c–o–n–s–e–r–v–a–
+84 rict denotes dejando -> –r–i–c–t–d–e–n–o–t–e–s–d–e–j–a–n–d–o–
+85 iolet candidat organise -> –i–o–l–e–t–c–a–n–d–i–d–a–t–o–r–g–a–n–i–s–e–
+86 anzas want preds -> –a–n–z–a–s–w–a–n–t–p–r–e–d–s–
+87 icorn descans intr -> –i–c–o–r–n–d–e–s–c–a–n–s–i–n–t–r–
+88 yss extreme srp -> –y–s–s–e–x–t–r–e–m–e–s–r–p–
+89 plicit insuff tremend -> –p–l–i–c–i–t–i–n–s–u–f–f–t–r–e–m–e–n–d–
+90 bouw vul anyway -> –b–o–u–w–v–u–l–a–n–y–w–a–y–
+91 ordam gek offenbar -> –o–r–d–a–m–g–e–k–o–f–f–e–n–b–a–r–
+92 ence assume weder -> –e–n–c–e–a–s–s–u–m–e–w–e–d–e–r–
+93 ellos unlaw refused -> –e–l–l–o–s–u–n–l–a–w–r–e–f–u–s–e–d–
+94 signal maf infe -> –s–i–g–n–a–l–m–a–f–i–n–f–e–
+95 ologies errors tissues -> –o–l–o–g–i–e–s–e–r–r–o–r–s–t–i–s–s–u–e–s–
+96 basic tasted scon -> –b–a–s–i–c–t–a–s–t–e–d–s–c–o–n–
+97 reo choisit starter -> –r–e–o–c–h–o–i–s–i–t–s–t–a–r–t–e–r–
+98 osten bond boc -> –o–s–t–e–n–b–o–n–d–b–o–c–
+99 ihan seks puisque -> –i–h–a–n–s–e–k–s–p–u–i–s–q–u–e–

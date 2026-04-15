@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 otox laut coag
+01 insic desac paese
+02 immt imm carbonyl
+
+This is a sample output.
+00 otox laut coag -> –o–t–o–x–l–a–u–t–c–o–a–g–
+01 insic desac paese -> –i–n–s–i–c–d–e–s–a–c–p–a–e–s–e–
+02 immt imm carbonyl -> –i–m–m–t–i–m–m–c–a–r–b–o–n–y–l–
+
+This is your input.
+00 uerst melted darab
+01 rikan fifteen bath
+02 oty agglomer moderno
+03 rej chancel quay
+04 orf soix gastr
+05 ajah steh people
+06 istered edge devenit
+07 plicant mev hib
+08 anski turne eran
+09 snapshot exhibits filtr
+10 ods rounds obiekt
+11 quiet offering assimil
+12 istik gala offer
+13 ffent ek corrug
+14 mongoose calcular komun
+15 sumer lorsque candle
+16 edd generar prophecy
+17 encent kond lysates
+18 aronder vorn mighty
+19 avni tw neat
+20 nung dom barracks
+21 voerd ence trump
+22 ectors played tarde
+23 atan otvor girls
+24 im remont app
+25 gerichts page famiglie
+26 rischen surge sn
+27 eda hav baseline
+28 znacz expelled harmadik
+29 intre abuse ranked
+30 pixel flame puestos
+31 itys tomorrow problems
+32 symbol prata sebagian
+33 lodash regj fever
+34 hora alcan aplica
+35 zin ezer clases
+36 agina neutroph oficer
+37 eshire reload moh
+38 avin atau routine
+39 bat baza altura
+40 ixos tur how
+41 atenin gyer calme
+42 dom material maailman
+43 skuere limit trai
+44 endie avea wid
+45 skins alarm noticing
+46 owej streets essi
+47 zyli pilota banned
+48 bred regina stadig
+49 typeof bin cosa
+50 odon meurt twitch
+51 ellan miatt fairly
+52 lic milag crystal
+53 getto lik doprav
+54 athy domest vicino
+55 chin acestea vad
+56 oyle ciasc droit
+57 ivos anch osv
+58 deep fahren restless
+59 uningdek starb visited
+60 ience routers weighing
+61 abolism planta poch
+62 rophot iniciar detect
+63 inska tread pus
+64 ynie table altre
+65 fficacy dl channels
+66 icul deng lice
+67 askell trying worrying
+68 ichtet wichtige foreach
+69 tn plugins valeur
+70 ier gangs videos
+71 usive biopsy humili
+72 bericht enthusi silk
+73 cisme audio examples
+74 kring seien mouv
+75 stars loco skewed
+76 emetery uts diversos
+77 ihung boards nec
+78 isma bachelor umbil
+79 indi catt andre
+80 uctu repre corrente
+81 mt catalog molte
+82 lariga jord byli
+83 meaning perhaps affinity
+84 slash vone argues
+85 tto perdere marta
+86 oque voulez oms
+87 ibl sweat forged
+88 ledad letras monopoly
+89 owanie cama entrant
+90 sleep profite lucht
+91 hto amerikan dur
+92 ouge apples cita
+93 isol pemerint chips
+94 leter aware projet
+95 algam tied cend
+96 sidebar stepping merged
+97 tyj natura exterior
+98 imab saltze ther
+99 erer obdob externas
+[completion]
+00 uerst melted darab -> –u–e–r–s–t–m–e–l–t–e–d–d–a–r–a–b–
+01 rikan fifteen bath -> –r–i–k–a–n–f–i–f–t–e–e–n–b–a–t–h–
+02 oty agglomer moderno -> –o–t–y–a–g–g–l–o–m–e–r–m–o–d–e–r–n–o–
+03 rej chancel quay -> –r–e–j–c–h–a–n–c–e–l–q–u–a–y–
+04 orf soix gastr -> –o–r–f–s–o–i–x–g–a–s–t–r–
+05 ajah steh people -> –a–j–a–h–s–t–e–h–p–e–o–p–l–e–
+06 istered edge devenit -> –i–s–t–e–r–e–d–e–d–g–e–d–e–v–e–n–i–t–
+07 plicant mev hib -> –p–l–i–c–a–n–t–m–e–v–h–i–b–
+08 anski turne eran -> –a–n–s–k–i–t–u–r–n–e–e–r–a–n–
+09 snapshot exhibits filtr -> –s–n–a–p–s–h–o–t–e–x–h–i–b–i–t–s–f–i–l–t–r–
+10 ods rounds obiekt -> –o–d–s–r–o–u–n–d–s–o–b–i–e–k–t–
+11 quiet offering assimil -> –q–u–i–e–t–o–f–f–e–r–i–n–g–a–s–s–i–m–i–l–
+12 istik gala offer -> –i–s–t–i–k–g–a–l–a–o–f–f–e–r–
+13 ffent ek corrug -> –f–f–e–n–t–e–k–c–o–r–r–u–g–
+14 mongoose calcular komun -> –m–o–n–g–o–o–s–e–c–a–l–c–u–l–a–r–k–o–m–u–n–
+15 sumer lorsque candle -> –s–u–m–e–r–l–o–r–s–q–u–e–c–a–n–d–l–e–
+16 edd generar prophecy -> –e–d–d–g–e–n–e–r–a–r–p–r–o–p–h–e–c–y–
+17 encent kond lysates -> –e–n–c–e–n–t–k–o–n–d–l–y–s–a–t–e–s–
+18 aronder vorn mighty -> –a–r–o–n–d–e–r–v–o–r–n–m–i–g–h–t–y–
+19 avni tw neat -> –a–v–n–i–t–w–n–e–a–t–
+20 nung dom barracks -> –n–u–n–g–d–o–m–b–a–r–r–a–c–k–s–
+21 voerd ence trump -> –v–o–e–r–d–e–n–c–e–t–r–u–m–p–
+22 ectors played tarde -> –e–c–t–o–r–s–p–l–a–y–e–d–t–a–r–d–e–
+23 atan otvor girls -> –a–t–a–n–o–t–v–o–r–g–i–r–l–s–
+24 im remont app -> –i–m–r–e–m–o–n–t–a–p–p–
+25 gerichts page famiglie -> –g–e–r–i–c–h–t–s–p–a–g–e–f–a–m–i–g–l–i–e–
+26 rischen surge sn -> –r–i–s–c–h–e–n–s–u–r–g–e–s–n–
+27 eda hav baseline -> –e–d–a–h–a–v–b–a–s–e–l–i–n–e–
+28 znacz expelled harmadik -> –z–n–a–c–z–e–x–p–e–l–l–e–d–h–a–r–m–a–d–i–k–
+29 intre abuse ranked -> –i–n–t–r–e–a–b–u–s–e–r–a–n–k–e–d–
+30 pixel flame puestos -> –p–i–x–e–l–f–l–a–m–e–p–u–e–s–t–o–s–
+31 itys tomorrow problems -> –i–t–y–s–t–o–m–o–r–r–o–w–p–r–o–b–l–e–m–s–
+32 symbol prata sebagian -> –s–y–m–b–o–l–p–r–a–t–a–s–e–b–a–g–i–a–n–
+33 lodash regj fever -> –l–o–d–a–s–h–r–e–g–j–f–e–v–e–r–
+34 hora alcan aplica -> –h–o–r–a–a–l–c–a–n–a–p–l–i–c–a–
+35 zin ezer clases -> –z–i–n–e–z–e–r–c–l–a–s–e–s–
+36 agina neutroph oficer -> –a–g–i–n–a–n–e–u–t–r–o–p–h–o–f–i–c–e–r–
+37 eshire reload moh -> –e–s–h–i–r–e–r–e–l–o–a–d–m–o–h–
+38 avin atau routine -> –a–v–i–n–a–t–a–u–r–o–u–t–i–n–e–
+39 bat baza altura -> –b–a–t–b–a–z–a–a–l–t–u–r–a–
+40 ixos tur how -> –i–x–o–s–t–u–r–h–o–w–
+41 atenin gyer calme -> –a–t–e–n–i–n–g–y–e–r–c–a–l–m–e–
+42 dom material maailman -> –d–o–m–m–a–t–e–r–i–a–l–m–a–a–i–l–m–a–n–
+43 skuere limit trai -> –s–k–u–e–r–e–l–i–m–i–t–t–r–a–i–
+44 endie avea wid -> –e–n–d–i–e–a–v–e–a–w–i–d–
+45 skins alarm noticing -> –s–k–i–n–s–a–l–a–r–m–n–o–t–i–c–i–n–g–
+46 owej streets essi -> –o–w–e–j–s–t–r–e–e–t–s–e–s–s–i–
+47 zyli pilota banned -> –z–y–l–i–p–i–l–o–t–a–b–a–n–n–e–d–
+48 bred regina stadig -> –b–r–e–d–r–e–g–i–n–a–s–t–a–d–i–g–
+49 typeof bin cosa -> –t–y–p–e–o–f–b–i–n–c–o–s–a–
+50 odon meurt twitch -> –o–d–o–n–m–e–u–r–t–t–w–i–t–c–h–
+51 ellan miatt fairly -> –e–l–l–a–n–m–i–a–t–t–f–a–i–r–l–y–
+52 lic milag crystal -> –l–i–c–m–i–l–a–g–c–r–y–s–t–a–l–
+53 getto lik doprav -> –g–e–t–t–o–l–i–k–d–o–p–r–a–v–
+54 athy domest vicino -> –a–t–h–y–d–o–m–e–s–t–v–i–c–i–n–o–
+55 chin acestea vad -> –c–h–i–n–a–c–e–s–t–e–a–v–a–d–
+56 oyle ciasc droit -> –o–y–l–e–c–i–a–s–c–d–r–o–i–t–
+57 ivos anch osv -> –i–v–o–s–a–n–c–h–o–s–v–
+58 deep fahren restless -> –d–e–e–p–f–a–h–r–e–n–r–e–s–t–l–e–s–s–
+59 uningdek starb visited -> –u–n–i–n–g–d–e–k–s–t–a–r–b–v–i–s–i–t–e–d–
+60 ience routers weighing -> –i–e–n–c–e–r–o–u–t–e–r–s–w–e–i–g–h–i–n–g–
+61 abolism planta poch -> –a–b–o–l–i–s–m–p–l–a–n–t–a–p–o–c–h–
+62 rophot iniciar detect -> –r–o–p–h–o–t–i–n–i–c–i–a–r–d–e–t–e–c–t–
+63 inska tread pus -> –i–n–s–k–a–t–r–e–a–d–p–u–s–
+64 ynie table altre -> –y–n–i–e–t–a–b–l–e–a–l–t–r–e–
+65 fficacy dl channels -> –f–f–i–c–a–c–y–d–l–c–h–a–n–n–e–l–s–
+66 icul deng lice -> –i–c–u–l–d–e–n–g–l–i–c–e–
+67 askell trying worrying -> –a–s–k–e–l–l–t–r–y–i–n–g–w–o–r–r–y–i–n–g–
+68 ichtet wichtige foreach -> –i–c–h–t–e–t–w–i–c–h–t–i–g–e–f–o–r–e–a–c–h–
+69 tn plugins valeur -> –t–n–p–l–u–g–i–n–s–v–a–l–e–u–r–
+70 ier gangs videos -> –i–e–r–g–a–n–g–s–v–i–d–e–o–s–
+71 usive biopsy humili -> –u–s–i–v–e–b–i–o–p–s–y–h–u–m–i–l–i–
+72 bericht enthusi silk -> –b–e–r–i–c–h–t–e–n–t–h–u–s–i–s–i–l–k–
+73 cisme audio examples -> –c–i–s–m–e–a–u–d–i–o–e–x–a–m–p–l–e–s–
+74 kring seien mouv -> –k–r–i–n–g–s–e–i–e–n–m–o–u–v–
+75 stars loco skewed -> –s–t–a–r–s–l–o–c–o–s–k–e–w–e–d–
+76 emetery uts diversos -> –e–m–e–t–e–r–y–u–t–s–d–i–v–e–r–s–o–s–
+77 ihung boards nec -> –i–h–u–n–g–b–o–a–r–d–s–n–e–c–
+78 isma bachelor umbil -> –i–s–m–a–b–a–c–h–e–l–o–r–u–m–b–i–l–
+79 indi catt andre -> –i–n–d–i–c–a–t–t–a–n–d–r–e–
+80 uctu repre corrente -> –u–c–t–u–r–e–p–r–e–c–o–r–r–e–n–t–e–
+81 mt catalog molte -> –m–t–c–a–t–a–l–o–g–m–o–l–t–e–
+82 lariga jord byli -> –l–a–r–i–g–a–j–o–r–d–b–y–l–i–
+83 meaning perhaps affinity -> –m–e–a–n–i–n–g–p–e–r–h–a–p–s–a–f–f–i–n–i–t–y–
+84 slash vone argues -> –s–l–a–s–h–v–o–n–e–a–r–g–u–e–s–
+85 tto perdere marta -> –t–t–o–p–e–r–d–e–r–e–m–a–r–t–a–
+86 oque voulez oms -> –o–q–u–e–v–o–u–l–e–z–o–m–s–
+87 ibl sweat forged -> –i–b–l–s–w–e–a–t–f–o–r–g–e–d–
+88 ledad letras monopoly -> –l–e–d–a–d–l–e–t–r–a–s–m–o–n–o–p–o–l–y–
+89 owanie cama entrant -> –o–w–a–n–i–e–c–a–m–a–e–n–t–r–a–n–t–
+90 sleep profite lucht -> –s–l–e–e–p–p–r–o–f–i–t–e–l–u–c–h–t–
+91 hto amerikan dur -> –h–t–o–a–m–e–r–i–k–a–n–d–u–r–
+92 ouge apples cita -> –o–u–g–e–a–p–p–l–e–s–c–i–t–a–
+93 isol pemerint chips -> –i–s–o–l–p–e–m–e–r–i–n–t–c–h–i–p–s–
+94 leter aware projet -> –l–e–t–e–r–a–w–a–r–e–p–r–o–j–e–t–
+95 algam tied cend -> –a–l–g–a–m–t–i–e–d–c–e–n–d–
+96 sidebar stepping merged -> –s–i–d–e–b–a–r–s–t–e–p–p–i–n–g–m–e–r–g–e–d–
+97 tyj natura exterior -> –t–y–j–n–a–t–u–r–a–e–x–t–e–r–i–o–r–
+98 imab saltze ther -> –i–m–a–b–s–a–l–t–z–e–t–h–e–r–
+99 erer obdob externas -> –e–r–e–r–o–b–d–o–b–e–x–t–e–r–n–a–s–

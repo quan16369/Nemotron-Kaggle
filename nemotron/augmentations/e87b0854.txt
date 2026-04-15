@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 ving popolare fumble
+01 balance memoir pione
+02 uas janvier cherche
+
+This is a sample output.
+00 ving popolare fumble -> –v–i–n–g–p–o–p–o–l–a–r–e–f–u–m–b–l–e–
+01 balance memoir pione -> –b–a–l–a–n–c–e–m–e–m–o–i–r–p–i–o–n–e–
+02 uas janvier cherche -> –u–a–s–j–a–n–v–i–e–r–c–h–e–r–c–h–e–
+
+This is your input.
+00 bons sibling prosent
+01 hnlich apology erreicht
+02 lab bast revival
+03 cfg sauf chlor
+04 idente configur google
+05 iye chefs living
+06 spy choices vess
+07 mos yng planting
+08 dro iconic electors
+09 usb zwe quedaba
+10 ansko rin do
+11 cii olive dign
+12 umerable llevaba asist
+13 brechen eerste orth
+14 wyd primes internes
+15 elis yks pelig
+16 aching intact wifi
+17 stal vort axioms
+18 ihe utter bekl
+19 ancio joined remet
+20 ala vac refine
+21 edit func seminar
+22 dawn limb kommt
+23 anc trio latex
+24 igail dream wants
+25 icules visszat tunes
+26 nai conden enemies
+27 urity creature clums
+28 hom postal demande
+29 ental bild compact
+30 punkt varias washed
+31 neath misunder sosp
+32 ilage antara suele
+33 stri capita mehrfach
+34 ffff rah ordinary
+35 ersk emmen tribal
+36 ifferent scho shrink
+37 arter sane podpis
+38 vetica hinder cercana
+39 atge rostro angel
+40 rania utara auraient
+41 appen junt parano
+42 prits advised pierwsz
+43 amentos scanning wanita
+44 tfrac desconoc wieder
+45 ouri allaient fluctu
+46 iyasi uns stuck
+47 rotic bronze hardcore
+48 ienda assigns letter
+49 clicked plat aka
+50 bd ox twin
+51 enerbah sale tender
+52 omme designs sympt
+53 account myster pes
+54 anto repeats zus
+55 urdu flew camer
+56 rophe sinon inquir
+57 eszcze puits attenu
+58 unsten kleinen glaube
+59 reshape pet join
+60 upa frat nig
+61 uites gobierno assembl
+62 hello affects aparent
+63 onymous fanns blank
+64 spacing meeting auff
+65 unite evenings przyn
+66 issy selected directo
+67 hana terse colon
+68 illie tempat charg
+69 oles ging kosm
+70 buf wenige genoemd
+71 trieve orb utg
+72 cal broad numeric
+73 vari matrice nickel
+74 platz essay segreg
+75 sch tornado fatti
+76 wx czo welt
+77 alten pilote urban
+78 sic paths repos
+79 ugl manej fred
+80 ipi zachod etxeak
+81 idikan antr disc
+82 ased tiek typ
+83 kat writing aceste
+84 alais minha ebbe
+85 ouz despe utak
+86 ensity facets bothered
+87 loed hopes healthy
+88 iscono ferment neve
+89 agger tento sports
+90 value ladite refug
+91 nym je layout
+92 deal dific maalisku
+93 cidos backward fan
+94 ogne belegt tzv
+95 agnol coffin baj
+96 tabl hung obsessed
+97 right gemeente cuar
+98 annt ajud vigorous
+99 heat zeigte besonder
+[completion]
+00 bons sibling prosent -> –b–o–n–s–s–i–b–l–i–n–g–p–r–o–s–e–n–t–
+01 hnlich apology erreicht -> –h–n–l–i–c–h–a–p–o–l–o–g–y–e–r–r–e–i–c–h–t–
+02 lab bast revival -> –l–a–b–b–a–s–t–r–e–v–i–v–a–l–
+03 cfg sauf chlor -> –c–f–g–s–a–u–f–c–h–l–o–r–
+04 idente configur google -> –i–d–e–n–t–e–c–o–n–f–i–g–u–r–g–o–o–g–l–e–
+05 iye chefs living -> –i–y–e–c–h–e–f–s–l–i–v–i–n–g–
+06 spy choices vess -> –s–p–y–c–h–o–i–c–e–s–v–e–s–s–
+07 mos yng planting -> –m–o–s–y–n–g–p–l–a–n–t–i–n–g–
+08 dro iconic electors -> –d–r–o–i–c–o–n–i–c–e–l–e–c–t–o–r–s–
+09 usb zwe quedaba -> –u–s–b–z–w–e–q–u–e–d–a–b–a–
+10 ansko rin do -> –a–n–s–k–o–r–i–n–d–o–
+11 cii olive dign -> –c–i–i–o–l–i–v–e–d–i–g–n–
+12 umerable llevaba asist -> –u–m–e–r–a–b–l–e–l–l–e–v–a–b–a–a–s–i–s–t–
+13 brechen eerste orth -> –b–r–e–c–h–e–n–e–e–r–s–t–e–o–r–t–h–
+14 wyd primes internes -> –w–y–d–p–r–i–m–e–s–i–n–t–e–r–n–e–s–
+15 elis yks pelig -> –e–l–i–s–y–k–s–p–e–l–i–g–
+16 aching intact wifi -> –a–c–h–i–n–g–i–n–t–a–c–t–w–i–f–i–
+17 stal vort axioms -> –s–t–a–l–v–o–r–t–a–x–i–o–m–s–
+18 ihe utter bekl -> –i–h–e–u–t–t–e–r–b–e–k–l–
+19 ancio joined remet -> –a–n–c–i–o–j–o–i–n–e–d–r–e–m–e–t–
+20 ala vac refine -> –a–l–a–v–a–c–r–e–f–i–n–e–
+21 edit func seminar -> –e–d–i–t–f–u–n–c–s–e–m–i–n–a–r–
+22 dawn limb kommt -> –d–a–w–n–l–i–m–b–k–o–m–m–t–
+23 anc trio latex -> –a–n–c–t–r–i–o–l–a–t–e–x–
+24 igail dream wants -> –i–g–a–i–l–d–r–e–a–m–w–a–n–t–s–
+25 icules visszat tunes -> –i–c–u–l–e–s–v–i–s–s–z–a–t–t–u–n–e–s–
+26 nai conden enemies -> –n–a–i–c–o–n–d–e–n–e–n–e–m–i–e–s–
+27 urity creature clums -> –u–r–i–t–y–c–r–e–a–t–u–r–e–c–l–u–m–s–
+28 hom postal demande -> –h–o–m–p–o–s–t–a–l–d–e–m–a–n–d–e–
+29 ental bild compact -> –e–n–t–a–l–b–i–l–d–c–o–m–p–a–c–t–
+30 punkt varias washed -> –p–u–n–k–t–v–a–r–i–a–s–w–a–s–h–e–d–
+31 neath misunder sosp -> –n–e–a–t–h–m–i–s–u–n–d–e–r–s–o–s–p–
+32 ilage antara suele -> –i–l–a–g–e–a–n–t–a–r–a–s–u–e–l–e–
+33 stri capita mehrfach -> –s–t–r–i–c–a–p–i–t–a–m–e–h–r–f–a–c–h–
+34 ffff rah ordinary -> –f–f–f–f–r–a–h–o–r–d–i–n–a–r–y–
+35 ersk emmen tribal -> –e–r–s–k–e–m–m–e–n–t–r–i–b–a–l–
+36 ifferent scho shrink -> –i–f–f–e–r–e–n–t–s–c–h–o–s–h–r–i–n–k–
+37 arter sane podpis -> –a–r–t–e–r–s–a–n–e–p–o–d–p–i–s–
+38 vetica hinder cercana -> –v–e–t–i–c–a–h–i–n–d–e–r–c–e–r–c–a–n–a–
+39 atge rostro angel -> –a–t–g–e–r–o–s–t–r–o–a–n–g–e–l–
+40 rania utara auraient -> –r–a–n–i–a–u–t–a–r–a–a–u–r–a–i–e–n–t–
+41 appen junt parano -> –a–p–p–e–n–j–u–n–t–p–a–r–a–n–o–
+42 prits advised pierwsz -> –p–r–i–t–s–a–d–v–i–s–e–d–p–i–e–r–w–s–z–
+43 amentos scanning wanita -> –a–m–e–n–t–o–s–s–c–a–n–n–i–n–g–w–a–n–i–t–a–
+44 tfrac desconoc wieder -> –t–f–r–a–c–d–e–s–c–o–n–o–c–w–i–e–d–e–r–
+45 ouri allaient fluctu -> –o–u–r–i–a–l–l–a–i–e–n–t–f–l–u–c–t–u–
+46 iyasi uns stuck -> –i–y–a–s–i–u–n–s–s–t–u–c–k–
+47 rotic bronze hardcore -> –r–o–t–i–c–b–r–o–n–z–e–h–a–r–d–c–o–r–e–
+48 ienda assigns letter -> –i–e–n–d–a–a–s–s–i–g–n–s–l–e–t–t–e–r–
+49 clicked plat aka -> –c–l–i–c–k–e–d–p–l–a–t–a–k–a–
+50 bd ox twin -> –b–d–o–x–t–w–i–n–
+51 enerbah sale tender -> –e–n–e–r–b–a–h–s–a–l–e–t–e–n–d–e–r–
+52 omme designs sympt -> –o–m–m–e–d–e–s–i–g–n–s–s–y–m–p–t–
+53 account myster pes -> –a–c–c–o–u–n–t–m–y–s–t–e–r–p–e–s–
+54 anto repeats zus -> –a–n–t–o–r–e–p–e–a–t–s–z–u–s–
+55 urdu flew camer -> –u–r–d–u–f–l–e–w–c–a–m–e–r–
+56 rophe sinon inquir -> –r–o–p–h–e–s–i–n–o–n–i–n–q–u–i–r–
+57 eszcze puits attenu -> –e–s–z–c–z–e–p–u–i–t–s–a–t–t–e–n–u–
+58 unsten kleinen glaube -> –u–n–s–t–e–n–k–l–e–i–n–e–n–g–l–a–u–b–e–
+59 reshape pet join -> –r–e–s–h–a–p–e–p–e–t–j–o–i–n–
+60 upa frat nig -> –u–p–a–f–r–a–t–n–i–g–
+61 uites gobierno assembl -> –u–i–t–e–s–g–o–b–i–e–r–n–o–a–s–s–e–m–b–l–
+62 hello affects aparent -> –h–e–l–l–o–a–f–f–e–c–t–s–a–p–a–r–e–n–t–
+63 onymous fanns blank -> –o–n–y–m–o–u–s–f–a–n–n–s–b–l–a–n–k–
+64 spacing meeting auff -> –s–p–a–c–i–n–g–m–e–e–t–i–n–g–a–u–f–f–
+65 unite evenings przyn -> –u–n–i–t–e–e–v–e–n–i–n–g–s–p–r–z–y–n–
+66 issy selected directo -> –i–s–s–y–s–e–l–e–c–t–e–d–d–i–r–e–c–t–o–
+67 hana terse colon -> –h–a–n–a–t–e–r–s–e–c–o–l–o–n–
+68 illie tempat charg -> –i–l–l–i–e–t–e–m–p–a–t–c–h–a–r–g–
+69 oles ging kosm -> –o–l–e–s–g–i–n–g–k–o–s–m–
+70 buf wenige genoemd -> –b–u–f–w–e–n–i–g–e–g–e–n–o–e–m–d–
+71 trieve orb utg -> –t–r–i–e–v–e–o–r–b–u–t–g–
+72 cal broad numeric -> –c–a–l–b–r–o–a–d–n–u–m–e–r–i–c–
+73 vari matrice nickel -> –v–a–r–i–m–a–t–r–i–c–e–n–i–c–k–e–l–
+74 platz essay segreg -> –p–l–a–t–z–e–s–s–a–y–s–e–g–r–e–g–
+75 sch tornado fatti -> –s–c–h–t–o–r–n–a–d–o–f–a–t–t–i–
+76 wx czo welt -> –w–x–c–z–o–w–e–l–t–
+77 alten pilote urban -> –a–l–t–e–n–p–i–l–o–t–e–u–r–b–a–n–
+78 sic paths repos -> –s–i–c–p–a–t–h–s–r–e–p–o–s–
+79 ugl manej fred -> –u–g–l–m–a–n–e–j–f–r–e–d–
+80 ipi zachod etxeak -> –i–p–i–z–a–c–h–o–d–e–t–x–e–a–k–
+81 idikan antr disc -> –i–d–i–k–a–n–a–n–t–r–d–i–s–c–
+82 ased tiek typ -> –a–s–e–d–t–i–e–k–t–y–p–
+83 kat writing aceste -> –k–a–t–w–r–i–t–i–n–g–a–c–e–s–t–e–
+84 alais minha ebbe -> –a–l–a–i–s–m–i–n–h–a–e–b–b–e–
+85 ouz despe utak -> –o–u–z–d–e–s–p–e–u–t–a–k–
+86 ensity facets bothered -> –e–n–s–i–t–y–f–a–c–e–t–s–b–o–t–h–e–r–e–d–
+87 loed hopes healthy -> –l–o–e–d–h–o–p–e–s–h–e–a–l–t–h–y–
+88 iscono ferment neve -> –i–s–c–o–n–o–f–e–r–m–e–n–t–n–e–v–e–
+89 agger tento sports -> –a–g–g–e–r–t–e–n–t–o–s–p–o–r–t–s–
+90 value ladite refug -> –v–a–l–u–e–l–a–d–i–t–e–r–e–f–u–g–
+91 nym je layout -> –n–y–m–j–e–l–a–y–o–u–t–
+92 deal dific maalisku -> –d–e–a–l–d–i–f–i–c–m–a–a–l–i–s–k–u–
+93 cidos backward fan -> –c–i–d–o–s–b–a–c–k–w–a–r–d–f–a–n–
+94 ogne belegt tzv -> –o–g–n–e–b–e–l–e–g–t–t–z–v–
+95 agnol coffin baj -> –a–g–n–o–l–c–o–f–f–i–n–b–a–j–
+96 tabl hung obsessed -> –t–a–b–l–h–u–n–g–o–b–s–e–s–s–e–d–
+97 right gemeente cuar -> –r–i–g–h–t–g–e–m–e–e–n–t–e–c–u–a–r–
+98 annt ajud vigorous -> –a–n–n–t–a–j–u–d–v–i–g–o–r–o–u–s–
+99 heat zeigte besonder -> –h–e–a–t–z–e–i–g–t–e–b–e–s–o–n–d–e–r–

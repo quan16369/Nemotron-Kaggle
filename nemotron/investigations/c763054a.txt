@@ -1,0 +1,31 @@
+problem id: c763054a
+category: equation_numeric_guess
+
+examples:
+- 66*66 = 6666
+- 24*32 = 3224
+- 91*47 = 4791
+- 62+96 = 59
+- 29*55 = 5529
+- query: 97-12
+
+inferred rule:
+- The `*` operator is clear from four consistent examples: it concatenates the right operand followed by the left operand.
+- Evidence:
+- 24*32 -> 3224
+- 91*47 -> 4791
+- 29*55 -> 5529
+- 66*66 -> 6666
+- The lone `+` example, `62+96 = 59`, does not fit that rule and does not give enough information to determine a broader operator system.
+- For the query, the strongest simple hypothesis is that `-` keeps its ordinary subtraction meaning. This is not directly demonstrated in the training examples, so the conclusion is only moderate confidence.
+
+step-by-step application to the query:
+- Query is `97-12`.
+- Apply ordinary subtraction: 97 - 12 = 85.
+- Predicted result: 85.
+
+predicted answer:
+- 85
+
+confidence note:
+- Moderate to low confidence. The `*` rule is strongly supported, but the dataset gives only one non-`*` example, so the meaning of `-` is underconstrained. I am choosing the simplest defensible interpretation for the query.

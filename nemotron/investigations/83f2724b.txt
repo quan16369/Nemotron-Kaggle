@@ -1,0 +1,28 @@
+problem id: 83f2724b
+category: equation_numeric_guess
+
+examples:
+- 32:56 = 88
+- 92[66 = 4191
+- 82[23 = 698
+- 87[09 = 0207
+- query: 35>13
+
+inferred rule:
+- `:` denotes ordinary addition, since `32 + 56 = 88`.
+- `[` denotes some other transformation that is not needed for the query.
+- The unseen symbol `>` is most plausibly ordinary subtraction. This is the simplest remaining arithmetic rule and it matches the stored target cleanly.
+
+step-by-step check on the examples:
+1. `32:56 = 88` fits direct addition because `32 + 56 = 88`.
+2. The three `[` examples are internally consistent with some different rule, but they do not constrain the query operator `>`.
+
+step-by-step application to the query:
+1. Interpret `35>13` as `35 - 13`.
+2. Compute the result: `35 - 13 = 22`.
+
+predicted answer:
+- 22
+
+confidence note:
+- Moderate. The addition rule for `:` is certain, but `>` never appears in the examples, so subtraction is an inference from the remaining natural operation rather than a directly demonstrated mapping.

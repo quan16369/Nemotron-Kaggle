@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 umed assemble bread
+01 signup accepted colonia
+02 oppi origen biases
+
+This is a sample output.
+00 umed assemble bread -> –u–m–e–d–a–s–s–e–m–b–l–e–b–r–e–a–d–
+01 signup accepted colonia -> –s–i–g–n–u–p–a–c–c–e–p–t–e–d–c–o–l–o–n–i–a–
+02 oppi origen biases -> –o–p–p–i–o–r–i–g–e–n–b–i–a–s–e–s–
+
+This is your input.
+00 antly teamed doute
+01 ality ogni pues
+02 expl keeps abre
+03 etooth ime privileg
+04 ilet eder chr
+05 otoxic entropy eluted
+06 dalan telegram ljud
+07 invoice brun mindig
+08 ischen douze colleges
+09 delivery moyen fag
+10 tof sch sunt
+11 photos efforts hesitate
+12 pressing silicone oppose
+13 river einiger winning
+14 berto acesta dwelling
+15 olia slike tyd
+16 igde athletes far
+17 usen expr hearts
+18 icc mara nakonec
+19 due myocard megfelel
+20 yth erupt pensar
+21 ulatory fungus soldati
+22 ated salient conj
+23 mates detener baixa
+24 valho tipo arqu
+25 ines melhores drap
+26 duration pools hakem
+27 isas jun pensiero
+28 unk obtenir inwardly
+29 chap wrap meny
+30 bel creada went
+31 acchar caves shutting
+32 serrat vorge tick
+33 nije topped gson
+34 ishing looking broth
+35 desktop insect iza
+36 iments vertical flu
+37 houses escudo solicit
+38 isf cours gratu
+39 creased cog decay
+40 cido naveg douceur
+41 go atac vro
+42 ipo mennes batzuk
+43 agyar strip diente
+44 oppel coastal lettera
+45 xan renal cartas
+46 unkt building nguy
+47 bum ush api
+48 kennt innych cuda
+49 ujourd daje volcano
+50 cost anh taal
+51 opedic dollari sof
+52 issimo aven fordi
+53 grano croire nom
+54 storm acceso sulph
+55 dur neighbor uw
+56 ily minimum divide
+57 minimum ktor ds
+58 ohen crusher frem
+59 ack umani selects
+60 asia lexical jih
+61 kommen estudo mik
+62 struktur mezzo viral
+63 ienta fram romanos
+64 atherine sequel purse
+65 utako provin nenhuma
+66 eteor pawn sab
+67 ashing ergibt ordem
+68 minus verw cattle
+69 kehr bund vua
+70 agte bunun tind
+71 issons puro quadro
+72 vole incident follow
+73 zal add reboot
+74 dv famil mexicano
+75 atetime digging rapports
+76 wana znovu crew
+77 files filed liquids
+78 ulli expanded aston
+79 acons cutoff kilogram
+80 bourne ajax fumble
+81 isia synov wiped
+82 ergy indoor morir
+83 stehen fus irres
+84 ansons neke duct
+85 itik enl insc
+86 ionen trenches surs
+87 ytics resided matching
+88 odor prayer lign
+89 vr eastern nipples
+90 haul anos social
+91 ceptor owning lagi
+92 ra subtitle ps
+93 ummer milling feder
+94 jnych pure tylko
+95 teilung explains site
+96 eschoss native incon
+97 lust nitrate metu
+98 ravel filmin bibliot
+99 man amazed beide
+[completion]
+00 antly teamed doute -> –a–n–t–l–y–t–e–a–m–e–d–d–o–u–t–e–
+01 ality ogni pues -> –a–l–i–t–y–o–g–n–i–p–u–e–s–
+02 expl keeps abre -> –e–x–p–l–k–e–e–p–s–a–b–r–e–
+03 etooth ime privileg -> –e–t–o–o–t–h–i–m–e–p–r–i–v–i–l–e–g–
+04 ilet eder chr -> –i–l–e–t–e–d–e–r–c–h–r–
+05 otoxic entropy eluted -> –o–t–o–x–i–c–e–n–t–r–o–p–y–e–l–u–t–e–d–
+06 dalan telegram ljud -> –d–a–l–a–n–t–e–l–e–g–r–a–m–l–j–u–d–
+07 invoice brun mindig -> –i–n–v–o–i–c–e–b–r–u–n–m–i–n–d–i–g–
+08 ischen douze colleges -> –i–s–c–h–e–n–d–o–u–z–e–c–o–l–l–e–g–e–s–
+09 delivery moyen fag -> –d–e–l–i–v–e–r–y–m–o–y–e–n–f–a–g–
+10 tof sch sunt -> –t–o–f–s–c–h–s–u–n–t–
+11 photos efforts hesitate -> –p–h–o–t–o–s–e–f–f–o–r–t–s–h–e–s–i–t–a–t–e–
+12 pressing silicone oppose -> –p–r–e–s–s–i–n–g–s–i–l–i–c–o–n–e–o–p–p–o–s–e–
+13 river einiger winning -> –r–i–v–e–r–e–i–n–i–g–e–r–w–i–n–n–i–n–g–
+14 berto acesta dwelling -> –b–e–r–t–o–a–c–e–s–t–a–d–w–e–l–l–i–n–g–
+15 olia slike tyd -> –o–l–i–a–s–l–i–k–e–t–y–d–
+16 igde athletes far -> –i–g–d–e–a–t–h–l–e–t–e–s–f–a–r–
+17 usen expr hearts -> –u–s–e–n–e–x–p–r–h–e–a–r–t–s–
+18 icc mara nakonec -> –i–c–c–m–a–r–a–n–a–k–o–n–e–c–
+19 due myocard megfelel -> –d–u–e–m–y–o–c–a–r–d–m–e–g–f–e–l–e–l–
+20 yth erupt pensar -> –y–t–h–e–r–u–p–t–p–e–n–s–a–r–
+21 ulatory fungus soldati -> –u–l–a–t–o–r–y–f–u–n–g–u–s–s–o–l–d–a–t–i–
+22 ated salient conj -> –a–t–e–d–s–a–l–i–e–n–t–c–o–n–j–
+23 mates detener baixa -> –m–a–t–e–s–d–e–t–e–n–e–r–b–a–i–x–a–
+24 valho tipo arqu -> –v–a–l–h–o–t–i–p–o–a–r–q–u–
+25 ines melhores drap -> –i–n–e–s–m–e–l–h–o–r–e–s–d–r–a–p–
+26 duration pools hakem -> –d–u–r–a–t–i–o–n–p–o–o–l–s–h–a–k–e–m–
+27 isas jun pensiero -> –i–s–a–s–j–u–n–p–e–n–s–i–e–r–o–
+28 unk obtenir inwardly -> –u–n–k–o–b–t–e–n–i–r–i–n–w–a–r–d–l–y–
+29 chap wrap meny -> –c–h–a–p–w–r–a–p–m–e–n–y–
+30 bel creada went -> –b–e–l–c–r–e–a–d–a–w–e–n–t–
+31 acchar caves shutting -> –a–c–c–h–a–r–c–a–v–e–s–s–h–u–t–t–i–n–g–
+32 serrat vorge tick -> –s–e–r–r–a–t–v–o–r–g–e–t–i–c–k–
+33 nije topped gson -> –n–i–j–e–t–o–p–p–e–d–g–s–o–n–
+34 ishing looking broth -> –i–s–h–i–n–g–l–o–o–k–i–n–g–b–r–o–t–h–
+35 desktop insect iza -> –d–e–s–k–t–o–p–i–n–s–e–c–t–i–z–a–
+36 iments vertical flu -> –i–m–e–n–t–s–v–e–r–t–i–c–a–l–f–l–u–
+37 houses escudo solicit -> –h–o–u–s–e–s–e–s–c–u–d–o–s–o–l–i–c–i–t–
+38 isf cours gratu -> –i–s–f–c–o–u–r–s–g–r–a–t–u–
+39 creased cog decay -> –c–r–e–a–s–e–d–c–o–g–d–e–c–a–y–
+40 cido naveg douceur -> –c–i–d–o–n–a–v–e–g–d–o–u–c–e–u–r–
+41 go atac vro -> –g–o–a–t–a–c–v–r–o–
+42 ipo mennes batzuk -> –i–p–o–m–e–n–n–e–s–b–a–t–z–u–k–
+43 agyar strip diente -> –a–g–y–a–r–s–t–r–i–p–d–i–e–n–t–e–
+44 oppel coastal lettera -> –o–p–p–e–l–c–o–a–s–t–a–l–l–e–t–t–e–r–a–
+45 xan renal cartas -> –x–a–n–r–e–n–a–l–c–a–r–t–a–s–
+46 unkt building nguy -> –u–n–k–t–b–u–i–l–d–i–n–g–n–g–u–y–
+47 bum ush api -> –b–u–m–u–s–h–a–p–i–
+48 kennt innych cuda -> –k–e–n–n–t–i–n–n–y–c–h–c–u–d–a–
+49 ujourd daje volcano -> –u–j–o–u–r–d–d–a–j–e–v–o–l–c–a–n–o–
+50 cost anh taal -> –c–o–s–t–a–n–h–t–a–a–l–
+51 opedic dollari sof -> –o–p–e–d–i–c–d–o–l–l–a–r–i–s–o–f–
+52 issimo aven fordi -> –i–s–s–i–m–o–a–v–e–n–f–o–r–d–i–
+53 grano croire nom -> –g–r–a–n–o–c–r–o–i–r–e–n–o–m–
+54 storm acceso sulph -> –s–t–o–r–m–a–c–c–e–s–o–s–u–l–p–h–
+55 dur neighbor uw -> –d–u–r–n–e–i–g–h–b–o–r–u–w–
+56 ily minimum divide -> –i–l–y–m–i–n–i–m–u–m–d–i–v–i–d–e–
+57 minimum ktor ds -> –m–i–n–i–m–u–m–k–t–o–r–d–s–
+58 ohen crusher frem -> –o–h–e–n–c–r–u–s–h–e–r–f–r–e–m–
+59 ack umani selects -> –a–c–k–u–m–a–n–i–s–e–l–e–c–t–s–
+60 asia lexical jih -> –a–s–i–a–l–e–x–i–c–a–l–j–i–h–
+61 kommen estudo mik -> –k–o–m–m–e–n–e–s–t–u–d–o–m–i–k–
+62 struktur mezzo viral -> –s–t–r–u–k–t–u–r–m–e–z–z–o–v–i–r–a–l–
+63 ienta fram romanos -> –i–e–n–t–a–f–r–a–m–r–o–m–a–n–o–s–
+64 atherine sequel purse -> –a–t–h–e–r–i–n–e–s–e–q–u–e–l–p–u–r–s–e–
+65 utako provin nenhuma -> –u–t–a–k–o–p–r–o–v–i–n–n–e–n–h–u–m–a–
+66 eteor pawn sab -> –e–t–e–o–r–p–a–w–n–s–a–b–
+67 ashing ergibt ordem -> –a–s–h–i–n–g–e–r–g–i–b–t–o–r–d–e–m–
+68 minus verw cattle -> –m–i–n–u–s–v–e–r–w–c–a–t–t–l–e–
+69 kehr bund vua -> –k–e–h–r–b–u–n–d–v–u–a–
+70 agte bunun tind -> –a–g–t–e–b–u–n–u–n–t–i–n–d–
+71 issons puro quadro -> –i–s–s–o–n–s–p–u–r–o–q–u–a–d–r–o–
+72 vole incident follow -> –v–o–l–e–i–n–c–i–d–e–n–t–f–o–l–l–o–w–
+73 zal add reboot -> –z–a–l–a–d–d–r–e–b–o–o–t–
+74 dv famil mexicano -> –d–v–f–a–m–i–l–m–e–x–i–c–a–n–o–
+75 atetime digging rapports -> –a–t–e–t–i–m–e–d–i–g–g–i–n–g–r–a–p–p–o–r–t–s–
+76 wana znovu crew -> –w–a–n–a–z–n–o–v–u–c–r–e–w–
+77 files filed liquids -> –f–i–l–e–s–f–i–l–e–d–l–i–q–u–i–d–s–
+78 ulli expanded aston -> –u–l–l–i–e–x–p–a–n–d–e–d–a–s–t–o–n–
+79 acons cutoff kilogram -> –a–c–o–n–s–c–u–t–o–f–f–k–i–l–o–g–r–a–m–
+80 bourne ajax fumble -> –b–o–u–r–n–e–a–j–a–x–f–u–m–b–l–e–
+81 isia synov wiped -> –i–s–i–a–s–y–n–o–v–w–i–p–e–d–
+82 ergy indoor morir -> –e–r–g–y–i–n–d–o–o–r–m–o–r–i–r–
+83 stehen fus irres -> –s–t–e–h–e–n–f–u–s–i–r–r–e–s–
+84 ansons neke duct -> –a–n–s–o–n–s–n–e–k–e–d–u–c–t–
+85 itik enl insc -> –i–t–i–k–e–n–l–i–n–s–c–
+86 ionen trenches surs -> –i–o–n–e–n–t–r–e–n–c–h–e–s–s–u–r–s–
+87 ytics resided matching -> –y–t–i–c–s–r–e–s–i–d–e–d–m–a–t–c–h–i–n–g–
+88 odor prayer lign -> –o–d–o–r–p–r–a–y–e–r–l–i–g–n–
+89 vr eastern nipples -> –v–r–e–a–s–t–e–r–n–n–i–p–p–l–e–s–
+90 haul anos social -> –h–a–u–l–a–n–o–s–s–o–c–i–a–l–
+91 ceptor owning lagi -> –c–e–p–t–o–r–o–w–n–i–n–g–l–a–g–i–
+92 ra subtitle ps -> –r–a–s–u–b–t–i–t–l–e–p–s–
+93 ummer milling feder -> –u–m–m–e–r–m–i–l–l–i–n–g–f–e–d–e–r–
+94 jnych pure tylko -> –j–n–y–c–h–p–u–r–e–t–y–l–k–o–
+95 teilung explains site -> –t–e–i–l–u–n–g–e–x–p–l–a–i–n–s–s–i–t–e–
+96 eschoss native incon -> –e–s–c–h–o–s–s–n–a–t–i–v–e–i–n–c–o–n–
+97 lust nitrate metu -> –l–u–s–t–n–i–t–r–a–t–e–m–e–t–u–
+98 ravel filmin bibliot -> –r–a–v–e–l–f–i–l–m–i–n–b–i–b–l–i–o–t–
+99 man amazed beide -> –m–a–n–a–m–a–z–e–d–b–e–i–d–e–

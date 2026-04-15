@@ -1,0 +1,70 @@
+problem id: 20e6b2d1
+category: cryptarithm_guess
+
+examples:
+1. "]'*{% = '{{%"
+2. "@$*@$ = ]%$`"
+3. "{?+`\\ = {?`\\"
+4. "`?*{% = ?$%"
+5. "(]*{? = '%``"
+
+inferred rule:
+Treat each input as AB op CD, where each non-operator symbol stands for a decimal digit.
+
+Two operator rules are visible:
+
+1. "+" is direct concatenation of the two 2-symbol chunks.
+   The example "{?+`\\ = {?`\\" shows this exactly.
+
+2. "*" is ordinary multiplication after decoding the symbols as digits.
+   The four "*" examples force a unique digit map for the symbols used in multiplication:
+   ' = 1
+   { = 2
+   ( = 3
+   ` = 4
+   ] = 6
+   @ = 7
+   $ = 8
+   ? = 9
+   % = 0
+
+step-by-step check on the examples:
+1. "]'*{%"
+   "]'" decodes to 61 and "{%" decodes to 20.
+   61 * 20 = 1220.
+   Encode 1 2 2 0 as "'{{%".
+
+2. "@$*@$"
+   "@$" decodes to 78 and "@$" decodes to 78.
+   78 * 78 = 6084.
+   Encode 6 0 8 4 as "]%$`".
+
+3. "{?+`\\"
+   "+" is literal concatenation, so "{? + `\\" becomes "{?`\\".
+
+4. "`?*{%"
+   "`?" decodes to 49 and "{%" decodes to 20.
+   49 * 20 = 980.
+   Encode 9 8 0 as "?$%".
+
+5. "(]*{?"
+   "(]" decodes to 36 and "{?" decodes to 29.
+   36 * 29 = 1044.
+   Encode 1 0 4 4 as "'%``".
+
+step-by-step application to the query:
+1. Query: "@`-](".
+2. Decode the left chunk "@`" as 74.
+3. Decode the right chunk "](" as 63.
+4. The unseen "-" is most plausibly the subtraction-style operator. Here ordinary subtraction and absolute difference agree because 74 > 63.
+5. 74 - 63 = 11.
+6. Encode 11 back into symbols:
+   1 -> '
+   1 -> '
+7. Predicted output: "''".
+
+predicted answer:
+"''"
+
+confidence note:
+Medium-high confidence. The "+" rule is shown directly, the four "*" examples determine a unique exact-fit digit map, and the only remaining extrapolation is treating the unseen "-" as subtraction or absolute difference. Because both give 11 on the query, the final prediction is relatively stable.

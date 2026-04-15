@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 ench fury where
+01 usele folders puts
+02 ienste figuras znal
+
+This is a sample output.
+00 ench fury where -> –e–n–c–h–f–u–r–y–w–h–e–r–e–
+01 usele folders puts -> –u–s–e–l–e–f–o–l–d–e–r–s–p–u–t–s–
+02 ienste figuras znal -> –i–e–n–s–t–e–f–i–g–u–r–a–s–z–n–a–l–
+
+This is your input.
+00 leading famili ugyan
+01 ilib hand verge
+02 ushing shook refund
+03 iegend nomb borders
+04 ozilla heutigen nemzet
+05 liwo insegn yard
+06 unct kant digest
+07 nb interfer volatile
+08 ikl namen begannen
+09 length niemals trugen
+10 uteur sola miser
+11 ortun gagne psycho
+12 raw hal rense
+13 scr rifiut klima
+14 orted pathways honours
+15 bod verteid unsatisf
+16 aneo enhanced salivary
+17 malink crushing strand
+18 entric mini ic
+19 echo esempio tornando
+20 zas shining signer
+21 vd impregn striker
+22 steig logar einzel
+23 enri geht pilotos
+24 allis defend cool
+25 uerpo gate rays
+26 clide stru fighter
+27 icago cercare tali
+28 idence paul fermer
+29 uj fitted ausp
+30 cla degr trusts
+31 iej versp elders
+32 stud vok tarih
+33 omycin marqu horse
+34 arod sitio dormir
+35 pay oude conceded
+36 uesto gue depleted
+37 itung velike pores
+38 iso lifespan asympt
+39 vious appropri vc
+40 figur dared evoc
+41 atoes risky cheeks
+42 riangle mend veroor
+43 archy nickte anivers
+44 ze chama definir
+45 omeric tribut crown
+46 cesso asegur indu
+47 problem nons definit
+48 agles imaging posibles
+49 asename stunned somet
+50 tbl truth aurait
+51 itats tachy tickets
+52 no jed przyw
+53 okat anhand ageing
+54 orgung proving metro
+55 ovej recip opis
+56 arily cuart matin
+57 imetric evapor chambers
+58 abo enanti jeu
+59 hund serii cabine
+60 ustin timbre graves
+61 bot cada trakcie
+62 ival amar access
+63 ligi blessing mencion
+64 memory miners refugee
+65 raine retinal bosques
+66 ambah grape hungry
+67 arynx wicht cure
+68 vede crav owed
+69 ew desaf ma
+70 erview suicide revol
+71 oreign laboral froid
+72 ensko novos climats
+73 viation magnific driver
+74 ljiv trouve trasl
+75 ihara verse memberi
+76 colare abrog loans
+77 czeg housing deut
+78 ging symb entry
+79 assert setzte often
+80 amment chu verlang
+81 useeland lhs couches
+82 inctions dividing heavy
+83 obod catheter excluded
+84 ccane histori biri
+85 props peque depr
+86 watch soil splicing
+87 aina universo hame
+88 quista phag cake
+89 ocyt paramet spor
+90 nes earthqu recuer
+91 groups forne saat
+92 pression stets lhe
+93 lice resmi marriage
+94 paravant ceased zog
+95 cade geist covert
+96 ickers przen masing
+97 certain zaj ragazza
+98 hall altri ya
+99 skip jedno drilling
+[completion]
+00 leading famili ugyan -> –l–e–a–d–i–n–g–f–a–m–i–l–i–u–g–y–a–n–
+01 ilib hand verge -> –i–l–i–b–h–a–n–d–v–e–r–g–e–
+02 ushing shook refund -> –u–s–h–i–n–g–s–h–o–o–k–r–e–f–u–n–d–
+03 iegend nomb borders -> –i–e–g–e–n–d–n–o–m–b–b–o–r–d–e–r–s–
+04 ozilla heutigen nemzet -> –o–z–i–l–l–a–h–e–u–t–i–g–e–n–n–e–m–z–e–t–
+05 liwo insegn yard -> –l–i–w–o–i–n–s–e–g–n–y–a–r–d–
+06 unct kant digest -> –u–n–c–t–k–a–n–t–d–i–g–e–s–t–
+07 nb interfer volatile -> –n–b–i–n–t–e–r–f–e–r–v–o–l–a–t–i–l–e–
+08 ikl namen begannen -> –i–k–l–n–a–m–e–n–b–e–g–a–n–n–e–n–
+09 length niemals trugen -> –l–e–n–g–t–h–n–i–e–m–a–l–s–t–r–u–g–e–n–
+10 uteur sola miser -> –u–t–e–u–r–s–o–l–a–m–i–s–e–r–
+11 ortun gagne psycho -> –o–r–t–u–n–g–a–g–n–e–p–s–y–c–h–o–
+12 raw hal rense -> –r–a–w–h–a–l–r–e–n–s–e–
+13 scr rifiut klima -> –s–c–r–r–i–f–i–u–t–k–l–i–m–a–
+14 orted pathways honours -> –o–r–t–e–d–p–a–t–h–w–a–y–s–h–o–n–o–u–r–s–
+15 bod verteid unsatisf -> –b–o–d–v–e–r–t–e–i–d–u–n–s–a–t–i–s–f–
+16 aneo enhanced salivary -> –a–n–e–o–e–n–h–a–n–c–e–d–s–a–l–i–v–a–r–y–
+17 malink crushing strand -> –m–a–l–i–n–k–c–r–u–s–h–i–n–g–s–t–r–a–n–d–
+18 entric mini ic -> –e–n–t–r–i–c–m–i–n–i–i–c–
+19 echo esempio tornando -> –e–c–h–o–e–s–e–m–p–i–o–t–o–r–n–a–n–d–o–
+20 zas shining signer -> –z–a–s–s–h–i–n–i–n–g–s–i–g–n–e–r–
+21 vd impregn striker -> –v–d–i–m–p–r–e–g–n–s–t–r–i–k–e–r–
+22 steig logar einzel -> –s–t–e–i–g–l–o–g–a–r–e–i–n–z–e–l–
+23 enri geht pilotos -> –e–n–r–i–g–e–h–t–p–i–l–o–t–o–s–
+24 allis defend cool -> –a–l–l–i–s–d–e–f–e–n–d–c–o–o–l–
+25 uerpo gate rays -> –u–e–r–p–o–g–a–t–e–r–a–y–s–
+26 clide stru fighter -> –c–l–i–d–e–s–t–r–u–f–i–g–h–t–e–r–
+27 icago cercare tali -> –i–c–a–g–o–c–e–r–c–a–r–e–t–a–l–i–
+28 idence paul fermer -> –i–d–e–n–c–e–p–a–u–l–f–e–r–m–e–r–
+29 uj fitted ausp -> –u–j–f–i–t–t–e–d–a–u–s–p–
+30 cla degr trusts -> –c–l–a–d–e–g–r–t–r–u–s–t–s–
+31 iej versp elders -> –i–e–j–v–e–r–s–p–e–l–d–e–r–s–
+32 stud vok tarih -> –s–t–u–d–v–o–k–t–a–r–i–h–
+33 omycin marqu horse -> –o–m–y–c–i–n–m–a–r–q–u–h–o–r–s–e–
+34 arod sitio dormir -> –a–r–o–d–s–i–t–i–o–d–o–r–m–i–r–
+35 pay oude conceded -> –p–a–y–o–u–d–e–c–o–n–c–e–d–e–d–
+36 uesto gue depleted -> –u–e–s–t–o–g–u–e–d–e–p–l–e–t–e–d–
+37 itung velike pores -> –i–t–u–n–g–v–e–l–i–k–e–p–o–r–e–s–
+38 iso lifespan asympt -> –i–s–o–l–i–f–e–s–p–a–n–a–s–y–m–p–t–
+39 vious appropri vc -> –v–i–o–u–s–a–p–p–r–o–p–r–i–v–c–
+40 figur dared evoc -> –f–i–g–u–r–d–a–r–e–d–e–v–o–c–
+41 atoes risky cheeks -> –a–t–o–e–s–r–i–s–k–y–c–h–e–e–k–s–
+42 riangle mend veroor -> –r–i–a–n–g–l–e–m–e–n–d–v–e–r–o–o–r–
+43 archy nickte anivers -> –a–r–c–h–y–n–i–c–k–t–e–a–n–i–v–e–r–s–
+44 ze chama definir -> –z–e–c–h–a–m–a–d–e–f–i–n–i–r–
+45 omeric tribut crown -> –o–m–e–r–i–c–t–r–i–b–u–t–c–r–o–w–n–
+46 cesso asegur indu -> –c–e–s–s–o–a–s–e–g–u–r–i–n–d–u–
+47 problem nons definit -> –p–r–o–b–l–e–m–n–o–n–s–d–e–f–i–n–i–t–
+48 agles imaging posibles -> –a–g–l–e–s–i–m–a–g–i–n–g–p–o–s–i–b–l–e–s–
+49 asename stunned somet -> –a–s–e–n–a–m–e–s–t–u–n–n–e–d–s–o–m–e–t–
+50 tbl truth aurait -> –t–b–l–t–r–u–t–h–a–u–r–a–i–t–
+51 itats tachy tickets -> –i–t–a–t–s–t–a–c–h–y–t–i–c–k–e–t–s–
+52 no jed przyw -> –n–o–j–e–d–p–r–z–y–w–
+53 okat anhand ageing -> –o–k–a–t–a–n–h–a–n–d–a–g–e–i–n–g–
+54 orgung proving metro -> –o–r–g–u–n–g–p–r–o–v–i–n–g–m–e–t–r–o–
+55 ovej recip opis -> –o–v–e–j–r–e–c–i–p–o–p–i–s–
+56 arily cuart matin -> –a–r–i–l–y–c–u–a–r–t–m–a–t–i–n–
+57 imetric evapor chambers -> –i–m–e–t–r–i–c–e–v–a–p–o–r–c–h–a–m–b–e–r–s–
+58 abo enanti jeu -> –a–b–o–e–n–a–n–t–i–j–e–u–
+59 hund serii cabine -> –h–u–n–d–s–e–r–i–i–c–a–b–i–n–e–
+60 ustin timbre graves -> –u–s–t–i–n–t–i–m–b–r–e–g–r–a–v–e–s–
+61 bot cada trakcie -> –b–o–t–c–a–d–a–t–r–a–k–c–i–e–
+62 ival amar access -> –i–v–a–l–a–m–a–r–a–c–c–e–s–s–
+63 ligi blessing mencion -> –l–i–g–i–b–l–e–s–s–i–n–g–m–e–n–c–i–o–n–
+64 memory miners refugee -> –m–e–m–o–r–y–m–i–n–e–r–s–r–e–f–u–g–e–e–
+65 raine retinal bosques -> –r–a–i–n–e–r–e–t–i–n–a–l–b–o–s–q–u–e–s–
+66 ambah grape hungry -> –a–m–b–a–h–g–r–a–p–e–h–u–n–g–r–y–
+67 arynx wicht cure -> –a–r–y–n–x–w–i–c–h–t–c–u–r–e–
+68 vede crav owed -> –v–e–d–e–c–r–a–v–o–w–e–d–
+69 ew desaf ma -> –e–w–d–e–s–a–f–m–a–
+70 erview suicide revol -> –e–r–v–i–e–w–s–u–i–c–i–d–e–r–e–v–o–l–
+71 oreign laboral froid -> –o–r–e–i–g–n–l–a–b–o–r–a–l–f–r–o–i–d–
+72 ensko novos climats -> –e–n–s–k–o–n–o–v–o–s–c–l–i–m–a–t–s–
+73 viation magnific driver -> –v–i–a–t–i–o–n–m–a–g–n–i–f–i–c–d–r–i–v–e–r–
+74 ljiv trouve trasl -> –l–j–i–v–t–r–o–u–v–e–t–r–a–s–l–
+75 ihara verse memberi -> –i–h–a–r–a–v–e–r–s–e–m–e–m–b–e–r–i–
+76 colare abrog loans -> –c–o–l–a–r–e–a–b–r–o–g–l–o–a–n–s–
+77 czeg housing deut -> –c–z–e–g–h–o–u–s–i–n–g–d–e–u–t–
+78 ging symb entry -> –g–i–n–g–s–y–m–b–e–n–t–r–y–
+79 assert setzte often -> –a–s–s–e–r–t–s–e–t–z–t–e–o–f–t–e–n–
+80 amment chu verlang -> –a–m–m–e–n–t–c–h–u–v–e–r–l–a–n–g–
+81 useeland lhs couches -> –u–s–e–e–l–a–n–d–l–h–s–c–o–u–c–h–e–s–
+82 inctions dividing heavy -> –i–n–c–t–i–o–n–s–d–i–v–i–d–i–n–g–h–e–a–v–y–
+83 obod catheter excluded -> –o–b–o–d–c–a–t–h–e–t–e–r–e–x–c–l–u–d–e–d–
+84 ccane histori biri -> –c–c–a–n–e–h–i–s–t–o–r–i–b–i–r–i–
+85 props peque depr -> –p–r–o–p–s–p–e–q–u–e–d–e–p–r–
+86 watch soil splicing -> –w–a–t–c–h–s–o–i–l–s–p–l–i–c–i–n–g–
+87 aina universo hame -> –a–i–n–a–u–n–i–v–e–r–s–o–h–a–m–e–
+88 quista phag cake -> –q–u–i–s–t–a–p–h–a–g–c–a–k–e–
+89 ocyt paramet spor -> –o–c–y–t–p–a–r–a–m–e–t–s–p–o–r–
+90 nes earthqu recuer -> –n–e–s–e–a–r–t–h–q–u–r–e–c–u–e–r–
+91 groups forne saat -> –g–r–o–u–p–s–f–o–r–n–e–s–a–a–t–
+92 pression stets lhe -> –p–r–e–s–s–i–o–n–s–t–e–t–s–l–h–e–
+93 lice resmi marriage -> –l–i–c–e–r–e–s–m–i–m–a–r–r–i–a–g–e–
+94 paravant ceased zog -> –p–a–r–a–v–a–n–t–c–e–a–s–e–d–z–o–g–
+95 cade geist covert -> –c–a–d–e–g–e–i–s–t–c–o–v–e–r–t–
+96 ickers przen masing -> –i–c–k–e–r–s–p–r–z–e–n–m–a–s–i–n–g–
+97 certain zaj ragazza -> –c–e–r–t–a–i–n–z–a–j–r–a–g–a–z–z–a–
+98 hall altri ya -> –h–a–l–l–a–l–t–r–i–y–a–
+99 skip jedno drilling -> –s–k–i–p–j–e–d–n–o–d–r–i–l–l–i–n–g–

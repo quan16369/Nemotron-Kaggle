@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 arct charged agu
+01 zez chic paik
+02 isans nesse whenever
+
+This is a sample output.
+00 arct charged agu -> –a–r–c–t–c–h–a–r–g–e–d–a–g–u–
+01 zez chic paik -> –z–e–z–c–h–i–c–p–a–i–k–
+02 isans nesse whenever -> –i–s–a–n–s–n–e–s–s–e–w–h–e–n–e–v–e–r–
+
+This is your input.
+00 link behavior poussi
+01 gave obtained povez
+02 gers springs jugu
+03 chafft recher elo
+04 prises koncent dichotom
+05 itoria denna awans
+06 onomia haq ensure
+07 rup have preuves
+08 mol remained angu
+09 olysis ilgili moth
+10 atora orquesta mansion
+11 ify dye automot
+12 uret mit partic
+13 acja noun najve
+14 aines cakes mortar
+15 theit reserve coated
+16 bia fixation glaucoma
+17 nodes humano invers
+18 oman protoc garr
+19 itzeko vid balances
+20 duct cd latter
+21 ography eosin stenosis
+22 checked ges piano
+23 viz asign outubro
+24 anken stole erster
+25 skin gemaakt sachant
+26 ep reverse rg
+27 vaj numerosi ele
+28 laub altern zal
+29 bigg voiced positivo
+30 tile told zegoen
+31 itato einem elenco
+32 engar ign fring
+33 assis clarity tombe
+34 plan putting osoby
+35 within kil integr
+36 pmatrix activ umben
+37 ycji valam efeitos
+38 hel snow sounding
+39 laut nuk arginine
+40 bang zone sebanyak
+41 ulse zir ol
+42 ampe corta aquatic
+43 levant indemn ly
+44 stral radon dermal
+45 arla grief rodu
+46 mani paru adjunct
+47 contents puff vole
+48 aldi propria comigo
+49 tej onge akhir
+50 urio visu impede
+51 inius certaine weakened
+52 jourd starke schl
+53 arten arrastr innen
+54 aises disaster luego
+55 jest seguro cv
+56 ismic biblical history
+57 party navio lest
+58 ont sweep wax
+59 itag confr orchest
+60 greg mille moisture
+61 iform demon manches
+62 remos levels musical
+63 fits anter doga
+64 ecer condu fertil
+65 bid adot toto
+66 pron amie rote
+67 jeni pipeline sk
+68 ri duro scars
+69 lating costume promo
+70 enta ancak grim
+71 hn heavily vaix
+72 eks vale layers
+73 aneiro binds compuls
+74 ikt kategor geeignet
+75 uvad artisti naked
+76 mek puerto enda
+77 elor actifs mismo
+78 itettiin triun iris
+79 sp commis camp
+80 windows prije camiseta
+81 yni cc limitado
+82 agrama infant obyvatel
+83 ystems pathogen dejado
+84 deks ancest booster
+85 total elapsed uprising
+86 enaire zon opper
+87 ayt metais edema
+88 teg widers parte
+89 chine parten luoghi
+90 bygg fid foron
+91 atifs lists bera
+92 idden moust continue
+93 ichtig deter pove
+94 itet halve courant
+95 opia friendly yarn
+96 hetical defended metap
+97 uximab logement algunes
+98 eszt etti ciencia
+99 icl nagus estou
+[completion]
+00 link behavior poussi -> –l–i–n–k–b–e–h–a–v–i–o–r–p–o–u–s–s–i–
+01 gave obtained povez -> –g–a–v–e–o–b–t–a–i–n–e–d–p–o–v–e–z–
+02 gers springs jugu -> –g–e–r–s–s–p–r–i–n–g–s–j–u–g–u–
+03 chafft recher elo -> –c–h–a–f–f–t–r–e–c–h–e–r–e–l–o–
+04 prises koncent dichotom -> –p–r–i–s–e–s–k–o–n–c–e–n–t–d–i–c–h–o–t–o–m–
+05 itoria denna awans -> –i–t–o–r–i–a–d–e–n–n–a–a–w–a–n–s–
+06 onomia haq ensure -> –o–n–o–m–i–a–h–a–q–e–n–s–u–r–e–
+07 rup have preuves -> –r–u–p–h–a–v–e–p–r–e–u–v–e–s–
+08 mol remained angu -> –m–o–l–r–e–m–a–i–n–e–d–a–n–g–u–
+09 olysis ilgili moth -> –o–l–y–s–i–s–i–l–g–i–l–i–m–o–t–h–
+10 atora orquesta mansion -> –a–t–o–r–a–o–r–q–u–e–s–t–a–m–a–n–s–i–o–n–
+11 ify dye automot -> –i–f–y–d–y–e–a–u–t–o–m–o–t–
+12 uret mit partic -> –u–r–e–t–m–i–t–p–a–r–t–i–c–
+13 acja noun najve -> –a–c–j–a–n–o–u–n–n–a–j–v–e–
+14 aines cakes mortar -> –a–i–n–e–s–c–a–k–e–s–m–o–r–t–a–r–
+15 theit reserve coated -> –t–h–e–i–t–r–e–s–e–r–v–e–c–o–a–t–e–d–
+16 bia fixation glaucoma -> –b–i–a–f–i–x–a–t–i–o–n–g–l–a–u–c–o–m–a–
+17 nodes humano invers -> –n–o–d–e–s–h–u–m–a–n–o–i–n–v–e–r–s–
+18 oman protoc garr -> –o–m–a–n–p–r–o–t–o–c–g–a–r–r–
+19 itzeko vid balances -> –i–t–z–e–k–o–v–i–d–b–a–l–a–n–c–e–s–
+20 duct cd latter -> –d–u–c–t–c–d–l–a–t–t–e–r–
+21 ography eosin stenosis -> –o–g–r–a–p–h–y–e–o–s–i–n–s–t–e–n–o–s–i–s–
+22 checked ges piano -> –c–h–e–c–k–e–d–g–e–s–p–i–a–n–o–
+23 viz asign outubro -> –v–i–z–a–s–i–g–n–o–u–t–u–b–r–o–
+24 anken stole erster -> –a–n–k–e–n–s–t–o–l–e–e–r–s–t–e–r–
+25 skin gemaakt sachant -> –s–k–i–n–g–e–m–a–a–k–t–s–a–c–h–a–n–t–
+26 ep reverse rg -> –e–p–r–e–v–e–r–s–e–r–g–
+27 vaj numerosi ele -> –v–a–j–n–u–m–e–r–o–s–i–e–l–e–
+28 laub altern zal -> –l–a–u–b–a–l–t–e–r–n–z–a–l–
+29 bigg voiced positivo -> –b–i–g–g–v–o–i–c–e–d–p–o–s–i–t–i–v–o–
+30 tile told zegoen -> –t–i–l–e–t–o–l–d–z–e–g–o–e–n–
+31 itato einem elenco -> –i–t–a–t–o–e–i–n–e–m–e–l–e–n–c–o–
+32 engar ign fring -> –e–n–g–a–r–i–g–n–f–r–i–n–g–
+33 assis clarity tombe -> –a–s–s–i–s–c–l–a–r–i–t–y–t–o–m–b–e–
+34 plan putting osoby -> –p–l–a–n–p–u–t–t–i–n–g–o–s–o–b–y–
+35 within kil integr -> –w–i–t–h–i–n–k–i–l–i–n–t–e–g–r–
+36 pmatrix activ umben -> –p–m–a–t–r–i–x–a–c–t–i–v–u–m–b–e–n–
+37 ycji valam efeitos -> –y–c–j–i–v–a–l–a–m–e–f–e–i–t–o–s–
+38 hel snow sounding -> –h–e–l–s–n–o–w–s–o–u–n–d–i–n–g–
+39 laut nuk arginine -> –l–a–u–t–n–u–k–a–r–g–i–n–i–n–e–
+40 bang zone sebanyak -> –b–a–n–g–z–o–n–e–s–e–b–a–n–y–a–k–
+41 ulse zir ol -> –u–l–s–e–z–i–r–o–l–
+42 ampe corta aquatic -> –a–m–p–e–c–o–r–t–a–a–q–u–a–t–i–c–
+43 levant indemn ly -> –l–e–v–a–n–t–i–n–d–e–m–n–l–y–
+44 stral radon dermal -> –s–t–r–a–l–r–a–d–o–n–d–e–r–m–a–l–
+45 arla grief rodu -> –a–r–l–a–g–r–i–e–f–r–o–d–u–
+46 mani paru adjunct -> –m–a–n–i–p–a–r–u–a–d–j–u–n–c–t–
+47 contents puff vole -> –c–o–n–t–e–n–t–s–p–u–f–f–v–o–l–e–
+48 aldi propria comigo -> –a–l–d–i–p–r–o–p–r–i–a–c–o–m–i–g–o–
+49 tej onge akhir -> –t–e–j–o–n–g–e–a–k–h–i–r–
+50 urio visu impede -> –u–r–i–o–v–i–s–u–i–m–p–e–d–e–
+51 inius certaine weakened -> –i–n–i–u–s–c–e–r–t–a–i–n–e–w–e–a–k–e–n–e–d–
+52 jourd starke schl -> –j–o–u–r–d–s–t–a–r–k–e–s–c–h–l–
+53 arten arrastr innen -> –a–r–t–e–n–a–r–r–a–s–t–r–i–n–n–e–n–
+54 aises disaster luego -> –a–i–s–e–s–d–i–s–a–s–t–e–r–l–u–e–g–o–
+55 jest seguro cv -> –j–e–s–t–s–e–g–u–r–o–c–v–
+56 ismic biblical history -> –i–s–m–i–c–b–i–b–l–i–c–a–l–h–i–s–t–o–r–y–
+57 party navio lest -> –p–a–r–t–y–n–a–v–i–o–l–e–s–t–
+58 ont sweep wax -> –o–n–t–s–w–e–e–p–w–a–x–
+59 itag confr orchest -> –i–t–a–g–c–o–n–f–r–o–r–c–h–e–s–t–
+60 greg mille moisture -> –g–r–e–g–m–i–l–l–e–m–o–i–s–t–u–r–e–
+61 iform demon manches -> –i–f–o–r–m–d–e–m–o–n–m–a–n–c–h–e–s–
+62 remos levels musical -> –r–e–m–o–s–l–e–v–e–l–s–m–u–s–i–c–a–l–
+63 fits anter doga -> –f–i–t–s–a–n–t–e–r–d–o–g–a–
+64 ecer condu fertil -> –e–c–e–r–c–o–n–d–u–f–e–r–t–i–l–
+65 bid adot toto -> –b–i–d–a–d–o–t–t–o–t–o–
+66 pron amie rote -> –p–r–o–n–a–m–i–e–r–o–t–e–
+67 jeni pipeline sk -> –j–e–n–i–p–i–p–e–l–i–n–e–s–k–
+68 ri duro scars -> –r–i–d–u–r–o–s–c–a–r–s–
+69 lating costume promo -> –l–a–t–i–n–g–c–o–s–t–u–m–e–p–r–o–m–o–
+70 enta ancak grim -> –e–n–t–a–a–n–c–a–k–g–r–i–m–
+71 hn heavily vaix -> –h–n–h–e–a–v–i–l–y–v–a–i–x–
+72 eks vale layers -> –e–k–s–v–a–l–e–l–a–y–e–r–s–
+73 aneiro binds compuls -> –a–n–e–i–r–o–b–i–n–d–s–c–o–m–p–u–l–s–
+74 ikt kategor geeignet -> –i–k–t–k–a–t–e–g–o–r–g–e–e–i–g–n–e–t–
+75 uvad artisti naked -> –u–v–a–d–a–r–t–i–s–t–i–n–a–k–e–d–
+76 mek puerto enda -> –m–e–k–p–u–e–r–t–o–e–n–d–a–
+77 elor actifs mismo -> –e–l–o–r–a–c–t–i–f–s–m–i–s–m–o–
+78 itettiin triun iris -> –i–t–e–t–t–i–i–n–t–r–i–u–n–i–r–i–s–
+79 sp commis camp -> –s–p–c–o–m–m–i–s–c–a–m–p–
+80 windows prije camiseta -> –w–i–n–d–o–w–s–p–r–i–j–e–c–a–m–i–s–e–t–a–
+81 yni cc limitado -> –y–n–i–c–c–l–i–m–i–t–a–d–o–
+82 agrama infant obyvatel -> –a–g–r–a–m–a–i–n–f–a–n–t–o–b–y–v–a–t–e–l–
+83 ystems pathogen dejado -> –y–s–t–e–m–s–p–a–t–h–o–g–e–n–d–e–j–a–d–o–
+84 deks ancest booster -> –d–e–k–s–a–n–c–e–s–t–b–o–o–s–t–e–r–
+85 total elapsed uprising -> –t–o–t–a–l–e–l–a–p–s–e–d–u–p–r–i–s–i–n–g–
+86 enaire zon opper -> –e–n–a–i–r–e–z–o–n–o–p–p–e–r–
+87 ayt metais edema -> –a–y–t–m–e–t–a–i–s–e–d–e–m–a–
+88 teg widers parte -> –t–e–g–w–i–d–e–r–s–p–a–r–t–e–
+89 chine parten luoghi -> –c–h–i–n–e–p–a–r–t–e–n–l–u–o–g–h–i–
+90 bygg fid foron -> –b–y–g–g–f–i–d–f–o–r–o–n–
+91 atifs lists bera -> –a–t–i–f–s–l–i–s–t–s–b–e–r–a–
+92 idden moust continue -> –i–d–d–e–n–m–o–u–s–t–c–o–n–t–i–n–u–e–
+93 ichtig deter pove -> –i–c–h–t–i–g–d–e–t–e–r–p–o–v–e–
+94 itet halve courant -> –i–t–e–t–h–a–l–v–e–c–o–u–r–a–n–t–
+95 opia friendly yarn -> –o–p–i–a–f–r–i–e–n–d–l–y–y–a–r–n–
+96 hetical defended metap -> –h–e–t–i–c–a–l–d–e–f–e–n–d–e–d–m–e–t–a–p–
+97 uximab logement algunes -> –u–x–i–m–a–b–l–o–g–e–m–e–n–t–a–l–g–u–n–e–s–
+98 eszt etti ciencia -> –e–s–z–t–e–t–t–i–c–i–e–n–c–i–a–
+99 icl nagus estou -> –i–c–l–n–a–g–u–s–e–s–t–o–u–

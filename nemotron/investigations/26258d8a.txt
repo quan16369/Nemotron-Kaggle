@@ -1,0 +1,29 @@
+problem id: 26258d8a
+category: cryptarithm_deduce
+
+symbol-to-digit mapping:
+  '$' = 5
+  '&' = 0
+  '(' = 8
+  '<' = 3
+  '?' = 4
+  '@' = 6
+  '[' = 7
+  '\\' = 1
+  '^' = 9
+  '}' = 2
+
+operator-to-operation mapping:
+  '*' = mul
+  '-' = abs_diff
+
+examples:
+  @^*}? = \@$@  =>  69 * 24 = 1656
+  }@*}^ = [$?  =>  26 * 29 = 754
+  \@*?( = [@(  =>  16 * 48 = 768
+  ?@-}@ = }&  =>  |46 - 26| = 20
+  }$-$( = <<  =>  |25 - 58| = 33
+
+query: ^&-^^  =>  |90 - 99| = 9
+
+predicted answer: ^

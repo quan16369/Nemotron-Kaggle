@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 izace konci jum
+01 accuracy rc female
+02 ierend desn aeronave
+
+This is a sample output.
+00 izace konci jum -> –i–z–a–c–e–k–o–n–c–i–j–u–m–
+01 accuracy rc female -> –a–c–c–u–r–a–c–y–r–c–f–e–m–a–l–e–
+02 ierend desn aeronave -> –i–e–r–e–n–d–d–e–s–n–a–e–r–o–n–a–v–e–
+
+This is your input.
+00 modifier valet cotton
+01 odore lun genere
+02 okra mindre monks
+03 ayar marker emphas
+04 lect titres trabajar
+05 inii oorlog reina
+06 provided kull konstant
+07 ilities pin pesso
+08 aktoren funds grades
+09 ierz fum sze
+10 frey detr promises
+11 emiah math stan
+12 assay zet answers
+13 vdots oblig sights
+14 cillors hints acetic
+15 bles dyes bedre
+16 fford headers hohe
+17 ardt chaude colonia
+18 ceres erweit scu
+19 gol toujours reichte
+20 ltal entour katal
+21 ignac groot ust
+22 utdown shelter steht
+23 emi acord voie
+24 panies vond hund
+25 optotic medias blij
+26 rennt chirurg sailed
+27 iture graphic usa
+28 ambique pai derrot
+29 umul garage sadly
+30 igible header jedynie
+31 amage marcador relieved
+32 essor immobil poul
+33 ocker fragte ikke
+34 contacts temple sb
+35 mitglied opus concret
+36 letzt deaf glanced
+37 buffer fragile minu
+38 ohner positive montant
+39 etrics shouting parfois
+40 nete tamm hisob
+41 heimer aviation magaz
+42 aciju mediate propriet
+43 visions scratch comune
+44 mult strang lights
+45 stoffe ingur prosince
+46 lj pkt penal
+47 xl torres coils
+48 getti izv flota
+49 editor acred numerose
+50 tl colorful rivals
+51 ueblo ayr psychic
+52 vra noms pierwsze
+53 acienda reparto cir
+54 jata trailing salle
+55 cep konser vielen
+56 ancel derfor interim
+57 ulie unlike boron
+58 zav fuese cavity
+59 itzada cottage vingt
+60 alik aid somebody
+61 etzung headed type
+62 brella mau escuelas
+63 ists byl pillow
+64 reter novelas manche
+65 auk eigenen jolie
+66 atzea delicate ekz
+67 ortium casts dp
+68 utility honey homb
+69 layers stress mua
+70 cznej stran hj
+71 ioxid bound uitge
+72 thread leagues sow
+73 itness stoj bonding
+74 rieben apos switched
+75 coll erstes red
+76 tf hydro phot
+77 setting dominate ascert
+78 idet dano odpowied
+79 action revel observar
+80 rimonio chairs bersama
+81 ouc reactor peaceful
+82 untu spacing tutorial
+83 chemas staan soccer
+84 popular encontr ferma
+85 reh gaming tea
+86 angular hepatic rr
+87 again agrup hiru
+88 verg protok sham
+89 orb vooral persuade
+90 aim one vierte
+91 redit joining junta
+92 oauth larg vest
+93 ouse cartel papers
+94 istica encaps canine
+95 grund juxt rosso
+96 resp pleased saya
+97 cn emple emotion
+98 eture remember tem
+99 emd deformed vine
+[completion]
+00 modifier valet cotton -> –m–o–d–i–f–i–e–r–v–a–l–e–t–c–o–t–t–o–n–
+01 odore lun genere -> –o–d–o–r–e–l–u–n–g–e–n–e–r–e–
+02 okra mindre monks -> –o–k–r–a–m–i–n–d–r–e–m–o–n–k–s–
+03 ayar marker emphas -> –a–y–a–r–m–a–r–k–e–r–e–m–p–h–a–s–
+04 lect titres trabajar -> –l–e–c–t–t–i–t–r–e–s–t–r–a–b–a–j–a–r–
+05 inii oorlog reina -> –i–n–i–i–o–o–r–l–o–g–r–e–i–n–a–
+06 provided kull konstant -> –p–r–o–v–i–d–e–d–k–u–l–l–k–o–n–s–t–a–n–t–
+07 ilities pin pesso -> –i–l–i–t–i–e–s–p–i–n–p–e–s–s–o–
+08 aktoren funds grades -> –a–k–t–o–r–e–n–f–u–n–d–s–g–r–a–d–e–s–
+09 ierz fum sze -> –i–e–r–z–f–u–m–s–z–e–
+10 frey detr promises -> –f–r–e–y–d–e–t–r–p–r–o–m–i–s–e–s–
+11 emiah math stan -> –e–m–i–a–h–m–a–t–h–s–t–a–n–
+12 assay zet answers -> –a–s–s–a–y–z–e–t–a–n–s–w–e–r–s–
+13 vdots oblig sights -> –v–d–o–t–s–o–b–l–i–g–s–i–g–h–t–s–
+14 cillors hints acetic -> –c–i–l–l–o–r–s–h–i–n–t–s–a–c–e–t–i–c–
+15 bles dyes bedre -> –b–l–e–s–d–y–e–s–b–e–d–r–e–
+16 fford headers hohe -> –f–f–o–r–d–h–e–a–d–e–r–s–h–o–h–e–
+17 ardt chaude colonia -> –a–r–d–t–c–h–a–u–d–e–c–o–l–o–n–i–a–
+18 ceres erweit scu -> –c–e–r–e–s–e–r–w–e–i–t–s–c–u–
+19 gol toujours reichte -> –g–o–l–t–o–u–j–o–u–r–s–r–e–i–c–h–t–e–
+20 ltal entour katal -> –l–t–a–l–e–n–t–o–u–r–k–a–t–a–l–
+21 ignac groot ust -> –i–g–n–a–c–g–r–o–o–t–u–s–t–
+22 utdown shelter steht -> –u–t–d–o–w–n–s–h–e–l–t–e–r–s–t–e–h–t–
+23 emi acord voie -> –e–m–i–a–c–o–r–d–v–o–i–e–
+24 panies vond hund -> –p–a–n–i–e–s–v–o–n–d–h–u–n–d–
+25 optotic medias blij -> –o–p–t–o–t–i–c–m–e–d–i–a–s–b–l–i–j–
+26 rennt chirurg sailed -> –r–e–n–n–t–c–h–i–r–u–r–g–s–a–i–l–e–d–
+27 iture graphic usa -> –i–t–u–r–e–g–r–a–p–h–i–c–u–s–a–
+28 ambique pai derrot -> –a–m–b–i–q–u–e–p–a–i–d–e–r–r–o–t–
+29 umul garage sadly -> –u–m–u–l–g–a–r–a–g–e–s–a–d–l–y–
+30 igible header jedynie -> –i–g–i–b–l–e–h–e–a–d–e–r–j–e–d–y–n–i–e–
+31 amage marcador relieved -> –a–m–a–g–e–m–a–r–c–a–d–o–r–r–e–l–i–e–v–e–d–
+32 essor immobil poul -> –e–s–s–o–r–i–m–m–o–b–i–l–p–o–u–l–
+33 ocker fragte ikke -> –o–c–k–e–r–f–r–a–g–t–e–i–k–k–e–
+34 contacts temple sb -> –c–o–n–t–a–c–t–s–t–e–m–p–l–e–s–b–
+35 mitglied opus concret -> –m–i–t–g–l–i–e–d–o–p–u–s–c–o–n–c–r–e–t–
+36 letzt deaf glanced -> –l–e–t–z–t–d–e–a–f–g–l–a–n–c–e–d–
+37 buffer fragile minu -> –b–u–f–f–e–r–f–r–a–g–i–l–e–m–i–n–u–
+38 ohner positive montant -> –o–h–n–e–r–p–o–s–i–t–i–v–e–m–o–n–t–a–n–t–
+39 etrics shouting parfois -> –e–t–r–i–c–s–s–h–o–u–t–i–n–g–p–a–r–f–o–i–s–
+40 nete tamm hisob -> –n–e–t–e–t–a–m–m–h–i–s–o–b–
+41 heimer aviation magaz -> –h–e–i–m–e–r–a–v–i–a–t–i–o–n–m–a–g–a–z–
+42 aciju mediate propriet -> –a–c–i–j–u–m–e–d–i–a–t–e–p–r–o–p–r–i–e–t–
+43 visions scratch comune -> –v–i–s–i–o–n–s–s–c–r–a–t–c–h–c–o–m–u–n–e–
+44 mult strang lights -> –m–u–l–t–s–t–r–a–n–g–l–i–g–h–t–s–
+45 stoffe ingur prosince -> –s–t–o–f–f–e–i–n–g–u–r–p–r–o–s–i–n–c–e–
+46 lj pkt penal -> –l–j–p–k–t–p–e–n–a–l–
+47 xl torres coils -> –x–l–t–o–r–r–e–s–c–o–i–l–s–
+48 getti izv flota -> –g–e–t–t–i–i–z–v–f–l–o–t–a–
+49 editor acred numerose -> –e–d–i–t–o–r–a–c–r–e–d–n–u–m–e–r–o–s–e–
+50 tl colorful rivals -> –t–l–c–o–l–o–r–f–u–l–r–i–v–a–l–s–
+51 ueblo ayr psychic -> –u–e–b–l–o–a–y–r–p–s–y–c–h–i–c–
+52 vra noms pierwsze -> –v–r–a–n–o–m–s–p–i–e–r–w–s–z–e–
+53 acienda reparto cir -> –a–c–i–e–n–d–a–r–e–p–a–r–t–o–c–i–r–
+54 jata trailing salle -> –j–a–t–a–t–r–a–i–l–i–n–g–s–a–l–l–e–
+55 cep konser vielen -> –c–e–p–k–o–n–s–e–r–v–i–e–l–e–n–
+56 ancel derfor interim -> –a–n–c–e–l–d–e–r–f–o–r–i–n–t–e–r–i–m–
+57 ulie unlike boron -> –u–l–i–e–u–n–l–i–k–e–b–o–r–o–n–
+58 zav fuese cavity -> –z–a–v–f–u–e–s–e–c–a–v–i–t–y–
+59 itzada cottage vingt -> –i–t–z–a–d–a–c–o–t–t–a–g–e–v–i–n–g–t–
+60 alik aid somebody -> –a–l–i–k–a–i–d–s–o–m–e–b–o–d–y–
+61 etzung headed type -> –e–t–z–u–n–g–h–e–a–d–e–d–t–y–p–e–
+62 brella mau escuelas -> –b–r–e–l–l–a–m–a–u–e–s–c–u–e–l–a–s–
+63 ists byl pillow -> –i–s–t–s–b–y–l–p–i–l–l–o–w–
+64 reter novelas manche -> –r–e–t–e–r–n–o–v–e–l–a–s–m–a–n–c–h–e–
+65 auk eigenen jolie -> –a–u–k–e–i–g–e–n–e–n–j–o–l–i–e–
+66 atzea delicate ekz -> –a–t–z–e–a–d–e–l–i–c–a–t–e–e–k–z–
+67 ortium casts dp -> –o–r–t–i–u–m–c–a–s–t–s–d–p–
+68 utility honey homb -> –u–t–i–l–i–t–y–h–o–n–e–y–h–o–m–b–
+69 layers stress mua -> –l–a–y–e–r–s–s–t–r–e–s–s–m–u–a–
+70 cznej stran hj -> –c–z–n–e–j–s–t–r–a–n–h–j–
+71 ioxid bound uitge -> –i–o–x–i–d–b–o–u–n–d–u–i–t–g–e–
+72 thread leagues sow -> –t–h–r–e–a–d–l–e–a–g–u–e–s–s–o–w–
+73 itness stoj bonding -> –i–t–n–e–s–s–s–t–o–j–b–o–n–d–i–n–g–
+74 rieben apos switched -> –r–i–e–b–e–n–a–p–o–s–s–w–i–t–c–h–e–d–
+75 coll erstes red -> –c–o–l–l–e–r–s–t–e–s–r–e–d–
+76 tf hydro phot -> –t–f–h–y–d–r–o–p–h–o–t–
+77 setting dominate ascert -> –s–e–t–t–i–n–g–d–o–m–i–n–a–t–e–a–s–c–e–r–t–
+78 idet dano odpowied -> –i–d–e–t–d–a–n–o–o–d–p–o–w–i–e–d–
+79 action revel observar -> –a–c–t–i–o–n–r–e–v–e–l–o–b–s–e–r–v–a–r–
+80 rimonio chairs bersama -> –r–i–m–o–n–i–o–c–h–a–i–r–s–b–e–r–s–a–m–a–
+81 ouc reactor peaceful -> –o–u–c–r–e–a–c–t–o–r–p–e–a–c–e–f–u–l–
+82 untu spacing tutorial -> –u–n–t–u–s–p–a–c–i–n–g–t–u–t–o–r–i–a–l–
+83 chemas staan soccer -> –c–h–e–m–a–s–s–t–a–a–n–s–o–c–c–e–r–
+84 popular encontr ferma -> –p–o–p–u–l–a–r–e–n–c–o–n–t–r–f–e–r–m–a–
+85 reh gaming tea -> –r–e–h–g–a–m–i–n–g–t–e–a–
+86 angular hepatic rr -> –a–n–g–u–l–a–r–h–e–p–a–t–i–c–r–r–
+87 again agrup hiru -> –a–g–a–i–n–a–g–r–u–p–h–i–r–u–
+88 verg protok sham -> –v–e–r–g–p–r–o–t–o–k–s–h–a–m–
+89 orb vooral persuade -> –o–r–b–v–o–o–r–a–l–p–e–r–s–u–a–d–e–
+90 aim one vierte -> –a–i–m–o–n–e–v–i–e–r–t–e–
+91 redit joining junta -> –r–e–d–i–t–j–o–i–n–i–n–g–j–u–n–t–a–
+92 oauth larg vest -> –o–a–u–t–h–l–a–r–g–v–e–s–t–
+93 ouse cartel papers -> –o–u–s–e–c–a–r–t–e–l–p–a–p–e–r–s–
+94 istica encaps canine -> –i–s–t–i–c–a–e–n–c–a–p–s–c–a–n–i–n–e–
+95 grund juxt rosso -> –g–r–u–n–d–j–u–x–t–r–o–s–s–o–
+96 resp pleased saya -> –r–e–s–p–p–l–e–a–s–e–d–s–a–y–a–
+97 cn emple emotion -> –c–n–e–m–p–l–e–e–m–o–t–i–o–n–
+98 eture remember tem -> –e–t–u–r–e–r–e–m–e–m–b–e–r–t–e–m–
+99 emd deformed vine -> –e–m–d–d–e–f–o–r–m–e–d–v–i–n–e–

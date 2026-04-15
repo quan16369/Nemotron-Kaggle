@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 aturday all fair
+01 agger newsp cual
+02 uant iy faction
+
+This is a sample output.
+00 aturday all fair -> –a–t–u–r–d–a–y–a–l–l–f–a–i–r–
+01 agger newsp cual -> –a–g–g–e–r–n–e–w–s–p–c–u–a–l–
+02 uant iy faction -> –u–a–n–t–i–y–f–a–c–t–i–o–n–
+
+This is your input.
+00 wohnern origem derive
+01 nait pointer regular
+02 adelphia kidding partea
+03 sg himself cares
+04 ison disco karma
+05 chars spo injust
+06 oupil zde tuv
+07 zyn hashed repair
+08 iaren seiz nickname
+09 illait dress mentions
+10 mathcal courants packing
+11 iefs bas bedside
+12 axy glowing izl
+13 forward corpor estudi
+14 ranial offender sebel
+15 acob pleasant zona
+16 lain impre qui
+17 yp schle elegante
+18 ners on befind
+19 omerase adjoint mellett
+20 izin policial smear
+21 elles disqual padd
+22 atih beendete fiume
+23 iedade owing arbet
+24 segu resins breast
+25 result deset teat
+26 ampa pepper sweet
+27 threads haz centered
+28 eturn casar traite
+29 ierd tracking enfoque
+30 unks upstairs bleef
+31 zeniu conduct slap
+32 object tog stimm
+33 split ocorre experts
+34 cze graphics ronda
+35 fall paddle gener
+36 orce conne legs
+37 agonal phantom inactive
+38 quo tiene dama
+39 tei auditory gluc
+40 ziehung kontrol sug
+41 nl proporc dark
+42 nome workflow schmal
+43 usti tierras enjoys
+44 west aprob vader
+45 arena twee abscess
+46 oney invalid coupled
+47 ermann interne boring
+48 though clenched beginnen
+49 schaften sensit sangre
+50 receive connue preserv
+51 immung accords cyst
+52 stander prompted experi
+53 voice insiste instit
+54 usunda primo shipping
+55 aufen dome bisher
+56 ren domingo valore
+57 unca by inspire
+58 ariam pursue used
+59 ridge cell risult
+60 inkan summoned pleurer
+61 oux foren kezd
+62 odin costru antid
+63 wh franch predicts
+64 bogen century aryl
+65 old duquel lymphoma
+66 derick belg niz
+67 weist donc passando
+68 ini aliment empf
+69 castle loup modeste
+70 powered recomp refriger
+71 uva restante igjen
+72 aches stranded das
+73 mail pierw vents
+74 uasa kad ding
+75 anos hp terrest
+76 zeuge portent granda
+77 queue regimes skilled
+78 oms marca trapping
+79 ayload lascia fuentes
+80 idge einer gold
+81 baik easier aasta
+82 tras homes brukt
+83 ubre opp oscuro
+84 fold usages sponsor
+85 aster gabe prohibit
+86 assung mod keluarga
+87 arl seated publiko
+88 idig mov dat
+89 ederung samol jazz
+90 yny przyst stup
+91 isty doubled spots
+92 ulle cler empleado
+93 oxia centr izan
+94 illeurs utility avent
+95 atua generals taip
+96 hardt nes chambre
+97 ozygous heard immobili
+98 umatic italiana korun
+99 xin publi dispens
+[completion]
+00 wohnern origem derive -> –w–o–h–n–e–r–n–o–r–i–g–e–m–d–e–r–i–v–e–
+01 nait pointer regular -> –n–a–i–t–p–o–i–n–t–e–r–r–e–g–u–l–a–r–
+02 adelphia kidding partea -> –a–d–e–l–p–h–i–a–k–i–d–d–i–n–g–p–a–r–t–e–a–
+03 sg himself cares -> –s–g–h–i–m–s–e–l–f–c–a–r–e–s–
+04 ison disco karma -> –i–s–o–n–d–i–s–c–o–k–a–r–m–a–
+05 chars spo injust -> –c–h–a–r–s–s–p–o–i–n–j–u–s–t–
+06 oupil zde tuv -> –o–u–p–i–l–z–d–e–t–u–v–
+07 zyn hashed repair -> –z–y–n–h–a–s–h–e–d–r–e–p–a–i–r–
+08 iaren seiz nickname -> –i–a–r–e–n–s–e–i–z–n–i–c–k–n–a–m–e–
+09 illait dress mentions -> –i–l–l–a–i–t–d–r–e–s–s–m–e–n–t–i–o–n–s–
+10 mathcal courants packing -> –m–a–t–h–c–a–l–c–o–u–r–a–n–t–s–p–a–c–k–i–n–g–
+11 iefs bas bedside -> –i–e–f–s–b–a–s–b–e–d–s–i–d–e–
+12 axy glowing izl -> –a–x–y–g–l–o–w–i–n–g–i–z–l–
+13 forward corpor estudi -> –f–o–r–w–a–r–d–c–o–r–p–o–r–e–s–t–u–d–i–
+14 ranial offender sebel -> –r–a–n–i–a–l–o–f–f–e–n–d–e–r–s–e–b–e–l–
+15 acob pleasant zona -> –a–c–o–b–p–l–e–a–s–a–n–t–z–o–n–a–
+16 lain impre qui -> –l–a–i–n–i–m–p–r–e–q–u–i–
+17 yp schle elegante -> –y–p–s–c–h–l–e–e–l–e–g–a–n–t–e–
+18 ners on befind -> –n–e–r–s–o–n–b–e–f–i–n–d–
+19 omerase adjoint mellett -> –o–m–e–r–a–s–e–a–d–j–o–i–n–t–m–e–l–l–e–t–t–
+20 izin policial smear -> –i–z–i–n–p–o–l–i–c–i–a–l–s–m–e–a–r–
+21 elles disqual padd -> –e–l–l–e–s–d–i–s–q–u–a–l–p–a–d–d–
+22 atih beendete fiume -> –a–t–i–h–b–e–e–n–d–e–t–e–f–i–u–m–e–
+23 iedade owing arbet -> –i–e–d–a–d–e–o–w–i–n–g–a–r–b–e–t–
+24 segu resins breast -> –s–e–g–u–r–e–s–i–n–s–b–r–e–a–s–t–
+25 result deset teat -> –r–e–s–u–l–t–d–e–s–e–t–t–e–a–t–
+26 ampa pepper sweet -> –a–m–p–a–p–e–p–p–e–r–s–w–e–e–t–
+27 threads haz centered -> –t–h–r–e–a–d–s–h–a–z–c–e–n–t–e–r–e–d–
+28 eturn casar traite -> –e–t–u–r–n–c–a–s–a–r–t–r–a–i–t–e–
+29 ierd tracking enfoque -> –i–e–r–d–t–r–a–c–k–i–n–g–e–n–f–o–q–u–e–
+30 unks upstairs bleef -> –u–n–k–s–u–p–s–t–a–i–r–s–b–l–e–e–f–
+31 zeniu conduct slap -> –z–e–n–i–u–c–o–n–d–u–c–t–s–l–a–p–
+32 object tog stimm -> –o–b–j–e–c–t–t–o–g–s–t–i–m–m–
+33 split ocorre experts -> –s–p–l–i–t–o–c–o–r–r–e–e–x–p–e–r–t–s–
+34 cze graphics ronda -> –c–z–e–g–r–a–p–h–i–c–s–r–o–n–d–a–
+35 fall paddle gener -> –f–a–l–l–p–a–d–d–l–e–g–e–n–e–r–
+36 orce conne legs -> –o–r–c–e–c–o–n–n–e–l–e–g–s–
+37 agonal phantom inactive -> –a–g–o–n–a–l–p–h–a–n–t–o–m–i–n–a–c–t–i–v–e–
+38 quo tiene dama -> –q–u–o–t–i–e–n–e–d–a–m–a–
+39 tei auditory gluc -> –t–e–i–a–u–d–i–t–o–r–y–g–l–u–c–
+40 ziehung kontrol sug -> –z–i–e–h–u–n–g–k–o–n–t–r–o–l–s–u–g–
+41 nl proporc dark -> –n–l–p–r–o–p–o–r–c–d–a–r–k–
+42 nome workflow schmal -> –n–o–m–e–w–o–r–k–f–l–o–w–s–c–h–m–a–l–
+43 usti tierras enjoys -> –u–s–t–i–t–i–e–r–r–a–s–e–n–j–o–y–s–
+44 west aprob vader -> –w–e–s–t–a–p–r–o–b–v–a–d–e–r–
+45 arena twee abscess -> –a–r–e–n–a–t–w–e–e–a–b–s–c–e–s–s–
+46 oney invalid coupled -> –o–n–e–y–i–n–v–a–l–i–d–c–o–u–p–l–e–d–
+47 ermann interne boring -> –e–r–m–a–n–n–i–n–t–e–r–n–e–b–o–r–i–n–g–
+48 though clenched beginnen -> –t–h–o–u–g–h–c–l–e–n–c–h–e–d–b–e–g–i–n–n–e–n–
+49 schaften sensit sangre -> –s–c–h–a–f–t–e–n–s–e–n–s–i–t–s–a–n–g–r–e–
+50 receive connue preserv -> –r–e–c–e–i–v–e–c–o–n–n–u–e–p–r–e–s–e–r–v–
+51 immung accords cyst -> –i–m–m–u–n–g–a–c–c–o–r–d–s–c–y–s–t–
+52 stander prompted experi -> –s–t–a–n–d–e–r–p–r–o–m–p–t–e–d–e–x–p–e–r–i–
+53 voice insiste instit -> –v–o–i–c–e–i–n–s–i–s–t–e–i–n–s–t–i–t–
+54 usunda primo shipping -> –u–s–u–n–d–a–p–r–i–m–o–s–h–i–p–p–i–n–g–
+55 aufen dome bisher -> –a–u–f–e–n–d–o–m–e–b–i–s–h–e–r–
+56 ren domingo valore -> –r–e–n–d–o–m–i–n–g–o–v–a–l–o–r–e–
+57 unca by inspire -> –u–n–c–a–b–y–i–n–s–p–i–r–e–
+58 ariam pursue used -> –a–r–i–a–m–p–u–r–s–u–e–u–s–e–d–
+59 ridge cell risult -> –r–i–d–g–e–c–e–l–l–r–i–s–u–l–t–
+60 inkan summoned pleurer -> –i–n–k–a–n–s–u–m–m–o–n–e–d–p–l–e–u–r–e–r–
+61 oux foren kezd -> –o–u–x–f–o–r–e–n–k–e–z–d–
+62 odin costru antid -> –o–d–i–n–c–o–s–t–r–u–a–n–t–i–d–
+63 wh franch predicts -> –w–h–f–r–a–n–c–h–p–r–e–d–i–c–t–s–
+64 bogen century aryl -> –b–o–g–e–n–c–e–n–t–u–r–y–a–r–y–l–
+65 old duquel lymphoma -> –o–l–d–d–u–q–u–e–l–l–y–m–p–h–o–m–a–
+66 derick belg niz -> –d–e–r–i–c–k–b–e–l–g–n–i–z–
+67 weist donc passando -> –w–e–i–s–t–d–o–n–c–p–a–s–s–a–n–d–o–
+68 ini aliment empf -> –i–n–i–a–l–i–m–e–n–t–e–m–p–f–
+69 castle loup modeste -> –c–a–s–t–l–e–l–o–u–p–m–o–d–e–s–t–e–
+70 powered recomp refriger -> –p–o–w–e–r–e–d–r–e–c–o–m–p–r–e–f–r–i–g–e–r–
+71 uva restante igjen -> –u–v–a–r–e–s–t–a–n–t–e–i–g–j–e–n–
+72 aches stranded das -> –a–c–h–e–s–s–t–r–a–n–d–e–d–d–a–s–
+73 mail pierw vents -> –m–a–i–l–p–i–e–r–w–v–e–n–t–s–
+74 uasa kad ding -> –u–a–s–a–k–a–d–d–i–n–g–
+75 anos hp terrest -> –a–n–o–s–h–p–t–e–r–r–e–s–t–
+76 zeuge portent granda -> –z–e–u–g–e–p–o–r–t–e–n–t–g–r–a–n–d–a–
+77 queue regimes skilled -> –q–u–e–u–e–r–e–g–i–m–e–s–s–k–i–l–l–e–d–
+78 oms marca trapping -> –o–m–s–m–a–r–c–a–t–r–a–p–p–i–n–g–
+79 ayload lascia fuentes -> –a–y–l–o–a–d–l–a–s–c–i–a–f–u–e–n–t–e–s–
+80 idge einer gold -> –i–d–g–e–e–i–n–e–r–g–o–l–d–
+81 baik easier aasta -> –b–a–i–k–e–a–s–i–e–r–a–a–s–t–a–
+82 tras homes brukt -> –t–r–a–s–h–o–m–e–s–b–r–u–k–t–
+83 ubre opp oscuro -> –u–b–r–e–o–p–p–o–s–c–u–r–o–
+84 fold usages sponsor -> –f–o–l–d–u–s–a–g–e–s–s–p–o–n–s–o–r–
+85 aster gabe prohibit -> –a–s–t–e–r–g–a–b–e–p–r–o–h–i–b–i–t–
+86 assung mod keluarga -> –a–s–s–u–n–g–m–o–d–k–e–l–u–a–r–g–a–
+87 arl seated publiko -> –a–r–l–s–e–a–t–e–d–p–u–b–l–i–k–o–
+88 idig mov dat -> –i–d–i–g–m–o–v–d–a–t–
+89 ederung samol jazz -> –e–d–e–r–u–n–g–s–a–m–o–l–j–a–z–z–
+90 yny przyst stup -> –y–n–y–p–r–z–y–s–t–s–t–u–p–
+91 isty doubled spots -> –i–s–t–y–d–o–u–b–l–e–d–s–p–o–t–s–
+92 ulle cler empleado -> –u–l–l–e–c–l–e–r–e–m–p–l–e–a–d–o–
+93 oxia centr izan -> –o–x–i–a–c–e–n–t–r–i–z–a–n–
+94 illeurs utility avent -> –i–l–l–e–u–r–s–u–t–i–l–i–t–y–a–v–e–n–t–
+95 atua generals taip -> –a–t–u–a–g–e–n–e–r–a–l–s–t–a–i–p–
+96 hardt nes chambre -> –h–a–r–d–t–n–e–s–c–h–a–m–b–r–e–
+97 ozygous heard immobili -> –o–z–y–g–o–u–s–h–e–a–r–d–i–m–m–o–b–i–l–i–
+98 umatic italiana korun -> –u–m–a–t–i–c–i–t–a–l–i–a–n–a–k–o–r–u–n–
+99 xin publi dispens -> –x–i–n–p–u–b–l–i–d–i–s–p–e–n–s–

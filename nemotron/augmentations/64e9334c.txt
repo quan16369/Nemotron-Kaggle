@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 ovit vides themes
+01 acetate sencillo automot
+02 isas sekret count
+
+This is a sample output.
+00 ovit vides themes -> –o–v–i–t–v–i–d–e–s–t–h–e–m–e–s–
+01 acetate sencillo automot -> –a–c–e–t–a–t–e–s–e–n–c–i–l–l–o–a–u–t–o–m–o–t–
+02 isas sekret count -> –i–s–a–s–s–e–k–r–e–t–c–o–u–n–t–
+
+This is your input.
+00 gaben telep research
+01 werks pent shro
+02 richt coca partes
+03 azi rotation activate
+04 ed aguas explores
+05 asie menye equipes
+06 ivano svem latch
+07 rom pushed fonds
+08 flamm pressure jako
+09 fatt ihr activism
+10 group folding contacts
+11 adro leuk smiling
+12 pending ramas ribs
+13 otype soli sistema
+14 istencia memor fran
+15 amat officers migr
+16 elerin enceinte aleg
+17 git prennent refined
+18 works declar estrogen
+19 alan promover fir
+20 igator thriller veinte
+21 ocas ordonn retired
+22 ofi winked disgu
+23 bern som ger
+24 ighbors kleine mile
+25 erground reserva imag
+26 chanical terms moglie
+27 root ri bicy
+28 isses mais pitch
+29 ymal grunn riguarda
+30 menistan ausreich rutas
+31 itone unirse forgot
+32 opp sovint ega
+33 ozat seeds duten
+34 enses swings passe
+35 ijk volo textures
+36 harm amplic koal
+37 rew gli erfolgt
+38 sten wasted beaux
+39 zn erschien vast
+40 madan kast femmes
+41 atabase empath male
+42 rosso menyer illness
+43 mounted fight foy
+44 zing note romane
+45 mark prohib teki
+46 bishop intend blew
+47 blems filepath decide
+48 voit cercle dedos
+49 atient elim capable
+50 iline appended ayudar
+51 otta quinze accru
+52 yyyy detuvo mer
+53 ohlen vaga ferrovi
+54 voc snakes rist
+55 ird heavenly tested
+56 kk runners totes
+57 erint gegen assisted
+58 generic quien fading
+59 zoic izol mussten
+60 iff soon guar
+61 uck njegov in
+62 ields deriv ritmo
+63 projects bigarren minore
+64 annels vitamin klar
+65 vice spricht oc
+66 endt topl kend
+67 text lanean alley
+68 biotic dure tears
+69 tober hol zones
+70 ct erano lou
+71 indo gesche assum
+72 aps keer exhib
+73 illus pastor wegen
+74 paper realised wearing
+75 uduk avion removes
+76 compass times retornar
+77 deling careg acquires
+78 ceived that nau
+79 chart linger ocor
+80 rado aprove altos
+81 attro gost hacerlo
+82 binding gg lutte
+83 ogl forcibly solve
+84 mem giorni atteinte
+85 kers novel injector
+86 meister passages nazis
+87 jal variante analyzed
+88 ajima amenaza dismiss
+89 ietro fac size
+90 stav heritage jewel
+91 posite involunt asymmet
+92 istiin behind exige
+93 ela choses lowers
+94 prise strlen ee
+95 isted fierc karbon
+96 leading permite cromos
+97 ilib touk dosage
+98 ushing internas voces
+99 iegend resolved memo
+[completion]
+00 gaben telep research -> –g–a–b–e–n–t–e–l–e–p–r–e–s–e–a–r–c–h–
+01 werks pent shro -> –w–e–r–k–s–p–e–n–t–s–h–r–o–
+02 richt coca partes -> –r–i–c–h–t–c–o–c–a–p–a–r–t–e–s–
+03 azi rotation activate -> –a–z–i–r–o–t–a–t–i–o–n–a–c–t–i–v–a–t–e–
+04 ed aguas explores -> –e–d–a–g–u–a–s–e–x–p–l–o–r–e–s–
+05 asie menye equipes -> –a–s–i–e–m–e–n–y–e–e–q–u–i–p–e–s–
+06 ivano svem latch -> –i–v–a–n–o–s–v–e–m–l–a–t–c–h–
+07 rom pushed fonds -> –r–o–m–p–u–s–h–e–d–f–o–n–d–s–
+08 flamm pressure jako -> –f–l–a–m–m–p–r–e–s–s–u–r–e–j–a–k–o–
+09 fatt ihr activism -> –f–a–t–t–i–h–r–a–c–t–i–v–i–s–m–
+10 group folding contacts -> –g–r–o–u–p–f–o–l–d–i–n–g–c–o–n–t–a–c–t–s–
+11 adro leuk smiling -> –a–d–r–o–l–e–u–k–s–m–i–l–i–n–g–
+12 pending ramas ribs -> –p–e–n–d–i–n–g–r–a–m–a–s–r–i–b–s–
+13 otype soli sistema -> –o–t–y–p–e–s–o–l–i–s–i–s–t–e–m–a–
+14 istencia memor fran -> –i–s–t–e–n–c–i–a–m–e–m–o–r–f–r–a–n–
+15 amat officers migr -> –a–m–a–t–o–f–f–i–c–e–r–s–m–i–g–r–
+16 elerin enceinte aleg -> –e–l–e–r–i–n–e–n–c–e–i–n–t–e–a–l–e–g–
+17 git prennent refined -> –g–i–t–p–r–e–n–n–e–n–t–r–e–f–i–n–e–d–
+18 works declar estrogen -> –w–o–r–k–s–d–e–c–l–a–r–e–s–t–r–o–g–e–n–
+19 alan promover fir -> –a–l–a–n–p–r–o–m–o–v–e–r–f–i–r–
+20 igator thriller veinte -> –i–g–a–t–o–r–t–h–r–i–l–l–e–r–v–e–i–n–t–e–
+21 ocas ordonn retired -> –o–c–a–s–o–r–d–o–n–n–r–e–t–i–r–e–d–
+22 ofi winked disgu -> –o–f–i–w–i–n–k–e–d–d–i–s–g–u–
+23 bern som ger -> –b–e–r–n–s–o–m–g–e–r–
+24 ighbors kleine mile -> –i–g–h–b–o–r–s–k–l–e–i–n–e–m–i–l–e–
+25 erground reserva imag -> –e–r–g–r–o–u–n–d–r–e–s–e–r–v–a–i–m–a–g–
+26 chanical terms moglie -> –c–h–a–n–i–c–a–l–t–e–r–m–s–m–o–g–l–i–e–
+27 root ri bicy -> –r–o–o–t–r–i–b–i–c–y–
+28 isses mais pitch -> –i–s–s–e–s–m–a–i–s–p–i–t–c–h–
+29 ymal grunn riguarda -> –y–m–a–l–g–r–u–n–n–r–i–g–u–a–r–d–a–
+30 menistan ausreich rutas -> –m–e–n–i–s–t–a–n–a–u–s–r–e–i–c–h–r–u–t–a–s–
+31 itone unirse forgot -> –i–t–o–n–e–u–n–i–r–s–e–f–o–r–g–o–t–
+32 opp sovint ega -> –o–p–p–s–o–v–i–n–t–e–g–a–
+33 ozat seeds duten -> –o–z–a–t–s–e–e–d–s–d–u–t–e–n–
+34 enses swings passe -> –e–n–s–e–s–s–w–i–n–g–s–p–a–s–s–e–
+35 ijk volo textures -> –i–j–k–v–o–l–o–t–e–x–t–u–r–e–s–
+36 harm amplic koal -> –h–a–r–m–a–m–p–l–i–c–k–o–a–l–
+37 rew gli erfolgt -> –r–e–w–g–l–i–e–r–f–o–l–g–t–
+38 sten wasted beaux -> –s–t–e–n–w–a–s–t–e–d–b–e–a–u–x–
+39 zn erschien vast -> –z–n–e–r–s–c–h–i–e–n–v–a–s–t–
+40 madan kast femmes -> –m–a–d–a–n–k–a–s–t–f–e–m–m–e–s–
+41 atabase empath male -> –a–t–a–b–a–s–e–e–m–p–a–t–h–m–a–l–e–
+42 rosso menyer illness -> –r–o–s–s–o–m–e–n–y–e–r–i–l–l–n–e–s–s–
+43 mounted fight foy -> –m–o–u–n–t–e–d–f–i–g–h–t–f–o–y–
+44 zing note romane -> –z–i–n–g–n–o–t–e–r–o–m–a–n–e–
+45 mark prohib teki -> –m–a–r–k–p–r–o–h–i–b–t–e–k–i–
+46 bishop intend blew -> –b–i–s–h–o–p–i–n–t–e–n–d–b–l–e–w–
+47 blems filepath decide -> –b–l–e–m–s–f–i–l–e–p–a–t–h–d–e–c–i–d–e–
+48 voit cercle dedos -> –v–o–i–t–c–e–r–c–l–e–d–e–d–o–s–
+49 atient elim capable -> –a–t–i–e–n–t–e–l–i–m–c–a–p–a–b–l–e–
+50 iline appended ayudar -> –i–l–i–n–e–a–p–p–e–n–d–e–d–a–y–u–d–a–r–
+51 otta quinze accru -> –o–t–t–a–q–u–i–n–z–e–a–c–c–r–u–
+52 yyyy detuvo mer -> –y–y–y–y–d–e–t–u–v–o–m–e–r–
+53 ohlen vaga ferrovi -> –o–h–l–e–n–v–a–g–a–f–e–r–r–o–v–i–
+54 voc snakes rist -> –v–o–c–s–n–a–k–e–s–r–i–s–t–
+55 ird heavenly tested -> –i–r–d–h–e–a–v–e–n–l–y–t–e–s–t–e–d–
+56 kk runners totes -> –k–k–r–u–n–n–e–r–s–t–o–t–e–s–
+57 erint gegen assisted -> –e–r–i–n–t–g–e–g–e–n–a–s–s–i–s–t–e–d–
+58 generic quien fading -> –g–e–n–e–r–i–c–q–u–i–e–n–f–a–d–i–n–g–
+59 zoic izol mussten -> –z–o–i–c–i–z–o–l–m–u–s–s–t–e–n–
+60 iff soon guar -> –i–f–f–s–o–o–n–g–u–a–r–
+61 uck njegov in -> –u–c–k–n–j–e–g–o–v–i–n–
+62 ields deriv ritmo -> –i–e–l–d–s–d–e–r–i–v–r–i–t–m–o–
+63 projects bigarren minore -> –p–r–o–j–e–c–t–s–b–i–g–a–r–r–e–n–m–i–n–o–r–e–
+64 annels vitamin klar -> –a–n–n–e–l–s–v–i–t–a–m–i–n–k–l–a–r–
+65 vice spricht oc -> –v–i–c–e–s–p–r–i–c–h–t–o–c–
+66 endt topl kend -> –e–n–d–t–t–o–p–l–k–e–n–d–
+67 text lanean alley -> –t–e–x–t–l–a–n–e–a–n–a–l–l–e–y–
+68 biotic dure tears -> –b–i–o–t–i–c–d–u–r–e–t–e–a–r–s–
+69 tober hol zones -> –t–o–b–e–r–h–o–l–z–o–n–e–s–
+70 ct erano lou -> –c–t–e–r–a–n–o–l–o–u–
+71 indo gesche assum -> –i–n–d–o–g–e–s–c–h–e–a–s–s–u–m–
+72 aps keer exhib -> –a–p–s–k–e–e–r–e–x–h–i–b–
+73 illus pastor wegen -> –i–l–l–u–s–p–a–s–t–o–r–w–e–g–e–n–
+74 paper realised wearing -> –p–a–p–e–r–r–e–a–l–i–s–e–d–w–e–a–r–i–n–g–
+75 uduk avion removes -> –u–d–u–k–a–v–i–o–n–r–e–m–o–v–e–s–
+76 compass times retornar -> –c–o–m–p–a–s–s–t–i–m–e–s–r–e–t–o–r–n–a–r–
+77 deling careg acquires -> –d–e–l–i–n–g–c–a–r–e–g–a–c–q–u–i–r–e–s–
+78 ceived that nau -> –c–e–i–v–e–d–t–h–a–t–n–a–u–
+79 chart linger ocor -> –c–h–a–r–t–l–i–n–g–e–r–o–c–o–r–
+80 rado aprove altos -> –r–a–d–o–a–p–r–o–v–e–a–l–t–o–s–
+81 attro gost hacerlo -> –a–t–t–r–o–g–o–s–t–h–a–c–e–r–l–o–
+82 binding gg lutte -> –b–i–n–d–i–n–g–g–g–l–u–t–t–e–
+83 ogl forcibly solve -> –o–g–l–f–o–r–c–i–b–l–y–s–o–l–v–e–
+84 mem giorni atteinte -> –m–e–m–g–i–o–r–n–i–a–t–t–e–i–n–t–e–
+85 kers novel injector -> –k–e–r–s–n–o–v–e–l–i–n–j–e–c–t–o–r–
+86 meister passages nazis -> –m–e–i–s–t–e–r–p–a–s–s–a–g–e–s–n–a–z–i–s–
+87 jal variante analyzed -> –j–a–l–v–a–r–i–a–n–t–e–a–n–a–l–y–z–e–d–
+88 ajima amenaza dismiss -> –a–j–i–m–a–a–m–e–n–a–z–a–d–i–s–m–i–s–s–
+89 ietro fac size -> –i–e–t–r–o–f–a–c–s–i–z–e–
+90 stav heritage jewel -> –s–t–a–v–h–e–r–i–t–a–g–e–j–e–w–e–l–
+91 posite involunt asymmet -> –p–o–s–i–t–e–i–n–v–o–l–u–n–t–a–s–y–m–m–e–t–
+92 istiin behind exige -> –i–s–t–i–i–n–b–e–h–i–n–d–e–x–i–g–e–
+93 ela choses lowers -> –e–l–a–c–h–o–s–e–s–l–o–w–e–r–s–
+94 prise strlen ee -> –p–r–i–s–e–s–t–r–l–e–n–e–e–
+95 isted fierc karbon -> –i–s–t–e–d–f–i–e–r–c–k–a–r–b–o–n–
+96 leading permite cromos -> –l–e–a–d–i–n–g–p–e–r–m–i–t–e–c–r–o–m–o–s–
+97 ilib touk dosage -> –i–l–i–b–t–o–u–k–d–o–s–a–g–e–
+98 ushing internas voces -> –u–s–h–i–n–g–i–n–t–e–r–n–a–s–v–o–c–e–s–
+99 iegend resolved memo -> –i–e–g–e–n–d–r–e–s–o–l–v–e–d–m–e–m–o–

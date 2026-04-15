@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 ining injected frais
+01 lje annak wallet
+02 ynd obtuvo pinn
+
+This is a sample output.
+00 ining injected frais -> –i–n–i–n–g–i–n–j–e–c–t–e–d–f–r–a–i–s–
+01 lje annak wallet -> –l–j–e–a–n–n–a–k–w–a–l–l–e–t–
+02 ynd obtuvo pinn -> –y–n–d–o–b–t–u–v–o–p–i–n–n–
+
+This is your input.
+00 oub phim hanem
+01 ziger weil olduk
+02 osoph reviewed ehemal
+03 phis sharp metaph
+04 uscular really vrij
+05 ones prefs sche
+06 ilty bomba bet
+07 vus aficion tones
+08 imus externe hala
+09 anska endpoint publie
+10 kraft escape refuse
+11 oprop celles oito
+12 ounters judge bateau
+13 plot quinto bevor
+14 cephal santo menace
+15 velle summing fonction
+16 thing vz duque
+17 brahim crush tient
+18 nabla stret destacar
+19 ourg lengthy uman
+20 days poh besch
+21 ag soldier knots
+22 aja mixer arru
+23 chema rendered severed
+24 ulmonary dictated armas
+25 andy implies pip
+26 utations terminus todos
+27 elu gestion bree
+28 ratt doubts md
+29 irikan riots burns
+30 before emp assists
+31 bool tai seeded
+32 stehung cooking propio
+33 define sprintf entra
+34 ettes wyst confound
+35 anti omni lege
+36 antil foment obliv
+37 actory hers ocurrido
+38 ikka eighty mantener
+39 bilir surmont hills
+40 irebase circul biome
+41 clonal utilizar fury
+42 ima motion leak
+43 punk fasse ingred
+44 yos dokon straw
+45 apos yerine curric
+46 enia grada barcos
+47 adrat trabajos loving
+48 bestos irony cameo
+49 essional biology stored
+50 join payload pygame
+51 throp sempre farm
+52 rigen anomal criatura
+53 cursor subit wur
+54 rosse terapia grasses
+55 probe intentos entret
+56 hing plen question
+57 nia constate erro
+58 itre means subtype
+59 roy kand retirer
+60 neq asphalt newcom
+61 ecutor alerts bh
+62 omos cruel trainers
+63 queda erhob adat
+64 iant queues cong
+65 varande feit datang
+66 endif befindet reused
+67 iefert prospect deputy
+68 rebbe legy chem
+69 rains pup startete
+70 uerdo benzene skulle
+71 encer clicked tilbage
+72 antsesez bo patri
+73 ieben ejection hormonal
+74 meth begann tille
+75 inchi mines lacking
+76 logger ofici spelen
+77 dot adesso quantum
+78 rachen cliente tribu
+79 ovanja unsigned nhau
+80 emouth schloss paro
+81 reicher monsters ticks
+82 limited turbo pilot
+83 induced tyske ex
+84 enes induced dinosaur
+85 erst siamo cannabis
+86 ets trebu overall
+87 crumb massif trener
+88 enoord acquired fic
+89 rete compil pension
+90 cks venaient destruct
+91 vasion careers voile
+92 dw preved niveaux
+93 tez bew debt
+94 elfth plotting laws
+95 ighed ether tuned
+96 ivol estrelas gj
+97 umber escrit mina
+98 landaise sled hektarea
+99 ales mert gema
+[completion]
+00 oub phim hanem -> –o–u–b–p–h–i–m–h–a–n–e–m–
+01 ziger weil olduk -> –z–i–g–e–r–w–e–i–l–o–l–d–u–k–
+02 osoph reviewed ehemal -> –o–s–o–p–h–r–e–v–i–e–w–e–d–e–h–e–m–a–l–
+03 phis sharp metaph -> –p–h–i–s–s–h–a–r–p–m–e–t–a–p–h–
+04 uscular really vrij -> –u–s–c–u–l–a–r–r–e–a–l–l–y–v–r–i–j–
+05 ones prefs sche -> –o–n–e–s–p–r–e–f–s–s–c–h–e–
+06 ilty bomba bet -> –i–l–t–y–b–o–m–b–a–b–e–t–
+07 vus aficion tones -> –v–u–s–a–f–i–c–i–o–n–t–o–n–e–s–
+08 imus externe hala -> –i–m–u–s–e–x–t–e–r–n–e–h–a–l–a–
+09 anska endpoint publie -> –a–n–s–k–a–e–n–d–p–o–i–n–t–p–u–b–l–i–e–
+10 kraft escape refuse -> –k–r–a–f–t–e–s–c–a–p–e–r–e–f–u–s–e–
+11 oprop celles oito -> –o–p–r–o–p–c–e–l–l–e–s–o–i–t–o–
+12 ounters judge bateau -> –o–u–n–t–e–r–s–j–u–d–g–e–b–a–t–e–a–u–
+13 plot quinto bevor -> –p–l–o–t–q–u–i–n–t–o–b–e–v–o–r–
+14 cephal santo menace -> –c–e–p–h–a–l–s–a–n–t–o–m–e–n–a–c–e–
+15 velle summing fonction -> –v–e–l–l–e–s–u–m–m–i–n–g–f–o–n–c–t–i–o–n–
+16 thing vz duque -> –t–h–i–n–g–v–z–d–u–q–u–e–
+17 brahim crush tient -> –b–r–a–h–i–m–c–r–u–s–h–t–i–e–n–t–
+18 nabla stret destacar -> –n–a–b–l–a–s–t–r–e–t–d–e–s–t–a–c–a–r–
+19 ourg lengthy uman -> –o–u–r–g–l–e–n–g–t–h–y–u–m–a–n–
+20 days poh besch -> –d–a–y–s–p–o–h–b–e–s–c–h–
+21 ag soldier knots -> –a–g–s–o–l–d–i–e–r–k–n–o–t–s–
+22 aja mixer arru -> –a–j–a–m–i–x–e–r–a–r–r–u–
+23 chema rendered severed -> –c–h–e–m–a–r–e–n–d–e–r–e–d–s–e–v–e–r–e–d–
+24 ulmonary dictated armas -> –u–l–m–o–n–a–r–y–d–i–c–t–a–t–e–d–a–r–m–a–s–
+25 andy implies pip -> –a–n–d–y–i–m–p–l–i–e–s–p–i–p–
+26 utations terminus todos -> –u–t–a–t–i–o–n–s–t–e–r–m–i–n–u–s–t–o–d–o–s–
+27 elu gestion bree -> –e–l–u–g–e–s–t–i–o–n–b–r–e–e–
+28 ratt doubts md -> –r–a–t–t–d–o–u–b–t–s–m–d–
+29 irikan riots burns -> –i–r–i–k–a–n–r–i–o–t–s–b–u–r–n–s–
+30 before emp assists -> –b–e–f–o–r–e–e–m–p–a–s–s–i–s–t–s–
+31 bool tai seeded -> –b–o–o–l–t–a–i–s–e–e–d–e–d–
+32 stehung cooking propio -> –s–t–e–h–u–n–g–c–o–o–k–i–n–g–p–r–o–p–i–o–
+33 define sprintf entra -> –d–e–f–i–n–e–s–p–r–i–n–t–f–e–n–t–r–a–
+34 ettes wyst confound -> –e–t–t–e–s–w–y–s–t–c–o–n–f–o–u–n–d–
+35 anti omni lege -> –a–n–t–i–o–m–n–i–l–e–g–e–
+36 antil foment obliv -> –a–n–t–i–l–f–o–m–e–n–t–o–b–l–i–v–
+37 actory hers ocurrido -> –a–c–t–o–r–y–h–e–r–s–o–c–u–r–r–i–d–o–
+38 ikka eighty mantener -> –i–k–k–a–e–i–g–h–t–y–m–a–n–t–e–n–e–r–
+39 bilir surmont hills -> –b–i–l–i–r–s–u–r–m–o–n–t–h–i–l–l–s–
+40 irebase circul biome -> –i–r–e–b–a–s–e–c–i–r–c–u–l–b–i–o–m–e–
+41 clonal utilizar fury -> –c–l–o–n–a–l–u–t–i–l–i–z–a–r–f–u–r–y–
+42 ima motion leak -> –i–m–a–m–o–t–i–o–n–l–e–a–k–
+43 punk fasse ingred -> –p–u–n–k–f–a–s–s–e–i–n–g–r–e–d–
+44 yos dokon straw -> –y–o–s–d–o–k–o–n–s–t–r–a–w–
+45 apos yerine curric -> –a–p–o–s–y–e–r–i–n–e–c–u–r–r–i–c–
+46 enia grada barcos -> –e–n–i–a–g–r–a–d–a–b–a–r–c–o–s–
+47 adrat trabajos loving -> –a–d–r–a–t–t–r–a–b–a–j–o–s–l–o–v–i–n–g–
+48 bestos irony cameo -> –b–e–s–t–o–s–i–r–o–n–y–c–a–m–e–o–
+49 essional biology stored -> –e–s–s–i–o–n–a–l–b–i–o–l–o–g–y–s–t–o–r–e–d–
+50 join payload pygame -> –j–o–i–n–p–a–y–l–o–a–d–p–y–g–a–m–e–
+51 throp sempre farm -> –t–h–r–o–p–s–e–m–p–r–e–f–a–r–m–
+52 rigen anomal criatura -> –r–i–g–e–n–a–n–o–m–a–l–c–r–i–a–t–u–r–a–
+53 cursor subit wur -> –c–u–r–s–o–r–s–u–b–i–t–w–u–r–
+54 rosse terapia grasses -> –r–o–s–s–e–t–e–r–a–p–i–a–g–r–a–s–s–e–s–
+55 probe intentos entret -> –p–r–o–b–e–i–n–t–e–n–t–o–s–e–n–t–r–e–t–
+56 hing plen question -> –h–i–n–g–p–l–e–n–q–u–e–s–t–i–o–n–
+57 nia constate erro -> –n–i–a–c–o–n–s–t–a–t–e–e–r–r–o–
+58 itre means subtype -> –i–t–r–e–m–e–a–n–s–s–u–b–t–y–p–e–
+59 roy kand retirer -> –r–o–y–k–a–n–d–r–e–t–i–r–e–r–
+60 neq asphalt newcom -> –n–e–q–a–s–p–h–a–l–t–n–e–w–c–o–m–
+61 ecutor alerts bh -> –e–c–u–t–o–r–a–l–e–r–t–s–b–h–
+62 omos cruel trainers -> –o–m–o–s–c–r–u–e–l–t–r–a–i–n–e–r–s–
+63 queda erhob adat -> –q–u–e–d–a–e–r–h–o–b–a–d–a–t–
+64 iant queues cong -> –i–a–n–t–q–u–e–u–e–s–c–o–n–g–
+65 varande feit datang -> –v–a–r–a–n–d–e–f–e–i–t–d–a–t–a–n–g–
+66 endif befindet reused -> –e–n–d–i–f–b–e–f–i–n–d–e–t–r–e–u–s–e–d–
+67 iefert prospect deputy -> –i–e–f–e–r–t–p–r–o–s–p–e–c–t–d–e–p–u–t–y–
+68 rebbe legy chem -> –r–e–b–b–e–l–e–g–y–c–h–e–m–
+69 rains pup startete -> –r–a–i–n–s–p–u–p–s–t–a–r–t–e–t–e–
+70 uerdo benzene skulle -> –u–e–r–d–o–b–e–n–z–e–n–e–s–k–u–l–l–e–
+71 encer clicked tilbage -> –e–n–c–e–r–c–l–i–c–k–e–d–t–i–l–b–a–g–e–
+72 antsesez bo patri -> –a–n–t–s–e–s–e–z–b–o–p–a–t–r–i–
+73 ieben ejection hormonal -> –i–e–b–e–n–e–j–e–c–t–i–o–n–h–o–r–m–o–n–a–l–
+74 meth begann tille -> –m–e–t–h–b–e–g–a–n–n–t–i–l–l–e–
+75 inchi mines lacking -> –i–n–c–h–i–m–i–n–e–s–l–a–c–k–i–n–g–
+76 logger ofici spelen -> –l–o–g–g–e–r–o–f–i–c–i–s–p–e–l–e–n–
+77 dot adesso quantum -> –d–o–t–a–d–e–s–s–o–q–u–a–n–t–u–m–
+78 rachen cliente tribu -> –r–a–c–h–e–n–c–l–i–e–n–t–e–t–r–i–b–u–
+79 ovanja unsigned nhau -> –o–v–a–n–j–a–u–n–s–i–g–n–e–d–n–h–a–u–
+80 emouth schloss paro -> –e–m–o–u–t–h–s–c–h–l–o–s–s–p–a–r–o–
+81 reicher monsters ticks -> –r–e–i–c–h–e–r–m–o–n–s–t–e–r–s–t–i–c–k–s–
+82 limited turbo pilot -> –l–i–m–i–t–e–d–t–u–r–b–o–p–i–l–o–t–
+83 induced tyske ex -> –i–n–d–u–c–e–d–t–y–s–k–e–e–x–
+84 enes induced dinosaur -> –e–n–e–s–i–n–d–u–c–e–d–d–i–n–o–s–a–u–r–
+85 erst siamo cannabis -> –e–r–s–t–s–i–a–m–o–c–a–n–n–a–b–i–s–
+86 ets trebu overall -> –e–t–s–t–r–e–b–u–o–v–e–r–a–l–l–
+87 crumb massif trener -> –c–r–u–m–b–m–a–s–s–i–f–t–r–e–n–e–r–
+88 enoord acquired fic -> –e–n–o–o–r–d–a–c–q–u–i–r–e–d–f–i–c–
+89 rete compil pension -> –r–e–t–e–c–o–m–p–i–l–p–e–n–s–i–o–n–
+90 cks venaient destruct -> –c–k–s–v–e–n–a–i–e–n–t–d–e–s–t–r–u–c–t–
+91 vasion careers voile -> –v–a–s–i–o–n–c–a–r–e–e–r–s–v–o–i–l–e–
+92 dw preved niveaux -> –d–w–p–r–e–v–e–d–n–i–v–e–a–u–x–
+93 tez bew debt -> –t–e–z–b–e–w–d–e–b–t–
+94 elfth plotting laws -> –e–l–f–t–h–p–l–o–t–t–i–n–g–l–a–w–s–
+95 ighed ether tuned -> –i–g–h–e–d–e–t–h–e–r–t–u–n–e–d–
+96 ivol estrelas gj -> –i–v–o–l–e–s–t–r–e–l–a–s–g–j–
+97 umber escrit mina -> –u–m–b–e–r–e–s–c–r–i–t–m–i–n–a–
+98 landaise sled hektarea -> –l–a–n–d–a–i–s–e–s–l–e–d–h–e–k–t–a–r–e–a–
+99 ales mert gema -> –a–l–e–s–m–e–r–t–g–e–m–a–

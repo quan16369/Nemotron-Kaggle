@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 okin platz buku
+01 ardon swinging loro
+02 pri illusion recess
+
+This is a sample output.
+00 okin platz buku -> –o–k–i–n–p–l–a–t–z–b–u–k–u–
+01 ardon swinging loro -> –a–r–d–o–n–s–w–i–n–g–i–n–g–l–o–r–o–
+02 pri illusion recess -> –p–r–i–i–l–l–u–s–i–o–n–r–e–c–e–s–s–
+
+This is your input.
+00 tru deles iria
+01 chst repous sam
+02 polar brain viet
+03 ighte littoral spis
+04 pn cou stunning
+05 chan unemploy hag
+06 koj guerra packages
+07 zeption knee morceaux
+08 china lag nouvelle
+09 zwungen olika cole
+10 voire tedeschi cli
+11 gom involve rien
+12 gens ob dam
+13 riends durch divor
+14 core jungle supers
+15 schemas sak glycol
+16 redirect expliqua acesso
+17 neh umieszcz lasciato
+18 eden reis funkcjon
+19 ham sexy erkannte
+20 solid keis singolo
+21 trecht rebut fame
+22 arnos encontra dispone
+23 ptember ginger rise
+24 ica collect swift
+25 redu highly subtract
+26 mur tapis county
+27 hesia arrest potem
+28 asks veut pc
+29 attack executed execut
+30 igrate lavoro guerres
+31 ovich foss proc
+32 istry amigo vestib
+33 remote oor ukon
+34 plash urteko estruct
+35 ellor emplois night
+36 woordig wave dece
+37 iete exer loci
+38 iseconds candid bishops
+39 gu vizsg davam
+40 nelle armed voudrais
+41 isis senator complain
+42 hasil enlarged oli
+43 osit nende rep
+44 adou gara diabetes
+45 ieras hosts gallons
+46 hem rappro gjenn
+47 rzy seuil engages
+48 stoff ruisseau tiet
+49 ichen perman trustees
+50 concat vanilla genomic
+51 eness bidang herbiv
+52 ective mittels hauek
+53 olos scrub father
+54 ena abbrevi usu
+55 shaft coupe seguito
+56 inx apex front
+57 zuela sukces hear
+58 cium stacked nc
+59 require taxp rentre
+60 horst fishing rois
+61 skirts cytokine center
+62 ilea ekonom images
+63 ynamics examen meus
+64 istol verwend anatom
+65 ijn siege assess
+66 ching choked anode
+67 llam seront korist
+68 idebar lond einheit
+69 native pupils cultured
+70 untz dispara arrib
+71 ande konsert fishes
+72 ber st stalk
+73 zeni kolm ciertos
+74 inary solver portada
+75 umped pico szcz
+76 ensch pursuing tempos
+77 rington rang dioxide
+78 achi par hazard
+79 owanej overlay bord
+80 bors engineer excell
+81 chant seasonal berk
+82 iq armon bottles
+83 yme industry architek
+84 asida esto planner
+85 zten previsto powerful
+86 ucture tales lombok
+87 bole sera gole
+88 vant laughed volta
+89 taient doubl animaux
+90 nois fara achieve
+91 fund amo saying
+92 jerne conve cabecera
+93 ractical appl lehen
+94 geme agents cen
+95 ndia invoice neu
+96 rows agama rudiment
+97 endente concentr pope
+98 court prenant contar
+99 ropdown embol auction
+[completion]
+00 tru deles iria -> –t–r–u–d–e–l–e–s–i–r–i–a–
+01 chst repous sam -> –c–h–s–t–r–e–p–o–u–s–s–a–m–
+02 polar brain viet -> –p–o–l–a–r–b–r–a–i–n–v–i–e–t–
+03 ighte littoral spis -> –i–g–h–t–e–l–i–t–t–o–r–a–l–s–p–i–s–
+04 pn cou stunning -> –p–n–c–o–u–s–t–u–n–n–i–n–g–
+05 chan unemploy hag -> –c–h–a–n–u–n–e–m–p–l–o–y–h–a–g–
+06 koj guerra packages -> –k–o–j–g–u–e–r–r–a–p–a–c–k–a–g–e–s–
+07 zeption knee morceaux -> –z–e–p–t–i–o–n–k–n–e–e–m–o–r–c–e–a–u–x–
+08 china lag nouvelle -> –c–h–i–n–a–l–a–g–n–o–u–v–e–l–l–e–
+09 zwungen olika cole -> –z–w–u–n–g–e–n–o–l–i–k–a–c–o–l–e–
+10 voire tedeschi cli -> –v–o–i–r–e–t–e–d–e–s–c–h–i–c–l–i–
+11 gom involve rien -> –g–o–m–i–n–v–o–l–v–e–r–i–e–n–
+12 gens ob dam -> –g–e–n–s–o–b–d–a–m–
+13 riends durch divor -> –r–i–e–n–d–s–d–u–r–c–h–d–i–v–o–r–
+14 core jungle supers -> –c–o–r–e–j–u–n–g–l–e–s–u–p–e–r–s–
+15 schemas sak glycol -> –s–c–h–e–m–a–s–s–a–k–g–l–y–c–o–l–
+16 redirect expliqua acesso -> –r–e–d–i–r–e–c–t–e–x–p–l–i–q–u–a–a–c–e–s–s–o–
+17 neh umieszcz lasciato -> –n–e–h–u–m–i–e–s–z–c–z–l–a–s–c–i–a–t–o–
+18 eden reis funkcjon -> –e–d–e–n–r–e–i–s–f–u–n–k–c–j–o–n–
+19 ham sexy erkannte -> –h–a–m–s–e–x–y–e–r–k–a–n–n–t–e–
+20 solid keis singolo -> –s–o–l–i–d–k–e–i–s–s–i–n–g–o–l–o–
+21 trecht rebut fame -> –t–r–e–c–h–t–r–e–b–u–t–f–a–m–e–
+22 arnos encontra dispone -> –a–r–n–o–s–e–n–c–o–n–t–r–a–d–i–s–p–o–n–e–
+23 ptember ginger rise -> –p–t–e–m–b–e–r–g–i–n–g–e–r–r–i–s–e–
+24 ica collect swift -> –i–c–a–c–o–l–l–e–c–t–s–w–i–f–t–
+25 redu highly subtract -> –r–e–d–u–h–i–g–h–l–y–s–u–b–t–r–a–c–t–
+26 mur tapis county -> –m–u–r–t–a–p–i–s–c–o–u–n–t–y–
+27 hesia arrest potem -> –h–e–s–i–a–a–r–r–e–s–t–p–o–t–e–m–
+28 asks veut pc -> –a–s–k–s–v–e–u–t–p–c–
+29 attack executed execut -> –a–t–t–a–c–k–e–x–e–c–u–t–e–d–e–x–e–c–u–t–
+30 igrate lavoro guerres -> –i–g–r–a–t–e–l–a–v–o–r–o–g–u–e–r–r–e–s–
+31 ovich foss proc -> –o–v–i–c–h–f–o–s–s–p–r–o–c–
+32 istry amigo vestib -> –i–s–t–r–y–a–m–i–g–o–v–e–s–t–i–b–
+33 remote oor ukon -> –r–e–m–o–t–e–o–o–r–u–k–o–n–
+34 plash urteko estruct -> –p–l–a–s–h–u–r–t–e–k–o–e–s–t–r–u–c–t–
+35 ellor emplois night -> –e–l–l–o–r–e–m–p–l–o–i–s–n–i–g–h–t–
+36 woordig wave dece -> –w–o–o–r–d–i–g–w–a–v–e–d–e–c–e–
+37 iete exer loci -> –i–e–t–e–e–x–e–r–l–o–c–i–
+38 iseconds candid bishops -> –i–s–e–c–o–n–d–s–c–a–n–d–i–d–b–i–s–h–o–p–s–
+39 gu vizsg davam -> –g–u–v–i–z–s–g–d–a–v–a–m–
+40 nelle armed voudrais -> –n–e–l–l–e–a–r–m–e–d–v–o–u–d–r–a–i–s–
+41 isis senator complain -> –i–s–i–s–s–e–n–a–t–o–r–c–o–m–p–l–a–i–n–
+42 hasil enlarged oli -> –h–a–s–i–l–e–n–l–a–r–g–e–d–o–l–i–
+43 osit nende rep -> –o–s–i–t–n–e–n–d–e–r–e–p–
+44 adou gara diabetes -> –a–d–o–u–g–a–r–a–d–i–a–b–e–t–e–s–
+45 ieras hosts gallons -> –i–e–r–a–s–h–o–s–t–s–g–a–l–l–o–n–s–
+46 hem rappro gjenn -> –h–e–m–r–a–p–p–r–o–g–j–e–n–n–
+47 rzy seuil engages -> –r–z–y–s–e–u–i–l–e–n–g–a–g–e–s–
+48 stoff ruisseau tiet -> –s–t–o–f–f–r–u–i–s–s–e–a–u–t–i–e–t–
+49 ichen perman trustees -> –i–c–h–e–n–p–e–r–m–a–n–t–r–u–s–t–e–e–s–
+50 concat vanilla genomic -> –c–o–n–c–a–t–v–a–n–i–l–l–a–g–e–n–o–m–i–c–
+51 eness bidang herbiv -> –e–n–e–s–s–b–i–d–a–n–g–h–e–r–b–i–v–
+52 ective mittels hauek -> –e–c–t–i–v–e–m–i–t–t–e–l–s–h–a–u–e–k–
+53 olos scrub father -> –o–l–o–s–s–c–r–u–b–f–a–t–h–e–r–
+54 ena abbrevi usu -> –e–n–a–a–b–b–r–e–v–i–u–s–u–
+55 shaft coupe seguito -> –s–h–a–f–t–c–o–u–p–e–s–e–g–u–i–t–o–
+56 inx apex front -> –i–n–x–a–p–e–x–f–r–o–n–t–
+57 zuela sukces hear -> –z–u–e–l–a–s–u–k–c–e–s–h–e–a–r–
+58 cium stacked nc -> –c–i–u–m–s–t–a–c–k–e–d–n–c–
+59 require taxp rentre -> –r–e–q–u–i–r–e–t–a–x–p–r–e–n–t–r–e–
+60 horst fishing rois -> –h–o–r–s–t–f–i–s–h–i–n–g–r–o–i–s–
+61 skirts cytokine center -> –s–k–i–r–t–s–c–y–t–o–k–i–n–e–c–e–n–t–e–r–
+62 ilea ekonom images -> –i–l–e–a–e–k–o–n–o–m–i–m–a–g–e–s–
+63 ynamics examen meus -> –y–n–a–m–i–c–s–e–x–a–m–e–n–m–e–u–s–
+64 istol verwend anatom -> –i–s–t–o–l–v–e–r–w–e–n–d–a–n–a–t–o–m–
+65 ijn siege assess -> –i–j–n–s–i–e–g–e–a–s–s–e–s–s–
+66 ching choked anode -> –c–h–i–n–g–c–h–o–k–e–d–a–n–o–d–e–
+67 llam seront korist -> –l–l–a–m–s–e–r–o–n–t–k–o–r–i–s–t–
+68 idebar lond einheit -> –i–d–e–b–a–r–l–o–n–d–e–i–n–h–e–i–t–
+69 native pupils cultured -> –n–a–t–i–v–e–p–u–p–i–l–s–c–u–l–t–u–r–e–d–
+70 untz dispara arrib -> –u–n–t–z–d–i–s–p–a–r–a–a–r–r–i–b–
+71 ande konsert fishes -> –a–n–d–e–k–o–n–s–e–r–t–f–i–s–h–e–s–
+72 ber st stalk -> –b–e–r–s–t–s–t–a–l–k–
+73 zeni kolm ciertos -> –z–e–n–i–k–o–l–m–c–i–e–r–t–o–s–
+74 inary solver portada -> –i–n–a–r–y–s–o–l–v–e–r–p–o–r–t–a–d–a–
+75 umped pico szcz -> –u–m–p–e–d–p–i–c–o–s–z–c–z–
+76 ensch pursuing tempos -> –e–n–s–c–h–p–u–r–s–u–i–n–g–t–e–m–p–o–s–
+77 rington rang dioxide -> –r–i–n–g–t–o–n–r–a–n–g–d–i–o–x–i–d–e–
+78 achi par hazard -> –a–c–h–i–p–a–r–h–a–z–a–r–d–
+79 owanej overlay bord -> –o–w–a–n–e–j–o–v–e–r–l–a–y–b–o–r–d–
+80 bors engineer excell -> –b–o–r–s–e–n–g–i–n–e–e–r–e–x–c–e–l–l–
+81 chant seasonal berk -> –c–h–a–n–t–s–e–a–s–o–n–a–l–b–e–r–k–
+82 iq armon bottles -> –i–q–a–r–m–o–n–b–o–t–t–l–e–s–
+83 yme industry architek -> –y–m–e–i–n–d–u–s–t–r–y–a–r–c–h–i–t–e–k–
+84 asida esto planner -> –a–s–i–d–a–e–s–t–o–p–l–a–n–n–e–r–
+85 zten previsto powerful -> –z–t–e–n–p–r–e–v–i–s–t–o–p–o–w–e–r–f–u–l–
+86 ucture tales lombok -> –u–c–t–u–r–e–t–a–l–e–s–l–o–m–b–o–k–
+87 bole sera gole -> –b–o–l–e–s–e–r–a–g–o–l–e–
+88 vant laughed volta -> –v–a–n–t–l–a–u–g–h–e–d–v–o–l–t–a–
+89 taient doubl animaux -> –t–a–i–e–n–t–d–o–u–b–l–a–n–i–m–a–u–x–
+90 nois fara achieve -> –n–o–i–s–f–a–r–a–a–c–h–i–e–v–e–
+91 fund amo saying -> –f–u–n–d–a–m–o–s–a–y–i–n–g–
+92 jerne conve cabecera -> –j–e–r–n–e–c–o–n–v–e–c–a–b–e–c–e–r–a–
+93 ractical appl lehen -> –r–a–c–t–i–c–a–l–a–p–p–l–l–e–h–e–n–
+94 geme agents cen -> –g–e–m–e–a–g–e–n–t–s–c–e–n–
+95 ndia invoice neu -> –n–d–i–a–i–n–v–o–i–c–e–n–e–u–
+96 rows agama rudiment -> –r–o–w–s–a–g–a–m–a–r–u–d–i–m–e–n–t–
+97 endente concentr pope -> –e–n–d–e–n–t–e–c–o–n–c–e–n–t–r–p–o–p–e–
+98 court prenant contar -> –c–o–u–r–t–p–r–e–n–a–n–t–c–o–n–t–a–r–
+99 ropdown embol auction -> –r–o–p–d–o–w–n–e–m–b–o–l–a–u–c–t–i–o–n–

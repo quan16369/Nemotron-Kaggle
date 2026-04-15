@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Synthetic</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        .container { max-width: 1400px; margin: 0 auto; }
+        .tooltip {
+            position: fixed;
+            background-color: rgba(0, 0, 0, 0.9);
+            color: #fff;
+            padding: 6px 10px;
+            border-radius: 4px;
+            font-size: 12px;
+            pointer-events: none;
+            z-index: 1000;
+            display: none;
+            max-width: 400px;
+        }
+        .overview-section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .overview-title {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            text-align: center;
+            color: #333;
+        }
+        .stats-legend {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 14px;
+            color: #666;
+        }
+        .legend-item { display: flex; align-items: center; gap: 6px; font-size: 13px; }
+        .legend-box { width: 12px; height: 12px; border: 1px solid #ccc; border-radius: 2px; }
+        .dataset-groups {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            align-items: center;
+        }
+        .dataset-group {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .dataset-label {
+            font-size: 14px;
+            margin-bottom: 10px;
+            color: #666;
+        }
+        .problem-grid {
+            display: grid;
+            gap: 0;
+            padding: 3px;
+            background-color: #e0e0e0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .problem-box {
+            width: 8px;
+            height: 8px;
+            cursor: pointer;
+            transition: all 0.15s ease;
+        }
+        .problem-box:hover { transform: scale(1.4); z-index: 1; outline: 1px solid #333; }
+        .problem-box.selected { outline: 2px solid #333; transform: scale(1.6); z-index: 2; }
+
+        /* Detail overlay */
+        .detail-overlay {
+            display: none;
+            margin-top: 30px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            padding: 20px;
+        }
+        .detail-overlay.visible { display: block; }
+        .detail-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .detail-header .problem-info { font-size: 16px; font-weight: 600; color: #333; }
+        .detail-header .category-badge {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-left: 12px;
+        }
+        .detail-header .status-badge {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-left: 8px;
+        }
+        .badge-bit { background: #0074D9; color: #fff; }
+        .badge-gravity { background: #FF4136; color: #fff; }
+        .badge-unit { background: #2ECC40; color: #000; }
+        .badge-cipher { background: #FFDC00; color: #000; }
+        .badge-numeral { background: #FF851B; color: #000; }
+        .badge-equation-numeric { background: #B10DC9; color: #fff; }
+        .badge-equation-symbolic { background: #00CED1; color: #000; }
+        .detail-nav {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+        }
+        .detail-nav button, .detail-close {
+            background: #4a5568; color: #fff; border: none;
+            padding: 5px 15px; cursor: pointer; border-radius: 4px; font-size: 13px;
+        }
+        .detail-nav button:hover, .detail-close:hover { background: #5a6578; }
+        .detail-nav button:disabled { opacity: 0.3; cursor: default; }
+        .nav-info { font-size: 13px; color: #666; margin: 0 8px; }
+        .prompt-section {
+            background: #f8fafc;
+            border: 1px solid #e0e0e0;
+            border-radius: 6px;
+            padding: 16px;
+            margin-bottom: 16px;
+        }
+        .prompt-full {
+            font-family: 'SF Mono', Monaco, 'Courier New', monospace;
+            font-size: 14px;
+            line-height: 1.7;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            color: #333;
+        }
+        .answer-row {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-top: 16px;
+        }
+        .answer-label {
+            font-size: 13px;
+            color: #666;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+        .answer-display {
+            display: inline-block;
+            padding: 8px 16px;
+            border-radius: 4px;
+            font-family: monospace;
+            font-size: 18px;
+            font-weight: 700;
+        }
+        .parsed-section {
+            background: #f8fafc;
+            border: 1px solid #e0e0e0;
+            border-radius: 6px;
+            padding: 16px;
+            margin-top: 16px;
+        }
+        .parsed-section h3 {
+            font-size: 13px;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 12px;
+        }
+        .transform-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: 'SF Mono', Monaco, monospace;
+            font-size: 13px;
+        }
+        .transform-table th {
+            background: #4a5568;
+            color: white;
+            padding: 8px 12px;
+            text-align: left;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .transform-table td {
+            padding: 6px 12px;
+            border-bottom: 1px solid #e0e0e0;
+            color: #333;
+        }
+        .transform-table tr:hover { background: #f0f4f8; }
+        .transform-arrow { color: #999; padding: 0 8px; }
+        .question-row td { background: #fffbeb; font-weight: 600; }
+        .answer-row-table td { background: #ecfdf5; font-weight: 600; }
+
+        /* Generation styles */
+        .gen-info {
+            display: flex; gap: 24px; margin-bottom: 16px;
+            font-size: 13px; color: #666; flex-wrap: wrap;
+        }
+        .gen-info span { display: flex; align-items: center; gap: 6px; }
+        .gen-info .val { color: #333; font-weight: bold; }
+        .run-selector { margin-bottom: 16px; }
+        .run-selector select {
+            background: white; color: #333; border: 1px solid #ccc;
+            padding: 4px 8px; font-family: 'SF Mono', Monaco, monospace; font-size: 13px;
+            border-radius: 4px;
+        }
+        .completion-section {
+            background: #f8fafc;
+            border: 1px solid #e0e0e0;
+            border-radius: 6px;
+            padding: 16px;
+            margin-bottom: 16px;
+        }
+        .decoded-text {
+            font-family: 'SF Mono', Monaco, 'Courier New', monospace;
+            font-size: 14px;
+            line-height: 1.6;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+        .tok {
+            cursor: default;
+            border-bottom: 2px solid transparent;
+        }
+        .tok:hover {
+            border-bottom-color: #333;
+            background: rgba(0,0,0,0.05);
+        }
+        .tok.prompt-tok { color: #999; }
+        .reasoning-section {
+            background: #f8fafc;
+            border: 1px solid #e0e0e0;
+            border-radius: 6px;
+            padding: 16px;
+            margin-top: 16px;
+        }
+        .reasoning-section h3 {
+            font-size: 13px;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 12px;
+        }
+        .reasoning-text {
+            font-family: 'SF Mono', Monaco, 'Courier New', monospace;
+            font-size: 13px;
+            line-height: 1.6;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            color: #333;
+        }
+        .boxed-answer {
+            display: inline;
+            padding: 2px 6px;
+            border: 2px solid #333;
+            border-radius: 3px;
+            font-weight: 700;
+            background: #fffbeb;
+        }
+    </style>
+</head>
+<body>
+    <div class="tooltip" id="tooltip"></div>
+    <div class="container">
+    <nav style="text-align:center; padding:10px 0 20px; font-size:16px;">
+        <strong style="font-size:22px;">Synthetic</strong> &middot;
+        <a href="corpus.html" style="color:#2196f3; text-decoration:none;">Corpus</a> &middot;
+        <a href="training.html" style="color:#2196f3; text-decoration:none;">Training</a> &middot;
+        <a href="metrics.html" style="color:#2196f3; text-decoration:none;">Metrics</a>
+    </nav>
+    <script>document.querySelectorAll('nav a').forEach(a => { const base = a.getAttribute('href').split('?')[0]; a.addEventListener('click', e => { e.preventDefault(); window.location.href = base + location.search; }); });</script>
+    <div class="overview-section">
+        <div class="stats-legend" id="stats">Loading...</div>
+        <div class="dataset-groups" id="datasetGroups">
+            <div style="color: #888; font-size: 14px;">Loading index...</div>
+        </div>
+    </div>
+    <div class="detail-overlay" id="detailOverlay"></div>
+    </div>
+
+<script>
+const CATEGORIES = [
+    { key: 'cryptarithm_guess', label: 'Cryptarithm (Guess)', badge: 'badge-equation-symbolic' },
+    { key: 'cryptarithm_deduce', label: 'Cryptarithm (Deduce)', badge: 'badge-equation-symbolic' },
+    { key: 'equation_numeric_guess', label: 'Equation Numeric (Guess)', badge: 'badge-equation-numeric' },
+    { key: 'equation_numeric_deduce', label: 'Equation Numeric (Deduce)', badge: 'badge-equation-numeric' },
+    { key: 'bit_manipulation', label: 'Bit Manipulation', badge: 'badge-bit' },
+    { key: 'cipher', label: 'Cipher', badge: 'badge-cipher' },
+    { key: 'gravity', label: 'Gravity', badge: 'badge-gravity' },
+    { key: 'unit_conversion', label: 'Unit Conversion', badge: 'badge-unit' },
+    { key: 'numeral', label: 'Numeral', badge: 'badge-numeral' },
+];
+const CAT_BY_KEY = Object.fromEntries(CATEGORIES.map(c => [c.key, c]));
+
+// Status colors and labels
+const STATUS_CONFIG = {
+    rule_found:         { bg: '#bdc3c7', border: '#95a5a6', label: 'Rule Found',         badgeBg: '#95a5a6', badgeColor: '#fff' },
+    hypothesis_formed:  { bg: '#f9e2af', border: '#e0b644', label: 'Hypothesis Formed',  badgeBg: '#e0b644', badgeColor: '#000' },
+    rule_unknown:       { bg: '#ecf0f1', border: '#bdc3c7', label: 'Rule Unknown',       badgeBg: '#ecf0f1', badgeColor: '#666' },
+};
+
+let allRows = [];
+let rowById = new Map();
+let selectedProblemId = null;
+const jsonlCache = new Map();
+const tooltip = document.getElementById('tooltip');
+
+async function loadIndex() {
+    const resp = await fetch('problems.jsonl?_=' + Date.now());
+    const text = await resp.text();
+    return text.trim().split('\n').filter(l => l).map(line => {
+        const e = JSON.parse(line);
+        return {
+            id: e.id,
+            category: e.category,
+            cat: CAT_BY_KEY[e.category] || { label: 'Unknown', badge: '' },
+            status: e.status ?? null,
+            submission: e.submission ?? null
+        };
+    });
+}
+
+function buildGrid() {
+    const params = new URLSearchParams(location.search);
+    const categoryFilter = params.get('category');
+
+    const groups = {};
+    CATEGORIES.forEach(c => { groups[c.key] = []; });
+    allRows.forEach(r => {
+        if (groups[r.category]) groups[r.category].push(r);
+    });
+
+    const container = document.getElementById('datasetGroups');
+    container.innerHTML = '';
+
+    // Filter info
+    const existingFilter = document.getElementById('problems-filter-info');
+    if (existingFilter) existingFilter.remove();
+    if (categoryFilter) {
+        const clearUrl = new URL(location.href); clearUrl.searchParams.delete('category');
+        const div = document.createElement('div');
+        div.id = 'problems-filter-info';
+        div.style.cssText = 'background:#e0f2fe;border:1px solid #7dd3fc;border-radius:6px;padding:10px 16px;margin-bottom:16px;font-size:14px;color:#0369a1;';
+        div.innerHTML = `Filtering by category: <strong>${categoryFilter}</strong> <a href="${clearUrl.pathname}${clearUrl.search}" style="color:#0284c7">(clear)</a>`;
+        const overviewSection = document.querySelector('.overview-section');
+        overviewSection.parentElement.insertBefore(div, overviewSection);
+    }
+
+    let totalRuleFound = 0;
+    let totalHypothesis = 0;
+
+    CATEGORIES.forEach(cat => {
+        const problems = groups[cat.key];
+        if (problems.length === 0) return;
+        if (categoryFilter && cat.key !== categoryFilter) return;
+
+        const group = document.createElement('div');
+        group.className = 'dataset-group';
+
+        const ruleFoundCount = problems.filter(p => (p.status || 'rule_unknown') === 'rule_found').length;
+        const hypothesisCount = problems.filter(p => p.status === 'hypothesis_formed').length;
+        totalRuleFound += ruleFoundCount;
+        totalHypothesis += hypothesisCount;
+
+        const label = document.createElement('div');
+        label.className = 'dataset-label';
+        const parts = [`${ruleFoundCount} rule found`];
+        if (hypothesisCount) parts.push(`${hypothesisCount} investigation`);
+        parts.push(`${problems.length} total`);
+        label.textContent = `${cat.label} (${parts.join(' / ')})`;
+        group.appendChild(label);
+
+        const grid = document.createElement('div');
+        grid.className = 'problem-grid';
+        const cols = Math.min(150, problems.length);
+        grid.style.gridTemplateColumns = `repeat(${cols}, 8px)`;
+
+        problems.forEach((r, i) => {
+            const status = r.status || 'rule_unknown';
+            const cfg = STATUS_CONFIG[status] || STATUS_CONFIG.rule_unknown;
+
+            const box = document.createElement('div');
+            box.className = 'problem-box' + (r.id === selectedProblemId ? ' selected' : '');
+            box.style.backgroundColor = cfg.bg;
+            box.style.border = `1px solid ${cfg.border}`;
+            box.dataset.id = r.id;
+
+            box.addEventListener('mouseenter', (e) => {
+                tooltip.style.display = 'block';
+                const realCfg = STATUS_CONFIG[status] || STATUS_CONFIG.rule_unknown;
+                tooltip.textContent = `${r.id} (${i+1}/${problems.length}) \u2014 ${cat.label} \u2014 ${realCfg.label}`;
+                tooltip.style.left = e.clientX + 12 + 'px';
+                tooltip.style.top = e.clientY - 28 + 'px';
+            });
+            box.addEventListener('mousemove', (e) => {
+                tooltip.style.left = e.clientX + 12 + 'px';
+                tooltip.style.top = e.clientY - 28 + 'px';
+            });
+            box.addEventListener('mouseleave', () => { tooltip.style.display = 'none'; });
+            box.addEventListener('click', () => selectProblem(r.id));
+            grid.appendChild(box);
+        });
+
+        group.appendChild(grid);
+        container.appendChild(group);
+    });
+
+    const filteredTotal = categoryFilter ? allRows.filter(r => r.category === categoryFilter).length : allRows.length;
+    const totalUnknown = filteredTotal - totalRuleFound - totalHypothesis;
+    const sq = (bg, border) => `<div class="legend-box" style="background:${bg};border-color:${border};display:inline-block;vertical-align:middle;margin-right:2px"></div>`;
+    const statsParts = [`${sq('#bdc3c7','#95a5a6')}${totalRuleFound} rule found`];
+    if (totalHypothesis) statsParts.push(`${sq('#f9e2af','#e0b644')}${totalHypothesis} hypothesis formed`);
+    if (totalUnknown > 0) statsParts.push(`${sq('#ecf0f1','#bdc3c7')}${totalUnknown} rule unknown`);
+    statsParts.push(`${filteredTotal} total`);
+    document.getElementById('stats').innerHTML = statsParts.join(' / ');
+}
+
+function selectProblem(problemId) {
+    selectedProblemId = problemId;
+    const url = new URL(location.href);
+    url.searchParams.set('problem', problemId);
+    history.pushState({}, '', url);
+    document.querySelectorAll('.problem-box.selected').forEach(b => b.classList.remove('selected'));
+    const sel = document.querySelector(`.problem-box[data-id="${problemId}"]`);
+    if (sel) sel.classList.add('selected');
+    renderDetail();
+}
+
+function clearSelection() {
+    selectedProblemId = null;
+    const url = new URL(location.href);
+    url.searchParams.delete('problem');
+    url.searchParams.delete('run');
+    history.pushState({}, '', url);
+    document.querySelectorAll('.problem-box.selected').forEach(b => b.classList.remove('selected'));
+    document.getElementById('detailOverlay').classList.remove('visible');
+    document.getElementById('detailOverlay').innerHTML = '';
+}
+
+const COLUMN_CONFIG = {
+    bit_manipulation: { headers: ['Input (8-bit)', 'Output (8-bit)'], fields: ['input_value', 'output_value'], qField: 'question' },
+    gravity:          { headers: ['Time (s)', 'Distance (m)'],       fields: ['input_value', 'output_value'], qField: 'question' },
+    unit_conversion:  { headers: ['Input (m)', 'Output'],            fields: ['input_value', 'output_value'], qField: 'question' },
+    cipher:           { headers: ['Encrypted', 'Decrypted'],         fields: ['input_value', 'output_value'], qField: 'question' },
+    numeral:          { headers: ['Arabic', 'Roman'],                fields: ['input_value', 'output_value'], qField: 'question' },
+    equation_numeric_deduce:  { headers: ['Input', 'Output'], fields: ['input_value', 'output_value'], qField: 'question' },
+    equation_numeric_guess:   { headers: ['Input', 'Output'], fields: ['input_value', 'output_value'], qField: 'question' },
+    cryptarithm_deduce: { headers: ['Input', 'Output'], fields: ['input_value', 'output_value'], qField: 'question' },
+    cryptarithm_guess:  { headers: ['Input', 'Output'], fields: ['input_value', 'output_value'], qField: 'question' },
+};
+
+function esc(s) {
+    return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+const OPERATOR_ALPHA = ['x', 'y', 'z', 'w', 'v'];
+
+function buildSymbolMap(parsed) {
+    // Operators are the middle character of each input value
+    const operators = new Set();
+    for (const e of parsed.examples) {
+        const inp = String(e.input_value);
+        if (inp.length > 0) operators.add(inp[Math.floor(inp.length / 2)]);
+    }
+    const qStr = String(parsed.question);
+    if (qStr.length > 0) operators.add(qStr[Math.floor(qStr.length / 2)]);
+
+    // Collect unique non-operator and operator symbols in order
+    const seenVar = new Set();
+    const orderVar = [];
+    const seenOp = new Set();
+    const orderOp = [];
+    function scan(s) {
+        for (const ch of String(s)) {
+            if (operators.has(ch)) {
+                if (!seenOp.has(ch)) { seenOp.add(ch); orderOp.push(ch); }
+            } else {
+                if (!seenVar.has(ch)) { seenVar.add(ch); orderVar.push(ch); }
+            }
+        }
+    }
+    for (const e of parsed.examples) {
+        scan(e.input_value);
+        scan(e.output_value);
+    }
+    scan(parsed.question);
+    scan(parsed.answer);
+    const map = {};
+    for (let i = 0; i < orderVar.length; i++) {
+        map[orderVar[i]] = String.fromCharCode(65 + (i % 26)); // A-Z
+    }
+    for (let i = 0; i < orderOp.length; i++) {
+        map[orderOp[i]] = OPERATOR_ALPHA[i % OPERATOR_ALPHA.length];
+    }
+    return map;
+}
+
+function symbolToAlpha(s, map, spaceOps) {
+    const str = String(s);
+    let out = '';
+    for (let i = 0; i < str.length; i++) {
+        const mapped = map[str[i]] || str[i];
+        if (spaceOps && i === Math.floor(str.length / 2) && str.length > 1) {
+            out += ' ' + mapped + ' ';
+        } else {
+            out += mapped;
+        }
+    }
+    return out;
+}
+
+function renderParsedData(parsed, cat) {
+    const cfg = COLUMN_CONFIG[parsed.category];
+    if (!cfg) return '';
+    const [f1, f2] = cfg.fields;
+    const q = parsed[cfg.qField];
+    const isSymbolic = parsed.category === 'cryptarithm_deduce' || parsed.category === 'cryptarithm_guess';
+    const symMap = isSymbolic ? buildSymbolMap(parsed) : null;
+    const alpha = (s, spaceOps) => esc(symbolToAlpha(s, symMap, spaceOps));
+    if (isSymbolic) {
+        return `<div class="parsed-section">
+            <h3>Parsed Transformation (${cat.label})</h3>
+            <table class="transform-table">
+                <thead><tr><th>${cfg.headers[0]}</th><th>${cfg.headers[0]} (alpha)</th><th></th><th>${cfg.headers[1]}</th><th>${cfg.headers[1]} (alpha)</th></tr></thead>
+                <tbody>
+                    ${parsed.examples.map(e => `<tr><td>${esc(String(e[f1]))}</td><td>${alpha(e[f1], true)}</td><td class="transform-arrow">&rarr;</td><td>${esc(String(e[f2]))}</td><td>${alpha(e[f2])}</td></tr>`).join('')}
+                    <tr class="answer-row-table"><td>${esc(String(q))}</td><td>${alpha(q, true)}</td><td class="transform-arrow">&rarr;</td><td>${esc(parsed.answer)}</td><td>${alpha(parsed.answer)}</td></tr>
+                </tbody>
+            </table>
+        </div>`;
+    }
+    return `<div class="parsed-section">
+        <h3>Parsed Transformation (${cat.label})</h3>
+        <table class="transform-table">
+            <thead><tr><th>${cfg.headers[0]}</th><th></th><th>${cfg.headers[1]}</th></tr></thead>
+            <tbody>
+                ${parsed.examples.map(e => `<tr><td>${esc(String(e[f1]))}</td><td class="transform-arrow">&rarr;</td><td>${esc(String(e[f2]))}</td></tr>`).join('')}
+                <tr class="answer-row-table"><td>${esc(String(q))}</td><td class="transform-arrow">&rarr;</td><td>${esc(parsed.answer)}</td></tr>
+            </tbody>
+        </table>
+    </div>`;
+}
+
+async function renderDetail() {
+    const detailEl = document.getElementById('detailOverlay');
+    if (!selectedProblemId) {
+        detailEl.classList.remove('visible');
+        detailEl.innerHTML = '';
+        return;
+    }
+
+    const row = rowById.get(selectedProblemId);
+    if (!row) { detailEl.classList.remove('visible'); return; }
+
+    const status = row.status || 'rule_unknown';
+    const statusCfg = STATUS_CONFIG[status] || STATUS_CONFIG.rule_unknown;
+
+    const allIdx = allRows.indexOf(row);
+    const prevRow = allIdx > 0 ? allRows[allIdx - 1] : null;
+    const nextRow = allIdx < allRows.length - 1 ? allRows[allIdx + 1] : null;
+
+    // Fetch parsed problem data
+    let parsed = null;
+    if (jsonlCache.has(selectedProblemId)) {
+        parsed = jsonlCache.get(selectedProblemId);
+    } else {
+        try {
+            const resp = await fetch(`problems/${selectedProblemId}.jsonl`);
+            if (resp.ok) {
+                const text = await resp.text();
+                parsed = JSON.parse(text.trim().split('\n')[0]);
+                jsonlCache.set(selectedProblemId, parsed);
+            }
+        } catch (e) { /* ignore */ }
+    }
+
+    // Build header + problem info
+    let html = `
+        <div class="detail-header">
+            <div>
+                <span class="problem-info">${esc(selectedProblemId)}</span>
+                <span class="category-badge ${row.cat.badge}">${row.cat.label}</span>
+                <span class="status-badge" style="background:${statusCfg.badgeBg};color:${statusCfg.badgeColor}">${statusCfg.label}</span>
+            </div>
+            <div class="detail-nav">
+                <button id="detailPrev" ${!prevRow ? 'disabled' : ''}>&larr;</button>
+                <span class="nav-info">Problem ${(allIdx + 1).toLocaleString()} of ${allRows.length.toLocaleString()}</span>
+                <button id="detailNext" ${!nextRow ? 'disabled' : ''}>&rarr;</button>
+                <button class="detail-close" id="detailClose">Close</button>
+            </div>
+        </div>
+    `;
+
+    // Prompt section
+    if (parsed && parsed.prompt) {
+        html += `<div class="prompt-section"><div class="prompt-full">${esc(parsed.prompt)}</div></div>`;
+    }
+
+    // Parsed transformation table
+    if (parsed) {
+        html += renderParsedData(parsed, row.cat);
+    }
+
+    // Answer + submission + generation extracted answer
+    if (parsed) {
+        html += `<div class="answer-row">
+            <span class="answer-label">Answer:</span>
+            <span class="answer-display" style="background:#2ECC40;color:#000">${esc(parsed.answer)}</span>
+        </div>`;
+    }
+    if (row.submission !== null) {
+        const submBg = row.status === 'rule_found' ? '#888' : row.status === 'hypothesis_formed' ? '#e0b644' : '#000';
+        const submColor = row.status === 'hypothesis_formed' ? '#000' : '#fff';
+        html += `<div class="answer-row">
+            <span class="answer-label">Submission:</span>
+            <span class="answer-display" style="background:${submBg};color:${submColor}">${esc(String(row.submission))}</span>
+            <span style="color:${statusCfg.badgeColor};font-weight:bold">${statusCfg.label}</span>
+        </div>`;
+    }
+
+    // Fetch reasoning text
+    let reasoningText = null;
+    try {
+        const rResp = await fetch(`reasoning/${selectedProblemId}.txt?_=` + Date.now());
+        if (rResp.ok) reasoningText = await rResp.text();
+    } catch (e) { /* ignore */ }
+
+    if (reasoningText) {
+        html += `<div class="reasoning-section">
+            <h3>Reasoning</h3>
+            <div class="reasoning-text">${esc(reasoningText)}</div>
+        </div>`;
+    }
+
+    // Fetch investigation text (for hypothesis_formed or any problem with an investigation)
+    let investigationText = null;
+    try {
+        const iResp = await fetch(`investigations/${selectedProblemId}.txt?_=` + Date.now());
+        if (iResp.ok) investigationText = await iResp.text();
+    } catch (e) { /* ignore */ }
+
+    if (investigationText) {
+        html += `<div class="reasoning-section" style="border-color:#e0b644;">
+            <h3>Investigation</h3>
+            <div class="reasoning-text">${esc(investigationText)}</div>
+        </div>`;
+    }
+
+    detailEl.classList.add('visible');
+    detailEl.innerHTML = html;
+
+    // Bind run selector and prev/next buttons (no-op now, kept for structure)
+    const runSelect = document.getElementById('runSelect');
+    function switchRun(val) {
+        const url = new URL(location.href);
+        url.searchParams.set('run', val);
+        history.pushState({}, '', url);
+        renderDetail();
+    }
+    if (runSelect) {
+        runSelect.addEventListener('change', () => switchRun(runSelect.value));
+        const runPrev = document.getElementById('runPrev');
+        const runNext = document.getElementById('runNext');
+        if (runPrev) runPrev.addEventListener('click', () => {
+            if (runSelect.selectedIndex > 0) {
+                runSelect.selectedIndex--;
+                switchRun(runSelect.value);
+            }
+        });
+        if (runNext) runNext.addEventListener('click', () => {
+            if (runSelect.selectedIndex < runSelect.options.length - 1) {
+                runSelect.selectedIndex++;
+                switchRun(runSelect.value);
+            }
+        });
+    }
+
+    // Bind navigation
+    if (prevRow) document.getElementById('detailPrev').addEventListener('click', () => selectProblem(prevRow.id));
+    if (nextRow) document.getElementById('detailNext').addEventListener('click', () => selectProblem(nextRow.id));
+    document.getElementById('detailClose').addEventListener('click', clearSelection);
+
+    detailEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+// Keyboard navigation
+document.addEventListener('keydown', (e) => {
+    if (!selectedProblemId) return;
+    if (e.key === 'Escape') { clearSelection(); return; }
+    const allIdx = allRows.indexOf(rowById.get(selectedProblemId));
+    if (e.key === 'ArrowLeft' && allIdx > 0) { selectProblem(allRows[allIdx - 1].id); return; }
+    if (e.key === 'ArrowRight' && allIdx < allRows.length - 1) { selectProblem(allRows[allIdx + 1].id); return; }
+});
+
+// Handle browser back/forward
+window.addEventListener('popstate', () => {
+    const params = new URLSearchParams(location.search);
+    selectedProblemId = params.get('problem') || null;
+    if (selectedProblemId) renderDetail();
+    else clearSelection();
+});
+
+// Init
+loadIndex().then(rows => {
+    allRows = rows;
+    for (const r of rows) rowById.set(r.id, r);
+    buildGrid();
+
+    const params = new URLSearchParams(location.search);
+    const initProblem = params.get('problem') || null;
+    if (initProblem) selectProblem(initProblem);
+});
+</script>
+</body>
+</html>

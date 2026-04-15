@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 amel expire hoe
+01 ardia send rapide
+02 arro racont planar
+
+This is a sample output.
+00 amel expire hoe -> –a–m–e–l–e–x–p–i–r–e–h–o–e–
+01 ardia send rapide -> –a–r–d–i–a–s–e–n–d–r–a–p–i–d–e–
+02 arro racont planar -> –a–r–r–o–r–a–c–o–n–t–p–l–a–n–a–r–
+
+This is your input.
+00 oper spo injust
+01 chip zde tuv
+02 eters hashed repair
+03 aki seiz nickname
+04 ugerah dress mentions
+05 ijan courants packing
+06 uncan bas bedside
+07 furter glowing izl
+08 dua corpor estudi
+09 apes offender sebel
+10 ceive pleasant zona
+11 isierung impre qui
+12 itecture schle elegante
+13 uslar on befind
+14 mett adjoint mellett
+15 akte policial smear
+16 hew disqual padd
+17 ausse beendete fiume
+18 liy owing arbet
+19 ln resins breast
+20 antib deset teat
+21 emas pepper sweet
+22 frak haz centered
+23 alt casar traite
+24 ible tracking enfoque
+25 elij upstairs bleef
+26 etzen conduct slap
+27 swer tog stimm
+28 onk ocorre experts
+29 linear graphics ronda
+30 urie paddle gener
+31 gression conne legs
+32 ba phantom inactive
+33 return tiene dama
+34 justed auditory gluc
+35 auen kontrol sug
+36 launch proporc dark
+37 itivity workflow schmal
+38 yente tierras enjoys
+39 avano aprob vader
+40 ivil twee abscess
+41 entukan invalid coupled
+42 enet interne boring
+43 ypass clenched beginnen
+44 marine sensit sangre
+45 undle connue preserv
+46 caire accords cyst
+47 jk prompted experi
+48 sel insiste instit
+49 beam primo shipping
+50 ud dome bisher
+51 ockeys domingo valore
+52 escence by inspire
+53 plik pursue used
+54 elligen cell risult
+55 ascular summoned pleurer
+56 itekten foren kezd
+57 aba costru antid
+58 oled franch predicts
+59 adge century aryl
+60 sw duquel lymphoma
+61 abora belg niz
+62 kh donc passando
+63 quita aliment empf
+64 even loup modeste
+65 uttosto recomp refriger
+66 holds restante igjen
+67 heart stranded das
+68 pril pierw vents
+69 initial kad ding
+70 rada hp terrest
+71 ittiin portent granda
+72 wy regimes skilled
+73 chend marca trapping
+74 caff lascia fuentes
+75 idia einer gold
+76 zsche easier aasta
+77 dec homes brukt
+78 spur opp oscuro
+79 aken usages sponsor
+80 irs gabe prohibit
+81 kal mod keluarga
+82 index seated publiko
+83 umin mov dat
+84 itado samol jazz
+85 ince przyst stup
+86 royo doubled spots
+87 export cler empleado
+88 third centr izan
+89 sample utility avent
+90 kezi generals taip
+91 itum nes chambre
+92 luents heard immobili
+93 ibern italiana korun
+94 aldo publi dispens
+95 chae trasm cercando
+96 tru najm mannen
+97 chst scent olish
+98 polar palpable akibat
+99 ighte forced oss
+[completion]
+00 oper spo injust -> –o–p–e–r–s–p–o–i–n–j–u–s–t–
+01 chip zde tuv -> –c–h–i–p–z–d–e–t–u–v–
+02 eters hashed repair -> –e–t–e–r–s–h–a–s–h–e–d–r–e–p–a–i–r–
+03 aki seiz nickname -> –a–k–i–s–e–i–z–n–i–c–k–n–a–m–e–
+04 ugerah dress mentions -> –u–g–e–r–a–h–d–r–e–s–s–m–e–n–t–i–o–n–s–
+05 ijan courants packing -> –i–j–a–n–c–o–u–r–a–n–t–s–p–a–c–k–i–n–g–
+06 uncan bas bedside -> –u–n–c–a–n–b–a–s–b–e–d–s–i–d–e–
+07 furter glowing izl -> –f–u–r–t–e–r–g–l–o–w–i–n–g–i–z–l–
+08 dua corpor estudi -> –d–u–a–c–o–r–p–o–r–e–s–t–u–d–i–
+09 apes offender sebel -> –a–p–e–s–o–f–f–e–n–d–e–r–s–e–b–e–l–
+10 ceive pleasant zona -> –c–e–i–v–e–p–l–e–a–s–a–n–t–z–o–n–a–
+11 isierung impre qui -> –i–s–i–e–r–u–n–g–i–m–p–r–e–q–u–i–
+12 itecture schle elegante -> –i–t–e–c–t–u–r–e–s–c–h–l–e–e–l–e–g–a–n–t–e–
+13 uslar on befind -> –u–s–l–a–r–o–n–b–e–f–i–n–d–
+14 mett adjoint mellett -> –m–e–t–t–a–d–j–o–i–n–t–m–e–l–l–e–t–t–
+15 akte policial smear -> –a–k–t–e–p–o–l–i–c–i–a–l–s–m–e–a–r–
+16 hew disqual padd -> –h–e–w–d–i–s–q–u–a–l–p–a–d–d–
+17 ausse beendete fiume -> –a–u–s–s–e–b–e–e–n–d–e–t–e–f–i–u–m–e–
+18 liy owing arbet -> –l–i–y–o–w–i–n–g–a–r–b–e–t–
+19 ln resins breast -> –l–n–r–e–s–i–n–s–b–r–e–a–s–t–
+20 antib deset teat -> –a–n–t–i–b–d–e–s–e–t–t–e–a–t–
+21 emas pepper sweet -> –e–m–a–s–p–e–p–p–e–r–s–w–e–e–t–
+22 frak haz centered -> –f–r–a–k–h–a–z–c–e–n–t–e–r–e–d–
+23 alt casar traite -> –a–l–t–c–a–s–a–r–t–r–a–i–t–e–
+24 ible tracking enfoque -> –i–b–l–e–t–r–a–c–k–i–n–g–e–n–f–o–q–u–e–
+25 elij upstairs bleef -> –e–l–i–j–u–p–s–t–a–i–r–s–b–l–e–e–f–
+26 etzen conduct slap -> –e–t–z–e–n–c–o–n–d–u–c–t–s–l–a–p–
+27 swer tog stimm -> –s–w–e–r–t–o–g–s–t–i–m–m–
+28 onk ocorre experts -> –o–n–k–o–c–o–r–r–e–e–x–p–e–r–t–s–
+29 linear graphics ronda -> –l–i–n–e–a–r–g–r–a–p–h–i–c–s–r–o–n–d–a–
+30 urie paddle gener -> –u–r–i–e–p–a–d–d–l–e–g–e–n–e–r–
+31 gression conne legs -> –g–r–e–s–s–i–o–n–c–o–n–n–e–l–e–g–s–
+32 ba phantom inactive -> –b–a–p–h–a–n–t–o–m–i–n–a–c–t–i–v–e–
+33 return tiene dama -> –r–e–t–u–r–n–t–i–e–n–e–d–a–m–a–
+34 justed auditory gluc -> –j–u–s–t–e–d–a–u–d–i–t–o–r–y–g–l–u–c–
+35 auen kontrol sug -> –a–u–e–n–k–o–n–t–r–o–l–s–u–g–
+36 launch proporc dark -> –l–a–u–n–c–h–p–r–o–p–o–r–c–d–a–r–k–
+37 itivity workflow schmal -> –i–t–i–v–i–t–y–w–o–r–k–f–l–o–w–s–c–h–m–a–l–
+38 yente tierras enjoys -> –y–e–n–t–e–t–i–e–r–r–a–s–e–n–j–o–y–s–
+39 avano aprob vader -> –a–v–a–n–o–a–p–r–o–b–v–a–d–e–r–
+40 ivil twee abscess -> –i–v–i–l–t–w–e–e–a–b–s–c–e–s–s–
+41 entukan invalid coupled -> –e–n–t–u–k–a–n–i–n–v–a–l–i–d–c–o–u–p–l–e–d–
+42 enet interne boring -> –e–n–e–t–i–n–t–e–r–n–e–b–o–r–i–n–g–
+43 ypass clenched beginnen -> –y–p–a–s–s–c–l–e–n–c–h–e–d–b–e–g–i–n–n–e–n–
+44 marine sensit sangre -> –m–a–r–i–n–e–s–e–n–s–i–t–s–a–n–g–r–e–
+45 undle connue preserv -> –u–n–d–l–e–c–o–n–n–u–e–p–r–e–s–e–r–v–
+46 caire accords cyst -> –c–a–i–r–e–a–c–c–o–r–d–s–c–y–s–t–
+47 jk prompted experi -> –j–k–p–r–o–m–p–t–e–d–e–x–p–e–r–i–
+48 sel insiste instit -> –s–e–l–i–n–s–i–s–t–e–i–n–s–t–i–t–
+49 beam primo shipping -> –b–e–a–m–p–r–i–m–o–s–h–i–p–p–i–n–g–
+50 ud dome bisher -> –u–d–d–o–m–e–b–i–s–h–e–r–
+51 ockeys domingo valore -> –o–c–k–e–y–s–d–o–m–i–n–g–o–v–a–l–o–r–e–
+52 escence by inspire -> –e–s–c–e–n–c–e–b–y–i–n–s–p–i–r–e–
+53 plik pursue used -> –p–l–i–k–p–u–r–s–u–e–u–s–e–d–
+54 elligen cell risult -> –e–l–l–i–g–e–n–c–e–l–l–r–i–s–u–l–t–
+55 ascular summoned pleurer -> –a–s–c–u–l–a–r–s–u–m–m–o–n–e–d–p–l–e–u–r–e–r–
+56 itekten foren kezd -> –i–t–e–k–t–e–n–f–o–r–e–n–k–e–z–d–
+57 aba costru antid -> –a–b–a–c–o–s–t–r–u–a–n–t–i–d–
+58 oled franch predicts -> –o–l–e–d–f–r–a–n–c–h–p–r–e–d–i–c–t–s–
+59 adge century aryl -> –a–d–g–e–c–e–n–t–u–r–y–a–r–y–l–
+60 sw duquel lymphoma -> –s–w–d–u–q–u–e–l–l–y–m–p–h–o–m–a–
+61 abora belg niz -> –a–b–o–r–a–b–e–l–g–n–i–z–
+62 kh donc passando -> –k–h–d–o–n–c–p–a–s–s–a–n–d–o–
+63 quita aliment empf -> –q–u–i–t–a–a–l–i–m–e–n–t–e–m–p–f–
+64 even loup modeste -> –e–v–e–n–l–o–u–p–m–o–d–e–s–t–e–
+65 uttosto recomp refriger -> –u–t–t–o–s–t–o–r–e–c–o–m–p–r–e–f–r–i–g–e–r–
+66 holds restante igjen -> –h–o–l–d–s–r–e–s–t–a–n–t–e–i–g–j–e–n–
+67 heart stranded das -> –h–e–a–r–t–s–t–r–a–n–d–e–d–d–a–s–
+68 pril pierw vents -> –p–r–i–l–p–i–e–r–w–v–e–n–t–s–
+69 initial kad ding -> –i–n–i–t–i–a–l–k–a–d–d–i–n–g–
+70 rada hp terrest -> –r–a–d–a–h–p–t–e–r–r–e–s–t–
+71 ittiin portent granda -> –i–t–t–i–i–n–p–o–r–t–e–n–t–g–r–a–n–d–a–
+72 wy regimes skilled -> –w–y–r–e–g–i–m–e–s–s–k–i–l–l–e–d–
+73 chend marca trapping -> –c–h–e–n–d–m–a–r–c–a–t–r–a–p–p–i–n–g–
+74 caff lascia fuentes -> –c–a–f–f–l–a–s–c–i–a–f–u–e–n–t–e–s–
+75 idia einer gold -> –i–d–i–a–e–i–n–e–r–g–o–l–d–
+76 zsche easier aasta -> –z–s–c–h–e–e–a–s–i–e–r–a–a–s–t–a–
+77 dec homes brukt -> –d–e–c–h–o–m–e–s–b–r–u–k–t–
+78 spur opp oscuro -> –s–p–u–r–o–p–p–o–s–c–u–r–o–
+79 aken usages sponsor -> –a–k–e–n–u–s–a–g–e–s–s–p–o–n–s–o–r–
+80 irs gabe prohibit -> –i–r–s–g–a–b–e–p–r–o–h–i–b–i–t–
+81 kal mod keluarga -> –k–a–l–m–o–d–k–e–l–u–a–r–g–a–
+82 index seated publiko -> –i–n–d–e–x–s–e–a–t–e–d–p–u–b–l–i–k–o–
+83 umin mov dat -> –u–m–i–n–m–o–v–d–a–t–
+84 itado samol jazz -> –i–t–a–d–o–s–a–m–o–l–j–a–z–z–
+85 ince przyst stup -> –i–n–c–e–p–r–z–y–s–t–s–t–u–p–
+86 royo doubled spots -> –r–o–y–o–d–o–u–b–l–e–d–s–p–o–t–s–
+87 export cler empleado -> –e–x–p–o–r–t–c–l–e–r–e–m–p–l–e–a–d–o–
+88 third centr izan -> –t–h–i–r–d–c–e–n–t–r–i–z–a–n–
+89 sample utility avent -> –s–a–m–p–l–e–u–t–i–l–i–t–y–a–v–e–n–t–
+90 kezi generals taip -> –k–e–z–i–g–e–n–e–r–a–l–s–t–a–i–p–
+91 itum nes chambre -> –i–t–u–m–n–e–s–c–h–a–m–b–r–e–
+92 luents heard immobili -> –l–u–e–n–t–s–h–e–a–r–d–i–m–m–o–b–i–l–i–
+93 ibern italiana korun -> –i–b–e–r–n–i–t–a–l–i–a–n–a–k–o–r–u–n–
+94 aldo publi dispens -> –a–l–d–o–p–u–b–l–i–d–i–s–p–e–n–s–
+95 chae trasm cercando -> –c–h–a–e–t–r–a–s–m–c–e–r–c–a–n–d–o–
+96 tru najm mannen -> –t–r–u–n–a–j–m–m–a–n–n–e–n–
+97 chst scent olish -> –c–h–s–t–s–c–e–n–t–o–l–i–s–h–
+98 polar palpable akibat -> –p–o–l–a–r–p–a–l–p–a–b–l–e–a–k–i–b–a–t–
+99 ighte forced oss -> –i–g–h–t–e–f–o–r–c–e–d–o–s–s–

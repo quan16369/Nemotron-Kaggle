@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 avanja rimasto blah
+01 lambda fingert injust
+02 irer soient when
+
+This is a sample output.
+00 avanja rimasto blah -> –a–v–a–n–j–a–r–i–m–a–s–t–o–b–l–a–h–
+01 lambda fingert injust -> –l–a–m–b–d–a–f–i–n–g–e–r–t–i–n–j–u–s–t–
+02 irer soient when -> –i–r–e–r–s–o–i–e–n–t–w–h–e–n–
+
+This is your input.
+00 taj loving irony
+01 ulado cameo biology
+02 metry stored payload
+03 amerika pygame sempre
+04 alg farm anomal
+05 esinde criatura subit
+06 ocial wur terapia
+07 ranu grasses intentos
+08 vel entret plen
+09 langle question constate
+10 ereg erro means
+11 amaz subtype kand
+12 itories retirer asphalt
+13 ichtete newcom alerts
+14 fm bh cruel
+15 zogen trainers erhob
+16 ords adat queues
+17 rois cong feit
+18 itle datang befindet
+19 pr reused prospect
+20 anyi deputy legy
+21 cs chem pup
+22 fragment startete benzene
+23 cop skulle clicked
+24 ambi tilbage bo
+25 lassung patri ejection
+26 ponent hormonal begann
+27 oom tille mines
+28 lastname lacking ofici
+29 clama spelen adesso
+30 ampion quantum cliente
+31 xima tribu unsigned
+32 iret nhau schloss
+33 sheets paro monsters
+34 uradora ticks turbo
+35 finale pilot tyske
+36 lerinden ex induced
+37 cula dinosaur siamo
+38 hay cannabis trebu
+39 yi overall massif
+40 avljena trener acquired
+41 umo fic compil
+42 azan pension venaient
+43 skills destruct careers
+44 ually voile preved
+45 cepte niveaux bew
+46 ailles debt plotting
+47 present laws ether
+48 rei tuned estrelas
+49 fixed gj escrit
+50 ivo mina sled
+51 teilte hektarea mert
+52 he gema musik
+53 bos refin punkt
+54 yroid compagn cartoon
+55 redi antide coneg
+56 working granule agrade
+57 iligen cercano finish
+58 isit panneaux patient
+59 eem alt dating
+60 embl inferred aller
+61 outer meld timeout
+62 nak dryer kedua
+63 rann omega ouv
+64 udge shading comments
+65 allow cosmos habits
+66 vidia multin purg
+67 istice dripping cis
+68 ynamic adipose viz
+69 ereco kir vremena
+70 art ermordet tongues
+71 nable working toile
+72 idenza object effetti
+73 oyer finger przyk
+74 brig figures nomeado
+75 aturing camin bele
+76 ipse absent correg
+77 asti erup greg
+78 ecause geringe fand
+79 ikuti schreef proti
+80 tron market cobalt
+81 unch bot reticul
+82 amiento attrib merely
+83 isten cms deporte
+84 cycle konfer teen
+85 kog krigen descrita
+86 agawa analogs those
+87 idir converts bastard
+88 anje fills multip
+89 rub ved decent
+90 sek enables realist
+91 panel dispro spoiled
+92 uate ste relapse
+93 ose weigh pens
+94 ursor straight laser
+95 iedo bone mauvais
+96 uris departed excepc
+97 nit throwing luz
+98 gorithm cyclic dommages
+99 leked jarcento reins
+[completion]
+00 taj loving irony -> –t–a–j–l–o–v–i–n–g–i–r–o–n–y–
+01 ulado cameo biology -> –u–l–a–d–o–c–a–m–e–o–b–i–o–l–o–g–y–
+02 metry stored payload -> –m–e–t–r–y–s–t–o–r–e–d–p–a–y–l–o–a–d–
+03 amerika pygame sempre -> –a–m–e–r–i–k–a–p–y–g–a–m–e–s–e–m–p–r–e–
+04 alg farm anomal -> –a–l–g–f–a–r–m–a–n–o–m–a–l–
+05 esinde criatura subit -> –e–s–i–n–d–e–c–r–i–a–t–u–r–a–s–u–b–i–t–
+06 ocial wur terapia -> –o–c–i–a–l–w–u–r–t–e–r–a–p–i–a–
+07 ranu grasses intentos -> –r–a–n–u–g–r–a–s–s–e–s–i–n–t–e–n–t–o–s–
+08 vel entret plen -> –v–e–l–e–n–t–r–e–t–p–l–e–n–
+09 langle question constate -> –l–a–n–g–l–e–q–u–e–s–t–i–o–n–c–o–n–s–t–a–t–e–
+10 ereg erro means -> –e–r–e–g–e–r–r–o–m–e–a–n–s–
+11 amaz subtype kand -> –a–m–a–z–s–u–b–t–y–p–e–k–a–n–d–
+12 itories retirer asphalt -> –i–t–o–r–i–e–s–r–e–t–i–r–e–r–a–s–p–h–a–l–t–
+13 ichtete newcom alerts -> –i–c–h–t–e–t–e–n–e–w–c–o–m–a–l–e–r–t–s–
+14 fm bh cruel -> –f–m–b–h–c–r–u–e–l–
+15 zogen trainers erhob -> –z–o–g–e–n–t–r–a–i–n–e–r–s–e–r–h–o–b–
+16 ords adat queues -> –o–r–d–s–a–d–a–t–q–u–e–u–e–s–
+17 rois cong feit -> –r–o–i–s–c–o–n–g–f–e–i–t–
+18 itle datang befindet -> –i–t–l–e–d–a–t–a–n–g–b–e–f–i–n–d–e–t–
+19 pr reused prospect -> –p–r–r–e–u–s–e–d–p–r–o–s–p–e–c–t–
+20 anyi deputy legy -> –a–n–y–i–d–e–p–u–t–y–l–e–g–y–
+21 cs chem pup -> –c–s–c–h–e–m–p–u–p–
+22 fragment startete benzene -> –f–r–a–g–m–e–n–t–s–t–a–r–t–e–t–e–b–e–n–z–e–n–e–
+23 cop skulle clicked -> –c–o–p–s–k–u–l–l–e–c–l–i–c–k–e–d–
+24 ambi tilbage bo -> –a–m–b–i–t–i–l–b–a–g–e–b–o–
+25 lassung patri ejection -> –l–a–s–s–u–n–g–p–a–t–r–i–e–j–e–c–t–i–o–n–
+26 ponent hormonal begann -> –p–o–n–e–n–t–h–o–r–m–o–n–a–l–b–e–g–a–n–n–
+27 oom tille mines -> –o–o–m–t–i–l–l–e–m–i–n–e–s–
+28 lastname lacking ofici -> –l–a–s–t–n–a–m–e–l–a–c–k–i–n–g–o–f–i–c–i–
+29 clama spelen adesso -> –c–l–a–m–a–s–p–e–l–e–n–a–d–e–s–s–o–
+30 ampion quantum cliente -> –a–m–p–i–o–n–q–u–a–n–t–u–m–c–l–i–e–n–t–e–
+31 xima tribu unsigned -> –x–i–m–a–t–r–i–b–u–u–n–s–i–g–n–e–d–
+32 iret nhau schloss -> –i–r–e–t–n–h–a–u–s–c–h–l–o–s–s–
+33 sheets paro monsters -> –s–h–e–e–t–s–p–a–r–o–m–o–n–s–t–e–r–s–
+34 uradora ticks turbo -> –u–r–a–d–o–r–a–t–i–c–k–s–t–u–r–b–o–
+35 finale pilot tyske -> –f–i–n–a–l–e–p–i–l–o–t–t–y–s–k–e–
+36 lerinden ex induced -> –l–e–r–i–n–d–e–n–e–x–i–n–d–u–c–e–d–
+37 cula dinosaur siamo -> –c–u–l–a–d–i–n–o–s–a–u–r–s–i–a–m–o–
+38 hay cannabis trebu -> –h–a–y–c–a–n–n–a–b–i–s–t–r–e–b–u–
+39 yi overall massif -> –y–i–o–v–e–r–a–l–l–m–a–s–s–i–f–
+40 avljena trener acquired -> –a–v–l–j–e–n–a–t–r–e–n–e–r–a–c–q–u–i–r–e–d–
+41 umo fic compil -> –u–m–o–f–i–c–c–o–m–p–i–l–
+42 azan pension venaient -> –a–z–a–n–p–e–n–s–i–o–n–v–e–n–a–i–e–n–t–
+43 skills destruct careers -> –s–k–i–l–l–s–d–e–s–t–r–u–c–t–c–a–r–e–e–r–s–
+44 ually voile preved -> –u–a–l–l–y–v–o–i–l–e–p–r–e–v–e–d–
+45 cepte niveaux bew -> –c–e–p–t–e–n–i–v–e–a–u–x–b–e–w–
+46 ailles debt plotting -> –a–i–l–l–e–s–d–e–b–t–p–l–o–t–t–i–n–g–
+47 present laws ether -> –p–r–e–s–e–n–t–l–a–w–s–e–t–h–e–r–
+48 rei tuned estrelas -> –r–e–i–t–u–n–e–d–e–s–t–r–e–l–a–s–
+49 fixed gj escrit -> –f–i–x–e–d–g–j–e–s–c–r–i–t–
+50 ivo mina sled -> –i–v–o–m–i–n–a–s–l–e–d–
+51 teilte hektarea mert -> –t–e–i–l–t–e–h–e–k–t–a–r–e–a–m–e–r–t–
+52 he gema musik -> –h–e–g–e–m–a–m–u–s–i–k–
+53 bos refin punkt -> –b–o–s–r–e–f–i–n–p–u–n–k–t–
+54 yroid compagn cartoon -> –y–r–o–i–d–c–o–m–p–a–g–n–c–a–r–t–o–o–n–
+55 redi antide coneg -> –r–e–d–i–a–n–t–i–d–e–c–o–n–e–g–
+56 working granule agrade -> –w–o–r–k–i–n–g–g–r–a–n–u–l–e–a–g–r–a–d–e–
+57 iligen cercano finish -> –i–l–i–g–e–n–c–e–r–c–a–n–o–f–i–n–i–s–h–
+58 isit panneaux patient -> –i–s–i–t–p–a–n–n–e–a–u–x–p–a–t–i–e–n–t–
+59 eem alt dating -> –e–e–m–a–l–t–d–a–t–i–n–g–
+60 embl inferred aller -> –e–m–b–l–i–n–f–e–r–r–e–d–a–l–l–e–r–
+61 outer meld timeout -> –o–u–t–e–r–m–e–l–d–t–i–m–e–o–u–t–
+62 nak dryer kedua -> –n–a–k–d–r–y–e–r–k–e–d–u–a–
+63 rann omega ouv -> –r–a–n–n–o–m–e–g–a–o–u–v–
+64 udge shading comments -> –u–d–g–e–s–h–a–d–i–n–g–c–o–m–m–e–n–t–s–
+65 allow cosmos habits -> –a–l–l–o–w–c–o–s–m–o–s–h–a–b–i–t–s–
+66 vidia multin purg -> –v–i–d–i–a–m–u–l–t–i–n–p–u–r–g–
+67 istice dripping cis -> –i–s–t–i–c–e–d–r–i–p–p–i–n–g–c–i–s–
+68 ynamic adipose viz -> –y–n–a–m–i–c–a–d–i–p–o–s–e–v–i–z–
+69 ereco kir vremena -> –e–r–e–c–o–k–i–r–v–r–e–m–e–n–a–
+70 art ermordet tongues -> –a–r–t–e–r–m–o–r–d–e–t–t–o–n–g–u–e–s–
+71 nable working toile -> –n–a–b–l–e–w–o–r–k–i–n–g–t–o–i–l–e–
+72 idenza object effetti -> –i–d–e–n–z–a–o–b–j–e–c–t–e–f–f–e–t–t–i–
+73 oyer finger przyk -> –o–y–e–r–f–i–n–g–e–r–p–r–z–y–k–
+74 brig figures nomeado -> –b–r–i–g–f–i–g–u–r–e–s–n–o–m–e–a–d–o–
+75 aturing camin bele -> –a–t–u–r–i–n–g–c–a–m–i–n–b–e–l–e–
+76 ipse absent correg -> –i–p–s–e–a–b–s–e–n–t–c–o–r–r–e–g–
+77 asti erup greg -> –a–s–t–i–e–r–u–p–g–r–e–g–
+78 ecause geringe fand -> –e–c–a–u–s–e–g–e–r–i–n–g–e–f–a–n–d–
+79 ikuti schreef proti -> –i–k–u–t–i–s–c–h–r–e–e–f–p–r–o–t–i–
+80 tron market cobalt -> –t–r–o–n–m–a–r–k–e–t–c–o–b–a–l–t–
+81 unch bot reticul -> –u–n–c–h–b–o–t–r–e–t–i–c–u–l–
+82 amiento attrib merely -> –a–m–i–e–n–t–o–a–t–t–r–i–b–m–e–r–e–l–y–
+83 isten cms deporte -> –i–s–t–e–n–c–m–s–d–e–p–o–r–t–e–
+84 cycle konfer teen -> –c–y–c–l–e–k–o–n–f–e–r–t–e–e–n–
+85 kog krigen descrita -> –k–o–g–k–r–i–g–e–n–d–e–s–c–r–i–t–a–
+86 agawa analogs those -> –a–g–a–w–a–a–n–a–l–o–g–s–t–h–o–s–e–
+87 idir converts bastard -> –i–d–i–r–c–o–n–v–e–r–t–s–b–a–s–t–a–r–d–
+88 anje fills multip -> –a–n–j–e–f–i–l–l–s–m–u–l–t–i–p–
+89 rub ved decent -> –r–u–b–v–e–d–d–e–c–e–n–t–
+90 sek enables realist -> –s–e–k–e–n–a–b–l–e–s–r–e–a–l–i–s–t–
+91 panel dispro spoiled -> –p–a–n–e–l–d–i–s–p–r–o–s–p–o–i–l–e–d–
+92 uate ste relapse -> –u–a–t–e–s–t–e–r–e–l–a–p–s–e–
+93 ose weigh pens -> –o–s–e–w–e–i–g–h–p–e–n–s–
+94 ursor straight laser -> –u–r–s–o–r–s–t–r–a–i–g–h–t–l–a–s–e–r–
+95 iedo bone mauvais -> –i–e–d–o–b–o–n–e–m–a–u–v–a–i–s–
+96 uris departed excepc -> –u–r–i–s–d–e–p–a–r–t–e–d–e–x–c–e–p–c–
+97 nit throwing luz -> –n–i–t–t–h–r–o–w–i–n–g–l–u–z–
+98 gorithm cyclic dommages -> –g–o–r–i–t–h–m–c–y–c–l–i–c–d–o–m–m–a–g–e–s–
+99 leked jarcento reins -> –l–e–k–e–d–j–a–r–c–e–n–t–o–r–e–i–n–s–

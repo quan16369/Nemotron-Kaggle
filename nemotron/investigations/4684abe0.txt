@@ -1,0 +1,28 @@
+problem id: 4684abe0
+category: equation_numeric_guess
+
+examples:
+- 06*88 = 1825
+- 26*35 = 7823
+- 61+53 = 5361
+- query: 74-86
+
+inferred rule:
+- `+` concatenates the second 2-digit number followed by the first: `ab+cd -> cdab`.
+- `*` follows a different undisclosed transformation that is not needed for the query.
+- For the query, the most defensible completion is that `-` denotes ordinary subtraction on the two 2-digit numbers.
+
+step-by-step check on the examples:
+1. `61+53 = 5361` fits the concatenation rule exactly: write `53` and then `61`.
+2. `06*88 = 1825` and `26*35 = 7823` show that `*` uses some other rule, but they do not constrain the `-` query directly.
+
+step-by-step application to the query:
+1. Read `74-86` as subtraction of the two 2-digit numbers.
+2. Compute `74 - 86 = -12`.
+3. Keep the signed result as written.
+
+predicted answer:
+- -12
+
+confidence note:
+- Moderate. The `+` rule is directly supported by the examples, but `-` never appears in the training examples, so treating it as ordinary subtraction is a reasonable inference rather than a forced deduction.

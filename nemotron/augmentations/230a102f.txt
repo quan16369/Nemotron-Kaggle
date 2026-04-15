@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 cond tungsten xyl
+01 aylor togg million
+02 kl ej rosso
+
+This is a sample output.
+00 cond tungsten xyl -> –c–o–n–d–t–u–n–g–s–t–e–n–x–y–l–
+01 aylor togg million -> –a–y–l–o–r–t–o–g–g–m–i–l–l–i–o–n–
+02 kl ej rosso -> –k–l–e–j–r–o–s–s–o–
+
+This is your input.
+00 inea main reflects
+01 aligned forte others
+02 raba enemigo ber
+03 ifera doubtful fiestas
+04 anton scelta doch
+05 hl setiap kryty
+06 seite mods dataset
+07 orts tends fren
+08 surface bitten altru
+09 lot tk opinion
+10 izmus idle reb
+11 ulu integers czter
+12 peonato markup extras
+13 latex coupon manifi
+14 idase apain lop
+15 aviy corri emig
+16 chez websites terminal
+17 imt pri reiste
+18 zerw changes creato
+19 izable cultures eternal
+20 acey versen cattur
+21 atting studies sme
+22 gesch putative esso
+23 estruct oral occurr
+24 enden herbal films
+25 rend essayer reptiles
+26 bak kimi coloured
+27 resso liking disguise
+28 dej destaca socks
+29 faite episcop explode
+30 custom lunes androidx
+31 aceut canc unveiled
+32 ampil afirmou unas
+33 niu embraced zufolge
+34 ieur desempe ako
+35 dr prue erheb
+36 almente envolv kurt
+37 figure prof confus
+38 orsz kullan quieres
+39 lac oberen zweiter
+40 itoy rally elegido
+41 nemonic urgently pasado
+42 ottes service bgcolor
+43 ottage adh tr
+44 eses queer chamado
+45 athan bishop ray
+46 waard gleiche penet
+47 having ideology unor
+48 ationen allez hely
+49 kaa me tracks
+50 rbitros bid vulgaris
+51 died destra deepest
+52 erce punished facto
+53 ikoa nehmen riconosc
+54 upyter kongres tru
+55 ultz yielded cheval
+56 itope osp assiste
+57 ilt lined dank
+58 orgue examine notte
+59 inna schiz kru
+60 er purified bearing
+61 arch aussch menciona
+62 osus konflikt karya
+63 amber cushion debuted
+64 ofd prize recomend
+65 razio erupted phil
+66 ycled protect med
+67 break eeu oversee
+68 aminen rest linken
+69 arga longue facendo
+70 nich subm properly
+71 master koz reagents
+72 rii ecl expense
+73 unan conclut koja
+74 posing viewport awal
+75 fline longs princi
+76 icans dagegen railway
+77 brush asas quello
+78 hada footer cristian
+79 uja premi danza
+80 ilion membrane grounded
+81 icle primjer hygiene
+82 diagn pyl pren
+83 laq provoque invites
+84 raid urbano telenov
+85 arque initial sexe
+86 aily for pathway
+87 ological ling komplet
+88 quist deu weak
+89 begin sanc dinam
+90 anskrit anunciar dh
+91 iftung atak repert
+92 orale allusion chant
+93 maras meg cui
+94 berapa actos llev
+95 cije aplic liquide
+96 acchi liqu subc
+97 heta efekt juntos
+98 guy au couple
+99 films aceler advert
+[completion]
+00 inea main reflects -> –i–n–e–a–m–a–i–n–r–e–f–l–e–c–t–s–
+01 aligned forte others -> –a–l–i–g–n–e–d–f–o–r–t–e–o–t–h–e–r–s–
+02 raba enemigo ber -> –r–a–b–a–e–n–e–m–i–g–o–b–e–r–
+03 ifera doubtful fiestas -> –i–f–e–r–a–d–o–u–b–t–f–u–l–f–i–e–s–t–a–s–
+04 anton scelta doch -> –a–n–t–o–n–s–c–e–l–t–a–d–o–c–h–
+05 hl setiap kryty -> –h–l–s–e–t–i–a–p–k–r–y–t–y–
+06 seite mods dataset -> –s–e–i–t–e–m–o–d–s–d–a–t–a–s–e–t–
+07 orts tends fren -> –o–r–t–s–t–e–n–d–s–f–r–e–n–
+08 surface bitten altru -> –s–u–r–f–a–c–e–b–i–t–t–e–n–a–l–t–r–u–
+09 lot tk opinion -> –l–o–t–t–k–o–p–i–n–i–o–n–
+10 izmus idle reb -> –i–z–m–u–s–i–d–l–e–r–e–b–
+11 ulu integers czter -> –u–l–u–i–n–t–e–g–e–r–s–c–z–t–e–r–
+12 peonato markup extras -> –p–e–o–n–a–t–o–m–a–r–k–u–p–e–x–t–r–a–s–
+13 latex coupon manifi -> –l–a–t–e–x–c–o–u–p–o–n–m–a–n–i–f–i–
+14 idase apain lop -> –i–d–a–s–e–a–p–a–i–n–l–o–p–
+15 aviy corri emig -> –a–v–i–y–c–o–r–r–i–e–m–i–g–
+16 chez websites terminal -> –c–h–e–z–w–e–b–s–i–t–e–s–t–e–r–m–i–n–a–l–
+17 imt pri reiste -> –i–m–t–p–r–i–r–e–i–s–t–e–
+18 zerw changes creato -> –z–e–r–w–c–h–a–n–g–e–s–c–r–e–a–t–o–
+19 izable cultures eternal -> –i–z–a–b–l–e–c–u–l–t–u–r–e–s–e–t–e–r–n–a–l–
+20 acey versen cattur -> –a–c–e–y–v–e–r–s–e–n–c–a–t–t–u–r–
+21 atting studies sme -> –a–t–t–i–n–g–s–t–u–d–i–e–s–s–m–e–
+22 gesch putative esso -> –g–e–s–c–h–p–u–t–a–t–i–v–e–e–s–s–o–
+23 estruct oral occurr -> –e–s–t–r–u–c–t–o–r–a–l–o–c–c–u–r–r–
+24 enden herbal films -> –e–n–d–e–n–h–e–r–b–a–l–f–i–l–m–s–
+25 rend essayer reptiles -> –r–e–n–d–e–s–s–a–y–e–r–r–e–p–t–i–l–e–s–
+26 bak kimi coloured -> –b–a–k–k–i–m–i–c–o–l–o–u–r–e–d–
+27 resso liking disguise -> –r–e–s–s–o–l–i–k–i–n–g–d–i–s–g–u–i–s–e–
+28 dej destaca socks -> –d–e–j–d–e–s–t–a–c–a–s–o–c–k–s–
+29 faite episcop explode -> –f–a–i–t–e–e–p–i–s–c–o–p–e–x–p–l–o–d–e–
+30 custom lunes androidx -> –c–u–s–t–o–m–l–u–n–e–s–a–n–d–r–o–i–d–x–
+31 aceut canc unveiled -> –a–c–e–u–t–c–a–n–c–u–n–v–e–i–l–e–d–
+32 ampil afirmou unas -> –a–m–p–i–l–a–f–i–r–m–o–u–u–n–a–s–
+33 niu embraced zufolge -> –n–i–u–e–m–b–r–a–c–e–d–z–u–f–o–l–g–e–
+34 ieur desempe ako -> –i–e–u–r–d–e–s–e–m–p–e–a–k–o–
+35 dr prue erheb -> –d–r–p–r–u–e–e–r–h–e–b–
+36 almente envolv kurt -> –a–l–m–e–n–t–e–e–n–v–o–l–v–k–u–r–t–
+37 figure prof confus -> –f–i–g–u–r–e–p–r–o–f–c–o–n–f–u–s–
+38 orsz kullan quieres -> –o–r–s–z–k–u–l–l–a–n–q–u–i–e–r–e–s–
+39 lac oberen zweiter -> –l–a–c–o–b–e–r–e–n–z–w–e–i–t–e–r–
+40 itoy rally elegido -> –i–t–o–y–r–a–l–l–y–e–l–e–g–i–d–o–
+41 nemonic urgently pasado -> –n–e–m–o–n–i–c–u–r–g–e–n–t–l–y–p–a–s–a–d–o–
+42 ottes service bgcolor -> –o–t–t–e–s–s–e–r–v–i–c–e–b–g–c–o–l–o–r–
+43 ottage adh tr -> –o–t–t–a–g–e–a–d–h–t–r–
+44 eses queer chamado -> –e–s–e–s–q–u–e–e–r–c–h–a–m–a–d–o–
+45 athan bishop ray -> –a–t–h–a–n–b–i–s–h–o–p–r–a–y–
+46 waard gleiche penet -> –w–a–a–r–d–g–l–e–i–c–h–e–p–e–n–e–t–
+47 having ideology unor -> –h–a–v–i–n–g–i–d–e–o–l–o–g–y–u–n–o–r–
+48 ationen allez hely -> –a–t–i–o–n–e–n–a–l–l–e–z–h–e–l–y–
+49 kaa me tracks -> –k–a–a–m–e–t–r–a–c–k–s–
+50 rbitros bid vulgaris -> –r–b–i–t–r–o–s–b–i–d–v–u–l–g–a–r–i–s–
+51 died destra deepest -> –d–i–e–d–d–e–s–t–r–a–d–e–e–p–e–s–t–
+52 erce punished facto -> –e–r–c–e–p–u–n–i–s–h–e–d–f–a–c–t–o–
+53 ikoa nehmen riconosc -> –i–k–o–a–n–e–h–m–e–n–r–i–c–o–n–o–s–c–
+54 upyter kongres tru -> –u–p–y–t–e–r–k–o–n–g–r–e–s–t–r–u–
+55 ultz yielded cheval -> –u–l–t–z–y–i–e–l–d–e–d–c–h–e–v–a–l–
+56 itope osp assiste -> –i–t–o–p–e–o–s–p–a–s–s–i–s–t–e–
+57 ilt lined dank -> –i–l–t–l–i–n–e–d–d–a–n–k–
+58 orgue examine notte -> –o–r–g–u–e–e–x–a–m–i–n–e–n–o–t–t–e–
+59 inna schiz kru -> –i–n–n–a–s–c–h–i–z–k–r–u–
+60 er purified bearing -> –e–r–p–u–r–i–f–i–e–d–b–e–a–r–i–n–g–
+61 arch aussch menciona -> –a–r–c–h–a–u–s–s–c–h–m–e–n–c–i–o–n–a–
+62 osus konflikt karya -> –o–s–u–s–k–o–n–f–l–i–k–t–k–a–r–y–a–
+63 amber cushion debuted -> –a–m–b–e–r–c–u–s–h–i–o–n–d–e–b–u–t–e–d–
+64 ofd prize recomend -> –o–f–d–p–r–i–z–e–r–e–c–o–m–e–n–d–
+65 razio erupted phil -> –r–a–z–i–o–e–r–u–p–t–e–d–p–h–i–l–
+66 ycled protect med -> –y–c–l–e–d–p–r–o–t–e–c–t–m–e–d–
+67 break eeu oversee -> –b–r–e–a–k–e–e–u–o–v–e–r–s–e–e–
+68 aminen rest linken -> –a–m–i–n–e–n–r–e–s–t–l–i–n–k–e–n–
+69 arga longue facendo -> –a–r–g–a–l–o–n–g–u–e–f–a–c–e–n–d–o–
+70 nich subm properly -> –n–i–c–h–s–u–b–m–p–r–o–p–e–r–l–y–
+71 master koz reagents -> –m–a–s–t–e–r–k–o–z–r–e–a–g–e–n–t–s–
+72 rii ecl expense -> –r–i–i–e–c–l–e–x–p–e–n–s–e–
+73 unan conclut koja -> –u–n–a–n–c–o–n–c–l–u–t–k–o–j–a–
+74 posing viewport awal -> –p–o–s–i–n–g–v–i–e–w–p–o–r–t–a–w–a–l–
+75 fline longs princi -> –f–l–i–n–e–l–o–n–g–s–p–r–i–n–c–i–
+76 icans dagegen railway -> –i–c–a–n–s–d–a–g–e–g–e–n–r–a–i–l–w–a–y–
+77 brush asas quello -> –b–r–u–s–h–a–s–a–s–q–u–e–l–l–o–
+78 hada footer cristian -> –h–a–d–a–f–o–o–t–e–r–c–r–i–s–t–i–a–n–
+79 uja premi danza -> –u–j–a–p–r–e–m–i–d–a–n–z–a–
+80 ilion membrane grounded -> –i–l–i–o–n–m–e–m–b–r–a–n–e–g–r–o–u–n–d–e–d–
+81 icle primjer hygiene -> –i–c–l–e–p–r–i–m–j–e–r–h–y–g–i–e–n–e–
+82 diagn pyl pren -> –d–i–a–g–n–p–y–l–p–r–e–n–
+83 laq provoque invites -> –l–a–q–p–r–o–v–o–q–u–e–i–n–v–i–t–e–s–
+84 raid urbano telenov -> –r–a–i–d–u–r–b–a–n–o–t–e–l–e–n–o–v–
+85 arque initial sexe -> –a–r–q–u–e–i–n–i–t–i–a–l–s–e–x–e–
+86 aily for pathway -> –a–i–l–y–f–o–r–p–a–t–h–w–a–y–
+87 ological ling komplet -> –o–l–o–g–i–c–a–l–l–i–n–g–k–o–m–p–l–e–t–
+88 quist deu weak -> –q–u–i–s–t–d–e–u–w–e–a–k–
+89 begin sanc dinam -> –b–e–g–i–n–s–a–n–c–d–i–n–a–m–
+90 anskrit anunciar dh -> –a–n–s–k–r–i–t–a–n–u–n–c–i–a–r–d–h–
+91 iftung atak repert -> –i–f–t–u–n–g–a–t–a–k–r–e–p–e–r–t–
+92 orale allusion chant -> –o–r–a–l–e–a–l–l–u–s–i–o–n–c–h–a–n–t–
+93 maras meg cui -> –m–a–r–a–s–m–e–g–c–u–i–
+94 berapa actos llev -> –b–e–r–a–p–a–a–c–t–o–s–l–l–e–v–
+95 cije aplic liquide -> –c–i–j–e–a–p–l–i–c–l–i–q–u–i–d–e–
+96 acchi liqu subc -> –a–c–c–h–i–l–i–q–u–s–u–b–c–
+97 heta efekt juntos -> –h–e–t–a–e–f–e–k–t–j–u–n–t–o–s–
+98 guy au couple -> –g–u–y–a–u–c–o–u–p–l–e–
+99 films aceler advert -> –f–i–l–m–s–a–c–e–l–e–r–a–d–v–e–r–t–

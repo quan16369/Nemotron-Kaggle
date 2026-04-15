@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 shop mik ked
+01 tanleria vesicle silenc
+02 onton ausgew hauek
+
+This is a sample output.
+00 shop mik ked -> –s–h–o–p–m–i–k–k–e–d–
+01 tanleria vesicle silenc -> –t–a–n–l–e–r–i–a–v–e–s–i–c–l–e–s–i–l–e–n–c–
+02 onton ausgew hauek -> –o–n–t–o–n–a–u–s–g–e–w–h–a–u–e–k–
+
+This is your input.
+00 rovers ont preg
+01 simple deb fiesta
+02 estad infolge seaw
+03 oureux lovers concerne
+04 roj scav guests
+05 crew ned ended
+06 analysis holidays kont
+07 aml old vegada
+08 bewegung tile erlaubt
+09 udis syysku willing
+10 agine ultim invari
+11 atalog augmente liter
+12 thon err substit
+13 acry damalige harm
+14 illi tapped despl
+15 essione refrain zweite
+16 lawanan des contiene
+17 iler blow grouping
+18 urin maires dever
+19 mouth justice unified
+20 itava avsl fibro
+21 maan aceea affirm
+22 hey divisor krig
+23 atlar anaest osvoj
+24 gare norske afforded
+25 lerini autism crawled
+26 rid archive kaf
+27 chol atras reunion
+28 ayas sparked paris
+29 haviour variants vyt
+30 veis billing patrols
+31 oiselle undersc ritir
+32 output pride swung
+33 crit meestal ios
+34 dispatch gravel wybor
+35 olo hegem rester
+36 livier us quen
+37 wart legte css
+38 licopt obvious already
+39 expected sw clause
+40 ka tvr refining
+41 nown psychiat json
+42 iker biztos culte
+43 banner assur helyez
+44 stra kao kunst
+45 iped inserted minist
+46 etsk van visitor
+47 worthy notified ocean
+48 ifiant cirka sguardo
+49 erd dwell answer
+50 those electr francusk
+51 ophone chasing abband
+52 unsafe amour zum
+53 umbo immens stature
+54 jean eeuw octobre
+55 gangen spada menerima
+56 oben inc propias
+57 nofollow baron risk
+58 they seeing compete
+59 astic relies margins
+60 ystycz cale lions
+61 cheduled lini teles
+62 mist synonym panel
+63 chnitt mongol string
+64 storage moon hod
+65 quina alla subjects
+66 musik dim ima
+67 ploid enfrent stranger
+68 ulf protesta ligands
+69 am lighter intro
+70 yy flight regel
+71 abr tyrosine biocom
+72 izei llegan starken
+73 azio ihren abl
+74 jec andata af
+75 natural guruh nested
+76 irao znalaz marcou
+77 rides salts incess
+78 auff edges lady
+79 uery enero zweiten
+80 ologie during barne
+81 alpha fleeing cacher
+82 oth krav commenc
+83 atea conex savais
+84 zioni tecn owns
+85 oration meget ro
+86 irana nebul condens
+87 dienst dot collabor
+88 ounded adop ihrem
+89 pd residue sai
+90 closes quart jabearen
+91 contrast conflito blade
+92 ocke marks indie
+93 encoded digne bacteria
+94 rand gente quand
+95 rici detained higher
+96 bbing raced hastily
+97 ively absolue yaml
+98 cat scripts stubborn
+99 znik ultraf cousins
+[completion]
+00 rovers ont preg -> –r–o–v–e–r–s–o–n–t–p–r–e–g–
+01 simple deb fiesta -> –s–i–m–p–l–e–d–e–b–f–i–e–s–t–a–
+02 estad infolge seaw -> –e–s–t–a–d–i–n–f–o–l–g–e–s–e–a–w–
+03 oureux lovers concerne -> –o–u–r–e–u–x–l–o–v–e–r–s–c–o–n–c–e–r–n–e–
+04 roj scav guests -> –r–o–j–s–c–a–v–g–u–e–s–t–s–
+05 crew ned ended -> –c–r–e–w–n–e–d–e–n–d–e–d–
+06 analysis holidays kont -> –a–n–a–l–y–s–i–s–h–o–l–i–d–a–y–s–k–o–n–t–
+07 aml old vegada -> –a–m–l–o–l–d–v–e–g–a–d–a–
+08 bewegung tile erlaubt -> –b–e–w–e–g–u–n–g–t–i–l–e–e–r–l–a–u–b–t–
+09 udis syysku willing -> –u–d–i–s–s–y–y–s–k–u–w–i–l–l–i–n–g–
+10 agine ultim invari -> –a–g–i–n–e–u–l–t–i–m–i–n–v–a–r–i–
+11 atalog augmente liter -> –a–t–a–l–o–g–a–u–g–m–e–n–t–e–l–i–t–e–r–
+12 thon err substit -> –t–h–o–n–e–r–r–s–u–b–s–t–i–t–
+13 acry damalige harm -> –a–c–r–y–d–a–m–a–l–i–g–e–h–a–r–m–
+14 illi tapped despl -> –i–l–l–i–t–a–p–p–e–d–d–e–s–p–l–
+15 essione refrain zweite -> –e–s–s–i–o–n–e–r–e–f–r–a–i–n–z–w–e–i–t–e–
+16 lawanan des contiene -> –l–a–w–a–n–a–n–d–e–s–c–o–n–t–i–e–n–e–
+17 iler blow grouping -> –i–l–e–r–b–l–o–w–g–r–o–u–p–i–n–g–
+18 urin maires dever -> –u–r–i–n–m–a–i–r–e–s–d–e–v–e–r–
+19 mouth justice unified -> –m–o–u–t–h–j–u–s–t–i–c–e–u–n–i–f–i–e–d–
+20 itava avsl fibro -> –i–t–a–v–a–a–v–s–l–f–i–b–r–o–
+21 maan aceea affirm -> –m–a–a–n–a–c–e–e–a–a–f–f–i–r–m–
+22 hey divisor krig -> –h–e–y–d–i–v–i–s–o–r–k–r–i–g–
+23 atlar anaest osvoj -> –a–t–l–a–r–a–n–a–e–s–t–o–s–v–o–j–
+24 gare norske afforded -> –g–a–r–e–n–o–r–s–k–e–a–f–f–o–r–d–e–d–
+25 lerini autism crawled -> –l–e–r–i–n–i–a–u–t–i–s–m–c–r–a–w–l–e–d–
+26 rid archive kaf -> –r–i–d–a–r–c–h–i–v–e–k–a–f–
+27 chol atras reunion -> –c–h–o–l–a–t–r–a–s–r–e–u–n–i–o–n–
+28 ayas sparked paris -> –a–y–a–s–s–p–a–r–k–e–d–p–a–r–i–s–
+29 haviour variants vyt -> –h–a–v–i–o–u–r–v–a–r–i–a–n–t–s–v–y–t–
+30 veis billing patrols -> –v–e–i–s–b–i–l–l–i–n–g–p–a–t–r–o–l–s–
+31 oiselle undersc ritir -> –o–i–s–e–l–l–e–u–n–d–e–r–s–c–r–i–t–i–r–
+32 output pride swung -> –o–u–t–p–u–t–p–r–i–d–e–s–w–u–n–g–
+33 crit meestal ios -> –c–r–i–t–m–e–e–s–t–a–l–i–o–s–
+34 dispatch gravel wybor -> –d–i–s–p–a–t–c–h–g–r–a–v–e–l–w–y–b–o–r–
+35 olo hegem rester -> –o–l–o–h–e–g–e–m–r–e–s–t–e–r–
+36 livier us quen -> –l–i–v–i–e–r–u–s–q–u–e–n–
+37 wart legte css -> –w–a–r–t–l–e–g–t–e–c–s–s–
+38 licopt obvious already -> –l–i–c–o–p–t–o–b–v–i–o–u–s–a–l–r–e–a–d–y–
+39 expected sw clause -> –e–x–p–e–c–t–e–d–s–w–c–l–a–u–s–e–
+40 ka tvr refining -> –k–a–t–v–r–r–e–f–i–n–i–n–g–
+41 nown psychiat json -> –n–o–w–n–p–s–y–c–h–i–a–t–j–s–o–n–
+42 iker biztos culte -> –i–k–e–r–b–i–z–t–o–s–c–u–l–t–e–
+43 banner assur helyez -> –b–a–n–n–e–r–a–s–s–u–r–h–e–l–y–e–z–
+44 stra kao kunst -> –s–t–r–a–k–a–o–k–u–n–s–t–
+45 iped inserted minist -> –i–p–e–d–i–n–s–e–r–t–e–d–m–i–n–i–s–t–
+46 etsk van visitor -> –e–t–s–k–v–a–n–v–i–s–i–t–o–r–
+47 worthy notified ocean -> –w–o–r–t–h–y–n–o–t–i–f–i–e–d–o–c–e–a–n–
+48 ifiant cirka sguardo -> –i–f–i–a–n–t–c–i–r–k–a–s–g–u–a–r–d–o–
+49 erd dwell answer -> –e–r–d–d–w–e–l–l–a–n–s–w–e–r–
+50 those electr francusk -> –t–h–o–s–e–e–l–e–c–t–r–f–r–a–n–c–u–s–k–
+51 ophone chasing abband -> –o–p–h–o–n–e–c–h–a–s–i–n–g–a–b–b–a–n–d–
+52 unsafe amour zum -> –u–n–s–a–f–e–a–m–o–u–r–z–u–m–
+53 umbo immens stature -> –u–m–b–o–i–m–m–e–n–s–s–t–a–t–u–r–e–
+54 jean eeuw octobre -> –j–e–a–n–e–e–u–w–o–c–t–o–b–r–e–
+55 gangen spada menerima -> –g–a–n–g–e–n–s–p–a–d–a–m–e–n–e–r–i–m–a–
+56 oben inc propias -> –o–b–e–n–i–n–c–p–r–o–p–i–a–s–
+57 nofollow baron risk -> –n–o–f–o–l–l–o–w–b–a–r–o–n–r–i–s–k–
+58 they seeing compete -> –t–h–e–y–s–e–e–i–n–g–c–o–m–p–e–t–e–
+59 astic relies margins -> –a–s–t–i–c–r–e–l–i–e–s–m–a–r–g–i–n–s–
+60 ystycz cale lions -> –y–s–t–y–c–z–c–a–l–e–l–i–o–n–s–
+61 cheduled lini teles -> –c–h–e–d–u–l–e–d–l–i–n–i–t–e–l–e–s–
+62 mist synonym panel -> –m–i–s–t–s–y–n–o–n–y–m–p–a–n–e–l–
+63 chnitt mongol string -> –c–h–n–i–t–t–m–o–n–g–o–l–s–t–r–i–n–g–
+64 storage moon hod -> –s–t–o–r–a–g–e–m–o–o–n–h–o–d–
+65 quina alla subjects -> –q–u–i–n–a–a–l–l–a–s–u–b–j–e–c–t–s–
+66 musik dim ima -> –m–u–s–i–k–d–i–m–i–m–a–
+67 ploid enfrent stranger -> –p–l–o–i–d–e–n–f–r–e–n–t–s–t–r–a–n–g–e–r–
+68 ulf protesta ligands -> –u–l–f–p–r–o–t–e–s–t–a–l–i–g–a–n–d–s–
+69 am lighter intro -> –a–m–l–i–g–h–t–e–r–i–n–t–r–o–
+70 yy flight regel -> –y–y–f–l–i–g–h–t–r–e–g–e–l–
+71 abr tyrosine biocom -> –a–b–r–t–y–r–o–s–i–n–e–b–i–o–c–o–m–
+72 izei llegan starken -> –i–z–e–i–l–l–e–g–a–n–s–t–a–r–k–e–n–
+73 azio ihren abl -> –a–z–i–o–i–h–r–e–n–a–b–l–
+74 jec andata af -> –j–e–c–a–n–d–a–t–a–a–f–
+75 natural guruh nested -> –n–a–t–u–r–a–l–g–u–r–u–h–n–e–s–t–e–d–
+76 irao znalaz marcou -> –i–r–a–o–z–n–a–l–a–z–m–a–r–c–o–u–
+77 rides salts incess -> –r–i–d–e–s–s–a–l–t–s–i–n–c–e–s–s–
+78 auff edges lady -> –a–u–f–f–e–d–g–e–s–l–a–d–y–
+79 uery enero zweiten -> –u–e–r–y–e–n–e–r–o–z–w–e–i–t–e–n–
+80 ologie during barne -> –o–l–o–g–i–e–d–u–r–i–n–g–b–a–r–n–e–
+81 alpha fleeing cacher -> –a–l–p–h–a–f–l–e–e–i–n–g–c–a–c–h–e–r–
+82 oth krav commenc -> –o–t–h–k–r–a–v–c–o–m–m–e–n–c–
+83 atea conex savais -> –a–t–e–a–c–o–n–e–x–s–a–v–a–i–s–
+84 zioni tecn owns -> –z–i–o–n–i–t–e–c–n–o–w–n–s–
+85 oration meget ro -> –o–r–a–t–i–o–n–m–e–g–e–t–r–o–
+86 irana nebul condens -> –i–r–a–n–a–n–e–b–u–l–c–o–n–d–e–n–s–
+87 dienst dot collabor -> –d–i–e–n–s–t–d–o–t–c–o–l–l–a–b–o–r–
+88 ounded adop ihrem -> –o–u–n–d–e–d–a–d–o–p–i–h–r–e–m–
+89 pd residue sai -> –p–d–r–e–s–i–d–u–e–s–a–i–
+90 closes quart jabearen -> –c–l–o–s–e–s–q–u–a–r–t–j–a–b–e–a–r–e–n–
+91 contrast conflito blade -> –c–o–n–t–r–a–s–t–c–o–n–f–l–i–t–o–b–l–a–d–e–
+92 ocke marks indie -> –o–c–k–e–m–a–r–k–s–i–n–d–i–e–
+93 encoded digne bacteria -> –e–n–c–o–d–e–d–d–i–g–n–e–b–a–c–t–e–r–i–a–
+94 rand gente quand -> –r–a–n–d–g–e–n–t–e–q–u–a–n–d–
+95 rici detained higher -> –r–i–c–i–d–e–t–a–i–n–e–d–h–i–g–h–e–r–
+96 bbing raced hastily -> –b–b–i–n–g–r–a–c–e–d–h–a–s–t–i–l–y–
+97 ively absolue yaml -> –i–v–e–l–y–a–b–s–o–l–u–e–y–a–m–l–
+98 cat scripts stubborn -> –c–a–t–s–c–r–i–p–t–s–s–t–u–b–b–o–r–n–
+99 znik ultraf cousins -> –z–n–i–k–u–l–t–r–a–f–c–o–u–s–i–n–s–

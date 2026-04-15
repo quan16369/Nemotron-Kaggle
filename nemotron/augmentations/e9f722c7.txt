@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 erset didnt aus
+01 ovac infamous isotope
+02 ounted skrev ingresos
+
+This is a sample output.
+00 erset didnt aus -> –e–r–s–e–t–d–i–d–n–t–a–u–s–
+01 ovac infamous isotope -> –o–v–a–c–i–n–f–a–m–o–u–s–i–s–o–t–o–p–e–
+02 ounted skrev ingresos -> –o–u–n–t–e–d–s–k–r–e–v–i–n–g–r–e–s–o–s–
+
+This is your input.
+00 alis conhe alkalmaz
+01 edett swoje gela
+02 security plural propiet
+03 halts feliz souver
+04 od virtue preoccup
+05 undet rails honn
+06 ska eventi midnight
+07 sir boue pubblico
+08 tern dood rango
+09 organ glas remotely
+10 phantom counting covari
+11 better lupus tussen
+12 unday weakness hist
+13 plica bere vant
+14 iez commune nodules
+15 xty centrale fundado
+16 lern midden jurid
+17 itsi porte forests
+18 partiet inch shocks
+19 gte auto camping
+20 onance award keras
+21 bee rehabil rolled
+22 omit franco explica
+23 quoi okup textiles
+24 jeros suyo landen
+25 tritur soudain winter
+26 inside artikel nine
+27 uelta reprises tract
+28 ifique obej tram
+29 ildo ho curves
+30 berra etch berp
+31 ayev caso foll
+32 iento miljo palav
+33 ymethyl sano yang
+34 assi donate unidad
+35 ijska prudent prostor
+36 ugel hockey konfl
+37 ander mec heur
+38 embrie almost kecil
+39 grenzt gesamten famosa
+40 ections tomu spatial
+41 ief dynasty dozen
+42 district termo albums
+43 ennung foly voleva
+44 java muslim confort
+45 acements singing interd
+46 andal log ausgel
+47 isle link vinte
+48 xygen ach mainten
+49 lich virgin lavori
+50 alliga pull mate
+51 ivial gruppi montage
+52 lacht hartu usos
+53 yscale interle tried
+54 nov hydroly grill
+55 lighten contrib kali
+56 rika grafts nog
+57 agia fi entend
+58 indre fl tribunal
+59 prof widened maillot
+60 xs respeto society
+61 udi norsk perdue
+62 weight hocha cuadro
+63 allic species rubber
+64 kos cuentas definite
+65 warf leger voit
+66 puis diseg cruz
+67 ovjet hinge crimin
+68 iteta stealing ra
+69 zeg echter roze
+70 acin gloves suoi
+71 larining caos noe
+72 logo plots voitti
+73 cm hemis gre
+74 copy pagan ground
+75 arno efic epigen
+76 ck virus causing
+77 irat which diss
+78 messer devaient posible
+79 uid surveyed shaking
+80 inis incarcer misma
+81 ifiz build graphs
+82 lica stere menc
+83 rv vien basada
+84 pps descubre daher
+85 rolle osoba niveau
+86 uose passaram helical
+87 anne acquies olhar
+88 zat dets versa
+89 teenth ceram znan
+90 yrus secret gud
+91 ynd palco psic
+92 pository strongly zh
+93 lang impost exp
+94 kami poden fig
+95 event glob simul
+96 anime fulf pen
+97 kiye ocular paroles
+98 gegen horas deposits
+99 side seminal option
+[completion]
+00 alis conhe alkalmaz -> –a–l–i–s–c–o–n–h–e–a–l–k–a–l–m–a–z–
+01 edett swoje gela -> –e–d–e–t–t–s–w–o–j–e–g–e–l–a–
+02 security plural propiet -> –s–e–c–u–r–i–t–y–p–l–u–r–a–l–p–r–o–p–i–e–t–
+03 halts feliz souver -> –h–a–l–t–s–f–e–l–i–z–s–o–u–v–e–r–
+04 od virtue preoccup -> –o–d–v–i–r–t–u–e–p–r–e–o–c–c–u–p–
+05 undet rails honn -> –u–n–d–e–t–r–a–i–l–s–h–o–n–n–
+06 ska eventi midnight -> –s–k–a–e–v–e–n–t–i–m–i–d–n–i–g–h–t–
+07 sir boue pubblico -> –s–i–r–b–o–u–e–p–u–b–b–l–i–c–o–
+08 tern dood rango -> –t–e–r–n–d–o–o–d–r–a–n–g–o–
+09 organ glas remotely -> –o–r–g–a–n–g–l–a–s–r–e–m–o–t–e–l–y–
+10 phantom counting covari -> –p–h–a–n–t–o–m–c–o–u–n–t–i–n–g–c–o–v–a–r–i–
+11 better lupus tussen -> –b–e–t–t–e–r–l–u–p–u–s–t–u–s–s–e–n–
+12 unday weakness hist -> –u–n–d–a–y–w–e–a–k–n–e–s–s–h–i–s–t–
+13 plica bere vant -> –p–l–i–c–a–b–e–r–e–v–a–n–t–
+14 iez commune nodules -> –i–e–z–c–o–m–m–u–n–e–n–o–d–u–l–e–s–
+15 xty centrale fundado -> –x–t–y–c–e–n–t–r–a–l–e–f–u–n–d–a–d–o–
+16 lern midden jurid -> –l–e–r–n–m–i–d–d–e–n–j–u–r–i–d–
+17 itsi porte forests -> –i–t–s–i–p–o–r–t–e–f–o–r–e–s–t–s–
+18 partiet inch shocks -> –p–a–r–t–i–e–t–i–n–c–h–s–h–o–c–k–s–
+19 gte auto camping -> –g–t–e–a–u–t–o–c–a–m–p–i–n–g–
+20 onance award keras -> –o–n–a–n–c–e–a–w–a–r–d–k–e–r–a–s–
+21 bee rehabil rolled -> –b–e–e–r–e–h–a–b–i–l–r–o–l–l–e–d–
+22 omit franco explica -> –o–m–i–t–f–r–a–n–c–o–e–x–p–l–i–c–a–
+23 quoi okup textiles -> –q–u–o–i–o–k–u–p–t–e–x–t–i–l–e–s–
+24 jeros suyo landen -> –j–e–r–o–s–s–u–y–o–l–a–n–d–e–n–
+25 tritur soudain winter -> –t–r–i–t–u–r–s–o–u–d–a–i–n–w–i–n–t–e–r–
+26 inside artikel nine -> –i–n–s–i–d–e–a–r–t–i–k–e–l–n–i–n–e–
+27 uelta reprises tract -> –u–e–l–t–a–r–e–p–r–i–s–e–s–t–r–a–c–t–
+28 ifique obej tram -> –i–f–i–q–u–e–o–b–e–j–t–r–a–m–
+29 ildo ho curves -> –i–l–d–o–h–o–c–u–r–v–e–s–
+30 berra etch berp -> –b–e–r–r–a–e–t–c–h–b–e–r–p–
+31 ayev caso foll -> –a–y–e–v–c–a–s–o–f–o–l–l–
+32 iento miljo palav -> –i–e–n–t–o–m–i–l–j–o–p–a–l–a–v–
+33 ymethyl sano yang -> –y–m–e–t–h–y–l–s–a–n–o–y–a–n–g–
+34 assi donate unidad -> –a–s–s–i–d–o–n–a–t–e–u–n–i–d–a–d–
+35 ijska prudent prostor -> –i–j–s–k–a–p–r–u–d–e–n–t–p–r–o–s–t–o–r–
+36 ugel hockey konfl -> –u–g–e–l–h–o–c–k–e–y–k–o–n–f–l–
+37 ander mec heur -> –a–n–d–e–r–m–e–c–h–e–u–r–
+38 embrie almost kecil -> –e–m–b–r–i–e–a–l–m–o–s–t–k–e–c–i–l–
+39 grenzt gesamten famosa -> –g–r–e–n–z–t–g–e–s–a–m–t–e–n–f–a–m–o–s–a–
+40 ections tomu spatial -> –e–c–t–i–o–n–s–t–o–m–u–s–p–a–t–i–a–l–
+41 ief dynasty dozen -> –i–e–f–d–y–n–a–s–t–y–d–o–z–e–n–
+42 district termo albums -> –d–i–s–t–r–i–c–t–t–e–r–m–o–a–l–b–u–m–s–
+43 ennung foly voleva -> –e–n–n–u–n–g–f–o–l–y–v–o–l–e–v–a–
+44 java muslim confort -> –j–a–v–a–m–u–s–l–i–m–c–o–n–f–o–r–t–
+45 acements singing interd -> –a–c–e–m–e–n–t–s–s–i–n–g–i–n–g–i–n–t–e–r–d–
+46 andal log ausgel -> –a–n–d–a–l–l–o–g–a–u–s–g–e–l–
+47 isle link vinte -> –i–s–l–e–l–i–n–k–v–i–n–t–e–
+48 xygen ach mainten -> –x–y–g–e–n–a–c–h–m–a–i–n–t–e–n–
+49 lich virgin lavori -> –l–i–c–h–v–i–r–g–i–n–l–a–v–o–r–i–
+50 alliga pull mate -> –a–l–l–i–g–a–p–u–l–l–m–a–t–e–
+51 ivial gruppi montage -> –i–v–i–a–l–g–r–u–p–p–i–m–o–n–t–a–g–e–
+52 lacht hartu usos -> –l–a–c–h–t–h–a–r–t–u–u–s–o–s–
+53 yscale interle tried -> –y–s–c–a–l–e–i–n–t–e–r–l–e–t–r–i–e–d–
+54 nov hydroly grill -> –n–o–v–h–y–d–r–o–l–y–g–r–i–l–l–
+55 lighten contrib kali -> –l–i–g–h–t–e–n–c–o–n–t–r–i–b–k–a–l–i–
+56 rika grafts nog -> –r–i–k–a–g–r–a–f–t–s–n–o–g–
+57 agia fi entend -> –a–g–i–a–f–i–e–n–t–e–n–d–
+58 indre fl tribunal -> –i–n–d–r–e–f–l–t–r–i–b–u–n–a–l–
+59 prof widened maillot -> –p–r–o–f–w–i–d–e–n–e–d–m–a–i–l–l–o–t–
+60 xs respeto society -> –x–s–r–e–s–p–e–t–o–s–o–c–i–e–t–y–
+61 udi norsk perdue -> –u–d–i–n–o–r–s–k–p–e–r–d–u–e–
+62 weight hocha cuadro -> –w–e–i–g–h–t–h–o–c–h–a–c–u–a–d–r–o–
+63 allic species rubber -> –a–l–l–i–c–s–p–e–c–i–e–s–r–u–b–b–e–r–
+64 kos cuentas definite -> –k–o–s–c–u–e–n–t–a–s–d–e–f–i–n–i–t–e–
+65 warf leger voit -> –w–a–r–f–l–e–g–e–r–v–o–i–t–
+66 puis diseg cruz -> –p–u–i–s–d–i–s–e–g–c–r–u–z–
+67 ovjet hinge crimin -> –o–v–j–e–t–h–i–n–g–e–c–r–i–m–i–n–
+68 iteta stealing ra -> –i–t–e–t–a–s–t–e–a–l–i–n–g–r–a–
+69 zeg echter roze -> –z–e–g–e–c–h–t–e–r–r–o–z–e–
+70 acin gloves suoi -> –a–c–i–n–g–l–o–v–e–s–s–u–o–i–
+71 larining caos noe -> –l–a–r–i–n–i–n–g–c–a–o–s–n–o–e–
+72 logo plots voitti -> –l–o–g–o–p–l–o–t–s–v–o–i–t–t–i–
+73 cm hemis gre -> –c–m–h–e–m–i–s–g–r–e–
+74 copy pagan ground -> –c–o–p–y–p–a–g–a–n–g–r–o–u–n–d–
+75 arno efic epigen -> –a–r–n–o–e–f–i–c–e–p–i–g–e–n–
+76 ck virus causing -> –c–k–v–i–r–u–s–c–a–u–s–i–n–g–
+77 irat which diss -> –i–r–a–t–w–h–i–c–h–d–i–s–s–
+78 messer devaient posible -> –m–e–s–s–e–r–d–e–v–a–i–e–n–t–p–o–s–i–b–l–e–
+79 uid surveyed shaking -> –u–i–d–s–u–r–v–e–y–e–d–s–h–a–k–i–n–g–
+80 inis incarcer misma -> –i–n–i–s–i–n–c–a–r–c–e–r–m–i–s–m–a–
+81 ifiz build graphs -> –i–f–i–z–b–u–i–l–d–g–r–a–p–h–s–
+82 lica stere menc -> –l–i–c–a–s–t–e–r–e–m–e–n–c–
+83 rv vien basada -> –r–v–v–i–e–n–b–a–s–a–d–a–
+84 pps descubre daher -> –p–p–s–d–e–s–c–u–b–r–e–d–a–h–e–r–
+85 rolle osoba niveau -> –r–o–l–l–e–o–s–o–b–a–n–i–v–e–a–u–
+86 uose passaram helical -> –u–o–s–e–p–a–s–s–a–r–a–m–h–e–l–i–c–a–l–
+87 anne acquies olhar -> –a–n–n–e–a–c–q–u–i–e–s–o–l–h–a–r–
+88 zat dets versa -> –z–a–t–d–e–t–s–v–e–r–s–a–
+89 teenth ceram znan -> –t–e–e–n–t–h–c–e–r–a–m–z–n–a–n–
+90 yrus secret gud -> –y–r–u–s–s–e–c–r–e–t–g–u–d–
+91 ynd palco psic -> –y–n–d–p–a–l–c–o–p–s–i–c–
+92 pository strongly zh -> –p–o–s–i–t–o–r–y–s–t–r–o–n–g–l–y–z–h–
+93 lang impost exp -> –l–a–n–g–i–m–p–o–s–t–e–x–p–
+94 kami poden fig -> –k–a–m–i–p–o–d–e–n–f–i–g–
+95 event glob simul -> –e–v–e–n–t–g–l–o–b–s–i–m–u–l–
+96 anime fulf pen -> –a–n–i–m–e–f–u–l–f–p–e–n–
+97 kiye ocular paroles -> –k–i–y–e–o–c–u–l–a–r–p–a–r–o–l–e–s–
+98 gegen horas deposits -> –g–e–g–e–n–h–o–r–a–s–d–e–p–o–s–i–t–s–
+99 side seminal option -> –s–i–d–e–s–e–m–i–n–a–l–o–p–t–i–o–n–

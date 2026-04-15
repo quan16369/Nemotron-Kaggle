@@ -1,0 +1,29 @@
+problem id: 9bfca34c
+category: cryptarithm_deduce
+
+symbol-to-digit mapping:
+  "'" = 2
+  '(' = 5
+  '<' = 9
+  '>' = 3
+  '[' = 7
+  ']' = 8
+  '^' = 6
+  '`' = 0
+  '{' = 4
+  '|' = 1
+
+operator-to-operation mapping:
+  '$' = add
+  '+' = abs_diff
+  '?' = mul
+
+examples:
+  ]{+[> = ||  =>  |84 - 73| = 11
+  ^[?>` = '`|`  =>  67 * 30 = 2010
+  <(?'] = '^^`  =>  95 * 28 = 2660
+  ^^$>< = |`(  =>  66 + 39 = 105
+
+query: <{$>^  =>  94 + 36 = 130
+
+predicted answer: |>`

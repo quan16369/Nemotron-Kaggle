@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 luit wives saab
+01 holm veu actress
+02 fal urkund recon
+
+This is a sample output.
+00 luit wives saab -> –l–u–i–t–w–i–v–e–s–s–a–a–b–
+01 holm veu actress -> –h–o–l–m–v–e–u–a–c–t–r–e–s–s–
+02 fal urkund recon -> –f–a–l–u–r–k–u–n–d–r–e–c–o–n–
+
+This is your input.
+00 onim novela prede
+01 arshi nuclear impaired
+02 ky yer granular
+03 oute royale tas
+04 ucks router settle
+05 stration carica ausgesch
+06 uten folkl ustan
+07 ureka trak eighth
+08 aven pis genannt
+09 single obron publica
+10 gestellt etiology argparse
+11 ross atten iter
+12 onders junk peanut
+13 icolo favor anomenat
+14 zip traf contours
+15 find lunga grav
+16 arez dessa watched
+17 physics hym gennaio
+18 urrence pokaz orally
+19 avir acts semblait
+20 ierend ocult cid
+21 oria wors monast
+22 parsed fuel intuit
+23 voegd nam ose
+24 firebase violence guarn
+25 henyl destes conn
+26 beding bahasa sviluppo
+27 orka haar perdre
+28 mouse occupy launcher
+29 arca geri amended
+30 gne dysp nodo
+31 blogs sanit neben
+32 npm hyst gera
+33 opup hotels rankings
+34 ppo pinned uniqu
+35 ename timp komert
+36 esome distance sogar
+37 iedz yh halk
+38 otted row invo
+39 lop propuls waters
+40 article quiero modific
+41 ggel obtient ritrov
+42 ankan bim foc
+43 goto hybrid massage
+44 onomic nursery nev
+45 olit ongeveer ricev
+46 roots sair calmer
+47 amily alia datant
+48 nikov asym sigui
+49 otus usb ij
+50 gruppe expres viable
+51 ridine conflic polyure
+52 igur tramite entspr
+53 ieht kamp verschw
+54 unset biotin navn
+55 ichy flute gehabt
+56 iamine procede sms
+57 bul esperaba situa
+58 ochond fazla bai
+59 kot shp esp
+60 ks comet shorten
+61 ington bus ref
+62 urnal shadows reducir
+63 phins decoded none
+64 emeni chiesto vors
+65 alari budgets venne
+66 char asseg lune
+67 oning uko acqu
+68 jed climbed sprink
+69 areness voormal desire
+70 pleted receives pocas
+71 har reported cerc
+72 tbody squeezed meglio
+73 ships traff pap
+74 astian admit negoti
+75 usan enduring fielen
+76 anes norte midi
+77 via commun megny
+78 ja lineages acet
+79 istes doc bounce
+80 oad proie foto
+81 gallery ock liger
+82 cluding suppos unle
+83 ophe konnten tots
+84 memor ordered soos
+85 shadow sos pensait
+86 ionat equal jossa
+87 valid cond befre
+88 quete immobile torch
+89 rossover hostname druk
+90 lla ovat feedback
+91 modern rentrer clasific
+92 is monk raggi
+93 idou sors cand
+94 jez django conc
+95 nesday taxation caches
+96 oder bullet nah
+97 ulations soutien typed
+98 ong prad famos
+99 app paroisse jusque
+[completion]
+00 onim novela prede -> –o–n–i–m–n–o–v–e–l–a–p–r–e–d–e–
+01 arshi nuclear impaired -> –a–r–s–h–i–n–u–c–l–e–a–r–i–m–p–a–i–r–e–d–
+02 ky yer granular -> –k–y–y–e–r–g–r–a–n–u–l–a–r–
+03 oute royale tas -> –o–u–t–e–r–o–y–a–l–e–t–a–s–
+04 ucks router settle -> –u–c–k–s–r–o–u–t–e–r–s–e–t–t–l–e–
+05 stration carica ausgesch -> –s–t–r–a–t–i–o–n–c–a–r–i–c–a–a–u–s–g–e–s–c–h–
+06 uten folkl ustan -> –u–t–e–n–f–o–l–k–l–u–s–t–a–n–
+07 ureka trak eighth -> –u–r–e–k–a–t–r–a–k–e–i–g–h–t–h–
+08 aven pis genannt -> –a–v–e–n–p–i–s–g–e–n–a–n–n–t–
+09 single obron publica -> –s–i–n–g–l–e–o–b–r–o–n–p–u–b–l–i–c–a–
+10 gestellt etiology argparse -> –g–e–s–t–e–l–l–t–e–t–i–o–l–o–g–y–a–r–g–p–a–r–s–e–
+11 ross atten iter -> –r–o–s–s–a–t–t–e–n–i–t–e–r–
+12 onders junk peanut -> –o–n–d–e–r–s–j–u–n–k–p–e–a–n–u–t–
+13 icolo favor anomenat -> –i–c–o–l–o–f–a–v–o–r–a–n–o–m–e–n–a–t–
+14 zip traf contours -> –z–i–p–t–r–a–f–c–o–n–t–o–u–r–s–
+15 find lunga grav -> –f–i–n–d–l–u–n–g–a–g–r–a–v–
+16 arez dessa watched -> –a–r–e–z–d–e–s–s–a–w–a–t–c–h–e–d–
+17 physics hym gennaio -> –p–h–y–s–i–c–s–h–y–m–g–e–n–n–a–i–o–
+18 urrence pokaz orally -> –u–r–r–e–n–c–e–p–o–k–a–z–o–r–a–l–l–y–
+19 avir acts semblait -> –a–v–i–r–a–c–t–s–s–e–m–b–l–a–i–t–
+20 ierend ocult cid -> –i–e–r–e–n–d–o–c–u–l–t–c–i–d–
+21 oria wors monast -> –o–r–i–a–w–o–r–s–m–o–n–a–s–t–
+22 parsed fuel intuit -> –p–a–r–s–e–d–f–u–e–l–i–n–t–u–i–t–
+23 voegd nam ose -> –v–o–e–g–d–n–a–m–o–s–e–
+24 firebase violence guarn -> –f–i–r–e–b–a–s–e–v–i–o–l–e–n–c–e–g–u–a–r–n–
+25 henyl destes conn -> –h–e–n–y–l–d–e–s–t–e–s–c–o–n–n–
+26 beding bahasa sviluppo -> –b–e–d–i–n–g–b–a–h–a–s–a–s–v–i–l–u–p–p–o–
+27 orka haar perdre -> –o–r–k–a–h–a–a–r–p–e–r–d–r–e–
+28 mouse occupy launcher -> –m–o–u–s–e–o–c–c–u–p–y–l–a–u–n–c–h–e–r–
+29 arca geri amended -> –a–r–c–a–g–e–r–i–a–m–e–n–d–e–d–
+30 gne dysp nodo -> –g–n–e–d–y–s–p–n–o–d–o–
+31 blogs sanit neben -> –b–l–o–g–s–s–a–n–i–t–n–e–b–e–n–
+32 npm hyst gera -> –n–p–m–h–y–s–t–g–e–r–a–
+33 opup hotels rankings -> –o–p–u–p–h–o–t–e–l–s–r–a–n–k–i–n–g–s–
+34 ppo pinned uniqu -> –p–p–o–p–i–n–n–e–d–u–n–i–q–u–
+35 ename timp komert -> –e–n–a–m–e–t–i–m–p–k–o–m–e–r–t–
+36 esome distance sogar -> –e–s–o–m–e–d–i–s–t–a–n–c–e–s–o–g–a–r–
+37 iedz yh halk -> –i–e–d–z–y–h–h–a–l–k–
+38 otted row invo -> –o–t–t–e–d–r–o–w–i–n–v–o–
+39 lop propuls waters -> –l–o–p–p–r–o–p–u–l–s–w–a–t–e–r–s–
+40 article quiero modific -> –a–r–t–i–c–l–e–q–u–i–e–r–o–m–o–d–i–f–i–c–
+41 ggel obtient ritrov -> –g–g–e–l–o–b–t–i–e–n–t–r–i–t–r–o–v–
+42 ankan bim foc -> –a–n–k–a–n–b–i–m–f–o–c–
+43 goto hybrid massage -> –g–o–t–o–h–y–b–r–i–d–m–a–s–s–a–g–e–
+44 onomic nursery nev -> –o–n–o–m–i–c–n–u–r–s–e–r–y–n–e–v–
+45 olit ongeveer ricev -> –o–l–i–t–o–n–g–e–v–e–e–r–r–i–c–e–v–
+46 roots sair calmer -> –r–o–o–t–s–s–a–i–r–c–a–l–m–e–r–
+47 amily alia datant -> –a–m–i–l–y–a–l–i–a–d–a–t–a–n–t–
+48 nikov asym sigui -> –n–i–k–o–v–a–s–y–m–s–i–g–u–i–
+49 otus usb ij -> –o–t–u–s–u–s–b–i–j–
+50 gruppe expres viable -> –g–r–u–p–p–e–e–x–p–r–e–s–v–i–a–b–l–e–
+51 ridine conflic polyure -> –r–i–d–i–n–e–c–o–n–f–l–i–c–p–o–l–y–u–r–e–
+52 igur tramite entspr -> –i–g–u–r–t–r–a–m–i–t–e–e–n–t–s–p–r–
+53 ieht kamp verschw -> –i–e–h–t–k–a–m–p–v–e–r–s–c–h–w–
+54 unset biotin navn -> –u–n–s–e–t–b–i–o–t–i–n–n–a–v–n–
+55 ichy flute gehabt -> –i–c–h–y–f–l–u–t–e–g–e–h–a–b–t–
+56 iamine procede sms -> –i–a–m–i–n–e–p–r–o–c–e–d–e–s–m–s–
+57 bul esperaba situa -> –b–u–l–e–s–p–e–r–a–b–a–s–i–t–u–a–
+58 ochond fazla bai -> –o–c–h–o–n–d–f–a–z–l–a–b–a–i–
+59 kot shp esp -> –k–o–t–s–h–p–e–s–p–
+60 ks comet shorten -> –k–s–c–o–m–e–t–s–h–o–r–t–e–n–
+61 ington bus ref -> –i–n–g–t–o–n–b–u–s–r–e–f–
+62 urnal shadows reducir -> –u–r–n–a–l–s–h–a–d–o–w–s–r–e–d–u–c–i–r–
+63 phins decoded none -> –p–h–i–n–s–d–e–c–o–d–e–d–n–o–n–e–
+64 emeni chiesto vors -> –e–m–e–n–i–c–h–i–e–s–t–o–v–o–r–s–
+65 alari budgets venne -> –a–l–a–r–i–b–u–d–g–e–t–s–v–e–n–n–e–
+66 char asseg lune -> –c–h–a–r–a–s–s–e–g–l–u–n–e–
+67 oning uko acqu -> –o–n–i–n–g–u–k–o–a–c–q–u–
+68 jed climbed sprink -> –j–e–d–c–l–i–m–b–e–d–s–p–r–i–n–k–
+69 areness voormal desire -> –a–r–e–n–e–s–s–v–o–o–r–m–a–l–d–e–s–i–r–e–
+70 pleted receives pocas -> –p–l–e–t–e–d–r–e–c–e–i–v–e–s–p–o–c–a–s–
+71 har reported cerc -> –h–a–r–r–e–p–o–r–t–e–d–c–e–r–c–
+72 tbody squeezed meglio -> –t–b–o–d–y–s–q–u–e–e–z–e–d–m–e–g–l–i–o–
+73 ships traff pap -> –s–h–i–p–s–t–r–a–f–f–p–a–p–
+74 astian admit negoti -> –a–s–t–i–a–n–a–d–m–i–t–n–e–g–o–t–i–
+75 usan enduring fielen -> –u–s–a–n–e–n–d–u–r–i–n–g–f–i–e–l–e–n–
+76 anes norte midi -> –a–n–e–s–n–o–r–t–e–m–i–d–i–
+77 via commun megny -> –v–i–a–c–o–m–m–u–n–m–e–g–n–y–
+78 ja lineages acet -> –j–a–l–i–n–e–a–g–e–s–a–c–e–t–
+79 istes doc bounce -> –i–s–t–e–s–d–o–c–b–o–u–n–c–e–
+80 oad proie foto -> –o–a–d–p–r–o–i–e–f–o–t–o–
+81 gallery ock liger -> –g–a–l–l–e–r–y–o–c–k–l–i–g–e–r–
+82 cluding suppos unle -> –c–l–u–d–i–n–g–s–u–p–p–o–s–u–n–l–e–
+83 ophe konnten tots -> –o–p–h–e–k–o–n–n–t–e–n–t–o–t–s–
+84 memor ordered soos -> –m–e–m–o–r–o–r–d–e–r–e–d–s–o–o–s–
+85 shadow sos pensait -> –s–h–a–d–o–w–s–o–s–p–e–n–s–a–i–t–
+86 ionat equal jossa -> –i–o–n–a–t–e–q–u–a–l–j–o–s–s–a–
+87 valid cond befre -> –v–a–l–i–d–c–o–n–d–b–e–f–r–e–
+88 quete immobile torch -> –q–u–e–t–e–i–m–m–o–b–i–l–e–t–o–r–c–h–
+89 rossover hostname druk -> –r–o–s–s–o–v–e–r–h–o–s–t–n–a–m–e–d–r–u–k–
+90 lla ovat feedback -> –l–l–a–o–v–a–t–f–e–e–d–b–a–c–k–
+91 modern rentrer clasific -> –m–o–d–e–r–n–r–e–n–t–r–e–r–c–l–a–s–i–f–i–c–
+92 is monk raggi -> –i–s–m–o–n–k–r–a–g–g–i–
+93 idou sors cand -> –i–d–o–u–s–o–r–s–c–a–n–d–
+94 jez django conc -> –j–e–z–d–j–a–n–g–o–c–o–n–c–
+95 nesday taxation caches -> –n–e–s–d–a–y–t–a–x–a–t–i–o–n–c–a–c–h–e–s–
+96 oder bullet nah -> –o–d–e–r–b–u–l–l–e–t–n–a–h–
+97 ulations soutien typed -> –u–l–a–t–i–o–n–s–s–o–u–t–i–e–n–t–y–p–e–d–
+98 ong prad famos -> –o–n–g–p–r–a–d–f–a–m–o–s–
+99 app paroisse jusque -> –a–p–p–p–a–r–o–i–s–s–e–j–u–s–q–u–e–

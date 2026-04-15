@@ -1,0 +1,26 @@
+Problem ID: 2beb5851
+Category: equation_numeric_deduce
+
+Examples:
+- 50@99 = 4950
+- 81[43 = 38
+- 85[65 = 20
+
+Inferred rule:
+- Different symbols appear to define different operations, so the only rule I need for the query is `[`.
+- `[` returns the absolute difference between the two two-digit numbers.
+- Checks:
+- `|81 - 43| = 38`, matching `81[43 = 38`
+- `|85 - 65| = 20`, matching `85[65 = 20`
+- `@` follows a separate rule (`50@99 = 4950`), but it is not needed for the query.
+
+Step-by-step application to the query:
+- Query: `10[33`
+- Apply the `[` rule: take the absolute difference between the two numbers.
+- `|10 - 33| = 23`
+
+Predicted answer:
+- 23
+
+Confidence note:
+- Moderate to high. Both `[` examples fit absolute difference exactly, but both training cases also have the left number larger, so directional subtraction cannot be ruled out from those lines alone. Absolute difference is the most defensible extension to the query, where the right number is larger.

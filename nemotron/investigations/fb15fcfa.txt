@@ -1,0 +1,16 @@
+problem id: fb15fcfa
+category: bit_manipulation
+
+rule: ROT(7) AND NOT SHL(6)
+
+examples:
+  10010101 -> 10001010
+  01101100 -> 00110110
+  10001110 -> 01000111
+  01011110 -> 00101111
+  00101111 -> 00010111
+  00111100 -> 00011110
+  01010001 -> 10101000
+
+query: 00110000
+predicted answer: 00011000

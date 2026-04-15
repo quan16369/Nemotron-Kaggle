@@ -1,0 +1,79 @@
+problem id: aa2e27a3
+category: cryptarithm_guess
+
+examples:
+1. `{*'} = `{'}`
+2. ``*:' = ``:'`
+3. `:(+'` = `/`
+4. `/\*[/ = /\[/`
+5. `:[+({ = :{[`
+
+inferred rule:
+Read each input as:
+- left 2-symbol number
+- operator
+- right 2-symbol number
+
+The examples support two operator behaviors:
+
+- `*` means "drop the operator and concatenate the two 2-symbol chunks as written".
+- `+` means ordinary addition after decoding each symbol as a decimal digit.
+
+A consistent digit map forced by the two `+` examples is:
+
+- `{ = 0`
+- `: = 1`
+- `[ = 2`
+- `' = 3`
+- `/ = 4`
+- `` ` = 5``
+- `\ = 6`
+- `$ = 7`
+- `} = 8`
+- `( = 9`
+
+step-by-step check on the examples:
+1. `{*'}`
+   Left chunk: `` `{` ``
+   Right chunk: `'}`
+   For `*`, concatenate them directly.
+   Result: `` `{'} ``
+
+2. ``*:'`
+   Left chunk: `` `` ``
+   Right chunk: `:'`
+   Again `*` means direct concatenation.
+   Result: `` ``:' ``
+
+3. `:(+'``
+   `:(` decodes to `19`.
+   `'`` decodes to `35`.
+   `19 + 35 = 54`.
+   `5 -> `` ` `` and `4 -> /`, so the output is `` `/``.
+
+4. `/\*[/`
+   `*` concatenates the chunks, so `/\` followed by `[/` gives `/\[/`.
+
+5. `:[+({`
+   `:[` decodes to `12`.
+   `({` decodes to `90`.
+   `12 + 90 = 102`.
+   `1 -> :`, `0 -> {`, `2 -> [`, so the output is `:{[`.
+
+step-by-step application to the query:
+Query: `[{-((`
+
+1. `[{` decodes to `20`.
+2. `((` decodes to `99`.
+3. The examples never show `-`, so this is the only extrapolated part.
+   The most defensible completion is ordinary subtraction in absolute value form:
+   `|20 - 99| = 79`.
+4. Encode `79` back into symbols:
+   `7 -> $`
+   `9 -> (`
+
+predicted answer:
+`$(`
+
+confidence note:
+Medium confidence. The `*` rule is forced directly by three examples, and the digit map for `+` fits both addition examples exactly. The only ambiguity is the unseen `-` in the query, so absolute difference is still an extrapolation rather than something explicitly demonstrated.

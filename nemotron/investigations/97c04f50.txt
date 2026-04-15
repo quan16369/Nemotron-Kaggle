@@ -1,0 +1,25 @@
+problem id: 97c04f50
+category: cryptarithm_deduce
+
+symbol-to-digit mapping:
+  '"' = 5
+  '#' = 4
+  '$' = 1
+  '&' = 6
+  '>' = 8
+  ']' = 9
+  '`' = 3
+
+operator-to-operation mapping:
+  '*' = mul
+  '-' = abs_diff
+
+examples:
+  $]+(# = $](#
+  `]-#" = &  =>  |39 - 45| = 6
+  >`*$> = $#]#  =>  83 * 18 = 1494
+  &|+(& = &|(&
+
+query: `&*]&  =>  36 * 96 = 3456
+
+predicted answer: `#"&

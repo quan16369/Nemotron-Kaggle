@@ -1,0 +1,33 @@
+problem id: 9461b22b
+category: equation_numeric_deduce
+
+examples:
+- 36)32 = 4
+- 33{82 = 2705
+- 79)80 = 1
+- query: 83)40
+
+inferred rule:
+The only operator that matters for the query is `)`. The two `)` examples are
+most naturally explained as ordinary absolute difference of the two 2-digit
+numbers.
+
+- `36)32 = 4` matches `|36 - 32| = 4`
+- `79)80 = 1` matches `|79 - 80| = 1`
+
+The `{` example appears to use a different rule and is not needed for the
+query.
+
+step-by-step application to the query:
+1. The query is `83)40`, so apply the `)` rule.
+2. Compute the ordinary absolute difference of the two numbers:
+   `|83 - 40| = 43`.
+3. Keep the result as written, with no extra symbol handling suggested by the
+   `)` examples.
+
+predicted answer: 43
+
+confidence note:
+Low to moderate confidence. With only two `)` examples, `gcd` also fits
+(`gcd(36,32)=4` and `gcd(79,80)=1`), but absolute difference is the more direct
+and simpler reading from the examples alone.

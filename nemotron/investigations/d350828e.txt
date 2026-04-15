@@ -1,0 +1,30 @@
+problem id: d350828e
+category: cryptarithm_deduce
+
+symbol-to-digit mapping:
+  '!' = 2
+  '"' = 5
+  '(' = 1
+  '/' = 6
+  '<' = 8
+  '>' = 7
+  '?' = 9
+  '{' = 4
+  '|' = 0
+  '}' = 3
+
+operator-to-operation mapping:
+  '#' = abs_diff
+  ':' = mul
+  '[' = add
+
+examples:
+  ?>#"> = {|  =>  |97 - 57| = 40
+  /|#(| = "|  =>  |60 - 10| = 50
+  <"[}! = ((>  =>  85 + 32 = 117
+  }":>/ = !//|  =>  35 * 76 = 2660
+  !>["| = >>  =>  27 + 50 = 77
+
+query: /{:"|  =>  64 * 50 = 3200
+
+predicted answer: }!||

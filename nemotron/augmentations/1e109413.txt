@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 arrows cation jure
+01 tered droite delen
+02 allas cytokine livello
+
+This is a sample output.
+00 arrows cation jure -> –a–r–r–o–w–s–c–a–t–i–o–n–j–u–r–e–
+01 tered droite delen -> –t–e–r–e–d–d–r–o–i–t–e–d–e–l–e–n–
+02 allas cytokine livello -> –a–l–l–a–s–c–y–t–o–k–i–n–e–l–i–v–e–l–l–o–
+
+This is your input.
+00 rees gad rgba
+01 uminate voj incapac
+02 poly vendar nef
+03 okuuta rhythms cantante
+04 four axes engen
+05 idant biofilm tornare
+06 lave density tormenta
+07 uala mascul innoc
+08 otas pok verden
+09 totype hovering couteau
+10 get spells storing
+11 tooltip anth carries
+12 arak fiss implied
+13 oothed quiet attacker
+14 iffer altar efter
+15 owired work udara
+16 oho starch mineur
+17 gt tomato gy
+18 ystals ondorio rapporti
+19 rito gim bordered
+20 isla cracked solub
+21 ape kr fratello
+22 boy fels endif
+23 opoulos erfolg scap
+24 uero hey istif
+25 ij multim greco
+26 bers tents tod
+27 pot directly verkauft
+28 adas verbra ahora
+29 iramente ormai eller
+30 kur consc low
+31 asmine crossed gam
+32 inian words tours
+33 ther francs delle
+34 ugia sido szer
+35 aspor neg passes
+36 uelas borde defe
+37 glas descrit ving
+38 nden ubiquit struktur
+39 jali perdendo spir
+40 uster bolsa commiss
+41 aks stiff diagr
+42 ixels fois molino
+43 bond mothers pokemon
+44 opher bur dangere
+45 src hev cruise
+46 rott rabb possibly
+47 orld quelqu migliore
+48 iedelt quai vow
+49 idemia almeno oven
+50 shots norma enn
+51 person erreich clubs
+52 ynchron boxes owned
+53 raf espacio umgebaut
+54 from mensagem sons
+55 allar podpor kampan
+56 iji suspects fashion
+57 riera whales smashed
+58 ylation supl spark
+59 ehicles recib renamed
+60 idian fuego korral
+61 men suisse tengo
+62 elif embargo clip
+63 params stir avevo
+64 cluster avez tighter
+65 uel aer blood
+66 gang dunia organizz
+67 ipun corsa males
+68 icrobial jut tet
+69 letak spagn trasfer
+70 rels scenes taxa
+71 linked drafting vigueur
+72 gling konkre unha
+73 havi intake gebied
+74 itin solt atta
+75 legen nerve mora
+76 integer waves amoureux
+77 biy ideias rattach
+78 uco automate primaria
+79 itza sociale daxil
+80 ordo conform bekam
+81 mock menny wir
+82 nahme certains supper
+83 tcp acredit vrsta
+84 existing jelly juris
+85 pret desper hilt
+86 esebb stupid linn
+87 abile fruto stra
+88 wendet ultimi mehr
+89 entic mimo querido
+90 jj anget met
+91 romise sota qualify
+92 gv gently usp
+93 iktor temsil subdu
+94 trent periods lata
+95 ropical materia apical
+96 rices keine filter
+97 utter anuncia psychos
+98 ansson pays criada
+99 wet myth shortage
+[completion]
+00 rees gad rgba -> –r–e–e–s–g–a–d–r–g–b–a–
+01 uminate voj incapac -> –u–m–i–n–a–t–e–v–o–j–i–n–c–a–p–a–c–
+02 poly vendar nef -> –p–o–l–y–v–e–n–d–a–r–n–e–f–
+03 okuuta rhythms cantante -> –o–k–u–u–t–a–r–h–y–t–h–m–s–c–a–n–t–a–n–t–e–
+04 four axes engen -> –f–o–u–r–a–x–e–s–e–n–g–e–n–
+05 idant biofilm tornare -> –i–d–a–n–t–b–i–o–f–i–l–m–t–o–r–n–a–r–e–
+06 lave density tormenta -> –l–a–v–e–d–e–n–s–i–t–y–t–o–r–m–e–n–t–a–
+07 uala mascul innoc -> –u–a–l–a–m–a–s–c–u–l–i–n–n–o–c–
+08 otas pok verden -> –o–t–a–s–p–o–k–v–e–r–d–e–n–
+09 totype hovering couteau -> –t–o–t–y–p–e–h–o–v–e–r–i–n–g–c–o–u–t–e–a–u–
+10 get spells storing -> –g–e–t–s–p–e–l–l–s–s–t–o–r–i–n–g–
+11 tooltip anth carries -> –t–o–o–l–t–i–p–a–n–t–h–c–a–r–r–i–e–s–
+12 arak fiss implied -> –a–r–a–k–f–i–s–s–i–m–p–l–i–e–d–
+13 oothed quiet attacker -> –o–o–t–h–e–d–q–u–i–e–t–a–t–t–a–c–k–e–r–
+14 iffer altar efter -> –i–f–f–e–r–a–l–t–a–r–e–f–t–e–r–
+15 owired work udara -> –o–w–i–r–e–d–w–o–r–k–u–d–a–r–a–
+16 oho starch mineur -> –o–h–o–s–t–a–r–c–h–m–i–n–e–u–r–
+17 gt tomato gy -> –g–t–t–o–m–a–t–o–g–y–
+18 ystals ondorio rapporti -> –y–s–t–a–l–s–o–n–d–o–r–i–o–r–a–p–p–o–r–t–i–
+19 rito gim bordered -> –r–i–t–o–g–i–m–b–o–r–d–e–r–e–d–
+20 isla cracked solub -> –i–s–l–a–c–r–a–c–k–e–d–s–o–l–u–b–
+21 ape kr fratello -> –a–p–e–k–r–f–r–a–t–e–l–l–o–
+22 boy fels endif -> –b–o–y–f–e–l–s–e–n–d–i–f–
+23 opoulos erfolg scap -> –o–p–o–u–l–o–s–e–r–f–o–l–g–s–c–a–p–
+24 uero hey istif -> –u–e–r–o–h–e–y–i–s–t–i–f–
+25 ij multim greco -> –i–j–m–u–l–t–i–m–g–r–e–c–o–
+26 bers tents tod -> –b–e–r–s–t–e–n–t–s–t–o–d–
+27 pot directly verkauft -> –p–o–t–d–i–r–e–c–t–l–y–v–e–r–k–a–u–f–t–
+28 adas verbra ahora -> –a–d–a–s–v–e–r–b–r–a–a–h–o–r–a–
+29 iramente ormai eller -> –i–r–a–m–e–n–t–e–o–r–m–a–i–e–l–l–e–r–
+30 kur consc low -> –k–u–r–c–o–n–s–c–l–o–w–
+31 asmine crossed gam -> –a–s–m–i–n–e–c–r–o–s–s–e–d–g–a–m–
+32 inian words tours -> –i–n–i–a–n–w–o–r–d–s–t–o–u–r–s–
+33 ther francs delle -> –t–h–e–r–f–r–a–n–c–s–d–e–l–l–e–
+34 ugia sido szer -> –u–g–i–a–s–i–d–o–s–z–e–r–
+35 aspor neg passes -> –a–s–p–o–r–n–e–g–p–a–s–s–e–s–
+36 uelas borde defe -> –u–e–l–a–s–b–o–r–d–e–d–e–f–e–
+37 glas descrit ving -> –g–l–a–s–d–e–s–c–r–i–t–v–i–n–g–
+38 nden ubiquit struktur -> –n–d–e–n–u–b–i–q–u–i–t–s–t–r–u–k–t–u–r–
+39 jali perdendo spir -> –j–a–l–i–p–e–r–d–e–n–d–o–s–p–i–r–
+40 uster bolsa commiss -> –u–s–t–e–r–b–o–l–s–a–c–o–m–m–i–s–s–
+41 aks stiff diagr -> –a–k–s–s–t–i–f–f–d–i–a–g–r–
+42 ixels fois molino -> –i–x–e–l–s–f–o–i–s–m–o–l–i–n–o–
+43 bond mothers pokemon -> –b–o–n–d–m–o–t–h–e–r–s–p–o–k–e–m–o–n–
+44 opher bur dangere -> –o–p–h–e–r–b–u–r–d–a–n–g–e–r–e–
+45 src hev cruise -> –s–r–c–h–e–v–c–r–u–i–s–e–
+46 rott rabb possibly -> –r–o–t–t–r–a–b–b–p–o–s–s–i–b–l–y–
+47 orld quelqu migliore -> –o–r–l–d–q–u–e–l–q–u–m–i–g–l–i–o–r–e–
+48 iedelt quai vow -> –i–e–d–e–l–t–q–u–a–i–v–o–w–
+49 idemia almeno oven -> –i–d–e–m–i–a–a–l–m–e–n–o–o–v–e–n–
+50 shots norma enn -> –s–h–o–t–s–n–o–r–m–a–e–n–n–
+51 person erreich clubs -> –p–e–r–s–o–n–e–r–r–e–i–c–h–c–l–u–b–s–
+52 ynchron boxes owned -> –y–n–c–h–r–o–n–b–o–x–e–s–o–w–n–e–d–
+53 raf espacio umgebaut -> –r–a–f–e–s–p–a–c–i–o–u–m–g–e–b–a–u–t–
+54 from mensagem sons -> –f–r–o–m–m–e–n–s–a–g–e–m–s–o–n–s–
+55 allar podpor kampan -> –a–l–l–a–r–p–o–d–p–o–r–k–a–m–p–a–n–
+56 iji suspects fashion -> –i–j–i–s–u–s–p–e–c–t–s–f–a–s–h–i–o–n–
+57 riera whales smashed -> –r–i–e–r–a–w–h–a–l–e–s–s–m–a–s–h–e–d–
+58 ylation supl spark -> –y–l–a–t–i–o–n–s–u–p–l–s–p–a–r–k–
+59 ehicles recib renamed -> –e–h–i–c–l–e–s–r–e–c–i–b–r–e–n–a–m–e–d–
+60 idian fuego korral -> –i–d–i–a–n–f–u–e–g–o–k–o–r–r–a–l–
+61 men suisse tengo -> –m–e–n–s–u–i–s–s–e–t–e–n–g–o–
+62 elif embargo clip -> –e–l–i–f–e–m–b–a–r–g–o–c–l–i–p–
+63 params stir avevo -> –p–a–r–a–m–s–s–t–i–r–a–v–e–v–o–
+64 cluster avez tighter -> –c–l–u–s–t–e–r–a–v–e–z–t–i–g–h–t–e–r–
+65 uel aer blood -> –u–e–l–a–e–r–b–l–o–o–d–
+66 gang dunia organizz -> –g–a–n–g–d–u–n–i–a–o–r–g–a–n–i–z–z–
+67 ipun corsa males -> –i–p–u–n–c–o–r–s–a–m–a–l–e–s–
+68 icrobial jut tet -> –i–c–r–o–b–i–a–l–j–u–t–t–e–t–
+69 letak spagn trasfer -> –l–e–t–a–k–s–p–a–g–n–t–r–a–s–f–e–r–
+70 rels scenes taxa -> –r–e–l–s–s–c–e–n–e–s–t–a–x–a–
+71 linked drafting vigueur -> –l–i–n–k–e–d–d–r–a–f–t–i–n–g–v–i–g–u–e–u–r–
+72 gling konkre unha -> –g–l–i–n–g–k–o–n–k–r–e–u–n–h–a–
+73 havi intake gebied -> –h–a–v–i–i–n–t–a–k–e–g–e–b–i–e–d–
+74 itin solt atta -> –i–t–i–n–s–o–l–t–a–t–t–a–
+75 legen nerve mora -> –l–e–g–e–n–n–e–r–v–e–m–o–r–a–
+76 integer waves amoureux -> –i–n–t–e–g–e–r–w–a–v–e–s–a–m–o–u–r–e–u–x–
+77 biy ideias rattach -> –b–i–y–i–d–e–i–a–s–r–a–t–t–a–c–h–
+78 uco automate primaria -> –u–c–o–a–u–t–o–m–a–t–e–p–r–i–m–a–r–i–a–
+79 itza sociale daxil -> –i–t–z–a–s–o–c–i–a–l–e–d–a–x–i–l–
+80 ordo conform bekam -> –o–r–d–o–c–o–n–f–o–r–m–b–e–k–a–m–
+81 mock menny wir -> –m–o–c–k–m–e–n–n–y–w–i–r–
+82 nahme certains supper -> –n–a–h–m–e–c–e–r–t–a–i–n–s–s–u–p–p–e–r–
+83 tcp acredit vrsta -> –t–c–p–a–c–r–e–d–i–t–v–r–s–t–a–
+84 existing jelly juris -> –e–x–i–s–t–i–n–g–j–e–l–l–y–j–u–r–i–s–
+85 pret desper hilt -> –p–r–e–t–d–e–s–p–e–r–h–i–l–t–
+86 esebb stupid linn -> –e–s–e–b–b–s–t–u–p–i–d–l–i–n–n–
+87 abile fruto stra -> –a–b–i–l–e–f–r–u–t–o–s–t–r–a–
+88 wendet ultimi mehr -> –w–e–n–d–e–t–u–l–t–i–m–i–m–e–h–r–
+89 entic mimo querido -> –e–n–t–i–c–m–i–m–o–q–u–e–r–i–d–o–
+90 jj anget met -> –j–j–a–n–g–e–t–m–e–t–
+91 romise sota qualify -> –r–o–m–i–s–e–s–o–t–a–q–u–a–l–i–f–y–
+92 gv gently usp -> –g–v–g–e–n–t–l–y–u–s–p–
+93 iktor temsil subdu -> –i–k–t–o–r–t–e–m–s–i–l–s–u–b–d–u–
+94 trent periods lata -> –t–r–e–n–t–p–e–r–i–o–d–s–l–a–t–a–
+95 ropical materia apical -> –r–o–p–i–c–a–l–m–a–t–e–r–i–a–a–p–i–c–a–l–
+96 rices keine filter -> –r–i–c–e–s–k–e–i–n–e–f–i–l–t–e–r–
+97 utter anuncia psychos -> –u–t–t–e–r–a–n–u–n–c–i–a–p–s–y–c–h–o–s–
+98 ansson pays criada -> –a–n–s–s–o–n–p–a–y–s–c–r–i–a–d–a–
+99 wet myth shortage -> –w–e–t–m–y–t–h–s–h–o–r–t–a–g–e–

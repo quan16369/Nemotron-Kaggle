@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 accum composed theft
+01 ueix colonies pocos
+02 polis rimase czas
+
+This is a sample output.
+00 accum composed theft -> –a–c–c–u–m–c–o–m–p–o–s–e–d–t–h–e–f–t–
+01 ueix colonies pocos -> –u–e–i–x–c–o–l–o–n–i–e–s–p–o–c–o–s–
+02 polis rimase czas -> –p–o–l–i–s–r–i–m–a–s–e–c–z–a–s–
+
+This is your input.
+00 umpf borrow commerc
+01 ilus papel estad
+02 primer crypt viaggio
+03 arden decades exported
+04 sburg chamb declara
+05 enteric gitar able
+06 kirche acknow holid
+07 running angry scanned
+08 uhren intellig journals
+09 izacji eld faud
+10 oweit caer ports
+11 iyah pueblos increase
+12 clin vivos traball
+13 guess safegu frame
+14 ieel mail modelos
+15 inha module diplom
+16 racks naast rapides
+17 iforme portail phosph
+18 inent kunnen nation
+19 ibility perdido blev
+20 ryption mesure weekend
+21 aus spod ofens
+22 ercial co mente
+23 gl rebuilt loy
+24 opsy expos cables
+25 alties lesen odnosno
+26 rite lange ehem
+27 hores dejar upright
+28 esso ced prise
+29 comb sred ums
+30 onne applying commands
+31 rave kuk comien
+32 akk creek empower
+33 enci cei francos
+34 issima contains boa
+35 less alfabet bride
+36 sky poetry treg
+37 ificados bons spezi
+38 keiten vue grund
+39 fir mellom exclu
+40 formas pasaj pauvres
+41 aliases embr ural
+42 creens familles tenta
+43 roscope decreto subtil
+44 allback esan pourquoi
+45 crypto rink ehk
+46 etlen trypsin logs
+47 akra signing haft
+48 irati perlu cooked
+49 torch murders clicking
+50 zur learns carb
+51 angi parfait edhe
+52 azionali ah trac
+53 should rated esem
+54 cionario destin millor
+55 ollar satir mantiene
+56 itage ong episod
+57 ozu bracht entrar
+58 visible cach kem
+59 ousel aveva contenir
+60 town mens mur
+61 umph demi valg
+62 once assuming irod
+63 six milioni beating
+64 zyme coucher privada
+65 lez ary prefix
+66 wicklung consac scrape
+67 allet guardia legge
+68 ayo herself acon
+69 glio positie druge
+70 rebro rapport cage
+71 python canvas aust
+72 mooth perfor pravil
+73 rible benign youngest
+74 asting effet lumbar
+75 ult empleo arrow
+76 orado educator compone
+77 pty redor bor
+78 ellett spiral mism
+79 hauses salud mell
+80 annon republik aceptar
+81 rono derart parasite
+82 hors saus interpre
+83 ade soprav sought
+84 rak odlu mour
+85 encias tapping traje
+86 icias scandale macrom
+87 ieg eager quotid
+88 olve incendie possuem
+89 alla tome conical
+90 isme wire cursos
+91 ienst aktual host
+92 veda et ocen
+93 lk belakang figlio
+94 jin open eb
+95 ween allt submar
+96 title proch nurs
+97 leting pigs geword
+98 kus armies repouss
+99 anns svi sense
+[completion]
+00 umpf borrow commerc -> –u–m–p–f–b–o–r–r–o–w–c–o–m–m–e–r–c–
+01 ilus papel estad -> –i–l–u–s–p–a–p–e–l–e–s–t–a–d–
+02 primer crypt viaggio -> –p–r–i–m–e–r–c–r–y–p–t–v–i–a–g–g–i–o–
+03 arden decades exported -> –a–r–d–e–n–d–e–c–a–d–e–s–e–x–p–o–r–t–e–d–
+04 sburg chamb declara -> –s–b–u–r–g–c–h–a–m–b–d–e–c–l–a–r–a–
+05 enteric gitar able -> –e–n–t–e–r–i–c–g–i–t–a–r–a–b–l–e–
+06 kirche acknow holid -> –k–i–r–c–h–e–a–c–k–n–o–w–h–o–l–i–d–
+07 running angry scanned -> –r–u–n–n–i–n–g–a–n–g–r–y–s–c–a–n–n–e–d–
+08 uhren intellig journals -> –u–h–r–e–n–i–n–t–e–l–l–i–g–j–o–u–r–n–a–l–s–
+09 izacji eld faud -> –i–z–a–c–j–i–e–l–d–f–a–u–d–
+10 oweit caer ports -> –o–w–e–i–t–c–a–e–r–p–o–r–t–s–
+11 iyah pueblos increase -> –i–y–a–h–p–u–e–b–l–o–s–i–n–c–r–e–a–s–e–
+12 clin vivos traball -> –c–l–i–n–v–i–v–o–s–t–r–a–b–a–l–l–
+13 guess safegu frame -> –g–u–e–s–s–s–a–f–e–g–u–f–r–a–m–e–
+14 ieel mail modelos -> –i–e–e–l–m–a–i–l–m–o–d–e–l–o–s–
+15 inha module diplom -> –i–n–h–a–m–o–d–u–l–e–d–i–p–l–o–m–
+16 racks naast rapides -> –r–a–c–k–s–n–a–a–s–t–r–a–p–i–d–e–s–
+17 iforme portail phosph -> –i–f–o–r–m–e–p–o–r–t–a–i–l–p–h–o–s–p–h–
+18 inent kunnen nation -> –i–n–e–n–t–k–u–n–n–e–n–n–a–t–i–o–n–
+19 ibility perdido blev -> –i–b–i–l–i–t–y–p–e–r–d–i–d–o–b–l–e–v–
+20 ryption mesure weekend -> –r–y–p–t–i–o–n–m–e–s–u–r–e–w–e–e–k–e–n–d–
+21 aus spod ofens -> –a–u–s–s–p–o–d–o–f–e–n–s–
+22 ercial co mente -> –e–r–c–i–a–l–c–o–m–e–n–t–e–
+23 gl rebuilt loy -> –g–l–r–e–b–u–i–l–t–l–o–y–
+24 opsy expos cables -> –o–p–s–y–e–x–p–o–s–c–a–b–l–e–s–
+25 alties lesen odnosno -> –a–l–t–i–e–s–l–e–s–e–n–o–d–n–o–s–n–o–
+26 rite lange ehem -> –r–i–t–e–l–a–n–g–e–e–h–e–m–
+27 hores dejar upright -> –h–o–r–e–s–d–e–j–a–r–u–p–r–i–g–h–t–
+28 esso ced prise -> –e–s–s–o–c–e–d–p–r–i–s–e–
+29 comb sred ums -> –c–o–m–b–s–r–e–d–u–m–s–
+30 onne applying commands -> –o–n–n–e–a–p–p–l–y–i–n–g–c–o–m–m–a–n–d–s–
+31 rave kuk comien -> –r–a–v–e–k–u–k–c–o–m–i–e–n–
+32 akk creek empower -> –a–k–k–c–r–e–e–k–e–m–p–o–w–e–r–
+33 enci cei francos -> –e–n–c–i–c–e–i–f–r–a–n–c–o–s–
+34 issima contains boa -> –i–s–s–i–m–a–c–o–n–t–a–i–n–s–b–o–a–
+35 less alfabet bride -> –l–e–s–s–a–l–f–a–b–e–t–b–r–i–d–e–
+36 sky poetry treg -> –s–k–y–p–o–e–t–r–y–t–r–e–g–
+37 ificados bons spezi -> –i–f–i–c–a–d–o–s–b–o–n–s–s–p–e–z–i–
+38 keiten vue grund -> –k–e–i–t–e–n–v–u–e–g–r–u–n–d–
+39 fir mellom exclu -> –f–i–r–m–e–l–l–o–m–e–x–c–l–u–
+40 formas pasaj pauvres -> –f–o–r–m–a–s–p–a–s–a–j–p–a–u–v–r–e–s–
+41 aliases embr ural -> –a–l–i–a–s–e–s–e–m–b–r–u–r–a–l–
+42 creens familles tenta -> –c–r–e–e–n–s–f–a–m–i–l–l–e–s–t–e–n–t–a–
+43 roscope decreto subtil -> –r–o–s–c–o–p–e–d–e–c–r–e–t–o–s–u–b–t–i–l–
+44 allback esan pourquoi -> –a–l–l–b–a–c–k–e–s–a–n–p–o–u–r–q–u–o–i–
+45 crypto rink ehk -> –c–r–y–p–t–o–r–i–n–k–e–h–k–
+46 etlen trypsin logs -> –e–t–l–e–n–t–r–y–p–s–i–n–l–o–g–s–
+47 akra signing haft -> –a–k–r–a–s–i–g–n–i–n–g–h–a–f–t–
+48 irati perlu cooked -> –i–r–a–t–i–p–e–r–l–u–c–o–o–k–e–d–
+49 torch murders clicking -> –t–o–r–c–h–m–u–r–d–e–r–s–c–l–i–c–k–i–n–g–
+50 zur learns carb -> –z–u–r–l–e–a–r–n–s–c–a–r–b–
+51 angi parfait edhe -> –a–n–g–i–p–a–r–f–a–i–t–e–d–h–e–
+52 azionali ah trac -> –a–z–i–o–n–a–l–i–a–h–t–r–a–c–
+53 should rated esem -> –s–h–o–u–l–d–r–a–t–e–d–e–s–e–m–
+54 cionario destin millor -> –c–i–o–n–a–r–i–o–d–e–s–t–i–n–m–i–l–l–o–r–
+55 ollar satir mantiene -> –o–l–l–a–r–s–a–t–i–r–m–a–n–t–i–e–n–e–
+56 itage ong episod -> –i–t–a–g–e–o–n–g–e–p–i–s–o–d–
+57 ozu bracht entrar -> –o–z–u–b–r–a–c–h–t–e–n–t–r–a–r–
+58 visible cach kem -> –v–i–s–i–b–l–e–c–a–c–h–k–e–m–
+59 ousel aveva contenir -> –o–u–s–e–l–a–v–e–v–a–c–o–n–t–e–n–i–r–
+60 town mens mur -> –t–o–w–n–m–e–n–s–m–u–r–
+61 umph demi valg -> –u–m–p–h–d–e–m–i–v–a–l–g–
+62 once assuming irod -> –o–n–c–e–a–s–s–u–m–i–n–g–i–r–o–d–
+63 six milioni beating -> –s–i–x–m–i–l–i–o–n–i–b–e–a–t–i–n–g–
+64 zyme coucher privada -> –z–y–m–e–c–o–u–c–h–e–r–p–r–i–v–a–d–a–
+65 lez ary prefix -> –l–e–z–a–r–y–p–r–e–f–i–x–
+66 wicklung consac scrape -> –w–i–c–k–l–u–n–g–c–o–n–s–a–c–s–c–r–a–p–e–
+67 allet guardia legge -> –a–l–l–e–t–g–u–a–r–d–i–a–l–e–g–g–e–
+68 ayo herself acon -> –a–y–o–h–e–r–s–e–l–f–a–c–o–n–
+69 glio positie druge -> –g–l–i–o–p–o–s–i–t–i–e–d–r–u–g–e–
+70 rebro rapport cage -> –r–e–b–r–o–r–a–p–p–o–r–t–c–a–g–e–
+71 python canvas aust -> –p–y–t–h–o–n–c–a–n–v–a–s–a–u–s–t–
+72 mooth perfor pravil -> –m–o–o–t–h–p–e–r–f–o–r–p–r–a–v–i–l–
+73 rible benign youngest -> –r–i–b–l–e–b–e–n–i–g–n–y–o–u–n–g–e–s–t–
+74 asting effet lumbar -> –a–s–t–i–n–g–e–f–f–e–t–l–u–m–b–a–r–
+75 ult empleo arrow -> –u–l–t–e–m–p–l–e–o–a–r–r–o–w–
+76 orado educator compone -> –o–r–a–d–o–e–d–u–c–a–t–o–r–c–o–m–p–o–n–e–
+77 pty redor bor -> –p–t–y–r–e–d–o–r–b–o–r–
+78 ellett spiral mism -> –e–l–l–e–t–t–s–p–i–r–a–l–m–i–s–m–
+79 hauses salud mell -> –h–a–u–s–e–s–s–a–l–u–d–m–e–l–l–
+80 annon republik aceptar -> –a–n–n–o–n–r–e–p–u–b–l–i–k–a–c–e–p–t–a–r–
+81 rono derart parasite -> –r–o–n–o–d–e–r–a–r–t–p–a–r–a–s–i–t–e–
+82 hors saus interpre -> –h–o–r–s–s–a–u–s–i–n–t–e–r–p–r–e–
+83 ade soprav sought -> –a–d–e–s–o–p–r–a–v–s–o–u–g–h–t–
+84 rak odlu mour -> –r–a–k–o–d–l–u–m–o–u–r–
+85 encias tapping traje -> –e–n–c–i–a–s–t–a–p–p–i–n–g–t–r–a–j–e–
+86 icias scandale macrom -> –i–c–i–a–s–s–c–a–n–d–a–l–e–m–a–c–r–o–m–
+87 ieg eager quotid -> –i–e–g–e–a–g–e–r–q–u–o–t–i–d–
+88 olve incendie possuem -> –o–l–v–e–i–n–c–e–n–d–i–e–p–o–s–s–u–e–m–
+89 alla tome conical -> –a–l–l–a–t–o–m–e–c–o–n–i–c–a–l–
+90 isme wire cursos -> –i–s–m–e–w–i–r–e–c–u–r–s–o–s–
+91 ienst aktual host -> –i–e–n–s–t–a–k–t–u–a–l–h–o–s–t–
+92 veda et ocen -> –v–e–d–a–e–t–o–c–e–n–
+93 lk belakang figlio -> –l–k–b–e–l–a–k–a–n–g–f–i–g–l–i–o–
+94 jin open eb -> –j–i–n–o–p–e–n–e–b–
+95 ween allt submar -> –w–e–e–n–a–l–l–t–s–u–b–m–a–r–
+96 title proch nurs -> –t–i–t–l–e–p–r–o–c–h–n–u–r–s–
+97 leting pigs geword -> –l–e–t–i–n–g–p–i–g–s–g–e–w–o–r–d–
+98 kus armies repouss -> –k–u–s–a–r–m–i–e–s–r–e–p–o–u–s–s–
+99 anns svi sense -> –a–n–n–s–s–v–i–s–e–n–s–e–

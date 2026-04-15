@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 tml konstant mt
+01 ueix svi revan
+02 ctx desple estado
+
+This is a sample output.
+00 tml konstant mt -> –t–m–l–k–o–n–s–t–a–n–t–m–t–
+01 ueix svi revan -> –u–e–i–x–s–v–i–r–e–v–a–n–
+02 ctx desple estado -> –c–t–x–d–e–s–p–l–e–e–s–t–a–d–o–
+
+This is your input.
+00 ogh assisted quien
+01 pond fading izol
+02 choices mussten soon
+03 altung guar njegov
+04 ta in deriv
+05 lerde ritmo bigarren
+06 inak minore vitamin
+07 owaniu klar spricht
+08 anz oc topl
+09 amental kend lanean
+10 origin alley dure
+11 abric tears hol
+12 asi zones erano
+13 uelve lou gesche
+14 mil assum keer
+15 anty exhib pastor
+16 far wegen realised
+17 elli wearing avion
+18 ovan removes times
+19 estimate retornar careg
+20 archie acquires that
+21 eder nau linger
+22 bolt ocor aprove
+23 agra altos gost
+24 mut hacerlo gg
+25 ola lutte forcibly
+26 imbab solve giorni
+27 cord atteinte novel
+28 last injector passages
+29 istisch nazis variante
+30 manent analyzed amenaza
+31 nissen dismiss fac
+32 undan size heritage
+33 uments jewel involunt
+34 ink asymmet behind
+35 uves exige choses
+36 vereiro lowers strlen
+37 illing ee fierc
+38 central karbon permite
+39 control cromos touk
+40 mathbb dosage internas
+41 aq voces resolved
+42 raries memo cla
+43 zv bruk jedan
+44 mother lie arb
+45 gende confir kepala
+46 rate hooked cabin
+47 vih usan dichlor
+48 lossenen miglior pril
+49 apon biskup pound
+50 escent osmotic syd
+51 iewe ata placas
+52 clus segmento marque
+53 bi delir adecu
+54 price sensed ment
+55 omi coinc myc
+56 igger dragon rencontr
+57 ulta takes eaux
+58 theme licenci genoux
+59 ems stre favored
+60 psi resol richer
+61 by reco sliding
+62 adero obtains seul
+63 riel passer wide
+64 quired regards contempt
+65 peptide pauv terj
+66 znej nutzen segment
+67 ferred urging creating
+68 frame chemise przesz
+69 bitmap hypoxia znamen
+70 nik abgesch vitality
+71 pped objet bens
+72 oclonal filmed aproxim
+73 abrik removed fol
+74 rul caballos kvalifik
+75 ammans exams worse
+76 ivat intraven idaz
+77 geons atas resume
+78 anging kontin arque
+79 ciously usein suitably
+80 ouches quel libro
+81 precated concre indo
+82 folg hours donner
+83 arto adapt bonds
+84 ention unbound gamme
+85 ain sarrer signals
+86 oggler blancos desapare
+87 klam key junior
+88 gru princess clock
+89 ijs marav titular
+90 girl never leb
+91 iph progetto pend
+92 ancier bestaat tells
+93 rils between folk
+94 ssl diper zoals
+95 iece wissen pirate
+96 amt wears race
+97 olated phenyl amic
+98 bez cree sac
+99 epad zbior porch
+[completion]
+00 ogh assisted quien -> –o–g–h–a–s–s–i–s–t–e–d–q–u–i–e–n–
+01 pond fading izol -> –p–o–n–d–f–a–d–i–n–g–i–z–o–l–
+02 choices mussten soon -> –c–h–o–i–c–e–s–m–u–s–s–t–e–n–s–o–o–n–
+03 altung guar njegov -> –a–l–t–u–n–g–g–u–a–r–n–j–e–g–o–v–
+04 ta in deriv -> –t–a–i–n–d–e–r–i–v–
+05 lerde ritmo bigarren -> –l–e–r–d–e–r–i–t–m–o–b–i–g–a–r–r–e–n–
+06 inak minore vitamin -> –i–n–a–k–m–i–n–o–r–e–v–i–t–a–m–i–n–
+07 owaniu klar spricht -> –o–w–a–n–i–u–k–l–a–r–s–p–r–i–c–h–t–
+08 anz oc topl -> –a–n–z–o–c–t–o–p–l–
+09 amental kend lanean -> –a–m–e–n–t–a–l–k–e–n–d–l–a–n–e–a–n–
+10 origin alley dure -> –o–r–i–g–i–n–a–l–l–e–y–d–u–r–e–
+11 abric tears hol -> –a–b–r–i–c–t–e–a–r–s–h–o–l–
+12 asi zones erano -> –a–s–i–z–o–n–e–s–e–r–a–n–o–
+13 uelve lou gesche -> –u–e–l–v–e–l–o–u–g–e–s–c–h–e–
+14 mil assum keer -> –m–i–l–a–s–s–u–m–k–e–e–r–
+15 anty exhib pastor -> –a–n–t–y–e–x–h–i–b–p–a–s–t–o–r–
+16 far wegen realised -> –f–a–r–w–e–g–e–n–r–e–a–l–i–s–e–d–
+17 elli wearing avion -> –e–l–l–i–w–e–a–r–i–n–g–a–v–i–o–n–
+18 ovan removes times -> –o–v–a–n–r–e–m–o–v–e–s–t–i–m–e–s–
+19 estimate retornar careg -> –e–s–t–i–m–a–t–e–r–e–t–o–r–n–a–r–c–a–r–e–g–
+20 archie acquires that -> –a–r–c–h–i–e–a–c–q–u–i–r–e–s–t–h–a–t–
+21 eder nau linger -> –e–d–e–r–n–a–u–l–i–n–g–e–r–
+22 bolt ocor aprove -> –b–o–l–t–o–c–o–r–a–p–r–o–v–e–
+23 agra altos gost -> –a–g–r–a–a–l–t–o–s–g–o–s–t–
+24 mut hacerlo gg -> –m–u–t–h–a–c–e–r–l–o–g–g–
+25 ola lutte forcibly -> –o–l–a–l–u–t–t–e–f–o–r–c–i–b–l–y–
+26 imbab solve giorni -> –i–m–b–a–b–s–o–l–v–e–g–i–o–r–n–i–
+27 cord atteinte novel -> –c–o–r–d–a–t–t–e–i–n–t–e–n–o–v–e–l–
+28 last injector passages -> –l–a–s–t–i–n–j–e–c–t–o–r–p–a–s–s–a–g–e–s–
+29 istisch nazis variante -> –i–s–t–i–s–c–h–n–a–z–i–s–v–a–r–i–a–n–t–e–
+30 manent analyzed amenaza -> –m–a–n–e–n–t–a–n–a–l–y–z–e–d–a–m–e–n–a–z–a–
+31 nissen dismiss fac -> –n–i–s–s–e–n–d–i–s–m–i–s–s–f–a–c–
+32 undan size heritage -> –u–n–d–a–n–s–i–z–e–h–e–r–i–t–a–g–e–
+33 uments jewel involunt -> –u–m–e–n–t–s–j–e–w–e–l–i–n–v–o–l–u–n–t–
+34 ink asymmet behind -> –i–n–k–a–s–y–m–m–e–t–b–e–h–i–n–d–
+35 uves exige choses -> –u–v–e–s–e–x–i–g–e–c–h–o–s–e–s–
+36 vereiro lowers strlen -> –v–e–r–e–i–r–o–l–o–w–e–r–s–s–t–r–l–e–n–
+37 illing ee fierc -> –i–l–l–i–n–g–e–e–f–i–e–r–c–
+38 central karbon permite -> –c–e–n–t–r–a–l–k–a–r–b–o–n–p–e–r–m–i–t–e–
+39 control cromos touk -> –c–o–n–t–r–o–l–c–r–o–m–o–s–t–o–u–k–
+40 mathbb dosage internas -> –m–a–t–h–b–b–d–o–s–a–g–e–i–n–t–e–r–n–a–s–
+41 aq voces resolved -> –a–q–v–o–c–e–s–r–e–s–o–l–v–e–d–
+42 raries memo cla -> –r–a–r–i–e–s–m–e–m–o–c–l–a–
+43 zv bruk jedan -> –z–v–b–r–u–k–j–e–d–a–n–
+44 mother lie arb -> –m–o–t–h–e–r–l–i–e–a–r–b–
+45 gende confir kepala -> –g–e–n–d–e–c–o–n–f–i–r–k–e–p–a–l–a–
+46 rate hooked cabin -> –r–a–t–e–h–o–o–k–e–d–c–a–b–i–n–
+47 vih usan dichlor -> –v–i–h–u–s–a–n–d–i–c–h–l–o–r–
+48 lossenen miglior pril -> –l–o–s–s–e–n–e–n–m–i–g–l–i–o–r–p–r–i–l–
+49 apon biskup pound -> –a–p–o–n–b–i–s–k–u–p–p–o–u–n–d–
+50 escent osmotic syd -> –e–s–c–e–n–t–o–s–m–o–t–i–c–s–y–d–
+51 iewe ata placas -> –i–e–w–e–a–t–a–p–l–a–c–a–s–
+52 clus segmento marque -> –c–l–u–s–s–e–g–m–e–n–t–o–m–a–r–q–u–e–
+53 bi delir adecu -> –b–i–d–e–l–i–r–a–d–e–c–u–
+54 price sensed ment -> –p–r–i–c–e–s–e–n–s–e–d–m–e–n–t–
+55 omi coinc myc -> –o–m–i–c–o–i–n–c–m–y–c–
+56 igger dragon rencontr -> –i–g–g–e–r–d–r–a–g–o–n–r–e–n–c–o–n–t–r–
+57 ulta takes eaux -> –u–l–t–a–t–a–k–e–s–e–a–u–x–
+58 theme licenci genoux -> –t–h–e–m–e–l–i–c–e–n–c–i–g–e–n–o–u–x–
+59 ems stre favored -> –e–m–s–s–t–r–e–f–a–v–o–r–e–d–
+60 psi resol richer -> –p–s–i–r–e–s–o–l–r–i–c–h–e–r–
+61 by reco sliding -> –b–y–r–e–c–o–s–l–i–d–i–n–g–
+62 adero obtains seul -> –a–d–e–r–o–o–b–t–a–i–n–s–s–e–u–l–
+63 riel passer wide -> –r–i–e–l–p–a–s–s–e–r–w–i–d–e–
+64 quired regards contempt -> –q–u–i–r–e–d–r–e–g–a–r–d–s–c–o–n–t–e–m–p–t–
+65 peptide pauv terj -> –p–e–p–t–i–d–e–p–a–u–v–t–e–r–j–
+66 znej nutzen segment -> –z–n–e–j–n–u–t–z–e–n–s–e–g–m–e–n–t–
+67 ferred urging creating -> –f–e–r–r–e–d–u–r–g–i–n–g–c–r–e–a–t–i–n–g–
+68 frame chemise przesz -> –f–r–a–m–e–c–h–e–m–i–s–e–p–r–z–e–s–z–
+69 bitmap hypoxia znamen -> –b–i–t–m–a–p–h–y–p–o–x–i–a–z–n–a–m–e–n–
+70 nik abgesch vitality -> –n–i–k–a–b–g–e–s–c–h–v–i–t–a–l–i–t–y–
+71 pped objet bens -> –p–p–e–d–o–b–j–e–t–b–e–n–s–
+72 oclonal filmed aproxim -> –o–c–l–o–n–a–l–f–i–l–m–e–d–a–p–r–o–x–i–m–
+73 abrik removed fol -> –a–b–r–i–k–r–e–m–o–v–e–d–f–o–l–
+74 rul caballos kvalifik -> –r–u–l–c–a–b–a–l–l–o–s–k–v–a–l–i–f–i–k–
+75 ammans exams worse -> –a–m–m–a–n–s–e–x–a–m–s–w–o–r–s–e–
+76 ivat intraven idaz -> –i–v–a–t–i–n–t–r–a–v–e–n–i–d–a–z–
+77 geons atas resume -> –g–e–o–n–s–a–t–a–s–r–e–s–u–m–e–
+78 anging kontin arque -> –a–n–g–i–n–g–k–o–n–t–i–n–a–r–q–u–e–
+79 ciously usein suitably -> –c–i–o–u–s–l–y–u–s–e–i–n–s–u–i–t–a–b–l–y–
+80 ouches quel libro -> –o–u–c–h–e–s–q–u–e–l–l–i–b–r–o–
+81 precated concre indo -> –p–r–e–c–a–t–e–d–c–o–n–c–r–e–i–n–d–o–
+82 folg hours donner -> –f–o–l–g–h–o–u–r–s–d–o–n–n–e–r–
+83 arto adapt bonds -> –a–r–t–o–a–d–a–p–t–b–o–n–d–s–
+84 ention unbound gamme -> –e–n–t–i–o–n–u–n–b–o–u–n–d–g–a–m–m–e–
+85 ain sarrer signals -> –a–i–n–s–a–r–r–e–r–s–i–g–n–a–l–s–
+86 oggler blancos desapare -> –o–g–g–l–e–r–b–l–a–n–c–o–s–d–e–s–a–p–a–r–e–
+87 klam key junior -> –k–l–a–m–k–e–y–j–u–n–i–o–r–
+88 gru princess clock -> –g–r–u–p–r–i–n–c–e–s–s–c–l–o–c–k–
+89 ijs marav titular -> –i–j–s–m–a–r–a–v–t–i–t–u–l–a–r–
+90 girl never leb -> –g–i–r–l–n–e–v–e–r–l–e–b–
+91 iph progetto pend -> –i–p–h–p–r–o–g–e–t–t–o–p–e–n–d–
+92 ancier bestaat tells -> –a–n–c–i–e–r–b–e–s–t–a–a–t–t–e–l–l–s–
+93 rils between folk -> –r–i–l–s–b–e–t–w–e–e–n–f–o–l–k–
+94 ssl diper zoals -> –s–s–l–d–i–p–e–r–z–o–a–l–s–
+95 iece wissen pirate -> –i–e–c–e–w–i–s–s–e–n–p–i–r–a–t–e–
+96 amt wears race -> –a–m–t–w–e–a–r–s–r–a–c–e–
+97 olated phenyl amic -> –o–l–a–t–e–d–p–h–e–n–y–l–a–m–i–c–
+98 bez cree sac -> –b–e–z–c–r–e–e–s–a–c–
+99 epad zbior porch -> –e–p–a–d–z–b–i–o–r–p–o–r–c–h–

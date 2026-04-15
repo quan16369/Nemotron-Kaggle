@@ -1,0 +1,27 @@
+problem id: 9afe43b4
+category: cryptarithm_deduce
+
+symbol-to-digit mapping:
+  '#' = 8
+  '%' = 5
+  '(' = 7
+  ')' = 1
+  '/' = 4
+  '<' = 6
+  ']' = 0
+  '^' = 3
+  '}' = 2
+
+operator-to-operation mapping:
+  '!' = mul
+  '@' = add
+
+examples:
+  %)@%% = )]<  =>  51 + 55 = 106
+  ((!#} = <^)/  =>  77 * 82 = 6314
+  )%@)< = ^)  =>  15 + 16 = 31
+  (^!<) = //%^  =>  73 * 61 = 4453
+
+query: %}!#<  =>  52 * 86 = 4472
+
+predicted answer: //(}

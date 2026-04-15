@@ -1,0 +1,30 @@
+Problem ID: a04ecffd
+Category: equation_numeric_deduce
+
+Examples:
+- 44!24 = !20
+- 17>32 = 49
+- 59!87 = !28
+- 64-32 = 2047
+- 10!89 = !79
+
+Inferred rule:
+- Different symbols appear to stand for different transformations, so I only need to pin down the rule for `!` because the query also uses `!`.
+- For `!`, take the absolute difference between the two numbers and write the result with a literal leading `!`.
+- Check against the `!` examples:
+- `|44 - 24| = 20`, so `44!24 -> !20`
+- `|59 - 87| = 28`, so `59!87 -> !28`
+- `|10 - 89| = 79`, so `10!89 -> !79`
+- The `>` and `-` examples show that other symbols have other rules, but they do not conflict with the `!` pattern.
+
+Step-by-step application to the query:
+- Query: `67!35`
+- Apply the `!` rule: compute the absolute difference.
+- `|67 - 35| = 32`
+- Attach the required leading `!`.
+
+Predicted answer:
+- `!32`
+
+Confidence:
+- High for the query. The `!` operator is demonstrated three times and all three examples fit the same rule exactly.

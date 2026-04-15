@@ -1,0 +1,28 @@
+problem id: f624f57c
+category: cryptarithm_deduce
+
+symbol-to-digit mapping:
+  '$' = 7
+  "'" = 2
+  '(' = 6
+  '/' = 8
+  '?' = 5
+  '@' = 9
+  '[' = 3
+  ']' = 1
+  '`' = 4
+  '|' = 0
+
+operator-to-operation mapping:
+  ':' = abs_diff
+  '>' = mul
+
+examples:
+  [[>[| = @@|  =>  33 * 30 = 990
+  $(>'/ = ']'/  =>  76 * 28 = 2128
+  /(:(@ = ]$  =>  |86 - 69| = 17
+  ?]>$@ = `|'@  =>  51 * 79 = 4029
+
+query: $@:$(  =>  |79 - 76| = 3
+
+predicted answer: [

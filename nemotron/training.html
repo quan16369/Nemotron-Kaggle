@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Training Logprobs</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            min-height: 100vh;
+        }
+        .container { max-width: 1400px; margin: 0 auto; padding: 20px; }
+        .summary {
+            text-align: center;
+            margin-bottom: 16px;
+            font-size: 16px;
+            color: #666;
+        }
+        .summary .positive { color: #27ae60; font-weight: 600; }
+        .summary .negative { color: #e74c3c; font-weight: 600; }
+        .filter-info {
+            background: #e0f2fe;
+            border: 1px solid #7dd3fc;
+            border-radius: 6px;
+            padding: 10px 16px;
+            margin-bottom: 16px;
+            font-size: 14px;
+            color: #0369a1;
+        }
+        .filter-info a { color: #0284c7; }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        th {
+            background: #4a5568;
+            color: white;
+            padding: 12px 16px;
+            text-align: left;
+            font-weight: 500;
+            font-size: 14px;
+            cursor: pointer;
+            user-select: none;
+        }
+        th:hover { background: #5a6578; }
+        th.num { text-align: right; }
+        th, td { white-space: nowrap; }
+        td {
+            padding: 10px 16px;
+            border-bottom: 1px solid #e0e0e0;
+            font-size: 14px;
+        }
+        td.num { text-align: right; font-family: 'SF Mono', Monaco, monospace; }
+        tr:hover { background: #f8fafc; }
+        .link { color: #2196f3; font-weight: 500; text-decoration: none; }
+        .link:hover { text-decoration: underline; }
+        .positive { color: #27ae60; }
+        .negative { color: #e74c3c; }
+        .loading { text-align: center; padding: 40px; color: #666; }
+        .pagination {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            margin-top: 12px;
+            font-size: 14px;
+            color: #666;
+        }
+        .pagination button {
+            padding: 4px 12px;
+            border: 1px solid #cbd5e0;
+            border-radius: 4px;
+            background: white;
+            cursor: pointer;
+            font-size: 13px;
+        }
+        .pagination button:hover:not(:disabled) { background: #edf2f7; }
+        .pagination button:disabled { opacity: 0.4; cursor: default; }
+
+        .token-content {
+            font-family: 'SF Mono', Monaco, 'Courier New', monospace;
+            font-size: 13px;
+            line-height: 1.6;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            background: #f8fafc;
+            padding: 20px;
+            border-radius: 6px;
+            overflow-y: auto;
+            max-height: calc(100vh - 250px);
+        }
+        .token { border-radius: 2px; }
+        .segment { cursor: pointer; border-radius: 2px; padding: 1px 0; }
+        .segment:hover { outline: 1px solid #2196f3; outline-offset: 1px; }
+        .token-tooltip {
+            position: fixed;
+            background: #2c3e50;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 4px;
+            font-size: 12px;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.15s;
+            z-index: 10000;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+            white-space: nowrap;
+        }
+        .token-tooltip.show { opacity: 1; }
+        .token-tooltip-row { display: flex; justify-content: space-between; gap: 16px; }
+        .token-tooltip-label { color: #95a5a6; }
+        .token-tooltip-value { font-family: 'SF Mono', Monaco, monospace; }
+        .token-tooltip-value.positive { color: #2ecc71; }
+        .token-tooltip-value.negative { color: #e74c3c; }
+        .epoch-btn {
+            display: inline-block;
+            padding: 4px 10px;
+            font-size: 13px;
+            font-family: 'SF Mono', Monaco, monospace;
+            border: 1px solid #cbd5e0;
+            border-radius: 4px;
+            background: white;
+            color: #4a5568;
+            cursor: pointer;
+        }
+        .epoch-btn:hover { background: #edf2f7; }
+        .epoch-btn.active {
+            background: #4a5568;
+            color: white;
+            border-color: #4a5568;
+        }
+        .newline-marker {
+            color: #ccc;
+            font-size: 11px;
+            user-select: none;
+        }
+        .token:hover .newline-marker { color: #2196f3; }
+    </style>
+</head>
+<body>
+    <nav style="text-align:center; padding:20px 0; font-size:16px;">
+        <a href="synthetic.html" style="color:#2196f3; text-decoration:none;">Synthetic</a> &middot;
+        <a href="corpus.html" style="color:#2196f3; text-decoration:none;">Corpus</a> &middot;
+        <strong style="font-size:22px;">Training</strong> &middot;
+        <a href="metrics.html" style="color:#2196f3; text-decoration:none;">Metrics</a>
+    </nav>
+    <script>document.querySelectorAll('nav a').forEach(a => { const base = a.getAttribute('href').split('?')[0]; a.addEventListener('click', e => { e.preventDefault(); window.location.href = base + location.search; }); });</script>
+    <div class="container">
+        <div id="config-info" class="summary" style="font-size:13px; font-family:'SF Mono',Monaco,monospace; color:#888;"></div>
+        <div id="summary" class="summary"></div>
+        <div id="filter-info" class="filter-info" style="display:none;"></div>
+        <div id="epoch-selector" style="display:none; text-align:center; margin-bottom:16px;">
+            <span style="font-size:14px; color:#666;">Epoch:</span>
+            <span id="epoch-buttons" style="display:inline-flex; gap:4px; margin-left:8px;"></span>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th onclick="sortTable('problem_id')">Problem</th>
+                    <th onclick="sortTable('category')">Category</th>
+                    <th class="num" onclick="sortTable('step')">Step</th>
+                    <th class="num" onclick="sortTable('num_loss_tokens')">Loss Tokens</th>
+                    <th class="num" onclick="sortTable('min_logprob')">Min Logprob</th>
+                </tr>
+            </thead>
+            <tbody id="table-body"></tbody>
+        </table>
+        <div id="pagination" class="pagination" style="display:none;">
+            <button onclick="goToPage(0)">&laquo;</button>
+            <button onclick="goToPage(currentPage-1)">&lsaquo;</button>
+            <span id="page-info"></span>
+            <button onclick="goToPage(currentPage+1)">&rsaquo;</button>
+            <button onclick="goToPage(totalPages-1)">&raquo;</button>
+        </div>
+        <div id="loading-state" class="loading">Loading...</div>
+
+        <div id="detail-section" style="display:none; margin-top:20px;">
+            <div id="token-content" class="token-content"></div>
+        </div>
+    </div>
+
+    <div id="token-tooltip" class="token-tooltip"></div>
+
+    <script>
+        const BYTE_RE = /^<0x([0-9A-Fa-f]{2})>$/;
+        let vocab = null;
+
+        async function loadVocab() {
+            if (vocab) return;
+            const resp = await fetch('vocab.json?_=' + Date.now());
+            vocab = await resp.json();
+        }
+
+        function decodeTokenIds(tokenIds) {
+            if (!vocab) return tokenIds.map(() => '\u2588');
+            const result = new Array(tokenIds.length).fill('');
+            let i = 0;
+            while (i < tokenIds.length) {
+                const s = vocab[String(tokenIds[i])];
+                if (s === undefined) { result[i] = `[${tokenIds[i]}]`; i++; continue; }
+                const m = BYTE_RE.exec(s);
+                if (m) {
+                    const start = i;
+                    const bytes = [];
+                    while (i < tokenIds.length) {
+                        const s2 = vocab[String(tokenIds[i])];
+                        if (!s2) break;
+                        const m2 = BYTE_RE.exec(s2);
+                        if (!m2) break;
+                        bytes.push(parseInt(m2[1], 16));
+                        i++;
+                    }
+                    result[start] = new TextDecoder('utf-8', {fatal: false}).decode(new Uint8Array(bytes));
+                } else {
+                    result[i] = s;
+                    i++;
+                }
+            }
+            return result;
+        }
+
+        let allRows = [];
+        let filteredRows = [];
+        let sortColumn = 'step';
+        let sortAsc = false;
+        let currentFilter = {};
+        let configData = {};
+        let maxEpoch = 1;
+        let selectedEpoch = 0;
+        let currentDetailRow = null;
+        let currentDetailData = null;
+        const tokenTooltip = document.getElementById('token-tooltip');
+        const PAGE_SIZE = 100;
+        let currentPage = 0;
+        let totalPages = 1;
+
+        function getLogprobColor(diff, trainedLogprob) {
+            let r, g, b;
+            if (diff >= 0) {
+                const t = Math.min(diff / 0.5, 1);
+                r = Math.round(241 - t * 202);
+                g = Math.round(196 - t * 22);
+                b = Math.round(15 + t * 81);
+            } else {
+                const t = Math.min(-diff / 0.5, 1);
+                r = Math.round(241 - t * 10);
+                g = Math.round(196 - t * 120);
+                b = Math.round(15 + t * 45);
+            }
+            const opacity = Math.min(-trainedLogprob, 1);
+            return `rgba(${r}, ${g}, ${b}, ${opacity})`;
+        }
+
+        function getLogpath() {
+            return new URLSearchParams(window.location.search).get('logpath') || '';
+        }
+
+        function basePath() {
+            return `training/sft/${getLogpath()}/logprobs`;
+        }
+
+        function segmentStem(row) {
+            // New data has 'segment', old data has 'run'
+            const name = row.segment || row.run || 'synthetic.jsonl';
+            return name.replace(/\.jsonl$/, '');
+        }
+
+        function tokensFile(row) {
+            return `training/sft/${getLogpath()}/tokens/${row.problem_id}/${segmentStem(row)}.json`;
+        }
+
+        function logprobFile(epoch, row) {
+            return `${basePath()}/${epoch}/${row.problem_id}/${segmentStem(row)}.jsonl`;
+        }
+
+        function formatRun(run) {
+            const m = run.match(/^(\d{2})-(\d{2})-(\d{2})-(\d{2})/);
+            if (!m) return run;
+            return `${m[1]}/${m[2]} ${m[3]}:${m[4]}`;
+        }
+
+        async function loadConfig() {
+            try {
+                const resp = await fetch(`training/sft/${getLogpath()}/config.json`);
+                if (resp.ok) configData = await resp.json();
+            } catch (e) {}
+        }
+
+        async function loadProportionBetter(rows, epoch) {
+            if (epoch === undefined) epoch = selectedEpoch;
+            const promises = rows.map(async (row) => {
+                if (!row.pct_better_by_epoch) row.pct_better_by_epoch = {};
+                if (row.pct_better_by_epoch[epoch] !== undefined) return;
+                try {
+                    const tokensPath = tokensFile(row);
+                    const lp0Path = logprobFile(0, row);
+                    const lpEpochPath = logprobFile(epoch, row);
+                    const [tokensResp, lp0Resp, lpEpochResp] = await Promise.all([fetch(tokensPath), fetch(lp0Path), fetch(lpEpochPath)]);
+                    if (!tokensResp.ok || !lp0Resp.ok || !lpEpochResp.ok) return;
+                    const tokensData = JSON.parse(await tokensResp.text());
+                    const targetMask = tokensData.mask.slice(1);
+                    const lp0 = JSON.parse((await lp0Resp.text()).trim()).logprobs;
+                    const lpEpoch = JSON.parse((await lpEpochResp.text()).trim()).logprobs;
+                    const length = Math.min(lp0.length, lpEpoch.length, targetMask.length);
+                    let better = 0, worse = 0, unchanged = 0;
+                    for (let i = 0; i < length; i++) {
+                        if (!targetMask[i]) continue;
+                        if (lpEpoch[i] > lp0[i]) better++;
+                        else if (lpEpoch[i] < lp0[i]) worse++;
+                        else unchanged++;
+                    }
+                    const total = better + worse + unchanged;
+                    if (total > 0) row.pct_better_by_epoch[epoch] = (better + unchanged * 0.5) / total;
+                } catch (e) {}
+            });
+            await Promise.all(promises);
+        }
+
+        function filterUrl(params) {
+            const u = new URLSearchParams(window.location.search);
+            for (const [k, v] of Object.entries(params)) {
+                if (v) u.set(k, v);
+                else u.delete(k);
+            }
+            return '?' + u.toString();
+        }
+
+        function clearUrl() {
+            const logpath = getLogpath();
+            return logpath ? `training.html?logpath=${logpath}` : 'training.html';
+        }
+
+        async function loadIndex() {
+            const resp = await fetch(`${basePath()}/index.jsonl?t=` + Date.now());
+            const text = await resp.text();
+            return text.trim().split('\n').filter(l => l).map(l => JSON.parse(l));
+        }
+
+        function groupByExample(records) {
+            const map = new Map();
+            let mxEpoch = 0;
+            for (const rec of records) {
+                const key = rec.problem_id;
+                if (!map.has(key)) {
+                    map.set(key, {
+                        problem_id: rec.problem_id,
+                        segment: rec.segment || null,
+                        run: rec.run || null,
+                        category: rec.category || '',
+                        num_loss_tokens: rec.num_loss_tokens,
+                        step: rec.step ?? 0,
+                        total_loss: {},
+                        min_logprob_by_epoch: {}
+                    });
+                }
+                const entry = map.get(key);
+                entry.total_loss[rec.epoch] = rec.total_loss;
+                if (rec.min_logprob != null) entry.min_logprob_by_epoch[rec.epoch] = rec.min_logprob;
+                if (rec.epoch > mxEpoch) mxEpoch = rec.epoch;
+            }
+            maxEpoch = mxEpoch;
+            return [...map.values()];
+        }
+
+        function getLossImprovement(row) {
+            const e0 = row.total_loss[0], eSel = row.total_loss[selectedEpoch];
+            if (e0 == null || eSel == null) return null;
+            return (e0 - eSel) / row.num_loss_tokens;
+        }
+
+        function getProportionBetter(row) {
+            if (!row.pct_better_by_epoch) return null;
+            const val = row.pct_better_by_epoch[selectedEpoch];
+            return val != null ? val : null;
+        }
+
+        function getMinLogprob(row) {
+            const val = row.min_logprob_by_epoch[selectedEpoch];
+            return val != null ? val : null;
+        }
+
+        function getSortValue(row, col) {
+            switch (col) {
+                case 'problem_id': return row.problem_id;
+                case 'category': return row.category;
+                case 'step': return row.step;
+                case 'num_loss_tokens': return row.num_loss_tokens;
+                case 'lp_improvement': return getLossImprovement(row) ?? -Infinity;
+                case 'pct_better': return getProportionBetter(row) ?? -Infinity;
+                case 'min_logprob': return getMinLogprob(row) ?? -Infinity;
+                default: return '';
+            }
+        }
+
+        function sortTable(col) {
+            if (sortColumn === col) {
+                sortAsc = !sortAsc;
+            } else {
+                sortColumn = col;
+                sortAsc = (col === 'lp_improvement' || col === 'pct_better' || col === 'num_loss_tokens' || col === 'step') ? false : (col === 'min_logprob') ? true : true;
+            }
+            renderTable();
+        }
+
+        function goToPage(page) {
+            if (page < 0 || page >= totalPages) return;
+            currentPage = page;
+            renderTable();
+            loadProportionBetterForPage();
+        }
+
+        async function loadProportionBetterForPage() {
+            const sorted = filteredRows.slice().sort((a, b) => {
+                const va = getSortValue(a, sortColumn);
+                const vb = getSortValue(b, sortColumn);
+                let cmp = 0;
+                if (typeof va === 'number' && typeof vb === 'number') cmp = va - vb;
+                else cmp = String(va).localeCompare(String(vb));
+                return sortAsc ? cmp : -cmp;
+            });
+            const pageStart = currentPage * PAGE_SIZE;
+            const pageRows = sorted.slice(pageStart, pageStart + PAGE_SIZE);
+            const needPct = pageRows.filter(r => !r.pct_better_by_epoch || r.pct_better_by_epoch[selectedEpoch] === undefined);
+            if (needPct.length === 0) return;
+            await loadProportionBetter(needPct, selectedEpoch);
+            renderTable();
+        }
+
+        function renderTable() {
+            const filter = currentFilter;
+            filteredRows = allRows;
+            if (filter.problem) filteredRows = filteredRows.filter(r => r.problem_id === filter.problem);
+            if (filter.category) filteredRows = filteredRows.filter(r => r.category === filter.category);
+
+            const sorted = filteredRows.slice().sort((a, b) => {
+                const va = getSortValue(a, sortColumn);
+                const vb = getSortValue(b, sortColumn);
+                let cmp = 0;
+                if (typeof va === 'number' && typeof vb === 'number') cmp = va - vb;
+                else cmp = String(va).localeCompare(String(vb));
+                return sortAsc ? cmp : -cmp;
+            });
+
+            totalPages = Math.max(1, Math.ceil(sorted.length / PAGE_SIZE));
+            if (currentPage >= totalPages) currentPage = totalPages - 1;
+            const pageStart = currentPage * PAGE_SIZE;
+            const pageRows = sorted.slice(pageStart, pageStart + PAGE_SIZE);
+
+            // Pagination controls
+            const pag = document.getElementById('pagination');
+            if (sorted.length > PAGE_SIZE) {
+                pag.style.display = 'flex';
+                document.getElementById('page-info').textContent =
+                    `${pageStart + 1}\u2013${Math.min(pageStart + PAGE_SIZE, sorted.length)} of ${sorted.length}`;
+                const btns = pag.querySelectorAll('button');
+                btns[0].disabled = btns[1].disabled = currentPage === 0;
+                btns[2].disabled = btns[3].disabled = currentPage >= totalPages - 1;
+            } else {
+                pag.style.display = 'none';
+            }
+
+            const oldTbody = document.getElementById('table-body');
+            const newTbody = document.createElement('tbody');
+            newTbody.id = 'table-body';
+            let html = '';
+            for (const row of pageRows) {
+                const minLp = getMinLogprob(row);
+                const rowBg = (minLp != null && minLp < -0.69) ? 'background:#ffebee;' : '';
+                html += `<tr style="cursor:pointer;${rowBg}" onclick="showDetail(allRows.find(r => r.problem_id==='${row.problem_id}'))">` +
+                    `<td><a href="${filterUrl({problem: row.problem_id})}" class="link" onclick="event.stopPropagation()">${row.problem_id}</a></td>` +
+                    `<td><a href="${filterUrl({category: row.category, problem: ''})}" class="link" onclick="event.stopPropagation()">${row.category}</a></td>` +
+                    `<td class="num">${row.step}</td>` +
+                    `<td class="num">${row.num_loss_tokens}</td>` +
+                    `<td class="num">${minLp != null ? minLp.toFixed(4) : '-'}</td>` +
+                    `</tr>`;
+            }
+            newTbody.innerHTML = html;
+            oldTbody.replaceWith(newTbody);
+
+            // Summary
+            document.getElementById('summary').innerHTML = `${filteredRows.length} examples`;
+
+            // Filter info bar
+            const filterInfo = document.getElementById('filter-info');
+            if (filter.problem || filter.category || getLogpath()) {
+                const parts = [];
+                if (getLogpath()) parts.push(`run: <strong>${getLogpath()}</strong>`);
+                if (filter.category) parts.push(`category: ${filter.category} <a href="${filterUrl({category: ''})}">(clear)</a>`);
+                if (filter.problem) parts.push(`problem: ${filter.problem} <a href="${filterUrl({problem: ''})}">(clear)</a>`);
+                const hasFilter = filter.problem || filter.category;
+                filterInfo.innerHTML = `Filtering by ${parts.join(', ')}`;
+                filterInfo.style.display = 'block';
+            } else {
+                filterInfo.style.display = 'none';
+            }
+
+            document.getElementById('loading-state').style.display = 'none';
+
+            // Auto-show detail when filtered to single problem+run
+            if (filter.problem && filteredRows.length === 1) {
+                showDetail(filteredRows[0]);
+            } else {
+                document.getElementById('detail-section').style.display = 'none';
+            }
+        }
+
+        async function showDetail(row) {
+            await loadVocab();
+            currentDetailRow = row;
+            const section = document.getElementById('detail-section');
+            const content = document.getElementById('token-content');
+
+            section.style.display = 'block';
+            content.textContent = 'Loading...';
+
+            try {
+                const tokensPath = tokensFile(row);
+                const lpPaths = [];
+                for (let e = 0; e <= maxEpoch; e++) {
+                    lpPaths.push(logprobFile(e, row));
+                }
+
+                const [tokensResp, ...lpResps] = await Promise.all([
+                    fetch(tokensPath),
+                    ...lpPaths.map(p => fetch(p))
+                ]);
+
+                if (!tokensResp.ok) {
+                    content.textContent = 'No token data available';
+                    return;
+                }
+                const tokensData = JSON.parse(await tokensResp.text());
+                const allTokens = tokensData.tokens;
+                const mask = tokensData.mask;
+                // Build segments from flat data for renderDetail
+                const segments = [];
+                let idx = 0;
+                while (idx < mask.length) {
+                    const curType = mask[idx] === 1 ? 'unmasked' : 'masked';
+                    const segTokens = [];
+                    while (idx < mask.length && (mask[idx] === 1 ? 'unmasked' : 'masked') === curType) {
+                        segTokens.push(allTokens[idx]);
+                        idx++;
+                    }
+                    segments.push({ type: curType, tokens: segTokens });
+                }
+
+                const epochLogprobs = [];
+                for (const resp of lpResps) {
+                    if (resp.ok) {
+                        epochLogprobs.push(JSON.parse((await resp.text()).trim()).logprobs);
+                    } else {
+                        epochLogprobs.push(null);
+                    }
+                }
+
+                currentDetailData = { segments, allTokens, mask, epochLogprobs };
+                renderDetail();
+            } catch (err) {
+                content.textContent = 'Error: ' + err.message;
+            }
+        }
+
+        function renderDetail() {
+            if (!currentDetailData) return;
+            const { segments, allTokens, mask, epochLogprobs } = currentDetailData;
+            const content = document.getElementById('token-content');
+            const lp0 = epochLogprobs[0];
+            const lpSelected = epochLogprobs[selectedEpoch];
+
+            const tokenTexts = decodeTokenIds(allTokens);
+            const tokenData = [];
+            let html = '';
+            let tokenIndex = 0;
+            for (const seg of segments) {
+                const isUnmasked = seg.type === 'unmasked';
+                const segTokens = seg.tokens.length;
+                let segHtml = '';
+                const segClass = isUnmasked ? 'segment unmasked' : 'segment';
+
+                for (let j = 0; j < segTokens; j++) {
+                    const tokenText = tokenTexts[tokenIndex];
+                    const escaped = tokenText
+                        .replace(/&/g, '&amp;')
+                        .replace(/</g, '&lt;')
+                        .replace(/>/g, '&gt;')
+                        .replace(/\n/g, '<span class="newline-marker">\\n</span>\n');
+
+                    const lpIdx = tokenIndex - 1;
+                    if (lpIdx >= 0 && lp0 && lpSelected) {
+                        const base = lp0[lpIdx] ?? 0;
+                        const trained = lpSelected[lpIdx] ?? 0;
+                        const diff = trained - base;
+                        const bgColor = getLogprobColor(diff, trained);
+                        const grey = mask[tokenIndex] === 0 ? 'color:#bbb;' : '';
+                        const perEpoch = epochLogprobs.map(lp => lp ? (lp[lpIdx] ?? 0) : null);
+                        tokenData.push({ base, trained, perEpoch, idx: tokenIndex });
+                        segHtml += `<span class="token" data-tidx="${tokenData.length - 1}" style="${grey}background:${bgColor}">${escaped}</span>`;
+                    } else {
+                        tokenData.push(null);
+                        segHtml += `<span class="token" style="color:#bbb">${escaped}</span>`;
+                    }
+                    tokenIndex++;
+                }
+                html += `<span class="${segClass}">${segHtml}</span>`;
+            }
+
+            content.innerHTML = html;
+
+            // Token tooltips
+            content.querySelectorAll('.token').forEach(el => {
+                const tidx = parseInt(el.dataset.tidx);
+                const data = tokenData[tidx];
+                if (!data) return;
+
+                el.addEventListener('mousemove', (e) => {
+                    const diff = data.trained - data.base;
+                    const diffClass = diff > 0 ? 'positive' : diff < 0 ? 'negative' : '';
+                    let rows = '';
+                    for (let ep = 0; ep < data.perEpoch.length; ep++) {
+                        if (data.perEpoch[ep] == null) continue;
+                        let valClass = '';
+                        if (ep > 0 && data.perEpoch[ep - 1] != null) {
+                            const d = data.perEpoch[ep] - data.perEpoch[ep - 1];
+                            valClass = d > 0 ? 'positive' : d < 0 ? 'negative' : '';
+                        }
+                        rows += `<div class="token-tooltip-row">
+                            <span class="token-tooltip-label">Epoch ${ep}:</span>
+                            <span class="token-tooltip-value ${valClass}">${data.perEpoch[ep].toFixed(4)}</span>
+                        </div>`;
+                    }
+                    rows += `<div class="token-tooltip-row">
+                            <span class="token-tooltip-label">Diff:</span>
+                            <span class="token-tooltip-value ${diffClass}">${diff >= 0 ? '+' : ''}${diff.toFixed(4)}</span>
+                        </div>`;
+                    tokenTooltip.innerHTML = rows;
+                    tokenTooltip.style.left = (e.clientX + 12) + 'px';
+                    tokenTooltip.style.top = (e.clientY + 12) + 'px';
+                    tokenTooltip.classList.add('show');
+                });
+                el.addEventListener('mouseleave', () => {
+                    tokenTooltip.classList.remove('show');
+                });
+            });
+        }
+
+        async function init() {
+            try {
+                // Auto-redirect to latest run if no logpath
+                if (!getLogpath() || getLogpath() === 'all') {
+                    let runDirs = [];
+                    try {
+                        const resp = await fetch('training/sft/logpaths.txt');
+                        if (resp.ok) {
+                            runDirs = (await resp.text()).trim().split('\n').filter(l => l.trim());
+                        }
+                    } catch(e) {}
+                    const timestampDirs = runDirs.filter(d => /^\d{2}-\d{2}-\d{2}-\d{2}$/.test(d));
+                    const latest = timestampDirs.length > 0 ? timestampDirs[timestampDirs.length - 1] : runDirs[runDirs.length - 1];
+                    if (latest) {
+                        const u = new URL(location.href);
+                        u.searchParams.set('logpath', latest);
+                        window.location.replace(u);
+                        return;
+                    }
+                }
+
+                await loadConfig();
+                // Render config info
+                if (configData) {
+                    const parts = [];
+                    const lc = configData.loss_config;
+                    if (lc) {
+                        const lcParts = Object.entries(lc).filter(([k]) => k !== 'name' && k !== 'class_name').map(([k,v]) => `${k}=${v}`);
+                        parts.push(`loss: ${lc.class_name || lc.name}${lcParts.length ? '(' + lcParts.join(', ') + ')' : ''}`);
+                    }
+                    const lr = configData.lr_schedule;
+                    if (lr) {
+                        const lrParts = Object.entries(lr).filter(([k]) => k !== 'class_name').map(([k,v]) => `${k}=${v}`);
+                        parts.push(`lr: ${lr.class_name || 'LinearDecay'}(${lrParts.join(', ')})`);
+                    }
+                    if (configData.num_epochs) parts.push(`epochs: ${configData.num_epochs}`);
+                    if (configData.batch_size) parts.push(`batch: ${configData.batch_size}`);
+                    if (configData.lora_rank) parts.push(`rank: ${configData.lora_rank}`);
+                    const el = document.getElementById('config-info');
+                    el.textContent = parts.join(' · ');
+                }
+
+                const records = await loadIndex();
+                allRows = groupByExample(records);
+                selectedEpoch = maxEpoch;
+
+                // Set up epoch buttons
+                if (maxEpoch > 0) {
+                    const container = document.getElementById('epoch-buttons');
+                    for (let e = 0; e <= maxEpoch; e++) {
+                        const btn = document.createElement('button');
+                        btn.className = 'epoch-btn' + (e === selectedEpoch ? ' active' : '');
+                        btn.textContent = e;
+                        btn.dataset.epoch = e;
+                        btn.addEventListener('click', async function() {
+                            selectedEpoch = parseInt(this.dataset.epoch);
+                            container.querySelectorAll('.epoch-btn').forEach(b => b.classList.remove('active'));
+                            this.classList.add('active');
+                            renderTable();
+                            if (currentDetailData) renderDetail();
+                            loadProportionBetterForPage();
+                        });
+                        container.appendChild(btn);
+                    }
+                    document.getElementById('epoch-selector').style.display = 'block';
+                }
+
+                // Arrow key navigation between epochs
+                document.addEventListener('keydown', (e) => {
+                    if (e.key !== 'ArrowLeft' && e.key !== 'ArrowRight') return;
+                    const newEpoch = e.key === 'ArrowLeft' ? selectedEpoch - 1 : selectedEpoch + 1;
+                    if (newEpoch < 0 || newEpoch > maxEpoch) return;
+                    const btn = document.querySelector(`#epoch-buttons .epoch-btn[data-epoch="${newEpoch}"]`);
+                    if (btn) btn.click();
+                });
+
+                const params = new URLSearchParams(window.location.search);
+                currentFilter = {
+                    problem: params.get('problem'),
+                    category: params.get('category'),
+                };
+
+                renderTable();
+                loadProportionBetterForPage();
+            } catch (err) {
+                document.getElementById('loading-state').textContent = 'Error: ' + err.message;
+            }
+        }
+
+        init();
+    </script>
+</body>
+</html>

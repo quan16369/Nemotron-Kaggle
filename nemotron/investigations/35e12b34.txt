@@ -1,0 +1,26 @@
+problem id: 35e12b34
+category: equation_numeric_guess
+
+examples:
+- 79+65 = 14
+- 94+43 = 51
+- 45+11 = 34
+
+inferred rule:
+The output is the arithmetic difference of the two two-digit numbers: left operand minus right operand.
+
+check against examples:
+1. 79 - 65 = 14
+2. 94 - 43 = 51
+3. 45 - 11 = 34
+
+step-by-step application to the query:
+1. Query is 65`48.
+2. The symbol changes from `+` in the examples to `` ` `` in the query, but the numeric pattern in every example is plain subtraction.
+3. Apply the same rule to the operands: 65 - 48 = 17.
+
+predicted answer:
+17
+
+confidence note:
+High confidence in the arithmetic rule itself, because it matches all examples exactly. Slight ambiguity remains only because the query uses an unseen symbol, so this assumes the symbol is irrelevant decoration rather than changing the operation.

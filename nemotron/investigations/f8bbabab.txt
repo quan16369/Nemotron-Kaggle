@@ -1,0 +1,16 @@
+problem id: f8bbabab
+category: cryptarithm_deduce
+
+symbol-to-digit mapping:
+
+operator-to-operation mapping:
+  '+' = rev_concat
+
+examples:
+  [^+:` = :`[^
+  <^*!^ = ![@
+  <`+`] = `]<`
+
+query: `>+>^
+
+predicted answer: >^`>

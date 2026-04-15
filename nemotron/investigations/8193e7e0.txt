@@ -1,0 +1,27 @@
+problem id: 8193e7e0
+category: cryptarithm_deduce
+
+symbol-to-digit mapping:
+  '!' = 0
+  '#' = 2
+  '&' = 5
+  "'" = 8
+  '/' = 4
+  '?' = 1
+  ']' = 3
+  '`' = 6
+  '{' = 7
+
+operator-to-operation mapping:
+  '*' = mul
+  '-' = abs_diff
+
+examples:
+  '{*#/ = #!''  =>  87 * 24 = 2088
+  `]-#` = ]{  =>  |63 - 26| = 37
+  &!*]! = ?&!!  =>  50 * 30 = 1500
+  ?!+// = ?!//  =>  ?
+
+query: #?*&`  =>  21 * 56 = 1176
+
+predicted answer: ??{`

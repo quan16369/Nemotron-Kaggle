@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 iful souriant lejos
+01 aires fogo pozi
+02 hez epic bug
+
+This is a sample output.
+00 iful souriant lejos -> –i–f–u–l–s–o–u–r–i–a–n–t–l–e–j–o–s–
+01 aires fogo pozi -> –a–i–r–e–s–f–o–g–o–p–o–z–i–
+02 hez epic bug -> –h–e–z–e–p–i–c–b–u–g–
+
+This is your input.
+00 todos sollte anions
+01 craft raising love
+02 avadoc ed orage
+03 itee scalp pic
+04 recht fec comedian
+05 ingi arbitr drowned
+06 adamente specjal campagna
+07 imientos potre gasped
+08 ently bucket pun
+09 geven asuntos boutique
+10 lavors elokuv lb
+11 agher nombre knj
+12 rey obscured finn
+13 gadas you toe
+14 ayment reest trov
+15 stant euk slit
+16 een mull sua
+17 istors plur separat
+18 armstadt seksual imports
+19 uttaa politica fascia
+20 local comprom ucciso
+21 cope parad camar
+22 levation comuna fichier
+23 sein theo segona
+24 ipage peux castell
+25 wander soc stop
+26 fluor tablet nennt
+27 weak intent vender
+28 hes spieg republic
+29 langen expose foyer
+30 imm remon duo
+31 pend mycket couns
+32 roupe neo vitre
+33 omie match diff
+34 ublic army februar
+35 hima eu env
+36 ey freely antiqu
+37 ierna acteur diving
+38 andr revanche herr
+39 ynb occured estacion
+40 lend alanine ulicy
+41 ass algum gett
+42 esity waits reais
+43 heroku licked aps
+44 jquery deterr underm
+45 eric medi mili
+46 psz thanked third
+47 emar press cortisol
+48 ritann verloren profit
+49 imiento namens desej
+50 task factions meille
+51 jdbc fog trama
+52 ibal packaged hakim
+53 mant life placenta
+54 umina ethanol trunk
+55 biendo ui insomnia
+56 chts tumor issue
+57 ailleurs produits tast
+58 ortion caballo verwij
+59 aterials arv sequence
+60 eringen duration seguinte
+61 leases mumkin loosely
+62 thyl garra wisdom
+63 neut widow dvije
+64 kehrt sep dioc
+65 xel meat accom
+66 overline wins conceal
+67 utenant arabe foci
+68 ari subordin exile
+69 unc rebell rundzie
+70 teness retirada envol
+71 adan ashore iss
+72 utti imena vinden
+73 amilton vern imported
+74 ulen fontes moviment
+75 iveness cysts molek
+76 irected nostro inverse
+77 haal boats dag
+78 iziert scaled brazos
+79 isesti mord axle
+80 orsch cheek compose
+81 asim lover kt
+82 ointment detto funded
+83 ichts bar motivos
+84 quen zna nenhum
+85 average chagrin militar
+86 oslav cade encar
+87 konstru dla runoff
+88 kir folgte biasing
+89 ceae salva manos
+90 alities oblique admitted
+91 furt pozyc detached
+92 zeitig hauled fry
+93 earer whether thinks
+94 thouse anchor daerah
+95 rach uterus aiming
+96 endish prel ollut
+97 chestre agreg opening
+98 ismer fellow half
+99 lower ignorant flutter
+[completion]
+00 todos sollte anions -> –t–o–d–o–s–s–o–l–l–t–e–a–n–i–o–n–s–
+01 craft raising love -> –c–r–a–f–t–r–a–i–s–i–n–g–l–o–v–e–
+02 avadoc ed orage -> –a–v–a–d–o–c–e–d–o–r–a–g–e–
+03 itee scalp pic -> –i–t–e–e–s–c–a–l–p–p–i–c–
+04 recht fec comedian -> –r–e–c–h–t–f–e–c–c–o–m–e–d–i–a–n–
+05 ingi arbitr drowned -> –i–n–g–i–a–r–b–i–t–r–d–r–o–w–n–e–d–
+06 adamente specjal campagna -> –a–d–a–m–e–n–t–e–s–p–e–c–j–a–l–c–a–m–p–a–g–n–a–
+07 imientos potre gasped -> –i–m–i–e–n–t–o–s–p–o–t–r–e–g–a–s–p–e–d–
+08 ently bucket pun -> –e–n–t–l–y–b–u–c–k–e–t–p–u–n–
+09 geven asuntos boutique -> –g–e–v–e–n–a–s–u–n–t–o–s–b–o–u–t–i–q–u–e–
+10 lavors elokuv lb -> –l–a–v–o–r–s–e–l–o–k–u–v–l–b–
+11 agher nombre knj -> –a–g–h–e–r–n–o–m–b–r–e–k–n–j–
+12 rey obscured finn -> –r–e–y–o–b–s–c–u–r–e–d–f–i–n–n–
+13 gadas you toe -> –g–a–d–a–s–y–o–u–t–o–e–
+14 ayment reest trov -> –a–y–m–e–n–t–r–e–e–s–t–t–r–o–v–
+15 stant euk slit -> –s–t–a–n–t–e–u–k–s–l–i–t–
+16 een mull sua -> –e–e–n–m–u–l–l–s–u–a–
+17 istors plur separat -> –i–s–t–o–r–s–p–l–u–r–s–e–p–a–r–a–t–
+18 armstadt seksual imports -> –a–r–m–s–t–a–d–t–s–e–k–s–u–a–l–i–m–p–o–r–t–s–
+19 uttaa politica fascia -> –u–t–t–a–a–p–o–l–i–t–i–c–a–f–a–s–c–i–a–
+20 local comprom ucciso -> –l–o–c–a–l–c–o–m–p–r–o–m–u–c–c–i–s–o–
+21 cope parad camar -> –c–o–p–e–p–a–r–a–d–c–a–m–a–r–
+22 levation comuna fichier -> –l–e–v–a–t–i–o–n–c–o–m–u–n–a–f–i–c–h–i–e–r–
+23 sein theo segona -> –s–e–i–n–t–h–e–o–s–e–g–o–n–a–
+24 ipage peux castell -> –i–p–a–g–e–p–e–u–x–c–a–s–t–e–l–l–
+25 wander soc stop -> –w–a–n–d–e–r–s–o–c–s–t–o–p–
+26 fluor tablet nennt -> –f–l–u–o–r–t–a–b–l–e–t–n–e–n–n–t–
+27 weak intent vender -> –w–e–a–k–i–n–t–e–n–t–v–e–n–d–e–r–
+28 hes spieg republic -> –h–e–s–s–p–i–e–g–r–e–p–u–b–l–i–c–
+29 langen expose foyer -> –l–a–n–g–e–n–e–x–p–o–s–e–f–o–y–e–r–
+30 imm remon duo -> –i–m–m–r–e–m–o–n–d–u–o–
+31 pend mycket couns -> –p–e–n–d–m–y–c–k–e–t–c–o–u–n–s–
+32 roupe neo vitre -> –r–o–u–p–e–n–e–o–v–i–t–r–e–
+33 omie match diff -> –o–m–i–e–m–a–t–c–h–d–i–f–f–
+34 ublic army februar -> –u–b–l–i–c–a–r–m–y–f–e–b–r–u–a–r–
+35 hima eu env -> –h–i–m–a–e–u–e–n–v–
+36 ey freely antiqu -> –e–y–f–r–e–e–l–y–a–n–t–i–q–u–
+37 ierna acteur diving -> –i–e–r–n–a–a–c–t–e–u–r–d–i–v–i–n–g–
+38 andr revanche herr -> –a–n–d–r–r–e–v–a–n–c–h–e–h–e–r–r–
+39 ynb occured estacion -> –y–n–b–o–c–c–u–r–e–d–e–s–t–a–c–i–o–n–
+40 lend alanine ulicy -> –l–e–n–d–a–l–a–n–i–n–e–u–l–i–c–y–
+41 ass algum gett -> –a–s–s–a–l–g–u–m–g–e–t–t–
+42 esity waits reais -> –e–s–i–t–y–w–a–i–t–s–r–e–a–i–s–
+43 heroku licked aps -> –h–e–r–o–k–u–l–i–c–k–e–d–a–p–s–
+44 jquery deterr underm -> –j–q–u–e–r–y–d–e–t–e–r–r–u–n–d–e–r–m–
+45 eric medi mili -> –e–r–i–c–m–e–d–i–m–i–l–i–
+46 psz thanked third -> –p–s–z–t–h–a–n–k–e–d–t–h–i–r–d–
+47 emar press cortisol -> –e–m–a–r–p–r–e–s–s–c–o–r–t–i–s–o–l–
+48 ritann verloren profit -> –r–i–t–a–n–n–v–e–r–l–o–r–e–n–p–r–o–f–i–t–
+49 imiento namens desej -> –i–m–i–e–n–t–o–n–a–m–e–n–s–d–e–s–e–j–
+50 task factions meille -> –t–a–s–k–f–a–c–t–i–o–n–s–m–e–i–l–l–e–
+51 jdbc fog trama -> –j–d–b–c–f–o–g–t–r–a–m–a–
+52 ibal packaged hakim -> –i–b–a–l–p–a–c–k–a–g–e–d–h–a–k–i–m–
+53 mant life placenta -> –m–a–n–t–l–i–f–e–p–l–a–c–e–n–t–a–
+54 umina ethanol trunk -> –u–m–i–n–a–e–t–h–a–n–o–l–t–r–u–n–k–
+55 biendo ui insomnia -> –b–i–e–n–d–o–u–i–i–n–s–o–m–n–i–a–
+56 chts tumor issue -> –c–h–t–s–t–u–m–o–r–i–s–s–u–e–
+57 ailleurs produits tast -> –a–i–l–l–e–u–r–s–p–r–o–d–u–i–t–s–t–a–s–t–
+58 ortion caballo verwij -> –o–r–t–i–o–n–c–a–b–a–l–l–o–v–e–r–w–i–j–
+59 aterials arv sequence -> –a–t–e–r–i–a–l–s–a–r–v–s–e–q–u–e–n–c–e–
+60 eringen duration seguinte -> –e–r–i–n–g–e–n–d–u–r–a–t–i–o–n–s–e–g–u–i–n–t–e–
+61 leases mumkin loosely -> –l–e–a–s–e–s–m–u–m–k–i–n–l–o–o–s–e–l–y–
+62 thyl garra wisdom -> –t–h–y–l–g–a–r–r–a–w–i–s–d–o–m–
+63 neut widow dvije -> –n–e–u–t–w–i–d–o–w–d–v–i–j–e–
+64 kehrt sep dioc -> –k–e–h–r–t–s–e–p–d–i–o–c–
+65 xel meat accom -> –x–e–l–m–e–a–t–a–c–c–o–m–
+66 overline wins conceal -> –o–v–e–r–l–i–n–e–w–i–n–s–c–o–n–c–e–a–l–
+67 utenant arabe foci -> –u–t–e–n–a–n–t–a–r–a–b–e–f–o–c–i–
+68 ari subordin exile -> –a–r–i–s–u–b–o–r–d–i–n–e–x–i–l–e–
+69 unc rebell rundzie -> –u–n–c–r–e–b–e–l–l–r–u–n–d–z–i–e–
+70 teness retirada envol -> –t–e–n–e–s–s–r–e–t–i–r–a–d–a–e–n–v–o–l–
+71 adan ashore iss -> –a–d–a–n–a–s–h–o–r–e–i–s–s–
+72 utti imena vinden -> –u–t–t–i–i–m–e–n–a–v–i–n–d–e–n–
+73 amilton vern imported -> –a–m–i–l–t–o–n–v–e–r–n–i–m–p–o–r–t–e–d–
+74 ulen fontes moviment -> –u–l–e–n–f–o–n–t–e–s–m–o–v–i–m–e–n–t–
+75 iveness cysts molek -> –i–v–e–n–e–s–s–c–y–s–t–s–m–o–l–e–k–
+76 irected nostro inverse -> –i–r–e–c–t–e–d–n–o–s–t–r–o–i–n–v–e–r–s–e–
+77 haal boats dag -> –h–a–a–l–b–o–a–t–s–d–a–g–
+78 iziert scaled brazos -> –i–z–i–e–r–t–s–c–a–l–e–d–b–r–a–z–o–s–
+79 isesti mord axle -> –i–s–e–s–t–i–m–o–r–d–a–x–l–e–
+80 orsch cheek compose -> –o–r–s–c–h–c–h–e–e–k–c–o–m–p–o–s–e–
+81 asim lover kt -> –a–s–i–m–l–o–v–e–r–k–t–
+82 ointment detto funded -> –o–i–n–t–m–e–n–t–d–e–t–t–o–f–u–n–d–e–d–
+83 ichts bar motivos -> –i–c–h–t–s–b–a–r–m–o–t–i–v–o–s–
+84 quen zna nenhum -> –q–u–e–n–z–n–a–n–e–n–h–u–m–
+85 average chagrin militar -> –a–v–e–r–a–g–e–c–h–a–g–r–i–n–m–i–l–i–t–a–r–
+86 oslav cade encar -> –o–s–l–a–v–c–a–d–e–e–n–c–a–r–
+87 konstru dla runoff -> –k–o–n–s–t–r–u–d–l–a–r–u–n–o–f–f–
+88 kir folgte biasing -> –k–i–r–f–o–l–g–t–e–b–i–a–s–i–n–g–
+89 ceae salva manos -> –c–e–a–e–s–a–l–v–a–m–a–n–o–s–
+90 alities oblique admitted -> –a–l–i–t–i–e–s–o–b–l–i–q–u–e–a–d–m–i–t–t–e–d–
+91 furt pozyc detached -> –f–u–r–t–p–o–z–y–c–d–e–t–a–c–h–e–d–
+92 zeitig hauled fry -> –z–e–i–t–i–g–h–a–u–l–e–d–f–r–y–
+93 earer whether thinks -> –e–a–r–e–r–w–h–e–t–h–e–r–t–h–i–n–k–s–
+94 thouse anchor daerah -> –t–h–o–u–s–e–a–n–c–h–o–r–d–a–e–r–a–h–
+95 rach uterus aiming -> –r–a–c–h–u–t–e–r–u–s–a–i–m–i–n–g–
+96 endish prel ollut -> –e–n–d–i–s–h–p–r–e–l–o–l–l–u–t–
+97 chestre agreg opening -> –c–h–e–s–t–r–e–a–g–r–e–g–o–p–e–n–i–n–g–
+98 ismer fellow half -> –i–s–m–e–r–f–e–l–l–o–w–h–a–l–f–
+99 lower ignorant flutter -> –l–o–w–e–r–i–g–n–o–r–a–n–t–f–l–u–t–t–e–r–

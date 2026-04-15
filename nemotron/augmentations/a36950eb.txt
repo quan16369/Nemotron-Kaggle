@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 ifetime iy docs
+01 seed bala fuck
+02 software jue chairman
+
+This is a sample output.
+00 ifetime iy docs -> –i–f–e–t–i–m–e–i–y–d–o–c–s–
+01 seed bala fuck -> –s–e–e–d–b–a–l–a–f–u–c–k–
+02 software jue chairman -> –s–o–f–t–w–a–r–e–j–u–e–c–h–a–i–r–m–a–n–
+
+This is your input.
+00 iw dalla boyunca
+01 erves inputs kom
+02 ugh etk syst
+03 amaa describe prema
+04 hide dok motores
+05 mpi eri lith
+06 uas degener byte
+07 ellement anglaise mantle
+08 xo saa choix
+09 jen nacional venez
+10 ierter fantast extremo
+11 arman unidades dont
+12 agation nums volna
+13 izabeth uner tienes
+14 fil hardly worsened
+15 ized provider huy
+16 isher godine brazo
+17 keep comprise prakt
+18 izards tries quedando
+19 burgh aparece elimin
+20 sql raster eest
+21 col comando aggress
+22 fly beho ric
+23 pos three soutenir
+24 minton barra menem
+25 gerald ialah qarshi
+26 business det vorgesch
+27 emet gilt cleanup
+28 ilh acuerdo endot
+29 odge empty ins
+30 idone niemand pecho
+31 eta dining wyt
+32 amek bites placebo
+33 ase incomes pamph
+34 bean occur kot
+35 yrinth saks erkennen
+36 ionar appeals andare
+37 entieth setting broni
+38 auch ancien oblige
+39 iset tenue godina
+40 ellikle aquel kemb
+41 ftp settings soort
+42 ataka gewinnt tirs
+43 spin cosidd oeste
+44 kees terreno pozost
+45 uin letting seres
+46 registry capturar masked
+47 awang aged repr
+48 udas dals struct
+49 haw appr recited
+50 pure bad prepar
+51 fu riesgo rosto
+52 we shear suger
+53 fluss sells ander
+54 bergen promoc lifest
+55 vy hither literary
+56 zczy schwar guvern
+57 curl ev semin
+58 isches kojoj ultra
+59 usza esfera villas
+60 iladi primeros raison
+61 ingway retourna pies
+62 bud prin husband
+63 anding multif aves
+64 override chir vicom
+65 anus toga relato
+66 udd fees diretto
+67 eway faux sozial
+68 wahn afdel upt
+69 ousing etc indisc
+70 sep sprayed convol
+71 sect includ abgeb
+72 zze poolt clamped
+73 itete races assure
+74 umbs fet estrel
+75 on green fiber
+76 esture cra records
+77 wire genera use
+78 olaire seiner escorted
+79 izan released combined
+80 aill imposed maps
+81 ometric frost viva
+82 trar irrevers soins
+83 stvo ig doping
+84 menn zmar annually
+85 resource feeling kring
+86 default mely ceramic
+87 opens ninete naval
+88 ensit thinner triang
+89 min fourn insight
+90 rial lato suck
+91 omphe biling colonies
+92 tu lr pir
+93 usehen korte percep
+94 ahawks januari prendre
+95 aley torneio logique
+96 maj ar nilai
+97 gris regress tactic
+98 oard retirar imprison
+99 porte files farmer
+[completion]
+00 iw dalla boyunca -> –i–w–d–a–l–l–a–b–o–y–u–n–c–a–
+01 erves inputs kom -> –e–r–v–e–s–i–n–p–u–t–s–k–o–m–
+02 ugh etk syst -> –u–g–h–e–t–k–s–y–s–t–
+03 amaa describe prema -> –a–m–a–a–d–e–s–c–r–i–b–e–p–r–e–m–a–
+04 hide dok motores -> –h–i–d–e–d–o–k–m–o–t–o–r–e–s–
+05 mpi eri lith -> –m–p–i–e–r–i–l–i–t–h–
+06 uas degener byte -> –u–a–s–d–e–g–e–n–e–r–b–y–t–e–
+07 ellement anglaise mantle -> –e–l–l–e–m–e–n–t–a–n–g–l–a–i–s–e–m–a–n–t–l–e–
+08 xo saa choix -> –x–o–s–a–a–c–h–o–i–x–
+09 jen nacional venez -> –j–e–n–n–a–c–i–o–n–a–l–v–e–n–e–z–
+10 ierter fantast extremo -> –i–e–r–t–e–r–f–a–n–t–a–s–t–e–x–t–r–e–m–o–
+11 arman unidades dont -> –a–r–m–a–n–u–n–i–d–a–d–e–s–d–o–n–t–
+12 agation nums volna -> –a–g–a–t–i–o–n–n–u–m–s–v–o–l–n–a–
+13 izabeth uner tienes -> –i–z–a–b–e–t–h–u–n–e–r–t–i–e–n–e–s–
+14 fil hardly worsened -> –f–i–l–h–a–r–d–l–y–w–o–r–s–e–n–e–d–
+15 ized provider huy -> –i–z–e–d–p–r–o–v–i–d–e–r–h–u–y–
+16 isher godine brazo -> –i–s–h–e–r–g–o–d–i–n–e–b–r–a–z–o–
+17 keep comprise prakt -> –k–e–e–p–c–o–m–p–r–i–s–e–p–r–a–k–t–
+18 izards tries quedando -> –i–z–a–r–d–s–t–r–i–e–s–q–u–e–d–a–n–d–o–
+19 burgh aparece elimin -> –b–u–r–g–h–a–p–a–r–e–c–e–e–l–i–m–i–n–
+20 sql raster eest -> –s–q–l–r–a–s–t–e–r–e–e–s–t–
+21 col comando aggress -> –c–o–l–c–o–m–a–n–d–o–a–g–g–r–e–s–s–
+22 fly beho ric -> –f–l–y–b–e–h–o–r–i–c–
+23 pos three soutenir -> –p–o–s–t–h–r–e–e–s–o–u–t–e–n–i–r–
+24 minton barra menem -> –m–i–n–t–o–n–b–a–r–r–a–m–e–n–e–m–
+25 gerald ialah qarshi -> –g–e–r–a–l–d–i–a–l–a–h–q–a–r–s–h–i–
+26 business det vorgesch -> –b–u–s–i–n–e–s–s–d–e–t–v–o–r–g–e–s–c–h–
+27 emet gilt cleanup -> –e–m–e–t–g–i–l–t–c–l–e–a–n–u–p–
+28 ilh acuerdo endot -> –i–l–h–a–c–u–e–r–d–o–e–n–d–o–t–
+29 odge empty ins -> –o–d–g–e–e–m–p–t–y–i–n–s–
+30 idone niemand pecho -> –i–d–o–n–e–n–i–e–m–a–n–d–p–e–c–h–o–
+31 eta dining wyt -> –e–t–a–d–i–n–i–n–g–w–y–t–
+32 amek bites placebo -> –a–m–e–k–b–i–t–e–s–p–l–a–c–e–b–o–
+33 ase incomes pamph -> –a–s–e–i–n–c–o–m–e–s–p–a–m–p–h–
+34 bean occur kot -> –b–e–a–n–o–c–c–u–r–k–o–t–
+35 yrinth saks erkennen -> –y–r–i–n–t–h–s–a–k–s–e–r–k–e–n–n–e–n–
+36 ionar appeals andare -> –i–o–n–a–r–a–p–p–e–a–l–s–a–n–d–a–r–e–
+37 entieth setting broni -> –e–n–t–i–e–t–h–s–e–t–t–i–n–g–b–r–o–n–i–
+38 auch ancien oblige -> –a–u–c–h–a–n–c–i–e–n–o–b–l–i–g–e–
+39 iset tenue godina -> –i–s–e–t–t–e–n–u–e–g–o–d–i–n–a–
+40 ellikle aquel kemb -> –e–l–l–i–k–l–e–a–q–u–e–l–k–e–m–b–
+41 ftp settings soort -> –f–t–p–s–e–t–t–i–n–g–s–s–o–o–r–t–
+42 ataka gewinnt tirs -> –a–t–a–k–a–g–e–w–i–n–n–t–t–i–r–s–
+43 spin cosidd oeste -> –s–p–i–n–c–o–s–i–d–d–o–e–s–t–e–
+44 kees terreno pozost -> –k–e–e–s–t–e–r–r–e–n–o–p–o–z–o–s–t–
+45 uin letting seres -> –u–i–n–l–e–t–t–i–n–g–s–e–r–e–s–
+46 registry capturar masked -> –r–e–g–i–s–t–r–y–c–a–p–t–u–r–a–r–m–a–s–k–e–d–
+47 awang aged repr -> –a–w–a–n–g–a–g–e–d–r–e–p–r–
+48 udas dals struct -> –u–d–a–s–d–a–l–s–s–t–r–u–c–t–
+49 haw appr recited -> –h–a–w–a–p–p–r–r–e–c–i–t–e–d–
+50 pure bad prepar -> –p–u–r–e–b–a–d–p–r–e–p–a–r–
+51 fu riesgo rosto -> –f–u–r–i–e–s–g–o–r–o–s–t–o–
+52 we shear suger -> –w–e–s–h–e–a–r–s–u–g–e–r–
+53 fluss sells ander -> –f–l–u–s–s–s–e–l–l–s–a–n–d–e–r–
+54 bergen promoc lifest -> –b–e–r–g–e–n–p–r–o–m–o–c–l–i–f–e–s–t–
+55 vy hither literary -> –v–y–h–i–t–h–e–r–l–i–t–e–r–a–r–y–
+56 zczy schwar guvern -> –z–c–z–y–s–c–h–w–a–r–g–u–v–e–r–n–
+57 curl ev semin -> –c–u–r–l–e–v–s–e–m–i–n–
+58 isches kojoj ultra -> –i–s–c–h–e–s–k–o–j–o–j–u–l–t–r–a–
+59 usza esfera villas -> –u–s–z–a–e–s–f–e–r–a–v–i–l–l–a–s–
+60 iladi primeros raison -> –i–l–a–d–i–p–r–i–m–e–r–o–s–r–a–i–s–o–n–
+61 ingway retourna pies -> –i–n–g–w–a–y–r–e–t–o–u–r–n–a–p–i–e–s–
+62 bud prin husband -> –b–u–d–p–r–i–n–h–u–s–b–a–n–d–
+63 anding multif aves -> –a–n–d–i–n–g–m–u–l–t–i–f–a–v–e–s–
+64 override chir vicom -> –o–v–e–r–r–i–d–e–c–h–i–r–v–i–c–o–m–
+65 anus toga relato -> –a–n–u–s–t–o–g–a–r–e–l–a–t–o–
+66 udd fees diretto -> –u–d–d–f–e–e–s–d–i–r–e–t–t–o–
+67 eway faux sozial -> –e–w–a–y–f–a–u–x–s–o–z–i–a–l–
+68 wahn afdel upt -> –w–a–h–n–a–f–d–e–l–u–p–t–
+69 ousing etc indisc -> –o–u–s–i–n–g–e–t–c–i–n–d–i–s–c–
+70 sep sprayed convol -> –s–e–p–s–p–r–a–y–e–d–c–o–n–v–o–l–
+71 sect includ abgeb -> –s–e–c–t–i–n–c–l–u–d–a–b–g–e–b–
+72 zze poolt clamped -> –z–z–e–p–o–o–l–t–c–l–a–m–p–e–d–
+73 itete races assure -> –i–t–e–t–e–r–a–c–e–s–a–s–s–u–r–e–
+74 umbs fet estrel -> –u–m–b–s–f–e–t–e–s–t–r–e–l–
+75 on green fiber -> –o–n–g–r–e–e–n–f–i–b–e–r–
+76 esture cra records -> –e–s–t–u–r–e–c–r–a–r–e–c–o–r–d–s–
+77 wire genera use -> –w–i–r–e–g–e–n–e–r–a–u–s–e–
+78 olaire seiner escorted -> –o–l–a–i–r–e–s–e–i–n–e–r–e–s–c–o–r–t–e–d–
+79 izan released combined -> –i–z–a–n–r–e–l–e–a–s–e–d–c–o–m–b–i–n–e–d–
+80 aill imposed maps -> –a–i–l–l–i–m–p–o–s–e–d–m–a–p–s–
+81 ometric frost viva -> –o–m–e–t–r–i–c–f–r–o–s–t–v–i–v–a–
+82 trar irrevers soins -> –t–r–a–r–i–r–r–e–v–e–r–s–s–o–i–n–s–
+83 stvo ig doping -> –s–t–v–o–i–g–d–o–p–i–n–g–
+84 menn zmar annually -> –m–e–n–n–z–m–a–r–a–n–n–u–a–l–l–y–
+85 resource feeling kring -> –r–e–s–o–u–r–c–e–f–e–e–l–i–n–g–k–r–i–n–g–
+86 default mely ceramic -> –d–e–f–a–u–l–t–m–e–l–y–c–e–r–a–m–i–c–
+87 opens ninete naval -> –o–p–e–n–s–n–i–n–e–t–e–n–a–v–a–l–
+88 ensit thinner triang -> –e–n–s–i–t–t–h–i–n–n–e–r–t–r–i–a–n–g–
+89 min fourn insight -> –m–i–n–f–o–u–r–n–i–n–s–i–g–h–t–
+90 rial lato suck -> –r–i–a–l–l–a–t–o–s–u–c–k–
+91 omphe biling colonies -> –o–m–p–h–e–b–i–l–i–n–g–c–o–l–o–n–i–e–s–
+92 tu lr pir -> –t–u–l–r–p–i–r–
+93 usehen korte percep -> –u–s–e–h–e–n–k–o–r–t–e–p–e–r–c–e–p–
+94 ahawks januari prendre -> –a–h–a–w–k–s–j–a–n–u–a–r–i–p–r–e–n–d–r–e–
+95 aley torneio logique -> –a–l–e–y–t–o–r–n–e–i–o–l–o–g–i–q–u–e–
+96 maj ar nilai -> –m–a–j–a–r–n–i–l–a–i–
+97 gris regress tactic -> –g–r–i–s–r–e–g–r–e–s–s–t–a–c–t–i–c–
+98 oard retirar imprison -> –o–a–r–d–r–e–t–i–r–a–r–i–m–p–r–i–s–o–n–
+99 porte files farmer -> –p–o–r–t–e–f–i–l–e–s–f–a–r–m–e–r–

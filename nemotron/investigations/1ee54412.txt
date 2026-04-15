@@ -1,0 +1,43 @@
+Problem ID: 1ee54412
+Category: equation_numeric_deduce
+
+Examples:
+- 07:33 = 301
+  Reverse the operands: 07 -> 70 and 33 -> 33.
+  Apply the operator: 70 + 33 = 103.
+  Reverse the result digits: 103 -> 301.
+- 58:23 = 711
+  Reverse the operands: 58 -> 85 and 23 -> 32.
+  Apply the operator: 85 + 32 = 117.
+  Reverse the result digits: 117 -> 711.
+- 08:89 = 871
+  Reverse the operands: 08 -> 80 and 89 -> 98.
+  Apply the operator: 80 + 98 = 178.
+  Reverse the result digits: 178 -> 871.
+- 93-13 = 8
+  Reverse the operands: 93 -> 39 and 13 -> 31.
+  Apply the operator: 39 - 31 = 8.
+  Reversing a single digit leaves it unchanged.
+- 56-95 = 6
+  Reverse the operands: 56 -> 65 and 95 -> 59.
+  Apply the operator: 65 - 59 = 6.
+  Reversing a single digit leaves it unchanged.
+
+Inferred rule:
+1. Reverse the digits of both two-digit operands.
+2. Apply the operator to the reversed numbers.
+3. Reverse the digits of the numeric result to get the final output.
+
+From the examples, `:` behaves like addition and `-` behaves like subtraction after the operand reversal.
+
+Step-by-step application to the query:
+- Query: 58-85
+- Reverse the operands: 58 -> 85 and 85 -> 58.
+- Apply subtraction: 85 - 58 = 27.
+- Reverse the result digits: 27 -> 72.
+
+Predicted answer:
+72
+
+Confidence:
+High. All five examples fit this rule exactly, and the query uses the same `-` form shown in the examples.

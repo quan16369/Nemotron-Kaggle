@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 shops portal effets
+01 igon sociaux rocas
+02 alore teaches drunk
+
+This is a sample output.
+00 shops portal effets -> –s–h–o–p–s–p–o–r–t–a–l–e–f–f–e–t–s–
+01 igon sociaux rocas -> –i–g–o–n–s–o–c–i–a–u–x–r–o–c–a–s–
+02 alore teaches drunk -> –a–l–o–r–e–t–e–a–c–h–e–s–d–r–u–n–k–
+
+This is your input.
+00 vel daily cowork
+01 langle curls publ
+02 ereg campos graded
+03 amaz gd zweit
+04 itories terenie imagery
+05 ichtete noting modulo
+06 fm reflect hasard
+07 zogen scra jdbc
+08 ords basins grows
+09 rois efficace coupable
+10 itle drape invol
+11 pr handelt brand
+12 anyi hukum attendu
+13 cs adapting wewn
+14 fragment bombe barrio
+15 cop buying strategy
+16 ambi antiv segundos
+17 lassung uglavnom plug
+18 ponent ruth rues
+19 oom hatten okaz
+20 lastname colle evitare
+21 clama nici hausse
+22 ampion lottery coupl
+23 xima does rares
+24 iret ligament shudder
+25 sheets zav vart
+26 uradora subt fokus
+27 finale deities sq
+28 lerinden qualifiz kulture
+29 cula dug talented
+30 hay along mise
+31 yi desqu memory
+32 avljena permanec koul
+33 umo valign csal
+34 azan probably ili
+35 skills elected donar
+36 ually ath ls
+37 cepte screened glut
+38 ailles unes snacks
+39 present powierz caused
+40 rei nisu conosce
+41 fixed lau eggs
+42 ivo groove sik
+43 teilte kep locate
+44 he prev nebo
+45 bos jednego sauve
+46 yroid sou trug
+47 redi distrust quatre
+48 working disastro timezone
+49 iligen elde evt
+50 isit duas plej
+51 eem transl comercio
+52 embl letto spol
+53 outer hohen illa
+54 nak youtube necesit
+55 rann uniform mitad
+56 udge motors twisted
+57 allow nap major
+58 vidia manual liv
+59 istice dwa integrin
+60 ynamic secure clear
+61 ereco ligi enig
+62 art pounds tid
+63 nable vocation nalazi
+64 idenza argue contest
+65 oyer glomer memories
+66 brig algumas juge
+67 aturing curva fastened
+68 ipse ladies deme
+69 asti tum sez
+70 ecause galerie continua
+71 ikuti encha itiner
+72 tron poor muerte
+73 unch creando nylon
+74 amiento multi sewage
+75 isten indios exploded
+76 cycle rzec ook
+77 kog suit escreveu
+78 agawa mont kust
+79 idir salv support
+80 anje frot kum
+81 rub simbol racional
+82 sek noyau skre
+83 panel alcoh berbagai
+84 uate pregn pumping
+85 ose antique sehingga
+86 ursor endast chord
+87 iedo vierde ky
+88 uris aviones puente
+89 nit academ komand
+90 gorithm achter erection
+91 leked summit captive
+92 ici contain appelle
+93 stu kafka verhind
+94 urier trata decor
+95 htar tp sau
+96 keywords aiut uved
+97 cc perp longe
+98 ificial barrage suomal
+99 occup cep autores
+[completion]
+00 vel daily cowork -> –v–e–l–d–a–i–l–y–c–o–w–o–r–k–
+01 langle curls publ -> –l–a–n–g–l–e–c–u–r–l–s–p–u–b–l–
+02 ereg campos graded -> –e–r–e–g–c–a–m–p–o–s–g–r–a–d–e–d–
+03 amaz gd zweit -> –a–m–a–z–g–d–z–w–e–i–t–
+04 itories terenie imagery -> –i–t–o–r–i–e–s–t–e–r–e–n–i–e–i–m–a–g–e–r–y–
+05 ichtete noting modulo -> –i–c–h–t–e–t–e–n–o–t–i–n–g–m–o–d–u–l–o–
+06 fm reflect hasard -> –f–m–r–e–f–l–e–c–t–h–a–s–a–r–d–
+07 zogen scra jdbc -> –z–o–g–e–n–s–c–r–a–j–d–b–c–
+08 ords basins grows -> –o–r–d–s–b–a–s–i–n–s–g–r–o–w–s–
+09 rois efficace coupable -> –r–o–i–s–e–f–f–i–c–a–c–e–c–o–u–p–a–b–l–e–
+10 itle drape invol -> –i–t–l–e–d–r–a–p–e–i–n–v–o–l–
+11 pr handelt brand -> –p–r–h–a–n–d–e–l–t–b–r–a–n–d–
+12 anyi hukum attendu -> –a–n–y–i–h–u–k–u–m–a–t–t–e–n–d–u–
+13 cs adapting wewn -> –c–s–a–d–a–p–t–i–n–g–w–e–w–n–
+14 fragment bombe barrio -> –f–r–a–g–m–e–n–t–b–o–m–b–e–b–a–r–r–i–o–
+15 cop buying strategy -> –c–o–p–b–u–y–i–n–g–s–t–r–a–t–e–g–y–
+16 ambi antiv segundos -> –a–m–b–i–a–n–t–i–v–s–e–g–u–n–d–o–s–
+17 lassung uglavnom plug -> –l–a–s–s–u–n–g–u–g–l–a–v–n–o–m–p–l–u–g–
+18 ponent ruth rues -> –p–o–n–e–n–t–r–u–t–h–r–u–e–s–
+19 oom hatten okaz -> –o–o–m–h–a–t–t–e–n–o–k–a–z–
+20 lastname colle evitare -> –l–a–s–t–n–a–m–e–c–o–l–l–e–e–v–i–t–a–r–e–
+21 clama nici hausse -> –c–l–a–m–a–n–i–c–i–h–a–u–s–s–e–
+22 ampion lottery coupl -> –a–m–p–i–o–n–l–o–t–t–e–r–y–c–o–u–p–l–
+23 xima does rares -> –x–i–m–a–d–o–e–s–r–a–r–e–s–
+24 iret ligament shudder -> –i–r–e–t–l–i–g–a–m–e–n–t–s–h–u–d–d–e–r–
+25 sheets zav vart -> –s–h–e–e–t–s–z–a–v–v–a–r–t–
+26 uradora subt fokus -> –u–r–a–d–o–r–a–s–u–b–t–f–o–k–u–s–
+27 finale deities sq -> –f–i–n–a–l–e–d–e–i–t–i–e–s–s–q–
+28 lerinden qualifiz kulture -> –l–e–r–i–n–d–e–n–q–u–a–l–i–f–i–z–k–u–l–t–u–r–e–
+29 cula dug talented -> –c–u–l–a–d–u–g–t–a–l–e–n–t–e–d–
+30 hay along mise -> –h–a–y–a–l–o–n–g–m–i–s–e–
+31 yi desqu memory -> –y–i–d–e–s–q–u–m–e–m–o–r–y–
+32 avljena permanec koul -> –a–v–l–j–e–n–a–p–e–r–m–a–n–e–c–k–o–u–l–
+33 umo valign csal -> –u–m–o–v–a–l–i–g–n–c–s–a–l–
+34 azan probably ili -> –a–z–a–n–p–r–o–b–a–b–l–y–i–l–i–
+35 skills elected donar -> –s–k–i–l–l–s–e–l–e–c–t–e–d–d–o–n–a–r–
+36 ually ath ls -> –u–a–l–l–y–a–t–h–l–s–
+37 cepte screened glut -> –c–e–p–t–e–s–c–r–e–e–n–e–d–g–l–u–t–
+38 ailles unes snacks -> –a–i–l–l–e–s–u–n–e–s–s–n–a–c–k–s–
+39 present powierz caused -> –p–r–e–s–e–n–t–p–o–w–i–e–r–z–c–a–u–s–e–d–
+40 rei nisu conosce -> –r–e–i–n–i–s–u–c–o–n–o–s–c–e–
+41 fixed lau eggs -> –f–i–x–e–d–l–a–u–e–g–g–s–
+42 ivo groove sik -> –i–v–o–g–r–o–o–v–e–s–i–k–
+43 teilte kep locate -> –t–e–i–l–t–e–k–e–p–l–o–c–a–t–e–
+44 he prev nebo -> –h–e–p–r–e–v–n–e–b–o–
+45 bos jednego sauve -> –b–o–s–j–e–d–n–e–g–o–s–a–u–v–e–
+46 yroid sou trug -> –y–r–o–i–d–s–o–u–t–r–u–g–
+47 redi distrust quatre -> –r–e–d–i–d–i–s–t–r–u–s–t–q–u–a–t–r–e–
+48 working disastro timezone -> –w–o–r–k–i–n–g–d–i–s–a–s–t–r–o–t–i–m–e–z–o–n–e–
+49 iligen elde evt -> –i–l–i–g–e–n–e–l–d–e–e–v–t–
+50 isit duas plej -> –i–s–i–t–d–u–a–s–p–l–e–j–
+51 eem transl comercio -> –e–e–m–t–r–a–n–s–l–c–o–m–e–r–c–i–o–
+52 embl letto spol -> –e–m–b–l–l–e–t–t–o–s–p–o–l–
+53 outer hohen illa -> –o–u–t–e–r–h–o–h–e–n–i–l–l–a–
+54 nak youtube necesit -> –n–a–k–y–o–u–t–u–b–e–n–e–c–e–s–i–t–
+55 rann uniform mitad -> –r–a–n–n–u–n–i–f–o–r–m–m–i–t–a–d–
+56 udge motors twisted -> –u–d–g–e–m–o–t–o–r–s–t–w–i–s–t–e–d–
+57 allow nap major -> –a–l–l–o–w–n–a–p–m–a–j–o–r–
+58 vidia manual liv -> –v–i–d–i–a–m–a–n–u–a–l–l–i–v–
+59 istice dwa integrin -> –i–s–t–i–c–e–d–w–a–i–n–t–e–g–r–i–n–
+60 ynamic secure clear -> –y–n–a–m–i–c–s–e–c–u–r–e–c–l–e–a–r–
+61 ereco ligi enig -> –e–r–e–c–o–l–i–g–i–e–n–i–g–
+62 art pounds tid -> –a–r–t–p–o–u–n–d–s–t–i–d–
+63 nable vocation nalazi -> –n–a–b–l–e–v–o–c–a–t–i–o–n–n–a–l–a–z–i–
+64 idenza argue contest -> –i–d–e–n–z–a–a–r–g–u–e–c–o–n–t–e–s–t–
+65 oyer glomer memories -> –o–y–e–r–g–l–o–m–e–r–m–e–m–o–r–i–e–s–
+66 brig algumas juge -> –b–r–i–g–a–l–g–u–m–a–s–j–u–g–e–
+67 aturing curva fastened -> –a–t–u–r–i–n–g–c–u–r–v–a–f–a–s–t–e–n–e–d–
+68 ipse ladies deme -> –i–p–s–e–l–a–d–i–e–s–d–e–m–e–
+69 asti tum sez -> –a–s–t–i–t–u–m–s–e–z–
+70 ecause galerie continua -> –e–c–a–u–s–e–g–a–l–e–r–i–e–c–o–n–t–i–n–u–a–
+71 ikuti encha itiner -> –i–k–u–t–i–e–n–c–h–a–i–t–i–n–e–r–
+72 tron poor muerte -> –t–r–o–n–p–o–o–r–m–u–e–r–t–e–
+73 unch creando nylon -> –u–n–c–h–c–r–e–a–n–d–o–n–y–l–o–n–
+74 amiento multi sewage -> –a–m–i–e–n–t–o–m–u–l–t–i–s–e–w–a–g–e–
+75 isten indios exploded -> –i–s–t–e–n–i–n–d–i–o–s–e–x–p–l–o–d–e–d–
+76 cycle rzec ook -> –c–y–c–l–e–r–z–e–c–o–o–k–
+77 kog suit escreveu -> –k–o–g–s–u–i–t–e–s–c–r–e–v–e–u–
+78 agawa mont kust -> –a–g–a–w–a–m–o–n–t–k–u–s–t–
+79 idir salv support -> –i–d–i–r–s–a–l–v–s–u–p–p–o–r–t–
+80 anje frot kum -> –a–n–j–e–f–r–o–t–k–u–m–
+81 rub simbol racional -> –r–u–b–s–i–m–b–o–l–r–a–c–i–o–n–a–l–
+82 sek noyau skre -> –s–e–k–n–o–y–a–u–s–k–r–e–
+83 panel alcoh berbagai -> –p–a–n–e–l–a–l–c–o–h–b–e–r–b–a–g–a–i–
+84 uate pregn pumping -> –u–a–t–e–p–r–e–g–n–p–u–m–p–i–n–g–
+85 ose antique sehingga -> –o–s–e–a–n–t–i–q–u–e–s–e–h–i–n–g–g–a–
+86 ursor endast chord -> –u–r–s–o–r–e–n–d–a–s–t–c–h–o–r–d–
+87 iedo vierde ky -> –i–e–d–o–v–i–e–r–d–e–k–y–
+88 uris aviones puente -> –u–r–i–s–a–v–i–o–n–e–s–p–u–e–n–t–e–
+89 nit academ komand -> –n–i–t–a–c–a–d–e–m–k–o–m–a–n–d–
+90 gorithm achter erection -> –g–o–r–i–t–h–m–a–c–h–t–e–r–e–r–e–c–t–i–o–n–
+91 leked summit captive -> –l–e–k–e–d–s–u–m–m–i–t–c–a–p–t–i–v–e–
+92 ici contain appelle -> –i–c–i–c–o–n–t–a–i–n–a–p–p–e–l–l–e–
+93 stu kafka verhind -> –s–t–u–k–a–f–k–a–v–e–r–h–i–n–d–
+94 urier trata decor -> –u–r–i–e–r–t–r–a–t–a–d–e–c–o–r–
+95 htar tp sau -> –h–t–a–r–t–p–s–a–u–
+96 keywords aiut uved -> –k–e–y–w–o–r–d–s–a–i–u–t–u–v–e–d–
+97 cc perp longe -> –c–c–p–e–r–p–l–o–n–g–e–
+98 ificial barrage suomal -> –i–f–i–c–i–a–l–b–a–r–r–a–g–e–s–u–o–m–a–l–
+99 occup cep autores -> –o–c–c–u–p–c–e–p–a–u–t–o–r–e–s–

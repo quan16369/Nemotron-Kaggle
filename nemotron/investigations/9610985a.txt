@@ -1,0 +1,27 @@
+Problem ID: 9610985a
+Category: equation_numeric_deduce
+
+Examples:
+- 36)18 = 648
+- 14-49 = -35
+- 88-72 = -16
+
+Inferred rule:
+- Different symbols represent different operations. The query uses `-`, so the `)` example is not needed for the query rule.
+- For `ab-cd`, compute the absolute difference between the two ordinary two-digit numbers, then place a minus sign in front of that magnitude.
+- In compact form: `ab-cd -> -|ab - cd|`.
+- Checks:
+- `14-49`: `|14 - 49| = 35`, so the output is `-35`.
+- `88-72`: `|88 - 72| = 16`, so the output is `-16`.
+
+Step-by-step application to the query:
+- Query: `64-42`
+- Treat `64` and `42` as ordinary numbers.
+- Compute the absolute difference: `|64 - 42| = 22`.
+- Apply the rule's leading minus sign: `-22`.
+
+Predicted answer:
+- -22
+
+Confidence note:
+- High. Both `-` examples fit the same rule exactly, and the second one shows the output stays negative even when the left number is larger.

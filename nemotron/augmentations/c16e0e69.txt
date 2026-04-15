@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 usters sant menc
+01 yu excuses sommige
+02 zust draws powder
+
+This is a sample output.
+00 usters sant menc -> –u–s–t–e–r–s–s–a–n–t–m–e–n–c–
+01 yu excuses sommige -> –y–u–e–x–c–u–s–e–s–s–o–m–m–i–g–e–
+02 zust draws powder -> –z–u–s–t–d–r–a–w–s–p–o–w–d–e–r–
+
+This is your input.
+00 eler chev souris
+01 llib py injected
+02 rone ignoring washing
+03 ization sicher unp
+04 anal basado sarcoma
+05 texttt steam dasar
+06 clos ayant teve
+07 entes pertes greet
+08 upan posteri chamou
+09 agy chat balle
+10 etter tect stads
+11 avao aneurys nouvel
+12 current starts peces
+13 dop affaire vorbei
+14 ving hip solem
+15 onu purs revive
+16 arikat histone nerves
+17 ammed extended berth
+18 oks llena irre
+19 ologic campaign emerges
+20 ti kore kiem
+21 roma rolling uden
+22 ichia recess detail
+23 icin sampai nuages
+24 ighbor gardien cantidad
+25 constit soms ters
+26 ibo plants tons
+27 usters chied epitopes
+28 store cathol seb
+29 bro beweg loads
+30 ighet attempts victoria
+31 osabb impulse jardins
+32 andus improves destruir
+33 tes filament blah
+34 atten pous accro
+35 iket mundo refer
+36 path invest rare
+37 autta posisi hid
+38 opi safe izved
+39 raumatic celle flotte
+40 sequence choc prere
+41 gle immort eti
+42 englad cx esposa
+43 andom gang response
+44 nienie debit hielten
+45 ibel marvel shadow
+46 esseur dll overhe
+47 lug nicely soixante
+48 atsapp alumina perplex
+49 antage zuvor onwards
+50 iada hecho selatan
+51 cr write alpha
+52 alls mission bedroom
+53 getragen woven hin
+54 vid liable sinus
+55 yskyt sortie bronce
+56 culos lourd sytu
+57 zyc change menu
+58 urse clipped roc
+59 fade alum qilgan
+60 uvo melanoma conjunt
+61 alib daude alfab
+62 aguay silica guer
+63 acij ozn crafts
+64 naden peny mag
+65 elon ordre cadrul
+66 sign hun belief
+67 undai ligand utiliser
+68 gara kid hare
+69 arios calc openness
+70 orspronk pesar exons
+71 malar strcpy diven
+72 so zut quienes
+73 igd aprend fede
+74 umeurs antiga mano
+75 try marg fek
+76 ivanje realiza clase
+77 pta yearly rodent
+78 orse politic mangan
+79 aqu vins dames
+80 itoral czyli mening
+81 adion turnout ofensiva
+82 yendo sistemas spos
+83 usele langage zogen
+84 urne breiten province
+85 erte appeler richesse
+86 jac crystals ovog
+87 ivision maisons occhi
+88 branch bort linhas
+89 logos roots sis
+90 okies mailing premier
+91 aud extrema li
+92 actly unsur salari
+93 ixas besa happy
+94 oureuse zug hindi
+95 ului ngay blinking
+96 attered tedious geeft
+97 cue exc engels
+98 ping antic vous
+99 fact cuidado inscrits
+[completion]
+00 eler chev souris -> –e–l–e–r–c–h–e–v–s–o–u–r–i–s–
+01 llib py injected -> –l–l–i–b–p–y–i–n–j–e–c–t–e–d–
+02 rone ignoring washing -> –r–o–n–e–i–g–n–o–r–i–n–g–w–a–s–h–i–n–g–
+03 ization sicher unp -> –i–z–a–t–i–o–n–s–i–c–h–e–r–u–n–p–
+04 anal basado sarcoma -> –a–n–a–l–b–a–s–a–d–o–s–a–r–c–o–m–a–
+05 texttt steam dasar -> –t–e–x–t–t–t–s–t–e–a–m–d–a–s–a–r–
+06 clos ayant teve -> –c–l–o–s–a–y–a–n–t–t–e–v–e–
+07 entes pertes greet -> –e–n–t–e–s–p–e–r–t–e–s–g–r–e–e–t–
+08 upan posteri chamou -> –u–p–a–n–p–o–s–t–e–r–i–c–h–a–m–o–u–
+09 agy chat balle -> –a–g–y–c–h–a–t–b–a–l–l–e–
+10 etter tect stads -> –e–t–t–e–r–t–e–c–t–s–t–a–d–s–
+11 avao aneurys nouvel -> –a–v–a–o–a–n–e–u–r–y–s–n–o–u–v–e–l–
+12 current starts peces -> –c–u–r–r–e–n–t–s–t–a–r–t–s–p–e–c–e–s–
+13 dop affaire vorbei -> –d–o–p–a–f–f–a–i–r–e–v–o–r–b–e–i–
+14 ving hip solem -> –v–i–n–g–h–i–p–s–o–l–e–m–
+15 onu purs revive -> –o–n–u–p–u–r–s–r–e–v–i–v–e–
+16 arikat histone nerves -> –a–r–i–k–a–t–h–i–s–t–o–n–e–n–e–r–v–e–s–
+17 ammed extended berth -> –a–m–m–e–d–e–x–t–e–n–d–e–d–b–e–r–t–h–
+18 oks llena irre -> –o–k–s–l–l–e–n–a–i–r–r–e–
+19 ologic campaign emerges -> –o–l–o–g–i–c–c–a–m–p–a–i–g–n–e–m–e–r–g–e–s–
+20 ti kore kiem -> –t–i–k–o–r–e–k–i–e–m–
+21 roma rolling uden -> –r–o–m–a–r–o–l–l–i–n–g–u–d–e–n–
+22 ichia recess detail -> –i–c–h–i–a–r–e–c–e–s–s–d–e–t–a–i–l–
+23 icin sampai nuages -> –i–c–i–n–s–a–m–p–a–i–n–u–a–g–e–s–
+24 ighbor gardien cantidad -> –i–g–h–b–o–r–g–a–r–d–i–e–n–c–a–n–t–i–d–a–d–
+25 constit soms ters -> –c–o–n–s–t–i–t–s–o–m–s–t–e–r–s–
+26 ibo plants tons -> –i–b–o–p–l–a–n–t–s–t–o–n–s–
+27 usters chied epitopes -> –u–s–t–e–r–s–c–h–i–e–d–e–p–i–t–o–p–e–s–
+28 store cathol seb -> –s–t–o–r–e–c–a–t–h–o–l–s–e–b–
+29 bro beweg loads -> –b–r–o–b–e–w–e–g–l–o–a–d–s–
+30 ighet attempts victoria -> –i–g–h–e–t–a–t–t–e–m–p–t–s–v–i–c–t–o–r–i–a–
+31 osabb impulse jardins -> –o–s–a–b–b–i–m–p–u–l–s–e–j–a–r–d–i–n–s–
+32 andus improves destruir -> –a–n–d–u–s–i–m–p–r–o–v–e–s–d–e–s–t–r–u–i–r–
+33 tes filament blah -> –t–e–s–f–i–l–a–m–e–n–t–b–l–a–h–
+34 atten pous accro -> –a–t–t–e–n–p–o–u–s–a–c–c–r–o–
+35 iket mundo refer -> –i–k–e–t–m–u–n–d–o–r–e–f–e–r–
+36 path invest rare -> –p–a–t–h–i–n–v–e–s–t–r–a–r–e–
+37 autta posisi hid -> –a–u–t–t–a–p–o–s–i–s–i–h–i–d–
+38 opi safe izved -> –o–p–i–s–a–f–e–i–z–v–e–d–
+39 raumatic celle flotte -> –r–a–u–m–a–t–i–c–c–e–l–l–e–f–l–o–t–t–e–
+40 sequence choc prere -> –s–e–q–u–e–n–c–e–c–h–o–c–p–r–e–r–e–
+41 gle immort eti -> –g–l–e–i–m–m–o–r–t–e–t–i–
+42 englad cx esposa -> –e–n–g–l–a–d–c–x–e–s–p–o–s–a–
+43 andom gang response -> –a–n–d–o–m–g–a–n–g–r–e–s–p–o–n–s–e–
+44 nienie debit hielten -> –n–i–e–n–i–e–d–e–b–i–t–h–i–e–l–t–e–n–
+45 ibel marvel shadow -> –i–b–e–l–m–a–r–v–e–l–s–h–a–d–o–w–
+46 esseur dll overhe -> –e–s–s–e–u–r–d–l–l–o–v–e–r–h–e–
+47 lug nicely soixante -> –l–u–g–n–i–c–e–l–y–s–o–i–x–a–n–t–e–
+48 atsapp alumina perplex -> –a–t–s–a–p–p–a–l–u–m–i–n–a–p–e–r–p–l–e–x–
+49 antage zuvor onwards -> –a–n–t–a–g–e–z–u–v–o–r–o–n–w–a–r–d–s–
+50 iada hecho selatan -> –i–a–d–a–h–e–c–h–o–s–e–l–a–t–a–n–
+51 cr write alpha -> –c–r–w–r–i–t–e–a–l–p–h–a–
+52 alls mission bedroom -> –a–l–l–s–m–i–s–s–i–o–n–b–e–d–r–o–o–m–
+53 getragen woven hin -> –g–e–t–r–a–g–e–n–w–o–v–e–n–h–i–n–
+54 vid liable sinus -> –v–i–d–l–i–a–b–l–e–s–i–n–u–s–
+55 yskyt sortie bronce -> –y–s–k–y–t–s–o–r–t–i–e–b–r–o–n–c–e–
+56 culos lourd sytu -> –c–u–l–o–s–l–o–u–r–d–s–y–t–u–
+57 zyc change menu -> –z–y–c–c–h–a–n–g–e–m–e–n–u–
+58 urse clipped roc -> –u–r–s–e–c–l–i–p–p–e–d–r–o–c–
+59 fade alum qilgan -> –f–a–d–e–a–l–u–m–q–i–l–g–a–n–
+60 uvo melanoma conjunt -> –u–v–o–m–e–l–a–n–o–m–a–c–o–n–j–u–n–t–
+61 alib daude alfab -> –a–l–i–b–d–a–u–d–e–a–l–f–a–b–
+62 aguay silica guer -> –a–g–u–a–y–s–i–l–i–c–a–g–u–e–r–
+63 acij ozn crafts -> –a–c–i–j–o–z–n–c–r–a–f–t–s–
+64 naden peny mag -> –n–a–d–e–n–p–e–n–y–m–a–g–
+65 elon ordre cadrul -> –e–l–o–n–o–r–d–r–e–c–a–d–r–u–l–
+66 sign hun belief -> –s–i–g–n–h–u–n–b–e–l–i–e–f–
+67 undai ligand utiliser -> –u–n–d–a–i–l–i–g–a–n–d–u–t–i–l–i–s–e–r–
+68 gara kid hare -> –g–a–r–a–k–i–d–h–a–r–e–
+69 arios calc openness -> –a–r–i–o–s–c–a–l–c–o–p–e–n–n–e–s–s–
+70 orspronk pesar exons -> –o–r–s–p–r–o–n–k–p–e–s–a–r–e–x–o–n–s–
+71 malar strcpy diven -> –m–a–l–a–r–s–t–r–c–p–y–d–i–v–e–n–
+72 so zut quienes -> –s–o–z–u–t–q–u–i–e–n–e–s–
+73 igd aprend fede -> –i–g–d–a–p–r–e–n–d–f–e–d–e–
+74 umeurs antiga mano -> –u–m–e–u–r–s–a–n–t–i–g–a–m–a–n–o–
+75 try marg fek -> –t–r–y–m–a–r–g–f–e–k–
+76 ivanje realiza clase -> –i–v–a–n–j–e–r–e–a–l–i–z–a–c–l–a–s–e–
+77 pta yearly rodent -> –p–t–a–y–e–a–r–l–y–r–o–d–e–n–t–
+78 orse politic mangan -> –o–r–s–e–p–o–l–i–t–i–c–m–a–n–g–a–n–
+79 aqu vins dames -> –a–q–u–v–i–n–s–d–a–m–e–s–
+80 itoral czyli mening -> –i–t–o–r–a–l–c–z–y–l–i–m–e–n–i–n–g–
+81 adion turnout ofensiva -> –a–d–i–o–n–t–u–r–n–o–u–t–o–f–e–n–s–i–v–a–
+82 yendo sistemas spos -> –y–e–n–d–o–s–i–s–t–e–m–a–s–s–p–o–s–
+83 usele langage zogen -> –u–s–e–l–e–l–a–n–g–a–g–e–z–o–g–e–n–
+84 urne breiten province -> –u–r–n–e–b–r–e–i–t–e–n–p–r–o–v–i–n–c–e–
+85 erte appeler richesse -> –e–r–t–e–a–p–p–e–l–e–r–r–i–c–h–e–s–s–e–
+86 jac crystals ovog -> –j–a–c–c–r–y–s–t–a–l–s–o–v–o–g–
+87 ivision maisons occhi -> –i–v–i–s–i–o–n–m–a–i–s–o–n–s–o–c–c–h–i–
+88 branch bort linhas -> –b–r–a–n–c–h–b–o–r–t–l–i–n–h–a–s–
+89 logos roots sis -> –l–o–g–o–s–r–o–o–t–s–s–i–s–
+90 okies mailing premier -> –o–k–i–e–s–m–a–i–l–i–n–g–p–r–e–m–i–e–r–
+91 aud extrema li -> –a–u–d–e–x–t–r–e–m–a–l–i–
+92 actly unsur salari -> –a–c–t–l–y–u–n–s–u–r–s–a–l–a–r–i–
+93 ixas besa happy -> –i–x–a–s–b–e–s–a–h–a–p–p–y–
+94 oureuse zug hindi -> –o–u–r–e–u–s–e–z–u–g–h–i–n–d–i–
+95 ului ngay blinking -> –u–l–u–i–n–g–a–y–b–l–i–n–k–i–n–g–
+96 attered tedious geeft -> –a–t–t–e–r–e–d–t–e–d–i–o–u–s–g–e–e–f–t–
+97 cue exc engels -> –c–u–e–e–x–c–e–n–g–e–l–s–
+98 ping antic vous -> –p–i–n–g–a–n–t–i–c–v–o–u–s–
+99 fact cuidado inscrits -> –f–a–c–t–c–u–i–d–a–d–o–i–n–s–c–r–i–t–s–

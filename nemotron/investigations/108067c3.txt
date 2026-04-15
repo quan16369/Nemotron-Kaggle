@@ -1,0 +1,30 @@
+problem id: 108067c3
+category: cryptarithm_deduce
+
+symbol-to-digit mapping:
+  '$' = 1
+  "'" = 7
+  ')' = 8
+  ':' = 0
+  '<' = 6
+  '@' = 9
+  '[' = 4
+  '\\' = 3
+  '`' = 5
+  '{' = 2
+
+operator-to-operation mapping:
+  '#' = mul
+  ']' = abs_diff
+  '|' = add
+
+examples:
+  <\|[$ = $:[  =>  63 + 41 = 104
+  \)#$' = <[<  =>  38 * 17 = 646
+  {'#{` = <'`  =>  27 * 25 = 675
+  {)#`) = $<{[  =>  28 * 58 = 1624
+  $\]@@ = )<  =>  |13 - 99| = 86
+
+query: ['|<)  =>  47 + 68 = 115
+
+predicted answer: $$`

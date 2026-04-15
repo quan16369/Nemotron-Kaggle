@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 forming cada aston
+01 obj emit dirigida
+02 esp largely wave
+
+This is a sample output.
+00 forming cada aston -> –f–o–r–m–i–n–g–c–a–d–a–a–s–t–o–n–
+01 obj emit dirigida -> –o–b–j–e–m–i–t–d–i–r–i–g–i–d–a–
+02 esp largely wave -> –e–s–p–l–a–r–g–e–l–y–w–a–v–e–
+
+This is your input.
+00 ringen noire racon
+01 triangle albumu obesity
+02 nee pak atraves
+03 irono monitor secretly
+04 dots raffigur vit
+05 meid discs sommeil
+06 tpl pessoal genes
+07 ances kwargs irak
+08 setzen airs drawn
+09 udp inver cancel
+10 rage lin lanes
+11 oten indices artigo
+12 nec shaken abaste
+13 igt ases affair
+14 abler seva souviens
+15 array costly agg
+16 spark erzeugt maga
+17 ondheim infra carros
+18 lider ferrov sociais
+19 cd tud grave
+20 roscopic occident houden
+21 uca arbe vigil
+22 nur slopes emitter
+23 trat carbonyl islas
+24 ego faccia flera
+25 xff desenc pregnant
+26 olly pobres unknown
+27 abels libert lehet
+28 klad appreci nab
+29 emente confirma yourself
+30 ledes percent sto
+31 urls chimeric schlim
+32 uerre holy adipis
+33 arbe league dauerte
+34 te adip hated
+35 dde gebaut filial
+36 bli uv vahel
+37 ures koko spett
+38 vast senses duda
+39 rept inclus mysql
+40 osof provient estreou
+41 tel nauf los
+42 uloj cervical goth
+43 ilgan pans disreg
+44 reden pasar besser
+45 ovalent podido purity
+46 cession przem instal
+47 ajara fall produces
+48 assadeur gross mutated
+49 ipy sorozat alike
+50 otechn oedd reappe
+51 say veulent taught
+52 rowave graphene markedly
+53 vars loyal const
+54 iere noto firme
+55 incy tira alleles
+56 enciar severity gitt
+57 ondon mittler address
+58 ahlen mestre turtle
+59 antung encant holand
+60 etin incluy progeny
+61 pard parola vacu
+62 abon dritte monarca
+63 ckiego hine concurs
+64 lle snel interior
+65 chaft defaults viagem
+66 ployment summon toys
+67 boxes raggiung stod
+68 ujo voz aimer
+69 yyy traces outer
+70 zoa inne glasses
+71 enzyme exch thir
+72 itek instituc census
+73 uaire supplied precum
+74 pruch semula tribes
+75 oldo mixte soltanto
+76 jans upset semplic
+77 ethel excret ytter
+78 brecht risp sais
+79 olle trol verkla
+80 ktop margin armo
+81 ierungs bulegoa kuid
+82 udy thuy ocasi
+83 aturik viaj urine
+84 unge hlad sj
+85 duit ruler narrower
+86 ista difesa rookie
+87 toile strap partidos
+88 ded cages crafted
+89 inald energet dou
+90 irestore csrf ships
+91 ricted critic direito
+92 liefer spolu abbre
+93 hov unbek grasp
+94 lambda mereka youths
+95 urname cards mult
+96 olate lenn turnover
+97 hely liitt changed
+98 ewis igelts visual
+99 lbum tumors lng
+[completion]
+00 ringen noire racon -> –r–i–n–g–e–n–n–o–i–r–e–r–a–c–o–n–
+01 triangle albumu obesity -> –t–r–i–a–n–g–l–e–a–l–b–u–m–u–o–b–e–s–i–t–y–
+02 nee pak atraves -> –n–e–e–p–a–k–a–t–r–a–v–e–s–
+03 irono monitor secretly -> –i–r–o–n–o–m–o–n–i–t–o–r–s–e–c–r–e–t–l–y–
+04 dots raffigur vit -> –d–o–t–s–r–a–f–f–i–g–u–r–v–i–t–
+05 meid discs sommeil -> –m–e–i–d–d–i–s–c–s–s–o–m–m–e–i–l–
+06 tpl pessoal genes -> –t–p–l–p–e–s–s–o–a–l–g–e–n–e–s–
+07 ances kwargs irak -> –a–n–c–e–s–k–w–a–r–g–s–i–r–a–k–
+08 setzen airs drawn -> –s–e–t–z–e–n–a–i–r–s–d–r–a–w–n–
+09 udp inver cancel -> –u–d–p–i–n–v–e–r–c–a–n–c–e–l–
+10 rage lin lanes -> –r–a–g–e–l–i–n–l–a–n–e–s–
+11 oten indices artigo -> –o–t–e–n–i–n–d–i–c–e–s–a–r–t–i–g–o–
+12 nec shaken abaste -> –n–e–c–s–h–a–k–e–n–a–b–a–s–t–e–
+13 igt ases affair -> –i–g–t–a–s–e–s–a–f–f–a–i–r–
+14 abler seva souviens -> –a–b–l–e–r–s–e–v–a–s–o–u–v–i–e–n–s–
+15 array costly agg -> –a–r–r–a–y–c–o–s–t–l–y–a–g–g–
+16 spark erzeugt maga -> –s–p–a–r–k–e–r–z–e–u–g–t–m–a–g–a–
+17 ondheim infra carros -> –o–n–d–h–e–i–m–i–n–f–r–a–c–a–r–r–o–s–
+18 lider ferrov sociais -> –l–i–d–e–r–f–e–r–r–o–v–s–o–c–i–a–i–s–
+19 cd tud grave -> –c–d–t–u–d–g–r–a–v–e–
+20 roscopic occident houden -> –r–o–s–c–o–p–i–c–o–c–c–i–d–e–n–t–h–o–u–d–e–n–
+21 uca arbe vigil -> –u–c–a–a–r–b–e–v–i–g–i–l–
+22 nur slopes emitter -> –n–u–r–s–l–o–p–e–s–e–m–i–t–t–e–r–
+23 trat carbonyl islas -> –t–r–a–t–c–a–r–b–o–n–y–l–i–s–l–a–s–
+24 ego faccia flera -> –e–g–o–f–a–c–c–i–a–f–l–e–r–a–
+25 xff desenc pregnant -> –x–f–f–d–e–s–e–n–c–p–r–e–g–n–a–n–t–
+26 olly pobres unknown -> –o–l–l–y–p–o–b–r–e–s–u–n–k–n–o–w–n–
+27 abels libert lehet -> –a–b–e–l–s–l–i–b–e–r–t–l–e–h–e–t–
+28 klad appreci nab -> –k–l–a–d–a–p–p–r–e–c–i–n–a–b–
+29 emente confirma yourself -> –e–m–e–n–t–e–c–o–n–f–i–r–m–a–y–o–u–r–s–e–l–f–
+30 ledes percent sto -> –l–e–d–e–s–p–e–r–c–e–n–t–s–t–o–
+31 urls chimeric schlim -> –u–r–l–s–c–h–i–m–e–r–i–c–s–c–h–l–i–m–
+32 uerre holy adipis -> –u–e–r–r–e–h–o–l–y–a–d–i–p–i–s–
+33 arbe league dauerte -> –a–r–b–e–l–e–a–g–u–e–d–a–u–e–r–t–e–
+34 te adip hated -> –t–e–a–d–i–p–h–a–t–e–d–
+35 dde gebaut filial -> –d–d–e–g–e–b–a–u–t–f–i–l–i–a–l–
+36 bli uv vahel -> –b–l–i–u–v–v–a–h–e–l–
+37 ures koko spett -> –u–r–e–s–k–o–k–o–s–p–e–t–t–
+38 vast senses duda -> –v–a–s–t–s–e–n–s–e–s–d–u–d–a–
+39 rept inclus mysql -> –r–e–p–t–i–n–c–l–u–s–m–y–s–q–l–
+40 osof provient estreou -> –o–s–o–f–p–r–o–v–i–e–n–t–e–s–t–r–e–o–u–
+41 tel nauf los -> –t–e–l–n–a–u–f–l–o–s–
+42 uloj cervical goth -> –u–l–o–j–c–e–r–v–i–c–a–l–g–o–t–h–
+43 ilgan pans disreg -> –i–l–g–a–n–p–a–n–s–d–i–s–r–e–g–
+44 reden pasar besser -> –r–e–d–e–n–p–a–s–a–r–b–e–s–s–e–r–
+45 ovalent podido purity -> –o–v–a–l–e–n–t–p–o–d–i–d–o–p–u–r–i–t–y–
+46 cession przem instal -> –c–e–s–s–i–o–n–p–r–z–e–m–i–n–s–t–a–l–
+47 ajara fall produces -> –a–j–a–r–a–f–a–l–l–p–r–o–d–u–c–e–s–
+48 assadeur gross mutated -> –a–s–s–a–d–e–u–r–g–r–o–s–s–m–u–t–a–t–e–d–
+49 ipy sorozat alike -> –i–p–y–s–o–r–o–z–a–t–a–l–i–k–e–
+50 otechn oedd reappe -> –o–t–e–c–h–n–o–e–d–d–r–e–a–p–p–e–
+51 say veulent taught -> –s–a–y–v–e–u–l–e–n–t–t–a–u–g–h–t–
+52 rowave graphene markedly -> –r–o–w–a–v–e–g–r–a–p–h–e–n–e–m–a–r–k–e–d–l–y–
+53 vars loyal const -> –v–a–r–s–l–o–y–a–l–c–o–n–s–t–
+54 iere noto firme -> –i–e–r–e–n–o–t–o–f–i–r–m–e–
+55 incy tira alleles -> –i–n–c–y–t–i–r–a–a–l–l–e–l–e–s–
+56 enciar severity gitt -> –e–n–c–i–a–r–s–e–v–e–r–i–t–y–g–i–t–t–
+57 ondon mittler address -> –o–n–d–o–n–m–i–t–t–l–e–r–a–d–d–r–e–s–s–
+58 ahlen mestre turtle -> –a–h–l–e–n–m–e–s–t–r–e–t–u–r–t–l–e–
+59 antung encant holand -> –a–n–t–u–n–g–e–n–c–a–n–t–h–o–l–a–n–d–
+60 etin incluy progeny -> –e–t–i–n–i–n–c–l–u–y–p–r–o–g–e–n–y–
+61 pard parola vacu -> –p–a–r–d–p–a–r–o–l–a–v–a–c–u–
+62 abon dritte monarca -> –a–b–o–n–d–r–i–t–t–e–m–o–n–a–r–c–a–
+63 ckiego hine concurs -> –c–k–i–e–g–o–h–i–n–e–c–o–n–c–u–r–s–
+64 lle snel interior -> –l–l–e–s–n–e–l–i–n–t–e–r–i–o–r–
+65 chaft defaults viagem -> –c–h–a–f–t–d–e–f–a–u–l–t–s–v–i–a–g–e–m–
+66 ployment summon toys -> –p–l–o–y–m–e–n–t–s–u–m–m–o–n–t–o–y–s–
+67 boxes raggiung stod -> –b–o–x–e–s–r–a–g–g–i–u–n–g–s–t–o–d–
+68 ujo voz aimer -> –u–j–o–v–o–z–a–i–m–e–r–
+69 yyy traces outer -> –y–y–y–t–r–a–c–e–s–o–u–t–e–r–
+70 zoa inne glasses -> –z–o–a–i–n–n–e–g–l–a–s–s–e–s–
+71 enzyme exch thir -> –e–n–z–y–m–e–e–x–c–h–t–h–i–r–
+72 itek instituc census -> –i–t–e–k–i–n–s–t–i–t–u–c–c–e–n–s–u–s–
+73 uaire supplied precum -> –u–a–i–r–e–s–u–p–p–l–i–e–d–p–r–e–c–u–m–
+74 pruch semula tribes -> –p–r–u–c–h–s–e–m–u–l–a–t–r–i–b–e–s–
+75 oldo mixte soltanto -> –o–l–d–o–m–i–x–t–e–s–o–l–t–a–n–t–o–
+76 jans upset semplic -> –j–a–n–s–u–p–s–e–t–s–e–m–p–l–i–c–
+77 ethel excret ytter -> –e–t–h–e–l–e–x–c–r–e–t–y–t–t–e–r–
+78 brecht risp sais -> –b–r–e–c–h–t–r–i–s–p–s–a–i–s–
+79 olle trol verkla -> –o–l–l–e–t–r–o–l–v–e–r–k–l–a–
+80 ktop margin armo -> –k–t–o–p–m–a–r–g–i–n–a–r–m–o–
+81 ierungs bulegoa kuid -> –i–e–r–u–n–g–s–b–u–l–e–g–o–a–k–u–i–d–
+82 udy thuy ocasi -> –u–d–y–t–h–u–y–o–c–a–s–i–
+83 aturik viaj urine -> –a–t–u–r–i–k–v–i–a–j–u–r–i–n–e–
+84 unge hlad sj -> –u–n–g–e–h–l–a–d–s–j–
+85 duit ruler narrower -> –d–u–i–t–r–u–l–e–r–n–a–r–r–o–w–e–r–
+86 ista difesa rookie -> –i–s–t–a–d–i–f–e–s–a–r–o–o–k–i–e–
+87 toile strap partidos -> –t–o–i–l–e–s–t–r–a–p–p–a–r–t–i–d–o–s–
+88 ded cages crafted -> –d–e–d–c–a–g–e–s–c–r–a–f–t–e–d–
+89 inald energet dou -> –i–n–a–l–d–e–n–e–r–g–e–t–d–o–u–
+90 irestore csrf ships -> –i–r–e–s–t–o–r–e–c–s–r–f–s–h–i–p–s–
+91 ricted critic direito -> –r–i–c–t–e–d–c–r–i–t–i–c–d–i–r–e–i–t–o–
+92 liefer spolu abbre -> –l–i–e–f–e–r–s–p–o–l–u–a–b–b–r–e–
+93 hov unbek grasp -> –h–o–v–u–n–b–e–k–g–r–a–s–p–
+94 lambda mereka youths -> –l–a–m–b–d–a–m–e–r–e–k–a–y–o–u–t–h–s–
+95 urname cards mult -> –u–r–n–a–m–e–c–a–r–d–s–m–u–l–t–
+96 olate lenn turnover -> –o–l–a–t–e–l–e–n–n–t–u–r–n–o–v–e–r–
+97 hely liitt changed -> –h–e–l–y–l–i–i–t–t–c–h–a–n–g–e–d–
+98 ewis igelts visual -> –e–w–i–s–i–g–e–l–t–s–v–i–s–u–a–l–
+99 lbum tumors lng -> –l–b–u–m–t–u–m–o–r–s–l–n–g–

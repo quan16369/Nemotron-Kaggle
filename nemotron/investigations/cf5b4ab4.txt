@@ -1,0 +1,69 @@
+problem id: cf5b4ab4
+category: bit_manipulation
+
+examples:
+- 00101100 -> 00010110
+- 01111111 -> 00111111
+- 11000011 -> 11100001
+- 00011101 -> 00001110
+- 01000001 -> 10100000
+- 00110100 -> 00011010
+- 11011000 -> 01101100
+- 00111010 -> 00011101
+
+query: 11011001
+
+inferred rule:
+1. Right-rotate the input by 1 bit:
+   `rot = (input >> 1) | ((input & 1) << 7)`
+2. Clear the most-significant bit of `rot` when input bit 2 is `1`:
+   `mask = 0xFF ^ (((input >> 2) & 1) << 7)`
+3. `output = rot & mask`
+
+Equivalent compact form:
+`output = ((input >> 1) | ((input & 1) << 7)) ^ ((((input >> 2) & 1) & (input & 1)) << 7)`
+
+why the rule fits all examples:
+1. `00101100`
+   - rotate right 1: `00010110`
+   - input bit2 = 0, mask = 0xFF
+   - output = `00010110` ✅
+2. `01111111`
+   - rotate right 1: `10111111`
+   - input bit2 = 1, clear MSB -> `00111111` ✅
+3. `11000011`
+   - rotate right 1: `11100001`
+   - input bit2 = 0, keep MSB
+   - output = `11100001` ✅
+4. `00011101`
+   - rotate right 1: `10001110`
+   - input bit2 = 1, clear MSB -> `00001110` ✅
+5. `01000001`
+   - rotate right 1: `10100000`
+   - input bit2 = 0, keep MSB
+   - output = `10100000` ✅
+6. `00110100`
+   - rotate right 1: `00011010`
+   - input bit2 = 1, clear MSB (already 0)
+   - output = `00011010` ✅
+7. `11011000`
+   - rotate right 1: `01101100`
+   - input bit2 = 1, clear MSB (already 0)
+   - output = `01101100` ✅
+8. `00111010`
+   - rotate right 1: `00011101`
+   - input bit2 = 1, clear MSB (already 0)
+   - output = `00011101` ✅
+
+step-by-step application to the query:
+Query input: `11011001`
+1. Rotate right 1:
+   `11011001 -> 11101100`
+2. Query bit2 is 0, so MSB is not cleared.
+3. Final output remains `11101100`.
+
+predicted answer:
+11101100
+
+confidence note:
+High confidence. The rule is a deterministic combination of rotate and MSB-masking that matches all eight examples exactly and yields the provided query output. There is a clean, direct bitwise interpretation with no contradictions in the data.

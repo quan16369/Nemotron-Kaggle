@@ -1,0 +1,28 @@
+problem id: 9eccbafd
+category: cryptarithm_deduce
+
+symbol-to-digit mapping:
+  '!' = 0
+  '"' = 5
+  '%' = 3
+  '&' = 9
+  "'" = 6
+  '>' = 4
+  '@' = 1
+  '`' = 8
+  '|' = 2
+  '}' = 7
+
+operator-to-operation mapping:
+  '#' = abs_diff
+  '-' = add
+
+examples:
+  |'-%> = '!  =>  26 + 34 = 60
+  @"-'} = `|  =>  15 + 67 = 82
+  %>#"} = |%  =>  |34 - 57| = 23
+  `&-@| = @!@  =>  89 + 12 = 101
+
+query: ">#'`  =>  |54 - 68| = 14
+
+predicted answer: @>

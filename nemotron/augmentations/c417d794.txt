@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 manual serie nig
+01 ction persever diz
+02 elas alive meal
+
+This is a sample output.
+00 manual serie nig -> –m–a–n–u–a–l–s–e–r–i–e–n–i–g–
+01 ction persever diz -> –c–t–i–o–n–p–e–r–s–e–v–e–r–d–i–z–
+02 elas alive meal -> –e–l–a–s–a–l–i–v–e–m–e–a–l–
+
+This is your input.
+00 ride personer cockpit
+01 cup soumis endemic
+02 txt subsequ gives
+03 endo nests arcos
+04 atasets kan sodium
+05 delta gas region
+06 mee escl belles
+07 legd reactors sunset
+08 ilent observer ultima
+09 letas incoming rank
+10 org lazy tappa
+11 teni przyby stanov
+12 dopodob tastes lager
+13 arri diber landet
+14 mega dazu infine
+15 help analogue bouncing
+16 cita chemp pug
+17 phere gevonden sonora
+18 jud ferm favour
+19 imat orch payer
+20 itic agosto tbl
+21 uated idol drawing
+22 amatan ambos gram
+23 uidas escre makanan
+24 isebb runde izve
+25 oste waarbij zituen
+26 ucky cavallo bakter
+27 argli goog opener
+28 serde bedeut inductor
+29 aryng dzie escritor
+30 hours dor pasa
+31 ateko jedn rhe
+32 ulated decir capill
+33 acement intensa mourning
+34 zeit meinem schrift
+35 estos espacios belegte
+36 mathit capitale improved
+37 amb dinero holds
+38 ajar empr acept
+39 ogli beach clerk
+40 ussia eht dy
+41 atur encourag vin
+42 starting ris main
+43 reja reflects forte
+44 yez others enemigo
+45 employee ber doubtful
+46 ley fiestas scelta
+47 undu doch setiap
+48 owel kryty mods
+49 ropathy dataset tends
+50 umpulan fren bitten
+51 barkeit altru tk
+52 orban opinion idle
+53 uchi reb integers
+54 skou czter markup
+55 jeg extras coupon
+56 aczy manifi apain
+57 usqu lop corri
+58 system emig websites
+59 arren terminal pri
+60 save reiste changes
+61 ugins creato cultures
+62 orah eternal versen
+63 fahr cattur studies
+64 anese sme putative
+65 ientras esso oral
+66 opolys occurr herbal
+67 icrosoft films essayer
+68 urtles reptiles kimi
+69 lea coloured liking
+70 thy disguise destaca
+71 ulg socks episcop
+72 ivative explode lunes
+73 avais androidx canc
+74 andet unveiled afirmou
+75 oglio unas embraced
+76 razioni zufolge desempe
+77 eus ako prue
+78 endis erheb envolv
+79 ugar kurt prof
+80 ifact confus kullan
+81 sier quieres oberen
+82 ammt zweiter rally
+83 ognitive elegido urgently
+84 ae pasado service
+85 uitable bgcolor adh
+86 ler tr queer
+87 ells chamado bishop
+88 iehen ray gleiche
+89 redients penet ideology
+90 alance unor allez
+91 amus hely me
+92 ierende tracks bid
+93 idences vulgaris destra
+94 hawks deepest punished
+95 denly facto nehmen
+96 letto riconosc kongres
+97 anine tru yielded
+98 asures cheval osp
+99 anger assiste lined
+[completion]
+00 ride personer cockpit -> –r–i–d–e–p–e–r–s–o–n–e–r–c–o–c–k–p–i–t–
+01 cup soumis endemic -> –c–u–p–s–o–u–m–i–s–e–n–d–e–m–i–c–
+02 txt subsequ gives -> –t–x–t–s–u–b–s–e–q–u–g–i–v–e–s–
+03 endo nests arcos -> –e–n–d–o–n–e–s–t–s–a–r–c–o–s–
+04 atasets kan sodium -> –a–t–a–s–e–t–s–k–a–n–s–o–d–i–u–m–
+05 delta gas region -> –d–e–l–t–a–g–a–s–r–e–g–i–o–n–
+06 mee escl belles -> –m–e–e–e–s–c–l–b–e–l–l–e–s–
+07 legd reactors sunset -> –l–e–g–d–r–e–a–c–t–o–r–s–s–u–n–s–e–t–
+08 ilent observer ultima -> –i–l–e–n–t–o–b–s–e–r–v–e–r–u–l–t–i–m–a–
+09 letas incoming rank -> –l–e–t–a–s–i–n–c–o–m–i–n–g–r–a–n–k–
+10 org lazy tappa -> –o–r–g–l–a–z–y–t–a–p–p–a–
+11 teni przyby stanov -> –t–e–n–i–p–r–z–y–b–y–s–t–a–n–o–v–
+12 dopodob tastes lager -> –d–o–p–o–d–o–b–t–a–s–t–e–s–l–a–g–e–r–
+13 arri diber landet -> –a–r–r–i–d–i–b–e–r–l–a–n–d–e–t–
+14 mega dazu infine -> –m–e–g–a–d–a–z–u–i–n–f–i–n–e–
+15 help analogue bouncing -> –h–e–l–p–a–n–a–l–o–g–u–e–b–o–u–n–c–i–n–g–
+16 cita chemp pug -> –c–i–t–a–c–h–e–m–p–p–u–g–
+17 phere gevonden sonora -> –p–h–e–r–e–g–e–v–o–n–d–e–n–s–o–n–o–r–a–
+18 jud ferm favour -> –j–u–d–f–e–r–m–f–a–v–o–u–r–
+19 imat orch payer -> –i–m–a–t–o–r–c–h–p–a–y–e–r–
+20 itic agosto tbl -> –i–t–i–c–a–g–o–s–t–o–t–b–l–
+21 uated idol drawing -> –u–a–t–e–d–i–d–o–l–d–r–a–w–i–n–g–
+22 amatan ambos gram -> –a–m–a–t–a–n–a–m–b–o–s–g–r–a–m–
+23 uidas escre makanan -> –u–i–d–a–s–e–s–c–r–e–m–a–k–a–n–a–n–
+24 isebb runde izve -> –i–s–e–b–b–r–u–n–d–e–i–z–v–e–
+25 oste waarbij zituen -> –o–s–t–e–w–a–a–r–b–i–j–z–i–t–u–e–n–
+26 ucky cavallo bakter -> –u–c–k–y–c–a–v–a–l–l–o–b–a–k–t–e–r–
+27 argli goog opener -> –a–r–g–l–i–g–o–o–g–o–p–e–n–e–r–
+28 serde bedeut inductor -> –s–e–r–d–e–b–e–d–e–u–t–i–n–d–u–c–t–o–r–
+29 aryng dzie escritor -> –a–r–y–n–g–d–z–i–e–e–s–c–r–i–t–o–r–
+30 hours dor pasa -> –h–o–u–r–s–d–o–r–p–a–s–a–
+31 ateko jedn rhe -> –a–t–e–k–o–j–e–d–n–r–h–e–
+32 ulated decir capill -> –u–l–a–t–e–d–d–e–c–i–r–c–a–p–i–l–l–
+33 acement intensa mourning -> –a–c–e–m–e–n–t–i–n–t–e–n–s–a–m–o–u–r–n–i–n–g–
+34 zeit meinem schrift -> –z–e–i–t–m–e–i–n–e–m–s–c–h–r–i–f–t–
+35 estos espacios belegte -> –e–s–t–o–s–e–s–p–a–c–i–o–s–b–e–l–e–g–t–e–
+36 mathit capitale improved -> –m–a–t–h–i–t–c–a–p–i–t–a–l–e–i–m–p–r–o–v–e–d–
+37 amb dinero holds -> –a–m–b–d–i–n–e–r–o–h–o–l–d–s–
+38 ajar empr acept -> –a–j–a–r–e–m–p–r–a–c–e–p–t–
+39 ogli beach clerk -> –o–g–l–i–b–e–a–c–h–c–l–e–r–k–
+40 ussia eht dy -> –u–s–s–i–a–e–h–t–d–y–
+41 atur encourag vin -> –a–t–u–r–e–n–c–o–u–r–a–g–v–i–n–
+42 starting ris main -> –s–t–a–r–t–i–n–g–r–i–s–m–a–i–n–
+43 reja reflects forte -> –r–e–j–a–r–e–f–l–e–c–t–s–f–o–r–t–e–
+44 yez others enemigo -> –y–e–z–o–t–h–e–r–s–e–n–e–m–i–g–o–
+45 employee ber doubtful -> –e–m–p–l–o–y–e–e–b–e–r–d–o–u–b–t–f–u–l–
+46 ley fiestas scelta -> –l–e–y–f–i–e–s–t–a–s–s–c–e–l–t–a–
+47 undu doch setiap -> –u–n–d–u–d–o–c–h–s–e–t–i–a–p–
+48 owel kryty mods -> –o–w–e–l–k–r–y–t–y–m–o–d–s–
+49 ropathy dataset tends -> –r–o–p–a–t–h–y–d–a–t–a–s–e–t–t–e–n–d–s–
+50 umpulan fren bitten -> –u–m–p–u–l–a–n–f–r–e–n–b–i–t–t–e–n–
+51 barkeit altru tk -> –b–a–r–k–e–i–t–a–l–t–r–u–t–k–
+52 orban opinion idle -> –o–r–b–a–n–o–p–i–n–i–o–n–i–d–l–e–
+53 uchi reb integers -> –u–c–h–i–r–e–b–i–n–t–e–g–e–r–s–
+54 skou czter markup -> –s–k–o–u–c–z–t–e–r–m–a–r–k–u–p–
+55 jeg extras coupon -> –j–e–g–e–x–t–r–a–s–c–o–u–p–o–n–
+56 aczy manifi apain -> –a–c–z–y–m–a–n–i–f–i–a–p–a–i–n–
+57 usqu lop corri -> –u–s–q–u–l–o–p–c–o–r–r–i–
+58 system emig websites -> –s–y–s–t–e–m–e–m–i–g–w–e–b–s–i–t–e–s–
+59 arren terminal pri -> –a–r–r–e–n–t–e–r–m–i–n–a–l–p–r–i–
+60 save reiste changes -> –s–a–v–e–r–e–i–s–t–e–c–h–a–n–g–e–s–
+61 ugins creato cultures -> –u–g–i–n–s–c–r–e–a–t–o–c–u–l–t–u–r–e–s–
+62 orah eternal versen -> –o–r–a–h–e–t–e–r–n–a–l–v–e–r–s–e–n–
+63 fahr cattur studies -> –f–a–h–r–c–a–t–t–u–r–s–t–u–d–i–e–s–
+64 anese sme putative -> –a–n–e–s–e–s–m–e–p–u–t–a–t–i–v–e–
+65 ientras esso oral -> –i–e–n–t–r–a–s–e–s–s–o–o–r–a–l–
+66 opolys occurr herbal -> –o–p–o–l–y–s–o–c–c–u–r–r–h–e–r–b–a–l–
+67 icrosoft films essayer -> –i–c–r–o–s–o–f–t–f–i–l–m–s–e–s–s–a–y–e–r–
+68 urtles reptiles kimi -> –u–r–t–l–e–s–r–e–p–t–i–l–e–s–k–i–m–i–
+69 lea coloured liking -> –l–e–a–c–o–l–o–u–r–e–d–l–i–k–i–n–g–
+70 thy disguise destaca -> –t–h–y–d–i–s–g–u–i–s–e–d–e–s–t–a–c–a–
+71 ulg socks episcop -> –u–l–g–s–o–c–k–s–e–p–i–s–c–o–p–
+72 ivative explode lunes -> –i–v–a–t–i–v–e–e–x–p–l–o–d–e–l–u–n–e–s–
+73 avais androidx canc -> –a–v–a–i–s–a–n–d–r–o–i–d–x–c–a–n–c–
+74 andet unveiled afirmou -> –a–n–d–e–t–u–n–v–e–i–l–e–d–a–f–i–r–m–o–u–
+75 oglio unas embraced -> –o–g–l–i–o–u–n–a–s–e–m–b–r–a–c–e–d–
+76 razioni zufolge desempe -> –r–a–z–i–o–n–i–z–u–f–o–l–g–e–d–e–s–e–m–p–e–
+77 eus ako prue -> –e–u–s–a–k–o–p–r–u–e–
+78 endis erheb envolv -> –e–n–d–i–s–e–r–h–e–b–e–n–v–o–l–v–
+79 ugar kurt prof -> –u–g–a–r–k–u–r–t–p–r–o–f–
+80 ifact confus kullan -> –i–f–a–c–t–c–o–n–f–u–s–k–u–l–l–a–n–
+81 sier quieres oberen -> –s–i–e–r–q–u–i–e–r–e–s–o–b–e–r–e–n–
+82 ammt zweiter rally -> –a–m–m–t–z–w–e–i–t–e–r–r–a–l–l–y–
+83 ognitive elegido urgently -> –o–g–n–i–t–i–v–e–e–l–e–g–i–d–o–u–r–g–e–n–t–l–y–
+84 ae pasado service -> –a–e–p–a–s–a–d–o–s–e–r–v–i–c–e–
+85 uitable bgcolor adh -> –u–i–t–a–b–l–e–b–g–c–o–l–o–r–a–d–h–
+86 ler tr queer -> –l–e–r–t–r–q–u–e–e–r–
+87 ells chamado bishop -> –e–l–l–s–c–h–a–m–a–d–o–b–i–s–h–o–p–
+88 iehen ray gleiche -> –i–e–h–e–n–r–a–y–g–l–e–i–c–h–e–
+89 redients penet ideology -> –r–e–d–i–e–n–t–s–p–e–n–e–t–i–d–e–o–l–o–g–y–
+90 alance unor allez -> –a–l–a–n–c–e–u–n–o–r–a–l–l–e–z–
+91 amus hely me -> –a–m–u–s–h–e–l–y–m–e–
+92 ierende tracks bid -> –i–e–r–e–n–d–e–t–r–a–c–k–s–b–i–d–
+93 idences vulgaris destra -> –i–d–e–n–c–e–s–v–u–l–g–a–r–i–s–d–e–s–t–r–a–
+94 hawks deepest punished -> –h–a–w–k–s–d–e–e–p–e–s–t–p–u–n–i–s–h–e–d–
+95 denly facto nehmen -> –d–e–n–l–y–f–a–c–t–o–n–e–h–m–e–n–
+96 letto riconosc kongres -> –l–e–t–t–o–r–i–c–o–n–o–s–c–k–o–n–g–r–e–s–
+97 anine tru yielded -> –a–n–i–n–e–t–r–u–y–i–e–l–d–e–d–
+98 asures cheval osp -> –a–s–u–r–e–s–c–h–e–v–a–l–o–s–p–
+99 anger assiste lined -> –a–n–g–e–r–a–s–s–i–s–t–e–l–i–n–e–d–

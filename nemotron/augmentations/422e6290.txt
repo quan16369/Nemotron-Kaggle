@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 otin clube address
+01 cls posting souter
+02 ipo cultural camin
+
+This is a sample output.
+00 otin clube address -> –o–t–i–n–c–l–u–b–e–a–d–d–r–e–s–s–
+01 cls posting souter -> –c–l–s–p–o–s–t–i–n–g–s–o–u–t–e–r–
+02 ipo cultural camin -> –i–p–o–c–u–l–t–u–r–a–l–c–a–m–i–n–
+
+This is your input.
+00 prises forge spazio
+01 itoria fuer depress
+02 onomia muun exempt
+03 rup dentro drop
+04 mol sht toured
+05 olysis enforce bran
+06 atora transit ukaz
+07 ify clothing maladie
+08 uret nothing glycerol
+09 acja posters objetos
+10 aines versie realizes
+11 theit grant graceful
+12 bia ster rv
+13 nodes tune confess
+14 oman readonly bey
+15 itzeko baik lind
+16 duct str simplex
+17 ography pilgr ib
+18 checked nautical skirt
+19 viz kre iterate
+20 anken heft podob
+21 skin amplify stort
+22 ep allergy iterator
+23 vaj ilumin guardar
+24 laub erneut extran
+25 bigg promedio suced
+26 tile kart tipped
+27 itato recr scand
+28 engar lois bombs
+29 assis buenas overflow
+30 plan excerpt uits
+31 within sterile explic
+32 pmatrix propres multid
+33 ycji stuk tenth
+34 hel bloc lesson
+35 laut inh fabrics
+36 bang arre kapt
+37 ulse etter implica
+38 ampe drugiej floating
+39 levant wand atrap
+40 stral objek boy
+41 arla lugar morb
+42 mani device masalah
+43 contents horm aseg
+44 aldi multiply stejn
+45 tej neurode frig
+46 urio shots csak
+47 inius impacts exam
+48 jourd units puncture
+49 arten piss athlete
+50 aises aside menek
+51 jest fortes deaths
+52 ismic todd resistor
+53 party ausdr baiser
+54 ont evenly zion
+55 itag ups tomado
+56 greg cuent foul
+57 iform encuent sociaux
+58 remos esfor climbing
+59 fits encoding db
+60 ecer won montrent
+61 bid releg mavjud
+62 pron av upgrades
+63 jeni locomot gut
+64 ri baino schol
+65 lating zdob golpe
+66 enta packets bola
+67 hn shoots visok
+68 eks impurity monopol
+69 aneiro sorpresa geben
+70 ikt com alkaline
+71 uvad anime incendio
+72 mek xyl rik
+73 elor potato toes
+74 itettiin visc bloque
+75 sp hele quanh
+76 windows breaker realize
+77 yni sister tulajdon
+78 agrama urbain teaches
+79 ystems etching celebrit
+80 deks confeder tentera
+81 total priv chau
+82 enaire dini kund
+83 ayt trabalh isotopes
+84 teg kindness iglesias
+85 chine merit hindu
+86 bygg clearly komplett
+87 atifs prendere loop
+88 idden plante segon
+89 ichtig ecu dolar
+90 itet sources immersed
+91 opia keiner brothers
+92 hetical digested ativ
+93 uximab grammar spotted
+94 eszt njih dvou
+95 icl stressed self
+96 islation treated zent
+97 ibold hur flam
+98 njem canon ligne
+99 rowned excited boucle
+[completion]
+00 prises forge spazio -> –p–r–i–s–e–s–f–o–r–g–e–s–p–a–z–i–o–
+01 itoria fuer depress -> –i–t–o–r–i–a–f–u–e–r–d–e–p–r–e–s–s–
+02 onomia muun exempt -> –o–n–o–m–i–a–m–u–u–n–e–x–e–m–p–t–
+03 rup dentro drop -> –r–u–p–d–e–n–t–r–o–d–r–o–p–
+04 mol sht toured -> –m–o–l–s–h–t–t–o–u–r–e–d–
+05 olysis enforce bran -> –o–l–y–s–i–s–e–n–f–o–r–c–e–b–r–a–n–
+06 atora transit ukaz -> –a–t–o–r–a–t–r–a–n–s–i–t–u–k–a–z–
+07 ify clothing maladie -> –i–f–y–c–l–o–t–h–i–n–g–m–a–l–a–d–i–e–
+08 uret nothing glycerol -> –u–r–e–t–n–o–t–h–i–n–g–g–l–y–c–e–r–o–l–
+09 acja posters objetos -> –a–c–j–a–p–o–s–t–e–r–s–o–b–j–e–t–o–s–
+10 aines versie realizes -> –a–i–n–e–s–v–e–r–s–i–e–r–e–a–l–i–z–e–s–
+11 theit grant graceful -> –t–h–e–i–t–g–r–a–n–t–g–r–a–c–e–f–u–l–
+12 bia ster rv -> –b–i–a–s–t–e–r–r–v–
+13 nodes tune confess -> –n–o–d–e–s–t–u–n–e–c–o–n–f–e–s–s–
+14 oman readonly bey -> –o–m–a–n–r–e–a–d–o–n–l–y–b–e–y–
+15 itzeko baik lind -> –i–t–z–e–k–o–b–a–i–k–l–i–n–d–
+16 duct str simplex -> –d–u–c–t–s–t–r–s–i–m–p–l–e–x–
+17 ography pilgr ib -> –o–g–r–a–p–h–y–p–i–l–g–r–i–b–
+18 checked nautical skirt -> –c–h–e–c–k–e–d–n–a–u–t–i–c–a–l–s–k–i–r–t–
+19 viz kre iterate -> –v–i–z–k–r–e–i–t–e–r–a–t–e–
+20 anken heft podob -> –a–n–k–e–n–h–e–f–t–p–o–d–o–b–
+21 skin amplify stort -> –s–k–i–n–a–m–p–l–i–f–y–s–t–o–r–t–
+22 ep allergy iterator -> –e–p–a–l–l–e–r–g–y–i–t–e–r–a–t–o–r–
+23 vaj ilumin guardar -> –v–a–j–i–l–u–m–i–n–g–u–a–r–d–a–r–
+24 laub erneut extran -> –l–a–u–b–e–r–n–e–u–t–e–x–t–r–a–n–
+25 bigg promedio suced -> –b–i–g–g–p–r–o–m–e–d–i–o–s–u–c–e–d–
+26 tile kart tipped -> –t–i–l–e–k–a–r–t–t–i–p–p–e–d–
+27 itato recr scand -> –i–t–a–t–o–r–e–c–r–s–c–a–n–d–
+28 engar lois bombs -> –e–n–g–a–r–l–o–i–s–b–o–m–b–s–
+29 assis buenas overflow -> –a–s–s–i–s–b–u–e–n–a–s–o–v–e–r–f–l–o–w–
+30 plan excerpt uits -> –p–l–a–n–e–x–c–e–r–p–t–u–i–t–s–
+31 within sterile explic -> –w–i–t–h–i–n–s–t–e–r–i–l–e–e–x–p–l–i–c–
+32 pmatrix propres multid -> –p–m–a–t–r–i–x–p–r–o–p–r–e–s–m–u–l–t–i–d–
+33 ycji stuk tenth -> –y–c–j–i–s–t–u–k–t–e–n–t–h–
+34 hel bloc lesson -> –h–e–l–b–l–o–c–l–e–s–s–o–n–
+35 laut inh fabrics -> –l–a–u–t–i–n–h–f–a–b–r–i–c–s–
+36 bang arre kapt -> –b–a–n–g–a–r–r–e–k–a–p–t–
+37 ulse etter implica -> –u–l–s–e–e–t–t–e–r–i–m–p–l–i–c–a–
+38 ampe drugiej floating -> –a–m–p–e–d–r–u–g–i–e–j–f–l–o–a–t–i–n–g–
+39 levant wand atrap -> –l–e–v–a–n–t–w–a–n–d–a–t–r–a–p–
+40 stral objek boy -> –s–t–r–a–l–o–b–j–e–k–b–o–y–
+41 arla lugar morb -> –a–r–l–a–l–u–g–a–r–m–o–r–b–
+42 mani device masalah -> –m–a–n–i–d–e–v–i–c–e–m–a–s–a–l–a–h–
+43 contents horm aseg -> –c–o–n–t–e–n–t–s–h–o–r–m–a–s–e–g–
+44 aldi multiply stejn -> –a–l–d–i–m–u–l–t–i–p–l–y–s–t–e–j–n–
+45 tej neurode frig -> –t–e–j–n–e–u–r–o–d–e–f–r–i–g–
+46 urio shots csak -> –u–r–i–o–s–h–o–t–s–c–s–a–k–
+47 inius impacts exam -> –i–n–i–u–s–i–m–p–a–c–t–s–e–x–a–m–
+48 jourd units puncture -> –j–o–u–r–d–u–n–i–t–s–p–u–n–c–t–u–r–e–
+49 arten piss athlete -> –a–r–t–e–n–p–i–s–s–a–t–h–l–e–t–e–
+50 aises aside menek -> –a–i–s–e–s–a–s–i–d–e–m–e–n–e–k–
+51 jest fortes deaths -> –j–e–s–t–f–o–r–t–e–s–d–e–a–t–h–s–
+52 ismic todd resistor -> –i–s–m–i–c–t–o–d–d–r–e–s–i–s–t–o–r–
+53 party ausdr baiser -> –p–a–r–t–y–a–u–s–d–r–b–a–i–s–e–r–
+54 ont evenly zion -> –o–n–t–e–v–e–n–l–y–z–i–o–n–
+55 itag ups tomado -> –i–t–a–g–u–p–s–t–o–m–a–d–o–
+56 greg cuent foul -> –g–r–e–g–c–u–e–n–t–f–o–u–l–
+57 iform encuent sociaux -> –i–f–o–r–m–e–n–c–u–e–n–t–s–o–c–i–a–u–x–
+58 remos esfor climbing -> –r–e–m–o–s–e–s–f–o–r–c–l–i–m–b–i–n–g–
+59 fits encoding db -> –f–i–t–s–e–n–c–o–d–i–n–g–d–b–
+60 ecer won montrent -> –e–c–e–r–w–o–n–m–o–n–t–r–e–n–t–
+61 bid releg mavjud -> –b–i–d–r–e–l–e–g–m–a–v–j–u–d–
+62 pron av upgrades -> –p–r–o–n–a–v–u–p–g–r–a–d–e–s–
+63 jeni locomot gut -> –j–e–n–i–l–o–c–o–m–o–t–g–u–t–
+64 ri baino schol -> –r–i–b–a–i–n–o–s–c–h–o–l–
+65 lating zdob golpe -> –l–a–t–i–n–g–z–d–o–b–g–o–l–p–e–
+66 enta packets bola -> –e–n–t–a–p–a–c–k–e–t–s–b–o–l–a–
+67 hn shoots visok -> –h–n–s–h–o–o–t–s–v–i–s–o–k–
+68 eks impurity monopol -> –e–k–s–i–m–p–u–r–i–t–y–m–o–n–o–p–o–l–
+69 aneiro sorpresa geben -> –a–n–e–i–r–o–s–o–r–p–r–e–s–a–g–e–b–e–n–
+70 ikt com alkaline -> –i–k–t–c–o–m–a–l–k–a–l–i–n–e–
+71 uvad anime incendio -> –u–v–a–d–a–n–i–m–e–i–n–c–e–n–d–i–o–
+72 mek xyl rik -> –m–e–k–x–y–l–r–i–k–
+73 elor potato toes -> –e–l–o–r–p–o–t–a–t–o–t–o–e–s–
+74 itettiin visc bloque -> –i–t–e–t–t–i–i–n–v–i–s–c–b–l–o–q–u–e–
+75 sp hele quanh -> –s–p–h–e–l–e–q–u–a–n–h–
+76 windows breaker realize -> –w–i–n–d–o–w–s–b–r–e–a–k–e–r–r–e–a–l–i–z–e–
+77 yni sister tulajdon -> –y–n–i–s–i–s–t–e–r–t–u–l–a–j–d–o–n–
+78 agrama urbain teaches -> –a–g–r–a–m–a–u–r–b–a–i–n–t–e–a–c–h–e–s–
+79 ystems etching celebrit -> –y–s–t–e–m–s–e–t–c–h–i–n–g–c–e–l–e–b–r–i–t–
+80 deks confeder tentera -> –d–e–k–s–c–o–n–f–e–d–e–r–t–e–n–t–e–r–a–
+81 total priv chau -> –t–o–t–a–l–p–r–i–v–c–h–a–u–
+82 enaire dini kund -> –e–n–a–i–r–e–d–i–n–i–k–u–n–d–
+83 ayt trabalh isotopes -> –a–y–t–t–r–a–b–a–l–h–i–s–o–t–o–p–e–s–
+84 teg kindness iglesias -> –t–e–g–k–i–n–d–n–e–s–s–i–g–l–e–s–i–a–s–
+85 chine merit hindu -> –c–h–i–n–e–m–e–r–i–t–h–i–n–d–u–
+86 bygg clearly komplett -> –b–y–g–g–c–l–e–a–r–l–y–k–o–m–p–l–e–t–t–
+87 atifs prendere loop -> –a–t–i–f–s–p–r–e–n–d–e–r–e–l–o–o–p–
+88 idden plante segon -> –i–d–d–e–n–p–l–a–n–t–e–s–e–g–o–n–
+89 ichtig ecu dolar -> –i–c–h–t–i–g–e–c–u–d–o–l–a–r–
+90 itet sources immersed -> –i–t–e–t–s–o–u–r–c–e–s–i–m–m–e–r–s–e–d–
+91 opia keiner brothers -> –o–p–i–a–k–e–i–n–e–r–b–r–o–t–h–e–r–s–
+92 hetical digested ativ -> –h–e–t–i–c–a–l–d–i–g–e–s–t–e–d–a–t–i–v–
+93 uximab grammar spotted -> –u–x–i–m–a–b–g–r–a–m–m–a–r–s–p–o–t–t–e–d–
+94 eszt njih dvou -> –e–s–z–t–n–j–i–h–d–v–o–u–
+95 icl stressed self -> –i–c–l–s–t–r–e–s–s–e–d–s–e–l–f–
+96 islation treated zent -> –i–s–l–a–t–i–o–n–t–r–e–a–t–e–d–z–e–n–t–
+97 ibold hur flam -> –i–b–o–l–d–h–u–r–f–l–a–m–
+98 njem canon ligne -> –n–j–e–m–c–a–n–o–n–l–i–g–n–e–
+99 rowned excited boucle -> –r–o–w–n–e–d–e–x–c–i–t–e–d–b–o–u–c–l–e–

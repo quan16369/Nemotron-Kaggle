@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 endo folded cosas
+01 xyl mentres clinic
+02 reverse gender glyph
+
+This is a sample output.
+00 endo folded cosas -> –e–n–d–o–f–o–l–d–e–d–c–o–s–a–s–
+01 xyl mentres clinic -> –x–y–l–m–e–n–t–r–e–s–c–l–i–n–i–c–
+02 reverse gender glyph -> –r–e–v–e–r–s–e–g–e–n–d–e–r–g–l–y–p–h–
+
+This is your input.
+00 incipal puls fleste
+01 elenium confused segundo
+02 bola serem knock
+03 journ saline elog
+04 antly cors muodost
+05 ality novela prede
+06 expl nuclear impaired
+07 etooth yer granular
+08 ilet royale tas
+09 otoxic router settle
+10 dalan carica ausgesch
+11 invoice folkl ustan
+12 ischen trak eighth
+13 delivery pis genannt
+14 tof obron publica
+15 photos etiology argparse
+16 pressing atten iter
+17 river junk peanut
+18 berto favor anomenat
+19 olia traf contours
+20 igde lunga grav
+21 usen dessa watched
+22 icc hym gennaio
+23 due pokaz orally
+24 yth acts semblait
+25 ulatory ocult cid
+26 ated wors monast
+27 mates fuel intuit
+28 valho nam ose
+29 ines violence guarn
+30 duration destes conn
+31 isas bahasa sviluppo
+32 unk haar perdre
+33 chap occupy launcher
+34 bel geri amended
+35 acchar dysp nodo
+36 serrat sanit neben
+37 nije hyst gera
+38 ishing hotels rankings
+39 desktop pinned uniqu
+40 iments timp komert
+41 houses distance sogar
+42 isf yh halk
+43 creased row invo
+44 cido propuls waters
+45 go quiero modific
+46 ipo obtient ritrov
+47 agyar bim foc
+48 oppel hybrid massage
+49 xan nursery nev
+50 unkt ongeveer ricev
+51 bum sair calmer
+52 kennt alia datant
+53 ujourd asym sigui
+54 cost usb ij
+55 opedic expres viable
+56 issimo conflic polyure
+57 grano tramite entspr
+58 storm kamp verschw
+59 dur biotin navn
+60 ily flute gehabt
+61 minimum procede sms
+62 ohen esperaba situa
+63 ack fazla bai
+64 asia shp esp
+65 kommen comet shorten
+66 struktur bus ref
+67 ienta shadows reducir
+68 atherine decoded none
+69 utako chiesto vors
+70 eteor budgets venne
+71 ashing asseg lune
+72 minus uko acqu
+73 kehr climbed sprink
+74 agte voormal desire
+75 issons receives pocas
+76 vole reported cerc
+77 zal squeezed meglio
+78 dv traff pap
+79 atetime admit negoti
+80 wana enduring fielen
+81 files norte midi
+82 ulli commun megny
+83 acons lineages acet
+84 bourne doc bounce
+85 isia proie foto
+86 ergy ock liger
+87 stehen suppos unle
+88 ansons konnten tots
+89 itik ordered soos
+90 ionen sos pensait
+91 ytics equal jossa
+92 odor cond befre
+93 vr immobile torch
+94 haul hostname druk
+95 ceptor ovat feedback
+96 ra rentrer clasific
+97 ummer monk raggi
+98 jnych sors cand
+99 teilung django conc
+[completion]
+00 incipal puls fleste -> –i–n–c–i–p–a–l–p–u–l–s–f–l–e–s–t–e–
+01 elenium confused segundo -> –e–l–e–n–i–u–m–c–o–n–f–u–s–e–d–s–e–g–u–n–d–o–
+02 bola serem knock -> –b–o–l–a–s–e–r–e–m–k–n–o–c–k–
+03 journ saline elog -> –j–o–u–r–n–s–a–l–i–n–e–e–l–o–g–
+04 antly cors muodost -> –a–n–t–l–y–c–o–r–s–m–u–o–d–o–s–t–
+05 ality novela prede -> –a–l–i–t–y–n–o–v–e–l–a–p–r–e–d–e–
+06 expl nuclear impaired -> –e–x–p–l–n–u–c–l–e–a–r–i–m–p–a–i–r–e–d–
+07 etooth yer granular -> –e–t–o–o–t–h–y–e–r–g–r–a–n–u–l–a–r–
+08 ilet royale tas -> –i–l–e–t–r–o–y–a–l–e–t–a–s–
+09 otoxic router settle -> –o–t–o–x–i–c–r–o–u–t–e–r–s–e–t–t–l–e–
+10 dalan carica ausgesch -> –d–a–l–a–n–c–a–r–i–c–a–a–u–s–g–e–s–c–h–
+11 invoice folkl ustan -> –i–n–v–o–i–c–e–f–o–l–k–l–u–s–t–a–n–
+12 ischen trak eighth -> –i–s–c–h–e–n–t–r–a–k–e–i–g–h–t–h–
+13 delivery pis genannt -> –d–e–l–i–v–e–r–y–p–i–s–g–e–n–a–n–n–t–
+14 tof obron publica -> –t–o–f–o–b–r–o–n–p–u–b–l–i–c–a–
+15 photos etiology argparse -> –p–h–o–t–o–s–e–t–i–o–l–o–g–y–a–r–g–p–a–r–s–e–
+16 pressing atten iter -> –p–r–e–s–s–i–n–g–a–t–t–e–n–i–t–e–r–
+17 river junk peanut -> –r–i–v–e–r–j–u–n–k–p–e–a–n–u–t–
+18 berto favor anomenat -> –b–e–r–t–o–f–a–v–o–r–a–n–o–m–e–n–a–t–
+19 olia traf contours -> –o–l–i–a–t–r–a–f–c–o–n–t–o–u–r–s–
+20 igde lunga grav -> –i–g–d–e–l–u–n–g–a–g–r–a–v–
+21 usen dessa watched -> –u–s–e–n–d–e–s–s–a–w–a–t–c–h–e–d–
+22 icc hym gennaio -> –i–c–c–h–y–m–g–e–n–n–a–i–o–
+23 due pokaz orally -> –d–u–e–p–o–k–a–z–o–r–a–l–l–y–
+24 yth acts semblait -> –y–t–h–a–c–t–s–s–e–m–b–l–a–i–t–
+25 ulatory ocult cid -> –u–l–a–t–o–r–y–o–c–u–l–t–c–i–d–
+26 ated wors monast -> –a–t–e–d–w–o–r–s–m–o–n–a–s–t–
+27 mates fuel intuit -> –m–a–t–e–s–f–u–e–l–i–n–t–u–i–t–
+28 valho nam ose -> –v–a–l–h–o–n–a–m–o–s–e–
+29 ines violence guarn -> –i–n–e–s–v–i–o–l–e–n–c–e–g–u–a–r–n–
+30 duration destes conn -> –d–u–r–a–t–i–o–n–d–e–s–t–e–s–c–o–n–n–
+31 isas bahasa sviluppo -> –i–s–a–s–b–a–h–a–s–a–s–v–i–l–u–p–p–o–
+32 unk haar perdre -> –u–n–k–h–a–a–r–p–e–r–d–r–e–
+33 chap occupy launcher -> –c–h–a–p–o–c–c–u–p–y–l–a–u–n–c–h–e–r–
+34 bel geri amended -> –b–e–l–g–e–r–i–a–m–e–n–d–e–d–
+35 acchar dysp nodo -> –a–c–c–h–a–r–d–y–s–p–n–o–d–o–
+36 serrat sanit neben -> –s–e–r–r–a–t–s–a–n–i–t–n–e–b–e–n–
+37 nije hyst gera -> –n–i–j–e–h–y–s–t–g–e–r–a–
+38 ishing hotels rankings -> –i–s–h–i–n–g–h–o–t–e–l–s–r–a–n–k–i–n–g–s–
+39 desktop pinned uniqu -> –d–e–s–k–t–o–p–p–i–n–n–e–d–u–n–i–q–u–
+40 iments timp komert -> –i–m–e–n–t–s–t–i–m–p–k–o–m–e–r–t–
+41 houses distance sogar -> –h–o–u–s–e–s–d–i–s–t–a–n–c–e–s–o–g–a–r–
+42 isf yh halk -> –i–s–f–y–h–h–a–l–k–
+43 creased row invo -> –c–r–e–a–s–e–d–r–o–w–i–n–v–o–
+44 cido propuls waters -> –c–i–d–o–p–r–o–p–u–l–s–w–a–t–e–r–s–
+45 go quiero modific -> –g–o–q–u–i–e–r–o–m–o–d–i–f–i–c–
+46 ipo obtient ritrov -> –i–p–o–o–b–t–i–e–n–t–r–i–t–r–o–v–
+47 agyar bim foc -> –a–g–y–a–r–b–i–m–f–o–c–
+48 oppel hybrid massage -> –o–p–p–e–l–h–y–b–r–i–d–m–a–s–s–a–g–e–
+49 xan nursery nev -> –x–a–n–n–u–r–s–e–r–y–n–e–v–
+50 unkt ongeveer ricev -> –u–n–k–t–o–n–g–e–v–e–e–r–r–i–c–e–v–
+51 bum sair calmer -> –b–u–m–s–a–i–r–c–a–l–m–e–r–
+52 kennt alia datant -> –k–e–n–n–t–a–l–i–a–d–a–t–a–n–t–
+53 ujourd asym sigui -> –u–j–o–u–r–d–a–s–y–m–s–i–g–u–i–
+54 cost usb ij -> –c–o–s–t–u–s–b–i–j–
+55 opedic expres viable -> –o–p–e–d–i–c–e–x–p–r–e–s–v–i–a–b–l–e–
+56 issimo conflic polyure -> –i–s–s–i–m–o–c–o–n–f–l–i–c–p–o–l–y–u–r–e–
+57 grano tramite entspr -> –g–r–a–n–o–t–r–a–m–i–t–e–e–n–t–s–p–r–
+58 storm kamp verschw -> –s–t–o–r–m–k–a–m–p–v–e–r–s–c–h–w–
+59 dur biotin navn -> –d–u–r–b–i–o–t–i–n–n–a–v–n–
+60 ily flute gehabt -> –i–l–y–f–l–u–t–e–g–e–h–a–b–t–
+61 minimum procede sms -> –m–i–n–i–m–u–m–p–r–o–c–e–d–e–s–m–s–
+62 ohen esperaba situa -> –o–h–e–n–e–s–p–e–r–a–b–a–s–i–t–u–a–
+63 ack fazla bai -> –a–c–k–f–a–z–l–a–b–a–i–
+64 asia shp esp -> –a–s–i–a–s–h–p–e–s–p–
+65 kommen comet shorten -> –k–o–m–m–e–n–c–o–m–e–t–s–h–o–r–t–e–n–
+66 struktur bus ref -> –s–t–r–u–k–t–u–r–b–u–s–r–e–f–
+67 ienta shadows reducir -> –i–e–n–t–a–s–h–a–d–o–w–s–r–e–d–u–c–i–r–
+68 atherine decoded none -> –a–t–h–e–r–i–n–e–d–e–c–o–d–e–d–n–o–n–e–
+69 utako chiesto vors -> –u–t–a–k–o–c–h–i–e–s–t–o–v–o–r–s–
+70 eteor budgets venne -> –e–t–e–o–r–b–u–d–g–e–t–s–v–e–n–n–e–
+71 ashing asseg lune -> –a–s–h–i–n–g–a–s–s–e–g–l–u–n–e–
+72 minus uko acqu -> –m–i–n–u–s–u–k–o–a–c–q–u–
+73 kehr climbed sprink -> –k–e–h–r–c–l–i–m–b–e–d–s–p–r–i–n–k–
+74 agte voormal desire -> –a–g–t–e–v–o–o–r–m–a–l–d–e–s–i–r–e–
+75 issons receives pocas -> –i–s–s–o–n–s–r–e–c–e–i–v–e–s–p–o–c–a–s–
+76 vole reported cerc -> –v–o–l–e–r–e–p–o–r–t–e–d–c–e–r–c–
+77 zal squeezed meglio -> –z–a–l–s–q–u–e–e–z–e–d–m–e–g–l–i–o–
+78 dv traff pap -> –d–v–t–r–a–f–f–p–a–p–
+79 atetime admit negoti -> –a–t–e–t–i–m–e–a–d–m–i–t–n–e–g–o–t–i–
+80 wana enduring fielen -> –w–a–n–a–e–n–d–u–r–i–n–g–f–i–e–l–e–n–
+81 files norte midi -> –f–i–l–e–s–n–o–r–t–e–m–i–d–i–
+82 ulli commun megny -> –u–l–l–i–c–o–m–m–u–n–m–e–g–n–y–
+83 acons lineages acet -> –a–c–o–n–s–l–i–n–e–a–g–e–s–a–c–e–t–
+84 bourne doc bounce -> –b–o–u–r–n–e–d–o–c–b–o–u–n–c–e–
+85 isia proie foto -> –i–s–i–a–p–r–o–i–e–f–o–t–o–
+86 ergy ock liger -> –e–r–g–y–o–c–k–l–i–g–e–r–
+87 stehen suppos unle -> –s–t–e–h–e–n–s–u–p–p–o–s–u–n–l–e–
+88 ansons konnten tots -> –a–n–s–o–n–s–k–o–n–n–t–e–n–t–o–t–s–
+89 itik ordered soos -> –i–t–i–k–o–r–d–e–r–e–d–s–o–o–s–
+90 ionen sos pensait -> –i–o–n–e–n–s–o–s–p–e–n–s–a–i–t–
+91 ytics equal jossa -> –y–t–i–c–s–e–q–u–a–l–j–o–s–s–a–
+92 odor cond befre -> –o–d–o–r–c–o–n–d–b–e–f–r–e–
+93 vr immobile torch -> –v–r–i–m–m–o–b–i–l–e–t–o–r–c–h–
+94 haul hostname druk -> –h–a–u–l–h–o–s–t–n–a–m–e–d–r–u–k–
+95 ceptor ovat feedback -> –c–e–p–t–o–r–o–v–a–t–f–e–e–d–b–a–c–k–
+96 ra rentrer clasific -> –r–a–r–e–n–t–r–e–r–c–l–a–s–i–f–i–c–
+97 ummer monk raggi -> –u–m–m–e–r–m–o–n–k–r–a–g–g–i–
+98 jnych sors cand -> –j–n–y–c–h–s–o–r–s–c–a–n–d–
+99 teilung django conc -> –t–e–i–l–u–n–g–d–j–a–n–g–o–c–o–n–c–

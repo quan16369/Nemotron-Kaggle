@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 pla galt kits
+01 hire skin yhte
+02 yt vierte stark
+
+This is a sample output.
+00 pla galt kits -> –p–l–a–g–a–l–t–k–i–t–s–
+01 hire skin yhte -> –h–i–r–e–s–k–i–n–y–h–t–e–
+02 yt vierte stark -> –y–t–v–i–e–r–t–e–s–t–a–r–k–
+
+This is your input.
+00 avana aumento batalion
+01 optera monetary replic
+02 view seule onclick
+03 anderen honestly pair
+04 ijske chatting livres
+05 azz campi halluc
+06 artzen tilted inex
+07 otyping security gray
+08 kdir destek defect
+09 entiel someday heroin
+10 province herman infantry
+11 estro slapped fleurs
+12 ethod maternal cuad
+13 perc ork summed
+14 geben consumes escap
+15 centage nok bd
+16 leges sid shuff
+17 niej cnt sucrose
+18 erve pix acaba
+19 late automne physique
+20 heses canad probable
+21 means infrastr wij
+22 andes gan seldom
+23 daki blancs rozgr
+24 daf promu transf
+25 bass unusual epiderm
+26 odio vy deer
+27 cdots holders mez
+28 imin sotto passa
+29 ologe wr garn
+30 ociate grafting vaccines
+31 pira temat group
+32 herrsch ovary fazem
+33 ovic shrugged miles
+34 named gesetz til
+35 debug erste human
+36 electron presenti cleaned
+37 rod destac dia
+38 ingleton descart mater
+39 ariat harus spoon
+40 held telefono metode
+41 ennis incur sting
+42 tienne chemok przew
+43 aire phase kingdoms
+44 ewish appetite gober
+45 riffe dans kelet
+46 roh voisin salah
+47 assuming riv rd
+48 ursors odio strani
+49 docs arme pyramid
+50 lia eyebrows grac
+51 inist gevolg flooding
+52 ponde envi ask
+53 alho citiz kasut
+54 lerden wasting drinking
+55 ibald picture anggota
+56 lessly antiguo lyr
+57 entities visage noire
+58 ydia racon albumu
+59 ritt obesity pak
+60 atina atraves monitor
+61 push secretly raffigur
+62 ligini vit discs
+63 unii sommeil pessoal
+64 mans genes kwargs
+65 irano irak airs
+66 cence drawn inver
+67 esto cancel lin
+68 xide lanes indices
+69 ursive artigo shaken
+70 eres abaste ases
+71 aisen affair seva
+72 eth souviens costly
+73 verk agg erzeugt
+74 aimana maga infra
+75 manie carros ferrov
+76 redicate sociais tud
+77 ceiving grave occident
+78 itude houden arbe
+79 standers vigil slopes
+80 pil emitter carbonyl
+81 sever islas faccia
+82 urer flera desenc
+83 ouses pregnant pobres
+84 ragen unknown libert
+85 ix lehet appreci
+86 opic nab confirma
+87 ritten yourself percent
+88 lycer sto chimeric
+89 idmat schlim holy
+90 contact adipis league
+91 untos dauerte adip
+92 viendo hated gebaut
+93 acial filial uv
+94 hrie vahel koko
+95 uspend spett senses
+96 ogenous duda inclus
+97 ior mysql provient
+98 for estreou nauf
+99 clipse los cervical
+[completion]
+00 avana aumento batalion -> –a–v–a–n–a–a–u–m–e–n–t–o–b–a–t–a–l–i–o–n–
+01 optera monetary replic -> –o–p–t–e–r–a–m–o–n–e–t–a–r–y–r–e–p–l–i–c–
+02 view seule onclick -> –v–i–e–w–s–e–u–l–e–o–n–c–l–i–c–k–
+03 anderen honestly pair -> –a–n–d–e–r–e–n–h–o–n–e–s–t–l–y–p–a–i–r–
+04 ijske chatting livres -> –i–j–s–k–e–c–h–a–t–t–i–n–g–l–i–v–r–e–s–
+05 azz campi halluc -> –a–z–z–c–a–m–p–i–h–a–l–l–u–c–
+06 artzen tilted inex -> –a–r–t–z–e–n–t–i–l–t–e–d–i–n–e–x–
+07 otyping security gray -> –o–t–y–p–i–n–g–s–e–c–u–r–i–t–y–g–r–a–y–
+08 kdir destek defect -> –k–d–i–r–d–e–s–t–e–k–d–e–f–e–c–t–
+09 entiel someday heroin -> –e–n–t–i–e–l–s–o–m–e–d–a–y–h–e–r–o–i–n–
+10 province herman infantry -> –p–r–o–v–i–n–c–e–h–e–r–m–a–n–i–n–f–a–n–t–r–y–
+11 estro slapped fleurs -> –e–s–t–r–o–s–l–a–p–p–e–d–f–l–e–u–r–s–
+12 ethod maternal cuad -> –e–t–h–o–d–m–a–t–e–r–n–a–l–c–u–a–d–
+13 perc ork summed -> –p–e–r–c–o–r–k–s–u–m–m–e–d–
+14 geben consumes escap -> –g–e–b–e–n–c–o–n–s–u–m–e–s–e–s–c–a–p–
+15 centage nok bd -> –c–e–n–t–a–g–e–n–o–k–b–d–
+16 leges sid shuff -> –l–e–g–e–s–s–i–d–s–h–u–f–f–
+17 niej cnt sucrose -> –n–i–e–j–c–n–t–s–u–c–r–o–s–e–
+18 erve pix acaba -> –e–r–v–e–p–i–x–a–c–a–b–a–
+19 late automne physique -> –l–a–t–e–a–u–t–o–m–n–e–p–h–y–s–i–q–u–e–
+20 heses canad probable -> –h–e–s–e–s–c–a–n–a–d–p–r–o–b–a–b–l–e–
+21 means infrastr wij -> –m–e–a–n–s–i–n–f–r–a–s–t–r–w–i–j–
+22 andes gan seldom -> –a–n–d–e–s–g–a–n–s–e–l–d–o–m–
+23 daki blancs rozgr -> –d–a–k–i–b–l–a–n–c–s–r–o–z–g–r–
+24 daf promu transf -> –d–a–f–p–r–o–m–u–t–r–a–n–s–f–
+25 bass unusual epiderm -> –b–a–s–s–u–n–u–s–u–a–l–e–p–i–d–e–r–m–
+26 odio vy deer -> –o–d–i–o–v–y–d–e–e–r–
+27 cdots holders mez -> –c–d–o–t–s–h–o–l–d–e–r–s–m–e–z–
+28 imin sotto passa -> –i–m–i–n–s–o–t–t–o–p–a–s–s–a–
+29 ologe wr garn -> –o–l–o–g–e–w–r–g–a–r–n–
+30 ociate grafting vaccines -> –o–c–i–a–t–e–g–r–a–f–t–i–n–g–v–a–c–c–i–n–e–s–
+31 pira temat group -> –p–i–r–a–t–e–m–a–t–g–r–o–u–p–
+32 herrsch ovary fazem -> –h–e–r–r–s–c–h–o–v–a–r–y–f–a–z–e–m–
+33 ovic shrugged miles -> –o–v–i–c–s–h–r–u–g–g–e–d–m–i–l–e–s–
+34 named gesetz til -> –n–a–m–e–d–g–e–s–e–t–z–t–i–l–
+35 debug erste human -> –d–e–b–u–g–e–r–s–t–e–h–u–m–a–n–
+36 electron presenti cleaned -> –e–l–e–c–t–r–o–n–p–r–e–s–e–n–t–i–c–l–e–a–n–e–d–
+37 rod destac dia -> –r–o–d–d–e–s–t–a–c–d–i–a–
+38 ingleton descart mater -> –i–n–g–l–e–t–o–n–d–e–s–c–a–r–t–m–a–t–e–r–
+39 ariat harus spoon -> –a–r–i–a–t–h–a–r–u–s–s–p–o–o–n–
+40 held telefono metode -> –h–e–l–d–t–e–l–e–f–o–n–o–m–e–t–o–d–e–
+41 ennis incur sting -> –e–n–n–i–s–i–n–c–u–r–s–t–i–n–g–
+42 tienne chemok przew -> –t–i–e–n–n–e–c–h–e–m–o–k–p–r–z–e–w–
+43 aire phase kingdoms -> –a–i–r–e–p–h–a–s–e–k–i–n–g–d–o–m–s–
+44 ewish appetite gober -> –e–w–i–s–h–a–p–p–e–t–i–t–e–g–o–b–e–r–
+45 riffe dans kelet -> –r–i–f–f–e–d–a–n–s–k–e–l–e–t–
+46 roh voisin salah -> –r–o–h–v–o–i–s–i–n–s–a–l–a–h–
+47 assuming riv rd -> –a–s–s–u–m–i–n–g–r–i–v–r–d–
+48 ursors odio strani -> –u–r–s–o–r–s–o–d–i–o–s–t–r–a–n–i–
+49 docs arme pyramid -> –d–o–c–s–a–r–m–e–p–y–r–a–m–i–d–
+50 lia eyebrows grac -> –l–i–a–e–y–e–b–r–o–w–s–g–r–a–c–
+51 inist gevolg flooding -> –i–n–i–s–t–g–e–v–o–l–g–f–l–o–o–d–i–n–g–
+52 ponde envi ask -> –p–o–n–d–e–e–n–v–i–a–s–k–
+53 alho citiz kasut -> –a–l–h–o–c–i–t–i–z–k–a–s–u–t–
+54 lerden wasting drinking -> –l–e–r–d–e–n–w–a–s–t–i–n–g–d–r–i–n–k–i–n–g–
+55 ibald picture anggota -> –i–b–a–l–d–p–i–c–t–u–r–e–a–n–g–g–o–t–a–
+56 lessly antiguo lyr -> –l–e–s–s–l–y–a–n–t–i–g–u–o–l–y–r–
+57 entities visage noire -> –e–n–t–i–t–i–e–s–v–i–s–a–g–e–n–o–i–r–e–
+58 ydia racon albumu -> –y–d–i–a–r–a–c–o–n–a–l–b–u–m–u–
+59 ritt obesity pak -> –r–i–t–t–o–b–e–s–i–t–y–p–a–k–
+60 atina atraves monitor -> –a–t–i–n–a–a–t–r–a–v–e–s–m–o–n–i–t–o–r–
+61 push secretly raffigur -> –p–u–s–h–s–e–c–r–e–t–l–y–r–a–f–f–i–g–u–r–
+62 ligini vit discs -> –l–i–g–i–n–i–v–i–t–d–i–s–c–s–
+63 unii sommeil pessoal -> –u–n–i–i–s–o–m–m–e–i–l–p–e–s–s–o–a–l–
+64 mans genes kwargs -> –m–a–n–s–g–e–n–e–s–k–w–a–r–g–s–
+65 irano irak airs -> –i–r–a–n–o–i–r–a–k–a–i–r–s–
+66 cence drawn inver -> –c–e–n–c–e–d–r–a–w–n–i–n–v–e–r–
+67 esto cancel lin -> –e–s–t–o–c–a–n–c–e–l–l–i–n–
+68 xide lanes indices -> –x–i–d–e–l–a–n–e–s–i–n–d–i–c–e–s–
+69 ursive artigo shaken -> –u–r–s–i–v–e–a–r–t–i–g–o–s–h–a–k–e–n–
+70 eres abaste ases -> –e–r–e–s–a–b–a–s–t–e–a–s–e–s–
+71 aisen affair seva -> –a–i–s–e–n–a–f–f–a–i–r–s–e–v–a–
+72 eth souviens costly -> –e–t–h–s–o–u–v–i–e–n–s–c–o–s–t–l–y–
+73 verk agg erzeugt -> –v–e–r–k–a–g–g–e–r–z–e–u–g–t–
+74 aimana maga infra -> –a–i–m–a–n–a–m–a–g–a–i–n–f–r–a–
+75 manie carros ferrov -> –m–a–n–i–e–c–a–r–r–o–s–f–e–r–r–o–v–
+76 redicate sociais tud -> –r–e–d–i–c–a–t–e–s–o–c–i–a–i–s–t–u–d–
+77 ceiving grave occident -> –c–e–i–v–i–n–g–g–r–a–v–e–o–c–c–i–d–e–n–t–
+78 itude houden arbe -> –i–t–u–d–e–h–o–u–d–e–n–a–r–b–e–
+79 standers vigil slopes -> –s–t–a–n–d–e–r–s–v–i–g–i–l–s–l–o–p–e–s–
+80 pil emitter carbonyl -> –p–i–l–e–m–i–t–t–e–r–c–a–r–b–o–n–y–l–
+81 sever islas faccia -> –s–e–v–e–r–i–s–l–a–s–f–a–c–c–i–a–
+82 urer flera desenc -> –u–r–e–r–f–l–e–r–a–d–e–s–e–n–c–
+83 ouses pregnant pobres -> –o–u–s–e–s–p–r–e–g–n–a–n–t–p–o–b–r–e–s–
+84 ragen unknown libert -> –r–a–g–e–n–u–n–k–n–o–w–n–l–i–b–e–r–t–
+85 ix lehet appreci -> –i–x–l–e–h–e–t–a–p–p–r–e–c–i–
+86 opic nab confirma -> –o–p–i–c–n–a–b–c–o–n–f–i–r–m–a–
+87 ritten yourself percent -> –r–i–t–t–e–n–y–o–u–r–s–e–l–f–p–e–r–c–e–n–t–
+88 lycer sto chimeric -> –l–y–c–e–r–s–t–o–c–h–i–m–e–r–i–c–
+89 idmat schlim holy -> –i–d–m–a–t–s–c–h–l–i–m–h–o–l–y–
+90 contact adipis league -> –c–o–n–t–a–c–t–a–d–i–p–i–s–l–e–a–g–u–e–
+91 untos dauerte adip -> –u–n–t–o–s–d–a–u–e–r–t–e–a–d–i–p–
+92 viendo hated gebaut -> –v–i–e–n–d–o–h–a–t–e–d–g–e–b–a–u–t–
+93 acial filial uv -> –a–c–i–a–l–f–i–l–i–a–l–u–v–
+94 hrie vahel koko -> –h–r–i–e–v–a–h–e–l–k–o–k–o–
+95 uspend spett senses -> –u–s–p–e–n–d–s–p–e–t–t–s–e–n–s–e–s–
+96 ogenous duda inclus -> –o–g–e–n–o–u–s–d–u–d–a–i–n–c–l–u–s–
+97 ior mysql provient -> –i–o–r–m–y–s–q–l–p–r–o–v–i–e–n–t–
+98 for estreou nauf -> –f–o–r–e–s–t–r–e–o–u–n–a–u–f–
+99 clipse los cervical -> –c–l–i–p–s–e–l–o–s–c–e–r–v–i–c–a–l–

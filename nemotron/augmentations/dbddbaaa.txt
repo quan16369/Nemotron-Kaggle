@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 ylic estrogen beat
+01 orum subjekt manifest
+02 aketa pierde ratings
+
+This is a sample output.
+00 ylic estrogen beat -> –y–l–i–c–e–s–t–r–o–g–e–n–b–e–a–t–
+01 orum subjekt manifest -> –o–r–u–m–s–u–b–j–e–k–t–m–a–n–i–f–e–s–t–
+02 aketa pierde ratings -> –a–k–e–t–a–p–i–e–r–d–e–r–a–t–i–n–g–s–
+
+This is your input.
+00 ridin each beper
+01 undo cold purpose
+02 egg peau orange
+03 uni austri graft
+04 since ruk epochs
+05 dijo vapeur equilib
+06 nad sieve posture
+07 dale are paciente
+08 ll yhd homen
+09 reply adina chapters
+10 strom webs inspe
+11 veille zich tomba
+12 cyst drank involves
+13 mana sque maio
+14 rolog fence angeb
+15 auv uniforme superior
+16 elsen dunque disorder
+17 woh sides domanda
+18 roller this next
+19 ylase mapped jaren
+20 ael surpris nm
+21 nier antis inte
+22 omics quas riches
+23 omy grains faire
+24 venue fertig kiam
+25 orig keh leaving
+26 arp forme germline
+27 ippet scor passado
+28 station interrom zela
+29 tim gutter fabri
+30 atzeko glauben album
+31 coin loan vacancy
+32 erie college pior
+33 ificador ergeben mengal
+34 andra habil births
+35 hran ganzen naar
+36 ongan acquire fought
+37 letta nouve fest
+38 iber discul mos
+39 outine burden mattina
+40 asket herram dictate
+41 iais closed nahi
+42 tritt vele revised
+43 elassen enrol romant
+44 inq combin datos
+45 inner elles estoy
+46 disk tempada else
+47 ication smoothed ruled
+48 ovno sonra pater
+49 aiser testify signe
+50 ertal berb cheap
+51 igts braccio son
+52 odic compr sollte
+53 itures anions raising
+54 wahl love ed
+55 ask orage scalp
+56 opper pic fec
+57 vex comedian arbitr
+58 bp drowned specjal
+59 pri campagna potre
+60 rable gasped bucket
+61 nais pun asuntos
+62 iliers boutique elokuv
+63 lej lb nombre
+64 pair knj obscured
+65 racji finn you
+66 osine toe reest
+67 iceps trov euk
+68 ipient slit mull
+69 ielte sua plur
+70 azza separat seksual
+71 ledo imports politica
+72 und fascia comprom
+73 ash ucciso parad
+74 ator camar comuna
+75 ivent fichier theo
+76 feedback segona peux
+77 akt castell soc
+78 alma stop tablet
+79 bauten nennt intent
+80 atorio vender spieg
+81 igual republic expose
+82 ook foyer remon
+83 fangen duo mycket
+84 pdf couns neo
+85 ischem vitre match
+86 stat diff army
+87 olut februar eu
+88 angk env freely
+89 onsieur antiqu acteur
+90 dt diving revanche
+91 oci herr occured
+92 gesamt estacion alanine
+93 lx ulicy algum
+94 oger gett waits
+95 agin reais licked
+96 ispers aps deterr
+97 eil underm medi
+98 otel mili thanked
+99 ategy third press
+[completion]
+00 ridin each beper -> –r–i–d–i–n–e–a–c–h–b–e–p–e–r–
+01 undo cold purpose -> –u–n–d–o–c–o–l–d–p–u–r–p–o–s–e–
+02 egg peau orange -> –e–g–g–p–e–a–u–o–r–a–n–g–e–
+03 uni austri graft -> –u–n–i–a–u–s–t–r–i–g–r–a–f–t–
+04 since ruk epochs -> –s–i–n–c–e–r–u–k–e–p–o–c–h–s–
+05 dijo vapeur equilib -> –d–i–j–o–v–a–p–e–u–r–e–q–u–i–l–i–b–
+06 nad sieve posture -> –n–a–d–s–i–e–v–e–p–o–s–t–u–r–e–
+07 dale are paciente -> –d–a–l–e–a–r–e–p–a–c–i–e–n–t–e–
+08 ll yhd homen -> –l–l–y–h–d–h–o–m–e–n–
+09 reply adina chapters -> –r–e–p–l–y–a–d–i–n–a–c–h–a–p–t–e–r–s–
+10 strom webs inspe -> –s–t–r–o–m–w–e–b–s–i–n–s–p–e–
+11 veille zich tomba -> –v–e–i–l–l–e–z–i–c–h–t–o–m–b–a–
+12 cyst drank involves -> –c–y–s–t–d–r–a–n–k–i–n–v–o–l–v–e–s–
+13 mana sque maio -> –m–a–n–a–s–q–u–e–m–a–i–o–
+14 rolog fence angeb -> –r–o–l–o–g–f–e–n–c–e–a–n–g–e–b–
+15 auv uniforme superior -> –a–u–v–u–n–i–f–o–r–m–e–s–u–p–e–r–i–o–r–
+16 elsen dunque disorder -> –e–l–s–e–n–d–u–n–q–u–e–d–i–s–o–r–d–e–r–
+17 woh sides domanda -> –w–o–h–s–i–d–e–s–d–o–m–a–n–d–a–
+18 roller this next -> –r–o–l–l–e–r–t–h–i–s–n–e–x–t–
+19 ylase mapped jaren -> –y–l–a–s–e–m–a–p–p–e–d–j–a–r–e–n–
+20 ael surpris nm -> –a–e–l–s–u–r–p–r–i–s–n–m–
+21 nier antis inte -> –n–i–e–r–a–n–t–i–s–i–n–t–e–
+22 omics quas riches -> –o–m–i–c–s–q–u–a–s–r–i–c–h–e–s–
+23 omy grains faire -> –o–m–y–g–r–a–i–n–s–f–a–i–r–e–
+24 venue fertig kiam -> –v–e–n–u–e–f–e–r–t–i–g–k–i–a–m–
+25 orig keh leaving -> –o–r–i–g–k–e–h–l–e–a–v–i–n–g–
+26 arp forme germline -> –a–r–p–f–o–r–m–e–g–e–r–m–l–i–n–e–
+27 ippet scor passado -> –i–p–p–e–t–s–c–o–r–p–a–s–s–a–d–o–
+28 station interrom zela -> –s–t–a–t–i–o–n–i–n–t–e–r–r–o–m–z–e–l–a–
+29 tim gutter fabri -> –t–i–m–g–u–t–t–e–r–f–a–b–r–i–
+30 atzeko glauben album -> –a–t–z–e–k–o–g–l–a–u–b–e–n–a–l–b–u–m–
+31 coin loan vacancy -> –c–o–i–n–l–o–a–n–v–a–c–a–n–c–y–
+32 erie college pior -> –e–r–i–e–c–o–l–l–e–g–e–p–i–o–r–
+33 ificador ergeben mengal -> –i–f–i–c–a–d–o–r–e–r–g–e–b–e–n–m–e–n–g–a–l–
+34 andra habil births -> –a–n–d–r–a–h–a–b–i–l–b–i–r–t–h–s–
+35 hran ganzen naar -> –h–r–a–n–g–a–n–z–e–n–n–a–a–r–
+36 ongan acquire fought -> –o–n–g–a–n–a–c–q–u–i–r–e–f–o–u–g–h–t–
+37 letta nouve fest -> –l–e–t–t–a–n–o–u–v–e–f–e–s–t–
+38 iber discul mos -> –i–b–e–r–d–i–s–c–u–l–m–o–s–
+39 outine burden mattina -> –o–u–t–i–n–e–b–u–r–d–e–n–m–a–t–t–i–n–a–
+40 asket herram dictate -> –a–s–k–e–t–h–e–r–r–a–m–d–i–c–t–a–t–e–
+41 iais closed nahi -> –i–a–i–s–c–l–o–s–e–d–n–a–h–i–
+42 tritt vele revised -> –t–r–i–t–t–v–e–l–e–r–e–v–i–s–e–d–
+43 elassen enrol romant -> –e–l–a–s–s–e–n–e–n–r–o–l–r–o–m–a–n–t–
+44 inq combin datos -> –i–n–q–c–o–m–b–i–n–d–a–t–o–s–
+45 inner elles estoy -> –i–n–n–e–r–e–l–l–e–s–e–s–t–o–y–
+46 disk tempada else -> –d–i–s–k–t–e–m–p–a–d–a–e–l–s–e–
+47 ication smoothed ruled -> –i–c–a–t–i–o–n–s–m–o–o–t–h–e–d–r–u–l–e–d–
+48 ovno sonra pater -> –o–v–n–o–s–o–n–r–a–p–a–t–e–r–
+49 aiser testify signe -> –a–i–s–e–r–t–e–s–t–i–f–y–s–i–g–n–e–
+50 ertal berb cheap -> –e–r–t–a–l–b–e–r–b–c–h–e–a–p–
+51 igts braccio son -> –i–g–t–s–b–r–a–c–c–i–o–s–o–n–
+52 odic compr sollte -> –o–d–i–c–c–o–m–p–r–s–o–l–l–t–e–
+53 itures anions raising -> –i–t–u–r–e–s–a–n–i–o–n–s–r–a–i–s–i–n–g–
+54 wahl love ed -> –w–a–h–l–l–o–v–e–e–d–
+55 ask orage scalp -> –a–s–k–o–r–a–g–e–s–c–a–l–p–
+56 opper pic fec -> –o–p–p–e–r–p–i–c–f–e–c–
+57 vex comedian arbitr -> –v–e–x–c–o–m–e–d–i–a–n–a–r–b–i–t–r–
+58 bp drowned specjal -> –b–p–d–r–o–w–n–e–d–s–p–e–c–j–a–l–
+59 pri campagna potre -> –p–r–i–c–a–m–p–a–g–n–a–p–o–t–r–e–
+60 rable gasped bucket -> –r–a–b–l–e–g–a–s–p–e–d–b–u–c–k–e–t–
+61 nais pun asuntos -> –n–a–i–s–p–u–n–a–s–u–n–t–o–s–
+62 iliers boutique elokuv -> –i–l–i–e–r–s–b–o–u–t–i–q–u–e–e–l–o–k–u–v–
+63 lej lb nombre -> –l–e–j–l–b–n–o–m–b–r–e–
+64 pair knj obscured -> –p–a–i–r–k–n–j–o–b–s–c–u–r–e–d–
+65 racji finn you -> –r–a–c–j–i–f–i–n–n–y–o–u–
+66 osine toe reest -> –o–s–i–n–e–t–o–e–r–e–e–s–t–
+67 iceps trov euk -> –i–c–e–p–s–t–r–o–v–e–u–k–
+68 ipient slit mull -> –i–p–i–e–n–t–s–l–i–t–m–u–l–l–
+69 ielte sua plur -> –i–e–l–t–e–s–u–a–p–l–u–r–
+70 azza separat seksual -> –a–z–z–a–s–e–p–a–r–a–t–s–e–k–s–u–a–l–
+71 ledo imports politica -> –l–e–d–o–i–m–p–o–r–t–s–p–o–l–i–t–i–c–a–
+72 und fascia comprom -> –u–n–d–f–a–s–c–i–a–c–o–m–p–r–o–m–
+73 ash ucciso parad -> –a–s–h–u–c–c–i–s–o–p–a–r–a–d–
+74 ator camar comuna -> –a–t–o–r–c–a–m–a–r–c–o–m–u–n–a–
+75 ivent fichier theo -> –i–v–e–n–t–f–i–c–h–i–e–r–t–h–e–o–
+76 feedback segona peux -> –f–e–e–d–b–a–c–k–s–e–g–o–n–a–p–e–u–x–
+77 akt castell soc -> –a–k–t–c–a–s–t–e–l–l–s–o–c–
+78 alma stop tablet -> –a–l–m–a–s–t–o–p–t–a–b–l–e–t–
+79 bauten nennt intent -> –b–a–u–t–e–n–n–e–n–n–t–i–n–t–e–n–t–
+80 atorio vender spieg -> –a–t–o–r–i–o–v–e–n–d–e–r–s–p–i–e–g–
+81 igual republic expose -> –i–g–u–a–l–r–e–p–u–b–l–i–c–e–x–p–o–s–e–
+82 ook foyer remon -> –o–o–k–f–o–y–e–r–r–e–m–o–n–
+83 fangen duo mycket -> –f–a–n–g–e–n–d–u–o–m–y–c–k–e–t–
+84 pdf couns neo -> –p–d–f–c–o–u–n–s–n–e–o–
+85 ischem vitre match -> –i–s–c–h–e–m–v–i–t–r–e–m–a–t–c–h–
+86 stat diff army -> –s–t–a–t–d–i–f–f–a–r–m–y–
+87 olut februar eu -> –o–l–u–t–f–e–b–r–u–a–r–e–u–
+88 angk env freely -> –a–n–g–k–e–n–v–f–r–e–e–l–y–
+89 onsieur antiqu acteur -> –o–n–s–i–e–u–r–a–n–t–i–q–u–a–c–t–e–u–r–
+90 dt diving revanche -> –d–t–d–i–v–i–n–g–r–e–v–a–n–c–h–e–
+91 oci herr occured -> –o–c–i–h–e–r–r–o–c–c–u–r–e–d–
+92 gesamt estacion alanine -> –g–e–s–a–m–t–e–s–t–a–c–i–o–n–a–l–a–n–i–n–e–
+93 lx ulicy algum -> –l–x–u–l–i–c–y–a–l–g–u–m–
+94 oger gett waits -> –o–g–e–r–g–e–t–t–w–a–i–t–s–
+95 agin reais licked -> –a–g–i–n–r–e–a–i–s–l–i–c–k–e–d–
+96 ispers aps deterr -> –i–s–p–e–r–s–a–p–s–d–e–t–e–r–r–
+97 eil underm medi -> –e–i–l–u–n–d–e–r–m–m–e–d–i–
+98 otel mili thanked -> –o–t–e–l–m–i–l–i–t–h–a–n–k–e–d–
+99 ategy third press -> –a–t–e–g–y–t–h–i–r–d–p–r–e–s–s–

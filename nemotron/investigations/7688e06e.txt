@@ -1,0 +1,31 @@
+Problem ID: 7688e06e
+Category: equation_numeric_deduce
+
+Examples:
+- 06-63 = 42
+- 96-32 = 64
+- 87-15 = 72
+- 58-64 = 93
+- 87-63 = 24
+
+Inferred rule:
+- For `ab-cd`, reverse both two-digit operands, subtract the reversed right operand from the reversed left operand, then reverse the digits of the result.
+- Checks:
+- `06-63`: reverse to `60` and `36`; `60 - 36 = 24`; reverse `24` to get `42`.
+- `96-32`: reverse to `69` and `23`; `69 - 23 = 46`; reverse `46` to get `64`.
+- `87-15`: reverse to `78` and `51`; `78 - 51 = 27`; reverse `27` to get `72`.
+- `58-64`: reverse to `85` and `46`; `85 - 46 = 39`; reverse `39` to get `93`.
+- `87-63`: reverse to `78` and `36`; `78 - 36 = 42`; reverse `42` to get `24`.
+
+Step-by-step application to the query:
+- Query: `63-19`
+- Reverse both operands: `63 -> 36`, `19 -> 91`
+- Subtract the reversed values: `36 - 91 = -55`
+- Reverse the digits of the result magnitude: `55 -> 55`
+- Keep the negative sign, so the transformed result is `-55`
+
+Predicted answer:
+- -55
+
+Confidence note:
+- High. All five training examples fit the same reverse-subtract-reverse rule exactly. The only minor ambiguity is formatting for a negative transformed result, but this query still gives `-55` because the magnitude is symmetric under reversal.

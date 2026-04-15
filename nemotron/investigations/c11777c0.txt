@@ -1,0 +1,62 @@
+Problem ID: c11777c0
+Category: equation_numeric_deduce
+
+Examples:
+- 36]04 = 32
+- 74:33 = 3374
+- 83]77 = ]93
+- 81]76 = ]94
+- 34?86 = 111
+- Query: 22?34
+
+Inferred rule:
+This problem is best explained by one shared recipe across operators:
+1. Reverse both 2-digit inputs.
+2. Apply the operator's natural action to those reversed values.
+3. Reverse the result to get the final output.
+4. If the result is negative, replace the minus sign with the operator symbol used in the expression.
+
+Operator meanings under that recipe:
+- `]` means subtraction.
+- `:` means concatenation.
+- `?` means addition.
+
+Why this fits the examples:
+- 36]04
+  - Reverse inputs: 36 -> 63, 04 -> 40
+  - Subtract: 63 - 40 = 23
+  - Reverse result: 23 -> 32
+- 74:33
+  - Reverse inputs: 74 -> 47, 33 -> 33
+  - Concatenate: 4733
+  - Reverse result: 4733 -> 3374
+- 83]77
+  - Reverse inputs: 83 -> 38, 77 -> 77
+  - Subtract: 38 - 77 = -39
+  - Reverse digits: -39 -> -93
+  - Replace the minus sign with `]`: ]93
+- 81]76
+  - Reverse inputs: 81 -> 18, 76 -> 67
+  - Subtract: 18 - 67 = -49
+  - Reverse digits: -49 -> -94
+  - Replace the minus sign with `]`: ]94
+- 34?86
+  - Reverse inputs: 34 -> 43, 86 -> 68
+  - Add: 43 + 68 = 111
+  - Reverse result: 111 -> 111
+
+Step-by-step application to the query:
+1. Query: 22?34
+2. Reverse both inputs:
+   - 22 -> 22
+   - 34 -> 43
+3. `?` follows the addition version of the shared rule:
+   - 22 + 43 = 65
+4. Reverse the result:
+   - 65 -> 56
+
+Predicted answer:
+56
+
+Confidence note:
+High confidence. The three `]` examples and the `:` example strongly support the reverse-apply-reverse template, and the single `?` example matches the same pattern exactly.

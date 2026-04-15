@@ -1,0 +1,16 @@
+problem id: eac0e775
+category: cryptarithm_deduce
+
+symbol-to-digit mapping:
+
+operator-to-operation mapping:
+  '+' = rev_concat
+
+examples:
+  @@+)` = )`@@
+  <`-): = -|]
+  ^]*`/ = ^:|]
+
+query: <(+<@
+
+predicted answer: <@<(

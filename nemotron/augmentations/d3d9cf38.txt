@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 urger artigo table
+01 aucoup revived saisit
+02 rape referral centers
+
+This is a sample output.
+00 urger artigo table -> –u–r–g–e–r–a–r–t–i–g–o–t–a–b–l–e–
+01 aucoup revived saisit -> –a–u–c–o–u–p–r–e–v–i–v–e–d–s–a–i–s–i–t–
+02 rape referral centers -> –r–a–p–e–r–e–f–e–r–r–a–l–c–e–n–t–e–r–s–
+
+This is your input.
+00 volume wrapper entr
+01 otations outdoors nei
+02 env tabel dos
+03 ocard wars decision
+04 ucu lex templom
+05 ggreg manger deserve
+06 irait spa blok
+07 todo pov epistem
+08 mages bosque pratic
+09 amped headache matar
+10 implicit chauff provides
+11 unun esque doubles
+12 ob bancos faill
+13 ppe sirv trang
+14 brid infar helik
+15 uric selector idi
+16 dict profund daraus
+17 retanto fon etched
+18 steps solenoid mis
+19 hil approx selts
+20 boj zahr wuchs
+21 ienen iler csoport
+22 sn oval worries
+23 quare yes fontos
+24 arity osteo boucl
+25 sub escuchar furrow
+26 adier cul dzies
+27 ocal wert antigo
+28 rer stam mantuvo
+29 reu pintor latach
+30 imens personn dieses
+31 bruck peas tuf
+32 ebizitza lately niece
+33 commands regul giud
+34 ovit facile oldu
+35 dialog lens satire
+36 wen apare bun
+37 vre dite piem
+38 olen komb dziew
+39 ubern rad prawa
+40 enzhen pall neoplas
+41 imoto cambiado mutagen
+42 mys quarter paradig
+43 ogn sej white
+44 itants seni wrapping
+45 wochen nanom socio
+46 orta climatic duca
+47 personal vois ganado
+48 raad intimid viola
+49 gin pon logger
+50 bij myths managers
+51 oplas registre database
+52 jahr apropi peintre
+53 if cumple colores
+54 emben fasting firms
+55 idl without praying
+56 eney fent hel
+57 ickness sombr vuel
+58 layan nonin bullets
+59 wegen maint inspect
+60 rawer troub deliver
+61 alui zdecyd career
+62 urya warf amaz
+63 landet ops parece
+64 styles zs juta
+65 tour souri horien
+66 carece rimasto fatty
+67 gunt sys boli
+68 ustral lesion voet
+69 come wusste freedom
+70 logs okto war
+71 ique falsa symptoms
+72 schweig sehe vero
+73 emment confirms fenomen
+74 ajan hanno geval
+75 ikus black winters
+76 agno restes rins
+77 pf inertial erine
+78 uadr magna ordering
+79 uesp dic voidaan
+80 riendo changing summers
+81 route bila disf
+82 omal mutate pasaba
+83 ym taxon creator
+84 elyn quant pasta
+85 skog tag lectures
+86 andum jude rov
+87 ored olid scene
+88 ecurity alkoi comfort
+89 point celor loses
+90 ousands hacen veille
+91 bath siano jer
+92 endenti jis thereon
+93 ellte adier privacy
+94 ctions birthday agua
+95 iverse afili szen
+96 th sour breaks
+97 ueur mocked lateral
+98 chool twelfth vieux
+99 cribe baja forest
+[completion]
+00 volume wrapper entr -> –v–o–l–u–m–e–w–r–a–p–p–e–r–e–n–t–r–
+01 otations outdoors nei -> –o–t–a–t–i–o–n–s–o–u–t–d–o–o–r–s–n–e–i–
+02 env tabel dos -> –e–n–v–t–a–b–e–l–d–o–s–
+03 ocard wars decision -> –o–c–a–r–d–w–a–r–s–d–e–c–i–s–i–o–n–
+04 ucu lex templom -> –u–c–u–l–e–x–t–e–m–p–l–o–m–
+05 ggreg manger deserve -> –g–g–r–e–g–m–a–n–g–e–r–d–e–s–e–r–v–e–
+06 irait spa blok -> –i–r–a–i–t–s–p–a–b–l–o–k–
+07 todo pov epistem -> –t–o–d–o–p–o–v–e–p–i–s–t–e–m–
+08 mages bosque pratic -> –m–a–g–e–s–b–o–s–q–u–e–p–r–a–t–i–c–
+09 amped headache matar -> –a–m–p–e–d–h–e–a–d–a–c–h–e–m–a–t–a–r–
+10 implicit chauff provides -> –i–m–p–l–i–c–i–t–c–h–a–u–f–f–p–r–o–v–i–d–e–s–
+11 unun esque doubles -> –u–n–u–n–e–s–q–u–e–d–o–u–b–l–e–s–
+12 ob bancos faill -> –o–b–b–a–n–c–o–s–f–a–i–l–l–
+13 ppe sirv trang -> –p–p–e–s–i–r–v–t–r–a–n–g–
+14 brid infar helik -> –b–r–i–d–i–n–f–a–r–h–e–l–i–k–
+15 uric selector idi -> –u–r–i–c–s–e–l–e–c–t–o–r–i–d–i–
+16 dict profund daraus -> –d–i–c–t–p–r–o–f–u–n–d–d–a–r–a–u–s–
+17 retanto fon etched -> –r–e–t–a–n–t–o–f–o–n–e–t–c–h–e–d–
+18 steps solenoid mis -> –s–t–e–p–s–s–o–l–e–n–o–i–d–m–i–s–
+19 hil approx selts -> –h–i–l–a–p–p–r–o–x–s–e–l–t–s–
+20 boj zahr wuchs -> –b–o–j–z–a–h–r–w–u–c–h–s–
+21 ienen iler csoport -> –i–e–n–e–n–i–l–e–r–c–s–o–p–o–r–t–
+22 sn oval worries -> –s–n–o–v–a–l–w–o–r–r–i–e–s–
+23 quare yes fontos -> –q–u–a–r–e–y–e–s–f–o–n–t–o–s–
+24 arity osteo boucl -> –a–r–i–t–y–o–s–t–e–o–b–o–u–c–l–
+25 sub escuchar furrow -> –s–u–b–e–s–c–u–c–h–a–r–f–u–r–r–o–w–
+26 adier cul dzies -> –a–d–i–e–r–c–u–l–d–z–i–e–s–
+27 ocal wert antigo -> –o–c–a–l–w–e–r–t–a–n–t–i–g–o–
+28 rer stam mantuvo -> –r–e–r–s–t–a–m–m–a–n–t–u–v–o–
+29 reu pintor latach -> –r–e–u–p–i–n–t–o–r–l–a–t–a–c–h–
+30 imens personn dieses -> –i–m–e–n–s–p–e–r–s–o–n–n–d–i–e–s–e–s–
+31 bruck peas tuf -> –b–r–u–c–k–p–e–a–s–t–u–f–
+32 ebizitza lately niece -> –e–b–i–z–i–t–z–a–l–a–t–e–l–y–n–i–e–c–e–
+33 commands regul giud -> –c–o–m–m–a–n–d–s–r–e–g–u–l–g–i–u–d–
+34 ovit facile oldu -> –o–v–i–t–f–a–c–i–l–e–o–l–d–u–
+35 dialog lens satire -> –d–i–a–l–o–g–l–e–n–s–s–a–t–i–r–e–
+36 wen apare bun -> –w–e–n–a–p–a–r–e–b–u–n–
+37 vre dite piem -> –v–r–e–d–i–t–e–p–i–e–m–
+38 olen komb dziew -> –o–l–e–n–k–o–m–b–d–z–i–e–w–
+39 ubern rad prawa -> –u–b–e–r–n–r–a–d–p–r–a–w–a–
+40 enzhen pall neoplas -> –e–n–z–h–e–n–p–a–l–l–n–e–o–p–l–a–s–
+41 imoto cambiado mutagen -> –i–m–o–t–o–c–a–m–b–i–a–d–o–m–u–t–a–g–e–n–
+42 mys quarter paradig -> –m–y–s–q–u–a–r–t–e–r–p–a–r–a–d–i–g–
+43 ogn sej white -> –o–g–n–s–e–j–w–h–i–t–e–
+44 itants seni wrapping -> –i–t–a–n–t–s–s–e–n–i–w–r–a–p–p–i–n–g–
+45 wochen nanom socio -> –w–o–c–h–e–n–n–a–n–o–m–s–o–c–i–o–
+46 orta climatic duca -> –o–r–t–a–c–l–i–m–a–t–i–c–d–u–c–a–
+47 personal vois ganado -> –p–e–r–s–o–n–a–l–v–o–i–s–g–a–n–a–d–o–
+48 raad intimid viola -> –r–a–a–d–i–n–t–i–m–i–d–v–i–o–l–a–
+49 gin pon logger -> –g–i–n–p–o–n–l–o–g–g–e–r–
+50 bij myths managers -> –b–i–j–m–y–t–h–s–m–a–n–a–g–e–r–s–
+51 oplas registre database -> –o–p–l–a–s–r–e–g–i–s–t–r–e–d–a–t–a–b–a–s–e–
+52 jahr apropi peintre -> –j–a–h–r–a–p–r–o–p–i–p–e–i–n–t–r–e–
+53 if cumple colores -> –i–f–c–u–m–p–l–e–c–o–l–o–r–e–s–
+54 emben fasting firms -> –e–m–b–e–n–f–a–s–t–i–n–g–f–i–r–m–s–
+55 idl without praying -> –i–d–l–w–i–t–h–o–u–t–p–r–a–y–i–n–g–
+56 eney fent hel -> –e–n–e–y–f–e–n–t–h–e–l–
+57 ickness sombr vuel -> –i–c–k–n–e–s–s–s–o–m–b–r–v–u–e–l–
+58 layan nonin bullets -> –l–a–y–a–n–n–o–n–i–n–b–u–l–l–e–t–s–
+59 wegen maint inspect -> –w–e–g–e–n–m–a–i–n–t–i–n–s–p–e–c–t–
+60 rawer troub deliver -> –r–a–w–e–r–t–r–o–u–b–d–e–l–i–v–e–r–
+61 alui zdecyd career -> –a–l–u–i–z–d–e–c–y–d–c–a–r–e–e–r–
+62 urya warf amaz -> –u–r–y–a–w–a–r–f–a–m–a–z–
+63 landet ops parece -> –l–a–n–d–e–t–o–p–s–p–a–r–e–c–e–
+64 styles zs juta -> –s–t–y–l–e–s–z–s–j–u–t–a–
+65 tour souri horien -> –t–o–u–r–s–o–u–r–i–h–o–r–i–e–n–
+66 carece rimasto fatty -> –c–a–r–e–c–e–r–i–m–a–s–t–o–f–a–t–t–y–
+67 gunt sys boli -> –g–u–n–t–s–y–s–b–o–l–i–
+68 ustral lesion voet -> –u–s–t–r–a–l–l–e–s–i–o–n–v–o–e–t–
+69 come wusste freedom -> –c–o–m–e–w–u–s–s–t–e–f–r–e–e–d–o–m–
+70 logs okto war -> –l–o–g–s–o–k–t–o–w–a–r–
+71 ique falsa symptoms -> –i–q–u–e–f–a–l–s–a–s–y–m–p–t–o–m–s–
+72 schweig sehe vero -> –s–c–h–w–e–i–g–s–e–h–e–v–e–r–o–
+73 emment confirms fenomen -> –e–m–m–e–n–t–c–o–n–f–i–r–m–s–f–e–n–o–m–e–n–
+74 ajan hanno geval -> –a–j–a–n–h–a–n–n–o–g–e–v–a–l–
+75 ikus black winters -> –i–k–u–s–b–l–a–c–k–w–i–n–t–e–r–s–
+76 agno restes rins -> –a–g–n–o–r–e–s–t–e–s–r–i–n–s–
+77 pf inertial erine -> –p–f–i–n–e–r–t–i–a–l–e–r–i–n–e–
+78 uadr magna ordering -> –u–a–d–r–m–a–g–n–a–o–r–d–e–r–i–n–g–
+79 uesp dic voidaan -> –u–e–s–p–d–i–c–v–o–i–d–a–a–n–
+80 riendo changing summers -> –r–i–e–n–d–o–c–h–a–n–g–i–n–g–s–u–m–m–e–r–s–
+81 route bila disf -> –r–o–u–t–e–b–i–l–a–d–i–s–f–
+82 omal mutate pasaba -> –o–m–a–l–m–u–t–a–t–e–p–a–s–a–b–a–
+83 ym taxon creator -> –y–m–t–a–x–o–n–c–r–e–a–t–o–r–
+84 elyn quant pasta -> –e–l–y–n–q–u–a–n–t–p–a–s–t–a–
+85 skog tag lectures -> –s–k–o–g–t–a–g–l–e–c–t–u–r–e–s–
+86 andum jude rov -> –a–n–d–u–m–j–u–d–e–r–o–v–
+87 ored olid scene -> –o–r–e–d–o–l–i–d–s–c–e–n–e–
+88 ecurity alkoi comfort -> –e–c–u–r–i–t–y–a–l–k–o–i–c–o–m–f–o–r–t–
+89 point celor loses -> –p–o–i–n–t–c–e–l–o–r–l–o–s–e–s–
+90 ousands hacen veille -> –o–u–s–a–n–d–s–h–a–c–e–n–v–e–i–l–l–e–
+91 bath siano jer -> –b–a–t–h–s–i–a–n–o–j–e–r–
+92 endenti jis thereon -> –e–n–d–e–n–t–i–j–i–s–t–h–e–r–e–o–n–
+93 ellte adier privacy -> –e–l–l–t–e–a–d–i–e–r–p–r–i–v–a–c–y–
+94 ctions birthday agua -> –c–t–i–o–n–s–b–i–r–t–h–d–a–y–a–g–u–a–
+95 iverse afili szen -> –i–v–e–r–s–e–a–f–i–l–i–s–z–e–n–
+96 th sour breaks -> –t–h–s–o–u–r–b–r–e–a–k–s–
+97 ueur mocked lateral -> –u–e–u–r–m–o–c–k–e–d–l–a–t–e–r–a–l–
+98 chool twelfth vieux -> –c–h–o–o–l–t–w–e–l–f–t–h–v–i–e–u–x–
+99 cribe baja forest -> –c–r–i–b–e–b–a–j–a–f–o–r–e–s–t–

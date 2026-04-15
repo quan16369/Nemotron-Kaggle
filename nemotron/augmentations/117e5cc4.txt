@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 ometra taste amic
+01 kund costly loy
+02 leting toma aktive
+
+This is a sample output.
+00 ometra taste amic -> –o–m–e–t–r–a–t–a–s–t–e–a–m–i–c–
+01 kund costly loy -> –k–u–n–d–c–o–s–t–l–y–l–o–y–
+02 leting toma aktive -> –l–e–t–i–n–g–t–o–m–a–a–k–t–i–v–e–
+
+This is your input.
+00 iries ask citiz
+01 stract kasut wasting
+02 undi drinking picture
+03 olution anggota antiguo
+04 iae lyr visage
+05 inci noire racon
+06 ataan albumu obesity
+07 itzt pak atraves
+08 stagram monitor secretly
+09 ilish raffigur vit
+10 tnie discs sommeil
+11 acritic pessoal genes
+12 haften kwargs irak
+13 onos airs drawn
+14 jeno inver cancel
+15 ansi lin lanes
+16 ications indices artigo
+17 organic shaken abaste
+18 imine ases affair
+19 lational seva souviens
+20 hee costly agg
+21 alet erzeugt maga
+22 riz infra carros
+23 map ferrov sociais
+24 rugada tud grave
+25 atural occident houden
+26 seg arbe vigil
+27 node slopes emitter
+28 ourses carbonyl islas
+29 toggle faccia flera
+30 falen desenc pregnant
+31 ricao pobres unknown
+32 par libert lehet
+33 assin appreci nab
+34 elo confirma yourself
+35 olak percent sto
+36 vinyl chimeric schlim
+37 ovski holy adipis
+38 nego league dauerte
+39 apis adip hated
+40 cpy gebaut filial
+41 plicate uv vahel
+42 ifat koko spett
+43 icken senses duda
+44 uruh inclus mysql
+45 wall provient estreou
+46 mic nauf los
+47 flower cervical goth
+48 agle pans disreg
+49 mites pasar besser
+50 wert podido purity
+51 flash przem instal
+52 cas fall produces
+53 spieler gross mutated
+54 rile sorozat alike
+55 zech oedd reappe
+56 voices veulent taught
+57 ydd graphene markedly
+58 obo loyal const
+59 obby noto firme
+60 cells tira alleles
+61 ibrary severity gitt
+62 resolve mittler address
+63 endeu mestre turtle
+64 past encant holand
+65 isd incluy progeny
+66 dl parola vacu
+67 making dritte monarca
+68 atius hine concurs
+69 osecond snel interior
+70 issing defaults viagem
+71 avad summon toys
+72 elian raggiung stod
+73 book voz aimer
+74 ograd traces outer
+75 adrons inne glasses
+76 teilen exch thir
+77 credited instituc census
+78 emburg supplied precum
+79 ainak semula tribes
+80 rays mixte soltanto
+81 alea upset semplic
+82 ophan excret ytter
+83 ritic risp sais
+84 ansa trol verkla
+85 opan margin armo
+86 ears bulegoa kuid
+87 herbe thuy ocasi
+88 amik viaj urine
+89 yze hlad sj
+90 rangle ruler narrower
+91 adoop difesa rookie
+92 ismes strap partidos
+93 archive cages crafted
+94 taa energet dou
+95 enas csrf ships
+96 illed critic direito
+97 submit spolu abbre
+98 ratings unbek grasp
+99 eroid mereka youths
+[completion]
+00 iries ask citiz -> –i–r–i–e–s–a–s–k–c–i–t–i–z–
+01 stract kasut wasting -> –s–t–r–a–c–t–k–a–s–u–t–w–a–s–t–i–n–g–
+02 undi drinking picture -> –u–n–d–i–d–r–i–n–k–i–n–g–p–i–c–t–u–r–e–
+03 olution anggota antiguo -> –o–l–u–t–i–o–n–a–n–g–g–o–t–a–a–n–t–i–g–u–o–
+04 iae lyr visage -> –i–a–e–l–y–r–v–i–s–a–g–e–
+05 inci noire racon -> –i–n–c–i–n–o–i–r–e–r–a–c–o–n–
+06 ataan albumu obesity -> –a–t–a–a–n–a–l–b–u–m–u–o–b–e–s–i–t–y–
+07 itzt pak atraves -> –i–t–z–t–p–a–k–a–t–r–a–v–e–s–
+08 stagram monitor secretly -> –s–t–a–g–r–a–m–m–o–n–i–t–o–r–s–e–c–r–e–t–l–y–
+09 ilish raffigur vit -> –i–l–i–s–h–r–a–f–f–i–g–u–r–v–i–t–
+10 tnie discs sommeil -> –t–n–i–e–d–i–s–c–s–s–o–m–m–e–i–l–
+11 acritic pessoal genes -> –a–c–r–i–t–i–c–p–e–s–s–o–a–l–g–e–n–e–s–
+12 haften kwargs irak -> –h–a–f–t–e–n–k–w–a–r–g–s–i–r–a–k–
+13 onos airs drawn -> –o–n–o–s–a–i–r–s–d–r–a–w–n–
+14 jeno inver cancel -> –j–e–n–o–i–n–v–e–r–c–a–n–c–e–l–
+15 ansi lin lanes -> –a–n–s–i–l–i–n–l–a–n–e–s–
+16 ications indices artigo -> –i–c–a–t–i–o–n–s–i–n–d–i–c–e–s–a–r–t–i–g–o–
+17 organic shaken abaste -> –o–r–g–a–n–i–c–s–h–a–k–e–n–a–b–a–s–t–e–
+18 imine ases affair -> –i–m–i–n–e–a–s–e–s–a–f–f–a–i–r–
+19 lational seva souviens -> –l–a–t–i–o–n–a–l–s–e–v–a–s–o–u–v–i–e–n–s–
+20 hee costly agg -> –h–e–e–c–o–s–t–l–y–a–g–g–
+21 alet erzeugt maga -> –a–l–e–t–e–r–z–e–u–g–t–m–a–g–a–
+22 riz infra carros -> –r–i–z–i–n–f–r–a–c–a–r–r–o–s–
+23 map ferrov sociais -> –m–a–p–f–e–r–r–o–v–s–o–c–i–a–i–s–
+24 rugada tud grave -> –r–u–g–a–d–a–t–u–d–g–r–a–v–e–
+25 atural occident houden -> –a–t–u–r–a–l–o–c–c–i–d–e–n–t–h–o–u–d–e–n–
+26 seg arbe vigil -> –s–e–g–a–r–b–e–v–i–g–i–l–
+27 node slopes emitter -> –n–o–d–e–s–l–o–p–e–s–e–m–i–t–t–e–r–
+28 ourses carbonyl islas -> –o–u–r–s–e–s–c–a–r–b–o–n–y–l–i–s–l–a–s–
+29 toggle faccia flera -> –t–o–g–g–l–e–f–a–c–c–i–a–f–l–e–r–a–
+30 falen desenc pregnant -> –f–a–l–e–n–d–e–s–e–n–c–p–r–e–g–n–a–n–t–
+31 ricao pobres unknown -> –r–i–c–a–o–p–o–b–r–e–s–u–n–k–n–o–w–n–
+32 par libert lehet -> –p–a–r–l–i–b–e–r–t–l–e–h–e–t–
+33 assin appreci nab -> –a–s–s–i–n–a–p–p–r–e–c–i–n–a–b–
+34 elo confirma yourself -> –e–l–o–c–o–n–f–i–r–m–a–y–o–u–r–s–e–l–f–
+35 olak percent sto -> –o–l–a–k–p–e–r–c–e–n–t–s–t–o–
+36 vinyl chimeric schlim -> –v–i–n–y–l–c–h–i–m–e–r–i–c–s–c–h–l–i–m–
+37 ovski holy adipis -> –o–v–s–k–i–h–o–l–y–a–d–i–p–i–s–
+38 nego league dauerte -> –n–e–g–o–l–e–a–g–u–e–d–a–u–e–r–t–e–
+39 apis adip hated -> –a–p–i–s–a–d–i–p–h–a–t–e–d–
+40 cpy gebaut filial -> –c–p–y–g–e–b–a–u–t–f–i–l–i–a–l–
+41 plicate uv vahel -> –p–l–i–c–a–t–e–u–v–v–a–h–e–l–
+42 ifat koko spett -> –i–f–a–t–k–o–k–o–s–p–e–t–t–
+43 icken senses duda -> –i–c–k–e–n–s–e–n–s–e–s–d–u–d–a–
+44 uruh inclus mysql -> –u–r–u–h–i–n–c–l–u–s–m–y–s–q–l–
+45 wall provient estreou -> –w–a–l–l–p–r–o–v–i–e–n–t–e–s–t–r–e–o–u–
+46 mic nauf los -> –m–i–c–n–a–u–f–l–o–s–
+47 flower cervical goth -> –f–l–o–w–e–r–c–e–r–v–i–c–a–l–g–o–t–h–
+48 agle pans disreg -> –a–g–l–e–p–a–n–s–d–i–s–r–e–g–
+49 mites pasar besser -> –m–i–t–e–s–p–a–s–a–r–b–e–s–s–e–r–
+50 wert podido purity -> –w–e–r–t–p–o–d–i–d–o–p–u–r–i–t–y–
+51 flash przem instal -> –f–l–a–s–h–p–r–z–e–m–i–n–s–t–a–l–
+52 cas fall produces -> –c–a–s–f–a–l–l–p–r–o–d–u–c–e–s–
+53 spieler gross mutated -> –s–p–i–e–l–e–r–g–r–o–s–s–m–u–t–a–t–e–d–
+54 rile sorozat alike -> –r–i–l–e–s–o–r–o–z–a–t–a–l–i–k–e–
+55 zech oedd reappe -> –z–e–c–h–o–e–d–d–r–e–a–p–p–e–
+56 voices veulent taught -> –v–o–i–c–e–s–v–e–u–l–e–n–t–t–a–u–g–h–t–
+57 ydd graphene markedly -> –y–d–d–g–r–a–p–h–e–n–e–m–a–r–k–e–d–l–y–
+58 obo loyal const -> –o–b–o–l–o–y–a–l–c–o–n–s–t–
+59 obby noto firme -> –o–b–b–y–n–o–t–o–f–i–r–m–e–
+60 cells tira alleles -> –c–e–l–l–s–t–i–r–a–a–l–l–e–l–e–s–
+61 ibrary severity gitt -> –i–b–r–a–r–y–s–e–v–e–r–i–t–y–g–i–t–t–
+62 resolve mittler address -> –r–e–s–o–l–v–e–m–i–t–t–l–e–r–a–d–d–r–e–s–s–
+63 endeu mestre turtle -> –e–n–d–e–u–m–e–s–t–r–e–t–u–r–t–l–e–
+64 past encant holand -> –p–a–s–t–e–n–c–a–n–t–h–o–l–a–n–d–
+65 isd incluy progeny -> –i–s–d–i–n–c–l–u–y–p–r–o–g–e–n–y–
+66 dl parola vacu -> –d–l–p–a–r–o–l–a–v–a–c–u–
+67 making dritte monarca -> –m–a–k–i–n–g–d–r–i–t–t–e–m–o–n–a–r–c–a–
+68 atius hine concurs -> –a–t–i–u–s–h–i–n–e–c–o–n–c–u–r–s–
+69 osecond snel interior -> –o–s–e–c–o–n–d–s–n–e–l–i–n–t–e–r–i–o–r–
+70 issing defaults viagem -> –i–s–s–i–n–g–d–e–f–a–u–l–t–s–v–i–a–g–e–m–
+71 avad summon toys -> –a–v–a–d–s–u–m–m–o–n–t–o–y–s–
+72 elian raggiung stod -> –e–l–i–a–n–r–a–g–g–i–u–n–g–s–t–o–d–
+73 book voz aimer -> –b–o–o–k–v–o–z–a–i–m–e–r–
+74 ograd traces outer -> –o–g–r–a–d–t–r–a–c–e–s–o–u–t–e–r–
+75 adrons inne glasses -> –a–d–r–o–n–s–i–n–n–e–g–l–a–s–s–e–s–
+76 teilen exch thir -> –t–e–i–l–e–n–e–x–c–h–t–h–i–r–
+77 credited instituc census -> –c–r–e–d–i–t–e–d–i–n–s–t–i–t–u–c–c–e–n–s–u–s–
+78 emburg supplied precum -> –e–m–b–u–r–g–s–u–p–p–l–i–e–d–p–r–e–c–u–m–
+79 ainak semula tribes -> –a–i–n–a–k–s–e–m–u–l–a–t–r–i–b–e–s–
+80 rays mixte soltanto -> –r–a–y–s–m–i–x–t–e–s–o–l–t–a–n–t–o–
+81 alea upset semplic -> –a–l–e–a–u–p–s–e–t–s–e–m–p–l–i–c–
+82 ophan excret ytter -> –o–p–h–a–n–e–x–c–r–e–t–y–t–t–e–r–
+83 ritic risp sais -> –r–i–t–i–c–r–i–s–p–s–a–i–s–
+84 ansa trol verkla -> –a–n–s–a–t–r–o–l–v–e–r–k–l–a–
+85 opan margin armo -> –o–p–a–n–m–a–r–g–i–n–a–r–m–o–
+86 ears bulegoa kuid -> –e–a–r–s–b–u–l–e–g–o–a–k–u–i–d–
+87 herbe thuy ocasi -> –h–e–r–b–e–t–h–u–y–o–c–a–s–i–
+88 amik viaj urine -> –a–m–i–k–v–i–a–j–u–r–i–n–e–
+89 yze hlad sj -> –y–z–e–h–l–a–d–s–j–
+90 rangle ruler narrower -> –r–a–n–g–l–e–r–u–l–e–r–n–a–r–r–o–w–e–r–
+91 adoop difesa rookie -> –a–d–o–o–p–d–i–f–e–s–a–r–o–o–k–i–e–
+92 ismes strap partidos -> –i–s–m–e–s–s–t–r–a–p–p–a–r–t–i–d–o–s–
+93 archive cages crafted -> –a–r–c–h–i–v–e–c–a–g–e–s–c–r–a–f–t–e–d–
+94 taa energet dou -> –t–a–a–e–n–e–r–g–e–t–d–o–u–
+95 enas csrf ships -> –e–n–a–s–c–s–r–f–s–h–i–p–s–
+96 illed critic direito -> –i–l–l–e–d–c–r–i–t–i–c–d–i–r–e–i–t–o–
+97 submit spolu abbre -> –s–u–b–m–i–t–s–p–o–l–u–a–b–b–r–e–
+98 ratings unbek grasp -> –r–a–t–i–n–g–s–u–n–b–e–k–g–r–a–s–p–
+99 eroid mereka youths -> –e–r–o–i–d–m–e–r–e–k–a–y–o–u–t–h–s–

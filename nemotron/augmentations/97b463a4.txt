@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 seaux despe suggests
+01 isaient dynamic dairy
+02 agles chic convo
+
+This is a sample output.
+00 seaux despe suggests -> –s–e–a–u–x–d–e–s–p–e–s–u–g–g–e–s–t–s–
+01 isaient dynamic dairy -> –i–s–a–i–e–n–t–d–y–n–a–m–i–c–d–a–i–r–y–
+02 agles chic convo -> –a–g–l–e–s–c–h–i–c–c–o–n–v–o–
+
+This is your input.
+00 kafka egz quadr
+01 azioko reacc crk
+02 caffold deixou setzen
+03 nej hoff analyzes
+04 mern dient reducing
+05 avent pur elector
+06 aliy mirrors dokument
+07 elsh einfache serio
+08 aga bambini dense
+09 uring nid ciencias
+10 cak mildly detalle
+11 neamente primates attorney
+12 def latest tort
+13 versa sidebar profiles
+14 itaj wondered sebelum
+15 itekt patriot brat
+16 ating console hlav
+17 gh stripped raccol
+18 iks crisi klasse
+19 editable compon vou
+20 ould zentrale publicly
+21 zut jedem toggle
+22 vable heredit seine
+23 uant objectif inning
+24 cling dessus der
+25 blocks murine born
+26 del persones lining
+27 erus nodded dapat
+28 ked podnik slaves
+29 appear indien termini
+30 replace prodotto drill
+31 cco cursor solche
+32 inherit fetched macht
+33 bas zim thinkers
+34 jah branched actuelle
+35 retval kills avv
+36 ond bronch grat
+37 itent actif consumo
+38 itra viajar doped
+39 haven volumes balcony
+40 sehen tuttavia commemor
+41 ignal carriera pr
+42 ker delante sped
+43 durch sinter been
+44 ico earliest gap
+45 enaar tourisme dealing
+46 kerne secou jorn
+47 trice coiled valet
+48 nale cotton lun
+49 iare genere mindre
+50 zon monks marker
+51 teurs emphas titres
+52 pass trabajar oorlog
+53 measure reina kull
+54 lets konstant pin
+55 mit pesso funds
+56 ens grades fum
+57 rowse sze detr
+58 kok promises math
+59 astern stan zet
+60 gebra answers oblig
+61 olean sights hints
+62 alph acetic dyes
+63 ipped bedre headers
+64 islava hohe chaude
+65 otide colonia erweit
+66 hy scu toujours
+67 kia reichte entour
+68 otto katal groot
+69 alions ust shelter
+70 eine steht acord
+71 oubt voie vond
+72 ruct hund medias
+73 up blij chirurg
+74 eeper sailed graphic
+75 ittaa usa pai
+76 viv derrot garage
+77 aleigh sadly header
+78 oween jedynie marcador
+79 uy relieved immobil
+80 bidden poul fragte
+81 red ikke temple
+82 mare sb opus
+83 chu concret deaf
+84 wes glanced fragile
+85 insula minu positive
+86 bbero montant shouting
+87 ynu parfois tamm
+88 cdnjs hisob aviation
+89 odal magaz mediate
+90 elig propriet scratch
+91 acionais comune strang
+92 jala lights ingur
+93 iami prosince pkt
+94 ife penal torres
+95 arn coils izv
+96 json flota acred
+97 izzata numerose colorful
+98 uvat rivals ayr
+99 aza psychic noms
+[completion]
+00 kafka egz quadr -> –k–a–f–k–a–e–g–z–q–u–a–d–r–
+01 azioko reacc crk -> –a–z–i–o–k–o–r–e–a–c–c–c–r–k–
+02 caffold deixou setzen -> –c–a–f–f–o–l–d–d–e–i–x–o–u–s–e–t–z–e–n–
+03 nej hoff analyzes -> –n–e–j–h–o–f–f–a–n–a–l–y–z–e–s–
+04 mern dient reducing -> –m–e–r–n–d–i–e–n–t–r–e–d–u–c–i–n–g–
+05 avent pur elector -> –a–v–e–n–t–p–u–r–e–l–e–c–t–o–r–
+06 aliy mirrors dokument -> –a–l–i–y–m–i–r–r–o–r–s–d–o–k–u–m–e–n–t–
+07 elsh einfache serio -> –e–l–s–h–e–i–n–f–a–c–h–e–s–e–r–i–o–
+08 aga bambini dense -> –a–g–a–b–a–m–b–i–n–i–d–e–n–s–e–
+09 uring nid ciencias -> –u–r–i–n–g–n–i–d–c–i–e–n–c–i–a–s–
+10 cak mildly detalle -> –c–a–k–m–i–l–d–l–y–d–e–t–a–l–l–e–
+11 neamente primates attorney -> –n–e–a–m–e–n–t–e–p–r–i–m–a–t–e–s–a–t–t–o–r–n–e–y–
+12 def latest tort -> –d–e–f–l–a–t–e–s–t–t–o–r–t–
+13 versa sidebar profiles -> –v–e–r–s–a–s–i–d–e–b–a–r–p–r–o–f–i–l–e–s–
+14 itaj wondered sebelum -> –i–t–a–j–w–o–n–d–e–r–e–d–s–e–b–e–l–u–m–
+15 itekt patriot brat -> –i–t–e–k–t–p–a–t–r–i–o–t–b–r–a–t–
+16 ating console hlav -> –a–t–i–n–g–c–o–n–s–o–l–e–h–l–a–v–
+17 gh stripped raccol -> –g–h–s–t–r–i–p–p–e–d–r–a–c–c–o–l–
+18 iks crisi klasse -> –i–k–s–c–r–i–s–i–k–l–a–s–s–e–
+19 editable compon vou -> –e–d–i–t–a–b–l–e–c–o–m–p–o–n–v–o–u–
+20 ould zentrale publicly -> –o–u–l–d–z–e–n–t–r–a–l–e–p–u–b–l–i–c–l–y–
+21 zut jedem toggle -> –z–u–t–j–e–d–e–m–t–o–g–g–l–e–
+22 vable heredit seine -> –v–a–b–l–e–h–e–r–e–d–i–t–s–e–i–n–e–
+23 uant objectif inning -> –u–a–n–t–o–b–j–e–c–t–i–f–i–n–n–i–n–g–
+24 cling dessus der -> –c–l–i–n–g–d–e–s–s–u–s–d–e–r–
+25 blocks murine born -> –b–l–o–c–k–s–m–u–r–i–n–e–b–o–r–n–
+26 del persones lining -> –d–e–l–p–e–r–s–o–n–e–s–l–i–n–i–n–g–
+27 erus nodded dapat -> –e–r–u–s–n–o–d–d–e–d–d–a–p–a–t–
+28 ked podnik slaves -> –k–e–d–p–o–d–n–i–k–s–l–a–v–e–s–
+29 appear indien termini -> –a–p–p–e–a–r–i–n–d–i–e–n–t–e–r–m–i–n–i–
+30 replace prodotto drill -> –r–e–p–l–a–c–e–p–r–o–d–o–t–t–o–d–r–i–l–l–
+31 cco cursor solche -> –c–c–o–c–u–r–s–o–r–s–o–l–c–h–e–
+32 inherit fetched macht -> –i–n–h–e–r–i–t–f–e–t–c–h–e–d–m–a–c–h–t–
+33 bas zim thinkers -> –b–a–s–z–i–m–t–h–i–n–k–e–r–s–
+34 jah branched actuelle -> –j–a–h–b–r–a–n–c–h–e–d–a–c–t–u–e–l–l–e–
+35 retval kills avv -> –r–e–t–v–a–l–k–i–l–l–s–a–v–v–
+36 ond bronch grat -> –o–n–d–b–r–o–n–c–h–g–r–a–t–
+37 itent actif consumo -> –i–t–e–n–t–a–c–t–i–f–c–o–n–s–u–m–o–
+38 itra viajar doped -> –i–t–r–a–v–i–a–j–a–r–d–o–p–e–d–
+39 haven volumes balcony -> –h–a–v–e–n–v–o–l–u–m–e–s–b–a–l–c–o–n–y–
+40 sehen tuttavia commemor -> –s–e–h–e–n–t–u–t–t–a–v–i–a–c–o–m–m–e–m–o–r–
+41 ignal carriera pr -> –i–g–n–a–l–c–a–r–r–i–e–r–a–p–r–
+42 ker delante sped -> –k–e–r–d–e–l–a–n–t–e–s–p–e–d–
+43 durch sinter been -> –d–u–r–c–h–s–i–n–t–e–r–b–e–e–n–
+44 ico earliest gap -> –i–c–o–e–a–r–l–i–e–s–t–g–a–p–
+45 enaar tourisme dealing -> –e–n–a–a–r–t–o–u–r–i–s–m–e–d–e–a–l–i–n–g–
+46 kerne secou jorn -> –k–e–r–n–e–s–e–c–o–u–j–o–r–n–
+47 trice coiled valet -> –t–r–i–c–e–c–o–i–l–e–d–v–a–l–e–t–
+48 nale cotton lun -> –n–a–l–e–c–o–t–t–o–n–l–u–n–
+49 iare genere mindre -> –i–a–r–e–g–e–n–e–r–e–m–i–n–d–r–e–
+50 zon monks marker -> –z–o–n–m–o–n–k–s–m–a–r–k–e–r–
+51 teurs emphas titres -> –t–e–u–r–s–e–m–p–h–a–s–t–i–t–r–e–s–
+52 pass trabajar oorlog -> –p–a–s–s–t–r–a–b–a–j–a–r–o–o–r–l–o–g–
+53 measure reina kull -> –m–e–a–s–u–r–e–r–e–i–n–a–k–u–l–l–
+54 lets konstant pin -> –l–e–t–s–k–o–n–s–t–a–n–t–p–i–n–
+55 mit pesso funds -> –m–i–t–p–e–s–s–o–f–u–n–d–s–
+56 ens grades fum -> –e–n–s–g–r–a–d–e–s–f–u–m–
+57 rowse sze detr -> –r–o–w–s–e–s–z–e–d–e–t–r–
+58 kok promises math -> –k–o–k–p–r–o–m–i–s–e–s–m–a–t–h–
+59 astern stan zet -> –a–s–t–e–r–n–s–t–a–n–z–e–t–
+60 gebra answers oblig -> –g–e–b–r–a–a–n–s–w–e–r–s–o–b–l–i–g–
+61 olean sights hints -> –o–l–e–a–n–s–i–g–h–t–s–h–i–n–t–s–
+62 alph acetic dyes -> –a–l–p–h–a–c–e–t–i–c–d–y–e–s–
+63 ipped bedre headers -> –i–p–p–e–d–b–e–d–r–e–h–e–a–d–e–r–s–
+64 islava hohe chaude -> –i–s–l–a–v–a–h–o–h–e–c–h–a–u–d–e–
+65 otide colonia erweit -> –o–t–i–d–e–c–o–l–o–n–i–a–e–r–w–e–i–t–
+66 hy scu toujours -> –h–y–s–c–u–t–o–u–j–o–u–r–s–
+67 kia reichte entour -> –k–i–a–r–e–i–c–h–t–e–e–n–t–o–u–r–
+68 otto katal groot -> –o–t–t–o–k–a–t–a–l–g–r–o–o–t–
+69 alions ust shelter -> –a–l–i–o–n–s–u–s–t–s–h–e–l–t–e–r–
+70 eine steht acord -> –e–i–n–e–s–t–e–h–t–a–c–o–r–d–
+71 oubt voie vond -> –o–u–b–t–v–o–i–e–v–o–n–d–
+72 ruct hund medias -> –r–u–c–t–h–u–n–d–m–e–d–i–a–s–
+73 up blij chirurg -> –u–p–b–l–i–j–c–h–i–r–u–r–g–
+74 eeper sailed graphic -> –e–e–p–e–r–s–a–i–l–e–d–g–r–a–p–h–i–c–
+75 ittaa usa pai -> –i–t–t–a–a–u–s–a–p–a–i–
+76 viv derrot garage -> –v–i–v–d–e–r–r–o–t–g–a–r–a–g–e–
+77 aleigh sadly header -> –a–l–e–i–g–h–s–a–d–l–y–h–e–a–d–e–r–
+78 oween jedynie marcador -> –o–w–e–e–n–j–e–d–y–n–i–e–m–a–r–c–a–d–o–r–
+79 uy relieved immobil -> –u–y–r–e–l–i–e–v–e–d–i–m–m–o–b–i–l–
+80 bidden poul fragte -> –b–i–d–d–e–n–p–o–u–l–f–r–a–g–t–e–
+81 red ikke temple -> –r–e–d–i–k–k–e–t–e–m–p–l–e–
+82 mare sb opus -> –m–a–r–e–s–b–o–p–u–s–
+83 chu concret deaf -> –c–h–u–c–o–n–c–r–e–t–d–e–a–f–
+84 wes glanced fragile -> –w–e–s–g–l–a–n–c–e–d–f–r–a–g–i–l–e–
+85 insula minu positive -> –i–n–s–u–l–a–m–i–n–u–p–o–s–i–t–i–v–e–
+86 bbero montant shouting -> –b–b–e–r–o–m–o–n–t–a–n–t–s–h–o–u–t–i–n–g–
+87 ynu parfois tamm -> –y–n–u–p–a–r–f–o–i–s–t–a–m–m–
+88 cdnjs hisob aviation -> –c–d–n–j–s–h–i–s–o–b–a–v–i–a–t–i–o–n–
+89 odal magaz mediate -> –o–d–a–l–m–a–g–a–z–m–e–d–i–a–t–e–
+90 elig propriet scratch -> –e–l–i–g–p–r–o–p–r–i–e–t–s–c–r–a–t–c–h–
+91 acionais comune strang -> –a–c–i–o–n–a–i–s–c–o–m–u–n–e–s–t–r–a–n–g–
+92 jala lights ingur -> –j–a–l–a–l–i–g–h–t–s–i–n–g–u–r–
+93 iami prosince pkt -> –i–a–m–i–p–r–o–s–i–n–c–e–p–k–t–
+94 ife penal torres -> –i–f–e–p–e–n–a–l–t–o–r–r–e–s–
+95 arn coils izv -> –a–r–n–c–o–i–l–s–i–z–v–
+96 json flota acred -> –j–s–o–n–f–l–o–t–a–a–c–r–e–d–
+97 izzata numerose colorful -> –i–z–z–a–t–a–n–u–m–e–r–o–s–e–c–o–l–o–r–f–u–l–
+98 uvat rivals ayr -> –u–v–a–t–r–i–v–a–l–s–a–y–r–
+99 aza psychic noms -> –a–z–a–p–s–y–c–h–i–c–n–o–m–s–

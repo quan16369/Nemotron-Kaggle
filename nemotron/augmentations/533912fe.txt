@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 ppo wollen nul
+01 icier epistem erreicht
+02 gex hukum des
+
+This is a sample output.
+00 ppo wollen nul -> –p–p–o–w–o–l–l–e–n–n–u–l–
+01 icier epistem erreicht -> –i–c–i–e–r–e–p–i–s–t–e–m–e–r–r–e–i–c–h–t–
+02 gex hukum des -> –g–e–x–h–u–k–u–m–d–e–s–
+
+This is your input.
+00 airs usos interle
+01 leme tried hydroly
+02 itable grill contrib
+03 illos kali grafts
+04 kungan nog fi
+05 ymmetric entend fl
+06 avez tribunal widened
+07 millan maillot respeto
+08 ductor society norsk
+09 rot perdue hocha
+10 ertid cuadro species
+11 jugated rubber cuentas
+12 onymie definite leger
+13 utlich voit diseg
+14 vements cruz hinge
+15 metadata crimin stealing
+16 ivel ra echter
+17 form roze gloves
+18 target suoi caos
+19 objects noe plots
+20 align voitti hemis
+21 otti gre pagan
+22 ocracy ground efic
+23 uk epigen virus
+24 apsed causing which
+25 ruzione diss devaient
+26 umbn posible surveyed
+27 brei shaking incarcer
+28 hole misma build
+29 emph graphs stere
+30 cuador menc vien
+31 edev basada descubre
+32 oded daher osoba
+33 enso niveau passaram
+34 zeta helical acquies
+35 ekin olhar dets
+36 plas versa ceram
+37 izer znan secret
+38 ultural gud palco
+39 ciples psic strongly
+40 uie zh impost
+41 mers exp poden
+42 prost fig glob
+43 hip simul fulf
+44 fon pen ocular
+45 istique paroles horas
+46 riker deposits seminal
+47 tar option fleuve
+48 schrift rich llevar
+49 halte verand extrem
+50 ifie abajo mus
+51 arry verh sailing
+52 ropy servir remarqu
+53 pline ditem sieht
+54 ocytic wen miracles
+55 acidad tow ceramics
+56 lear mein recurr
+57 retto adhesion querer
+58 ochet glory olay
+59 ikawa retrou eines
+60 forme reminis povas
+61 edin call docteur
+62 download novembre block
+63 idez ministre chefe
+64 pli nuo dizer
+65 ends bend zenb
+66 ritical heim athletic
+67 items wird popula
+68 ags caccia negeri
+69 union nueve recru
+70 irken villain regno
+71 zeugen etn ennemi
+72 gunta dute backbone
+73 elow gp pick
+74 ithub combine bande
+75 mai twice diren
+76 icot uralkod brid
+77 inking fortal probleme
+78 emples filming routing
+79 nim apunt derivada
+80 rians murm topical
+81 endre swollen ensuing
+82 wydd evening slou
+83 atos swords devait
+84 gyan union famously
+85 etta eusk exercise
+86 jarah pictures qol
+87 antwort modulus author
+88 lost biolog portant
+89 zkod unt politico
+90 jero produk floors
+91 igny battant parsed
+92 chent hossz cadres
+93 engo secu letech
+94 umb annon spinal
+95 skom jednost dragged
+96 ights untern ensuite
+97 ylic pihak yak
+98 stasy womit utilize
+99 oran ae sheer
+[completion]
+00 airs usos interle -> –a–i–r–s–u–s–o–s–i–n–t–e–r–l–e–
+01 leme tried hydroly -> –l–e–m–e–t–r–i–e–d–h–y–d–r–o–l–y–
+02 itable grill contrib -> –i–t–a–b–l–e–g–r–i–l–l–c–o–n–t–r–i–b–
+03 illos kali grafts -> –i–l–l–o–s–k–a–l–i–g–r–a–f–t–s–
+04 kungan nog fi -> –k–u–n–g–a–n–n–o–g–f–i–
+05 ymmetric entend fl -> –y–m–m–e–t–r–i–c–e–n–t–e–n–d–f–l–
+06 avez tribunal widened -> –a–v–e–z–t–r–i–b–u–n–a–l–w–i–d–e–n–e–d–
+07 millan maillot respeto -> –m–i–l–l–a–n–m–a–i–l–l–o–t–r–e–s–p–e–t–o–
+08 ductor society norsk -> –d–u–c–t–o–r–s–o–c–i–e–t–y–n–o–r–s–k–
+09 rot perdue hocha -> –r–o–t–p–e–r–d–u–e–h–o–c–h–a–
+10 ertid cuadro species -> –e–r–t–i–d–c–u–a–d–r–o–s–p–e–c–i–e–s–
+11 jugated rubber cuentas -> –j–u–g–a–t–e–d–r–u–b–b–e–r–c–u–e–n–t–a–s–
+12 onymie definite leger -> –o–n–y–m–i–e–d–e–f–i–n–i–t–e–l–e–g–e–r–
+13 utlich voit diseg -> –u–t–l–i–c–h–v–o–i–t–d–i–s–e–g–
+14 vements cruz hinge -> –v–e–m–e–n–t–s–c–r–u–z–h–i–n–g–e–
+15 metadata crimin stealing -> –m–e–t–a–d–a–t–a–c–r–i–m–i–n–s–t–e–a–l–i–n–g–
+16 ivel ra echter -> –i–v–e–l–r–a–e–c–h–t–e–r–
+17 form roze gloves -> –f–o–r–m–r–o–z–e–g–l–o–v–e–s–
+18 target suoi caos -> –t–a–r–g–e–t–s–u–o–i–c–a–o–s–
+19 objects noe plots -> –o–b–j–e–c–t–s–n–o–e–p–l–o–t–s–
+20 align voitti hemis -> –a–l–i–g–n–v–o–i–t–t–i–h–e–m–i–s–
+21 otti gre pagan -> –o–t–t–i–g–r–e–p–a–g–a–n–
+22 ocracy ground efic -> –o–c–r–a–c–y–g–r–o–u–n–d–e–f–i–c–
+23 uk epigen virus -> –u–k–e–p–i–g–e–n–v–i–r–u–s–
+24 apsed causing which -> –a–p–s–e–d–c–a–u–s–i–n–g–w–h–i–c–h–
+25 ruzione diss devaient -> –r–u–z–i–o–n–e–d–i–s–s–d–e–v–a–i–e–n–t–
+26 umbn posible surveyed -> –u–m–b–n–p–o–s–i–b–l–e–s–u–r–v–e–y–e–d–
+27 brei shaking incarcer -> –b–r–e–i–s–h–a–k–i–n–g–i–n–c–a–r–c–e–r–
+28 hole misma build -> –h–o–l–e–m–i–s–m–a–b–u–i–l–d–
+29 emph graphs stere -> –e–m–p–h–g–r–a–p–h–s–s–t–e–r–e–
+30 cuador menc vien -> –c–u–a–d–o–r–m–e–n–c–v–i–e–n–
+31 edev basada descubre -> –e–d–e–v–b–a–s–a–d–a–d–e–s–c–u–b–r–e–
+32 oded daher osoba -> –o–d–e–d–d–a–h–e–r–o–s–o–b–a–
+33 enso niveau passaram -> –e–n–s–o–n–i–v–e–a–u–p–a–s–s–a–r–a–m–
+34 zeta helical acquies -> –z–e–t–a–h–e–l–i–c–a–l–a–c–q–u–i–e–s–
+35 ekin olhar dets -> –e–k–i–n–o–l–h–a–r–d–e–t–s–
+36 plas versa ceram -> –p–l–a–s–v–e–r–s–a–c–e–r–a–m–
+37 izer znan secret -> –i–z–e–r–z–n–a–n–s–e–c–r–e–t–
+38 ultural gud palco -> –u–l–t–u–r–a–l–g–u–d–p–a–l–c–o–
+39 ciples psic strongly -> –c–i–p–l–e–s–p–s–i–c–s–t–r–o–n–g–l–y–
+40 uie zh impost -> –u–i–e–z–h–i–m–p–o–s–t–
+41 mers exp poden -> –m–e–r–s–e–x–p–p–o–d–e–n–
+42 prost fig glob -> –p–r–o–s–t–f–i–g–g–l–o–b–
+43 hip simul fulf -> –h–i–p–s–i–m–u–l–f–u–l–f–
+44 fon pen ocular -> –f–o–n–p–e–n–o–c–u–l–a–r–
+45 istique paroles horas -> –i–s–t–i–q–u–e–p–a–r–o–l–e–s–h–o–r–a–s–
+46 riker deposits seminal -> –r–i–k–e–r–d–e–p–o–s–i–t–s–s–e–m–i–n–a–l–
+47 tar option fleuve -> –t–a–r–o–p–t–i–o–n–f–l–e–u–v–e–
+48 schrift rich llevar -> –s–c–h–r–i–f–t–r–i–c–h–l–l–e–v–a–r–
+49 halte verand extrem -> –h–a–l–t–e–v–e–r–a–n–d–e–x–t–r–e–m–
+50 ifie abajo mus -> –i–f–i–e–a–b–a–j–o–m–u–s–
+51 arry verh sailing -> –a–r–r–y–v–e–r–h–s–a–i–l–i–n–g–
+52 ropy servir remarqu -> –r–o–p–y–s–e–r–v–i–r–r–e–m–a–r–q–u–
+53 pline ditem sieht -> –p–l–i–n–e–d–i–t–e–m–s–i–e–h–t–
+54 ocytic wen miracles -> –o–c–y–t–i–c–w–e–n–m–i–r–a–c–l–e–s–
+55 acidad tow ceramics -> –a–c–i–d–a–d–t–o–w–c–e–r–a–m–i–c–s–
+56 lear mein recurr -> –l–e–a–r–m–e–i–n–r–e–c–u–r–r–
+57 retto adhesion querer -> –r–e–t–t–o–a–d–h–e–s–i–o–n–q–u–e–r–e–r–
+58 ochet glory olay -> –o–c–h–e–t–g–l–o–r–y–o–l–a–y–
+59 ikawa retrou eines -> –i–k–a–w–a–r–e–t–r–o–u–e–i–n–e–s–
+60 forme reminis povas -> –f–o–r–m–e–r–e–m–i–n–i–s–p–o–v–a–s–
+61 edin call docteur -> –e–d–i–n–c–a–l–l–d–o–c–t–e–u–r–
+62 download novembre block -> –d–o–w–n–l–o–a–d–n–o–v–e–m–b–r–e–b–l–o–c–k–
+63 idez ministre chefe -> –i–d–e–z–m–i–n–i–s–t–r–e–c–h–e–f–e–
+64 pli nuo dizer -> –p–l–i–n–u–o–d–i–z–e–r–
+65 ends bend zenb -> –e–n–d–s–b–e–n–d–z–e–n–b–
+66 ritical heim athletic -> –r–i–t–i–c–a–l–h–e–i–m–a–t–h–l–e–t–i–c–
+67 items wird popula -> –i–t–e–m–s–w–i–r–d–p–o–p–u–l–a–
+68 ags caccia negeri -> –a–g–s–c–a–c–c–i–a–n–e–g–e–r–i–
+69 union nueve recru -> –u–n–i–o–n–n–u–e–v–e–r–e–c–r–u–
+70 irken villain regno -> –i–r–k–e–n–v–i–l–l–a–i–n–r–e–g–n–o–
+71 zeugen etn ennemi -> –z–e–u–g–e–n–e–t–n–e–n–n–e–m–i–
+72 gunta dute backbone -> –g–u–n–t–a–d–u–t–e–b–a–c–k–b–o–n–e–
+73 elow gp pick -> –e–l–o–w–g–p–p–i–c–k–
+74 ithub combine bande -> –i–t–h–u–b–c–o–m–b–i–n–e–b–a–n–d–e–
+75 mai twice diren -> –m–a–i–t–w–i–c–e–d–i–r–e–n–
+76 icot uralkod brid -> –i–c–o–t–u–r–a–l–k–o–d–b–r–i–d–
+77 inking fortal probleme -> –i–n–k–i–n–g–f–o–r–t–a–l–p–r–o–b–l–e–m–e–
+78 emples filming routing -> –e–m–p–l–e–s–f–i–l–m–i–n–g–r–o–u–t–i–n–g–
+79 nim apunt derivada -> –n–i–m–a–p–u–n–t–d–e–r–i–v–a–d–a–
+80 rians murm topical -> –r–i–a–n–s–m–u–r–m–t–o–p–i–c–a–l–
+81 endre swollen ensuing -> –e–n–d–r–e–s–w–o–l–l–e–n–e–n–s–u–i–n–g–
+82 wydd evening slou -> –w–y–d–d–e–v–e–n–i–n–g–s–l–o–u–
+83 atos swords devait -> –a–t–o–s–s–w–o–r–d–s–d–e–v–a–i–t–
+84 gyan union famously -> –g–y–a–n–u–n–i–o–n–f–a–m–o–u–s–l–y–
+85 etta eusk exercise -> –e–t–t–a–e–u–s–k–e–x–e–r–c–i–s–e–
+86 jarah pictures qol -> –j–a–r–a–h–p–i–c–t–u–r–e–s–q–o–l–
+87 antwort modulus author -> –a–n–t–w–o–r–t–m–o–d–u–l–u–s–a–u–t–h–o–r–
+88 lost biolog portant -> –l–o–s–t–b–i–o–l–o–g–p–o–r–t–a–n–t–
+89 zkod unt politico -> –z–k–o–d–u–n–t–p–o–l–i–t–i–c–o–
+90 jero produk floors -> –j–e–r–o–p–r–o–d–u–k–f–l–o–o–r–s–
+91 igny battant parsed -> –i–g–n–y–b–a–t–t–a–n–t–p–a–r–s–e–d–
+92 chent hossz cadres -> –c–h–e–n–t–h–o–s–s–z–c–a–d–r–e–s–
+93 engo secu letech -> –e–n–g–o–s–e–c–u–l–e–t–e–c–h–
+94 umb annon spinal -> –u–m–b–a–n–n–o–n–s–p–i–n–a–l–
+95 skom jednost dragged -> –s–k–o–m–j–e–d–n–o–s–t–d–r–a–g–g–e–d–
+96 ights untern ensuite -> –i–g–h–t–s–u–n–t–e–r–n–e–n–s–u–i–t–e–
+97 ylic pihak yak -> –y–l–i–c–p–i–h–a–k–y–a–k–
+98 stasy womit utilize -> –s–t–a–s–y–w–o–m–i–t–u–t–i–l–i–z–e–
+99 oran ae sheer -> –o–r–a–n–a–e–s–h–e–e–r–

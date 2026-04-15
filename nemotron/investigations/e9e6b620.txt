@@ -1,0 +1,34 @@
+problem id: e9e6b620
+category: equation_numeric_guess
+
+examples:
+- 69}44 = 112
+- 17}34 = 50
+- 91]83 = 7552
+- 10}39 = 48
+- 65]45 = 2924
+- query: 91+66
+
+inferred rule:
+- `}` means add the two numbers, then subtract 1.
+- `]` means multiply the two numbers, then subtract 1.
+- The remaining unseen operator `+` is most plausibly ordinary subtraction.
+
+checks on the examples:
+- 69}44: 69 + 44 = 113, then 113 - 1 = 112.
+- 17}34: 17 + 34 = 51, then 51 - 1 = 50.
+- 10}39: 10 + 39 = 49, then 49 - 1 = 48.
+- 91]83: 91 x 83 = 7553, then 7553 - 1 = 7552.
+- 65]45: 65 x 45 = 2925, then 2925 - 1 = 2924.
+
+step-by-step application to the query:
+1. The query is `91+66`.
+2. The examples already use one symbol for `(a + b) - 1` and another for `(a x b) - 1`.
+3. The clean remaining arithmetic rule for `+` is ordinary subtraction.
+4. Compute 91 - 66 = 25.
+
+predicted answer:
+25
+
+confidence note:
+Medium confidence. The `}` and `]` rules are strongly supported by multiple examples. The only inference is assigning ordinary subtraction to the previously unseen `+` operator.

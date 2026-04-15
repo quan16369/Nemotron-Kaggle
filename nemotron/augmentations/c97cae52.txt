@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 ynamics angle devenant
+01 ryk discret comma
+02 const influx prolifer
+
+This is a sample output.
+00 ynamics angle devenant -> –y–n–a–m–i–c–s–a–n–g–l–e–d–e–v–e–n–a–n–t–
+01 ryk discret comma -> –r–y–k–d–i–s–c–r–e–t–c–o–m–m–a–
+02 const influx prolifer -> –c–o–n–s–t–i–n–f–l–u–x–p–r–o–l–i–f–e–r–
+
+This is your input.
+00 roj empresa selbst
+01 crew oy libertad
+02 analysis sharpen prior
+03 aml literar cookies
+04 bewegung etxek manip
+05 udis badge trem
+06 agine agon phenomen
+07 atalog shifts existe
+08 thon kein egyen
+09 acry action chegou
+10 illi barr konnte
+11 essione thua la
+12 lawanan disa layer
+13 iler vs replen
+14 urin refroid voulait
+15 mouth padding annak
+16 itava tromp forecast
+17 maan northern vals
+18 hey bolt ouvriers
+19 atlar hydrocar medicine
+20 gare lic larmes
+21 lerini neun mainland
+22 rid katta tuer
+23 chol extr speaks
+24 ayas pigments strained
+25 haviour maupun azt
+26 veis microbes street
+27 oiselle woh braces
+28 output skin tidal
+29 crit lineal lej
+30 dispatch salon halten
+31 olo mezcl toll
+32 livier utveck oinar
+33 wart limbs operand
+34 licopt sx doce
+35 expected ages synt
+36 ka volv serie
+37 nown expects distingu
+38 iker zi prends
+39 banner limite inhibits
+40 stra dinastia swallow
+41 iped alarms alku
+42 etsk finely rough
+43 worthy outward centrum
+44 ifiant libero hing
+45 erd alebo izaz
+46 those chemo carn
+47 ophone chrome sibling
+48 unsafe prosent apology
+49 umbo erreicht bast
+50 jean revival sauf
+51 gangen chlor configur
+52 oben google chefs
+53 nofollow living choices
+54 they vess yng
+55 astic planting iconic
+56 ystycz electors zwe
+57 cheduled quedaba rin
+58 mist do olive
+59 chnitt dign llevaba
+60 storage asist eerste
+61 quina orth primes
+62 musik internes yks
+63 ploid pelig intact
+64 ulf wifi vort
+65 am axioms utter
+66 yy bekl joined
+67 abr remet vac
+68 izei refine func
+69 azio seminar limb
+70 jec kommt trio
+71 natural latex dream
+72 irao wants visszat
+73 rides tunes conden
+74 auff enemies creature
+75 uery clums postal
+76 ologie demande bild
+77 alpha compact varias
+78 oth washed misunder
+79 atea sosp antara
+80 zioni suele capita
+81 oration mehrfach rah
+82 irana ordinary emmen
+83 dienst tribal scho
+84 ounded shrink sane
+85 pd podpis hinder
+86 closes cercana rostro
+87 contrast angel utara
+88 ocke auraient junt
+89 encoded parano advised
+90 rand pierwsz scanning
+91 rici wanita desconoc
+92 bbing wieder allaient
+93 ively fluctu uns
+94 cat stuck bronze
+95 znik hardcore assigns
+96 ophosph letter plat
+97 icient aka ox
+98 kong twin sale
+99 lick tender designs
+[completion]
+00 roj empresa selbst -> –r–o–j–e–m–p–r–e–s–a–s–e–l–b–s–t–
+01 crew oy libertad -> –c–r–e–w–o–y–l–i–b–e–r–t–a–d–
+02 analysis sharpen prior -> –a–n–a–l–y–s–i–s–s–h–a–r–p–e–n–p–r–i–o–r–
+03 aml literar cookies -> –a–m–l–l–i–t–e–r–a–r–c–o–o–k–i–e–s–
+04 bewegung etxek manip -> –b–e–w–e–g–u–n–g–e–t–x–e–k–m–a–n–i–p–
+05 udis badge trem -> –u–d–i–s–b–a–d–g–e–t–r–e–m–
+06 agine agon phenomen -> –a–g–i–n–e–a–g–o–n–p–h–e–n–o–m–e–n–
+07 atalog shifts existe -> –a–t–a–l–o–g–s–h–i–f–t–s–e–x–i–s–t–e–
+08 thon kein egyen -> –t–h–o–n–k–e–i–n–e–g–y–e–n–
+09 acry action chegou -> –a–c–r–y–a–c–t–i–o–n–c–h–e–g–o–u–
+10 illi barr konnte -> –i–l–l–i–b–a–r–r–k–o–n–n–t–e–
+11 essione thua la -> –e–s–s–i–o–n–e–t–h–u–a–l–a–
+12 lawanan disa layer -> –l–a–w–a–n–a–n–d–i–s–a–l–a–y–e–r–
+13 iler vs replen -> –i–l–e–r–v–s–r–e–p–l–e–n–
+14 urin refroid voulait -> –u–r–i–n–r–e–f–r–o–i–d–v–o–u–l–a–i–t–
+15 mouth padding annak -> –m–o–u–t–h–p–a–d–d–i–n–g–a–n–n–a–k–
+16 itava tromp forecast -> –i–t–a–v–a–t–r–o–m–p–f–o–r–e–c–a–s–t–
+17 maan northern vals -> –m–a–a–n–n–o–r–t–h–e–r–n–v–a–l–s–
+18 hey bolt ouvriers -> –h–e–y–b–o–l–t–o–u–v–r–i–e–r–s–
+19 atlar hydrocar medicine -> –a–t–l–a–r–h–y–d–r–o–c–a–r–m–e–d–i–c–i–n–e–
+20 gare lic larmes -> –g–a–r–e–l–i–c–l–a–r–m–e–s–
+21 lerini neun mainland -> –l–e–r–i–n–i–n–e–u–n–m–a–i–n–l–a–n–d–
+22 rid katta tuer -> –r–i–d–k–a–t–t–a–t–u–e–r–
+23 chol extr speaks -> –c–h–o–l–e–x–t–r–s–p–e–a–k–s–
+24 ayas pigments strained -> –a–y–a–s–p–i–g–m–e–n–t–s–s–t–r–a–i–n–e–d–
+25 haviour maupun azt -> –h–a–v–i–o–u–r–m–a–u–p–u–n–a–z–t–
+26 veis microbes street -> –v–e–i–s–m–i–c–r–o–b–e–s–s–t–r–e–e–t–
+27 oiselle woh braces -> –o–i–s–e–l–l–e–w–o–h–b–r–a–c–e–s–
+28 output skin tidal -> –o–u–t–p–u–t–s–k–i–n–t–i–d–a–l–
+29 crit lineal lej -> –c–r–i–t–l–i–n–e–a–l–l–e–j–
+30 dispatch salon halten -> –d–i–s–p–a–t–c–h–s–a–l–o–n–h–a–l–t–e–n–
+31 olo mezcl toll -> –o–l–o–m–e–z–c–l–t–o–l–l–
+32 livier utveck oinar -> –l–i–v–i–e–r–u–t–v–e–c–k–o–i–n–a–r–
+33 wart limbs operand -> –w–a–r–t–l–i–m–b–s–o–p–e–r–a–n–d–
+34 licopt sx doce -> –l–i–c–o–p–t–s–x–d–o–c–e–
+35 expected ages synt -> –e–x–p–e–c–t–e–d–a–g–e–s–s–y–n–t–
+36 ka volv serie -> –k–a–v–o–l–v–s–e–r–i–e–
+37 nown expects distingu -> –n–o–w–n–e–x–p–e–c–t–s–d–i–s–t–i–n–g–u–
+38 iker zi prends -> –i–k–e–r–z–i–p–r–e–n–d–s–
+39 banner limite inhibits -> –b–a–n–n–e–r–l–i–m–i–t–e–i–n–h–i–b–i–t–s–
+40 stra dinastia swallow -> –s–t–r–a–d–i–n–a–s–t–i–a–s–w–a–l–l–o–w–
+41 iped alarms alku -> –i–p–e–d–a–l–a–r–m–s–a–l–k–u–
+42 etsk finely rough -> –e–t–s–k–f–i–n–e–l–y–r–o–u–g–h–
+43 worthy outward centrum -> –w–o–r–t–h–y–o–u–t–w–a–r–d–c–e–n–t–r–u–m–
+44 ifiant libero hing -> –i–f–i–a–n–t–l–i–b–e–r–o–h–i–n–g–
+45 erd alebo izaz -> –e–r–d–a–l–e–b–o–i–z–a–z–
+46 those chemo carn -> –t–h–o–s–e–c–h–e–m–o–c–a–r–n–
+47 ophone chrome sibling -> –o–p–h–o–n–e–c–h–r–o–m–e–s–i–b–l–i–n–g–
+48 unsafe prosent apology -> –u–n–s–a–f–e–p–r–o–s–e–n–t–a–p–o–l–o–g–y–
+49 umbo erreicht bast -> –u–m–b–o–e–r–r–e–i–c–h–t–b–a–s–t–
+50 jean revival sauf -> –j–e–a–n–r–e–v–i–v–a–l–s–a–u–f–
+51 gangen chlor configur -> –g–a–n–g–e–n–c–h–l–o–r–c–o–n–f–i–g–u–r–
+52 oben google chefs -> –o–b–e–n–g–o–o–g–l–e–c–h–e–f–s–
+53 nofollow living choices -> –n–o–f–o–l–l–o–w–l–i–v–i–n–g–c–h–o–i–c–e–s–
+54 they vess yng -> –t–h–e–y–v–e–s–s–y–n–g–
+55 astic planting iconic -> –a–s–t–i–c–p–l–a–n–t–i–n–g–i–c–o–n–i–c–
+56 ystycz electors zwe -> –y–s–t–y–c–z–e–l–e–c–t–o–r–s–z–w–e–
+57 cheduled quedaba rin -> –c–h–e–d–u–l–e–d–q–u–e–d–a–b–a–r–i–n–
+58 mist do olive -> –m–i–s–t–d–o–o–l–i–v–e–
+59 chnitt dign llevaba -> –c–h–n–i–t–t–d–i–g–n–l–l–e–v–a–b–a–
+60 storage asist eerste -> –s–t–o–r–a–g–e–a–s–i–s–t–e–e–r–s–t–e–
+61 quina orth primes -> –q–u–i–n–a–o–r–t–h–p–r–i–m–e–s–
+62 musik internes yks -> –m–u–s–i–k–i–n–t–e–r–n–e–s–y–k–s–
+63 ploid pelig intact -> –p–l–o–i–d–p–e–l–i–g–i–n–t–a–c–t–
+64 ulf wifi vort -> –u–l–f–w–i–f–i–v–o–r–t–
+65 am axioms utter -> –a–m–a–x–i–o–m–s–u–t–t–e–r–
+66 yy bekl joined -> –y–y–b–e–k–l–j–o–i–n–e–d–
+67 abr remet vac -> –a–b–r–r–e–m–e–t–v–a–c–
+68 izei refine func -> –i–z–e–i–r–e–f–i–n–e–f–u–n–c–
+69 azio seminar limb -> –a–z–i–o–s–e–m–i–n–a–r–l–i–m–b–
+70 jec kommt trio -> –j–e–c–k–o–m–m–t–t–r–i–o–
+71 natural latex dream -> –n–a–t–u–r–a–l–l–a–t–e–x–d–r–e–a–m–
+72 irao wants visszat -> –i–r–a–o–w–a–n–t–s–v–i–s–s–z–a–t–
+73 rides tunes conden -> –r–i–d–e–s–t–u–n–e–s–c–o–n–d–e–n–
+74 auff enemies creature -> –a–u–f–f–e–n–e–m–i–e–s–c–r–e–a–t–u–r–e–
+75 uery clums postal -> –u–e–r–y–c–l–u–m–s–p–o–s–t–a–l–
+76 ologie demande bild -> –o–l–o–g–i–e–d–e–m–a–n–d–e–b–i–l–d–
+77 alpha compact varias -> –a–l–p–h–a–c–o–m–p–a–c–t–v–a–r–i–a–s–
+78 oth washed misunder -> –o–t–h–w–a–s–h–e–d–m–i–s–u–n–d–e–r–
+79 atea sosp antara -> –a–t–e–a–s–o–s–p–a–n–t–a–r–a–
+80 zioni suele capita -> –z–i–o–n–i–s–u–e–l–e–c–a–p–i–t–a–
+81 oration mehrfach rah -> –o–r–a–t–i–o–n–m–e–h–r–f–a–c–h–r–a–h–
+82 irana ordinary emmen -> –i–r–a–n–a–o–r–d–i–n–a–r–y–e–m–m–e–n–
+83 dienst tribal scho -> –d–i–e–n–s–t–t–r–i–b–a–l–s–c–h–o–
+84 ounded shrink sane -> –o–u–n–d–e–d–s–h–r–i–n–k–s–a–n–e–
+85 pd podpis hinder -> –p–d–p–o–d–p–i–s–h–i–n–d–e–r–
+86 closes cercana rostro -> –c–l–o–s–e–s–c–e–r–c–a–n–a–r–o–s–t–r–o–
+87 contrast angel utara -> –c–o–n–t–r–a–s–t–a–n–g–e–l–u–t–a–r–a–
+88 ocke auraient junt -> –o–c–k–e–a–u–r–a–i–e–n–t–j–u–n–t–
+89 encoded parano advised -> –e–n–c–o–d–e–d–p–a–r–a–n–o–a–d–v–i–s–e–d–
+90 rand pierwsz scanning -> –r–a–n–d–p–i–e–r–w–s–z–s–c–a–n–n–i–n–g–
+91 rici wanita desconoc -> –r–i–c–i–w–a–n–i–t–a–d–e–s–c–o–n–o–c–
+92 bbing wieder allaient -> –b–b–i–n–g–w–i–e–d–e–r–a–l–l–a–i–e–n–t–
+93 ively fluctu uns -> –i–v–e–l–y–f–l–u–c–t–u–u–n–s–
+94 cat stuck bronze -> –c–a–t–s–t–u–c–k–b–r–o–n–z–e–
+95 znik hardcore assigns -> –z–n–i–k–h–a–r–d–c–o–r–e–a–s–s–i–g–n–s–
+96 ophosph letter plat -> –o–p–h–o–s–p–h–l–e–t–t–e–r–p–l–a–t–
+97 icient aka ox -> –i–c–i–e–n–t–a–k–a–o–x–
+98 kong twin sale -> –k–o–n–g–t–w–i–n–s–a–l–e–
+99 lick tender designs -> –l–i–c–k–t–e–n–d–e–r–d–e–s–i–g–n–s–

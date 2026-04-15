@@ -1,0 +1,32 @@
+problem id: 2aeb5265
+category: equation_numeric_deduce
+
+examples:
+- 61-76 = 15
+- 28+64 = 721
+- 89-36 = 53
+- query: 28-52
+
+inferred rule:
+The `-` operator appears to use this process:
+1. Reverse the digits of each 2-digit input.
+2. Take the absolute difference of those reversed numbers.
+3. Reverse the digits of that difference to write the final output.
+
+Checks on the `-` examples:
+- 61-76: reverse to 16 and 67. Their absolute difference is 51. Reverse 51 to get 15.
+- 89-36: reverse to 98 and 63. Their absolute difference is 35. Reverse 35 to get 53.
+
+The `28+64 = 721` example uses a different operator, so it is not needed to answer the `-` query.
+
+step-by-step application to the query:
+1. Start with 28-52.
+2. Reverse each 2-digit input: 28 -> 82 and 52 -> 25.
+3. Take the absolute difference: 82 - 25 = 57.
+4. Reverse the difference: 57 -> 75.
+
+predicted answer:
+75
+
+confidence note:
+High confidence. Both `-` examples fit the same reverse-difference-reverse rule exactly, and applying it to the query gives a clean result.

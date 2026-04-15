@@ -1,0 +1,26 @@
+problem id: c934ffa1
+category: cryptarithm_deduce
+
+symbol-to-digit mapping:
+  '!' = 9
+  '"' = 4
+  '#' = 3
+  '$' = 0
+  '&' = 2
+  ')' = 8
+  '\\' = 1
+  '|' = 7
+
+operator-to-operation mapping:
+  '+' = abs_diff
+  '?' = mul
+  '@' = add
+
+examples:
+  "#?)) = #|)"  =>  43 * 88 = 3784
+  #&+\# = \!  =>  |32 - 13| = 19
+  \"@\$ = &"  =>  14 + 10 = 24
+
+query: #"@"#  =>  34 + 43 = 77
+
+predicted answer: ||

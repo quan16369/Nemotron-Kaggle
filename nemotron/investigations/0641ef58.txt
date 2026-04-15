@@ -1,0 +1,33 @@
+Problem ID: 0641ef58
+Category: equation_numeric_deduce
+
+Examples:
+- 76-68 = -91
+- 16-61 = -54
+- 39-02 = -37
+- 36+88 = 151
+- 85+12 = 97
+
+Inferred rule:
+- Different symbols represent different operations. The query uses `-`, so I only need the `-` examples.
+- For `ab-cd`, reverse each two-digit operand, subtract the reversed right operand from the reversed left operand, then reverse the digits of the absolute value and write the result with a leading minus sign.
+- In compact form: `ab-cd -> -reverse(abs(reverse(ab) - reverse(cd)))`.
+- Checks:
+- `76-68`: reversed operands are `67` and `86`; `67 - 86 = -19`; `abs(-19) = 19`; reversing `19` gives `91`; output `-91`.
+- `16-61`: reversed operands are `61` and `16`; `61 - 16 = 45`; reversing `45` gives `54`; output `-54`.
+- `39-02`: reversed operands are `93` and `20`; `93 - 20 = 73`; reversing `73` gives `37`; output `-37`.
+- The `+` examples follow a different rule and are not needed for the query.
+
+Step-by-step application to the query:
+- Query: `54-89`
+- Reverse the operands: `54 -> 45`, `89 -> 98`
+- Subtract the reversed values: `45 - 98 = -53`
+- Take the absolute value: `53`
+- Reverse the digits: `35`
+- Apply the leading minus sign used by the `-` operator: `-35`
+
+Predicted answer:
+- -35
+
+Confidence note:
+- High for this query. All three `-` examples fit the rule exactly. The only mild ambiguity is whether the minus sign is always forced by the operator or inherited from the transformed subtraction, but both readings still give `-35` for `54-89`.

@@ -1,0 +1,24 @@
+Problem ID: 10d7bd1b
+Category: equation_numeric_deduce
+
+Examples:
+- 02+39 = 311
+  This uses `+`, so it appears to follow a different operator-specific rule and is not needed for the query.
+- 38-25 = 13
+  Ordinary subtraction gives 38 - 25 = 13, which matches exactly.
+- 43-96 = -53
+  Ordinary subtraction gives 43 - 96 = -53, which also matches exactly.
+
+Inferred rule:
+For expressions with `-`, compute the standard arithmetic subtraction of the two numbers.
+Different operators in the same problem can follow different rules, and the `+` example does not affect the query.
+
+Apply the rule to the query:
+- Query: 59-81
+- Compute the subtraction: 59 - 81 = -22
+
+Predicted answer:
+-22
+
+Confidence:
+High for the query. Both `-` examples fit ordinary subtraction exactly. The `+` example is ambiguous, but it is an operator-specific distraction rather than evidence against the subtraction rule.

@@ -1,0 +1,27 @@
+problem id: ed80cf3e
+category: equation_numeric_guess
+
+examples:
+- 56-78 = -22
+- 34-95 = -61
+- 67+11 = 1167
+
+inferred rule:
+The examples support two behaviors:
+1. `-` means ordinary subtraction of the two two-digit numbers.
+2. A non-subtraction operator can act as "write the right operand first, then the left operand" (seen from `67+11 = 1167`).
+
+This is not fully proven for every possible symbol because there is only one non-subtraction example, but it is the simplest rule consistent with all given examples and with the query format.
+
+step-by-step application to the query:
+Query: 31*14
+1. The query uses `*`, which is a non-subtraction operator.
+2. Following the non-subtraction pattern from `67+11 = 1167`, place the second number first.
+3. Write `14` followed by `31`.
+4. Result = 1431.
+
+predicted answer:
+1431
+
+confidence note:
+Moderate confidence. Subtraction is certain; extending the observed "right operand first" behavior from `+` to `*` is the only ambiguous step, but it fits the examples best.

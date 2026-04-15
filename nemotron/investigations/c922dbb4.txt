@@ -1,0 +1,59 @@
+problem id: c922dbb4
+category: cryptarithm_guess
+
+examples:
+1. `:\*:@ = "@">`
+2. `>\*:# = #>>@`
+3. `<#+<: = <#<:`
+
+inferred rule:
+Treat each non-middle symbol as a decimal digit. Read each 2-symbol chunk as a 2-digit number.
+
+The examples support two operator rules:
+
+1. `+` means concatenation of the two decoded 2-digit operands.
+   Example 3 is explicit:
+   `<# + <: -> <#<:`
+
+2. `*` means ordinary multiplication of the decoded 2-digit operands.
+   The two `*` examples force this digit map:
+   `: = 7`
+   `\ = 3`
+   `@ = 2`
+   `" = 5`
+   `> = 6`
+   `# = 4`
+
+step-by-step check on the examples:
+1. `:\*:@`
+   `:\` is `73`.
+   `:@` is `72`.
+   `73 * 72 = 5256`.
+   Encoding `5256` gives `"@">`, which matches.
+
+2. `>\*:#`
+   `>\` is `63`.
+   `:#` is `74`.
+   `63 * 74 = 4662`.
+   Encoding `4662` gives `#>>@`, which matches.
+
+3. `<#+<:`
+   `+` concatenates the two 2-symbol chunks directly, so the output is `<#<:`.
+
+step-by-step application to the query:
+Query: `<&-:@`
+
+1. From the multiplication examples, `:@ = 72`.
+2. The only unresolved digit symbols are `<` and `&`. The unused digits are `0`, `1`, `8`, and `9`.
+3. The unseen `-` is most plausibly a nonnegative difference rule. To match the same encoding scheme and the 2-symbol target shape, the consistent completion is `< = 1` and `& = 0`, so `<& = 10`.
+4. Apply absolute difference:
+   `|10 - 72| = 62`
+5. Encode `62`:
+   `6 -> >`
+   `2 -> @`
+
+predicted answer:
+`>@`
+
+confidence note:
+Medium-low confidence. The meanings of `*` and `+`, and the digit assignments for `:`, `\`, `@`, `"`, `>`, and `#`, are cleanly forced by the examples. The remaining ambiguity is that the training examples do not determine `<`, `&`, or the unseen `-` operator by themselves, so treating `-` as absolute difference is the best-fit extension rather than a proof.

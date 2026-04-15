@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 cils dra ezzel
+01 oplas figures dry
+02 gye phen trim
+
+This is a sample output.
+00 cils dra ezzel -> –c–i–l–s–d–r–a–e–z–z–e–l–
+01 oplas figures dry -> –o–p–l–a–s–f–i–g–u–r–e–s–d–r–y–
+02 gye phen trim -> –g–y–e–p–h–e–n–t–r–i–m–
+
+This is your input.
+00 bird emer cautious
+01 roph artik crushers
+02 ijel compte wollte
+03 alone ischemic zmian
+04 swers kone devons
+05 qrt posee inad
+06 esimo salt download
+07 pian wrest driveway
+08 employ ira taken
+09 isting ibu barco
+10 iol sty espagn
+11 cean hybrids gelatin
+12 stil curl relever
+13 hnte guides conocida
+14 cur senti observ
+15 ieri riesce prophets
+16 abla peinture termed
+17 ieran pel braz
+18 iyot prenatal curtain
+19 oid bese regi
+20 rictions ow minority
+21 zez weight diseng
+22 lak postura mitt
+23 bination overex futebol
+24 omor theories cara
+25 ffiti surfaces lav
+26 guard lifelong auft
+27 lude flyg promet
+28 inom avo dela
+29 sizeof tempt ld
+30 insen hut kinds
+31 gic tableaux merci
+32 illary diter warp
+33 ractice anne thal
+34 oor road exposed
+35 mente gun istil
+36 iertos unde merg
+37 spinal purple autor
+38 uders crit drugi
+39 inib ranging our
+40 jut aria destabil
+41 berd diable kh
+42 vot requires hins
+43 ium nature impose
+44 emit persuad reunir
+45 merge oppos grids
+46 acetyl postes abnormal
+47 osk midw offended
+48 uis stol wzn
+49 cycl esposo cash
+50 alculate cinquant hips
+51 corn conseg primers
+52 schech endeav mitosis
+53 waj guards foram
+54 iner oneself symbol
+55 forge reper motivate
+56 graf haunted fator
+57 usel waist konfigur
+58 atorios bless splash
+59 ahoo sheets corona
+60 erste als broken
+61 stalled ross floated
+62 appelijk bearings flavono
+63 unta vaj perto
+64 umat guess dieci
+65 ulent scint glycer
+66 urat rice nadie
+67 jna zaman njihov
+68 mailto speci hitting
+69 roso antiguos auss
+70 ajem guitare del
+71 clav spouse oly
+72 haupt ghosts sd
+73 oule multiple proposta
+74 vers acero immunost
+75 wrapper ga cruelty
+76 edeut lors micelles
+77 cheiden abuses sup
+78 ttiin evolut testem
+79 clerotic ire java
+80 su fg cover
+81 ruptions asent retains
+82 upi demol lookup
+83 iment nipple videre
+84 okee incis isotope
+85 aque festival anche
+86 pat repro kiedy
+87 enin foli stocks
+88 mel systolic orthodox
+89 wei incend pensais
+90 prud rio magnets
+91 slug beside flawed
+92 gram poetic ordinal
+93 please pein lua
+94 otten saves ambush
+95 endosi when objets
+96 derung skriv novia
+97 reek weit signaled
+98 ulin zehn silicon
+99 icar encont pemb
+[completion]
+00 bird emer cautious -> –b–i–r–d–e–m–e–r–c–a–u–t–i–o–u–s–
+01 roph artik crushers -> –r–o–p–h–a–r–t–i–k–c–r–u–s–h–e–r–s–
+02 ijel compte wollte -> –i–j–e–l–c–o–m–p–t–e–w–o–l–l–t–e–
+03 alone ischemic zmian -> –a–l–o–n–e–i–s–c–h–e–m–i–c–z–m–i–a–n–
+04 swers kone devons -> –s–w–e–r–s–k–o–n–e–d–e–v–o–n–s–
+05 qrt posee inad -> –q–r–t–p–o–s–e–e–i–n–a–d–
+06 esimo salt download -> –e–s–i–m–o–s–a–l–t–d–o–w–n–l–o–a–d–
+07 pian wrest driveway -> –p–i–a–n–w–r–e–s–t–d–r–i–v–e–w–a–y–
+08 employ ira taken -> –e–m–p–l–o–y–i–r–a–t–a–k–e–n–
+09 isting ibu barco -> –i–s–t–i–n–g–i–b–u–b–a–r–c–o–
+10 iol sty espagn -> –i–o–l–s–t–y–e–s–p–a–g–n–
+11 cean hybrids gelatin -> –c–e–a–n–h–y–b–r–i–d–s–g–e–l–a–t–i–n–
+12 stil curl relever -> –s–t–i–l–c–u–r–l–r–e–l–e–v–e–r–
+13 hnte guides conocida -> –h–n–t–e–g–u–i–d–e–s–c–o–n–o–c–i–d–a–
+14 cur senti observ -> –c–u–r–s–e–n–t–i–o–b–s–e–r–v–
+15 ieri riesce prophets -> –i–e–r–i–r–i–e–s–c–e–p–r–o–p–h–e–t–s–
+16 abla peinture termed -> –a–b–l–a–p–e–i–n–t–u–r–e–t–e–r–m–e–d–
+17 ieran pel braz -> –i–e–r–a–n–p–e–l–b–r–a–z–
+18 iyot prenatal curtain -> –i–y–o–t–p–r–e–n–a–t–a–l–c–u–r–t–a–i–n–
+19 oid bese regi -> –o–i–d–b–e–s–e–r–e–g–i–
+20 rictions ow minority -> –r–i–c–t–i–o–n–s–o–w–m–i–n–o–r–i–t–y–
+21 zez weight diseng -> –z–e–z–w–e–i–g–h–t–d–i–s–e–n–g–
+22 lak postura mitt -> –l–a–k–p–o–s–t–u–r–a–m–i–t–t–
+23 bination overex futebol -> –b–i–n–a–t–i–o–n–o–v–e–r–e–x–f–u–t–e–b–o–l–
+24 omor theories cara -> –o–m–o–r–t–h–e–o–r–i–e–s–c–a–r–a–
+25 ffiti surfaces lav -> –f–f–i–t–i–s–u–r–f–a–c–e–s–l–a–v–
+26 guard lifelong auft -> –g–u–a–r–d–l–i–f–e–l–o–n–g–a–u–f–t–
+27 lude flyg promet -> –l–u–d–e–f–l–y–g–p–r–o–m–e–t–
+28 inom avo dela -> –i–n–o–m–a–v–o–d–e–l–a–
+29 sizeof tempt ld -> –s–i–z–e–o–f–t–e–m–p–t–l–d–
+30 insen hut kinds -> –i–n–s–e–n–h–u–t–k–i–n–d–s–
+31 gic tableaux merci -> –g–i–c–t–a–b–l–e–a–u–x–m–e–r–c–i–
+32 illary diter warp -> –i–l–l–a–r–y–d–i–t–e–r–w–a–r–p–
+33 ractice anne thal -> –r–a–c–t–i–c–e–a–n–n–e–t–h–a–l–
+34 oor road exposed -> –o–o–r–r–o–a–d–e–x–p–o–s–e–d–
+35 mente gun istil -> –m–e–n–t–e–g–u–n–i–s–t–i–l–
+36 iertos unde merg -> –i–e–r–t–o–s–u–n–d–e–m–e–r–g–
+37 spinal purple autor -> –s–p–i–n–a–l–p–u–r–p–l–e–a–u–t–o–r–
+38 uders crit drugi -> –u–d–e–r–s–c–r–i–t–d–r–u–g–i–
+39 inib ranging our -> –i–n–i–b–r–a–n–g–i–n–g–o–u–r–
+40 jut aria destabil -> –j–u–t–a–r–i–a–d–e–s–t–a–b–i–l–
+41 berd diable kh -> –b–e–r–d–d–i–a–b–l–e–k–h–
+42 vot requires hins -> –v–o–t–r–e–q–u–i–r–e–s–h–i–n–s–
+43 ium nature impose -> –i–u–m–n–a–t–u–r–e–i–m–p–o–s–e–
+44 emit persuad reunir -> –e–m–i–t–p–e–r–s–u–a–d–r–e–u–n–i–r–
+45 merge oppos grids -> –m–e–r–g–e–o–p–p–o–s–g–r–i–d–s–
+46 acetyl postes abnormal -> –a–c–e–t–y–l–p–o–s–t–e–s–a–b–n–o–r–m–a–l–
+47 osk midw offended -> –o–s–k–m–i–d–w–o–f–f–e–n–d–e–d–
+48 uis stol wzn -> –u–i–s–s–t–o–l–w–z–n–
+49 cycl esposo cash -> –c–y–c–l–e–s–p–o–s–o–c–a–s–h–
+50 alculate cinquant hips -> –a–l–c–u–l–a–t–e–c–i–n–q–u–a–n–t–h–i–p–s–
+51 corn conseg primers -> –c–o–r–n–c–o–n–s–e–g–p–r–i–m–e–r–s–
+52 schech endeav mitosis -> –s–c–h–e–c–h–e–n–d–e–a–v–m–i–t–o–s–i–s–
+53 waj guards foram -> –w–a–j–g–u–a–r–d–s–f–o–r–a–m–
+54 iner oneself symbol -> –i–n–e–r–o–n–e–s–e–l–f–s–y–m–b–o–l–
+55 forge reper motivate -> –f–o–r–g–e–r–e–p–e–r–m–o–t–i–v–a–t–e–
+56 graf haunted fator -> –g–r–a–f–h–a–u–n–t–e–d–f–a–t–o–r–
+57 usel waist konfigur -> –u–s–e–l–w–a–i–s–t–k–o–n–f–i–g–u–r–
+58 atorios bless splash -> –a–t–o–r–i–o–s–b–l–e–s–s–s–p–l–a–s–h–
+59 ahoo sheets corona -> –a–h–o–o–s–h–e–e–t–s–c–o–r–o–n–a–
+60 erste als broken -> –e–r–s–t–e–a–l–s–b–r–o–k–e–n–
+61 stalled ross floated -> –s–t–a–l–l–e–d–r–o–s–s–f–l–o–a–t–e–d–
+62 appelijk bearings flavono -> –a–p–p–e–l–i–j–k–b–e–a–r–i–n–g–s–f–l–a–v–o–n–o–
+63 unta vaj perto -> –u–n–t–a–v–a–j–p–e–r–t–o–
+64 umat guess dieci -> –u–m–a–t–g–u–e–s–s–d–i–e–c–i–
+65 ulent scint glycer -> –u–l–e–n–t–s–c–i–n–t–g–l–y–c–e–r–
+66 urat rice nadie -> –u–r–a–t–r–i–c–e–n–a–d–i–e–
+67 jna zaman njihov -> –j–n–a–z–a–m–a–n–n–j–i–h–o–v–
+68 mailto speci hitting -> –m–a–i–l–t–o–s–p–e–c–i–h–i–t–t–i–n–g–
+69 roso antiguos auss -> –r–o–s–o–a–n–t–i–g–u–o–s–a–u–s–s–
+70 ajem guitare del -> –a–j–e–m–g–u–i–t–a–r–e–d–e–l–
+71 clav spouse oly -> –c–l–a–v–s–p–o–u–s–e–o–l–y–
+72 haupt ghosts sd -> –h–a–u–p–t–g–h–o–s–t–s–s–d–
+73 oule multiple proposta -> –o–u–l–e–m–u–l–t–i–p–l–e–p–r–o–p–o–s–t–a–
+74 vers acero immunost -> –v–e–r–s–a–c–e–r–o–i–m–m–u–n–o–s–t–
+75 wrapper ga cruelty -> –w–r–a–p–p–e–r–g–a–c–r–u–e–l–t–y–
+76 edeut lors micelles -> –e–d–e–u–t–l–o–r–s–m–i–c–e–l–l–e–s–
+77 cheiden abuses sup -> –c–h–e–i–d–e–n–a–b–u–s–e–s–s–u–p–
+78 ttiin evolut testem -> –t–t–i–i–n–e–v–o–l–u–t–t–e–s–t–e–m–
+79 clerotic ire java -> –c–l–e–r–o–t–i–c–i–r–e–j–a–v–a–
+80 su fg cover -> –s–u–f–g–c–o–v–e–r–
+81 ruptions asent retains -> –r–u–p–t–i–o–n–s–a–s–e–n–t–r–e–t–a–i–n–s–
+82 upi demol lookup -> –u–p–i–d–e–m–o–l–l–o–o–k–u–p–
+83 iment nipple videre -> –i–m–e–n–t–n–i–p–p–l–e–v–i–d–e–r–e–
+84 okee incis isotope -> –o–k–e–e–i–n–c–i–s–i–s–o–t–o–p–e–
+85 aque festival anche -> –a–q–u–e–f–e–s–t–i–v–a–l–a–n–c–h–e–
+86 pat repro kiedy -> –p–a–t–r–e–p–r–o–k–i–e–d–y–
+87 enin foli stocks -> –e–n–i–n–f–o–l–i–s–t–o–c–k–s–
+88 mel systolic orthodox -> –m–e–l–s–y–s–t–o–l–i–c–o–r–t–h–o–d–o–x–
+89 wei incend pensais -> –w–e–i–i–n–c–e–n–d–p–e–n–s–a–i–s–
+90 prud rio magnets -> –p–r–u–d–r–i–o–m–a–g–n–e–t–s–
+91 slug beside flawed -> –s–l–u–g–b–e–s–i–d–e–f–l–a–w–e–d–
+92 gram poetic ordinal -> –g–r–a–m–p–o–e–t–i–c–o–r–d–i–n–a–l–
+93 please pein lua -> –p–l–e–a–s–e–p–e–i–n–l–u–a–
+94 otten saves ambush -> –o–t–t–e–n–s–a–v–e–s–a–m–b–u–s–h–
+95 endosi when objets -> –e–n–d–o–s–i–w–h–e–n–o–b–j–e–t–s–
+96 derung skriv novia -> –d–e–r–u–n–g–s–k–r–i–v–n–o–v–i–a–
+97 reek weit signaled -> –r–e–e–k–w–e–i–t–s–i–g–n–a–l–e–d–
+98 ulin zehn silicon -> –u–l–i–n–z–e–h–n–s–i–l–i–c–o–n–
+99 icar encont pemb -> –i–c–a–r–e–n–c–o–n–t–p–e–m–b–

@@ -1,0 +1,28 @@
+problem id: 66a0856f
+category: equation_numeric_guess
+
+examples:
+- 70-75 = 7075
+- 60-87 = 6087
+- 53-49 = 5349
+- query: 74[36
+
+inferred rule:
+- In every training example, the symbol `-` acts like concatenation, not subtraction.
+- The output is formed by writing the left two-digit number immediately followed by the right two-digit number.
+- Checks:
+- 70-75 -> 7075
+- 60-87 -> 6087
+- 53-49 -> 5349
+- The query uses a new symbol, `[`; since concatenation is already taken by `-`, the clean remaining interpretation is ordinary subtraction.
+
+step-by-step application to the query:
+1. Read the query as `74 [ 36`.
+2. Apply ordinary subtraction to the two numbers.
+3. Compute `74 - 36 = 38`.
+
+predicted answer:
+- 38
+
+confidence note:
+- Fairly high confidence. The training rule for `-` is exact across all examples. The only uncertainty is that `[` is unseen, so treating it as subtraction is still an inference rather than a directly demonstrated mapping.

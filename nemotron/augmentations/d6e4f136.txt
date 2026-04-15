@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 utta turb dog
+01 ophe servants sozial
+02 orem remplace vaxt
+
+This is a sample output.
+00 utta turb dog -> –u–t–t–a–t–u–r–b–d–o–g–
+01 ophe servants sozial -> –o–p–h–e–s–e–r–v–a–n–t–s–s–o–z–i–a–l–
+02 orem remplace vaxt -> –o–r–e–m–r–e–m–p–l–a–c–e–v–a–x–t–
+
+This is your input.
+00 veau exits cp
+01 arse insol suburbs
+02 ada plasma periodic
+03 tais sphere tweet
+04 lema prolific montr
+05 ophila endroits incendi
+06 ameister brewer solito
+07 asian innate abraz
+08 like owner molt
+09 ts chang received
+10 ubes freien contexto
+11 sero grupos dann
+12 innan attached hovered
+13 apex molti hm
+14 valence loser peak
+15 ugliel rendszer follic
+16 empio issu bilg
+17 irus atacar barrios
+18 err produit playoffs
+19 ciu cock gesture
+20 zych onderste qualquer
+21 bbe ventures cattol
+22 io corrida segret
+23 lebte lige resto
+24 coli caption hubiera
+25 comings mamp toc
+26 emie mongodb rzecz
+27 ateral sulla warfare
+28 ubile gusta gert
+29 same suya egiteko
+30 guides facil mengenai
+31 pro tout coconut
+32 igg terza thoracic
+33 andre conduits suggests
+34 asilkan flexible thym
+35 onio estrange postav
+36 oplasma tiszt injuries
+37 ostics gentil monoc
+38 amor surat suffered
+39 profile carboxyl genoem
+40 uche officiel estudos
+41 ishi membantu cub
+42 ijnen commande searches
+43 ilo shore valores
+44 hle started thirty
+45 inado peace dov
+46 order ojo desco
+47 asen nasled fair
+48 artet bundle megjelen
+49 collect intenso moindre
+50 ignty alde polos
+51 sequ version eine
+52 isser tether laughter
+53 roff oktober beber
+54 elong ech pupp
+55 isseau egym rescued
+56 mie facing devint
+57 mehr es unamb
+58 ullivan tabela morally
+59 viles wart median
+60 ppen exerted peric
+61 ayama nanos lapar
+62 legung intern rt
+63 details verir alak
+64 itol tooth uczest
+65 osaur parven kirch
+66 erp cpu subir
+67 elfinale hai bodily
+68 kaz naps grou
+69 anterie villes melihat
+70 ghi dipl choice
+71 uan nemmeno vier
+72 ainers skupiny promesse
+73 url mp emitting
+74 annis sold espacial
+75 edere prose sospe
+76 andas moral nessuno
+77 olithic pell facility
+78 phone styled thank
+79 anthrop sape cancell
+80 aceous lenguaje transfer
+81 double eredet volum
+82 nap tropas banque
+83 edir querying sci
+84 lja halo ejerc
+85 nant whole trein
+86 advanced sensor shru
+87 grpc padres consid
+88 anguard kidneys valle
+89 eban about aggreg
+90 ementara torne cens
+91 atura sell caminh
+92 iosis supr vitesse
+93 kezet vengono lecz
+94 uploads lagen elevada
+95 inform cytoplas emis
+96 icide analogy such
+97 zungen ning defence
+98 osp russes communic
+99 ified damn pev
+[completion]
+00 veau exits cp -> –v–e–a–u–e–x–i–t–s–c–p–
+01 arse insol suburbs -> –a–r–s–e–i–n–s–o–l–s–u–b–u–r–b–s–
+02 ada plasma periodic -> –a–d–a–p–l–a–s–m–a–p–e–r–i–o–d–i–c–
+03 tais sphere tweet -> –t–a–i–s–s–p–h–e–r–e–t–w–e–e–t–
+04 lema prolific montr -> –l–e–m–a–p–r–o–l–i–f–i–c–m–o–n–t–r–
+05 ophila endroits incendi -> –o–p–h–i–l–a–e–n–d–r–o–i–t–s–i–n–c–e–n–d–i–
+06 ameister brewer solito -> –a–m–e–i–s–t–e–r–b–r–e–w–e–r–s–o–l–i–t–o–
+07 asian innate abraz -> –a–s–i–a–n–i–n–n–a–t–e–a–b–r–a–z–
+08 like owner molt -> –l–i–k–e–o–w–n–e–r–m–o–l–t–
+09 ts chang received -> –t–s–c–h–a–n–g–r–e–c–e–i–v–e–d–
+10 ubes freien contexto -> –u–b–e–s–f–r–e–i–e–n–c–o–n–t–e–x–t–o–
+11 sero grupos dann -> –s–e–r–o–g–r–u–p–o–s–d–a–n–n–
+12 innan attached hovered -> –i–n–n–a–n–a–t–t–a–c–h–e–d–h–o–v–e–r–e–d–
+13 apex molti hm -> –a–p–e–x–m–o–l–t–i–h–m–
+14 valence loser peak -> –v–a–l–e–n–c–e–l–o–s–e–r–p–e–a–k–
+15 ugliel rendszer follic -> –u–g–l–i–e–l–r–e–n–d–s–z–e–r–f–o–l–l–i–c–
+16 empio issu bilg -> –e–m–p–i–o–i–s–s–u–b–i–l–g–
+17 irus atacar barrios -> –i–r–u–s–a–t–a–c–a–r–b–a–r–r–i–o–s–
+18 err produit playoffs -> –e–r–r–p–r–o–d–u–i–t–p–l–a–y–o–f–f–s–
+19 ciu cock gesture -> –c–i–u–c–o–c–k–g–e–s–t–u–r–e–
+20 zych onderste qualquer -> –z–y–c–h–o–n–d–e–r–s–t–e–q–u–a–l–q–u–e–r–
+21 bbe ventures cattol -> –b–b–e–v–e–n–t–u–r–e–s–c–a–t–t–o–l–
+22 io corrida segret -> –i–o–c–o–r–r–i–d–a–s–e–g–r–e–t–
+23 lebte lige resto -> –l–e–b–t–e–l–i–g–e–r–e–s–t–o–
+24 coli caption hubiera -> –c–o–l–i–c–a–p–t–i–o–n–h–u–b–i–e–r–a–
+25 comings mamp toc -> –c–o–m–i–n–g–s–m–a–m–p–t–o–c–
+26 emie mongodb rzecz -> –e–m–i–e–m–o–n–g–o–d–b–r–z–e–c–z–
+27 ateral sulla warfare -> –a–t–e–r–a–l–s–u–l–l–a–w–a–r–f–a–r–e–
+28 ubile gusta gert -> –u–b–i–l–e–g–u–s–t–a–g–e–r–t–
+29 same suya egiteko -> –s–a–m–e–s–u–y–a–e–g–i–t–e–k–o–
+30 guides facil mengenai -> –g–u–i–d–e–s–f–a–c–i–l–m–e–n–g–e–n–a–i–
+31 pro tout coconut -> –p–r–o–t–o–u–t–c–o–c–o–n–u–t–
+32 igg terza thoracic -> –i–g–g–t–e–r–z–a–t–h–o–r–a–c–i–c–
+33 andre conduits suggests -> –a–n–d–r–e–c–o–n–d–u–i–t–s–s–u–g–g–e–s–t–s–
+34 asilkan flexible thym -> –a–s–i–l–k–a–n–f–l–e–x–i–b–l–e–t–h–y–m–
+35 onio estrange postav -> –o–n–i–o–e–s–t–r–a–n–g–e–p–o–s–t–a–v–
+36 oplasma tiszt injuries -> –o–p–l–a–s–m–a–t–i–s–z–t–i–n–j–u–r–i–e–s–
+37 ostics gentil monoc -> –o–s–t–i–c–s–g–e–n–t–i–l–m–o–n–o–c–
+38 amor surat suffered -> –a–m–o–r–s–u–r–a–t–s–u–f–f–e–r–e–d–
+39 profile carboxyl genoem -> –p–r–o–f–i–l–e–c–a–r–b–o–x–y–l–g–e–n–o–e–m–
+40 uche officiel estudos -> –u–c–h–e–o–f–f–i–c–i–e–l–e–s–t–u–d–o–s–
+41 ishi membantu cub -> –i–s–h–i–m–e–m–b–a–n–t–u–c–u–b–
+42 ijnen commande searches -> –i–j–n–e–n–c–o–m–m–a–n–d–e–s–e–a–r–c–h–e–s–
+43 ilo shore valores -> –i–l–o–s–h–o–r–e–v–a–l–o–r–e–s–
+44 hle started thirty -> –h–l–e–s–t–a–r–t–e–d–t–h–i–r–t–y–
+45 inado peace dov -> –i–n–a–d–o–p–e–a–c–e–d–o–v–
+46 order ojo desco -> –o–r–d–e–r–o–j–o–d–e–s–c–o–
+47 asen nasled fair -> –a–s–e–n–n–a–s–l–e–d–f–a–i–r–
+48 artet bundle megjelen -> –a–r–t–e–t–b–u–n–d–l–e–m–e–g–j–e–l–e–n–
+49 collect intenso moindre -> –c–o–l–l–e–c–t–i–n–t–e–n–s–o–m–o–i–n–d–r–e–
+50 ignty alde polos -> –i–g–n–t–y–a–l–d–e–p–o–l–o–s–
+51 sequ version eine -> –s–e–q–u–v–e–r–s–i–o–n–e–i–n–e–
+52 isser tether laughter -> –i–s–s–e–r–t–e–t–h–e–r–l–a–u–g–h–t–e–r–
+53 roff oktober beber -> –r–o–f–f–o–k–t–o–b–e–r–b–e–b–e–r–
+54 elong ech pupp -> –e–l–o–n–g–e–c–h–p–u–p–p–
+55 isseau egym rescued -> –i–s–s–e–a–u–e–g–y–m–r–e–s–c–u–e–d–
+56 mie facing devint -> –m–i–e–f–a–c–i–n–g–d–e–v–i–n–t–
+57 mehr es unamb -> –m–e–h–r–e–s–u–n–a–m–b–
+58 ullivan tabela morally -> –u–l–l–i–v–a–n–t–a–b–e–l–a–m–o–r–a–l–l–y–
+59 viles wart median -> –v–i–l–e–s–w–a–r–t–m–e–d–i–a–n–
+60 ppen exerted peric -> –p–p–e–n–e–x–e–r–t–e–d–p–e–r–i–c–
+61 ayama nanos lapar -> –a–y–a–m–a–n–a–n–o–s–l–a–p–a–r–
+62 legung intern rt -> –l–e–g–u–n–g–i–n–t–e–r–n–r–t–
+63 details verir alak -> –d–e–t–a–i–l–s–v–e–r–i–r–a–l–a–k–
+64 itol tooth uczest -> –i–t–o–l–t–o–o–t–h–u–c–z–e–s–t–
+65 osaur parven kirch -> –o–s–a–u–r–p–a–r–v–e–n–k–i–r–c–h–
+66 erp cpu subir -> –e–r–p–c–p–u–s–u–b–i–r–
+67 elfinale hai bodily -> –e–l–f–i–n–a–l–e–h–a–i–b–o–d–i–l–y–
+68 kaz naps grou -> –k–a–z–n–a–p–s–g–r–o–u–
+69 anterie villes melihat -> –a–n–t–e–r–i–e–v–i–l–l–e–s–m–e–l–i–h–a–t–
+70 ghi dipl choice -> –g–h–i–d–i–p–l–c–h–o–i–c–e–
+71 uan nemmeno vier -> –u–a–n–n–e–m–m–e–n–o–v–i–e–r–
+72 ainers skupiny promesse -> –a–i–n–e–r–s–s–k–u–p–i–n–y–p–r–o–m–e–s–s–e–
+73 url mp emitting -> –u–r–l–m–p–e–m–i–t–t–i–n–g–
+74 annis sold espacial -> –a–n–n–i–s–s–o–l–d–e–s–p–a–c–i–a–l–
+75 edere prose sospe -> –e–d–e–r–e–p–r–o–s–e–s–o–s–p–e–
+76 andas moral nessuno -> –a–n–d–a–s–m–o–r–a–l–n–e–s–s–u–n–o–
+77 olithic pell facility -> –o–l–i–t–h–i–c–p–e–l–l–f–a–c–i–l–i–t–y–
+78 phone styled thank -> –p–h–o–n–e–s–t–y–l–e–d–t–h–a–n–k–
+79 anthrop sape cancell -> –a–n–t–h–r–o–p–s–a–p–e–c–a–n–c–e–l–l–
+80 aceous lenguaje transfer -> –a–c–e–o–u–s–l–e–n–g–u–a–j–e–t–r–a–n–s–f–e–r–
+81 double eredet volum -> –d–o–u–b–l–e–e–r–e–d–e–t–v–o–l–u–m–
+82 nap tropas banque -> –n–a–p–t–r–o–p–a–s–b–a–n–q–u–e–
+83 edir querying sci -> –e–d–i–r–q–u–e–r–y–i–n–g–s–c–i–
+84 lja halo ejerc -> –l–j–a–h–a–l–o–e–j–e–r–c–
+85 nant whole trein -> –n–a–n–t–w–h–o–l–e–t–r–e–i–n–
+86 advanced sensor shru -> –a–d–v–a–n–c–e–d–s–e–n–s–o–r–s–h–r–u–
+87 grpc padres consid -> –g–r–p–c–p–a–d–r–e–s–c–o–n–s–i–d–
+88 anguard kidneys valle -> –a–n–g–u–a–r–d–k–i–d–n–e–y–s–v–a–l–l–e–
+89 eban about aggreg -> –e–b–a–n–a–b–o–u–t–a–g–g–r–e–g–
+90 ementara torne cens -> –e–m–e–n–t–a–r–a–t–o–r–n–e–c–e–n–s–
+91 atura sell caminh -> –a–t–u–r–a–s–e–l–l–c–a–m–i–n–h–
+92 iosis supr vitesse -> –i–o–s–i–s–s–u–p–r–v–i–t–e–s–s–e–
+93 kezet vengono lecz -> –k–e–z–e–t–v–e–n–g–o–n–o–l–e–c–z–
+94 uploads lagen elevada -> –u–p–l–o–a–d–s–l–a–g–e–n–e–l–e–v–a–d–a–
+95 inform cytoplas emis -> –i–n–f–o–r–m–c–y–t–o–p–l–a–s–e–m–i–s–
+96 icide analogy such -> –i–c–i–d–e–a–n–a–l–o–g–y–s–u–c–h–
+97 zungen ning defence -> –z–u–n–g–e–n–n–i–n–g–d–e–f–e–n–c–e–
+98 osp russes communic -> –o–s–p–r–u–s–s–e–s–c–o–m–m–u–n–i–c–
+99 ified damn pev -> –i–f–i–e–d–d–a–m–n–p–e–v–

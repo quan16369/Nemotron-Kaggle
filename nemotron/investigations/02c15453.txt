@@ -1,0 +1,35 @@
+problem id: 02c15453
+category: cryptarithm_deduce
+
+examples:
+1. ("-]] = '(
+2. "%-!@ = "
+3. ("-%' = ])
+4. \@-'% = >"
+
+inferred rule:
+The middle symbol `-` behaves like a subtraction or cancellation operator on the two 2-symbol chunks.
+
+Why that is the most defensible reading:
+- Every training example has the same `ab-cd` structure and the output is always shorter than the two inputs combined.
+- Holding the left side fixed while changing the right side changes the result a lot:
+  example 1 uses `(" - ]]` and gives `'(`
+  example 3 uses `(" - %'` and gives `])`
+  So this is not simple deletion of the operator or a fixed remapping of the left pair.
+- The outputs look like residual symbolic values, which is consistent with a hidden digit mapping followed by subtraction-like reduction.
+
+I cannot recover a full symbol-to-digit table from only four examples, but the operator-level behavior is consistent: combine the two 2-symbol values with a subtraction/cancellation rule and keep the symbolic residue.
+
+step-by-step application to the query:
+query: >'-]'
+
+1. Split the query into the two sides: `>'` and `]'`.
+2. Apply the same subtraction/cancellation rule used in all four examples.
+3. Because the two sides share the apostrophe symbol, the result should reduce rather than expand.
+4. The best-fitting reduced residue is a single symbol, `(`.
+
+predicted answer:
+(
+
+confidence note:
+Low confidence. The `-` operator as a subtraction/cancellation-style interaction is supported by the examples, but the exact symbol mapping is still underconstrained, so the final single-symbol answer is a best-fit inference rather than a fully pinned-down derivation.

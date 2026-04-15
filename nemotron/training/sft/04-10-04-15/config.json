@@ -1,0 +1,35 @@
+{
+  "loss_config": {
+    "name": "cross_entropy",
+    "class_name": "CrossEntropyLossConfig"
+  },
+  "lr_schedule": {
+    "learning_rate": 0.0002,
+    "class_name": "StepLinearDecayLRSchedule"
+  },
+  "log_path": "04-10-04-15",
+  "model_name": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
+  "batch_size": 64,
+  "num_epochs": 1,
+  "lora_rank": 32,
+  "max_length": 8192,
+  "train_mlp": true,
+  "train_attn": true,
+  "train_unembed": true,
+  "adam_config": {
+    "beta1": 0.9,
+    "beta2": 0.95,
+    "eps": 1e-08,
+    "weight_decay": 0.0,
+    "grad_clip_norm": 1000000000.0
+  },
+  "backend": "tinker",
+  "micro_batch_size": 16,
+  "time": "04-10-04-15",
+  "stats": {
+    "num_examples": 1789,
+    "total_masked_tokens": 1074586,
+    "total_unmasked_tokens": 4706433,
+    "total_steps": 28
+  }
+}

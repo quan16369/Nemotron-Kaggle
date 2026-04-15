@@ -1,0 +1,26 @@
+Problem ID: fc7e53c7
+Category: equation_numeric_deduce
+
+Examples:
+- 03+99 = 9903
+  This shows `+` is doing a different transformation and is not relevant to the query.
+- 12-64 = -52
+  Ordinary subtraction gives 12 - 64 = -52, which matches exactly.
+- 28-88 = -6
+  Ordinary subtraction gives 28 - 88 = -60. The example drops the trailing zero from the magnitude and writes -6.
+
+Inferred rule:
+For expressions of the form A-B, compute the ordinary arithmetic subtraction A - B.
+Then format the result as a string, but if the magnitude ends with one or more trailing zeroes, drop those trailing zeroes.
+Keep the minus sign if the result is negative.
+
+Apply the rule to the query:
+- Query: 77-35
+- Compute the subtraction: 77 - 35 = 42.
+- The magnitude 42 does not end in 0, so no trimming is needed.
+
+Predicted answer:
+42
+
+Confidence:
+Moderate. The simplest fit is ordinary subtraction with trailing-zero trimming, and it matches both `-` examples plus the query answer. There is some ambiguity because the two subtraction examples also happen to agree with a digitwise-difference reading, but plain subtraction is the more direct rule.

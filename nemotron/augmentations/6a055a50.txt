@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 tele conf rc
+01 rito zajmu convince
+02 elong splicing wafer
+
+This is a sample output.
+00 tele conf rc -> –t–e–l–e–c–o–n–f–r–c–
+01 rito zajmu convince -> –r–i–t–o–z–a–j–m–u–c–o–n–v–i–n–c–e–
+02 elong splicing wafer -> –e–l–o–n–g–s–p–l–i–c–i–n–g–w–a–f–e–r–
+
+This is your input.
+00 ouge tourner sering
+01 isol entreten future
+02 leter nag ensemble
+03 algam potenti puesta
+04 sidebar sust guise
+05 tyj llama atheros
+06 imab mensch harmony
+07 erer makeup claro
+08 imuth inexp elas
+09 oly tabindex monkeys
+10 printed maybe envah
+11 iedad pener rara
+12 sob napad differed
+13 unuh sopra land
+14 ivu enlisted omb
+15 ografia konserv invade
+16 ollah chung clinics
+17 rosos tohoto retina
+18 museum dessert archae
+19 uspended debates isolate
+20 ic rept prophe
+21 kent urtean gui
+22 frei cousin taxes
+23 common riche laundry
+24 olecule animals inconn
+25 inine going ejempl
+26 mium spare champs
+27 onych gm healed
+28 inoza boil filmes
+29 rop diary devices
+30 userid void therein
+31 you risques view
+32 generate storia handel
+33 ocar swoim vault
+34 opening inicia terceiro
+35 iste bian unik
+36 arbox ng jeszcze
+37 psilon fro guiding
+38 bread zien toutes
+39 ellite elk enthal
+40 pont ainda boven
+41 ht afl bambino
+42 hnung logra lunch
+43 left aro carre
+44 esser repeated spin
+45 igit azpian luxury
+46 lawan grid wilayah
+47 eliers imit veliko
+48 voz gefol emprunt
+49 onel jag or
+50 emeen surfact wak
+51 introdu depende contando
+52 fair arroz deutlich
+53 tip abd average
+54 ilda delar semble
+55 emann denom tal
+56 reeks nivel mari
+57 norm ingen hatal
+58 hon rendez especial
+59 ytet reconc terut
+60 hein stap itali
+61 ait bomber camis
+62 babel feel labor
+63 mi equals sticks
+64 multicol wheat accepter
+65 imon creators resp
+66 divisie herriak spheres
+67 ienti estran quite
+68 second testim verab
+69 imaging rau entwick
+70 gail phi nil
+71 ctx largeur ezag
+72 nesty olevan despite
+73 velopp za freezing
+74 rimin days cinn
+75 cknowled galaxy jelen
+76 dev hau entrev
+77 entu reput miejs
+78 hai royal carton
+79 ahkan palace chicken
+80 argo visitar scary
+81 werke schrij alb
+82 imas tray salvage
+83 channels silico doar
+84 lands inde difund
+85 zh aud joke
+86 lung japan resta
+87 eng sintet weg
+88 encephal vitro tredje
+89 ubishi ale snatched
+90 inov rites potom
+91 vral miniser corr
+92 regist conseils yap
+93 lege formar discount
+94 icions shared couleur
+95 akat empresa selbst
+96 cmd oy libertad
+97 hti sharpen prior
+98 ulai literar cookies
+99 bie etxek manip
+[completion]
+00 ouge tourner sering -> –o–u–g–e–t–o–u–r–n–e–r–s–e–r–i–n–g–
+01 isol entreten future -> –i–s–o–l–e–n–t–r–e–t–e–n–f–u–t–u–r–e–
+02 leter nag ensemble -> –l–e–t–e–r–n–a–g–e–n–s–e–m–b–l–e–
+03 algam potenti puesta -> –a–l–g–a–m–p–o–t–e–n–t–i–p–u–e–s–t–a–
+04 sidebar sust guise -> –s–i–d–e–b–a–r–s–u–s–t–g–u–i–s–e–
+05 tyj llama atheros -> –t–y–j–l–l–a–m–a–a–t–h–e–r–o–s–
+06 imab mensch harmony -> –i–m–a–b–m–e–n–s–c–h–h–a–r–m–o–n–y–
+07 erer makeup claro -> –e–r–e–r–m–a–k–e–u–p–c–l–a–r–o–
+08 imuth inexp elas -> –i–m–u–t–h–i–n–e–x–p–e–l–a–s–
+09 oly tabindex monkeys -> –o–l–y–t–a–b–i–n–d–e–x–m–o–n–k–e–y–s–
+10 printed maybe envah -> –p–r–i–n–t–e–d–m–a–y–b–e–e–n–v–a–h–
+11 iedad pener rara -> –i–e–d–a–d–p–e–n–e–r–r–a–r–a–
+12 sob napad differed -> –s–o–b–n–a–p–a–d–d–i–f–f–e–r–e–d–
+13 unuh sopra land -> –u–n–u–h–s–o–p–r–a–l–a–n–d–
+14 ivu enlisted omb -> –i–v–u–e–n–l–i–s–t–e–d–o–m–b–
+15 ografia konserv invade -> –o–g–r–a–f–i–a–k–o–n–s–e–r–v–i–n–v–a–d–e–
+16 ollah chung clinics -> –o–l–l–a–h–c–h–u–n–g–c–l–i–n–i–c–s–
+17 rosos tohoto retina -> –r–o–s–o–s–t–o–h–o–t–o–r–e–t–i–n–a–
+18 museum dessert archae -> –m–u–s–e–u–m–d–e–s–s–e–r–t–a–r–c–h–a–e–
+19 uspended debates isolate -> –u–s–p–e–n–d–e–d–d–e–b–a–t–e–s–i–s–o–l–a–t–e–
+20 ic rept prophe -> –i–c–r–e–p–t–p–r–o–p–h–e–
+21 kent urtean gui -> –k–e–n–t–u–r–t–e–a–n–g–u–i–
+22 frei cousin taxes -> –f–r–e–i–c–o–u–s–i–n–t–a–x–e–s–
+23 common riche laundry -> –c–o–m–m–o–n–r–i–c–h–e–l–a–u–n–d–r–y–
+24 olecule animals inconn -> –o–l–e–c–u–l–e–a–n–i–m–a–l–s–i–n–c–o–n–n–
+25 inine going ejempl -> –i–n–i–n–e–g–o–i–n–g–e–j–e–m–p–l–
+26 mium spare champs -> –m–i–u–m–s–p–a–r–e–c–h–a–m–p–s–
+27 onych gm healed -> –o–n–y–c–h–g–m–h–e–a–l–e–d–
+28 inoza boil filmes -> –i–n–o–z–a–b–o–i–l–f–i–l–m–e–s–
+29 rop diary devices -> –r–o–p–d–i–a–r–y–d–e–v–i–c–e–s–
+30 userid void therein -> –u–s–e–r–i–d–v–o–i–d–t–h–e–r–e–i–n–
+31 you risques view -> –y–o–u–r–i–s–q–u–e–s–v–i–e–w–
+32 generate storia handel -> –g–e–n–e–r–a–t–e–s–t–o–r–i–a–h–a–n–d–e–l–
+33 ocar swoim vault -> –o–c–a–r–s–w–o–i–m–v–a–u–l–t–
+34 opening inicia terceiro -> –o–p–e–n–i–n–g–i–n–i–c–i–a–t–e–r–c–e–i–r–o–
+35 iste bian unik -> –i–s–t–e–b–i–a–n–u–n–i–k–
+36 arbox ng jeszcze -> –a–r–b–o–x–n–g–j–e–s–z–c–z–e–
+37 psilon fro guiding -> –p–s–i–l–o–n–f–r–o–g–u–i–d–i–n–g–
+38 bread zien toutes -> –b–r–e–a–d–z–i–e–n–t–o–u–t–e–s–
+39 ellite elk enthal -> –e–l–l–i–t–e–e–l–k–e–n–t–h–a–l–
+40 pont ainda boven -> –p–o–n–t–a–i–n–d–a–b–o–v–e–n–
+41 ht afl bambino -> –h–t–a–f–l–b–a–m–b–i–n–o–
+42 hnung logra lunch -> –h–n–u–n–g–l–o–g–r–a–l–u–n–c–h–
+43 left aro carre -> –l–e–f–t–a–r–o–c–a–r–r–e–
+44 esser repeated spin -> –e–s–s–e–r–r–e–p–e–a–t–e–d–s–p–i–n–
+45 igit azpian luxury -> –i–g–i–t–a–z–p–i–a–n–l–u–x–u–r–y–
+46 lawan grid wilayah -> –l–a–w–a–n–g–r–i–d–w–i–l–a–y–a–h–
+47 eliers imit veliko -> –e–l–i–e–r–s–i–m–i–t–v–e–l–i–k–o–
+48 voz gefol emprunt -> –v–o–z–g–e–f–o–l–e–m–p–r–u–n–t–
+49 onel jag or -> –o–n–e–l–j–a–g–o–r–
+50 emeen surfact wak -> –e–m–e–e–n–s–u–r–f–a–c–t–w–a–k–
+51 introdu depende contando -> –i–n–t–r–o–d–u–d–e–p–e–n–d–e–c–o–n–t–a–n–d–o–
+52 fair arroz deutlich -> –f–a–i–r–a–r–r–o–z–d–e–u–t–l–i–c–h–
+53 tip abd average -> –t–i–p–a–b–d–a–v–e–r–a–g–e–
+54 ilda delar semble -> –i–l–d–a–d–e–l–a–r–s–e–m–b–l–e–
+55 emann denom tal -> –e–m–a–n–n–d–e–n–o–m–t–a–l–
+56 reeks nivel mari -> –r–e–e–k–s–n–i–v–e–l–m–a–r–i–
+57 norm ingen hatal -> –n–o–r–m–i–n–g–e–n–h–a–t–a–l–
+58 hon rendez especial -> –h–o–n–r–e–n–d–e–z–e–s–p–e–c–i–a–l–
+59 ytet reconc terut -> –y–t–e–t–r–e–c–o–n–c–t–e–r–u–t–
+60 hein stap itali -> –h–e–i–n–s–t–a–p–i–t–a–l–i–
+61 ait bomber camis -> –a–i–t–b–o–m–b–e–r–c–a–m–i–s–
+62 babel feel labor -> –b–a–b–e–l–f–e–e–l–l–a–b–o–r–
+63 mi equals sticks -> –m–i–e–q–u–a–l–s–s–t–i–c–k–s–
+64 multicol wheat accepter -> –m–u–l–t–i–c–o–l–w–h–e–a–t–a–c–c–e–p–t–e–r–
+65 imon creators resp -> –i–m–o–n–c–r–e–a–t–o–r–s–r–e–s–p–
+66 divisie herriak spheres -> –d–i–v–i–s–i–e–h–e–r–r–i–a–k–s–p–h–e–r–e–s–
+67 ienti estran quite -> –i–e–n–t–i–e–s–t–r–a–n–q–u–i–t–e–
+68 second testim verab -> –s–e–c–o–n–d–t–e–s–t–i–m–v–e–r–a–b–
+69 imaging rau entwick -> –i–m–a–g–i–n–g–r–a–u–e–n–t–w–i–c–k–
+70 gail phi nil -> –g–a–i–l–p–h–i–n–i–l–
+71 ctx largeur ezag -> –c–t–x–l–a–r–g–e–u–r–e–z–a–g–
+72 nesty olevan despite -> –n–e–s–t–y–o–l–e–v–a–n–d–e–s–p–i–t–e–
+73 velopp za freezing -> –v–e–l–o–p–p–z–a–f–r–e–e–z–i–n–g–
+74 rimin days cinn -> –r–i–m–i–n–d–a–y–s–c–i–n–n–
+75 cknowled galaxy jelen -> –c–k–n–o–w–l–e–d–g–a–l–a–x–y–j–e–l–e–n–
+76 dev hau entrev -> –d–e–v–h–a–u–e–n–t–r–e–v–
+77 entu reput miejs -> –e–n–t–u–r–e–p–u–t–m–i–e–j–s–
+78 hai royal carton -> –h–a–i–r–o–y–a–l–c–a–r–t–o–n–
+79 ahkan palace chicken -> –a–h–k–a–n–p–a–l–a–c–e–c–h–i–c–k–e–n–
+80 argo visitar scary -> –a–r–g–o–v–i–s–i–t–a–r–s–c–a–r–y–
+81 werke schrij alb -> –w–e–r–k–e–s–c–h–r–i–j–a–l–b–
+82 imas tray salvage -> –i–m–a–s–t–r–a–y–s–a–l–v–a–g–e–
+83 channels silico doar -> –c–h–a–n–n–e–l–s–s–i–l–i–c–o–d–o–a–r–
+84 lands inde difund -> –l–a–n–d–s–i–n–d–e–d–i–f–u–n–d–
+85 zh aud joke -> –z–h–a–u–d–j–o–k–e–
+86 lung japan resta -> –l–u–n–g–j–a–p–a–n–r–e–s–t–a–
+87 eng sintet weg -> –e–n–g–s–i–n–t–e–t–w–e–g–
+88 encephal vitro tredje -> –e–n–c–e–p–h–a–l–v–i–t–r–o–t–r–e–d–j–e–
+89 ubishi ale snatched -> –u–b–i–s–h–i–a–l–e–s–n–a–t–c–h–e–d–
+90 inov rites potom -> –i–n–o–v–r–i–t–e–s–p–o–t–o–m–
+91 vral miniser corr -> –v–r–a–l–m–i–n–i–s–e–r–c–o–r–r–
+92 regist conseils yap -> –r–e–g–i–s–t–c–o–n–s–e–i–l–s–y–a–p–
+93 lege formar discount -> –l–e–g–e–f–o–r–m–a–r–d–i–s–c–o–u–n–t–
+94 icions shared couleur -> –i–c–i–o–n–s–s–h–a–r–e–d–c–o–u–l–e–u–r–
+95 akat empresa selbst -> –a–k–a–t–e–m–p–r–e–s–a–s–e–l–b–s–t–
+96 cmd oy libertad -> –c–m–d–o–y–l–i–b–e–r–t–a–d–
+97 hti sharpen prior -> –h–t–i–s–h–a–r–p–e–n–p–r–i–o–r–
+98 ulai literar cookies -> –u–l–a–i–l–i–t–e–r–a–r–c–o–o–k–i–e–s–
+99 bie etxek manip -> –b–i–e–e–t–x–e–k–m–a–n–i–p–

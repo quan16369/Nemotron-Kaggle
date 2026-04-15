@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 iquid timing boy
+01 opy estek hoofd
+02 help leng mascul
+
+This is a sample output.
+00 iquid timing boy -> –i–q–u–i–d–t–i–m–i–n–g–b–o–y–
+01 opy estek hoofd -> –o–p–y–e–s–t–e–k–h–o–o–f–d–
+02 help leng mascul -> –h–e–l–p–l–e–n–g–m–a–s–c–u–l–
+
+This is your input.
+00 skap rods prisoner
+01 inge bidding spending
+02 esters guinea njegova
+03 bron bidez por
+04 vezett phage momentum
+05 inawa triunfo eminent
+06 ilih vieler perdeu
+07 cribing oportun recalls
+08 utan error book
+09 annya sens programa
+10 fy include topo
+11 lekt feud update
+12 duced dilute stumbled
+13 forecast tienen chamber
+14 pler gingen febru
+15 gab oyun spielt
+16 ollision organiza inf
+17 agnar wives soupira
+18 ulaires evid erect
+19 uper axons verre
+20 hei castello strings
+21 ected trips bak
+22 nance pourrais utiliza
+23 ow endomm cars
+24 erdere largo haus
+25 ianos schwere lane
+26 fahrt contour brick
+27 decyd diplomat apporter
+28 chief scen stanow
+29 aisons altered hosting
+30 enche place mercy
+31 roda smirk steeds
+32 helpers storage studenti
+33 arah oceans suffis
+34 vista wards landscap
+35 umente seluruh battre
+36 olph inside rzek
+37 ruck charger burdens
+38 daction manera ispir
+39 ibliot ensole oleh
+40 el explicar actrice
+41 inely terr cren
+42 ydown wrists charges
+43 stern standen usable
+44 bahnen norm tysk
+45 adena jego nadal
+46 ogue kv ros
+47 ver aner popping
+48 orative start descon
+49 iding kaks oggetti
+50 igste sceneggi zeer
+51 met grey sedent
+52 nement kort remettre
+53 verified reformas featured
+54 ycin wore traduit
+55 async drives thanks
+56 bject xor gemacht
+57 ophyll deleting despert
+58 iculture circuito corners
+59 ilaren strada jarduer
+60 blos fue vertu
+61 testing soviet fraud
+62 coord varchar lecteur
+63 abolic hem excit
+64 connect scale siehe
+65 zono funkc grass
+66 odil besoin sehen
+67 ubi prostoru besteh
+68 ottak nop lista
+69 nelles deze dicembre
+70 zott ganglion sound
+71 zehn vyhr intrins
+72 lager surtout legends
+73 yroidism cursed pese
+74 bra elem comeback
+75 como postaci protons
+76 erio cambio vieil
+77 unst limites tar
+78 orer clever xxx
+79 ilience utwor ennem
+80 pektive empire parish
+81 itated sejak sap
+82 keen sumber jars
+83 untza swing faulty
+84 max concours tucked
+85 icamente sourced resigned
+86 adesh maz lease
+87 fast newborn inquiry
+88 gat bili dates
+89 pen cristal roar
+90 lard cher soldiers
+91 pecial cztery mga
+92 wier tubercul heut
+93 umann tiuj bic
+94 urf trzec cuk
+95 itur hoa czego
+96 ieres evolved bombard
+97 iko regimen vode
+98 urers prayers calves
+99 rade tarea clearing
+[completion]
+00 skap rods prisoner -> –s–k–a–p–r–o–d–s–p–r–i–s–o–n–e–r–
+01 inge bidding spending -> –i–n–g–e–b–i–d–d–i–n–g–s–p–e–n–d–i–n–g–
+02 esters guinea njegova -> –e–s–t–e–r–s–g–u–i–n–e–a–n–j–e–g–o–v–a–
+03 bron bidez por -> –b–r–o–n–b–i–d–e–z–p–o–r–
+04 vezett phage momentum -> –v–e–z–e–t–t–p–h–a–g–e–m–o–m–e–n–t–u–m–
+05 inawa triunfo eminent -> –i–n–a–w–a–t–r–i–u–n–f–o–e–m–i–n–e–n–t–
+06 ilih vieler perdeu -> –i–l–i–h–v–i–e–l–e–r–p–e–r–d–e–u–
+07 cribing oportun recalls -> –c–r–i–b–i–n–g–o–p–o–r–t–u–n–r–e–c–a–l–l–s–
+08 utan error book -> –u–t–a–n–e–r–r–o–r–b–o–o–k–
+09 annya sens programa -> –a–n–n–y–a–s–e–n–s–p–r–o–g–r–a–m–a–
+10 fy include topo -> –f–y–i–n–c–l–u–d–e–t–o–p–o–
+11 lekt feud update -> –l–e–k–t–f–e–u–d–u–p–d–a–t–e–
+12 duced dilute stumbled -> –d–u–c–e–d–d–i–l–u–t–e–s–t–u–m–b–l–e–d–
+13 forecast tienen chamber -> –f–o–r–e–c–a–s–t–t–i–e–n–e–n–c–h–a–m–b–e–r–
+14 pler gingen febru -> –p–l–e–r–g–i–n–g–e–n–f–e–b–r–u–
+15 gab oyun spielt -> –g–a–b–o–y–u–n–s–p–i–e–l–t–
+16 ollision organiza inf -> –o–l–l–i–s–i–o–n–o–r–g–a–n–i–z–a–i–n–f–
+17 agnar wives soupira -> –a–g–n–a–r–w–i–v–e–s–s–o–u–p–i–r–a–
+18 ulaires evid erect -> –u–l–a–i–r–e–s–e–v–i–d–e–r–e–c–t–
+19 uper axons verre -> –u–p–e–r–a–x–o–n–s–v–e–r–r–e–
+20 hei castello strings -> –h–e–i–c–a–s–t–e–l–l–o–s–t–r–i–n–g–s–
+21 ected trips bak -> –e–c–t–e–d–t–r–i–p–s–b–a–k–
+22 nance pourrais utiliza -> –n–a–n–c–e–p–o–u–r–r–a–i–s–u–t–i–l–i–z–a–
+23 ow endomm cars -> –o–w–e–n–d–o–m–m–c–a–r–s–
+24 erdere largo haus -> –e–r–d–e–r–e–l–a–r–g–o–h–a–u–s–
+25 ianos schwere lane -> –i–a–n–o–s–s–c–h–w–e–r–e–l–a–n–e–
+26 fahrt contour brick -> –f–a–h–r–t–c–o–n–t–o–u–r–b–r–i–c–k–
+27 decyd diplomat apporter -> –d–e–c–y–d–d–i–p–l–o–m–a–t–a–p–p–o–r–t–e–r–
+28 chief scen stanow -> –c–h–i–e–f–s–c–e–n–s–t–a–n–o–w–
+29 aisons altered hosting -> –a–i–s–o–n–s–a–l–t–e–r–e–d–h–o–s–t–i–n–g–
+30 enche place mercy -> –e–n–c–h–e–p–l–a–c–e–m–e–r–c–y–
+31 roda smirk steeds -> –r–o–d–a–s–m–i–r–k–s–t–e–e–d–s–
+32 helpers storage studenti -> –h–e–l–p–e–r–s–s–t–o–r–a–g–e–s–t–u–d–e–n–t–i–
+33 arah oceans suffis -> –a–r–a–h–o–c–e–a–n–s–s–u–f–f–i–s–
+34 vista wards landscap -> –v–i–s–t–a–w–a–r–d–s–l–a–n–d–s–c–a–p–
+35 umente seluruh battre -> –u–m–e–n–t–e–s–e–l–u–r–u–h–b–a–t–t–r–e–
+36 olph inside rzek -> –o–l–p–h–i–n–s–i–d–e–r–z–e–k–
+37 ruck charger burdens -> –r–u–c–k–c–h–a–r–g–e–r–b–u–r–d–e–n–s–
+38 daction manera ispir -> –d–a–c–t–i–o–n–m–a–n–e–r–a–i–s–p–i–r–
+39 ibliot ensole oleh -> –i–b–l–i–o–t–e–n–s–o–l–e–o–l–e–h–
+40 el explicar actrice -> –e–l–e–x–p–l–i–c–a–r–a–c–t–r–i–c–e–
+41 inely terr cren -> –i–n–e–l–y–t–e–r–r–c–r–e–n–
+42 ydown wrists charges -> –y–d–o–w–n–w–r–i–s–t–s–c–h–a–r–g–e–s–
+43 stern standen usable -> –s–t–e–r–n–s–t–a–n–d–e–n–u–s–a–b–l–e–
+44 bahnen norm tysk -> –b–a–h–n–e–n–n–o–r–m–t–y–s–k–
+45 adena jego nadal -> –a–d–e–n–a–j–e–g–o–n–a–d–a–l–
+46 ogue kv ros -> –o–g–u–e–k–v–r–o–s–
+47 ver aner popping -> –v–e–r–a–n–e–r–p–o–p–p–i–n–g–
+48 orative start descon -> –o–r–a–t–i–v–e–s–t–a–r–t–d–e–s–c–o–n–
+49 iding kaks oggetti -> –i–d–i–n–g–k–a–k–s–o–g–g–e–t–t–i–
+50 igste sceneggi zeer -> –i–g–s–t–e–s–c–e–n–e–g–g–i–z–e–e–r–
+51 met grey sedent -> –m–e–t–g–r–e–y–s–e–d–e–n–t–
+52 nement kort remettre -> –n–e–m–e–n–t–k–o–r–t–r–e–m–e–t–t–r–e–
+53 verified reformas featured -> –v–e–r–i–f–i–e–d–r–e–f–o–r–m–a–s–f–e–a–t–u–r–e–d–
+54 ycin wore traduit -> –y–c–i–n–w–o–r–e–t–r–a–d–u–i–t–
+55 async drives thanks -> –a–s–y–n–c–d–r–i–v–e–s–t–h–a–n–k–s–
+56 bject xor gemacht -> –b–j–e–c–t–x–o–r–g–e–m–a–c–h–t–
+57 ophyll deleting despert -> –o–p–h–y–l–l–d–e–l–e–t–i–n–g–d–e–s–p–e–r–t–
+58 iculture circuito corners -> –i–c–u–l–t–u–r–e–c–i–r–c–u–i–t–o–c–o–r–n–e–r–s–
+59 ilaren strada jarduer -> –i–l–a–r–e–n–s–t–r–a–d–a–j–a–r–d–u–e–r–
+60 blos fue vertu -> –b–l–o–s–f–u–e–v–e–r–t–u–
+61 testing soviet fraud -> –t–e–s–t–i–n–g–s–o–v–i–e–t–f–r–a–u–d–
+62 coord varchar lecteur -> –c–o–o–r–d–v–a–r–c–h–a–r–l–e–c–t–e–u–r–
+63 abolic hem excit -> –a–b–o–l–i–c–h–e–m–e–x–c–i–t–
+64 connect scale siehe -> –c–o–n–n–e–c–t–s–c–a–l–e–s–i–e–h–e–
+65 zono funkc grass -> –z–o–n–o–f–u–n–k–c–g–r–a–s–s–
+66 odil besoin sehen -> –o–d–i–l–b–e–s–o–i–n–s–e–h–e–n–
+67 ubi prostoru besteh -> –u–b–i–p–r–o–s–t–o–r–u–b–e–s–t–e–h–
+68 ottak nop lista -> –o–t–t–a–k–n–o–p–l–i–s–t–a–
+69 nelles deze dicembre -> –n–e–l–l–e–s–d–e–z–e–d–i–c–e–m–b–r–e–
+70 zott ganglion sound -> –z–o–t–t–g–a–n–g–l–i–o–n–s–o–u–n–d–
+71 zehn vyhr intrins -> –z–e–h–n–v–y–h–r–i–n–t–r–i–n–s–
+72 lager surtout legends -> –l–a–g–e–r–s–u–r–t–o–u–t–l–e–g–e–n–d–s–
+73 yroidism cursed pese -> –y–r–o–i–d–i–s–m–c–u–r–s–e–d–p–e–s–e–
+74 bra elem comeback -> –b–r–a–e–l–e–m–c–o–m–e–b–a–c–k–
+75 como postaci protons -> –c–o–m–o–p–o–s–t–a–c–i–p–r–o–t–o–n–s–
+76 erio cambio vieil -> –e–r–i–o–c–a–m–b–i–o–v–i–e–i–l–
+77 unst limites tar -> –u–n–s–t–l–i–m–i–t–e–s–t–a–r–
+78 orer clever xxx -> –o–r–e–r–c–l–e–v–e–r–x–x–x–
+79 ilience utwor ennem -> –i–l–i–e–n–c–e–u–t–w–o–r–e–n–n–e–m–
+80 pektive empire parish -> –p–e–k–t–i–v–e–e–m–p–i–r–e–p–a–r–i–s–h–
+81 itated sejak sap -> –i–t–a–t–e–d–s–e–j–a–k–s–a–p–
+82 keen sumber jars -> –k–e–e–n–s–u–m–b–e–r–j–a–r–s–
+83 untza swing faulty -> –u–n–t–z–a–s–w–i–n–g–f–a–u–l–t–y–
+84 max concours tucked -> –m–a–x–c–o–n–c–o–u–r–s–t–u–c–k–e–d–
+85 icamente sourced resigned -> –i–c–a–m–e–n–t–e–s–o–u–r–c–e–d–r–e–s–i–g–n–e–d–
+86 adesh maz lease -> –a–d–e–s–h–m–a–z–l–e–a–s–e–
+87 fast newborn inquiry -> –f–a–s–t–n–e–w–b–o–r–n–i–n–q–u–i–r–y–
+88 gat bili dates -> –g–a–t–b–i–l–i–d–a–t–e–s–
+89 pen cristal roar -> –p–e–n–c–r–i–s–t–a–l–r–o–a–r–
+90 lard cher soldiers -> –l–a–r–d–c–h–e–r–s–o–l–d–i–e–r–s–
+91 pecial cztery mga -> –p–e–c–i–a–l–c–z–t–e–r–y–m–g–a–
+92 wier tubercul heut -> –w–i–e–r–t–u–b–e–r–c–u–l–h–e–u–t–
+93 umann tiuj bic -> –u–m–a–n–n–t–i–u–j–b–i–c–
+94 urf trzec cuk -> –u–r–f–t–r–z–e–c–c–u–k–
+95 itur hoa czego -> –i–t–u–r–h–o–a–c–z–e–g–o–
+96 ieres evolved bombard -> –i–e–r–e–s–e–v–o–l–v–e–d–b–o–m–b–a–r–d–
+97 iko regimen vode -> –i–k–o–r–e–g–i–m–e–n–v–o–d–e–
+98 urers prayers calves -> –u–r–e–r–s–p–r–a–y–e–r–s–c–a–l–v–e–s–
+99 rade tarea clearing -> –r–a–d–e–t–a–r–e–a–c–l–e–a–r–i–n–g–

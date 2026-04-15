@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 afe evoc floating
+01 ellos vezet namn
+02 epad does trouvent
+
+This is a sample output.
+00 afe evoc floating -> –a–f–e–e–v–o–c–f–l–o–a–t–i–n–g–
+01 ellos vezet namn -> –e–l–l–o–s–v–e–z–e–t–n–a–m–n–
+02 epad does trouvent -> –e–p–a–d–d–o–e–s–t–r–o–u–v–e–n–t–
+
+This is your input.
+00 urry consumed wished
+01 oming steril ataque
+02 loc poison evangel
+03 ettatori sequ successo
+04 illiant hello zasad
+05 cedented invert inglese
+06 irok unbel chevaux
+07 perm wie roh
+08 feito acost secrets
+09 spring campe bags
+10 inguish linha skills
+11 etched concerns froide
+12 onson reversed sweater
+13 sorted bc excepto
+14 kenland essais uyg
+15 ometh check vl
+16 alary tap unix
+17 usammen cellules miembro
+18 leep hivatal corneal
+19 run neerland protagon
+20 emate condado meas
+21 alih pi bislang
+22 iram tritt streng
+23 iosos gehouden raised
+24 queur introd wickets
+25 orship radi noche
+26 alaisten multic manten
+27 kub vinc flaws
+28 leben sliced meinte
+29 iet lasting name
+30 reros negative bother
+31 ushima ration morta
+32 will crest mute
+33 igits ona entweder
+34 oulos sick offered
+35 embling pathname malaria
+36 ordre poursu subjekt
+37 gek inherits odcink
+38 tery dadurch rhs
+39 ings rape avantage
+40 chnet hopeful visibly
+41 uebla suro rotor
+42 cut reiv ih
+43 cuda sm hardened
+44 dummy forwards meccan
+45 xase decembro kral
+46 eny malt vert
+47 adal zoon hs
+48 igungen saisir delimit
+49 zont ucz prevent
+50 ning resultat reviews
+51 con goss prism
+52 varo paramil pop
+53 wierd mitigate demokrat
+54 isson attra domains
+55 markt chapitre vuoksi
+56 maven stata tien
+57 ograph chale bush
+58 osome rapidly reflux
+59 isk hypoth capp
+60 jam ottel klasyfik
+61 rh morte melhor
+62 istiques haven squeez
+63 apur nitro underlie
+64 respect analyses komment
+65 urde dobl propo
+66 vine dobu handels
+67 roplast suivre hyper
+68 edst impacted amore
+69 enthal pods giai
+70 agnes datas psih
+71 ckt defences deciso
+72 axe spalle bars
+73 atanabe ein mucha
+74 osph ness decided
+75 boli oocytes zerbit
+76 erden lysed vescovo
+77 mall webpage sieben
+78 fd lod angl
+79 ijoje semicon ennen
+80 oustic ministra vascul
+81 valu sala leg
+82 pak hose alian
+83 bezirk gained essence
+84 free font corte
+85 cker expired pojaw
+86 atson mere spoor
+87 lau resh hybr
+88 annten window comics
+89 fre glace wallet
+90 sexual fossils onts
+91 between brill realizz
+92 ructor firma roues
+93 azon nozzle islam
+94 pier sebe ajan
+95 ube durum persist
+96 thal kuulu common
+97 pozn bala dough
+98 lene fem vesz
+99 bare investor oko
+[completion]
+00 urry consumed wished -> –u–r–r–y–c–o–n–s–u–m–e–d–w–i–s–h–e–d–
+01 oming steril ataque -> –o–m–i–n–g–s–t–e–r–i–l–a–t–a–q–u–e–
+02 loc poison evangel -> –l–o–c–p–o–i–s–o–n–e–v–a–n–g–e–l–
+03 ettatori sequ successo -> –e–t–t–a–t–o–r–i–s–e–q–u–s–u–c–c–e–s–s–o–
+04 illiant hello zasad -> –i–l–l–i–a–n–t–h–e–l–l–o–z–a–s–a–d–
+05 cedented invert inglese -> –c–e–d–e–n–t–e–d–i–n–v–e–r–t–i–n–g–l–e–s–e–
+06 irok unbel chevaux -> –i–r–o–k–u–n–b–e–l–c–h–e–v–a–u–x–
+07 perm wie roh -> –p–e–r–m–w–i–e–r–o–h–
+08 feito acost secrets -> –f–e–i–t–o–a–c–o–s–t–s–e–c–r–e–t–s–
+09 spring campe bags -> –s–p–r–i–n–g–c–a–m–p–e–b–a–g–s–
+10 inguish linha skills -> –i–n–g–u–i–s–h–l–i–n–h–a–s–k–i–l–l–s–
+11 etched concerns froide -> –e–t–c–h–e–d–c–o–n–c–e–r–n–s–f–r–o–i–d–e–
+12 onson reversed sweater -> –o–n–s–o–n–r–e–v–e–r–s–e–d–s–w–e–a–t–e–r–
+13 sorted bc excepto -> –s–o–r–t–e–d–b–c–e–x–c–e–p–t–o–
+14 kenland essais uyg -> –k–e–n–l–a–n–d–e–s–s–a–i–s–u–y–g–
+15 ometh check vl -> –o–m–e–t–h–c–h–e–c–k–v–l–
+16 alary tap unix -> –a–l–a–r–y–t–a–p–u–n–i–x–
+17 usammen cellules miembro -> –u–s–a–m–m–e–n–c–e–l–l–u–l–e–s–m–i–e–m–b–r–o–
+18 leep hivatal corneal -> –l–e–e–p–h–i–v–a–t–a–l–c–o–r–n–e–a–l–
+19 run neerland protagon -> –r–u–n–n–e–e–r–l–a–n–d–p–r–o–t–a–g–o–n–
+20 emate condado meas -> –e–m–a–t–e–c–o–n–d–a–d–o–m–e–a–s–
+21 alih pi bislang -> –a–l–i–h–p–i–b–i–s–l–a–n–g–
+22 iram tritt streng -> –i–r–a–m–t–r–i–t–t–s–t–r–e–n–g–
+23 iosos gehouden raised -> –i–o–s–o–s–g–e–h–o–u–d–e–n–r–a–i–s–e–d–
+24 queur introd wickets -> –q–u–e–u–r–i–n–t–r–o–d–w–i–c–k–e–t–s–
+25 orship radi noche -> –o–r–s–h–i–p–r–a–d–i–n–o–c–h–e–
+26 alaisten multic manten -> –a–l–a–i–s–t–e–n–m–u–l–t–i–c–m–a–n–t–e–n–
+27 kub vinc flaws -> –k–u–b–v–i–n–c–f–l–a–w–s–
+28 leben sliced meinte -> –l–e–b–e–n–s–l–i–c–e–d–m–e–i–n–t–e–
+29 iet lasting name -> –i–e–t–l–a–s–t–i–n–g–n–a–m–e–
+30 reros negative bother -> –r–e–r–o–s–n–e–g–a–t–i–v–e–b–o–t–h–e–r–
+31 ushima ration morta -> –u–s–h–i–m–a–r–a–t–i–o–n–m–o–r–t–a–
+32 will crest mute -> –w–i–l–l–c–r–e–s–t–m–u–t–e–
+33 igits ona entweder -> –i–g–i–t–s–o–n–a–e–n–t–w–e–d–e–r–
+34 oulos sick offered -> –o–u–l–o–s–s–i–c–k–o–f–f–e–r–e–d–
+35 embling pathname malaria -> –e–m–b–l–i–n–g–p–a–t–h–n–a–m–e–m–a–l–a–r–i–a–
+36 ordre poursu subjekt -> –o–r–d–r–e–p–o–u–r–s–u–s–u–b–j–e–k–t–
+37 gek inherits odcink -> –g–e–k–i–n–h–e–r–i–t–s–o–d–c–i–n–k–
+38 tery dadurch rhs -> –t–e–r–y–d–a–d–u–r–c–h–r–h–s–
+39 ings rape avantage -> –i–n–g–s–r–a–p–e–a–v–a–n–t–a–g–e–
+40 chnet hopeful visibly -> –c–h–n–e–t–h–o–p–e–f–u–l–v–i–s–i–b–l–y–
+41 uebla suro rotor -> –u–e–b–l–a–s–u–r–o–r–o–t–o–r–
+42 cut reiv ih -> –c–u–t–r–e–i–v–i–h–
+43 cuda sm hardened -> –c–u–d–a–s–m–h–a–r–d–e–n–e–d–
+44 dummy forwards meccan -> –d–u–m–m–y–f–o–r–w–a–r–d–s–m–e–c–c–a–n–
+45 xase decembro kral -> –x–a–s–e–d–e–c–e–m–b–r–o–k–r–a–l–
+46 eny malt vert -> –e–n–y–m–a–l–t–v–e–r–t–
+47 adal zoon hs -> –a–d–a–l–z–o–o–n–h–s–
+48 igungen saisir delimit -> –i–g–u–n–g–e–n–s–a–i–s–i–r–d–e–l–i–m–i–t–
+49 zont ucz prevent -> –z–o–n–t–u–c–z–p–r–e–v–e–n–t–
+50 ning resultat reviews -> –n–i–n–g–r–e–s–u–l–t–a–t–r–e–v–i–e–w–s–
+51 con goss prism -> –c–o–n–g–o–s–s–p–r–i–s–m–
+52 varo paramil pop -> –v–a–r–o–p–a–r–a–m–i–l–p–o–p–
+53 wierd mitigate demokrat -> –w–i–e–r–d–m–i–t–i–g–a–t–e–d–e–m–o–k–r–a–t–
+54 isson attra domains -> –i–s–s–o–n–a–t–t–r–a–d–o–m–a–i–n–s–
+55 markt chapitre vuoksi -> –m–a–r–k–t–c–h–a–p–i–t–r–e–v–u–o–k–s–i–
+56 maven stata tien -> –m–a–v–e–n–s–t–a–t–a–t–i–e–n–
+57 ograph chale bush -> –o–g–r–a–p–h–c–h–a–l–e–b–u–s–h–
+58 osome rapidly reflux -> –o–s–o–m–e–r–a–p–i–d–l–y–r–e–f–l–u–x–
+59 isk hypoth capp -> –i–s–k–h–y–p–o–t–h–c–a–p–p–
+60 jam ottel klasyfik -> –j–a–m–o–t–t–e–l–k–l–a–s–y–f–i–k–
+61 rh morte melhor -> –r–h–m–o–r–t–e–m–e–l–h–o–r–
+62 istiques haven squeez -> –i–s–t–i–q–u–e–s–h–a–v–e–n–s–q–u–e–e–z–
+63 apur nitro underlie -> –a–p–u–r–n–i–t–r–o–u–n–d–e–r–l–i–e–
+64 respect analyses komment -> –r–e–s–p–e–c–t–a–n–a–l–y–s–e–s–k–o–m–m–e–n–t–
+65 urde dobl propo -> –u–r–d–e–d–o–b–l–p–r–o–p–o–
+66 vine dobu handels -> –v–i–n–e–d–o–b–u–h–a–n–d–e–l–s–
+67 roplast suivre hyper -> –r–o–p–l–a–s–t–s–u–i–v–r–e–h–y–p–e–r–
+68 edst impacted amore -> –e–d–s–t–i–m–p–a–c–t–e–d–a–m–o–r–e–
+69 enthal pods giai -> –e–n–t–h–a–l–p–o–d–s–g–i–a–i–
+70 agnes datas psih -> –a–g–n–e–s–d–a–t–a–s–p–s–i–h–
+71 ckt defences deciso -> –c–k–t–d–e–f–e–n–c–e–s–d–e–c–i–s–o–
+72 axe spalle bars -> –a–x–e–s–p–a–l–l–e–b–a–r–s–
+73 atanabe ein mucha -> –a–t–a–n–a–b–e–e–i–n–m–u–c–h–a–
+74 osph ness decided -> –o–s–p–h–n–e–s–s–d–e–c–i–d–e–d–
+75 boli oocytes zerbit -> –b–o–l–i–o–o–c–y–t–e–s–z–e–r–b–i–t–
+76 erden lysed vescovo -> –e–r–d–e–n–l–y–s–e–d–v–e–s–c–o–v–o–
+77 mall webpage sieben -> –m–a–l–l–w–e–b–p–a–g–e–s–i–e–b–e–n–
+78 fd lod angl -> –f–d–l–o–d–a–n–g–l–
+79 ijoje semicon ennen -> –i–j–o–j–e–s–e–m–i–c–o–n–e–n–n–e–n–
+80 oustic ministra vascul -> –o–u–s–t–i–c–m–i–n–i–s–t–r–a–v–a–s–c–u–l–
+81 valu sala leg -> –v–a–l–u–s–a–l–a–l–e–g–
+82 pak hose alian -> –p–a–k–h–o–s–e–a–l–i–a–n–
+83 bezirk gained essence -> –b–e–z–i–r–k–g–a–i–n–e–d–e–s–s–e–n–c–e–
+84 free font corte -> –f–r–e–e–f–o–n–t–c–o–r–t–e–
+85 cker expired pojaw -> –c–k–e–r–e–x–p–i–r–e–d–p–o–j–a–w–
+86 atson mere spoor -> –a–t–s–o–n–m–e–r–e–s–p–o–o–r–
+87 lau resh hybr -> –l–a–u–r–e–s–h–h–y–b–r–
+88 annten window comics -> –a–n–n–t–e–n–w–i–n–d–o–w–c–o–m–i–c–s–
+89 fre glace wallet -> –f–r–e–g–l–a–c–e–w–a–l–l–e–t–
+90 sexual fossils onts -> –s–e–x–u–a–l–f–o–s–s–i–l–s–o–n–t–s–
+91 between brill realizz -> –b–e–t–w–e–e–n–b–r–i–l–l–r–e–a–l–i–z–z–
+92 ructor firma roues -> –r–u–c–t–o–r–f–i–r–m–a–r–o–u–e–s–
+93 azon nozzle islam -> –a–z–o–n–n–o–z–z–l–e–i–s–l–a–m–
+94 pier sebe ajan -> –p–i–e–r–s–e–b–e–a–j–a–n–
+95 ube durum persist -> –u–b–e–d–u–r–u–m–p–e–r–s–i–s–t–
+96 thal kuulu common -> –t–h–a–l–k–u–u–l–u–c–o–m–m–o–n–
+97 pozn bala dough -> –p–o–z–n–b–a–l–a–d–o–u–g–h–
+98 lene fem vesz -> –l–e–n–e–f–e–m–v–e–s–z–
+99 bare investor oko -> –b–a–r–e–i–n–v–e–s–t–o–r–o–k–o–

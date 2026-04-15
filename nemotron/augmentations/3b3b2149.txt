@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 tml anytime moodust
+01 redo perde thesis
+02 ner strok lumin
+
+This is a sample output.
+00 tml anytime moodust -> –t–m–l–a–n–y–t–i–m–e–m–o–o–d–u–s–t–
+01 redo perde thesis -> –r–e–d–o–p–e–r–d–e–t–h–e–s–i–s–
+02 ner strok lumin -> –n–e–r–s–t–r–o–k–l–u–m–i–n–
+
+This is your input.
+00 ieres morality xu
+01 iko hrvats mj
+02 urers swimming get
+03 rade incarn feeding
+04 eler versione eut
+05 llib veliki opio
+06 rone thou myriad
+07 ization berg takie
+08 anal sickness house
+09 texttt buzz figura
+10 clos ecc occupe
+11 entes etapa consejo
+12 upan immunore sombra
+13 agy lugares jota
+14 etter deciding tragedy
+15 avao cere zd
+16 current venir recibido
+17 dop ves feu
+18 ving convo caps
+19 onu clar xvi
+20 arikat mediter militia
+21 ammed slavery sekret
+22 oks pauvre tomto
+23 ologic leve jednak
+24 ti aprile vorhand
+25 roma treba lesz
+26 ichia genitori axially
+27 icin tret obra
+28 ighbor miejsc aloj
+29 constit tobacco polem
+30 ibo sitios romana
+31 usters weinig token
+32 store ciento pork
+33 bro tolerant feeds
+34 ighet maintain woman
+35 osabb begging ks
+36 andus niso pess
+37 tes llamada stric
+38 atten suerte anis
+39 iket valid acrylic
+40 path befanden tragic
+41 autta nav evacu
+42 opi cung huht
+43 raumatic risen centrif
+44 sequence shum own
+45 gle nasty deputies
+46 englad estime mistake
+47 andom rings sulfide
+48 nienie eve nagusia
+49 ibel nasal realidad
+50 esseur duoden anfangs
+51 lug bark genius
+52 atsapp combo hierarch
+53 antage donne ting
+54 iada noise denn
+55 cr espany tranh
+56 alls juni muziek
+57 getragen cykl cones
+58 vid hallmark ofre
+59 yskyt cave teachers
+60 culos inconsc sla
+61 zyc demanda raisons
+62 urse most suon
+63 fade partij admire
+64 uvo exter tych
+65 alib personal slower
+66 aguay nas verle
+67 acij desvi piled
+68 naden horses agrad
+69 elon obec hoping
+70 sign antit styrene
+71 undai quan biens
+72 gara fore primul
+73 arios felic damaging
+74 orspronk omfatt branca
+75 malar sip fascin
+76 so powodu servers
+77 igd arquivo messy
+78 umeurs trade ree
+79 try zamanda etiqu
+80 ivanje agric zwischen
+81 pta sudden drame
+82 orse wanting wycof
+83 aqu plaisir homage
+84 itoral dopuniti neste
+85 adion learner nervous
+86 yendo run iar
+87 usele qilish peaked
+88 urne svojim competir
+89 erte carbon isolates
+90 jac tuot sezione
+91 ivision sovjet valley
+92 branch tuvieron psz
+93 logos acceler excludes
+94 okies enchant nt
+95 aud italiano droplets
+96 actly equipped untuk
+97 ixas kultur blush
+98 oureuse produktu loops
+99 ului clutter terre
+[completion]
+00 ieres morality xu -> –i–e–r–e–s–m–o–r–a–l–i–t–y–x–u–
+01 iko hrvats mj -> –i–k–o–h–r–v–a–t–s–m–j–
+02 urers swimming get -> –u–r–e–r–s–s–w–i–m–m–i–n–g–g–e–t–
+03 rade incarn feeding -> –r–a–d–e–i–n–c–a–r–n–f–e–e–d–i–n–g–
+04 eler versione eut -> –e–l–e–r–v–e–r–s–i–o–n–e–e–u–t–
+05 llib veliki opio -> –l–l–i–b–v–e–l–i–k–i–o–p–i–o–
+06 rone thou myriad -> –r–o–n–e–t–h–o–u–m–y–r–i–a–d–
+07 ization berg takie -> –i–z–a–t–i–o–n–b–e–r–g–t–a–k–i–e–
+08 anal sickness house -> –a–n–a–l–s–i–c–k–n–e–s–s–h–o–u–s–e–
+09 texttt buzz figura -> –t–e–x–t–t–t–b–u–z–z–f–i–g–u–r–a–
+10 clos ecc occupe -> –c–l–o–s–e–c–c–o–c–c–u–p–e–
+11 entes etapa consejo -> –e–n–t–e–s–e–t–a–p–a–c–o–n–s–e–j–o–
+12 upan immunore sombra -> –u–p–a–n–i–m–m–u–n–o–r–e–s–o–m–b–r–a–
+13 agy lugares jota -> –a–g–y–l–u–g–a–r–e–s–j–o–t–a–
+14 etter deciding tragedy -> –e–t–t–e–r–d–e–c–i–d–i–n–g–t–r–a–g–e–d–y–
+15 avao cere zd -> –a–v–a–o–c–e–r–e–z–d–
+16 current venir recibido -> –c–u–r–r–e–n–t–v–e–n–i–r–r–e–c–i–b–i–d–o–
+17 dop ves feu -> –d–o–p–v–e–s–f–e–u–
+18 ving convo caps -> –v–i–n–g–c–o–n–v–o–c–a–p–s–
+19 onu clar xvi -> –o–n–u–c–l–a–r–x–v–i–
+20 arikat mediter militia -> –a–r–i–k–a–t–m–e–d–i–t–e–r–m–i–l–i–t–i–a–
+21 ammed slavery sekret -> –a–m–m–e–d–s–l–a–v–e–r–y–s–e–k–r–e–t–
+22 oks pauvre tomto -> –o–k–s–p–a–u–v–r–e–t–o–m–t–o–
+23 ologic leve jednak -> –o–l–o–g–i–c–l–e–v–e–j–e–d–n–a–k–
+24 ti aprile vorhand -> –t–i–a–p–r–i–l–e–v–o–r–h–a–n–d–
+25 roma treba lesz -> –r–o–m–a–t–r–e–b–a–l–e–s–z–
+26 ichia genitori axially -> –i–c–h–i–a–g–e–n–i–t–o–r–i–a–x–i–a–l–l–y–
+27 icin tret obra -> –i–c–i–n–t–r–e–t–o–b–r–a–
+28 ighbor miejsc aloj -> –i–g–h–b–o–r–m–i–e–j–s–c–a–l–o–j–
+29 constit tobacco polem -> –c–o–n–s–t–i–t–t–o–b–a–c–c–o–p–o–l–e–m–
+30 ibo sitios romana -> –i–b–o–s–i–t–i–o–s–r–o–m–a–n–a–
+31 usters weinig token -> –u–s–t–e–r–s–w–e–i–n–i–g–t–o–k–e–n–
+32 store ciento pork -> –s–t–o–r–e–c–i–e–n–t–o–p–o–r–k–
+33 bro tolerant feeds -> –b–r–o–t–o–l–e–r–a–n–t–f–e–e–d–s–
+34 ighet maintain woman -> –i–g–h–e–t–m–a–i–n–t–a–i–n–w–o–m–a–n–
+35 osabb begging ks -> –o–s–a–b–b–b–e–g–g–i–n–g–k–s–
+36 andus niso pess -> –a–n–d–u–s–n–i–s–o–p–e–s–s–
+37 tes llamada stric -> –t–e–s–l–l–a–m–a–d–a–s–t–r–i–c–
+38 atten suerte anis -> –a–t–t–e–n–s–u–e–r–t–e–a–n–i–s–
+39 iket valid acrylic -> –i–k–e–t–v–a–l–i–d–a–c–r–y–l–i–c–
+40 path befanden tragic -> –p–a–t–h–b–e–f–a–n–d–e–n–t–r–a–g–i–c–
+41 autta nav evacu -> –a–u–t–t–a–n–a–v–e–v–a–c–u–
+42 opi cung huht -> –o–p–i–c–u–n–g–h–u–h–t–
+43 raumatic risen centrif -> –r–a–u–m–a–t–i–c–r–i–s–e–n–c–e–n–t–r–i–f–
+44 sequence shum own -> –s–e–q–u–e–n–c–e–s–h–u–m–o–w–n–
+45 gle nasty deputies -> –g–l–e–n–a–s–t–y–d–e–p–u–t–i–e–s–
+46 englad estime mistake -> –e–n–g–l–a–d–e–s–t–i–m–e–m–i–s–t–a–k–e–
+47 andom rings sulfide -> –a–n–d–o–m–r–i–n–g–s–s–u–l–f–i–d–e–
+48 nienie eve nagusia -> –n–i–e–n–i–e–e–v–e–n–a–g–u–s–i–a–
+49 ibel nasal realidad -> –i–b–e–l–n–a–s–a–l–r–e–a–l–i–d–a–d–
+50 esseur duoden anfangs -> –e–s–s–e–u–r–d–u–o–d–e–n–a–n–f–a–n–g–s–
+51 lug bark genius -> –l–u–g–b–a–r–k–g–e–n–i–u–s–
+52 atsapp combo hierarch -> –a–t–s–a–p–p–c–o–m–b–o–h–i–e–r–a–r–c–h–
+53 antage donne ting -> –a–n–t–a–g–e–d–o–n–n–e–t–i–n–g–
+54 iada noise denn -> –i–a–d–a–n–o–i–s–e–d–e–n–n–
+55 cr espany tranh -> –c–r–e–s–p–a–n–y–t–r–a–n–h–
+56 alls juni muziek -> –a–l–l–s–j–u–n–i–m–u–z–i–e–k–
+57 getragen cykl cones -> –g–e–t–r–a–g–e–n–c–y–k–l–c–o–n–e–s–
+58 vid hallmark ofre -> –v–i–d–h–a–l–l–m–a–r–k–o–f–r–e–
+59 yskyt cave teachers -> –y–s–k–y–t–c–a–v–e–t–e–a–c–h–e–r–s–
+60 culos inconsc sla -> –c–u–l–o–s–i–n–c–o–n–s–c–s–l–a–
+61 zyc demanda raisons -> –z–y–c–d–e–m–a–n–d–a–r–a–i–s–o–n–s–
+62 urse most suon -> –u–r–s–e–m–o–s–t–s–u–o–n–
+63 fade partij admire -> –f–a–d–e–p–a–r–t–i–j–a–d–m–i–r–e–
+64 uvo exter tych -> –u–v–o–e–x–t–e–r–t–y–c–h–
+65 alib personal slower -> –a–l–i–b–p–e–r–s–o–n–a–l–s–l–o–w–e–r–
+66 aguay nas verle -> –a–g–u–a–y–n–a–s–v–e–r–l–e–
+67 acij desvi piled -> –a–c–i–j–d–e–s–v–i–p–i–l–e–d–
+68 naden horses agrad -> –n–a–d–e–n–h–o–r–s–e–s–a–g–r–a–d–
+69 elon obec hoping -> –e–l–o–n–o–b–e–c–h–o–p–i–n–g–
+70 sign antit styrene -> –s–i–g–n–a–n–t–i–t–s–t–y–r–e–n–e–
+71 undai quan biens -> –u–n–d–a–i–q–u–a–n–b–i–e–n–s–
+72 gara fore primul -> –g–a–r–a–f–o–r–e–p–r–i–m–u–l–
+73 arios felic damaging -> –a–r–i–o–s–f–e–l–i–c–d–a–m–a–g–i–n–g–
+74 orspronk omfatt branca -> –o–r–s–p–r–o–n–k–o–m–f–a–t–t–b–r–a–n–c–a–
+75 malar sip fascin -> –m–a–l–a–r–s–i–p–f–a–s–c–i–n–
+76 so powodu servers -> –s–o–p–o–w–o–d–u–s–e–r–v–e–r–s–
+77 igd arquivo messy -> –i–g–d–a–r–q–u–i–v–o–m–e–s–s–y–
+78 umeurs trade ree -> –u–m–e–u–r–s–t–r–a–d–e–r–e–e–
+79 try zamanda etiqu -> –t–r–y–z–a–m–a–n–d–a–e–t–i–q–u–
+80 ivanje agric zwischen -> –i–v–a–n–j–e–a–g–r–i–c–z–w–i–s–c–h–e–n–
+81 pta sudden drame -> –p–t–a–s–u–d–d–e–n–d–r–a–m–e–
+82 orse wanting wycof -> –o–r–s–e–w–a–n–t–i–n–g–w–y–c–o–f–
+83 aqu plaisir homage -> –a–q–u–p–l–a–i–s–i–r–h–o–m–a–g–e–
+84 itoral dopuniti neste -> –i–t–o–r–a–l–d–o–p–u–n–i–t–i–n–e–s–t–e–
+85 adion learner nervous -> –a–d–i–o–n–l–e–a–r–n–e–r–n–e–r–v–o–u–s–
+86 yendo run iar -> –y–e–n–d–o–r–u–n–i–a–r–
+87 usele qilish peaked -> –u–s–e–l–e–q–i–l–i–s–h–p–e–a–k–e–d–
+88 urne svojim competir -> –u–r–n–e–s–v–o–j–i–m–c–o–m–p–e–t–i–r–
+89 erte carbon isolates -> –e–r–t–e–c–a–r–b–o–n–i–s–o–l–a–t–e–s–
+90 jac tuot sezione -> –j–a–c–t–u–o–t–s–e–z–i–o–n–e–
+91 ivision sovjet valley -> –i–v–i–s–i–o–n–s–o–v–j–e–t–v–a–l–l–e–y–
+92 branch tuvieron psz -> –b–r–a–n–c–h–t–u–v–i–e–r–o–n–p–s–z–
+93 logos acceler excludes -> –l–o–g–o–s–a–c–c–e–l–e–r–e–x–c–l–u–d–e–s–
+94 okies enchant nt -> –o–k–i–e–s–e–n–c–h–a–n–t–n–t–
+95 aud italiano droplets -> –a–u–d–i–t–a–l–i–a–n–o–d–r–o–p–l–e–t–s–
+96 actly equipped untuk -> –a–c–t–l–y–e–q–u–i–p–p–e–d–u–n–t–u–k–
+97 ixas kultur blush -> –i–x–a–s–k–u–l–t–u–r–b–l–u–s–h–
+98 oureuse produktu loops -> –o–u–r–e–u–s–e–p–r–o–d–u–k–t–u–l–o–o–p–s–
+99 ului clutter terre -> –u–l–u–i–c–l–u–t–t–e–r–t–e–r–r–e–

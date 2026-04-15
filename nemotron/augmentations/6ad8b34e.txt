@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 tanleria bloc vart
+01 ins exacerb spray
+02 etting entfernt forget
+
+This is a sample output.
+00 tanleria bloc vart -> –t–a–n–l–e–r–i–a–b–l–o–c–v–a–r–t–
+01 ins exacerb spray -> –i–n–s–e–x–a–c–e–r–b–s–p–r–a–y–
+02 etting entfernt forget -> –e–t–t–i–n–g–e–n–t–f–e–r–n–t–f–o–r–g–e–t–
+
+This is your input.
+00 oa dell entusias
+01 ostream genomes wa
+02 icro lbl boleh
+03 entral sektor sull
+04 ames rows murmura
+05 colm sensory soum
+06 usus ultime pivotal
+07 lean faun verdict
+08 arrer oreilles nov
+09 icer maritime endure
+10 ionate buk ennek
+11 aptic nich myst
+12 onn corne ist
+13 tet referee trabaja
+14 cule ocho estilos
+15 endan lowered maximum
+16 vamente arabera izm
+17 ielle mar territ
+18 azar weird smiles
+19 lane theoret outil
+20 loj daran ascent
+21 sal enzyme rayons
+22 iken retain condam
+23 mach food aneurysm
+24 anch brachten reliable
+25 isan ceb gal
+26 bertura robots reun
+27 phine oficina edit
+28 factory odv disks
+29 ebp sinh kleinere
+30 ellers bude speaker
+31 vec doit koment
+32 leet ignored katastro
+33 toine deput niches
+34 cka modal foolish
+35 icol near cela
+36 eye frontier losing
+37 uso dru threats
+38 igua inequ melod
+39 ilation comunica canons
+40 paid hunted influx
+41 ftal plugged wist
+42 ktan cancers dab
+43 idelity dulce jerk
+44 osomal coron step
+45 ueix events derni
+46 hatan dispon spawn
+47 alski precise bulky
+48 ixin milij scream
+49 lock vouloir kann
+50 imers contribu atent
+51 ottom last bats
+52 okinetic wat closely
+53 cher notice masking
+54 strap equity solitude
+55 nector desses dikenal
+56 ubin fin conosc
+57 ydent duplex subway
+58 erg tra bolj
+59 faces card bottlene
+60 ikit fairness hautes
+61 drop certific marsh
+62 viens grand proposal
+63 usi contests tener
+64 ubat testis amici
+65 falls amelyet rique
+66 electric enkel kicks
+67 gaan disease contre
+68 vals urbaine sous
+69 urar hair decret
+70 niku rap igaz
+71 mins statt fiddle
+72 fte yaxshi enged
+73 middle but fistula
+74 psons vittoria tm
+75 eiro mura aufweist
+76 estre produtor mi
+77 jd tyto gio
+78 bb vent bege
+79 anakan erhe wholly
+80 razia riguard goal
+81 uille quis stake
+82 tera obstruct puisqu
+83 ej cf only
+84 ingkat gru tonal
+85 igent trench uomo
+86 allery troepen adres
+87 quire dezembro marrow
+88 em fief jazy
+89 seh glavni vork
+90 penas swear jout
+91 ospor champ remarked
+92 niki paura tqdm
+93 intas flats with
+94 aitu forma buvo
+95 nership sellers gewesen
+96 asse provoke dava
+97 anni ymp chanter
+98 czny camino fals
+99 ellem lateinit statut
+[completion]
+00 oa dell entusias -> –o–a–d–e–l–l–e–n–t–u–s–i–a–s–
+01 ostream genomes wa -> –o–s–t–r–e–a–m–g–e–n–o–m–e–s–w–a–
+02 icro lbl boleh -> –i–c–r–o–l–b–l–b–o–l–e–h–
+03 entral sektor sull -> –e–n–t–r–a–l–s–e–k–t–o–r–s–u–l–l–
+04 ames rows murmura -> –a–m–e–s–r–o–w–s–m–u–r–m–u–r–a–
+05 colm sensory soum -> –c–o–l–m–s–e–n–s–o–r–y–s–o–u–m–
+06 usus ultime pivotal -> –u–s–u–s–u–l–t–i–m–e–p–i–v–o–t–a–l–
+07 lean faun verdict -> –l–e–a–n–f–a–u–n–v–e–r–d–i–c–t–
+08 arrer oreilles nov -> –a–r–r–e–r–o–r–e–i–l–l–e–s–n–o–v–
+09 icer maritime endure -> –i–c–e–r–m–a–r–i–t–i–m–e–e–n–d–u–r–e–
+10 ionate buk ennek -> –i–o–n–a–t–e–b–u–k–e–n–n–e–k–
+11 aptic nich myst -> –a–p–t–i–c–n–i–c–h–m–y–s–t–
+12 onn corne ist -> –o–n–n–c–o–r–n–e–i–s–t–
+13 tet referee trabaja -> –t–e–t–r–e–f–e–r–e–e–t–r–a–b–a–j–a–
+14 cule ocho estilos -> –c–u–l–e–o–c–h–o–e–s–t–i–l–o–s–
+15 endan lowered maximum -> –e–n–d–a–n–l–o–w–e–r–e–d–m–a–x–i–m–u–m–
+16 vamente arabera izm -> –v–a–m–e–n–t–e–a–r–a–b–e–r–a–i–z–m–
+17 ielle mar territ -> –i–e–l–l–e–m–a–r–t–e–r–r–i–t–
+18 azar weird smiles -> –a–z–a–r–w–e–i–r–d–s–m–i–l–e–s–
+19 lane theoret outil -> –l–a–n–e–t–h–e–o–r–e–t–o–u–t–i–l–
+20 loj daran ascent -> –l–o–j–d–a–r–a–n–a–s–c–e–n–t–
+21 sal enzyme rayons -> –s–a–l–e–n–z–y–m–e–r–a–y–o–n–s–
+22 iken retain condam -> –i–k–e–n–r–e–t–a–i–n–c–o–n–d–a–m–
+23 mach food aneurysm -> –m–a–c–h–f–o–o–d–a–n–e–u–r–y–s–m–
+24 anch brachten reliable -> –a–n–c–h–b–r–a–c–h–t–e–n–r–e–l–i–a–b–l–e–
+25 isan ceb gal -> –i–s–a–n–c–e–b–g–a–l–
+26 bertura robots reun -> –b–e–r–t–u–r–a–r–o–b–o–t–s–r–e–u–n–
+27 phine oficina edit -> –p–h–i–n–e–o–f–i–c–i–n–a–e–d–i–t–
+28 factory odv disks -> –f–a–c–t–o–r–y–o–d–v–d–i–s–k–s–
+29 ebp sinh kleinere -> –e–b–p–s–i–n–h–k–l–e–i–n–e–r–e–
+30 ellers bude speaker -> –e–l–l–e–r–s–b–u–d–e–s–p–e–a–k–e–r–
+31 vec doit koment -> –v–e–c–d–o–i–t–k–o–m–e–n–t–
+32 leet ignored katastro -> –l–e–e–t–i–g–n–o–r–e–d–k–a–t–a–s–t–r–o–
+33 toine deput niches -> –t–o–i–n–e–d–e–p–u–t–n–i–c–h–e–s–
+34 cka modal foolish -> –c–k–a–m–o–d–a–l–f–o–o–l–i–s–h–
+35 icol near cela -> –i–c–o–l–n–e–a–r–c–e–l–a–
+36 eye frontier losing -> –e–y–e–f–r–o–n–t–i–e–r–l–o–s–i–n–g–
+37 uso dru threats -> –u–s–o–d–r–u–t–h–r–e–a–t–s–
+38 igua inequ melod -> –i–g–u–a–i–n–e–q–u–m–e–l–o–d–
+39 ilation comunica canons -> –i–l–a–t–i–o–n–c–o–m–u–n–i–c–a–c–a–n–o–n–s–
+40 paid hunted influx -> –p–a–i–d–h–u–n–t–e–d–i–n–f–l–u–x–
+41 ftal plugged wist -> –f–t–a–l–p–l–u–g–g–e–d–w–i–s–t–
+42 ktan cancers dab -> –k–t–a–n–c–a–n–c–e–r–s–d–a–b–
+43 idelity dulce jerk -> –i–d–e–l–i–t–y–d–u–l–c–e–j–e–r–k–
+44 osomal coron step -> –o–s–o–m–a–l–c–o–r–o–n–s–t–e–p–
+45 ueix events derni -> –u–e–i–x–e–v–e–n–t–s–d–e–r–n–i–
+46 hatan dispon spawn -> –h–a–t–a–n–d–i–s–p–o–n–s–p–a–w–n–
+47 alski precise bulky -> –a–l–s–k–i–p–r–e–c–i–s–e–b–u–l–k–y–
+48 ixin milij scream -> –i–x–i–n–m–i–l–i–j–s–c–r–e–a–m–
+49 lock vouloir kann -> –l–o–c–k–v–o–u–l–o–i–r–k–a–n–n–
+50 imers contribu atent -> –i–m–e–r–s–c–o–n–t–r–i–b–u–a–t–e–n–t–
+51 ottom last bats -> –o–t–t–o–m–l–a–s–t–b–a–t–s–
+52 okinetic wat closely -> –o–k–i–n–e–t–i–c–w–a–t–c–l–o–s–e–l–y–
+53 cher notice masking -> –c–h–e–r–n–o–t–i–c–e–m–a–s–k–i–n–g–
+54 strap equity solitude -> –s–t–r–a–p–e–q–u–i–t–y–s–o–l–i–t–u–d–e–
+55 nector desses dikenal -> –n–e–c–t–o–r–d–e–s–s–e–s–d–i–k–e–n–a–l–
+56 ubin fin conosc -> –u–b–i–n–f–i–n–c–o–n–o–s–c–
+57 ydent duplex subway -> –y–d–e–n–t–d–u–p–l–e–x–s–u–b–w–a–y–
+58 erg tra bolj -> –e–r–g–t–r–a–b–o–l–j–
+59 faces card bottlene -> –f–a–c–e–s–c–a–r–d–b–o–t–t–l–e–n–e–
+60 ikit fairness hautes -> –i–k–i–t–f–a–i–r–n–e–s–s–h–a–u–t–e–s–
+61 drop certific marsh -> –d–r–o–p–c–e–r–t–i–f–i–c–m–a–r–s–h–
+62 viens grand proposal -> –v–i–e–n–s–g–r–a–n–d–p–r–o–p–o–s–a–l–
+63 usi contests tener -> –u–s–i–c–o–n–t–e–s–t–s–t–e–n–e–r–
+64 ubat testis amici -> –u–b–a–t–t–e–s–t–i–s–a–m–i–c–i–
+65 falls amelyet rique -> –f–a–l–l–s–a–m–e–l–y–e–t–r–i–q–u–e–
+66 electric enkel kicks -> –e–l–e–c–t–r–i–c–e–n–k–e–l–k–i–c–k–s–
+67 gaan disease contre -> –g–a–a–n–d–i–s–e–a–s–e–c–o–n–t–r–e–
+68 vals urbaine sous -> –v–a–l–s–u–r–b–a–i–n–e–s–o–u–s–
+69 urar hair decret -> –u–r–a–r–h–a–i–r–d–e–c–r–e–t–
+70 niku rap igaz -> –n–i–k–u–r–a–p–i–g–a–z–
+71 mins statt fiddle -> –m–i–n–s–s–t–a–t–t–f–i–d–d–l–e–
+72 fte yaxshi enged -> –f–t–e–y–a–x–s–h–i–e–n–g–e–d–
+73 middle but fistula -> –m–i–d–d–l–e–b–u–t–f–i–s–t–u–l–a–
+74 psons vittoria tm -> –p–s–o–n–s–v–i–t–t–o–r–i–a–t–m–
+75 eiro mura aufweist -> –e–i–r–o–m–u–r–a–a–u–f–w–e–i–s–t–
+76 estre produtor mi -> –e–s–t–r–e–p–r–o–d–u–t–o–r–m–i–
+77 jd tyto gio -> –j–d–t–y–t–o–g–i–o–
+78 bb vent bege -> –b–b–v–e–n–t–b–e–g–e–
+79 anakan erhe wholly -> –a–n–a–k–a–n–e–r–h–e–w–h–o–l–l–y–
+80 razia riguard goal -> –r–a–z–i–a–r–i–g–u–a–r–d–g–o–a–l–
+81 uille quis stake -> –u–i–l–l–e–q–u–i–s–s–t–a–k–e–
+82 tera obstruct puisqu -> –t–e–r–a–o–b–s–t–r–u–c–t–p–u–i–s–q–u–
+83 ej cf only -> –e–j–c–f–o–n–l–y–
+84 ingkat gru tonal -> –i–n–g–k–a–t–g–r–u–t–o–n–a–l–
+85 igent trench uomo -> –i–g–e–n–t–t–r–e–n–c–h–u–o–m–o–
+86 allery troepen adres -> –a–l–l–e–r–y–t–r–o–e–p–e–n–a–d–r–e–s–
+87 quire dezembro marrow -> –q–u–i–r–e–d–e–z–e–m–b–r–o–m–a–r–r–o–w–
+88 em fief jazy -> –e–m–f–i–e–f–j–a–z–y–
+89 seh glavni vork -> –s–e–h–g–l–a–v–n–i–v–o–r–k–
+90 penas swear jout -> –p–e–n–a–s–s–w–e–a–r–j–o–u–t–
+91 ospor champ remarked -> –o–s–p–o–r–c–h–a–m–p–r–e–m–a–r–k–e–d–
+92 niki paura tqdm -> –n–i–k–i–p–a–u–r–a–t–q–d–m–
+93 intas flats with -> –i–n–t–a–s–f–l–a–t–s–w–i–t–h–
+94 aitu forma buvo -> –a–i–t–u–f–o–r–m–a–b–u–v–o–
+95 nership sellers gewesen -> –n–e–r–s–h–i–p–s–e–l–l–e–r–s–g–e–w–e–s–e–n–
+96 asse provoke dava -> –a–s–s–e–p–r–o–v–o–k–e–d–a–v–a–
+97 anni ymp chanter -> –a–n–n–i–y–m–p–c–h–a–n–t–e–r–
+98 czny camino fals -> –c–z–n–y–c–a–m–i–n–o–f–a–l–s–
+99 ellem lateinit statut -> –e–l–l–e–m–l–a–t–e–i–n–i–t–s–t–a–t–u–t–

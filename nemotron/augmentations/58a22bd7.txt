@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 gut pastor alla
+01 iliation virtues converte
+02 emporada mua hog
+
+This is a sample output.
+00 gut pastor alla -> –g–u–t–p–a–s–t–o–r–a–l–l–a–
+01 iliation virtues converte -> –i–l–i–a–t–i–o–n–v–i–r–t–u–e–s–c–o–n–v–e–r–t–e–
+02 emporada mua hog -> –e–m–p–o–r–a–d–a–m–u–a–h–o–g–
+
+This is your input.
+00 horn var totaal
+01 ignent primaire schema
+02 ensburg reten paquet
+03 quart parcour chauss
+04 usa ouvrir ader
+05 nja meta hinaus
+06 imburs consomm strain
+07 onneur spectra anomaly
+08 ean bron mortes
+09 essi eingeb dessous
+10 riday gebru resisted
+11 luor prosec podem
+12 ochy tribun colonial
+13 voir aange dominio
+14 rig utile young
+15 loxacin alcun emotions
+16 lesh inferior operates
+17 must replies slid
+18 flag voetbal negara
+19 enie inser yen
+20 orang saman lays
+21 naeus acheter gin
+22 eneurs strikes galact
+23 acity funzione contempl
+24 elser pemain comun
+25 ciation plaats bizony
+26 reject legjobb body
+27 lover arte spear
+28 winning higiez pains
+29 ilte climb moving
+30 ografica germana buf
+31 tok xx mewn
+32 rex najleps suas
+33 nungs sixty kita
+34 obao scoped dramat
+35 ilu heart humanas
+36 older leptin pribli
+37 athlon deployed ponds
+38 obia financi upload
+39 innie orang acclaim
+40 rony denken regain
+41 vt bony biom
+42 carousel fortune boarding
+43 igne unrest genesis
+44 rizio laufen towards
+45 bigl diets quiz
+46 iec thor heiligen
+47 margin wobec recycled
+48 una crank destroy
+49 classes blues perspect
+50 ikke mets hors
+51 usah bako estar
+52 south plana methods
+53 noop failing justo
+54 legt addr pik
+55 arzyst le steroid
+56 iane mortal esos
+57 umkan leider intron
+58 skem shaft inm
+59 cap unies passo
+60 ligen membawa tantas
+61 ungen jurado maail
+62 kapet buried veces
+63 oca prieur judged
+64 prec repose motifs
+65 sebb thereof extravag
+66 herren hebre oct
+67 nitt swipe analiz
+68 icile remise ela
+69 clame contrato hurry
+70 ulls floor ish
+71 umnya erected decyz
+72 nehmer mem anak
+73 iotensin ponct stair
+74 utation asked pudiera
+75 issent einf foydalan
+76 ghost woodland german
+77 itect boj slim
+78 raron chez carbur
+79 logged speelde games
+80 imetry maa disch
+81 inafter haya waarin
+82 ioon einzelne algo
+83 mine examin estekak
+84 audio tom melyet
+85 zano courte spur
+86 korzyst sugg brasile
+87 eltas getragen parecido
+88 aginate lecture flare
+89 mails innov customs
+90 fulness shine lettres
+91 answered hanya taraf
+92 ographic logrando pipe
+93 encana child useless
+94 ielen extant asalto
+95 teborg bezala base
+96 ny newline kako
+97 iedenis inev dificult
+98 opathy stables quot
+99 plant trust collagen
+[completion]
+00 horn var totaal -> –h–o–r–n–v–a–r–t–o–t–a–a–l–
+01 ignent primaire schema -> –i–g–n–e–n–t–p–r–i–m–a–i–r–e–s–c–h–e–m–a–
+02 ensburg reten paquet -> –e–n–s–b–u–r–g–r–e–t–e–n–p–a–q–u–e–t–
+03 quart parcour chauss -> –q–u–a–r–t–p–a–r–c–o–u–r–c–h–a–u–s–s–
+04 usa ouvrir ader -> –u–s–a–o–u–v–r–i–r–a–d–e–r–
+05 nja meta hinaus -> –n–j–a–m–e–t–a–h–i–n–a–u–s–
+06 imburs consomm strain -> –i–m–b–u–r–s–c–o–n–s–o–m–m–s–t–r–a–i–n–
+07 onneur spectra anomaly -> –o–n–n–e–u–r–s–p–e–c–t–r–a–a–n–o–m–a–l–y–
+08 ean bron mortes -> –e–a–n–b–r–o–n–m–o–r–t–e–s–
+09 essi eingeb dessous -> –e–s–s–i–e–i–n–g–e–b–d–e–s–s–o–u–s–
+10 riday gebru resisted -> –r–i–d–a–y–g–e–b–r–u–r–e–s–i–s–t–e–d–
+11 luor prosec podem -> –l–u–o–r–p–r–o–s–e–c–p–o–d–e–m–
+12 ochy tribun colonial -> –o–c–h–y–t–r–i–b–u–n–c–o–l–o–n–i–a–l–
+13 voir aange dominio -> –v–o–i–r–a–a–n–g–e–d–o–m–i–n–i–o–
+14 rig utile young -> –r–i–g–u–t–i–l–e–y–o–u–n–g–
+15 loxacin alcun emotions -> –l–o–x–a–c–i–n–a–l–c–u–n–e–m–o–t–i–o–n–s–
+16 lesh inferior operates -> –l–e–s–h–i–n–f–e–r–i–o–r–o–p–e–r–a–t–e–s–
+17 must replies slid -> –m–u–s–t–r–e–p–l–i–e–s–s–l–i–d–
+18 flag voetbal negara -> –f–l–a–g–v–o–e–t–b–a–l–n–e–g–a–r–a–
+19 enie inser yen -> –e–n–i–e–i–n–s–e–r–y–e–n–
+20 orang saman lays -> –o–r–a–n–g–s–a–m–a–n–l–a–y–s–
+21 naeus acheter gin -> –n–a–e–u–s–a–c–h–e–t–e–r–g–i–n–
+22 eneurs strikes galact -> –e–n–e–u–r–s–s–t–r–i–k–e–s–g–a–l–a–c–t–
+23 acity funzione contempl -> –a–c–i–t–y–f–u–n–z–i–o–n–e–c–o–n–t–e–m–p–l–
+24 elser pemain comun -> –e–l–s–e–r–p–e–m–a–i–n–c–o–m–u–n–
+25 ciation plaats bizony -> –c–i–a–t–i–o–n–p–l–a–a–t–s–b–i–z–o–n–y–
+26 reject legjobb body -> –r–e–j–e–c–t–l–e–g–j–o–b–b–b–o–d–y–
+27 lover arte spear -> –l–o–v–e–r–a–r–t–e–s–p–e–a–r–
+28 winning higiez pains -> –w–i–n–n–i–n–g–h–i–g–i–e–z–p–a–i–n–s–
+29 ilte climb moving -> –i–l–t–e–c–l–i–m–b–m–o–v–i–n–g–
+30 ografica germana buf -> –o–g–r–a–f–i–c–a–g–e–r–m–a–n–a–b–u–f–
+31 tok xx mewn -> –t–o–k–x–x–m–e–w–n–
+32 rex najleps suas -> –r–e–x–n–a–j–l–e–p–s–s–u–a–s–
+33 nungs sixty kita -> –n–u–n–g–s–s–i–x–t–y–k–i–t–a–
+34 obao scoped dramat -> –o–b–a–o–s–c–o–p–e–d–d–r–a–m–a–t–
+35 ilu heart humanas -> –i–l–u–h–e–a–r–t–h–u–m–a–n–a–s–
+36 older leptin pribli -> –o–l–d–e–r–l–e–p–t–i–n–p–r–i–b–l–i–
+37 athlon deployed ponds -> –a–t–h–l–o–n–d–e–p–l–o–y–e–d–p–o–n–d–s–
+38 obia financi upload -> –o–b–i–a–f–i–n–a–n–c–i–u–p–l–o–a–d–
+39 innie orang acclaim -> –i–n–n–i–e–o–r–a–n–g–a–c–c–l–a–i–m–
+40 rony denken regain -> –r–o–n–y–d–e–n–k–e–n–r–e–g–a–i–n–
+41 vt bony biom -> –v–t–b–o–n–y–b–i–o–m–
+42 carousel fortune boarding -> –c–a–r–o–u–s–e–l–f–o–r–t–u–n–e–b–o–a–r–d–i–n–g–
+43 igne unrest genesis -> –i–g–n–e–u–n–r–e–s–t–g–e–n–e–s–i–s–
+44 rizio laufen towards -> –r–i–z–i–o–l–a–u–f–e–n–t–o–w–a–r–d–s–
+45 bigl diets quiz -> –b–i–g–l–d–i–e–t–s–q–u–i–z–
+46 iec thor heiligen -> –i–e–c–t–h–o–r–h–e–i–l–i–g–e–n–
+47 margin wobec recycled -> –m–a–r–g–i–n–w–o–b–e–c–r–e–c–y–c–l–e–d–
+48 una crank destroy -> –u–n–a–c–r–a–n–k–d–e–s–t–r–o–y–
+49 classes blues perspect -> –c–l–a–s–s–e–s–b–l–u–e–s–p–e–r–s–p–e–c–t–
+50 ikke mets hors -> –i–k–k–e–m–e–t–s–h–o–r–s–
+51 usah bako estar -> –u–s–a–h–b–a–k–o–e–s–t–a–r–
+52 south plana methods -> –s–o–u–t–h–p–l–a–n–a–m–e–t–h–o–d–s–
+53 noop failing justo -> –n–o–o–p–f–a–i–l–i–n–g–j–u–s–t–o–
+54 legt addr pik -> –l–e–g–t–a–d–d–r–p–i–k–
+55 arzyst le steroid -> –a–r–z–y–s–t–l–e–s–t–e–r–o–i–d–
+56 iane mortal esos -> –i–a–n–e–m–o–r–t–a–l–e–s–o–s–
+57 umkan leider intron -> –u–m–k–a–n–l–e–i–d–e–r–i–n–t–r–o–n–
+58 skem shaft inm -> –s–k–e–m–s–h–a–f–t–i–n–m–
+59 cap unies passo -> –c–a–p–u–n–i–e–s–p–a–s–s–o–
+60 ligen membawa tantas -> –l–i–g–e–n–m–e–m–b–a–w–a–t–a–n–t–a–s–
+61 ungen jurado maail -> –u–n–g–e–n–j–u–r–a–d–o–m–a–a–i–l–
+62 kapet buried veces -> –k–a–p–e–t–b–u–r–i–e–d–v–e–c–e–s–
+63 oca prieur judged -> –o–c–a–p–r–i–e–u–r–j–u–d–g–e–d–
+64 prec repose motifs -> –p–r–e–c–r–e–p–o–s–e–m–o–t–i–f–s–
+65 sebb thereof extravag -> –s–e–b–b–t–h–e–r–e–o–f–e–x–t–r–a–v–a–g–
+66 herren hebre oct -> –h–e–r–r–e–n–h–e–b–r–e–o–c–t–
+67 nitt swipe analiz -> –n–i–t–t–s–w–i–p–e–a–n–a–l–i–z–
+68 icile remise ela -> –i–c–i–l–e–r–e–m–i–s–e–e–l–a–
+69 clame contrato hurry -> –c–l–a–m–e–c–o–n–t–r–a–t–o–h–u–r–r–y–
+70 ulls floor ish -> –u–l–l–s–f–l–o–o–r–i–s–h–
+71 umnya erected decyz -> –u–m–n–y–a–e–r–e–c–t–e–d–d–e–c–y–z–
+72 nehmer mem anak -> –n–e–h–m–e–r–m–e–m–a–n–a–k–
+73 iotensin ponct stair -> –i–o–t–e–n–s–i–n–p–o–n–c–t–s–t–a–i–r–
+74 utation asked pudiera -> –u–t–a–t–i–o–n–a–s–k–e–d–p–u–d–i–e–r–a–
+75 issent einf foydalan -> –i–s–s–e–n–t–e–i–n–f–f–o–y–d–a–l–a–n–
+76 ghost woodland german -> –g–h–o–s–t–w–o–o–d–l–a–n–d–g–e–r–m–a–n–
+77 itect boj slim -> –i–t–e–c–t–b–o–j–s–l–i–m–
+78 raron chez carbur -> –r–a–r–o–n–c–h–e–z–c–a–r–b–u–r–
+79 logged speelde games -> –l–o–g–g–e–d–s–p–e–e–l–d–e–g–a–m–e–s–
+80 imetry maa disch -> –i–m–e–t–r–y–m–a–a–d–i–s–c–h–
+81 inafter haya waarin -> –i–n–a–f–t–e–r–h–a–y–a–w–a–a–r–i–n–
+82 ioon einzelne algo -> –i–o–o–n–e–i–n–z–e–l–n–e–a–l–g–o–
+83 mine examin estekak -> –m–i–n–e–e–x–a–m–i–n–e–s–t–e–k–a–k–
+84 audio tom melyet -> –a–u–d–i–o–t–o–m–m–e–l–y–e–t–
+85 zano courte spur -> –z–a–n–o–c–o–u–r–t–e–s–p–u–r–
+86 korzyst sugg brasile -> –k–o–r–z–y–s–t–s–u–g–g–b–r–a–s–i–l–e–
+87 eltas getragen parecido -> –e–l–t–a–s–g–e–t–r–a–g–e–n–p–a–r–e–c–i–d–o–
+88 aginate lecture flare -> –a–g–i–n–a–t–e–l–e–c–t–u–r–e–f–l–a–r–e–
+89 mails innov customs -> –m–a–i–l–s–i–n–n–o–v–c–u–s–t–o–m–s–
+90 fulness shine lettres -> –f–u–l–n–e–s–s–s–h–i–n–e–l–e–t–t–r–e–s–
+91 answered hanya taraf -> –a–n–s–w–e–r–e–d–h–a–n–y–a–t–a–r–a–f–
+92 ographic logrando pipe -> –o–g–r–a–p–h–i–c–l–o–g–r–a–n–d–o–p–i–p–e–
+93 encana child useless -> –e–n–c–a–n–a–c–h–i–l–d–u–s–e–l–e–s–s–
+94 ielen extant asalto -> –i–e–l–e–n–e–x–t–a–n–t–a–s–a–l–t–o–
+95 teborg bezala base -> –t–e–b–o–r–g–b–e–z–a–l–a–b–a–s–e–
+96 ny newline kako -> –n–y–n–e–w–l–i–n–e–k–a–k–o–
+97 iedenis inev dificult -> –i–e–d–e–n–i–s–i–n–e–v–d–i–f–i–c–u–l–t–
+98 opathy stables quot -> –o–p–a–t–h–y–s–t–a–b–l–e–s–q–u–o–t–
+99 plant trust collagen -> –p–l–a–n–t–t–r–u–s–t–c–o–l–l–a–g–e–n–

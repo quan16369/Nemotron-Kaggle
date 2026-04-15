@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 usiasm jed scars
+01 zogen niem capped
+02 ornos vencedor sinds
+
+This is a sample output.
+00 usiasm jed scars -> –u–s–i–a–s–m–j–e–d–s–c–a–r–s–
+01 zogen niem capped -> –z–o–g–e–n–n–i–e–m–c–a–p–p–e–d–
+02 ornos vencedor sinds -> –o–r–n–o–s–v–e–n–c–e–d–o–r–s–i–n–d–s–
+
+This is your input.
+00 abetic perde bianco
+01 ark counsel poser
+02 ningar abort hered
+03 reck surplus was
+04 erdi im naam
+05 widget stdout delete
+06 iras policies obligado
+07 abc ronde iod
+08 agon lose haszn
+09 kens monoxide route
+10 odnic organs sapiens
+11 arcoma faz niente
+12 rax neuro whose
+13 ervice belly ironic
+14 abel toi privil
+15 leterre garnered quelli
+16 plete stays older
+17 ujen strokes syntax
+18 racket seller bil
+19 rophes sondern avoids
+20 mathfrak ottobre nivell
+21 atok sounded nucleic
+22 eilt visitas servidor
+23 orthy agreeing scolaire
+24 oulder plage avant
+25 ignan routes menjadi
+26 avio pieds needs
+27 noten colonn leave
+28 request fast rar
+29 stelling baut much
+30 efined effectue float
+31 icing argument volume
+32 edor una dad
+33 rates hiv bevorzug
+34 gestion maggio entreg
+35 urp interro perte
+36 buah pez lear
+37 include kard autopsy
+38 ywiz sendo gagner
+39 tai andere pulmon
+40 latitude spr chop
+41 anyang acting heights
+42 quent castle telj
+43 uner voy chickens
+44 ovima croix estabele
+45 hando office garment
+46 notify stitch seconde
+47 mata aide pistes
+48 endes six voort
+49 azionale memb enzym
+50 ervlet pouvait stag
+51 angelo queste sill
+52 ionista masses emulator
+53 uny viejo mismas
+54 arest cien nouv
+55 ahar univerz densidad
+56 ordion protein incub
+57 imental thwart craw
+58 iala guad marked
+59 ibr steals fru
+60 xtures hoc profits
+61 igens unters score
+62 opes antagon checksum
+63 rebbero compan supernat
+64 arita ids embl
+65 avia heating romance
+66 ohol dari hijos
+67 endent spind copias
+68 est dada noc
+69 large crom myself
+70 allas spilled tay
+71 ient heavier repl
+72 ece haciendo caller
+73 laus validate chick
+74 columns factor gest
+75 tty gardes hic
+76 ega azure vocal
+77 yah paral uniquely
+78 hp induct fruit
+79 unean kole kontrakt
+80 atically vary inond
+81 tech saam lymphoid
+82 platin disposed feasible
+83 feat atrophy ducts
+84 cf gripping insane
+85 ay brackets paling
+86 elay strij constit
+87 hibang avi parmi
+88 leduj objected demais
+89 iel joy plaines
+90 elesa forge spazio
+91 ccia fuer depress
+92 licted muun exempt
+93 onin dentro drop
+94 incent sht toured
+95 qat enforce bran
+96 floor transit ukaz
+97 tkaz clothing maladie
+98 udad nothing glycerol
+99 joint posters objetos
+[completion]
+00 abetic perde bianco -> –a–b–e–t–i–c–p–e–r–d–e–b–i–a–n–c–o–
+01 ark counsel poser -> –a–r–k–c–o–u–n–s–e–l–p–o–s–e–r–
+02 ningar abort hered -> –n–i–n–g–a–r–a–b–o–r–t–h–e–r–e–d–
+03 reck surplus was -> –r–e–c–k–s–u–r–p–l–u–s–w–a–s–
+04 erdi im naam -> –e–r–d–i–i–m–n–a–a–m–
+05 widget stdout delete -> –w–i–d–g–e–t–s–t–d–o–u–t–d–e–l–e–t–e–
+06 iras policies obligado -> –i–r–a–s–p–o–l–i–c–i–e–s–o–b–l–i–g–a–d–o–
+07 abc ronde iod -> –a–b–c–r–o–n–d–e–i–o–d–
+08 agon lose haszn -> –a–g–o–n–l–o–s–e–h–a–s–z–n–
+09 kens monoxide route -> –k–e–n–s–m–o–n–o–x–i–d–e–r–o–u–t–e–
+10 odnic organs sapiens -> –o–d–n–i–c–o–r–g–a–n–s–s–a–p–i–e–n–s–
+11 arcoma faz niente -> –a–r–c–o–m–a–f–a–z–n–i–e–n–t–e–
+12 rax neuro whose -> –r–a–x–n–e–u–r–o–w–h–o–s–e–
+13 ervice belly ironic -> –e–r–v–i–c–e–b–e–l–l–y–i–r–o–n–i–c–
+14 abel toi privil -> –a–b–e–l–t–o–i–p–r–i–v–i–l–
+15 leterre garnered quelli -> –l–e–t–e–r–r–e–g–a–r–n–e–r–e–d–q–u–e–l–l–i–
+16 plete stays older -> –p–l–e–t–e–s–t–a–y–s–o–l–d–e–r–
+17 ujen strokes syntax -> –u–j–e–n–s–t–r–o–k–e–s–s–y–n–t–a–x–
+18 racket seller bil -> –r–a–c–k–e–t–s–e–l–l–e–r–b–i–l–
+19 rophes sondern avoids -> –r–o–p–h–e–s–s–o–n–d–e–r–n–a–v–o–i–d–s–
+20 mathfrak ottobre nivell -> –m–a–t–h–f–r–a–k–o–t–t–o–b–r–e–n–i–v–e–l–l–
+21 atok sounded nucleic -> –a–t–o–k–s–o–u–n–d–e–d–n–u–c–l–e–i–c–
+22 eilt visitas servidor -> –e–i–l–t–v–i–s–i–t–a–s–s–e–r–v–i–d–o–r–
+23 orthy agreeing scolaire -> –o–r–t–h–y–a–g–r–e–e–i–n–g–s–c–o–l–a–i–r–e–
+24 oulder plage avant -> –o–u–l–d–e–r–p–l–a–g–e–a–v–a–n–t–
+25 ignan routes menjadi -> –i–g–n–a–n–r–o–u–t–e–s–m–e–n–j–a–d–i–
+26 avio pieds needs -> –a–v–i–o–p–i–e–d–s–n–e–e–d–s–
+27 noten colonn leave -> –n–o–t–e–n–c–o–l–o–n–n–l–e–a–v–e–
+28 request fast rar -> –r–e–q–u–e–s–t–f–a–s–t–r–a–r–
+29 stelling baut much -> –s–t–e–l–l–i–n–g–b–a–u–t–m–u–c–h–
+30 efined effectue float -> –e–f–i–n–e–d–e–f–f–e–c–t–u–e–f–l–o–a–t–
+31 icing argument volume -> –i–c–i–n–g–a–r–g–u–m–e–n–t–v–o–l–u–m–e–
+32 edor una dad -> –e–d–o–r–u–n–a–d–a–d–
+33 rates hiv bevorzug -> –r–a–t–e–s–h–i–v–b–e–v–o–r–z–u–g–
+34 gestion maggio entreg -> –g–e–s–t–i–o–n–m–a–g–g–i–o–e–n–t–r–e–g–
+35 urp interro perte -> –u–r–p–i–n–t–e–r–r–o–p–e–r–t–e–
+36 buah pez lear -> –b–u–a–h–p–e–z–l–e–a–r–
+37 include kard autopsy -> –i–n–c–l–u–d–e–k–a–r–d–a–u–t–o–p–s–y–
+38 ywiz sendo gagner -> –y–w–i–z–s–e–n–d–o–g–a–g–n–e–r–
+39 tai andere pulmon -> –t–a–i–a–n–d–e–r–e–p–u–l–m–o–n–
+40 latitude spr chop -> –l–a–t–i–t–u–d–e–s–p–r–c–h–o–p–
+41 anyang acting heights -> –a–n–y–a–n–g–a–c–t–i–n–g–h–e–i–g–h–t–s–
+42 quent castle telj -> –q–u–e–n–t–c–a–s–t–l–e–t–e–l–j–
+43 uner voy chickens -> –u–n–e–r–v–o–y–c–h–i–c–k–e–n–s–
+44 ovima croix estabele -> –o–v–i–m–a–c–r–o–i–x–e–s–t–a–b–e–l–e–
+45 hando office garment -> –h–a–n–d–o–o–f–f–i–c–e–g–a–r–m–e–n–t–
+46 notify stitch seconde -> –n–o–t–i–f–y–s–t–i–t–c–h–s–e–c–o–n–d–e–
+47 mata aide pistes -> –m–a–t–a–a–i–d–e–p–i–s–t–e–s–
+48 endes six voort -> –e–n–d–e–s–s–i–x–v–o–o–r–t–
+49 azionale memb enzym -> –a–z–i–o–n–a–l–e–m–e–m–b–e–n–z–y–m–
+50 ervlet pouvait stag -> –e–r–v–l–e–t–p–o–u–v–a–i–t–s–t–a–g–
+51 angelo queste sill -> –a–n–g–e–l–o–q–u–e–s–t–e–s–i–l–l–
+52 ionista masses emulator -> –i–o–n–i–s–t–a–m–a–s–s–e–s–e–m–u–l–a–t–o–r–
+53 uny viejo mismas -> –u–n–y–v–i–e–j–o–m–i–s–m–a–s–
+54 arest cien nouv -> –a–r–e–s–t–c–i–e–n–n–o–u–v–
+55 ahar univerz densidad -> –a–h–a–r–u–n–i–v–e–r–z–d–e–n–s–i–d–a–d–
+56 ordion protein incub -> –o–r–d–i–o–n–p–r–o–t–e–i–n–i–n–c–u–b–
+57 imental thwart craw -> –i–m–e–n–t–a–l–t–h–w–a–r–t–c–r–a–w–
+58 iala guad marked -> –i–a–l–a–g–u–a–d–m–a–r–k–e–d–
+59 ibr steals fru -> –i–b–r–s–t–e–a–l–s–f–r–u–
+60 xtures hoc profits -> –x–t–u–r–e–s–h–o–c–p–r–o–f–i–t–s–
+61 igens unters score -> –i–g–e–n–s–u–n–t–e–r–s–s–c–o–r–e–
+62 opes antagon checksum -> –o–p–e–s–a–n–t–a–g–o–n–c–h–e–c–k–s–u–m–
+63 rebbero compan supernat -> –r–e–b–b–e–r–o–c–o–m–p–a–n–s–u–p–e–r–n–a–t–
+64 arita ids embl -> –a–r–i–t–a–i–d–s–e–m–b–l–
+65 avia heating romance -> –a–v–i–a–h–e–a–t–i–n–g–r–o–m–a–n–c–e–
+66 ohol dari hijos -> –o–h–o–l–d–a–r–i–h–i–j–o–s–
+67 endent spind copias -> –e–n–d–e–n–t–s–p–i–n–d–c–o–p–i–a–s–
+68 est dada noc -> –e–s–t–d–a–d–a–n–o–c–
+69 large crom myself -> –l–a–r–g–e–c–r–o–m–m–y–s–e–l–f–
+70 allas spilled tay -> –a–l–l–a–s–s–p–i–l–l–e–d–t–a–y–
+71 ient heavier repl -> –i–e–n–t–h–e–a–v–i–e–r–r–e–p–l–
+72 ece haciendo caller -> –e–c–e–h–a–c–i–e–n–d–o–c–a–l–l–e–r–
+73 laus validate chick -> –l–a–u–s–v–a–l–i–d–a–t–e–c–h–i–c–k–
+74 columns factor gest -> –c–o–l–u–m–n–s–f–a–c–t–o–r–g–e–s–t–
+75 tty gardes hic -> –t–t–y–g–a–r–d–e–s–h–i–c–
+76 ega azure vocal -> –e–g–a–a–z–u–r–e–v–o–c–a–l–
+77 yah paral uniquely -> –y–a–h–p–a–r–a–l–u–n–i–q–u–e–l–y–
+78 hp induct fruit -> –h–p–i–n–d–u–c–t–f–r–u–i–t–
+79 unean kole kontrakt -> –u–n–e–a–n–k–o–l–e–k–o–n–t–r–a–k–t–
+80 atically vary inond -> –a–t–i–c–a–l–l–y–v–a–r–y–i–n–o–n–d–
+81 tech saam lymphoid -> –t–e–c–h–s–a–a–m–l–y–m–p–h–o–i–d–
+82 platin disposed feasible -> –p–l–a–t–i–n–d–i–s–p–o–s–e–d–f–e–a–s–i–b–l–e–
+83 feat atrophy ducts -> –f–e–a–t–a–t–r–o–p–h–y–d–u–c–t–s–
+84 cf gripping insane -> –c–f–g–r–i–p–p–i–n–g–i–n–s–a–n–e–
+85 ay brackets paling -> –a–y–b–r–a–c–k–e–t–s–p–a–l–i–n–g–
+86 elay strij constit -> –e–l–a–y–s–t–r–i–j–c–o–n–s–t–i–t–
+87 hibang avi parmi -> –h–i–b–a–n–g–a–v–i–p–a–r–m–i–
+88 leduj objected demais -> –l–e–d–u–j–o–b–j–e–c–t–e–d–d–e–m–a–i–s–
+89 iel joy plaines -> –i–e–l–j–o–y–p–l–a–i–n–e–s–
+90 elesa forge spazio -> –e–l–e–s–a–f–o–r–g–e–s–p–a–z–i–o–
+91 ccia fuer depress -> –c–c–i–a–f–u–e–r–d–e–p–r–e–s–s–
+92 licted muun exempt -> –l–i–c–t–e–d–m–u–u–n–e–x–e–m–p–t–
+93 onin dentro drop -> –o–n–i–n–d–e–n–t–r–o–d–r–o–p–
+94 incent sht toured -> –i–n–c–e–n–t–s–h–t–t–o–u–r–e–d–
+95 qat enforce bran -> –q–a–t–e–n–f–o–r–c–e–b–r–a–n–
+96 floor transit ukaz -> –f–l–o–o–r–t–r–a–n–s–i–t–u–k–a–z–
+97 tkaz clothing maladie -> –t–k–a–z–c–l–o–t–h–i–n–g–m–a–l–a–d–i–e–
+98 udad nothing glycerol -> –u–d–a–d–n–o–t–h–i–n–g–g–l–y–c–e–r–o–l–
+99 joint posters objetos -> –j–o–i–n–t–p–o–s–t–e–r–s–o–b–j–e–t–o–s–

@@ -1,0 +1,61 @@
+problem id: f519ace9
+category: cryptarithm_guess
+
+examples:
+1. `#^*#) = #^#)`
+2. `)?+#? = %')`
+3. `?#+^% = %'"`
+4. `(]+?^ = #(`
+
+inferred rule:
+Treat each input as a left 2-symbol chunk, a middle operator, and a right 2-symbol chunk.
+
+- `*` means literal concatenation of the two chunks in order. Example 1 shows this exactly:
+  `#^ * #) -> #^#)`
+- `+` means ordinary addition after decoding each symbol as a decimal digit.
+
+The three `+` examples force this digit map uniquely:
+
+- `' = 0`
+- `% = 1`
+- `? = 2`
+- `( = 3`
+- `) = 4`
+- `] = 5`
+- `# = 6`
+- `" = 7`
+- `^ = 8`
+
+step-by-step check on the `+` examples:
+1. `)?+#?`
+   `)?` decodes to `42`.
+   `#?` decodes to `62`.
+   `42 + 62 = 104`.
+   `1 -> %`, `0 -> '`, `4 -> )`, so the output is `%')`.
+
+2. `?#+^%`
+   `?#` decodes to `26`.
+   `^%` decodes to `81`.
+   `26 + 81 = 107`.
+   `1 -> %`, `0 -> '`, `7 -> "`, so the output is `%'"`.
+
+3. `(]+?^`
+   `(]` decodes to `35`.
+   `?^` decodes to `28`.
+   `35 + 28 = 63`.
+   `6 -> #`, `3 -> (`, so the output is `#(`.
+
+step-by-step application to the query:
+Query: `"'-"(`
+
+1. The left chunk `"'` decodes to `70`.
+2. The right chunk `"(` decodes to `73`.
+3. The examples never show `-`, so this last step is an extrapolation. The most natural completion is ordinary subtraction: `70 - 73 = -3`.
+4. Encode the magnitude `3` back into symbols: `3 -> (`.
+5. Keep the minus sign as a literal leading sign.
+
+predicted answer:
+`-(`
+
+confidence note:
+Medium confidence. `*` as direct concatenation is exact, and the `+` examples determine a unique direct-addition digit map. The only ambiguity is the unseen `-` operator. If it were absolute difference or reverse subtraction, the magnitude would still be `3`; only the sign would change.

@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 nah exig occup
+01 nice nineteen salle
+02 alak aires ordering
+
+This is a sample output.
+00 nah exig occup -> –n–a–h–e–x–i–g–o–c–c–u–p–
+01 nice nineteen salle -> –n–i–c–e–n–i–n–e–t–e–e–n–s–a–l–l–e–
+02 alak aires ordering -> –a–l–a–k–a–i–r–e–s–o–r–d–e–r–i–n–g–
+
+This is your input.
+00 rient enfance eventual
+01 foot elke warrants
+02 where end origin
+03 aisia amen folie
+04 orben squir criteria
+05 mainly pretend evolve
+06 urs aqui mira
+07 erton zakon hingga
+08 uncture vuelve quietly
+09 apai sacked geometry
+10 alq ultr znak
+11 eping krv comerc
+12 istern lehnte interf
+13 market poeng impart
+14 owers tol convid
+15 deko ficar lips
+16 edic spell retraite
+17 alin tightly break
+18 riv brushed wedi
+19 sts betracht tapp
+20 manuel satt ler
+21 sam derzeit pos
+22 ongen proyecto versehen
+23 includes ghi przedst
+24 trans sidewall temas
+25 arder pareja gyakor
+26 chaffen recus directs
+27 tesse wynosi ahli
+28 achy hierbei decad
+29 omatic cun verbl
+30 unal jalan microgl
+31 istical ihrer inquiet
+32 liste offline their
+33 teams fiind doxor
+34 icznych konkur vers
+35 iglia dientes shk
+36 terra ouro schon
+37 rino halves livre
+38 yser shirts breach
+39 ople trag campanha
+40 vias gren haute
+41 ournal yelled warn
+42 some portugu samen
+43 ecd inspir wi
+44 wang bowls overtime
+45 elos degrade wel
+46 mande vendredi lien
+47 irent unreason heure
+48 ignated skier presid
+49 icial protests ears
+50 rouwen custom fibres
+51 ifel services teils
+52 entice myosin hiss
+53 hline asm modernen
+54 urate formant exists
+55 kyn institut incorpor
+56 oggi suited ism
+57 commend factual music
+58 rs trovava amygdala
+59 black lst genau
+60 kt cadre hormone
+61 asal semant alright
+62 writers desta quadrat
+63 chung eject amat
+64 imson stala memper
+65 osz usados segur
+66 pare lett apl
+67 jalan pickup ralent
+68 aderas naquela millas
+69 estal zoom influenc
+70 learn april usada
+71 ereo torped lawyers
+72 post marc rire
+73 lande thread stemming
+74 adem recl izd
+75 acle esfuerzo chic
+76 ijon bulb rates
+77 slot cadav sien
+78 lat rendah category
+79 accur rico aren
+80 adb koniec sr
+81 ittel persuas roles
+82 ordet kez puzzle
+83 umbnail roli przestr
+84 odom olimp things
+85 orske captured yht
+86 sol spont mercados
+87 uage renouvel emits
+88 andosi orsz regresa
+89 scope estudio offsets
+90 iquent zeml camoufl
+91 jenigen affer blinded
+92 does invoking external
+93 achte spy mandate
+94 boards horizons partial
+95 pheres shorts extrater
+96 yasi forem wirkt
+97 ee trat francouz
+98 olip caric shape
+99 rose autora marais
+[completion]
+00 rient enfance eventual -> –r–i–e–n–t–e–n–f–a–n–c–e–e–v–e–n–t–u–a–l–
+01 foot elke warrants -> –f–o–o–t–e–l–k–e–w–a–r–r–a–n–t–s–
+02 where end origin -> –w–h–e–r–e–e–n–d–o–r–i–g–i–n–
+03 aisia amen folie -> –a–i–s–i–a–a–m–e–n–f–o–l–i–e–
+04 orben squir criteria -> –o–r–b–e–n–s–q–u–i–r–c–r–i–t–e–r–i–a–
+05 mainly pretend evolve -> –m–a–i–n–l–y–p–r–e–t–e–n–d–e–v–o–l–v–e–
+06 urs aqui mira -> –u–r–s–a–q–u–i–m–i–r–a–
+07 erton zakon hingga -> –e–r–t–o–n–z–a–k–o–n–h–i–n–g–g–a–
+08 uncture vuelve quietly -> –u–n–c–t–u–r–e–v–u–e–l–v–e–q–u–i–e–t–l–y–
+09 apai sacked geometry -> –a–p–a–i–s–a–c–k–e–d–g–e–o–m–e–t–r–y–
+10 alq ultr znak -> –a–l–q–u–l–t–r–z–n–a–k–
+11 eping krv comerc -> –e–p–i–n–g–k–r–v–c–o–m–e–r–c–
+12 istern lehnte interf -> –i–s–t–e–r–n–l–e–h–n–t–e–i–n–t–e–r–f–
+13 market poeng impart -> –m–a–r–k–e–t–p–o–e–n–g–i–m–p–a–r–t–
+14 owers tol convid -> –o–w–e–r–s–t–o–l–c–o–n–v–i–d–
+15 deko ficar lips -> –d–e–k–o–f–i–c–a–r–l–i–p–s–
+16 edic spell retraite -> –e–d–i–c–s–p–e–l–l–r–e–t–r–a–i–t–e–
+17 alin tightly break -> –a–l–i–n–t–i–g–h–t–l–y–b–r–e–a–k–
+18 riv brushed wedi -> –r–i–v–b–r–u–s–h–e–d–w–e–d–i–
+19 sts betracht tapp -> –s–t–s–b–e–t–r–a–c–h–t–t–a–p–p–
+20 manuel satt ler -> –m–a–n–u–e–l–s–a–t–t–l–e–r–
+21 sam derzeit pos -> –s–a–m–d–e–r–z–e–i–t–p–o–s–
+22 ongen proyecto versehen -> –o–n–g–e–n–p–r–o–y–e–c–t–o–v–e–r–s–e–h–e–n–
+23 includes ghi przedst -> –i–n–c–l–u–d–e–s–g–h–i–p–r–z–e–d–s–t–
+24 trans sidewall temas -> –t–r–a–n–s–s–i–d–e–w–a–l–l–t–e–m–a–s–
+25 arder pareja gyakor -> –a–r–d–e–r–p–a–r–e–j–a–g–y–a–k–o–r–
+26 chaffen recus directs -> –c–h–a–f–f–e–n–r–e–c–u–s–d–i–r–e–c–t–s–
+27 tesse wynosi ahli -> –t–e–s–s–e–w–y–n–o–s–i–a–h–l–i–
+28 achy hierbei decad -> –a–c–h–y–h–i–e–r–b–e–i–d–e–c–a–d–
+29 omatic cun verbl -> –o–m–a–t–i–c–c–u–n–v–e–r–b–l–
+30 unal jalan microgl -> –u–n–a–l–j–a–l–a–n–m–i–c–r–o–g–l–
+31 istical ihrer inquiet -> –i–s–t–i–c–a–l–i–h–r–e–r–i–n–q–u–i–e–t–
+32 liste offline their -> –l–i–s–t–e–o–f–f–l–i–n–e–t–h–e–i–r–
+33 teams fiind doxor -> –t–e–a–m–s–f–i–i–n–d–d–o–x–o–r–
+34 icznych konkur vers -> –i–c–z–n–y–c–h–k–o–n–k–u–r–v–e–r–s–
+35 iglia dientes shk -> –i–g–l–i–a–d–i–e–n–t–e–s–s–h–k–
+36 terra ouro schon -> –t–e–r–r–a–o–u–r–o–s–c–h–o–n–
+37 rino halves livre -> –r–i–n–o–h–a–l–v–e–s–l–i–v–r–e–
+38 yser shirts breach -> –y–s–e–r–s–h–i–r–t–s–b–r–e–a–c–h–
+39 ople trag campanha -> –o–p–l–e–t–r–a–g–c–a–m–p–a–n–h–a–
+40 vias gren haute -> –v–i–a–s–g–r–e–n–h–a–u–t–e–
+41 ournal yelled warn -> –o–u–r–n–a–l–y–e–l–l–e–d–w–a–r–n–
+42 some portugu samen -> –s–o–m–e–p–o–r–t–u–g–u–s–a–m–e–n–
+43 ecd inspir wi -> –e–c–d–i–n–s–p–i–r–w–i–
+44 wang bowls overtime -> –w–a–n–g–b–o–w–l–s–o–v–e–r–t–i–m–e–
+45 elos degrade wel -> –e–l–o–s–d–e–g–r–a–d–e–w–e–l–
+46 mande vendredi lien -> –m–a–n–d–e–v–e–n–d–r–e–d–i–l–i–e–n–
+47 irent unreason heure -> –i–r–e–n–t–u–n–r–e–a–s–o–n–h–e–u–r–e–
+48 ignated skier presid -> –i–g–n–a–t–e–d–s–k–i–e–r–p–r–e–s–i–d–
+49 icial protests ears -> –i–c–i–a–l–p–r–o–t–e–s–t–s–e–a–r–s–
+50 rouwen custom fibres -> –r–o–u–w–e–n–c–u–s–t–o–m–f–i–b–r–e–s–
+51 ifel services teils -> –i–f–e–l–s–e–r–v–i–c–e–s–t–e–i–l–s–
+52 entice myosin hiss -> –e–n–t–i–c–e–m–y–o–s–i–n–h–i–s–s–
+53 hline asm modernen -> –h–l–i–n–e–a–s–m–m–o–d–e–r–n–e–n–
+54 urate formant exists -> –u–r–a–t–e–f–o–r–m–a–n–t–e–x–i–s–t–s–
+55 kyn institut incorpor -> –k–y–n–i–n–s–t–i–t–u–t–i–n–c–o–r–p–o–r–
+56 oggi suited ism -> –o–g–g–i–s–u–i–t–e–d–i–s–m–
+57 commend factual music -> –c–o–m–m–e–n–d–f–a–c–t–u–a–l–m–u–s–i–c–
+58 rs trovava amygdala -> –r–s–t–r–o–v–a–v–a–a–m–y–g–d–a–l–a–
+59 black lst genau -> –b–l–a–c–k–l–s–t–g–e–n–a–u–
+60 kt cadre hormone -> –k–t–c–a–d–r–e–h–o–r–m–o–n–e–
+61 asal semant alright -> –a–s–a–l–s–e–m–a–n–t–a–l–r–i–g–h–t–
+62 writers desta quadrat -> –w–r–i–t–e–r–s–d–e–s–t–a–q–u–a–d–r–a–t–
+63 chung eject amat -> –c–h–u–n–g–e–j–e–c–t–a–m–a–t–
+64 imson stala memper -> –i–m–s–o–n–s–t–a–l–a–m–e–m–p–e–r–
+65 osz usados segur -> –o–s–z–u–s–a–d–o–s–s–e–g–u–r–
+66 pare lett apl -> –p–a–r–e–l–e–t–t–a–p–l–
+67 jalan pickup ralent -> –j–a–l–a–n–p–i–c–k–u–p–r–a–l–e–n–t–
+68 aderas naquela millas -> –a–d–e–r–a–s–n–a–q–u–e–l–a–m–i–l–l–a–s–
+69 estal zoom influenc -> –e–s–t–a–l–z–o–o–m–i–n–f–l–u–e–n–c–
+70 learn april usada -> –l–e–a–r–n–a–p–r–i–l–u–s–a–d–a–
+71 ereo torped lawyers -> –e–r–e–o–t–o–r–p–e–d–l–a–w–y–e–r–s–
+72 post marc rire -> –p–o–s–t–m–a–r–c–r–i–r–e–
+73 lande thread stemming -> –l–a–n–d–e–t–h–r–e–a–d–s–t–e–m–m–i–n–g–
+74 adem recl izd -> –a–d–e–m–r–e–c–l–i–z–d–
+75 acle esfuerzo chic -> –a–c–l–e–e–s–f–u–e–r–z–o–c–h–i–c–
+76 ijon bulb rates -> –i–j–o–n–b–u–l–b–r–a–t–e–s–
+77 slot cadav sien -> –s–l–o–t–c–a–d–a–v–s–i–e–n–
+78 lat rendah category -> –l–a–t–r–e–n–d–a–h–c–a–t–e–g–o–r–y–
+79 accur rico aren -> –a–c–c–u–r–r–i–c–o–a–r–e–n–
+80 adb koniec sr -> –a–d–b–k–o–n–i–e–c–s–r–
+81 ittel persuas roles -> –i–t–t–e–l–p–e–r–s–u–a–s–r–o–l–e–s–
+82 ordet kez puzzle -> –o–r–d–e–t–k–e–z–p–u–z–z–l–e–
+83 umbnail roli przestr -> –u–m–b–n–a–i–l–r–o–l–i–p–r–z–e–s–t–r–
+84 odom olimp things -> –o–d–o–m–o–l–i–m–p–t–h–i–n–g–s–
+85 orske captured yht -> –o–r–s–k–e–c–a–p–t–u–r–e–d–y–h–t–
+86 sol spont mercados -> –s–o–l–s–p–o–n–t–m–e–r–c–a–d–o–s–
+87 uage renouvel emits -> –u–a–g–e–r–e–n–o–u–v–e–l–e–m–i–t–s–
+88 andosi orsz regresa -> –a–n–d–o–s–i–o–r–s–z–r–e–g–r–e–s–a–
+89 scope estudio offsets -> –s–c–o–p–e–e–s–t–u–d–i–o–o–f–f–s–e–t–s–
+90 iquent zeml camoufl -> –i–q–u–e–n–t–z–e–m–l–c–a–m–o–u–f–l–
+91 jenigen affer blinded -> –j–e–n–i–g–e–n–a–f–f–e–r–b–l–i–n–d–e–d–
+92 does invoking external -> –d–o–e–s–i–n–v–o–k–i–n–g–e–x–t–e–r–n–a–l–
+93 achte spy mandate -> –a–c–h–t–e–s–p–y–m–a–n–d–a–t–e–
+94 boards horizons partial -> –b–o–a–r–d–s–h–o–r–i–z–o–n–s–p–a–r–t–i–a–l–
+95 pheres shorts extrater -> –p–h–e–r–e–s–s–h–o–r–t–s–e–x–t–r–a–t–e–r–
+96 yasi forem wirkt -> –y–a–s–i–f–o–r–e–m–w–i–r–k–t–
+97 ee trat francouz -> –e–e–t–r–a–t–f–r–a–n–c–o–u–z–
+98 olip caric shape -> –o–l–i–p–c–a–r–i–c–s–h–a–p–e–
+99 rose autora marais -> –r–o–s–e–a–u–t–o–r–a–m–a–r–a–i–s–

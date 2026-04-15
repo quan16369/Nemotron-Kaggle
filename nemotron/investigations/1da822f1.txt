@@ -1,0 +1,32 @@
+problem id: 1da822f1
+category: equation_numeric
+
+examples:
+- 58*31 = 88
+- 79*93 = 171
+- 19*99 = 117
+- 77*88 = 164
+- query: 26%23
+
+inferred rule:
+The examples with `*` are consistent with:
+result = first number + second number - 1
+
+Check:
+- 58 + 31 - 1 = 88
+- 79 + 93 - 1 = 171
+- 19 + 99 - 1 = 117
+- 77 + 88 - 1 = 164
+
+For the unseen `%` symbol, the puzzle does not give a direct example, so this part is an inference rather than something fully pinned down by the training pairs. My best manual guess is that `%` is being used for ordinary multiplication, giving a second basic arithmetic rule alongside the shifted-addition rule shown for `*`.
+
+step-by-step application to the query:
+1. Read the query as 26 % 23.
+2. Apply the inferred `%` rule as multiplication.
+3. Compute 26 x 23 = 598.
+
+predicted answer:
+598
+
+confidence note:
+Medium-low confidence. The `*` rule is strongly supported by all four examples, but `%` never appears in the examples, so the final step requires an extra assumption.

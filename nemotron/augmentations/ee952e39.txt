@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 zent send sonunda
+01 idiendo yaitu unirse
+02 speed barley cigar
+
+This is a sample output.
+00 zent send sonunda -> –z–e–n–t–s–e–n–d–s–o–n–u–n–d–a–
+01 idiendo yaitu unirse -> –i–d–i–e–n–d–o–y–a–i–t–u–u–n–i–r–s–e–
+02 speed barley cigar -> –s–p–e–e–d–b–a–r–l–e–y–c–i–g–a–r–
+
+This is your input.
+00 atasets wym aber
+01 delta encephal nuovi
+02 mee damping anatomic
+03 legd aquello secreto
+04 ilent flowers pasando
+05 letas ha relatos
+06 org est cosas
+07 teni supreme lets
+08 dopodob finer tv
+09 arri ey chuch
+10 mega ihnen racism
+11 help handling plasmids
+12 cita trich thus
+13 phere slab matrix
+14 jud obtenu pubblic
+15 imat wages el
+16 itic belum sem
+17 uated lleng indexing
+18 amatan kiss rainha
+19 uidas konflik prip
+20 isebb solemn filt
+21 oste septum coords
+22 ucky preced iso
+23 argli stellar ljudi
+24 serde cords prima
+25 aryng sleep sovere
+26 hours water ru
+27 ateko qar consoles
+28 ulated vortex lnc
+29 acement indexes shouted
+30 zeit urg aix
+31 estos pse condem
+32 mathit petits ett
+33 amb janu rifer
+34 ajar hoe embed
+35 ogli roller pestic
+36 ussia tribute ucc
+37 atur stammen eius
+38 starting terk mink
+39 reja android majeurs
+40 yez mutant storico
+41 employee les verspre
+42 ley nond prosper
+43 undu tackle schwarze
+44 owel throm aun
+45 ropathy proxy punk
+46 umpulan linker meiner
+47 barkeit conos tensions
+48 orban emuls dianggap
+49 uchi caud dirigido
+50 skou denies distrib
+51 jeg sauv query
+52 aczy silly oxid
+53 usqu aliaj germ
+54 system cap pust
+55 arren however copper
+56 save surgical quedaron
+57 ugins kost stopper
+58 orah views states
+59 fahr conv smoked
+60 anese piace brakes
+61 ientras muros rewrite
+62 opolys ritorn prod
+63 icrosoft gial kg
+64 urtles railroad sealing
+65 lea manqu secrete
+66 thy script railways
+67 ulg retr lima
+68 ivative subtypes reempl
+69 avais false svol
+70 andet aguj variedad
+71 oglio wired fuzzy
+72 razioni gathered barlang
+73 eus record puppy
+74 endis juicio parse
+75 ugar asiento robust
+76 ifact akan mostra
+77 sier kaj canopy
+78 ammt attrs sustain
+79 ognitive sailors tok
+80 ae eredeti eel
+81 uitable artisans ln
+82 ler comptes plastic
+83 ells shade typu
+84 iehen escolh supo
+85 redients incent distant
+86 alance molded planeta
+87 amus sings progress
+88 ierende grandi estr
+89 idences chave aque
+90 hawks gebruik fiel
+91 denly pillars eden
+92 letto schemas vulgar
+93 anine psy masque
+94 asures offici yours
+95 anger offizi caution
+96 oll radik metodo
+97 onor devil printed
+98 oxid pasaron tags
+99 oudre spi invent
+[completion]
+00 atasets wym aber -> –a–t–a–s–e–t–s–w–y–m–a–b–e–r–
+01 delta encephal nuovi -> –d–e–l–t–a–e–n–c–e–p–h–a–l–n–u–o–v–i–
+02 mee damping anatomic -> –m–e–e–d–a–m–p–i–n–g–a–n–a–t–o–m–i–c–
+03 legd aquello secreto -> –l–e–g–d–a–q–u–e–l–l–o–s–e–c–r–e–t–o–
+04 ilent flowers pasando -> –i–l–e–n–t–f–l–o–w–e–r–s–p–a–s–a–n–d–o–
+05 letas ha relatos -> –l–e–t–a–s–h–a–r–e–l–a–t–o–s–
+06 org est cosas -> –o–r–g–e–s–t–c–o–s–a–s–
+07 teni supreme lets -> –t–e–n–i–s–u–p–r–e–m–e–l–e–t–s–
+08 dopodob finer tv -> –d–o–p–o–d–o–b–f–i–n–e–r–t–v–
+09 arri ey chuch -> –a–r–r–i–e–y–c–h–u–c–h–
+10 mega ihnen racism -> –m–e–g–a–i–h–n–e–n–r–a–c–i–s–m–
+11 help handling plasmids -> –h–e–l–p–h–a–n–d–l–i–n–g–p–l–a–s–m–i–d–s–
+12 cita trich thus -> –c–i–t–a–t–r–i–c–h–t–h–u–s–
+13 phere slab matrix -> –p–h–e–r–e–s–l–a–b–m–a–t–r–i–x–
+14 jud obtenu pubblic -> –j–u–d–o–b–t–e–n–u–p–u–b–b–l–i–c–
+15 imat wages el -> –i–m–a–t–w–a–g–e–s–e–l–
+16 itic belum sem -> –i–t–i–c–b–e–l–u–m–s–e–m–
+17 uated lleng indexing -> –u–a–t–e–d–l–l–e–n–g–i–n–d–e–x–i–n–g–
+18 amatan kiss rainha -> –a–m–a–t–a–n–k–i–s–s–r–a–i–n–h–a–
+19 uidas konflik prip -> –u–i–d–a–s–k–o–n–f–l–i–k–p–r–i–p–
+20 isebb solemn filt -> –i–s–e–b–b–s–o–l–e–m–n–f–i–l–t–
+21 oste septum coords -> –o–s–t–e–s–e–p–t–u–m–c–o–o–r–d–s–
+22 ucky preced iso -> –u–c–k–y–p–r–e–c–e–d–i–s–o–
+23 argli stellar ljudi -> –a–r–g–l–i–s–t–e–l–l–a–r–l–j–u–d–i–
+24 serde cords prima -> –s–e–r–d–e–c–o–r–d–s–p–r–i–m–a–
+25 aryng sleep sovere -> –a–r–y–n–g–s–l–e–e–p–s–o–v–e–r–e–
+26 hours water ru -> –h–o–u–r–s–w–a–t–e–r–r–u–
+27 ateko qar consoles -> –a–t–e–k–o–q–a–r–c–o–n–s–o–l–e–s–
+28 ulated vortex lnc -> –u–l–a–t–e–d–v–o–r–t–e–x–l–n–c–
+29 acement indexes shouted -> –a–c–e–m–e–n–t–i–n–d–e–x–e–s–s–h–o–u–t–e–d–
+30 zeit urg aix -> –z–e–i–t–u–r–g–a–i–x–
+31 estos pse condem -> –e–s–t–o–s–p–s–e–c–o–n–d–e–m–
+32 mathit petits ett -> –m–a–t–h–i–t–p–e–t–i–t–s–e–t–t–
+33 amb janu rifer -> –a–m–b–j–a–n–u–r–i–f–e–r–
+34 ajar hoe embed -> –a–j–a–r–h–o–e–e–m–b–e–d–
+35 ogli roller pestic -> –o–g–l–i–r–o–l–l–e–r–p–e–s–t–i–c–
+36 ussia tribute ucc -> –u–s–s–i–a–t–r–i–b–u–t–e–u–c–c–
+37 atur stammen eius -> –a–t–u–r–s–t–a–m–m–e–n–e–i–u–s–
+38 starting terk mink -> –s–t–a–r–t–i–n–g–t–e–r–k–m–i–n–k–
+39 reja android majeurs -> –r–e–j–a–a–n–d–r–o–i–d–m–a–j–e–u–r–s–
+40 yez mutant storico -> –y–e–z–m–u–t–a–n–t–s–t–o–r–i–c–o–
+41 employee les verspre -> –e–m–p–l–o–y–e–e–l–e–s–v–e–r–s–p–r–e–
+42 ley nond prosper -> –l–e–y–n–o–n–d–p–r–o–s–p–e–r–
+43 undu tackle schwarze -> –u–n–d–u–t–a–c–k–l–e–s–c–h–w–a–r–z–e–
+44 owel throm aun -> –o–w–e–l–t–h–r–o–m–a–u–n–
+45 ropathy proxy punk -> –r–o–p–a–t–h–y–p–r–o–x–y–p–u–n–k–
+46 umpulan linker meiner -> –u–m–p–u–l–a–n–l–i–n–k–e–r–m–e–i–n–e–r–
+47 barkeit conos tensions -> –b–a–r–k–e–i–t–c–o–n–o–s–t–e–n–s–i–o–n–s–
+48 orban emuls dianggap -> –o–r–b–a–n–e–m–u–l–s–d–i–a–n–g–g–a–p–
+49 uchi caud dirigido -> –u–c–h–i–c–a–u–d–d–i–r–i–g–i–d–o–
+50 skou denies distrib -> –s–k–o–u–d–e–n–i–e–s–d–i–s–t–r–i–b–
+51 jeg sauv query -> –j–e–g–s–a–u–v–q–u–e–r–y–
+52 aczy silly oxid -> –a–c–z–y–s–i–l–l–y–o–x–i–d–
+53 usqu aliaj germ -> –u–s–q–u–a–l–i–a–j–g–e–r–m–
+54 system cap pust -> –s–y–s–t–e–m–c–a–p–p–u–s–t–
+55 arren however copper -> –a–r–r–e–n–h–o–w–e–v–e–r–c–o–p–p–e–r–
+56 save surgical quedaron -> –s–a–v–e–s–u–r–g–i–c–a–l–q–u–e–d–a–r–o–n–
+57 ugins kost stopper -> –u–g–i–n–s–k–o–s–t–s–t–o–p–p–e–r–
+58 orah views states -> –o–r–a–h–v–i–e–w–s–s–t–a–t–e–s–
+59 fahr conv smoked -> –f–a–h–r–c–o–n–v–s–m–o–k–e–d–
+60 anese piace brakes -> –a–n–e–s–e–p–i–a–c–e–b–r–a–k–e–s–
+61 ientras muros rewrite -> –i–e–n–t–r–a–s–m–u–r–o–s–r–e–w–r–i–t–e–
+62 opolys ritorn prod -> –o–p–o–l–y–s–r–i–t–o–r–n–p–r–o–d–
+63 icrosoft gial kg -> –i–c–r–o–s–o–f–t–g–i–a–l–k–g–
+64 urtles railroad sealing -> –u–r–t–l–e–s–r–a–i–l–r–o–a–d–s–e–a–l–i–n–g–
+65 lea manqu secrete -> –l–e–a–m–a–n–q–u–s–e–c–r–e–t–e–
+66 thy script railways -> –t–h–y–s–c–r–i–p–t–r–a–i–l–w–a–y–s–
+67 ulg retr lima -> –u–l–g–r–e–t–r–l–i–m–a–
+68 ivative subtypes reempl -> –i–v–a–t–i–v–e–s–u–b–t–y–p–e–s–r–e–e–m–p–l–
+69 avais false svol -> –a–v–a–i–s–f–a–l–s–e–s–v–o–l–
+70 andet aguj variedad -> –a–n–d–e–t–a–g–u–j–v–a–r–i–e–d–a–d–
+71 oglio wired fuzzy -> –o–g–l–i–o–w–i–r–e–d–f–u–z–z–y–
+72 razioni gathered barlang -> –r–a–z–i–o–n–i–g–a–t–h–e–r–e–d–b–a–r–l–a–n–g–
+73 eus record puppy -> –e–u–s–r–e–c–o–r–d–p–u–p–p–y–
+74 endis juicio parse -> –e–n–d–i–s–j–u–i–c–i–o–p–a–r–s–e–
+75 ugar asiento robust -> –u–g–a–r–a–s–i–e–n–t–o–r–o–b–u–s–t–
+76 ifact akan mostra -> –i–f–a–c–t–a–k–a–n–m–o–s–t–r–a–
+77 sier kaj canopy -> –s–i–e–r–k–a–j–c–a–n–o–p–y–
+78 ammt attrs sustain -> –a–m–m–t–a–t–t–r–s–s–u–s–t–a–i–n–
+79 ognitive sailors tok -> –o–g–n–i–t–i–v–e–s–a–i–l–o–r–s–t–o–k–
+80 ae eredeti eel -> –a–e–e–r–e–d–e–t–i–e–e–l–
+81 uitable artisans ln -> –u–i–t–a–b–l–e–a–r–t–i–s–a–n–s–l–n–
+82 ler comptes plastic -> –l–e–r–c–o–m–p–t–e–s–p–l–a–s–t–i–c–
+83 ells shade typu -> –e–l–l–s–s–h–a–d–e–t–y–p–u–
+84 iehen escolh supo -> –i–e–h–e–n–e–s–c–o–l–h–s–u–p–o–
+85 redients incent distant -> –r–e–d–i–e–n–t–s–i–n–c–e–n–t–d–i–s–t–a–n–t–
+86 alance molded planeta -> –a–l–a–n–c–e–m–o–l–d–e–d–p–l–a–n–e–t–a–
+87 amus sings progress -> –a–m–u–s–s–i–n–g–s–p–r–o–g–r–e–s–s–
+88 ierende grandi estr -> –i–e–r–e–n–d–e–g–r–a–n–d–i–e–s–t–r–
+89 idences chave aque -> –i–d–e–n–c–e–s–c–h–a–v–e–a–q–u–e–
+90 hawks gebruik fiel -> –h–a–w–k–s–g–e–b–r–u–i–k–f–i–e–l–
+91 denly pillars eden -> –d–e–n–l–y–p–i–l–l–a–r–s–e–d–e–n–
+92 letto schemas vulgar -> –l–e–t–t–o–s–c–h–e–m–a–s–v–u–l–g–a–r–
+93 anine psy masque -> –a–n–i–n–e–p–s–y–m–a–s–q–u–e–
+94 asures offici yours -> –a–s–u–r–e–s–o–f–f–i–c–i–y–o–u–r–s–
+95 anger offizi caution -> –a–n–g–e–r–o–f–f–i–z–i–c–a–u–t–i–o–n–
+96 oll radik metodo -> –o–l–l–r–a–d–i–k–m–e–t–o–d–o–
+97 onor devil printed -> –o–n–o–r–d–e–v–i–l–p–r–i–n–t–e–d–
+98 oxid pasaron tags -> –o–x–i–d–p–a–s–a–r–o–n–t–a–g–s–
+99 oudre spi invent -> –o–u–d–r–e–s–p–i–i–n–v–e–n–t–

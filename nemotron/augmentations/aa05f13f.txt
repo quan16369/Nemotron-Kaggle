@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 blogs flick ton
+01 gg shaped subject
+02 gerald esas pitchers
+
+This is a sample output.
+00 blogs flick ton -> –b–l–o–g–s–f–l–i–c–k–t–o–n–
+01 gg shaped subject -> –g–g–s–h–a–p–e–d–s–u–b–j–e–c–t–
+02 gerald esas pitchers -> –g–e–r–a–l–d–e–s–a–s–p–i–t–c–h–e–r–s–
+
+This is your input.
+00 baix kembali defesa
+01 obal acto kirj
+02 ohama trafen tor
+03 enz tilbake cref
+04 opuerto vies glo
+05 ote seek jouer
+06 plice dritten chiens
+07 rape anglo veri
+08 ported saud energi
+09 olin zul trovano
+10 ployee nariz gespeeld
+11 born combines dod
+12 istan eagle divin
+13 enced desesper arsen
+14 liche erhalten township
+15 ulat degraded disol
+16 iday forc alianza
+17 inou raconter unus
+18 riek bypass amico
+19 atom thr proofs
+20 alum mots sombre
+21 ados inicio meal
+22 oplast aang treats
+23 over rather entirely
+24 alto strictly pandas
+25 plin bow calls
+26 ama ht lower
+27 wartz ekkor tall
+28 lda westward daw
+29 endenza potrzeb tamb
+30 ommen november arranged
+31 ick estat sek
+32 akter pops retrouve
+33 rors explot brute
+34 iaz chk rus
+35 points esas implying
+36 cept brutal ear
+37 jede monter relying
+38 naz sifatida franske
+39 ovisual vanuit logistic
+40 vertrag relative voul
+41 awks faol aparecer
+42 eax butter zerst
+43 satz elf eigenes
+44 admin embra comport
+45 orch minerals prez
+46 cca vitamins belonged
+47 clusions polling lubric
+48 hrte neuron drought
+49 vai terbesar lord
+50 handle envoy comunit
+51 az pusat cape
+52 rafen bevat aile
+53 wide pudo ventaja
+54 ksam vibr orbits
+55 nici hy podm
+56 klar estas nobody
+57 iquel somit iframe
+58 etano articles historic
+59 exchange eval vuole
+60 rier sean wish
+61 anium knocked burn
+62 ceipt inward punta
+63 ff push richt
+64 nard usted seizoen
+65 jast donated rei
+66 roken flowing extern
+67 ast mast tash
+68 textarea causa digit
+69 flu disputes obsah
+70 hat tren impres
+71 eci quarry mando
+72 emis profiter url
+73 oksi alcal cosmetic
+74 abor acabou plaque
+75 adie oud segments
+76 untzako deven underway
+77 verse rapid vyhl
+78 yang prompts euch
+79 romb eyed frustr
+80 toi estatal castillo
+81 oyl qualc bale
+82 law alemana lines
+83 tenu guten web
+84 abs flow your
+85 idine tanah physics
+86 istos utmost fior
+87 immen celeb contract
+88 osl sich spectral
+89 pod probe elite
+90 ologio kralj ofrece
+91 incip simplify erig
+92 rice spro comis
+93 avljen wishing embodied
+94 urations objev cush
+95 itz flanc langsung
+96 builder nucle forearm
+97 uri dost monos
+98 sie zajmu silencio
+99 ddh grade ing
+[completion]
+00 baix kembali defesa -> –b–a–i–x–k–e–m–b–a–l–i–d–e–f–e–s–a–
+01 obal acto kirj -> –o–b–a–l–a–c–t–o–k–i–r–j–
+02 ohama trafen tor -> –o–h–a–m–a–t–r–a–f–e–n–t–o–r–
+03 enz tilbake cref -> –e–n–z–t–i–l–b–a–k–e–c–r–e–f–
+04 opuerto vies glo -> –o–p–u–e–r–t–o–v–i–e–s–g–l–o–
+05 ote seek jouer -> –o–t–e–s–e–e–k–j–o–u–e–r–
+06 plice dritten chiens -> –p–l–i–c–e–d–r–i–t–t–e–n–c–h–i–e–n–s–
+07 rape anglo veri -> –r–a–p–e–a–n–g–l–o–v–e–r–i–
+08 ported saud energi -> –p–o–r–t–e–d–s–a–u–d–e–n–e–r–g–i–
+09 olin zul trovano -> –o–l–i–n–z–u–l–t–r–o–v–a–n–o–
+10 ployee nariz gespeeld -> –p–l–o–y–e–e–n–a–r–i–z–g–e–s–p–e–e–l–d–
+11 born combines dod -> –b–o–r–n–c–o–m–b–i–n–e–s–d–o–d–
+12 istan eagle divin -> –i–s–t–a–n–e–a–g–l–e–d–i–v–i–n–
+13 enced desesper arsen -> –e–n–c–e–d–d–e–s–e–s–p–e–r–a–r–s–e–n–
+14 liche erhalten township -> –l–i–c–h–e–e–r–h–a–l–t–e–n–t–o–w–n–s–h–i–p–
+15 ulat degraded disol -> –u–l–a–t–d–e–g–r–a–d–e–d–d–i–s–o–l–
+16 iday forc alianza -> –i–d–a–y–f–o–r–c–a–l–i–a–n–z–a–
+17 inou raconter unus -> –i–n–o–u–r–a–c–o–n–t–e–r–u–n–u–s–
+18 riek bypass amico -> –r–i–e–k–b–y–p–a–s–s–a–m–i–c–o–
+19 atom thr proofs -> –a–t–o–m–t–h–r–p–r–o–o–f–s–
+20 alum mots sombre -> –a–l–u–m–m–o–t–s–s–o–m–b–r–e–
+21 ados inicio meal -> –a–d–o–s–i–n–i–c–i–o–m–e–a–l–
+22 oplast aang treats -> –o–p–l–a–s–t–a–a–n–g–t–r–e–a–t–s–
+23 over rather entirely -> –o–v–e–r–r–a–t–h–e–r–e–n–t–i–r–e–l–y–
+24 alto strictly pandas -> –a–l–t–o–s–t–r–i–c–t–l–y–p–a–n–d–a–s–
+25 plin bow calls -> –p–l–i–n–b–o–w–c–a–l–l–s–
+26 ama ht lower -> –a–m–a–h–t–l–o–w–e–r–
+27 wartz ekkor tall -> –w–a–r–t–z–e–k–k–o–r–t–a–l–l–
+28 lda westward daw -> –l–d–a–w–e–s–t–w–a–r–d–d–a–w–
+29 endenza potrzeb tamb -> –e–n–d–e–n–z–a–p–o–t–r–z–e–b–t–a–m–b–
+30 ommen november arranged -> –o–m–m–e–n–n–o–v–e–m–b–e–r–a–r–r–a–n–g–e–d–
+31 ick estat sek -> –i–c–k–e–s–t–a–t–s–e–k–
+32 akter pops retrouve -> –a–k–t–e–r–p–o–p–s–r–e–t–r–o–u–v–e–
+33 rors explot brute -> –r–o–r–s–e–x–p–l–o–t–b–r–u–t–e–
+34 iaz chk rus -> –i–a–z–c–h–k–r–u–s–
+35 points esas implying -> –p–o–i–n–t–s–e–s–a–s–i–m–p–l–y–i–n–g–
+36 cept brutal ear -> –c–e–p–t–b–r–u–t–a–l–e–a–r–
+37 jede monter relying -> –j–e–d–e–m–o–n–t–e–r–r–e–l–y–i–n–g–
+38 naz sifatida franske -> –n–a–z–s–i–f–a–t–i–d–a–f–r–a–n–s–k–e–
+39 ovisual vanuit logistic -> –o–v–i–s–u–a–l–v–a–n–u–i–t–l–o–g–i–s–t–i–c–
+40 vertrag relative voul -> –v–e–r–t–r–a–g–r–e–l–a–t–i–v–e–v–o–u–l–
+41 awks faol aparecer -> –a–w–k–s–f–a–o–l–a–p–a–r–e–c–e–r–
+42 eax butter zerst -> –e–a–x–b–u–t–t–e–r–z–e–r–s–t–
+43 satz elf eigenes -> –s–a–t–z–e–l–f–e–i–g–e–n–e–s–
+44 admin embra comport -> –a–d–m–i–n–e–m–b–r–a–c–o–m–p–o–r–t–
+45 orch minerals prez -> –o–r–c–h–m–i–n–e–r–a–l–s–p–r–e–z–
+46 cca vitamins belonged -> –c–c–a–v–i–t–a–m–i–n–s–b–e–l–o–n–g–e–d–
+47 clusions polling lubric -> –c–l–u–s–i–o–n–s–p–o–l–l–i–n–g–l–u–b–r–i–c–
+48 hrte neuron drought -> –h–r–t–e–n–e–u–r–o–n–d–r–o–u–g–h–t–
+49 vai terbesar lord -> –v–a–i–t–e–r–b–e–s–a–r–l–o–r–d–
+50 handle envoy comunit -> –h–a–n–d–l–e–e–n–v–o–y–c–o–m–u–n–i–t–
+51 az pusat cape -> –a–z–p–u–s–a–t–c–a–p–e–
+52 rafen bevat aile -> –r–a–f–e–n–b–e–v–a–t–a–i–l–e–
+53 wide pudo ventaja -> –w–i–d–e–p–u–d–o–v–e–n–t–a–j–a–
+54 ksam vibr orbits -> –k–s–a–m–v–i–b–r–o–r–b–i–t–s–
+55 nici hy podm -> –n–i–c–i–h–y–p–o–d–m–
+56 klar estas nobody -> –k–l–a–r–e–s–t–a–s–n–o–b–o–d–y–
+57 iquel somit iframe -> –i–q–u–e–l–s–o–m–i–t–i–f–r–a–m–e–
+58 etano articles historic -> –e–t–a–n–o–a–r–t–i–c–l–e–s–h–i–s–t–o–r–i–c–
+59 exchange eval vuole -> –e–x–c–h–a–n–g–e–e–v–a–l–v–u–o–l–e–
+60 rier sean wish -> –r–i–e–r–s–e–a–n–w–i–s–h–
+61 anium knocked burn -> –a–n–i–u–m–k–n–o–c–k–e–d–b–u–r–n–
+62 ceipt inward punta -> –c–e–i–p–t–i–n–w–a–r–d–p–u–n–t–a–
+63 ff push richt -> –f–f–p–u–s–h–r–i–c–h–t–
+64 nard usted seizoen -> –n–a–r–d–u–s–t–e–d–s–e–i–z–o–e–n–
+65 jast donated rei -> –j–a–s–t–d–o–n–a–t–e–d–r–e–i–
+66 roken flowing extern -> –r–o–k–e–n–f–l–o–w–i–n–g–e–x–t–e–r–n–
+67 ast mast tash -> –a–s–t–m–a–s–t–t–a–s–h–
+68 textarea causa digit -> –t–e–x–t–a–r–e–a–c–a–u–s–a–d–i–g–i–t–
+69 flu disputes obsah -> –f–l–u–d–i–s–p–u–t–e–s–o–b–s–a–h–
+70 hat tren impres -> –h–a–t–t–r–e–n–i–m–p–r–e–s–
+71 eci quarry mando -> –e–c–i–q–u–a–r–r–y–m–a–n–d–o–
+72 emis profiter url -> –e–m–i–s–p–r–o–f–i–t–e–r–u–r–l–
+73 oksi alcal cosmetic -> –o–k–s–i–a–l–c–a–l–c–o–s–m–e–t–i–c–
+74 abor acabou plaque -> –a–b–o–r–a–c–a–b–o–u–p–l–a–q–u–e–
+75 adie oud segments -> –a–d–i–e–o–u–d–s–e–g–m–e–n–t–s–
+76 untzako deven underway -> –u–n–t–z–a–k–o–d–e–v–e–n–u–n–d–e–r–w–a–y–
+77 verse rapid vyhl -> –v–e–r–s–e–r–a–p–i–d–v–y–h–l–
+78 yang prompts euch -> –y–a–n–g–p–r–o–m–p–t–s–e–u–c–h–
+79 romb eyed frustr -> –r–o–m–b–e–y–e–d–f–r–u–s–t–r–
+80 toi estatal castillo -> –t–o–i–e–s–t–a–t–a–l–c–a–s–t–i–l–l–o–
+81 oyl qualc bale -> –o–y–l–q–u–a–l–c–b–a–l–e–
+82 law alemana lines -> –l–a–w–a–l–e–m–a–n–a–l–i–n–e–s–
+83 tenu guten web -> –t–e–n–u–g–u–t–e–n–w–e–b–
+84 abs flow your -> –a–b–s–f–l–o–w–y–o–u–r–
+85 idine tanah physics -> –i–d–i–n–e–t–a–n–a–h–p–h–y–s–i–c–s–
+86 istos utmost fior -> –i–s–t–o–s–u–t–m–o–s–t–f–i–o–r–
+87 immen celeb contract -> –i–m–m–e–n–c–e–l–e–b–c–o–n–t–r–a–c–t–
+88 osl sich spectral -> –o–s–l–s–i–c–h–s–p–e–c–t–r–a–l–
+89 pod probe elite -> –p–o–d–p–r–o–b–e–e–l–i–t–e–
+90 ologio kralj ofrece -> –o–l–o–g–i–o–k–r–a–l–j–o–f–r–e–c–e–
+91 incip simplify erig -> –i–n–c–i–p–s–i–m–p–l–i–f–y–e–r–i–g–
+92 rice spro comis -> –r–i–c–e–s–p–r–o–c–o–m–i–s–
+93 avljen wishing embodied -> –a–v–l–j–e–n–w–i–s–h–i–n–g–e–m–b–o–d–i–e–d–
+94 urations objev cush -> –u–r–a–t–i–o–n–s–o–b–j–e–v–c–u–s–h–
+95 itz flanc langsung -> –i–t–z–f–l–a–n–c–l–a–n–g–s–u–n–g–
+96 builder nucle forearm -> –b–u–i–l–d–e–r–n–u–c–l–e–f–o–r–e–a–r–m–
+97 uri dost monos -> –u–r–i–d–o–s–t–m–o–n–o–s–
+98 sie zajmu silencio -> –s–i–e–z–a–j–m–u–s–i–l–e–n–c–i–o–
+99 ddh grade ing -> –d–d–h–g–r–a–d–e–i–n–g–

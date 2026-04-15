@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 ordes solvent ger
+01 rate oval limb
+02 ircle surviv screws
+
+This is a sample output.
+00 ordes solvent ger -> –o–r–d–e–s–s–o–l–v–e–n–t–g–e–r–
+01 rate oval limb -> –r–a–t–e–o–v–a–l–l–i–m–b–
+02 ircle surviv screws -> –i–r–c–l–e–s–u–r–v–i–v–s–c–r–e–w–s–
+
+This is your input.
+00 onders zusamm banco
+01 icolo sagen bija
+02 zip koht foot
+03 find motive salir
+04 arez welcomed dif
+05 physics possible division
+06 urrence nuls langen
+07 avir molekul lifetime
+08 ierend pratica erotic
+09 oria desembre inwon
+10 parsed bright mineurs
+11 voegd any titles
+12 firebase part prehist
+13 henyl motility thumb
+14 beding fuga blowing
+15 orka uit produtos
+16 mouse pd rozpoc
+17 arca ilin robotic
+18 gne giz coisa
+19 blogs gels pars
+20 npm exprim retrofit
+21 opup mentale thromb
+22 ppo tj rivers
+23 ename antal tschech
+24 esome apoy closing
+25 iedz cuisine way
+26 otted zag garrison
+27 lop pourvoir surprise
+28 article scre meio
+29 ggel erosion fisi
+30 ankan poli renderer
+31 goto propuso welcher
+32 onomic resid musicale
+33 olit lequel quar
+34 roots sonrisa conduce
+35 amily quod belt
+36 nikov demander visibles
+37 otus bemerk counters
+38 gruppe quero list
+39 ridine filas careful
+40 igur moitos posljed
+41 ieht ici agit
+42 unset jokes laut
+43 ichy bonnes veu
+44 iamine honor inizia
+45 bul encl desse
+46 ochond defeats board
+47 kot contato potency
+48 ks ki stations
+49 ington jezik agres
+50 urnal zeigt perse
+51 phins listen ersten
+52 emeni otra likely
+53 alari backup nuov
+54 char ms chocol
+55 oning lil medo
+56 jed tib rely
+57 areness vuotta alliance
+58 pleted monstru rage
+59 har entering imaged
+60 tbody analyz lockdown
+61 ships hect practice
+62 astian staring penting
+63 usan charged etap
+64 anes possono epid
+65 via matt erfahren
+66 ja microt straps
+67 istes operator impar
+68 oad seguido ragione
+69 gallery definida waf
+70 cluding perust femenino
+71 ophe vlad cannon
+72 memor deuda zou
+73 shadow rematch zinc
+74 ionat typh cylinder
+75 valid aga besoins
+76 quete dieu dedicado
+77 rossover zie override
+78 lla nearly consecut
+79 modern cau poles
+80 is nitrogen leste
+81 idou can explor
+82 jez taj terjadi
+83 nesday erythe attested
+84 oder tous forcing
+85 ulations members bugs
+86 ong ark pasukan
+87 app gepr lectura
+88 estas connais stating
+89 zonder sort recall
+90 ibor deceased assise
+91 anat reporter figured
+92 aktor grote gift
+93 iotic predsed bern
+94 irr mole troop
+95 volta servent cig
+96 ao kho indict
+97 jih ram premios
+98 hev osob news
+99 anaan combates hearings
+[completion]
+00 onders zusamm banco -> –o–n–d–e–r–s–z–u–s–a–m–m–b–a–n–c–o–
+01 icolo sagen bija -> –i–c–o–l–o–s–a–g–e–n–b–i–j–a–
+02 zip koht foot -> –z–i–p–k–o–h–t–f–o–o–t–
+03 find motive salir -> –f–i–n–d–m–o–t–i–v–e–s–a–l–i–r–
+04 arez welcomed dif -> –a–r–e–z–w–e–l–c–o–m–e–d–d–i–f–
+05 physics possible division -> –p–h–y–s–i–c–s–p–o–s–s–i–b–l–e–d–i–v–i–s–i–o–n–
+06 urrence nuls langen -> –u–r–r–e–n–c–e–n–u–l–s–l–a–n–g–e–n–
+07 avir molekul lifetime -> –a–v–i–r–m–o–l–e–k–u–l–l–i–f–e–t–i–m–e–
+08 ierend pratica erotic -> –i–e–r–e–n–d–p–r–a–t–i–c–a–e–r–o–t–i–c–
+09 oria desembre inwon -> –o–r–i–a–d–e–s–e–m–b–r–e–i–n–w–o–n–
+10 parsed bright mineurs -> –p–a–r–s–e–d–b–r–i–g–h–t–m–i–n–e–u–r–s–
+11 voegd any titles -> –v–o–e–g–d–a–n–y–t–i–t–l–e–s–
+12 firebase part prehist -> –f–i–r–e–b–a–s–e–p–a–r–t–p–r–e–h–i–s–t–
+13 henyl motility thumb -> –h–e–n–y–l–m–o–t–i–l–i–t–y–t–h–u–m–b–
+14 beding fuga blowing -> –b–e–d–i–n–g–f–u–g–a–b–l–o–w–i–n–g–
+15 orka uit produtos -> –o–r–k–a–u–i–t–p–r–o–d–u–t–o–s–
+16 mouse pd rozpoc -> –m–o–u–s–e–p–d–r–o–z–p–o–c–
+17 arca ilin robotic -> –a–r–c–a–i–l–i–n–r–o–b–o–t–i–c–
+18 gne giz coisa -> –g–n–e–g–i–z–c–o–i–s–a–
+19 blogs gels pars -> –b–l–o–g–s–g–e–l–s–p–a–r–s–
+20 npm exprim retrofit -> –n–p–m–e–x–p–r–i–m–r–e–t–r–o–f–i–t–
+21 opup mentale thromb -> –o–p–u–p–m–e–n–t–a–l–e–t–h–r–o–m–b–
+22 ppo tj rivers -> –p–p–o–t–j–r–i–v–e–r–s–
+23 ename antal tschech -> –e–n–a–m–e–a–n–t–a–l–t–s–c–h–e–c–h–
+24 esome apoy closing -> –e–s–o–m–e–a–p–o–y–c–l–o–s–i–n–g–
+25 iedz cuisine way -> –i–e–d–z–c–u–i–s–i–n–e–w–a–y–
+26 otted zag garrison -> –o–t–t–e–d–z–a–g–g–a–r–r–i–s–o–n–
+27 lop pourvoir surprise -> –l–o–p–p–o–u–r–v–o–i–r–s–u–r–p–r–i–s–e–
+28 article scre meio -> –a–r–t–i–c–l–e–s–c–r–e–m–e–i–o–
+29 ggel erosion fisi -> –g–g–e–l–e–r–o–s–i–o–n–f–i–s–i–
+30 ankan poli renderer -> –a–n–k–a–n–p–o–l–i–r–e–n–d–e–r–e–r–
+31 goto propuso welcher -> –g–o–t–o–p–r–o–p–u–s–o–w–e–l–c–h–e–r–
+32 onomic resid musicale -> –o–n–o–m–i–c–r–e–s–i–d–m–u–s–i–c–a–l–e–
+33 olit lequel quar -> –o–l–i–t–l–e–q–u–e–l–q–u–a–r–
+34 roots sonrisa conduce -> –r–o–o–t–s–s–o–n–r–i–s–a–c–o–n–d–u–c–e–
+35 amily quod belt -> –a–m–i–l–y–q–u–o–d–b–e–l–t–
+36 nikov demander visibles -> –n–i–k–o–v–d–e–m–a–n–d–e–r–v–i–s–i–b–l–e–s–
+37 otus bemerk counters -> –o–t–u–s–b–e–m–e–r–k–c–o–u–n–t–e–r–s–
+38 gruppe quero list -> –g–r–u–p–p–e–q–u–e–r–o–l–i–s–t–
+39 ridine filas careful -> –r–i–d–i–n–e–f–i–l–a–s–c–a–r–e–f–u–l–
+40 igur moitos posljed -> –i–g–u–r–m–o–i–t–o–s–p–o–s–l–j–e–d–
+41 ieht ici agit -> –i–e–h–t–i–c–i–a–g–i–t–
+42 unset jokes laut -> –u–n–s–e–t–j–o–k–e–s–l–a–u–t–
+43 ichy bonnes veu -> –i–c–h–y–b–o–n–n–e–s–v–e–u–
+44 iamine honor inizia -> –i–a–m–i–n–e–h–o–n–o–r–i–n–i–z–i–a–
+45 bul encl desse -> –b–u–l–e–n–c–l–d–e–s–s–e–
+46 ochond defeats board -> –o–c–h–o–n–d–d–e–f–e–a–t–s–b–o–a–r–d–
+47 kot contato potency -> –k–o–t–c–o–n–t–a–t–o–p–o–t–e–n–c–y–
+48 ks ki stations -> –k–s–k–i–s–t–a–t–i–o–n–s–
+49 ington jezik agres -> –i–n–g–t–o–n–j–e–z–i–k–a–g–r–e–s–
+50 urnal zeigt perse -> –u–r–n–a–l–z–e–i–g–t–p–e–r–s–e–
+51 phins listen ersten -> –p–h–i–n–s–l–i–s–t–e–n–e–r–s–t–e–n–
+52 emeni otra likely -> –e–m–e–n–i–o–t–r–a–l–i–k–e–l–y–
+53 alari backup nuov -> –a–l–a–r–i–b–a–c–k–u–p–n–u–o–v–
+54 char ms chocol -> –c–h–a–r–m–s–c–h–o–c–o–l–
+55 oning lil medo -> –o–n–i–n–g–l–i–l–m–e–d–o–
+56 jed tib rely -> –j–e–d–t–i–b–r–e–l–y–
+57 areness vuotta alliance -> –a–r–e–n–e–s–s–v–u–o–t–t–a–a–l–l–i–a–n–c–e–
+58 pleted monstru rage -> –p–l–e–t–e–d–m–o–n–s–t–r–u–r–a–g–e–
+59 har entering imaged -> –h–a–r–e–n–t–e–r–i–n–g–i–m–a–g–e–d–
+60 tbody analyz lockdown -> –t–b–o–d–y–a–n–a–l–y–z–l–o–c–k–d–o–w–n–
+61 ships hect practice -> –s–h–i–p–s–h–e–c–t–p–r–a–c–t–i–c–e–
+62 astian staring penting -> –a–s–t–i–a–n–s–t–a–r–i–n–g–p–e–n–t–i–n–g–
+63 usan charged etap -> –u–s–a–n–c–h–a–r–g–e–d–e–t–a–p–
+64 anes possono epid -> –a–n–e–s–p–o–s–s–o–n–o–e–p–i–d–
+65 via matt erfahren -> –v–i–a–m–a–t–t–e–r–f–a–h–r–e–n–
+66 ja microt straps -> –j–a–m–i–c–r–o–t–s–t–r–a–p–s–
+67 istes operator impar -> –i–s–t–e–s–o–p–e–r–a–t–o–r–i–m–p–a–r–
+68 oad seguido ragione -> –o–a–d–s–e–g–u–i–d–o–r–a–g–i–o–n–e–
+69 gallery definida waf -> –g–a–l–l–e–r–y–d–e–f–i–n–i–d–a–w–a–f–
+70 cluding perust femenino -> –c–l–u–d–i–n–g–p–e–r–u–s–t–f–e–m–e–n–i–n–o–
+71 ophe vlad cannon -> –o–p–h–e–v–l–a–d–c–a–n–n–o–n–
+72 memor deuda zou -> –m–e–m–o–r–d–e–u–d–a–z–o–u–
+73 shadow rematch zinc -> –s–h–a–d–o–w–r–e–m–a–t–c–h–z–i–n–c–
+74 ionat typh cylinder -> –i–o–n–a–t–t–y–p–h–c–y–l–i–n–d–e–r–
+75 valid aga besoins -> –v–a–l–i–d–a–g–a–b–e–s–o–i–n–s–
+76 quete dieu dedicado -> –q–u–e–t–e–d–i–e–u–d–e–d–i–c–a–d–o–
+77 rossover zie override -> –r–o–s–s–o–v–e–r–z–i–e–o–v–e–r–r–i–d–e–
+78 lla nearly consecut -> –l–l–a–n–e–a–r–l–y–c–o–n–s–e–c–u–t–
+79 modern cau poles -> –m–o–d–e–r–n–c–a–u–p–o–l–e–s–
+80 is nitrogen leste -> –i–s–n–i–t–r–o–g–e–n–l–e–s–t–e–
+81 idou can explor -> –i–d–o–u–c–a–n–e–x–p–l–o–r–
+82 jez taj terjadi -> –j–e–z–t–a–j–t–e–r–j–a–d–i–
+83 nesday erythe attested -> –n–e–s–d–a–y–e–r–y–t–h–e–a–t–t–e–s–t–e–d–
+84 oder tous forcing -> –o–d–e–r–t–o–u–s–f–o–r–c–i–n–g–
+85 ulations members bugs -> –u–l–a–t–i–o–n–s–m–e–m–b–e–r–s–b–u–g–s–
+86 ong ark pasukan -> –o–n–g–a–r–k–p–a–s–u–k–a–n–
+87 app gepr lectura -> –a–p–p–g–e–p–r–l–e–c–t–u–r–a–
+88 estas connais stating -> –e–s–t–a–s–c–o–n–n–a–i–s–s–t–a–t–i–n–g–
+89 zonder sort recall -> –z–o–n–d–e–r–s–o–r–t–r–e–c–a–l–l–
+90 ibor deceased assise -> –i–b–o–r–d–e–c–e–a–s–e–d–a–s–s–i–s–e–
+91 anat reporter figured -> –a–n–a–t–r–e–p–o–r–t–e–r–f–i–g–u–r–e–d–
+92 aktor grote gift -> –a–k–t–o–r–g–r–o–t–e–g–i–f–t–
+93 iotic predsed bern -> –i–o–t–i–c–p–r–e–d–s–e–d–b–e–r–n–
+94 irr mole troop -> –i–r–r–m–o–l–e–t–r–o–o–p–
+95 volta servent cig -> –v–o–l–t–a–s–e–r–v–e–n–t–c–i–g–
+96 ao kho indict -> –a–o–k–h–o–i–n–d–i–c–t–
+97 jih ram premios -> –j–i–h–r–a–m–p–r–e–m–i–o–s–
+98 hev osob news -> –h–e–v–o–s–o–b–n–e–w–s–
+99 anaan combates hearings -> –a–n–a–a–n–c–o–m–b–a–t–e–s–h–e–a–r–i–n–g–s–

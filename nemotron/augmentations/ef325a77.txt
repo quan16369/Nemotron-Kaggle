@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 ieb quer spre
+01 romagn konk ys
+02 vec incluida ekst
+
+This is a sample output.
+00 ieb quer spre -> –i–e–b–q–u–e–r–s–p–r–e–
+01 romagn konk ys -> –r–o–m–a–g–n–k–o–n–k–y–s–
+02 vec incluida ekst -> –v–e–c–i–n–c–l–u–i–d–a–e–k–s–t–
+
+This is your input.
+00 voltage dalle hast
+01 ibly launch bounds
+02 urb trad antigen
+03 augh earnings veik
+04 lected avesse fondos
+05 ension auc data
+06 actors veux foreign
+07 ietet prostate francese
+08 roq kul ashamed
+09 armi tiu bios
+10 iasis pesquis corn
+11 lok accett adaptive
+12 seconds enk dei
+13 thiop voluto valuable
+14 iffe bir crowded
+15 otation dtype bursting
+16 prav heel smell
+17 otion muscular tienda
+18 useum chambres plains
+19 ec parlant mou
+20 rayer wanneer indef
+21 be pot exist
+22 apeut antik mist
+23 ision export pobre
+24 atkan filles selling
+25 seau zra diverted
+26 gua swojej quiere
+27 uent succeed conto
+28 rained koost nascent
+29 ullo gjen enamor
+30 wde fark centros
+31 itelj holdings ty
+32 std namun static
+33 endlich facts indebted
+34 cats samym multil
+35 student result krist
+36 eral sourire beendet
+37 jado listed actuar
+38 lardan iz heureux
+39 iatan milyon sorties
+40 uite because softer
+41 veled strukt podcast
+42 rollback amical is
+43 ayaan berhasil embro
+44 cripts proizvod worden
+45 chev spun computes
+46 unwrap instance too
+47 rakt nombrado uspe
+48 genstein cleaved glance
+49 ettings worst gamm
+50 arme pads cutter
+51 awy enact subject
+52 ptime drunk zak
+53 zki conduite zah
+54 mlung raza planners
+55 aita puisse detailed
+56 inin obsess acima
+57 rons hundred martyr
+58 film sre coined
+59 alat heater www
+60 onitor nos besitzt
+61 zelf crimen ligue
+62 ases responds knew
+63 olders begynd exposing
+64 bagai danse cohesion
+65 tection inflated dialects
+66 oui vys fortress
+67 ordes relate tran
+68 reste artistas cumpr
+69 portivo rushing miner
+70 ready satisf plazo
+71 otropic neigh arbeitet
+72 emporary parted rozgry
+73 ognition maj tard
+74 coles assay moan
+75 omas special ruins
+76 domada classic cef
+77 hez recorded condom
+78 schap fatigu gesamte
+79 oblast manners locais
+80 yped plein scare
+81 ryd reprise alz
+82 rieron sore cirk
+83 esson distint codes
+84 summary esquema effected
+85 iyeti folio pentru
+86 raga tendency meant
+87 obic zm tan
+88 amar map flot
+89 rael zajedno debugger
+90 riminal jou voltant
+91 outing treffen accomp
+92 ucle distante alleg
+93 umpy guerr ise
+94 achel transmit entrare
+95 ereien zod garner
+96 xsl specie filozof
+97 orbent igra gehalten
+98 structor mae kamu
+99 affen plans preto
+[completion]
+00 voltage dalle hast -> –v–o–l–t–a–g–e–d–a–l–l–e–h–a–s–t–
+01 ibly launch bounds -> –i–b–l–y–l–a–u–n–c–h–b–o–u–n–d–s–
+02 urb trad antigen -> –u–r–b–t–r–a–d–a–n–t–i–g–e–n–
+03 augh earnings veik -> –a–u–g–h–e–a–r–n–i–n–g–s–v–e–i–k–
+04 lected avesse fondos -> –l–e–c–t–e–d–a–v–e–s–s–e–f–o–n–d–o–s–
+05 ension auc data -> –e–n–s–i–o–n–a–u–c–d–a–t–a–
+06 actors veux foreign -> –a–c–t–o–r–s–v–e–u–x–f–o–r–e–i–g–n–
+07 ietet prostate francese -> –i–e–t–e–t–p–r–o–s–t–a–t–e–f–r–a–n–c–e–s–e–
+08 roq kul ashamed -> –r–o–q–k–u–l–a–s–h–a–m–e–d–
+09 armi tiu bios -> –a–r–m–i–t–i–u–b–i–o–s–
+10 iasis pesquis corn -> –i–a–s–i–s–p–e–s–q–u–i–s–c–o–r–n–
+11 lok accett adaptive -> –l–o–k–a–c–c–e–t–t–a–d–a–p–t–i–v–e–
+12 seconds enk dei -> –s–e–c–o–n–d–s–e–n–k–d–e–i–
+13 thiop voluto valuable -> –t–h–i–o–p–v–o–l–u–t–o–v–a–l–u–a–b–l–e–
+14 iffe bir crowded -> –i–f–f–e–b–i–r–c–r–o–w–d–e–d–
+15 otation dtype bursting -> –o–t–a–t–i–o–n–d–t–y–p–e–b–u–r–s–t–i–n–g–
+16 prav heel smell -> –p–r–a–v–h–e–e–l–s–m–e–l–l–
+17 otion muscular tienda -> –o–t–i–o–n–m–u–s–c–u–l–a–r–t–i–e–n–d–a–
+18 useum chambres plains -> –u–s–e–u–m–c–h–a–m–b–r–e–s–p–l–a–i–n–s–
+19 ec parlant mou -> –e–c–p–a–r–l–a–n–t–m–o–u–
+20 rayer wanneer indef -> –r–a–y–e–r–w–a–n–n–e–e–r–i–n–d–e–f–
+21 be pot exist -> –b–e–p–o–t–e–x–i–s–t–
+22 apeut antik mist -> –a–p–e–u–t–a–n–t–i–k–m–i–s–t–
+23 ision export pobre -> –i–s–i–o–n–e–x–p–o–r–t–p–o–b–r–e–
+24 atkan filles selling -> –a–t–k–a–n–f–i–l–l–e–s–s–e–l–l–i–n–g–
+25 seau zra diverted -> –s–e–a–u–z–r–a–d–i–v–e–r–t–e–d–
+26 gua swojej quiere -> –g–u–a–s–w–o–j–e–j–q–u–i–e–r–e–
+27 uent succeed conto -> –u–e–n–t–s–u–c–c–e–e–d–c–o–n–t–o–
+28 rained koost nascent -> –r–a–i–n–e–d–k–o–o–s–t–n–a–s–c–e–n–t–
+29 ullo gjen enamor -> –u–l–l–o–g–j–e–n–e–n–a–m–o–r–
+30 wde fark centros -> –w–d–e–f–a–r–k–c–e–n–t–r–o–s–
+31 itelj holdings ty -> –i–t–e–l–j–h–o–l–d–i–n–g–s–t–y–
+32 std namun static -> –s–t–d–n–a–m–u–n–s–t–a–t–i–c–
+33 endlich facts indebted -> –e–n–d–l–i–c–h–f–a–c–t–s–i–n–d–e–b–t–e–d–
+34 cats samym multil -> –c–a–t–s–s–a–m–y–m–m–u–l–t–i–l–
+35 student result krist -> –s–t–u–d–e–n–t–r–e–s–u–l–t–k–r–i–s–t–
+36 eral sourire beendet -> –e–r–a–l–s–o–u–r–i–r–e–b–e–e–n–d–e–t–
+37 jado listed actuar -> –j–a–d–o–l–i–s–t–e–d–a–c–t–u–a–r–
+38 lardan iz heureux -> –l–a–r–d–a–n–i–z–h–e–u–r–e–u–x–
+39 iatan milyon sorties -> –i–a–t–a–n–m–i–l–y–o–n–s–o–r–t–i–e–s–
+40 uite because softer -> –u–i–t–e–b–e–c–a–u–s–e–s–o–f–t–e–r–
+41 veled strukt podcast -> –v–e–l–e–d–s–t–r–u–k–t–p–o–d–c–a–s–t–
+42 rollback amical is -> –r–o–l–l–b–a–c–k–a–m–i–c–a–l–i–s–
+43 ayaan berhasil embro -> –a–y–a–a–n–b–e–r–h–a–s–i–l–e–m–b–r–o–
+44 cripts proizvod worden -> –c–r–i–p–t–s–p–r–o–i–z–v–o–d–w–o–r–d–e–n–
+45 chev spun computes -> –c–h–e–v–s–p–u–n–c–o–m–p–u–t–e–s–
+46 unwrap instance too -> –u–n–w–r–a–p–i–n–s–t–a–n–c–e–t–o–o–
+47 rakt nombrado uspe -> –r–a–k–t–n–o–m–b–r–a–d–o–u–s–p–e–
+48 genstein cleaved glance -> –g–e–n–s–t–e–i–n–c–l–e–a–v–e–d–g–l–a–n–c–e–
+49 ettings worst gamm -> –e–t–t–i–n–g–s–w–o–r–s–t–g–a–m–m–
+50 arme pads cutter -> –a–r–m–e–p–a–d–s–c–u–t–t–e–r–
+51 awy enact subject -> –a–w–y–e–n–a–c–t–s–u–b–j–e–c–t–
+52 ptime drunk zak -> –p–t–i–m–e–d–r–u–n–k–z–a–k–
+53 zki conduite zah -> –z–k–i–c–o–n–d–u–i–t–e–z–a–h–
+54 mlung raza planners -> –m–l–u–n–g–r–a–z–a–p–l–a–n–n–e–r–s–
+55 aita puisse detailed -> –a–i–t–a–p–u–i–s–s–e–d–e–t–a–i–l–e–d–
+56 inin obsess acima -> –i–n–i–n–o–b–s–e–s–s–a–c–i–m–a–
+57 rons hundred martyr -> –r–o–n–s–h–u–n–d–r–e–d–m–a–r–t–y–r–
+58 film sre coined -> –f–i–l–m–s–r–e–c–o–i–n–e–d–
+59 alat heater www -> –a–l–a–t–h–e–a–t–e–r–w–w–w–
+60 onitor nos besitzt -> –o–n–i–t–o–r–n–o–s–b–e–s–i–t–z–t–
+61 zelf crimen ligue -> –z–e–l–f–c–r–i–m–e–n–l–i–g–u–e–
+62 ases responds knew -> –a–s–e–s–r–e–s–p–o–n–d–s–k–n–e–w–
+63 olders begynd exposing -> –o–l–d–e–r–s–b–e–g–y–n–d–e–x–p–o–s–i–n–g–
+64 bagai danse cohesion -> –b–a–g–a–i–d–a–n–s–e–c–o–h–e–s–i–o–n–
+65 tection inflated dialects -> –t–e–c–t–i–o–n–i–n–f–l–a–t–e–d–d–i–a–l–e–c–t–s–
+66 oui vys fortress -> –o–u–i–v–y–s–f–o–r–t–r–e–s–s–
+67 ordes relate tran -> –o–r–d–e–s–r–e–l–a–t–e–t–r–a–n–
+68 reste artistas cumpr -> –r–e–s–t–e–a–r–t–i–s–t–a–s–c–u–m–p–r–
+69 portivo rushing miner -> –p–o–r–t–i–v–o–r–u–s–h–i–n–g–m–i–n–e–r–
+70 ready satisf plazo -> –r–e–a–d–y–s–a–t–i–s–f–p–l–a–z–o–
+71 otropic neigh arbeitet -> –o–t–r–o–p–i–c–n–e–i–g–h–a–r–b–e–i–t–e–t–
+72 emporary parted rozgry -> –e–m–p–o–r–a–r–y–p–a–r–t–e–d–r–o–z–g–r–y–
+73 ognition maj tard -> –o–g–n–i–t–i–o–n–m–a–j–t–a–r–d–
+74 coles assay moan -> –c–o–l–e–s–a–s–s–a–y–m–o–a–n–
+75 omas special ruins -> –o–m–a–s–s–p–e–c–i–a–l–r–u–i–n–s–
+76 domada classic cef -> –d–o–m–a–d–a–c–l–a–s–s–i–c–c–e–f–
+77 hez recorded condom -> –h–e–z–r–e–c–o–r–d–e–d–c–o–n–d–o–m–
+78 schap fatigu gesamte -> –s–c–h–a–p–f–a–t–i–g–u–g–e–s–a–m–t–e–
+79 oblast manners locais -> –o–b–l–a–s–t–m–a–n–n–e–r–s–l–o–c–a–i–s–
+80 yped plein scare -> –y–p–e–d–p–l–e–i–n–s–c–a–r–e–
+81 ryd reprise alz -> –r–y–d–r–e–p–r–i–s–e–a–l–z–
+82 rieron sore cirk -> –r–i–e–r–o–n–s–o–r–e–c–i–r–k–
+83 esson distint codes -> –e–s–s–o–n–d–i–s–t–i–n–t–c–o–d–e–s–
+84 summary esquema effected -> –s–u–m–m–a–r–y–e–s–q–u–e–m–a–e–f–f–e–c–t–e–d–
+85 iyeti folio pentru -> –i–y–e–t–i–f–o–l–i–o–p–e–n–t–r–u–
+86 raga tendency meant -> –r–a–g–a–t–e–n–d–e–n–c–y–m–e–a–n–t–
+87 obic zm tan -> –o–b–i–c–z–m–t–a–n–
+88 amar map flot -> –a–m–a–r–m–a–p–f–l–o–t–
+89 rael zajedno debugger -> –r–a–e–l–z–a–j–e–d–n–o–d–e–b–u–g–g–e–r–
+90 riminal jou voltant -> –r–i–m–i–n–a–l–j–o–u–v–o–l–t–a–n–t–
+91 outing treffen accomp -> –o–u–t–i–n–g–t–r–e–f–f–e–n–a–c–c–o–m–p–
+92 ucle distante alleg -> –u–c–l–e–d–i–s–t–a–n–t–e–a–l–l–e–g–
+93 umpy guerr ise -> –u–m–p–y–g–u–e–r–r–i–s–e–
+94 achel transmit entrare -> –a–c–h–e–l–t–r–a–n–s–m–i–t–e–n–t–r–a–r–e–
+95 ereien zod garner -> –e–r–e–i–e–n–z–o–d–g–a–r–n–e–r–
+96 xsl specie filozof -> –x–s–l–s–p–e–c–i–e–f–i–l–o–z–o–f–
+97 orbent igra gehalten -> –o–r–b–e–n–t–i–g–r–a–g–e–h–a–l–t–e–n–
+98 structor mae kamu -> –s–t–r–u–c–t–o–r–m–a–e–k–a–m–u–
+99 affen plans preto -> –a–f–f–e–n–p–l–a–n–s–p–r–e–t–o–

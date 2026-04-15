@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 imen suction rebound
+01 nen diffuse stolen
+02 arashtra slou disciple
+
+This is a sample output.
+00 imen suction rebound -> –i–m–e–n–s–u–c–t–i–o–n–r–e–b–o–u–n–d–
+01 nen diffuse stolen -> –n–e–n–d–i–f–f–u–s–e–s–t–o–l–e–n–
+02 arashtra slou disciple -> –a–r–a–s–h–t–r–a–s–l–o–u–d–i–s–c–i–p–l–e–
+
+This is your input.
+00 imentos menye equipes
+01 batch svem latch
+02 opat pushed fonds
+03 itecte pressure jako
+04 base ihr activism
+05 estellt folding contacts
+06 riterion leuk smiling
+07 itzer ramas ribs
+08 ultat soli sistema
+09 orghe memor fran
+10 oping officers migr
+11 argento enceinte aleg
+12 aktiv prennent refined
+13 eft declar estrogen
+14 riet promover fir
+15 iep thriller veinte
+16 auan ordonn retired
+17 isy winked disgu
+18 altete som ger
+19 cannot kleine mile
+20 plus reserva imag
+21 astu terms moglie
+22 aft ri bicy
+23 their mais pitch
+24 igneur grunn riguarda
+25 ucat ausreich rutas
+26 fecha unirse forgot
+27 wagen sovint ega
+28 istoire seeds duten
+29 incl swings passe
+30 acjach volo textures
+31 charts amplic koal
+32 uncate gli erfolgt
+33 utc wasted beaux
+34 heen erschien vast
+35 direct kast femmes
+36 bis empath male
+37 ruit menyer illness
+38 lichkeit fight foy
+39 iglich note romane
+40 chy prohib teki
+41 iob intend blew
+42 atoxyl filepath decide
+43 inya cercle dedos
+44 encial elim capable
+45 obb appended ayudar
+46 ida quinze accru
+47 runde detuvo mer
+48 chis vaga ferrovi
+49 undef snakes rist
+50 aning heavenly tested
+51 acques runners totes
+52 nell gegen assisted
+53 dont quien fading
+54 urk izol mussten
+55 ocup soon guar
+56 mer njegov in
+57 rophic deriv ritmo
+58 idad bigarren minore
+59 placed vitamin klar
+60 ppet spricht oc
+61 ionale topl kend
+62 ramer lanean alley
+63 tyabr dure tears
+64 udni hol zones
+65 otherap erano lou
+66 ubit gesche assum
+67 ikom keer exhib
+68 oints pastor wegen
+69 rican realised wearing
+70 ich avion removes
+71 ounds times retornar
+72 kenal careg acquires
+73 loating that nau
+74 isiin linger ocor
+75 iaires aprove altos
+76 products gost hacerlo
+77 rane gg lutte
+78 araan forcibly solve
+79 soon giorni atteinte
+80 volle novel injector
+81 ten passages nazis
+82 schaft variante analyzed
+83 rag amenaza dismiss
+84 akan fac size
+85 vist heritage jewel
+86 naval involunt asymmet
+87 codes behind exige
+88 olg choses lowers
+89 entlich strlen ee
+90 bbit fierc karbon
+91 eling permite cromos
+92 opause touk dosage
+93 frontend internas voces
+94 cite resolved memo
+95 raten cla bruk
+96 estar jedan lie
+97 language arb confir
+98 sson kepala hooked
+99 intern cabin usan
+[completion]
+00 imentos menye equipes -> –i–m–e–n–t–o–s–m–e–n–y–e–e–q–u–i–p–e–s–
+01 batch svem latch -> –b–a–t–c–h–s–v–e–m–l–a–t–c–h–
+02 opat pushed fonds -> –o–p–a–t–p–u–s–h–e–d–f–o–n–d–s–
+03 itecte pressure jako -> –i–t–e–c–t–e–p–r–e–s–s–u–r–e–j–a–k–o–
+04 base ihr activism -> –b–a–s–e–i–h–r–a–c–t–i–v–i–s–m–
+05 estellt folding contacts -> –e–s–t–e–l–l–t–f–o–l–d–i–n–g–c–o–n–t–a–c–t–s–
+06 riterion leuk smiling -> –r–i–t–e–r–i–o–n–l–e–u–k–s–m–i–l–i–n–g–
+07 itzer ramas ribs -> –i–t–z–e–r–r–a–m–a–s–r–i–b–s–
+08 ultat soli sistema -> –u–l–t–a–t–s–o–l–i–s–i–s–t–e–m–a–
+09 orghe memor fran -> –o–r–g–h–e–m–e–m–o–r–f–r–a–n–
+10 oping officers migr -> –o–p–i–n–g–o–f–f–i–c–e–r–s–m–i–g–r–
+11 argento enceinte aleg -> –a–r–g–e–n–t–o–e–n–c–e–i–n–t–e–a–l–e–g–
+12 aktiv prennent refined -> –a–k–t–i–v–p–r–e–n–n–e–n–t–r–e–f–i–n–e–d–
+13 eft declar estrogen -> –e–f–t–d–e–c–l–a–r–e–s–t–r–o–g–e–n–
+14 riet promover fir -> –r–i–e–t–p–r–o–m–o–v–e–r–f–i–r–
+15 iep thriller veinte -> –i–e–p–t–h–r–i–l–l–e–r–v–e–i–n–t–e–
+16 auan ordonn retired -> –a–u–a–n–o–r–d–o–n–n–r–e–t–i–r–e–d–
+17 isy winked disgu -> –i–s–y–w–i–n–k–e–d–d–i–s–g–u–
+18 altete som ger -> –a–l–t–e–t–e–s–o–m–g–e–r–
+19 cannot kleine mile -> –c–a–n–n–o–t–k–l–e–i–n–e–m–i–l–e–
+20 plus reserva imag -> –p–l–u–s–r–e–s–e–r–v–a–i–m–a–g–
+21 astu terms moglie -> –a–s–t–u–t–e–r–m–s–m–o–g–l–i–e–
+22 aft ri bicy -> –a–f–t–r–i–b–i–c–y–
+23 their mais pitch -> –t–h–e–i–r–m–a–i–s–p–i–t–c–h–
+24 igneur grunn riguarda -> –i–g–n–e–u–r–g–r–u–n–n–r–i–g–u–a–r–d–a–
+25 ucat ausreich rutas -> –u–c–a–t–a–u–s–r–e–i–c–h–r–u–t–a–s–
+26 fecha unirse forgot -> –f–e–c–h–a–u–n–i–r–s–e–f–o–r–g–o–t–
+27 wagen sovint ega -> –w–a–g–e–n–s–o–v–i–n–t–e–g–a–
+28 istoire seeds duten -> –i–s–t–o–i–r–e–s–e–e–d–s–d–u–t–e–n–
+29 incl swings passe -> –i–n–c–l–s–w–i–n–g–s–p–a–s–s–e–
+30 acjach volo textures -> –a–c–j–a–c–h–v–o–l–o–t–e–x–t–u–r–e–s–
+31 charts amplic koal -> –c–h–a–r–t–s–a–m–p–l–i–c–k–o–a–l–
+32 uncate gli erfolgt -> –u–n–c–a–t–e–g–l–i–e–r–f–o–l–g–t–
+33 utc wasted beaux -> –u–t–c–w–a–s–t–e–d–b–e–a–u–x–
+34 heen erschien vast -> –h–e–e–n–e–r–s–c–h–i–e–n–v–a–s–t–
+35 direct kast femmes -> –d–i–r–e–c–t–k–a–s–t–f–e–m–m–e–s–
+36 bis empath male -> –b–i–s–e–m–p–a–t–h–m–a–l–e–
+37 ruit menyer illness -> –r–u–i–t–m–e–n–y–e–r–i–l–l–n–e–s–s–
+38 lichkeit fight foy -> –l–i–c–h–k–e–i–t–f–i–g–h–t–f–o–y–
+39 iglich note romane -> –i–g–l–i–c–h–n–o–t–e–r–o–m–a–n–e–
+40 chy prohib teki -> –c–h–y–p–r–o–h–i–b–t–e–k–i–
+41 iob intend blew -> –i–o–b–i–n–t–e–n–d–b–l–e–w–
+42 atoxyl filepath decide -> –a–t–o–x–y–l–f–i–l–e–p–a–t–h–d–e–c–i–d–e–
+43 inya cercle dedos -> –i–n–y–a–c–e–r–c–l–e–d–e–d–o–s–
+44 encial elim capable -> –e–n–c–i–a–l–e–l–i–m–c–a–p–a–b–l–e–
+45 obb appended ayudar -> –o–b–b–a–p–p–e–n–d–e–d–a–y–u–d–a–r–
+46 ida quinze accru -> –i–d–a–q–u–i–n–z–e–a–c–c–r–u–
+47 runde detuvo mer -> –r–u–n–d–e–d–e–t–u–v–o–m–e–r–
+48 chis vaga ferrovi -> –c–h–i–s–v–a–g–a–f–e–r–r–o–v–i–
+49 undef snakes rist -> –u–n–d–e–f–s–n–a–k–e–s–r–i–s–t–
+50 aning heavenly tested -> –a–n–i–n–g–h–e–a–v–e–n–l–y–t–e–s–t–e–d–
+51 acques runners totes -> –a–c–q–u–e–s–r–u–n–n–e–r–s–t–o–t–e–s–
+52 nell gegen assisted -> –n–e–l–l–g–e–g–e–n–a–s–s–i–s–t–e–d–
+53 dont quien fading -> –d–o–n–t–q–u–i–e–n–f–a–d–i–n–g–
+54 urk izol mussten -> –u–r–k–i–z–o–l–m–u–s–s–t–e–n–
+55 ocup soon guar -> –o–c–u–p–s–o–o–n–g–u–a–r–
+56 mer njegov in -> –m–e–r–n–j–e–g–o–v–i–n–
+57 rophic deriv ritmo -> –r–o–p–h–i–c–d–e–r–i–v–r–i–t–m–o–
+58 idad bigarren minore -> –i–d–a–d–b–i–g–a–r–r–e–n–m–i–n–o–r–e–
+59 placed vitamin klar -> –p–l–a–c–e–d–v–i–t–a–m–i–n–k–l–a–r–
+60 ppet spricht oc -> –p–p–e–t–s–p–r–i–c–h–t–o–c–
+61 ionale topl kend -> –i–o–n–a–l–e–t–o–p–l–k–e–n–d–
+62 ramer lanean alley -> –r–a–m–e–r–l–a–n–e–a–n–a–l–l–e–y–
+63 tyabr dure tears -> –t–y–a–b–r–d–u–r–e–t–e–a–r–s–
+64 udni hol zones -> –u–d–n–i–h–o–l–z–o–n–e–s–
+65 otherap erano lou -> –o–t–h–e–r–a–p–e–r–a–n–o–l–o–u–
+66 ubit gesche assum -> –u–b–i–t–g–e–s–c–h–e–a–s–s–u–m–
+67 ikom keer exhib -> –i–k–o–m–k–e–e–r–e–x–h–i–b–
+68 oints pastor wegen -> –o–i–n–t–s–p–a–s–t–o–r–w–e–g–e–n–
+69 rican realised wearing -> –r–i–c–a–n–r–e–a–l–i–s–e–d–w–e–a–r–i–n–g–
+70 ich avion removes -> –i–c–h–a–v–i–o–n–r–e–m–o–v–e–s–
+71 ounds times retornar -> –o–u–n–d–s–t–i–m–e–s–r–e–t–o–r–n–a–r–
+72 kenal careg acquires -> –k–e–n–a–l–c–a–r–e–g–a–c–q–u–i–r–e–s–
+73 loating that nau -> –l–o–a–t–i–n–g–t–h–a–t–n–a–u–
+74 isiin linger ocor -> –i–s–i–i–n–l–i–n–g–e–r–o–c–o–r–
+75 iaires aprove altos -> –i–a–i–r–e–s–a–p–r–o–v–e–a–l–t–o–s–
+76 products gost hacerlo -> –p–r–o–d–u–c–t–s–g–o–s–t–h–a–c–e–r–l–o–
+77 rane gg lutte -> –r–a–n–e–g–g–l–u–t–t–e–
+78 araan forcibly solve -> –a–r–a–a–n–f–o–r–c–i–b–l–y–s–o–l–v–e–
+79 soon giorni atteinte -> –s–o–o–n–g–i–o–r–n–i–a–t–t–e–i–n–t–e–
+80 volle novel injector -> –v–o–l–l–e–n–o–v–e–l–i–n–j–e–c–t–o–r–
+81 ten passages nazis -> –t–e–n–p–a–s–s–a–g–e–s–n–a–z–i–s–
+82 schaft variante analyzed -> –s–c–h–a–f–t–v–a–r–i–a–n–t–e–a–n–a–l–y–z–e–d–
+83 rag amenaza dismiss -> –r–a–g–a–m–e–n–a–z–a–d–i–s–m–i–s–s–
+84 akan fac size -> –a–k–a–n–f–a–c–s–i–z–e–
+85 vist heritage jewel -> –v–i–s–t–h–e–r–i–t–a–g–e–j–e–w–e–l–
+86 naval involunt asymmet -> –n–a–v–a–l–i–n–v–o–l–u–n–t–a–s–y–m–m–e–t–
+87 codes behind exige -> –c–o–d–e–s–b–e–h–i–n–d–e–x–i–g–e–
+88 olg choses lowers -> –o–l–g–c–h–o–s–e–s–l–o–w–e–r–s–
+89 entlich strlen ee -> –e–n–t–l–i–c–h–s–t–r–l–e–n–e–e–
+90 bbit fierc karbon -> –b–b–i–t–f–i–e–r–c–k–a–r–b–o–n–
+91 eling permite cromos -> –e–l–i–n–g–p–e–r–m–i–t–e–c–r–o–m–o–s–
+92 opause touk dosage -> –o–p–a–u–s–e–t–o–u–k–d–o–s–a–g–e–
+93 frontend internas voces -> –f–r–o–n–t–e–n–d–i–n–t–e–r–n–a–s–v–o–c–e–s–
+94 cite resolved memo -> –c–i–t–e–r–e–s–o–l–v–e–d–m–e–m–o–
+95 raten cla bruk -> –r–a–t–e–n–c–l–a–b–r–u–k–
+96 estar jedan lie -> –e–s–t–a–r–j–e–d–a–n–l–i–e–
+97 language arb confir -> –l–a–n–g–u–a–g–e–a–r–b–c–o–n–f–i–r–
+98 sson kepala hooked -> –s–s–o–n–k–e–p–a–l–a–h–o–o–k–e–d–
+99 intern cabin usan -> –i–n–t–e–r–n–c–a–b–i–n–u–s–a–n–

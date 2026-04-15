@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 ombres confl bounded
+01 aching punkt curled
+02 cked coaches hojas
+
+This is a sample output.
+00 ombres confl bounded -> –o–m–b–r–e–s–c–o–n–f–l–b–o–u–n–d–e–d–
+01 aching punkt curled -> –a–c–h–i–n–g–p–u–n–k–t–c–u–r–l–e–d–
+02 cked coaches hojas -> –c–k–e–d–c–o–a–c–h–e–s–h–o–j–a–s–
+
+This is your input.
+00 pren erwarb immun
+01 clusive at arrests
+02 erial perg kompet
+03 bral buen semblant
+04 heading niv neden
+05 irk ham vecchia
+06 emed seorang print
+07 ediation hundert kans
+08 id polype edition
+09 lasses mett paleont
+10 ilta cerr rh
+11 uhr mercado buffers
+12 ponder seals statunit
+13 ostoli omit pian
+14 isait classes pill
+15 room insult batz
+16 agam defeated cafe
+17 reated debout setelah
+18 ables diodes titulado
+19 dup redact psik
+20 prit energia roule
+21 avasti speak breaths
+22 lamide chape mmol
+23 iertas aberto clinic
+24 leden ter repente
+25 chrome natureza family
+26 atta bifur dieta
+27 heids pf interes
+28 oplasmic sortes mutually
+29 ayers trav ada
+30 zeichen desenvol mammary
+31 orges essas stomach
+32 ounty artwork leaves
+33 arai dead hade
+34 icki reorgan defects
+35 iction whispers dienen
+36 inyin travel morto
+37 iderte pozd proph
+38 icion hypert mush
+39 iliz iaitu freshman
+40 ropolit acquaint comprar
+41 progress emails recueil
+42 weisen latin kos
+43 viet wsp chemical
+44 azur cout aft
+45 uele tuition faction
+46 ciales patents lutego
+47 igure voi potreb
+48 tings acetyl euc
+49 ains trading arts
+50 issaient marble apret
+51 ansible animal agre
+52 andolo beet bulundu
+53 lenburg hud zaw
+54 angor emission eliminar
+55 patterns costs quoted
+56 skill backyard devoted
+57 ilon fakult porcine
+58 scher reson carriage
+59 anut fyr devol
+60 missible laquelle selecion
+61 dk fallu hampered
+62 udessa kn efek
+63 abl ord bemerkte
+64 encrypt suivent ingest
+65 ievo cut elements
+66 aff actuator honte
+67 ppel hypogly cuales
+68 fields kilku mystical
+69 ostas valor togg
+70 irts skal tentando
+71 loten endors kerajaan
+72 anche groep spared
+73 makers dissip elektron
+74 umed clergy sensibil
+75 ikz signed nye
+76 kampf esters arran
+77 axon tenia nulla
+78 ipher migrant kuts
+79 amse screen bepaalde
+80 insk avrei presses
+81 jski medieval lenta
+82 zenie turkey raise
+83 itudinal sticking lo
+84 umn withdraw annunci
+85 plug begun labios
+86 czas tale arti
+87 zee coord impl
+88 atore reprit ethnic
+89 wn inertia israel
+90 klass prefixes demands
+91 ttar ihn vintage
+92 ulio bub glor
+93 blic tarball belge
+94 lection barat wishes
+95 menu parfum artery
+96 ction medida sollen
+97 seits angled clin
+98 licht swo forsv
+99 aneously abus skipping
+[completion]
+00 pren erwarb immun -> –p–r–e–n–e–r–w–a–r–b–i–m–m–u–n–
+01 clusive at arrests -> –c–l–u–s–i–v–e–a–t–a–r–r–e–s–t–s–
+02 erial perg kompet -> –e–r–i–a–l–p–e–r–g–k–o–m–p–e–t–
+03 bral buen semblant -> –b–r–a–l–b–u–e–n–s–e–m–b–l–a–n–t–
+04 heading niv neden -> –h–e–a–d–i–n–g–n–i–v–n–e–d–e–n–
+05 irk ham vecchia -> –i–r–k–h–a–m–v–e–c–c–h–i–a–
+06 emed seorang print -> –e–m–e–d–s–e–o–r–a–n–g–p–r–i–n–t–
+07 ediation hundert kans -> –e–d–i–a–t–i–o–n–h–u–n–d–e–r–t–k–a–n–s–
+08 id polype edition -> –i–d–p–o–l–y–p–e–e–d–i–t–i–o–n–
+09 lasses mett paleont -> –l–a–s–s–e–s–m–e–t–t–p–a–l–e–o–n–t–
+10 ilta cerr rh -> –i–l–t–a–c–e–r–r–r–h–
+11 uhr mercado buffers -> –u–h–r–m–e–r–c–a–d–o–b–u–f–f–e–r–s–
+12 ponder seals statunit -> –p–o–n–d–e–r–s–e–a–l–s–s–t–a–t–u–n–i–t–
+13 ostoli omit pian -> –o–s–t–o–l–i–o–m–i–t–p–i–a–n–
+14 isait classes pill -> –i–s–a–i–t–c–l–a–s–s–e–s–p–i–l–l–
+15 room insult batz -> –r–o–o–m–i–n–s–u–l–t–b–a–t–z–
+16 agam defeated cafe -> –a–g–a–m–d–e–f–e–a–t–e–d–c–a–f–e–
+17 reated debout setelah -> –r–e–a–t–e–d–d–e–b–o–u–t–s–e–t–e–l–a–h–
+18 ables diodes titulado -> –a–b–l–e–s–d–i–o–d–e–s–t–i–t–u–l–a–d–o–
+19 dup redact psik -> –d–u–p–r–e–d–a–c–t–p–s–i–k–
+20 prit energia roule -> –p–r–i–t–e–n–e–r–g–i–a–r–o–u–l–e–
+21 avasti speak breaths -> –a–v–a–s–t–i–s–p–e–a–k–b–r–e–a–t–h–s–
+22 lamide chape mmol -> –l–a–m–i–d–e–c–h–a–p–e–m–m–o–l–
+23 iertas aberto clinic -> –i–e–r–t–a–s–a–b–e–r–t–o–c–l–i–n–i–c–
+24 leden ter repente -> –l–e–d–e–n–t–e–r–r–e–p–e–n–t–e–
+25 chrome natureza family -> –c–h–r–o–m–e–n–a–t–u–r–e–z–a–f–a–m–i–l–y–
+26 atta bifur dieta -> –a–t–t–a–b–i–f–u–r–d–i–e–t–a–
+27 heids pf interes -> –h–e–i–d–s–p–f–i–n–t–e–r–e–s–
+28 oplasmic sortes mutually -> –o–p–l–a–s–m–i–c–s–o–r–t–e–s–m–u–t–u–a–l–l–y–
+29 ayers trav ada -> –a–y–e–r–s–t–r–a–v–a–d–a–
+30 zeichen desenvol mammary -> –z–e–i–c–h–e–n–d–e–s–e–n–v–o–l–m–a–m–m–a–r–y–
+31 orges essas stomach -> –o–r–g–e–s–e–s–s–a–s–s–t–o–m–a–c–h–
+32 ounty artwork leaves -> –o–u–n–t–y–a–r–t–w–o–r–k–l–e–a–v–e–s–
+33 arai dead hade -> –a–r–a–i–d–e–a–d–h–a–d–e–
+34 icki reorgan defects -> –i–c–k–i–r–e–o–r–g–a–n–d–e–f–e–c–t–s–
+35 iction whispers dienen -> –i–c–t–i–o–n–w–h–i–s–p–e–r–s–d–i–e–n–e–n–
+36 inyin travel morto -> –i–n–y–i–n–t–r–a–v–e–l–m–o–r–t–o–
+37 iderte pozd proph -> –i–d–e–r–t–e–p–o–z–d–p–r–o–p–h–
+38 icion hypert mush -> –i–c–i–o–n–h–y–p–e–r–t–m–u–s–h–
+39 iliz iaitu freshman -> –i–l–i–z–i–a–i–t–u–f–r–e–s–h–m–a–n–
+40 ropolit acquaint comprar -> –r–o–p–o–l–i–t–a–c–q–u–a–i–n–t–c–o–m–p–r–a–r–
+41 progress emails recueil -> –p–r–o–g–r–e–s–s–e–m–a–i–l–s–r–e–c–u–e–i–l–
+42 weisen latin kos -> –w–e–i–s–e–n–l–a–t–i–n–k–o–s–
+43 viet wsp chemical -> –v–i–e–t–w–s–p–c–h–e–m–i–c–a–l–
+44 azur cout aft -> –a–z–u–r–c–o–u–t–a–f–t–
+45 uele tuition faction -> –u–e–l–e–t–u–i–t–i–o–n–f–a–c–t–i–o–n–
+46 ciales patents lutego -> –c–i–a–l–e–s–p–a–t–e–n–t–s–l–u–t–e–g–o–
+47 igure voi potreb -> –i–g–u–r–e–v–o–i–p–o–t–r–e–b–
+48 tings acetyl euc -> –t–i–n–g–s–a–c–e–t–y–l–e–u–c–
+49 ains trading arts -> –a–i–n–s–t–r–a–d–i–n–g–a–r–t–s–
+50 issaient marble apret -> –i–s–s–a–i–e–n–t–m–a–r–b–l–e–a–p–r–e–t–
+51 ansible animal agre -> –a–n–s–i–b–l–e–a–n–i–m–a–l–a–g–r–e–
+52 andolo beet bulundu -> –a–n–d–o–l–o–b–e–e–t–b–u–l–u–n–d–u–
+53 lenburg hud zaw -> –l–e–n–b–u–r–g–h–u–d–z–a–w–
+54 angor emission eliminar -> –a–n–g–o–r–e–m–i–s–s–i–o–n–e–l–i–m–i–n–a–r–
+55 patterns costs quoted -> –p–a–t–t–e–r–n–s–c–o–s–t–s–q–u–o–t–e–d–
+56 skill backyard devoted -> –s–k–i–l–l–b–a–c–k–y–a–r–d–d–e–v–o–t–e–d–
+57 ilon fakult porcine -> –i–l–o–n–f–a–k–u–l–t–p–o–r–c–i–n–e–
+58 scher reson carriage -> –s–c–h–e–r–r–e–s–o–n–c–a–r–r–i–a–g–e–
+59 anut fyr devol -> –a–n–u–t–f–y–r–d–e–v–o–l–
+60 missible laquelle selecion -> –m–i–s–s–i–b–l–e–l–a–q–u–e–l–l–e–s–e–l–e–c–i–o–n–
+61 dk fallu hampered -> –d–k–f–a–l–l–u–h–a–m–p–e–r–e–d–
+62 udessa kn efek -> –u–d–e–s–s–a–k–n–e–f–e–k–
+63 abl ord bemerkte -> –a–b–l–o–r–d–b–e–m–e–r–k–t–e–
+64 encrypt suivent ingest -> –e–n–c–r–y–p–t–s–u–i–v–e–n–t–i–n–g–e–s–t–
+65 ievo cut elements -> –i–e–v–o–c–u–t–e–l–e–m–e–n–t–s–
+66 aff actuator honte -> –a–f–f–a–c–t–u–a–t–o–r–h–o–n–t–e–
+67 ppel hypogly cuales -> –p–p–e–l–h–y–p–o–g–l–y–c–u–a–l–e–s–
+68 fields kilku mystical -> –f–i–e–l–d–s–k–i–l–k–u–m–y–s–t–i–c–a–l–
+69 ostas valor togg -> –o–s–t–a–s–v–a–l–o–r–t–o–g–g–
+70 irts skal tentando -> –i–r–t–s–s–k–a–l–t–e–n–t–a–n–d–o–
+71 loten endors kerajaan -> –l–o–t–e–n–e–n–d–o–r–s–k–e–r–a–j–a–a–n–
+72 anche groep spared -> –a–n–c–h–e–g–r–o–e–p–s–p–a–r–e–d–
+73 makers dissip elektron -> –m–a–k–e–r–s–d–i–s–s–i–p–e–l–e–k–t–r–o–n–
+74 umed clergy sensibil -> –u–m–e–d–c–l–e–r–g–y–s–e–n–s–i–b–i–l–
+75 ikz signed nye -> –i–k–z–s–i–g–n–e–d–n–y–e–
+76 kampf esters arran -> –k–a–m–p–f–e–s–t–e–r–s–a–r–r–a–n–
+77 axon tenia nulla -> –a–x–o–n–t–e–n–i–a–n–u–l–l–a–
+78 ipher migrant kuts -> –i–p–h–e–r–m–i–g–r–a–n–t–k–u–t–s–
+79 amse screen bepaalde -> –a–m–s–e–s–c–r–e–e–n–b–e–p–a–a–l–d–e–
+80 insk avrei presses -> –i–n–s–k–a–v–r–e–i–p–r–e–s–s–e–s–
+81 jski medieval lenta -> –j–s–k–i–m–e–d–i–e–v–a–l–l–e–n–t–a–
+82 zenie turkey raise -> –z–e–n–i–e–t–u–r–k–e–y–r–a–i–s–e–
+83 itudinal sticking lo -> –i–t–u–d–i–n–a–l–s–t–i–c–k–i–n–g–l–o–
+84 umn withdraw annunci -> –u–m–n–w–i–t–h–d–r–a–w–a–n–n–u–n–c–i–
+85 plug begun labios -> –p–l–u–g–b–e–g–u–n–l–a–b–i–o–s–
+86 czas tale arti -> –c–z–a–s–t–a–l–e–a–r–t–i–
+87 zee coord impl -> –z–e–e–c–o–o–r–d–i–m–p–l–
+88 atore reprit ethnic -> –a–t–o–r–e–r–e–p–r–i–t–e–t–h–n–i–c–
+89 wn inertia israel -> –w–n–i–n–e–r–t–i–a–i–s–r–a–e–l–
+90 klass prefixes demands -> –k–l–a–s–s–p–r–e–f–i–x–e–s–d–e–m–a–n–d–s–
+91 ttar ihn vintage -> –t–t–a–r–i–h–n–v–i–n–t–a–g–e–
+92 ulio bub glor -> –u–l–i–o–b–u–b–g–l–o–r–
+93 blic tarball belge -> –b–l–i–c–t–a–r–b–a–l–l–b–e–l–g–e–
+94 lection barat wishes -> –l–e–c–t–i–o–n–b–a–r–a–t–w–i–s–h–e–s–
+95 menu parfum artery -> –m–e–n–u–p–a–r–f–u–m–a–r–t–e–r–y–
+96 ction medida sollen -> –c–t–i–o–n–m–e–d–i–d–a–s–o–l–l–e–n–
+97 seits angled clin -> –s–e–i–t–s–a–n–g–l–e–d–c–l–i–n–
+98 licht swo forsv -> –l–i–c–h–t–s–w–o–f–o–r–s–v–
+99 aneously abus skipping -> –a–n–e–o–u–s–l–y–a–b–u–s–s–k–i–p–p–i–n–g–

@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 recogn unh utilizan
+01 kking tapa phras
+02 wright njegove salva
+
+This is a sample output.
+00 recogn unh utilizan -> –r–e–c–o–g–n–u–n–h–u–t–i–l–i–z–a–n–
+01 kking tapa phras -> –k–k–i–n–g–t–a–p–a–p–h–r–a–s–
+02 wright njegove salva -> –w–r–i–g–h–t–n–j–e–g–o–v–e–s–a–l–v–a–
+
+This is your input.
+00 geois tilt believed
+01 ippers continu os
+02 dele villages papier
+03 gera abans valmist
+04 walls umge crow
+05 enga mu siis
+06 amboo shouldn enf
+07 cils casado wo
+08 irot local insert
+09 udent reacts ellas
+10 azzi lattice somm
+11 imismo pied learners
+12 onc preview kdy
+13 arela wojsk cherche
+14 agrada once ibn
+15 orin suma engra
+16 malloc dangers spiritu
+17 neg volunte fakt
+18 ieszcz acces verlief
+19 urring unpre pesca
+20 agoza ard pratique
+21 zinha pad cerebro
+22 ographs mamm blanches
+23 aved legion tahun
+24 uture vive confirm
+25 isht ramp vm
+26 tenham sentiu posts
+27 ccaneers improvis rev
+28 pragma control sebagai
+29 iginal parf incluye
+30 rutt arhitekt dan
+31 otypes subsid possess
+32 osarcoma morning nett
+33 grat sinc ismert
+34 iembre hurting concer
+35 ahoma fact rie
+36 yj books memorial
+37 indsay iulie lobby
+38 erb pouvons strana
+39 dong visant stems
+40 itting toxins genel
+41 dra inform neveu
+42 zero karier lifts
+43 nton reclut delta
+44 who lleno infer
+45 lfloor shipped herd
+46 puter conveyor potenza
+47 ral prit kandid
+48 lega sorted kcal
+49 ilient damages preci
+50 tained nombres xog
+51 undial jquery retras
+52 trainer bourg jelent
+53 ieniem gaining asesin
+54 raviolet eo urma
+55 exists teorie prova
+56 heur metab tiles
+57 accept arrang slider
+58 istoj abr mom
+59 idd sword timber
+60 mias va flown
+61 requ status alten
+62 ulence fini drained
+63 tti nyom freshly
+64 adoras throw frecu
+65 ozyg balk some
+66 much arr reaching
+67 rews affirmed dengue
+68 urilor luce wherein
+69 iende visa outdoor
+70 ilit aph ancienne
+71 sun kinases strugg
+72 dagger lengu barre
+73 ange einigen created
+74 ilaire szerint bamb
+75 isel oben pul
+76 lerle troubled allen
+77 gif flat fogl
+78 igraphy proprio tangible
+79 ikten recibe multipl
+80 angunan erlang bones
+81 dessen cesar agency
+82 phabet democr np
+83 bor anderes sudo
+84 ox unir church
+85 idiendo drone muss
+86 educ few consegu
+87 boa gospel chromos
+88 bara antih giovani
+89 aranja alleged sockets
+90 leitung maize francesa
+91 ungi bets katon
+92 function marketed disagre
+93 grant singers einges
+94 epsilon jugar atypical
+95 eka bye curative
+96 essing vermo komis
+97 playlist mnogo gradual
+98 apping aa folyam
+99 inher adresse asum
+[completion]
+00 geois tilt believed -> –g–e–o–i–s–t–i–l–t–b–e–l–i–e–v–e–d–
+01 ippers continu os -> –i–p–p–e–r–s–c–o–n–t–i–n–u–o–s–
+02 dele villages papier -> –d–e–l–e–v–i–l–l–a–g–e–s–p–a–p–i–e–r–
+03 gera abans valmist -> –g–e–r–a–a–b–a–n–s–v–a–l–m–i–s–t–
+04 walls umge crow -> –w–a–l–l–s–u–m–g–e–c–r–o–w–
+05 enga mu siis -> –e–n–g–a–m–u–s–i–i–s–
+06 amboo shouldn enf -> –a–m–b–o–o–s–h–o–u–l–d–n–e–n–f–
+07 cils casado wo -> –c–i–l–s–c–a–s–a–d–o–w–o–
+08 irot local insert -> –i–r–o–t–l–o–c–a–l–i–n–s–e–r–t–
+09 udent reacts ellas -> –u–d–e–n–t–r–e–a–c–t–s–e–l–l–a–s–
+10 azzi lattice somm -> –a–z–z–i–l–a–t–t–i–c–e–s–o–m–m–
+11 imismo pied learners -> –i–m–i–s–m–o–p–i–e–d–l–e–a–r–n–e–r–s–
+12 onc preview kdy -> –o–n–c–p–r–e–v–i–e–w–k–d–y–
+13 arela wojsk cherche -> –a–r–e–l–a–w–o–j–s–k–c–h–e–r–c–h–e–
+14 agrada once ibn -> –a–g–r–a–d–a–o–n–c–e–i–b–n–
+15 orin suma engra -> –o–r–i–n–s–u–m–a–e–n–g–r–a–
+16 malloc dangers spiritu -> –m–a–l–l–o–c–d–a–n–g–e–r–s–s–p–i–r–i–t–u–
+17 neg volunte fakt -> –n–e–g–v–o–l–u–n–t–e–f–a–k–t–
+18 ieszcz acces verlief -> –i–e–s–z–c–z–a–c–c–e–s–v–e–r–l–i–e–f–
+19 urring unpre pesca -> –u–r–r–i–n–g–u–n–p–r–e–p–e–s–c–a–
+20 agoza ard pratique -> –a–g–o–z–a–a–r–d–p–r–a–t–i–q–u–e–
+21 zinha pad cerebro -> –z–i–n–h–a–p–a–d–c–e–r–e–b–r–o–
+22 ographs mamm blanches -> –o–g–r–a–p–h–s–m–a–m–m–b–l–a–n–c–h–e–s–
+23 aved legion tahun -> –a–v–e–d–l–e–g–i–o–n–t–a–h–u–n–
+24 uture vive confirm -> –u–t–u–r–e–v–i–v–e–c–o–n–f–i–r–m–
+25 isht ramp vm -> –i–s–h–t–r–a–m–p–v–m–
+26 tenham sentiu posts -> –t–e–n–h–a–m–s–e–n–t–i–u–p–o–s–t–s–
+27 ccaneers improvis rev -> –c–c–a–n–e–e–r–s–i–m–p–r–o–v–i–s–r–e–v–
+28 pragma control sebagai -> –p–r–a–g–m–a–c–o–n–t–r–o–l–s–e–b–a–g–a–i–
+29 iginal parf incluye -> –i–g–i–n–a–l–p–a–r–f–i–n–c–l–u–y–e–
+30 rutt arhitekt dan -> –r–u–t–t–a–r–h–i–t–e–k–t–d–a–n–
+31 otypes subsid possess -> –o–t–y–p–e–s–s–u–b–s–i–d–p–o–s–s–e–s–s–
+32 osarcoma morning nett -> –o–s–a–r–c–o–m–a–m–o–r–n–i–n–g–n–e–t–t–
+33 grat sinc ismert -> –g–r–a–t–s–i–n–c–i–s–m–e–r–t–
+34 iembre hurting concer -> –i–e–m–b–r–e–h–u–r–t–i–n–g–c–o–n–c–e–r–
+35 ahoma fact rie -> –a–h–o–m–a–f–a–c–t–r–i–e–
+36 yj books memorial -> –y–j–b–o–o–k–s–m–e–m–o–r–i–a–l–
+37 indsay iulie lobby -> –i–n–d–s–a–y–i–u–l–i–e–l–o–b–b–y–
+38 erb pouvons strana -> –e–r–b–p–o–u–v–o–n–s–s–t–r–a–n–a–
+39 dong visant stems -> –d–o–n–g–v–i–s–a–n–t–s–t–e–m–s–
+40 itting toxins genel -> –i–t–t–i–n–g–t–o–x–i–n–s–g–e–n–e–l–
+41 dra inform neveu -> –d–r–a–i–n–f–o–r–m–n–e–v–e–u–
+42 zero karier lifts -> –z–e–r–o–k–a–r–i–e–r–l–i–f–t–s–
+43 nton reclut delta -> –n–t–o–n–r–e–c–l–u–t–d–e–l–t–a–
+44 who lleno infer -> –w–h–o–l–l–e–n–o–i–n–f–e–r–
+45 lfloor shipped herd -> –l–f–l–o–o–r–s–h–i–p–p–e–d–h–e–r–d–
+46 puter conveyor potenza -> –p–u–t–e–r–c–o–n–v–e–y–o–r–p–o–t–e–n–z–a–
+47 ral prit kandid -> –r–a–l–p–r–i–t–k–a–n–d–i–d–
+48 lega sorted kcal -> –l–e–g–a–s–o–r–t–e–d–k–c–a–l–
+49 ilient damages preci -> –i–l–i–e–n–t–d–a–m–a–g–e–s–p–r–e–c–i–
+50 tained nombres xog -> –t–a–i–n–e–d–n–o–m–b–r–e–s–x–o–g–
+51 undial jquery retras -> –u–n–d–i–a–l–j–q–u–e–r–y–r–e–t–r–a–s–
+52 trainer bourg jelent -> –t–r–a–i–n–e–r–b–o–u–r–g–j–e–l–e–n–t–
+53 ieniem gaining asesin -> –i–e–n–i–e–m–g–a–i–n–i–n–g–a–s–e–s–i–n–
+54 raviolet eo urma -> –r–a–v–i–o–l–e–t–e–o–u–r–m–a–
+55 exists teorie prova -> –e–x–i–s–t–s–t–e–o–r–i–e–p–r–o–v–a–
+56 heur metab tiles -> –h–e–u–r–m–e–t–a–b–t–i–l–e–s–
+57 accept arrang slider -> –a–c–c–e–p–t–a–r–r–a–n–g–s–l–i–d–e–r–
+58 istoj abr mom -> –i–s–t–o–j–a–b–r–m–o–m–
+59 idd sword timber -> –i–d–d–s–w–o–r–d–t–i–m–b–e–r–
+60 mias va flown -> –m–i–a–s–v–a–f–l–o–w–n–
+61 requ status alten -> –r–e–q–u–s–t–a–t–u–s–a–l–t–e–n–
+62 ulence fini drained -> –u–l–e–n–c–e–f–i–n–i–d–r–a–i–n–e–d–
+63 tti nyom freshly -> –t–t–i–n–y–o–m–f–r–e–s–h–l–y–
+64 adoras throw frecu -> –a–d–o–r–a–s–t–h–r–o–w–f–r–e–c–u–
+65 ozyg balk some -> –o–z–y–g–b–a–l–k–s–o–m–e–
+66 much arr reaching -> –m–u–c–h–a–r–r–r–e–a–c–h–i–n–g–
+67 rews affirmed dengue -> –r–e–w–s–a–f–f–i–r–m–e–d–d–e–n–g–u–e–
+68 urilor luce wherein -> –u–r–i–l–o–r–l–u–c–e–w–h–e–r–e–i–n–
+69 iende visa outdoor -> –i–e–n–d–e–v–i–s–a–o–u–t–d–o–o–r–
+70 ilit aph ancienne -> –i–l–i–t–a–p–h–a–n–c–i–e–n–n–e–
+71 sun kinases strugg -> –s–u–n–k–i–n–a–s–e–s–s–t–r–u–g–g–
+72 dagger lengu barre -> –d–a–g–g–e–r–l–e–n–g–u–b–a–r–r–e–
+73 ange einigen created -> –a–n–g–e–e–i–n–i–g–e–n–c–r–e–a–t–e–d–
+74 ilaire szerint bamb -> –i–l–a–i–r–e–s–z–e–r–i–n–t–b–a–m–b–
+75 isel oben pul -> –i–s–e–l–o–b–e–n–p–u–l–
+76 lerle troubled allen -> –l–e–r–l–e–t–r–o–u–b–l–e–d–a–l–l–e–n–
+77 gif flat fogl -> –g–i–f–f–l–a–t–f–o–g–l–
+78 igraphy proprio tangible -> –i–g–r–a–p–h–y–p–r–o–p–r–i–o–t–a–n–g–i–b–l–e–
+79 ikten recibe multipl -> –i–k–t–e–n–r–e–c–i–b–e–m–u–l–t–i–p–l–
+80 angunan erlang bones -> –a–n–g–u–n–a–n–e–r–l–a–n–g–b–o–n–e–s–
+81 dessen cesar agency -> –d–e–s–s–e–n–c–e–s–a–r–a–g–e–n–c–y–
+82 phabet democr np -> –p–h–a–b–e–t–d–e–m–o–c–r–n–p–
+83 bor anderes sudo -> –b–o–r–a–n–d–e–r–e–s–s–u–d–o–
+84 ox unir church -> –o–x–u–n–i–r–c–h–u–r–c–h–
+85 idiendo drone muss -> –i–d–i–e–n–d–o–d–r–o–n–e–m–u–s–s–
+86 educ few consegu -> –e–d–u–c–f–e–w–c–o–n–s–e–g–u–
+87 boa gospel chromos -> –b–o–a–g–o–s–p–e–l–c–h–r–o–m–o–s–
+88 bara antih giovani -> –b–a–r–a–a–n–t–i–h–g–i–o–v–a–n–i–
+89 aranja alleged sockets -> –a–r–a–n–j–a–a–l–l–e–g–e–d–s–o–c–k–e–t–s–
+90 leitung maize francesa -> –l–e–i–t–u–n–g–m–a–i–z–e–f–r–a–n–c–e–s–a–
+91 ungi bets katon -> –u–n–g–i–b–e–t–s–k–a–t–o–n–
+92 function marketed disagre -> –f–u–n–c–t–i–o–n–m–a–r–k–e–t–e–d–d–i–s–a–g–r–e–
+93 grant singers einges -> –g–r–a–n–t–s–i–n–g–e–r–s–e–i–n–g–e–s–
+94 epsilon jugar atypical -> –e–p–s–i–l–o–n–j–u–g–a–r–a–t–y–p–i–c–a–l–
+95 eka bye curative -> –e–k–a–b–y–e–c–u–r–a–t–i–v–e–
+96 essing vermo komis -> –e–s–s–i–n–g–v–e–r–m–o–k–o–m–i–s–
+97 playlist mnogo gradual -> –p–l–a–y–l–i–s–t–m–n–o–g–o–g–r–a–d–u–a–l–
+98 apping aa folyam -> –a–p–p–i–n–g–a–a–f–o–l–y–a–m–
+99 inher adresse asum -> –i–n–h–e–r–a–d–r–e–s–s–e–a–s–u–m–

@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 nur paleont oxidized
+01 isme dele mal
+02 dam thirst faux
+
+This is a sample output.
+00 nur paleont oxidized -> –n–u–r–p–a–l–e–o–n–t–o–x–i–d–i–z–e–d–
+01 isme dele mal -> –i–s–m–e–d–e–l–e–m–a–l–
+02 dam thirst faux -> –d–a–m–t–h–i–r–s–t–f–a–u–x–
+
+This is your input.
+00 gency acela coded
+01 illas stare razv
+02 ockey respects helt
+03 ol dend jat
+04 iets fish decoding
+05 eds redes passagem
+06 wezig giov inherent
+07 utto lite ill
+08 protocol bairro misuse
+09 mot brig porter
+10 ptive literacy innymi
+11 gre coi ortodox
+12 ois advant turret
+13 ios burada soldado
+14 tiles indiv cello
+15 wehr wet partido
+16 cesis gar stall
+17 cri loaded ini
+18 iciais xi supposed
+19 lical skor carbox
+20 ford oft remove
+21 eller illeg uuid
+22 aid mesa tasa
+23 itive vex syl
+24 ysql luchar wearable
+25 ieke ludzi declined
+26 ount projek imagem
+27 elem njeg surely
+28 inations poet finales
+29 cedes corporal ser
+30 statt ku machine
+31 achable thereto artiste
+32 ebol dul shedding
+33 hed roster mixes
+34 clerc reside alakult
+35 asyon didnt umfasst
+36 hra isol bubble
+37 rn dios prueba
+38 acija helix montagne
+39 owego monument sendiri
+40 inkel wieku ryth
+41 ikistan rule mei
+42 amba adieraz grau
+43 chnitten wildlife pedagog
+44 uze precis usadas
+45 ensed borough bridges
+46 sheet kannst divs
+47 znych chapelle salad
+48 prote mating terras
+49 ieli episodio fabulous
+50 imo molar adapted
+51 erner renvers anthem
+52 uelo alli facebook
+53 yo oficinas hjem
+54 ng deprived transluc
+55 gebou breasts opponent
+56 kon case cries
+57 geq atribut click
+58 ogon baie dri
+59 ptes bleus hw
+60 azard aplicar etilgan
+61 ipment back doctr
+62 selector jednom minh
+63 ataset projets monomers
+64 nection dinosa serra
+65 leyball bisk hong
+66 req joka kiv
+67 asiya launches chal
+68 spe clay aff
+69 analyse rode steer
+70 rainer vic tracer
+71 omorph superf trail
+72 exp velik darse
+73 schen vre deficit
+74 abell wschod navbar
+75 rowning deficits ordin
+76 eday quatro recor
+77 ynia meu figuring
+78 wikk seves natural
+79 mete zab egy
+80 volt grab trails
+81 zos datum investig
+82 orters pisto ori
+83 adzie unjust pv
+84 amate odp broker
+85 auern alap zac
+86 ate adquirir sorella
+87 jar semasa feat
+88 abetic dut ens
+89 ark burner alpine
+90 ningar remain mill
+91 reck hostil efflux
+92 erdi width manteau
+93 widget bomb noirs
+94 iras incred ejec
+95 abc dedicada rezultat
+96 agon caixa feels
+97 kens pob truy
+98 odnic yoki monta
+99 arcoma refresh agu
+[completion]
+00 gency acela coded -> –g–e–n–c–y–a–c–e–l–a–c–o–d–e–d–
+01 illas stare razv -> –i–l–l–a–s–s–t–a–r–e–r–a–z–v–
+02 ockey respects helt -> –o–c–k–e–y–r–e–s–p–e–c–t–s–h–e–l–t–
+03 ol dend jat -> –o–l–d–e–n–d–j–a–t–
+04 iets fish decoding -> –i–e–t–s–f–i–s–h–d–e–c–o–d–i–n–g–
+05 eds redes passagem -> –e–d–s–r–e–d–e–s–p–a–s–s–a–g–e–m–
+06 wezig giov inherent -> –w–e–z–i–g–g–i–o–v–i–n–h–e–r–e–n–t–
+07 utto lite ill -> –u–t–t–o–l–i–t–e–i–l–l–
+08 protocol bairro misuse -> –p–r–o–t–o–c–o–l–b–a–i–r–r–o–m–i–s–u–s–e–
+09 mot brig porter -> –m–o–t–b–r–i–g–p–o–r–t–e–r–
+10 ptive literacy innymi -> –p–t–i–v–e–l–i–t–e–r–a–c–y–i–n–n–y–m–i–
+11 gre coi ortodox -> –g–r–e–c–o–i–o–r–t–o–d–o–x–
+12 ois advant turret -> –o–i–s–a–d–v–a–n–t–t–u–r–r–e–t–
+13 ios burada soldado -> –i–o–s–b–u–r–a–d–a–s–o–l–d–a–d–o–
+14 tiles indiv cello -> –t–i–l–e–s–i–n–d–i–v–c–e–l–l–o–
+15 wehr wet partido -> –w–e–h–r–w–e–t–p–a–r–t–i–d–o–
+16 cesis gar stall -> –c–e–s–i–s–g–a–r–s–t–a–l–l–
+17 cri loaded ini -> –c–r–i–l–o–a–d–e–d–i–n–i–
+18 iciais xi supposed -> –i–c–i–a–i–s–x–i–s–u–p–p–o–s–e–d–
+19 lical skor carbox -> –l–i–c–a–l–s–k–o–r–c–a–r–b–o–x–
+20 ford oft remove -> –f–o–r–d–o–f–t–r–e–m–o–v–e–
+21 eller illeg uuid -> –e–l–l–e–r–i–l–l–e–g–u–u–i–d–
+22 aid mesa tasa -> –a–i–d–m–e–s–a–t–a–s–a–
+23 itive vex syl -> –i–t–i–v–e–v–e–x–s–y–l–
+24 ysql luchar wearable -> –y–s–q–l–l–u–c–h–a–r–w–e–a–r–a–b–l–e–
+25 ieke ludzi declined -> –i–e–k–e–l–u–d–z–i–d–e–c–l–i–n–e–d–
+26 ount projek imagem -> –o–u–n–t–p–r–o–j–e–k–i–m–a–g–e–m–
+27 elem njeg surely -> –e–l–e–m–n–j–e–g–s–u–r–e–l–y–
+28 inations poet finales -> –i–n–a–t–i–o–n–s–p–o–e–t–f–i–n–a–l–e–s–
+29 cedes corporal ser -> –c–e–d–e–s–c–o–r–p–o–r–a–l–s–e–r–
+30 statt ku machine -> –s–t–a–t–t–k–u–m–a–c–h–i–n–e–
+31 achable thereto artiste -> –a–c–h–a–b–l–e–t–h–e–r–e–t–o–a–r–t–i–s–t–e–
+32 ebol dul shedding -> –e–b–o–l–d–u–l–s–h–e–d–d–i–n–g–
+33 hed roster mixes -> –h–e–d–r–o–s–t–e–r–m–i–x–e–s–
+34 clerc reside alakult -> –c–l–e–r–c–r–e–s–i–d–e–a–l–a–k–u–l–t–
+35 asyon didnt umfasst -> –a–s–y–o–n–d–i–d–n–t–u–m–f–a–s–s–t–
+36 hra isol bubble -> –h–r–a–i–s–o–l–b–u–b–b–l–e–
+37 rn dios prueba -> –r–n–d–i–o–s–p–r–u–e–b–a–
+38 acija helix montagne -> –a–c–i–j–a–h–e–l–i–x–m–o–n–t–a–g–n–e–
+39 owego monument sendiri -> –o–w–e–g–o–m–o–n–u–m–e–n–t–s–e–n–d–i–r–i–
+40 inkel wieku ryth -> –i–n–k–e–l–w–i–e–k–u–r–y–t–h–
+41 ikistan rule mei -> –i–k–i–s–t–a–n–r–u–l–e–m–e–i–
+42 amba adieraz grau -> –a–m–b–a–a–d–i–e–r–a–z–g–r–a–u–
+43 chnitten wildlife pedagog -> –c–h–n–i–t–t–e–n–w–i–l–d–l–i–f–e–p–e–d–a–g–o–g–
+44 uze precis usadas -> –u–z–e–p–r–e–c–i–s–u–s–a–d–a–s–
+45 ensed borough bridges -> –e–n–s–e–d–b–o–r–o–u–g–h–b–r–i–d–g–e–s–
+46 sheet kannst divs -> –s–h–e–e–t–k–a–n–n–s–t–d–i–v–s–
+47 znych chapelle salad -> –z–n–y–c–h–c–h–a–p–e–l–l–e–s–a–l–a–d–
+48 prote mating terras -> –p–r–o–t–e–m–a–t–i–n–g–t–e–r–r–a–s–
+49 ieli episodio fabulous -> –i–e–l–i–e–p–i–s–o–d–i–o–f–a–b–u–l–o–u–s–
+50 imo molar adapted -> –i–m–o–m–o–l–a–r–a–d–a–p–t–e–d–
+51 erner renvers anthem -> –e–r–n–e–r–r–e–n–v–e–r–s–a–n–t–h–e–m–
+52 uelo alli facebook -> –u–e–l–o–a–l–l–i–f–a–c–e–b–o–o–k–
+53 yo oficinas hjem -> –y–o–o–f–i–c–i–n–a–s–h–j–e–m–
+54 ng deprived transluc -> –n–g–d–e–p–r–i–v–e–d–t–r–a–n–s–l–u–c–
+55 gebou breasts opponent -> –g–e–b–o–u–b–r–e–a–s–t–s–o–p–p–o–n–e–n–t–
+56 kon case cries -> –k–o–n–c–a–s–e–c–r–i–e–s–
+57 geq atribut click -> –g–e–q–a–t–r–i–b–u–t–c–l–i–c–k–
+58 ogon baie dri -> –o–g–o–n–b–a–i–e–d–r–i–
+59 ptes bleus hw -> –p–t–e–s–b–l–e–u–s–h–w–
+60 azard aplicar etilgan -> –a–z–a–r–d–a–p–l–i–c–a–r–e–t–i–l–g–a–n–
+61 ipment back doctr -> –i–p–m–e–n–t–b–a–c–k–d–o–c–t–r–
+62 selector jednom minh -> –s–e–l–e–c–t–o–r–j–e–d–n–o–m–m–i–n–h–
+63 ataset projets monomers -> –a–t–a–s–e–t–p–r–o–j–e–t–s–m–o–n–o–m–e–r–s–
+64 nection dinosa serra -> –n–e–c–t–i–o–n–d–i–n–o–s–a–s–e–r–r–a–
+65 leyball bisk hong -> –l–e–y–b–a–l–l–b–i–s–k–h–o–n–g–
+66 req joka kiv -> –r–e–q–j–o–k–a–k–i–v–
+67 asiya launches chal -> –a–s–i–y–a–l–a–u–n–c–h–e–s–c–h–a–l–
+68 spe clay aff -> –s–p–e–c–l–a–y–a–f–f–
+69 analyse rode steer -> –a–n–a–l–y–s–e–r–o–d–e–s–t–e–e–r–
+70 rainer vic tracer -> –r–a–i–n–e–r–v–i–c–t–r–a–c–e–r–
+71 omorph superf trail -> –o–m–o–r–p–h–s–u–p–e–r–f–t–r–a–i–l–
+72 exp velik darse -> –e–x–p–v–e–l–i–k–d–a–r–s–e–
+73 schen vre deficit -> –s–c–h–e–n–v–r–e–d–e–f–i–c–i–t–
+74 abell wschod navbar -> –a–b–e–l–l–w–s–c–h–o–d–n–a–v–b–a–r–
+75 rowning deficits ordin -> –r–o–w–n–i–n–g–d–e–f–i–c–i–t–s–o–r–d–i–n–
+76 eday quatro recor -> –e–d–a–y–q–u–a–t–r–o–r–e–c–o–r–
+77 ynia meu figuring -> –y–n–i–a–m–e–u–f–i–g–u–r–i–n–g–
+78 wikk seves natural -> –w–i–k–k–s–e–v–e–s–n–a–t–u–r–a–l–
+79 mete zab egy -> –m–e–t–e–z–a–b–e–g–y–
+80 volt grab trails -> –v–o–l–t–g–r–a–b–t–r–a–i–l–s–
+81 zos datum investig -> –z–o–s–d–a–t–u–m–i–n–v–e–s–t–i–g–
+82 orters pisto ori -> –o–r–t–e–r–s–p–i–s–t–o–o–r–i–
+83 adzie unjust pv -> –a–d–z–i–e–u–n–j–u–s–t–p–v–
+84 amate odp broker -> –a–m–a–t–e–o–d–p–b–r–o–k–e–r–
+85 auern alap zac -> –a–u–e–r–n–a–l–a–p–z–a–c–
+86 ate adquirir sorella -> –a–t–e–a–d–q–u–i–r–i–r–s–o–r–e–l–l–a–
+87 jar semasa feat -> –j–a–r–s–e–m–a–s–a–f–e–a–t–
+88 abetic dut ens -> –a–b–e–t–i–c–d–u–t–e–n–s–
+89 ark burner alpine -> –a–r–k–b–u–r–n–e–r–a–l–p–i–n–e–
+90 ningar remain mill -> –n–i–n–g–a–r–r–e–m–a–i–n–m–i–l–l–
+91 reck hostil efflux -> –r–e–c–k–h–o–s–t–i–l–e–f–f–l–u–x–
+92 erdi width manteau -> –e–r–d–i–w–i–d–t–h–m–a–n–t–e–a–u–
+93 widget bomb noirs -> –w–i–d–g–e–t–b–o–m–b–n–o–i–r–s–
+94 iras incred ejec -> –i–r–a–s–i–n–c–r–e–d–e–j–e–c–
+95 abc dedicada rezultat -> –a–b–c–d–e–d–i–c–a–d–a–r–e–z–u–l–t–a–t–
+96 agon caixa feels -> –a–g–o–n–c–a–i–x–a–f–e–e–l–s–
+97 kens pob truy -> –k–e–n–s–p–o–b–t–r–u–y–
+98 odnic yoki monta -> –o–d–n–i–c–y–o–k–i–m–o–n–t–a–
+99 arcoma refresh agu -> –a–r–c–o–m–a–r–e–f–r–e–s–h–a–g–u–

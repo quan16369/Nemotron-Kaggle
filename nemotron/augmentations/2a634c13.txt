@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 arp ancora palab
+01 ilent viaj topology
+02 amendu genus dost
+
+This is a sample output.
+00 arp ancora palab -> –a–r–p–a–n–c–o–r–a–p–a–l–a–b–
+01 ilent viaj topology -> –i–l–e–n–t–v–i–a–j–t–o–p–o–l–o–g–y–
+02 amendu genus dost -> –a–m–e–n–d–u–g–e–n–u–s–d–o–s–t–
+
+This is your input.
+00 estas toy ciutat
+01 zonder height rockets
+02 ibor songs albumet
+03 anat scarc picked
+04 aktor converge entrada
+05 iotic tiger gars
+06 irr siste enviados
+07 volta hust escena
+08 ao olt suave
+09 jih aunt oblik
+10 hev connects lysis
+11 anaan journaux openly
+12 nect conspir sekarang
+13 eren buck dirige
+14 ruguay muertos till
+15 fassung directa disant
+16 olk crust bul
+17 urg en eingel
+18 iskan computed formando
+19 anon obv analyzer
+20 inhard interp bronz
+21 boarding aquesta bonheur
+22 forms vict morceau
+23 van annonce chuy
+24 gd anta gleicher
+25 ojen guid consag
+26 olulu hauteur inmedi
+27 onclick esiint glioma
+28 mam otrzym tors
+29 ouk efect navig
+30 ioen pharm chaos
+31 mlin circle using
+32 reform signup agro
+33 mak inden trist
+34 uages siker cili
+35 iscal sana maken
+36 ivio screw direitos
+37 olbar aortic cycle
+38 riched realized spesso
+39 chnik idade sourcils
+40 apeutic occasion boute
+41 oprote mohou metrics
+42 reef foil cite
+43 usun bug deemed
+44 za discret otev
+45 nova visto asos
+46 checkout obese wahr
+47 cot fossil courses
+48 enderer souterra nowe
+49 big debris souffle
+50 widet lactic casos
+51 elbe sculptor insan
+52 binom scan naz
+53 vir newest rejet
+54 onia fatt retir
+55 species benefici tubular
+56 printf inwoners symptom
+57 hetamine migliori forear
+58 hemal pressing progres
+59 riff visually juillet
+60 conf fece sekolah
+61 jpg fort ismer
+62 lara tiefer lust
+63 atis demeure sama
+64 ologico hrs bram
+65 jsp insofar alcanzar
+66 apons choro inicios
+67 cen stim mengg
+68 riors deshalb fastener
+69 gm stably there
+70 utim gedacht hielt
+71 gun god vyr
+72 rague member elegant
+73 first infring sposob
+74 umatoid falar toler
+75 apt bienes strains
+76 krit elet bis
+77 ifter ator raz
+78 nast termine da
+79 indrome pude aquilo
+80 utile shifting sor
+81 atai ride yaitu
+82 that memiliki position
+83 inem spins wojny
+84 aris endorsed stimulus
+85 iace doctor cele
+86 ovina aligning furious
+87 subset eternity movies
+88 irim plex auteurs
+89 offs sebuah joint
+90 scale produced inneren
+91 chait yangi patent
+92 gehend tracts mongoose
+93 aduras endlich behalf
+94 igkeits lib newsc
+95 atko behavior poussi
+96 ests obtained povez
+97 iles springs jugu
+98 omitem recher elo
+99 pie koncent dichotom
+[completion]
+00 estas toy ciutat -> –e–s–t–a–s–t–o–y–c–i–u–t–a–t–
+01 zonder height rockets -> –z–o–n–d–e–r–h–e–i–g–h–t–r–o–c–k–e–t–s–
+02 ibor songs albumet -> –i–b–o–r–s–o–n–g–s–a–l–b–u–m–e–t–
+03 anat scarc picked -> –a–n–a–t–s–c–a–r–c–p–i–c–k–e–d–
+04 aktor converge entrada -> –a–k–t–o–r–c–o–n–v–e–r–g–e–e–n–t–r–a–d–a–
+05 iotic tiger gars -> –i–o–t–i–c–t–i–g–e–r–g–a–r–s–
+06 irr siste enviados -> –i–r–r–s–i–s–t–e–e–n–v–i–a–d–o–s–
+07 volta hust escena -> –v–o–l–t–a–h–u–s–t–e–s–c–e–n–a–
+08 ao olt suave -> –a–o–o–l–t–s–u–a–v–e–
+09 jih aunt oblik -> –j–i–h–a–u–n–t–o–b–l–i–k–
+10 hev connects lysis -> –h–e–v–c–o–n–n–e–c–t–s–l–y–s–i–s–
+11 anaan journaux openly -> –a–n–a–a–n–j–o–u–r–n–a–u–x–o–p–e–n–l–y–
+12 nect conspir sekarang -> –n–e–c–t–c–o–n–s–p–i–r–s–e–k–a–r–a–n–g–
+13 eren buck dirige -> –e–r–e–n–b–u–c–k–d–i–r–i–g–e–
+14 ruguay muertos till -> –r–u–g–u–a–y–m–u–e–r–t–o–s–t–i–l–l–
+15 fassung directa disant -> –f–a–s–s–u–n–g–d–i–r–e–c–t–a–d–i–s–a–n–t–
+16 olk crust bul -> –o–l–k–c–r–u–s–t–b–u–l–
+17 urg en eingel -> –u–r–g–e–n–e–i–n–g–e–l–
+18 iskan computed formando -> –i–s–k–a–n–c–o–m–p–u–t–e–d–f–o–r–m–a–n–d–o–
+19 anon obv analyzer -> –a–n–o–n–o–b–v–a–n–a–l–y–z–e–r–
+20 inhard interp bronz -> –i–n–h–a–r–d–i–n–t–e–r–p–b–r–o–n–z–
+21 boarding aquesta bonheur -> –b–o–a–r–d–i–n–g–a–q–u–e–s–t–a–b–o–n–h–e–u–r–
+22 forms vict morceau -> –f–o–r–m–s–v–i–c–t–m–o–r–c–e–a–u–
+23 van annonce chuy -> –v–a–n–a–n–n–o–n–c–e–c–h–u–y–
+24 gd anta gleicher -> –g–d–a–n–t–a–g–l–e–i–c–h–e–r–
+25 ojen guid consag -> –o–j–e–n–g–u–i–d–c–o–n–s–a–g–
+26 olulu hauteur inmedi -> –o–l–u–l–u–h–a–u–t–e–u–r–i–n–m–e–d–i–
+27 onclick esiint glioma -> –o–n–c–l–i–c–k–e–s–i–i–n–t–g–l–i–o–m–a–
+28 mam otrzym tors -> –m–a–m–o–t–r–z–y–m–t–o–r–s–
+29 ouk efect navig -> –o–u–k–e–f–e–c–t–n–a–v–i–g–
+30 ioen pharm chaos -> –i–o–e–n–p–h–a–r–m–c–h–a–o–s–
+31 mlin circle using -> –m–l–i–n–c–i–r–c–l–e–u–s–i–n–g–
+32 reform signup agro -> –r–e–f–o–r–m–s–i–g–n–u–p–a–g–r–o–
+33 mak inden trist -> –m–a–k–i–n–d–e–n–t–r–i–s–t–
+34 uages siker cili -> –u–a–g–e–s–s–i–k–e–r–c–i–l–i–
+35 iscal sana maken -> –i–s–c–a–l–s–a–n–a–m–a–k–e–n–
+36 ivio screw direitos -> –i–v–i–o–s–c–r–e–w–d–i–r–e–i–t–o–s–
+37 olbar aortic cycle -> –o–l–b–a–r–a–o–r–t–i–c–c–y–c–l–e–
+38 riched realized spesso -> –r–i–c–h–e–d–r–e–a–l–i–z–e–d–s–p–e–s–s–o–
+39 chnik idade sourcils -> –c–h–n–i–k–i–d–a–d–e–s–o–u–r–c–i–l–s–
+40 apeutic occasion boute -> –a–p–e–u–t–i–c–o–c–c–a–s–i–o–n–b–o–u–t–e–
+41 oprote mohou metrics -> –o–p–r–o–t–e–m–o–h–o–u–m–e–t–r–i–c–s–
+42 reef foil cite -> –r–e–e–f–f–o–i–l–c–i–t–e–
+43 usun bug deemed -> –u–s–u–n–b–u–g–d–e–e–m–e–d–
+44 za discret otev -> –z–a–d–i–s–c–r–e–t–o–t–e–v–
+45 nova visto asos -> –n–o–v–a–v–i–s–t–o–a–s–o–s–
+46 checkout obese wahr -> –c–h–e–c–k–o–u–t–o–b–e–s–e–w–a–h–r–
+47 cot fossil courses -> –c–o–t–f–o–s–s–i–l–c–o–u–r–s–e–s–
+48 enderer souterra nowe -> –e–n–d–e–r–e–r–s–o–u–t–e–r–r–a–n–o–w–e–
+49 big debris souffle -> –b–i–g–d–e–b–r–i–s–s–o–u–f–f–l–e–
+50 widet lactic casos -> –w–i–d–e–t–l–a–c–t–i–c–c–a–s–o–s–
+51 elbe sculptor insan -> –e–l–b–e–s–c–u–l–p–t–o–r–i–n–s–a–n–
+52 binom scan naz -> –b–i–n–o–m–s–c–a–n–n–a–z–
+53 vir newest rejet -> –v–i–r–n–e–w–e–s–t–r–e–j–e–t–
+54 onia fatt retir -> –o–n–i–a–f–a–t–t–r–e–t–i–r–
+55 species benefici tubular -> –s–p–e–c–i–e–s–b–e–n–e–f–i–c–i–t–u–b–u–l–a–r–
+56 printf inwoners symptom -> –p–r–i–n–t–f–i–n–w–o–n–e–r–s–s–y–m–p–t–o–m–
+57 hetamine migliori forear -> –h–e–t–a–m–i–n–e–m–i–g–l–i–o–r–i–f–o–r–e–a–r–
+58 hemal pressing progres -> –h–e–m–a–l–p–r–e–s–s–i–n–g–p–r–o–g–r–e–s–
+59 riff visually juillet -> –r–i–f–f–v–i–s–u–a–l–l–y–j–u–i–l–l–e–t–
+60 conf fece sekolah -> –c–o–n–f–f–e–c–e–s–e–k–o–l–a–h–
+61 jpg fort ismer -> –j–p–g–f–o–r–t–i–s–m–e–r–
+62 lara tiefer lust -> –l–a–r–a–t–i–e–f–e–r–l–u–s–t–
+63 atis demeure sama -> –a–t–i–s–d–e–m–e–u–r–e–s–a–m–a–
+64 ologico hrs bram -> –o–l–o–g–i–c–o–h–r–s–b–r–a–m–
+65 jsp insofar alcanzar -> –j–s–p–i–n–s–o–f–a–r–a–l–c–a–n–z–a–r–
+66 apons choro inicios -> –a–p–o–n–s–c–h–o–r–o–i–n–i–c–i–o–s–
+67 cen stim mengg -> –c–e–n–s–t–i–m–m–e–n–g–g–
+68 riors deshalb fastener -> –r–i–o–r–s–d–e–s–h–a–l–b–f–a–s–t–e–n–e–r–
+69 gm stably there -> –g–m–s–t–a–b–l–y–t–h–e–r–e–
+70 utim gedacht hielt -> –u–t–i–m–g–e–d–a–c–h–t–h–i–e–l–t–
+71 gun god vyr -> –g–u–n–g–o–d–v–y–r–
+72 rague member elegant -> –r–a–g–u–e–m–e–m–b–e–r–e–l–e–g–a–n–t–
+73 first infring sposob -> –f–i–r–s–t–i–n–f–r–i–n–g–s–p–o–s–o–b–
+74 umatoid falar toler -> –u–m–a–t–o–i–d–f–a–l–a–r–t–o–l–e–r–
+75 apt bienes strains -> –a–p–t–b–i–e–n–e–s–s–t–r–a–i–n–s–
+76 krit elet bis -> –k–r–i–t–e–l–e–t–b–i–s–
+77 ifter ator raz -> –i–f–t–e–r–a–t–o–r–r–a–z–
+78 nast termine da -> –n–a–s–t–t–e–r–m–i–n–e–d–a–
+79 indrome pude aquilo -> –i–n–d–r–o–m–e–p–u–d–e–a–q–u–i–l–o–
+80 utile shifting sor -> –u–t–i–l–e–s–h–i–f–t–i–n–g–s–o–r–
+81 atai ride yaitu -> –a–t–a–i–r–i–d–e–y–a–i–t–u–
+82 that memiliki position -> –t–h–a–t–m–e–m–i–l–i–k–i–p–o–s–i–t–i–o–n–
+83 inem spins wojny -> –i–n–e–m–s–p–i–n–s–w–o–j–n–y–
+84 aris endorsed stimulus -> –a–r–i–s–e–n–d–o–r–s–e–d–s–t–i–m–u–l–u–s–
+85 iace doctor cele -> –i–a–c–e–d–o–c–t–o–r–c–e–l–e–
+86 ovina aligning furious -> –o–v–i–n–a–a–l–i–g–n–i–n–g–f–u–r–i–o–u–s–
+87 subset eternity movies -> –s–u–b–s–e–t–e–t–e–r–n–i–t–y–m–o–v–i–e–s–
+88 irim plex auteurs -> –i–r–i–m–p–l–e–x–a–u–t–e–u–r–s–
+89 offs sebuah joint -> –o–f–f–s–s–e–b–u–a–h–j–o–i–n–t–
+90 scale produced inneren -> –s–c–a–l–e–p–r–o–d–u–c–e–d–i–n–n–e–r–e–n–
+91 chait yangi patent -> –c–h–a–i–t–y–a–n–g–i–p–a–t–e–n–t–
+92 gehend tracts mongoose -> –g–e–h–e–n–d–t–r–a–c–t–s–m–o–n–g–o–o–s–e–
+93 aduras endlich behalf -> –a–d–u–r–a–s–e–n–d–l–i–c–h–b–e–h–a–l–f–
+94 igkeits lib newsc -> –i–g–k–e–i–t–s–l–i–b–n–e–w–s–c–
+95 atko behavior poussi -> –a–t–k–o–b–e–h–a–v–i–o–r–p–o–u–s–s–i–
+96 ests obtained povez -> –e–s–t–s–o–b–t–a–i–n–e–d–p–o–v–e–z–
+97 iles springs jugu -> –i–l–e–s–s–p–r–i–n–g–s–j–u–g–u–
+98 omitem recher elo -> –o–m–i–t–e–m–r–e–c–h–e–r–e–l–o–
+99 pie koncent dichotom -> –p–i–e–k–o–n–c–e–n–t–d–i–c–h–o–t–o–m–

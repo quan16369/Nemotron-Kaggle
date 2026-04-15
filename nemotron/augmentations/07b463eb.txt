@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 aryngeal nets stranger
+01 izes dryer seca
+02 services develops tsunami
+
+This is a sample output.
+00 aryngeal nets stranger -> –a–r–y–n–g–e–a–l–n–e–t–s–s–t–r–a–n–g–e–r–
+01 izes dryer seca -> –i–z–e–s–d–r–y–e–r–s–e–c–a–
+02 services develops tsunami -> –s–e–r–v–i–c–e–s–d–e–v–e–l–o–p–s–t–s–u–n–a–m–i–
+
+This is your input.
+00 fort actu vormen
+01 ull neuer awarded
+02 iformes theft fundo
+03 zg bildete alat
+04 ogh restored reopened
+05 pond dies synapses
+06 choices teil intel
+07 altung onto nano
+08 ta spes buyers
+09 lerde cogn conspi
+10 inak advocacy swojego
+11 owaniu settled zomb
+12 anz animale predsjed
+13 amental humanos paras
+14 origin hir mutta
+15 abric vanlig pige
+16 asi hash past
+17 uelve hit sezonie
+18 mil uranium bottom
+19 anty belle allong
+20 far proposed cos
+21 elli retract reagent
+22 ovan rond opioid
+23 estimate mares gior
+24 archie gears sync
+25 eder leta extent
+26 bolt portion tongue
+27 agra chapeau warranty
+28 mut cate holder
+29 ola astron champion
+30 imbab szk gerek
+31 cord glands reduct
+32 last raff sigue
+33 istisch dear croit
+34 manent ancestry tapes
+35 nissen elementi apenas
+36 undan debated sabe
+37 uments adjo mimics
+38 ink einzig milieux
+39 uves onderaf variety
+40 vereiro ancestor acteurs
+41 illing indent slav
+42 central toho famili
+43 control ugyan hand
+44 mathbb verge shook
+45 aq refund nomb
+46 raries borders heutigen
+47 zv nemzet insegn
+48 mother yard kant
+49 gende digest interfer
+50 rate volatile namen
+51 vih begannen niemals
+52 lossenen trugen sola
+53 apon miser gagne
+54 escent psycho hal
+55 iewe rense rifiut
+56 clus klima pathways
+57 bi honours verteid
+58 price unsatisf enhanced
+59 omi salivary crushing
+60 igger strand mini
+61 ulta ic esempio
+62 theme tornando shining
+63 ems signer impregn
+64 psi striker logar
+65 by einzel geht
+66 adero pilotos defend
+67 riel cool gate
+68 quired rays stru
+69 peptide fighter cercare
+70 znej tali paul
+71 ferred fermer fitted
+72 frame ausp degr
+73 bitmap trusts versp
+74 nik elders vok
+75 pped tarih marqu
+76 oclonal horse sitio
+77 abrik dormir oude
+78 rul conceded gue
+79 ammans depleted velike
+80 ivat pores lifespan
+81 geons asympt appropri
+82 anging vc dared
+83 ciously evoc risky
+84 ouches cheeks mend
+85 precated veroor nickte
+86 folg anivers chama
+87 arto definir tribut
+88 ention crown asegur
+89 ain indu nons
+90 oggler definit imaging
+91 klam posibles stunned
+92 gru somet truth
+93 ijs aurait tachy
+94 girl tickets jed
+95 iph przyw anhand
+96 ancier ageing proving
+97 rils metro recip
+98 ssl opis cuart
+99 iece matin evapor
+[completion]
+00 fort actu vormen -> –f–o–r–t–a–c–t–u–v–o–r–m–e–n–
+01 ull neuer awarded -> –u–l–l–n–e–u–e–r–a–w–a–r–d–e–d–
+02 iformes theft fundo -> –i–f–o–r–m–e–s–t–h–e–f–t–f–u–n–d–o–
+03 zg bildete alat -> –z–g–b–i–l–d–e–t–e–a–l–a–t–
+04 ogh restored reopened -> –o–g–h–r–e–s–t–o–r–e–d–r–e–o–p–e–n–e–d–
+05 pond dies synapses -> –p–o–n–d–d–i–e–s–s–y–n–a–p–s–e–s–
+06 choices teil intel -> –c–h–o–i–c–e–s–t–e–i–l–i–n–t–e–l–
+07 altung onto nano -> –a–l–t–u–n–g–o–n–t–o–n–a–n–o–
+08 ta spes buyers -> –t–a–s–p–e–s–b–u–y–e–r–s–
+09 lerde cogn conspi -> –l–e–r–d–e–c–o–g–n–c–o–n–s–p–i–
+10 inak advocacy swojego -> –i–n–a–k–a–d–v–o–c–a–c–y–s–w–o–j–e–g–o–
+11 owaniu settled zomb -> –o–w–a–n–i–u–s–e–t–t–l–e–d–z–o–m–b–
+12 anz animale predsjed -> –a–n–z–a–n–i–m–a–l–e–p–r–e–d–s–j–e–d–
+13 amental humanos paras -> –a–m–e–n–t–a–l–h–u–m–a–n–o–s–p–a–r–a–s–
+14 origin hir mutta -> –o–r–i–g–i–n–h–i–r–m–u–t–t–a–
+15 abric vanlig pige -> –a–b–r–i–c–v–a–n–l–i–g–p–i–g–e–
+16 asi hash past -> –a–s–i–h–a–s–h–p–a–s–t–
+17 uelve hit sezonie -> –u–e–l–v–e–h–i–t–s–e–z–o–n–i–e–
+18 mil uranium bottom -> –m–i–l–u–r–a–n–i–u–m–b–o–t–t–o–m–
+19 anty belle allong -> –a–n–t–y–b–e–l–l–e–a–l–l–o–n–g–
+20 far proposed cos -> –f–a–r–p–r–o–p–o–s–e–d–c–o–s–
+21 elli retract reagent -> –e–l–l–i–r–e–t–r–a–c–t–r–e–a–g–e–n–t–
+22 ovan rond opioid -> –o–v–a–n–r–o–n–d–o–p–i–o–i–d–
+23 estimate mares gior -> –e–s–t–i–m–a–t–e–m–a–r–e–s–g–i–o–r–
+24 archie gears sync -> –a–r–c–h–i–e–g–e–a–r–s–s–y–n–c–
+25 eder leta extent -> –e–d–e–r–l–e–t–a–e–x–t–e–n–t–
+26 bolt portion tongue -> –b–o–l–t–p–o–r–t–i–o–n–t–o–n–g–u–e–
+27 agra chapeau warranty -> –a–g–r–a–c–h–a–p–e–a–u–w–a–r–r–a–n–t–y–
+28 mut cate holder -> –m–u–t–c–a–t–e–h–o–l–d–e–r–
+29 ola astron champion -> –o–l–a–a–s–t–r–o–n–c–h–a–m–p–i–o–n–
+30 imbab szk gerek -> –i–m–b–a–b–s–z–k–g–e–r–e–k–
+31 cord glands reduct -> –c–o–r–d–g–l–a–n–d–s–r–e–d–u–c–t–
+32 last raff sigue -> –l–a–s–t–r–a–f–f–s–i–g–u–e–
+33 istisch dear croit -> –i–s–t–i–s–c–h–d–e–a–r–c–r–o–i–t–
+34 manent ancestry tapes -> –m–a–n–e–n–t–a–n–c–e–s–t–r–y–t–a–p–e–s–
+35 nissen elementi apenas -> –n–i–s–s–e–n–e–l–e–m–e–n–t–i–a–p–e–n–a–s–
+36 undan debated sabe -> –u–n–d–a–n–d–e–b–a–t–e–d–s–a–b–e–
+37 uments adjo mimics -> –u–m–e–n–t–s–a–d–j–o–m–i–m–i–c–s–
+38 ink einzig milieux -> –i–n–k–e–i–n–z–i–g–m–i–l–i–e–u–x–
+39 uves onderaf variety -> –u–v–e–s–o–n–d–e–r–a–f–v–a–r–i–e–t–y–
+40 vereiro ancestor acteurs -> –v–e–r–e–i–r–o–a–n–c–e–s–t–o–r–a–c–t–e–u–r–s–
+41 illing indent slav -> –i–l–l–i–n–g–i–n–d–e–n–t–s–l–a–v–
+42 central toho famili -> –c–e–n–t–r–a–l–t–o–h–o–f–a–m–i–l–i–
+43 control ugyan hand -> –c–o–n–t–r–o–l–u–g–y–a–n–h–a–n–d–
+44 mathbb verge shook -> –m–a–t–h–b–b–v–e–r–g–e–s–h–o–o–k–
+45 aq refund nomb -> –a–q–r–e–f–u–n–d–n–o–m–b–
+46 raries borders heutigen -> –r–a–r–i–e–s–b–o–r–d–e–r–s–h–e–u–t–i–g–e–n–
+47 zv nemzet insegn -> –z–v–n–e–m–z–e–t–i–n–s–e–g–n–
+48 mother yard kant -> –m–o–t–h–e–r–y–a–r–d–k–a–n–t–
+49 gende digest interfer -> –g–e–n–d–e–d–i–g–e–s–t–i–n–t–e–r–f–e–r–
+50 rate volatile namen -> –r–a–t–e–v–o–l–a–t–i–l–e–n–a–m–e–n–
+51 vih begannen niemals -> –v–i–h–b–e–g–a–n–n–e–n–n–i–e–m–a–l–s–
+52 lossenen trugen sola -> –l–o–s–s–e–n–e–n–t–r–u–g–e–n–s–o–l–a–
+53 apon miser gagne -> –a–p–o–n–m–i–s–e–r–g–a–g–n–e–
+54 escent psycho hal -> –e–s–c–e–n–t–p–s–y–c–h–o–h–a–l–
+55 iewe rense rifiut -> –i–e–w–e–r–e–n–s–e–r–i–f–i–u–t–
+56 clus klima pathways -> –c–l–u–s–k–l–i–m–a–p–a–t–h–w–a–y–s–
+57 bi honours verteid -> –b–i–h–o–n–o–u–r–s–v–e–r–t–e–i–d–
+58 price unsatisf enhanced -> –p–r–i–c–e–u–n–s–a–t–i–s–f–e–n–h–a–n–c–e–d–
+59 omi salivary crushing -> –o–m–i–s–a–l–i–v–a–r–y–c–r–u–s–h–i–n–g–
+60 igger strand mini -> –i–g–g–e–r–s–t–r–a–n–d–m–i–n–i–
+61 ulta ic esempio -> –u–l–t–a–i–c–e–s–e–m–p–i–o–
+62 theme tornando shining -> –t–h–e–m–e–t–o–r–n–a–n–d–o–s–h–i–n–i–n–g–
+63 ems signer impregn -> –e–m–s–s–i–g–n–e–r–i–m–p–r–e–g–n–
+64 psi striker logar -> –p–s–i–s–t–r–i–k–e–r–l–o–g–a–r–
+65 by einzel geht -> –b–y–e–i–n–z–e–l–g–e–h–t–
+66 adero pilotos defend -> –a–d–e–r–o–p–i–l–o–t–o–s–d–e–f–e–n–d–
+67 riel cool gate -> –r–i–e–l–c–o–o–l–g–a–t–e–
+68 quired rays stru -> –q–u–i–r–e–d–r–a–y–s–s–t–r–u–
+69 peptide fighter cercare -> –p–e–p–t–i–d–e–f–i–g–h–t–e–r–c–e–r–c–a–r–e–
+70 znej tali paul -> –z–n–e–j–t–a–l–i–p–a–u–l–
+71 ferred fermer fitted -> –f–e–r–r–e–d–f–e–r–m–e–r–f–i–t–t–e–d–
+72 frame ausp degr -> –f–r–a–m–e–a–u–s–p–d–e–g–r–
+73 bitmap trusts versp -> –b–i–t–m–a–p–t–r–u–s–t–s–v–e–r–s–p–
+74 nik elders vok -> –n–i–k–e–l–d–e–r–s–v–o–k–
+75 pped tarih marqu -> –p–p–e–d–t–a–r–i–h–m–a–r–q–u–
+76 oclonal horse sitio -> –o–c–l–o–n–a–l–h–o–r–s–e–s–i–t–i–o–
+77 abrik dormir oude -> –a–b–r–i–k–d–o–r–m–i–r–o–u–d–e–
+78 rul conceded gue -> –r–u–l–c–o–n–c–e–d–e–d–g–u–e–
+79 ammans depleted velike -> –a–m–m–a–n–s–d–e–p–l–e–t–e–d–v–e–l–i–k–e–
+80 ivat pores lifespan -> –i–v–a–t–p–o–r–e–s–l–i–f–e–s–p–a–n–
+81 geons asympt appropri -> –g–e–o–n–s–a–s–y–m–p–t–a–p–p–r–o–p–r–i–
+82 anging vc dared -> –a–n–g–i–n–g–v–c–d–a–r–e–d–
+83 ciously evoc risky -> –c–i–o–u–s–l–y–e–v–o–c–r–i–s–k–y–
+84 ouches cheeks mend -> –o–u–c–h–e–s–c–h–e–e–k–s–m–e–n–d–
+85 precated veroor nickte -> –p–r–e–c–a–t–e–d–v–e–r–o–o–r–n–i–c–k–t–e–
+86 folg anivers chama -> –f–o–l–g–a–n–i–v–e–r–s–c–h–a–m–a–
+87 arto definir tribut -> –a–r–t–o–d–e–f–i–n–i–r–t–r–i–b–u–t–
+88 ention crown asegur -> –e–n–t–i–o–n–c–r–o–w–n–a–s–e–g–u–r–
+89 ain indu nons -> –a–i–n–i–n–d–u–n–o–n–s–
+90 oggler definit imaging -> –o–g–g–l–e–r–d–e–f–i–n–i–t–i–m–a–g–i–n–g–
+91 klam posibles stunned -> –k–l–a–m–p–o–s–i–b–l–e–s–s–t–u–n–n–e–d–
+92 gru somet truth -> –g–r–u–s–o–m–e–t–t–r–u–t–h–
+93 ijs aurait tachy -> –i–j–s–a–u–r–a–i–t–t–a–c–h–y–
+94 girl tickets jed -> –g–i–r–l–t–i–c–k–e–t–s–j–e–d–
+95 iph przyw anhand -> –i–p–h–p–r–z–y–w–a–n–h–a–n–d–
+96 ancier ageing proving -> –a–n–c–i–e–r–a–g–e–i–n–g–p–r–o–v–i–n–g–
+97 rils metro recip -> –r–i–l–s–m–e–t–r–o–r–e–c–i–p–
+98 ssl opis cuart -> –s–s–l–o–p–i–s–c–u–a–r–t–
+99 iece matin evapor -> –i–e–c–e–m–a–t–i–n–e–v–a–p–o–r–

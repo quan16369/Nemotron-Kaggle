@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 enci shape extra
+01 ui melhor maggior
+02 ifi carne artik
+
+This is a sample output.
+00 enci shape extra -> –e–n–c–i–s–h–a–p–e–e–x–t–r–a–
+01 ui melhor maggior -> –u–i–m–e–l–h–o–r–m–a–g–g–i–o–r–
+02 ifi carne artik -> –i–f–i–c–a–r–n–e–a–r–t–i–k–
+
+This is your input.
+00 ando trash periode
+01 ogo simpl registro
+02 mathscr ellen vette
+03 ferences cuest nurse
+04 imits fee joue
+05 napshot verbre entail
+06 uat ingreso fallait
+07 evt mia torment
+08 inki masc mock
+09 us tenis trailer
+10 iono alf kolem
+11 vertex iste indip
+12 kori raconte lah
+13 rieren wing motore
+14 eca bare threaten
+15 oft etwa traiter
+16 ror surn alta
+17 nica nimet rezerv
+18 obi km envers
+19 ilarly geen exited
+20 renew follows listened
+21 lor intensiv happ
+22 atsu elemento duplic
+23 emes linii debug
+24 arge kinet suivie
+25 waffe rhythmic bicycle
+26 mag contoh kaupung
+27 shop drum toute
+28 blastoma mint labels
+29 bold saliva partage
+30 ammer over algemeen
+31 ouverte heutige incap
+32 oley piezo mettere
+33 minen opinions stesso
+34 anzen drug flott
+35 ivariate poucos alloc
+36 ifts knows sal
+37 aniya kraj counties
+38 stadt trova town
+39 atische locking blant
+40 istycz cam vital
+41 zoan egal modest
+42 enc kurzen variance
+43 amer recht mestu
+44 ckie welding statues
+45 habi eski abut
+46 inical catalana fracture
+47 itaires embassy delight
+48 iskup volant vendido
+49 esos nail estos
+50 mesini emerg tekint
+51 acolo exagger buques
+52 ufact classify tercero
+53 assword flanked sagte
+54 ivad vuonna brev
+55 rauen curved ait
+56 udukan samb pourrait
+57 omena draw kontrak
+58 vece deform em
+59 param trente refugi
+60 ethanol profess allies
+61 lius coval erwart
+62 amp interc terrenos
+63 almi vred quo
+64 eree ripple uchun
+65 avaju ember entstand
+66 venture estaba meine
+67 phony fundada formulas
+68 actual sea ilg
+69 fangs cer adinaren
+70 church axios qildi
+71 hundert sout aprilie
+72 ecute username markings
+73 etzten surreal bureauc
+74 coni clust fisher
+75 suits polskich previous
+76 assade catar forse
+77 eseen begeg arabes
+78 niego august jak
+79 kter citizen destiny
+80 regar conflict chond
+81 navbar han trunc
+82 pred mezi nowrap
+83 erk cations respi
+84 itime ondoren ult
+85 quest meczu athlet
+86 dings filmi dominer
+87 coming mann quality
+88 clair patrons formul
+89 ovna tide pripad
+90 rek mulai orta
+91 lease fal dio
+92 rachten batalha acab
+93 attes laul pris
+94 formance kie class
+95 compar fabrik beliau
+96 posal rocks thin
+97 atuak cooled vissza
+98 edly porod nage
+99 emy quarts xin
+[completion]
+00 ando trash periode -> –a–n–d–o–t–r–a–s–h–p–e–r–i–o–d–e–
+01 ogo simpl registro -> –o–g–o–s–i–m–p–l–r–e–g–i–s–t–r–o–
+02 mathscr ellen vette -> –m–a–t–h–s–c–r–e–l–l–e–n–v–e–t–t–e–
+03 ferences cuest nurse -> –f–e–r–e–n–c–e–s–c–u–e–s–t–n–u–r–s–e–
+04 imits fee joue -> –i–m–i–t–s–f–e–e–j–o–u–e–
+05 napshot verbre entail -> –n–a–p–s–h–o–t–v–e–r–b–r–e–e–n–t–a–i–l–
+06 uat ingreso fallait -> –u–a–t–i–n–g–r–e–s–o–f–a–l–l–a–i–t–
+07 evt mia torment -> –e–v–t–m–i–a–t–o–r–m–e–n–t–
+08 inki masc mock -> –i–n–k–i–m–a–s–c–m–o–c–k–
+09 us tenis trailer -> –u–s–t–e–n–i–s–t–r–a–i–l–e–r–
+10 iono alf kolem -> –i–o–n–o–a–l–f–k–o–l–e–m–
+11 vertex iste indip -> –v–e–r–t–e–x–i–s–t–e–i–n–d–i–p–
+12 kori raconte lah -> –k–o–r–i–r–a–c–o–n–t–e–l–a–h–
+13 rieren wing motore -> –r–i–e–r–e–n–w–i–n–g–m–o–t–o–r–e–
+14 eca bare threaten -> –e–c–a–b–a–r–e–t–h–r–e–a–t–e–n–
+15 oft etwa traiter -> –o–f–t–e–t–w–a–t–r–a–i–t–e–r–
+16 ror surn alta -> –r–o–r–s–u–r–n–a–l–t–a–
+17 nica nimet rezerv -> –n–i–c–a–n–i–m–e–t–r–e–z–e–r–v–
+18 obi km envers -> –o–b–i–k–m–e–n–v–e–r–s–
+19 ilarly geen exited -> –i–l–a–r–l–y–g–e–e–n–e–x–i–t–e–d–
+20 renew follows listened -> –r–e–n–e–w–f–o–l–l–o–w–s–l–i–s–t–e–n–e–d–
+21 lor intensiv happ -> –l–o–r–i–n–t–e–n–s–i–v–h–a–p–p–
+22 atsu elemento duplic -> –a–t–s–u–e–l–e–m–e–n–t–o–d–u–p–l–i–c–
+23 emes linii debug -> –e–m–e–s–l–i–n–i–i–d–e–b–u–g–
+24 arge kinet suivie -> –a–r–g–e–k–i–n–e–t–s–u–i–v–i–e–
+25 waffe rhythmic bicycle -> –w–a–f–f–e–r–h–y–t–h–m–i–c–b–i–c–y–c–l–e–
+26 mag contoh kaupung -> –m–a–g–c–o–n–t–o–h–k–a–u–p–u–n–g–
+27 shop drum toute -> –s–h–o–p–d–r–u–m–t–o–u–t–e–
+28 blastoma mint labels -> –b–l–a–s–t–o–m–a–m–i–n–t–l–a–b–e–l–s–
+29 bold saliva partage -> –b–o–l–d–s–a–l–i–v–a–p–a–r–t–a–g–e–
+30 ammer over algemeen -> –a–m–m–e–r–o–v–e–r–a–l–g–e–m–e–e–n–
+31 ouverte heutige incap -> –o–u–v–e–r–t–e–h–e–u–t–i–g–e–i–n–c–a–p–
+32 oley piezo mettere -> –o–l–e–y–p–i–e–z–o–m–e–t–t–e–r–e–
+33 minen opinions stesso -> –m–i–n–e–n–o–p–i–n–i–o–n–s–s–t–e–s–s–o–
+34 anzen drug flott -> –a–n–z–e–n–d–r–u–g–f–l–o–t–t–
+35 ivariate poucos alloc -> –i–v–a–r–i–a–t–e–p–o–u–c–o–s–a–l–l–o–c–
+36 ifts knows sal -> –i–f–t–s–k–n–o–w–s–s–a–l–
+37 aniya kraj counties -> –a–n–i–y–a–k–r–a–j–c–o–u–n–t–i–e–s–
+38 stadt trova town -> –s–t–a–d–t–t–r–o–v–a–t–o–w–n–
+39 atische locking blant -> –a–t–i–s–c–h–e–l–o–c–k–i–n–g–b–l–a–n–t–
+40 istycz cam vital -> –i–s–t–y–c–z–c–a–m–v–i–t–a–l–
+41 zoan egal modest -> –z–o–a–n–e–g–a–l–m–o–d–e–s–t–
+42 enc kurzen variance -> –e–n–c–k–u–r–z–e–n–v–a–r–i–a–n–c–e–
+43 amer recht mestu -> –a–m–e–r–r–e–c–h–t–m–e–s–t–u–
+44 ckie welding statues -> –c–k–i–e–w–e–l–d–i–n–g–s–t–a–t–u–e–s–
+45 habi eski abut -> –h–a–b–i–e–s–k–i–a–b–u–t–
+46 inical catalana fracture -> –i–n–i–c–a–l–c–a–t–a–l–a–n–a–f–r–a–c–t–u–r–e–
+47 itaires embassy delight -> –i–t–a–i–r–e–s–e–m–b–a–s–s–y–d–e–l–i–g–h–t–
+48 iskup volant vendido -> –i–s–k–u–p–v–o–l–a–n–t–v–e–n–d–i–d–o–
+49 esos nail estos -> –e–s–o–s–n–a–i–l–e–s–t–o–s–
+50 mesini emerg tekint -> –m–e–s–i–n–i–e–m–e–r–g–t–e–k–i–n–t–
+51 acolo exagger buques -> –a–c–o–l–o–e–x–a–g–g–e–r–b–u–q–u–e–s–
+52 ufact classify tercero -> –u–f–a–c–t–c–l–a–s–s–i–f–y–t–e–r–c–e–r–o–
+53 assword flanked sagte -> –a–s–s–w–o–r–d–f–l–a–n–k–e–d–s–a–g–t–e–
+54 ivad vuonna brev -> –i–v–a–d–v–u–o–n–n–a–b–r–e–v–
+55 rauen curved ait -> –r–a–u–e–n–c–u–r–v–e–d–a–i–t–
+56 udukan samb pourrait -> –u–d–u–k–a–n–s–a–m–b–p–o–u–r–r–a–i–t–
+57 omena draw kontrak -> –o–m–e–n–a–d–r–a–w–k–o–n–t–r–a–k–
+58 vece deform em -> –v–e–c–e–d–e–f–o–r–m–e–m–
+59 param trente refugi -> –p–a–r–a–m–t–r–e–n–t–e–r–e–f–u–g–i–
+60 ethanol profess allies -> –e–t–h–a–n–o–l–p–r–o–f–e–s–s–a–l–l–i–e–s–
+61 lius coval erwart -> –l–i–u–s–c–o–v–a–l–e–r–w–a–r–t–
+62 amp interc terrenos -> –a–m–p–i–n–t–e–r–c–t–e–r–r–e–n–o–s–
+63 almi vred quo -> –a–l–m–i–v–r–e–d–q–u–o–
+64 eree ripple uchun -> –e–r–e–e–r–i–p–p–l–e–u–c–h–u–n–
+65 avaju ember entstand -> –a–v–a–j–u–e–m–b–e–r–e–n–t–s–t–a–n–d–
+66 venture estaba meine -> –v–e–n–t–u–r–e–e–s–t–a–b–a–m–e–i–n–e–
+67 phony fundada formulas -> –p–h–o–n–y–f–u–n–d–a–d–a–f–o–r–m–u–l–a–s–
+68 actual sea ilg -> –a–c–t–u–a–l–s–e–a–i–l–g–
+69 fangs cer adinaren -> –f–a–n–g–s–c–e–r–a–d–i–n–a–r–e–n–
+70 church axios qildi -> –c–h–u–r–c–h–a–x–i–o–s–q–i–l–d–i–
+71 hundert sout aprilie -> –h–u–n–d–e–r–t–s–o–u–t–a–p–r–i–l–i–e–
+72 ecute username markings -> –e–c–u–t–e–u–s–e–r–n–a–m–e–m–a–r–k–i–n–g–s–
+73 etzten surreal bureauc -> –e–t–z–t–e–n–s–u–r–r–e–a–l–b–u–r–e–a–u–c–
+74 coni clust fisher -> –c–o–n–i–c–l–u–s–t–f–i–s–h–e–r–
+75 suits polskich previous -> –s–u–i–t–s–p–o–l–s–k–i–c–h–p–r–e–v–i–o–u–s–
+76 assade catar forse -> –a–s–s–a–d–e–c–a–t–a–r–f–o–r–s–e–
+77 eseen begeg arabes -> –e–s–e–e–n–b–e–g–e–g–a–r–a–b–e–s–
+78 niego august jak -> –n–i–e–g–o–a–u–g–u–s–t–j–a–k–
+79 kter citizen destiny -> –k–t–e–r–c–i–t–i–z–e–n–d–e–s–t–i–n–y–
+80 regar conflict chond -> –r–e–g–a–r–c–o–n–f–l–i–c–t–c–h–o–n–d–
+81 navbar han trunc -> –n–a–v–b–a–r–h–a–n–t–r–u–n–c–
+82 pred mezi nowrap -> –p–r–e–d–m–e–z–i–n–o–w–r–a–p–
+83 erk cations respi -> –e–r–k–c–a–t–i–o–n–s–r–e–s–p–i–
+84 itime ondoren ult -> –i–t–i–m–e–o–n–d–o–r–e–n–u–l–t–
+85 quest meczu athlet -> –q–u–e–s–t–m–e–c–z–u–a–t–h–l–e–t–
+86 dings filmi dominer -> –d–i–n–g–s–f–i–l–m–i–d–o–m–i–n–e–r–
+87 coming mann quality -> –c–o–m–i–n–g–m–a–n–n–q–u–a–l–i–t–y–
+88 clair patrons formul -> –c–l–a–i–r–p–a–t–r–o–n–s–f–o–r–m–u–l–
+89 ovna tide pripad -> –o–v–n–a–t–i–d–e–p–r–i–p–a–d–
+90 rek mulai orta -> –r–e–k–m–u–l–a–i–o–r–t–a–
+91 lease fal dio -> –l–e–a–s–e–f–a–l–d–i–o–
+92 rachten batalha acab -> –r–a–c–h–t–e–n–b–a–t–a–l–h–a–a–c–a–b–
+93 attes laul pris -> –a–t–t–e–s–l–a–u–l–p–r–i–s–
+94 formance kie class -> –f–o–r–m–a–n–c–e–k–i–e–c–l–a–s–s–
+95 compar fabrik beliau -> –c–o–m–p–a–r–f–a–b–r–i–k–b–e–l–i–a–u–
+96 posal rocks thin -> –p–o–s–a–l–r–o–c–k–s–t–h–i–n–
+97 atuak cooled vissza -> –a–t–u–a–k–c–o–o–l–e–d–v–i–s–s–z–a–
+98 edly porod nage -> –e–d–l–y–p–o–r–o–d–n–a–g–e–
+99 emy quarts xin -> –e–m–y–q–u–a–r–t–s–x–i–n–

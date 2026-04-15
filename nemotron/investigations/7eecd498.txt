@@ -1,0 +1,18 @@
+problem id: 7eecd498
+category: cryptarithm_deduce
+
+symbol-to-digit mapping:
+
+operator-to-operation mapping:
+  '*' = concat
+
+examples:
+  >`+'& = `{/
+  `{-': = ->>
+  /^-/^ = :
+  ^!-%^ = >{
+  >:*!' = >:!'
+
+query: ^:*`!
+
+predicted answer: ^:`!

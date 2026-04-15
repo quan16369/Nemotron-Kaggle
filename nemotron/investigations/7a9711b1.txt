@@ -1,0 +1,28 @@
+problem id: 7a9711b1
+category: equation_numeric_guess
+
+examples:
+- 71+77 = 148
+- 98+51 = 149
+- 56/43 = 13
+- query: 18}38
+
+inferred rule:
+- `+` denotes ordinary addition.
+- `/` denotes the absolute difference between the two numbers.
+- The query uses an unseen `}` symbol. With addition and difference already accounted for, the most defensible remaining rule is direct concatenation of the two inputs.
+
+step-by-step check on the examples:
+1. `71+77 = 148` because `71 + 77 = 148`.
+2. `98+51 = 149` because `98 + 51 = 149`.
+3. `56/43 = 13` because `|56 - 43| = 13`.
+
+step-by-step application to the query:
+1. Read `18}38` as concatenation of the two two-digit inputs.
+2. Concatenate `18` and `38` to get `1838`.
+
+predicted answer:
+- 1838
+
+confidence note:
+- Moderate confidence. The `+` and `/` rules are directly supported by the examples. The `}` rule is inferred from elimination because it does not appear in the examples, but concatenation is the cleanest rule consistent with the remaining arithmetic-style patterns.

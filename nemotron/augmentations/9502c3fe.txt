@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 rod hypoxia segundo
+01 veni summ hubiera
+02 quez celular ramas
+
+This is a sample output.
+00 rod hypoxia segundo -> –r–o–d–h–y–p–o–x–i–a–s–e–g–u–n–d–o–
+01 veni summ hubiera -> –v–e–n–i–s–u–m–m–h–u–b–i–e–r–a–
+02 quez celular ramas -> –q–u–e–z–c–e–l–u–l–a–r–r–a–m–a–s–
+
+This is your input.
+00 edan fits dana
+01 ifient koordin proble
+02 izk rodada chiqar
+03 vertre intenz medals
+04 upport authent dennoch
+05 goods persona kilom
+06 ollowing photo metallic
+07 metro compares konk
+08 nagy enjoying ordained
+09 cation saint niew
+10 ifo conf mega
+11 aug komple fis
+12 cret vlasti boost
+13 aints poza funzion
+14 oct abord uni
+15 my inel setzt
+16 pell handelte gradu
+17 zek mejora hostile
+18 banako nac melalui
+19 ulty uzav informes
+20 emt sher dotted
+21 flug executes early
+22 etown allele revoir
+23 bran starrte pojav
+24 estens wor adopting
+25 leis peu residual
+26 fect poured cukup
+27 dil geworden charge
+28 nab gav kinda
+29 tons figlia avert
+30 animated poursuiv compl
+31 oda ils cohesive
+32 conomic wealth same
+33 ajax atlet verband
+34 elijk faixa medium
+35 dda neues proiz
+36 ento edifici pregunt
+37 ouvert eau etern
+38 ighteous phylogen resulted
+39 iano accessed resource
+40 random onset event
+41 nya bawah verloor
+42 igkeit folded francia
+43 lal iam promised
+44 vodu platinum baita
+45 piper obszar prices
+46 ckich olhou alien
+47 uuid comedia phosphor
+48 inch droplet couche
+49 aju szt heading
+50 plets login peroxid
+51 schiff fiori urkund
+52 story cannot modem
+53 ushed san cyt
+54 online not suk
+55 uzzle paso ingress
+56 ajn hadn tourna
+57 indow predst unseen
+58 pour appeared packs
+59 ickets sizes riten
+60 xelles locker terrib
+61 gamma coatings profond
+62 itter linee wells
+63 arked remix feles
+64 uchs bouts prikaz
+65 tasks termina ramener
+66 och defines abruptly
+67 already drops dioses
+68 noj rs kons
+69 iggers respe giorn
+70 essa flush binomial
+71 zung mechanic against
+72 oking ensures schilder
+73 elenov etapas ersch
+74 scheid sat muncul
+75 comun failure man
+76 enticate resolve hous
+77 leten vidas grocery
+78 issi immigr nunha
+79 assini dj citrus
+80 colon controle direkt
+81 conti atelier aver
+82 estand miejscu urbo
+83 ppure uz descre
+84 giving spielen funcion
+85 eso temb genealog
+86 ystem shoved dikel
+87 odb longueur tun
+88 zny veg day
+89 addr hl arist
+90 vos city hurts
+91 stances endroit suivante
+92 ffi vur haur
+93 stava urls welches
+94 fung eing rato
+95 missions mans keyboard
+96 ucha olu respecte
+97 iances olib perioden
+98 de fluores davom
+99 plit ukl acar
+[completion]
+00 edan fits dana -> –e–d–a–n–f–i–t–s–d–a–n–a–
+01 ifient koordin proble -> –i–f–i–e–n–t–k–o–o–r–d–i–n–p–r–o–b–l–e–
+02 izk rodada chiqar -> –i–z–k–r–o–d–a–d–a–c–h–i–q–a–r–
+03 vertre intenz medals -> –v–e–r–t–r–e–i–n–t–e–n–z–m–e–d–a–l–s–
+04 upport authent dennoch -> –u–p–p–o–r–t–a–u–t–h–e–n–t–d–e–n–n–o–c–h–
+05 goods persona kilom -> –g–o–o–d–s–p–e–r–s–o–n–a–k–i–l–o–m–
+06 ollowing photo metallic -> –o–l–l–o–w–i–n–g–p–h–o–t–o–m–e–t–a–l–l–i–c–
+07 metro compares konk -> –m–e–t–r–o–c–o–m–p–a–r–e–s–k–o–n–k–
+08 nagy enjoying ordained -> –n–a–g–y–e–n–j–o–y–i–n–g–o–r–d–a–i–n–e–d–
+09 cation saint niew -> –c–a–t–i–o–n–s–a–i–n–t–n–i–e–w–
+10 ifo conf mega -> –i–f–o–c–o–n–f–m–e–g–a–
+11 aug komple fis -> –a–u–g–k–o–m–p–l–e–f–i–s–
+12 cret vlasti boost -> –c–r–e–t–v–l–a–s–t–i–b–o–o–s–t–
+13 aints poza funzion -> –a–i–n–t–s–p–o–z–a–f–u–n–z–i–o–n–
+14 oct abord uni -> –o–c–t–a–b–o–r–d–u–n–i–
+15 my inel setzt -> –m–y–i–n–e–l–s–e–t–z–t–
+16 pell handelte gradu -> –p–e–l–l–h–a–n–d–e–l–t–e–g–r–a–d–u–
+17 zek mejora hostile -> –z–e–k–m–e–j–o–r–a–h–o–s–t–i–l–e–
+18 banako nac melalui -> –b–a–n–a–k–o–n–a–c–m–e–l–a–l–u–i–
+19 ulty uzav informes -> –u–l–t–y–u–z–a–v–i–n–f–o–r–m–e–s–
+20 emt sher dotted -> –e–m–t–s–h–e–r–d–o–t–t–e–d–
+21 flug executes early -> –f–l–u–g–e–x–e–c–u–t–e–s–e–a–r–l–y–
+22 etown allele revoir -> –e–t–o–w–n–a–l–l–e–l–e–r–e–v–o–i–r–
+23 bran starrte pojav -> –b–r–a–n–s–t–a–r–r–t–e–p–o–j–a–v–
+24 estens wor adopting -> –e–s–t–e–n–s–w–o–r–a–d–o–p–t–i–n–g–
+25 leis peu residual -> –l–e–i–s–p–e–u–r–e–s–i–d–u–a–l–
+26 fect poured cukup -> –f–e–c–t–p–o–u–r–e–d–c–u–k–u–p–
+27 dil geworden charge -> –d–i–l–g–e–w–o–r–d–e–n–c–h–a–r–g–e–
+28 nab gav kinda -> –n–a–b–g–a–v–k–i–n–d–a–
+29 tons figlia avert -> –t–o–n–s–f–i–g–l–i–a–a–v–e–r–t–
+30 animated poursuiv compl -> –a–n–i–m–a–t–e–d–p–o–u–r–s–u–i–v–c–o–m–p–l–
+31 oda ils cohesive -> –o–d–a–i–l–s–c–o–h–e–s–i–v–e–
+32 conomic wealth same -> –c–o–n–o–m–i–c–w–e–a–l–t–h–s–a–m–e–
+33 ajax atlet verband -> –a–j–a–x–a–t–l–e–t–v–e–r–b–a–n–d–
+34 elijk faixa medium -> –e–l–i–j–k–f–a–i–x–a–m–e–d–i–u–m–
+35 dda neues proiz -> –d–d–a–n–e–u–e–s–p–r–o–i–z–
+36 ento edifici pregunt -> –e–n–t–o–e–d–i–f–i–c–i–p–r–e–g–u–n–t–
+37 ouvert eau etern -> –o–u–v–e–r–t–e–a–u–e–t–e–r–n–
+38 ighteous phylogen resulted -> –i–g–h–t–e–o–u–s–p–h–y–l–o–g–e–n–r–e–s–u–l–t–e–d–
+39 iano accessed resource -> –i–a–n–o–a–c–c–e–s–s–e–d–r–e–s–o–u–r–c–e–
+40 random onset event -> –r–a–n–d–o–m–o–n–s–e–t–e–v–e–n–t–
+41 nya bawah verloor -> –n–y–a–b–a–w–a–h–v–e–r–l–o–o–r–
+42 igkeit folded francia -> –i–g–k–e–i–t–f–o–l–d–e–d–f–r–a–n–c–i–a–
+43 lal iam promised -> –l–a–l–i–a–m–p–r–o–m–i–s–e–d–
+44 vodu platinum baita -> –v–o–d–u–p–l–a–t–i–n–u–m–b–a–i–t–a–
+45 piper obszar prices -> –p–i–p–e–r–o–b–s–z–a–r–p–r–i–c–e–s–
+46 ckich olhou alien -> –c–k–i–c–h–o–l–h–o–u–a–l–i–e–n–
+47 uuid comedia phosphor -> –u–u–i–d–c–o–m–e–d–i–a–p–h–o–s–p–h–o–r–
+48 inch droplet couche -> –i–n–c–h–d–r–o–p–l–e–t–c–o–u–c–h–e–
+49 aju szt heading -> –a–j–u–s–z–t–h–e–a–d–i–n–g–
+50 plets login peroxid -> –p–l–e–t–s–l–o–g–i–n–p–e–r–o–x–i–d–
+51 schiff fiori urkund -> –s–c–h–i–f–f–f–i–o–r–i–u–r–k–u–n–d–
+52 story cannot modem -> –s–t–o–r–y–c–a–n–n–o–t–m–o–d–e–m–
+53 ushed san cyt -> –u–s–h–e–d–s–a–n–c–y–t–
+54 online not suk -> –o–n–l–i–n–e–n–o–t–s–u–k–
+55 uzzle paso ingress -> –u–z–z–l–e–p–a–s–o–i–n–g–r–e–s–s–
+56 ajn hadn tourna -> –a–j–n–h–a–d–n–t–o–u–r–n–a–
+57 indow predst unseen -> –i–n–d–o–w–p–r–e–d–s–t–u–n–s–e–e–n–
+58 pour appeared packs -> –p–o–u–r–a–p–p–e–a–r–e–d–p–a–c–k–s–
+59 ickets sizes riten -> –i–c–k–e–t–s–s–i–z–e–s–r–i–t–e–n–
+60 xelles locker terrib -> –x–e–l–l–e–s–l–o–c–k–e–r–t–e–r–r–i–b–
+61 gamma coatings profond -> –g–a–m–m–a–c–o–a–t–i–n–g–s–p–r–o–f–o–n–d–
+62 itter linee wells -> –i–t–t–e–r–l–i–n–e–e–w–e–l–l–s–
+63 arked remix feles -> –a–r–k–e–d–r–e–m–i–x–f–e–l–e–s–
+64 uchs bouts prikaz -> –u–c–h–s–b–o–u–t–s–p–r–i–k–a–z–
+65 tasks termina ramener -> –t–a–s–k–s–t–e–r–m–i–n–a–r–a–m–e–n–e–r–
+66 och defines abruptly -> –o–c–h–d–e–f–i–n–e–s–a–b–r–u–p–t–l–y–
+67 already drops dioses -> –a–l–r–e–a–d–y–d–r–o–p–s–d–i–o–s–e–s–
+68 noj rs kons -> –n–o–j–r–s–k–o–n–s–
+69 iggers respe giorn -> –i–g–g–e–r–s–r–e–s–p–e–g–i–o–r–n–
+70 essa flush binomial -> –e–s–s–a–f–l–u–s–h–b–i–n–o–m–i–a–l–
+71 zung mechanic against -> –z–u–n–g–m–e–c–h–a–n–i–c–a–g–a–i–n–s–t–
+72 oking ensures schilder -> –o–k–i–n–g–e–n–s–u–r–e–s–s–c–h–i–l–d–e–r–
+73 elenov etapas ersch -> –e–l–e–n–o–v–e–t–a–p–a–s–e–r–s–c–h–
+74 scheid sat muncul -> –s–c–h–e–i–d–s–a–t–m–u–n–c–u–l–
+75 comun failure man -> –c–o–m–u–n–f–a–i–l–u–r–e–m–a–n–
+76 enticate resolve hous -> –e–n–t–i–c–a–t–e–r–e–s–o–l–v–e–h–o–u–s–
+77 leten vidas grocery -> –l–e–t–e–n–v–i–d–a–s–g–r–o–c–e–r–y–
+78 issi immigr nunha -> –i–s–s–i–i–m–m–i–g–r–n–u–n–h–a–
+79 assini dj citrus -> –a–s–s–i–n–i–d–j–c–i–t–r–u–s–
+80 colon controle direkt -> –c–o–l–o–n–c–o–n–t–r–o–l–e–d–i–r–e–k–t–
+81 conti atelier aver -> –c–o–n–t–i–a–t–e–l–i–e–r–a–v–e–r–
+82 estand miejscu urbo -> –e–s–t–a–n–d–m–i–e–j–s–c–u–u–r–b–o–
+83 ppure uz descre -> –p–p–u–r–e–u–z–d–e–s–c–r–e–
+84 giving spielen funcion -> –g–i–v–i–n–g–s–p–i–e–l–e–n–f–u–n–c–i–o–n–
+85 eso temb genealog -> –e–s–o–t–e–m–b–g–e–n–e–a–l–o–g–
+86 ystem shoved dikel -> –y–s–t–e–m–s–h–o–v–e–d–d–i–k–e–l–
+87 odb longueur tun -> –o–d–b–l–o–n–g–u–e–u–r–t–u–n–
+88 zny veg day -> –z–n–y–v–e–g–d–a–y–
+89 addr hl arist -> –a–d–d–r–h–l–a–r–i–s–t–
+90 vos city hurts -> –v–o–s–c–i–t–y–h–u–r–t–s–
+91 stances endroit suivante -> –s–t–a–n–c–e–s–e–n–d–r–o–i–t–s–u–i–v–a–n–t–e–
+92 ffi vur haur -> –f–f–i–v–u–r–h–a–u–r–
+93 stava urls welches -> –s–t–a–v–a–u–r–l–s–w–e–l–c–h–e–s–
+94 fung eing rato -> –f–u–n–g–e–i–n–g–r–a–t–o–
+95 missions mans keyboard -> –m–i–s–s–i–o–n–s–m–a–n–s–k–e–y–b–o–a–r–d–
+96 ucha olu respecte -> –u–c–h–a–o–l–u–r–e–s–p–e–c–t–e–
+97 iances olib perioden -> –i–a–n–c–e–s–o–l–i–b–p–e–r–i–o–d–e–n–
+98 de fluores davom -> –d–e–f–l–u–o–r–e–s–d–a–v–o–m–
+99 plit ukl acar -> –p–l–i–t–u–k–l–a–c–a–r–

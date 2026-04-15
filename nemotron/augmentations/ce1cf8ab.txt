@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 ett lease abr
+01 anju adviser sejak
+02 ethel cena dominio
+
+This is a sample output.
+00 ett lease abr -> –e–t–t–l–e–a–s–e–a–b–r–
+01 anju adviser sejak -> –a–n–j–u–a–d–v–i–s–e–r–s–e–j–a–k–
+02 ethel cena dominio -> –e–t–h–e–l–c–e–n–a–d–o–m–i–n–i–o–
+
+This is your input.
+00 cols credits benefit
+01 ziel educate cube
+02 chai bog causando
+03 essoa manipul website
+04 atian pog antips
+05 risa kembali defesa
+06 ally acto kirj
+07 embed trafen tor
+08 fections tilbake cref
+09 annter vies glo
+10 anen seek jouer
+11 widehat dritten chiens
+12 parallel anglo veri
+13 isance saud energi
+14 ylo zul trovano
+15 results nariz gespeeld
+16 cardi combines dod
+17 roscop eagle divin
+18 inkt desesper arsen
+19 luss erhalten township
+20 kem degraded disol
+21 quick forc alianza
+22 nected raconter unus
+23 atah bypass amico
+24 atus thr proofs
+25 atty mots sombre
+26 ju inicio meal
+27 genre aang treats
+28 ingale rather entirely
+29 urst strictly pandas
+30 izielle bow calls
+31 urus ht lower
+32 mina ekkor tall
+33 stru westward daw
+34 emma potrzeb tamb
+35 ierungen november arranged
+36 adder estat sek
+37 ttu pops retrouve
+38 stan explot brute
+39 iyi chk rus
+40 ylinder esas implying
+41 bildung brutal ear
+42 ischer monter relying
+43 matrix sifatida franske
+44 elftal vanuit logistic
+45 iru relative voul
+46 chell faol aparecer
+47 follow butter zerst
+48 inct elf eigenes
+49 optional embra comport
+50 atorium minerals prez
+51 quez vitamins belonged
+52 caps polling lubric
+53 aganda neuron drought
+54 umps terbesar lord
+55 urz envoy comunit
+56 ocie pusat cape
+57 rbita bevat aile
+58 punt pudo ventaja
+59 grado vibr orbits
+60 license hy podm
+61 ology estas nobody
+62 oplus somit iframe
+63 pis articles historic
+64 idemment eval vuole
+65 kih sean wish
+66 ountain knocked burn
+67 services inward punta
+68 acrylate push richt
+69 oem usted seizoen
+70 hausen donated rei
+71 onso flowing extern
+72 orni mast tash
+73 opathic causa digit
+74 zeugt disputes obsah
+75 iota tren impres
+76 pkg quarry mando
+77 cod profiter url
+78 credi alcal cosmetic
+79 hlen acabou plaque
+80 webpack oud segments
+81 riot deven underway
+82 chage rapid vyhl
+83 clampsia prompts euch
+84 cent eyed frustr
+85 ria estatal castillo
+86 cente qualc bale
+87 elden alemana lines
+88 herlands guten web
+89 ayer flow your
+90 enez tanah physics
+91 cloud utmost fior
+92 padding celeb contract
+93 uters sich spectral
+94 thern probe elite
+95 ernes kralj ofrece
+96 uestas simplify erig
+97 izal spro comis
+98 ytuc wishing embodied
+99 osen objev cush
+[completion]
+00 cols credits benefit -> –c–o–l–s–c–r–e–d–i–t–s–b–e–n–e–f–i–t–
+01 ziel educate cube -> –z–i–e–l–e–d–u–c–a–t–e–c–u–b–e–
+02 chai bog causando -> –c–h–a–i–b–o–g–c–a–u–s–a–n–d–o–
+03 essoa manipul website -> –e–s–s–o–a–m–a–n–i–p–u–l–w–e–b–s–i–t–e–
+04 atian pog antips -> –a–t–i–a–n–p–o–g–a–n–t–i–p–s–
+05 risa kembali defesa -> –r–i–s–a–k–e–m–b–a–l–i–d–e–f–e–s–a–
+06 ally acto kirj -> –a–l–l–y–a–c–t–o–k–i–r–j–
+07 embed trafen tor -> –e–m–b–e–d–t–r–a–f–e–n–t–o–r–
+08 fections tilbake cref -> –f–e–c–t–i–o–n–s–t–i–l–b–a–k–e–c–r–e–f–
+09 annter vies glo -> –a–n–n–t–e–r–v–i–e–s–g–l–o–
+10 anen seek jouer -> –a–n–e–n–s–e–e–k–j–o–u–e–r–
+11 widehat dritten chiens -> –w–i–d–e–h–a–t–d–r–i–t–t–e–n–c–h–i–e–n–s–
+12 parallel anglo veri -> –p–a–r–a–l–l–e–l–a–n–g–l–o–v–e–r–i–
+13 isance saud energi -> –i–s–a–n–c–e–s–a–u–d–e–n–e–r–g–i–
+14 ylo zul trovano -> –y–l–o–z–u–l–t–r–o–v–a–n–o–
+15 results nariz gespeeld -> –r–e–s–u–l–t–s–n–a–r–i–z–g–e–s–p–e–e–l–d–
+16 cardi combines dod -> –c–a–r–d–i–c–o–m–b–i–n–e–s–d–o–d–
+17 roscop eagle divin -> –r–o–s–c–o–p–e–a–g–l–e–d–i–v–i–n–
+18 inkt desesper arsen -> –i–n–k–t–d–e–s–e–s–p–e–r–a–r–s–e–n–
+19 luss erhalten township -> –l–u–s–s–e–r–h–a–l–t–e–n–t–o–w–n–s–h–i–p–
+20 kem degraded disol -> –k–e–m–d–e–g–r–a–d–e–d–d–i–s–o–l–
+21 quick forc alianza -> –q–u–i–c–k–f–o–r–c–a–l–i–a–n–z–a–
+22 nected raconter unus -> –n–e–c–t–e–d–r–a–c–o–n–t–e–r–u–n–u–s–
+23 atah bypass amico -> –a–t–a–h–b–y–p–a–s–s–a–m–i–c–o–
+24 atus thr proofs -> –a–t–u–s–t–h–r–p–r–o–o–f–s–
+25 atty mots sombre -> –a–t–t–y–m–o–t–s–s–o–m–b–r–e–
+26 ju inicio meal -> –j–u–i–n–i–c–i–o–m–e–a–l–
+27 genre aang treats -> –g–e–n–r–e–a–a–n–g–t–r–e–a–t–s–
+28 ingale rather entirely -> –i–n–g–a–l–e–r–a–t–h–e–r–e–n–t–i–r–e–l–y–
+29 urst strictly pandas -> –u–r–s–t–s–t–r–i–c–t–l–y–p–a–n–d–a–s–
+30 izielle bow calls -> –i–z–i–e–l–l–e–b–o–w–c–a–l–l–s–
+31 urus ht lower -> –u–r–u–s–h–t–l–o–w–e–r–
+32 mina ekkor tall -> –m–i–n–a–e–k–k–o–r–t–a–l–l–
+33 stru westward daw -> –s–t–r–u–w–e–s–t–w–a–r–d–d–a–w–
+34 emma potrzeb tamb -> –e–m–m–a–p–o–t–r–z–e–b–t–a–m–b–
+35 ierungen november arranged -> –i–e–r–u–n–g–e–n–n–o–v–e–m–b–e–r–a–r–r–a–n–g–e–d–
+36 adder estat sek -> –a–d–d–e–r–e–s–t–a–t–s–e–k–
+37 ttu pops retrouve -> –t–t–u–p–o–p–s–r–e–t–r–o–u–v–e–
+38 stan explot brute -> –s–t–a–n–e–x–p–l–o–t–b–r–u–t–e–
+39 iyi chk rus -> –i–y–i–c–h–k–r–u–s–
+40 ylinder esas implying -> –y–l–i–n–d–e–r–e–s–a–s–i–m–p–l–y–i–n–g–
+41 bildung brutal ear -> –b–i–l–d–u–n–g–b–r–u–t–a–l–e–a–r–
+42 ischer monter relying -> –i–s–c–h–e–r–m–o–n–t–e–r–r–e–l–y–i–n–g–
+43 matrix sifatida franske -> –m–a–t–r–i–x–s–i–f–a–t–i–d–a–f–r–a–n–s–k–e–
+44 elftal vanuit logistic -> –e–l–f–t–a–l–v–a–n–u–i–t–l–o–g–i–s–t–i–c–
+45 iru relative voul -> –i–r–u–r–e–l–a–t–i–v–e–v–o–u–l–
+46 chell faol aparecer -> –c–h–e–l–l–f–a–o–l–a–p–a–r–e–c–e–r–
+47 follow butter zerst -> –f–o–l–l–o–w–b–u–t–t–e–r–z–e–r–s–t–
+48 inct elf eigenes -> –i–n–c–t–e–l–f–e–i–g–e–n–e–s–
+49 optional embra comport -> –o–p–t–i–o–n–a–l–e–m–b–r–a–c–o–m–p–o–r–t–
+50 atorium minerals prez -> –a–t–o–r–i–u–m–m–i–n–e–r–a–l–s–p–r–e–z–
+51 quez vitamins belonged -> –q–u–e–z–v–i–t–a–m–i–n–s–b–e–l–o–n–g–e–d–
+52 caps polling lubric -> –c–a–p–s–p–o–l–l–i–n–g–l–u–b–r–i–c–
+53 aganda neuron drought -> –a–g–a–n–d–a–n–e–u–r–o–n–d–r–o–u–g–h–t–
+54 umps terbesar lord -> –u–m–p–s–t–e–r–b–e–s–a–r–l–o–r–d–
+55 urz envoy comunit -> –u–r–z–e–n–v–o–y–c–o–m–u–n–i–t–
+56 ocie pusat cape -> –o–c–i–e–p–u–s–a–t–c–a–p–e–
+57 rbita bevat aile -> –r–b–i–t–a–b–e–v–a–t–a–i–l–e–
+58 punt pudo ventaja -> –p–u–n–t–p–u–d–o–v–e–n–t–a–j–a–
+59 grado vibr orbits -> –g–r–a–d–o–v–i–b–r–o–r–b–i–t–s–
+60 license hy podm -> –l–i–c–e–n–s–e–h–y–p–o–d–m–
+61 ology estas nobody -> –o–l–o–g–y–e–s–t–a–s–n–o–b–o–d–y–
+62 oplus somit iframe -> –o–p–l–u–s–s–o–m–i–t–i–f–r–a–m–e–
+63 pis articles historic -> –p–i–s–a–r–t–i–c–l–e–s–h–i–s–t–o–r–i–c–
+64 idemment eval vuole -> –i–d–e–m–m–e–n–t–e–v–a–l–v–u–o–l–e–
+65 kih sean wish -> –k–i–h–s–e–a–n–w–i–s–h–
+66 ountain knocked burn -> –o–u–n–t–a–i–n–k–n–o–c–k–e–d–b–u–r–n–
+67 services inward punta -> –s–e–r–v–i–c–e–s–i–n–w–a–r–d–p–u–n–t–a–
+68 acrylate push richt -> –a–c–r–y–l–a–t–e–p–u–s–h–r–i–c–h–t–
+69 oem usted seizoen -> –o–e–m–u–s–t–e–d–s–e–i–z–o–e–n–
+70 hausen donated rei -> –h–a–u–s–e–n–d–o–n–a–t–e–d–r–e–i–
+71 onso flowing extern -> –o–n–s–o–f–l–o–w–i–n–g–e–x–t–e–r–n–
+72 orni mast tash -> –o–r–n–i–m–a–s–t–t–a–s–h–
+73 opathic causa digit -> –o–p–a–t–h–i–c–c–a–u–s–a–d–i–g–i–t–
+74 zeugt disputes obsah -> –z–e–u–g–t–d–i–s–p–u–t–e–s–o–b–s–a–h–
+75 iota tren impres -> –i–o–t–a–t–r–e–n–i–m–p–r–e–s–
+76 pkg quarry mando -> –p–k–g–q–u–a–r–r–y–m–a–n–d–o–
+77 cod profiter url -> –c–o–d–p–r–o–f–i–t–e–r–u–r–l–
+78 credi alcal cosmetic -> –c–r–e–d–i–a–l–c–a–l–c–o–s–m–e–t–i–c–
+79 hlen acabou plaque -> –h–l–e–n–a–c–a–b–o–u–p–l–a–q–u–e–
+80 webpack oud segments -> –w–e–b–p–a–c–k–o–u–d–s–e–g–m–e–n–t–s–
+81 riot deven underway -> –r–i–o–t–d–e–v–e–n–u–n–d–e–r–w–a–y–
+82 chage rapid vyhl -> –c–h–a–g–e–r–a–p–i–d–v–y–h–l–
+83 clampsia prompts euch -> –c–l–a–m–p–s–i–a–p–r–o–m–p–t–s–e–u–c–h–
+84 cent eyed frustr -> –c–e–n–t–e–y–e–d–f–r–u–s–t–r–
+85 ria estatal castillo -> –r–i–a–e–s–t–a–t–a–l–c–a–s–t–i–l–l–o–
+86 cente qualc bale -> –c–e–n–t–e–q–u–a–l–c–b–a–l–e–
+87 elden alemana lines -> –e–l–d–e–n–a–l–e–m–a–n–a–l–i–n–e–s–
+88 herlands guten web -> –h–e–r–l–a–n–d–s–g–u–t–e–n–w–e–b–
+89 ayer flow your -> –a–y–e–r–f–l–o–w–y–o–u–r–
+90 enez tanah physics -> –e–n–e–z–t–a–n–a–h–p–h–y–s–i–c–s–
+91 cloud utmost fior -> –c–l–o–u–d–u–t–m–o–s–t–f–i–o–r–
+92 padding celeb contract -> –p–a–d–d–i–n–g–c–e–l–e–b–c–o–n–t–r–a–c–t–
+93 uters sich spectral -> –u–t–e–r–s–s–i–c–h–s–p–e–c–t–r–a–l–
+94 thern probe elite -> –t–h–e–r–n–p–r–o–b–e–e–l–i–t–e–
+95 ernes kralj ofrece -> –e–r–n–e–s–k–r–a–l–j–o–f–r–e–c–e–
+96 uestas simplify erig -> –u–e–s–t–a–s–s–i–m–p–l–i–f–y–e–r–i–g–
+97 izal spro comis -> –i–z–a–l–s–p–r–o–c–o–m–i–s–
+98 ytuc wishing embodied -> –y–t–u–c–w–i–s–h–i–n–g–e–m–b–o–d–i–e–d–
+99 osen objev cush -> –o–s–e–n–o–b–j–e–v–c–u–s–h–

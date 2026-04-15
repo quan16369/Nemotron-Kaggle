@@ -1,0 +1,29 @@
+problem id: ec92f091
+category: cryptarithm_deduce
+
+symbol-to-digit mapping:
+  '!' = 1
+  '$' = 5
+  '&' = 9
+  '/' = 6
+  '<' = 7
+  '>' = 2
+  '[' = 3
+  '\\' = 0
+  ']' = 8
+  '`' = 4
+
+operator-to-operation mapping:
+  '+' = add
+  '-' = abs_diff
+
+examples:
+  >`+>> = `/  =>  24 + 22 = 46
+  $>-`$ = <  =>  |52 - 45| = 7
+  &]+>` = !>>  =>  98 + 24 = 122
+  `$+$] = !\[  =>  45 + 58 = 103
+  ]$+!& = !\`  =>  85 + 19 = 104
+
+query: ![+/[  =>  13 + 63 = 76
+
+predicted answer: </

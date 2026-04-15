@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 cuper attendu worms
+01 aism iyi cocina
+02 chino bestaat stops
+
+This is a sample output.
+00 cuper attendu worms -> –c–u–p–e–r–a–t–t–e–n–d–u–w–o–r–m–s–
+01 aism iyi cocina -> –a–i–s–m–i–y–i–c–o–c–i–n–a–
+02 chino bestaat stops -> –c–h–i–n–o–b–e–s–t–a–a–t–s–t–o–p–s–
+
+This is your input.
+00 uesday bulky milij
+01 iskop scream vouloir
+02 estamp kann contribu
+03 harma atent last
+04 backer bats wat
+05 kr closely notice
+06 aaa masking equity
+07 writer solitude desses
+08 feature dikenal fin
+09 breaks conosc duplex
+10 ocus subway tra
+11 ikari bolj card
+12 secure bottlene fairness
+13 ficie hautes certific
+14 stab marsh grand
+15 arle proposal contests
+16 ectoria tener testis
+17 leigh amici amelyet
+18 occo rique enkel
+19 vali kicks disease
+20 finden contre urbaine
+21 rechte sous hair
+22 stuff decret rap
+23 peg igaz statt
+24 ve fiddle yaxshi
+25 irai enged but
+26 while fistula vittoria
+27 obj tm mura
+28 azol aufweist produtor
+29 insa mi tyto
+30 neau gio vent
+31 eraient bege erhe
+32 reas wholly riguard
+33 ishna goal quis
+34 userdata stake obstruct
+35 gem puisqu cf
+36 overflow only gru
+37 aka tonal trench
+38 ahl uomo troepen
+39 cess adres dezembro
+40 label marrow fief
+41 awn jazy glavni
+42 avaient vork swear
+43 ylem jout champ
+44 version remarked paura
+45 emde tqdm flats
+46 edges with forma
+47 final buvo sellers
+48 ienia gewesen provoke
+49 thren dava ymp
+50 brand chanter camino
+51 ennes fals lateinit
+52 undert statut tarif
+53 ardoor democrat lift
+54 renn cero traverse
+55 rope nessuna fx
+56 agni coronel conduire
+57 shore cuello hac
+58 lieb nga zemlje
+59 vrd fuels dst
+60 orque allows blends
+61 pellier sweeping descente
+62 asted giant lig
+63 trim aktibo beteil
+64 pic seg zam
+65 wp zieht elevate
+66 otu rand verurs
+67 enable acud njega
+68 eker acre cima
+69 auss rate dol
+70 agascar ego even
+71 oling vitin momentos
+72 cej jejich esencial
+73 tv jumlah moines
+74 ioni weeds overt
+75 ko convict cultiv
+76 iales pocos inkl
+77 insam epilepsy painted
+78 philis forb fa
+79 ieux gor vede
+80 series title destacan
+81 ragment neph betrug
+82 fr meisten konge
+83 folge tau durfte
+84 edas einfach shakes
+85 port utiliz entren
+86 came kiuj mine
+87 aptiste biggest uninter
+88 antik alguno luggage
+89 igita elm nice
+90 members exempel lands
+91 iller abert owl
+92 grid curious ocupar
+93 celand synthes golf
+94 bet dormant easy
+95 vale groups kits
+96 estable worms ast
+97 idelines regard rejoint
+98 reading destino absolute
+99 interest cocina becoming
+[completion]
+00 uesday bulky milij -> –u–e–s–d–a–y–b–u–l–k–y–m–i–l–i–j–
+01 iskop scream vouloir -> –i–s–k–o–p–s–c–r–e–a–m–v–o–u–l–o–i–r–
+02 estamp kann contribu -> –e–s–t–a–m–p–k–a–n–n–c–o–n–t–r–i–b–u–
+03 harma atent last -> –h–a–r–m–a–a–t–e–n–t–l–a–s–t–
+04 backer bats wat -> –b–a–c–k–e–r–b–a–t–s–w–a–t–
+05 kr closely notice -> –k–r–c–l–o–s–e–l–y–n–o–t–i–c–e–
+06 aaa masking equity -> –a–a–a–m–a–s–k–i–n–g–e–q–u–i–t–y–
+07 writer solitude desses -> –w–r–i–t–e–r–s–o–l–i–t–u–d–e–d–e–s–s–e–s–
+08 feature dikenal fin -> –f–e–a–t–u–r–e–d–i–k–e–n–a–l–f–i–n–
+09 breaks conosc duplex -> –b–r–e–a–k–s–c–o–n–o–s–c–d–u–p–l–e–x–
+10 ocus subway tra -> –o–c–u–s–s–u–b–w–a–y–t–r–a–
+11 ikari bolj card -> –i–k–a–r–i–b–o–l–j–c–a–r–d–
+12 secure bottlene fairness -> –s–e–c–u–r–e–b–o–t–t–l–e–n–e–f–a–i–r–n–e–s–s–
+13 ficie hautes certific -> –f–i–c–i–e–h–a–u–t–e–s–c–e–r–t–i–f–i–c–
+14 stab marsh grand -> –s–t–a–b–m–a–r–s–h–g–r–a–n–d–
+15 arle proposal contests -> –a–r–l–e–p–r–o–p–o–s–a–l–c–o–n–t–e–s–t–s–
+16 ectoria tener testis -> –e–c–t–o–r–i–a–t–e–n–e–r–t–e–s–t–i–s–
+17 leigh amici amelyet -> –l–e–i–g–h–a–m–i–c–i–a–m–e–l–y–e–t–
+18 occo rique enkel -> –o–c–c–o–r–i–q–u–e–e–n–k–e–l–
+19 vali kicks disease -> –v–a–l–i–k–i–c–k–s–d–i–s–e–a–s–e–
+20 finden contre urbaine -> –f–i–n–d–e–n–c–o–n–t–r–e–u–r–b–a–i–n–e–
+21 rechte sous hair -> –r–e–c–h–t–e–s–o–u–s–h–a–i–r–
+22 stuff decret rap -> –s–t–u–f–f–d–e–c–r–e–t–r–a–p–
+23 peg igaz statt -> –p–e–g–i–g–a–z–s–t–a–t–t–
+24 ve fiddle yaxshi -> –v–e–f–i–d–d–l–e–y–a–x–s–h–i–
+25 irai enged but -> –i–r–a–i–e–n–g–e–d–b–u–t–
+26 while fistula vittoria -> –w–h–i–l–e–f–i–s–t–u–l–a–v–i–t–t–o–r–i–a–
+27 obj tm mura -> –o–b–j–t–m–m–u–r–a–
+28 azol aufweist produtor -> –a–z–o–l–a–u–f–w–e–i–s–t–p–r–o–d–u–t–o–r–
+29 insa mi tyto -> –i–n–s–a–m–i–t–y–t–o–
+30 neau gio vent -> –n–e–a–u–g–i–o–v–e–n–t–
+31 eraient bege erhe -> –e–r–a–i–e–n–t–b–e–g–e–e–r–h–e–
+32 reas wholly riguard -> –r–e–a–s–w–h–o–l–l–y–r–i–g–u–a–r–d–
+33 ishna goal quis -> –i–s–h–n–a–g–o–a–l–q–u–i–s–
+34 userdata stake obstruct -> –u–s–e–r–d–a–t–a–s–t–a–k–e–o–b–s–t–r–u–c–t–
+35 gem puisqu cf -> –g–e–m–p–u–i–s–q–u–c–f–
+36 overflow only gru -> –o–v–e–r–f–l–o–w–o–n–l–y–g–r–u–
+37 aka tonal trench -> –a–k–a–t–o–n–a–l–t–r–e–n–c–h–
+38 ahl uomo troepen -> –a–h–l–u–o–m–o–t–r–o–e–p–e–n–
+39 cess adres dezembro -> –c–e–s–s–a–d–r–e–s–d–e–z–e–m–b–r–o–
+40 label marrow fief -> –l–a–b–e–l–m–a–r–r–o–w–f–i–e–f–
+41 awn jazy glavni -> –a–w–n–j–a–z–y–g–l–a–v–n–i–
+42 avaient vork swear -> –a–v–a–i–e–n–t–v–o–r–k–s–w–e–a–r–
+43 ylem jout champ -> –y–l–e–m–j–o–u–t–c–h–a–m–p–
+44 version remarked paura -> –v–e–r–s–i–o–n–r–e–m–a–r–k–e–d–p–a–u–r–a–
+45 emde tqdm flats -> –e–m–d–e–t–q–d–m–f–l–a–t–s–
+46 edges with forma -> –e–d–g–e–s–w–i–t–h–f–o–r–m–a–
+47 final buvo sellers -> –f–i–n–a–l–b–u–v–o–s–e–l–l–e–r–s–
+48 ienia gewesen provoke -> –i–e–n–i–a–g–e–w–e–s–e–n–p–r–o–v–o–k–e–
+49 thren dava ymp -> –t–h–r–e–n–d–a–v–a–y–m–p–
+50 brand chanter camino -> –b–r–a–n–d–c–h–a–n–t–e–r–c–a–m–i–n–o–
+51 ennes fals lateinit -> –e–n–n–e–s–f–a–l–s–l–a–t–e–i–n–i–t–
+52 undert statut tarif -> –u–n–d–e–r–t–s–t–a–t–u–t–t–a–r–i–f–
+53 ardoor democrat lift -> –a–r–d–o–o–r–d–e–m–o–c–r–a–t–l–i–f–t–
+54 renn cero traverse -> –r–e–n–n–c–e–r–o–t–r–a–v–e–r–s–e–
+55 rope nessuna fx -> –r–o–p–e–n–e–s–s–u–n–a–f–x–
+56 agni coronel conduire -> –a–g–n–i–c–o–r–o–n–e–l–c–o–n–d–u–i–r–e–
+57 shore cuello hac -> –s–h–o–r–e–c–u–e–l–l–o–h–a–c–
+58 lieb nga zemlje -> –l–i–e–b–n–g–a–z–e–m–l–j–e–
+59 vrd fuels dst -> –v–r–d–f–u–e–l–s–d–s–t–
+60 orque allows blends -> –o–r–q–u–e–a–l–l–o–w–s–b–l–e–n–d–s–
+61 pellier sweeping descente -> –p–e–l–l–i–e–r–s–w–e–e–p–i–n–g–d–e–s–c–e–n–t–e–
+62 asted giant lig -> –a–s–t–e–d–g–i–a–n–t–l–i–g–
+63 trim aktibo beteil -> –t–r–i–m–a–k–t–i–b–o–b–e–t–e–i–l–
+64 pic seg zam -> –p–i–c–s–e–g–z–a–m–
+65 wp zieht elevate -> –w–p–z–i–e–h–t–e–l–e–v–a–t–e–
+66 otu rand verurs -> –o–t–u–r–a–n–d–v–e–r–u–r–s–
+67 enable acud njega -> –e–n–a–b–l–e–a–c–u–d–n–j–e–g–a–
+68 eker acre cima -> –e–k–e–r–a–c–r–e–c–i–m–a–
+69 auss rate dol -> –a–u–s–s–r–a–t–e–d–o–l–
+70 agascar ego even -> –a–g–a–s–c–a–r–e–g–o–e–v–e–n–
+71 oling vitin momentos -> –o–l–i–n–g–v–i–t–i–n–m–o–m–e–n–t–o–s–
+72 cej jejich esencial -> –c–e–j–j–e–j–i–c–h–e–s–e–n–c–i–a–l–
+73 tv jumlah moines -> –t–v–j–u–m–l–a–h–m–o–i–n–e–s–
+74 ioni weeds overt -> –i–o–n–i–w–e–e–d–s–o–v–e–r–t–
+75 ko convict cultiv -> –k–o–c–o–n–v–i–c–t–c–u–l–t–i–v–
+76 iales pocos inkl -> –i–a–l–e–s–p–o–c–o–s–i–n–k–l–
+77 insam epilepsy painted -> –i–n–s–a–m–e–p–i–l–e–p–s–y–p–a–i–n–t–e–d–
+78 philis forb fa -> –p–h–i–l–i–s–f–o–r–b–f–a–
+79 ieux gor vede -> –i–e–u–x–g–o–r–v–e–d–e–
+80 series title destacan -> –s–e–r–i–e–s–t–i–t–l–e–d–e–s–t–a–c–a–n–
+81 ragment neph betrug -> –r–a–g–m–e–n–t–n–e–p–h–b–e–t–r–u–g–
+82 fr meisten konge -> –f–r–m–e–i–s–t–e–n–k–o–n–g–e–
+83 folge tau durfte -> –f–o–l–g–e–t–a–u–d–u–r–f–t–e–
+84 edas einfach shakes -> –e–d–a–s–e–i–n–f–a–c–h–s–h–a–k–e–s–
+85 port utiliz entren -> –p–o–r–t–u–t–i–l–i–z–e–n–t–r–e–n–
+86 came kiuj mine -> –c–a–m–e–k–i–u–j–m–i–n–e–
+87 aptiste biggest uninter -> –a–p–t–i–s–t–e–b–i–g–g–e–s–t–u–n–i–n–t–e–r–
+88 antik alguno luggage -> –a–n–t–i–k–a–l–g–u–n–o–l–u–g–g–a–g–e–
+89 igita elm nice -> –i–g–i–t–a–e–l–m–n–i–c–e–
+90 members exempel lands -> –m–e–m–b–e–r–s–e–x–e–m–p–e–l–l–a–n–d–s–
+91 iller abert owl -> –i–l–l–e–r–a–b–e–r–t–o–w–l–
+92 grid curious ocupar -> –g–r–i–d–c–u–r–i–o–u–s–o–c–u–p–a–r–
+93 celand synthes golf -> –c–e–l–a–n–d–s–y–n–t–h–e–s–g–o–l–f–
+94 bet dormant easy -> –b–e–t–d–o–r–m–a–n–t–e–a–s–y–
+95 vale groups kits -> –v–a–l–e–g–r–o–u–p–s–k–i–t–s–
+96 estable worms ast -> –e–s–t–a–b–l–e–w–o–r–m–s–a–s–t–
+97 idelines regard rejoint -> –i–d–e–l–i–n–e–s–r–e–g–a–r–d–r–e–j–o–i–n–t–
+98 reading destino absolute -> –r–e–a–d–i–n–g–d–e–s–t–i–n–o–a–b–s–o–l–u–t–e–
+99 interest cocina becoming -> –i–n–t–e–r–e–s–t–c–o–c–i–n–a–b–e–c–o–m–i–n–g–

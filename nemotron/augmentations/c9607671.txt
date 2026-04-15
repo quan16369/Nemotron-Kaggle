@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 coal jedan poul
+01 atuak prit college
+02 proxy chacune onset
+
+This is a sample output.
+00 coal jedan poul -> –c–o–a–l–j–e–d–a–n–p–o–u–l–
+01 atuak prit college -> –a–t–u–a–k–p–r–i–t–c–o–l–l–e–g–e–
+02 proxy chacune onset -> –p–r–o–x–y–c–h–a–c–u–n–e–o–n–s–e–t–
+
+This is your input.
+00 orrow frapper novo
+01 ritu serien hall
+02 radius erau svilupp
+03 mathtt hold eas
+04 ku exacerb mainly
+05 dim juvent moiety
+06 fass ajout voor
+07 pb normal puso
+08 icher jurnal coat
+09 sum svoju ke
+10 iyor imposs fright
+11 nn pleas coh
+12 ikki revend cinque
+13 epper ruptura meetings
+14 ainment vesicles vacant
+15 star gym semana
+16 tegr imagens culpa
+17 ators senc grupp
+18 velt afferm oocyte
+19 iendo magie ekonomi
+20 prod orgasm personne
+21 oppi ero conquest
+22 gui gather rosa
+23 stackrel nu tests
+24 erts hil batera
+25 blatt carry intentar
+26 ziale axial spores
+27 ucht vorg curly
+28 okol mesta menos
+29 dates overd tras
+30 maybe rolls oj
+31 utat direkte enormes
+32 extend forts primary
+33 quinas graf zentral
+34 amycin late outcome
+35 munity aliqu doen
+36 irty ikki flick
+37 grade cough noite
+38 stituto largas ail
+39 yside buku elder
+40 iteks dex wohl
+41 azzo coureurs dekor
+42 ake spans merk
+43 istani after valori
+44 udget zob costo
+45 unter senso komm
+46 ollapse havas confine
+47 techn altering mandat
+48 pital kuch conserv
+49 ahr crashing moto
+50 iew nego neck
+51 poner limits hiring
+52 urem nativos nekaj
+53 zawa lon integra
+54 ubble synthase argv
+55 geblich deel relat
+56 jeti enroll dirigea
+57 render prem handic
+58 fic onafhank glue
+59 onde overse kai
+60 encoding oblasti ischemia
+61 erving morph held
+62 cross fetching quem
+63 pired bash stu
+64 den robe succ
+65 went teas veure
+66 gold reliant hechos
+67 telling boundary stoletja
+68 liedert advisor moderna
+69 rupa toluene stirred
+70 rp birds mejor
+71 ats scaling azon
+72 uxley zawier organ
+73 ager balance bah
+74 rofit verbal cyclin
+75 stwo frequent workshop
+76 conde suks solcher
+77 etails acted volk
+78 mena establ indic
+79 odynam extender vont
+80 iven elevado fusil
+81 ophore show parishes
+82 othing luar richness
+83 vehicle gif replica
+84 avnom set leaks
+85 hist daarop enorme
+86 olino herrsch diffus
+87 neb dilution beta
+88 plier teorema clang
+89 imer teljesen dipole
+90 estaur rassembl pousser
+91 iti contente fibrosis
+92 legraph dode denunci
+93 wyr biomass acordo
+94 yma partager diamonds
+95 ancing mir bacteri
+96 dc repe strateg
+97 program garant nieuwe
+98 usuario verme text
+99 rase rob osasun
+[completion]
+00 orrow frapper novo -> –o–r–r–o–w–f–r–a–p–p–e–r–n–o–v–o–
+01 ritu serien hall -> –r–i–t–u–s–e–r–i–e–n–h–a–l–l–
+02 radius erau svilupp -> –r–a–d–i–u–s–e–r–a–u–s–v–i–l–u–p–p–
+03 mathtt hold eas -> –m–a–t–h–t–t–h–o–l–d–e–a–s–
+04 ku exacerb mainly -> –k–u–e–x–a–c–e–r–b–m–a–i–n–l–y–
+05 dim juvent moiety -> –d–i–m–j–u–v–e–n–t–m–o–i–e–t–y–
+06 fass ajout voor -> –f–a–s–s–a–j–o–u–t–v–o–o–r–
+07 pb normal puso -> –p–b–n–o–r–m–a–l–p–u–s–o–
+08 icher jurnal coat -> –i–c–h–e–r–j–u–r–n–a–l–c–o–a–t–
+09 sum svoju ke -> –s–u–m–s–v–o–j–u–k–e–
+10 iyor imposs fright -> –i–y–o–r–i–m–p–o–s–s–f–r–i–g–h–t–
+11 nn pleas coh -> –n–n–p–l–e–a–s–c–o–h–
+12 ikki revend cinque -> –i–k–k–i–r–e–v–e–n–d–c–i–n–q–u–e–
+13 epper ruptura meetings -> –e–p–p–e–r–r–u–p–t–u–r–a–m–e–e–t–i–n–g–s–
+14 ainment vesicles vacant -> –a–i–n–m–e–n–t–v–e–s–i–c–l–e–s–v–a–c–a–n–t–
+15 star gym semana -> –s–t–a–r–g–y–m–s–e–m–a–n–a–
+16 tegr imagens culpa -> –t–e–g–r–i–m–a–g–e–n–s–c–u–l–p–a–
+17 ators senc grupp -> –a–t–o–r–s–s–e–n–c–g–r–u–p–p–
+18 velt afferm oocyte -> –v–e–l–t–a–f–f–e–r–m–o–o–c–y–t–e–
+19 iendo magie ekonomi -> –i–e–n–d–o–m–a–g–i–e–e–k–o–n–o–m–i–
+20 prod orgasm personne -> –p–r–o–d–o–r–g–a–s–m–p–e–r–s–o–n–n–e–
+21 oppi ero conquest -> –o–p–p–i–e–r–o–c–o–n–q–u–e–s–t–
+22 gui gather rosa -> –g–u–i–g–a–t–h–e–r–r–o–s–a–
+23 stackrel nu tests -> –s–t–a–c–k–r–e–l–n–u–t–e–s–t–s–
+24 erts hil batera -> –e–r–t–s–h–i–l–b–a–t–e–r–a–
+25 blatt carry intentar -> –b–l–a–t–t–c–a–r–r–y–i–n–t–e–n–t–a–r–
+26 ziale axial spores -> –z–i–a–l–e–a–x–i–a–l–s–p–o–r–e–s–
+27 ucht vorg curly -> –u–c–h–t–v–o–r–g–c–u–r–l–y–
+28 okol mesta menos -> –o–k–o–l–m–e–s–t–a–m–e–n–o–s–
+29 dates overd tras -> –d–a–t–e–s–o–v–e–r–d–t–r–a–s–
+30 maybe rolls oj -> –m–a–y–b–e–r–o–l–l–s–o–j–
+31 utat direkte enormes -> –u–t–a–t–d–i–r–e–k–t–e–e–n–o–r–m–e–s–
+32 extend forts primary -> –e–x–t–e–n–d–f–o–r–t–s–p–r–i–m–a–r–y–
+33 quinas graf zentral -> –q–u–i–n–a–s–g–r–a–f–z–e–n–t–r–a–l–
+34 amycin late outcome -> –a–m–y–c–i–n–l–a–t–e–o–u–t–c–o–m–e–
+35 munity aliqu doen -> –m–u–n–i–t–y–a–l–i–q–u–d–o–e–n–
+36 irty ikki flick -> –i–r–t–y–i–k–k–i–f–l–i–c–k–
+37 grade cough noite -> –g–r–a–d–e–c–o–u–g–h–n–o–i–t–e–
+38 stituto largas ail -> –s–t–i–t–u–t–o–l–a–r–g–a–s–a–i–l–
+39 yside buku elder -> –y–s–i–d–e–b–u–k–u–e–l–d–e–r–
+40 iteks dex wohl -> –i–t–e–k–s–d–e–x–w–o–h–l–
+41 azzo coureurs dekor -> –a–z–z–o–c–o–u–r–e–u–r–s–d–e–k–o–r–
+42 ake spans merk -> –a–k–e–s–p–a–n–s–m–e–r–k–
+43 istani after valori -> –i–s–t–a–n–i–a–f–t–e–r–v–a–l–o–r–i–
+44 udget zob costo -> –u–d–g–e–t–z–o–b–c–o–s–t–o–
+45 unter senso komm -> –u–n–t–e–r–s–e–n–s–o–k–o–m–m–
+46 ollapse havas confine -> –o–l–l–a–p–s–e–h–a–v–a–s–c–o–n–f–i–n–e–
+47 techn altering mandat -> –t–e–c–h–n–a–l–t–e–r–i–n–g–m–a–n–d–a–t–
+48 pital kuch conserv -> –p–i–t–a–l–k–u–c–h–c–o–n–s–e–r–v–
+49 ahr crashing moto -> –a–h–r–c–r–a–s–h–i–n–g–m–o–t–o–
+50 iew nego neck -> –i–e–w–n–e–g–o–n–e–c–k–
+51 poner limits hiring -> –p–o–n–e–r–l–i–m–i–t–s–h–i–r–i–n–g–
+52 urem nativos nekaj -> –u–r–e–m–n–a–t–i–v–o–s–n–e–k–a–j–
+53 zawa lon integra -> –z–a–w–a–l–o–n–i–n–t–e–g–r–a–
+54 ubble synthase argv -> –u–b–b–l–e–s–y–n–t–h–a–s–e–a–r–g–v–
+55 geblich deel relat -> –g–e–b–l–i–c–h–d–e–e–l–r–e–l–a–t–
+56 jeti enroll dirigea -> –j–e–t–i–e–n–r–o–l–l–d–i–r–i–g–e–a–
+57 render prem handic -> –r–e–n–d–e–r–p–r–e–m–h–a–n–d–i–c–
+58 fic onafhank glue -> –f–i–c–o–n–a–f–h–a–n–k–g–l–u–e–
+59 onde overse kai -> –o–n–d–e–o–v–e–r–s–e–k–a–i–
+60 encoding oblasti ischemia -> –e–n–c–o–d–i–n–g–o–b–l–a–s–t–i–i–s–c–h–e–m–i–a–
+61 erving morph held -> –e–r–v–i–n–g–m–o–r–p–h–h–e–l–d–
+62 cross fetching quem -> –c–r–o–s–s–f–e–t–c–h–i–n–g–q–u–e–m–
+63 pired bash stu -> –p–i–r–e–d–b–a–s–h–s–t–u–
+64 den robe succ -> –d–e–n–r–o–b–e–s–u–c–c–
+65 went teas veure -> –w–e–n–t–t–e–a–s–v–e–u–r–e–
+66 gold reliant hechos -> –g–o–l–d–r–e–l–i–a–n–t–h–e–c–h–o–s–
+67 telling boundary stoletja -> –t–e–l–l–i–n–g–b–o–u–n–d–a–r–y–s–t–o–l–e–t–j–a–
+68 liedert advisor moderna -> –l–i–e–d–e–r–t–a–d–v–i–s–o–r–m–o–d–e–r–n–a–
+69 rupa toluene stirred -> –r–u–p–a–t–o–l–u–e–n–e–s–t–i–r–r–e–d–
+70 rp birds mejor -> –r–p–b–i–r–d–s–m–e–j–o–r–
+71 ats scaling azon -> –a–t–s–s–c–a–l–i–n–g–a–z–o–n–
+72 uxley zawier organ -> –u–x–l–e–y–z–a–w–i–e–r–o–r–g–a–n–
+73 ager balance bah -> –a–g–e–r–b–a–l–a–n–c–e–b–a–h–
+74 rofit verbal cyclin -> –r–o–f–i–t–v–e–r–b–a–l–c–y–c–l–i–n–
+75 stwo frequent workshop -> –s–t–w–o–f–r–e–q–u–e–n–t–w–o–r–k–s–h–o–p–
+76 conde suks solcher -> –c–o–n–d–e–s–u–k–s–s–o–l–c–h–e–r–
+77 etails acted volk -> –e–t–a–i–l–s–a–c–t–e–d–v–o–l–k–
+78 mena establ indic -> –m–e–n–a–e–s–t–a–b–l–i–n–d–i–c–
+79 odynam extender vont -> –o–d–y–n–a–m–e–x–t–e–n–d–e–r–v–o–n–t–
+80 iven elevado fusil -> –i–v–e–n–e–l–e–v–a–d–o–f–u–s–i–l–
+81 ophore show parishes -> –o–p–h–o–r–e–s–h–o–w–p–a–r–i–s–h–e–s–
+82 othing luar richness -> –o–t–h–i–n–g–l–u–a–r–r–i–c–h–n–e–s–s–
+83 vehicle gif replica -> –v–e–h–i–c–l–e–g–i–f–r–e–p–l–i–c–a–
+84 avnom set leaks -> –a–v–n–o–m–s–e–t–l–e–a–k–s–
+85 hist daarop enorme -> –h–i–s–t–d–a–a–r–o–p–e–n–o–r–m–e–
+86 olino herrsch diffus -> –o–l–i–n–o–h–e–r–r–s–c–h–d–i–f–f–u–s–
+87 neb dilution beta -> –n–e–b–d–i–l–u–t–i–o–n–b–e–t–a–
+88 plier teorema clang -> –p–l–i–e–r–t–e–o–r–e–m–a–c–l–a–n–g–
+89 imer teljesen dipole -> –i–m–e–r–t–e–l–j–e–s–e–n–d–i–p–o–l–e–
+90 estaur rassembl pousser -> –e–s–t–a–u–r–r–a–s–s–e–m–b–l–p–o–u–s–s–e–r–
+91 iti contente fibrosis -> –i–t–i–c–o–n–t–e–n–t–e–f–i–b–r–o–s–i–s–
+92 legraph dode denunci -> –l–e–g–r–a–p–h–d–o–d–e–d–e–n–u–n–c–i–
+93 wyr biomass acordo -> –w–y–r–b–i–o–m–a–s–s–a–c–o–r–d–o–
+94 yma partager diamonds -> –y–m–a–p–a–r–t–a–g–e–r–d–i–a–m–o–n–d–s–
+95 ancing mir bacteri -> –a–n–c–i–n–g–m–i–r–b–a–c–t–e–r–i–
+96 dc repe strateg -> –d–c–r–e–p–e–s–t–r–a–t–e–g–
+97 program garant nieuwe -> –p–r–o–g–r–a–m–g–a–r–a–n–t–n–i–e–u–w–e–
+98 usuario verme text -> –u–s–u–a–r–i–o–v–e–r–m–e–t–e–x–t–
+99 rase rob osasun -> –r–a–s–e–r–o–b–o–s–a–s–u–n–

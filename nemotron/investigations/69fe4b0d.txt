@@ -1,0 +1,31 @@
+problem id: 69fe4b0d
+category: equation_numeric_guess
+
+examples:
+- 90#96 = 8639
+- 63^42 = 105
+- 61#74 = 4513
+- 31#74 = 2293
+- 58^68 = 126
+- query: 70-11
+
+inferred rule:
+- `^` means ordinary addition.
+  - 63 + 42 = 105
+  - 58 + 68 = 126
+- `#` means ordinary multiplication, then subtract 1 from the product.
+  - 90 x 96 = 8640, then 8640 - 1 = 8639
+  - 61 x 74 = 4514, then 4514 - 1 = 4513
+  - 31 x 74 = 2294, then 2294 - 1 = 2293
+- The query uses an unseen `-` symbol. Given that the puzzle already uses one symbol for addition and one for near-multiplication, the most defensible remaining interpretation is ordinary subtraction.
+
+step-by-step application to the query:
+1. Read `70-11` as `70 - 11`.
+2. Subtract the second number from the first.
+3. 70 - 11 = 59.
+
+predicted answer:
+- 59
+
+confidence note:
+- Moderate confidence. The `^` and `#` rules are strongly demonstrated by the examples. The final `-` rule is still an inference because that symbol does not appear in the training examples.

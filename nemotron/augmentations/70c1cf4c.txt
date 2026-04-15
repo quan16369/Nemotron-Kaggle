@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 agement waterm jeszcze
+01 ellig mirada ortodox
+02 ceram rezultat sixteen
+
+This is a sample output.
+00 agement waterm jeszcze -> –a–g–e–m–e–n–t–w–a–t–e–r–m–j–e–s–z–c–z–e–
+01 ellig mirada ortodox -> –e–l–l–i–g–m–i–r–a–d–a–o–r–t–o–d–o–x–
+02 ceram rezultat sixteen -> –c–e–r–a–m–r–e–z–u–l–t–a–t–s–i–x–t–e–e–n–
+
+This is your input.
+00 than caf perceive
+01 rische resort egyet
+02 seca beinahe abge
+03 cience jours regal
+04 po tara suss
+05 egu steel incre
+06 energia tangan barb
+07 ands su imply
+08 ignement curse festiv
+09 culo harvest drainage
+10 dine knowing shutdown
+11 yzed assent enriched
+12 ney fond applied
+13 rules sujeto praising
+14 fx lir atroc
+15 ilius svensk insects
+16 ouv recesses finit
+17 ectl stove terrem
+18 ertes chantier clearer
+19 nings ankles artil
+20 sh pericol shark
+21 junct photons capac
+22 acken polls arisen
+23 ounding cine essaie
+24 opil outro invoked
+25 obel logout respond
+26 ophren extens pela
+27 plugins fifty liczba
+28 omen bw tc
+29 ango rangs usado
+30 airo elektr hk
+31 pain exemple embedded
+32 numbers sixteen stessi
+33 psis cyber infiltr
+34 ozi parejas contral
+35 eschi thing modality
+36 fake intrac injury
+37 helle prizes parent
+38 gging imao remis
+39 iosas fiatal enters
+40 oji scans coli
+41 arged skut perdu
+42 embrane wyd tug
+43 relsen nej vaid
+44 istorien cookie rund
+45 vang differ rivel
+46 plicates uplink conclu
+47 covered regroup clocher
+48 fty annoying chemins
+49 asid cicl stem
+50 wohl scuola reluct
+51 uation kab chante
+52 father fires skins
+53 trl rainbow begged
+54 uncu nodig lid
+55 linien fonts lebte
+56 ihat suis seis
+57 embra impegn anhydro
+58 atot definido logarith
+59 ioa wings inlet
+60 kd cyto versos
+61 stantial later affir
+62 iny pedal grandes
+63 allowed coste know
+64 aryn colonne diken
+65 mania peril etabl
+66 roleum yeux helps
+67 acies binary pierwszy
+68 atha reicht dd
+69 volution haver pollen
+70 oviet disable innocent
+71 asant image viene
+72 ophageal fulfil lapt
+73 iton cavities politika
+74 unt jeunesse eux
+75 about medzi moyenne
+76 arja sockaddr logic
+77 conc skeletal presup
+78 teo before cred
+79 ilah elect despois
+80 kira doel uda
+81 chini enterr anglais
+82 ritto ug sommes
+83 lles locales strong
+84 adata mezcla venc
+85 tax coping noticia
+86 pherd supplies popup
+87 gend conclus where
+88 gegeben oks voices
+89 iela paix anywhere
+90 neurs shelters enforced
+91 cookie overlap sarc
+92 places shut madame
+93 omina pero etx
+94 laget econ celular
+95 iges jury eds
+96 absolute roz replay
+97 ining printing alcohol
+98 elha viss passers
+99 feeding grootste luminal
+[completion]
+00 than caf perceive -> –t–h–a–n–c–a–f–p–e–r–c–e–i–v–e–
+01 rische resort egyet -> –r–i–s–c–h–e–r–e–s–o–r–t–e–g–y–e–t–
+02 seca beinahe abge -> –s–e–c–a–b–e–i–n–a–h–e–a–b–g–e–
+03 cience jours regal -> –c–i–e–n–c–e–j–o–u–r–s–r–e–g–a–l–
+04 po tara suss -> –p–o–t–a–r–a–s–u–s–s–
+05 egu steel incre -> –e–g–u–s–t–e–e–l–i–n–c–r–e–
+06 energia tangan barb -> –e–n–e–r–g–i–a–t–a–n–g–a–n–b–a–r–b–
+07 ands su imply -> –a–n–d–s–s–u–i–m–p–l–y–
+08 ignement curse festiv -> –i–g–n–e–m–e–n–t–c–u–r–s–e–f–e–s–t–i–v–
+09 culo harvest drainage -> –c–u–l–o–h–a–r–v–e–s–t–d–r–a–i–n–a–g–e–
+10 dine knowing shutdown -> –d–i–n–e–k–n–o–w–i–n–g–s–h–u–t–d–o–w–n–
+11 yzed assent enriched -> –y–z–e–d–a–s–s–e–n–t–e–n–r–i–c–h–e–d–
+12 ney fond applied -> –n–e–y–f–o–n–d–a–p–p–l–i–e–d–
+13 rules sujeto praising -> –r–u–l–e–s–s–u–j–e–t–o–p–r–a–i–s–i–n–g–
+14 fx lir atroc -> –f–x–l–i–r–a–t–r–o–c–
+15 ilius svensk insects -> –i–l–i–u–s–s–v–e–n–s–k–i–n–s–e–c–t–s–
+16 ouv recesses finit -> –o–u–v–r–e–c–e–s–s–e–s–f–i–n–i–t–
+17 ectl stove terrem -> –e–c–t–l–s–t–o–v–e–t–e–r–r–e–m–
+18 ertes chantier clearer -> –e–r–t–e–s–c–h–a–n–t–i–e–r–c–l–e–a–r–e–r–
+19 nings ankles artil -> –n–i–n–g–s–a–n–k–l–e–s–a–r–t–i–l–
+20 sh pericol shark -> –s–h–p–e–r–i–c–o–l–s–h–a–r–k–
+21 junct photons capac -> –j–u–n–c–t–p–h–o–t–o–n–s–c–a–p–a–c–
+22 acken polls arisen -> –a–c–k–e–n–p–o–l–l–s–a–r–i–s–e–n–
+23 ounding cine essaie -> –o–u–n–d–i–n–g–c–i–n–e–e–s–s–a–i–e–
+24 opil outro invoked -> –o–p–i–l–o–u–t–r–o–i–n–v–o–k–e–d–
+25 obel logout respond -> –o–b–e–l–l–o–g–o–u–t–r–e–s–p–o–n–d–
+26 ophren extens pela -> –o–p–h–r–e–n–e–x–t–e–n–s–p–e–l–a–
+27 plugins fifty liczba -> –p–l–u–g–i–n–s–f–i–f–t–y–l–i–c–z–b–a–
+28 omen bw tc -> –o–m–e–n–b–w–t–c–
+29 ango rangs usado -> –a–n–g–o–r–a–n–g–s–u–s–a–d–o–
+30 airo elektr hk -> –a–i–r–o–e–l–e–k–t–r–h–k–
+31 pain exemple embedded -> –p–a–i–n–e–x–e–m–p–l–e–e–m–b–e–d–d–e–d–
+32 numbers sixteen stessi -> –n–u–m–b–e–r–s–s–i–x–t–e–e–n–s–t–e–s–s–i–
+33 psis cyber infiltr -> –p–s–i–s–c–y–b–e–r–i–n–f–i–l–t–r–
+34 ozi parejas contral -> –o–z–i–p–a–r–e–j–a–s–c–o–n–t–r–a–l–
+35 eschi thing modality -> –e–s–c–h–i–t–h–i–n–g–m–o–d–a–l–i–t–y–
+36 fake intrac injury -> –f–a–k–e–i–n–t–r–a–c–i–n–j–u–r–y–
+37 helle prizes parent -> –h–e–l–l–e–p–r–i–z–e–s–p–a–r–e–n–t–
+38 gging imao remis -> –g–g–i–n–g–i–m–a–o–r–e–m–i–s–
+39 iosas fiatal enters -> –i–o–s–a–s–f–i–a–t–a–l–e–n–t–e–r–s–
+40 oji scans coli -> –o–j–i–s–c–a–n–s–c–o–l–i–
+41 arged skut perdu -> –a–r–g–e–d–s–k–u–t–p–e–r–d–u–
+42 embrane wyd tug -> –e–m–b–r–a–n–e–w–y–d–t–u–g–
+43 relsen nej vaid -> –r–e–l–s–e–n–n–e–j–v–a–i–d–
+44 istorien cookie rund -> –i–s–t–o–r–i–e–n–c–o–o–k–i–e–r–u–n–d–
+45 vang differ rivel -> –v–a–n–g–d–i–f–f–e–r–r–i–v–e–l–
+46 plicates uplink conclu -> –p–l–i–c–a–t–e–s–u–p–l–i–n–k–c–o–n–c–l–u–
+47 covered regroup clocher -> –c–o–v–e–r–e–d–r–e–g–r–o–u–p–c–l–o–c–h–e–r–
+48 fty annoying chemins -> –f–t–y–a–n–n–o–y–i–n–g–c–h–e–m–i–n–s–
+49 asid cicl stem -> –a–s–i–d–c–i–c–l–s–t–e–m–
+50 wohl scuola reluct -> –w–o–h–l–s–c–u–o–l–a–r–e–l–u–c–t–
+51 uation kab chante -> –u–a–t–i–o–n–k–a–b–c–h–a–n–t–e–
+52 father fires skins -> –f–a–t–h–e–r–f–i–r–e–s–s–k–i–n–s–
+53 trl rainbow begged -> –t–r–l–r–a–i–n–b–o–w–b–e–g–g–e–d–
+54 uncu nodig lid -> –u–n–c–u–n–o–d–i–g–l–i–d–
+55 linien fonts lebte -> –l–i–n–i–e–n–f–o–n–t–s–l–e–b–t–e–
+56 ihat suis seis -> –i–h–a–t–s–u–i–s–s–e–i–s–
+57 embra impegn anhydro -> –e–m–b–r–a–i–m–p–e–g–n–a–n–h–y–d–r–o–
+58 atot definido logarith -> –a–t–o–t–d–e–f–i–n–i–d–o–l–o–g–a–r–i–t–h–
+59 ioa wings inlet -> –i–o–a–w–i–n–g–s–i–n–l–e–t–
+60 kd cyto versos -> –k–d–c–y–t–o–v–e–r–s–o–s–
+61 stantial later affir -> –s–t–a–n–t–i–a–l–l–a–t–e–r–a–f–f–i–r–
+62 iny pedal grandes -> –i–n–y–p–e–d–a–l–g–r–a–n–d–e–s–
+63 allowed coste know -> –a–l–l–o–w–e–d–c–o–s–t–e–k–n–o–w–
+64 aryn colonne diken -> –a–r–y–n–c–o–l–o–n–n–e–d–i–k–e–n–
+65 mania peril etabl -> –m–a–n–i–a–p–e–r–i–l–e–t–a–b–l–
+66 roleum yeux helps -> –r–o–l–e–u–m–y–e–u–x–h–e–l–p–s–
+67 acies binary pierwszy -> –a–c–i–e–s–b–i–n–a–r–y–p–i–e–r–w–s–z–y–
+68 atha reicht dd -> –a–t–h–a–r–e–i–c–h–t–d–d–
+69 volution haver pollen -> –v–o–l–u–t–i–o–n–h–a–v–e–r–p–o–l–l–e–n–
+70 oviet disable innocent -> –o–v–i–e–t–d–i–s–a–b–l–e–i–n–n–o–c–e–n–t–
+71 asant image viene -> –a–s–a–n–t–i–m–a–g–e–v–i–e–n–e–
+72 ophageal fulfil lapt -> –o–p–h–a–g–e–a–l–f–u–l–f–i–l–l–a–p–t–
+73 iton cavities politika -> –i–t–o–n–c–a–v–i–t–i–e–s–p–o–l–i–t–i–k–a–
+74 unt jeunesse eux -> –u–n–t–j–e–u–n–e–s–s–e–e–u–x–
+75 about medzi moyenne -> –a–b–o–u–t–m–e–d–z–i–m–o–y–e–n–n–e–
+76 arja sockaddr logic -> –a–r–j–a–s–o–c–k–a–d–d–r–l–o–g–i–c–
+77 conc skeletal presup -> –c–o–n–c–s–k–e–l–e–t–a–l–p–r–e–s–u–p–
+78 teo before cred -> –t–e–o–b–e–f–o–r–e–c–r–e–d–
+79 ilah elect despois -> –i–l–a–h–e–l–e–c–t–d–e–s–p–o–i–s–
+80 kira doel uda -> –k–i–r–a–d–o–e–l–u–d–a–
+81 chini enterr anglais -> –c–h–i–n–i–e–n–t–e–r–r–a–n–g–l–a–i–s–
+82 ritto ug sommes -> –r–i–t–t–o–u–g–s–o–m–m–e–s–
+83 lles locales strong -> –l–l–e–s–l–o–c–a–l–e–s–s–t–r–o–n–g–
+84 adata mezcla venc -> –a–d–a–t–a–m–e–z–c–l–a–v–e–n–c–
+85 tax coping noticia -> –t–a–x–c–o–p–i–n–g–n–o–t–i–c–i–a–
+86 pherd supplies popup -> –p–h–e–r–d–s–u–p–p–l–i–e–s–p–o–p–u–p–
+87 gend conclus where -> –g–e–n–d–c–o–n–c–l–u–s–w–h–e–r–e–
+88 gegeben oks voices -> –g–e–g–e–b–e–n–o–k–s–v–o–i–c–e–s–
+89 iela paix anywhere -> –i–e–l–a–p–a–i–x–a–n–y–w–h–e–r–e–
+90 neurs shelters enforced -> –n–e–u–r–s–s–h–e–l–t–e–r–s–e–n–f–o–r–c–e–d–
+91 cookie overlap sarc -> –c–o–o–k–i–e–o–v–e–r–l–a–p–s–a–r–c–
+92 places shut madame -> –p–l–a–c–e–s–s–h–u–t–m–a–d–a–m–e–
+93 omina pero etx -> –o–m–i–n–a–p–e–r–o–e–t–x–
+94 laget econ celular -> –l–a–g–e–t–e–c–o–n–c–e–l–u–l–a–r–
+95 iges jury eds -> –i–g–e–s–j–u–r–y–e–d–s–
+96 absolute roz replay -> –a–b–s–o–l–u–t–e–r–o–z–r–e–p–l–a–y–
+97 ining printing alcohol -> –i–n–i–n–g–p–r–i–n–t–i–n–g–a–l–c–o–h–o–l–
+98 elha viss passers -> –e–l–h–a–v–i–s–s–p–a–s–s–e–r–s–
+99 feeding grootste luminal -> –f–e–e–d–i–n–g–g–r–o–o–t–s–t–e–l–u–m–i–n–a–l–

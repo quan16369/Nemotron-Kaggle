@@ -1,0 +1,30 @@
+problem id: cc735e46
+category: equation_numeric_guess
+
+examples:
+- 65(87 = (22
+- 71(58 = (13
+- 51`93 = 144
+- query: 44:82
+
+inferred rule:
+- `(` takes the absolute difference of the two numbers and writes the result with a leading `(` marker.
+- `` ` `` means ordinary addition.
+- The query uses a third symbol, `:`, which does not appear in the examples. Since the shown rules already cover "difference" and "addition", the most defensible remaining rule is direct concatenation of the two 2-digit inputs.
+
+why this fits the examples:
+- 65(87 -> |65 - 87| = 22, formatted as `(22`.
+- 71(58 -> |71 - 58| = 13, formatted as `(13`.
+- 51`93 -> 51 + 93 = 144.
+
+step-by-step application to the query:
+1. Read the query as `44 : 82`.
+2. Apply the inferred `:` rule as concatenation.
+3. Write the left operand followed by the right operand: `44` then `82`.
+4. This gives `4482`.
+
+predicted answer:
+- 4482
+
+confidence note:
+- Moderate confidence. The `(` and `` ` `` rules are directly supported by the examples. The only inference is assigning `:` to concatenation, but that is the cleanest remaining transformation consistent with the pattern set.

@@ -1,0 +1,84 @@
+problem id: f3959455
+category: cryptarithm_guess
+
+examples:
+1. `|>-{{ = -|}`
+2. `||-}{ = }/`
+3. `>/-!$ = -|%`
+4. `/$-/$ = ]`
+5. `|{-}} = }/`
+
+inferred rule:
+Treat each non-operator symbol as a decimal digit, but read each 2-symbol operand in reverse order before decoding it as a 2-digit number.
+
+For the `-` operator:
+- compute ordinary subtraction `left - right`
+- if the result is negative, keep a literal leading `-`
+- reverse the digits of the magnitude
+- encode the reversed digits back into symbols
+- if the reversed magnitude would start with `0`, drop that leading zero
+
+One compact digit assignment that fits all five `-` examples is:
+- `] = 0`
+- `> = 1`
+- `/ = 2`
+- `% = 3`
+- `} = 4`
+- `$ = 5`
+- `{ = 6`
+- `| = 8`
+- `! = 9`
+
+step-by-step check on the examples:
+1. `|>-{{`
+   Reverse operands: `>|` and `{{`.
+   `>| = 18`, `{{ = 66`.
+   `18 - 66 = -48`.
+   Reverse the magnitude: `48 -> 84`.
+   `8 -> |`, `4 -> }`, so the output is `-|}`.
+
+2. `||-}{`
+   Reverse operands: `||` and `{}`.
+   `|| = 88`, `{} = 64`.
+   `88 - 64 = 24`.
+   Reverse the result: `24 -> 42`.
+   `4 -> }`, `2 -> /`, so the output is `}/`.
+
+3. `>/-!$`
+   Reverse operands: `/>` and `$!`.
+   `/> = 21`, `$! = 59`.
+   `21 - 59 = -38`.
+   Reverse the magnitude: `38 -> 83`.
+   `8 -> |`, `3 -> %`, so the output is `-|%`.
+
+4. `/$-/$`
+   Reverse operands: `$/` and `$/`.
+   Both decode to `52`.
+   `52 - 52 = 0`.
+   `0 -> ]`, so the output is `]`.
+
+5. `|{-}}`
+   Reverse operands: `{|` and `}}`.
+   `{| = 68`, `}} = 44`.
+   `68 - 44 = 24`.
+   Reverse the result: `24 -> 42`.
+   `4 -> }`, `2 -> /`, so the output is `}/`.
+
+step-by-step application to the query:
+Query: `%%+%/`
+
+1. Reverse the left operand `%%`; it stays `%%`, which decodes to `33`.
+2. Reverse the right operand `%/` to `/%`, which decodes to `23`.
+3. The examples only show `-`, so taking the unseen `+` as ordinary addition is an extrapolation.
+4. `33 + 23 = 56`.
+5. Keep the same reverse-the-result convention: `56 -> 65`.
+6. Encode `65` back into symbols:
+   `6 -> {`
+   `5 -> $`
+7. Predicted result: `{$`.
+
+predicted answer:
+`{$`
+
+confidence note:
+Low-medium confidence. The subtraction rule itself is tightly supported by all five examples, but the digit map is not completely unique and `+` never appears in the examples. A second exact-fit subtraction mapping gives a different `+` prediction, so `{$` is the best-supported guess rather than a fully determined answer. I prefer it over the main alternative because it preserves the examples' usual pattern that positive nonzero results stay two symbols long.

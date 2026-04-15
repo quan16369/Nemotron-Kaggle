@@ -1,0 +1,48 @@
+problem id: 00890aff
+category: bit_manipulation
+
+examples:
+- 01110000 -> 00011000
+- 11101010 -> 10111000
+- 00001011 -> 00000100
+- 00111101 -> 01011110
+- 01010101 -> 01010100
+- 01111001 -> 01111100
+- 11001001 -> 01100100
+- 01101110 -> 10111011
+- 10111001 -> 01101100
+- 01111110 -> 10111111
+- query: 11100101
+
+inferred rule:
+- Let `a = x >> 1` using an 8-bit logical right shift.
+- Let `b = x << 2` using an 8-bit logical left shift.
+- Let `c = ror(x, 2)`, a rotate-right by 2 bits.
+- The output is the bitwise majority of these three values:
+  `maj(a, b, c) = (a & b) | (a & c) | (b & c)`.
+- In words: for each output bit, write `1` when at least two of `a`, `b`, and `c` have a `1` in that position.
+
+why this rule fits the examples:
+- For `01110000`, `a = 00111000`, `b = 11000000`, and `c = 00011100`. Then `maj(a, b, c) = 00011000`.
+- For `00001011`, `a = 00000101`, `b = 00101100`, and `c = 11000010`. Then `maj(a, b, c) = 00000100`.
+- For `01010101`, `a = 00101010`, `b = 01010100`, and `c = 01010101`. Then `maj(a, b, c) = 01010100`.
+- For `01101110`, `a = 00110111`, `b = 10111000`, and `c = 10011011`. Then `maj(a, b, c) = 10111011`.
+- The same computation reproduces all ten provided examples exactly.
+
+step-by-step application to the query:
+1. Start with `x = 11100101`.
+2. Shift right by 1: `a = 01110010`.
+3. Shift left by 2: `b = 10010100`.
+4. Rotate right by 2: `c = 01111001`.
+5. Compute the pairwise overlaps:
+   `a & b = 00010000`
+   `a & c = 01110000`
+   `b & c = 00010000`
+6. Take the OR of those overlaps:
+   `00010000 | 01110000 | 00010000 = 01110000`
+
+predicted answer:
+- 01110000
+
+confidence note:
+- High confidence. The majority rule matches every training example exactly, and it uses the named operation family from the prompt directly.

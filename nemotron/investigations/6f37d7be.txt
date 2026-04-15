@@ -1,0 +1,50 @@
+problem id: 6f37d7be
+category: equation_numeric_deduce
+
+examples:
+- 84*84 = 0
+- 89*38 = 51
+- 42\83 = 8342
+- query: 92*91
+
+inferred rule:
+All three examples fit the same overall pattern:
+1. Reverse the digits of each 2-digit operand.
+2. Apply an operator-specific action to those reversed operands.
+3. Reverse the resulting number or string to get the written output.
+
+For this problem:
+- `*` means subtract the reversed second operand from the reversed first.
+- `\` means concatenate the reversed operands.
+
+Checks:
+- 84*84:
+  84 -> 48, 84 -> 48
+  48 - 48 = 0
+  reverse 0 -> 0
+- 89*38:
+  89 -> 98, 38 -> 83
+  98 - 83 = 15
+  reverse 15 -> 51
+- 42\83:
+  42 -> 24, 83 -> 38
+  concatenate 24 and 38 -> 2438
+  reverse 2438 -> 8342
+
+step-by-step application to the query:
+1. Query: 92*91
+2. Reverse both operands:
+   92 -> 29
+   91 -> 19
+3. Apply the `*` rule on the reversed operands:
+   29 - 19 = 10
+4. Reverse the result:
+   10 -> 01
+
+predicted answer:
+01
+
+confidence note:
+High confidence. The two `*` examples fit the subtraction-on-reversed-operands
+rule exactly, and the `\` example independently supports the same
+reverse-operands then reverse-output structure for the whole puzzle.

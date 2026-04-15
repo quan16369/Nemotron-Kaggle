@@ -1,0 +1,28 @@
+Problem ID: 0c8a8a16
+Category: equation_numeric_deduce
+
+Examples:
+- 99<53 = 153
+  Ordinary addition gives 99 + 53 = 152, then the result is increased by 1 to get 153.
+- 19<85 = 105
+  Ordinary addition gives 19 + 85 = 104, then the result is increased by 1 to get 105.
+- 78<81 = 160
+  Ordinary addition gives 78 + 81 = 159, then the result is increased by 1 to get 160.
+- 55{44 = 11
+  Ordinary subtraction gives 55 - 44 = 11, so `{` behaves like subtraction in this example.
+
+Inferred rule:
+1. The symbol `<` means "add the two numbers, then add 1 more."
+2. The symbol `{` means ordinary subtraction.
+3. When a subtraction result is negative, the puzzle appears to reuse `{` as the negative prefix, so `-17` is written as `{17`.
+
+Step-by-step application to the query:
+- Query: 37{54
+- Apply the subtraction rule: 37 - 54 = -17.
+- Write the negative result in the puzzle's symbol style: `{17`.
+
+Predicted answer:
+{17
+
+Confidence:
+Moderate. The subtraction itself is clear from `55{44 = 11`, but there is no direct example of a negative `{` result, so the final negative-sign formatting is inferred rather than demonstrated.

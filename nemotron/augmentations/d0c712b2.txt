@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 rics flare attracts
+01 zilla kut strada
+02 plane bar drew
+
+This is a sample output.
+00 rics flare attracts -> –r–i–c–s–f–l–a–r–e–a–t–t–r–a–c–t–s–
+01 zilla kut strada -> –z–i–l–l–a–k–u–t–s–t–r–a–d–a–
+02 plane bar drew -> –p–l–a–n–e–b–a–r–d–r–e–w–
+
+This is your input.
+00 odu coloc tyl
+01 cipl helium vanwege
+02 seat pali alegr
+03 ocht node enim
+04 sqrt pronto crois
+05 redux barred editors
+06 cipline liberal affected
+07 bl helyi cauc
+08 iteiten gutxi interloc
+09 achim notices elephant
+10 werking sah loud
+11 vic give pursuit
+12 rence denial urs
+13 virt amerikai traps
+14 ella candy fool
+15 ration subtle imperio
+16 azu contrast executor
+17 achten mediante meer
+18 kata fewer catalyst
+19 aniu refers voler
+20 querque ignition daughter
+21 rypto cambi trobar
+22 qua tool sad
+23 ihad mix bei
+24 svg beau marco
+25 upt attore chan
+26 isiones estud legisl
+27 lub voulu opens
+28 oki mariage unsett
+29 oppy greeting suav
+30 qd geheel plated
+31 apan hot projekt
+32 idem taller global
+33 encia kiel anges
+34 patrick chaotic troba
+35 olus rappeler blast
+36 itor gamma scris
+37 inosa invloed verteilt
+38 inement irrig seguenti
+39 pectives usar attaque
+40 warn ext hope
+41 iciones lobbying insights
+42 erv tattoo teamed
+43 terne doute ogni
+44 rement pues keeps
+45 rection abre ime
+46 bled privileg eder
+47 fam chr entropy
+48 larini eluted telegram
+49 orphous ljud brun
+50 gatherer mindig douze
+51 rables colleges moyen
+52 apple fag sch
+53 inar sunt efforts
+54 ilvania hesitate silicone
+55 imp oppose einiger
+56 bits winning acesta
+57 ities dwelling slike
+58 musiker tyd athletes
+59 raltar far expr
+60 ustomer hearts mara
+61 versal nakonec myocard
+62 istance megfelel erupt
+63 rump pensar fungus
+64 eak soldati salient
+65 ependant conj detener
+66 iversary baixa tipo
+67 ugas arqu melhores
+68 compile drap pools
+69 neas hakem jun
+70 rum pensiero obtenir
+71 astra inwardly wrap
+72 zyma meny creada
+73 ured went caves
+74 ildir shutting vorge
+75 ater tick topped
+76 ouluku gson looking
+77 ocyan broth insect
+78 izmu iza vertical
+79 enn flu escudo
+80 arras solicit cours
+81 okal gratu cog
+82 oya decay naveg
+83 rocarril douceur atac
+84 het vro mennes
+85 entries batzuk strip
+86 yield diente coastal
+87 wid lettera renal
+88 flies cartas building
+89 presa nguy ush
+90 itus api innych
+91 fasst cuda daje
+92 icos volcano anh
+93 gae taal dollari
+94 boldmath sof aven
+95 ofib fordi croire
+96 ates nom acceso
+97 resh sulph neighbor
+98 chedule uw minimum
+99 atted divide ktor
+[completion]
+00 odu coloc tyl -> –o–d–u–c–o–l–o–c–t–y–l–
+01 cipl helium vanwege -> –c–i–p–l–h–e–l–i–u–m–v–a–n–w–e–g–e–
+02 seat pali alegr -> –s–e–a–t–p–a–l–i–a–l–e–g–r–
+03 ocht node enim -> –o–c–h–t–n–o–d–e–e–n–i–m–
+04 sqrt pronto crois -> –s–q–r–t–p–r–o–n–t–o–c–r–o–i–s–
+05 redux barred editors -> –r–e–d–u–x–b–a–r–r–e–d–e–d–i–t–o–r–s–
+06 cipline liberal affected -> –c–i–p–l–i–n–e–l–i–b–e–r–a–l–a–f–f–e–c–t–e–d–
+07 bl helyi cauc -> –b–l–h–e–l–y–i–c–a–u–c–
+08 iteiten gutxi interloc -> –i–t–e–i–t–e–n–g–u–t–x–i–i–n–t–e–r–l–o–c–
+09 achim notices elephant -> –a–c–h–i–m–n–o–t–i–c–e–s–e–l–e–p–h–a–n–t–
+10 werking sah loud -> –w–e–r–k–i–n–g–s–a–h–l–o–u–d–
+11 vic give pursuit -> –v–i–c–g–i–v–e–p–u–r–s–u–i–t–
+12 rence denial urs -> –r–e–n–c–e–d–e–n–i–a–l–u–r–s–
+13 virt amerikai traps -> –v–i–r–t–a–m–e–r–i–k–a–i–t–r–a–p–s–
+14 ella candy fool -> –e–l–l–a–c–a–n–d–y–f–o–o–l–
+15 ration subtle imperio -> –r–a–t–i–o–n–s–u–b–t–l–e–i–m–p–e–r–i–o–
+16 azu contrast executor -> –a–z–u–c–o–n–t–r–a–s–t–e–x–e–c–u–t–o–r–
+17 achten mediante meer -> –a–c–h–t–e–n–m–e–d–i–a–n–t–e–m–e–e–r–
+18 kata fewer catalyst -> –k–a–t–a–f–e–w–e–r–c–a–t–a–l–y–s–t–
+19 aniu refers voler -> –a–n–i–u–r–e–f–e–r–s–v–o–l–e–r–
+20 querque ignition daughter -> –q–u–e–r–q–u–e–i–g–n–i–t–i–o–n–d–a–u–g–h–t–e–r–
+21 rypto cambi trobar -> –r–y–p–t–o–c–a–m–b–i–t–r–o–b–a–r–
+22 qua tool sad -> –q–u–a–t–o–o–l–s–a–d–
+23 ihad mix bei -> –i–h–a–d–m–i–x–b–e–i–
+24 svg beau marco -> –s–v–g–b–e–a–u–m–a–r–c–o–
+25 upt attore chan -> –u–p–t–a–t–t–o–r–e–c–h–a–n–
+26 isiones estud legisl -> –i–s–i–o–n–e–s–e–s–t–u–d–l–e–g–i–s–l–
+27 lub voulu opens -> –l–u–b–v–o–u–l–u–o–p–e–n–s–
+28 oki mariage unsett -> –o–k–i–m–a–r–i–a–g–e–u–n–s–e–t–t–
+29 oppy greeting suav -> –o–p–p–y–g–r–e–e–t–i–n–g–s–u–a–v–
+30 qd geheel plated -> –q–d–g–e–h–e–e–l–p–l–a–t–e–d–
+31 apan hot projekt -> –a–p–a–n–h–o–t–p–r–o–j–e–k–t–
+32 idem taller global -> –i–d–e–m–t–a–l–l–e–r–g–l–o–b–a–l–
+33 encia kiel anges -> –e–n–c–i–a–k–i–e–l–a–n–g–e–s–
+34 patrick chaotic troba -> –p–a–t–r–i–c–k–c–h–a–o–t–i–c–t–r–o–b–a–
+35 olus rappeler blast -> –o–l–u–s–r–a–p–p–e–l–e–r–b–l–a–s–t–
+36 itor gamma scris -> –i–t–o–r–g–a–m–m–a–s–c–r–i–s–
+37 inosa invloed verteilt -> –i–n–o–s–a–i–n–v–l–o–e–d–v–e–r–t–e–i–l–t–
+38 inement irrig seguenti -> –i–n–e–m–e–n–t–i–r–r–i–g–s–e–g–u–e–n–t–i–
+39 pectives usar attaque -> –p–e–c–t–i–v–e–s–u–s–a–r–a–t–t–a–q–u–e–
+40 warn ext hope -> –w–a–r–n–e–x–t–h–o–p–e–
+41 iciones lobbying insights -> –i–c–i–o–n–e–s–l–o–b–b–y–i–n–g–i–n–s–i–g–h–t–s–
+42 erv tattoo teamed -> –e–r–v–t–a–t–t–o–o–t–e–a–m–e–d–
+43 terne doute ogni -> –t–e–r–n–e–d–o–u–t–e–o–g–n–i–
+44 rement pues keeps -> –r–e–m–e–n–t–p–u–e–s–k–e–e–p–s–
+45 rection abre ime -> –r–e–c–t–i–o–n–a–b–r–e–i–m–e–
+46 bled privileg eder -> –b–l–e–d–p–r–i–v–i–l–e–g–e–d–e–r–
+47 fam chr entropy -> –f–a–m–c–h–r–e–n–t–r–o–p–y–
+48 larini eluted telegram -> –l–a–r–i–n–i–e–l–u–t–e–d–t–e–l–e–g–r–a–m–
+49 orphous ljud brun -> –o–r–p–h–o–u–s–l–j–u–d–b–r–u–n–
+50 gatherer mindig douze -> –g–a–t–h–e–r–e–r–m–i–n–d–i–g–d–o–u–z–e–
+51 rables colleges moyen -> –r–a–b–l–e–s–c–o–l–l–e–g–e–s–m–o–y–e–n–
+52 apple fag sch -> –a–p–p–l–e–f–a–g–s–c–h–
+53 inar sunt efforts -> –i–n–a–r–s–u–n–t–e–f–f–o–r–t–s–
+54 ilvania hesitate silicone -> –i–l–v–a–n–i–a–h–e–s–i–t–a–t–e–s–i–l–i–c–o–n–e–
+55 imp oppose einiger -> –i–m–p–o–p–p–o–s–e–e–i–n–i–g–e–r–
+56 bits winning acesta -> –b–i–t–s–w–i–n–n–i–n–g–a–c–e–s–t–a–
+57 ities dwelling slike -> –i–t–i–e–s–d–w–e–l–l–i–n–g–s–l–i–k–e–
+58 musiker tyd athletes -> –m–u–s–i–k–e–r–t–y–d–a–t–h–l–e–t–e–s–
+59 raltar far expr -> –r–a–l–t–a–r–f–a–r–e–x–p–r–
+60 ustomer hearts mara -> –u–s–t–o–m–e–r–h–e–a–r–t–s–m–a–r–a–
+61 versal nakonec myocard -> –v–e–r–s–a–l–n–a–k–o–n–e–c–m–y–o–c–a–r–d–
+62 istance megfelel erupt -> –i–s–t–a–n–c–e–m–e–g–f–e–l–e–l–e–r–u–p–t–
+63 rump pensar fungus -> –r–u–m–p–p–e–n–s–a–r–f–u–n–g–u–s–
+64 eak soldati salient -> –e–a–k–s–o–l–d–a–t–i–s–a–l–i–e–n–t–
+65 ependant conj detener -> –e–p–e–n–d–a–n–t–c–o–n–j–d–e–t–e–n–e–r–
+66 iversary baixa tipo -> –i–v–e–r–s–a–r–y–b–a–i–x–a–t–i–p–o–
+67 ugas arqu melhores -> –u–g–a–s–a–r–q–u–m–e–l–h–o–r–e–s–
+68 compile drap pools -> –c–o–m–p–i–l–e–d–r–a–p–p–o–o–l–s–
+69 neas hakem jun -> –n–e–a–s–h–a–k–e–m–j–u–n–
+70 rum pensiero obtenir -> –r–u–m–p–e–n–s–i–e–r–o–o–b–t–e–n–i–r–
+71 astra inwardly wrap -> –a–s–t–r–a–i–n–w–a–r–d–l–y–w–r–a–p–
+72 zyma meny creada -> –z–y–m–a–m–e–n–y–c–r–e–a–d–a–
+73 ured went caves -> –u–r–e–d–w–e–n–t–c–a–v–e–s–
+74 ildir shutting vorge -> –i–l–d–i–r–s–h–u–t–t–i–n–g–v–o–r–g–e–
+75 ater tick topped -> –a–t–e–r–t–i–c–k–t–o–p–p–e–d–
+76 ouluku gson looking -> –o–u–l–u–k–u–g–s–o–n–l–o–o–k–i–n–g–
+77 ocyan broth insect -> –o–c–y–a–n–b–r–o–t–h–i–n–s–e–c–t–
+78 izmu iza vertical -> –i–z–m–u–i–z–a–v–e–r–t–i–c–a–l–
+79 enn flu escudo -> –e–n–n–f–l–u–e–s–c–u–d–o–
+80 arras solicit cours -> –a–r–r–a–s–s–o–l–i–c–i–t–c–o–u–r–s–
+81 okal gratu cog -> –o–k–a–l–g–r–a–t–u–c–o–g–
+82 oya decay naveg -> –o–y–a–d–e–c–a–y–n–a–v–e–g–
+83 rocarril douceur atac -> –r–o–c–a–r–r–i–l–d–o–u–c–e–u–r–a–t–a–c–
+84 het vro mennes -> –h–e–t–v–r–o–m–e–n–n–e–s–
+85 entries batzuk strip -> –e–n–t–r–i–e–s–b–a–t–z–u–k–s–t–r–i–p–
+86 yield diente coastal -> –y–i–e–l–d–d–i–e–n–t–e–c–o–a–s–t–a–l–
+87 wid lettera renal -> –w–i–d–l–e–t–t–e–r–a–r–e–n–a–l–
+88 flies cartas building -> –f–l–i–e–s–c–a–r–t–a–s–b–u–i–l–d–i–n–g–
+89 presa nguy ush -> –p–r–e–s–a–n–g–u–y–u–s–h–
+90 itus api innych -> –i–t–u–s–a–p–i–i–n–n–y–c–h–
+91 fasst cuda daje -> –f–a–s–s–t–c–u–d–a–d–a–j–e–
+92 icos volcano anh -> –i–c–o–s–v–o–l–c–a–n–o–a–n–h–
+93 gae taal dollari -> –g–a–e–t–a–a–l–d–o–l–l–a–r–i–
+94 boldmath sof aven -> –b–o–l–d–m–a–t–h–s–o–f–a–v–e–n–
+95 ofib fordi croire -> –o–f–i–b–f–o–r–d–i–c–r–o–i–r–e–
+96 ates nom acceso -> –a–t–e–s–n–o–m–a–c–c–e–s–o–
+97 resh sulph neighbor -> –r–e–s–h–s–u–l–p–h–n–e–i–g–h–b–o–r–
+98 chedule uw minimum -> –c–h–e–d–u–l–e–u–w–m–i–n–i–m–u–m–
+99 atted divide ktor -> –a–t–t–e–d–d–i–v–i–d–e–k–t–o–r–

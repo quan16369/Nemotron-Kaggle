@@ -1,0 +1,27 @@
+Problem ID: 8c6a158e
+Category: equation_numeric_deduce
+
+Examples:
+- 65}27 = }38
+- 11}59 = }48
+- 46}23 = }23
+
+Inferred rule:
+- The `}` operator takes the absolute difference between the two two-digit inputs.
+- The output keeps a literal leading `}` in front of that numeric difference.
+- Checks:
+- `|65 - 27| = 38`, so `65}27 -> }38`
+- `|11 - 59| = 48`, so `11}59 -> }48`
+- `|46 - 23| = 23`, so `46}23 -> }23`
+
+Step-by-step application to the query:
+- Query: `28}58`
+- Compute the absolute difference of the two numbers.
+- `|28 - 58| = 30`
+- Prefix the result with the literal `}`.
+
+Predicted answer:
+- `}30`
+
+Confidence note:
+- High. All three examples fit the same rule exactly, including one case where the right number is larger, which supports absolute difference rather than only left-minus-right.

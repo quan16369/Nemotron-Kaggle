@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 yson cria lieux
+01 landse clubes tours
+02 omos seat jumped
+
+This is a sample output.
+00 yson cria lieux -> –y–s–o–n–c–r–i–a–l–i–e–u–x–
+01 landse clubes tours -> –l–a–n–d–s–e–c–l–u–b–e–s–t–o–u–r–s–
+02 omos seat jumped -> –o–m–o–s–s–e–a–t–j–u–m–p–e–d–
+
+This is your input.
+00 lo peintre cumple
+01 uth colores fasting
+02 acje firms without
+03 ician praying fent
+04 exc hel sombr
+05 berry vuel nonin
+06 etti bullets maint
+07 lex inspect troub
+08 ientific deliver zdecyd
+09 backs career warf
+10 dor amaz ops
+11 sigma parece zs
+12 brief juta souri
+13 issors horien rimasto
+14 aiman fatty sys
+15 iety boli lesion
+16 rawler voet wusste
+17 tek freedom okto
+18 ounid war falsa
+19 ariables symptoms sehe
+20 obil vero confirms
+21 fait fenomen hanno
+22 esus geval black
+23 atak winters restes
+24 skar rins inertial
+25 hou erine magna
+26 anu ordering dic
+27 usto voidaan changing
+28 mv summers bila
+29 rants disf mutate
+30 ofil pasaba taxon
+31 verted creator quant
+32 lde pasta tag
+33 atsiooni lectures jude
+34 very rov olid
+35 aden scene alkoi
+36 unos comfort celor
+37 inburgh loses hacen
+38 tress veille siano
+39 taine jer jis
+40 ield thereon adier
+41 xi privacy birthday
+42 orie agua afili
+43 ecutivo szen sour
+44 metics breaks mocked
+45 antar lateral twelfth
+46 rt vieux baja
+47 enal forest sist
+48 chond modified gebieden
+49 onan shr alkal
+50 xiety kvarter berada
+51 arik assass peel
+52 akukan jang remonter
+53 give coco lij
+54 ires pobl saisit
+55 agens lokal eind
+56 bou marathon affid
+57 ants grin tio
+58 indic encima writ
+59 lee enzymes sexually
+60 czenia elt firef
+61 astom voix plaz
+62 ilter propor approach
+63 xid gjort estrut
+64 throws intorno rendait
+65 anja deny huvud
+66 oky village pat
+67 orsa sfor supprim
+68 launcher organize release
+69 leetcode tempor assigned
+70 cek afro pubblica
+71 arz adjuvant sia
+72 arda desen plum
+73 kas allied consult
+74 future dirt tunnels
+75 company rotated quatorze
+76 eu iban symbole
+77 alle eget atmosph
+78 itr ejected smells
+79 inske projektu franc
+80 soever hard bonuses
+81 kcji ocasion tuy
+82 icism teht milions
+83 kes coil down
+84 aghan brav blessed
+85 ese quais veil
+86 lek wound versus
+87 endien dolgo spectrom
+88 stmt depos vendors
+89 atinib prodotti tim
+90 umbled nieuw agentes
+91 gada torn sezon
+92 urm crosses bona
+93 elsk pequeno genres
+94 ogonal concepto panorama
+95 ocyte menores deliber
+96 orns epit manque
+97 inski jour trigger
+98 headed rer publique
+99 atively modell murs
+[completion]
+00 lo peintre cumple -> –l–o–p–e–i–n–t–r–e–c–u–m–p–l–e–
+01 uth colores fasting -> –u–t–h–c–o–l–o–r–e–s–f–a–s–t–i–n–g–
+02 acje firms without -> –a–c–j–e–f–i–r–m–s–w–i–t–h–o–u–t–
+03 ician praying fent -> –i–c–i–a–n–p–r–a–y–i–n–g–f–e–n–t–
+04 exc hel sombr -> –e–x–c–h–e–l–s–o–m–b–r–
+05 berry vuel nonin -> –b–e–r–r–y–v–u–e–l–n–o–n–i–n–
+06 etti bullets maint -> –e–t–t–i–b–u–l–l–e–t–s–m–a–i–n–t–
+07 lex inspect troub -> –l–e–x–i–n–s–p–e–c–t–t–r–o–u–b–
+08 ientific deliver zdecyd -> –i–e–n–t–i–f–i–c–d–e–l–i–v–e–r–z–d–e–c–y–d–
+09 backs career warf -> –b–a–c–k–s–c–a–r–e–e–r–w–a–r–f–
+10 dor amaz ops -> –d–o–r–a–m–a–z–o–p–s–
+11 sigma parece zs -> –s–i–g–m–a–p–a–r–e–c–e–z–s–
+12 brief juta souri -> –b–r–i–e–f–j–u–t–a–s–o–u–r–i–
+13 issors horien rimasto -> –i–s–s–o–r–s–h–o–r–i–e–n–r–i–m–a–s–t–o–
+14 aiman fatty sys -> –a–i–m–a–n–f–a–t–t–y–s–y–s–
+15 iety boli lesion -> –i–e–t–y–b–o–l–i–l–e–s–i–o–n–
+16 rawler voet wusste -> –r–a–w–l–e–r–v–o–e–t–w–u–s–s–t–e–
+17 tek freedom okto -> –t–e–k–f–r–e–e–d–o–m–o–k–t–o–
+18 ounid war falsa -> –o–u–n–i–d–w–a–r–f–a–l–s–a–
+19 ariables symptoms sehe -> –a–r–i–a–b–l–e–s–s–y–m–p–t–o–m–s–s–e–h–e–
+20 obil vero confirms -> –o–b–i–l–v–e–r–o–c–o–n–f–i–r–m–s–
+21 fait fenomen hanno -> –f–a–i–t–f–e–n–o–m–e–n–h–a–n–n–o–
+22 esus geval black -> –e–s–u–s–g–e–v–a–l–b–l–a–c–k–
+23 atak winters restes -> –a–t–a–k–w–i–n–t–e–r–s–r–e–s–t–e–s–
+24 skar rins inertial -> –s–k–a–r–r–i–n–s–i–n–e–r–t–i–a–l–
+25 hou erine magna -> –h–o–u–e–r–i–n–e–m–a–g–n–a–
+26 anu ordering dic -> –a–n–u–o–r–d–e–r–i–n–g–d–i–c–
+27 usto voidaan changing -> –u–s–t–o–v–o–i–d–a–a–n–c–h–a–n–g–i–n–g–
+28 mv summers bila -> –m–v–s–u–m–m–e–r–s–b–i–l–a–
+29 rants disf mutate -> –r–a–n–t–s–d–i–s–f–m–u–t–a–t–e–
+30 ofil pasaba taxon -> –o–f–i–l–p–a–s–a–b–a–t–a–x–o–n–
+31 verted creator quant -> –v–e–r–t–e–d–c–r–e–a–t–o–r–q–u–a–n–t–
+32 lde pasta tag -> –l–d–e–p–a–s–t–a–t–a–g–
+33 atsiooni lectures jude -> –a–t–s–i–o–o–n–i–l–e–c–t–u–r–e–s–j–u–d–e–
+34 very rov olid -> –v–e–r–y–r–o–v–o–l–i–d–
+35 aden scene alkoi -> –a–d–e–n–s–c–e–n–e–a–l–k–o–i–
+36 unos comfort celor -> –u–n–o–s–c–o–m–f–o–r–t–c–e–l–o–r–
+37 inburgh loses hacen -> –i–n–b–u–r–g–h–l–o–s–e–s–h–a–c–e–n–
+38 tress veille siano -> –t–r–e–s–s–v–e–i–l–l–e–s–i–a–n–o–
+39 taine jer jis -> –t–a–i–n–e–j–e–r–j–i–s–
+40 ield thereon adier -> –i–e–l–d–t–h–e–r–e–o–n–a–d–i–e–r–
+41 xi privacy birthday -> –x–i–p–r–i–v–a–c–y–b–i–r–t–h–d–a–y–
+42 orie agua afili -> –o–r–i–e–a–g–u–a–a–f–i–l–i–
+43 ecutivo szen sour -> –e–c–u–t–i–v–o–s–z–e–n–s–o–u–r–
+44 metics breaks mocked -> –m–e–t–i–c–s–b–r–e–a–k–s–m–o–c–k–e–d–
+45 antar lateral twelfth -> –a–n–t–a–r–l–a–t–e–r–a–l–t–w–e–l–f–t–h–
+46 rt vieux baja -> –r–t–v–i–e–u–x–b–a–j–a–
+47 enal forest sist -> –e–n–a–l–f–o–r–e–s–t–s–i–s–t–
+48 chond modified gebieden -> –c–h–o–n–d–m–o–d–i–f–i–e–d–g–e–b–i–e–d–e–n–
+49 onan shr alkal -> –o–n–a–n–s–h–r–a–l–k–a–l–
+50 xiety kvarter berada -> –x–i–e–t–y–k–v–a–r–t–e–r–b–e–r–a–d–a–
+51 arik assass peel -> –a–r–i–k–a–s–s–a–s–s–p–e–e–l–
+52 akukan jang remonter -> –a–k–u–k–a–n–j–a–n–g–r–e–m–o–n–t–e–r–
+53 give coco lij -> –g–i–v–e–c–o–c–o–l–i–j–
+54 ires pobl saisit -> –i–r–e–s–p–o–b–l–s–a–i–s–i–t–
+55 agens lokal eind -> –a–g–e–n–s–l–o–k–a–l–e–i–n–d–
+56 bou marathon affid -> –b–o–u–m–a–r–a–t–h–o–n–a–f–f–i–d–
+57 ants grin tio -> –a–n–t–s–g–r–i–n–t–i–o–
+58 indic encima writ -> –i–n–d–i–c–e–n–c–i–m–a–w–r–i–t–
+59 lee enzymes sexually -> –l–e–e–e–n–z–y–m–e–s–s–e–x–u–a–l–l–y–
+60 czenia elt firef -> –c–z–e–n–i–a–e–l–t–f–i–r–e–f–
+61 astom voix plaz -> –a–s–t–o–m–v–o–i–x–p–l–a–z–
+62 ilter propor approach -> –i–l–t–e–r–p–r–o–p–o–r–a–p–p–r–o–a–c–h–
+63 xid gjort estrut -> –x–i–d–g–j–o–r–t–e–s–t–r–u–t–
+64 throws intorno rendait -> –t–h–r–o–w–s–i–n–t–o–r–n–o–r–e–n–d–a–i–t–
+65 anja deny huvud -> –a–n–j–a–d–e–n–y–h–u–v–u–d–
+66 oky village pat -> –o–k–y–v–i–l–l–a–g–e–p–a–t–
+67 orsa sfor supprim -> –o–r–s–a–s–f–o–r–s–u–p–p–r–i–m–
+68 launcher organize release -> –l–a–u–n–c–h–e–r–o–r–g–a–n–i–z–e–r–e–l–e–a–s–e–
+69 leetcode tempor assigned -> –l–e–e–t–c–o–d–e–t–e–m–p–o–r–a–s–s–i–g–n–e–d–
+70 cek afro pubblica -> –c–e–k–a–f–r–o–p–u–b–b–l–i–c–a–
+71 arz adjuvant sia -> –a–r–z–a–d–j–u–v–a–n–t–s–i–a–
+72 arda desen plum -> –a–r–d–a–d–e–s–e–n–p–l–u–m–
+73 kas allied consult -> –k–a–s–a–l–l–i–e–d–c–o–n–s–u–l–t–
+74 future dirt tunnels -> –f–u–t–u–r–e–d–i–r–t–t–u–n–n–e–l–s–
+75 company rotated quatorze -> –c–o–m–p–a–n–y–r–o–t–a–t–e–d–q–u–a–t–o–r–z–e–
+76 eu iban symbole -> –e–u–i–b–a–n–s–y–m–b–o–l–e–
+77 alle eget atmosph -> –a–l–l–e–e–g–e–t–a–t–m–o–s–p–h–
+78 itr ejected smells -> –i–t–r–e–j–e–c–t–e–d–s–m–e–l–l–s–
+79 inske projektu franc -> –i–n–s–k–e–p–r–o–j–e–k–t–u–f–r–a–n–c–
+80 soever hard bonuses -> –s–o–e–v–e–r–h–a–r–d–b–o–n–u–s–e–s–
+81 kcji ocasion tuy -> –k–c–j–i–o–c–a–s–i–o–n–t–u–y–
+82 icism teht milions -> –i–c–i–s–m–t–e–h–t–m–i–l–i–o–n–s–
+83 kes coil down -> –k–e–s–c–o–i–l–d–o–w–n–
+84 aghan brav blessed -> –a–g–h–a–n–b–r–a–v–b–l–e–s–s–e–d–
+85 ese quais veil -> –e–s–e–q–u–a–i–s–v–e–i–l–
+86 lek wound versus -> –l–e–k–w–o–u–n–d–v–e–r–s–u–s–
+87 endien dolgo spectrom -> –e–n–d–i–e–n–d–o–l–g–o–s–p–e–c–t–r–o–m–
+88 stmt depos vendors -> –s–t–m–t–d–e–p–o–s–v–e–n–d–o–r–s–
+89 atinib prodotti tim -> –a–t–i–n–i–b–p–r–o–d–o–t–t–i–t–i–m–
+90 umbled nieuw agentes -> –u–m–b–l–e–d–n–i–e–u–w–a–g–e–n–t–e–s–
+91 gada torn sezon -> –g–a–d–a–t–o–r–n–s–e–z–o–n–
+92 urm crosses bona -> –u–r–m–c–r–o–s–s–e–s–b–o–n–a–
+93 elsk pequeno genres -> –e–l–s–k–p–e–q–u–e–n–o–g–e–n–r–e–s–
+94 ogonal concepto panorama -> –o–g–o–n–a–l–c–o–n–c–e–p–t–o–p–a–n–o–r–a–m–a–
+95 ocyte menores deliber -> –o–c–y–t–e–m–e–n–o–r–e–s–d–e–l–i–b–e–r–
+96 orns epit manque -> –o–r–n–s–e–p–i–t–m–a–n–q–u–e–
+97 inski jour trigger -> –i–n–s–k–i–j–o–u–r–t–r–i–g–g–e–r–
+98 headed rer publique -> –h–e–a–d–e–d–r–e–r–p–u–b–l–i–q–u–e–
+99 atively modell murs -> –a–t–i–v–e–l–y–m–o–d–e–l–l–m–u–r–s–

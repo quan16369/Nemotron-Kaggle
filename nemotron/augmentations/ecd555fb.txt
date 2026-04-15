@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 endem rico fierce
+01 dfrac lv encontr
+02 cco neur apag
+
+This is a sample output.
+00 endem rico fierce -> –e–n–d–e–m–r–i–c–o–f–i–e–r–c–e–
+01 dfrac lv encontr -> –d–f–r–a–c–l–v–e–n–c–o–n–t–r–
+02 cco neur apag -> –c–c–o–n–e–u–r–a–p–a–g–
+
+This is your input.
+00 swers solid array
+01 qrt torque weekends
+02 esimo empat plac
+03 pian colonie mongo
+04 employ charging prisma
+05 isting rych pequ
+06 iol horn anion
+07 cean paw debat
+08 stil quotes fica
+09 hnte magic rescu
+10 cur filo simult
+11 ieri opposing auxili
+12 abla pand malware
+13 ieran soybean sage
+14 iyot chiamato issued
+15 oid amelior pietra
+16 rictions amyloid analyte
+17 zez arrival nen
+18 lak majority matriz
+19 bination sobie tangled
+20 omor ruta louder
+21 ffiti caffeine anaer
+22 guard campo laget
+23 lude induces hats
+24 inom trophy carbide
+25 sizeof tortured gradient
+26 insen livros sog
+27 gic remport frozen
+28 illary manoir rechten
+29 ractice arma vlak
+30 oor divid umjet
+31 mente administ begr
+32 iertos jambe alcanz
+33 spinal abi pets
+34 uders bao spas
+35 inib kraju colspan
+36 jut rsp ombre
+37 berd yaw survey
+38 vot second feature
+39 ium beneath kesk
+40 emit planos skrev
+41 merge vain excuse
+42 acetyl articul reconoc
+43 osk gehe bih
+44 uis oggi muito
+45 cycl dissen dull
+46 alculate training cifra
+47 corn isoforms zorg
+48 schech praised sapeva
+49 waj douce userid
+50 iner audit brut
+51 forge arriv evrops
+52 graf desempen capo
+53 usel explored razvoj
+54 atorios synerg ion
+55 ahoo giorno tumba
+56 erste prze puntos
+57 stalled namely weapon
+58 appelijk refl marina
+59 unta tuvo olup
+60 umat triggers recaud
+61 ulent state fun
+62 urat agrees potp
+63 jna rebre besuchte
+64 mailto vergeben kode
+65 roso kek haut
+66 ajem aktor danas
+67 clav arbit avaient
+68 haupt examiner princes
+69 oule meyd alumin
+70 vers ect hombre
+71 wrapper jung consigu
+72 edeut rozp maioria
+73 cheiden repar primera
+74 ttiin signal mujeres
+75 clerotic appare nails
+76 su leaders mc
+77 ruptions volat rebeldes
+78 upi cabinets dette
+79 iment ostr bedeutet
+80 okee keinen bitar
+81 aque milles texte
+82 pat risco proudly
+83 enin comer vocalist
+84 mel reflej chi
+85 wei fert microtub
+86 prud alemanes trends
+87 slug dre ennemis
+88 gram restitu dona
+89 please wykon weighted
+90 otten rame sputter
+91 endosi pohy escolas
+92 derung gerne terrace
+93 reek oxides tiempo
+94 ulin pedra estil
+95 icar dement reiter
+96 imeter suggest juive
+97 adav controll separate
+98 uvi busy wx
+99 pias gesagt beh
+[completion]
+00 swers solid array -> –s–w–e–r–s–s–o–l–i–d–a–r–r–a–y–
+01 qrt torque weekends -> –q–r–t–t–o–r–q–u–e–w–e–e–k–e–n–d–s–
+02 esimo empat plac -> –e–s–i–m–o–e–m–p–a–t–p–l–a–c–
+03 pian colonie mongo -> –p–i–a–n–c–o–l–o–n–i–e–m–o–n–g–o–
+04 employ charging prisma -> –e–m–p–l–o–y–c–h–a–r–g–i–n–g–p–r–i–s–m–a–
+05 isting rych pequ -> –i–s–t–i–n–g–r–y–c–h–p–e–q–u–
+06 iol horn anion -> –i–o–l–h–o–r–n–a–n–i–o–n–
+07 cean paw debat -> –c–e–a–n–p–a–w–d–e–b–a–t–
+08 stil quotes fica -> –s–t–i–l–q–u–o–t–e–s–f–i–c–a–
+09 hnte magic rescu -> –h–n–t–e–m–a–g–i–c–r–e–s–c–u–
+10 cur filo simult -> –c–u–r–f–i–l–o–s–i–m–u–l–t–
+11 ieri opposing auxili -> –i–e–r–i–o–p–p–o–s–i–n–g–a–u–x–i–l–i–
+12 abla pand malware -> –a–b–l–a–p–a–n–d–m–a–l–w–a–r–e–
+13 ieran soybean sage -> –i–e–r–a–n–s–o–y–b–e–a–n–s–a–g–e–
+14 iyot chiamato issued -> –i–y–o–t–c–h–i–a–m–a–t–o–i–s–s–u–e–d–
+15 oid amelior pietra -> –o–i–d–a–m–e–l–i–o–r–p–i–e–t–r–a–
+16 rictions amyloid analyte -> –r–i–c–t–i–o–n–s–a–m–y–l–o–i–d–a–n–a–l–y–t–e–
+17 zez arrival nen -> –z–e–z–a–r–r–i–v–a–l–n–e–n–
+18 lak majority matriz -> –l–a–k–m–a–j–o–r–i–t–y–m–a–t–r–i–z–
+19 bination sobie tangled -> –b–i–n–a–t–i–o–n–s–o–b–i–e–t–a–n–g–l–e–d–
+20 omor ruta louder -> –o–m–o–r–r–u–t–a–l–o–u–d–e–r–
+21 ffiti caffeine anaer -> –f–f–i–t–i–c–a–f–f–e–i–n–e–a–n–a–e–r–
+22 guard campo laget -> –g–u–a–r–d–c–a–m–p–o–l–a–g–e–t–
+23 lude induces hats -> –l–u–d–e–i–n–d–u–c–e–s–h–a–t–s–
+24 inom trophy carbide -> –i–n–o–m–t–r–o–p–h–y–c–a–r–b–i–d–e–
+25 sizeof tortured gradient -> –s–i–z–e–o–f–t–o–r–t–u–r–e–d–g–r–a–d–i–e–n–t–
+26 insen livros sog -> –i–n–s–e–n–l–i–v–r–o–s–s–o–g–
+27 gic remport frozen -> –g–i–c–r–e–m–p–o–r–t–f–r–o–z–e–n–
+28 illary manoir rechten -> –i–l–l–a–r–y–m–a–n–o–i–r–r–e–c–h–t–e–n–
+29 ractice arma vlak -> –r–a–c–t–i–c–e–a–r–m–a–v–l–a–k–
+30 oor divid umjet -> –o–o–r–d–i–v–i–d–u–m–j–e–t–
+31 mente administ begr -> –m–e–n–t–e–a–d–m–i–n–i–s–t–b–e–g–r–
+32 iertos jambe alcanz -> –i–e–r–t–o–s–j–a–m–b–e–a–l–c–a–n–z–
+33 spinal abi pets -> –s–p–i–n–a–l–a–b–i–p–e–t–s–
+34 uders bao spas -> –u–d–e–r–s–b–a–o–s–p–a–s–
+35 inib kraju colspan -> –i–n–i–b–k–r–a–j–u–c–o–l–s–p–a–n–
+36 jut rsp ombre -> –j–u–t–r–s–p–o–m–b–r–e–
+37 berd yaw survey -> –b–e–r–d–y–a–w–s–u–r–v–e–y–
+38 vot second feature -> –v–o–t–s–e–c–o–n–d–f–e–a–t–u–r–e–
+39 ium beneath kesk -> –i–u–m–b–e–n–e–a–t–h–k–e–s–k–
+40 emit planos skrev -> –e–m–i–t–p–l–a–n–o–s–s–k–r–e–v–
+41 merge vain excuse -> –m–e–r–g–e–v–a–i–n–e–x–c–u–s–e–
+42 acetyl articul reconoc -> –a–c–e–t–y–l–a–r–t–i–c–u–l–r–e–c–o–n–o–c–
+43 osk gehe bih -> –o–s–k–g–e–h–e–b–i–h–
+44 uis oggi muito -> –u–i–s–o–g–g–i–m–u–i–t–o–
+45 cycl dissen dull -> –c–y–c–l–d–i–s–s–e–n–d–u–l–l–
+46 alculate training cifra -> –a–l–c–u–l–a–t–e–t–r–a–i–n–i–n–g–c–i–f–r–a–
+47 corn isoforms zorg -> –c–o–r–n–i–s–o–f–o–r–m–s–z–o–r–g–
+48 schech praised sapeva -> –s–c–h–e–c–h–p–r–a–i–s–e–d–s–a–p–e–v–a–
+49 waj douce userid -> –w–a–j–d–o–u–c–e–u–s–e–r–i–d–
+50 iner audit brut -> –i–n–e–r–a–u–d–i–t–b–r–u–t–
+51 forge arriv evrops -> –f–o–r–g–e–a–r–r–i–v–e–v–r–o–p–s–
+52 graf desempen capo -> –g–r–a–f–d–e–s–e–m–p–e–n–c–a–p–o–
+53 usel explored razvoj -> –u–s–e–l–e–x–p–l–o–r–e–d–r–a–z–v–o–j–
+54 atorios synerg ion -> –a–t–o–r–i–o–s–s–y–n–e–r–g–i–o–n–
+55 ahoo giorno tumba -> –a–h–o–o–g–i–o–r–n–o–t–u–m–b–a–
+56 erste prze puntos -> –e–r–s–t–e–p–r–z–e–p–u–n–t–o–s–
+57 stalled namely weapon -> –s–t–a–l–l–e–d–n–a–m–e–l–y–w–e–a–p–o–n–
+58 appelijk refl marina -> –a–p–p–e–l–i–j–k–r–e–f–l–m–a–r–i–n–a–
+59 unta tuvo olup -> –u–n–t–a–t–u–v–o–o–l–u–p–
+60 umat triggers recaud -> –u–m–a–t–t–r–i–g–g–e–r–s–r–e–c–a–u–d–
+61 ulent state fun -> –u–l–e–n–t–s–t–a–t–e–f–u–n–
+62 urat agrees potp -> –u–r–a–t–a–g–r–e–e–s–p–o–t–p–
+63 jna rebre besuchte -> –j–n–a–r–e–b–r–e–b–e–s–u–c–h–t–e–
+64 mailto vergeben kode -> –m–a–i–l–t–o–v–e–r–g–e–b–e–n–k–o–d–e–
+65 roso kek haut -> –r–o–s–o–k–e–k–h–a–u–t–
+66 ajem aktor danas -> –a–j–e–m–a–k–t–o–r–d–a–n–a–s–
+67 clav arbit avaient -> –c–l–a–v–a–r–b–i–t–a–v–a–i–e–n–t–
+68 haupt examiner princes -> –h–a–u–p–t–e–x–a–m–i–n–e–r–p–r–i–n–c–e–s–
+69 oule meyd alumin -> –o–u–l–e–m–e–y–d–a–l–u–m–i–n–
+70 vers ect hombre -> –v–e–r–s–e–c–t–h–o–m–b–r–e–
+71 wrapper jung consigu -> –w–r–a–p–p–e–r–j–u–n–g–c–o–n–s–i–g–u–
+72 edeut rozp maioria -> –e–d–e–u–t–r–o–z–p–m–a–i–o–r–i–a–
+73 cheiden repar primera -> –c–h–e–i–d–e–n–r–e–p–a–r–p–r–i–m–e–r–a–
+74 ttiin signal mujeres -> –t–t–i–i–n–s–i–g–n–a–l–m–u–j–e–r–e–s–
+75 clerotic appare nails -> –c–l–e–r–o–t–i–c–a–p–p–a–r–e–n–a–i–l–s–
+76 su leaders mc -> –s–u–l–e–a–d–e–r–s–m–c–
+77 ruptions volat rebeldes -> –r–u–p–t–i–o–n–s–v–o–l–a–t–r–e–b–e–l–d–e–s–
+78 upi cabinets dette -> –u–p–i–c–a–b–i–n–e–t–s–d–e–t–t–e–
+79 iment ostr bedeutet -> –i–m–e–n–t–o–s–t–r–b–e–d–e–u–t–e–t–
+80 okee keinen bitar -> –o–k–e–e–k–e–i–n–e–n–b–i–t–a–r–
+81 aque milles texte -> –a–q–u–e–m–i–l–l–e–s–t–e–x–t–e–
+82 pat risco proudly -> –p–a–t–r–i–s–c–o–p–r–o–u–d–l–y–
+83 enin comer vocalist -> –e–n–i–n–c–o–m–e–r–v–o–c–a–l–i–s–t–
+84 mel reflej chi -> –m–e–l–r–e–f–l–e–j–c–h–i–
+85 wei fert microtub -> –w–e–i–f–e–r–t–m–i–c–r–o–t–u–b–
+86 prud alemanes trends -> –p–r–u–d–a–l–e–m–a–n–e–s–t–r–e–n–d–s–
+87 slug dre ennemis -> –s–l–u–g–d–r–e–e–n–n–e–m–i–s–
+88 gram restitu dona -> –g–r–a–m–r–e–s–t–i–t–u–d–o–n–a–
+89 please wykon weighted -> –p–l–e–a–s–e–w–y–k–o–n–w–e–i–g–h–t–e–d–
+90 otten rame sputter -> –o–t–t–e–n–r–a–m–e–s–p–u–t–t–e–r–
+91 endosi pohy escolas -> –e–n–d–o–s–i–p–o–h–y–e–s–c–o–l–a–s–
+92 derung gerne terrace -> –d–e–r–u–n–g–g–e–r–n–e–t–e–r–r–a–c–e–
+93 reek oxides tiempo -> –r–e–e–k–o–x–i–d–e–s–t–i–e–m–p–o–
+94 ulin pedra estil -> –u–l–i–n–p–e–d–r–a–e–s–t–i–l–
+95 icar dement reiter -> –i–c–a–r–d–e–m–e–n–t–r–e–i–t–e–r–
+96 imeter suggest juive -> –i–m–e–t–e–r–s–u–g–g–e–s–t–j–u–i–v–e–
+97 adav controll separate -> –a–d–a–v–c–o–n–t–r–o–l–l–s–e–p–a–r–a–t–e–
+98 uvi busy wx -> –u–v–i–b–u–s–y–w–x–
+99 pias gesagt beh -> –p–i–a–s–g–e–s–a–g–t–b–e–h–

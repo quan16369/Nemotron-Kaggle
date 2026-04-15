@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 umbnails yarat embark
+01 induced abz relax
+02 ool be remnants
+
+This is a sample output.
+00 umbnails yarat embark -> –u–m–b–n–a–i–l–s–y–a–r–a–t–e–m–b–a–r–k–
+01 induced abz relax -> –i–n–d–u–c–e–d–a–b–z–r–e–l–a–x–
+02 ool be remnants -> –o–o–l–b–e–r–e–m–n–a–n–t–s–
+
+This is your input.
+00 deal framing lost
+01 cidos grudnia kilpail
+02 ogne nincs bocca
+03 agnol allowing discuss
+04 tabl geom differs
+05 right tension imp
+06 annt junho tareas
+07 heat limp dietro
+08 urpose argileux geeign
+09 edium teh waved
+10 button cs lanc
+11 anvas sending gele
+12 ahren landmark verste
+13 opus natuur ble
+14 arc extremes guion
+15 material caract egyes
+16 ztet melyek since
+17 achment juif collapse
+18 itant maneira estudiar
+19 iaus survival culp
+20 zet girl loader
+21 olytic growing racines
+22 product photos defeat
+23 ptide gestes save
+24 hedron libc conquist
+25 lassen basa crist
+26 handlung estrat sinn
+27 fone ley banquet
+28 oral sonunda dijel
+29 ocin soci disso
+30 dle pequena warto
+31 stre ouvert tens
+32 ellar pressed yield
+33 omb sigu fazendo
+34 ciencia secolo fera
+35 ichtung accused playful
+36 unas promov clas
+37 ulos plaster faces
+38 embled las circum
+39 isters while firearms
+40 idere babies barcode
+41 ventory clima splitter
+42 acu pissed ver
+43 aua seab aired
+44 ivering intrav sarebbe
+45 way nama protects
+46 pla sahip ridicule
+47 embangan longues ut
+48 izados dve llegado
+49 daughter atto nimmt
+50 oston seawater totally
+51 inta proclaim sucking
+52 rett kese reacted
+53 geom dedica gusto
+54 roga jong assign
+55 rogate trape train
+56 front enpresa pavement
+57 ileen flag costat
+58 fut lui ersche
+59 phosph citizens vald
+60 awning kinetics supports
+61 appar could pleno
+62 outil soutenu perce
+63 letus trip svemiru
+64 acting teamm sew
+65 atics indist kinh
+66 kunde tantos femme
+67 icano absorber asset
+68 pytest revenu arrange
+69 embre amelyek neutron
+70 lides mesma paroiss
+71 prising aquela nieder
+72 ilen symmet towers
+73 toa args schnell
+74 stv pada gasoline
+75 ijos dental uitz
+76 advant beyond piacere
+77 emand operable vacation
+78 png nucl posting
+79 beste razem rey
+80 column corre prejud
+81 usik bois cunha
+82 vise fellows gems
+83 asma ge sinds
+84 rique panor charm
+85 icture klein halv
+86 esk intenta couch
+87 ysk walking riun
+88 edstrijd speed avait
+89 erno kap siyas
+90 arije slow might
+91 dam cac voud
+92 bag dirigir blessure
+93 negative biv regreso
+94 full sexuelle danske
+95 cv hides blogs
+96 jek vapor toplam
+97 rie tes adults
+98 cls annual ancient
+99 icule unable fork
+[completion]
+00 deal framing lost -> –d–e–a–l–f–r–a–m–i–n–g–l–o–s–t–
+01 cidos grudnia kilpail -> –c–i–d–o–s–g–r–u–d–n–i–a–k–i–l–p–a–i–l–
+02 ogne nincs bocca -> –o–g–n–e–n–i–n–c–s–b–o–c–c–a–
+03 agnol allowing discuss -> –a–g–n–o–l–a–l–l–o–w–i–n–g–d–i–s–c–u–s–s–
+04 tabl geom differs -> –t–a–b–l–g–e–o–m–d–i–f–f–e–r–s–
+05 right tension imp -> –r–i–g–h–t–t–e–n–s–i–o–n–i–m–p–
+06 annt junho tareas -> –a–n–n–t–j–u–n–h–o–t–a–r–e–a–s–
+07 heat limp dietro -> –h–e–a–t–l–i–m–p–d–i–e–t–r–o–
+08 urpose argileux geeign -> –u–r–p–o–s–e–a–r–g–i–l–e–u–x–g–e–e–i–g–n–
+09 edium teh waved -> –e–d–i–u–m–t–e–h–w–a–v–e–d–
+10 button cs lanc -> –b–u–t–t–o–n–c–s–l–a–n–c–
+11 anvas sending gele -> –a–n–v–a–s–s–e–n–d–i–n–g–g–e–l–e–
+12 ahren landmark verste -> –a–h–r–e–n–l–a–n–d–m–a–r–k–v–e–r–s–t–e–
+13 opus natuur ble -> –o–p–u–s–n–a–t–u–u–r–b–l–e–
+14 arc extremes guion -> –a–r–c–e–x–t–r–e–m–e–s–g–u–i–o–n–
+15 material caract egyes -> –m–a–t–e–r–i–a–l–c–a–r–a–c–t–e–g–y–e–s–
+16 ztet melyek since -> –z–t–e–t–m–e–l–y–e–k–s–i–n–c–e–
+17 achment juif collapse -> –a–c–h–m–e–n–t–j–u–i–f–c–o–l–l–a–p–s–e–
+18 itant maneira estudiar -> –i–t–a–n–t–m–a–n–e–i–r–a–e–s–t–u–d–i–a–r–
+19 iaus survival culp -> –i–a–u–s–s–u–r–v–i–v–a–l–c–u–l–p–
+20 zet girl loader -> –z–e–t–g–i–r–l–l–o–a–d–e–r–
+21 olytic growing racines -> –o–l–y–t–i–c–g–r–o–w–i–n–g–r–a–c–i–n–e–s–
+22 product photos defeat -> –p–r–o–d–u–c–t–p–h–o–t–o–s–d–e–f–e–a–t–
+23 ptide gestes save -> –p–t–i–d–e–g–e–s–t–e–s–s–a–v–e–
+24 hedron libc conquist -> –h–e–d–r–o–n–l–i–b–c–c–o–n–q–u–i–s–t–
+25 lassen basa crist -> –l–a–s–s–e–n–b–a–s–a–c–r–i–s–t–
+26 handlung estrat sinn -> –h–a–n–d–l–u–n–g–e–s–t–r–a–t–s–i–n–n–
+27 fone ley banquet -> –f–o–n–e–l–e–y–b–a–n–q–u–e–t–
+28 oral sonunda dijel -> –o–r–a–l–s–o–n–u–n–d–a–d–i–j–e–l–
+29 ocin soci disso -> –o–c–i–n–s–o–c–i–d–i–s–s–o–
+30 dle pequena warto -> –d–l–e–p–e–q–u–e–n–a–w–a–r–t–o–
+31 stre ouvert tens -> –s–t–r–e–o–u–v–e–r–t–t–e–n–s–
+32 ellar pressed yield -> –e–l–l–a–r–p–r–e–s–s–e–d–y–i–e–l–d–
+33 omb sigu fazendo -> –o–m–b–s–i–g–u–f–a–z–e–n–d–o–
+34 ciencia secolo fera -> –c–i–e–n–c–i–a–s–e–c–o–l–o–f–e–r–a–
+35 ichtung accused playful -> –i–c–h–t–u–n–g–a–c–c–u–s–e–d–p–l–a–y–f–u–l–
+36 unas promov clas -> –u–n–a–s–p–r–o–m–o–v–c–l–a–s–
+37 ulos plaster faces -> –u–l–o–s–p–l–a–s–t–e–r–f–a–c–e–s–
+38 embled las circum -> –e–m–b–l–e–d–l–a–s–c–i–r–c–u–m–
+39 isters while firearms -> –i–s–t–e–r–s–w–h–i–l–e–f–i–r–e–a–r–m–s–
+40 idere babies barcode -> –i–d–e–r–e–b–a–b–i–e–s–b–a–r–c–o–d–e–
+41 ventory clima splitter -> –v–e–n–t–o–r–y–c–l–i–m–a–s–p–l–i–t–t–e–r–
+42 acu pissed ver -> –a–c–u–p–i–s–s–e–d–v–e–r–
+43 aua seab aired -> –a–u–a–s–e–a–b–a–i–r–e–d–
+44 ivering intrav sarebbe -> –i–v–e–r–i–n–g–i–n–t–r–a–v–s–a–r–e–b–b–e–
+45 way nama protects -> –w–a–y–n–a–m–a–p–r–o–t–e–c–t–s–
+46 pla sahip ridicule -> –p–l–a–s–a–h–i–p–r–i–d–i–c–u–l–e–
+47 embangan longues ut -> –e–m–b–a–n–g–a–n–l–o–n–g–u–e–s–u–t–
+48 izados dve llegado -> –i–z–a–d–o–s–d–v–e–l–l–e–g–a–d–o–
+49 daughter atto nimmt -> –d–a–u–g–h–t–e–r–a–t–t–o–n–i–m–m–t–
+50 oston seawater totally -> –o–s–t–o–n–s–e–a–w–a–t–e–r–t–o–t–a–l–l–y–
+51 inta proclaim sucking -> –i–n–t–a–p–r–o–c–l–a–i–m–s–u–c–k–i–n–g–
+52 rett kese reacted -> –r–e–t–t–k–e–s–e–r–e–a–c–t–e–d–
+53 geom dedica gusto -> –g–e–o–m–d–e–d–i–c–a–g–u–s–t–o–
+54 roga jong assign -> –r–o–g–a–j–o–n–g–a–s–s–i–g–n–
+55 rogate trape train -> –r–o–g–a–t–e–t–r–a–p–e–t–r–a–i–n–
+56 front enpresa pavement -> –f–r–o–n–t–e–n–p–r–e–s–a–p–a–v–e–m–e–n–t–
+57 ileen flag costat -> –i–l–e–e–n–f–l–a–g–c–o–s–t–a–t–
+58 fut lui ersche -> –f–u–t–l–u–i–e–r–s–c–h–e–
+59 phosph citizens vald -> –p–h–o–s–p–h–c–i–t–i–z–e–n–s–v–a–l–d–
+60 awning kinetics supports -> –a–w–n–i–n–g–k–i–n–e–t–i–c–s–s–u–p–p–o–r–t–s–
+61 appar could pleno -> –a–p–p–a–r–c–o–u–l–d–p–l–e–n–o–
+62 outil soutenu perce -> –o–u–t–i–l–s–o–u–t–e–n–u–p–e–r–c–e–
+63 letus trip svemiru -> –l–e–t–u–s–t–r–i–p–s–v–e–m–i–r–u–
+64 acting teamm sew -> –a–c–t–i–n–g–t–e–a–m–m–s–e–w–
+65 atics indist kinh -> –a–t–i–c–s–i–n–d–i–s–t–k–i–n–h–
+66 kunde tantos femme -> –k–u–n–d–e–t–a–n–t–o–s–f–e–m–m–e–
+67 icano absorber asset -> –i–c–a–n–o–a–b–s–o–r–b–e–r–a–s–s–e–t–
+68 pytest revenu arrange -> –p–y–t–e–s–t–r–e–v–e–n–u–a–r–r–a–n–g–e–
+69 embre amelyek neutron -> –e–m–b–r–e–a–m–e–l–y–e–k–n–e–u–t–r–o–n–
+70 lides mesma paroiss -> –l–i–d–e–s–m–e–s–m–a–p–a–r–o–i–s–s–
+71 prising aquela nieder -> –p–r–i–s–i–n–g–a–q–u–e–l–a–n–i–e–d–e–r–
+72 ilen symmet towers -> –i–l–e–n–s–y–m–m–e–t–t–o–w–e–r–s–
+73 toa args schnell -> –t–o–a–a–r–g–s–s–c–h–n–e–l–l–
+74 stv pada gasoline -> –s–t–v–p–a–d–a–g–a–s–o–l–i–n–e–
+75 ijos dental uitz -> –i–j–o–s–d–e–n–t–a–l–u–i–t–z–
+76 advant beyond piacere -> –a–d–v–a–n–t–b–e–y–o–n–d–p–i–a–c–e–r–e–
+77 emand operable vacation -> –e–m–a–n–d–o–p–e–r–a–b–l–e–v–a–c–a–t–i–o–n–
+78 png nucl posting -> –p–n–g–n–u–c–l–p–o–s–t–i–n–g–
+79 beste razem rey -> –b–e–s–t–e–r–a–z–e–m–r–e–y–
+80 column corre prejud -> –c–o–l–u–m–n–c–o–r–r–e–p–r–e–j–u–d–
+81 usik bois cunha -> –u–s–i–k–b–o–i–s–c–u–n–h–a–
+82 vise fellows gems -> –v–i–s–e–f–e–l–l–o–w–s–g–e–m–s–
+83 asma ge sinds -> –a–s–m–a–g–e–s–i–n–d–s–
+84 rique panor charm -> –r–i–q–u–e–p–a–n–o–r–c–h–a–r–m–
+85 icture klein halv -> –i–c–t–u–r–e–k–l–e–i–n–h–a–l–v–
+86 esk intenta couch -> –e–s–k–i–n–t–e–n–t–a–c–o–u–c–h–
+87 ysk walking riun -> –y–s–k–w–a–l–k–i–n–g–r–i–u–n–
+88 edstrijd speed avait -> –e–d–s–t–r–i–j–d–s–p–e–e–d–a–v–a–i–t–
+89 erno kap siyas -> –e–r–n–o–k–a–p–s–i–y–a–s–
+90 arije slow might -> –a–r–i–j–e–s–l–o–w–m–i–g–h–t–
+91 dam cac voud -> –d–a–m–c–a–c–v–o–u–d–
+92 bag dirigir blessure -> –b–a–g–d–i–r–i–g–i–r–b–l–e–s–s–u–r–e–
+93 negative biv regreso -> –n–e–g–a–t–i–v–e–b–i–v–r–e–g–r–e–s–o–
+94 full sexuelle danske -> –f–u–l–l–s–e–x–u–e–l–l–e–d–a–n–s–k–e–
+95 cv hides blogs -> –c–v–h–i–d–e–s–b–l–o–g–s–
+96 jek vapor toplam -> –j–e–k–v–a–p–o–r–t–o–p–l–a–m–
+97 rie tes adults -> –r–i–e–t–e–s–a–d–u–l–t–s–
+98 cls annual ancient -> –c–l–s–a–n–n–u–a–l–a–n–c–i–e–n–t–
+99 icule unable fork -> –i–c–u–l–e–u–n–a–b–l–e–f–o–r–k–

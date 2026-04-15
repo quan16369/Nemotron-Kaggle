@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 sv getter recom
+01 subject vojska llamado
+02 iace sarrerak reuni
+
+This is a sample output.
+00 sv getter recom -> –s–v–g–e–t–t–e–r–r–e–c–o–m–
+01 subject vojska llamado -> –s–u–b–j–e–c–t–v–o–j–s–k–a–l–l–a–m–a–d–o–
+02 iace sarrerak reuni -> –i–a–c–e–s–a–r–r–e–r–a–k–r–e–u–n–i–
+
+This is your input.
+00 ici sprechen titers
+01 stu rif paralelo
+02 urier prosa queda
+03 htar mistakes radicals
+04 keywords pracy sapi
+05 cc megfe piet
+06 ificial talked lanci
+07 occup quoting moul
+08 dh related word
+09 uctures propried synthet
+10 psin xyz rek
+11 odh noch muchas
+12 uega doctors stronger
+13 carbonyl biases studen
+14 removed gw abortion
+15 als cidade flex
+16 itate tractor trouver
+17 izio perfil fuir
+18 elan lenguas hads
+19 ffield kirit menys
+20 nest locked sub
+21 accio voglio prigion
+22 arying aerial divider
+23 each completo first
+24 ynast sz nuova
+25 ucion smoke promulg
+26 zhou riders diaphrag
+27 inand religi ganhou
+28 rsa cn soils
+29 paths shake parcours
+30 bruch inhum refract
+31 ictures murdered soorten
+32 tover produ anst
+33 esa though user
+34 cius vrou struggle
+35 edo analysed nobles
+36 ikaner shuttle focuses
+37 enerate ramach offens
+38 entation migraine cant
+39 enk barang mitral
+40 hire vidare stieg
+41 ymus farlo animated
+42 fp notar rhyth
+43 lective karakter entsteht
+44 buch irgende separado
+45 helper deeds bite
+46 aux hed utf
+47 ethoven noen exits
+48 ussa cp insol
+49 anchor suburbs plasma
+50 orten periodic sphere
+51 official tweet prolific
+52 avlj montr endroits
+53 apy incendi brewer
+54 assau solito innate
+55 umab abraz owner
+56 czyn molt chang
+57 bung received freien
+58 ild contexto grupos
+59 elas dann attached
+60 platform hovered molti
+61 iaan hm loser
+62 asil peak rendszer
+63 desc follic issu
+64 ierry bilg atacar
+65 kken barrios produit
+66 lst playoffs cock
+67 gg gesture onderste
+68 halten qualquer ventures
+69 dex cattol corrida
+70 roman segret lige
+71 emen resto caption
+72 arek hubiera mamp
+73 innen toc mongodb
+74 blick rzecz sulla
+75 plat warfare gusta
+76 rgb gert suya
+77 igueur egiteko facil
+78 ullehrer mengenai tout
+79 abol coconut terza
+80 gabe thoracic conduits
+81 cery suggests flexible
+82 hen thym estrange
+83 ped postav tiszt
+84 etxe injuries gentil
+85 ever monoc surat
+86 kup suffered carboxyl
+87 prete genoem officiel
+88 fik estudos membantu
+89 larda cub commande
+90 iese searches shore
+91 staw valores started
+92 oxygen thirty peace
+93 arske dov ojo
+94 aben desco nasled
+95 nano fair bundle
+96 cuts megjelen intenso
+97 failure moindre alde
+98 ombrie polos version
+99 mis eine tether
+[completion]
+00 ici sprechen titers -> –i–c–i–s–p–r–e–c–h–e–n–t–i–t–e–r–s–
+01 stu rif paralelo -> –s–t–u–r–i–f–p–a–r–a–l–e–l–o–
+02 urier prosa queda -> –u–r–i–e–r–p–r–o–s–a–q–u–e–d–a–
+03 htar mistakes radicals -> –h–t–a–r–m–i–s–t–a–k–e–s–r–a–d–i–c–a–l–s–
+04 keywords pracy sapi -> –k–e–y–w–o–r–d–s–p–r–a–c–y–s–a–p–i–
+05 cc megfe piet -> –c–c–m–e–g–f–e–p–i–e–t–
+06 ificial talked lanci -> –i–f–i–c–i–a–l–t–a–l–k–e–d–l–a–n–c–i–
+07 occup quoting moul -> –o–c–c–u–p–q–u–o–t–i–n–g–m–o–u–l–
+08 dh related word -> –d–h–r–e–l–a–t–e–d–w–o–r–d–
+09 uctures propried synthet -> –u–c–t–u–r–e–s–p–r–o–p–r–i–e–d–s–y–n–t–h–e–t–
+10 psin xyz rek -> –p–s–i–n–x–y–z–r–e–k–
+11 odh noch muchas -> –o–d–h–n–o–c–h–m–u–c–h–a–s–
+12 uega doctors stronger -> –u–e–g–a–d–o–c–t–o–r–s–s–t–r–o–n–g–e–r–
+13 carbonyl biases studen -> –c–a–r–b–o–n–y–l–b–i–a–s–e–s–s–t–u–d–e–n–
+14 removed gw abortion -> –r–e–m–o–v–e–d–g–w–a–b–o–r–t–i–o–n–
+15 als cidade flex -> –a–l–s–c–i–d–a–d–e–f–l–e–x–
+16 itate tractor trouver -> –i–t–a–t–e–t–r–a–c–t–o–r–t–r–o–u–v–e–r–
+17 izio perfil fuir -> –i–z–i–o–p–e–r–f–i–l–f–u–i–r–
+18 elan lenguas hads -> –e–l–a–n–l–e–n–g–u–a–s–h–a–d–s–
+19 ffield kirit menys -> –f–f–i–e–l–d–k–i–r–i–t–m–e–n–y–s–
+20 nest locked sub -> –n–e–s–t–l–o–c–k–e–d–s–u–b–
+21 accio voglio prigion -> –a–c–c–i–o–v–o–g–l–i–o–p–r–i–g–i–o–n–
+22 arying aerial divider -> –a–r–y–i–n–g–a–e–r–i–a–l–d–i–v–i–d–e–r–
+23 each completo first -> –e–a–c–h–c–o–m–p–l–e–t–o–f–i–r–s–t–
+24 ynast sz nuova -> –y–n–a–s–t–s–z–n–u–o–v–a–
+25 ucion smoke promulg -> –u–c–i–o–n–s–m–o–k–e–p–r–o–m–u–l–g–
+26 zhou riders diaphrag -> –z–h–o–u–r–i–d–e–r–s–d–i–a–p–h–r–a–g–
+27 inand religi ganhou -> –i–n–a–n–d–r–e–l–i–g–i–g–a–n–h–o–u–
+28 rsa cn soils -> –r–s–a–c–n–s–o–i–l–s–
+29 paths shake parcours -> –p–a–t–h–s–s–h–a–k–e–p–a–r–c–o–u–r–s–
+30 bruch inhum refract -> –b–r–u–c–h–i–n–h–u–m–r–e–f–r–a–c–t–
+31 ictures murdered soorten -> –i–c–t–u–r–e–s–m–u–r–d–e–r–e–d–s–o–o–r–t–e–n–
+32 tover produ anst -> –t–o–v–e–r–p–r–o–d–u–a–n–s–t–
+33 esa though user -> –e–s–a–t–h–o–u–g–h–u–s–e–r–
+34 cius vrou struggle -> –c–i–u–s–v–r–o–u–s–t–r–u–g–g–l–e–
+35 edo analysed nobles -> –e–d–o–a–n–a–l–y–s–e–d–n–o–b–l–e–s–
+36 ikaner shuttle focuses -> –i–k–a–n–e–r–s–h–u–t–t–l–e–f–o–c–u–s–e–s–
+37 enerate ramach offens -> –e–n–e–r–a–t–e–r–a–m–a–c–h–o–f–f–e–n–s–
+38 entation migraine cant -> –e–n–t–a–t–i–o–n–m–i–g–r–a–i–n–e–c–a–n–t–
+39 enk barang mitral -> –e–n–k–b–a–r–a–n–g–m–i–t–r–a–l–
+40 hire vidare stieg -> –h–i–r–e–v–i–d–a–r–e–s–t–i–e–g–
+41 ymus farlo animated -> –y–m–u–s–f–a–r–l–o–a–n–i–m–a–t–e–d–
+42 fp notar rhyth -> –f–p–n–o–t–a–r–r–h–y–t–h–
+43 lective karakter entsteht -> –l–e–c–t–i–v–e–k–a–r–a–k–t–e–r–e–n–t–s–t–e–h–t–
+44 buch irgende separado -> –b–u–c–h–i–r–g–e–n–d–e–s–e–p–a–r–a–d–o–
+45 helper deeds bite -> –h–e–l–p–e–r–d–e–e–d–s–b–i–t–e–
+46 aux hed utf -> –a–u–x–h–e–d–u–t–f–
+47 ethoven noen exits -> –e–t–h–o–v–e–n–n–o–e–n–e–x–i–t–s–
+48 ussa cp insol -> –u–s–s–a–c–p–i–n–s–o–l–
+49 anchor suburbs plasma -> –a–n–c–h–o–r–s–u–b–u–r–b–s–p–l–a–s–m–a–
+50 orten periodic sphere -> –o–r–t–e–n–p–e–r–i–o–d–i–c–s–p–h–e–r–e–
+51 official tweet prolific -> –o–f–f–i–c–i–a–l–t–w–e–e–t–p–r–o–l–i–f–i–c–
+52 avlj montr endroits -> –a–v–l–j–m–o–n–t–r–e–n–d–r–o–i–t–s–
+53 apy incendi brewer -> –a–p–y–i–n–c–e–n–d–i–b–r–e–w–e–r–
+54 assau solito innate -> –a–s–s–a–u–s–o–l–i–t–o–i–n–n–a–t–e–
+55 umab abraz owner -> –u–m–a–b–a–b–r–a–z–o–w–n–e–r–
+56 czyn molt chang -> –c–z–y–n–m–o–l–t–c–h–a–n–g–
+57 bung received freien -> –b–u–n–g–r–e–c–e–i–v–e–d–f–r–e–i–e–n–
+58 ild contexto grupos -> –i–l–d–c–o–n–t–e–x–t–o–g–r–u–p–o–s–
+59 elas dann attached -> –e–l–a–s–d–a–n–n–a–t–t–a–c–h–e–d–
+60 platform hovered molti -> –p–l–a–t–f–o–r–m–h–o–v–e–r–e–d–m–o–l–t–i–
+61 iaan hm loser -> –i–a–a–n–h–m–l–o–s–e–r–
+62 asil peak rendszer -> –a–s–i–l–p–e–a–k–r–e–n–d–s–z–e–r–
+63 desc follic issu -> –d–e–s–c–f–o–l–l–i–c–i–s–s–u–
+64 ierry bilg atacar -> –i–e–r–r–y–b–i–l–g–a–t–a–c–a–r–
+65 kken barrios produit -> –k–k–e–n–b–a–r–r–i–o–s–p–r–o–d–u–i–t–
+66 lst playoffs cock -> –l–s–t–p–l–a–y–o–f–f–s–c–o–c–k–
+67 gg gesture onderste -> –g–g–g–e–s–t–u–r–e–o–n–d–e–r–s–t–e–
+68 halten qualquer ventures -> –h–a–l–t–e–n–q–u–a–l–q–u–e–r–v–e–n–t–u–r–e–s–
+69 dex cattol corrida -> –d–e–x–c–a–t–t–o–l–c–o–r–r–i–d–a–
+70 roman segret lige -> –r–o–m–a–n–s–e–g–r–e–t–l–i–g–e–
+71 emen resto caption -> –e–m–e–n–r–e–s–t–o–c–a–p–t–i–o–n–
+72 arek hubiera mamp -> –a–r–e–k–h–u–b–i–e–r–a–m–a–m–p–
+73 innen toc mongodb -> –i–n–n–e–n–t–o–c–m–o–n–g–o–d–b–
+74 blick rzecz sulla -> –b–l–i–c–k–r–z–e–c–z–s–u–l–l–a–
+75 plat warfare gusta -> –p–l–a–t–w–a–r–f–a–r–e–g–u–s–t–a–
+76 rgb gert suya -> –r–g–b–g–e–r–t–s–u–y–a–
+77 igueur egiteko facil -> –i–g–u–e–u–r–e–g–i–t–e–k–o–f–a–c–i–l–
+78 ullehrer mengenai tout -> –u–l–l–e–h–r–e–r–m–e–n–g–e–n–a–i–t–o–u–t–
+79 abol coconut terza -> –a–b–o–l–c–o–c–o–n–u–t–t–e–r–z–a–
+80 gabe thoracic conduits -> –g–a–b–e–t–h–o–r–a–c–i–c–c–o–n–d–u–i–t–s–
+81 cery suggests flexible -> –c–e–r–y–s–u–g–g–e–s–t–s–f–l–e–x–i–b–l–e–
+82 hen thym estrange -> –h–e–n–t–h–y–m–e–s–t–r–a–n–g–e–
+83 ped postav tiszt -> –p–e–d–p–o–s–t–a–v–t–i–s–z–t–
+84 etxe injuries gentil -> –e–t–x–e–i–n–j–u–r–i–e–s–g–e–n–t–i–l–
+85 ever monoc surat -> –e–v–e–r–m–o–n–o–c–s–u–r–a–t–
+86 kup suffered carboxyl -> –k–u–p–s–u–f–f–e–r–e–d–c–a–r–b–o–x–y–l–
+87 prete genoem officiel -> –p–r–e–t–e–g–e–n–o–e–m–o–f–f–i–c–i–e–l–
+88 fik estudos membantu -> –f–i–k–e–s–t–u–d–o–s–m–e–m–b–a–n–t–u–
+89 larda cub commande -> –l–a–r–d–a–c–u–b–c–o–m–m–a–n–d–e–
+90 iese searches shore -> –i–e–s–e–s–e–a–r–c–h–e–s–s–h–o–r–e–
+91 staw valores started -> –s–t–a–w–v–a–l–o–r–e–s–s–t–a–r–t–e–d–
+92 oxygen thirty peace -> –o–x–y–g–e–n–t–h–i–r–t–y–p–e–a–c–e–
+93 arske dov ojo -> –a–r–s–k–e–d–o–v–o–j–o–
+94 aben desco nasled -> –a–b–e–n–d–e–s–c–o–n–a–s–l–e–d–
+95 nano fair bundle -> –n–a–n–o–f–a–i–r–b–u–n–d–l–e–
+96 cuts megjelen intenso -> –c–u–t–s–m–e–g–j–e–l–e–n–i–n–t–e–n–s–o–
+97 failure moindre alde -> –f–a–i–l–u–r–e–m–o–i–n–d–r–e–a–l–d–e–
+98 ombrie polos version -> –o–m–b–r–i–e–p–o–l–o–s–v–e–r–s–i–o–n–
+99 mis eine tether -> –m–i–s–e–i–n–e–t–e–t–h–e–r–

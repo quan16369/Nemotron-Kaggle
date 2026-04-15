@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 onaut republ chiam
+01 scope intense forb
+02 secution zonas ayr
+
+This is a sample output.
+00 onaut republ chiam -> –o–n–a–u–t–r–e–p–u–b–l–c–h–i–a–m–
+01 scope intense forb -> –s–c–o–p–e–i–n–t–e–n–s–e–f–o–r–b–
+02 secution zonas ayr -> –s–e–c–u–t–i–o–n–z–o–n–a–s–a–y–r–
+
+This is your input.
+00 uccess depended frog
+01 vl cotid vertex
+02 iag phased goles
+03 ringer multis dese
+04 former afge pont
+05 rites dying trees
+06 icit kobiet membuat
+07 ypad speaking stdin
+08 ted genug apertura
+09 atriz ultimate dogs
+10 other existir mich
+11 mira playback shone
+12 acent compound modular
+13 acakt animais cient
+14 co archivos dest
+15 endrer schlug carc
+16 iguo likes superst
+17 leted cet cheaper
+18 nin brace rock
+19 esez atyp confisc
+20 arekin threat longtime
+21 eg nan chil
+22 istor snap tore
+23 encv chassis volle
+24 odo cour assayed
+25 utet lente sessions
+26 re skrz brows
+27 midt overturn require
+28 natal eco bleu
+29 umar turbul standard
+30 unistd rc accus
+31 iter suddenly autore
+32 edia disperse paus
+33 immel thirteen we
+34 waar domand gr
+35 zony brom alphabet
+36 icate ingresos vendre
+37 illac de voting
+38 konom costa allgeme
+39 inais brytyj quitte
+40 abat ebenso dagli
+41 ril infil bat
+42 nud names ceci
+43 avy thunder random
+44 iterate rail spelled
+45 prepare trough vaisseau
+46 atre gospodar fossem
+47 stream ais downlink
+48 larla tus yellow
+49 alap leader sols
+50 njih escala dialect
+51 istic ir penc
+52 olog kary economic
+53 asaki inizio mie
+54 obacht quelcon parecen
+55 blem pals warriors
+56 ilio nennen sa
+57 jection omn progett
+58 olver fill arrh
+59 ctl apopt delet
+60 adel diminish suffice
+61 atel aufw lel
+62 ayah jenis sicht
+63 ieber cadas amplia
+64 iculo costas turned
+65 edical secours saut
+66 xf whoever statute
+67 ndrome concreto hombros
+68 nict onu eher
+69 ritable cerveau outlet
+70 ore placa nicht
+71 cell resten example
+72 ziehen hue ausgest
+73 proxy surgery befest
+74 uye miljoen demasi
+75 oted roy tendon
+76 below absor mies
+77 nom redist terribly
+78 sku week dessen
+79 owicz cheg outreach
+80 cesor realise fail
+81 itel femen hunting
+82 isper rab alc
+83 uds exciting gdzie
+84 zuhalten tandis cysteine
+85 dire segura orbital
+86 ricanes ndrys tricky
+87 esi circled sterk
+88 oes find gruppo
+89 owanych soph henkil
+90 ttps drawer postpon
+91 rof zve europe
+92 utta jedoch hiver
+93 ciam dau eryth
+94 enea content tamp
+95 vim produire erw
+96 owie sostitu bestaan
+97 bild regio homeland
+98 small soin cameras
+99 alaritza defens lowest
+[completion]
+00 uccess depended frog -> –u–c–c–e–s–s–d–e–p–e–n–d–e–d–f–r–o–g–
+01 vl cotid vertex -> –v–l–c–o–t–i–d–v–e–r–t–e–x–
+02 iag phased goles -> –i–a–g–p–h–a–s–e–d–g–o–l–e–s–
+03 ringer multis dese -> –r–i–n–g–e–r–m–u–l–t–i–s–d–e–s–e–
+04 former afge pont -> –f–o–r–m–e–r–a–f–g–e–p–o–n–t–
+05 rites dying trees -> –r–i–t–e–s–d–y–i–n–g–t–r–e–e–s–
+06 icit kobiet membuat -> –i–c–i–t–k–o–b–i–e–t–m–e–m–b–u–a–t–
+07 ypad speaking stdin -> –y–p–a–d–s–p–e–a–k–i–n–g–s–t–d–i–n–
+08 ted genug apertura -> –t–e–d–g–e–n–u–g–a–p–e–r–t–u–r–a–
+09 atriz ultimate dogs -> –a–t–r–i–z–u–l–t–i–m–a–t–e–d–o–g–s–
+10 other existir mich -> –o–t–h–e–r–e–x–i–s–t–i–r–m–i–c–h–
+11 mira playback shone -> –m–i–r–a–p–l–a–y–b–a–c–k–s–h–o–n–e–
+12 acent compound modular -> –a–c–e–n–t–c–o–m–p–o–u–n–d–m–o–d–u–l–a–r–
+13 acakt animais cient -> –a–c–a–k–t–a–n–i–m–a–i–s–c–i–e–n–t–
+14 co archivos dest -> –c–o–a–r–c–h–i–v–o–s–d–e–s–t–
+15 endrer schlug carc -> –e–n–d–r–e–r–s–c–h–l–u–g–c–a–r–c–
+16 iguo likes superst -> –i–g–u–o–l–i–k–e–s–s–u–p–e–r–s–t–
+17 leted cet cheaper -> –l–e–t–e–d–c–e–t–c–h–e–a–p–e–r–
+18 nin brace rock -> –n–i–n–b–r–a–c–e–r–o–c–k–
+19 esez atyp confisc -> –e–s–e–z–a–t–y–p–c–o–n–f–i–s–c–
+20 arekin threat longtime -> –a–r–e–k–i–n–t–h–r–e–a–t–l–o–n–g–t–i–m–e–
+21 eg nan chil -> –e–g–n–a–n–c–h–i–l–
+22 istor snap tore -> –i–s–t–o–r–s–n–a–p–t–o–r–e–
+23 encv chassis volle -> –e–n–c–v–c–h–a–s–s–i–s–v–o–l–l–e–
+24 odo cour assayed -> –o–d–o–c–o–u–r–a–s–s–a–y–e–d–
+25 utet lente sessions -> –u–t–e–t–l–e–n–t–e–s–e–s–s–i–o–n–s–
+26 re skrz brows -> –r–e–s–k–r–z–b–r–o–w–s–
+27 midt overturn require -> –m–i–d–t–o–v–e–r–t–u–r–n–r–e–q–u–i–r–e–
+28 natal eco bleu -> –n–a–t–a–l–e–c–o–b–l–e–u–
+29 umar turbul standard -> –u–m–a–r–t–u–r–b–u–l–s–t–a–n–d–a–r–d–
+30 unistd rc accus -> –u–n–i–s–t–d–r–c–a–c–c–u–s–
+31 iter suddenly autore -> –i–t–e–r–s–u–d–d–e–n–l–y–a–u–t–o–r–e–
+32 edia disperse paus -> –e–d–i–a–d–i–s–p–e–r–s–e–p–a–u–s–
+33 immel thirteen we -> –i–m–m–e–l–t–h–i–r–t–e–e–n–w–e–
+34 waar domand gr -> –w–a–a–r–d–o–m–a–n–d–g–r–
+35 zony brom alphabet -> –z–o–n–y–b–r–o–m–a–l–p–h–a–b–e–t–
+36 icate ingresos vendre -> –i–c–a–t–e–i–n–g–r–e–s–o–s–v–e–n–d–r–e–
+37 illac de voting -> –i–l–l–a–c–d–e–v–o–t–i–n–g–
+38 konom costa allgeme -> –k–o–n–o–m–c–o–s–t–a–a–l–l–g–e–m–e–
+39 inais brytyj quitte -> –i–n–a–i–s–b–r–y–t–y–j–q–u–i–t–t–e–
+40 abat ebenso dagli -> –a–b–a–t–e–b–e–n–s–o–d–a–g–l–i–
+41 ril infil bat -> –r–i–l–i–n–f–i–l–b–a–t–
+42 nud names ceci -> –n–u–d–n–a–m–e–s–c–e–c–i–
+43 avy thunder random -> –a–v–y–t–h–u–n–d–e–r–r–a–n–d–o–m–
+44 iterate rail spelled -> –i–t–e–r–a–t–e–r–a–i–l–s–p–e–l–l–e–d–
+45 prepare trough vaisseau -> –p–r–e–p–a–r–e–t–r–o–u–g–h–v–a–i–s–s–e–a–u–
+46 atre gospodar fossem -> –a–t–r–e–g–o–s–p–o–d–a–r–f–o–s–s–e–m–
+47 stream ais downlink -> –s–t–r–e–a–m–a–i–s–d–o–w–n–l–i–n–k–
+48 larla tus yellow -> –l–a–r–l–a–t–u–s–y–e–l–l–o–w–
+49 alap leader sols -> –a–l–a–p–l–e–a–d–e–r–s–o–l–s–
+50 njih escala dialect -> –n–j–i–h–e–s–c–a–l–a–d–i–a–l–e–c–t–
+51 istic ir penc -> –i–s–t–i–c–i–r–p–e–n–c–
+52 olog kary economic -> –o–l–o–g–k–a–r–y–e–c–o–n–o–m–i–c–
+53 asaki inizio mie -> –a–s–a–k–i–i–n–i–z–i–o–m–i–e–
+54 obacht quelcon parecen -> –o–b–a–c–h–t–q–u–e–l–c–o–n–p–a–r–e–c–e–n–
+55 blem pals warriors -> –b–l–e–m–p–a–l–s–w–a–r–r–i–o–r–s–
+56 ilio nennen sa -> –i–l–i–o–n–e–n–n–e–n–s–a–
+57 jection omn progett -> –j–e–c–t–i–o–n–o–m–n–p–r–o–g–e–t–t–
+58 olver fill arrh -> –o–l–v–e–r–f–i–l–l–a–r–r–h–
+59 ctl apopt delet -> –c–t–l–a–p–o–p–t–d–e–l–e–t–
+60 adel diminish suffice -> –a–d–e–l–d–i–m–i–n–i–s–h–s–u–f–f–i–c–e–
+61 atel aufw lel -> –a–t–e–l–a–u–f–w–l–e–l–
+62 ayah jenis sicht -> –a–y–a–h–j–e–n–i–s–s–i–c–h–t–
+63 ieber cadas amplia -> –i–e–b–e–r–c–a–d–a–s–a–m–p–l–i–a–
+64 iculo costas turned -> –i–c–u–l–o–c–o–s–t–a–s–t–u–r–n–e–d–
+65 edical secours saut -> –e–d–i–c–a–l–s–e–c–o–u–r–s–s–a–u–t–
+66 xf whoever statute -> –x–f–w–h–o–e–v–e–r–s–t–a–t–u–t–e–
+67 ndrome concreto hombros -> –n–d–r–o–m–e–c–o–n–c–r–e–t–o–h–o–m–b–r–o–s–
+68 nict onu eher -> –n–i–c–t–o–n–u–e–h–e–r–
+69 ritable cerveau outlet -> –r–i–t–a–b–l–e–c–e–r–v–e–a–u–o–u–t–l–e–t–
+70 ore placa nicht -> –o–r–e–p–l–a–c–a–n–i–c–h–t–
+71 cell resten example -> –c–e–l–l–r–e–s–t–e–n–e–x–a–m–p–l–e–
+72 ziehen hue ausgest -> –z–i–e–h–e–n–h–u–e–a–u–s–g–e–s–t–
+73 proxy surgery befest -> –p–r–o–x–y–s–u–r–g–e–r–y–b–e–f–e–s–t–
+74 uye miljoen demasi -> –u–y–e–m–i–l–j–o–e–n–d–e–m–a–s–i–
+75 oted roy tendon -> –o–t–e–d–r–o–y–t–e–n–d–o–n–
+76 below absor mies -> –b–e–l–o–w–a–b–s–o–r–m–i–e–s–
+77 nom redist terribly -> –n–o–m–r–e–d–i–s–t–t–e–r–r–i–b–l–y–
+78 sku week dessen -> –s–k–u–w–e–e–k–d–e–s–s–e–n–
+79 owicz cheg outreach -> –o–w–i–c–z–c–h–e–g–o–u–t–r–e–a–c–h–
+80 cesor realise fail -> –c–e–s–o–r–r–e–a–l–i–s–e–f–a–i–l–
+81 itel femen hunting -> –i–t–e–l–f–e–m–e–n–h–u–n–t–i–n–g–
+82 isper rab alc -> –i–s–p–e–r–r–a–b–a–l–c–
+83 uds exciting gdzie -> –u–d–s–e–x–c–i–t–i–n–g–g–d–z–i–e–
+84 zuhalten tandis cysteine -> –z–u–h–a–l–t–e–n–t–a–n–d–i–s–c–y–s–t–e–i–n–e–
+85 dire segura orbital -> –d–i–r–e–s–e–g–u–r–a–o–r–b–i–t–a–l–
+86 ricanes ndrys tricky -> –r–i–c–a–n–e–s–n–d–r–y–s–t–r–i–c–k–y–
+87 esi circled sterk -> –e–s–i–c–i–r–c–l–e–d–s–t–e–r–k–
+88 oes find gruppo -> –o–e–s–f–i–n–d–g–r–u–p–p–o–
+89 owanych soph henkil -> –o–w–a–n–y–c–h–s–o–p–h–h–e–n–k–i–l–
+90 ttps drawer postpon -> –t–t–p–s–d–r–a–w–e–r–p–o–s–t–p–o–n–
+91 rof zve europe -> –r–o–f–z–v–e–e–u–r–o–p–e–
+92 utta jedoch hiver -> –u–t–t–a–j–e–d–o–c–h–h–i–v–e–r–
+93 ciam dau eryth -> –c–i–a–m–d–a–u–e–r–y–t–h–
+94 enea content tamp -> –e–n–e–a–c–o–n–t–e–n–t–t–a–m–p–
+95 vim produire erw -> –v–i–m–p–r–o–d–u–i–r–e–e–r–w–
+96 owie sostitu bestaan -> –o–w–i–e–s–o–s–t–i–t–u–b–e–s–t–a–a–n–
+97 bild regio homeland -> –b–i–l–d–r–e–g–i–o–h–o–m–e–l–a–n–d–
+98 small soin cameras -> –s–m–a–l–l–s–o–i–n–c–a–m–e–r–a–s–
+99 alaritza defens lowest -> –a–l–a–r–i–t–z–a–d–e–f–e–n–s–l–o–w–e–s–t–

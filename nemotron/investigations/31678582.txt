@@ -1,0 +1,70 @@
+problem id: 31678582
+category: cryptarithm_guess
+
+examples:
+1. `]|@<| = ")`
+2. `<)@|< = }<`
+3. `?]@/| = <}`
+4. `#?@<] = |:`
+
+inferred rule:
+Treat each non-operator symbol as a distinct decimal digit and read each 2-symbol chunk in order as a 2-digit number.
+
+One exact digit assignment that fits all four examples is:
+
+- `) = 0`
+- `< = 1`
+- `: = 2`
+- `} = 3`
+- `| = 4`
+- `# = 5`
+- `" = 6`
+- `] = 7`
+- `/ = 8`
+- `? = 9`
+
+With that map, the shown operator `@` means absolute difference.
+
+check on the examples:
+1. `]|@<|`
+   `]|` decodes to `74`.
+   `<|` decodes to `14`.
+   `|74 - 14| = 60`.
+   `6 -> "`, `0 -> )`, so the output is `")`.
+
+2. `<)@|<`
+   `<)` decodes to `10`.
+   `|<` decodes to `41`.
+   `|10 - 41| = 31`.
+   `3 -> }`, `1 -> <`, so the output is `}<`.
+
+3. `?]@/|`
+   `?]` decodes to `97`.
+   `/|` decodes to `84`.
+   `|97 - 84| = 13`.
+   `1 -> <`, `3 -> }`, so the output is `<}`.
+
+4. `#?@<]`
+   `#?` decodes to `59`.
+   `<]` decodes to `17`.
+   `|59 - 17| = 42`.
+   `4 -> |`, `2 -> :`, so the output is `|:`.
+
+step-by-step application to the query:
+Query: `#/&":`
+
+1. `#/` decodes to `58`.
+2. `":` decodes to `62`.
+3. The examples only show `@`, so treating the unseen `&` as ordinary addition is an extrapolation.
+4. `58 + 62 = 120`.
+5. Encode `120` back into symbols:
+   `1 -> <`
+   `2 -> :`
+   `0 -> )`
+6. The predicted output is `<:)`.
+
+predicted answer:
+`<:)`
+
+confidence note:
+Medium. The digit map and `@ = absolute difference` fit all training examples exactly. The only uncertainty is the unseen query operator `&`, which I treated as ordinary addition.

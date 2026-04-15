@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Training Corpus</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            min-height: 100vh;
+        }
+        .container { max-width: 1400px; margin: 0 auto; padding: 20px; }
+        h1 {
+            text-align: center;
+            font-size: 28px;
+            font-weight: 600;
+            margin: 30px 0;
+            color: #333;
+        }
+        .summary {
+            text-align: center;
+            margin-bottom: 16px;
+            font-size: 16px;
+            color: #666;
+        }
+        .filter-info {
+            background: #e0f2fe;
+            border: 1px solid #7dd3fc;
+            border-radius: 6px;
+            padding: 10px 16px;
+            margin-bottom: 16px;
+            font-size: 14px;
+            color: #0369a1;
+        }
+        .filter-info a { color: #0284c7; }
+        .table-wrap {
+            max-height: calc(100vh - 180px);
+            overflow-y: auto;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+        }
+        th {
+            background: #4a5568;
+            color: white;
+            padding: 12px 16px;
+            text-align: left;
+            font-weight: 500;
+            font-size: 14px;
+            cursor: pointer;
+            user-select: none;
+            position: sticky;
+            top: 0;
+            z-index: 1;
+        }
+        th:hover { background: #5a6578; }
+        th.count { text-align: center; width: 80px; }
+        th, td { white-space: nowrap; }
+        td {
+            padding: 12px 16px;
+            border-bottom: 1px solid #e0e0e0;
+            font-size: 14px;
+        }
+        td.count { text-align: center; }
+        tr:hover { background: #f8fafc; }
+        .link {
+            color: #2196f3;
+            font-weight: 500;
+            text-decoration: none;
+        }
+        .link:hover { text-decoration: underline; }
+        .loading { text-align: center; padding: 40px; color: #666; }
+        .empty-state { text-align: center; padding: 40px; color: #999; }
+        .trace-content {
+            font-family: 'SF Mono', Monaco, 'Courier New', monospace;
+            font-size: 13px;
+            line-height: 1.6;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            background: #f8fafc;
+            padding: 15px;
+            border-radius: 6px;
+            overflow-y: auto;
+            max-height: calc(100vh - 250px);
+        }
+        .segment { border-radius: 2px; padding: 1px 0; }
+        .segment.unmasked {
+            color: #10b981;
+            background: rgba(16, 185, 129, 0.1);
+        }
+        .tooltip {
+            position: fixed;
+            background-color: rgba(0,0,0,0.9);
+            color: #fff;
+            padding: 4px 8px;
+            border-radius: 3px;
+            font-size: 12px;
+            font-family: monospace;
+            pointer-events: none;
+            z-index: 1000;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="tooltip" id="tooltip"></div>
+    <div class="container">
+        <nav style="text-align:center; padding:10px 0 20px; font-size:16px;">
+            <a href="synthetic.html" style="color:#2196f3; text-decoration:none;">Synthetic</a> &middot;
+            <strong style="font-size:22px;">Corpus</strong> &middot;
+            <a href="training.html" style="color:#2196f3; text-decoration:none;">Training</a> &middot;
+            <a href="metrics.html" style="color:#2196f3; text-decoration:none;">Metrics</a>
+        </nav>
+        <script>document.querySelectorAll('nav a').forEach(a => { const base = a.getAttribute('href').split('?')[0]; a.addEventListener('click', e => { e.preventDefault(); window.location.href = base + location.search; }); });</script>
+        <div id="summary" class="summary"></div>
+        <div id="filter-info" class="filter-info" style="display:none;"></div>
+        <div class="table-wrap">
+        <table>
+            <thead>
+                <tr>
+                    <th onclick="sortBy('problem_id')" title="Problem identifier">Problem ID</th>
+                    <th onclick="sortBy('category')" title="Problem category">Category</th>
+                    <th class="count" onclick="sortBy('masked_token_count')" title="Number of masked tokens">Masked</th>
+                    <th class="count" onclick="sortBy('unmasked_token_count')" title="Number of unmasked tokens">Unmasked</th>
+                    <th class="count" onclick="sortBy('token_count')" title="Total token count">Total</th>
+                </tr>
+            </thead>
+            <tbody id="table-body"></tbody>
+        </table>
+        </div>
+        <div id="loading-state" class="loading">Loading...</div>
+        <div id="empty-state" class="empty-state" style="display:none;">
+            No corpus entries found. Run corpus.py first.
+        </div>
+        <div id="trace-section" style="display:none; margin-top: 20px;">
+            <div id="trace-content" class="trace-content"></div>
+        </div>
+    </div>
+
+<script>
+const tooltip = document.getElementById('tooltip');
+let corpusIndex = [];
+let vocab = null;
+let sortColumn = null;
+let sortAsc = true;
+let lastFilter = {};
+
+const BYTE_RE = /^<0x([0-9A-Fa-f]{2})>$/;
+
+function decodeTokenIds(tokenIds) {
+    if (!vocab) return tokenIds.map(() => '\u2588');
+    const result = new Array(tokenIds.length).fill('');
+    let i = 0;
+    while (i < tokenIds.length) {
+        const s = vocab[String(tokenIds[i])];
+        if (s === undefined) { result[i] = `[${tokenIds[i]}]`; i++; continue; }
+        const m = BYTE_RE.exec(s);
+        if (m) {
+            const start = i;
+            const bytes = [];
+            while (i < tokenIds.length) {
+                const s2 = vocab[String(tokenIds[i])];
+                if (!s2) break;
+                const m2 = BYTE_RE.exec(s2);
+                if (!m2) break;
+                bytes.push(parseInt(m2[1], 16));
+                i++;
+            }
+            result[start] = new TextDecoder('utf-8', {fatal: false}).decode(new Uint8Array(bytes));
+        } else {
+            result[i] = s;
+            i++;
+        }
+    }
+    return result;
+}
+
+async function loadVocab() {
+    if (vocab) return;
+    const resp = await fetch('vocab.json?_=' + Date.now());
+    vocab = await resp.json();
+}
+
+function formatRun(run) {
+    // "03-21-07-53-20-7991.jsonl" -> "03/21 07:53"
+    const m = run.match(/^(\d{2})-(\d{2})-(\d{2})-(\d{2})/);
+    if (!m) return run;
+    return `${m[1]}/${m[2]} ${m[3]}:${m[4]}`;
+}
+
+function sortBy(col) {
+    if (sortColumn === col) {
+        sortAsc = !sortAsc;
+    } else {
+        sortColumn = col;
+        sortAsc = (col === 'masked_token_count' || col === 'unmasked_token_count' || col === 'num_gen_tokens' || col === 'token_count') ? false : true;
+    }
+    renderTable(lastFilter);
+}
+
+function cycleBoolFilter(val) {
+    if (val === null) return true;
+    if (val === true) return false;
+    return null;
+}
+
+function getSortValue(entry, col) {
+    switch (col) {
+        case 'problem_id': return entry.problem_id || '';
+        case 'category': return entry.category || '';
+        case 'masked_token_count': return entry.masked_token_count || 0;
+        case 'unmasked_token_count': return entry.unmasked_token_count || 0;
+        case 'token_count': return entry.token_count || 0;
+        default: return '';
+    }
+}
+
+function buildRow(entry) {
+    const tr = document.createElement('tr');
+    const problemUrl = new URLSearchParams(location.search);
+    problemUrl.set('problem', entry.problem_id);
+    const categoryUrl = new URLSearchParams(location.search);
+    categoryUrl.set('category', entry.category);
+    categoryUrl.delete('problem');
+    tr.innerHTML =
+        `<td><a href="?${problemUrl}" class="link">${entry.problem_id}</a></td>` +
+        `<td><a href="?${categoryUrl}" class="link">${entry.category}</a></td>` +
+        `<td class="count">${entry.masked_token_count.toLocaleString()}</td>` +
+        `<td class="count">${entry.unmasked_token_count.toLocaleString()}</td>` +
+        `<td class="count">${entry.token_count.toLocaleString()}</td>`;
+    return tr;
+}
+
+function renderTable(filter = {}) {
+    lastFilter = filter;
+    let filtered = corpusIndex;
+
+    if (filter.problem) {
+        if (filter.problem.includes('*')) {
+            const re = new RegExp('^' + filter.problem.replace(/[.+?^${}()|[\]\\]/g, '\\$&').replace(/\*/g, '.*') + '$');
+            filtered = filtered.filter(e => re.test(e.problem_id));
+        } else {
+            filtered = filtered.filter(e => e.problem_id === filter.problem);
+        }
+    }
+    if (filter.category) {
+        filtered = filtered.filter(e => e.category === filter.category);
+    }
+    const totalMasked = filtered.reduce((s, e) => s + e.masked_token_count, 0);
+    const totalUnmasked = filtered.reduce((s, e) => s + e.unmasked_token_count, 0);
+    document.getElementById('summary').innerHTML =
+        `${filtered.length.toLocaleString()} entries &bull; ` +
+        `${totalMasked.toLocaleString()} masked &bull; ` +
+        `${totalUnmasked.toLocaleString()} unmasked`;
+
+    const filterInfo = document.getElementById('filter-info');
+    if (filter.problem || filter.category) {
+        const parts = [];
+        if (filter.category) {
+            const clearCat = new URLSearchParams(location.search);
+            clearCat.delete('category');
+            parts.push(`category: ${filter.category} <a href="?${clearCat}">(clear)</a>`);
+        }
+        if (filter.problem) {
+            const clearProb = new URLSearchParams(location.search);
+            clearProb.delete('problem');
+            parts.push(`problem: ${filter.problem} <a href="?${clearProb}">(clear)</a>`);
+        }
+        filterInfo.innerHTML = `Filtering by ${parts.join(', ')}`;
+        filterInfo.style.display = 'block';
+    } else {
+        filterInfo.style.display = 'none';
+    }
+
+    if (sortColumn) {
+        filtered = filtered.slice().sort((a, b) => {
+            const va = getSortValue(a, sortColumn);
+            const vb = getSortValue(b, sortColumn);
+            let cmp = typeof va === 'number' ? va - vb : String(va).localeCompare(String(vb));
+            return sortAsc ? cmp : -cmp;
+        });
+    }
+
+    const tbody = document.getElementById('table-body');
+    const frag = document.createDocumentFragment();
+    for (const entry of filtered) {
+        frag.appendChild(buildRow(entry));
+    }
+    tbody.replaceChildren(frag);
+    document.getElementById('loading-state').style.display = 'none';
+
+    // Auto-show trace when filtered to a problem
+    if (filter.problem && filtered.length >= 1) {
+        showTrace(filtered[0]);
+    } else {
+        document.getElementById('trace-section').style.display = 'none';
+    }
+}
+
+async function showTrace(entry) {
+    await loadVocab();
+    const traceSection = document.getElementById('trace-section');
+    const traceContent = document.getElementById('trace-content');
+    traceSection.style.display = 'block';
+    traceContent.textContent = 'Loading...';
+
+    const seg = entry.segment || 'synthetic.jsonl';
+    const resp = await fetch(`corpus/${entry.problem_id}/${seg}?_=${Date.now()}`);
+    const text = await resp.text();
+    const segments = text.trim().split('\n').filter(l => l).map(l => JSON.parse(l));
+
+    traceContent.innerHTML = '';
+    for (const seg of segments) {
+        const isUnmasked = seg.type === 'unmasked';
+        const decoded = decodeTokenIds(seg.tokens);
+        const span = document.createElement('span');
+        span.className = 'segment' + (isUnmasked ? ' unmasked' : '');
+        span.textContent = decoded.join('');
+        traceContent.appendChild(span);
+    }
+
+    traceSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+    // Update URL
+    const url = new URL(location.href);
+    url.searchParams.set('problem', entry.problem_id);
+    history.pushState({}, '', url);
+}
+
+async function init() {
+    try {
+        const resp = await fetch('corpus.jsonl?_=' + Date.now());
+        const text = await resp.text();
+        corpusIndex = text.trim().split('\n').filter(l => l).map(l => JSON.parse(l));
+
+        if (corpusIndex.length === 0) {
+            document.getElementById('loading-state').style.display = 'none';
+            document.getElementById('empty-state').style.display = 'block';
+            return;
+        }
+
+        const params = new URLSearchParams(location.search);
+        const filter = {};
+        if (params.has('problem')) filter.problem = params.get('problem');
+        if (params.has('category')) filter.category = params.get('category');
+        renderTable(filter);
+    } catch (err) {
+        document.getElementById('loading-state').textContent = 'Error: ' + err.message;
+    }
+}
+
+init();
+</script>
+</body>
+</html>

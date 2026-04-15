@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 hether navig effluent
+01 inato hora soupira
+02 essa symbole student
+
+This is a sample output.
+00 hether navig effluent -> –h–e–t–h–e–r–n–a–v–i–g–e–f–f–l–u–e–n–t–
+01 inato hora soupira -> –i–n–a–t–o–h–o–r–a–s–o–u–p–i–r–a–
+02 essa symbole student -> –e–s–s–a–s–y–m–b–o–l–e–s–t–u–d–e–n–t–
+
+This is your input.
+00 innt clients cols
+01 arring nomen igreja
+02 ctic kaiser luft
+03 lukan galvan disparu
+04 orrow infrequ verm
+05 ritu gola hombres
+06 radius ny armes
+07 mathtt project roads
+08 ku deleted bact
+09 dim coding toen
+10 fass actually risposta
+11 pb cuch expected
+12 icher calib suiv
+13 sum piazza elh
+14 iyor nue cob
+15 nn mani oxide
+16 ikki hoog asks
+17 epper unlock telev
+18 ainment verb sabes
+19 star airlines field
+20 tegr unserer sortu
+21 ators engaged furnace
+22 velt morreu forehead
+23 iendo favors estrella
+24 prod europeo toucher
+25 oppi cigare grazing
+26 gui benannt fatal
+27 stackrel groupes emitted
+28 erts gen ferme
+29 blatt hoy probes
+30 ziale exert snorted
+31 ucht luta friction
+32 okol wage punched
+33 dates ideal sanction
+34 maybe gebase hank
+35 utat bildet erkl
+36 extend globale maxim
+37 quinas duen lung
+38 amycin navy unsure
+39 munity preval cyn
+40 irty cellul inmates
+41 grade jugador desert
+42 stituto actuales nerv
+43 yside pueda assumes
+44 iteks dual hermanos
+45 azzo empres quote
+46 ake concede trig
+47 istani celebrar preso
+48 udget sco trials
+49 unter povr polis
+50 ollapse flushed posibil
+51 techn roses domine
+52 pital svar priests
+53 ahr refugees test
+54 iew proses llegada
+55 poner allocate annoyed
+56 urem subsidi fas
+57 zawa answered maximal
+58 ubble informed kuin
+59 geblich doubling verdad
+60 jeti residing guilty
+61 render mood moltes
+62 fic gisa licz
+63 onde tartott mesures
+64 encoding pract prolog
+65 erving lecturer yeah
+66 cross mant wiederum
+67 pired progen astr
+68 den zugleich obispo
+69 went rent murmur
+70 gold frust fluoride
+71 telling probed oh
+72 liedert initi thats
+73 rupa instala weiteres
+74 rp cierre culmin
+75 ats arth contrad
+76 uxley prosegu erag
+77 ager wheels thi
+78 rofit readable anf
+79 stwo dimethyl poni
+80 conde horizon restait
+81 etails truths uro
+82 mena privata gubern
+83 odynam dvoj esclus
+84 iven instr sobre
+85 ophore notions politics
+86 othing writings slots
+87 vehicle nannte amused
+88 avnom lakos trypt
+89 hist colp presa
+90 olino bird shooting
+91 neb qil unitate
+92 plier mauvaise danych
+93 imer berikut einst
+94 estaur notas piedras
+95 iti apa sperm
+96 legraph muchos podat
+97 wyr nay linear
+98 yma station prvi
+99 ancing dove benevol
+[completion]
+00 innt clients cols -> –i–n–n–t–c–l–i–e–n–t–s–c–o–l–s–
+01 arring nomen igreja -> –a–r–r–i–n–g–n–o–m–e–n–i–g–r–e–j–a–
+02 ctic kaiser luft -> –c–t–i–c–k–a–i–s–e–r–l–u–f–t–
+03 lukan galvan disparu -> –l–u–k–a–n–g–a–l–v–a–n–d–i–s–p–a–r–u–
+04 orrow infrequ verm -> –o–r–r–o–w–i–n–f–r–e–q–u–v–e–r–m–
+05 ritu gola hombres -> –r–i–t–u–g–o–l–a–h–o–m–b–r–e–s–
+06 radius ny armes -> –r–a–d–i–u–s–n–y–a–r–m–e–s–
+07 mathtt project roads -> –m–a–t–h–t–t–p–r–o–j–e–c–t–r–o–a–d–s–
+08 ku deleted bact -> –k–u–d–e–l–e–t–e–d–b–a–c–t–
+09 dim coding toen -> –d–i–m–c–o–d–i–n–g–t–o–e–n–
+10 fass actually risposta -> –f–a–s–s–a–c–t–u–a–l–l–y–r–i–s–p–o–s–t–a–
+11 pb cuch expected -> –p–b–c–u–c–h–e–x–p–e–c–t–e–d–
+12 icher calib suiv -> –i–c–h–e–r–c–a–l–i–b–s–u–i–v–
+13 sum piazza elh -> –s–u–m–p–i–a–z–z–a–e–l–h–
+14 iyor nue cob -> –i–y–o–r–n–u–e–c–o–b–
+15 nn mani oxide -> –n–n–m–a–n–i–o–x–i–d–e–
+16 ikki hoog asks -> –i–k–k–i–h–o–o–g–a–s–k–s–
+17 epper unlock telev -> –e–p–p–e–r–u–n–l–o–c–k–t–e–l–e–v–
+18 ainment verb sabes -> –a–i–n–m–e–n–t–v–e–r–b–s–a–b–e–s–
+19 star airlines field -> –s–t–a–r–a–i–r–l–i–n–e–s–f–i–e–l–d–
+20 tegr unserer sortu -> –t–e–g–r–u–n–s–e–r–e–r–s–o–r–t–u–
+21 ators engaged furnace -> –a–t–o–r–s–e–n–g–a–g–e–d–f–u–r–n–a–c–e–
+22 velt morreu forehead -> –v–e–l–t–m–o–r–r–e–u–f–o–r–e–h–e–a–d–
+23 iendo favors estrella -> –i–e–n–d–o–f–a–v–o–r–s–e–s–t–r–e–l–l–a–
+24 prod europeo toucher -> –p–r–o–d–e–u–r–o–p–e–o–t–o–u–c–h–e–r–
+25 oppi cigare grazing -> –o–p–p–i–c–i–g–a–r–e–g–r–a–z–i–n–g–
+26 gui benannt fatal -> –g–u–i–b–e–n–a–n–n–t–f–a–t–a–l–
+27 stackrel groupes emitted -> –s–t–a–c–k–r–e–l–g–r–o–u–p–e–s–e–m–i–t–t–e–d–
+28 erts gen ferme -> –e–r–t–s–g–e–n–f–e–r–m–e–
+29 blatt hoy probes -> –b–l–a–t–t–h–o–y–p–r–o–b–e–s–
+30 ziale exert snorted -> –z–i–a–l–e–e–x–e–r–t–s–n–o–r–t–e–d–
+31 ucht luta friction -> –u–c–h–t–l–u–t–a–f–r–i–c–t–i–o–n–
+32 okol wage punched -> –o–k–o–l–w–a–g–e–p–u–n–c–h–e–d–
+33 dates ideal sanction -> –d–a–t–e–s–i–d–e–a–l–s–a–n–c–t–i–o–n–
+34 maybe gebase hank -> –m–a–y–b–e–g–e–b–a–s–e–h–a–n–k–
+35 utat bildet erkl -> –u–t–a–t–b–i–l–d–e–t–e–r–k–l–
+36 extend globale maxim -> –e–x–t–e–n–d–g–l–o–b–a–l–e–m–a–x–i–m–
+37 quinas duen lung -> –q–u–i–n–a–s–d–u–e–n–l–u–n–g–
+38 amycin navy unsure -> –a–m–y–c–i–n–n–a–v–y–u–n–s–u–r–e–
+39 munity preval cyn -> –m–u–n–i–t–y–p–r–e–v–a–l–c–y–n–
+40 irty cellul inmates -> –i–r–t–y–c–e–l–l–u–l–i–n–m–a–t–e–s–
+41 grade jugador desert -> –g–r–a–d–e–j–u–g–a–d–o–r–d–e–s–e–r–t–
+42 stituto actuales nerv -> –s–t–i–t–u–t–o–a–c–t–u–a–l–e–s–n–e–r–v–
+43 yside pueda assumes -> –y–s–i–d–e–p–u–e–d–a–a–s–s–u–m–e–s–
+44 iteks dual hermanos -> –i–t–e–k–s–d–u–a–l–h–e–r–m–a–n–o–s–
+45 azzo empres quote -> –a–z–z–o–e–m–p–r–e–s–q–u–o–t–e–
+46 ake concede trig -> –a–k–e–c–o–n–c–e–d–e–t–r–i–g–
+47 istani celebrar preso -> –i–s–t–a–n–i–c–e–l–e–b–r–a–r–p–r–e–s–o–
+48 udget sco trials -> –u–d–g–e–t–s–c–o–t–r–i–a–l–s–
+49 unter povr polis -> –u–n–t–e–r–p–o–v–r–p–o–l–i–s–
+50 ollapse flushed posibil -> –o–l–l–a–p–s–e–f–l–u–s–h–e–d–p–o–s–i–b–i–l–
+51 techn roses domine -> –t–e–c–h–n–r–o–s–e–s–d–o–m–i–n–e–
+52 pital svar priests -> –p–i–t–a–l–s–v–a–r–p–r–i–e–s–t–s–
+53 ahr refugees test -> –a–h–r–r–e–f–u–g–e–e–s–t–e–s–t–
+54 iew proses llegada -> –i–e–w–p–r–o–s–e–s–l–l–e–g–a–d–a–
+55 poner allocate annoyed -> –p–o–n–e–r–a–l–l–o–c–a–t–e–a–n–n–o–y–e–d–
+56 urem subsidi fas -> –u–r–e–m–s–u–b–s–i–d–i–f–a–s–
+57 zawa answered maximal -> –z–a–w–a–a–n–s–w–e–r–e–d–m–a–x–i–m–a–l–
+58 ubble informed kuin -> –u–b–b–l–e–i–n–f–o–r–m–e–d–k–u–i–n–
+59 geblich doubling verdad -> –g–e–b–l–i–c–h–d–o–u–b–l–i–n–g–v–e–r–d–a–d–
+60 jeti residing guilty -> –j–e–t–i–r–e–s–i–d–i–n–g–g–u–i–l–t–y–
+61 render mood moltes -> –r–e–n–d–e–r–m–o–o–d–m–o–l–t–e–s–
+62 fic gisa licz -> –f–i–c–g–i–s–a–l–i–c–z–
+63 onde tartott mesures -> –o–n–d–e–t–a–r–t–o–t–t–m–e–s–u–r–e–s–
+64 encoding pract prolog -> –e–n–c–o–d–i–n–g–p–r–a–c–t–p–r–o–l–o–g–
+65 erving lecturer yeah -> –e–r–v–i–n–g–l–e–c–t–u–r–e–r–y–e–a–h–
+66 cross mant wiederum -> –c–r–o–s–s–m–a–n–t–w–i–e–d–e–r–u–m–
+67 pired progen astr -> –p–i–r–e–d–p–r–o–g–e–n–a–s–t–r–
+68 den zugleich obispo -> –d–e–n–z–u–g–l–e–i–c–h–o–b–i–s–p–o–
+69 went rent murmur -> –w–e–n–t–r–e–n–t–m–u–r–m–u–r–
+70 gold frust fluoride -> –g–o–l–d–f–r–u–s–t–f–l–u–o–r–i–d–e–
+71 telling probed oh -> –t–e–l–l–i–n–g–p–r–o–b–e–d–o–h–
+72 liedert initi thats -> –l–i–e–d–e–r–t–i–n–i–t–i–t–h–a–t–s–
+73 rupa instala weiteres -> –r–u–p–a–i–n–s–t–a–l–a–w–e–i–t–e–r–e–s–
+74 rp cierre culmin -> –r–p–c–i–e–r–r–e–c–u–l–m–i–n–
+75 ats arth contrad -> –a–t–s–a–r–t–h–c–o–n–t–r–a–d–
+76 uxley prosegu erag -> –u–x–l–e–y–p–r–o–s–e–g–u–e–r–a–g–
+77 ager wheels thi -> –a–g–e–r–w–h–e–e–l–s–t–h–i–
+78 rofit readable anf -> –r–o–f–i–t–r–e–a–d–a–b–l–e–a–n–f–
+79 stwo dimethyl poni -> –s–t–w–o–d–i–m–e–t–h–y–l–p–o–n–i–
+80 conde horizon restait -> –c–o–n–d–e–h–o–r–i–z–o–n–r–e–s–t–a–i–t–
+81 etails truths uro -> –e–t–a–i–l–s–t–r–u–t–h–s–u–r–o–
+82 mena privata gubern -> –m–e–n–a–p–r–i–v–a–t–a–g–u–b–e–r–n–
+83 odynam dvoj esclus -> –o–d–y–n–a–m–d–v–o–j–e–s–c–l–u–s–
+84 iven instr sobre -> –i–v–e–n–i–n–s–t–r–s–o–b–r–e–
+85 ophore notions politics -> –o–p–h–o–r–e–n–o–t–i–o–n–s–p–o–l–i–t–i–c–s–
+86 othing writings slots -> –o–t–h–i–n–g–w–r–i–t–i–n–g–s–s–l–o–t–s–
+87 vehicle nannte amused -> –v–e–h–i–c–l–e–n–a–n–n–t–e–a–m–u–s–e–d–
+88 avnom lakos trypt -> –a–v–n–o–m–l–a–k–o–s–t–r–y–p–t–
+89 hist colp presa -> –h–i–s–t–c–o–l–p–p–r–e–s–a–
+90 olino bird shooting -> –o–l–i–n–o–b–i–r–d–s–h–o–o–t–i–n–g–
+91 neb qil unitate -> –n–e–b–q–i–l–u–n–i–t–a–t–e–
+92 plier mauvaise danych -> –p–l–i–e–r–m–a–u–v–a–i–s–e–d–a–n–y–c–h–
+93 imer berikut einst -> –i–m–e–r–b–e–r–i–k–u–t–e–i–n–s–t–
+94 estaur notas piedras -> –e–s–t–a–u–r–n–o–t–a–s–p–i–e–d–r–a–s–
+95 iti apa sperm -> –i–t–i–a–p–a–s–p–e–r–m–
+96 legraph muchos podat -> –l–e–g–r–a–p–h–m–u–c–h–o–s–p–o–d–a–t–
+97 wyr nay linear -> –w–y–r–n–a–y–l–i–n–e–a–r–
+98 yma station prvi -> –y–m–a–s–t–a–t–i–o–n–p–r–v–i–
+99 ancing dove benevol -> –a–n–c–i–n–g–d–o–v–e–b–e–n–e–v–o–l–

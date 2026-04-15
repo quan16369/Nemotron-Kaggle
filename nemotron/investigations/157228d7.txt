@@ -1,0 +1,25 @@
+Problem ID: 157228d7
+Category: equation_numeric_deduce
+
+Examples:
+- `28<40 = 69`
+- `82<68 = 151`
+- `28*78 = *50`
+- Query: `50*15`
+
+Inferred rule:
+- The query uses `*`, so the key evidence is `28*78 = *50`.
+- The cleanest reading is that `*` means subtraction, and when the result is negative the puzzle writes `*` in place of the minus sign.
+- Under that reading, `28 - 78 = -50`, which matches `*50`.
+- The `<` examples appear to follow a different operator rule (`28 + 40 + 1 = 69`, `82 + 68 + 1 = 151`), so they are not needed to evaluate the query beyond showing that each symbol has its own operation.
+
+Step-by-step application to the query:
+1. Read the query as `50 * 15`.
+2. Apply the inferred `*` rule as subtraction: `50 - 15 = 35`.
+3. The result is positive, so there is no prefixed `*` sign marker.
+
+Predicted answer:
+- `35`
+
+Confidence note:
+- Medium confidence. The subtraction reading is very natural for `28*78 = *50`, but there is only one direct `*` example, so the rule is still somewhat underconstrained.

@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 atalina automot richt
+01 utation elevated dimethyl
+02 lel variety karma
+
+This is a sample output.
+00 atalina automot richt -> –a–t–a–l–i–n–a–a–u–t–o–m–o–t–r–i–c–h–t–
+01 utation elevated dimethyl -> –u–t–a–t–i–o–n–e–l–e–v–a–t–e–d–d–i–m–e–t–h–y–l–
+02 lel variety karma -> –l–e–l–v–a–r–i–e–t–y–k–a–r–m–a–
+
+This is your input.
+00 ulation uspe cleaved
+01 ppa glance worst
+02 isz gamm pads
+03 tol cutter enact
+04 adow subject drunk
+05 dog zak conduite
+06 nost zah raza
+07 zw planners puisse
+08 tj detailed obsess
+09 armes acima hundred
+10 akult martyr sre
+11 iume coined heater
+12 chets www nos
+13 filter besitzt crimen
+14 ztak ligue responds
+15 iveau knew begynd
+16 uego exposing danse
+17 magn cohesion inflated
+18 beiter dialects vys
+19 show fortress relate
+20 mat tran artistas
+21 uces cumpr rushing
+22 ahan miner satisf
+23 nections plazo neigh
+24 hre arbeitet parted
+25 frika rozgry maj
+26 uw tard assay
+27 elde moan special
+28 uzioni ruins classic
+29 cheduler cef recorded
+30 utung condom fatigu
+31 owym gesamte manners
+32 vertical locais plein
+33 done scare reprise
+34 ziek alz sore
+35 response cirk distint
+36 enten codes esquema
+37 elley effected folio
+38 or pentru tendency
+39 ement meant zm
+40 asonry tan map
+41 ztu flot zajedno
+42 egang debugger jou
+43 vertices voltant treffen
+44 hostname accomp distante
+45 spunkt alleg guerr
+46 ispo ise transmit
+47 and entrare zod
+48 erva garner specie
+49 pine filozof igra
+50 ultured gehalten mae
+51 ugi kamu plans
+52 riction preto camera
+53 agne exclude incid
+54 cia bee chicas
+55 enziale otras recreate
+56 rgba hang kaksi
+57 ubles kidney full
+58 jamin stretch artist
+59 prung matcher media
+60 has gdy om
+61 itious abierta leukemia
+62 lette drastic awk
+63 itary znac ba
+64 hrink arrogant funciona
+65 rimiento salaries koska
+66 yv protest feld
+67 racy than abogado
+68 olis absence griech
+69 visor aussi gigante
+70 kungen unlocked engl
+71 yards dout ionic
+72 usiasm kara convinc
+73 riere leh clash
+74 piry dimost subsets
+75 vh folyt adduct
+76 uins terrain reverted
+77 arina sender cavall
+78 andu kojima silver
+79 rake prati abbia
+80 limit scalable mosque
+81 ikal designer actitud
+82 izen mental popolo
+83 ulia unite nights
+84 then textile evol
+85 reon uncover organic
+86 odrome calend blitt
+87 ogenes announce blu
+88 quela accurate ophthal
+89 aji ions probl
+90 bj bu eit
+91 install concat skon
+92 ertation systems showcase
+93 udu galt shrine
+94 clock xix plena
+95 dez spille rakenn
+96 history showing podczas
+97 charset smallest pockets
+98 imente rec sock
+99 ourage perdi witches
+[completion]
+00 ulation uspe cleaved -> –u–l–a–t–i–o–n–u–s–p–e–c–l–e–a–v–e–d–
+01 ppa glance worst -> –p–p–a–g–l–a–n–c–e–w–o–r–s–t–
+02 isz gamm pads -> –i–s–z–g–a–m–m–p–a–d–s–
+03 tol cutter enact -> –t–o–l–c–u–t–t–e–r–e–n–a–c–t–
+04 adow subject drunk -> –a–d–o–w–s–u–b–j–e–c–t–d–r–u–n–k–
+05 dog zak conduite -> –d–o–g–z–a–k–c–o–n–d–u–i–t–e–
+06 nost zah raza -> –n–o–s–t–z–a–h–r–a–z–a–
+07 zw planners puisse -> –z–w–p–l–a–n–n–e–r–s–p–u–i–s–s–e–
+08 tj detailed obsess -> –t–j–d–e–t–a–i–l–e–d–o–b–s–e–s–s–
+09 armes acima hundred -> –a–r–m–e–s–a–c–i–m–a–h–u–n–d–r–e–d–
+10 akult martyr sre -> –a–k–u–l–t–m–a–r–t–y–r–s–r–e–
+11 iume coined heater -> –i–u–m–e–c–o–i–n–e–d–h–e–a–t–e–r–
+12 chets www nos -> –c–h–e–t–s–w–w–w–n–o–s–
+13 filter besitzt crimen -> –f–i–l–t–e–r–b–e–s–i–t–z–t–c–r–i–m–e–n–
+14 ztak ligue responds -> –z–t–a–k–l–i–g–u–e–r–e–s–p–o–n–d–s–
+15 iveau knew begynd -> –i–v–e–a–u–k–n–e–w–b–e–g–y–n–d–
+16 uego exposing danse -> –u–e–g–o–e–x–p–o–s–i–n–g–d–a–n–s–e–
+17 magn cohesion inflated -> –m–a–g–n–c–o–h–e–s–i–o–n–i–n–f–l–a–t–e–d–
+18 beiter dialects vys -> –b–e–i–t–e–r–d–i–a–l–e–c–t–s–v–y–s–
+19 show fortress relate -> –s–h–o–w–f–o–r–t–r–e–s–s–r–e–l–a–t–e–
+20 mat tran artistas -> –m–a–t–t–r–a–n–a–r–t–i–s–t–a–s–
+21 uces cumpr rushing -> –u–c–e–s–c–u–m–p–r–r–u–s–h–i–n–g–
+22 ahan miner satisf -> –a–h–a–n–m–i–n–e–r–s–a–t–i–s–f–
+23 nections plazo neigh -> –n–e–c–t–i–o–n–s–p–l–a–z–o–n–e–i–g–h–
+24 hre arbeitet parted -> –h–r–e–a–r–b–e–i–t–e–t–p–a–r–t–e–d–
+25 frika rozgry maj -> –f–r–i–k–a–r–o–z–g–r–y–m–a–j–
+26 uw tard assay -> –u–w–t–a–r–d–a–s–s–a–y–
+27 elde moan special -> –e–l–d–e–m–o–a–n–s–p–e–c–i–a–l–
+28 uzioni ruins classic -> –u–z–i–o–n–i–r–u–i–n–s–c–l–a–s–s–i–c–
+29 cheduler cef recorded -> –c–h–e–d–u–l–e–r–c–e–f–r–e–c–o–r–d–e–d–
+30 utung condom fatigu -> –u–t–u–n–g–c–o–n–d–o–m–f–a–t–i–g–u–
+31 owym gesamte manners -> –o–w–y–m–g–e–s–a–m–t–e–m–a–n–n–e–r–s–
+32 vertical locais plein -> –v–e–r–t–i–c–a–l–l–o–c–a–i–s–p–l–e–i–n–
+33 done scare reprise -> –d–o–n–e–s–c–a–r–e–r–e–p–r–i–s–e–
+34 ziek alz sore -> –z–i–e–k–a–l–z–s–o–r–e–
+35 response cirk distint -> –r–e–s–p–o–n–s–e–c–i–r–k–d–i–s–t–i–n–t–
+36 enten codes esquema -> –e–n–t–e–n–c–o–d–e–s–e–s–q–u–e–m–a–
+37 elley effected folio -> –e–l–l–e–y–e–f–f–e–c–t–e–d–f–o–l–i–o–
+38 or pentru tendency -> –o–r–p–e–n–t–r–u–t–e–n–d–e–n–c–y–
+39 ement meant zm -> –e–m–e–n–t–m–e–a–n–t–z–m–
+40 asonry tan map -> –a–s–o–n–r–y–t–a–n–m–a–p–
+41 ztu flot zajedno -> –z–t–u–f–l–o–t–z–a–j–e–d–n–o–
+42 egang debugger jou -> –e–g–a–n–g–d–e–b–u–g–g–e–r–j–o–u–
+43 vertices voltant treffen -> –v–e–r–t–i–c–e–s–v–o–l–t–a–n–t–t–r–e–f–f–e–n–
+44 hostname accomp distante -> –h–o–s–t–n–a–m–e–a–c–c–o–m–p–d–i–s–t–a–n–t–e–
+45 spunkt alleg guerr -> –s–p–u–n–k–t–a–l–l–e–g–g–u–e–r–r–
+46 ispo ise transmit -> –i–s–p–o–i–s–e–t–r–a–n–s–m–i–t–
+47 and entrare zod -> –a–n–d–e–n–t–r–a–r–e–z–o–d–
+48 erva garner specie -> –e–r–v–a–g–a–r–n–e–r–s–p–e–c–i–e–
+49 pine filozof igra -> –p–i–n–e–f–i–l–o–z–o–f–i–g–r–a–
+50 ultured gehalten mae -> –u–l–t–u–r–e–d–g–e–h–a–l–t–e–n–m–a–e–
+51 ugi kamu plans -> –u–g–i–k–a–m–u–p–l–a–n–s–
+52 riction preto camera -> –r–i–c–t–i–o–n–p–r–e–t–o–c–a–m–e–r–a–
+53 agne exclude incid -> –a–g–n–e–e–x–c–l–u–d–e–i–n–c–i–d–
+54 cia bee chicas -> –c–i–a–b–e–e–c–h–i–c–a–s–
+55 enziale otras recreate -> –e–n–z–i–a–l–e–o–t–r–a–s–r–e–c–r–e–a–t–e–
+56 rgba hang kaksi -> –r–g–b–a–h–a–n–g–k–a–k–s–i–
+57 ubles kidney full -> –u–b–l–e–s–k–i–d–n–e–y–f–u–l–l–
+58 jamin stretch artist -> –j–a–m–i–n–s–t–r–e–t–c–h–a–r–t–i–s–t–
+59 prung matcher media -> –p–r–u–n–g–m–a–t–c–h–e–r–m–e–d–i–a–
+60 has gdy om -> –h–a–s–g–d–y–o–m–
+61 itious abierta leukemia -> –i–t–i–o–u–s–a–b–i–e–r–t–a–l–e–u–k–e–m–i–a–
+62 lette drastic awk -> –l–e–t–t–e–d–r–a–s–t–i–c–a–w–k–
+63 itary znac ba -> –i–t–a–r–y–z–n–a–c–b–a–
+64 hrink arrogant funciona -> –h–r–i–n–k–a–r–r–o–g–a–n–t–f–u–n–c–i–o–n–a–
+65 rimiento salaries koska -> –r–i–m–i–e–n–t–o–s–a–l–a–r–i–e–s–k–o–s–k–a–
+66 yv protest feld -> –y–v–p–r–o–t–e–s–t–f–e–l–d–
+67 racy than abogado -> –r–a–c–y–t–h–a–n–a–b–o–g–a–d–o–
+68 olis absence griech -> –o–l–i–s–a–b–s–e–n–c–e–g–r–i–e–c–h–
+69 visor aussi gigante -> –v–i–s–o–r–a–u–s–s–i–g–i–g–a–n–t–e–
+70 kungen unlocked engl -> –k–u–n–g–e–n–u–n–l–o–c–k–e–d–e–n–g–l–
+71 yards dout ionic -> –y–a–r–d–s–d–o–u–t–i–o–n–i–c–
+72 usiasm kara convinc -> –u–s–i–a–s–m–k–a–r–a–c–o–n–v–i–n–c–
+73 riere leh clash -> –r–i–e–r–e–l–e–h–c–l–a–s–h–
+74 piry dimost subsets -> –p–i–r–y–d–i–m–o–s–t–s–u–b–s–e–t–s–
+75 vh folyt adduct -> –v–h–f–o–l–y–t–a–d–d–u–c–t–
+76 uins terrain reverted -> –u–i–n–s–t–e–r–r–a–i–n–r–e–v–e–r–t–e–d–
+77 arina sender cavall -> –a–r–i–n–a–s–e–n–d–e–r–c–a–v–a–l–l–
+78 andu kojima silver -> –a–n–d–u–k–o–j–i–m–a–s–i–l–v–e–r–
+79 rake prati abbia -> –r–a–k–e–p–r–a–t–i–a–b–b–i–a–
+80 limit scalable mosque -> –l–i–m–i–t–s–c–a–l–a–b–l–e–m–o–s–q–u–e–
+81 ikal designer actitud -> –i–k–a–l–d–e–s–i–g–n–e–r–a–c–t–i–t–u–d–
+82 izen mental popolo -> –i–z–e–n–m–e–n–t–a–l–p–o–p–o–l–o–
+83 ulia unite nights -> –u–l–i–a–u–n–i–t–e–n–i–g–h–t–s–
+84 then textile evol -> –t–h–e–n–t–e–x–t–i–l–e–e–v–o–l–
+85 reon uncover organic -> –r–e–o–n–u–n–c–o–v–e–r–o–r–g–a–n–i–c–
+86 odrome calend blitt -> –o–d–r–o–m–e–c–a–l–e–n–d–b–l–i–t–t–
+87 ogenes announce blu -> –o–g–e–n–e–s–a–n–n–o–u–n–c–e–b–l–u–
+88 quela accurate ophthal -> –q–u–e–l–a–a–c–c–u–r–a–t–e–o–p–h–t–h–a–l–
+89 aji ions probl -> –a–j–i–i–o–n–s–p–r–o–b–l–
+90 bj bu eit -> –b–j–b–u–e–i–t–
+91 install concat skon -> –i–n–s–t–a–l–l–c–o–n–c–a–t–s–k–o–n–
+92 ertation systems showcase -> –e–r–t–a–t–i–o–n–s–y–s–t–e–m–s–s–h–o–w–c–a–s–e–
+93 udu galt shrine -> –u–d–u–g–a–l–t–s–h–r–i–n–e–
+94 clock xix plena -> –c–l–o–c–k–x–i–x–p–l–e–n–a–
+95 dez spille rakenn -> –d–e–z–s–p–i–l–l–e–r–a–k–e–n–n–
+96 history showing podczas -> –h–i–s–t–o–r–y–s–h–o–w–i–n–g–p–o–d–c–z–a–s–
+97 charset smallest pockets -> –c–h–a–r–s–e–t–s–m–a–l–l–e–s–t–p–o–c–k–e–t–s–
+98 imente rec sock -> –i–m–e–n–t–e–r–e–c–s–o–c–k–
+99 ourage perdi witches -> –o–u–r–a–g–e–p–e–r–d–i–w–i–t–c–h–e–s–

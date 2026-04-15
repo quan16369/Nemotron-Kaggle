@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 arbe stocks pulses
+01 fors extrater angels
+02 wanda loos enpresak
+
+This is a sample output.
+00 arbe stocks pulses -> –a–r–b–e–s–t–o–c–k–s–p–u–l–s–e–s–
+01 fors extrater angels -> –f–o–r–s–e–x–t–r–a–t–e–r–a–n–g–e–l–s–
+02 wanda loos enpresak -> –w–a–n–d–a–l–o–o–s–e–n–p–r–e–s–a–k–
+
+This is your input.
+00 refer shorts extrater
+01 ikipedia forem wirkt
+02 xico trat francouz
+03 renal caric shape
+04 ondo autora marais
+05 ali mengen tenemos
+06 scan original splendid
+07 igos estates jau
+08 not revela rinn
+09 arlos turbine bouw
+10 reload capables pict
+11 uter endeavor geheim
+12 icas veterans oldal
+13 ints szavaz thrombin
+14 onesia debut regia
+15 enaient matrim nets
+16 aler sediment cfg
+17 ethoxy fameux kommen
+18 naj araber fluid
+19 ove imprint toward
+20 avalt venture begin
+21 eson credit muestran
+22 pid whiskey upstream
+23 setminus pouco clean
+24 efit glare midpoint
+25 pu souter epitope
+26 dad nmol return
+27 insi seinen cantar
+28 nm pilar habitual
+29 ouvoir pew chia
+30 ssh zeh adopt
+31 vio weiterer vient
+32 inal forderte stehen
+33 isateur consol missed
+34 agent du coverage
+35 esor stej regrett
+36 ovis unitary trenut
+37 irke civili lieu
+38 kap congru forgive
+39 aur eng begle
+40 oured inp existen
+41 num disputed renv
+42 pielt lap mamma
+43 ieren sinistra cura
+44 block larga estren
+45 may viv curtains
+46 alchemy obrig conten
+47 zwischen congr looks
+48 eing verdens awake
+49 legten batek reservas
+50 ominant sabot twisting
+51 qtis dz had
+52 otic stable promotes
+53 forced thick externos
+54 enschaft besetzt aastal
+55 portal gloss trades
+56 appings compre heures
+57 motor nghe npc
+58 scriber manusia php
+59 ometer lamps giao
+60 atical licht assez
+61 ricane fotos doz
+62 ees marzo rozm
+63 leps potere cows
+64 outines tolu vaste
+65 ular enfront sas
+66 zil sert serving
+67 derabad darle subsp
+68 fork calma cultivar
+69 disc kematian dav
+70 obl plung takich
+71 ffic entsche possui
+72 liers jav poids
+73 dek ascorb pins
+74 icult pluck puesto
+75 osos wirk rhythm
+76 slide pirates worry
+77 fa usato twist
+78 omba doma aims
+79 azen empathy substr
+80 percent consect dites
+81 cong patrim lengua
+82 irror deux parach
+83 zina blieben yosh
+84 asome metod mount
+85 endez grosse informs
+86 inence cloak gew
+87 altungs timpul prints
+88 global chunks centres
+89 chutz mutil enjoyed
+90 inti builder clips
+91 fallen ppm ama
+92 ionine sidewalk max
+93 braio jobb balloon
+94 ibilidad worthy pertama
+95 lista visible zakres
+96 emark stab buscando
+97 blasts spelling muscles
+98 riority prie oldest
+99 piecze impos wchod
+[completion]
+00 refer shorts extrater -> –r–e–f–e–r–s–h–o–r–t–s–e–x–t–r–a–t–e–r–
+01 ikipedia forem wirkt -> –i–k–i–p–e–d–i–a–f–o–r–e–m–w–i–r–k–t–
+02 xico trat francouz -> –x–i–c–o–t–r–a–t–f–r–a–n–c–o–u–z–
+03 renal caric shape -> –r–e–n–a–l–c–a–r–i–c–s–h–a–p–e–
+04 ondo autora marais -> –o–n–d–o–a–u–t–o–r–a–m–a–r–a–i–s–
+05 ali mengen tenemos -> –a–l–i–m–e–n–g–e–n–t–e–n–e–m–o–s–
+06 scan original splendid -> –s–c–a–n–o–r–i–g–i–n–a–l–s–p–l–e–n–d–i–d–
+07 igos estates jau -> –i–g–o–s–e–s–t–a–t–e–s–j–a–u–
+08 not revela rinn -> –n–o–t–r–e–v–e–l–a–r–i–n–n–
+09 arlos turbine bouw -> –a–r–l–o–s–t–u–r–b–i–n–e–b–o–u–w–
+10 reload capables pict -> –r–e–l–o–a–d–c–a–p–a–b–l–e–s–p–i–c–t–
+11 uter endeavor geheim -> –u–t–e–r–e–n–d–e–a–v–o–r–g–e–h–e–i–m–
+12 icas veterans oldal -> –i–c–a–s–v–e–t–e–r–a–n–s–o–l–d–a–l–
+13 ints szavaz thrombin -> –i–n–t–s–s–z–a–v–a–z–t–h–r–o–m–b–i–n–
+14 onesia debut regia -> –o–n–e–s–i–a–d–e–b–u–t–r–e–g–i–a–
+15 enaient matrim nets -> –e–n–a–i–e–n–t–m–a–t–r–i–m–n–e–t–s–
+16 aler sediment cfg -> –a–l–e–r–s–e–d–i–m–e–n–t–c–f–g–
+17 ethoxy fameux kommen -> –e–t–h–o–x–y–f–a–m–e–u–x–k–o–m–m–e–n–
+18 naj araber fluid -> –n–a–j–a–r–a–b–e–r–f–l–u–i–d–
+19 ove imprint toward -> –o–v–e–i–m–p–r–i–n–t–t–o–w–a–r–d–
+20 avalt venture begin -> –a–v–a–l–t–v–e–n–t–u–r–e–b–e–g–i–n–
+21 eson credit muestran -> –e–s–o–n–c–r–e–d–i–t–m–u–e–s–t–r–a–n–
+22 pid whiskey upstream -> –p–i–d–w–h–i–s–k–e–y–u–p–s–t–r–e–a–m–
+23 setminus pouco clean -> –s–e–t–m–i–n–u–s–p–o–u–c–o–c–l–e–a–n–
+24 efit glare midpoint -> –e–f–i–t–g–l–a–r–e–m–i–d–p–o–i–n–t–
+25 pu souter epitope -> –p–u–s–o–u–t–e–r–e–p–i–t–o–p–e–
+26 dad nmol return -> –d–a–d–n–m–o–l–r–e–t–u–r–n–
+27 insi seinen cantar -> –i–n–s–i–s–e–i–n–e–n–c–a–n–t–a–r–
+28 nm pilar habitual -> –n–m–p–i–l–a–r–h–a–b–i–t–u–a–l–
+29 ouvoir pew chia -> –o–u–v–o–i–r–p–e–w–c–h–i–a–
+30 ssh zeh adopt -> –s–s–h–z–e–h–a–d–o–p–t–
+31 vio weiterer vient -> –v–i–o–w–e–i–t–e–r–e–r–v–i–e–n–t–
+32 inal forderte stehen -> –i–n–a–l–f–o–r–d–e–r–t–e–s–t–e–h–e–n–
+33 isateur consol missed -> –i–s–a–t–e–u–r–c–o–n–s–o–l–m–i–s–s–e–d–
+34 agent du coverage -> –a–g–e–n–t–d–u–c–o–v–e–r–a–g–e–
+35 esor stej regrett -> –e–s–o–r–s–t–e–j–r–e–g–r–e–t–t–
+36 ovis unitary trenut -> –o–v–i–s–u–n–i–t–a–r–y–t–r–e–n–u–t–
+37 irke civili lieu -> –i–r–k–e–c–i–v–i–l–i–l–i–e–u–
+38 kap congru forgive -> –k–a–p–c–o–n–g–r–u–f–o–r–g–i–v–e–
+39 aur eng begle -> –a–u–r–e–n–g–b–e–g–l–e–
+40 oured inp existen -> –o–u–r–e–d–i–n–p–e–x–i–s–t–e–n–
+41 num disputed renv -> –n–u–m–d–i–s–p–u–t–e–d–r–e–n–v–
+42 pielt lap mamma -> –p–i–e–l–t–l–a–p–m–a–m–m–a–
+43 ieren sinistra cura -> –i–e–r–e–n–s–i–n–i–s–t–r–a–c–u–r–a–
+44 block larga estren -> –b–l–o–c–k–l–a–r–g–a–e–s–t–r–e–n–
+45 may viv curtains -> –m–a–y–v–i–v–c–u–r–t–a–i–n–s–
+46 alchemy obrig conten -> –a–l–c–h–e–m–y–o–b–r–i–g–c–o–n–t–e–n–
+47 zwischen congr looks -> –z–w–i–s–c–h–e–n–c–o–n–g–r–l–o–o–k–s–
+48 eing verdens awake -> –e–i–n–g–v–e–r–d–e–n–s–a–w–a–k–e–
+49 legten batek reservas -> –l–e–g–t–e–n–b–a–t–e–k–r–e–s–e–r–v–a–s–
+50 ominant sabot twisting -> –o–m–i–n–a–n–t–s–a–b–o–t–t–w–i–s–t–i–n–g–
+51 qtis dz had -> –q–t–i–s–d–z–h–a–d–
+52 otic stable promotes -> –o–t–i–c–s–t–a–b–l–e–p–r–o–m–o–t–e–s–
+53 forced thick externos -> –f–o–r–c–e–d–t–h–i–c–k–e–x–t–e–r–n–o–s–
+54 enschaft besetzt aastal -> –e–n–s–c–h–a–f–t–b–e–s–e–t–z–t–a–a–s–t–a–l–
+55 portal gloss trades -> –p–o–r–t–a–l–g–l–o–s–s–t–r–a–d–e–s–
+56 appings compre heures -> –a–p–p–i–n–g–s–c–o–m–p–r–e–h–e–u–r–e–s–
+57 motor nghe npc -> –m–o–t–o–r–n–g–h–e–n–p–c–
+58 scriber manusia php -> –s–c–r–i–b–e–r–m–a–n–u–s–i–a–p–h–p–
+59 ometer lamps giao -> –o–m–e–t–e–r–l–a–m–p–s–g–i–a–o–
+60 atical licht assez -> –a–t–i–c–a–l–l–i–c–h–t–a–s–s–e–z–
+61 ricane fotos doz -> –r–i–c–a–n–e–f–o–t–o–s–d–o–z–
+62 ees marzo rozm -> –e–e–s–m–a–r–z–o–r–o–z–m–
+63 leps potere cows -> –l–e–p–s–p–o–t–e–r–e–c–o–w–s–
+64 outines tolu vaste -> –o–u–t–i–n–e–s–t–o–l–u–v–a–s–t–e–
+65 ular enfront sas -> –u–l–a–r–e–n–f–r–o–n–t–s–a–s–
+66 zil sert serving -> –z–i–l–s–e–r–t–s–e–r–v–i–n–g–
+67 derabad darle subsp -> –d–e–r–a–b–a–d–d–a–r–l–e–s–u–b–s–p–
+68 fork calma cultivar -> –f–o–r–k–c–a–l–m–a–c–u–l–t–i–v–a–r–
+69 disc kematian dav -> –d–i–s–c–k–e–m–a–t–i–a–n–d–a–v–
+70 obl plung takich -> –o–b–l–p–l–u–n–g–t–a–k–i–c–h–
+71 ffic entsche possui -> –f–f–i–c–e–n–t–s–c–h–e–p–o–s–s–u–i–
+72 liers jav poids -> –l–i–e–r–s–j–a–v–p–o–i–d–s–
+73 dek ascorb pins -> –d–e–k–a–s–c–o–r–b–p–i–n–s–
+74 icult pluck puesto -> –i–c–u–l–t–p–l–u–c–k–p–u–e–s–t–o–
+75 osos wirk rhythm -> –o–s–o–s–w–i–r–k–r–h–y–t–h–m–
+76 slide pirates worry -> –s–l–i–d–e–p–i–r–a–t–e–s–w–o–r–r–y–
+77 fa usato twist -> –f–a–u–s–a–t–o–t–w–i–s–t–
+78 omba doma aims -> –o–m–b–a–d–o–m–a–a–i–m–s–
+79 azen empathy substr -> –a–z–e–n–e–m–p–a–t–h–y–s–u–b–s–t–r–
+80 percent consect dites -> –p–e–r–c–e–n–t–c–o–n–s–e–c–t–d–i–t–e–s–
+81 cong patrim lengua -> –c–o–n–g–p–a–t–r–i–m–l–e–n–g–u–a–
+82 irror deux parach -> –i–r–r–o–r–d–e–u–x–p–a–r–a–c–h–
+83 zina blieben yosh -> –z–i–n–a–b–l–i–e–b–e–n–y–o–s–h–
+84 asome metod mount -> –a–s–o–m–e–m–e–t–o–d–m–o–u–n–t–
+85 endez grosse informs -> –e–n–d–e–z–g–r–o–s–s–e–i–n–f–o–r–m–s–
+86 inence cloak gew -> –i–n–e–n–c–e–c–l–o–a–k–g–e–w–
+87 altungs timpul prints -> –a–l–t–u–n–g–s–t–i–m–p–u–l–p–r–i–n–t–s–
+88 global chunks centres -> –g–l–o–b–a–l–c–h–u–n–k–s–c–e–n–t–r–e–s–
+89 chutz mutil enjoyed -> –c–h–u–t–z–m–u–t–i–l–e–n–j–o–y–e–d–
+90 inti builder clips -> –i–n–t–i–b–u–i–l–d–e–r–c–l–i–p–s–
+91 fallen ppm ama -> –f–a–l–l–e–n–p–p–m–a–m–a–
+92 ionine sidewalk max -> –i–o–n–i–n–e–s–i–d–e–w–a–l–k–m–a–x–
+93 braio jobb balloon -> –b–r–a–i–o–j–o–b–b–b–a–l–l–o–o–n–
+94 ibilidad worthy pertama -> –i–b–i–l–i–d–a–d–w–o–r–t–h–y–p–e–r–t–a–m–a–
+95 lista visible zakres -> –l–i–s–t–a–v–i–s–i–b–l–e–z–a–k–r–e–s–
+96 emark stab buscando -> –e–m–a–r–k–s–t–a–b–b–u–s–c–a–n–d–o–
+97 blasts spelling muscles -> –b–l–a–s–t–s–s–p–e–l–l–i–n–g–m–u–s–c–l–e–s–
+98 riority prie oldest -> –r–i–o–r–i–t–y–p–r–i–e–o–l–d–e–s–t–
+99 piecze impos wchod -> –p–i–e–c–z–e–i–m–p–o–s–w–c–h–o–d–

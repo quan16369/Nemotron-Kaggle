@@ -1,0 +1,27 @@
+Problem ID: d82f5933
+Category: equation_numeric_deduce
+
+Examples:
+- 31*47 = 78
+- 58*41 = 99
+- 36*22 = 58
+
+Inferred rule:
+- Different symbols represent different operations. The query uses `*`, so only the `*` examples matter here.
+- For `ab*cd`, treat `ab` and `cd` as ordinary two-digit numbers and add them.
+- Checks:
+- `31 + 47 = 78`
+- `58 + 41 = 99`
+- `36 + 22 = 58`
+- The `-` examples in the prompt follow a different rule and are not needed for this query.
+
+Step-by-step application to the query:
+- Query: `91*94`
+- Interpret `91` and `94` as the numbers ninety-one and ninety-four.
+- Add them: `91 + 94 = 185`
+
+Predicted answer:
+- 185
+
+Confidence note:
+- High. All three `*` examples fit plain addition exactly, with no extra formatting or edge-case behavior needed.

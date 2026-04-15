@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 ikide cicl oba
+01 ccount prodotto sor
+02 filter navio sogen
+
+This is a sample output.
+00 ikide cicl oba -> –i–k–i–d–e–c–i–c–l–o–b–a–
+01 ccount prodotto sor -> –c–c–o–u–n–t–p–r–o–d–o–t–t–o–s–o–r–
+02 filter navio sogen -> –f–i–l–t–e–r–n–a–v–i–o–s–o–g–e–n–
+
+This is your input.
+00 ison francia iam
+01 chars promised platinum
+02 oupil baita obszar
+03 zyn prices olhou
+04 iaren alien comedia
+05 illait phosphor droplet
+06 mathcal couche szt
+07 iefs heading login
+08 axy peroxid fiori
+09 forward urkund cannot
+10 ranial modem san
+11 acob cyt not
+12 lain suk paso
+13 yp ingress hadn
+14 ners tourna predst
+15 omerase unseen appeared
+16 izin packs sizes
+17 elles riten locker
+18 atih terrib coatings
+19 iedade profond linee
+20 segu wells remix
+21 result feles bouts
+22 ampa prikaz termina
+23 threads ramener defines
+24 eturn abruptly drops
+25 ierd dioses rs
+26 unks kons respe
+27 zeniu giorn flush
+28 object binomial mechanic
+29 split against ensures
+30 cze schilder etapas
+31 fall ersch sat
+32 orce muncul failure
+33 agonal man resolve
+34 quo hous vidas
+35 tei grocery immigr
+36 ziehung nunha dj
+37 nl citrus controle
+38 nome direkt atelier
+39 usti aver miejscu
+40 west urbo uz
+41 arena descre spielen
+42 oney funcion temb
+43 ermann genealog shoved
+44 though dikel longueur
+45 schaften tun veg
+46 receive day hl
+47 immung arist city
+48 stander hurts endroit
+49 voice suivante vur
+50 usunda haur urls
+51 aufen welches eing
+52 ren rato mans
+53 unca keyboard olu
+54 ariam respecte olib
+55 ridge perioden fluores
+56 inkan davom ukl
+57 oux acar instants
+58 odin andato remot
+59 wh pekerja zorganiz
+60 bogen terce tb
+61 old citation fund
+62 derick dorm globe
+63 weist triple fala
+64 ini rounding indign
+65 castle urea scritt
+66 powered email riusc
+67 uva befinden reperc
+68 aches kl dire
+69 mail canvi exh
+70 uasa filling lavorare
+71 anos tik inherit
+72 zeuge nest secteur
+73 queue violet antigu
+74 oms dopo capilla
+75 ayload entste ipsum
+76 idge cart poraz
+77 baik rete weib
+78 tras androgen damaged
+79 ubre voltage softly
+80 fold ridicul viel
+81 aster extermin plaat
+82 assung ataques lettere
+83 arl finito lumen
+84 idig dame filma
+85 ederung indietro anc
+86 yny gallo algunos
+87 isty eftersom janeiro
+88 ulle rappelle azzal
+89 oxia demonstr truly
+90 illeurs menstru hijo
+91 atua batted credited
+92 hardt esclaves sheet
+93 ozygous galaxies mav
+94 umatic balanced final
+95 xin meerdere nyug
+96 inse retail acerc
+97 ouched zodat shop
+98 kit ventanas cic
+99 ublique ganz schlecht
+[completion]
+00 ison francia iam -> –i–s–o–n–f–r–a–n–c–i–a–i–a–m–
+01 chars promised platinum -> –c–h–a–r–s–p–r–o–m–i–s–e–d–p–l–a–t–i–n–u–m–
+02 oupil baita obszar -> –o–u–p–i–l–b–a–i–t–a–o–b–s–z–a–r–
+03 zyn prices olhou -> –z–y–n–p–r–i–c–e–s–o–l–h–o–u–
+04 iaren alien comedia -> –i–a–r–e–n–a–l–i–e–n–c–o–m–e–d–i–a–
+05 illait phosphor droplet -> –i–l–l–a–i–t–p–h–o–s–p–h–o–r–d–r–o–p–l–e–t–
+06 mathcal couche szt -> –m–a–t–h–c–a–l–c–o–u–c–h–e–s–z–t–
+07 iefs heading login -> –i–e–f–s–h–e–a–d–i–n–g–l–o–g–i–n–
+08 axy peroxid fiori -> –a–x–y–p–e–r–o–x–i–d–f–i–o–r–i–
+09 forward urkund cannot -> –f–o–r–w–a–r–d–u–r–k–u–n–d–c–a–n–n–o–t–
+10 ranial modem san -> –r–a–n–i–a–l–m–o–d–e–m–s–a–n–
+11 acob cyt not -> –a–c–o–b–c–y–t–n–o–t–
+12 lain suk paso -> –l–a–i–n–s–u–k–p–a–s–o–
+13 yp ingress hadn -> –y–p–i–n–g–r–e–s–s–h–a–d–n–
+14 ners tourna predst -> –n–e–r–s–t–o–u–r–n–a–p–r–e–d–s–t–
+15 omerase unseen appeared -> –o–m–e–r–a–s–e–u–n–s–e–e–n–a–p–p–e–a–r–e–d–
+16 izin packs sizes -> –i–z–i–n–p–a–c–k–s–s–i–z–e–s–
+17 elles riten locker -> –e–l–l–e–s–r–i–t–e–n–l–o–c–k–e–r–
+18 atih terrib coatings -> –a–t–i–h–t–e–r–r–i–b–c–o–a–t–i–n–g–s–
+19 iedade profond linee -> –i–e–d–a–d–e–p–r–o–f–o–n–d–l–i–n–e–e–
+20 segu wells remix -> –s–e–g–u–w–e–l–l–s–r–e–m–i–x–
+21 result feles bouts -> –r–e–s–u–l–t–f–e–l–e–s–b–o–u–t–s–
+22 ampa prikaz termina -> –a–m–p–a–p–r–i–k–a–z–t–e–r–m–i–n–a–
+23 threads ramener defines -> –t–h–r–e–a–d–s–r–a–m–e–n–e–r–d–e–f–i–n–e–s–
+24 eturn abruptly drops -> –e–t–u–r–n–a–b–r–u–p–t–l–y–d–r–o–p–s–
+25 ierd dioses rs -> –i–e–r–d–d–i–o–s–e–s–r–s–
+26 unks kons respe -> –u–n–k–s–k–o–n–s–r–e–s–p–e–
+27 zeniu giorn flush -> –z–e–n–i–u–g–i–o–r–n–f–l–u–s–h–
+28 object binomial mechanic -> –o–b–j–e–c–t–b–i–n–o–m–i–a–l–m–e–c–h–a–n–i–c–
+29 split against ensures -> –s–p–l–i–t–a–g–a–i–n–s–t–e–n–s–u–r–e–s–
+30 cze schilder etapas -> –c–z–e–s–c–h–i–l–d–e–r–e–t–a–p–a–s–
+31 fall ersch sat -> –f–a–l–l–e–r–s–c–h–s–a–t–
+32 orce muncul failure -> –o–r–c–e–m–u–n–c–u–l–f–a–i–l–u–r–e–
+33 agonal man resolve -> –a–g–o–n–a–l–m–a–n–r–e–s–o–l–v–e–
+34 quo hous vidas -> –q–u–o–h–o–u–s–v–i–d–a–s–
+35 tei grocery immigr -> –t–e–i–g–r–o–c–e–r–y–i–m–m–i–g–r–
+36 ziehung nunha dj -> –z–i–e–h–u–n–g–n–u–n–h–a–d–j–
+37 nl citrus controle -> –n–l–c–i–t–r–u–s–c–o–n–t–r–o–l–e–
+38 nome direkt atelier -> –n–o–m–e–d–i–r–e–k–t–a–t–e–l–i–e–r–
+39 usti aver miejscu -> –u–s–t–i–a–v–e–r–m–i–e–j–s–c–u–
+40 west urbo uz -> –w–e–s–t–u–r–b–o–u–z–
+41 arena descre spielen -> –a–r–e–n–a–d–e–s–c–r–e–s–p–i–e–l–e–n–
+42 oney funcion temb -> –o–n–e–y–f–u–n–c–i–o–n–t–e–m–b–
+43 ermann genealog shoved -> –e–r–m–a–n–n–g–e–n–e–a–l–o–g–s–h–o–v–e–d–
+44 though dikel longueur -> –t–h–o–u–g–h–d–i–k–e–l–l–o–n–g–u–e–u–r–
+45 schaften tun veg -> –s–c–h–a–f–t–e–n–t–u–n–v–e–g–
+46 receive day hl -> –r–e–c–e–i–v–e–d–a–y–h–l–
+47 immung arist city -> –i–m–m–u–n–g–a–r–i–s–t–c–i–t–y–
+48 stander hurts endroit -> –s–t–a–n–d–e–r–h–u–r–t–s–e–n–d–r–o–i–t–
+49 voice suivante vur -> –v–o–i–c–e–s–u–i–v–a–n–t–e–v–u–r–
+50 usunda haur urls -> –u–s–u–n–d–a–h–a–u–r–u–r–l–s–
+51 aufen welches eing -> –a–u–f–e–n–w–e–l–c–h–e–s–e–i–n–g–
+52 ren rato mans -> –r–e–n–r–a–t–o–m–a–n–s–
+53 unca keyboard olu -> –u–n–c–a–k–e–y–b–o–a–r–d–o–l–u–
+54 ariam respecte olib -> –a–r–i–a–m–r–e–s–p–e–c–t–e–o–l–i–b–
+55 ridge perioden fluores -> –r–i–d–g–e–p–e–r–i–o–d–e–n–f–l–u–o–r–e–s–
+56 inkan davom ukl -> –i–n–k–a–n–d–a–v–o–m–u–k–l–
+57 oux acar instants -> –o–u–x–a–c–a–r–i–n–s–t–a–n–t–s–
+58 odin andato remot -> –o–d–i–n–a–n–d–a–t–o–r–e–m–o–t–
+59 wh pekerja zorganiz -> –w–h–p–e–k–e–r–j–a–z–o–r–g–a–n–i–z–
+60 bogen terce tb -> –b–o–g–e–n–t–e–r–c–e–t–b–
+61 old citation fund -> –o–l–d–c–i–t–a–t–i–o–n–f–u–n–d–
+62 derick dorm globe -> –d–e–r–i–c–k–d–o–r–m–g–l–o–b–e–
+63 weist triple fala -> –w–e–i–s–t–t–r–i–p–l–e–f–a–l–a–
+64 ini rounding indign -> –i–n–i–r–o–u–n–d–i–n–g–i–n–d–i–g–n–
+65 castle urea scritt -> –c–a–s–t–l–e–u–r–e–a–s–c–r–i–t–t–
+66 powered email riusc -> –p–o–w–e–r–e–d–e–m–a–i–l–r–i–u–s–c–
+67 uva befinden reperc -> –u–v–a–b–e–f–i–n–d–e–n–r–e–p–e–r–c–
+68 aches kl dire -> –a–c–h–e–s–k–l–d–i–r–e–
+69 mail canvi exh -> –m–a–i–l–c–a–n–v–i–e–x–h–
+70 uasa filling lavorare -> –u–a–s–a–f–i–l–l–i–n–g–l–a–v–o–r–a–r–e–
+71 anos tik inherit -> –a–n–o–s–t–i–k–i–n–h–e–r–i–t–
+72 zeuge nest secteur -> –z–e–u–g–e–n–e–s–t–s–e–c–t–e–u–r–
+73 queue violet antigu -> –q–u–e–u–e–v–i–o–l–e–t–a–n–t–i–g–u–
+74 oms dopo capilla -> –o–m–s–d–o–p–o–c–a–p–i–l–l–a–
+75 ayload entste ipsum -> –a–y–l–o–a–d–e–n–t–s–t–e–i–p–s–u–m–
+76 idge cart poraz -> –i–d–g–e–c–a–r–t–p–o–r–a–z–
+77 baik rete weib -> –b–a–i–k–r–e–t–e–w–e–i–b–
+78 tras androgen damaged -> –t–r–a–s–a–n–d–r–o–g–e–n–d–a–m–a–g–e–d–
+79 ubre voltage softly -> –u–b–r–e–v–o–l–t–a–g–e–s–o–f–t–l–y–
+80 fold ridicul viel -> –f–o–l–d–r–i–d–i–c–u–l–v–i–e–l–
+81 aster extermin plaat -> –a–s–t–e–r–e–x–t–e–r–m–i–n–p–l–a–a–t–
+82 assung ataques lettere -> –a–s–s–u–n–g–a–t–a–q–u–e–s–l–e–t–t–e–r–e–
+83 arl finito lumen -> –a–r–l–f–i–n–i–t–o–l–u–m–e–n–
+84 idig dame filma -> –i–d–i–g–d–a–m–e–f–i–l–m–a–
+85 ederung indietro anc -> –e–d–e–r–u–n–g–i–n–d–i–e–t–r–o–a–n–c–
+86 yny gallo algunos -> –y–n–y–g–a–l–l–o–a–l–g–u–n–o–s–
+87 isty eftersom janeiro -> –i–s–t–y–e–f–t–e–r–s–o–m–j–a–n–e–i–r–o–
+88 ulle rappelle azzal -> –u–l–l–e–r–a–p–p–e–l–l–e–a–z–z–a–l–
+89 oxia demonstr truly -> –o–x–i–a–d–e–m–o–n–s–t–r–t–r–u–l–y–
+90 illeurs menstru hijo -> –i–l–l–e–u–r–s–m–e–n–s–t–r–u–h–i–j–o–
+91 atua batted credited -> –a–t–u–a–b–a–t–t–e–d–c–r–e–d–i–t–e–d–
+92 hardt esclaves sheet -> –h–a–r–d–t–e–s–c–l–a–v–e–s–s–h–e–e–t–
+93 ozygous galaxies mav -> –o–z–y–g–o–u–s–g–a–l–a–x–i–e–s–m–a–v–
+94 umatic balanced final -> –u–m–a–t–i–c–b–a–l–a–n–c–e–d–f–i–n–a–l–
+95 xin meerdere nyug -> –x–i–n–m–e–e–r–d–e–r–e–n–y–u–g–
+96 inse retail acerc -> –i–n–s–e–r–e–t–a–i–l–a–c–e–r–c–
+97 ouched zodat shop -> –o–u–c–h–e–d–z–o–d–a–t–s–h–o–p–
+98 kit ventanas cic -> –k–i–t–v–e–n–t–a–n–a–s–c–i–c–
+99 ublique ganz schlecht -> –u–b–l–i–q–u–e–g–a–n–z–s–c–h–l–e–c–h–t–

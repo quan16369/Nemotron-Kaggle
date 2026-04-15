@@ -1,0 +1,31 @@
+Problem ID: 274def88
+Category: equation_numeric_deduce
+
+Examples:
+- 33*74 = 2551
+  This uses `*`, so it appears to follow a different operator-specific rule and is not needed for the query.
+- 29-79 = -5
+  Reverse both operands: 29 -> 92 and 79 -> 97. Then subtract: 92 - 97 = -5. Reversing the digits of `-5` still gives `-5`.
+- 17+69 = 861
+  This uses `+`, so it appears to follow a different operator-specific rule and is not needed for the query.
+- 01-72 = -71
+  Reverse both operands: 01 -> 10 and 72 -> 27. Then subtract: 10 - 27 = -17. Reversing the digits of the magnitude gives `-71`.
+- 42*38 = 3991
+  This uses `*`, so it appears to follow a different operator-specific rule and is not needed for the query.
+
+Inferred rule:
+For expressions with `-`, reverse the digits of each two-digit operand, perform the subtraction, and then reverse the digits of the result.
+If the result has only one digit, the reversal does not change it.
+Different operators in the same problem can follow different rules, and the `+` and `*` examples do not affect the query.
+
+Apply the rule to the query:
+- Query: 85-92
+- Reverse both operands: 85 -> 58 and 92 -> 29
+- Subtract: 58 - 29 = 29
+- Reverse the result: 29 -> 92
+
+Predicted answer:
+92
+
+Confidence:
+Moderate to high for the query. Both `-` examples fit this rule exactly, including the negative case. The `+` and `*` examples remain unexplained here, but they look like separate operator-specific distractions rather than evidence against the subtraction rule.

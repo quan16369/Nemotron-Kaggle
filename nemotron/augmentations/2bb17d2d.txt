@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 ivalence jef baino
+01 esten raja scr
+02 leden peru orth
+
+This is a sample output.
+00 ivalence jef baino -> –i–v–a–l–e–n–c–e–j–e–f–b–a–i–n–o–
+01 esten raja scr -> –e–s–t–e–n–r–a–j–a–s–c–r–
+02 leden peru orth -> –l–e–d–e–n–p–e–r–u–o–r–t–h–
+
+This is your input.
+00 setzen molino mothers
+01 udp pokemon bur
+02 rage dangere hev
+03 oten cruise rabb
+04 nec possibly quelqu
+05 igt migliore quai
+06 abler vow almeno
+07 array oven norma
+08 spark enn erreich
+09 ondheim clubs boxes
+10 lider owned espacio
+11 cd umgebaut mensagem
+12 roscopic sons podpor
+13 uca kampan suspects
+14 nur fashion whales
+15 trat smashed supl
+16 ego spark recib
+17 xff renamed fuego
+18 olly korral suisse
+19 abels tengo embargo
+20 klad clip stir
+21 emente avevo avez
+22 ledes tighter aer
+23 urls blood dunia
+24 uerre organizz corsa
+25 arbe males jut
+26 te tet spagn
+27 dde trasfer scenes
+28 bli taxa drafting
+29 ures vigueur konkre
+30 vast unha intake
+31 rept gebied solt
+32 osof atta nerve
+33 tel mora waves
+34 uloj amoureux ideias
+35 ilgan rattach automate
+36 reden primaria sociale
+37 ovalent daxil conform
+38 cession bekam menny
+39 ajara wir certains
+40 assadeur supper acredit
+41 ipy vrsta jelly
+42 otechn juris desper
+43 say hilt stupid
+44 rowave linn fruto
+45 vars stra ultimi
+46 iere mehr mimo
+47 incy querido anget
+48 enciar met sota
+49 ondon qualify gently
+50 ahlen usp temsil
+51 antung subdu periods
+52 etin lata materia
+53 pard apical keine
+54 abon filter anuncia
+55 ckiego psychos pays
+56 lle criada myth
+57 chaft shortage tying
+58 ployment minst kog
+59 boxes wurde muy
+60 ujo intox provided
+61 yyy fing antig
+62 zoa paved halls
+63 enzyme cubierta ftp
+64 itek conject plugin
+65 uaire mediana drogue
+66 pruch upl matters
+67 oldo tij gef
+68 jans venire cabec
+69 ethel obtain terhadap
+70 brecht scores heb
+71 olle lantern bair
+72 ktop novemb prow
+73 ierungs feminist bisschen
+74 udy reach fancy
+75 aturik nya acoust
+76 unge coal lawsuit
+77 duit pariet sodass
+78 ista minimal vasta
+79 toile stared venivano
+80 ded wb verg
+81 inald staden plaza
+82 irestore footage texto
+83 ricted desap idioma
+84 liefer glimp essendo
+85 hov bisexual politici
+86 lambda surveys henne
+87 urname students worship
+88 olate llamado manch
+89 hely sna coins
+90 ewis privile libri
+91 lbum mort amenaz
+92 word puissent tunt
+93 amo aclar mobile
+94 health trasform piani
+95 etric mateix discut
+96 sl pediu szemben
+97 ras berm framed
+98 iek suits mund
+99 ielten infrared escenas
+[completion]
+00 setzen molino mothers -> –s–e–t–z–e–n–m–o–l–i–n–o–m–o–t–h–e–r–s–
+01 udp pokemon bur -> –u–d–p–p–o–k–e–m–o–n–b–u–r–
+02 rage dangere hev -> –r–a–g–e–d–a–n–g–e–r–e–h–e–v–
+03 oten cruise rabb -> –o–t–e–n–c–r–u–i–s–e–r–a–b–b–
+04 nec possibly quelqu -> –n–e–c–p–o–s–s–i–b–l–y–q–u–e–l–q–u–
+05 igt migliore quai -> –i–g–t–m–i–g–l–i–o–r–e–q–u–a–i–
+06 abler vow almeno -> –a–b–l–e–r–v–o–w–a–l–m–e–n–o–
+07 array oven norma -> –a–r–r–a–y–o–v–e–n–n–o–r–m–a–
+08 spark enn erreich -> –s–p–a–r–k–e–n–n–e–r–r–e–i–c–h–
+09 ondheim clubs boxes -> –o–n–d–h–e–i–m–c–l–u–b–s–b–o–x–e–s–
+10 lider owned espacio -> –l–i–d–e–r–o–w–n–e–d–e–s–p–a–c–i–o–
+11 cd umgebaut mensagem -> –c–d–u–m–g–e–b–a–u–t–m–e–n–s–a–g–e–m–
+12 roscopic sons podpor -> –r–o–s–c–o–p–i–c–s–o–n–s–p–o–d–p–o–r–
+13 uca kampan suspects -> –u–c–a–k–a–m–p–a–n–s–u–s–p–e–c–t–s–
+14 nur fashion whales -> –n–u–r–f–a–s–h–i–o–n–w–h–a–l–e–s–
+15 trat smashed supl -> –t–r–a–t–s–m–a–s–h–e–d–s–u–p–l–
+16 ego spark recib -> –e–g–o–s–p–a–r–k–r–e–c–i–b–
+17 xff renamed fuego -> –x–f–f–r–e–n–a–m–e–d–f–u–e–g–o–
+18 olly korral suisse -> –o–l–l–y–k–o–r–r–a–l–s–u–i–s–s–e–
+19 abels tengo embargo -> –a–b–e–l–s–t–e–n–g–o–e–m–b–a–r–g–o–
+20 klad clip stir -> –k–l–a–d–c–l–i–p–s–t–i–r–
+21 emente avevo avez -> –e–m–e–n–t–e–a–v–e–v–o–a–v–e–z–
+22 ledes tighter aer -> –l–e–d–e–s–t–i–g–h–t–e–r–a–e–r–
+23 urls blood dunia -> –u–r–l–s–b–l–o–o–d–d–u–n–i–a–
+24 uerre organizz corsa -> –u–e–r–r–e–o–r–g–a–n–i–z–z–c–o–r–s–a–
+25 arbe males jut -> –a–r–b–e–m–a–l–e–s–j–u–t–
+26 te tet spagn -> –t–e–t–e–t–s–p–a–g–n–
+27 dde trasfer scenes -> –d–d–e–t–r–a–s–f–e–r–s–c–e–n–e–s–
+28 bli taxa drafting -> –b–l–i–t–a–x–a–d–r–a–f–t–i–n–g–
+29 ures vigueur konkre -> –u–r–e–s–v–i–g–u–e–u–r–k–o–n–k–r–e–
+30 vast unha intake -> –v–a–s–t–u–n–h–a–i–n–t–a–k–e–
+31 rept gebied solt -> –r–e–p–t–g–e–b–i–e–d–s–o–l–t–
+32 osof atta nerve -> –o–s–o–f–a–t–t–a–n–e–r–v–e–
+33 tel mora waves -> –t–e–l–m–o–r–a–w–a–v–e–s–
+34 uloj amoureux ideias -> –u–l–o–j–a–m–o–u–r–e–u–x–i–d–e–i–a–s–
+35 ilgan rattach automate -> –i–l–g–a–n–r–a–t–t–a–c–h–a–u–t–o–m–a–t–e–
+36 reden primaria sociale -> –r–e–d–e–n–p–r–i–m–a–r–i–a–s–o–c–i–a–l–e–
+37 ovalent daxil conform -> –o–v–a–l–e–n–t–d–a–x–i–l–c–o–n–f–o–r–m–
+38 cession bekam menny -> –c–e–s–s–i–o–n–b–e–k–a–m–m–e–n–n–y–
+39 ajara wir certains -> –a–j–a–r–a–w–i–r–c–e–r–t–a–i–n–s–
+40 assadeur supper acredit -> –a–s–s–a–d–e–u–r–s–u–p–p–e–r–a–c–r–e–d–i–t–
+41 ipy vrsta jelly -> –i–p–y–v–r–s–t–a–j–e–l–l–y–
+42 otechn juris desper -> –o–t–e–c–h–n–j–u–r–i–s–d–e–s–p–e–r–
+43 say hilt stupid -> –s–a–y–h–i–l–t–s–t–u–p–i–d–
+44 rowave linn fruto -> –r–o–w–a–v–e–l–i–n–n–f–r–u–t–o–
+45 vars stra ultimi -> –v–a–r–s–s–t–r–a–u–l–t–i–m–i–
+46 iere mehr mimo -> –i–e–r–e–m–e–h–r–m–i–m–o–
+47 incy querido anget -> –i–n–c–y–q–u–e–r–i–d–o–a–n–g–e–t–
+48 enciar met sota -> –e–n–c–i–a–r–m–e–t–s–o–t–a–
+49 ondon qualify gently -> –o–n–d–o–n–q–u–a–l–i–f–y–g–e–n–t–l–y–
+50 ahlen usp temsil -> –a–h–l–e–n–u–s–p–t–e–m–s–i–l–
+51 antung subdu periods -> –a–n–t–u–n–g–s–u–b–d–u–p–e–r–i–o–d–s–
+52 etin lata materia -> –e–t–i–n–l–a–t–a–m–a–t–e–r–i–a–
+53 pard apical keine -> –p–a–r–d–a–p–i–c–a–l–k–e–i–n–e–
+54 abon filter anuncia -> –a–b–o–n–f–i–l–t–e–r–a–n–u–n–c–i–a–
+55 ckiego psychos pays -> –c–k–i–e–g–o–p–s–y–c–h–o–s–p–a–y–s–
+56 lle criada myth -> –l–l–e–c–r–i–a–d–a–m–y–t–h–
+57 chaft shortage tying -> –c–h–a–f–t–s–h–o–r–t–a–g–e–t–y–i–n–g–
+58 ployment minst kog -> –p–l–o–y–m–e–n–t–m–i–n–s–t–k–o–g–
+59 boxes wurde muy -> –b–o–x–e–s–w–u–r–d–e–m–u–y–
+60 ujo intox provided -> –u–j–o–i–n–t–o–x–p–r–o–v–i–d–e–d–
+61 yyy fing antig -> –y–y–y–f–i–n–g–a–n–t–i–g–
+62 zoa paved halls -> –z–o–a–p–a–v–e–d–h–a–l–l–s–
+63 enzyme cubierta ftp -> –e–n–z–y–m–e–c–u–b–i–e–r–t–a–f–t–p–
+64 itek conject plugin -> –i–t–e–k–c–o–n–j–e–c–t–p–l–u–g–i–n–
+65 uaire mediana drogue -> –u–a–i–r–e–m–e–d–i–a–n–a–d–r–o–g–u–e–
+66 pruch upl matters -> –p–r–u–c–h–u–p–l–m–a–t–t–e–r–s–
+67 oldo tij gef -> –o–l–d–o–t–i–j–g–e–f–
+68 jans venire cabec -> –j–a–n–s–v–e–n–i–r–e–c–a–b–e–c–
+69 ethel obtain terhadap -> –e–t–h–e–l–o–b–t–a–i–n–t–e–r–h–a–d–a–p–
+70 brecht scores heb -> –b–r–e–c–h–t–s–c–o–r–e–s–h–e–b–
+71 olle lantern bair -> –o–l–l–e–l–a–n–t–e–r–n–b–a–i–r–
+72 ktop novemb prow -> –k–t–o–p–n–o–v–e–m–b–p–r–o–w–
+73 ierungs feminist bisschen -> –i–e–r–u–n–g–s–f–e–m–i–n–i–s–t–b–i–s–s–c–h–e–n–
+74 udy reach fancy -> –u–d–y–r–e–a–c–h–f–a–n–c–y–
+75 aturik nya acoust -> –a–t–u–r–i–k–n–y–a–a–c–o–u–s–t–
+76 unge coal lawsuit -> –u–n–g–e–c–o–a–l–l–a–w–s–u–i–t–
+77 duit pariet sodass -> –d–u–i–t–p–a–r–i–e–t–s–o–d–a–s–s–
+78 ista minimal vasta -> –i–s–t–a–m–i–n–i–m–a–l–v–a–s–t–a–
+79 toile stared venivano -> –t–o–i–l–e–s–t–a–r–e–d–v–e–n–i–v–a–n–o–
+80 ded wb verg -> –d–e–d–w–b–v–e–r–g–
+81 inald staden plaza -> –i–n–a–l–d–s–t–a–d–e–n–p–l–a–z–a–
+82 irestore footage texto -> –i–r–e–s–t–o–r–e–f–o–o–t–a–g–e–t–e–x–t–o–
+83 ricted desap idioma -> –r–i–c–t–e–d–d–e–s–a–p–i–d–i–o–m–a–
+84 liefer glimp essendo -> –l–i–e–f–e–r–g–l–i–m–p–e–s–s–e–n–d–o–
+85 hov bisexual politici -> –h–o–v–b–i–s–e–x–u–a–l–p–o–l–i–t–i–c–i–
+86 lambda surveys henne -> –l–a–m–b–d–a–s–u–r–v–e–y–s–h–e–n–n–e–
+87 urname students worship -> –u–r–n–a–m–e–s–t–u–d–e–n–t–s–w–o–r–s–h–i–p–
+88 olate llamado manch -> –o–l–a–t–e–l–l–a–m–a–d–o–m–a–n–c–h–
+89 hely sna coins -> –h–e–l–y–s–n–a–c–o–i–n–s–
+90 ewis privile libri -> –e–w–i–s–p–r–i–v–i–l–e–l–i–b–r–i–
+91 lbum mort amenaz -> –l–b–u–m–m–o–r–t–a–m–e–n–a–z–
+92 word puissent tunt -> –w–o–r–d–p–u–i–s–s–e–n–t–t–u–n–t–
+93 amo aclar mobile -> –a–m–o–a–c–l–a–r–m–o–b–i–l–e–
+94 health trasform piani -> –h–e–a–l–t–h–t–r–a–s–f–o–r–m–p–i–a–n–i–
+95 etric mateix discut -> –e–t–r–i–c–m–a–t–e–i–x–d–i–s–c–u–t–
+96 sl pediu szemben -> –s–l–p–e–d–i–u–s–z–e–m–b–e–n–
+97 ras berm framed -> –r–a–s–b–e–r–m–f–r–a–m–e–d–
+98 iek suits mund -> –i–e–k–s–u–i–t–s–m–u–n–d–
+99 ielten infrared escenas -> –i–e–l–t–e–n–i–n–f–r–a–r–e–d–e–s–c–e–n–a–s–

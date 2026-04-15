@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 ccc ming ler
+01 podob own espa
+02 ftp cuando naturale
+
+This is a sample output.
+00 ccc ming ler -> –c–c–c–m–i–n–g–l–e–r–
+01 podob own espa -> –p–o–d–o–b–o–w–n–e–s–p–a–
+02 ftp cuando naturale -> –f–t–p–c–u–a–n–d–o–n–a–t–u–r–a–l–e–
+
+This is your input.
+00 ozilla cla bruk
+01 liwo jedan lie
+02 unct arb confir
+03 nb kepala hooked
+04 ikl cabin usan
+05 length dichlor miglior
+06 uteur pril biskup
+07 ortun pound osmotic
+08 raw syd ata
+09 scr placas segmento
+10 orted marque delir
+11 bod adecu sensed
+12 aneo ment coinc
+13 malink myc dragon
+14 entric rencontr takes
+15 echo eaux licenci
+16 zas genoux stre
+17 vd favored resol
+18 steig richer reco
+19 enri sliding obtains
+20 allis seul passer
+21 uerpo wide regards
+22 clide contempt pauv
+23 icago terj nutzen
+24 idence segment urging
+25 uj creating chemise
+26 cla przesz hypoxia
+27 iej znamen abgesch
+28 stud vitality objet
+29 omycin bens filmed
+30 arod aproxim removed
+31 pay fol caballos
+32 uesto kvalifik exams
+33 itung worse intraven
+34 iso idaz atas
+35 vious resume kontin
+36 figur arque usein
+37 atoes suitably quel
+38 riangle libro concre
+39 archy indo hours
+40 ze donner adapt
+41 omeric bonds unbound
+42 cesso gamme sarrer
+43 problem signals blancos
+44 agles desapare key
+45 asename junior princess
+46 tbl clock marav
+47 itats titular never
+48 no leb progetto
+49 okat pend bestaat
+50 orgung tells between
+51 ovej folk diper
+52 arily zoals wissen
+53 imetric pirate wears
+54 abo race phenyl
+55 hund amic cree
+56 ustin sac zbior
+57 bot porch mencapai
+58 ival crystall termasuk
+59 ligi steady sentin
+60 memory pele esti
+61 raine soporte stond
+62 ambah sucede shift
+63 arynx limiter augment
+64 vede dues akin
+65 ew activity partire
+66 erview reason helpers
+67 oreign anda umum
+68 ensko bipart huge
+69 viation aqu wool
+70 ljiv erd esa
+71 ihara cope haem
+72 colare learnt regroupe
+73 czeg marched portray
+74 ging falta emerge
+75 assert focal vrouwen
+76 amment driving ministro
+77 useeland szyb ouverts
+78 inctions gyrus tweede
+79 obod conclude baroque
+80 ccane mediados piles
+81 props doorway larva
+82 watch tomar rulers
+83 aina dissent lipids
+84 quista vol targeted
+85 ocyt marry schwer
+86 nes fake perder
+87 groups engan twins
+88 pression pour proposes
+89 lice entitled lum
+90 paravant ballet vec
+91 cade kennen publicar
+92 ickers kit urn
+93 certain blamed pil
+94 hall finished seigneur
+95 skip stanza arch
+96 asun oscil fp
+97 engono den chiaro
+98 szere sacc serveur
+99 adr marido verstand
+[completion]
+00 ozilla cla bruk -> –o–z–i–l–l–a–c–l–a–b–r–u–k–
+01 liwo jedan lie -> –l–i–w–o–j–e–d–a–n–l–i–e–
+02 unct arb confir -> –u–n–c–t–a–r–b–c–o–n–f–i–r–
+03 nb kepala hooked -> –n–b–k–e–p–a–l–a–h–o–o–k–e–d–
+04 ikl cabin usan -> –i–k–l–c–a–b–i–n–u–s–a–n–
+05 length dichlor miglior -> –l–e–n–g–t–h–d–i–c–h–l–o–r–m–i–g–l–i–o–r–
+06 uteur pril biskup -> –u–t–e–u–r–p–r–i–l–b–i–s–k–u–p–
+07 ortun pound osmotic -> –o–r–t–u–n–p–o–u–n–d–o–s–m–o–t–i–c–
+08 raw syd ata -> –r–a–w–s–y–d–a–t–a–
+09 scr placas segmento -> –s–c–r–p–l–a–c–a–s–s–e–g–m–e–n–t–o–
+10 orted marque delir -> –o–r–t–e–d–m–a–r–q–u–e–d–e–l–i–r–
+11 bod adecu sensed -> –b–o–d–a–d–e–c–u–s–e–n–s–e–d–
+12 aneo ment coinc -> –a–n–e–o–m–e–n–t–c–o–i–n–c–
+13 malink myc dragon -> –m–a–l–i–n–k–m–y–c–d–r–a–g–o–n–
+14 entric rencontr takes -> –e–n–t–r–i–c–r–e–n–c–o–n–t–r–t–a–k–e–s–
+15 echo eaux licenci -> –e–c–h–o–e–a–u–x–l–i–c–e–n–c–i–
+16 zas genoux stre -> –z–a–s–g–e–n–o–u–x–s–t–r–e–
+17 vd favored resol -> –v–d–f–a–v–o–r–e–d–r–e–s–o–l–
+18 steig richer reco -> –s–t–e–i–g–r–i–c–h–e–r–r–e–c–o–
+19 enri sliding obtains -> –e–n–r–i–s–l–i–d–i–n–g–o–b–t–a–i–n–s–
+20 allis seul passer -> –a–l–l–i–s–s–e–u–l–p–a–s–s–e–r–
+21 uerpo wide regards -> –u–e–r–p–o–w–i–d–e–r–e–g–a–r–d–s–
+22 clide contempt pauv -> –c–l–i–d–e–c–o–n–t–e–m–p–t–p–a–u–v–
+23 icago terj nutzen -> –i–c–a–g–o–t–e–r–j–n–u–t–z–e–n–
+24 idence segment urging -> –i–d–e–n–c–e–s–e–g–m–e–n–t–u–r–g–i–n–g–
+25 uj creating chemise -> –u–j–c–r–e–a–t–i–n–g–c–h–e–m–i–s–e–
+26 cla przesz hypoxia -> –c–l–a–p–r–z–e–s–z–h–y–p–o–x–i–a–
+27 iej znamen abgesch -> –i–e–j–z–n–a–m–e–n–a–b–g–e–s–c–h–
+28 stud vitality objet -> –s–t–u–d–v–i–t–a–l–i–t–y–o–b–j–e–t–
+29 omycin bens filmed -> –o–m–y–c–i–n–b–e–n–s–f–i–l–m–e–d–
+30 arod aproxim removed -> –a–r–o–d–a–p–r–o–x–i–m–r–e–m–o–v–e–d–
+31 pay fol caballos -> –p–a–y–f–o–l–c–a–b–a–l–l–o–s–
+32 uesto kvalifik exams -> –u–e–s–t–o–k–v–a–l–i–f–i–k–e–x–a–m–s–
+33 itung worse intraven -> –i–t–u–n–g–w–o–r–s–e–i–n–t–r–a–v–e–n–
+34 iso idaz atas -> –i–s–o–i–d–a–z–a–t–a–s–
+35 vious resume kontin -> –v–i–o–u–s–r–e–s–u–m–e–k–o–n–t–i–n–
+36 figur arque usein -> –f–i–g–u–r–a–r–q–u–e–u–s–e–i–n–
+37 atoes suitably quel -> –a–t–o–e–s–s–u–i–t–a–b–l–y–q–u–e–l–
+38 riangle libro concre -> –r–i–a–n–g–l–e–l–i–b–r–o–c–o–n–c–r–e–
+39 archy indo hours -> –a–r–c–h–y–i–n–d–o–h–o–u–r–s–
+40 ze donner adapt -> –z–e–d–o–n–n–e–r–a–d–a–p–t–
+41 omeric bonds unbound -> –o–m–e–r–i–c–b–o–n–d–s–u–n–b–o–u–n–d–
+42 cesso gamme sarrer -> –c–e–s–s–o–g–a–m–m–e–s–a–r–r–e–r–
+43 problem signals blancos -> –p–r–o–b–l–e–m–s–i–g–n–a–l–s–b–l–a–n–c–o–s–
+44 agles desapare key -> –a–g–l–e–s–d–e–s–a–p–a–r–e–k–e–y–
+45 asename junior princess -> –a–s–e–n–a–m–e–j–u–n–i–o–r–p–r–i–n–c–e–s–s–
+46 tbl clock marav -> –t–b–l–c–l–o–c–k–m–a–r–a–v–
+47 itats titular never -> –i–t–a–t–s–t–i–t–u–l–a–r–n–e–v–e–r–
+48 no leb progetto -> –n–o–l–e–b–p–r–o–g–e–t–t–o–
+49 okat pend bestaat -> –o–k–a–t–p–e–n–d–b–e–s–t–a–a–t–
+50 orgung tells between -> –o–r–g–u–n–g–t–e–l–l–s–b–e–t–w–e–e–n–
+51 ovej folk diper -> –o–v–e–j–f–o–l–k–d–i–p–e–r–
+52 arily zoals wissen -> –a–r–i–l–y–z–o–a–l–s–w–i–s–s–e–n–
+53 imetric pirate wears -> –i–m–e–t–r–i–c–p–i–r–a–t–e–w–e–a–r–s–
+54 abo race phenyl -> –a–b–o–r–a–c–e–p–h–e–n–y–l–
+55 hund amic cree -> –h–u–n–d–a–m–i–c–c–r–e–e–
+56 ustin sac zbior -> –u–s–t–i–n–s–a–c–z–b–i–o–r–
+57 bot porch mencapai -> –b–o–t–p–o–r–c–h–m–e–n–c–a–p–a–i–
+58 ival crystall termasuk -> –i–v–a–l–c–r–y–s–t–a–l–l–t–e–r–m–a–s–u–k–
+59 ligi steady sentin -> –l–i–g–i–s–t–e–a–d–y–s–e–n–t–i–n–
+60 memory pele esti -> –m–e–m–o–r–y–p–e–l–e–e–s–t–i–
+61 raine soporte stond -> –r–a–i–n–e–s–o–p–o–r–t–e–s–t–o–n–d–
+62 ambah sucede shift -> –a–m–b–a–h–s–u–c–e–d–e–s–h–i–f–t–
+63 arynx limiter augment -> –a–r–y–n–x–l–i–m–i–t–e–r–a–u–g–m–e–n–t–
+64 vede dues akin -> –v–e–d–e–d–u–e–s–a–k–i–n–
+65 ew activity partire -> –e–w–a–c–t–i–v–i–t–y–p–a–r–t–i–r–e–
+66 erview reason helpers -> –e–r–v–i–e–w–r–e–a–s–o–n–h–e–l–p–e–r–s–
+67 oreign anda umum -> –o–r–e–i–g–n–a–n–d–a–u–m–u–m–
+68 ensko bipart huge -> –e–n–s–k–o–b–i–p–a–r–t–h–u–g–e–
+69 viation aqu wool -> –v–i–a–t–i–o–n–a–q–u–w–o–o–l–
+70 ljiv erd esa -> –l–j–i–v–e–r–d–e–s–a–
+71 ihara cope haem -> –i–h–a–r–a–c–o–p–e–h–a–e–m–
+72 colare learnt regroupe -> –c–o–l–a–r–e–l–e–a–r–n–t–r–e–g–r–o–u–p–e–
+73 czeg marched portray -> –c–z–e–g–m–a–r–c–h–e–d–p–o–r–t–r–a–y–
+74 ging falta emerge -> –g–i–n–g–f–a–l–t–a–e–m–e–r–g–e–
+75 assert focal vrouwen -> –a–s–s–e–r–t–f–o–c–a–l–v–r–o–u–w–e–n–
+76 amment driving ministro -> –a–m–m–e–n–t–d–r–i–v–i–n–g–m–i–n–i–s–t–r–o–
+77 useeland szyb ouverts -> –u–s–e–e–l–a–n–d–s–z–y–b–o–u–v–e–r–t–s–
+78 inctions gyrus tweede -> –i–n–c–t–i–o–n–s–g–y–r–u–s–t–w–e–e–d–e–
+79 obod conclude baroque -> –o–b–o–d–c–o–n–c–l–u–d–e–b–a–r–o–q–u–e–
+80 ccane mediados piles -> –c–c–a–n–e–m–e–d–i–a–d–o–s–p–i–l–e–s–
+81 props doorway larva -> –p–r–o–p–s–d–o–o–r–w–a–y–l–a–r–v–a–
+82 watch tomar rulers -> –w–a–t–c–h–t–o–m–a–r–r–u–l–e–r–s–
+83 aina dissent lipids -> –a–i–n–a–d–i–s–s–e–n–t–l–i–p–i–d–s–
+84 quista vol targeted -> –q–u–i–s–t–a–v–o–l–t–a–r–g–e–t–e–d–
+85 ocyt marry schwer -> –o–c–y–t–m–a–r–r–y–s–c–h–w–e–r–
+86 nes fake perder -> –n–e–s–f–a–k–e–p–e–r–d–e–r–
+87 groups engan twins -> –g–r–o–u–p–s–e–n–g–a–n–t–w–i–n–s–
+88 pression pour proposes -> –p–r–e–s–s–i–o–n–p–o–u–r–p–r–o–p–o–s–e–s–
+89 lice entitled lum -> –l–i–c–e–e–n–t–i–t–l–e–d–l–u–m–
+90 paravant ballet vec -> –p–a–r–a–v–a–n–t–b–a–l–l–e–t–v–e–c–
+91 cade kennen publicar -> –c–a–d–e–k–e–n–n–e–n–p–u–b–l–i–c–a–r–
+92 ickers kit urn -> –i–c–k–e–r–s–k–i–t–u–r–n–
+93 certain blamed pil -> –c–e–r–t–a–i–n–b–l–a–m–e–d–p–i–l–
+94 hall finished seigneur -> –h–a–l–l–f–i–n–i–s–h–e–d–s–e–i–g–n–e–u–r–
+95 skip stanza arch -> –s–k–i–p–s–t–a–n–z–a–a–r–c–h–
+96 asun oscil fp -> –a–s–u–n–o–s–c–i–l–f–p–
+97 engono den chiaro -> –e–n–g–o–n–o–d–e–n–c–h–i–a–r–o–
+98 szere sacc serveur -> –s–z–e–r–e–s–a–c–c–s–e–r–v–e–u–r–
+99 adr marido verstand -> –a–d–r–m–a–r–i–d–o–v–e–r–s–t–a–n–d–

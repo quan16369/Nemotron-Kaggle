@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 arynx wyn navi
+01 aciones utveck flame
+02 inin bag cents
+
+This is a sample output.
+00 arynx wyn navi -> –a–r–y–n–x–w–y–n–n–a–v–i–
+01 aciones utveck flame -> –a–c–i–o–n–e–s–u–t–v–e–c–k–f–l–a–m–e–
+02 inin bag cents -> –i–n–i–n–b–a–g–c–e–n–t–s–
+
+This is your input.
+00 uscular prvo creo
+01 ones retroced geme
+02 ilty carta turmoil
+03 vus partit zwy
+04 imus td crater
+05 anska elabor warned
+06 kraft controls colomb
+07 oprop feux miracle
+08 ounters hired doppi
+09 plot nur lijn
+10 cephal vino poleg
+11 velle refus mesmos
+12 thing traduc problem
+13 brahim develops saving
+14 nabla interno calibre
+15 ourg legitim cru
+16 days ricevuto opge
+17 ag agar cadena
+18 aja appet kolo
+19 chema donor cuja
+20 ulmonary parcial ciel
+21 andy outlines say
+22 utations digitale paused
+23 elu arterial tudi
+24 ratt assieme brigades
+25 irikan lek nije
+26 before thermal inner
+27 bool xen borne
+28 stehung mayor marking
+29 define vect coerc
+30 ettes topic renon
+31 anti emph normes
+32 antil jednot gamle
+33 actory ability demarc
+34 ikka sesu dirett
+35 bilir enhance selle
+36 irebase coupler decidir
+37 clonal trainees erk
+38 ima pux instinct
+39 punk ked coach
+40 yos inconven exact
+41 apos oferta diesmal
+42 enia ami depart
+43 adrat tentar perpet
+44 bestos rechts tess
+45 essional indult sincere
+46 join dois cinema
+47 throp dollar antioxid
+48 rigen dancers renunci
+49 cursor terve play
+50 rosse serm elegir
+51 probe civiles engines
+52 hing regent amend
+53 nia matemat christ
+54 itre voltages nearby
+55 roy helyen diese
+56 neq gueules baseball
+57 ecutor coarse desc
+58 omos rup cow
+59 queda precio apabila
+60 iant artes pertenc
+61 varande survivor jud
+62 endif although balcon
+63 iefert popular migrated
+64 rebbe crane iodine
+65 rains as baile
+66 uerdo founder veterin
+67 encer acad nghi
+68 antsesez whisper diment
+69 ieben sistem roman
+70 meth wavelet verhe
+71 inchi columnas skating
+72 logger nazi mjesto
+73 dot employer coronal
+74 rachen impro primero
+75 ovanja platz unto
+76 emouth dalje dist
+77 reicher viad cerv
+78 limited assemble outras
+79 induced provinci fed
+80 enes naph parasit
+81 erst virtu depicted
+82 ets fracaso javax
+83 crumb earlier cry
+84 enoord hecha tear
+85 rete swe yo
+86 cks selten biofilms
+87 vasion toast trgov
+88 dw surv invierno
+89 tez plume osnov
+90 elfth cipher zoo
+91 ighed wanna akc
+92 ivol carbohyd enfermed
+93 umber mw eman
+94 landaise style mouse
+95 ales autant egg
+96 islav guerras tac
+97 lectric goddess cheese
+98 okka macro cuarto
+99 zan exemples diversi
+[completion]
+00 uscular prvo creo -> –u–s–c–u–l–a–r–p–r–v–o–c–r–e–o–
+01 ones retroced geme -> –o–n–e–s–r–e–t–r–o–c–e–d–g–e–m–e–
+02 ilty carta turmoil -> –i–l–t–y–c–a–r–t–a–t–u–r–m–o–i–l–
+03 vus partit zwy -> –v–u–s–p–a–r–t–i–t–z–w–y–
+04 imus td crater -> –i–m–u–s–t–d–c–r–a–t–e–r–
+05 anska elabor warned -> –a–n–s–k–a–e–l–a–b–o–r–w–a–r–n–e–d–
+06 kraft controls colomb -> –k–r–a–f–t–c–o–n–t–r–o–l–s–c–o–l–o–m–b–
+07 oprop feux miracle -> –o–p–r–o–p–f–e–u–x–m–i–r–a–c–l–e–
+08 ounters hired doppi -> –o–u–n–t–e–r–s–h–i–r–e–d–d–o–p–p–i–
+09 plot nur lijn -> –p–l–o–t–n–u–r–l–i–j–n–
+10 cephal vino poleg -> –c–e–p–h–a–l–v–i–n–o–p–o–l–e–g–
+11 velle refus mesmos -> –v–e–l–l–e–r–e–f–u–s–m–e–s–m–o–s–
+12 thing traduc problem -> –t–h–i–n–g–t–r–a–d–u–c–p–r–o–b–l–e–m–
+13 brahim develops saving -> –b–r–a–h–i–m–d–e–v–e–l–o–p–s–s–a–v–i–n–g–
+14 nabla interno calibre -> –n–a–b–l–a–i–n–t–e–r–n–o–c–a–l–i–b–r–e–
+15 ourg legitim cru -> –o–u–r–g–l–e–g–i–t–i–m–c–r–u–
+16 days ricevuto opge -> –d–a–y–s–r–i–c–e–v–u–t–o–o–p–g–e–
+17 ag agar cadena -> –a–g–a–g–a–r–c–a–d–e–n–a–
+18 aja appet kolo -> –a–j–a–a–p–p–e–t–k–o–l–o–
+19 chema donor cuja -> –c–h–e–m–a–d–o–n–o–r–c–u–j–a–
+20 ulmonary parcial ciel -> –u–l–m–o–n–a–r–y–p–a–r–c–i–a–l–c–i–e–l–
+21 andy outlines say -> –a–n–d–y–o–u–t–l–i–n–e–s–s–a–y–
+22 utations digitale paused -> –u–t–a–t–i–o–n–s–d–i–g–i–t–a–l–e–p–a–u–s–e–d–
+23 elu arterial tudi -> –e–l–u–a–r–t–e–r–i–a–l–t–u–d–i–
+24 ratt assieme brigades -> –r–a–t–t–a–s–s–i–e–m–e–b–r–i–g–a–d–e–s–
+25 irikan lek nije -> –i–r–i–k–a–n–l–e–k–n–i–j–e–
+26 before thermal inner -> –b–e–f–o–r–e–t–h–e–r–m–a–l–i–n–n–e–r–
+27 bool xen borne -> –b–o–o–l–x–e–n–b–o–r–n–e–
+28 stehung mayor marking -> –s–t–e–h–u–n–g–m–a–y–o–r–m–a–r–k–i–n–g–
+29 define vect coerc -> –d–e–f–i–n–e–v–e–c–t–c–o–e–r–c–
+30 ettes topic renon -> –e–t–t–e–s–t–o–p–i–c–r–e–n–o–n–
+31 anti emph normes -> –a–n–t–i–e–m–p–h–n–o–r–m–e–s–
+32 antil jednot gamle -> –a–n–t–i–l–j–e–d–n–o–t–g–a–m–l–e–
+33 actory ability demarc -> –a–c–t–o–r–y–a–b–i–l–i–t–y–d–e–m–a–r–c–
+34 ikka sesu dirett -> –i–k–k–a–s–e–s–u–d–i–r–e–t–t–
+35 bilir enhance selle -> –b–i–l–i–r–e–n–h–a–n–c–e–s–e–l–l–e–
+36 irebase coupler decidir -> –i–r–e–b–a–s–e–c–o–u–p–l–e–r–d–e–c–i–d–i–r–
+37 clonal trainees erk -> –c–l–o–n–a–l–t–r–a–i–n–e–e–s–e–r–k–
+38 ima pux instinct -> –i–m–a–p–u–x–i–n–s–t–i–n–c–t–
+39 punk ked coach -> –p–u–n–k–k–e–d–c–o–a–c–h–
+40 yos inconven exact -> –y–o–s–i–n–c–o–n–v–e–n–e–x–a–c–t–
+41 apos oferta diesmal -> –a–p–o–s–o–f–e–r–t–a–d–i–e–s–m–a–l–
+42 enia ami depart -> –e–n–i–a–a–m–i–d–e–p–a–r–t–
+43 adrat tentar perpet -> –a–d–r–a–t–t–e–n–t–a–r–p–e–r–p–e–t–
+44 bestos rechts tess -> –b–e–s–t–o–s–r–e–c–h–t–s–t–e–s–s–
+45 essional indult sincere -> –e–s–s–i–o–n–a–l–i–n–d–u–l–t–s–i–n–c–e–r–e–
+46 join dois cinema -> –j–o–i–n–d–o–i–s–c–i–n–e–m–a–
+47 throp dollar antioxid -> –t–h–r–o–p–d–o–l–l–a–r–a–n–t–i–o–x–i–d–
+48 rigen dancers renunci -> –r–i–g–e–n–d–a–n–c–e–r–s–r–e–n–u–n–c–i–
+49 cursor terve play -> –c–u–r–s–o–r–t–e–r–v–e–p–l–a–y–
+50 rosse serm elegir -> –r–o–s–s–e–s–e–r–m–e–l–e–g–i–r–
+51 probe civiles engines -> –p–r–o–b–e–c–i–v–i–l–e–s–e–n–g–i–n–e–s–
+52 hing regent amend -> –h–i–n–g–r–e–g–e–n–t–a–m–e–n–d–
+53 nia matemat christ -> –n–i–a–m–a–t–e–m–a–t–c–h–r–i–s–t–
+54 itre voltages nearby -> –i–t–r–e–v–o–l–t–a–g–e–s–n–e–a–r–b–y–
+55 roy helyen diese -> –r–o–y–h–e–l–y–e–n–d–i–e–s–e–
+56 neq gueules baseball -> –n–e–q–g–u–e–u–l–e–s–b–a–s–e–b–a–l–l–
+57 ecutor coarse desc -> –e–c–u–t–o–r–c–o–a–r–s–e–d–e–s–c–
+58 omos rup cow -> –o–m–o–s–r–u–p–c–o–w–
+59 queda precio apabila -> –q–u–e–d–a–p–r–e–c–i–o–a–p–a–b–i–l–a–
+60 iant artes pertenc -> –i–a–n–t–a–r–t–e–s–p–e–r–t–e–n–c–
+61 varande survivor jud -> –v–a–r–a–n–d–e–s–u–r–v–i–v–o–r–j–u–d–
+62 endif although balcon -> –e–n–d–i–f–a–l–t–h–o–u–g–h–b–a–l–c–o–n–
+63 iefert popular migrated -> –i–e–f–e–r–t–p–o–p–u–l–a–r–m–i–g–r–a–t–e–d–
+64 rebbe crane iodine -> –r–e–b–b–e–c–r–a–n–e–i–o–d–i–n–e–
+65 rains as baile -> –r–a–i–n–s–a–s–b–a–i–l–e–
+66 uerdo founder veterin -> –u–e–r–d–o–f–o–u–n–d–e–r–v–e–t–e–r–i–n–
+67 encer acad nghi -> –e–n–c–e–r–a–c–a–d–n–g–h–i–
+68 antsesez whisper diment -> –a–n–t–s–e–s–e–z–w–h–i–s–p–e–r–d–i–m–e–n–t–
+69 ieben sistem roman -> –i–e–b–e–n–s–i–s–t–e–m–r–o–m–a–n–
+70 meth wavelet verhe -> –m–e–t–h–w–a–v–e–l–e–t–v–e–r–h–e–
+71 inchi columnas skating -> –i–n–c–h–i–c–o–l–u–m–n–a–s–s–k–a–t–i–n–g–
+72 logger nazi mjesto -> –l–o–g–g–e–r–n–a–z–i–m–j–e–s–t–o–
+73 dot employer coronal -> –d–o–t–e–m–p–l–o–y–e–r–c–o–r–o–n–a–l–
+74 rachen impro primero -> –r–a–c–h–e–n–i–m–p–r–o–p–r–i–m–e–r–o–
+75 ovanja platz unto -> –o–v–a–n–j–a–p–l–a–t–z–u–n–t–o–
+76 emouth dalje dist -> –e–m–o–u–t–h–d–a–l–j–e–d–i–s–t–
+77 reicher viad cerv -> –r–e–i–c–h–e–r–v–i–a–d–c–e–r–v–
+78 limited assemble outras -> –l–i–m–i–t–e–d–a–s–s–e–m–b–l–e–o–u–t–r–a–s–
+79 induced provinci fed -> –i–n–d–u–c–e–d–p–r–o–v–i–n–c–i–f–e–d–
+80 enes naph parasit -> –e–n–e–s–n–a–p–h–p–a–r–a–s–i–t–
+81 erst virtu depicted -> –e–r–s–t–v–i–r–t–u–d–e–p–i–c–t–e–d–
+82 ets fracaso javax -> –e–t–s–f–r–a–c–a–s–o–j–a–v–a–x–
+83 crumb earlier cry -> –c–r–u–m–b–e–a–r–l–i–e–r–c–r–y–
+84 enoord hecha tear -> –e–n–o–o–r–d–h–e–c–h–a–t–e–a–r–
+85 rete swe yo -> –r–e–t–e–s–w–e–y–o–
+86 cks selten biofilms -> –c–k–s–s–e–l–t–e–n–b–i–o–f–i–l–m–s–
+87 vasion toast trgov -> –v–a–s–i–o–n–t–o–a–s–t–t–r–g–o–v–
+88 dw surv invierno -> –d–w–s–u–r–v–i–n–v–i–e–r–n–o–
+89 tez plume osnov -> –t–e–z–p–l–u–m–e–o–s–n–o–v–
+90 elfth cipher zoo -> –e–l–f–t–h–c–i–p–h–e–r–z–o–o–
+91 ighed wanna akc -> –i–g–h–e–d–w–a–n–n–a–a–k–c–
+92 ivol carbohyd enfermed -> –i–v–o–l–c–a–r–b–o–h–y–d–e–n–f–e–r–m–e–d–
+93 umber mw eman -> –u–m–b–e–r–m–w–e–m–a–n–
+94 landaise style mouse -> –l–a–n–d–a–i–s–e–s–t–y–l–e–m–o–u–s–e–
+95 ales autant egg -> –a–l–e–s–a–u–t–a–n–t–e–g–g–
+96 islav guerras tac -> –i–s–l–a–v–g–u–e–r–r–a–s–t–a–c–
+97 lectric goddess cheese -> –l–e–c–t–r–i–c–g–o–d–d–e–s–s–c–h–e–e–s–e–
+98 okka macro cuarto -> –o–k–k–a–m–a–c–r–o–c–u–a–r–t–o–
+99 zan exemples diversi -> –z–a–n–e–x–e–m–p–l–e–s–d–i–v–e–r–s–i–

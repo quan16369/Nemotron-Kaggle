@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 thest carp metric
+01 imen combined doctoral
+02 otropic pumping imported
+
+This is a sample output.
+00 thest carp metric -> –t–h–e–s–t–c–a–r–p–m–e–t–r–i–c–
+01 imen combined doctoral -> –i–m–e–n–c–o–m–b–i–n–e–d–d–o–c–t–o–r–a–l–
+02 otropic pumping imported -> –o–t–r–o–p–i–c–p–u–m–p–i–n–g–i–m–p–o–r–t–e–d–
+
+This is your input.
+00 asse breathed eclesi
+01 anni disband mac
+02 czny havia vanish
+03 ellem iskol riu
+04 adays unre onboard
+05 reras churches easing
+06 odend wyniku dage
+07 ya cing pere
+08 ordu travaill reasoned
+09 aird parity denied
+10 atik brought clav
+11 republik rename koj
+12 pren vues drying
+13 clusive dolore leur
+14 erial miejsca mogelijk
+15 bral assist koh
+16 heading dynastie universe
+17 irk urm mitig
+18 emed amal kereta
+19 ediation cittad milieu
+20 id conced amis
+21 lasses intu wait
+22 ilta elective er
+23 uhr flipped mash
+24 ponder dain grabbed
+25 ostoli doux dzieci
+26 isait sorg entrer
+27 room hart homolog
+28 agam bedrij inher
+29 reated postoj clues
+30 ables approved rider
+31 dup points amely
+32 prit caminho detal
+33 avasti guard duck
+34 lamide corrid wandered
+35 iertas dins crash
+36 leden reacting tocc
+37 chrome intim rapide
+38 atta winds doppio
+39 heids spole socket
+40 oplasmic muze podia
+41 ayers holog volts
+42 zeichen stolje refusing
+43 orges empt fd
+44 ounty counts meals
+45 arai hicieron ends
+46 icki adam alan
+47 iction lancer screws
+48 inyin acostum geograf
+49 iderte rapporte lieux
+50 icion aliens menet
+51 iliz unions tables
+52 ropolit plane muda
+53 progress immunobl rasch
+54 weisen ska detalles
+55 viet bench hozz
+56 azur slip crack
+57 uele unic mosa
+58 ciales neonatal formen
+59 igure melynek sultan
+60 tings volgende bending
+61 ains vegades disappe
+62 issaient slide rua
+63 ansible niche range
+64 andolo bott pek
+65 lenburg cuid pochi
+66 angor certes proteg
+67 patterns brittle pushing
+68 skill besteht tys
+69 ilon batsman serum
+70 scher hydroph rapporto
+71 anut fruct opposed
+72 missible positif homenaje
+73 dk pants animate
+74 udessa mezz pw
+75 abl aids wooden
+76 encrypt pe azimuth
+77 ievo plas aspecto
+78 aff oike legger
+79 ppel meantime loro
+80 fields sider choisir
+81 ostas congest allontan
+82 irts vag ripped
+83 loten fam fears
+84 anche termin strom
+85 makers domestic huts
+86 umed jardin nar
+87 ikz enorm nic
+88 kampf herpes dfs
+89 axon einde vaak
+90 ipher moder walked
+91 amse jacket hanging
+92 insk unidade tiers
+93 jski tekn be
+94 zenie voyait wafer
+95 itudinal conhe alkalmaz
+96 umn swoje gela
+97 plug plural propiet
+98 czas feliz souver
+99 zee virtue preoccup
+[completion]
+00 asse breathed eclesi -> –a–s–s–e–b–r–e–a–t–h–e–d–e–c–l–e–s–i–
+01 anni disband mac -> –a–n–n–i–d–i–s–b–a–n–d–m–a–c–
+02 czny havia vanish -> –c–z–n–y–h–a–v–i–a–v–a–n–i–s–h–
+03 ellem iskol riu -> –e–l–l–e–m–i–s–k–o–l–r–i–u–
+04 adays unre onboard -> –a–d–a–y–s–u–n–r–e–o–n–b–o–a–r–d–
+05 reras churches easing -> –r–e–r–a–s–c–h–u–r–c–h–e–s–e–a–s–i–n–g–
+06 odend wyniku dage -> –o–d–e–n–d–w–y–n–i–k–u–d–a–g–e–
+07 ya cing pere -> –y–a–c–i–n–g–p–e–r–e–
+08 ordu travaill reasoned -> –o–r–d–u–t–r–a–v–a–i–l–l–r–e–a–s–o–n–e–d–
+09 aird parity denied -> –a–i–r–d–p–a–r–i–t–y–d–e–n–i–e–d–
+10 atik brought clav -> –a–t–i–k–b–r–o–u–g–h–t–c–l–a–v–
+11 republik rename koj -> –r–e–p–u–b–l–i–k–r–e–n–a–m–e–k–o–j–
+12 pren vues drying -> –p–r–e–n–v–u–e–s–d–r–y–i–n–g–
+13 clusive dolore leur -> –c–l–u–s–i–v–e–d–o–l–o–r–e–l–e–u–r–
+14 erial miejsca mogelijk -> –e–r–i–a–l–m–i–e–j–s–c–a–m–o–g–e–l–i–j–k–
+15 bral assist koh -> –b–r–a–l–a–s–s–i–s–t–k–o–h–
+16 heading dynastie universe -> –h–e–a–d–i–n–g–d–y–n–a–s–t–i–e–u–n–i–v–e–r–s–e–
+17 irk urm mitig -> –i–r–k–u–r–m–m–i–t–i–g–
+18 emed amal kereta -> –e–m–e–d–a–m–a–l–k–e–r–e–t–a–
+19 ediation cittad milieu -> –e–d–i–a–t–i–o–n–c–i–t–t–a–d–m–i–l–i–e–u–
+20 id conced amis -> –i–d–c–o–n–c–e–d–a–m–i–s–
+21 lasses intu wait -> –l–a–s–s–e–s–i–n–t–u–w–a–i–t–
+22 ilta elective er -> –i–l–t–a–e–l–e–c–t–i–v–e–e–r–
+23 uhr flipped mash -> –u–h–r–f–l–i–p–p–e–d–m–a–s–h–
+24 ponder dain grabbed -> –p–o–n–d–e–r–d–a–i–n–g–r–a–b–b–e–d–
+25 ostoli doux dzieci -> –o–s–t–o–l–i–d–o–u–x–d–z–i–e–c–i–
+26 isait sorg entrer -> –i–s–a–i–t–s–o–r–g–e–n–t–r–e–r–
+27 room hart homolog -> –r–o–o–m–h–a–r–t–h–o–m–o–l–o–g–
+28 agam bedrij inher -> –a–g–a–m–b–e–d–r–i–j–i–n–h–e–r–
+29 reated postoj clues -> –r–e–a–t–e–d–p–o–s–t–o–j–c–l–u–e–s–
+30 ables approved rider -> –a–b–l–e–s–a–p–p–r–o–v–e–d–r–i–d–e–r–
+31 dup points amely -> –d–u–p–p–o–i–n–t–s–a–m–e–l–y–
+32 prit caminho detal -> –p–r–i–t–c–a–m–i–n–h–o–d–e–t–a–l–
+33 avasti guard duck -> –a–v–a–s–t–i–g–u–a–r–d–d–u–c–k–
+34 lamide corrid wandered -> –l–a–m–i–d–e–c–o–r–r–i–d–w–a–n–d–e–r–e–d–
+35 iertas dins crash -> –i–e–r–t–a–s–d–i–n–s–c–r–a–s–h–
+36 leden reacting tocc -> –l–e–d–e–n–r–e–a–c–t–i–n–g–t–o–c–c–
+37 chrome intim rapide -> –c–h–r–o–m–e–i–n–t–i–m–r–a–p–i–d–e–
+38 atta winds doppio -> –a–t–t–a–w–i–n–d–s–d–o–p–p–i–o–
+39 heids spole socket -> –h–e–i–d–s–s–p–o–l–e–s–o–c–k–e–t–
+40 oplasmic muze podia -> –o–p–l–a–s–m–i–c–m–u–z–e–p–o–d–i–a–
+41 ayers holog volts -> –a–y–e–r–s–h–o–l–o–g–v–o–l–t–s–
+42 zeichen stolje refusing -> –z–e–i–c–h–e–n–s–t–o–l–j–e–r–e–f–u–s–i–n–g–
+43 orges empt fd -> –o–r–g–e–s–e–m–p–t–f–d–
+44 ounty counts meals -> –o–u–n–t–y–c–o–u–n–t–s–m–e–a–l–s–
+45 arai hicieron ends -> –a–r–a–i–h–i–c–i–e–r–o–n–e–n–d–s–
+46 icki adam alan -> –i–c–k–i–a–d–a–m–a–l–a–n–
+47 iction lancer screws -> –i–c–t–i–o–n–l–a–n–c–e–r–s–c–r–e–w–s–
+48 inyin acostum geograf -> –i–n–y–i–n–a–c–o–s–t–u–m–g–e–o–g–r–a–f–
+49 iderte rapporte lieux -> –i–d–e–r–t–e–r–a–p–p–o–r–t–e–l–i–e–u–x–
+50 icion aliens menet -> –i–c–i–o–n–a–l–i–e–n–s–m–e–n–e–t–
+51 iliz unions tables -> –i–l–i–z–u–n–i–o–n–s–t–a–b–l–e–s–
+52 ropolit plane muda -> –r–o–p–o–l–i–t–p–l–a–n–e–m–u–d–a–
+53 progress immunobl rasch -> –p–r–o–g–r–e–s–s–i–m–m–u–n–o–b–l–r–a–s–c–h–
+54 weisen ska detalles -> –w–e–i–s–e–n–s–k–a–d–e–t–a–l–l–e–s–
+55 viet bench hozz -> –v–i–e–t–b–e–n–c–h–h–o–z–z–
+56 azur slip crack -> –a–z–u–r–s–l–i–p–c–r–a–c–k–
+57 uele unic mosa -> –u–e–l–e–u–n–i–c–m–o–s–a–
+58 ciales neonatal formen -> –c–i–a–l–e–s–n–e–o–n–a–t–a–l–f–o–r–m–e–n–
+59 igure melynek sultan -> –i–g–u–r–e–m–e–l–y–n–e–k–s–u–l–t–a–n–
+60 tings volgende bending -> –t–i–n–g–s–v–o–l–g–e–n–d–e–b–e–n–d–i–n–g–
+61 ains vegades disappe -> –a–i–n–s–v–e–g–a–d–e–s–d–i–s–a–p–p–e–
+62 issaient slide rua -> –i–s–s–a–i–e–n–t–s–l–i–d–e–r–u–a–
+63 ansible niche range -> –a–n–s–i–b–l–e–n–i–c–h–e–r–a–n–g–e–
+64 andolo bott pek -> –a–n–d–o–l–o–b–o–t–t–p–e–k–
+65 lenburg cuid pochi -> –l–e–n–b–u–r–g–c–u–i–d–p–o–c–h–i–
+66 angor certes proteg -> –a–n–g–o–r–c–e–r–t–e–s–p–r–o–t–e–g–
+67 patterns brittle pushing -> –p–a–t–t–e–r–n–s–b–r–i–t–t–l–e–p–u–s–h–i–n–g–
+68 skill besteht tys -> –s–k–i–l–l–b–e–s–t–e–h–t–t–y–s–
+69 ilon batsman serum -> –i–l–o–n–b–a–t–s–m–a–n–s–e–r–u–m–
+70 scher hydroph rapporto -> –s–c–h–e–r–h–y–d–r–o–p–h–r–a–p–p–o–r–t–o–
+71 anut fruct opposed -> –a–n–u–t–f–r–u–c–t–o–p–p–o–s–e–d–
+72 missible positif homenaje -> –m–i–s–s–i–b–l–e–p–o–s–i–t–i–f–h–o–m–e–n–a–j–e–
+73 dk pants animate -> –d–k–p–a–n–t–s–a–n–i–m–a–t–e–
+74 udessa mezz pw -> –u–d–e–s–s–a–m–e–z–z–p–w–
+75 abl aids wooden -> –a–b–l–a–i–d–s–w–o–o–d–e–n–
+76 encrypt pe azimuth -> –e–n–c–r–y–p–t–p–e–a–z–i–m–u–t–h–
+77 ievo plas aspecto -> –i–e–v–o–p–l–a–s–a–s–p–e–c–t–o–
+78 aff oike legger -> –a–f–f–o–i–k–e–l–e–g–g–e–r–
+79 ppel meantime loro -> –p–p–e–l–m–e–a–n–t–i–m–e–l–o–r–o–
+80 fields sider choisir -> –f–i–e–l–d–s–s–i–d–e–r–c–h–o–i–s–i–r–
+81 ostas congest allontan -> –o–s–t–a–s–c–o–n–g–e–s–t–a–l–l–o–n–t–a–n–
+82 irts vag ripped -> –i–r–t–s–v–a–g–r–i–p–p–e–d–
+83 loten fam fears -> –l–o–t–e–n–f–a–m–f–e–a–r–s–
+84 anche termin strom -> –a–n–c–h–e–t–e–r–m–i–n–s–t–r–o–m–
+85 makers domestic huts -> –m–a–k–e–r–s–d–o–m–e–s–t–i–c–h–u–t–s–
+86 umed jardin nar -> –u–m–e–d–j–a–r–d–i–n–n–a–r–
+87 ikz enorm nic -> –i–k–z–e–n–o–r–m–n–i–c–
+88 kampf herpes dfs -> –k–a–m–p–f–h–e–r–p–e–s–d–f–s–
+89 axon einde vaak -> –a–x–o–n–e–i–n–d–e–v–a–a–k–
+90 ipher moder walked -> –i–p–h–e–r–m–o–d–e–r–w–a–l–k–e–d–
+91 amse jacket hanging -> –a–m–s–e–j–a–c–k–e–t–h–a–n–g–i–n–g–
+92 insk unidade tiers -> –i–n–s–k–u–n–i–d–a–d–e–t–i–e–r–s–
+93 jski tekn be -> –j–s–k–i–t–e–k–n–b–e–
+94 zenie voyait wafer -> –z–e–n–i–e–v–o–y–a–i–t–w–a–f–e–r–
+95 itudinal conhe alkalmaz -> –i–t–u–d–i–n–a–l–c–o–n–h–e–a–l–k–a–l–m–a–z–
+96 umn swoje gela -> –u–m–n–s–w–o–j–e–g–e–l–a–
+97 plug plural propiet -> –p–l–u–g–p–l–u–r–a–l–p–r–o–p–i–e–t–
+98 czas feliz souver -> –c–z–a–s–f–e–l–i–z–s–o–u–v–e–r–
+99 zee virtue preoccup -> –z–e–e–v–i–r–t–u–e–p–r–e–o–c–c–u–p–

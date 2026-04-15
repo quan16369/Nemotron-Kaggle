@@ -1,0 +1,39 @@
+problem id: 03a3437f
+category: cryptarithm_deduce
+
+examples:
+- `/>-|/ = ':`
+- `'>+/! = '>/!`
+- `}!-'\` = >'`
+- query: `'}-/>`
+
+inferred rule:
+- Read each input as `AB op CD`, where each two-symbol block is an encoded two-digit number.
+- `+` is concatenation. The example `'>+/! = '>/!` keeps the left pair followed by the right pair, so `21 + 09` is written back as `2109`.
+- `-` is best explained as absolute difference on the two encoded numbers.
+- One consistent digit reading that fits all three examples is:
+- `/` and `}` both stand for `0`
+- `>` and `` ` `` both stand for `1`
+- `'` stands for `2`
+- `|` stands for `3`
+- `!` and `:` both stand for `9`
+- Under that reading, the unseen output symbol `-` can also represent digit `1` in the final answer.
+
+why this fits the examples:
+- `/>-|/ = ':` becomes `01 abs_diff 30 = 29`, which matches `':`.
+- `'>+/! = '>/!` becomes `21 concat 09 = 2109`, which matches the four-symbol output exactly.
+- `}!-'\` = >'` becomes `09 abs_diff 21 = 12`, which matches `>'`.
+
+step-by-step application to the query:
+1. The query is `'}-/>`, so the operator is `-`.
+2. Using the same symbol reading, `'} = 20`.
+3. Using the same symbol reading, `/> = 01`.
+4. Apply the inferred rule for `-`: `abs(20 - 1) = 19`.
+5. Re-encode `19` with the same symbol alphabet. Digit `9` is already represented by `!`, and digit `1` is represented elsewhere by `>`, `` ` ``, and can also be written as `-` in the final output.
+6. Therefore the query result is `-!`.
+
+predicted answer:
+- `-!`
+
+confidence note:
+- Moderate confidence. The `+` rule is directly shown by the concatenation example, and the two `-` examples are both consistent with absolute difference under one stable, though not one-to-one, digit assignment.

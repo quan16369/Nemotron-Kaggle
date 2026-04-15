@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 inburgh krigen licht
+01 ubert extrav oblique
+02 ython laz ascent
+
+This is a sample output.
+00 inburgh krigen licht -> –i–n–b–u–r–g–h–k–r–i–g–e–n–l–i–c–h–t–
+01 ubert extrav oblique -> –u–b–e–r–t–e–x–t–r–a–v–o–b–l–i–q–u–e–
+02 ython laz ascent -> –y–t–h–o–n–l–a–z–a–s–c–e–n–t–
+
+This is your input.
+00 nagy revised enrol
+01 cation romant combin
+02 ifo datos elles
+03 aug estoy tempada
+04 cret else smoothed
+05 aints ruled sonra
+06 oct pater testify
+07 my signe berb
+08 pell cheap braccio
+09 zek son compr
+10 banako sollte anions
+11 ulty raising love
+12 emt ed orage
+13 flug scalp pic
+14 etown fec comedian
+15 bran arbitr drowned
+16 estens specjal campagna
+17 leis potre gasped
+18 fect bucket pun
+19 dil asuntos boutique
+20 nab elokuv lb
+21 tons nombre knj
+22 animated obscured finn
+23 oda you toe
+24 conomic reest trov
+25 ajax euk slit
+26 elijk mull sua
+27 dda plur separat
+28 ento seksual imports
+29 ouvert politica fascia
+30 ighteous comprom ucciso
+31 iano parad camar
+32 random comuna fichier
+33 nya theo segona
+34 igkeit peux castell
+35 lal soc stop
+36 vodu tablet nennt
+37 piper intent vender
+38 ckich spieg republic
+39 uuid expose foyer
+40 inch remon duo
+41 aju mycket couns
+42 plets neo vitre
+43 schiff match diff
+44 story army februar
+45 ushed eu env
+46 online freely antiqu
+47 uzzle acteur diving
+48 ajn revanche herr
+49 indow occured estacion
+50 pour alanine ulicy
+51 ickets algum gett
+52 xelles waits reais
+53 gamma licked aps
+54 itter deterr underm
+55 arked medi mili
+56 uchs thanked third
+57 tasks press cortisol
+58 och verloren profit
+59 already namens desej
+60 noj factions meille
+61 iggers fog trama
+62 essa packaged hakim
+63 zung life placenta
+64 oking ethanol trunk
+65 elenov ui insomnia
+66 scheid tumor issue
+67 comun produits tast
+68 enticate caballo verwij
+69 leten arv sequence
+70 issi duration seguinte
+71 assini mumkin loosely
+72 colon garra wisdom
+73 conti widow dvije
+74 estand sep dioc
+75 ppure meat accom
+76 giving wins conceal
+77 eso arabe foci
+78 ystem subordin exile
+79 odb rebell rundzie
+80 zny retirada envol
+81 addr ashore iss
+82 vos imena vinden
+83 stances vern imported
+84 ffi fontes moviment
+85 stava cysts molek
+86 fung nostro inverse
+87 missions boats dag
+88 ucha scaled brazos
+89 iances mord axle
+90 de cheek compose
+91 plit lover kt
+92 royable detto funded
+93 chnology bar motivos
+94 mk zna nenhum
+95 ogenetic chagrin militar
+96 ighting cade encar
+97 angun dla runoff
+98 estock folgte biasing
+99 ug salva manos
+[completion]
+00 nagy revised enrol -> –n–a–g–y–r–e–v–i–s–e–d–e–n–r–o–l–
+01 cation romant combin -> –c–a–t–i–o–n–r–o–m–a–n–t–c–o–m–b–i–n–
+02 ifo datos elles -> –i–f–o–d–a–t–o–s–e–l–l–e–s–
+03 aug estoy tempada -> –a–u–g–e–s–t–o–y–t–e–m–p–a–d–a–
+04 cret else smoothed -> –c–r–e–t–e–l–s–e–s–m–o–o–t–h–e–d–
+05 aints ruled sonra -> –a–i–n–t–s–r–u–l–e–d–s–o–n–r–a–
+06 oct pater testify -> –o–c–t–p–a–t–e–r–t–e–s–t–i–f–y–
+07 my signe berb -> –m–y–s–i–g–n–e–b–e–r–b–
+08 pell cheap braccio -> –p–e–l–l–c–h–e–a–p–b–r–a–c–c–i–o–
+09 zek son compr -> –z–e–k–s–o–n–c–o–m–p–r–
+10 banako sollte anions -> –b–a–n–a–k–o–s–o–l–l–t–e–a–n–i–o–n–s–
+11 ulty raising love -> –u–l–t–y–r–a–i–s–i–n–g–l–o–v–e–
+12 emt ed orage -> –e–m–t–e–d–o–r–a–g–e–
+13 flug scalp pic -> –f–l–u–g–s–c–a–l–p–p–i–c–
+14 etown fec comedian -> –e–t–o–w–n–f–e–c–c–o–m–e–d–i–a–n–
+15 bran arbitr drowned -> –b–r–a–n–a–r–b–i–t–r–d–r–o–w–n–e–d–
+16 estens specjal campagna -> –e–s–t–e–n–s–s–p–e–c–j–a–l–c–a–m–p–a–g–n–a–
+17 leis potre gasped -> –l–e–i–s–p–o–t–r–e–g–a–s–p–e–d–
+18 fect bucket pun -> –f–e–c–t–b–u–c–k–e–t–p–u–n–
+19 dil asuntos boutique -> –d–i–l–a–s–u–n–t–o–s–b–o–u–t–i–q–u–e–
+20 nab elokuv lb -> –n–a–b–e–l–o–k–u–v–l–b–
+21 tons nombre knj -> –t–o–n–s–n–o–m–b–r–e–k–n–j–
+22 animated obscured finn -> –a–n–i–m–a–t–e–d–o–b–s–c–u–r–e–d–f–i–n–n–
+23 oda you toe -> –o–d–a–y–o–u–t–o–e–
+24 conomic reest trov -> –c–o–n–o–m–i–c–r–e–e–s–t–t–r–o–v–
+25 ajax euk slit -> –a–j–a–x–e–u–k–s–l–i–t–
+26 elijk mull sua -> –e–l–i–j–k–m–u–l–l–s–u–a–
+27 dda plur separat -> –d–d–a–p–l–u–r–s–e–p–a–r–a–t–
+28 ento seksual imports -> –e–n–t–o–s–e–k–s–u–a–l–i–m–p–o–r–t–s–
+29 ouvert politica fascia -> –o–u–v–e–r–t–p–o–l–i–t–i–c–a–f–a–s–c–i–a–
+30 ighteous comprom ucciso -> –i–g–h–t–e–o–u–s–c–o–m–p–r–o–m–u–c–c–i–s–o–
+31 iano parad camar -> –i–a–n–o–p–a–r–a–d–c–a–m–a–r–
+32 random comuna fichier -> –r–a–n–d–o–m–c–o–m–u–n–a–f–i–c–h–i–e–r–
+33 nya theo segona -> –n–y–a–t–h–e–o–s–e–g–o–n–a–
+34 igkeit peux castell -> –i–g–k–e–i–t–p–e–u–x–c–a–s–t–e–l–l–
+35 lal soc stop -> –l–a–l–s–o–c–s–t–o–p–
+36 vodu tablet nennt -> –v–o–d–u–t–a–b–l–e–t–n–e–n–n–t–
+37 piper intent vender -> –p–i–p–e–r–i–n–t–e–n–t–v–e–n–d–e–r–
+38 ckich spieg republic -> –c–k–i–c–h–s–p–i–e–g–r–e–p–u–b–l–i–c–
+39 uuid expose foyer -> –u–u–i–d–e–x–p–o–s–e–f–o–y–e–r–
+40 inch remon duo -> –i–n–c–h–r–e–m–o–n–d–u–o–
+41 aju mycket couns -> –a–j–u–m–y–c–k–e–t–c–o–u–n–s–
+42 plets neo vitre -> –p–l–e–t–s–n–e–o–v–i–t–r–e–
+43 schiff match diff -> –s–c–h–i–f–f–m–a–t–c–h–d–i–f–f–
+44 story army februar -> –s–t–o–r–y–a–r–m–y–f–e–b–r–u–a–r–
+45 ushed eu env -> –u–s–h–e–d–e–u–e–n–v–
+46 online freely antiqu -> –o–n–l–i–n–e–f–r–e–e–l–y–a–n–t–i–q–u–
+47 uzzle acteur diving -> –u–z–z–l–e–a–c–t–e–u–r–d–i–v–i–n–g–
+48 ajn revanche herr -> –a–j–n–r–e–v–a–n–c–h–e–h–e–r–r–
+49 indow occured estacion -> –i–n–d–o–w–o–c–c–u–r–e–d–e–s–t–a–c–i–o–n–
+50 pour alanine ulicy -> –p–o–u–r–a–l–a–n–i–n–e–u–l–i–c–y–
+51 ickets algum gett -> –i–c–k–e–t–s–a–l–g–u–m–g–e–t–t–
+52 xelles waits reais -> –x–e–l–l–e–s–w–a–i–t–s–r–e–a–i–s–
+53 gamma licked aps -> –g–a–m–m–a–l–i–c–k–e–d–a–p–s–
+54 itter deterr underm -> –i–t–t–e–r–d–e–t–e–r–r–u–n–d–e–r–m–
+55 arked medi mili -> –a–r–k–e–d–m–e–d–i–m–i–l–i–
+56 uchs thanked third -> –u–c–h–s–t–h–a–n–k–e–d–t–h–i–r–d–
+57 tasks press cortisol -> –t–a–s–k–s–p–r–e–s–s–c–o–r–t–i–s–o–l–
+58 och verloren profit -> –o–c–h–v–e–r–l–o–r–e–n–p–r–o–f–i–t–
+59 already namens desej -> –a–l–r–e–a–d–y–n–a–m–e–n–s–d–e–s–e–j–
+60 noj factions meille -> –n–o–j–f–a–c–t–i–o–n–s–m–e–i–l–l–e–
+61 iggers fog trama -> –i–g–g–e–r–s–f–o–g–t–r–a–m–a–
+62 essa packaged hakim -> –e–s–s–a–p–a–c–k–a–g–e–d–h–a–k–i–m–
+63 zung life placenta -> –z–u–n–g–l–i–f–e–p–l–a–c–e–n–t–a–
+64 oking ethanol trunk -> –o–k–i–n–g–e–t–h–a–n–o–l–t–r–u–n–k–
+65 elenov ui insomnia -> –e–l–e–n–o–v–u–i–i–n–s–o–m–n–i–a–
+66 scheid tumor issue -> –s–c–h–e–i–d–t–u–m–o–r–i–s–s–u–e–
+67 comun produits tast -> –c–o–m–u–n–p–r–o–d–u–i–t–s–t–a–s–t–
+68 enticate caballo verwij -> –e–n–t–i–c–a–t–e–c–a–b–a–l–l–o–v–e–r–w–i–j–
+69 leten arv sequence -> –l–e–t–e–n–a–r–v–s–e–q–u–e–n–c–e–
+70 issi duration seguinte -> –i–s–s–i–d–u–r–a–t–i–o–n–s–e–g–u–i–n–t–e–
+71 assini mumkin loosely -> –a–s–s–i–n–i–m–u–m–k–i–n–l–o–o–s–e–l–y–
+72 colon garra wisdom -> –c–o–l–o–n–g–a–r–r–a–w–i–s–d–o–m–
+73 conti widow dvije -> –c–o–n–t–i–w–i–d–o–w–d–v–i–j–e–
+74 estand sep dioc -> –e–s–t–a–n–d–s–e–p–d–i–o–c–
+75 ppure meat accom -> –p–p–u–r–e–m–e–a–t–a–c–c–o–m–
+76 giving wins conceal -> –g–i–v–i–n–g–w–i–n–s–c–o–n–c–e–a–l–
+77 eso arabe foci -> –e–s–o–a–r–a–b–e–f–o–c–i–
+78 ystem subordin exile -> –y–s–t–e–m–s–u–b–o–r–d–i–n–e–x–i–l–e–
+79 odb rebell rundzie -> –o–d–b–r–e–b–e–l–l–r–u–n–d–z–i–e–
+80 zny retirada envol -> –z–n–y–r–e–t–i–r–a–d–a–e–n–v–o–l–
+81 addr ashore iss -> –a–d–d–r–a–s–h–o–r–e–i–s–s–
+82 vos imena vinden -> –v–o–s–i–m–e–n–a–v–i–n–d–e–n–
+83 stances vern imported -> –s–t–a–n–c–e–s–v–e–r–n–i–m–p–o–r–t–e–d–
+84 ffi fontes moviment -> –f–f–i–f–o–n–t–e–s–m–o–v–i–m–e–n–t–
+85 stava cysts molek -> –s–t–a–v–a–c–y–s–t–s–m–o–l–e–k–
+86 fung nostro inverse -> –f–u–n–g–n–o–s–t–r–o–i–n–v–e–r–s–e–
+87 missions boats dag -> –m–i–s–s–i–o–n–s–b–o–a–t–s–d–a–g–
+88 ucha scaled brazos -> –u–c–h–a–s–c–a–l–e–d–b–r–a–z–o–s–
+89 iances mord axle -> –i–a–n–c–e–s–m–o–r–d–a–x–l–e–
+90 de cheek compose -> –d–e–c–h–e–e–k–c–o–m–p–o–s–e–
+91 plit lover kt -> –p–l–i–t–l–o–v–e–r–k–t–
+92 royable detto funded -> –r–o–y–a–b–l–e–d–e–t–t–o–f–u–n–d–e–d–
+93 chnology bar motivos -> –c–h–n–o–l–o–g–y–b–a–r–m–o–t–i–v–o–s–
+94 mk zna nenhum -> –m–k–z–n–a–n–e–n–h–u–m–
+95 ogenetic chagrin militar -> –o–g–e–n–e–t–i–c–c–h–a–g–r–i–n–m–i–l–i–t–a–r–
+96 ighting cade encar -> –i–g–h–t–i–n–g–c–a–d–e–e–n–c–a–r–
+97 angun dla runoff -> –a–n–g–u–n–d–l–a–r–u–n–o–f–f–
+98 estock folgte biasing -> –e–s–t–o–c–k–f–o–l–g–t–e–b–i–a–s–i–n–g–
+99 ug salva manos -> –u–g–s–a–l–v–a–m–a–n–o–s–

@@ -1,0 +1,29 @@
+problem id: cef50c24
+category: cryptarithm_deduce
+
+symbol-to-digit mapping:
+  '!' = 6
+  '"' = 8
+  '#' = 7
+  '&' = 0
+  ')' = 3
+  '/' = 4
+  '<' = 9
+  '?' = 5
+  '`' = 1
+  '{' = 2
+
+operator-to-operation mapping:
+  '$' = abs_diff
+  '}' = mul
+
+examples:
+  /<}<! = /#&/  =>  49 * 96 = 4704
+  ?/}`` = ?</  =>  54 * 11 = 594
+  <{$#< = `)  =>  |92 - 79| = 13
+  /)}"< = )"{#  =>  43 * 89 = 3827
+  {`$?! = )?  =>  |21 - 56| = 35
+
+query: `<$`/  =>  |19 - 14| = 5
+
+predicted answer: ?

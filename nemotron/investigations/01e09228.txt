@@ -1,0 +1,44 @@
+problem id: 01e09228
+category: bit_manipulation
+
+examples:
+- 01000111 -> 01110000
+- 00100010 -> 00101010
+- 10101100 -> 01101010
+- 10000110 -> 01100000
+- 01100010 -> 00101110
+- 00100011 -> 00111010
+- 00001011 -> 10010000
+- 11100110 -> 01111110
+- query: 01011001
+
+inferred rule:
+- Let `a = x << 2` with 8-bit truncation.
+- Let `b = x >> 2`.
+- Let `c = rol(x, 4)`; on 8 bits this is the same as swapping the high and low nibbles.
+- The output is the bitwise choice function `ch(a, b, c) = (a & b) ^ (~a & c)`.
+- In words: use each bit of `a` as a selector. Where `a` has `1`, take the corresponding bit from `b`; where `a` has `0`, take it from `c`.
+
+why this fits the examples:
+- `01000111`: `a = 00011100`, `b = 00010001`, `c = 01110100`. Choosing from `b` where `a` is `1` and from `c` elsewhere gives `01110000`.
+- `00100010`: `a = 10001000`, `b = 00001000`, `c = 00100010`. The same choice rule gives `00101010`.
+- `00001011`: `a = 00101100`, `b = 00000010`, `c = 10110000`. Applying the selector gives `10010000`.
+- Running `ch(x << 2, x >> 2, rol(x, 4))` on all eight provided examples reproduces every output exactly.
+
+step-by-step application to the query:
+1. Start with `x = 01011001`.
+2. Compute the selector: `a = x << 2 = 01100100`.
+3. Compute the first source: `b = x >> 2 = 00010110`.
+4. Compute the fallback source: `c = rol(x, 4) = 10010101`.
+5. Apply the choice function bit by bit:
+   `a = 0 1 1 0 0 1 0 0`
+   `b = 0 0 0 1 0 1 1 0`
+   `c = 1 0 0 1 0 1 0 1`
+   output bits = `1 0 0 1 0 1 0 1`
+6. Therefore the predicted output is `10010101`.
+
+predicted answer:
+- 10010101
+
+confidence note:
+- High confidence. The choice-function rule matches every example exactly. The only minor ambiguity is writing the third transform as `rol(x, 4)` or `ror(x, 4)`, which are identical on 8 bits.

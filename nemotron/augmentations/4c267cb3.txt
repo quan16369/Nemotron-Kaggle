@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 nios dubbed doctrina
+01 toine adquirir gli
+02 pository whole ito
+
+This is a sample output.
+00 nios dubbed doctrina -> –n–i–o–s–d–u–b–b–e–d–d–o–c–t–r–i–n–a–
+01 toine adquirir gli -> –t–o–i–n–e–a–d–q–u–i–r–i–r–g–l–i–
+02 pository whole ito -> –p–o–s–i–t–o–r–y–w–h–o–l–e–i–t–o–
+
+This is your input.
+00 terminal attendre siebie
+01 acyj fre superb
+02 made viime hues
+03 illent alej moved
+04 mekt moss phones
+05 pson waarmee corpo
+06 inien padded smelled
+07 arsko gracias garde
+08 imentos guessed ketone
+09 batch reg olisi
+10 opat saque hotel
+11 itecte bajn ovar
+12 base francesi prouver
+13 estellt episodi envie
+14 riterion divided seuls
+15 itzer nor facteurs
+16 ultat criou dieux
+17 orghe hingegen nemico
+18 oping yet palate
+19 argento arrog what
+20 aktiv tiden dipped
+21 eft medalla handful
+22 riet scrutiny claim
+23 iep sticky prompt
+24 auan autoc cay
+25 isy unset regresar
+26 altete swell argent
+27 cannot befand pozn
+28 plus problema pala
+29 astu sprang posz
+30 aft glimpse tolerate
+31 their stati arkada
+32 igneur beb kes
+33 ucat prey wolves
+34 fecha geral kind
+35 wagen dvor two
+36 istoire saliv care
+37 incl restant revenues
+38 acjach elfog betrieb
+39 charts respet tao
+40 uncate rum pact
+41 utc esta element
+42 heen sack grud
+43 direct manifold grob
+44 bis bilim eerder
+45 ruit kelt messo
+46 lichkeit suicidal grazie
+47 iglich programs usine
+48 chy gesam fm
+49 iob marques debido
+50 atoxyl claw lokale
+51 inya ingleses began
+52 encial dividend parede
+53 obb flanking abbiamo
+54 ida bueno nesk
+55 runde edust codon
+56 chis retro jednog
+57 undef previa fu
+58 aning dax studio
+59 acques odre eigene
+60 nell pueden relax
+61 dont divenne ay
+62 urk granting orbit
+63 ocup bits truppe
+64 mer valves cosm
+65 rophic megsz colony
+66 idad postul fluent
+67 placed celt figli
+68 ppet equip ventana
+69 ionale chiam composed
+70 ramer margol stmt
+71 tyabr erbaut haf
+72 udni glass alberg
+73 otherap membro accompl
+74 ubit carp laid
+75 ikom pared pinn
+76 oints ii separ
+77 rican dto vap
+78 ich nurses asserts
+79 ounds bos crises
+80 kenal felsz men
+81 loating asker fele
+82 isiin creer olivat
+83 iaires adhere competed
+84 products uomini prebival
+85 rane builds terrains
+86 araan seas acara
+87 soon ulcers adjac
+88 volle fato verd
+89 ten coer sfr
+90 schaft markers ret
+91 rag turf bant
+92 akan quer trafic
+93 vist starten sob
+94 naval targets adib
+95 codes tutte crop
+96 olg oppure interdit
+97 entlich brown gebracht
+98 bbit hairs beaches
+99 eling baff expir
+[completion]
+00 terminal attendre siebie -> –t–e–r–m–i–n–a–l–a–t–t–e–n–d–r–e–s–i–e–b–i–e–
+01 acyj fre superb -> –a–c–y–j–f–r–e–s–u–p–e–r–b–
+02 made viime hues -> –m–a–d–e–v–i–i–m–e–h–u–e–s–
+03 illent alej moved -> –i–l–l–e–n–t–a–l–e–j–m–o–v–e–d–
+04 mekt moss phones -> –m–e–k–t–m–o–s–s–p–h–o–n–e–s–
+05 pson waarmee corpo -> –p–s–o–n–w–a–a–r–m–e–e–c–o–r–p–o–
+06 inien padded smelled -> –i–n–i–e–n–p–a–d–d–e–d–s–m–e–l–l–e–d–
+07 arsko gracias garde -> –a–r–s–k–o–g–r–a–c–i–a–s–g–a–r–d–e–
+08 imentos guessed ketone -> –i–m–e–n–t–o–s–g–u–e–s–s–e–d–k–e–t–o–n–e–
+09 batch reg olisi -> –b–a–t–c–h–r–e–g–o–l–i–s–i–
+10 opat saque hotel -> –o–p–a–t–s–a–q–u–e–h–o–t–e–l–
+11 itecte bajn ovar -> –i–t–e–c–t–e–b–a–j–n–o–v–a–r–
+12 base francesi prouver -> –b–a–s–e–f–r–a–n–c–e–s–i–p–r–o–u–v–e–r–
+13 estellt episodi envie -> –e–s–t–e–l–l–t–e–p–i–s–o–d–i–e–n–v–i–e–
+14 riterion divided seuls -> –r–i–t–e–r–i–o–n–d–i–v–i–d–e–d–s–e–u–l–s–
+15 itzer nor facteurs -> –i–t–z–e–r–n–o–r–f–a–c–t–e–u–r–s–
+16 ultat criou dieux -> –u–l–t–a–t–c–r–i–o–u–d–i–e–u–x–
+17 orghe hingegen nemico -> –o–r–g–h–e–h–i–n–g–e–g–e–n–n–e–m–i–c–o–
+18 oping yet palate -> –o–p–i–n–g–y–e–t–p–a–l–a–t–e–
+19 argento arrog what -> –a–r–g–e–n–t–o–a–r–r–o–g–w–h–a–t–
+20 aktiv tiden dipped -> –a–k–t–i–v–t–i–d–e–n–d–i–p–p–e–d–
+21 eft medalla handful -> –e–f–t–m–e–d–a–l–l–a–h–a–n–d–f–u–l–
+22 riet scrutiny claim -> –r–i–e–t–s–c–r–u–t–i–n–y–c–l–a–i–m–
+23 iep sticky prompt -> –i–e–p–s–t–i–c–k–y–p–r–o–m–p–t–
+24 auan autoc cay -> –a–u–a–n–a–u–t–o–c–c–a–y–
+25 isy unset regresar -> –i–s–y–u–n–s–e–t–r–e–g–r–e–s–a–r–
+26 altete swell argent -> –a–l–t–e–t–e–s–w–e–l–l–a–r–g–e–n–t–
+27 cannot befand pozn -> –c–a–n–n–o–t–b–e–f–a–n–d–p–o–z–n–
+28 plus problema pala -> –p–l–u–s–p–r–o–b–l–e–m–a–p–a–l–a–
+29 astu sprang posz -> –a–s–t–u–s–p–r–a–n–g–p–o–s–z–
+30 aft glimpse tolerate -> –a–f–t–g–l–i–m–p–s–e–t–o–l–e–r–a–t–e–
+31 their stati arkada -> –t–h–e–i–r–s–t–a–t–i–a–r–k–a–d–a–
+32 igneur beb kes -> –i–g–n–e–u–r–b–e–b–k–e–s–
+33 ucat prey wolves -> –u–c–a–t–p–r–e–y–w–o–l–v–e–s–
+34 fecha geral kind -> –f–e–c–h–a–g–e–r–a–l–k–i–n–d–
+35 wagen dvor two -> –w–a–g–e–n–d–v–o–r–t–w–o–
+36 istoire saliv care -> –i–s–t–o–i–r–e–s–a–l–i–v–c–a–r–e–
+37 incl restant revenues -> –i–n–c–l–r–e–s–t–a–n–t–r–e–v–e–n–u–e–s–
+38 acjach elfog betrieb -> –a–c–j–a–c–h–e–l–f–o–g–b–e–t–r–i–e–b–
+39 charts respet tao -> –c–h–a–r–t–s–r–e–s–p–e–t–t–a–o–
+40 uncate rum pact -> –u–n–c–a–t–e–r–u–m–p–a–c–t–
+41 utc esta element -> –u–t–c–e–s–t–a–e–l–e–m–e–n–t–
+42 heen sack grud -> –h–e–e–n–s–a–c–k–g–r–u–d–
+43 direct manifold grob -> –d–i–r–e–c–t–m–a–n–i–f–o–l–d–g–r–o–b–
+44 bis bilim eerder -> –b–i–s–b–i–l–i–m–e–e–r–d–e–r–
+45 ruit kelt messo -> –r–u–i–t–k–e–l–t–m–e–s–s–o–
+46 lichkeit suicidal grazie -> –l–i–c–h–k–e–i–t–s–u–i–c–i–d–a–l–g–r–a–z–i–e–
+47 iglich programs usine -> –i–g–l–i–c–h–p–r–o–g–r–a–m–s–u–s–i–n–e–
+48 chy gesam fm -> –c–h–y–g–e–s–a–m–f–m–
+49 iob marques debido -> –i–o–b–m–a–r–q–u–e–s–d–e–b–i–d–o–
+50 atoxyl claw lokale -> –a–t–o–x–y–l–c–l–a–w–l–o–k–a–l–e–
+51 inya ingleses began -> –i–n–y–a–i–n–g–l–e–s–e–s–b–e–g–a–n–
+52 encial dividend parede -> –e–n–c–i–a–l–d–i–v–i–d–e–n–d–p–a–r–e–d–e–
+53 obb flanking abbiamo -> –o–b–b–f–l–a–n–k–i–n–g–a–b–b–i–a–m–o–
+54 ida bueno nesk -> –i–d–a–b–u–e–n–o–n–e–s–k–
+55 runde edust codon -> –r–u–n–d–e–e–d–u–s–t–c–o–d–o–n–
+56 chis retro jednog -> –c–h–i–s–r–e–t–r–o–j–e–d–n–o–g–
+57 undef previa fu -> –u–n–d–e–f–p–r–e–v–i–a–f–u–
+58 aning dax studio -> –a–n–i–n–g–d–a–x–s–t–u–d–i–o–
+59 acques odre eigene -> –a–c–q–u–e–s–o–d–r–e–e–i–g–e–n–e–
+60 nell pueden relax -> –n–e–l–l–p–u–e–d–e–n–r–e–l–a–x–
+61 dont divenne ay -> –d–o–n–t–d–i–v–e–n–n–e–a–y–
+62 urk granting orbit -> –u–r–k–g–r–a–n–t–i–n–g–o–r–b–i–t–
+63 ocup bits truppe -> –o–c–u–p–b–i–t–s–t–r–u–p–p–e–
+64 mer valves cosm -> –m–e–r–v–a–l–v–e–s–c–o–s–m–
+65 rophic megsz colony -> –r–o–p–h–i–c–m–e–g–s–z–c–o–l–o–n–y–
+66 idad postul fluent -> –i–d–a–d–p–o–s–t–u–l–f–l–u–e–n–t–
+67 placed celt figli -> –p–l–a–c–e–d–c–e–l–t–f–i–g–l–i–
+68 ppet equip ventana -> –p–p–e–t–e–q–u–i–p–v–e–n–t–a–n–a–
+69 ionale chiam composed -> –i–o–n–a–l–e–c–h–i–a–m–c–o–m–p–o–s–e–d–
+70 ramer margol stmt -> –r–a–m–e–r–m–a–r–g–o–l–s–t–m–t–
+71 tyabr erbaut haf -> –t–y–a–b–r–e–r–b–a–u–t–h–a–f–
+72 udni glass alberg -> –u–d–n–i–g–l–a–s–s–a–l–b–e–r–g–
+73 otherap membro accompl -> –o–t–h–e–r–a–p–m–e–m–b–r–o–a–c–c–o–m–p–l–
+74 ubit carp laid -> –u–b–i–t–c–a–r–p–l–a–i–d–
+75 ikom pared pinn -> –i–k–o–m–p–a–r–e–d–p–i–n–n–
+76 oints ii separ -> –o–i–n–t–s–i–i–s–e–p–a–r–
+77 rican dto vap -> –r–i–c–a–n–d–t–o–v–a–p–
+78 ich nurses asserts -> –i–c–h–n–u–r–s–e–s–a–s–s–e–r–t–s–
+79 ounds bos crises -> –o–u–n–d–s–b–o–s–c–r–i–s–e–s–
+80 kenal felsz men -> –k–e–n–a–l–f–e–l–s–z–m–e–n–
+81 loating asker fele -> –l–o–a–t–i–n–g–a–s–k–e–r–f–e–l–e–
+82 isiin creer olivat -> –i–s–i–i–n–c–r–e–e–r–o–l–i–v–a–t–
+83 iaires adhere competed -> –i–a–i–r–e–s–a–d–h–e–r–e–c–o–m–p–e–t–e–d–
+84 products uomini prebival -> –p–r–o–d–u–c–t–s–u–o–m–i–n–i–p–r–e–b–i–v–a–l–
+85 rane builds terrains -> –r–a–n–e–b–u–i–l–d–s–t–e–r–r–a–i–n–s–
+86 araan seas acara -> –a–r–a–a–n–s–e–a–s–a–c–a–r–a–
+87 soon ulcers adjac -> –s–o–o–n–u–l–c–e–r–s–a–d–j–a–c–
+88 volle fato verd -> –v–o–l–l–e–f–a–t–o–v–e–r–d–
+89 ten coer sfr -> –t–e–n–c–o–e–r–s–f–r–
+90 schaft markers ret -> –s–c–h–a–f–t–m–a–r–k–e–r–s–r–e–t–
+91 rag turf bant -> –r–a–g–t–u–r–f–b–a–n–t–
+92 akan quer trafic -> –a–k–a–n–q–u–e–r–t–r–a–f–i–c–
+93 vist starten sob -> –v–i–s–t–s–t–a–r–t–e–n–s–o–b–
+94 naval targets adib -> –n–a–v–a–l–t–a–r–g–e–t–s–a–d–i–b–
+95 codes tutte crop -> –c–o–d–e–s–t–u–t–t–e–c–r–o–p–
+96 olg oppure interdit -> –o–l–g–o–p–p–u–r–e–i–n–t–e–r–d–i–t–
+97 entlich brown gebracht -> –e–n–t–l–i–c–h–b–r–o–w–n–g–e–b–r–a–c–h–t–
+98 bbit hairs beaches -> –b–b–i–t–h–a–i–r–s–b–e–a–c–h–e–s–
+99 eling baff expir -> –e–l–i–n–g–b–a–f–f–e–x–p–i–r–

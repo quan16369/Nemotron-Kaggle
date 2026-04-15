@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 nahm intrac caching
+01 jections incluido dialects
+02 uerite jaro ji
+
+This is a sample output.
+00 nahm intrac caching -> –n–a–h–m–i–n–t–r–a–c–c–a–c–h–i–n–g–
+01 jections incluido dialects -> –j–e–c–t–i–o–n–s–i–n–c–l–u–i–d–o–d–i–a–l–e–c–t–s–
+02 uerite jaro ji -> –u–e–r–i–t–e–j–a–r–o–j–i–
+
+This is your input.
+00 tabs apple smrti
+01 kerja glum vez
+02 ition monop weren
+03 igo renew harmon
+04 record enviado radially
+05 umerate round necesita
+06 club maiores notably
+07 arkt tro ubicado
+08 onian reminder lloc
+09 reuth ajust hunters
+10 ildi fungal arri
+11 entzako museo wicked
+12 gaben gebildet unsub
+13 werks renfor surname
+14 richt approve messed
+15 azi dm vi
+16 ed ryt rendelke
+17 asie plate teor
+18 ivano volcanic folder
+19 rom paraffin sorti
+20 flamm hunt corps
+21 fatt edific weist
+22 group zato occurred
+23 adro cardenal absorb
+24 pending ikasten kav
+25 otype teenager inclo
+26 istencia izen sencillo
+27 amat aden unreal
+28 elerin maju desserv
+29 git dozens forums
+30 works osaturik risch
+31 alan peculiar esquer
+32 igator congrat area
+33 ocas correr iako
+34 ofi okresie bruit
+35 bern summar exposes
+36 ighbors triste actively
+37 erground unused tetap
+38 chanical hardest sorry
+39 root mare home
+40 isses comen monstre
+41 ymal hindered lengths
+42 menistan sorriso upp
+43 itone vacc dietary
+44 opp tragen ez
+45 ozat turnieju voisine
+46 enses basis indig
+47 ijk discrep lant
+48 harm cryst jen
+49 rew ant solution
+50 sten noon eat
+51 zn gover relaxed
+52 madan proced tehd
+53 atabase stacking silently
+54 rosso cit long
+55 mounted tidigare obstante
+56 zing espalda recente
+57 mark heme hurried
+58 bishop frown bentuk
+59 blems costitu clinical
+60 voit tut catechol
+61 atient corp chiede
+62 iline relaxing avrebbe
+63 otta yoga ape
+64 yyyy cro cortex
+65 ohlen nasel tagja
+66 voc economia touche
+67 ird spp zako
+68 kk strutt make
+69 erint lieb wow
+70 generic genuin grinding
+71 zoic pas isoform
+72 iff moulin nomes
+73 uck daemon split
+74 ields imagin lautet
+75 projects animali fuite
+76 annels ench rokov
+77 vice otorg burned
+78 endt pensa signes
+79 text cuarta zijn
+80 biotic vaut nave
+81 tober tue condiv
+82 ct funeral saab
+83 indo bekerja pistola
+84 aps sali stripe
+85 illus requer finir
+86 paper catast onun
+87 uduk lanz decou
+88 compass vermitt aantal
+89 deling sail approxim
+90 ceived bleiben reel
+91 chart apport called
+92 rado vist guitars
+93 attro darauf aquele
+94 binding bosses radii
+95 ogl spot ip
+96 mem jouk vannak
+97 kers coming annexed
+98 meister deriving nob
+99 jal abril summ
+[completion]
+00 tabs apple smrti -> –t–a–b–s–a–p–p–l–e–s–m–r–t–i–
+01 kerja glum vez -> –k–e–r–j–a–g–l–u–m–v–e–z–
+02 ition monop weren -> –i–t–i–o–n–m–o–n–o–p–w–e–r–e–n–
+03 igo renew harmon -> –i–g–o–r–e–n–e–w–h–a–r–m–o–n–
+04 record enviado radially -> –r–e–c–o–r–d–e–n–v–i–a–d–o–r–a–d–i–a–l–l–y–
+05 umerate round necesita -> –u–m–e–r–a–t–e–r–o–u–n–d–n–e–c–e–s–i–t–a–
+06 club maiores notably -> –c–l–u–b–m–a–i–o–r–e–s–n–o–t–a–b–l–y–
+07 arkt tro ubicado -> –a–r–k–t–t–r–o–u–b–i–c–a–d–o–
+08 onian reminder lloc -> –o–n–i–a–n–r–e–m–i–n–d–e–r–l–l–o–c–
+09 reuth ajust hunters -> –r–e–u–t–h–a–j–u–s–t–h–u–n–t–e–r–s–
+10 ildi fungal arri -> –i–l–d–i–f–u–n–g–a–l–a–r–r–i–
+11 entzako museo wicked -> –e–n–t–z–a–k–o–m–u–s–e–o–w–i–c–k–e–d–
+12 gaben gebildet unsub -> –g–a–b–e–n–g–e–b–i–l–d–e–t–u–n–s–u–b–
+13 werks renfor surname -> –w–e–r–k–s–r–e–n–f–o–r–s–u–r–n–a–m–e–
+14 richt approve messed -> –r–i–c–h–t–a–p–p–r–o–v–e–m–e–s–s–e–d–
+15 azi dm vi -> –a–z–i–d–m–v–i–
+16 ed ryt rendelke -> –e–d–r–y–t–r–e–n–d–e–l–k–e–
+17 asie plate teor -> –a–s–i–e–p–l–a–t–e–t–e–o–r–
+18 ivano volcanic folder -> –i–v–a–n–o–v–o–l–c–a–n–i–c–f–o–l–d–e–r–
+19 rom paraffin sorti -> –r–o–m–p–a–r–a–f–f–i–n–s–o–r–t–i–
+20 flamm hunt corps -> –f–l–a–m–m–h–u–n–t–c–o–r–p–s–
+21 fatt edific weist -> –f–a–t–t–e–d–i–f–i–c–w–e–i–s–t–
+22 group zato occurred -> –g–r–o–u–p–z–a–t–o–o–c–c–u–r–r–e–d–
+23 adro cardenal absorb -> –a–d–r–o–c–a–r–d–e–n–a–l–a–b–s–o–r–b–
+24 pending ikasten kav -> –p–e–n–d–i–n–g–i–k–a–s–t–e–n–k–a–v–
+25 otype teenager inclo -> –o–t–y–p–e–t–e–e–n–a–g–e–r–i–n–c–l–o–
+26 istencia izen sencillo -> –i–s–t–e–n–c–i–a–i–z–e–n–s–e–n–c–i–l–l–o–
+27 amat aden unreal -> –a–m–a–t–a–d–e–n–u–n–r–e–a–l–
+28 elerin maju desserv -> –e–l–e–r–i–n–m–a–j–u–d–e–s–s–e–r–v–
+29 git dozens forums -> –g–i–t–d–o–z–e–n–s–f–o–r–u–m–s–
+30 works osaturik risch -> –w–o–r–k–s–o–s–a–t–u–r–i–k–r–i–s–c–h–
+31 alan peculiar esquer -> –a–l–a–n–p–e–c–u–l–i–a–r–e–s–q–u–e–r–
+32 igator congrat area -> –i–g–a–t–o–r–c–o–n–g–r–a–t–a–r–e–a–
+33 ocas correr iako -> –o–c–a–s–c–o–r–r–e–r–i–a–k–o–
+34 ofi okresie bruit -> –o–f–i–o–k–r–e–s–i–e–b–r–u–i–t–
+35 bern summar exposes -> –b–e–r–n–s–u–m–m–a–r–e–x–p–o–s–e–s–
+36 ighbors triste actively -> –i–g–h–b–o–r–s–t–r–i–s–t–e–a–c–t–i–v–e–l–y–
+37 erground unused tetap -> –e–r–g–r–o–u–n–d–u–n–u–s–e–d–t–e–t–a–p–
+38 chanical hardest sorry -> –c–h–a–n–i–c–a–l–h–a–r–d–e–s–t–s–o–r–r–y–
+39 root mare home -> –r–o–o–t–m–a–r–e–h–o–m–e–
+40 isses comen monstre -> –i–s–s–e–s–c–o–m–e–n–m–o–n–s–t–r–e–
+41 ymal hindered lengths -> –y–m–a–l–h–i–n–d–e–r–e–d–l–e–n–g–t–h–s–
+42 menistan sorriso upp -> –m–e–n–i–s–t–a–n–s–o–r–r–i–s–o–u–p–p–
+43 itone vacc dietary -> –i–t–o–n–e–v–a–c–c–d–i–e–t–a–r–y–
+44 opp tragen ez -> –o–p–p–t–r–a–g–e–n–e–z–
+45 ozat turnieju voisine -> –o–z–a–t–t–u–r–n–i–e–j–u–v–o–i–s–i–n–e–
+46 enses basis indig -> –e–n–s–e–s–b–a–s–i–s–i–n–d–i–g–
+47 ijk discrep lant -> –i–j–k–d–i–s–c–r–e–p–l–a–n–t–
+48 harm cryst jen -> –h–a–r–m–c–r–y–s–t–j–e–n–
+49 rew ant solution -> –r–e–w–a–n–t–s–o–l–u–t–i–o–n–
+50 sten noon eat -> –s–t–e–n–n–o–o–n–e–a–t–
+51 zn gover relaxed -> –z–n–g–o–v–e–r–r–e–l–a–x–e–d–
+52 madan proced tehd -> –m–a–d–a–n–p–r–o–c–e–d–t–e–h–d–
+53 atabase stacking silently -> –a–t–a–b–a–s–e–s–t–a–c–k–i–n–g–s–i–l–e–n–t–l–y–
+54 rosso cit long -> –r–o–s–s–o–c–i–t–l–o–n–g–
+55 mounted tidigare obstante -> –m–o–u–n–t–e–d–t–i–d–i–g–a–r–e–o–b–s–t–a–n–t–e–
+56 zing espalda recente -> –z–i–n–g–e–s–p–a–l–d–a–r–e–c–e–n–t–e–
+57 mark heme hurried -> –m–a–r–k–h–e–m–e–h–u–r–r–i–e–d–
+58 bishop frown bentuk -> –b–i–s–h–o–p–f–r–o–w–n–b–e–n–t–u–k–
+59 blems costitu clinical -> –b–l–e–m–s–c–o–s–t–i–t–u–c–l–i–n–i–c–a–l–
+60 voit tut catechol -> –v–o–i–t–t–u–t–c–a–t–e–c–h–o–l–
+61 atient corp chiede -> –a–t–i–e–n–t–c–o–r–p–c–h–i–e–d–e–
+62 iline relaxing avrebbe -> –i–l–i–n–e–r–e–l–a–x–i–n–g–a–v–r–e–b–b–e–
+63 otta yoga ape -> –o–t–t–a–y–o–g–a–a–p–e–
+64 yyyy cro cortex -> –y–y–y–y–c–r–o–c–o–r–t–e–x–
+65 ohlen nasel tagja -> –o–h–l–e–n–n–a–s–e–l–t–a–g–j–a–
+66 voc economia touche -> –v–o–c–e–c–o–n–o–m–i–a–t–o–u–c–h–e–
+67 ird spp zako -> –i–r–d–s–p–p–z–a–k–o–
+68 kk strutt make -> –k–k–s–t–r–u–t–t–m–a–k–e–
+69 erint lieb wow -> –e–r–i–n–t–l–i–e–b–w–o–w–
+70 generic genuin grinding -> –g–e–n–e–r–i–c–g–e–n–u–i–n–g–r–i–n–d–i–n–g–
+71 zoic pas isoform -> –z–o–i–c–p–a–s–i–s–o–f–o–r–m–
+72 iff moulin nomes -> –i–f–f–m–o–u–l–i–n–n–o–m–e–s–
+73 uck daemon split -> –u–c–k–d–a–e–m–o–n–s–p–l–i–t–
+74 ields imagin lautet -> –i–e–l–d–s–i–m–a–g–i–n–l–a–u–t–e–t–
+75 projects animali fuite -> –p–r–o–j–e–c–t–s–a–n–i–m–a–l–i–f–u–i–t–e–
+76 annels ench rokov -> –a–n–n–e–l–s–e–n–c–h–r–o–k–o–v–
+77 vice otorg burned -> –v–i–c–e–o–t–o–r–g–b–u–r–n–e–d–
+78 endt pensa signes -> –e–n–d–t–p–e–n–s–a–s–i–g–n–e–s–
+79 text cuarta zijn -> –t–e–x–t–c–u–a–r–t–a–z–i–j–n–
+80 biotic vaut nave -> –b–i–o–t–i–c–v–a–u–t–n–a–v–e–
+81 tober tue condiv -> –t–o–b–e–r–t–u–e–c–o–n–d–i–v–
+82 ct funeral saab -> –c–t–f–u–n–e–r–a–l–s–a–a–b–
+83 indo bekerja pistola -> –i–n–d–o–b–e–k–e–r–j–a–p–i–s–t–o–l–a–
+84 aps sali stripe -> –a–p–s–s–a–l–i–s–t–r–i–p–e–
+85 illus requer finir -> –i–l–l–u–s–r–e–q–u–e–r–f–i–n–i–r–
+86 paper catast onun -> –p–a–p–e–r–c–a–t–a–s–t–o–n–u–n–
+87 uduk lanz decou -> –u–d–u–k–l–a–n–z–d–e–c–o–u–
+88 compass vermitt aantal -> –c–o–m–p–a–s–s–v–e–r–m–i–t–t–a–a–n–t–a–l–
+89 deling sail approxim -> –d–e–l–i–n–g–s–a–i–l–a–p–p–r–o–x–i–m–
+90 ceived bleiben reel -> –c–e–i–v–e–d–b–l–e–i–b–e–n–r–e–e–l–
+91 chart apport called -> –c–h–a–r–t–a–p–p–o–r–t–c–a–l–l–e–d–
+92 rado vist guitars -> –r–a–d–o–v–i–s–t–g–u–i–t–a–r–s–
+93 attro darauf aquele -> –a–t–t–r–o–d–a–r–a–u–f–a–q–u–e–l–e–
+94 binding bosses radii -> –b–i–n–d–i–n–g–b–o–s–s–e–s–r–a–d–i–i–
+95 ogl spot ip -> –o–g–l–s–p–o–t–i–p–
+96 mem jouk vannak -> –m–e–m–j–o–u–k–v–a–n–n–a–k–
+97 kers coming annexed -> –k–e–r–s–c–o–m–i–n–g–a–n–n–e–x–e–d–
+98 meister deriving nob -> –m–e–i–s–t–e–r–d–e–r–i–v–i–n–g–n–o–b–
+99 jal abril summ -> –j–a–l–a–b–r–i–l–s–u–m–m–

@@ -1,0 +1,65 @@
+problem id: 7a65a8eb
+category: cryptarithm_guess
+
+examples:
+1. `'\+\^ = &?#`
+2. `^&-'} = ##`
+3. `(\-(( = #`
+4. `'?-'# = #`
+
+inferred rule:
+Treat each 5-character input as `AB op CD`, where each non-operator symbol encodes a digit and the result is written back with the same symbol-to-digit code.
+
+One exact-fit symbol assignment is:
+- `' = 2`
+- `\ = 7`
+- `^ = 6`
+- `& = 1`
+- `? = 0`
+- `# = 3`
+- `} = 8`
+- `( = 4`
+
+With that assignment:
+- `+` behaves as ordinary addition.
+- `-` behaves as absolute difference.
+
+This exact-fit check works on all examples:
+1. `'\+\^`
+   `'\` -> `27`
+   `\^` -> `76`
+   `27 + 76 = 103`
+   `1 -> &`, `0 -> ?`, `3 -> #`, so the output is `&?#`.
+
+2. `^&-'}`
+   `^&` -> `61`
+   the right operand is the two-symbol chunk quote-then-brace, which decodes to `28`
+   `|61 - 28| = 33`
+   `3 -> #`, so the output is `##`.
+
+3. `(\-((`
+   `(\` -> `47`
+   `((` -> `44`
+   `|47 - 44| = 3`
+   `3 -> #`, so the output is `#`.
+
+4. `'?-'#`
+   `'?` -> `20`
+   `'#` -> `23`
+   `|20 - 23| = 3`
+   `3 -> #`, so the output is `#`.
+
+step-by-step application to the query:
+Query: `'(*??`
+
+1. The left operand `'(` decodes to `24` under the exact-fit mapping above.
+2. The right operand `??` decodes to `00`, because `? = 0`.
+3. The only unseen operator is `*`. Since the examples already account for `+` as addition and `-` as absolute difference, the most natural remaining interpretation for `*` is multiplication.
+4. `24 * 0 = 0`.
+5. Re-encode `0` with the same symbol mapping: `0 -> ?`.
+
+predicted answer:
+`?`
+
+confidence note:
+Medium-high confidence. The full digit map is not unique, but every exact-fit mapping I checked agrees that `? = 0` and that `+` and `-` act like addition and absolute difference. That makes the query result stay `0`, hence `?`, across all of those fits.

@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 assung telewiz ultrason
+01 ylon duplex existait
+02 izard lots oxides
+
+This is a sample output.
+00 assung telewiz ultrason -> –a–s–s–u–n–g–t–e–l–e–w–i–z–u–l–t–r–a–s–o–n–
+01 ylon duplex existait -> –y–l–o–n–d–u–p–l–e–x–e–x–i–s–t–a–i–t–
+02 izard lots oxides -> –i–z–a–r–d–l–o–t–s–o–x–i–d–e–s–
+
+This is your input.
+00 pert modem san
+01 perties cyt not
+02 leqslant suk paso
+03 inaire ingress hadn
+04 ciendo tourna predst
+05 teen unseen appeared
+06 stellte packs sizes
+07 itto riten locker
+08 enskap terrib coatings
+09 ivesc profond linee
+10 remember wells remix
+11 olar feles bouts
+12 wr prikaz termina
+13 ersch ramener defines
+14 abez abruptly drops
+15 orderung dioses rs
+16 cheid kons respe
+17 bly giorn flush
+18 ients binomial mechanic
+19 null against ensures
+20 folger schilder etapas
+21 landes ersch sat
+22 vol muncul failure
+23 fet man resolve
+24 emplate hous vidas
+25 vak grocery immigr
+26 armac nunha dj
+27 except citrus controle
+28 adj direkt atelier
+29 virtual aver miejscu
+30 ferably urbo uz
+31 arien descre spielen
+32 ultan funcion temb
+33 attet genealog shoved
+34 cznie dikel longueur
+35 ebo tun veg
+36 shipping day hl
+37 tego arist city
+38 phin hurts endroit
+39 antine suivante vur
+40 asteel haur urls
+41 anglais welches eing
+42 ryt rato mans
+43 ova keyboard olu
+44 ieder respecte olib
+45 iewicz perioden fluores
+46 ighters davom ukl
+47 oka acar instants
+48 date andato remot
+49 vo pekerja zorganiz
+50 ustering terce tb
+51 eval citation fund
+52 xyl dorm globe
+53 hind triple fala
+54 alling rounding indign
+55 zzi urea scritt
+56 arlo email riusc
+57 ablished befinden reperc
+58 able kl dire
+59 aled canvi exh
+60 elseif filling lavorare
+61 to tik inherit
+62 wyn nest secteur
+63 sin violet antigu
+64 quarters dopo capilla
+65 clude entste ipsum
+66 ffect cart poraz
+67 ondre rete weib
+68 ripe androgen damaged
+69 iev voltage softly
+70 izzati ridicul viel
+71 math extermin plaat
+72 strukt ataques lettere
+73 vision finito lumen
+74 ogado dame filma
+75 jonal indietro anc
+76 zentrum gallo algunos
+77 ke eftersom janeiro
+78 ogene rappelle azzal
+79 claim demonstr truly
+80 heiros menstru hijo
+81 parency batted credited
+82 dar esclaves sheet
+83 icycl galaxies mav
+84 anted balanced final
+85 bahn meerdere nyug
+86 andon retail acerc
+87 rvats zodat shop
+88 cellence ventanas cic
+89 pok ganz schlecht
+90 eurs rece spost
+91 almost kaw ald
+92 dern leakage produkc
+93 game divent triplet
+94 oreal advis negy
+95 atul stanowi subspace
+96 gebung brack silenz
+97 igen zes yelling
+98 na mark matches
+99 ime tief hasi
+[completion]
+00 pert modem san -> –p–e–r–t–m–o–d–e–m–s–a–n–
+01 perties cyt not -> –p–e–r–t–i–e–s–c–y–t–n–o–t–
+02 leqslant suk paso -> –l–e–q–s–l–a–n–t–s–u–k–p–a–s–o–
+03 inaire ingress hadn -> –i–n–a–i–r–e–i–n–g–r–e–s–s–h–a–d–n–
+04 ciendo tourna predst -> –c–i–e–n–d–o–t–o–u–r–n–a–p–r–e–d–s–t–
+05 teen unseen appeared -> –t–e–e–n–u–n–s–e–e–n–a–p–p–e–a–r–e–d–
+06 stellte packs sizes -> –s–t–e–l–l–t–e–p–a–c–k–s–s–i–z–e–s–
+07 itto riten locker -> –i–t–t–o–r–i–t–e–n–l–o–c–k–e–r–
+08 enskap terrib coatings -> –e–n–s–k–a–p–t–e–r–r–i–b–c–o–a–t–i–n–g–s–
+09 ivesc profond linee -> –i–v–e–s–c–p–r–o–f–o–n–d–l–i–n–e–e–
+10 remember wells remix -> –r–e–m–e–m–b–e–r–w–e–l–l–s–r–e–m–i–x–
+11 olar feles bouts -> –o–l–a–r–f–e–l–e–s–b–o–u–t–s–
+12 wr prikaz termina -> –w–r–p–r–i–k–a–z–t–e–r–m–i–n–a–
+13 ersch ramener defines -> –e–r–s–c–h–r–a–m–e–n–e–r–d–e–f–i–n–e–s–
+14 abez abruptly drops -> –a–b–e–z–a–b–r–u–p–t–l–y–d–r–o–p–s–
+15 orderung dioses rs -> –o–r–d–e–r–u–n–g–d–i–o–s–e–s–r–s–
+16 cheid kons respe -> –c–h–e–i–d–k–o–n–s–r–e–s–p–e–
+17 bly giorn flush -> –b–l–y–g–i–o–r–n–f–l–u–s–h–
+18 ients binomial mechanic -> –i–e–n–t–s–b–i–n–o–m–i–a–l–m–e–c–h–a–n–i–c–
+19 null against ensures -> –n–u–l–l–a–g–a–i–n–s–t–e–n–s–u–r–e–s–
+20 folger schilder etapas -> –f–o–l–g–e–r–s–c–h–i–l–d–e–r–e–t–a–p–a–s–
+21 landes ersch sat -> –l–a–n–d–e–s–e–r–s–c–h–s–a–t–
+22 vol muncul failure -> –v–o–l–m–u–n–c–u–l–f–a–i–l–u–r–e–
+23 fet man resolve -> –f–e–t–m–a–n–r–e–s–o–l–v–e–
+24 emplate hous vidas -> –e–m–p–l–a–t–e–h–o–u–s–v–i–d–a–s–
+25 vak grocery immigr -> –v–a–k–g–r–o–c–e–r–y–i–m–m–i–g–r–
+26 armac nunha dj -> –a–r–m–a–c–n–u–n–h–a–d–j–
+27 except citrus controle -> –e–x–c–e–p–t–c–i–t–r–u–s–c–o–n–t–r–o–l–e–
+28 adj direkt atelier -> –a–d–j–d–i–r–e–k–t–a–t–e–l–i–e–r–
+29 virtual aver miejscu -> –v–i–r–t–u–a–l–a–v–e–r–m–i–e–j–s–c–u–
+30 ferably urbo uz -> –f–e–r–a–b–l–y–u–r–b–o–u–z–
+31 arien descre spielen -> –a–r–i–e–n–d–e–s–c–r–e–s–p–i–e–l–e–n–
+32 ultan funcion temb -> –u–l–t–a–n–f–u–n–c–i–o–n–t–e–m–b–
+33 attet genealog shoved -> –a–t–t–e–t–g–e–n–e–a–l–o–g–s–h–o–v–e–d–
+34 cznie dikel longueur -> –c–z–n–i–e–d–i–k–e–l–l–o–n–g–u–e–u–r–
+35 ebo tun veg -> –e–b–o–t–u–n–v–e–g–
+36 shipping day hl -> –s–h–i–p–p–i–n–g–d–a–y–h–l–
+37 tego arist city -> –t–e–g–o–a–r–i–s–t–c–i–t–y–
+38 phin hurts endroit -> –p–h–i–n–h–u–r–t–s–e–n–d–r–o–i–t–
+39 antine suivante vur -> –a–n–t–i–n–e–s–u–i–v–a–n–t–e–v–u–r–
+40 asteel haur urls -> –a–s–t–e–e–l–h–a–u–r–u–r–l–s–
+41 anglais welches eing -> –a–n–g–l–a–i–s–w–e–l–c–h–e–s–e–i–n–g–
+42 ryt rato mans -> –r–y–t–r–a–t–o–m–a–n–s–
+43 ova keyboard olu -> –o–v–a–k–e–y–b–o–a–r–d–o–l–u–
+44 ieder respecte olib -> –i–e–d–e–r–r–e–s–p–e–c–t–e–o–l–i–b–
+45 iewicz perioden fluores -> –i–e–w–i–c–z–p–e–r–i–o–d–e–n–f–l–u–o–r–e–s–
+46 ighters davom ukl -> –i–g–h–t–e–r–s–d–a–v–o–m–u–k–l–
+47 oka acar instants -> –o–k–a–a–c–a–r–i–n–s–t–a–n–t–s–
+48 date andato remot -> –d–a–t–e–a–n–d–a–t–o–r–e–m–o–t–
+49 vo pekerja zorganiz -> –v–o–p–e–k–e–r–j–a–z–o–r–g–a–n–i–z–
+50 ustering terce tb -> –u–s–t–e–r–i–n–g–t–e–r–c–e–t–b–
+51 eval citation fund -> –e–v–a–l–c–i–t–a–t–i–o–n–f–u–n–d–
+52 xyl dorm globe -> –x–y–l–d–o–r–m–g–l–o–b–e–
+53 hind triple fala -> –h–i–n–d–t–r–i–p–l–e–f–a–l–a–
+54 alling rounding indign -> –a–l–l–i–n–g–r–o–u–n–d–i–n–g–i–n–d–i–g–n–
+55 zzi urea scritt -> –z–z–i–u–r–e–a–s–c–r–i–t–t–
+56 arlo email riusc -> –a–r–l–o–e–m–a–i–l–r–i–u–s–c–
+57 ablished befinden reperc -> –a–b–l–i–s–h–e–d–b–e–f–i–n–d–e–n–r–e–p–e–r–c–
+58 able kl dire -> –a–b–l–e–k–l–d–i–r–e–
+59 aled canvi exh -> –a–l–e–d–c–a–n–v–i–e–x–h–
+60 elseif filling lavorare -> –e–l–s–e–i–f–f–i–l–l–i–n–g–l–a–v–o–r–a–r–e–
+61 to tik inherit -> –t–o–t–i–k–i–n–h–e–r–i–t–
+62 wyn nest secteur -> –w–y–n–n–e–s–t–s–e–c–t–e–u–r–
+63 sin violet antigu -> –s–i–n–v–i–o–l–e–t–a–n–t–i–g–u–
+64 quarters dopo capilla -> –q–u–a–r–t–e–r–s–d–o–p–o–c–a–p–i–l–l–a–
+65 clude entste ipsum -> –c–l–u–d–e–e–n–t–s–t–e–i–p–s–u–m–
+66 ffect cart poraz -> –f–f–e–c–t–c–a–r–t–p–o–r–a–z–
+67 ondre rete weib -> –o–n–d–r–e–r–e–t–e–w–e–i–b–
+68 ripe androgen damaged -> –r–i–p–e–a–n–d–r–o–g–e–n–d–a–m–a–g–e–d–
+69 iev voltage softly -> –i–e–v–v–o–l–t–a–g–e–s–o–f–t–l–y–
+70 izzati ridicul viel -> –i–z–z–a–t–i–r–i–d–i–c–u–l–v–i–e–l–
+71 math extermin plaat -> –m–a–t–h–e–x–t–e–r–m–i–n–p–l–a–a–t–
+72 strukt ataques lettere -> –s–t–r–u–k–t–a–t–a–q–u–e–s–l–e–t–t–e–r–e–
+73 vision finito lumen -> –v–i–s–i–o–n–f–i–n–i–t–o–l–u–m–e–n–
+74 ogado dame filma -> –o–g–a–d–o–d–a–m–e–f–i–l–m–a–
+75 jonal indietro anc -> –j–o–n–a–l–i–n–d–i–e–t–r–o–a–n–c–
+76 zentrum gallo algunos -> –z–e–n–t–r–u–m–g–a–l–l–o–a–l–g–u–n–o–s–
+77 ke eftersom janeiro -> –k–e–e–f–t–e–r–s–o–m–j–a–n–e–i–r–o–
+78 ogene rappelle azzal -> –o–g–e–n–e–r–a–p–p–e–l–l–e–a–z–z–a–l–
+79 claim demonstr truly -> –c–l–a–i–m–d–e–m–o–n–s–t–r–t–r–u–l–y–
+80 heiros menstru hijo -> –h–e–i–r–o–s–m–e–n–s–t–r–u–h–i–j–o–
+81 parency batted credited -> –p–a–r–e–n–c–y–b–a–t–t–e–d–c–r–e–d–i–t–e–d–
+82 dar esclaves sheet -> –d–a–r–e–s–c–l–a–v–e–s–s–h–e–e–t–
+83 icycl galaxies mav -> –i–c–y–c–l–g–a–l–a–x–i–e–s–m–a–v–
+84 anted balanced final -> –a–n–t–e–d–b–a–l–a–n–c–e–d–f–i–n–a–l–
+85 bahn meerdere nyug -> –b–a–h–n–m–e–e–r–d–e–r–e–n–y–u–g–
+86 andon retail acerc -> –a–n–d–o–n–r–e–t–a–i–l–a–c–e–r–c–
+87 rvats zodat shop -> –r–v–a–t–s–z–o–d–a–t–s–h–o–p–
+88 cellence ventanas cic -> –c–e–l–l–e–n–c–e–v–e–n–t–a–n–a–s–c–i–c–
+89 pok ganz schlecht -> –p–o–k–g–a–n–z–s–c–h–l–e–c–h–t–
+90 eurs rece spost -> –e–u–r–s–r–e–c–e–s–p–o–s–t–
+91 almost kaw ald -> –a–l–m–o–s–t–k–a–w–a–l–d–
+92 dern leakage produkc -> –d–e–r–n–l–e–a–k–a–g–e–p–r–o–d–u–k–c–
+93 game divent triplet -> –g–a–m–e–d–i–v–e–n–t–t–r–i–p–l–e–t–
+94 oreal advis negy -> –o–r–e–a–l–a–d–v–i–s–n–e–g–y–
+95 atul stanowi subspace -> –a–t–u–l–s–t–a–n–o–w–i–s–u–b–s–p–a–c–e–
+96 gebung brack silenz -> –g–e–b–u–n–g–b–r–a–c–k–s–i–l–e–n–z–
+97 igen zes yelling -> –i–g–e–n–z–e–s–y–e–l–l–i–n–g–
+98 na mark matches -> –n–a–m–a–r–k–m–a–t–c–h–e–s–
+99 ime tief hasi -> –i–m–e–t–i–e–f–h–a–s–i–

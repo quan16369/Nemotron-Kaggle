@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 yre soprav odb
+01 passt vitamin lysine
+02 ikt pasaj auditor
+
+This is a sample output.
+00 yre soprav odb -> –y–r–e–s–o–p–r–a–v–o–d–b–
+01 passt vitamin lysine -> –p–a–s–s–t–v–i–t–a–m–i–n–l–y–s–i–n–e–
+02 ikt pasaj auditor -> –i–k–t–p–a–s–a–j–a–u–d–i–t–o–r–
+
+This is your input.
+00 eras pelos asteroid
+01 bys natives oficjal
+02 urginak violon opt
+03 arel hak przed
+04 essed request factores
+05 ause musician sorprend
+06 keley oso vene
+07 pite exig boiler
+08 ustain julg slave
+09 llen powders dorp
+10 icester zalo tour
+11 itched agora listener
+12 omot juht enligt
+13 amil neki edif
+14 emplates veto baten
+15 viamente rigidity avoir
+16 nych put utvik
+17 sc min yuq
+18 crete activo slov
+19 socket znal induce
+20 camera samostat colons
+21 ilibre remodel boss
+22 ladi tuning decree
+23 janjian direct daug
+24 identes esqu maje
+25 rime sahen kaip
+26 wrap sages garlic
+27 rev estados fonte
+28 venir difficol renders
+29 inie encode pose
+30 medi massimo starred
+31 otte mavsum conocer
+32 ibile cl phong
+33 confirm expect prenait
+34 ter samm thro
+35 iskey pengg claimed
+36 rodu yell procur
+37 session publics anden
+38 finally cooper poteva
+39 elijke fmt dirinya
+40 lay nause cust
+41 einander cleavage aument
+42 ioj placer delays
+43 rocess jednu werken
+44 ranch solitary blending
+45 rators secoua tong
+46 essaging partecip arose
+47 ocier propone wag
+48 inos quint bando
+49 eleri cie empresas
+50 ponse primit principe
+51 otional ajouta purely
+52 iance unw seguir
+53 ijing gosp heads
+54 unj trial chased
+55 ineux ruch dah
+56 posa datetime crawling
+57 ccions zaradi assured
+58 setup least deposit
+59 ojo scr ranges
+60 riam deja blacks
+61 owl swept unfolded
+62 sty underg verbo
+63 ciences erne automat
+64 cancel draws graph
+65 box basse negli
+66 icolor retval ekspl
+67 niet vencedor borg
+68 awi farewell joking
+69 office otro guided
+70 resa consequ recog
+71 grenze caro fuera
+72 types bonded tiempos
+73 aktu thu vr
+74 kyt huj neonates
+75 uszt exosomes organism
+76 table explore define
+77 leine kadar eth
+78 riages coast viver
+79 zad denne detach
+80 assen lembr dalam
+81 ronde io lai
+82 ety ub amet
+83 apped sauter hava
+84 brain desped nuevo
+85 balle recorde maker
+86 economic adul infantil
+87 comment france ta
+88 itors okol anytime
+89 rero tomada pellet
+90 halb cited invitado
+91 detail biod routines
+92 cible hypox inhabit
+93 filled scoring outwe
+94 iaire analysis upgraded
+95 adil puls fleste
+96 tran confused segundo
+97 jobs serem knock
+98 illy saline elog
+99 osin cors muodost
+[completion]
+00 eras pelos asteroid -> –e–r–a–s–p–e–l–o–s–a–s–t–e–r–o–i–d–
+01 bys natives oficjal -> –b–y–s–n–a–t–i–v–e–s–o–f–i–c–j–a–l–
+02 urginak violon opt -> –u–r–g–i–n–a–k–v–i–o–l–o–n–o–p–t–
+03 arel hak przed -> –a–r–e–l–h–a–k–p–r–z–e–d–
+04 essed request factores -> –e–s–s–e–d–r–e–q–u–e–s–t–f–a–c–t–o–r–e–s–
+05 ause musician sorprend -> –a–u–s–e–m–u–s–i–c–i–a–n–s–o–r–p–r–e–n–d–
+06 keley oso vene -> –k–e–l–e–y–o–s–o–v–e–n–e–
+07 pite exig boiler -> –p–i–t–e–e–x–i–g–b–o–i–l–e–r–
+08 ustain julg slave -> –u–s–t–a–i–n–j–u–l–g–s–l–a–v–e–
+09 llen powders dorp -> –l–l–e–n–p–o–w–d–e–r–s–d–o–r–p–
+10 icester zalo tour -> –i–c–e–s–t–e–r–z–a–l–o–t–o–u–r–
+11 itched agora listener -> –i–t–c–h–e–d–a–g–o–r–a–l–i–s–t–e–n–e–r–
+12 omot juht enligt -> –o–m–o–t–j–u–h–t–e–n–l–i–g–t–
+13 amil neki edif -> –a–m–i–l–n–e–k–i–e–d–i–f–
+14 emplates veto baten -> –e–m–p–l–a–t–e–s–v–e–t–o–b–a–t–e–n–
+15 viamente rigidity avoir -> –v–i–a–m–e–n–t–e–r–i–g–i–d–i–t–y–a–v–o–i–r–
+16 nych put utvik -> –n–y–c–h–p–u–t–u–t–v–i–k–
+17 sc min yuq -> –s–c–m–i–n–y–u–q–
+18 crete activo slov -> –c–r–e–t–e–a–c–t–i–v–o–s–l–o–v–
+19 socket znal induce -> –s–o–c–k–e–t–z–n–a–l–i–n–d–u–c–e–
+20 camera samostat colons -> –c–a–m–e–r–a–s–a–m–o–s–t–a–t–c–o–l–o–n–s–
+21 ilibre remodel boss -> –i–l–i–b–r–e–r–e–m–o–d–e–l–b–o–s–s–
+22 ladi tuning decree -> –l–a–d–i–t–u–n–i–n–g–d–e–c–r–e–e–
+23 janjian direct daug -> –j–a–n–j–i–a–n–d–i–r–e–c–t–d–a–u–g–
+24 identes esqu maje -> –i–d–e–n–t–e–s–e–s–q–u–m–a–j–e–
+25 rime sahen kaip -> –r–i–m–e–s–a–h–e–n–k–a–i–p–
+26 wrap sages garlic -> –w–r–a–p–s–a–g–e–s–g–a–r–l–i–c–
+27 rev estados fonte -> –r–e–v–e–s–t–a–d–o–s–f–o–n–t–e–
+28 venir difficol renders -> –v–e–n–i–r–d–i–f–f–i–c–o–l–r–e–n–d–e–r–s–
+29 inie encode pose -> –i–n–i–e–e–n–c–o–d–e–p–o–s–e–
+30 medi massimo starred -> –m–e–d–i–m–a–s–s–i–m–o–s–t–a–r–r–e–d–
+31 otte mavsum conocer -> –o–t–t–e–m–a–v–s–u–m–c–o–n–o–c–e–r–
+32 ibile cl phong -> –i–b–i–l–e–c–l–p–h–o–n–g–
+33 confirm expect prenait -> –c–o–n–f–i–r–m–e–x–p–e–c–t–p–r–e–n–a–i–t–
+34 ter samm thro -> –t–e–r–s–a–m–m–t–h–r–o–
+35 iskey pengg claimed -> –i–s–k–e–y–p–e–n–g–g–c–l–a–i–m–e–d–
+36 rodu yell procur -> –r–o–d–u–y–e–l–l–p–r–o–c–u–r–
+37 session publics anden -> –s–e–s–s–i–o–n–p–u–b–l–i–c–s–a–n–d–e–n–
+38 finally cooper poteva -> –f–i–n–a–l–l–y–c–o–o–p–e–r–p–o–t–e–v–a–
+39 elijke fmt dirinya -> –e–l–i–j–k–e–f–m–t–d–i–r–i–n–y–a–
+40 lay nause cust -> –l–a–y–n–a–u–s–e–c–u–s–t–
+41 einander cleavage aument -> –e–i–n–a–n–d–e–r–c–l–e–a–v–a–g–e–a–u–m–e–n–t–
+42 ioj placer delays -> –i–o–j–p–l–a–c–e–r–d–e–l–a–y–s–
+43 rocess jednu werken -> –r–o–c–e–s–s–j–e–d–n–u–w–e–r–k–e–n–
+44 ranch solitary blending -> –r–a–n–c–h–s–o–l–i–t–a–r–y–b–l–e–n–d–i–n–g–
+45 rators secoua tong -> –r–a–t–o–r–s–s–e–c–o–u–a–t–o–n–g–
+46 essaging partecip arose -> –e–s–s–a–g–i–n–g–p–a–r–t–e–c–i–p–a–r–o–s–e–
+47 ocier propone wag -> –o–c–i–e–r–p–r–o–p–o–n–e–w–a–g–
+48 inos quint bando -> –i–n–o–s–q–u–i–n–t–b–a–n–d–o–
+49 eleri cie empresas -> –e–l–e–r–i–c–i–e–e–m–p–r–e–s–a–s–
+50 ponse primit principe -> –p–o–n–s–e–p–r–i–m–i–t–p–r–i–n–c–i–p–e–
+51 otional ajouta purely -> –o–t–i–o–n–a–l–a–j–o–u–t–a–p–u–r–e–l–y–
+52 iance unw seguir -> –i–a–n–c–e–u–n–w–s–e–g–u–i–r–
+53 ijing gosp heads -> –i–j–i–n–g–g–o–s–p–h–e–a–d–s–
+54 unj trial chased -> –u–n–j–t–r–i–a–l–c–h–a–s–e–d–
+55 ineux ruch dah -> –i–n–e–u–x–r–u–c–h–d–a–h–
+56 posa datetime crawling -> –p–o–s–a–d–a–t–e–t–i–m–e–c–r–a–w–l–i–n–g–
+57 ccions zaradi assured -> –c–c–i–o–n–s–z–a–r–a–d–i–a–s–s–u–r–e–d–
+58 setup least deposit -> –s–e–t–u–p–l–e–a–s–t–d–e–p–o–s–i–t–
+59 ojo scr ranges -> –o–j–o–s–c–r–r–a–n–g–e–s–
+60 riam deja blacks -> –r–i–a–m–d–e–j–a–b–l–a–c–k–s–
+61 owl swept unfolded -> –o–w–l–s–w–e–p–t–u–n–f–o–l–d–e–d–
+62 sty underg verbo -> –s–t–y–u–n–d–e–r–g–v–e–r–b–o–
+63 ciences erne automat -> –c–i–e–n–c–e–s–e–r–n–e–a–u–t–o–m–a–t–
+64 cancel draws graph -> –c–a–n–c–e–l–d–r–a–w–s–g–r–a–p–h–
+65 box basse negli -> –b–o–x–b–a–s–s–e–n–e–g–l–i–
+66 icolor retval ekspl -> –i–c–o–l–o–r–r–e–t–v–a–l–e–k–s–p–l–
+67 niet vencedor borg -> –n–i–e–t–v–e–n–c–e–d–o–r–b–o–r–g–
+68 awi farewell joking -> –a–w–i–f–a–r–e–w–e–l–l–j–o–k–i–n–g–
+69 office otro guided -> –o–f–f–i–c–e–o–t–r–o–g–u–i–d–e–d–
+70 resa consequ recog -> –r–e–s–a–c–o–n–s–e–q–u–r–e–c–o–g–
+71 grenze caro fuera -> –g–r–e–n–z–e–c–a–r–o–f–u–e–r–a–
+72 types bonded tiempos -> –t–y–p–e–s–b–o–n–d–e–d–t–i–e–m–p–o–s–
+73 aktu thu vr -> –a–k–t–u–t–h–u–v–r–
+74 kyt huj neonates -> –k–y–t–h–u–j–n–e–o–n–a–t–e–s–
+75 uszt exosomes organism -> –u–s–z–t–e–x–o–s–o–m–e–s–o–r–g–a–n–i–s–m–
+76 table explore define -> –t–a–b–l–e–e–x–p–l–o–r–e–d–e–f–i–n–e–
+77 leine kadar eth -> –l–e–i–n–e–k–a–d–a–r–e–t–h–
+78 riages coast viver -> –r–i–a–g–e–s–c–o–a–s–t–v–i–v–e–r–
+79 zad denne detach -> –z–a–d–d–e–n–n–e–d–e–t–a–c–h–
+80 assen lembr dalam -> –a–s–s–e–n–l–e–m–b–r–d–a–l–a–m–
+81 ronde io lai -> –r–o–n–d–e–i–o–l–a–i–
+82 ety ub amet -> –e–t–y–u–b–a–m–e–t–
+83 apped sauter hava -> –a–p–p–e–d–s–a–u–t–e–r–h–a–v–a–
+84 brain desped nuevo -> –b–r–a–i–n–d–e–s–p–e–d–n–u–e–v–o–
+85 balle recorde maker -> –b–a–l–l–e–r–e–c–o–r–d–e–m–a–k–e–r–
+86 economic adul infantil -> –e–c–o–n–o–m–i–c–a–d–u–l–i–n–f–a–n–t–i–l–
+87 comment france ta -> –c–o–m–m–e–n–t–f–r–a–n–c–e–t–a–
+88 itors okol anytime -> –i–t–o–r–s–o–k–o–l–a–n–y–t–i–m–e–
+89 rero tomada pellet -> –r–e–r–o–t–o–m–a–d–a–p–e–l–l–e–t–
+90 halb cited invitado -> –h–a–l–b–c–i–t–e–d–i–n–v–i–t–a–d–o–
+91 detail biod routines -> –d–e–t–a–i–l–b–i–o–d–r–o–u–t–i–n–e–s–
+92 cible hypox inhabit -> –c–i–b–l–e–h–y–p–o–x–i–n–h–a–b–i–t–
+93 filled scoring outwe -> –f–i–l–l–e–d–s–c–o–r–i–n–g–o–u–t–w–e–
+94 iaire analysis upgraded -> –i–a–i–r–e–a–n–a–l–y–s–i–s–u–p–g–r–a–d–e–d–
+95 adil puls fleste -> –a–d–i–l–p–u–l–s–f–l–e–s–t–e–
+96 tran confused segundo -> –t–r–a–n–c–o–n–f–u–s–e–d–s–e–g–u–n–d–o–
+97 jobs serem knock -> –j–o–b–s–s–e–r–e–m–k–n–o–c–k–
+98 illy saline elog -> –i–l–l–y–s–a–l–i–n–e–e–l–o–g–
+99 osin cors muodost -> –o–s–i–n–c–o–r–s–m–u–o–d–o–s–t–

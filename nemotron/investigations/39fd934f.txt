@@ -1,0 +1,57 @@
+Problem ID: 39fd934f
+Category: equation_numeric_deduce
+
+Examples:
+- 34+33 = 57
+- 31+13 = 34
+- 25-74 = 5
+- 98+55 = 341
+- 69-42 = 27
+- Query: 32-23
+
+Cryptarithmetic-style setup:
+Treat each 2-digit block `xy` as the decimal number `10x + y`.
+Define `rev(10x + y) = 10y + x`.
+For signed results, interpret `rev` as "keep the sign, reverse the digits of
+the magnitude."
+
+Inferred rule:
+For the `-` operator, reverse both decoded operands, subtract reversed right
+from reversed left, then reverse the digits of the signed result.
+
+In symbols:
+`ab - cd -> rev(rev(ab) - rev(cd))`.
+
+Why this fits the `-` examples:
+- `25-74 = 5`
+  - `rev(25) = 52`
+  - `rev(74) = 47`
+  - `52 - 47 = 5`
+  - `rev(5) = 5`
+- `69-42 = 27`
+  - `rev(69) = 96`
+  - `rev(42) = 24`
+  - `96 - 24 = 72`
+  - `rev(72) = 27`
+
+The `+` examples show that other operators can have other rules, but they are
+not needed to determine the `-` query.
+
+Step-by-step application to the query:
+1. Decode `32` and `23`.
+2. Reverse both operands:
+   - `rev(32) = 23`
+   - `rev(23) = 32`
+3. Subtract reversed right from reversed left:
+   - `23 - 32 = -9`
+4. Reverse the signed result:
+   - `rev(-9) = -9`
+
+Predicted answer:
+-9
+
+Confidence note:
+Moderate. The two `-` examples fit this same digit equation exactly. The only
+remaining uncertainty is that the examples do not explicitly show a negative
+final result, so the sign-preserving part is inferred from the natural
+extension of the same rule.

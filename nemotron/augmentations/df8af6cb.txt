@@ -1,0 +1,42 @@
+[category]
+matching
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+x: not matched anywhere
+y: matched but wrong position
+
+0 0100000010 2
+1 0001100110 4
+2 0110101001 5
+3 0100011101 5
+4 0000000000 a
+5 1011011100 6
+6 0011001110 5
+7 0111001101 6
+
+0 1011011100 6 match 5
+1 0011001110 5 match 6
+2 0111001101 6 match 7
+3 0001010110 4
+4 0100000010 2 match 0
+5 0001100110 4 match 1
+6 0110101001 5 match 2
+7 0100011101 5 match 3
+[completion]
+0 4
+1 5
+2 6
+3 7
+4 absent
+5 0
+6 1
+7 2
+
+Left
+4 5 6 7 0y
+Best: 4 5 6 7: 4
+
+Right
+2 1 0 7y
+Best: 2 1 0: 3

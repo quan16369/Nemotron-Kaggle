@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 ameth savoir paredes
+01 online gown tenha
+02 ffin mete sat
+
+This is a sample output.
+00 ameth savoir paredes -> –a–m–e–t–h–s–a–v–o–i–r–p–a–r–e–d–e–s–
+01 online gown tenha -> –o–n–l–i–n–e–g–o–w–n–t–e–n–h–a–
+02 ffin mete sat -> –f–f–i–n–m–e–t–e–s–a–t–
+
+This is your input.
+00 xsl zorg praised
+01 orbent sapeva douce
+02 structor userid audit
+03 affen brut arriv
+04 ettre evrops desempen
+05 pas capo explored
+06 etz razvoj synerg
+07 methods ion giorno
+08 zou tumba prze
+09 menes puntos namely
+10 iden weapon refl
+11 elements marina tuvo
+12 atamente olup triggers
+13 iteur recaud state
+14 train fun agrees
+15 idth potp rebre
+16 cred besuchte vergeben
+17 fan kode kek
+18 thers haut aktor
+19 iral danas arbit
+20 emple avaient examiner
+21 ovo princes meyd
+22 ilterra alumin ect
+23 zada hombre jung
+24 expr consigu rozp
+25 nake maioria repar
+26 hbar primera signal
+27 inition mujeres appare
+28 anza nails leaders
+29 bucket mc volat
+30 liau rebeldes cabinets
+31 otron dette ostr
+32 ester bedeutet keinen
+33 iseau bitar milles
+34 secret texte risco
+35 achuset proudly comer
+36 orski vocalist reflej
+37 ende chi fert
+38 iria microtub alemanes
+39 enciones trends dre
+40 oment ennemis restitu
+41 irme dona wykon
+42 efic weighted rame
+43 benz sputter pohy
+44 mp escolas gerne
+45 izadas terrace oxides
+46 ellen tiempo pedra
+47 ourable estil dement
+48 ogg reiter suggest
+49 wers juive controll
+50 uerite separate busy
+51 ocene wx gesagt
+52 apter beh tega
+53 cheon itse soaked
+54 cers arbust harga
+55 cias ponte aneur
+56 rough progr github
+57 ounced dituzte typeof
+58 vall quanto hypnot
+59 ikan curb beg
+60 visi innan lebt
+61 elten priorit avere
+62 bf ziehen erinnert
+63 imu escrav zust
+64 icip blocked forty
+65 hr thinning yii
+66 etit jej modules
+67 ana hlas medico
+68 rug finns poll
+69 gede bulunan puissant
+70 alon flujo laptop
+71 aho koncert tiz
+72 extends ner poste
+73 oxane dibuj fear
+74 ceaux pran secular
+75 innon bleek gau
+76 assa kautta antigos
+77 uez tabac clutch
+78 per uneven grec
+79 ologists mensen mister
+80 regex ine payment
+81 ymes menus billion
+82 incs indicar tedes
+83 arming sienne beteg
+84 raint abz campagne
+85 ustrial net car
+86 ested podle izg
+87 ousand sim effector
+88 olitik pharmacy lia
+89 eki dar ano
+90 another alimento regering
+91 oe sway nahm
+92 akes erforder gewonnen
+93 lemma vend postoje
+94 ystal isolated rejon
+95 itten hameau prolifer
+96 rees locality imen
+97 uminate otr shower
+98 poly hela geboren
+99 okuuta fn besie
+[completion]
+00 xsl zorg praised -> –x–s–l–z–o–r–g–p–r–a–i–s–e–d–
+01 orbent sapeva douce -> –o–r–b–e–n–t–s–a–p–e–v–a–d–o–u–c–e–
+02 structor userid audit -> –s–t–r–u–c–t–o–r–u–s–e–r–i–d–a–u–d–i–t–
+03 affen brut arriv -> –a–f–f–e–n–b–r–u–t–a–r–r–i–v–
+04 ettre evrops desempen -> –e–t–t–r–e–e–v–r–o–p–s–d–e–s–e–m–p–e–n–
+05 pas capo explored -> –p–a–s–c–a–p–o–e–x–p–l–o–r–e–d–
+06 etz razvoj synerg -> –e–t–z–r–a–z–v–o–j–s–y–n–e–r–g–
+07 methods ion giorno -> –m–e–t–h–o–d–s–i–o–n–g–i–o–r–n–o–
+08 zou tumba prze -> –z–o–u–t–u–m–b–a–p–r–z–e–
+09 menes puntos namely -> –m–e–n–e–s–p–u–n–t–o–s–n–a–m–e–l–y–
+10 iden weapon refl -> –i–d–e–n–w–e–a–p–o–n–r–e–f–l–
+11 elements marina tuvo -> –e–l–e–m–e–n–t–s–m–a–r–i–n–a–t–u–v–o–
+12 atamente olup triggers -> –a–t–a–m–e–n–t–e–o–l–u–p–t–r–i–g–g–e–r–s–
+13 iteur recaud state -> –i–t–e–u–r–r–e–c–a–u–d–s–t–a–t–e–
+14 train fun agrees -> –t–r–a–i–n–f–u–n–a–g–r–e–e–s–
+15 idth potp rebre -> –i–d–t–h–p–o–t–p–r–e–b–r–e–
+16 cred besuchte vergeben -> –c–r–e–d–b–e–s–u–c–h–t–e–v–e–r–g–e–b–e–n–
+17 fan kode kek -> –f–a–n–k–o–d–e–k–e–k–
+18 thers haut aktor -> –t–h–e–r–s–h–a–u–t–a–k–t–o–r–
+19 iral danas arbit -> –i–r–a–l–d–a–n–a–s–a–r–b–i–t–
+20 emple avaient examiner -> –e–m–p–l–e–a–v–a–i–e–n–t–e–x–a–m–i–n–e–r–
+21 ovo princes meyd -> –o–v–o–p–r–i–n–c–e–s–m–e–y–d–
+22 ilterra alumin ect -> –i–l–t–e–r–r–a–a–l–u–m–i–n–e–c–t–
+23 zada hombre jung -> –z–a–d–a–h–o–m–b–r–e–j–u–n–g–
+24 expr consigu rozp -> –e–x–p–r–c–o–n–s–i–g–u–r–o–z–p–
+25 nake maioria repar -> –n–a–k–e–m–a–i–o–r–i–a–r–e–p–a–r–
+26 hbar primera signal -> –h–b–a–r–p–r–i–m–e–r–a–s–i–g–n–a–l–
+27 inition mujeres appare -> –i–n–i–t–i–o–n–m–u–j–e–r–e–s–a–p–p–a–r–e–
+28 anza nails leaders -> –a–n–z–a–n–a–i–l–s–l–e–a–d–e–r–s–
+29 bucket mc volat -> –b–u–c–k–e–t–m–c–v–o–l–a–t–
+30 liau rebeldes cabinets -> –l–i–a–u–r–e–b–e–l–d–e–s–c–a–b–i–n–e–t–s–
+31 otron dette ostr -> –o–t–r–o–n–d–e–t–t–e–o–s–t–r–
+32 ester bedeutet keinen -> –e–s–t–e–r–b–e–d–e–u–t–e–t–k–e–i–n–e–n–
+33 iseau bitar milles -> –i–s–e–a–u–b–i–t–a–r–m–i–l–l–e–s–
+34 secret texte risco -> –s–e–c–r–e–t–t–e–x–t–e–r–i–s–c–o–
+35 achuset proudly comer -> –a–c–h–u–s–e–t–p–r–o–u–d–l–y–c–o–m–e–r–
+36 orski vocalist reflej -> –o–r–s–k–i–v–o–c–a–l–i–s–t–r–e–f–l–e–j–
+37 ende chi fert -> –e–n–d–e–c–h–i–f–e–r–t–
+38 iria microtub alemanes -> –i–r–i–a–m–i–c–r–o–t–u–b–a–l–e–m–a–n–e–s–
+39 enciones trends dre -> –e–n–c–i–o–n–e–s–t–r–e–n–d–s–d–r–e–
+40 oment ennemis restitu -> –o–m–e–n–t–e–n–n–e–m–i–s–r–e–s–t–i–t–u–
+41 irme dona wykon -> –i–r–m–e–d–o–n–a–w–y–k–o–n–
+42 efic weighted rame -> –e–f–i–c–w–e–i–g–h–t–e–d–r–a–m–e–
+43 benz sputter pohy -> –b–e–n–z–s–p–u–t–t–e–r–p–o–h–y–
+44 mp escolas gerne -> –m–p–e–s–c–o–l–a–s–g–e–r–n–e–
+45 izadas terrace oxides -> –i–z–a–d–a–s–t–e–r–r–a–c–e–o–x–i–d–e–s–
+46 ellen tiempo pedra -> –e–l–l–e–n–t–i–e–m–p–o–p–e–d–r–a–
+47 ourable estil dement -> –o–u–r–a–b–l–e–e–s–t–i–l–d–e–m–e–n–t–
+48 ogg reiter suggest -> –o–g–g–r–e–i–t–e–r–s–u–g–g–e–s–t–
+49 wers juive controll -> –w–e–r–s–j–u–i–v–e–c–o–n–t–r–o–l–l–
+50 uerite separate busy -> –u–e–r–i–t–e–s–e–p–a–r–a–t–e–b–u–s–y–
+51 ocene wx gesagt -> –o–c–e–n–e–w–x–g–e–s–a–g–t–
+52 apter beh tega -> –a–p–t–e–r–b–e–h–t–e–g–a–
+53 cheon itse soaked -> –c–h–e–o–n–i–t–s–e–s–o–a–k–e–d–
+54 cers arbust harga -> –c–e–r–s–a–r–b–u–s–t–h–a–r–g–a–
+55 cias ponte aneur -> –c–i–a–s–p–o–n–t–e–a–n–e–u–r–
+56 rough progr github -> –r–o–u–g–h–p–r–o–g–r–g–i–t–h–u–b–
+57 ounced dituzte typeof -> –o–u–n–c–e–d–d–i–t–u–z–t–e–t–y–p–e–o–f–
+58 vall quanto hypnot -> –v–a–l–l–q–u–a–n–t–o–h–y–p–n–o–t–
+59 ikan curb beg -> –i–k–a–n–c–u–r–b–b–e–g–
+60 visi innan lebt -> –v–i–s–i–i–n–n–a–n–l–e–b–t–
+61 elten priorit avere -> –e–l–t–e–n–p–r–i–o–r–i–t–a–v–e–r–e–
+62 bf ziehen erinnert -> –b–f–z–i–e–h–e–n–e–r–i–n–n–e–r–t–
+63 imu escrav zust -> –i–m–u–e–s–c–r–a–v–z–u–s–t–
+64 icip blocked forty -> –i–c–i–p–b–l–o–c–k–e–d–f–o–r–t–y–
+65 hr thinning yii -> –h–r–t–h–i–n–n–i–n–g–y–i–i–
+66 etit jej modules -> –e–t–i–t–j–e–j–m–o–d–u–l–e–s–
+67 ana hlas medico -> –a–n–a–h–l–a–s–m–e–d–i–c–o–
+68 rug finns poll -> –r–u–g–f–i–n–n–s–p–o–l–l–
+69 gede bulunan puissant -> –g–e–d–e–b–u–l–u–n–a–n–p–u–i–s–s–a–n–t–
+70 alon flujo laptop -> –a–l–o–n–f–l–u–j–o–l–a–p–t–o–p–
+71 aho koncert tiz -> –a–h–o–k–o–n–c–e–r–t–t–i–z–
+72 extends ner poste -> –e–x–t–e–n–d–s–n–e–r–p–o–s–t–e–
+73 oxane dibuj fear -> –o–x–a–n–e–d–i–b–u–j–f–e–a–r–
+74 ceaux pran secular -> –c–e–a–u–x–p–r–a–n–s–e–c–u–l–a–r–
+75 innon bleek gau -> –i–n–n–o–n–b–l–e–e–k–g–a–u–
+76 assa kautta antigos -> –a–s–s–a–k–a–u–t–t–a–a–n–t–i–g–o–s–
+77 uez tabac clutch -> –u–e–z–t–a–b–a–c–c–l–u–t–c–h–
+78 per uneven grec -> –p–e–r–u–n–e–v–e–n–g–r–e–c–
+79 ologists mensen mister -> –o–l–o–g–i–s–t–s–m–e–n–s–e–n–m–i–s–t–e–r–
+80 regex ine payment -> –r–e–g–e–x–i–n–e–p–a–y–m–e–n–t–
+81 ymes menus billion -> –y–m–e–s–m–e–n–u–s–b–i–l–l–i–o–n–
+82 incs indicar tedes -> –i–n–c–s–i–n–d–i–c–a–r–t–e–d–e–s–
+83 arming sienne beteg -> –a–r–m–i–n–g–s–i–e–n–n–e–b–e–t–e–g–
+84 raint abz campagne -> –r–a–i–n–t–a–b–z–c–a–m–p–a–g–n–e–
+85 ustrial net car -> –u–s–t–r–i–a–l–n–e–t–c–a–r–
+86 ested podle izg -> –e–s–t–e–d–p–o–d–l–e–i–z–g–
+87 ousand sim effector -> –o–u–s–a–n–d–s–i–m–e–f–f–e–c–t–o–r–
+88 olitik pharmacy lia -> –o–l–i–t–i–k–p–h–a–r–m–a–c–y–l–i–a–
+89 eki dar ano -> –e–k–i–d–a–r–a–n–o–
+90 another alimento regering -> –a–n–o–t–h–e–r–a–l–i–m–e–n–t–o–r–e–g–e–r–i–n–g–
+91 oe sway nahm -> –o–e–s–w–a–y–n–a–h–m–
+92 akes erforder gewonnen -> –a–k–e–s–e–r–f–o–r–d–e–r–g–e–w–o–n–n–e–n–
+93 lemma vend postoje -> –l–e–m–m–a–v–e–n–d–p–o–s–t–o–j–e–
+94 ystal isolated rejon -> –y–s–t–a–l–i–s–o–l–a–t–e–d–r–e–j–o–n–
+95 itten hameau prolifer -> –i–t–t–e–n–h–a–m–e–a–u–p–r–o–l–i–f–e–r–
+96 rees locality imen -> –r–e–e–s–l–o–c–a–l–i–t–y–i–m–e–n–
+97 uminate otr shower -> –u–m–i–n–a–t–e–o–t–r–s–h–o–w–e–r–
+98 poly hela geboren -> –p–o–l–y–h–e–l–a–g–e–b–o–r–e–n–
+99 okuuta fn besie -> –o–k–u–u–t–a–f–n–b–e–s–i–e–

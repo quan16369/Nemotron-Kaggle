@@ -1,0 +1,25 @@
+problem id: e5b65a4c
+category: cryptarithm_deduce
+
+symbol-to-digit mapping:
+  '!' = 9
+  '#' = 2
+  '%' = 5
+  ')' = 7
+  '?' = 3
+  '^' = 4
+  '`' = 1
+  '|' = 8
+
+operator-to-operation mapping:
+  '<' = mul
+  '@' = add
+
+examples:
+  `)<#` = ?%)  =>  17 * 21 = 357
+  %^@?` = |%  =>  54 + 31 = 85
+  )!@%? = `?#  =>  79 + 53 = 132
+
+query: |%@#)  =>  85 + 27 = 112
+
+predicted answer: ``#

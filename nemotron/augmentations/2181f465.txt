@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 black tron lum
+01 fficacy fool ancora
+02 endrait near skewed
+
+This is a sample output.
+00 black tron lum -> –b–l–a–c–k–t–r–o–n–l–u–m–
+01 fficacy fool ancora -> –f–f–i–c–a–c–y–f–o–o–l–a–n–c–o–r–a–
+02 endrait near skewed -> –e–n–d–r–a–i–t–n–e–a–r–s–k–e–w–e–d–
+
+This is your input.
+00 folio prevents carried
+01 rolifer espoir desired
+02 proc fantasma shades
+03 hdys ideally bok
+04 inded reforma genet
+05 nictwa init lar
+06 atek lenses ausger
+07 alach altitud parler
+08 enson facult poja
+09 module channel impot
+10 chron tere mutation
+11 engt issues invasive
+12 uje estim interv
+13 atlan nichts lastname
+14 agua halted resolver
+15 voix bedro accur
+16 gio traits diversas
+17 zoni donors avenue
+18 textit sadness responde
+19 oubl leth walki
+20 ifix monthly breed
+21 jos derrotar surpass
+22 ompok skull notre
+23 heten sing quattro
+24 ership kov geste
+25 rico jj renuncia
+26 anskih longer revis
+27 ucia vie tamam
+28 erre sempl hampir
+29 gesetz diagrams climat
+30 ificat cha tendo
+31 computer viste volunt
+32 ordon jes zdrav
+33 agen immers property
+34 dux sworn interse
+35 ecution adher twe
+36 uerte dunha magnitud
+37 rsg impr famiglia
+38 sqlite izquier shuffle
+39 fera wartime sacred
+40 heng irm avvicin
+41 irir diritti best
+42 uts sortable cater
+43 sns river dades
+44 crement massima entdeckt
+45 dule baixo gero
+46 isms tinh cuarenta
+47 tyw medical twor
+48 alamus obten llengua
+49 uetan spaces espos
+50 ides contend dw
+51 ategori undo bewusst
+52 pea ketika desn
+53 romagnet sucess lluvia
+54 burg zeb austr
+55 zdem grateful islands
+56 emer leden utterly
+57 white depth minhas
+58 pyr duke constitu
+59 ucho humans blat
+60 osevelt library slate
+61 schein kanon judicial
+62 ijskih vlast ninth
+63 vergne artisan enfin
+64 rivain facilit amin
+65 gleich lume veget
+66 vania aperture ungef
+67 qty desde flared
+68 chunk voork projeto
+69 agi vaqt demonst
+70 ikat kor wirklich
+71 uling veld ezek
+72 chner larval ouvrit
+73 shine poskyt peat
+74 rzez mutual estuv
+75 cao enfor payments
+76 ucional campes shotgun
+77 eldi dump anima
+78 venu think sorte
+79 vasive persegu cidades
+80 br viser havde
+81 rano szerepl huom
+82 oglobin abs bel
+83 yk dressed mulher
+84 ugu actor questo
+85 ultures cardinal convenc
+86 lt terminou benefits
+87 rish saw raket
+88 hir gare devia
+89 astanza systemic examines
+90 orspr piac miesz
+91 empat nb apprent
+92 ounder vitt cohort
+93 decin obed biais
+94 hour pandemia manner
+95 upart dock chois
+96 alde fraction migrate
+97 uban dramatic paying
+98 ruf clamp kemudian
+99 vette chats laug
+[completion]
+00 folio prevents carried -> –f–o–l–i–o–p–r–e–v–e–n–t–s–c–a–r–r–i–e–d–
+01 rolifer espoir desired -> –r–o–l–i–f–e–r–e–s–p–o–i–r–d–e–s–i–r–e–d–
+02 proc fantasma shades -> –p–r–o–c–f–a–n–t–a–s–m–a–s–h–a–d–e–s–
+03 hdys ideally bok -> –h–d–y–s–i–d–e–a–l–l–y–b–o–k–
+04 inded reforma genet -> –i–n–d–e–d–r–e–f–o–r–m–a–g–e–n–e–t–
+05 nictwa init lar -> –n–i–c–t–w–a–i–n–i–t–l–a–r–
+06 atek lenses ausger -> –a–t–e–k–l–e–n–s–e–s–a–u–s–g–e–r–
+07 alach altitud parler -> –a–l–a–c–h–a–l–t–i–t–u–d–p–a–r–l–e–r–
+08 enson facult poja -> –e–n–s–o–n–f–a–c–u–l–t–p–o–j–a–
+09 module channel impot -> –m–o–d–u–l–e–c–h–a–n–n–e–l–i–m–p–o–t–
+10 chron tere mutation -> –c–h–r–o–n–t–e–r–e–m–u–t–a–t–i–o–n–
+11 engt issues invasive -> –e–n–g–t–i–s–s–u–e–s–i–n–v–a–s–i–v–e–
+12 uje estim interv -> –u–j–e–e–s–t–i–m–i–n–t–e–r–v–
+13 atlan nichts lastname -> –a–t–l–a–n–n–i–c–h–t–s–l–a–s–t–n–a–m–e–
+14 agua halted resolver -> –a–g–u–a–h–a–l–t–e–d–r–e–s–o–l–v–e–r–
+15 voix bedro accur -> –v–o–i–x–b–e–d–r–o–a–c–c–u–r–
+16 gio traits diversas -> –g–i–o–t–r–a–i–t–s–d–i–v–e–r–s–a–s–
+17 zoni donors avenue -> –z–o–n–i–d–o–n–o–r–s–a–v–e–n–u–e–
+18 textit sadness responde -> –t–e–x–t–i–t–s–a–d–n–e–s–s–r–e–s–p–o–n–d–e–
+19 oubl leth walki -> –o–u–b–l–l–e–t–h–w–a–l–k–i–
+20 ifix monthly breed -> –i–f–i–x–m–o–n–t–h–l–y–b–r–e–e–d–
+21 jos derrotar surpass -> –j–o–s–d–e–r–r–o–t–a–r–s–u–r–p–a–s–s–
+22 ompok skull notre -> –o–m–p–o–k–s–k–u–l–l–n–o–t–r–e–
+23 heten sing quattro -> –h–e–t–e–n–s–i–n–g–q–u–a–t–t–r–o–
+24 ership kov geste -> –e–r–s–h–i–p–k–o–v–g–e–s–t–e–
+25 rico jj renuncia -> –r–i–c–o–j–j–r–e–n–u–n–c–i–a–
+26 anskih longer revis -> –a–n–s–k–i–h–l–o–n–g–e–r–r–e–v–i–s–
+27 ucia vie tamam -> –u–c–i–a–v–i–e–t–a–m–a–m–
+28 erre sempl hampir -> –e–r–r–e–s–e–m–p–l–h–a–m–p–i–r–
+29 gesetz diagrams climat -> –g–e–s–e–t–z–d–i–a–g–r–a–m–s–c–l–i–m–a–t–
+30 ificat cha tendo -> –i–f–i–c–a–t–c–h–a–t–e–n–d–o–
+31 computer viste volunt -> –c–o–m–p–u–t–e–r–v–i–s–t–e–v–o–l–u–n–t–
+32 ordon jes zdrav -> –o–r–d–o–n–j–e–s–z–d–r–a–v–
+33 agen immers property -> –a–g–e–n–i–m–m–e–r–s–p–r–o–p–e–r–t–y–
+34 dux sworn interse -> –d–u–x–s–w–o–r–n–i–n–t–e–r–s–e–
+35 ecution adher twe -> –e–c–u–t–i–o–n–a–d–h–e–r–t–w–e–
+36 uerte dunha magnitud -> –u–e–r–t–e–d–u–n–h–a–m–a–g–n–i–t–u–d–
+37 rsg impr famiglia -> –r–s–g–i–m–p–r–f–a–m–i–g–l–i–a–
+38 sqlite izquier shuffle -> –s–q–l–i–t–e–i–z–q–u–i–e–r–s–h–u–f–f–l–e–
+39 fera wartime sacred -> –f–e–r–a–w–a–r–t–i–m–e–s–a–c–r–e–d–
+40 heng irm avvicin -> –h–e–n–g–i–r–m–a–v–v–i–c–i–n–
+41 irir diritti best -> –i–r–i–r–d–i–r–i–t–t–i–b–e–s–t–
+42 uts sortable cater -> –u–t–s–s–o–r–t–a–b–l–e–c–a–t–e–r–
+43 sns river dades -> –s–n–s–r–i–v–e–r–d–a–d–e–s–
+44 crement massima entdeckt -> –c–r–e–m–e–n–t–m–a–s–s–i–m–a–e–n–t–d–e–c–k–t–
+45 dule baixo gero -> –d–u–l–e–b–a–i–x–o–g–e–r–o–
+46 isms tinh cuarenta -> –i–s–m–s–t–i–n–h–c–u–a–r–e–n–t–a–
+47 tyw medical twor -> –t–y–w–m–e–d–i–c–a–l–t–w–o–r–
+48 alamus obten llengua -> –a–l–a–m–u–s–o–b–t–e–n–l–l–e–n–g–u–a–
+49 uetan spaces espos -> –u–e–t–a–n–s–p–a–c–e–s–e–s–p–o–s–
+50 ides contend dw -> –i–d–e–s–c–o–n–t–e–n–d–d–w–
+51 ategori undo bewusst -> –a–t–e–g–o–r–i–u–n–d–o–b–e–w–u–s–s–t–
+52 pea ketika desn -> –p–e–a–k–e–t–i–k–a–d–e–s–n–
+53 romagnet sucess lluvia -> –r–o–m–a–g–n–e–t–s–u–c–e–s–s–l–l–u–v–i–a–
+54 burg zeb austr -> –b–u–r–g–z–e–b–a–u–s–t–r–
+55 zdem grateful islands -> –z–d–e–m–g–r–a–t–e–f–u–l–i–s–l–a–n–d–s–
+56 emer leden utterly -> –e–m–e–r–l–e–d–e–n–u–t–t–e–r–l–y–
+57 white depth minhas -> –w–h–i–t–e–d–e–p–t–h–m–i–n–h–a–s–
+58 pyr duke constitu -> –p–y–r–d–u–k–e–c–o–n–s–t–i–t–u–
+59 ucho humans blat -> –u–c–h–o–h–u–m–a–n–s–b–l–a–t–
+60 osevelt library slate -> –o–s–e–v–e–l–t–l–i–b–r–a–r–y–s–l–a–t–e–
+61 schein kanon judicial -> –s–c–h–e–i–n–k–a–n–o–n–j–u–d–i–c–i–a–l–
+62 ijskih vlast ninth -> –i–j–s–k–i–h–v–l–a–s–t–n–i–n–t–h–
+63 vergne artisan enfin -> –v–e–r–g–n–e–a–r–t–i–s–a–n–e–n–f–i–n–
+64 rivain facilit amin -> –r–i–v–a–i–n–f–a–c–i–l–i–t–a–m–i–n–
+65 gleich lume veget -> –g–l–e–i–c–h–l–u–m–e–v–e–g–e–t–
+66 vania aperture ungef -> –v–a–n–i–a–a–p–e–r–t–u–r–e–u–n–g–e–f–
+67 qty desde flared -> –q–t–y–d–e–s–d–e–f–l–a–r–e–d–
+68 chunk voork projeto -> –c–h–u–n–k–v–o–o–r–k–p–r–o–j–e–t–o–
+69 agi vaqt demonst -> –a–g–i–v–a–q–t–d–e–m–o–n–s–t–
+70 ikat kor wirklich -> –i–k–a–t–k–o–r–w–i–r–k–l–i–c–h–
+71 uling veld ezek -> –u–l–i–n–g–v–e–l–d–e–z–e–k–
+72 chner larval ouvrit -> –c–h–n–e–r–l–a–r–v–a–l–o–u–v–r–i–t–
+73 shine poskyt peat -> –s–h–i–n–e–p–o–s–k–y–t–p–e–a–t–
+74 rzez mutual estuv -> –r–z–e–z–m–u–t–u–a–l–e–s–t–u–v–
+75 cao enfor payments -> –c–a–o–e–n–f–o–r–p–a–y–m–e–n–t–s–
+76 ucional campes shotgun -> –u–c–i–o–n–a–l–c–a–m–p–e–s–s–h–o–t–g–u–n–
+77 eldi dump anima -> –e–l–d–i–d–u–m–p–a–n–i–m–a–
+78 venu think sorte -> –v–e–n–u–t–h–i–n–k–s–o–r–t–e–
+79 vasive persegu cidades -> –v–a–s–i–v–e–p–e–r–s–e–g–u–c–i–d–a–d–e–s–
+80 br viser havde -> –b–r–v–i–s–e–r–h–a–v–d–e–
+81 rano szerepl huom -> –r–a–n–o–s–z–e–r–e–p–l–h–u–o–m–
+82 oglobin abs bel -> –o–g–l–o–b–i–n–a–b–s–b–e–l–
+83 yk dressed mulher -> –y–k–d–r–e–s–s–e–d–m–u–l–h–e–r–
+84 ugu actor questo -> –u–g–u–a–c–t–o–r–q–u–e–s–t–o–
+85 ultures cardinal convenc -> –u–l–t–u–r–e–s–c–a–r–d–i–n–a–l–c–o–n–v–e–n–c–
+86 lt terminou benefits -> –l–t–t–e–r–m–i–n–o–u–b–e–n–e–f–i–t–s–
+87 rish saw raket -> –r–i–s–h–s–a–w–r–a–k–e–t–
+88 hir gare devia -> –h–i–r–g–a–r–e–d–e–v–i–a–
+89 astanza systemic examines -> –a–s–t–a–n–z–a–s–y–s–t–e–m–i–c–e–x–a–m–i–n–e–s–
+90 orspr piac miesz -> –o–r–s–p–r–p–i–a–c–m–i–e–s–z–
+91 empat nb apprent -> –e–m–p–a–t–n–b–a–p–p–r–e–n–t–
+92 ounder vitt cohort -> –o–u–n–d–e–r–v–i–t–t–c–o–h–o–r–t–
+93 decin obed biais -> –d–e–c–i–n–o–b–e–d–b–i–a–i–s–
+94 hour pandemia manner -> –h–o–u–r–p–a–n–d–e–m–i–a–m–a–n–n–e–r–
+95 upart dock chois -> –u–p–a–r–t–d–o–c–k–c–h–o–i–s–
+96 alde fraction migrate -> –a–l–d–e–f–r–a–c–t–i–o–n–m–i–g–r–a–t–e–
+97 uban dramatic paying -> –u–b–a–n–d–r–a–m–a–t–i–c–p–a–y–i–n–g–
+98 ruf clamp kemudian -> –r–u–f–c–l–a–m–p–k–e–m–u–d–i–a–n–
+99 vette chats laug -> –v–e–t–t–e–c–h–a–t–s–l–a–u–g–

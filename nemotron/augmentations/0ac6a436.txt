@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 isseur dioc eingeg
+01 pern purs befest
+02 sty colores rim
+
+This is a sample output.
+00 isseur dioc eingeg -> –i–s–s–e–u–r–d–i–o–c–e–i–n–g–e–g–
+01 pern purs befest -> –p–e–r–n–p–u–r–s–b–e–f–e–s–t–
+02 sty colores rim -> –s–t–y–c–o–l–o–r–e–s–r–i–m–
+
+This is your input.
+00 ucci gratuit cleaning
+01 nde repeat instante
+02 igl yoz pron
+03 mitt sugger comes
+04 strate forec obce
+05 ained accompan seda
+06 jian detox snippet
+07 adis znaj sulfon
+08 ylene reports passive
+09 apor adept gjith
+10 enos recouv taking
+11 vor sil pond
+12 utional turning cosmic
+13 poir beider horizont
+14 ertung hubiese throttle
+15 yac wan monst
+16 yst retrans brach
+17 chi aquellos abund
+18 atem estrateg imped
+19 reifen female prefers
+20 itres ovvero herm
+21 tum repet terug
+22 hrase harml offence
+23 insic giovane pisos
+24 isable caz compar
+25 itatea vocals surround
+26 reeze igen byg
+27 ws year botan
+28 hta kjent hears
+29 wohner amylo enrolled
+30 indy linna halfway
+31 uels chromium shuffled
+32 yam batean walls
+33 tschaft aimait venues
+34 abstract actress point
+35 orders divis draped
+36 iminary erud ulcer
+37 forte aurr dislike
+38 iani remed reversal
+39 pick trz witch
+40 mano gh editor
+41 vector pronunci flash
+42 yczaj needles okre
+43 ferroni arrested concerto
+44 odno hasil erb
+45 gesetzt him remarks
+46 ionu bringing stor
+47 itore sente gcc
+48 frica patients faible
+49 rais fauteu bepa
+50 unting enter textual
+51 uku hover poc
+52 essel kial wyda
+53 asone fibrous cot
+54 wirkung corred modello
+55 aves pkg bordo
+56 horse foraging durant
+57 gie unaware solder
+58 overset fights une
+59 wegung torno spine
+60 cou perang meadow
+61 aside utilitz fc
+62 empre mosaic flank
+63 anning superfic fare
+64 etal agricole restaur
+65 any alph enable
+66 ouncing shelf cost
+67 iro revenus welfare
+68 lier bijna replied
+69 amount amine escriure
+70 mary nesse allora
+71 cija kwam encrypt
+72 ativas yapt nostra
+73 cono mehrere malign
+74 opo toege homem
+75 odox objetivo horr
+76 dre vivants render
+77 cked kunde stream
+78 cado warmed visions
+79 beli atom amber
+80 kach kling kingdom
+81 ikel geb fields
+82 delete vat savun
+83 versed aux imb
+84 wiegend perioada humain
+85 feld complex present
+86 argc north needed
+87 liches zn proves
+88 ledal extends ers
+89 ieszka regista preko
+90 nicy wouldn jaro
+91 otros equival aport
+92 abul pity immagin
+93 alian rollers larges
+94 aufhin benoem lup
+95 put amikor wereld
+96 lo scared hort
+97 uth conect relent
+98 acje papiers fant
+99 ician fratt checkbox
+[completion]
+00 ucci gratuit cleaning -> –u–c–c–i–g–r–a–t–u–i–t–c–l–e–a–n–i–n–g–
+01 nde repeat instante -> –n–d–e–r–e–p–e–a–t–i–n–s–t–a–n–t–e–
+02 igl yoz pron -> –i–g–l–y–o–z–p–r–o–n–
+03 mitt sugger comes -> –m–i–t–t–s–u–g–g–e–r–c–o–m–e–s–
+04 strate forec obce -> –s–t–r–a–t–e–f–o–r–e–c–o–b–c–e–
+05 ained accompan seda -> –a–i–n–e–d–a–c–c–o–m–p–a–n–s–e–d–a–
+06 jian detox snippet -> –j–i–a–n–d–e–t–o–x–s–n–i–p–p–e–t–
+07 adis znaj sulfon -> –a–d–i–s–z–n–a–j–s–u–l–f–o–n–
+08 ylene reports passive -> –y–l–e–n–e–r–e–p–o–r–t–s–p–a–s–s–i–v–e–
+09 apor adept gjith -> –a–p–o–r–a–d–e–p–t–g–j–i–t–h–
+10 enos recouv taking -> –e–n–o–s–r–e–c–o–u–v–t–a–k–i–n–g–
+11 vor sil pond -> –v–o–r–s–i–l–p–o–n–d–
+12 utional turning cosmic -> –u–t–i–o–n–a–l–t–u–r–n–i–n–g–c–o–s–m–i–c–
+13 poir beider horizont -> –p–o–i–r–b–e–i–d–e–r–h–o–r–i–z–o–n–t–
+14 ertung hubiese throttle -> –e–r–t–u–n–g–h–u–b–i–e–s–e–t–h–r–o–t–t–l–e–
+15 yac wan monst -> –y–a–c–w–a–n–m–o–n–s–t–
+16 yst retrans brach -> –y–s–t–r–e–t–r–a–n–s–b–r–a–c–h–
+17 chi aquellos abund -> –c–h–i–a–q–u–e–l–l–o–s–a–b–u–n–d–
+18 atem estrateg imped -> –a–t–e–m–e–s–t–r–a–t–e–g–i–m–p–e–d–
+19 reifen female prefers -> –r–e–i–f–e–n–f–e–m–a–l–e–p–r–e–f–e–r–s–
+20 itres ovvero herm -> –i–t–r–e–s–o–v–v–e–r–o–h–e–r–m–
+21 tum repet terug -> –t–u–m–r–e–p–e–t–t–e–r–u–g–
+22 hrase harml offence -> –h–r–a–s–e–h–a–r–m–l–o–f–f–e–n–c–e–
+23 insic giovane pisos -> –i–n–s–i–c–g–i–o–v–a–n–e–p–i–s–o–s–
+24 isable caz compar -> –i–s–a–b–l–e–c–a–z–c–o–m–p–a–r–
+25 itatea vocals surround -> –i–t–a–t–e–a–v–o–c–a–l–s–s–u–r–r–o–u–n–d–
+26 reeze igen byg -> –r–e–e–z–e–i–g–e–n–b–y–g–
+27 ws year botan -> –w–s–y–e–a–r–b–o–t–a–n–
+28 hta kjent hears -> –h–t–a–k–j–e–n–t–h–e–a–r–s–
+29 wohner amylo enrolled -> –w–o–h–n–e–r–a–m–y–l–o–e–n–r–o–l–l–e–d–
+30 indy linna halfway -> –i–n–d–y–l–i–n–n–a–h–a–l–f–w–a–y–
+31 uels chromium shuffled -> –u–e–l–s–c–h–r–o–m–i–u–m–s–h–u–f–f–l–e–d–
+32 yam batean walls -> –y–a–m–b–a–t–e–a–n–w–a–l–l–s–
+33 tschaft aimait venues -> –t–s–c–h–a–f–t–a–i–m–a–i–t–v–e–n–u–e–s–
+34 abstract actress point -> –a–b–s–t–r–a–c–t–a–c–t–r–e–s–s–p–o–i–n–t–
+35 orders divis draped -> –o–r–d–e–r–s–d–i–v–i–s–d–r–a–p–e–d–
+36 iminary erud ulcer -> –i–m–i–n–a–r–y–e–r–u–d–u–l–c–e–r–
+37 forte aurr dislike -> –f–o–r–t–e–a–u–r–r–d–i–s–l–i–k–e–
+38 iani remed reversal -> –i–a–n–i–r–e–m–e–d–r–e–v–e–r–s–a–l–
+39 pick trz witch -> –p–i–c–k–t–r–z–w–i–t–c–h–
+40 mano gh editor -> –m–a–n–o–g–h–e–d–i–t–o–r–
+41 vector pronunci flash -> –v–e–c–t–o–r–p–r–o–n–u–n–c–i–f–l–a–s–h–
+42 yczaj needles okre -> –y–c–z–a–j–n–e–e–d–l–e–s–o–k–r–e–
+43 ferroni arrested concerto -> –f–e–r–r–o–n–i–a–r–r–e–s–t–e–d–c–o–n–c–e–r–t–o–
+44 odno hasil erb -> –o–d–n–o–h–a–s–i–l–e–r–b–
+45 gesetzt him remarks -> –g–e–s–e–t–z–t–h–i–m–r–e–m–a–r–k–s–
+46 ionu bringing stor -> –i–o–n–u–b–r–i–n–g–i–n–g–s–t–o–r–
+47 itore sente gcc -> –i–t–o–r–e–s–e–n–t–e–g–c–c–
+48 frica patients faible -> –f–r–i–c–a–p–a–t–i–e–n–t–s–f–a–i–b–l–e–
+49 rais fauteu bepa -> –r–a–i–s–f–a–u–t–e–u–b–e–p–a–
+50 unting enter textual -> –u–n–t–i–n–g–e–n–t–e–r–t–e–x–t–u–a–l–
+51 uku hover poc -> –u–k–u–h–o–v–e–r–p–o–c–
+52 essel kial wyda -> –e–s–s–e–l–k–i–a–l–w–y–d–a–
+53 asone fibrous cot -> –a–s–o–n–e–f–i–b–r–o–u–s–c–o–t–
+54 wirkung corred modello -> –w–i–r–k–u–n–g–c–o–r–r–e–d–m–o–d–e–l–l–o–
+55 aves pkg bordo -> –a–v–e–s–p–k–g–b–o–r–d–o–
+56 horse foraging durant -> –h–o–r–s–e–f–o–r–a–g–i–n–g–d–u–r–a–n–t–
+57 gie unaware solder -> –g–i–e–u–n–a–w–a–r–e–s–o–l–d–e–r–
+58 overset fights une -> –o–v–e–r–s–e–t–f–i–g–h–t–s–u–n–e–
+59 wegung torno spine -> –w–e–g–u–n–g–t–o–r–n–o–s–p–i–n–e–
+60 cou perang meadow -> –c–o–u–p–e–r–a–n–g–m–e–a–d–o–w–
+61 aside utilitz fc -> –a–s–i–d–e–u–t–i–l–i–t–z–f–c–
+62 empre mosaic flank -> –e–m–p–r–e–m–o–s–a–i–c–f–l–a–n–k–
+63 anning superfic fare -> –a–n–n–i–n–g–s–u–p–e–r–f–i–c–f–a–r–e–
+64 etal agricole restaur -> –e–t–a–l–a–g–r–i–c–o–l–e–r–e–s–t–a–u–r–
+65 any alph enable -> –a–n–y–a–l–p–h–e–n–a–b–l–e–
+66 ouncing shelf cost -> –o–u–n–c–i–n–g–s–h–e–l–f–c–o–s–t–
+67 iro revenus welfare -> –i–r–o–r–e–v–e–n–u–s–w–e–l–f–a–r–e–
+68 lier bijna replied -> –l–i–e–r–b–i–j–n–a–r–e–p–l–i–e–d–
+69 amount amine escriure -> –a–m–o–u–n–t–a–m–i–n–e–e–s–c–r–i–u–r–e–
+70 mary nesse allora -> –m–a–r–y–n–e–s–s–e–a–l–l–o–r–a–
+71 cija kwam encrypt -> –c–i–j–a–k–w–a–m–e–n–c–r–y–p–t–
+72 ativas yapt nostra -> –a–t–i–v–a–s–y–a–p–t–n–o–s–t–r–a–
+73 cono mehrere malign -> –c–o–n–o–m–e–h–r–e–r–e–m–a–l–i–g–n–
+74 opo toege homem -> –o–p–o–t–o–e–g–e–h–o–m–e–m–
+75 odox objetivo horr -> –o–d–o–x–o–b–j–e–t–i–v–o–h–o–r–r–
+76 dre vivants render -> –d–r–e–v–i–v–a–n–t–s–r–e–n–d–e–r–
+77 cked kunde stream -> –c–k–e–d–k–u–n–d–e–s–t–r–e–a–m–
+78 cado warmed visions -> –c–a–d–o–w–a–r–m–e–d–v–i–s–i–o–n–s–
+79 beli atom amber -> –b–e–l–i–a–t–o–m–a–m–b–e–r–
+80 kach kling kingdom -> –k–a–c–h–k–l–i–n–g–k–i–n–g–d–o–m–
+81 ikel geb fields -> –i–k–e–l–g–e–b–f–i–e–l–d–s–
+82 delete vat savun -> –d–e–l–e–t–e–v–a–t–s–a–v–u–n–
+83 versed aux imb -> –v–e–r–s–e–d–a–u–x–i–m–b–
+84 wiegend perioada humain -> –w–i–e–g–e–n–d–p–e–r–i–o–a–d–a–h–u–m–a–i–n–
+85 feld complex present -> –f–e–l–d–c–o–m–p–l–e–x–p–r–e–s–e–n–t–
+86 argc north needed -> –a–r–g–c–n–o–r–t–h–n–e–e–d–e–d–
+87 liches zn proves -> –l–i–c–h–e–s–z–n–p–r–o–v–e–s–
+88 ledal extends ers -> –l–e–d–a–l–e–x–t–e–n–d–s–e–r–s–
+89 ieszka regista preko -> –i–e–s–z–k–a–r–e–g–i–s–t–a–p–r–e–k–o–
+90 nicy wouldn jaro -> –n–i–c–y–w–o–u–l–d–n–j–a–r–o–
+91 otros equival aport -> –o–t–r–o–s–e–q–u–i–v–a–l–a–p–o–r–t–
+92 abul pity immagin -> –a–b–u–l–p–i–t–y–i–m–m–a–g–i–n–
+93 alian rollers larges -> –a–l–i–a–n–r–o–l–l–e–r–s–l–a–r–g–e–s–
+94 aufhin benoem lup -> –a–u–f–h–i–n–b–e–n–o–e–m–l–u–p–
+95 put amikor wereld -> –p–u–t–a–m–i–k–o–r–w–e–r–e–l–d–
+96 lo scared hort -> –l–o–s–c–a–r–e–d–h–o–r–t–
+97 uth conect relent -> –u–t–h–c–o–n–e–c–t–r–e–l–e–n–t–
+98 acje papiers fant -> –a–c–j–e–p–a–p–i–e–r–s–f–a–n–t–
+99 ician fratt checkbox -> –i–c–i–a–n–f–r–a–t–t–c–h–e–c–k–b–o–x–

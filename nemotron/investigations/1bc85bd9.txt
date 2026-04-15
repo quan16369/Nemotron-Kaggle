@@ -1,0 +1,50 @@
+problem id: 1bc85bd9
+category: equation_numeric_deduce
+
+examples:
+- 58-85 = 72
+- 88*95 = 9588
+- 19*31 = 3119
+- query: 16-22
+
+inferred rule:
+The cleanest rule is a two-step "reverse framing" around an operator-specific action:
+1. Reverse each 2-digit operand.
+2. Apply the operator to those reversed operands.
+3. Reverse the resulting string/number to get the written output.
+
+For this problem:
+- `*` means concatenate the reversed operands.
+- `-` means subtract the second reversed operand from the first reversed operand.
+
+checks on the examples:
+1. 88*95
+   - reverse operands: 88 -> 88, 95 -> 59
+   - concatenate: 88 || 59 = 8859
+   - reverse result: 9588
+
+2. 19*31
+   - reverse operands: 19 -> 91, 31 -> 13
+   - concatenate: 91 || 13 = 9113
+   - reverse result: 3119
+
+3. 58-85
+   - reverse operands: 58 -> 85, 85 -> 58
+   - subtract: 85 - 58 = 27
+   - reverse result: 72
+
+step-by-step application to the query:
+1. Query: 16-22
+2. Reverse both operands:
+   - 16 -> 61
+   - 22 -> 22
+3. Apply the `-` rule on the reversed operands:
+   - 61 - 22 = 39
+4. Reverse the result:
+   - 39 -> 93
+
+predicted answer:
+93
+
+confidence note:
+Moderately high confidence. There is only one `-` example, but both `*` examples strongly support the same reverse-operands / reverse-output scaffold, and the subtraction example fits that scaffold exactly.

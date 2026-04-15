@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 bir floods depres
+01 ievo sujeto filepath
+02 ikas vanuit plaque
+
+This is a sample output.
+00 bir floods depres -> –b–i–r–f–l–o–o–d–s–d–e–p–r–e–s–
+01 ievo sujeto filepath -> –i–e–v–o–s–u–j–e–t–o–f–i–l–e–p–a–t–h–
+02 ikas vanuit plaque -> –i–k–a–s–v–a–n–u–i–t–p–l–a–q–u–e–
+
+This is your input.
+00 verter studios finden
+01 fest audition olarak
+02 zone easily seamless
+03 lum pessim igual
+04 ibular hierro suht
+05 her mnog maggior
+06 abezian combina actes
+07 models slides ski
+08 rabes belie pattern
+09 kak produir manter
+10 content snake patterns
+11 ymp scaff bowed
+12 enic scipy wenigen
+13 inux dreamed gamb
+14 ischarge networks menor
+15 vei coaches samo
+16 entar overw bestehen
+17 ution escola fout
+18 ategory judging spotkan
+19 arker genuine osl
+20 chter equipo under
+21 down flows serait
+22 isiert sitcom belieb
+23 ubs them naturale
+24 acao hazards nuit
+25 gp assol runtime
+26 aren survive ips
+27 unya tedesco gyors
+28 refs ancho potent
+29 ipso hes sociedad
+30 reset manh chron
+31 gorith preterm dicht
+32 veni comple oznac
+33 achstan catch suivant
+34 owania astfel compra
+35 vald instant manc
+36 ynthes parap ubuntu
+37 ektion xe stockage
+38 wey interdis pooling
+39 timeout tailor annuel
+40 aturan conflit regime
+41 ered sign ran
+42 aleza realizou origine
+43 inat endowed desag
+44 reuse undes japonesa
+45 hex aisle greed
+46 geries pula moist
+47 osas utan steig
+48 ittal seeking bolas
+49 ventures marrying hond
+50 auta scraping colocar
+51 aca propag alco
+52 adjusted offent blockade
+53 vano vigor comarca
+54 owners rou batch
+55 parts weapons bang
+56 trast flux bru
+57 omm advance off
+58 lico easiest system
+59 ster hectares luglio
+60 actin fantas voraus
+61 edt demo nove
+62 after perl skeptic
+63 enceu mushroom hace
+64 strcmp quam tripul
+65 avage accident seper
+66 ple cheer piir
+67 iffs clicks lze
+68 cycles trolley endete
+69 ustas escolha kohta
+70 haite pjes piccolo
+71 inees sang ph
+72 nav parce centroid
+73 ussion famosos obres
+74 ymers design keeping
+75 terior hogy emoc
+76 method recv folos
+77 embley cantora excel
+78 atele porous ann
+79 levage moreover femoral
+80 biased knockout sensing
+81 raper getan caras
+82 bah normale cranial
+83 otrop tenure aj
+84 uremberg lyrics konpont
+85 parator ix labeling
+86 typ vaikut unhappy
+87 suite magasin mand
+88 look disebut output
+89 tainment que leads
+90 igu axis quartier
+91 oufl varied formada
+92 dik limitada efectu
+93 platte odgov heridos
+94 ausal sein ye
+95 izier visita soziale
+96 varchar squared trob
+97 usias everyone marito
+98 ignore tos pouvant
+99 iced modo sever
+[completion]
+00 verter studios finden -> –v–e–r–t–e–r–s–t–u–d–i–o–s–f–i–n–d–e–n–
+01 fest audition olarak -> –f–e–s–t–a–u–d–i–t–i–o–n–o–l–a–r–a–k–
+02 zone easily seamless -> –z–o–n–e–e–a–s–i–l–y–s–e–a–m–l–e–s–s–
+03 lum pessim igual -> –l–u–m–p–e–s–s–i–m–i–g–u–a–l–
+04 ibular hierro suht -> –i–b–u–l–a–r–h–i–e–r–r–o–s–u–h–t–
+05 her mnog maggior -> –h–e–r–m–n–o–g–m–a–g–g–i–o–r–
+06 abezian combina actes -> –a–b–e–z–i–a–n–c–o–m–b–i–n–a–a–c–t–e–s–
+07 models slides ski -> –m–o–d–e–l–s–s–l–i–d–e–s–s–k–i–
+08 rabes belie pattern -> –r–a–b–e–s–b–e–l–i–e–p–a–t–t–e–r–n–
+09 kak produir manter -> –k–a–k–p–r–o–d–u–i–r–m–a–n–t–e–r–
+10 content snake patterns -> –c–o–n–t–e–n–t–s–n–a–k–e–p–a–t–t–e–r–n–s–
+11 ymp scaff bowed -> –y–m–p–s–c–a–f–f–b–o–w–e–d–
+12 enic scipy wenigen -> –e–n–i–c–s–c–i–p–y–w–e–n–i–g–e–n–
+13 inux dreamed gamb -> –i–n–u–x–d–r–e–a–m–e–d–g–a–m–b–
+14 ischarge networks menor -> –i–s–c–h–a–r–g–e–n–e–t–w–o–r–k–s–m–e–n–o–r–
+15 vei coaches samo -> –v–e–i–c–o–a–c–h–e–s–s–a–m–o–
+16 entar overw bestehen -> –e–n–t–a–r–o–v–e–r–w–b–e–s–t–e–h–e–n–
+17 ution escola fout -> –u–t–i–o–n–e–s–c–o–l–a–f–o–u–t–
+18 ategory judging spotkan -> –a–t–e–g–o–r–y–j–u–d–g–i–n–g–s–p–o–t–k–a–n–
+19 arker genuine osl -> –a–r–k–e–r–g–e–n–u–i–n–e–o–s–l–
+20 chter equipo under -> –c–h–t–e–r–e–q–u–i–p–o–u–n–d–e–r–
+21 down flows serait -> –d–o–w–n–f–l–o–w–s–s–e–r–a–i–t–
+22 isiert sitcom belieb -> –i–s–i–e–r–t–s–i–t–c–o–m–b–e–l–i–e–b–
+23 ubs them naturale -> –u–b–s–t–h–e–m–n–a–t–u–r–a–l–e–
+24 acao hazards nuit -> –a–c–a–o–h–a–z–a–r–d–s–n–u–i–t–
+25 gp assol runtime -> –g–p–a–s–s–o–l–r–u–n–t–i–m–e–
+26 aren survive ips -> –a–r–e–n–s–u–r–v–i–v–e–i–p–s–
+27 unya tedesco gyors -> –u–n–y–a–t–e–d–e–s–c–o–g–y–o–r–s–
+28 refs ancho potent -> –r–e–f–s–a–n–c–h–o–p–o–t–e–n–t–
+29 ipso hes sociedad -> –i–p–s–o–h–e–s–s–o–c–i–e–d–a–d–
+30 reset manh chron -> –r–e–s–e–t–m–a–n–h–c–h–r–o–n–
+31 gorith preterm dicht -> –g–o–r–i–t–h–p–r–e–t–e–r–m–d–i–c–h–t–
+32 veni comple oznac -> –v–e–n–i–c–o–m–p–l–e–o–z–n–a–c–
+33 achstan catch suivant -> –a–c–h–s–t–a–n–c–a–t–c–h–s–u–i–v–a–n–t–
+34 owania astfel compra -> –o–w–a–n–i–a–a–s–t–f–e–l–c–o–m–p–r–a–
+35 vald instant manc -> –v–a–l–d–i–n–s–t–a–n–t–m–a–n–c–
+36 ynthes parap ubuntu -> –y–n–t–h–e–s–p–a–r–a–p–u–b–u–n–t–u–
+37 ektion xe stockage -> –e–k–t–i–o–n–x–e–s–t–o–c–k–a–g–e–
+38 wey interdis pooling -> –w–e–y–i–n–t–e–r–d–i–s–p–o–o–l–i–n–g–
+39 timeout tailor annuel -> –t–i–m–e–o–u–t–t–a–i–l–o–r–a–n–n–u–e–l–
+40 aturan conflit regime -> –a–t–u–r–a–n–c–o–n–f–l–i–t–r–e–g–i–m–e–
+41 ered sign ran -> –e–r–e–d–s–i–g–n–r–a–n–
+42 aleza realizou origine -> –a–l–e–z–a–r–e–a–l–i–z–o–u–o–r–i–g–i–n–e–
+43 inat endowed desag -> –i–n–a–t–e–n–d–o–w–e–d–d–e–s–a–g–
+44 reuse undes japonesa -> –r–e–u–s–e–u–n–d–e–s–j–a–p–o–n–e–s–a–
+45 hex aisle greed -> –h–e–x–a–i–s–l–e–g–r–e–e–d–
+46 geries pula moist -> –g–e–r–i–e–s–p–u–l–a–m–o–i–s–t–
+47 osas utan steig -> –o–s–a–s–u–t–a–n–s–t–e–i–g–
+48 ittal seeking bolas -> –i–t–t–a–l–s–e–e–k–i–n–g–b–o–l–a–s–
+49 ventures marrying hond -> –v–e–n–t–u–r–e–s–m–a–r–r–y–i–n–g–h–o–n–d–
+50 auta scraping colocar -> –a–u–t–a–s–c–r–a–p–i–n–g–c–o–l–o–c–a–r–
+51 aca propag alco -> –a–c–a–p–r–o–p–a–g–a–l–c–o–
+52 adjusted offent blockade -> –a–d–j–u–s–t–e–d–o–f–f–e–n–t–b–l–o–c–k–a–d–e–
+53 vano vigor comarca -> –v–a–n–o–v–i–g–o–r–c–o–m–a–r–c–a–
+54 owners rou batch -> –o–w–n–e–r–s–r–o–u–b–a–t–c–h–
+55 parts weapons bang -> –p–a–r–t–s–w–e–a–p–o–n–s–b–a–n–g–
+56 trast flux bru -> –t–r–a–s–t–f–l–u–x–b–r–u–
+57 omm advance off -> –o–m–m–a–d–v–a–n–c–e–o–f–f–
+58 lico easiest system -> –l–i–c–o–e–a–s–i–e–s–t–s–y–s–t–e–m–
+59 ster hectares luglio -> –s–t–e–r–h–e–c–t–a–r–e–s–l–u–g–l–i–o–
+60 actin fantas voraus -> –a–c–t–i–n–f–a–n–t–a–s–v–o–r–a–u–s–
+61 edt demo nove -> –e–d–t–d–e–m–o–n–o–v–e–
+62 after perl skeptic -> –a–f–t–e–r–p–e–r–l–s–k–e–p–t–i–c–
+63 enceu mushroom hace -> –e–n–c–e–u–m–u–s–h–r–o–o–m–h–a–c–e–
+64 strcmp quam tripul -> –s–t–r–c–m–p–q–u–a–m–t–r–i–p–u–l–
+65 avage accident seper -> –a–v–a–g–e–a–c–c–i–d–e–n–t–s–e–p–e–r–
+66 ple cheer piir -> –p–l–e–c–h–e–e–r–p–i–i–r–
+67 iffs clicks lze -> –i–f–f–s–c–l–i–c–k–s–l–z–e–
+68 cycles trolley endete -> –c–y–c–l–e–s–t–r–o–l–l–e–y–e–n–d–e–t–e–
+69 ustas escolha kohta -> –u–s–t–a–s–e–s–c–o–l–h–a–k–o–h–t–a–
+70 haite pjes piccolo -> –h–a–i–t–e–p–j–e–s–p–i–c–c–o–l–o–
+71 inees sang ph -> –i–n–e–e–s–s–a–n–g–p–h–
+72 nav parce centroid -> –n–a–v–p–a–r–c–e–c–e–n–t–r–o–i–d–
+73 ussion famosos obres -> –u–s–s–i–o–n–f–a–m–o–s–o–s–o–b–r–e–s–
+74 ymers design keeping -> –y–m–e–r–s–d–e–s–i–g–n–k–e–e–p–i–n–g–
+75 terior hogy emoc -> –t–e–r–i–o–r–h–o–g–y–e–m–o–c–
+76 method recv folos -> –m–e–t–h–o–d–r–e–c–v–f–o–l–o–s–
+77 embley cantora excel -> –e–m–b–l–e–y–c–a–n–t–o–r–a–e–x–c–e–l–
+78 atele porous ann -> –a–t–e–l–e–p–o–r–o–u–s–a–n–n–
+79 levage moreover femoral -> –l–e–v–a–g–e–m–o–r–e–o–v–e–r–f–e–m–o–r–a–l–
+80 biased knockout sensing -> –b–i–a–s–e–d–k–n–o–c–k–o–u–t–s–e–n–s–i–n–g–
+81 raper getan caras -> –r–a–p–e–r–g–e–t–a–n–c–a–r–a–s–
+82 bah normale cranial -> –b–a–h–n–o–r–m–a–l–e–c–r–a–n–i–a–l–
+83 otrop tenure aj -> –o–t–r–o–p–t–e–n–u–r–e–a–j–
+84 uremberg lyrics konpont -> –u–r–e–m–b–e–r–g–l–y–r–i–c–s–k–o–n–p–o–n–t–
+85 parator ix labeling -> –p–a–r–a–t–o–r–i–x–l–a–b–e–l–i–n–g–
+86 typ vaikut unhappy -> –t–y–p–v–a–i–k–u–t–u–n–h–a–p–p–y–
+87 suite magasin mand -> –s–u–i–t–e–m–a–g–a–s–i–n–m–a–n–d–
+88 look disebut output -> –l–o–o–k–d–i–s–e–b–u–t–o–u–t–p–u–t–
+89 tainment que leads -> –t–a–i–n–m–e–n–t–q–u–e–l–e–a–d–s–
+90 igu axis quartier -> –i–g–u–a–x–i–s–q–u–a–r–t–i–e–r–
+91 oufl varied formada -> –o–u–f–l–v–a–r–i–e–d–f–o–r–m–a–d–a–
+92 dik limitada efectu -> –d–i–k–l–i–m–i–t–a–d–a–e–f–e–c–t–u–
+93 platte odgov heridos -> –p–l–a–t–t–e–o–d–g–o–v–h–e–r–i–d–o–s–
+94 ausal sein ye -> –a–u–s–a–l–s–e–i–n–y–e–
+95 izier visita soziale -> –i–z–i–e–r–v–i–s–i–t–a–s–o–z–i–a–l–e–
+96 varchar squared trob -> –v–a–r–c–h–a–r–s–q–u–a–r–e–d–t–r–o–b–
+97 usias everyone marito -> –u–s–i–a–s–e–v–e–r–y–o–n–e–m–a–r–i–t–o–
+98 ignore tos pouvant -> –i–g–n–o–r–e–t–o–s–p–o–u–v–a–n–t–
+99 iced modo sever -> –i–c–e–d–m–o–d–o–s–e–v–e–r–

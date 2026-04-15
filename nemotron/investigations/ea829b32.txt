@@ -1,0 +1,30 @@
+problem id: ea829b32
+category: equation_numeric_guess
+
+examples:
+- 85]82 = ]3
+- 33]83 = ]50
+- 98]60 = ]38
+- 87]79 = ]8
+- query: 54|97
+
+inferred rule:
+The examples make one rule clear:
+
+- `]` means take the ordinary difference `left - right` and write it with a leading `]`.
+  - 85]82 -> 85 - 82 = 3 -> ]3
+  - 33]83 -> 33 - 83 = -50, but the puzzle writes the magnitude after the symbol -> ]50
+  - 98]60 -> 98 - 60 = 38 -> ]38
+  - 87]79 -> 87 - 79 = 8 -> ]8
+
+For the query symbol `|`, the examples do not show it directly. The most defensible extrapolation is that `|` stands for the complementary basic arithmetic operation, ordinary addition.
+
+step-by-step application to the query:
+1. The query is `54|97`.
+2. Treat `|` as addition.
+3. Compute 54 + 97 = 151.
+
+predicted answer: 151
+
+confidence note:
+Moderate confidence. The `]` rule is strongly supported by all examples, but the `|` -> addition step is an extrapolation because `|` never appears in the examples.

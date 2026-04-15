@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 rophic uninter brak
+01 illaume stets differs
+02 zna deren anot
+
+This is a sample output.
+00 rophic uninter brak -> –r–o–p–h–i–c–u–n–i–n–t–e–r–b–r–a–k–
+01 illaume stets differs -> –i–l–l–a–u–m–e–s–t–e–t–s–d–i–f–f–e–r–s–
+02 zna deren anot -> –z–n–a–d–e–r–e–n–a–n–o–t–
+
+This is your input.
+00 yfik boarding unrest
+01 ducer genesis laufen
+02 ashes towards diets
+03 totime quiz thor
+04 ipar heiligen wobec
+05 stage recycled crank
+06 isset destroy blues
+07 nk perspect mets
+08 rege hors bako
+09 lu estar plana
+10 unia methods failing
+11 ipotent justo addr
+12 welt pik le
+13 amos steroid mortal
+14 ialize esos leider
+15 had intron shaft
+16 iquet inm unies
+17 quine passo membawa
+18 mac tantas jurado
+19 jo maail buried
+20 feitos veces prieur
+21 ulaire judged repose
+22 ogeneity motifs thereof
+23 nungen extravag hebre
+24 riter oct swipe
+25 aal analiz remise
+26 life ela contrato
+27 loid hurry floor
+28 akers ish erected
+29 whether decyz mem
+30 opter anak ponct
+31 assy stair asked
+32 adian pudiera einf
+33 rz foydalan woodland
+34 attach german boj
+35 forming slim chez
+36 internal carbur speelde
+37 izas games maa
+38 vote disch haya
+39 inv waarin einzelne
+40 mercial algo examin
+41 teile estekak tom
+42 irenze melyet courte
+43 zol spur sugg
+44 ekom brasile getragen
+45 igher parecido lecture
+46 icut flare innov
+47 ric customs shine
+48 liku lettres hanya
+49 rijk taraf logrando
+50 jeva pipe child
+51 amd useless extant
+52 urface asalto bezala
+53 veur base newline
+54 ytic kako inev
+55 rales dificult stables
+56 ivar quot trust
+57 redient collagen zuk
+58 ccio yay tagged
+59 urred pase motoc
+60 iskt niet fazia
+61 jene relig purpos
+62 brook huv chlorine
+63 ondere sunshine attempt
+64 acker hemat geh
+65 xture asylum bef
+66 ocrine negocio produs
+67 lose munt completa
+68 packages tourists culturas
+69 idum sexta uzna
+70 omp suivi charity
+71 hdysval indoors vari
+72 item pertson attir
+73 emic promoter srpna
+74 inato bunk required
+75 println pud somme
+76 riger retten wise
+77 kowo financ pain
+78 kip hour binnen
+79 grup gib preserve
+80 earen seating affirme
+81 mands chansons kontinu
+82 upiter links encore
+83 ktiv ojos effett
+84 othermal guzt wyp
+85 fonts neuf behav
+86 enig atoi discrete
+87 preg climax domu
+88 ragona stile faisant
+89 inig moieties besten
+90 ijom zume reproduc
+91 atile comunque soap
+92 itti banlieue doprowad
+93 itett jah checker
+94 await via estable
+95 upon polonais pronouns
+96 ovanie testing appareil
+97 hrad enabled xy
+98 idagi bre tsunami
+99 vp zwanzig stoch
+[completion]
+00 yfik boarding unrest -> –y–f–i–k–b–o–a–r–d–i–n–g–u–n–r–e–s–t–
+01 ducer genesis laufen -> –d–u–c–e–r–g–e–n–e–s–i–s–l–a–u–f–e–n–
+02 ashes towards diets -> –a–s–h–e–s–t–o–w–a–r–d–s–d–i–e–t–s–
+03 totime quiz thor -> –t–o–t–i–m–e–q–u–i–z–t–h–o–r–
+04 ipar heiligen wobec -> –i–p–a–r–h–e–i–l–i–g–e–n–w–o–b–e–c–
+05 stage recycled crank -> –s–t–a–g–e–r–e–c–y–c–l–e–d–c–r–a–n–k–
+06 isset destroy blues -> –i–s–s–e–t–d–e–s–t–r–o–y–b–l–u–e–s–
+07 nk perspect mets -> –n–k–p–e–r–s–p–e–c–t–m–e–t–s–
+08 rege hors bako -> –r–e–g–e–h–o–r–s–b–a–k–o–
+09 lu estar plana -> –l–u–e–s–t–a–r–p–l–a–n–a–
+10 unia methods failing -> –u–n–i–a–m–e–t–h–o–d–s–f–a–i–l–i–n–g–
+11 ipotent justo addr -> –i–p–o–t–e–n–t–j–u–s–t–o–a–d–d–r–
+12 welt pik le -> –w–e–l–t–p–i–k–l–e–
+13 amos steroid mortal -> –a–m–o–s–s–t–e–r–o–i–d–m–o–r–t–a–l–
+14 ialize esos leider -> –i–a–l–i–z–e–e–s–o–s–l–e–i–d–e–r–
+15 had intron shaft -> –h–a–d–i–n–t–r–o–n–s–h–a–f–t–
+16 iquet inm unies -> –i–q–u–e–t–i–n–m–u–n–i–e–s–
+17 quine passo membawa -> –q–u–i–n–e–p–a–s–s–o–m–e–m–b–a–w–a–
+18 mac tantas jurado -> –m–a–c–t–a–n–t–a–s–j–u–r–a–d–o–
+19 jo maail buried -> –j–o–m–a–a–i–l–b–u–r–i–e–d–
+20 feitos veces prieur -> –f–e–i–t–o–s–v–e–c–e–s–p–r–i–e–u–r–
+21 ulaire judged repose -> –u–l–a–i–r–e–j–u–d–g–e–d–r–e–p–o–s–e–
+22 ogeneity motifs thereof -> –o–g–e–n–e–i–t–y–m–o–t–i–f–s–t–h–e–r–e–o–f–
+23 nungen extravag hebre -> –n–u–n–g–e–n–e–x–t–r–a–v–a–g–h–e–b–r–e–
+24 riter oct swipe -> –r–i–t–e–r–o–c–t–s–w–i–p–e–
+25 aal analiz remise -> –a–a–l–a–n–a–l–i–z–r–e–m–i–s–e–
+26 life ela contrato -> –l–i–f–e–e–l–a–c–o–n–t–r–a–t–o–
+27 loid hurry floor -> –l–o–i–d–h–u–r–r–y–f–l–o–o–r–
+28 akers ish erected -> –a–k–e–r–s–i–s–h–e–r–e–c–t–e–d–
+29 whether decyz mem -> –w–h–e–t–h–e–r–d–e–c–y–z–m–e–m–
+30 opter anak ponct -> –o–p–t–e–r–a–n–a–k–p–o–n–c–t–
+31 assy stair asked -> –a–s–s–y–s–t–a–i–r–a–s–k–e–d–
+32 adian pudiera einf -> –a–d–i–a–n–p–u–d–i–e–r–a–e–i–n–f–
+33 rz foydalan woodland -> –r–z–f–o–y–d–a–l–a–n–w–o–o–d–l–a–n–d–
+34 attach german boj -> –a–t–t–a–c–h–g–e–r–m–a–n–b–o–j–
+35 forming slim chez -> –f–o–r–m–i–n–g–s–l–i–m–c–h–e–z–
+36 internal carbur speelde -> –i–n–t–e–r–n–a–l–c–a–r–b–u–r–s–p–e–e–l–d–e–
+37 izas games maa -> –i–z–a–s–g–a–m–e–s–m–a–a–
+38 vote disch haya -> –v–o–t–e–d–i–s–c–h–h–a–y–a–
+39 inv waarin einzelne -> –i–n–v–w–a–a–r–i–n–e–i–n–z–e–l–n–e–
+40 mercial algo examin -> –m–e–r–c–i–a–l–a–l–g–o–e–x–a–m–i–n–
+41 teile estekak tom -> –t–e–i–l–e–e–s–t–e–k–a–k–t–o–m–
+42 irenze melyet courte -> –i–r–e–n–z–e–m–e–l–y–e–t–c–o–u–r–t–e–
+43 zol spur sugg -> –z–o–l–s–p–u–r–s–u–g–g–
+44 ekom brasile getragen -> –e–k–o–m–b–r–a–s–i–l–e–g–e–t–r–a–g–e–n–
+45 igher parecido lecture -> –i–g–h–e–r–p–a–r–e–c–i–d–o–l–e–c–t–u–r–e–
+46 icut flare innov -> –i–c–u–t–f–l–a–r–e–i–n–n–o–v–
+47 ric customs shine -> –r–i–c–c–u–s–t–o–m–s–s–h–i–n–e–
+48 liku lettres hanya -> –l–i–k–u–l–e–t–t–r–e–s–h–a–n–y–a–
+49 rijk taraf logrando -> –r–i–j–k–t–a–r–a–f–l–o–g–r–a–n–d–o–
+50 jeva pipe child -> –j–e–v–a–p–i–p–e–c–h–i–l–d–
+51 amd useless extant -> –a–m–d–u–s–e–l–e–s–s–e–x–t–a–n–t–
+52 urface asalto bezala -> –u–r–f–a–c–e–a–s–a–l–t–o–b–e–z–a–l–a–
+53 veur base newline -> –v–e–u–r–b–a–s–e–n–e–w–l–i–n–e–
+54 ytic kako inev -> –y–t–i–c–k–a–k–o–i–n–e–v–
+55 rales dificult stables -> –r–a–l–e–s–d–i–f–i–c–u–l–t–s–t–a–b–l–e–s–
+56 ivar quot trust -> –i–v–a–r–q–u–o–t–t–r–u–s–t–
+57 redient collagen zuk -> –r–e–d–i–e–n–t–c–o–l–l–a–g–e–n–z–u–k–
+58 ccio yay tagged -> –c–c–i–o–y–a–y–t–a–g–g–e–d–
+59 urred pase motoc -> –u–r–r–e–d–p–a–s–e–m–o–t–o–c–
+60 iskt niet fazia -> –i–s–k–t–n–i–e–t–f–a–z–i–a–
+61 jene relig purpos -> –j–e–n–e–r–e–l–i–g–p–u–r–p–o–s–
+62 brook huv chlorine -> –b–r–o–o–k–h–u–v–c–h–l–o–r–i–n–e–
+63 ondere sunshine attempt -> –o–n–d–e–r–e–s–u–n–s–h–i–n–e–a–t–t–e–m–p–t–
+64 acker hemat geh -> –a–c–k–e–r–h–e–m–a–t–g–e–h–
+65 xture asylum bef -> –x–t–u–r–e–a–s–y–l–u–m–b–e–f–
+66 ocrine negocio produs -> –o–c–r–i–n–e–n–e–g–o–c–i–o–p–r–o–d–u–s–
+67 lose munt completa -> –l–o–s–e–m–u–n–t–c–o–m–p–l–e–t–a–
+68 packages tourists culturas -> –p–a–c–k–a–g–e–s–t–o–u–r–i–s–t–s–c–u–l–t–u–r–a–s–
+69 idum sexta uzna -> –i–d–u–m–s–e–x–t–a–u–z–n–a–
+70 omp suivi charity -> –o–m–p–s–u–i–v–i–c–h–a–r–i–t–y–
+71 hdysval indoors vari -> –h–d–y–s–v–a–l–i–n–d–o–o–r–s–v–a–r–i–
+72 item pertson attir -> –i–t–e–m–p–e–r–t–s–o–n–a–t–t–i–r–
+73 emic promoter srpna -> –e–m–i–c–p–r–o–m–o–t–e–r–s–r–p–n–a–
+74 inato bunk required -> –i–n–a–t–o–b–u–n–k–r–e–q–u–i–r–e–d–
+75 println pud somme -> –p–r–i–n–t–l–n–p–u–d–s–o–m–m–e–
+76 riger retten wise -> –r–i–g–e–r–r–e–t–t–e–n–w–i–s–e–
+77 kowo financ pain -> –k–o–w–o–f–i–n–a–n–c–p–a–i–n–
+78 kip hour binnen -> –k–i–p–h–o–u–r–b–i–n–n–e–n–
+79 grup gib preserve -> –g–r–u–p–g–i–b–p–r–e–s–e–r–v–e–
+80 earen seating affirme -> –e–a–r–e–n–s–e–a–t–i–n–g–a–f–f–i–r–m–e–
+81 mands chansons kontinu -> –m–a–n–d–s–c–h–a–n–s–o–n–s–k–o–n–t–i–n–u–
+82 upiter links encore -> –u–p–i–t–e–r–l–i–n–k–s–e–n–c–o–r–e–
+83 ktiv ojos effett -> –k–t–i–v–o–j–o–s–e–f–f–e–t–t–
+84 othermal guzt wyp -> –o–t–h–e–r–m–a–l–g–u–z–t–w–y–p–
+85 fonts neuf behav -> –f–o–n–t–s–n–e–u–f–b–e–h–a–v–
+86 enig atoi discrete -> –e–n–i–g–a–t–o–i–d–i–s–c–r–e–t–e–
+87 preg climax domu -> –p–r–e–g–c–l–i–m–a–x–d–o–m–u–
+88 ragona stile faisant -> –r–a–g–o–n–a–s–t–i–l–e–f–a–i–s–a–n–t–
+89 inig moieties besten -> –i–n–i–g–m–o–i–e–t–i–e–s–b–e–s–t–e–n–
+90 ijom zume reproduc -> –i–j–o–m–z–u–m–e–r–e–p–r–o–d–u–c–
+91 atile comunque soap -> –a–t–i–l–e–c–o–m–u–n–q–u–e–s–o–a–p–
+92 itti banlieue doprowad -> –i–t–t–i–b–a–n–l–i–e–u–e–d–o–p–r–o–w–a–d–
+93 itett jah checker -> –i–t–e–t–t–j–a–h–c–h–e–c–k–e–r–
+94 await via estable -> –a–w–a–i–t–v–i–a–e–s–t–a–b–l–e–
+95 upon polonais pronouns -> –u–p–o–n–p–o–l–o–n–a–i–s–p–r–o–n–o–u–n–s–
+96 ovanie testing appareil -> –o–v–a–n–i–e–t–e–s–t–i–n–g–a–p–p–a–r–e–i–l–
+97 hrad enabled xy -> –h–r–a–d–e–n–a–b–l–e–d–x–y–
+98 idagi bre tsunami -> –i–d–a–g–i–b–r–e–t–s–u–n–a–m–i–
+99 vp zwanzig stoch -> –v–p–z–w–a–n–z–i–g–s–t–o–c–h–

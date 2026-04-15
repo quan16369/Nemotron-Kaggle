@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 erness twelve rented
+01 apture truppe south
+02 ittiin guerr fuite
+
+This is a sample output.
+00 erness twelve rented -> –e–r–n–e–s–s–t–w–e–l–v–e–r–e–n–t–e–d–
+01 apture truppe south -> –a–p–t–u–r–e–t–r–u–p–p–e–s–o–u–t–h–
+02 ittiin guerr fuite -> –i–t–t–i–i–n–g–u–e–r–r–f–u–i–t–e–
+
+This is your input.
+00 herin niin now
+01 ur hacer abbandon
+02 filename sexo zuten
+03 script como millim
+04 urgia popped maart
+05 ronym negoci nova
+06 isions certo basta
+07 ibera maneu britt
+08 agara empre inhibit
+09 project ago calm
+10 protein cuff decode
+11 ienze pion trait
+12 joner returns violent
+13 position killed post
+14 aporan artyler loading
+15 istische conting ucran
+16 bent antes wygra
+17 paration walks hulle
+18 dal amb ana
+19 bardziej hermano schop
+20 atio filhos kaz
+21 hatt sec linen
+22 labor grie drinks
+23 unut outfit ancora
+24 wan daar cease
+25 ellekt jez detall
+26 meni stages up
+27 uelles cous persone
+28 mith demok deix
+29 ublisher manage cuatro
+30 htra maakt wollten
+31 igraph kapital genocide
+32 ryan sowie unity
+33 alanine eating restore
+34 ague bacon apporte
+35 kega vinyl nin
+36 irche zeit congel
+37 oln crowd personen
+38 terno coag adenos
+39 urbs purchase deri
+40 ather wzgl conmemor
+41 sei artean hiking
+42 unner situated trusted
+43 havior fontsize ahal
+44 typedef noblesse laminate
+45 ongo signifie whenever
+46 chemic boat tenants
+47 stick entirety go
+48 cul smr merge
+49 essment barrier gur
+50 clear iv intimacy
+51 upakan calling libr
+52 aln mange knot
+53 error actions aider
+54 sales musste ceremony
+55 onuclear parv falt
+56 olome numero italiani
+57 ablanca parlait breathed
+58 ado eclesi disband
+59 ane mac havia
+60 opor vanish iskol
+61 ragt riu unre
+62 esen onboard churches
+63 yntax easing wyniku
+64 acetic dage cing
+65 reurs pere travaill
+66 bitro reasoned parity
+67 ila denied brought
+68 hoz clav rename
+69 kreis koj vues
+70 ccount drying dolore
+71 ividu leur miejsca
+72 zik mogelijk assist
+73 actions koh dynastie
+74 prechen universe urm
+75 uste mitig amal
+76 wal kereta cittad
+77 ridges milieu conced
+78 loe amis intu
+79 weit wait elective
+80 aker er flipped
+81 chilar mash dain
+82 inked grabbed doux
+83 libs dzieci sorg
+84 aje entrer hart
+85 itudes homolog bedrij
+86 weis inher postoj
+87 feit clues approved
+88 tranger rider points
+89 lings amely caminho
+90 ell detal guard
+91 punten duck corrid
+92 oura wandered dins
+93 share crash reacting
+94 olini tocc intim
+95 demokrat rapide winds
+96 nombre doppio spole
+97 ns socket muze
+98 ratio podia holog
+99 adakan volts stolje
+[completion]
+00 herin niin now -> –h–e–r–i–n–n–i–i–n–n–o–w–
+01 ur hacer abbandon -> –u–r–h–a–c–e–r–a–b–b–a–n–d–o–n–
+02 filename sexo zuten -> –f–i–l–e–n–a–m–e–s–e–x–o–z–u–t–e–n–
+03 script como millim -> –s–c–r–i–p–t–c–o–m–o–m–i–l–l–i–m–
+04 urgia popped maart -> –u–r–g–i–a–p–o–p–p–e–d–m–a–a–r–t–
+05 ronym negoci nova -> –r–o–n–y–m–n–e–g–o–c–i–n–o–v–a–
+06 isions certo basta -> –i–s–i–o–n–s–c–e–r–t–o–b–a–s–t–a–
+07 ibera maneu britt -> –i–b–e–r–a–m–a–n–e–u–b–r–i–t–t–
+08 agara empre inhibit -> –a–g–a–r–a–e–m–p–r–e–i–n–h–i–b–i–t–
+09 project ago calm -> –p–r–o–j–e–c–t–a–g–o–c–a–l–m–
+10 protein cuff decode -> –p–r–o–t–e–i–n–c–u–f–f–d–e–c–o–d–e–
+11 ienze pion trait -> –i–e–n–z–e–p–i–o–n–t–r–a–i–t–
+12 joner returns violent -> –j–o–n–e–r–r–e–t–u–r–n–s–v–i–o–l–e–n–t–
+13 position killed post -> –p–o–s–i–t–i–o–n–k–i–l–l–e–d–p–o–s–t–
+14 aporan artyler loading -> –a–p–o–r–a–n–a–r–t–y–l–e–r–l–o–a–d–i–n–g–
+15 istische conting ucran -> –i–s–t–i–s–c–h–e–c–o–n–t–i–n–g–u–c–r–a–n–
+16 bent antes wygra -> –b–e–n–t–a–n–t–e–s–w–y–g–r–a–
+17 paration walks hulle -> –p–a–r–a–t–i–o–n–w–a–l–k–s–h–u–l–l–e–
+18 dal amb ana -> –d–a–l–a–m–b–a–n–a–
+19 bardziej hermano schop -> –b–a–r–d–z–i–e–j–h–e–r–m–a–n–o–s–c–h–o–p–
+20 atio filhos kaz -> –a–t–i–o–f–i–l–h–o–s–k–a–z–
+21 hatt sec linen -> –h–a–t–t–s–e–c–l–i–n–e–n–
+22 labor grie drinks -> –l–a–b–o–r–g–r–i–e–d–r–i–n–k–s–
+23 unut outfit ancora -> –u–n–u–t–o–u–t–f–i–t–a–n–c–o–r–a–
+24 wan daar cease -> –w–a–n–d–a–a–r–c–e–a–s–e–
+25 ellekt jez detall -> –e–l–l–e–k–t–j–e–z–d–e–t–a–l–l–
+26 meni stages up -> –m–e–n–i–s–t–a–g–e–s–u–p–
+27 uelles cous persone -> –u–e–l–l–e–s–c–o–u–s–p–e–r–s–o–n–e–
+28 mith demok deix -> –m–i–t–h–d–e–m–o–k–d–e–i–x–
+29 ublisher manage cuatro -> –u–b–l–i–s–h–e–r–m–a–n–a–g–e–c–u–a–t–r–o–
+30 htra maakt wollten -> –h–t–r–a–m–a–a–k–t–w–o–l–l–t–e–n–
+31 igraph kapital genocide -> –i–g–r–a–p–h–k–a–p–i–t–a–l–g–e–n–o–c–i–d–e–
+32 ryan sowie unity -> –r–y–a–n–s–o–w–i–e–u–n–i–t–y–
+33 alanine eating restore -> –a–l–a–n–i–n–e–e–a–t–i–n–g–r–e–s–t–o–r–e–
+34 ague bacon apporte -> –a–g–u–e–b–a–c–o–n–a–p–p–o–r–t–e–
+35 kega vinyl nin -> –k–e–g–a–v–i–n–y–l–n–i–n–
+36 irche zeit congel -> –i–r–c–h–e–z–e–i–t–c–o–n–g–e–l–
+37 oln crowd personen -> –o–l–n–c–r–o–w–d–p–e–r–s–o–n–e–n–
+38 terno coag adenos -> –t–e–r–n–o–c–o–a–g–a–d–e–n–o–s–
+39 urbs purchase deri -> –u–r–b–s–p–u–r–c–h–a–s–e–d–e–r–i–
+40 ather wzgl conmemor -> –a–t–h–e–r–w–z–g–l–c–o–n–m–e–m–o–r–
+41 sei artean hiking -> –s–e–i–a–r–t–e–a–n–h–i–k–i–n–g–
+42 unner situated trusted -> –u–n–n–e–r–s–i–t–u–a–t–e–d–t–r–u–s–t–e–d–
+43 havior fontsize ahal -> –h–a–v–i–o–r–f–o–n–t–s–i–z–e–a–h–a–l–
+44 typedef noblesse laminate -> –t–y–p–e–d–e–f–n–o–b–l–e–s–s–e–l–a–m–i–n–a–t–e–
+45 ongo signifie whenever -> –o–n–g–o–s–i–g–n–i–f–i–e–w–h–e–n–e–v–e–r–
+46 chemic boat tenants -> –c–h–e–m–i–c–b–o–a–t–t–e–n–a–n–t–s–
+47 stick entirety go -> –s–t–i–c–k–e–n–t–i–r–e–t–y–g–o–
+48 cul smr merge -> –c–u–l–s–m–r–m–e–r–g–e–
+49 essment barrier gur -> –e–s–s–m–e–n–t–b–a–r–r–i–e–r–g–u–r–
+50 clear iv intimacy -> –c–l–e–a–r–i–v–i–n–t–i–m–a–c–y–
+51 upakan calling libr -> –u–p–a–k–a–n–c–a–l–l–i–n–g–l–i–b–r–
+52 aln mange knot -> –a–l–n–m–a–n–g–e–k–n–o–t–
+53 error actions aider -> –e–r–r–o–r–a–c–t–i–o–n–s–a–i–d–e–r–
+54 sales musste ceremony -> –s–a–l–e–s–m–u–s–s–t–e–c–e–r–e–m–o–n–y–
+55 onuclear parv falt -> –o–n–u–c–l–e–a–r–p–a–r–v–f–a–l–t–
+56 olome numero italiani -> –o–l–o–m–e–n–u–m–e–r–o–i–t–a–l–i–a–n–i–
+57 ablanca parlait breathed -> –a–b–l–a–n–c–a–p–a–r–l–a–i–t–b–r–e–a–t–h–e–d–
+58 ado eclesi disband -> –a–d–o–e–c–l–e–s–i–d–i–s–b–a–n–d–
+59 ane mac havia -> –a–n–e–m–a–c–h–a–v–i–a–
+60 opor vanish iskol -> –o–p–o–r–v–a–n–i–s–h–i–s–k–o–l–
+61 ragt riu unre -> –r–a–g–t–r–i–u–u–n–r–e–
+62 esen onboard churches -> –e–s–e–n–o–n–b–o–a–r–d–c–h–u–r–c–h–e–s–
+63 yntax easing wyniku -> –y–n–t–a–x–e–a–s–i–n–g–w–y–n–i–k–u–
+64 acetic dage cing -> –a–c–e–t–i–c–d–a–g–e–c–i–n–g–
+65 reurs pere travaill -> –r–e–u–r–s–p–e–r–e–t–r–a–v–a–i–l–l–
+66 bitro reasoned parity -> –b–i–t–r–o–r–e–a–s–o–n–e–d–p–a–r–i–t–y–
+67 ila denied brought -> –i–l–a–d–e–n–i–e–d–b–r–o–u–g–h–t–
+68 hoz clav rename -> –h–o–z–c–l–a–v–r–e–n–a–m–e–
+69 kreis koj vues -> –k–r–e–i–s–k–o–j–v–u–e–s–
+70 ccount drying dolore -> –c–c–o–u–n–t–d–r–y–i–n–g–d–o–l–o–r–e–
+71 ividu leur miejsca -> –i–v–i–d–u–l–e–u–r–m–i–e–j–s–c–a–
+72 zik mogelijk assist -> –z–i–k–m–o–g–e–l–i–j–k–a–s–s–i–s–t–
+73 actions koh dynastie -> –a–c–t–i–o–n–s–k–o–h–d–y–n–a–s–t–i–e–
+74 prechen universe urm -> –p–r–e–c–h–e–n–u–n–i–v–e–r–s–e–u–r–m–
+75 uste mitig amal -> –u–s–t–e–m–i–t–i–g–a–m–a–l–
+76 wal kereta cittad -> –w–a–l–k–e–r–e–t–a–c–i–t–t–a–d–
+77 ridges milieu conced -> –r–i–d–g–e–s–m–i–l–i–e–u–c–o–n–c–e–d–
+78 loe amis intu -> –l–o–e–a–m–i–s–i–n–t–u–
+79 weit wait elective -> –w–e–i–t–w–a–i–t–e–l–e–c–t–i–v–e–
+80 aker er flipped -> –a–k–e–r–e–r–f–l–i–p–p–e–d–
+81 chilar mash dain -> –c–h–i–l–a–r–m–a–s–h–d–a–i–n–
+82 inked grabbed doux -> –i–n–k–e–d–g–r–a–b–b–e–d–d–o–u–x–
+83 libs dzieci sorg -> –l–i–b–s–d–z–i–e–c–i–s–o–r–g–
+84 aje entrer hart -> –a–j–e–e–n–t–r–e–r–h–a–r–t–
+85 itudes homolog bedrij -> –i–t–u–d–e–s–h–o–m–o–l–o–g–b–e–d–r–i–j–
+86 weis inher postoj -> –w–e–i–s–i–n–h–e–r–p–o–s–t–o–j–
+87 feit clues approved -> –f–e–i–t–c–l–u–e–s–a–p–p–r–o–v–e–d–
+88 tranger rider points -> –t–r–a–n–g–e–r–r–i–d–e–r–p–o–i–n–t–s–
+89 lings amely caminho -> –l–i–n–g–s–a–m–e–l–y–c–a–m–i–n–h–o–
+90 ell detal guard -> –e–l–l–d–e–t–a–l–g–u–a–r–d–
+91 punten duck corrid -> –p–u–n–t–e–n–d–u–c–k–c–o–r–r–i–d–
+92 oura wandered dins -> –o–u–r–a–w–a–n–d–e–r–e–d–d–i–n–s–
+93 share crash reacting -> –s–h–a–r–e–c–r–a–s–h–r–e–a–c–t–i–n–g–
+94 olini tocc intim -> –o–l–i–n–i–t–o–c–c–i–n–t–i–m–
+95 demokrat rapide winds -> –d–e–m–o–k–r–a–t–r–a–p–i–d–e–w–i–n–d–s–
+96 nombre doppio spole -> –n–o–m–b–r–e–d–o–p–p–i–o–s–p–o–l–e–
+97 ns socket muze -> –n–s–s–o–c–k–e–t–m–u–z–e–
+98 ratio podia holog -> –r–a–t–i–o–p–o–d–i–a–h–o–l–o–g–
+99 adakan volts stolje -> –a–d–a–k–a–n–v–o–l–t–s–s–t–o–l–j–e–

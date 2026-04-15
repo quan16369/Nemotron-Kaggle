@@ -1,0 +1,17 @@
+problem id: 8043a9d2
+category: cryptarithm_deduce
+
+symbol-to-digit mapping:
+
+operator-to-operation mapping:
+  '*' = rev_concat
+
+examples:
+  (|*)? = )?(|
+  |(*]# = ]#|(
+  ??-(# = |$
+  $\*\\ = \\$\
+
+query: \:*$|
+
+predicted answer: $|\:

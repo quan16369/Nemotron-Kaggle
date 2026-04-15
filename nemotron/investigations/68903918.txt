@@ -1,0 +1,30 @@
+problem id: 68903918
+category: equation_numeric_guess
+
+examples:
+- 54/69 = 15
+- 92/78 = 14
+- 23+20 = 43
+- query: 59-69
+
+inferred rule:
+- `/` gives the absolute difference of the two 2-digit numbers.
+- `+` gives the ordinary sum of the two 2-digit numbers.
+- The query uses an unseen operator, `-`. My best manual completion is that it stands for multiplication with a `+1` offset.
+
+checks on the examples:
+- `54/69 = 15` fits `|54 - 69| = 15`.
+- `92/78 = 14` fits `|92 - 78| = 14`.
+- `23+20 = 43` fits ordinary addition: `23 + 20 = 43`.
+
+step-by-step application to the query:
+- Start with `59-69`.
+- Treat `-` as the remaining arithmetic rule: multiply, then add 1.
+- Compute `59 x 69 = 4071`.
+- Add 1 to get `4072`.
+
+predicted answer:
+- 4072
+
+confidence note:
+- Low-to-medium confidence. The `/` and `+` rules are cleanly supported by the examples, but the query operator `-` never appears in training examples, so the multiplication-plus-one step is an informed guess rather than a forced deduction.

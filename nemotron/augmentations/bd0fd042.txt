@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 arie fid extrap
+01 dh hers mois
+02 ubli solemn kanal
+
+This is a sample output.
+00 arie fid extrap -> –a–r–i–e–f–i–d–e–x–t–r–a–p–
+01 dh hers mois -> –d–h–h–e–r–s–m–o–i–s–
+02 ubli solemn kanal -> –u–b–l–i–s–o–l–e–m–n–k–a–n–a–l–
+
+This is your input.
+00 oll dank examine
+01 onor notte schiz
+02 oxid kru purified
+03 oudre bearing aussch
+04 nimmt menciona konflikt
+05 zeros karya cushion
+06 anha debuted prize
+07 ocolate recomend erupted
+08 supp phil protect
+09 igon med eeu
+10 park oversee rest
+11 izzo linken longue
+12 bons facendo subm
+13 hnlich properly koz
+14 lab reagents ecl
+15 cfg expense conclut
+16 idente koja viewport
+17 iye awal longs
+18 spy princi dagegen
+19 mos railway asas
+20 dro quello footer
+21 usb cristian premi
+22 ansko danza membrane
+23 cii grounded primjer
+24 umerable hygiene pyl
+25 brechen pren provoque
+26 wyd invites urbano
+27 elis telenov initial
+28 aching sexe for
+29 stal pathway ling
+30 ihe komplet deu
+31 ancio weak sanc
+32 ala dinam anunciar
+33 edit dh atak
+34 dawn repert allusion
+35 anc chant meg
+36 igail cui actos
+37 icules llev aplic
+38 nai liquide liqu
+39 urity subc efekt
+40 hom juntos au
+41 ental couple aceler
+42 punkt advert cellule
+43 neath notebook extrav
+44 ilage cooling osh
+45 stri flicked contigo
+46 ffff bears tat
+47 ersk centre plumbing
+48 ifferent fixer restera
+49 arter autom tier
+50 vetica sult ssl
+51 atge carro zor
+52 rania connues bilayer
+53 appen lanza modos
+54 prits nocturn konz
+55 amentos femmin sauce
+56 tfrac polici allow
+57 ouri determ viennent
+58 iyasi sg nuest
+59 rotic essa abriu
+60 ienda slowing disting
+61 clicked telefon loves
+62 bd sonst mok
+63 enerbah password manages
+64 omme aventura should
+65 account amminist cuyo
+66 anto mural problemi
+67 urdu mientras kellett
+68 rophe inhaled muerto
+69 eszcze res gast
+70 unsten situe awak
+71 reshape ove noy
+72 upa solle rental
+73 uites partisan impress
+74 hello treat emir
+75 onymous libre distribu
+76 spacing reminded ert
+77 unite hv tama
+78 issy salvo remnant
+79 hana marquis depict
+80 illie foreg disclose
+81 oles kompan hyvin
+82 buf goede dishes
+83 trieve trot alas
+84 cal pan diverse
+85 vari overview pyruvate
+86 platz stvar broyeur
+87 sch document plasm
+88 wx plt batu
+89 alten salto leurs
+90 sic telep research
+91 ugl pent shro
+92 ipi coca partes
+93 idikan rotation activate
+94 ased aguas explores
+95 kat menye equipes
+96 alais svem latch
+97 ouz pushed fonds
+98 ensity pressure jako
+99 loed ihr activism
+[completion]
+00 oll dank examine -> –o–l–l–d–a–n–k–e–x–a–m–i–n–e–
+01 onor notte schiz -> –o–n–o–r–n–o–t–t–e–s–c–h–i–z–
+02 oxid kru purified -> –o–x–i–d–k–r–u–p–u–r–i–f–i–e–d–
+03 oudre bearing aussch -> –o–u–d–r–e–b–e–a–r–i–n–g–a–u–s–s–c–h–
+04 nimmt menciona konflikt -> –n–i–m–m–t–m–e–n–c–i–o–n–a–k–o–n–f–l–i–k–t–
+05 zeros karya cushion -> –z–e–r–o–s–k–a–r–y–a–c–u–s–h–i–o–n–
+06 anha debuted prize -> –a–n–h–a–d–e–b–u–t–e–d–p–r–i–z–e–
+07 ocolate recomend erupted -> –o–c–o–l–a–t–e–r–e–c–o–m–e–n–d–e–r–u–p–t–e–d–
+08 supp phil protect -> –s–u–p–p–p–h–i–l–p–r–o–t–e–c–t–
+09 igon med eeu -> –i–g–o–n–m–e–d–e–e–u–
+10 park oversee rest -> –p–a–r–k–o–v–e–r–s–e–e–r–e–s–t–
+11 izzo linken longue -> –i–z–z–o–l–i–n–k–e–n–l–o–n–g–u–e–
+12 bons facendo subm -> –b–o–n–s–f–a–c–e–n–d–o–s–u–b–m–
+13 hnlich properly koz -> –h–n–l–i–c–h–p–r–o–p–e–r–l–y–k–o–z–
+14 lab reagents ecl -> –l–a–b–r–e–a–g–e–n–t–s–e–c–l–
+15 cfg expense conclut -> –c–f–g–e–x–p–e–n–s–e–c–o–n–c–l–u–t–
+16 idente koja viewport -> –i–d–e–n–t–e–k–o–j–a–v–i–e–w–p–o–r–t–
+17 iye awal longs -> –i–y–e–a–w–a–l–l–o–n–g–s–
+18 spy princi dagegen -> –s–p–y–p–r–i–n–c–i–d–a–g–e–g–e–n–
+19 mos railway asas -> –m–o–s–r–a–i–l–w–a–y–a–s–a–s–
+20 dro quello footer -> –d–r–o–q–u–e–l–l–o–f–o–o–t–e–r–
+21 usb cristian premi -> –u–s–b–c–r–i–s–t–i–a–n–p–r–e–m–i–
+22 ansko danza membrane -> –a–n–s–k–o–d–a–n–z–a–m–e–m–b–r–a–n–e–
+23 cii grounded primjer -> –c–i–i–g–r–o–u–n–d–e–d–p–r–i–m–j–e–r–
+24 umerable hygiene pyl -> –u–m–e–r–a–b–l–e–h–y–g–i–e–n–e–p–y–l–
+25 brechen pren provoque -> –b–r–e–c–h–e–n–p–r–e–n–p–r–o–v–o–q–u–e–
+26 wyd invites urbano -> –w–y–d–i–n–v–i–t–e–s–u–r–b–a–n–o–
+27 elis telenov initial -> –e–l–i–s–t–e–l–e–n–o–v–i–n–i–t–i–a–l–
+28 aching sexe for -> –a–c–h–i–n–g–s–e–x–e–f–o–r–
+29 stal pathway ling -> –s–t–a–l–p–a–t–h–w–a–y–l–i–n–g–
+30 ihe komplet deu -> –i–h–e–k–o–m–p–l–e–t–d–e–u–
+31 ancio weak sanc -> –a–n–c–i–o–w–e–a–k–s–a–n–c–
+32 ala dinam anunciar -> –a–l–a–d–i–n–a–m–a–n–u–n–c–i–a–r–
+33 edit dh atak -> –e–d–i–t–d–h–a–t–a–k–
+34 dawn repert allusion -> –d–a–w–n–r–e–p–e–r–t–a–l–l–u–s–i–o–n–
+35 anc chant meg -> –a–n–c–c–h–a–n–t–m–e–g–
+36 igail cui actos -> –i–g–a–i–l–c–u–i–a–c–t–o–s–
+37 icules llev aplic -> –i–c–u–l–e–s–l–l–e–v–a–p–l–i–c–
+38 nai liquide liqu -> –n–a–i–l–i–q–u–i–d–e–l–i–q–u–
+39 urity subc efekt -> –u–r–i–t–y–s–u–b–c–e–f–e–k–t–
+40 hom juntos au -> –h–o–m–j–u–n–t–o–s–a–u–
+41 ental couple aceler -> –e–n–t–a–l–c–o–u–p–l–e–a–c–e–l–e–r–
+42 punkt advert cellule -> –p–u–n–k–t–a–d–v–e–r–t–c–e–l–l–u–l–e–
+43 neath notebook extrav -> –n–e–a–t–h–n–o–t–e–b–o–o–k–e–x–t–r–a–v–
+44 ilage cooling osh -> –i–l–a–g–e–c–o–o–l–i–n–g–o–s–h–
+45 stri flicked contigo -> –s–t–r–i–f–l–i–c–k–e–d–c–o–n–t–i–g–o–
+46 ffff bears tat -> –f–f–f–f–b–e–a–r–s–t–a–t–
+47 ersk centre plumbing -> –e–r–s–k–c–e–n–t–r–e–p–l–u–m–b–i–n–g–
+48 ifferent fixer restera -> –i–f–f–e–r–e–n–t–f–i–x–e–r–r–e–s–t–e–r–a–
+49 arter autom tier -> –a–r–t–e–r–a–u–t–o–m–t–i–e–r–
+50 vetica sult ssl -> –v–e–t–i–c–a–s–u–l–t–s–s–l–
+51 atge carro zor -> –a–t–g–e–c–a–r–r–o–z–o–r–
+52 rania connues bilayer -> –r–a–n–i–a–c–o–n–n–u–e–s–b–i–l–a–y–e–r–
+53 appen lanza modos -> –a–p–p–e–n–l–a–n–z–a–m–o–d–o–s–
+54 prits nocturn konz -> –p–r–i–t–s–n–o–c–t–u–r–n–k–o–n–z–
+55 amentos femmin sauce -> –a–m–e–n–t–o–s–f–e–m–m–i–n–s–a–u–c–e–
+56 tfrac polici allow -> –t–f–r–a–c–p–o–l–i–c–i–a–l–l–o–w–
+57 ouri determ viennent -> –o–u–r–i–d–e–t–e–r–m–v–i–e–n–n–e–n–t–
+58 iyasi sg nuest -> –i–y–a–s–i–s–g–n–u–e–s–t–
+59 rotic essa abriu -> –r–o–t–i–c–e–s–s–a–a–b–r–i–u–
+60 ienda slowing disting -> –i–e–n–d–a–s–l–o–w–i–n–g–d–i–s–t–i–n–g–
+61 clicked telefon loves -> –c–l–i–c–k–e–d–t–e–l–e–f–o–n–l–o–v–e–s–
+62 bd sonst mok -> –b–d–s–o–n–s–t–m–o–k–
+63 enerbah password manages -> –e–n–e–r–b–a–h–p–a–s–s–w–o–r–d–m–a–n–a–g–e–s–
+64 omme aventura should -> –o–m–m–e–a–v–e–n–t–u–r–a–s–h–o–u–l–d–
+65 account amminist cuyo -> –a–c–c–o–u–n–t–a–m–m–i–n–i–s–t–c–u–y–o–
+66 anto mural problemi -> –a–n–t–o–m–u–r–a–l–p–r–o–b–l–e–m–i–
+67 urdu mientras kellett -> –u–r–d–u–m–i–e–n–t–r–a–s–k–e–l–l–e–t–t–
+68 rophe inhaled muerto -> –r–o–p–h–e–i–n–h–a–l–e–d–m–u–e–r–t–o–
+69 eszcze res gast -> –e–s–z–c–z–e–r–e–s–g–a–s–t–
+70 unsten situe awak -> –u–n–s–t–e–n–s–i–t–u–e–a–w–a–k–
+71 reshape ove noy -> –r–e–s–h–a–p–e–o–v–e–n–o–y–
+72 upa solle rental -> –u–p–a–s–o–l–l–e–r–e–n–t–a–l–
+73 uites partisan impress -> –u–i–t–e–s–p–a–r–t–i–s–a–n–i–m–p–r–e–s–s–
+74 hello treat emir -> –h–e–l–l–o–t–r–e–a–t–e–m–i–r–
+75 onymous libre distribu -> –o–n–y–m–o–u–s–l–i–b–r–e–d–i–s–t–r–i–b–u–
+76 spacing reminded ert -> –s–p–a–c–i–n–g–r–e–m–i–n–d–e–d–e–r–t–
+77 unite hv tama -> –u–n–i–t–e–h–v–t–a–m–a–
+78 issy salvo remnant -> –i–s–s–y–s–a–l–v–o–r–e–m–n–a–n–t–
+79 hana marquis depict -> –h–a–n–a–m–a–r–q–u–i–s–d–e–p–i–c–t–
+80 illie foreg disclose -> –i–l–l–i–e–f–o–r–e–g–d–i–s–c–l–o–s–e–
+81 oles kompan hyvin -> –o–l–e–s–k–o–m–p–a–n–h–y–v–i–n–
+82 buf goede dishes -> –b–u–f–g–o–e–d–e–d–i–s–h–e–s–
+83 trieve trot alas -> –t–r–i–e–v–e–t–r–o–t–a–l–a–s–
+84 cal pan diverse -> –c–a–l–p–a–n–d–i–v–e–r–s–e–
+85 vari overview pyruvate -> –v–a–r–i–o–v–e–r–v–i–e–w–p–y–r–u–v–a–t–e–
+86 platz stvar broyeur -> –p–l–a–t–z–s–t–v–a–r–b–r–o–y–e–u–r–
+87 sch document plasm -> –s–c–h–d–o–c–u–m–e–n–t–p–l–a–s–m–
+88 wx plt batu -> –w–x–p–l–t–b–a–t–u–
+89 alten salto leurs -> –a–l–t–e–n–s–a–l–t–o–l–e–u–r–s–
+90 sic telep research -> –s–i–c–t–e–l–e–p–r–e–s–e–a–r–c–h–
+91 ugl pent shro -> –u–g–l–p–e–n–t–s–h–r–o–
+92 ipi coca partes -> –i–p–i–c–o–c–a–p–a–r–t–e–s–
+93 idikan rotation activate -> –i–d–i–k–a–n–r–o–t–a–t–i–o–n–a–c–t–i–v–a–t–e–
+94 ased aguas explores -> –a–s–e–d–a–g–u–a–s–e–x–p–l–o–r–e–s–
+95 kat menye equipes -> –k–a–t–m–e–n–y–e–e–q–u–i–p–e–s–
+96 alais svem latch -> –a–l–a–i–s–s–v–e–m–l–a–t–c–h–
+97 ouz pushed fonds -> –o–u–z–p–u–s–h–e–d–f–o–n–d–s–
+98 ensity pressure jako -> –e–n–s–i–t–y–p–r–e–s–s–u–r–e–j–a–k–o–
+99 loed ihr activism -> –l–o–e–d–i–h–r–a–c–t–i–v–i–s–m–

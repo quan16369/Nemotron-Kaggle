@@ -1,0 +1,37 @@
+problem id: 8f1af066
+category: cryptarithm_guess
+
+examples:
+1. "<[*<<" -> "\\[`:"
+2. "$`+`<" -> "$``<"
+3. "!!+%#" -> "!!%#"
+4. "||+|[" -> "|||["
+
+inferred rule:
+The strongest repeated pattern is the `+` family. In all three `+` examples, the output is exactly the four non-operator symbols in their original order:
+
+- "$`+`<" -> "$``<"
+- "!!+%#" -> "!!%#"
+- "||+|[" -> "|||["
+
+So the clear example-supported rule is:
+
+AB + CD -> ABCD
+
+The lone `*` example behaves differently, which means the operator does matter, but it does not provide enough evidence to recover a reliable symbol-to-digit cryptarithm for the unseen query operator `-`.
+
+Given that the query uses an unseen operator and the examples do not constrain a real arithmetic map, the least-assumptive extrapolation is to treat `-` as the same neutral keep-both-chunks operator rather than inventing a new remapping rule.
+
+step-by-step application to the query:
+Query: "$`-!`"
+
+1. Split the query into left chunk "$`", operator "-", and right chunk "!`".
+2. Remove the middle operator.
+3. Keep the remaining four symbols in order: "$", "`", "!", "`".
+4. Join them back together.
+
+predicted answer:
+"$`!`"
+
+confidence note:
+Low-medium confidence. The repeated `+` examples strongly support the delete-the-middle-symbol rule, but `-` never appears in the examples and the single `*` example shows that another operator family can behave differently.

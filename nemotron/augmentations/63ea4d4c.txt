@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 diri apr heritage
+01 omp laure plot
+02 ayar pequ undersc
+
+This is a sample output.
+00 diri apr heritage -> –d–i–r–i–a–p–r–h–e–r–i–t–a–g–e–
+01 omp laure plot -> –o–m–p–l–a–u–r–e–p–l–o–t–
+02 ayar pequ undersc -> –a–y–a–r–p–e–q–u–u–n–d–e–r–s–c–
+
+This is your input.
+00 estable screws acostum
+01 idelines geograf rapporte
+02 reading lieux aliens
+03 interest menet unions
+04 itt tables plane
+05 touch muda immunobl
+06 gelegt rasch ska
+07 rina detalles bench
+08 esperson hozz slip
+09 chement crack unic
+10 with mosa neonatal
+11 nc formen melynek
+12 mind sultan volgende
+13 created bending vegades
+14 topic disappe slide
+15 aturated rua niche
+16 iju range bott
+17 adott pek cuid
+18 hash pochi certes
+19 tene proteg brittle
+20 long pushing besteht
+21 luent tys batsman
+22 htu serum hydroph
+23 hurst rapporto fruct
+24 eneuve opposed positif
+25 gou homenaje pants
+26 ionati animate mezz
+27 obra pw aids
+28 ullah wooden pe
+29 omon azimuth plas
+30 die aspecto oike
+31 andis legger meantime
+32 cards loro sider
+33 asjonen choisir congest
+34 ificar allontan vag
+35 although ripped fam
+36 uber fears termin
+37 maa strom domestic
+38 empty huts jardin
+39 xon nar enorm
+40 tur nic herpes
+41 uf dfs einde
+42 laxis vaak moder
+43 keta walked jacket
+44 azin hanging unidade
+45 sit tiers tekn
+46 velopers be voyait
+47 chio wafer conhe
+48 nginx alkalmaz swoje
+49 uniti gela plural
+50 obs propiet feliz
+51 bial souver virtue
+52 contro preoccup rails
+53 vaar honn eventi
+54 inando midnight boue
+55 loading pubblico dood
+56 elako rango glas
+57 zim remotely counting
+58 aso covari lupus
+59 ede tussen weakness
+60 uncia hist bere
+61 awk vant commune
+62 mektedir nodules centrale
+63 rai fundado midden
+64 iony jurid porte
+65 uttore forests inch
+66 uppert shocks auto
+67 iao camping award
+68 ichter keras rehabil
+69 uito rolled franco
+70 deel explica okup
+71 ils textiles suyo
+72 selected landen soudain
+73 cke winter artikel
+74 shape nine reprises
+75 hangi tract obej
+76 ispens tram ho
+77 entz curves etch
+78 element berp caso
+79 ennium foll miljo
+80 lied palav sano
+81 rounded yang donate
+82 eneur unidad prudent
+83 ia prostor hockey
+84 gement konfl mec
+85 assar heur almost
+86 moment kecil gesamten
+87 zimendu famosa tomu
+88 ockets spatial dynasty
+89 ackson dozen termo
+90 achers albums foly
+91 format voleva muslim
+92 irilgan confort singing
+93 kiej interd log
+94 attu ausgel link
+95 iranja vinte ach
+96 chemy mainten virgin
+97 iesa lavori pull
+98 heed mate gruppi
+99 jan montage hartu
+[completion]
+00 estable screws acostum -> –e–s–t–a–b–l–e–s–c–r–e–w–s–a–c–o–s–t–u–m–
+01 idelines geograf rapporte -> –i–d–e–l–i–n–e–s–g–e–o–g–r–a–f–r–a–p–p–o–r–t–e–
+02 reading lieux aliens -> –r–e–a–d–i–n–g–l–i–e–u–x–a–l–i–e–n–s–
+03 interest menet unions -> –i–n–t–e–r–e–s–t–m–e–n–e–t–u–n–i–o–n–s–
+04 itt tables plane -> –i–t–t–t–a–b–l–e–s–p–l–a–n–e–
+05 touch muda immunobl -> –t–o–u–c–h–m–u–d–a–i–m–m–u–n–o–b–l–
+06 gelegt rasch ska -> –g–e–l–e–g–t–r–a–s–c–h–s–k–a–
+07 rina detalles bench -> –r–i–n–a–d–e–t–a–l–l–e–s–b–e–n–c–h–
+08 esperson hozz slip -> –e–s–p–e–r–s–o–n–h–o–z–z–s–l–i–p–
+09 chement crack unic -> –c–h–e–m–e–n–t–c–r–a–c–k–u–n–i–c–
+10 with mosa neonatal -> –w–i–t–h–m–o–s–a–n–e–o–n–a–t–a–l–
+11 nc formen melynek -> –n–c–f–o–r–m–e–n–m–e–l–y–n–e–k–
+12 mind sultan volgende -> –m–i–n–d–s–u–l–t–a–n–v–o–l–g–e–n–d–e–
+13 created bending vegades -> –c–r–e–a–t–e–d–b–e–n–d–i–n–g–v–e–g–a–d–e–s–
+14 topic disappe slide -> –t–o–p–i–c–d–i–s–a–p–p–e–s–l–i–d–e–
+15 aturated rua niche -> –a–t–u–r–a–t–e–d–r–u–a–n–i–c–h–e–
+16 iju range bott -> –i–j–u–r–a–n–g–e–b–o–t–t–
+17 adott pek cuid -> –a–d–o–t–t–p–e–k–c–u–i–d–
+18 hash pochi certes -> –h–a–s–h–p–o–c–h–i–c–e–r–t–e–s–
+19 tene proteg brittle -> –t–e–n–e–p–r–o–t–e–g–b–r–i–t–t–l–e–
+20 long pushing besteht -> –l–o–n–g–p–u–s–h–i–n–g–b–e–s–t–e–h–t–
+21 luent tys batsman -> –l–u–e–n–t–t–y–s–b–a–t–s–m–a–n–
+22 htu serum hydroph -> –h–t–u–s–e–r–u–m–h–y–d–r–o–p–h–
+23 hurst rapporto fruct -> –h–u–r–s–t–r–a–p–p–o–r–t–o–f–r–u–c–t–
+24 eneuve opposed positif -> –e–n–e–u–v–e–o–p–p–o–s–e–d–p–o–s–i–t–i–f–
+25 gou homenaje pants -> –g–o–u–h–o–m–e–n–a–j–e–p–a–n–t–s–
+26 ionati animate mezz -> –i–o–n–a–t–i–a–n–i–m–a–t–e–m–e–z–z–
+27 obra pw aids -> –o–b–r–a–p–w–a–i–d–s–
+28 ullah wooden pe -> –u–l–l–a–h–w–o–o–d–e–n–p–e–
+29 omon azimuth plas -> –o–m–o–n–a–z–i–m–u–t–h–p–l–a–s–
+30 die aspecto oike -> –d–i–e–a–s–p–e–c–t–o–o–i–k–e–
+31 andis legger meantime -> –a–n–d–i–s–l–e–g–g–e–r–m–e–a–n–t–i–m–e–
+32 cards loro sider -> –c–a–r–d–s–l–o–r–o–s–i–d–e–r–
+33 asjonen choisir congest -> –a–s–j–o–n–e–n–c–h–o–i–s–i–r–c–o–n–g–e–s–t–
+34 ificar allontan vag -> –i–f–i–c–a–r–a–l–l–o–n–t–a–n–v–a–g–
+35 although ripped fam -> –a–l–t–h–o–u–g–h–r–i–p–p–e–d–f–a–m–
+36 uber fears termin -> –u–b–e–r–f–e–a–r–s–t–e–r–m–i–n–
+37 maa strom domestic -> –m–a–a–s–t–r–o–m–d–o–m–e–s–t–i–c–
+38 empty huts jardin -> –e–m–p–t–y–h–u–t–s–j–a–r–d–i–n–
+39 xon nar enorm -> –x–o–n–n–a–r–e–n–o–r–m–
+40 tur nic herpes -> –t–u–r–n–i–c–h–e–r–p–e–s–
+41 uf dfs einde -> –u–f–d–f–s–e–i–n–d–e–
+42 laxis vaak moder -> –l–a–x–i–s–v–a–a–k–m–o–d–e–r–
+43 keta walked jacket -> –k–e–t–a–w–a–l–k–e–d–j–a–c–k–e–t–
+44 azin hanging unidade -> –a–z–i–n–h–a–n–g–i–n–g–u–n–i–d–a–d–e–
+45 sit tiers tekn -> –s–i–t–t–i–e–r–s–t–e–k–n–
+46 velopers be voyait -> –v–e–l–o–p–e–r–s–b–e–v–o–y–a–i–t–
+47 chio wafer conhe -> –c–h–i–o–w–a–f–e–r–c–o–n–h–e–
+48 nginx alkalmaz swoje -> –n–g–i–n–x–a–l–k–a–l–m–a–z–s–w–o–j–e–
+49 uniti gela plural -> –u–n–i–t–i–g–e–l–a–p–l–u–r–a–l–
+50 obs propiet feliz -> –o–b–s–p–r–o–p–i–e–t–f–e–l–i–z–
+51 bial souver virtue -> –b–i–a–l–s–o–u–v–e–r–v–i–r–t–u–e–
+52 contro preoccup rails -> –c–o–n–t–r–o–p–r–e–o–c–c–u–p–r–a–i–l–s–
+53 vaar honn eventi -> –v–a–a–r–h–o–n–n–e–v–e–n–t–i–
+54 inando midnight boue -> –i–n–a–n–d–o–m–i–d–n–i–g–h–t–b–o–u–e–
+55 loading pubblico dood -> –l–o–a–d–i–n–g–p–u–b–b–l–i–c–o–d–o–o–d–
+56 elako rango glas -> –e–l–a–k–o–r–a–n–g–o–g–l–a–s–
+57 zim remotely counting -> –z–i–m–r–e–m–o–t–e–l–y–c–o–u–n–t–i–n–g–
+58 aso covari lupus -> –a–s–o–c–o–v–a–r–i–l–u–p–u–s–
+59 ede tussen weakness -> –e–d–e–t–u–s–s–e–n–w–e–a–k–n–e–s–s–
+60 uncia hist bere -> –u–n–c–i–a–h–i–s–t–b–e–r–e–
+61 awk vant commune -> –a–w–k–v–a–n–t–c–o–m–m–u–n–e–
+62 mektedir nodules centrale -> –m–e–k–t–e–d–i–r–n–o–d–u–l–e–s–c–e–n–t–r–a–l–e–
+63 rai fundado midden -> –r–a–i–f–u–n–d–a–d–o–m–i–d–d–e–n–
+64 iony jurid porte -> –i–o–n–y–j–u–r–i–d–p–o–r–t–e–
+65 uttore forests inch -> –u–t–t–o–r–e–f–o–r–e–s–t–s–i–n–c–h–
+66 uppert shocks auto -> –u–p–p–e–r–t–s–h–o–c–k–s–a–u–t–o–
+67 iao camping award -> –i–a–o–c–a–m–p–i–n–g–a–w–a–r–d–
+68 ichter keras rehabil -> –i–c–h–t–e–r–k–e–r–a–s–r–e–h–a–b–i–l–
+69 uito rolled franco -> –u–i–t–o–r–o–l–l–e–d–f–r–a–n–c–o–
+70 deel explica okup -> –d–e–e–l–e–x–p–l–i–c–a–o–k–u–p–
+71 ils textiles suyo -> –i–l–s–t–e–x–t–i–l–e–s–s–u–y–o–
+72 selected landen soudain -> –s–e–l–e–c–t–e–d–l–a–n–d–e–n–s–o–u–d–a–i–n–
+73 cke winter artikel -> –c–k–e–w–i–n–t–e–r–a–r–t–i–k–e–l–
+74 shape nine reprises -> –s–h–a–p–e–n–i–n–e–r–e–p–r–i–s–e–s–
+75 hangi tract obej -> –h–a–n–g–i–t–r–a–c–t–o–b–e–j–
+76 ispens tram ho -> –i–s–p–e–n–s–t–r–a–m–h–o–
+77 entz curves etch -> –e–n–t–z–c–u–r–v–e–s–e–t–c–h–
+78 element berp caso -> –e–l–e–m–e–n–t–b–e–r–p–c–a–s–o–
+79 ennium foll miljo -> –e–n–n–i–u–m–f–o–l–l–m–i–l–j–o–
+80 lied palav sano -> –l–i–e–d–p–a–l–a–v–s–a–n–o–
+81 rounded yang donate -> –r–o–u–n–d–e–d–y–a–n–g–d–o–n–a–t–e–
+82 eneur unidad prudent -> –e–n–e–u–r–u–n–i–d–a–d–p–r–u–d–e–n–t–
+83 ia prostor hockey -> –i–a–p–r–o–s–t–o–r–h–o–c–k–e–y–
+84 gement konfl mec -> –g–e–m–e–n–t–k–o–n–f–l–m–e–c–
+85 assar heur almost -> –a–s–s–a–r–h–e–u–r–a–l–m–o–s–t–
+86 moment kecil gesamten -> –m–o–m–e–n–t–k–e–c–i–l–g–e–s–a–m–t–e–n–
+87 zimendu famosa tomu -> –z–i–m–e–n–d–u–f–a–m–o–s–a–t–o–m–u–
+88 ockets spatial dynasty -> –o–c–k–e–t–s–s–p–a–t–i–a–l–d–y–n–a–s–t–y–
+89 ackson dozen termo -> –a–c–k–s–o–n–d–o–z–e–n–t–e–r–m–o–
+90 achers albums foly -> –a–c–h–e–r–s–a–l–b–u–m–s–f–o–l–y–
+91 format voleva muslim -> –f–o–r–m–a–t–v–o–l–e–v–a–m–u–s–l–i–m–
+92 irilgan confort singing -> –i–r–i–l–g–a–n–c–o–n–f–o–r–t–s–i–n–g–i–n–g–
+93 kiej interd log -> –k–i–e–j–i–n–t–e–r–d–l–o–g–
+94 attu ausgel link -> –a–t–t–u–a–u–s–g–e–l–l–i–n–k–
+95 iranja vinte ach -> –i–r–a–n–j–a–v–i–n–t–e–a–c–h–
+96 chemy mainten virgin -> –c–h–e–m–y–m–a–i–n–t–e–n–v–i–r–g–i–n–
+97 iesa lavori pull -> –i–e–s–a–l–a–v–o–r–i–p–u–l–l–
+98 heed mate gruppi -> –h–e–e–d–m–a–t–e–g–r–u–p–p–i–
+99 jan montage hartu -> –j–a–n–m–o–n–t–a–g–e–h–a–r–t–u–

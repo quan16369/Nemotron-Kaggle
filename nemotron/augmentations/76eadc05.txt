@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 imento sixth solub
+01 richt ug revital
+02 usahaan liegen grew
+
+This is a sample output.
+00 imento sixth solub -> –i–m–e–n–t–o–s–i–x–t–h–s–o–l–u–b–
+01 richt ug revital -> –r–i–c–h–t–u–g–r–e–v–i–t–a–l–
+02 usahaan liegen grew -> –u–s–a–h–a–a–n–l–i–e–g–e–n–g–r–e–w–
+
+This is your input.
+00 rato svat proto
+01 ederal read fauna
+02 olina niego thrown
+03 cliffe sampled inches
+04 conduct naj stamps
+05 operto bire chanson
+06 thead orderly zg
+07 ogs darkness nib
+08 toinette elle bask
+09 ui occupies film
+10 antz apoder daiteke
+11 riques bassist surface
+12 kord economy teste
+13 agram tanta presenta
+14 werpen maze couvre
+15 ethnic majd dissemin
+16 roke querc malades
+17 racuse distric comenz
+18 ateurs advoc grabar
+19 insko ties tetapi
+20 minutes embarc leading
+21 xim forego kors
+22 months samples brug
+23 czyk dizaine consider
+24 vat contenu finest
+25 att tett vos
+26 lego souvenir houve
+27 lbrack kini creates
+28 carbon batterie parecer
+29 lehem qay valut
+30 okban sprach ao
+31 ativo peloton sulfur
+32 car olem miedo
+33 song civ regla
+34 ment tav ather
+35 ovil juga fuori
+36 aski holl scholars
+37 ziu infin namn
+38 carb sabemos hypergly
+39 esy lineage monaster
+40 etzungen viento thy
+41 orium phenolic sembla
+42 rau elig passar
+43 lake altitude tailored
+44 intosh flan pt
+45 akarta convirti vial
+46 ordin adquir dast
+47 endoza park guy
+48 ellus disque huk
+49 acz insuf bayer
+50 previous oba aquella
+51 raven tourist probabil
+52 ario peasant intitol
+53 pretty gepl retros
+54 irtual bike mentres
+55 lict societ kurs
+56 rale nel inqu
+57 amiliar attorno keiser
+58 afen gets campan
+59 ect shores convert
+60 iczny tert atmosfer
+61 zed madness coll
+62 iget neb drones
+63 ouf kapal nelle
+64 otope nesta lev
+65 auto okoli faceva
+66 wo migli enjo
+67 asuna aikana consist
+68 bell europ thirst
+69 wort gorgeous skulpt
+70 gars confocal rende
+71 agr months corde
+72 afe she metal
+73 porters eins ai
+74 ronter domain yan
+75 ara harbor alors
+76 normal keen glisser
+77 psych khai ville
+78 umbling luc risque
+79 iquait chasse gla
+80 itimes juda tecl
+81 yllis bent dunk
+82 hand apag vomiting
+83 aparte overseas palest
+84 reb tutti wake
+85 anak piercing extra
+86 ser listing reak
+87 zust trimmed voller
+88 bano pesos wash
+89 astore network volgens
+90 thel linh pounding
+91 voor printer learning
+92 idyl strok online
+93 eff platform tt
+94 zem game abandon
+95 ntag compost tijdens
+96 pert bathroom argile
+97 perties rocky shortcut
+98 leqslant czerwca trace
+99 inaire celebra denk
+[completion]
+00 rato svat proto -> –r–a–t–o–s–v–a–t–p–r–o–t–o–
+01 ederal read fauna -> –e–d–e–r–a–l–r–e–a–d–f–a–u–n–a–
+02 olina niego thrown -> –o–l–i–n–a–n–i–e–g–o–t–h–r–o–w–n–
+03 cliffe sampled inches -> –c–l–i–f–f–e–s–a–m–p–l–e–d–i–n–c–h–e–s–
+04 conduct naj stamps -> –c–o–n–d–u–c–t–n–a–j–s–t–a–m–p–s–
+05 operto bire chanson -> –o–p–e–r–t–o–b–i–r–e–c–h–a–n–s–o–n–
+06 thead orderly zg -> –t–h–e–a–d–o–r–d–e–r–l–y–z–g–
+07 ogs darkness nib -> –o–g–s–d–a–r–k–n–e–s–s–n–i–b–
+08 toinette elle bask -> –t–o–i–n–e–t–t–e–e–l–l–e–b–a–s–k–
+09 ui occupies film -> –u–i–o–c–c–u–p–i–e–s–f–i–l–m–
+10 antz apoder daiteke -> –a–n–t–z–a–p–o–d–e–r–d–a–i–t–e–k–e–
+11 riques bassist surface -> –r–i–q–u–e–s–b–a–s–s–i–s–t–s–u–r–f–a–c–e–
+12 kord economy teste -> –k–o–r–d–e–c–o–n–o–m–y–t–e–s–t–e–
+13 agram tanta presenta -> –a–g–r–a–m–t–a–n–t–a–p–r–e–s–e–n–t–a–
+14 werpen maze couvre -> –w–e–r–p–e–n–m–a–z–e–c–o–u–v–r–e–
+15 ethnic majd dissemin -> –e–t–h–n–i–c–m–a–j–d–d–i–s–s–e–m–i–n–
+16 roke querc malades -> –r–o–k–e–q–u–e–r–c–m–a–l–a–d–e–s–
+17 racuse distric comenz -> –r–a–c–u–s–e–d–i–s–t–r–i–c–c–o–m–e–n–z–
+18 ateurs advoc grabar -> –a–t–e–u–r–s–a–d–v–o–c–g–r–a–b–a–r–
+19 insko ties tetapi -> –i–n–s–k–o–t–i–e–s–t–e–t–a–p–i–
+20 minutes embarc leading -> –m–i–n–u–t–e–s–e–m–b–a–r–c–l–e–a–d–i–n–g–
+21 xim forego kors -> –x–i–m–f–o–r–e–g–o–k–o–r–s–
+22 months samples brug -> –m–o–n–t–h–s–s–a–m–p–l–e–s–b–r–u–g–
+23 czyk dizaine consider -> –c–z–y–k–d–i–z–a–i–n–e–c–o–n–s–i–d–e–r–
+24 vat contenu finest -> –v–a–t–c–o–n–t–e–n–u–f–i–n–e–s–t–
+25 att tett vos -> –a–t–t–t–e–t–t–v–o–s–
+26 lego souvenir houve -> –l–e–g–o–s–o–u–v–e–n–i–r–h–o–u–v–e–
+27 lbrack kini creates -> –l–b–r–a–c–k–k–i–n–i–c–r–e–a–t–e–s–
+28 carbon batterie parecer -> –c–a–r–b–o–n–b–a–t–t–e–r–i–e–p–a–r–e–c–e–r–
+29 lehem qay valut -> –l–e–h–e–m–q–a–y–v–a–l–u–t–
+30 okban sprach ao -> –o–k–b–a–n–s–p–r–a–c–h–a–o–
+31 ativo peloton sulfur -> –a–t–i–v–o–p–e–l–o–t–o–n–s–u–l–f–u–r–
+32 car olem miedo -> –c–a–r–o–l–e–m–m–i–e–d–o–
+33 song civ regla -> –s–o–n–g–c–i–v–r–e–g–l–a–
+34 ment tav ather -> –m–e–n–t–t–a–v–a–t–h–e–r–
+35 ovil juga fuori -> –o–v–i–l–j–u–g–a–f–u–o–r–i–
+36 aski holl scholars -> –a–s–k–i–h–o–l–l–s–c–h–o–l–a–r–s–
+37 ziu infin namn -> –z–i–u–i–n–f–i–n–n–a–m–n–
+38 carb sabemos hypergly -> –c–a–r–b–s–a–b–e–m–o–s–h–y–p–e–r–g–l–y–
+39 esy lineage monaster -> –e–s–y–l–i–n–e–a–g–e–m–o–n–a–s–t–e–r–
+40 etzungen viento thy -> –e–t–z–u–n–g–e–n–v–i–e–n–t–o–t–h–y–
+41 orium phenolic sembla -> –o–r–i–u–m–p–h–e–n–o–l–i–c–s–e–m–b–l–a–
+42 rau elig passar -> –r–a–u–e–l–i–g–p–a–s–s–a–r–
+43 lake altitude tailored -> –l–a–k–e–a–l–t–i–t–u–d–e–t–a–i–l–o–r–e–d–
+44 intosh flan pt -> –i–n–t–o–s–h–f–l–a–n–p–t–
+45 akarta convirti vial -> –a–k–a–r–t–a–c–o–n–v–i–r–t–i–v–i–a–l–
+46 ordin adquir dast -> –o–r–d–i–n–a–d–q–u–i–r–d–a–s–t–
+47 endoza park guy -> –e–n–d–o–z–a–p–a–r–k–g–u–y–
+48 ellus disque huk -> –e–l–l–u–s–d–i–s–q–u–e–h–u–k–
+49 acz insuf bayer -> –a–c–z–i–n–s–u–f–b–a–y–e–r–
+50 previous oba aquella -> –p–r–e–v–i–o–u–s–o–b–a–a–q–u–e–l–l–a–
+51 raven tourist probabil -> –r–a–v–e–n–t–o–u–r–i–s–t–p–r–o–b–a–b–i–l–
+52 ario peasant intitol -> –a–r–i–o–p–e–a–s–a–n–t–i–n–t–i–t–o–l–
+53 pretty gepl retros -> –p–r–e–t–t–y–g–e–p–l–r–e–t–r–o–s–
+54 irtual bike mentres -> –i–r–t–u–a–l–b–i–k–e–m–e–n–t–r–e–s–
+55 lict societ kurs -> –l–i–c–t–s–o–c–i–e–t–k–u–r–s–
+56 rale nel inqu -> –r–a–l–e–n–e–l–i–n–q–u–
+57 amiliar attorno keiser -> –a–m–i–l–i–a–r–a–t–t–o–r–n–o–k–e–i–s–e–r–
+58 afen gets campan -> –a–f–e–n–g–e–t–s–c–a–m–p–a–n–
+59 ect shores convert -> –e–c–t–s–h–o–r–e–s–c–o–n–v–e–r–t–
+60 iczny tert atmosfer -> –i–c–z–n–y–t–e–r–t–a–t–m–o–s–f–e–r–
+61 zed madness coll -> –z–e–d–m–a–d–n–e–s–s–c–o–l–l–
+62 iget neb drones -> –i–g–e–t–n–e–b–d–r–o–n–e–s–
+63 ouf kapal nelle -> –o–u–f–k–a–p–a–l–n–e–l–l–e–
+64 otope nesta lev -> –o–t–o–p–e–n–e–s–t–a–l–e–v–
+65 auto okoli faceva -> –a–u–t–o–o–k–o–l–i–f–a–c–e–v–a–
+66 wo migli enjo -> –w–o–m–i–g–l–i–e–n–j–o–
+67 asuna aikana consist -> –a–s–u–n–a–a–i–k–a–n–a–c–o–n–s–i–s–t–
+68 bell europ thirst -> –b–e–l–l–e–u–r–o–p–t–h–i–r–s–t–
+69 wort gorgeous skulpt -> –w–o–r–t–g–o–r–g–e–o–u–s–s–k–u–l–p–t–
+70 gars confocal rende -> –g–a–r–s–c–o–n–f–o–c–a–l–r–e–n–d–e–
+71 agr months corde -> –a–g–r–m–o–n–t–h–s–c–o–r–d–e–
+72 afe she metal -> –a–f–e–s–h–e–m–e–t–a–l–
+73 porters eins ai -> –p–o–r–t–e–r–s–e–i–n–s–a–i–
+74 ronter domain yan -> –r–o–n–t–e–r–d–o–m–a–i–n–y–a–n–
+75 ara harbor alors -> –a–r–a–h–a–r–b–o–r–a–l–o–r–s–
+76 normal keen glisser -> –n–o–r–m–a–l–k–e–e–n–g–l–i–s–s–e–r–
+77 psych khai ville -> –p–s–y–c–h–k–h–a–i–v–i–l–l–e–
+78 umbling luc risque -> –u–m–b–l–i–n–g–l–u–c–r–i–s–q–u–e–
+79 iquait chasse gla -> –i–q–u–a–i–t–c–h–a–s–s–e–g–l–a–
+80 itimes juda tecl -> –i–t–i–m–e–s–j–u–d–a–t–e–c–l–
+81 yllis bent dunk -> –y–l–l–i–s–b–e–n–t–d–u–n–k–
+82 hand apag vomiting -> –h–a–n–d–a–p–a–g–v–o–m–i–t–i–n–g–
+83 aparte overseas palest -> –a–p–a–r–t–e–o–v–e–r–s–e–a–s–p–a–l–e–s–t–
+84 reb tutti wake -> –r–e–b–t–u–t–t–i–w–a–k–e–
+85 anak piercing extra -> –a–n–a–k–p–i–e–r–c–i–n–g–e–x–t–r–a–
+86 ser listing reak -> –s–e–r–l–i–s–t–i–n–g–r–e–a–k–
+87 zust trimmed voller -> –z–u–s–t–t–r–i–m–m–e–d–v–o–l–l–e–r–
+88 bano pesos wash -> –b–a–n–o–p–e–s–o–s–w–a–s–h–
+89 astore network volgens -> –a–s–t–o–r–e–n–e–t–w–o–r–k–v–o–l–g–e–n–s–
+90 thel linh pounding -> –t–h–e–l–l–i–n–h–p–o–u–n–d–i–n–g–
+91 voor printer learning -> –v–o–o–r–p–r–i–n–t–e–r–l–e–a–r–n–i–n–g–
+92 idyl strok online -> –i–d–y–l–s–t–r–o–k–o–n–l–i–n–e–
+93 eff platform tt -> –e–f–f–p–l–a–t–f–o–r–m–t–t–
+94 zem game abandon -> –z–e–m–g–a–m–e–a–b–a–n–d–o–n–
+95 ntag compost tijdens -> –n–t–a–g–c–o–m–p–o–s–t–t–i–j–d–e–n–s–
+96 pert bathroom argile -> –p–e–r–t–b–a–t–h–r–o–o–m–a–r–g–i–l–e–
+97 perties rocky shortcut -> –p–e–r–t–i–e–s–r–o–c–k–y–s–h–o–r–t–c–u–t–
+98 leqslant czerwca trace -> –l–e–q–s–l–a–n–t–c–z–e–r–w–c–a–t–r–a–c–e–
+99 inaire celebra denk -> –i–n–a–i–r–e–c–e–l–e–b–r–a–d–e–n–k–

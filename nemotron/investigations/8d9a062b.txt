@@ -1,0 +1,60 @@
+problem id: 8d9a062b
+category: cryptarithm_guess
+
+examples:
+1. `$%+<{ = ^:}`
+2. `}!+%^ = ^$\`
+3. `\$+<} = ^!^`
+
+inferred rule:
+Treat each non-operator symbol as a decimal digit and read each 2-symbol chunk as the 2-digit number written in that order.
+
+One exact-fit digit assignment is:
+
+- `> = 0`
+- `^ = 1`
+- `! = 2`
+- `\ = 3`
+- `: = 4`
+- `$ = 5`
+- `} = 6`
+- `{ = 7`
+- `< = 8`
+- `% = 9`
+
+With that map:
+
+- `+` is ordinary addition.
+- The query's unseen `-` is most naturally taken as ordinary subtraction.
+
+step-by-step check on the examples:
+1. `$%+<{`
+   `$%` is `59` and `<{` is `87`.
+   `59 + 87 = 146`.
+   `1 -> ^`, `4 -> :`, `6 -> }`, so the output is `^:}`.
+
+2. `}!+%^`
+   `}!` is `62` and `%^` is `91`.
+   `62 + 91 = 153`.
+   `1 -> ^`, `5 -> $`, `3 -> \`, so the output is `^$\`.
+
+3. `\$+<}`
+   `\$` is `35` and `<}` is `86`.
+   `35 + 86 = 121`.
+   `1 -> ^`, `2 -> !`, `1 -> ^`, so the output is `^!^`.
+
+step-by-step application to the query:
+Query: `\}>!:`
+
+1. `\}` decodes to `36`.
+2. `!:` decodes to `24`.
+3. Apply the unseen `-` as ordinary subtraction: `36 - 24 = 12`.
+4. Encode `12` back into symbols:
+   `1 -> ^`
+   `2 -> !`
+
+predicted answer:
+`^!`
+
+confidence note:
+Low-medium confidence. The addition rule is exact on all three examples, but those three examples do not uniquely determine every digit. There is at least one other digit assignment that also fits the training pairs and would change the query result, so `^!` should be treated as the cleanest exact-fit completion rather than a fully forced answer.

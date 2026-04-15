@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 atera sexual bata
+01 atio repeated amie
+02 omit concentr amount
+
+This is a sample output.
+00 atera sexual bata -> –a–t–e–r–a–s–e–x–u–a–l–b–a–t–a–
+01 atio repeated amie -> –a–t–i–o–r–e–p–e–a–t–e–d–a–m–i–e–
+02 omit concentr amount -> –o–m–i–t–c–o–n–c–e–n–t–r–a–m–o–u–n–t–
+
+This is your input.
+00 stit dock chois
+01 annah fraction migrate
+02 kowych dramatic paying
+03 name clamp kemudian
+04 operator chats laug
+05 gap velvet ok
+06 iin intercal gu
+07 tml indul spl
+08 esek sede deklar
+09 rafa pone causar
+10 linger injured inverno
+11 sted these fructose
+12 thood pernah hain
+13 sen pojawi hyd
+14 iei ingl erased
+15 zess konci counter
+16 onnen switches annat
+17 gaard meest industri
+18 unki mudah venta
+19 ian kroz lone
+20 adium fleur besar
+21 clare artific welcome
+22 icznego monarchy doubt
+23 val charcoal explique
+24 rupted reflet expon
+25 iply happen flags
+26 ibatkan rocking zuletzt
+27 lep inhab courir
+28 validate ukrain ras
+29 wane health diputado
+30 ional ofrec world
+31 ovatel edu dirig
+32 umu elektro scramb
+33 ansen logical nale
+34 ophenyl pellets cooler
+35 nex journal assort
+36 erge guarded teoria
+37 isional abdomen laten
+38 geber servant pilots
+39 heid unst nooit
+40 letcher morgen sans
+41 clidean kerk laik
+42 reate conjug fixing
+43 wick whip reunited
+44 itzen rozd letoun
+45 lers jotka anionic
+46 ettent criar act
+47 peer precip spacious
+48 inetics llamar koncept
+49 ppsala talking jas
+50 opard inflex nal
+51 username its aloud
+52 ocide abond hasn
+53 hoven having montrer
+54 ictwo remov bom
+55 ught stimuli reformed
+56 complete rush measures
+57 inggi newly descenso
+58 heel submit perso
+59 losen cort persons
+60 fox blot poner
+61 egan spirits ishlab
+62 itted possa tatto
+63 auts tez umfass
+64 atched auf conduit
+65 lec awe anual
+66 bour protocol messages
+67 hof yok titre
+68 andin stal spam
+69 nan root mandated
+70 notice whilst hrad
+71 arono insecure timet
+72 izioni african ress
+73 btn souten mathem
+74 emin einget became
+75 arlas balls cerebell
+76 mig regret prime
+77 brains thousand vicious
+78 istent quale nginx
+79 alie militant odn
+80 achsen annot regres
+81 elope expl freiwill
+82 osti afstand kri
+83 atti antib immedi
+84 ering relevant spacer
+85 oland flere encoder
+86 adament megs oper
+87 geg piston pense
+88 our quin squeeze
+89 ssystem picking escribir
+90 sprech teria storms
+91 reviews specs juny
+92 veld terletak sij
+93 posure liberty cinta
+94 crease erab pobj
+95 orous koju jeweils
+96 iteit erak elevated
+97 sterdam abertura chief
+98 ugoslav aboard reeds
+99 known confer roto
+[completion]
+00 stit dock chois -> –s–t–i–t–d–o–c–k–c–h–o–i–s–
+01 annah fraction migrate -> –a–n–n–a–h–f–r–a–c–t–i–o–n–m–i–g–r–a–t–e–
+02 kowych dramatic paying -> –k–o–w–y–c–h–d–r–a–m–a–t–i–c–p–a–y–i–n–g–
+03 name clamp kemudian -> –n–a–m–e–c–l–a–m–p–k–e–m–u–d–i–a–n–
+04 operator chats laug -> –o–p–e–r–a–t–o–r–c–h–a–t–s–l–a–u–g–
+05 gap velvet ok -> –g–a–p–v–e–l–v–e–t–o–k–
+06 iin intercal gu -> –i–i–n–i–n–t–e–r–c–a–l–g–u–
+07 tml indul spl -> –t–m–l–i–n–d–u–l–s–p–l–
+08 esek sede deklar -> –e–s–e–k–s–e–d–e–d–e–k–l–a–r–
+09 rafa pone causar -> –r–a–f–a–p–o–n–e–c–a–u–s–a–r–
+10 linger injured inverno -> –l–i–n–g–e–r–i–n–j–u–r–e–d–i–n–v–e–r–n–o–
+11 sted these fructose -> –s–t–e–d–t–h–e–s–e–f–r–u–c–t–o–s–e–
+12 thood pernah hain -> –t–h–o–o–d–p–e–r–n–a–h–h–a–i–n–
+13 sen pojawi hyd -> –s–e–n–p–o–j–a–w–i–h–y–d–
+14 iei ingl erased -> –i–e–i–i–n–g–l–e–r–a–s–e–d–
+15 zess konci counter -> –z–e–s–s–k–o–n–c–i–c–o–u–n–t–e–r–
+16 onnen switches annat -> –o–n–n–e–n–s–w–i–t–c–h–e–s–a–n–n–a–t–
+17 gaard meest industri -> –g–a–a–r–d–m–e–e–s–t–i–n–d–u–s–t–r–i–
+18 unki mudah venta -> –u–n–k–i–m–u–d–a–h–v–e–n–t–a–
+19 ian kroz lone -> –i–a–n–k–r–o–z–l–o–n–e–
+20 adium fleur besar -> –a–d–i–u–m–f–l–e–u–r–b–e–s–a–r–
+21 clare artific welcome -> –c–l–a–r–e–a–r–t–i–f–i–c–w–e–l–c–o–m–e–
+22 icznego monarchy doubt -> –i–c–z–n–e–g–o–m–o–n–a–r–c–h–y–d–o–u–b–t–
+23 val charcoal explique -> –v–a–l–c–h–a–r–c–o–a–l–e–x–p–l–i–q–u–e–
+24 rupted reflet expon -> –r–u–p–t–e–d–r–e–f–l–e–t–e–x–p–o–n–
+25 iply happen flags -> –i–p–l–y–h–a–p–p–e–n–f–l–a–g–s–
+26 ibatkan rocking zuletzt -> –i–b–a–t–k–a–n–r–o–c–k–i–n–g–z–u–l–e–t–z–t–
+27 lep inhab courir -> –l–e–p–i–n–h–a–b–c–o–u–r–i–r–
+28 validate ukrain ras -> –v–a–l–i–d–a–t–e–u–k–r–a–i–n–r–a–s–
+29 wane health diputado -> –w–a–n–e–h–e–a–l–t–h–d–i–p–u–t–a–d–o–
+30 ional ofrec world -> –i–o–n–a–l–o–f–r–e–c–w–o–r–l–d–
+31 ovatel edu dirig -> –o–v–a–t–e–l–e–d–u–d–i–r–i–g–
+32 umu elektro scramb -> –u–m–u–e–l–e–k–t–r–o–s–c–r–a–m–b–
+33 ansen logical nale -> –a–n–s–e–n–l–o–g–i–c–a–l–n–a–l–e–
+34 ophenyl pellets cooler -> –o–p–h–e–n–y–l–p–e–l–l–e–t–s–c–o–o–l–e–r–
+35 nex journal assort -> –n–e–x–j–o–u–r–n–a–l–a–s–s–o–r–t–
+36 erge guarded teoria -> –e–r–g–e–g–u–a–r–d–e–d–t–e–o–r–i–a–
+37 isional abdomen laten -> –i–s–i–o–n–a–l–a–b–d–o–m–e–n–l–a–t–e–n–
+38 geber servant pilots -> –g–e–b–e–r–s–e–r–v–a–n–t–p–i–l–o–t–s–
+39 heid unst nooit -> –h–e–i–d–u–n–s–t–n–o–o–i–t–
+40 letcher morgen sans -> –l–e–t–c–h–e–r–m–o–r–g–e–n–s–a–n–s–
+41 clidean kerk laik -> –c–l–i–d–e–a–n–k–e–r–k–l–a–i–k–
+42 reate conjug fixing -> –r–e–a–t–e–c–o–n–j–u–g–f–i–x–i–n–g–
+43 wick whip reunited -> –w–i–c–k–w–h–i–p–r–e–u–n–i–t–e–d–
+44 itzen rozd letoun -> –i–t–z–e–n–r–o–z–d–l–e–t–o–u–n–
+45 lers jotka anionic -> –l–e–r–s–j–o–t–k–a–a–n–i–o–n–i–c–
+46 ettent criar act -> –e–t–t–e–n–t–c–r–i–a–r–a–c–t–
+47 peer precip spacious -> –p–e–e–r–p–r–e–c–i–p–s–p–a–c–i–o–u–s–
+48 inetics llamar koncept -> –i–n–e–t–i–c–s–l–l–a–m–a–r–k–o–n–c–e–p–t–
+49 ppsala talking jas -> –p–p–s–a–l–a–t–a–l–k–i–n–g–j–a–s–
+50 opard inflex nal -> –o–p–a–r–d–i–n–f–l–e–x–n–a–l–
+51 username its aloud -> –u–s–e–r–n–a–m–e–i–t–s–a–l–o–u–d–
+52 ocide abond hasn -> –o–c–i–d–e–a–b–o–n–d–h–a–s–n–
+53 hoven having montrer -> –h–o–v–e–n–h–a–v–i–n–g–m–o–n–t–r–e–r–
+54 ictwo remov bom -> –i–c–t–w–o–r–e–m–o–v–b–o–m–
+55 ught stimuli reformed -> –u–g–h–t–s–t–i–m–u–l–i–r–e–f–o–r–m–e–d–
+56 complete rush measures -> –c–o–m–p–l–e–t–e–r–u–s–h–m–e–a–s–u–r–e–s–
+57 inggi newly descenso -> –i–n–g–g–i–n–e–w–l–y–d–e–s–c–e–n–s–o–
+58 heel submit perso -> –h–e–e–l–s–u–b–m–i–t–p–e–r–s–o–
+59 losen cort persons -> –l–o–s–e–n–c–o–r–t–p–e–r–s–o–n–s–
+60 fox blot poner -> –f–o–x–b–l–o–t–p–o–n–e–r–
+61 egan spirits ishlab -> –e–g–a–n–s–p–i–r–i–t–s–i–s–h–l–a–b–
+62 itted possa tatto -> –i–t–t–e–d–p–o–s–s–a–t–a–t–t–o–
+63 auts tez umfass -> –a–u–t–s–t–e–z–u–m–f–a–s–s–
+64 atched auf conduit -> –a–t–c–h–e–d–a–u–f–c–o–n–d–u–i–t–
+65 lec awe anual -> –l–e–c–a–w–e–a–n–u–a–l–
+66 bour protocol messages -> –b–o–u–r–p–r–o–t–o–c–o–l–m–e–s–s–a–g–e–s–
+67 hof yok titre -> –h–o–f–y–o–k–t–i–t–r–e–
+68 andin stal spam -> –a–n–d–i–n–s–t–a–l–s–p–a–m–
+69 nan root mandated -> –n–a–n–r–o–o–t–m–a–n–d–a–t–e–d–
+70 notice whilst hrad -> –n–o–t–i–c–e–w–h–i–l–s–t–h–r–a–d–
+71 arono insecure timet -> –a–r–o–n–o–i–n–s–e–c–u–r–e–t–i–m–e–t–
+72 izioni african ress -> –i–z–i–o–n–i–a–f–r–i–c–a–n–r–e–s–s–
+73 btn souten mathem -> –b–t–n–s–o–u–t–e–n–m–a–t–h–e–m–
+74 emin einget became -> –e–m–i–n–e–i–n–g–e–t–b–e–c–a–m–e–
+75 arlas balls cerebell -> –a–r–l–a–s–b–a–l–l–s–c–e–r–e–b–e–l–l–
+76 mig regret prime -> –m–i–g–r–e–g–r–e–t–p–r–i–m–e–
+77 brains thousand vicious -> –b–r–a–i–n–s–t–h–o–u–s–a–n–d–v–i–c–i–o–u–s–
+78 istent quale nginx -> –i–s–t–e–n–t–q–u–a–l–e–n–g–i–n–x–
+79 alie militant odn -> –a–l–i–e–m–i–l–i–t–a–n–t–o–d–n–
+80 achsen annot regres -> –a–c–h–s–e–n–a–n–n–o–t–r–e–g–r–e–s–
+81 elope expl freiwill -> –e–l–o–p–e–e–x–p–l–f–r–e–i–w–i–l–l–
+82 osti afstand kri -> –o–s–t–i–a–f–s–t–a–n–d–k–r–i–
+83 atti antib immedi -> –a–t–t–i–a–n–t–i–b–i–m–m–e–d–i–
+84 ering relevant spacer -> –e–r–i–n–g–r–e–l–e–v–a–n–t–s–p–a–c–e–r–
+85 oland flere encoder -> –o–l–a–n–d–f–l–e–r–e–e–n–c–o–d–e–r–
+86 adament megs oper -> –a–d–a–m–e–n–t–m–e–g–s–o–p–e–r–
+87 geg piston pense -> –g–e–g–p–i–s–t–o–n–p–e–n–s–e–
+88 our quin squeeze -> –o–u–r–q–u–i–n–s–q–u–e–e–z–e–
+89 ssystem picking escribir -> –s–s–y–s–t–e–m–p–i–c–k–i–n–g–e–s–c–r–i–b–i–r–
+90 sprech teria storms -> –s–p–r–e–c–h–t–e–r–i–a–s–t–o–r–m–s–
+91 reviews specs juny -> –r–e–v–i–e–w–s–s–p–e–c–s–j–u–n–y–
+92 veld terletak sij -> –v–e–l–d–t–e–r–l–e–t–a–k–s–i–j–
+93 posure liberty cinta -> –p–o–s–u–r–e–l–i–b–e–r–t–y–c–i–n–t–a–
+94 crease erab pobj -> –c–r–e–a–s–e–e–r–a–b–p–o–b–j–
+95 orous koju jeweils -> –o–r–o–u–s–k–o–j–u–j–e–w–e–i–l–s–
+96 iteit erak elevated -> –i–t–e–i–t–e–r–a–k–e–l–e–v–a–t–e–d–
+97 sterdam abertura chief -> –s–t–e–r–d–a–m–a–b–e–r–t–u–r–a–c–h–i–e–f–
+98 ugoslav aboard reeds -> –u–g–o–s–l–a–v–a–b–o–a–r–d–r–e–e–d–s–
+99 known confer roto -> –k–n–o–w–n–c–o–n–f–e–r–r–o–t–o–

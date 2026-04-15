@@ -1,0 +1,72 @@
+problem id: 62fc7798
+category: cryptarithm_guess
+
+examples:
+1. `>(+`& = }``
+2. `>>+}? = `]:`
+3. `''+#} = '::`
+4. ````+#' = `(:`
+
+inferred rule:
+Treat each non-operator symbol as a decimal digit.
+
+Use this assignment:
+
+- `# = 0`
+- `: = 1`
+- `& = 2`
+- `] = 3`
+- `} = 4`
+- `> = 5`
+- `( = 6`
+- `' = 7`
+- `? = 8`
+- `` ` = 9`
+
+Read each 2-symbol operand as a 2-digit number, reverse the digits of each operand before applying the operator, then reverse the digits of the numeric result and encode back into symbols.
+
+step-by-step check on the examples:
+1. `>(+`&`
+   `>(` encodes `56`, reverse to `65`.
+   `` `& `` encodes `92`, reverse to `29`.
+   `65 + 29 = 94`.
+   Reverse the result digits: `94 -> 49`.
+   Encode `49` back as `}``.
+
+2. `>>+}?`
+   `>>` encodes `55`, reverse to `55`.
+   `}?` encodes `48`, reverse to `84`.
+   `55 + 84 = 139`.
+   Reverse the result digits: `139 -> 931`.
+   Encode `931` back as `` `]: ``.
+
+3. `''+#}`
+   `''` encodes `77`, reverse to `77`.
+   `#}` encodes `04`, reverse to `40`.
+   `77 + 40 = 117`.
+   Reverse the result digits: `117 -> 711`.
+   Encode `711` back as `'::`.
+
+4. ````+#'`
+   `````` encodes `99`, reverse to `99`.
+   `#'` encodes `07`, reverse to `70`.
+   `99 + 70 = 169`.
+   Reverse the result digits: `169 -> 961`.
+   Encode `961` back as `` `(: ``.
+
+step-by-step application to the query:
+Query: `((-&}`
+
+1. `((` encodes `66`, reverse to `66`.
+2. `&}` encodes `24`, reverse to `42`.
+3. Apply `-` as ordinary subtraction: `66 - 42 = 24`.
+4. Reverse the result digits: `24 -> 42`.
+5. Encode `42` back into symbols:
+   `4 -> }`
+   `2 -> &`
+
+predicted answer:
+`}&`
+
+confidence note:
+Medium confidence. The digit mapping and reverse-operands / operate / reverse-result rule fits all four training examples exactly. The only extrapolation is treating the unseen query operator `-` as ordinary subtraction because the seen `+` behaves like ordinary addition.

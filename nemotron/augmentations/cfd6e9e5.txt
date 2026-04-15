@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 nga benannt regent
+01 header emanc wasting
+02 skej promet alm
+
+This is a sample output.
+00 nga benannt regent -> –n–g–a–b–e–n–a–n–n–t–r–e–g–e–n–t–
+01 header emanc wasting -> –h–e–a–d–e–r–e–m–a–n–c–w–a–s–t–i–n–g–
+02 skej promet alm -> –s–k–e–j–p–r–o–m–e–t–a–l–m–
+
+This is your input.
+00 ikos descenso submit
+01 earch perso cort
+02 wirk persons blot
+03 ourn poner spirits
+04 taj ishlab possa
+05 ulado tatto tez
+06 metry umfass auf
+07 amerika conduit awe
+08 alg anual protocol
+09 esinde messages yok
+10 ocial titre stal
+11 ranu spam root
+12 vel mandated whilst
+13 langle hrad insecure
+14 ereg timet african
+15 amaz ress souten
+16 itories mathem einget
+17 ichtete became balls
+18 fm cerebell regret
+19 zogen prime thousand
+20 ords vicious quale
+21 rois nginx militant
+22 itle odn annot
+23 pr regres expl
+24 anyi freiwill afstand
+25 cs kri antib
+26 fragment immedi relevant
+27 cop spacer flere
+28 ambi encoder megs
+29 lassung oper piston
+30 ponent pense quin
+31 oom squeeze picking
+32 lastname escribir teria
+33 clama storms specs
+34 ampion juny terletak
+35 xima sij liberty
+36 iret cinta erab
+37 sheets pobj koju
+38 uradora jeweils erak
+39 finale elevated abertura
+40 lerinden chief aboard
+41 cula reeds confer
+42 hay roto lourde
+43 yi mechan osc
+44 avljena musikal vector
+45 umo analog uncle
+46 azan refurb richtig
+47 skills ezzel chip
+48 ually delivers sacrific
+49 cepte njema marts
+50 ailles fais prision
+51 present got sentait
+52 rei imme posebno
+53 fixed atend dated
+54 ivo davon vig
+55 teilte pieces gard
+56 he ice chiff
+57 bos compet announ
+58 yroid contexts overrid
+59 redi isla gali
+60 working shafts confund
+61 iligen klo croise
+62 isit yli adap
+63 eem maximale satur
+64 embl eso thought
+65 outer suitable musim
+66 nak daylight trucks
+67 rann mold elucid
+68 udge acry ina
+69 allow feet grunt
+70 vidia cups zuria
+71 istice paesi etm
+72 ynamic nous voulais
+73 ereco jure luch
+74 art posthum annoy
+75 nable senare papal
+76 idenza dezelfde bailar
+77 oyer versucht lowering
+78 brig dodat naive
+79 aturing spekt gyak
+80 ipse section toda
+81 asti banks inv
+82 ecause gespe gama
+83 ikuti stagn foule
+84 tron reward urinary
+85 unch faec olmad
+86 amiento coment simet
+87 isten maison honors
+88 cycle comed nuevas
+89 kog sailkat liens
+90 agawa acum fibers
+91 idir sted overe
+92 anje einzige clon
+93 rub antennas intertw
+94 sek kasv soddisf
+95 panel dell entusias
+96 uate genomes wa
+97 ose lbl boleh
+98 ursor sektor sull
+99 iedo rows murmura
+[completion]
+00 ikos descenso submit -> –i–k–o–s–d–e–s–c–e–n–s–o–s–u–b–m–i–t–
+01 earch perso cort -> –e–a–r–c–h–p–e–r–s–o–c–o–r–t–
+02 wirk persons blot -> –w–i–r–k–p–e–r–s–o–n–s–b–l–o–t–
+03 ourn poner spirits -> –o–u–r–n–p–o–n–e–r–s–p–i–r–i–t–s–
+04 taj ishlab possa -> –t–a–j–i–s–h–l–a–b–p–o–s–s–a–
+05 ulado tatto tez -> –u–l–a–d–o–t–a–t–t–o–t–e–z–
+06 metry umfass auf -> –m–e–t–r–y–u–m–f–a–s–s–a–u–f–
+07 amerika conduit awe -> –a–m–e–r–i–k–a–c–o–n–d–u–i–t–a–w–e–
+08 alg anual protocol -> –a–l–g–a–n–u–a–l–p–r–o–t–o–c–o–l–
+09 esinde messages yok -> –e–s–i–n–d–e–m–e–s–s–a–g–e–s–y–o–k–
+10 ocial titre stal -> –o–c–i–a–l–t–i–t–r–e–s–t–a–l–
+11 ranu spam root -> –r–a–n–u–s–p–a–m–r–o–o–t–
+12 vel mandated whilst -> –v–e–l–m–a–n–d–a–t–e–d–w–h–i–l–s–t–
+13 langle hrad insecure -> –l–a–n–g–l–e–h–r–a–d–i–n–s–e–c–u–r–e–
+14 ereg timet african -> –e–r–e–g–t–i–m–e–t–a–f–r–i–c–a–n–
+15 amaz ress souten -> –a–m–a–z–r–e–s–s–s–o–u–t–e–n–
+16 itories mathem einget -> –i–t–o–r–i–e–s–m–a–t–h–e–m–e–i–n–g–e–t–
+17 ichtete became balls -> –i–c–h–t–e–t–e–b–e–c–a–m–e–b–a–l–l–s–
+18 fm cerebell regret -> –f–m–c–e–r–e–b–e–l–l–r–e–g–r–e–t–
+19 zogen prime thousand -> –z–o–g–e–n–p–r–i–m–e–t–h–o–u–s–a–n–d–
+20 ords vicious quale -> –o–r–d–s–v–i–c–i–o–u–s–q–u–a–l–e–
+21 rois nginx militant -> –r–o–i–s–n–g–i–n–x–m–i–l–i–t–a–n–t–
+22 itle odn annot -> –i–t–l–e–o–d–n–a–n–n–o–t–
+23 pr regres expl -> –p–r–r–e–g–r–e–s–e–x–p–l–
+24 anyi freiwill afstand -> –a–n–y–i–f–r–e–i–w–i–l–l–a–f–s–t–a–n–d–
+25 cs kri antib -> –c–s–k–r–i–a–n–t–i–b–
+26 fragment immedi relevant -> –f–r–a–g–m–e–n–t–i–m–m–e–d–i–r–e–l–e–v–a–n–t–
+27 cop spacer flere -> –c–o–p–s–p–a–c–e–r–f–l–e–r–e–
+28 ambi encoder megs -> –a–m–b–i–e–n–c–o–d–e–r–m–e–g–s–
+29 lassung oper piston -> –l–a–s–s–u–n–g–o–p–e–r–p–i–s–t–o–n–
+30 ponent pense quin -> –p–o–n–e–n–t–p–e–n–s–e–q–u–i–n–
+31 oom squeeze picking -> –o–o–m–s–q–u–e–e–z–e–p–i–c–k–i–n–g–
+32 lastname escribir teria -> –l–a–s–t–n–a–m–e–e–s–c–r–i–b–i–r–t–e–r–i–a–
+33 clama storms specs -> –c–l–a–m–a–s–t–o–r–m–s–s–p–e–c–s–
+34 ampion juny terletak -> –a–m–p–i–o–n–j–u–n–y–t–e–r–l–e–t–a–k–
+35 xima sij liberty -> –x–i–m–a–s–i–j–l–i–b–e–r–t–y–
+36 iret cinta erab -> –i–r–e–t–c–i–n–t–a–e–r–a–b–
+37 sheets pobj koju -> –s–h–e–e–t–s–p–o–b–j–k–o–j–u–
+38 uradora jeweils erak -> –u–r–a–d–o–r–a–j–e–w–e–i–l–s–e–r–a–k–
+39 finale elevated abertura -> –f–i–n–a–l–e–e–l–e–v–a–t–e–d–a–b–e–r–t–u–r–a–
+40 lerinden chief aboard -> –l–e–r–i–n–d–e–n–c–h–i–e–f–a–b–o–a–r–d–
+41 cula reeds confer -> –c–u–l–a–r–e–e–d–s–c–o–n–f–e–r–
+42 hay roto lourde -> –h–a–y–r–o–t–o–l–o–u–r–d–e–
+43 yi mechan osc -> –y–i–m–e–c–h–a–n–o–s–c–
+44 avljena musikal vector -> –a–v–l–j–e–n–a–m–u–s–i–k–a–l–v–e–c–t–o–r–
+45 umo analog uncle -> –u–m–o–a–n–a–l–o–g–u–n–c–l–e–
+46 azan refurb richtig -> –a–z–a–n–r–e–f–u–r–b–r–i–c–h–t–i–g–
+47 skills ezzel chip -> –s–k–i–l–l–s–e–z–z–e–l–c–h–i–p–
+48 ually delivers sacrific -> –u–a–l–l–y–d–e–l–i–v–e–r–s–s–a–c–r–i–f–i–c–
+49 cepte njema marts -> –c–e–p–t–e–n–j–e–m–a–m–a–r–t–s–
+50 ailles fais prision -> –a–i–l–l–e–s–f–a–i–s–p–r–i–s–i–o–n–
+51 present got sentait -> –p–r–e–s–e–n–t–g–o–t–s–e–n–t–a–i–t–
+52 rei imme posebno -> –r–e–i–i–m–m–e–p–o–s–e–b–n–o–
+53 fixed atend dated -> –f–i–x–e–d–a–t–e–n–d–d–a–t–e–d–
+54 ivo davon vig -> –i–v–o–d–a–v–o–n–v–i–g–
+55 teilte pieces gard -> –t–e–i–l–t–e–p–i–e–c–e–s–g–a–r–d–
+56 he ice chiff -> –h–e–i–c–e–c–h–i–f–f–
+57 bos compet announ -> –b–o–s–c–o–m–p–e–t–a–n–n–o–u–n–
+58 yroid contexts overrid -> –y–r–o–i–d–c–o–n–t–e–x–t–s–o–v–e–r–r–i–d–
+59 redi isla gali -> –r–e–d–i–i–s–l–a–g–a–l–i–
+60 working shafts confund -> –w–o–r–k–i–n–g–s–h–a–f–t–s–c–o–n–f–u–n–d–
+61 iligen klo croise -> –i–l–i–g–e–n–k–l–o–c–r–o–i–s–e–
+62 isit yli adap -> –i–s–i–t–y–l–i–a–d–a–p–
+63 eem maximale satur -> –e–e–m–m–a–x–i–m–a–l–e–s–a–t–u–r–
+64 embl eso thought -> –e–m–b–l–e–s–o–t–h–o–u–g–h–t–
+65 outer suitable musim -> –o–u–t–e–r–s–u–i–t–a–b–l–e–m–u–s–i–m–
+66 nak daylight trucks -> –n–a–k–d–a–y–l–i–g–h–t–t–r–u–c–k–s–
+67 rann mold elucid -> –r–a–n–n–m–o–l–d–e–l–u–c–i–d–
+68 udge acry ina -> –u–d–g–e–a–c–r–y–i–n–a–
+69 allow feet grunt -> –a–l–l–o–w–f–e–e–t–g–r–u–n–t–
+70 vidia cups zuria -> –v–i–d–i–a–c–u–p–s–z–u–r–i–a–
+71 istice paesi etm -> –i–s–t–i–c–e–p–a–e–s–i–e–t–m–
+72 ynamic nous voulais -> –y–n–a–m–i–c–n–o–u–s–v–o–u–l–a–i–s–
+73 ereco jure luch -> –e–r–e–c–o–j–u–r–e–l–u–c–h–
+74 art posthum annoy -> –a–r–t–p–o–s–t–h–u–m–a–n–n–o–y–
+75 nable senare papal -> –n–a–b–l–e–s–e–n–a–r–e–p–a–p–a–l–
+76 idenza dezelfde bailar -> –i–d–e–n–z–a–d–e–z–e–l–f–d–e–b–a–i–l–a–r–
+77 oyer versucht lowering -> –o–y–e–r–v–e–r–s–u–c–h–t–l–o–w–e–r–i–n–g–
+78 brig dodat naive -> –b–r–i–g–d–o–d–a–t–n–a–i–v–e–
+79 aturing spekt gyak -> –a–t–u–r–i–n–g–s–p–e–k–t–g–y–a–k–
+80 ipse section toda -> –i–p–s–e–s–e–c–t–i–o–n–t–o–d–a–
+81 asti banks inv -> –a–s–t–i–b–a–n–k–s–i–n–v–
+82 ecause gespe gama -> –e–c–a–u–s–e–g–e–s–p–e–g–a–m–a–
+83 ikuti stagn foule -> –i–k–u–t–i–s–t–a–g–n–f–o–u–l–e–
+84 tron reward urinary -> –t–r–o–n–r–e–w–a–r–d–u–r–i–n–a–r–y–
+85 unch faec olmad -> –u–n–c–h–f–a–e–c–o–l–m–a–d–
+86 amiento coment simet -> –a–m–i–e–n–t–o–c–o–m–e–n–t–s–i–m–e–t–
+87 isten maison honors -> –i–s–t–e–n–m–a–i–s–o–n–h–o–n–o–r–s–
+88 cycle comed nuevas -> –c–y–c–l–e–c–o–m–e–d–n–u–e–v–a–s–
+89 kog sailkat liens -> –k–o–g–s–a–i–l–k–a–t–l–i–e–n–s–
+90 agawa acum fibers -> –a–g–a–w–a–a–c–u–m–f–i–b–e–r–s–
+91 idir sted overe -> –i–d–i–r–s–t–e–d–o–v–e–r–e–
+92 anje einzige clon -> –a–n–j–e–e–i–n–z–i–g–e–c–l–o–n–
+93 rub antennas intertw -> –r–u–b–a–n–t–e–n–n–a–s–i–n–t–e–r–t–w–
+94 sek kasv soddisf -> –s–e–k–k–a–s–v–s–o–d–d–i–s–f–
+95 panel dell entusias -> –p–a–n–e–l–d–e–l–l–e–n–t–u–s–i–a–s–
+96 uate genomes wa -> –u–a–t–e–g–e–n–o–m–e–s–w–a–
+97 ose lbl boleh -> –o–s–e–l–b–l–b–o–l–e–h–
+98 ursor sektor sull -> –u–r–s–o–r–s–e–k–t–o–r–s–u–l–l–
+99 iedo rows murmura -> –i–e–d–o–r–o–w–s–m–u–r–m–u–r–a–

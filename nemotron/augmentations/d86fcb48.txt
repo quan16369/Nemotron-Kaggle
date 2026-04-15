@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 koliko cords fazer
+01 zir excepto miejsca
+02 liau aggi fle
+
+This is a sample output.
+00 koliko cords fazer -> –k–o–l–i–k–o–c–o–r–d–s–f–a–z–e–r–
+01 zir excepto miejsca -> –z–i–r–e–x–c–e–p–t–o–m–i–e–j–s–c–a–
+02 liau aggi fle -> –l–i–a–u–a–g–g–i–f–l–e–
+
+This is your input.
+00 atique upp vacc
+01 loader dietary tragen
+02 oseks ez turnieju
+03 kten voisine basis
+04 ifecycle indig discrep
+05 repo lant cryst
+06 uerto jen ant
+07 plied solution noon
+08 rance eat gover
+09 urre relaxed proced
+10 anggal tehd stacking
+11 wiki silently cit
+12 iley long tidigare
+13 omac obstante espalda
+14 kaj recente heme
+15 anka hurried frown
+16 puty bentuk costitu
+17 rawl clinical tut
+18 auvais catechol corp
+19 omers chiede relaxing
+20 ashi avrebbe yoga
+21 nd ape cro
+22 jenih cortex nasel
+23 round tagja economia
+24 cdn touche spp
+25 ligere zako strutt
+26 uron make lieb
+27 ilev wow genuin
+28 illaient grinding pas
+29 batis isoform moulin
+30 owing nomes daemon
+31 medium split imagin
+32 plified lautet animali
+33 ografie fuite ench
+34 eket rokov otorg
+35 osamente burned pensa
+36 adar signes cuarta
+37 jou zijn vaut
+38 jet nave tue
+39 olist condiv funeral
+40 seaux saab bekerja
+41 ugo pistola sali
+42 orschung stripe requer
+43 collapse finir catast
+44 gesehen onun lanz
+45 ully decou vermitt
+46 irik aantal sail
+47 ykle approxim bleiben
+48 cart reel apport
+49 rail called vist
+50 attr guitars darauf
+51 js aquele bosses
+52 added radii spot
+53 ilateral ip jouk
+54 cimiento vannak coming
+55 bin annexed deriving
+56 orska nob abril
+57 oeg summ covering
+58 eners ske broch
+59 lr options medios
+60 isko veril couleurs
+61 udiantes adalah blei
+62 wiad blau came
+63 hin blick kih
+64 otherapy requiere homeost
+65 mode very cumul
+66 ussed iff dansk
+67 credit ruim teng
+68 vido urge ernst
+69 idin trium lit
+70 option egyre religion
+71 release sunny oppon
+72 enging treaties errores
+73 duce tratando chim
+74 tvrt victims hydroxy
+75 romad anecd nood
+76 merged lv cres
+77 skiego mendapat lively
+78 avar metals autrich
+79 sing win tech
+80 every uploaded observa
+81 rank scored daarvan
+82 nu estreno bizant
+83 avit glav huh
+84 onas tails manager
+85 gow lhes vign
+86 obei jealous parec
+87 ivot pouvoir vill
+88 bard creat neglect
+89 amming exit elkaar
+90 rece encara tubing
+91 zym correct casas
+92 rui fats temporal
+93 bound repart atmos
+94 liner liquid ovarian
+95 zub glycos parvient
+96 idunt hoof flung
+97 ination ocupa merchand
+98 ixel allait vse
+99 phon eventos towns
+[completion]
+00 atique upp vacc -> –a–t–i–q–u–e–u–p–p–v–a–c–c–
+01 loader dietary tragen -> –l–o–a–d–e–r–d–i–e–t–a–r–y–t–r–a–g–e–n–
+02 oseks ez turnieju -> –o–s–e–k–s–e–z–t–u–r–n–i–e–j–u–
+03 kten voisine basis -> –k–t–e–n–v–o–i–s–i–n–e–b–a–s–i–s–
+04 ifecycle indig discrep -> –i–f–e–c–y–c–l–e–i–n–d–i–g–d–i–s–c–r–e–p–
+05 repo lant cryst -> –r–e–p–o–l–a–n–t–c–r–y–s–t–
+06 uerto jen ant -> –u–e–r–t–o–j–e–n–a–n–t–
+07 plied solution noon -> –p–l–i–e–d–s–o–l–u–t–i–o–n–n–o–o–n–
+08 rance eat gover -> –r–a–n–c–e–e–a–t–g–o–v–e–r–
+09 urre relaxed proced -> –u–r–r–e–r–e–l–a–x–e–d–p–r–o–c–e–d–
+10 anggal tehd stacking -> –a–n–g–g–a–l–t–e–h–d–s–t–a–c–k–i–n–g–
+11 wiki silently cit -> –w–i–k–i–s–i–l–e–n–t–l–y–c–i–t–
+12 iley long tidigare -> –i–l–e–y–l–o–n–g–t–i–d–i–g–a–r–e–
+13 omac obstante espalda -> –o–m–a–c–o–b–s–t–a–n–t–e–e–s–p–a–l–d–a–
+14 kaj recente heme -> –k–a–j–r–e–c–e–n–t–e–h–e–m–e–
+15 anka hurried frown -> –a–n–k–a–h–u–r–r–i–e–d–f–r–o–w–n–
+16 puty bentuk costitu -> –p–u–t–y–b–e–n–t–u–k–c–o–s–t–i–t–u–
+17 rawl clinical tut -> –r–a–w–l–c–l–i–n–i–c–a–l–t–u–t–
+18 auvais catechol corp -> –a–u–v–a–i–s–c–a–t–e–c–h–o–l–c–o–r–p–
+19 omers chiede relaxing -> –o–m–e–r–s–c–h–i–e–d–e–r–e–l–a–x–i–n–g–
+20 ashi avrebbe yoga -> –a–s–h–i–a–v–r–e–b–b–e–y–o–g–a–
+21 nd ape cro -> –n–d–a–p–e–c–r–o–
+22 jenih cortex nasel -> –j–e–n–i–h–c–o–r–t–e–x–n–a–s–e–l–
+23 round tagja economia -> –r–o–u–n–d–t–a–g–j–a–e–c–o–n–o–m–i–a–
+24 cdn touche spp -> –c–d–n–t–o–u–c–h–e–s–p–p–
+25 ligere zako strutt -> –l–i–g–e–r–e–z–a–k–o–s–t–r–u–t–t–
+26 uron make lieb -> –u–r–o–n–m–a–k–e–l–i–e–b–
+27 ilev wow genuin -> –i–l–e–v–w–o–w–g–e–n–u–i–n–
+28 illaient grinding pas -> –i–l–l–a–i–e–n–t–g–r–i–n–d–i–n–g–p–a–s–
+29 batis isoform moulin -> –b–a–t–i–s–i–s–o–f–o–r–m–m–o–u–l–i–n–
+30 owing nomes daemon -> –o–w–i–n–g–n–o–m–e–s–d–a–e–m–o–n–
+31 medium split imagin -> –m–e–d–i–u–m–s–p–l–i–t–i–m–a–g–i–n–
+32 plified lautet animali -> –p–l–i–f–i–e–d–l–a–u–t–e–t–a–n–i–m–a–l–i–
+33 ografie fuite ench -> –o–g–r–a–f–i–e–f–u–i–t–e–e–n–c–h–
+34 eket rokov otorg -> –e–k–e–t–r–o–k–o–v–o–t–o–r–g–
+35 osamente burned pensa -> –o–s–a–m–e–n–t–e–b–u–r–n–e–d–p–e–n–s–a–
+36 adar signes cuarta -> –a–d–a–r–s–i–g–n–e–s–c–u–a–r–t–a–
+37 jou zijn vaut -> –j–o–u–z–i–j–n–v–a–u–t–
+38 jet nave tue -> –j–e–t–n–a–v–e–t–u–e–
+39 olist condiv funeral -> –o–l–i–s–t–c–o–n–d–i–v–f–u–n–e–r–a–l–
+40 seaux saab bekerja -> –s–e–a–u–x–s–a–a–b–b–e–k–e–r–j–a–
+41 ugo pistola sali -> –u–g–o–p–i–s–t–o–l–a–s–a–l–i–
+42 orschung stripe requer -> –o–r–s–c–h–u–n–g–s–t–r–i–p–e–r–e–q–u–e–r–
+43 collapse finir catast -> –c–o–l–l–a–p–s–e–f–i–n–i–r–c–a–t–a–s–t–
+44 gesehen onun lanz -> –g–e–s–e–h–e–n–o–n–u–n–l–a–n–z–
+45 ully decou vermitt -> –u–l–l–y–d–e–c–o–u–v–e–r–m–i–t–t–
+46 irik aantal sail -> –i–r–i–k–a–a–n–t–a–l–s–a–i–l–
+47 ykle approxim bleiben -> –y–k–l–e–a–p–p–r–o–x–i–m–b–l–e–i–b–e–n–
+48 cart reel apport -> –c–a–r–t–r–e–e–l–a–p–p–o–r–t–
+49 rail called vist -> –r–a–i–l–c–a–l–l–e–d–v–i–s–t–
+50 attr guitars darauf -> –a–t–t–r–g–u–i–t–a–r–s–d–a–r–a–u–f–
+51 js aquele bosses -> –j–s–a–q–u–e–l–e–b–o–s–s–e–s–
+52 added radii spot -> –a–d–d–e–d–r–a–d–i–i–s–p–o–t–
+53 ilateral ip jouk -> –i–l–a–t–e–r–a–l–i–p–j–o–u–k–
+54 cimiento vannak coming -> –c–i–m–i–e–n–t–o–v–a–n–n–a–k–c–o–m–i–n–g–
+55 bin annexed deriving -> –b–i–n–a–n–n–e–x–e–d–d–e–r–i–v–i–n–g–
+56 orska nob abril -> –o–r–s–k–a–n–o–b–a–b–r–i–l–
+57 oeg summ covering -> –o–e–g–s–u–m–m–c–o–v–e–r–i–n–g–
+58 eners ske broch -> –e–n–e–r–s–s–k–e–b–r–o–c–h–
+59 lr options medios -> –l–r–o–p–t–i–o–n–s–m–e–d–i–o–s–
+60 isko veril couleurs -> –i–s–k–o–v–e–r–i–l–c–o–u–l–e–u–r–s–
+61 udiantes adalah blei -> –u–d–i–a–n–t–e–s–a–d–a–l–a–h–b–l–e–i–
+62 wiad blau came -> –w–i–a–d–b–l–a–u–c–a–m–e–
+63 hin blick kih -> –h–i–n–b–l–i–c–k–k–i–h–
+64 otherapy requiere homeost -> –o–t–h–e–r–a–p–y–r–e–q–u–i–e–r–e–h–o–m–e–o–s–t–
+65 mode very cumul -> –m–o–d–e–v–e–r–y–c–u–m–u–l–
+66 ussed iff dansk -> –u–s–s–e–d–i–f–f–d–a–n–s–k–
+67 credit ruim teng -> –c–r–e–d–i–t–r–u–i–m–t–e–n–g–
+68 vido urge ernst -> –v–i–d–o–u–r–g–e–e–r–n–s–t–
+69 idin trium lit -> –i–d–i–n–t–r–i–u–m–l–i–t–
+70 option egyre religion -> –o–p–t–i–o–n–e–g–y–r–e–r–e–l–i–g–i–o–n–
+71 release sunny oppon -> –r–e–l–e–a–s–e–s–u–n–n–y–o–p–p–o–n–
+72 enging treaties errores -> –e–n–g–i–n–g–t–r–e–a–t–i–e–s–e–r–r–o–r–e–s–
+73 duce tratando chim -> –d–u–c–e–t–r–a–t–a–n–d–o–c–h–i–m–
+74 tvrt victims hydroxy -> –t–v–r–t–v–i–c–t–i–m–s–h–y–d–r–o–x–y–
+75 romad anecd nood -> –r–o–m–a–d–a–n–e–c–d–n–o–o–d–
+76 merged lv cres -> –m–e–r–g–e–d–l–v–c–r–e–s–
+77 skiego mendapat lively -> –s–k–i–e–g–o–m–e–n–d–a–p–a–t–l–i–v–e–l–y–
+78 avar metals autrich -> –a–v–a–r–m–e–t–a–l–s–a–u–t–r–i–c–h–
+79 sing win tech -> –s–i–n–g–w–i–n–t–e–c–h–
+80 every uploaded observa -> –e–v–e–r–y–u–p–l–o–a–d–e–d–o–b–s–e–r–v–a–
+81 rank scored daarvan -> –r–a–n–k–s–c–o–r–e–d–d–a–a–r–v–a–n–
+82 nu estreno bizant -> –n–u–e–s–t–r–e–n–o–b–i–z–a–n–t–
+83 avit glav huh -> –a–v–i–t–g–l–a–v–h–u–h–
+84 onas tails manager -> –o–n–a–s–t–a–i–l–s–m–a–n–a–g–e–r–
+85 gow lhes vign -> –g–o–w–l–h–e–s–v–i–g–n–
+86 obei jealous parec -> –o–b–e–i–j–e–a–l–o–u–s–p–a–r–e–c–
+87 ivot pouvoir vill -> –i–v–o–t–p–o–u–v–o–i–r–v–i–l–l–
+88 bard creat neglect -> –b–a–r–d–c–r–e–a–t–n–e–g–l–e–c–t–
+89 amming exit elkaar -> –a–m–m–i–n–g–e–x–i–t–e–l–k–a–a–r–
+90 rece encara tubing -> –r–e–c–e–e–n–c–a–r–a–t–u–b–i–n–g–
+91 zym correct casas -> –z–y–m–c–o–r–r–e–c–t–c–a–s–a–s–
+92 rui fats temporal -> –r–u–i–f–a–t–s–t–e–m–p–o–r–a–l–
+93 bound repart atmos -> –b–o–u–n–d–r–e–p–a–r–t–a–t–m–o–s–
+94 liner liquid ovarian -> –l–i–n–e–r–l–i–q–u–i–d–o–v–a–r–i–a–n–
+95 zub glycos parvient -> –z–u–b–g–l–y–c–o–s–p–a–r–v–i–e–n–t–
+96 idunt hoof flung -> –i–d–u–n–t–h–o–o–f–f–l–u–n–g–
+97 ination ocupa merchand -> –i–n–a–t–i–o–n–o–c–u–p–a–m–e–r–c–h–a–n–d–
+98 ixel allait vse -> –i–x–e–l–a–l–l–a–i–t–v–s–e–
+99 phon eventos towns -> –p–h–o–n–e–v–e–n–t–o–s–t–o–w–n–s–

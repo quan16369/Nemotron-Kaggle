@@ -1,0 +1,30 @@
+Problem ID: 96efb93a
+Category: equation_numeric_deduce
+
+Examples:
+- 16*05 = 0503
+- 17"82 = 34"
+- 78"48 = 3"
+- 86"33 = 53"
+
+Inferred rule:
+- Different symbols use different rules. The query uses `"`, so the `*` example is not needed to solve it.
+- For `ab"cd`, reverse both two-digit operands, subtract the reversed left value from the reversed right value, then reverse the digits of the magnitude of that result.
+- If that transformed subtraction is negative, mark the output with a trailing `"`.
+- Checks:
+- `17"82`: reversed values are `71` and `28`; `28 - 71 = -43`; reverse `43` to get `34`, then add the trailing `"` -> `34"`.
+- `78"48`: reversed values are `87` and `84`; `84 - 87 = -3`; reverse `3` to get `3`, then add the trailing `"` -> `3"`.
+- `86"33`: reversed values are `68` and `33`; `33 - 68 = -35`; reverse `35` to get `53`, then add the trailing `"` -> `53"`.
+
+Step-by-step application to the query:
+- Query: `95"57`
+- Reverse the operands: `95 -> 59`, `57 -> 75`
+- Subtract in the same transformed order: `75 - 59 = 16`
+- Reverse the digits of the magnitude: `16 -> 61`
+- The result is positive, so there is no trailing `"`
+
+Predicted answer:
+61
+
+Confidence note:
+Moderate-high. All three `"` examples fit this rule exactly. The only ambiguity is that there is just one example for the unrelated `*` operator, but it does not affect the query.

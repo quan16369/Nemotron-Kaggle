@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 placing rasa inund
+01 piper usar porcel
+02 iness spindle expon
+
+This is a sample output.
+00 placing rasa inund -> –p–l–a–c–i–n–g–r–a–s–a–i–n–u–n–d–
+01 piper usar porcel -> –p–i–p–e–r–u–s–a–r–p–o–r–c–e–l–
+02 iness spindle expon -> –i–n–e–s–s–s–p–i–n–d–l–e–e–x–p–o–n–
+
+This is your input.
+00 through treatise stuffed
+01 ologii suite cea
+02 routine credo inspira
+03 kunft passing indice
+04 bereich coop lg
+05 ik pub kuv
+06 ayos hinweg bead
+07 czy elev muscul
+08 quality lt ambul
+09 frac gene mout
+10 ulum tivesse dud
+11 inate colour bt
+12 selves playoff helpless
+13 cyclop terem aunque
+14 ye trabal doigt
+15 rpm nacido concurso
+16 terbury besitzen fej
+17 produ franqu populate
+18 rel sar acyl
+19 isse partly cujo
+20 attre simili lati
+21 umeric szko sealed
+22 mobile doesnt lograron
+23 cio passiert vite
+24 asper matrices medan
+25 orph posicion concurr
+26 aila tutto bunch
+27 itchen escrib hundreds
+28 shaw guardian zonder
+29 ttet disposal bevol
+30 ounted prende nude
+31 idov wizard direita
+32 ffin doing colonel
+33 olition releases suffit
+34 ente filme repas
+35 real xsi oste
+36 px noi chloride
+37 jur grups segn
+38 ices doct directe
+39 ikai pie js
+40 ynyt leid diviz
+41 nike cafeter vente
+42 sprache regimens saldo
+43 estion frapp df
+44 yla etwas gia
+45 endum trom wordt
+46 orr abras mald
+47 ombra dropout casi
+48 orian sach tung
+49 timer formerly tibial
+50 udo crawl amp
+51 idental tota ono
+52 tis vaz kec
+53 ive skipped hypot
+54 lines ensin jewe
+55 tik lean box
+56 aution tasse create
+57 ysis surg authored
+58 recated erinnern pulse
+59 ogliere silenzio souv
+60 bris emanc minut
+61 opl doctoral unres
+62 slant dagger jauh
+63 dio rating envis
+64 orod hass grouped
+65 igence worlds appreh
+66 enberg pari busc
+67 board hospod receive
+68 ika lobe trouv
+69 genden figure tyr
+70 alainen alk wording
+71 ifiable flaw pencil
+72 omethyl interact volte
+73 jus njegovo premise
+74 des dengan throat
+75 lasse apreci sois
+76 priv gikk esfuer
+77 three deres syrup
+78 tw teach qual
+79 aix bisogno ure
+80 leyen aleman prij
+81 centaje cum lan
+82 etze aventure entro
+83 altern unittest pesc
+84 initi zat managing
+85 href schemes teammate
+86 raciones zau devlet
+87 iche idiomas pp
+88 fluid aumentar concise
+89 ookie bitte setembro
+90 iger calidad tri
+91 crizione accounts periodo
+92 modifier clair geo
+93 odore poz forth
+94 okra operas halogen
+95 ayar sollten eslint
+96 lect uneasy casino
+97 inii bombas mittel
+98 provided clusters sosial
+99 ilities ornament parking
+[completion]
+00 through treatise stuffed -> –t–h–r–o–u–g–h–t–r–e–a–t–i–s–e–s–t–u–f–f–e–d–
+01 ologii suite cea -> –o–l–o–g–i–i–s–u–i–t–e–c–e–a–
+02 routine credo inspira -> –r–o–u–t–i–n–e–c–r–e–d–o–i–n–s–p–i–r–a–
+03 kunft passing indice -> –k–u–n–f–t–p–a–s–s–i–n–g–i–n–d–i–c–e–
+04 bereich coop lg -> –b–e–r–e–i–c–h–c–o–o–p–l–g–
+05 ik pub kuv -> –i–k–p–u–b–k–u–v–
+06 ayos hinweg bead -> –a–y–o–s–h–i–n–w–e–g–b–e–a–d–
+07 czy elev muscul -> –c–z–y–e–l–e–v–m–u–s–c–u–l–
+08 quality lt ambul -> –q–u–a–l–i–t–y–l–t–a–m–b–u–l–
+09 frac gene mout -> –f–r–a–c–g–e–n–e–m–o–u–t–
+10 ulum tivesse dud -> –u–l–u–m–t–i–v–e–s–s–e–d–u–d–
+11 inate colour bt -> –i–n–a–t–e–c–o–l–o–u–r–b–t–
+12 selves playoff helpless -> –s–e–l–v–e–s–p–l–a–y–o–f–f–h–e–l–p–l–e–s–s–
+13 cyclop terem aunque -> –c–y–c–l–o–p–t–e–r–e–m–a–u–n–q–u–e–
+14 ye trabal doigt -> –y–e–t–r–a–b–a–l–d–o–i–g–t–
+15 rpm nacido concurso -> –r–p–m–n–a–c–i–d–o–c–o–n–c–u–r–s–o–
+16 terbury besitzen fej -> –t–e–r–b–u–r–y–b–e–s–i–t–z–e–n–f–e–j–
+17 produ franqu populate -> –p–r–o–d–u–f–r–a–n–q–u–p–o–p–u–l–a–t–e–
+18 rel sar acyl -> –r–e–l–s–a–r–a–c–y–l–
+19 isse partly cujo -> –i–s–s–e–p–a–r–t–l–y–c–u–j–o–
+20 attre simili lati -> –a–t–t–r–e–s–i–m–i–l–i–l–a–t–i–
+21 umeric szko sealed -> –u–m–e–r–i–c–s–z–k–o–s–e–a–l–e–d–
+22 mobile doesnt lograron -> –m–o–b–i–l–e–d–o–e–s–n–t–l–o–g–r–a–r–o–n–
+23 cio passiert vite -> –c–i–o–p–a–s–s–i–e–r–t–v–i–t–e–
+24 asper matrices medan -> –a–s–p–e–r–m–a–t–r–i–c–e–s–m–e–d–a–n–
+25 orph posicion concurr -> –o–r–p–h–p–o–s–i–c–i–o–n–c–o–n–c–u–r–r–
+26 aila tutto bunch -> –a–i–l–a–t–u–t–t–o–b–u–n–c–h–
+27 itchen escrib hundreds -> –i–t–c–h–e–n–e–s–c–r–i–b–h–u–n–d–r–e–d–s–
+28 shaw guardian zonder -> –s–h–a–w–g–u–a–r–d–i–a–n–z–o–n–d–e–r–
+29 ttet disposal bevol -> –t–t–e–t–d–i–s–p–o–s–a–l–b–e–v–o–l–
+30 ounted prende nude -> –o–u–n–t–e–d–p–r–e–n–d–e–n–u–d–e–
+31 idov wizard direita -> –i–d–o–v–w–i–z–a–r–d–d–i–r–e–i–t–a–
+32 ffin doing colonel -> –f–f–i–n–d–o–i–n–g–c–o–l–o–n–e–l–
+33 olition releases suffit -> –o–l–i–t–i–o–n–r–e–l–e–a–s–e–s–s–u–f–f–i–t–
+34 ente filme repas -> –e–n–t–e–f–i–l–m–e–r–e–p–a–s–
+35 real xsi oste -> –r–e–a–l–x–s–i–o–s–t–e–
+36 px noi chloride -> –p–x–n–o–i–c–h–l–o–r–i–d–e–
+37 jur grups segn -> –j–u–r–g–r–u–p–s–s–e–g–n–
+38 ices doct directe -> –i–c–e–s–d–o–c–t–d–i–r–e–c–t–e–
+39 ikai pie js -> –i–k–a–i–p–i–e–j–s–
+40 ynyt leid diviz -> –y–n–y–t–l–e–i–d–d–i–v–i–z–
+41 nike cafeter vente -> –n–i–k–e–c–a–f–e–t–e–r–v–e–n–t–e–
+42 sprache regimens saldo -> –s–p–r–a–c–h–e–r–e–g–i–m–e–n–s–s–a–l–d–o–
+43 estion frapp df -> –e–s–t–i–o–n–f–r–a–p–p–d–f–
+44 yla etwas gia -> –y–l–a–e–t–w–a–s–g–i–a–
+45 endum trom wordt -> –e–n–d–u–m–t–r–o–m–w–o–r–d–t–
+46 orr abras mald -> –o–r–r–a–b–r–a–s–m–a–l–d–
+47 ombra dropout casi -> –o–m–b–r–a–d–r–o–p–o–u–t–c–a–s–i–
+48 orian sach tung -> –o–r–i–a–n–s–a–c–h–t–u–n–g–
+49 timer formerly tibial -> –t–i–m–e–r–f–o–r–m–e–r–l–y–t–i–b–i–a–l–
+50 udo crawl amp -> –u–d–o–c–r–a–w–l–a–m–p–
+51 idental tota ono -> –i–d–e–n–t–a–l–t–o–t–a–o–n–o–
+52 tis vaz kec -> –t–i–s–v–a–z–k–e–c–
+53 ive skipped hypot -> –i–v–e–s–k–i–p–p–e–d–h–y–p–o–t–
+54 lines ensin jewe -> –l–i–n–e–s–e–n–s–i–n–j–e–w–e–
+55 tik lean box -> –t–i–k–l–e–a–n–b–o–x–
+56 aution tasse create -> –a–u–t–i–o–n–t–a–s–s–e–c–r–e–a–t–e–
+57 ysis surg authored -> –y–s–i–s–s–u–r–g–a–u–t–h–o–r–e–d–
+58 recated erinnern pulse -> –r–e–c–a–t–e–d–e–r–i–n–n–e–r–n–p–u–l–s–e–
+59 ogliere silenzio souv -> –o–g–l–i–e–r–e–s–i–l–e–n–z–i–o–s–o–u–v–
+60 bris emanc minut -> –b–r–i–s–e–m–a–n–c–m–i–n–u–t–
+61 opl doctoral unres -> –o–p–l–d–o–c–t–o–r–a–l–u–n–r–e–s–
+62 slant dagger jauh -> –s–l–a–n–t–d–a–g–g–e–r–j–a–u–h–
+63 dio rating envis -> –d–i–o–r–a–t–i–n–g–e–n–v–i–s–
+64 orod hass grouped -> –o–r–o–d–h–a–s–s–g–r–o–u–p–e–d–
+65 igence worlds appreh -> –i–g–e–n–c–e–w–o–r–l–d–s–a–p–p–r–e–h–
+66 enberg pari busc -> –e–n–b–e–r–g–p–a–r–i–b–u–s–c–
+67 board hospod receive -> –b–o–a–r–d–h–o–s–p–o–d–r–e–c–e–i–v–e–
+68 ika lobe trouv -> –i–k–a–l–o–b–e–t–r–o–u–v–
+69 genden figure tyr -> –g–e–n–d–e–n–f–i–g–u–r–e–t–y–r–
+70 alainen alk wording -> –a–l–a–i–n–e–n–a–l–k–w–o–r–d–i–n–g–
+71 ifiable flaw pencil -> –i–f–i–a–b–l–e–f–l–a–w–p–e–n–c–i–l–
+72 omethyl interact volte -> –o–m–e–t–h–y–l–i–n–t–e–r–a–c–t–v–o–l–t–e–
+73 jus njegovo premise -> –j–u–s–n–j–e–g–o–v–o–p–r–e–m–i–s–e–
+74 des dengan throat -> –d–e–s–d–e–n–g–a–n–t–h–r–o–a–t–
+75 lasse apreci sois -> –l–a–s–s–e–a–p–r–e–c–i–s–o–i–s–
+76 priv gikk esfuer -> –p–r–i–v–g–i–k–k–e–s–f–u–e–r–
+77 three deres syrup -> –t–h–r–e–e–d–e–r–e–s–s–y–r–u–p–
+78 tw teach qual -> –t–w–t–e–a–c–h–q–u–a–l–
+79 aix bisogno ure -> –a–i–x–b–i–s–o–g–n–o–u–r–e–
+80 leyen aleman prij -> –l–e–y–e–n–a–l–e–m–a–n–p–r–i–j–
+81 centaje cum lan -> –c–e–n–t–a–j–e–c–u–m–l–a–n–
+82 etze aventure entro -> –e–t–z–e–a–v–e–n–t–u–r–e–e–n–t–r–o–
+83 altern unittest pesc -> –a–l–t–e–r–n–u–n–i–t–t–e–s–t–p–e–s–c–
+84 initi zat managing -> –i–n–i–t–i–z–a–t–m–a–n–a–g–i–n–g–
+85 href schemes teammate -> –h–r–e–f–s–c–h–e–m–e–s–t–e–a–m–m–a–t–e–
+86 raciones zau devlet -> –r–a–c–i–o–n–e–s–z–a–u–d–e–v–l–e–t–
+87 iche idiomas pp -> –i–c–h–e–i–d–i–o–m–a–s–p–p–
+88 fluid aumentar concise -> –f–l–u–i–d–a–u–m–e–n–t–a–r–c–o–n–c–i–s–e–
+89 ookie bitte setembro -> –o–o–k–i–e–b–i–t–t–e–s–e–t–e–m–b–r–o–
+90 iger calidad tri -> –i–g–e–r–c–a–l–i–d–a–d–t–r–i–
+91 crizione accounts periodo -> –c–r–i–z–i–o–n–e–a–c–c–o–u–n–t–s–p–e–r–i–o–d–o–
+92 modifier clair geo -> –m–o–d–i–f–i–e–r–c–l–a–i–r–g–e–o–
+93 odore poz forth -> –o–d–o–r–e–p–o–z–f–o–r–t–h–
+94 okra operas halogen -> –o–k–r–a–o–p–e–r–a–s–h–a–l–o–g–e–n–
+95 ayar sollten eslint -> –a–y–a–r–s–o–l–l–t–e–n–e–s–l–i–n–t–
+96 lect uneasy casino -> –l–e–c–t–u–n–e–a–s–y–c–a–s–i–n–o–
+97 inii bombas mittel -> –i–n–i–i–b–o–m–b–a–s–m–i–t–t–e–l–
+98 provided clusters sosial -> –p–r–o–v–i–d–e–d–c–l–u–s–t–e–r–s–s–o–s–i–a–l–
+99 ilities ornament parking -> –i–l–i–t–i–e–s–o–r–n–a–m–e–n–t–p–a–r–k–i–n–g–

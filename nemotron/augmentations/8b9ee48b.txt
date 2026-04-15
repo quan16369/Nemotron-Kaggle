@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 roite alone ageing
+01 irm teen citizen
+02 dele condiv spare
+
+This is a sample output.
+00 roite alone ageing -> –r–o–i–t–e–a–l–o–n–e–a–g–e–i–n–g–
+01 irm teen citizen -> –i–r–m–t–e–e–n–c–i–t–i–z–e–n–
+02 dele condiv spare -> –d–e–l–e–c–o–n–d–i–v–s–p–a–r–e–
+
+This is your input.
+00 ritos detained higher
+01 pop raced hastily
+02 artea absolue yaml
+03 ading scripts stubborn
+04 meer ultraf cousins
+05 igma tush missione
+06 ospace founded courts
+07 tenir adjacent sexual
+08 endas regional airports
+09 child smrt prve
+10 bright levant amery
+11 ijama maan torr
+12 anstalt haze vis
+13 werken venue nostri
+14 ical ajudar eligible
+15 ideo tablets alive
+16 jsfiddle conson salinity
+17 estado honek selber
+18 aa minim vo
+19 irti besta moz
+20 yellow metall branco
+21 cimento diode fathers
+22 ship theology posta
+23 lemagne jungen noches
+24 erialize method caspase
+25 have spindle seguente
+26 adet plague spinning
+27 yesi photoc sezonu
+28 leq rx mentor
+29 isieren nyelv citoy
+30 landa bastante spok
+31 ani obnov take
+32 extern artista sewing
+33 gressive trib salles
+34 ingt governo para
+35 ead tournage worried
+36 ieuse sucre upheld
+37 iy aur pne
+38 osan toma hits
+39 ston mesmo saber
+40 onte sounds dreaming
+41 fert reader jaune
+42 oslaw artifact quelque
+43 ainties llegando zast
+44 wny seven polys
+45 ty if fich
+46 ilver fur jede
+47 loop gis rid
+48 verture nie deserted
+49 wiata sand gaan
+50 qar carnaval grown
+51 ambda propr colt
+52 wave discuter bri
+53 koliko bland bit
+54 jonen dedo jos
+55 uar strcmp declarou
+56 section cystic designed
+57 kommt anar pelos
+58 uto asteroid natives
+59 exclude oficjal violon
+60 inth opt hak
+61 igare przed request
+62 atience factores musician
+63 endak sorprend oso
+64 oghi vene exig
+65 pus boiler julg
+66 ueva slave powders
+67 ictions dorp zalo
+68 mense tour agora
+69 acca listener juht
+70 cja enligt neki
+71 nam edif veto
+72 syn baten rigidity
+73 utt avoir put
+74 esee utvik min
+75 izoen yuq activo
+76 closure slov znal
+77 arh induce samostat
+78 rata colons remodel
+79 ertura boss tuning
+80 eur decree direct
+81 gante daug esqu
+82 andest maje sahen
+83 adequ kaip sages
+84 valuer garlic estados
+85 hs fonte difficol
+86 food renders encode
+87 ogi pose massimo
+88 fort starred mavsum
+89 ull conocer cl
+90 iformes phong expect
+91 zg prenait samm
+92 ogh thro pengg
+93 pond claimed yell
+94 choices procur publics
+95 altung anden cooper
+96 ta poteva fmt
+97 lerde dirinya nause
+98 inak cust cleavage
+99 owaniu aument placer
+[completion]
+00 ritos detained higher -> –r–i–t–o–s–d–e–t–a–i–n–e–d–h–i–g–h–e–r–
+01 pop raced hastily -> –p–o–p–r–a–c–e–d–h–a–s–t–i–l–y–
+02 artea absolue yaml -> –a–r–t–e–a–a–b–s–o–l–u–e–y–a–m–l–
+03 ading scripts stubborn -> –a–d–i–n–g–s–c–r–i–p–t–s–s–t–u–b–b–o–r–n–
+04 meer ultraf cousins -> –m–e–e–r–u–l–t–r–a–f–c–o–u–s–i–n–s–
+05 igma tush missione -> –i–g–m–a–t–u–s–h–m–i–s–s–i–o–n–e–
+06 ospace founded courts -> –o–s–p–a–c–e–f–o–u–n–d–e–d–c–o–u–r–t–s–
+07 tenir adjacent sexual -> –t–e–n–i–r–a–d–j–a–c–e–n–t–s–e–x–u–a–l–
+08 endas regional airports -> –e–n–d–a–s–r–e–g–i–o–n–a–l–a–i–r–p–o–r–t–s–
+09 child smrt prve -> –c–h–i–l–d–s–m–r–t–p–r–v–e–
+10 bright levant amery -> –b–r–i–g–h–t–l–e–v–a–n–t–a–m–e–r–y–
+11 ijama maan torr -> –i–j–a–m–a–m–a–a–n–t–o–r–r–
+12 anstalt haze vis -> –a–n–s–t–a–l–t–h–a–z–e–v–i–s–
+13 werken venue nostri -> –w–e–r–k–e–n–v–e–n–u–e–n–o–s–t–r–i–
+14 ical ajudar eligible -> –i–c–a–l–a–j–u–d–a–r–e–l–i–g–i–b–l–e–
+15 ideo tablets alive -> –i–d–e–o–t–a–b–l–e–t–s–a–l–i–v–e–
+16 jsfiddle conson salinity -> –j–s–f–i–d–d–l–e–c–o–n–s–o–n–s–a–l–i–n–i–t–y–
+17 estado honek selber -> –e–s–t–a–d–o–h–o–n–e–k–s–e–l–b–e–r–
+18 aa minim vo -> –a–a–m–i–n–i–m–v–o–
+19 irti besta moz -> –i–r–t–i–b–e–s–t–a–m–o–z–
+20 yellow metall branco -> –y–e–l–l–o–w–m–e–t–a–l–l–b–r–a–n–c–o–
+21 cimento diode fathers -> –c–i–m–e–n–t–o–d–i–o–d–e–f–a–t–h–e–r–s–
+22 ship theology posta -> –s–h–i–p–t–h–e–o–l–o–g–y–p–o–s–t–a–
+23 lemagne jungen noches -> –l–e–m–a–g–n–e–j–u–n–g–e–n–n–o–c–h–e–s–
+24 erialize method caspase -> –e–r–i–a–l–i–z–e–m–e–t–h–o–d–c–a–s–p–a–s–e–
+25 have spindle seguente -> –h–a–v–e–s–p–i–n–d–l–e–s–e–g–u–e–n–t–e–
+26 adet plague spinning -> –a–d–e–t–p–l–a–g–u–e–s–p–i–n–n–i–n–g–
+27 yesi photoc sezonu -> –y–e–s–i–p–h–o–t–o–c–s–e–z–o–n–u–
+28 leq rx mentor -> –l–e–q–r–x–m–e–n–t–o–r–
+29 isieren nyelv citoy -> –i–s–i–e–r–e–n–n–y–e–l–v–c–i–t–o–y–
+30 landa bastante spok -> –l–a–n–d–a–b–a–s–t–a–n–t–e–s–p–o–k–
+31 ani obnov take -> –a–n–i–o–b–n–o–v–t–a–k–e–
+32 extern artista sewing -> –e–x–t–e–r–n–a–r–t–i–s–t–a–s–e–w–i–n–g–
+33 gressive trib salles -> –g–r–e–s–s–i–v–e–t–r–i–b–s–a–l–l–e–s–
+34 ingt governo para -> –i–n–g–t–g–o–v–e–r–n–o–p–a–r–a–
+35 ead tournage worried -> –e–a–d–t–o–u–r–n–a–g–e–w–o–r–r–i–e–d–
+36 ieuse sucre upheld -> –i–e–u–s–e–s–u–c–r–e–u–p–h–e–l–d–
+37 iy aur pne -> –i–y–a–u–r–p–n–e–
+38 osan toma hits -> –o–s–a–n–t–o–m–a–h–i–t–s–
+39 ston mesmo saber -> –s–t–o–n–m–e–s–m–o–s–a–b–e–r–
+40 onte sounds dreaming -> –o–n–t–e–s–o–u–n–d–s–d–r–e–a–m–i–n–g–
+41 fert reader jaune -> –f–e–r–t–r–e–a–d–e–r–j–a–u–n–e–
+42 oslaw artifact quelque -> –o–s–l–a–w–a–r–t–i–f–a–c–t–q–u–e–l–q–u–e–
+43 ainties llegando zast -> –a–i–n–t–i–e–s–l–l–e–g–a–n–d–o–z–a–s–t–
+44 wny seven polys -> –w–n–y–s–e–v–e–n–p–o–l–y–s–
+45 ty if fich -> –t–y–i–f–f–i–c–h–
+46 ilver fur jede -> –i–l–v–e–r–f–u–r–j–e–d–e–
+47 loop gis rid -> –l–o–o–p–g–i–s–r–i–d–
+48 verture nie deserted -> –v–e–r–t–u–r–e–n–i–e–d–e–s–e–r–t–e–d–
+49 wiata sand gaan -> –w–i–a–t–a–s–a–n–d–g–a–a–n–
+50 qar carnaval grown -> –q–a–r–c–a–r–n–a–v–a–l–g–r–o–w–n–
+51 ambda propr colt -> –a–m–b–d–a–p–r–o–p–r–c–o–l–t–
+52 wave discuter bri -> –w–a–v–e–d–i–s–c–u–t–e–r–b–r–i–
+53 koliko bland bit -> –k–o–l–i–k–o–b–l–a–n–d–b–i–t–
+54 jonen dedo jos -> –j–o–n–e–n–d–e–d–o–j–o–s–
+55 uar strcmp declarou -> –u–a–r–s–t–r–c–m–p–d–e–c–l–a–r–o–u–
+56 section cystic designed -> –s–e–c–t–i–o–n–c–y–s–t–i–c–d–e–s–i–g–n–e–d–
+57 kommt anar pelos -> –k–o–m–m–t–a–n–a–r–p–e–l–o–s–
+58 uto asteroid natives -> –u–t–o–a–s–t–e–r–o–i–d–n–a–t–i–v–e–s–
+59 exclude oficjal violon -> –e–x–c–l–u–d–e–o–f–i–c–j–a–l–v–i–o–l–o–n–
+60 inth opt hak -> –i–n–t–h–o–p–t–h–a–k–
+61 igare przed request -> –i–g–a–r–e–p–r–z–e–d–r–e–q–u–e–s–t–
+62 atience factores musician -> –a–t–i–e–n–c–e–f–a–c–t–o–r–e–s–m–u–s–i–c–i–a–n–
+63 endak sorprend oso -> –e–n–d–a–k–s–o–r–p–r–e–n–d–o–s–o–
+64 oghi vene exig -> –o–g–h–i–v–e–n–e–e–x–i–g–
+65 pus boiler julg -> –p–u–s–b–o–i–l–e–r–j–u–l–g–
+66 ueva slave powders -> –u–e–v–a–s–l–a–v–e–p–o–w–d–e–r–s–
+67 ictions dorp zalo -> –i–c–t–i–o–n–s–d–o–r–p–z–a–l–o–
+68 mense tour agora -> –m–e–n–s–e–t–o–u–r–a–g–o–r–a–
+69 acca listener juht -> –a–c–c–a–l–i–s–t–e–n–e–r–j–u–h–t–
+70 cja enligt neki -> –c–j–a–e–n–l–i–g–t–n–e–k–i–
+71 nam edif veto -> –n–a–m–e–d–i–f–v–e–t–o–
+72 syn baten rigidity -> –s–y–n–b–a–t–e–n–r–i–g–i–d–i–t–y–
+73 utt avoir put -> –u–t–t–a–v–o–i–r–p–u–t–
+74 esee utvik min -> –e–s–e–e–u–t–v–i–k–m–i–n–
+75 izoen yuq activo -> –i–z–o–e–n–y–u–q–a–c–t–i–v–o–
+76 closure slov znal -> –c–l–o–s–u–r–e–s–l–o–v–z–n–a–l–
+77 arh induce samostat -> –a–r–h–i–n–d–u–c–e–s–a–m–o–s–t–a–t–
+78 rata colons remodel -> –r–a–t–a–c–o–l–o–n–s–r–e–m–o–d–e–l–
+79 ertura boss tuning -> –e–r–t–u–r–a–b–o–s–s–t–u–n–i–n–g–
+80 eur decree direct -> –e–u–r–d–e–c–r–e–e–d–i–r–e–c–t–
+81 gante daug esqu -> –g–a–n–t–e–d–a–u–g–e–s–q–u–
+82 andest maje sahen -> –a–n–d–e–s–t–m–a–j–e–s–a–h–e–n–
+83 adequ kaip sages -> –a–d–e–q–u–k–a–i–p–s–a–g–e–s–
+84 valuer garlic estados -> –v–a–l–u–e–r–g–a–r–l–i–c–e–s–t–a–d–o–s–
+85 hs fonte difficol -> –h–s–f–o–n–t–e–d–i–f–f–i–c–o–l–
+86 food renders encode -> –f–o–o–d–r–e–n–d–e–r–s–e–n–c–o–d–e–
+87 ogi pose massimo -> –o–g–i–p–o–s–e–m–a–s–s–i–m–o–
+88 fort starred mavsum -> –f–o–r–t–s–t–a–r–r–e–d–m–a–v–s–u–m–
+89 ull conocer cl -> –u–l–l–c–o–n–o–c–e–r–c–l–
+90 iformes phong expect -> –i–f–o–r–m–e–s–p–h–o–n–g–e–x–p–e–c–t–
+91 zg prenait samm -> –z–g–p–r–e–n–a–i–t–s–a–m–m–
+92 ogh thro pengg -> –o–g–h–t–h–r–o–p–e–n–g–g–
+93 pond claimed yell -> –p–o–n–d–c–l–a–i–m–e–d–y–e–l–l–
+94 choices procur publics -> –c–h–o–i–c–e–s–p–r–o–c–u–r–p–u–b–l–i–c–s–
+95 altung anden cooper -> –a–l–t–u–n–g–a–n–d–e–n–c–o–o–p–e–r–
+96 ta poteva fmt -> –t–a–p–o–t–e–v–a–f–m–t–
+97 lerde dirinya nause -> –l–e–r–d–e–d–i–r–i–n–y–a–n–a–u–s–e–
+98 inak cust cleavage -> –i–n–a–k–c–u–s–t–c–l–e–a–v–a–g–e–
+99 owaniu aument placer -> –o–w–a–n–i–u–a–u–m–e–n–t–p–l–a–c–e–r–

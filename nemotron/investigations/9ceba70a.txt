@@ -1,0 +1,29 @@
+problem id: 9ceba70a
+category: cryptarithm_deduce
+
+symbol-to-digit mapping:
+  '!' = 4
+  '"' = 7
+  '#' = 5
+  '%' = 0
+  '(' = 1
+  '>' = 8
+  '[' = 9
+  '\\' = 3
+  '`' = 6
+  '}' = 2
+
+operator-to-operation mapping:
+  '&' = mul
+  '{' = abs_diff
+
+examples:
+  [(&[( = >}>(  =>  91 * 91 = 8281
+  "}{\% = !}  =>  |72 - 30| = 42
+  !!&\} = (!%>  =>  44 * 32 = 1408
+  (#{`[ = #!  =>  |15 - 69| = 54
+  !%&\> = (#}%  =>  40 * 38 = 1520
+
+query: ((&#%  =>  11 * 50 = 550
+
+predicted answer: ##%

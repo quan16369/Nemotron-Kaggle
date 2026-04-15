@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 ixo padd europeos
+01 amerika fills xo
+02 ggel honom refugi
+
+This is a sample output.
+00 ixo padd europeos -> –i–x–o–p–a–d–d–e–u–r–o–p–e–o–s–
+01 amerika fills xo -> –a–m–e–r–i–k–a–f–i–l–l–s–x–o–
+02 ggel honom refugi -> –g–g–e–l–h–o–n–o–m–r–e–f–u–g–i–
+
+This is your input.
+00 cci pistes six
+01 pm voort memb
+02 sozial enzym pouvait
+03 arrass stag queste
+04 rosa sill masses
+05 spec emulator viejo
+06 orney mismas cien
+07 anten nouv univerz
+08 nasia densidad protein
+09 ateria incub thwart
+10 ividad craw guad
+11 cieron marked steals
+12 diri fru hoc
+13 krie profits unters
+14 ubicin score antagon
+15 endra checksum compan
+16 asuring supernat ids
+17 onti embl heating
+18 ans romance dari
+19 ath hijos spind
+20 ophen copias dada
+21 ray noc crom
+22 beth myself spilled
+23 pload tay heavier
+24 orio repl haciendo
+25 mateix caller validate
+26 ined chick factor
+27 uginosa gest gardes
+28 urger hic azure
+29 gree vocal paral
+30 holz uniquely induct
+31 anya fruit kole
+32 ensi kontrakt vary
+33 erville inond saam
+34 ovenant lymphoid disposed
+35 akh feasible atrophy
+36 loo ducts gripping
+37 vorm insane brackets
+38 frau paling strij
+39 sung constit avi
+40 vue parmi objected
+41 nante demais joy
+42 rante plaines forge
+43 agh spazio fuer
+44 meg depress muun
+45 rav exempt dentro
+46 chr drop sht
+47 organiz toured enforce
+48 urende bran transit
+49 cache ukaz clothing
+50 ilis maladie nothing
+51 gal glycerol posters
+52 rather objetos versie
+53 fname realizes grant
+54 rowth graceful ster
+55 ueblos rv tune
+56 hanced confess readonly
+57 kiem bey baik
+58 kez lind str
+59 week simplex pilgr
+60 uffix ib nautical
+61 ne skirt kre
+62 zni iterate heft
+63 eless podob amplify
+64 enti stort allergy
+65 fen iterator ilumin
+66 wap guardar erneut
+67 accia extran promedio
+68 gett suced kart
+69 omain tipped recr
+70 ccan scand lois
+71 okon bombs buenas
+72 fmt overflow excerpt
+73 lining uits sterile
+74 idity explic propres
+75 ody multid stuk
+76 messages tenth bloc
+77 ano lesson inh
+78 dzy fabrics arre
+79 pom kapt etter
+80 ouch implica drugiej
+81 ithe floating wand
+82 ffee atrap objek
+83 plona boy lugar
+84 voie morb device
+85 roits masalah horm
+86 laise aseg multiply
+87 isbane stejn neurode
+88 ono frig shots
+89 elen csak impacts
+90 olecular exam units
+91 ordinate puncture piss
+92 amide athlete aside
+93 perg menek fortes
+94 iqua deaths todd
+95 mirante resistor ausdr
+96 voiced baiser evenly
+97 jach zion ups
+98 ares tomado cuent
+99 stalle foul encuent
+[completion]
+00 cci pistes six -> –c–c–i–p–i–s–t–e–s–s–i–x–
+01 pm voort memb -> –p–m–v–o–o–r–t–m–e–m–b–
+02 sozial enzym pouvait -> –s–o–z–i–a–l–e–n–z–y–m–p–o–u–v–a–i–t–
+03 arrass stag queste -> –a–r–r–a–s–s–s–t–a–g–q–u–e–s–t–e–
+04 rosa sill masses -> –r–o–s–a–s–i–l–l–m–a–s–s–e–s–
+05 spec emulator viejo -> –s–p–e–c–e–m–u–l–a–t–o–r–v–i–e–j–o–
+06 orney mismas cien -> –o–r–n–e–y–m–i–s–m–a–s–c–i–e–n–
+07 anten nouv univerz -> –a–n–t–e–n–n–o–u–v–u–n–i–v–e–r–z–
+08 nasia densidad protein -> –n–a–s–i–a–d–e–n–s–i–d–a–d–p–r–o–t–e–i–n–
+09 ateria incub thwart -> –a–t–e–r–i–a–i–n–c–u–b–t–h–w–a–r–t–
+10 ividad craw guad -> –i–v–i–d–a–d–c–r–a–w–g–u–a–d–
+11 cieron marked steals -> –c–i–e–r–o–n–m–a–r–k–e–d–s–t–e–a–l–s–
+12 diri fru hoc -> –d–i–r–i–f–r–u–h–o–c–
+13 krie profits unters -> –k–r–i–e–p–r–o–f–i–t–s–u–n–t–e–r–s–
+14 ubicin score antagon -> –u–b–i–c–i–n–s–c–o–r–e–a–n–t–a–g–o–n–
+15 endra checksum compan -> –e–n–d–r–a–c–h–e–c–k–s–u–m–c–o–m–p–a–n–
+16 asuring supernat ids -> –a–s–u–r–i–n–g–s–u–p–e–r–n–a–t–i–d–s–
+17 onti embl heating -> –o–n–t–i–e–m–b–l–h–e–a–t–i–n–g–
+18 ans romance dari -> –a–n–s–r–o–m–a–n–c–e–d–a–r–i–
+19 ath hijos spind -> –a–t–h–h–i–j–o–s–s–p–i–n–d–
+20 ophen copias dada -> –o–p–h–e–n–c–o–p–i–a–s–d–a–d–a–
+21 ray noc crom -> –r–a–y–n–o–c–c–r–o–m–
+22 beth myself spilled -> –b–e–t–h–m–y–s–e–l–f–s–p–i–l–l–e–d–
+23 pload tay heavier -> –p–l–o–a–d–t–a–y–h–e–a–v–i–e–r–
+24 orio repl haciendo -> –o–r–i–o–r–e–p–l–h–a–c–i–e–n–d–o–
+25 mateix caller validate -> –m–a–t–e–i–x–c–a–l–l–e–r–v–a–l–i–d–a–t–e–
+26 ined chick factor -> –i–n–e–d–c–h–i–c–k–f–a–c–t–o–r–
+27 uginosa gest gardes -> –u–g–i–n–o–s–a–g–e–s–t–g–a–r–d–e–s–
+28 urger hic azure -> –u–r–g–e–r–h–i–c–a–z–u–r–e–
+29 gree vocal paral -> –g–r–e–e–v–o–c–a–l–p–a–r–a–l–
+30 holz uniquely induct -> –h–o–l–z–u–n–i–q–u–e–l–y–i–n–d–u–c–t–
+31 anya fruit kole -> –a–n–y–a–f–r–u–i–t–k–o–l–e–
+32 ensi kontrakt vary -> –e–n–s–i–k–o–n–t–r–a–k–t–v–a–r–y–
+33 erville inond saam -> –e–r–v–i–l–l–e–i–n–o–n–d–s–a–a–m–
+34 ovenant lymphoid disposed -> –o–v–e–n–a–n–t–l–y–m–p–h–o–i–d–d–i–s–p–o–s–e–d–
+35 akh feasible atrophy -> –a–k–h–f–e–a–s–i–b–l–e–a–t–r–o–p–h–y–
+36 loo ducts gripping -> –l–o–o–d–u–c–t–s–g–r–i–p–p–i–n–g–
+37 vorm insane brackets -> –v–o–r–m–i–n–s–a–n–e–b–r–a–c–k–e–t–s–
+38 frau paling strij -> –f–r–a–u–p–a–l–i–n–g–s–t–r–i–j–
+39 sung constit avi -> –s–u–n–g–c–o–n–s–t–i–t–a–v–i–
+40 vue parmi objected -> –v–u–e–p–a–r–m–i–o–b–j–e–c–t–e–d–
+41 nante demais joy -> –n–a–n–t–e–d–e–m–a–i–s–j–o–y–
+42 rante plaines forge -> –r–a–n–t–e–p–l–a–i–n–e–s–f–o–r–g–e–
+43 agh spazio fuer -> –a–g–h–s–p–a–z–i–o–f–u–e–r–
+44 meg depress muun -> –m–e–g–d–e–p–r–e–s–s–m–u–u–n–
+45 rav exempt dentro -> –r–a–v–e–x–e–m–p–t–d–e–n–t–r–o–
+46 chr drop sht -> –c–h–r–d–r–o–p–s–h–t–
+47 organiz toured enforce -> –o–r–g–a–n–i–z–t–o–u–r–e–d–e–n–f–o–r–c–e–
+48 urende bran transit -> –u–r–e–n–d–e–b–r–a–n–t–r–a–n–s–i–t–
+49 cache ukaz clothing -> –c–a–c–h–e–u–k–a–z–c–l–o–t–h–i–n–g–
+50 ilis maladie nothing -> –i–l–i–s–m–a–l–a–d–i–e–n–o–t–h–i–n–g–
+51 gal glycerol posters -> –g–a–l–g–l–y–c–e–r–o–l–p–o–s–t–e–r–s–
+52 rather objetos versie -> –r–a–t–h–e–r–o–b–j–e–t–o–s–v–e–r–s–i–e–
+53 fname realizes grant -> –f–n–a–m–e–r–e–a–l–i–z–e–s–g–r–a–n–t–
+54 rowth graceful ster -> –r–o–w–t–h–g–r–a–c–e–f–u–l–s–t–e–r–
+55 ueblos rv tune -> –u–e–b–l–o–s–r–v–t–u–n–e–
+56 hanced confess readonly -> –h–a–n–c–e–d–c–o–n–f–e–s–s–r–e–a–d–o–n–l–y–
+57 kiem bey baik -> –k–i–e–m–b–e–y–b–a–i–k–
+58 kez lind str -> –k–e–z–l–i–n–d–s–t–r–
+59 week simplex pilgr -> –w–e–e–k–s–i–m–p–l–e–x–p–i–l–g–r–
+60 uffix ib nautical -> –u–f–f–i–x–i–b–n–a–u–t–i–c–a–l–
+61 ne skirt kre -> –n–e–s–k–i–r–t–k–r–e–
+62 zni iterate heft -> –z–n–i–i–t–e–r–a–t–e–h–e–f–t–
+63 eless podob amplify -> –e–l–e–s–s–p–o–d–o–b–a–m–p–l–i–f–y–
+64 enti stort allergy -> –e–n–t–i–s–t–o–r–t–a–l–l–e–r–g–y–
+65 fen iterator ilumin -> –f–e–n–i–t–e–r–a–t–o–r–i–l–u–m–i–n–
+66 wap guardar erneut -> –w–a–p–g–u–a–r–d–a–r–e–r–n–e–u–t–
+67 accia extran promedio -> –a–c–c–i–a–e–x–t–r–a–n–p–r–o–m–e–d–i–o–
+68 gett suced kart -> –g–e–t–t–s–u–c–e–d–k–a–r–t–
+69 omain tipped recr -> –o–m–a–i–n–t–i–p–p–e–d–r–e–c–r–
+70 ccan scand lois -> –c–c–a–n–s–c–a–n–d–l–o–i–s–
+71 okon bombs buenas -> –o–k–o–n–b–o–m–b–s–b–u–e–n–a–s–
+72 fmt overflow excerpt -> –f–m–t–o–v–e–r–f–l–o–w–e–x–c–e–r–p–t–
+73 lining uits sterile -> –l–i–n–i–n–g–u–i–t–s–s–t–e–r–i–l–e–
+74 idity explic propres -> –i–d–i–t–y–e–x–p–l–i–c–p–r–o–p–r–e–s–
+75 ody multid stuk -> –o–d–y–m–u–l–t–i–d–s–t–u–k–
+76 messages tenth bloc -> –m–e–s–s–a–g–e–s–t–e–n–t–h–b–l–o–c–
+77 ano lesson inh -> –a–n–o–l–e–s–s–o–n–i–n–h–
+78 dzy fabrics arre -> –d–z–y–f–a–b–r–i–c–s–a–r–r–e–
+79 pom kapt etter -> –p–o–m–k–a–p–t–e–t–t–e–r–
+80 ouch implica drugiej -> –o–u–c–h–i–m–p–l–i–c–a–d–r–u–g–i–e–j–
+81 ithe floating wand -> –i–t–h–e–f–l–o–a–t–i–n–g–w–a–n–d–
+82 ffee atrap objek -> –f–f–e–e–a–t–r–a–p–o–b–j–e–k–
+83 plona boy lugar -> –p–l–o–n–a–b–o–y–l–u–g–a–r–
+84 voie morb device -> –v–o–i–e–m–o–r–b–d–e–v–i–c–e–
+85 roits masalah horm -> –r–o–i–t–s–m–a–s–a–l–a–h–h–o–r–m–
+86 laise aseg multiply -> –l–a–i–s–e–a–s–e–g–m–u–l–t–i–p–l–y–
+87 isbane stejn neurode -> –i–s–b–a–n–e–s–t–e–j–n–n–e–u–r–o–d–e–
+88 ono frig shots -> –o–n–o–f–r–i–g–s–h–o–t–s–
+89 elen csak impacts -> –e–l–e–n–c–s–a–k–i–m–p–a–c–t–s–
+90 olecular exam units -> –o–l–e–c–u–l–a–r–e–x–a–m–u–n–i–t–s–
+91 ordinate puncture piss -> –o–r–d–i–n–a–t–e–p–u–n–c–t–u–r–e–p–i–s–s–
+92 amide athlete aside -> –a–m–i–d–e–a–t–h–l–e–t–e–a–s–i–d–e–
+93 perg menek fortes -> –p–e–r–g–m–e–n–e–k–f–o–r–t–e–s–
+94 iqua deaths todd -> –i–q–u–a–d–e–a–t–h–s–t–o–d–d–
+95 mirante resistor ausdr -> –m–i–r–a–n–t–e–r–e–s–i–s–t–o–r–a–u–s–d–r–
+96 voiced baiser evenly -> –v–o–i–c–e–d–b–a–i–s–e–r–e–v–e–n–l–y–
+97 jach zion ups -> –j–a–c–h–z–i–o–n–u–p–s–
+98 ares tomado cuent -> –a–r–e–s–t–o–m–a–d–o–c–u–e–n–t–
+99 stalle foul encuent -> –s–t–a–l–l–e–f–o–u–l–e–n–c–u–e–n–t–

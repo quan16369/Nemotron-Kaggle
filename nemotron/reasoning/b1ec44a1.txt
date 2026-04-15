@@ -1,0 +1,477 @@
+We need to find the encryption mapping from the examples. It looks like a substitution cipher.
+I will put my final answer inside \boxed{}.
+
+Listing the input words:
+
+【aft fmyytd zdmlfa vbmats】
+aft
+ fmyytd
+ zdmlfa
+ vbmats
+
+【ybolrd btoys aft smgwtb xmbbrb】
+ybolrd
+ btoys
+ aft
+ smgwtb
+ xmbbrb
+
+【aft vmst atouftb crggrvs】
+aft
+ vmst
+ atouftb
+ crggrvs
+
+【ibmdutss vbmats stubta】
+ibmdutss
+ vbmats
+ stubta
+
+【qmby saeymts crbtsa】
+qmby
+ saeymts
+ crbtsa
+
+【 qmby ybovs aft stubta iehhgt】
+ qmby
+ ybovs
+ aft
+ stubta
+ iehhgt
+
+Breaking down into characters:
+
+【aft fmyytd zdmlfa vbmats】
+a–f–t
+f–m–y–y–t–d
+z–d–m–l–f–a
+v–b–m–a–t–s
+
+【ybolrd btoys aft smgwtb xmbbrb】
+y–b–o–l–r–d
+b–t–o–y–s
+a–f–t
+s–m–g–w–t–b
+x–m–b–b–r–b
+
+【aft vmst atouftb crggrvs】
+a–f–t
+v–m–s–t
+a–t–o–u–f–t–b
+c–r–g–g–r–v–s
+
+【ibmdutss vbmats stubta】
+i–b–m–d–u–t–s–s
+v–b–m–a–t–s
+s–t–u–b–t–a
+
+【qmby saeymts crbtsa】
+q–m–b–y
+s–a–e–y–m–t–s
+c–r–b–t–s–a
+
+【 qmby ybovs aft stubta iehhgt】
+q–m–b–y
+y–b–o–v–s
+a–f–t
+s–t–u–b–t–a
+i–e–h–h–g–t
+
+
+【aft fmyytd zdmlfa vbmats】 -> 【the hidden knight writes】 / 【the】 【hidden】 【knight】 【writes】:
+
+【aft】->【the】
+a–f–t->t–h–e
+a->t
+f->h
+t->e
+
+【 fmyytd】->【hidden】
+f–m–y–y–t–d->h–i–d–d–e–n
+f->h
+m->i
+y->d
+y->d
+t->e
+d->n
+
+【 zdmlfa】->【knight】
+z–d–m–l–f–a->k–n–i–g–h–t
+z->k
+d->n
+m->i
+l->g
+f->h
+a->t
+
+【 vbmats】->【writes】
+v–b–m–a–t–s->w–r–i–t–e–s
+v->w
+b->r
+m->i
+a->t
+t->e
+s->s
+
+
+【ybolrd btoys aft smgwtb xmbbrb】 -> 【dragon reads the silver mirror】 / 【dragon】 【reads】 【the】 【silver】 【mirror】:
+
+【ybolrd】->【dragon】
+y–b–o–l–r–d->d–r–a–g–o–n
+y->d
+b->r
+o->a
+l->g
+r->o
+d->n
+
+【 btoys】->【reads】
+b–t–o–y–s->r–e–a–d–s
+b->r
+t->e
+o->a
+y->d
+s->s
+
+【 aft】->【the】
+a–f–t->t–h–e
+a->t
+f->h
+t->e
+
+【 smgwtb】->【silver】
+s–m–g–w–t–b->s–i–l–v–e–r
+s->s
+m->i
+g->l
+w->v
+t->e
+b->r
+
+【 xmbbrb】->【mirror】
+x–m–b–b–r–b->m–i–r–r–o–r
+x->m
+m->i
+b->r
+b->r
+r->o
+b->r
+
+
+【aft vmst atouftb crggrvs】 -> 【the wise teacher follows】 / 【the】 【wise】 【teacher】 【follows】:
+
+【aft】->【the】
+a–f–t->t–h–e
+a->t
+f->h
+t->e
+
+【 vmst】->【wise】
+v–m–s–t->w–i–s–e
+v->w
+m->i
+s->s
+t->e
+
+【 atouftb】->【teacher】
+a–t–o–u–f–t–b->t–e–a–c–h–e–r
+a->t
+t->e
+o->a
+u->c
+f->h
+t->e
+b->r
+
+【 crggrvs】->【follows】
+c–r–g–g–r–v–s->f–o–l–l–o–w–s
+c->f
+r->o
+g->l
+g->l
+r->o
+v->w
+s->s
+
+
+【ibmdutss vbmats stubta】 -> 【princess writes secret】 / 【princess】 【writes】 【secret】:
+
+【ibmdutss】->【princess】
+i–b–m–d–u–t–s–s->p–r–i–n–c–e–s–s
+i->p
+b->r
+m->i
+d->n
+u->c
+t->e
+s->s
+s->s
+
+【 vbmats】->【writes】
+v–b–m–a–t–s->w–r–i–t–e–s
+v->w
+b->r
+m->i
+a->t
+t->e
+s->s
+
+【 stubta】->【secret】
+s–t–u–b–t–a->s–e–c–r–e–t
+s->s
+t->e
+u->c
+b->r
+t->e
+a->t
+
+
+【qmby saeymts crbtsa】 -> 【bird studies forest】 / 【bird】 【studies】 【forest】:
+
+【qmby】->【bird】
+q–m–b–y->b–i–r–d
+q->b
+m->i
+b->r
+y->d
+
+【 saeymts】->【studies】
+s–a–e–y–m–t–s->s–t–u–d–i–e–s
+s->s
+a->t
+e->u
+y->d
+m->i
+t->e
+s->s
+
+【 crbtsa】->【forest】
+c–r–b–t–s–a->f–o–r–e–s–t
+c->f
+r->o
+b->r
+t->e
+s->s
+a->t
+
+Mapping so far
+a->t
+b->r
+c->f
+d->n
+e->u
+f->h
+g->l
+h->?
+i->p
+j->?
+k->?
+l->g
+m->i
+n->?
+o->a
+p->?
+q->b
+r->o
+s->s
+t->e
+u->c
+v->w
+w->v
+x->m
+y->d
+z->k
+Inverse mapping
+a->o
+b->q
+c->u
+d->y
+e->t
+f->c
+g->l
+h->f
+i->m
+j->?
+k->z
+l->g
+m->x
+n->d
+o->r
+p->i
+q->?
+r->b
+s->s
+t->a
+u->e
+v->w
+w->v
+x->?
+y->?
+z->?
+Unknown characters
+h
+j
+k
+n
+p
+Unmapped target letters
+j
+q
+x
+y
+z
+
+Now decrypting 【 qmby ybovs aft stubta iehhgt】:
+【 qmby】
+q–m–b–y
+q->b
+m->i
+b->r
+y->d
+b–i–r–d->【bird】-> bird
+
+【 ybovs】
+y–b–o–v–s
+y->d
+b->r
+o->a
+v->w
+s->s
+d–r–a–w–s->【draws】-> draws
+
+【 aft】
+a–f–t
+a->t
+f->h
+t->e
+t–h–e->【the】-> the
+
+【 stubta】
+s–t–u–b–t–a
+s->s
+t->e
+u->c
+b->r
+t->e
+a->t
+s–e–c–r–e–t->【secret】-> secret
+
+【 iehhgt】
+i–e–h–h–g–t
+i->p
+e->u
+h->?
+h->?
+g->l
+t->e
+p–u–(h)–(h)–l–e->【p–u–(h)–(h)–l–e】-> p–u–(h)–(h)–l–e
+
+The sentence currently is
+bird draws the secret p–u–(h)–(h)–l–e
+
+Iterating over the unknown letters to see if they are in the question
+h yes
+j no
+k no
+n no
+p no
+
+The unknown letters
+h
+
+Let me find the best matching wonderland words:
+
+【p–u–(h)–(h)–l–e】
+New mappings: none
+【p–u–(h)–(h)–l–e】
+The length of the word is 6.
+above 5 length
+alice 5 length
+ancient 7 length
+around 6 【a–r–o–u–n–d】, 0【p】【a】mismatch
+beyond 6 【b–e–y–o–n–d】, 0【p】【b】mismatch
+bird 4 length
+book 4 length
+bright 6 【b–r–i–g–h–t】, 0【p】【b】mismatch
+castle 6 【c–a–s–t–l–e】, 0【p】【c】mismatch
+cat 3 length
+cave 4 length
+chases 6 【c–h–a–s–e–s】, 0【p】【c】mismatch
+clever 6 【c–l–e–v–e–r】, 0【p】【c】mismatch
+colorful 8 length
+creates 7 length
+crystal 7 length
+curious 7 length
+dark 4 length
+discovers 9 length
+door 4 length
+dragon 6 【d–r–a–g–o–n】, 0【p】【d】mismatch
+draws 5 length
+dreams 6 【d–r–e–a–m–s】, 0【p】【d】mismatch
+explores 8 length
+follows 7 length
+forest 6 【f–o–r–e–s–t】, 0【p】【f】mismatch
+found 5 length
+garden 6 【g–a–r–d–e–n】, 0【p】【g】mismatch
+golden 6 【g–o–l–d–e–n】, 0【p】【g】mismatch
+hatter 6 【h–a–t–t–e–r】, 0【p】【h】mismatch
+hidden 6 【h–i–d–d–e–n】, 0【p】【h】mismatch
+imagines 8 length
+in 2 length
+inside 6 【i–n–s–i–d–e】, 0【p】【i】mismatch
+island 6 【i–s–l–a–n–d】, 0【p】【i】mismatch
+key 3 length
+king 4 length
+knight 6 【k–n–i–g–h–t】, 0【p】【k】mismatch
+library 7 length
+magical 7 length
+map 3 length
+message 7 length
+mirror 6 【m–i–r–r–o–r】, 0【p】【m】mismatch
+mountain 8 length
+mouse 5 length
+mysterious 10 length
+near 4 length
+ocean 5 length
+palace 6 【p–a–l–a–c–e】, 0【p】【p】match , 1【u】【a】mismatch
+potion 6 【p–o–t–i–o–n】, 0【p】【p】match , 1【u】【o】mismatch
+princess 8 length
+puzzle 6 【p–u–z–z–l–e】, 0【p】【p】match , 1【u】【u】match , 2【z】【(h)】match , 3【z】【(h)】match , 4【l】【l】match , 5【e】【e】match, 6 all match
+queen 5 length
+rabbit 6 【r–a–b–b–i–t】, 0【p】【r】mismatch
+reads 5 length
+school 6 【s–c–h–o–o–l】, 0【p】【s】mismatch
+secret 6 【s–e–c–r–e–t】, 0【p】【s】mismatch
+sees 4 length
+silver 6 【s–i–l–v–e–r】, 0【p】【s】mismatch
+story 5 length
+strange 7 length
+student 7 length
+studies 7 length
+teacher 7 length
+the 3 length
+through 7 length
+tower 5 length
+treasure 8 length
+turtle 6 【t–u–r–t–l–e】, 0【p】【t】mismatch
+under 5 length
+valley 6 【v–a–l–l–e–y】, 0【p】【v】mismatch
+village 7 length
+watches 7 length
+wise 4 length
+wizard 6 【w–i–z–a–r–d】, 0【p】【w】mismatch
+wonderland 10 length
+writes 6 【w–r–i–t–e–s】, 0【p】【w】mismatch
+Best match: 【puzzle】
+【p–u–(h)–(h)–l–e】->【p–u–z–z–l–e】
+【p】->【p】same
+【u】->【u】same
+【(h)】->【z】 new
+【(h)】->【z】 new
+【l】->【l】same
+【e】->【e】same
+New mappings
+【(h)】->【z】
+
+I will now return the answer in \boxed{}
+The answer in \boxed{–} is \boxed{bird draws the secret puzzle}

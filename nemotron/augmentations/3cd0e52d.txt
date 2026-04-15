@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 payload wiping ofere
+01 gegeben implies suicide
+02 lend illust accus
+
+This is a sample output.
+00 payload wiping ofere -> –p–a–y–l–o–a–d–w–i–p–i–n–g–o–f–e–r–e–
+01 gegeben implies suicide -> –g–e–g–e–b–e–n–i–m–p–l–i–e–s–s–u–i–c–i–d–e–
+02 lend illust accus -> –l–e–n–d–i–l–l–u–s–t–a–c–c–u–s–
+
+This is your input.
+00 aping potable brains
+01 mii supp resent
+02 guardo stronie fai
+03 ennent tenere monoton
+04 inthe tired cardiac
+05 ciens teens comedy
+06 altime staged har
+07 ichte wellness backed
+08 osed sermon vorm
+09 aat planar matern
+10 screen quarant kulturn
+11 listed positiv visits
+12 agoko pear paio
+13 enders museums popol
+14 aylor cor civic
+15 oxy estado herald
+16 onek uterine casting
+17 util proche morale
+18 etik eleg solic
+19 seen basil jambes
+20 itrogen poln echt
+21 onton poche recover
+22 datum wonders ferro
+23 claimed ferait issus
+24 vier fait faim
+25 ovalo fourni dein
+26 ad sje masuk
+27 mental batez rex
+28 arang gait paralle
+29 posts nost until
+30 apel stud bede
+31 otropy pengh captur
+32 just zgin advertis
+33 inschaft grecque tomb
+34 isierten hubungan entity
+35 amic rozhod contrary
+36 antal palazzo prefect
+37 ynam hitz entorno
+38 ingu kurul annuelle
+39 minist unul viens
+40 puan urugu arches
+41 renz excess kval
+42 ended suffer bac
+43 arma powod afer
+44 yclic worker tels
+45 iak belts recently
+46 ipore knapp positiva
+47 uka prol discurso
+48 heets anest deco
+49 today oncology riding
+50 scribe gent estuvo
+51 lel due stazione
+52 viewport sufr threads
+53 aget teatral operated
+54 ills pore fuss
+55 quanto molding crews
+56 loat disrupt workbook
+57 anta upward bezogen
+58 habil doan convey
+59 ieni imagen neuros
+60 adox furt jsou
+61 atelier greatly faith
+62 bing megh angles
+63 heil asegurar fiscal
+64 emor japonais facteur
+65 cor hire toilet
+66 delay veng props
+67 oped civile shrim
+68 agerung strik demost
+69 racht pelvis fij
+70 gender julho decid
+71 estival inom profundo
+72 assing nasc aspects
+73 ispatch waktu kult
+74 aceae inducing mej
+75 isku enregist inaktibo
+76 otec nut entendu
+77 cemia waiter plateau
+78 odia drifted atunci
+79 je sleeves cento
+80 eko core better
+81 onica maszyn damit
+82 strecke tutor locks
+83 otypic compat modes
+84 tean foi afirmar
+85 updated mito vendas
+86 jne realizan delanter
+87 baden seinem divina
+88 pol coached proud
+89 rocy throne stunt
+90 okrat legally revista
+91 onds notation servei
+92 stitut agonist poprzez
+93 ampling acog temples
+94 yczne lacks perio
+95 indu pointing scatter
+96 arro palms seventy
+97 skih stroke calle
+98 stein freed zusammen
+99 raged binding capsule
+[completion]
+00 aping potable brains -> –a–p–i–n–g–p–o–t–a–b–l–e–b–r–a–i–n–s–
+01 mii supp resent -> –m–i–i–s–u–p–p–r–e–s–e–n–t–
+02 guardo stronie fai -> –g–u–a–r–d–o–s–t–r–o–n–i–e–f–a–i–
+03 ennent tenere monoton -> –e–n–n–e–n–t–t–e–n–e–r–e–m–o–n–o–t–o–n–
+04 inthe tired cardiac -> –i–n–t–h–e–t–i–r–e–d–c–a–r–d–i–a–c–
+05 ciens teens comedy -> –c–i–e–n–s–t–e–e–n–s–c–o–m–e–d–y–
+06 altime staged har -> –a–l–t–i–m–e–s–t–a–g–e–d–h–a–r–
+07 ichte wellness backed -> –i–c–h–t–e–w–e–l–l–n–e–s–s–b–a–c–k–e–d–
+08 osed sermon vorm -> –o–s–e–d–s–e–r–m–o–n–v–o–r–m–
+09 aat planar matern -> –a–a–t–p–l–a–n–a–r–m–a–t–e–r–n–
+10 screen quarant kulturn -> –s–c–r–e–e–n–q–u–a–r–a–n–t–k–u–l–t–u–r–n–
+11 listed positiv visits -> –l–i–s–t–e–d–p–o–s–i–t–i–v–v–i–s–i–t–s–
+12 agoko pear paio -> –a–g–o–k–o–p–e–a–r–p–a–i–o–
+13 enders museums popol -> –e–n–d–e–r–s–m–u–s–e–u–m–s–p–o–p–o–l–
+14 aylor cor civic -> –a–y–l–o–r–c–o–r–c–i–v–i–c–
+15 oxy estado herald -> –o–x–y–e–s–t–a–d–o–h–e–r–a–l–d–
+16 onek uterine casting -> –o–n–e–k–u–t–e–r–i–n–e–c–a–s–t–i–n–g–
+17 util proche morale -> –u–t–i–l–p–r–o–c–h–e–m–o–r–a–l–e–
+18 etik eleg solic -> –e–t–i–k–e–l–e–g–s–o–l–i–c–
+19 seen basil jambes -> –s–e–e–n–b–a–s–i–l–j–a–m–b–e–s–
+20 itrogen poln echt -> –i–t–r–o–g–e–n–p–o–l–n–e–c–h–t–
+21 onton poche recover -> –o–n–t–o–n–p–o–c–h–e–r–e–c–o–v–e–r–
+22 datum wonders ferro -> –d–a–t–u–m–w–o–n–d–e–r–s–f–e–r–r–o–
+23 claimed ferait issus -> –c–l–a–i–m–e–d–f–e–r–a–i–t–i–s–s–u–s–
+24 vier fait faim -> –v–i–e–r–f–a–i–t–f–a–i–m–
+25 ovalo fourni dein -> –o–v–a–l–o–f–o–u–r–n–i–d–e–i–n–
+26 ad sje masuk -> –a–d–s–j–e–m–a–s–u–k–
+27 mental batez rex -> –m–e–n–t–a–l–b–a–t–e–z–r–e–x–
+28 arang gait paralle -> –a–r–a–n–g–g–a–i–t–p–a–r–a–l–l–e–
+29 posts nost until -> –p–o–s–t–s–n–o–s–t–u–n–t–i–l–
+30 apel stud bede -> –a–p–e–l–s–t–u–d–b–e–d–e–
+31 otropy pengh captur -> –o–t–r–o–p–y–p–e–n–g–h–c–a–p–t–u–r–
+32 just zgin advertis -> –j–u–s–t–z–g–i–n–a–d–v–e–r–t–i–s–
+33 inschaft grecque tomb -> –i–n–s–c–h–a–f–t–g–r–e–c–q–u–e–t–o–m–b–
+34 isierten hubungan entity -> –i–s–i–e–r–t–e–n–h–u–b–u–n–g–a–n–e–n–t–i–t–y–
+35 amic rozhod contrary -> –a–m–i–c–r–o–z–h–o–d–c–o–n–t–r–a–r–y–
+36 antal palazzo prefect -> –a–n–t–a–l–p–a–l–a–z–z–o–p–r–e–f–e–c–t–
+37 ynam hitz entorno -> –y–n–a–m–h–i–t–z–e–n–t–o–r–n–o–
+38 ingu kurul annuelle -> –i–n–g–u–k–u–r–u–l–a–n–n–u–e–l–l–e–
+39 minist unul viens -> –m–i–n–i–s–t–u–n–u–l–v–i–e–n–s–
+40 puan urugu arches -> –p–u–a–n–u–r–u–g–u–a–r–c–h–e–s–
+41 renz excess kval -> –r–e–n–z–e–x–c–e–s–s–k–v–a–l–
+42 ended suffer bac -> –e–n–d–e–d–s–u–f–f–e–r–b–a–c–
+43 arma powod afer -> –a–r–m–a–p–o–w–o–d–a–f–e–r–
+44 yclic worker tels -> –y–c–l–i–c–w–o–r–k–e–r–t–e–l–s–
+45 iak belts recently -> –i–a–k–b–e–l–t–s–r–e–c–e–n–t–l–y–
+46 ipore knapp positiva -> –i–p–o–r–e–k–n–a–p–p–p–o–s–i–t–i–v–a–
+47 uka prol discurso -> –u–k–a–p–r–o–l–d–i–s–c–u–r–s–o–
+48 heets anest deco -> –h–e–e–t–s–a–n–e–s–t–d–e–c–o–
+49 today oncology riding -> –t–o–d–a–y–o–n–c–o–l–o–g–y–r–i–d–i–n–g–
+50 scribe gent estuvo -> –s–c–r–i–b–e–g–e–n–t–e–s–t–u–v–o–
+51 lel due stazione -> –l–e–l–d–u–e–s–t–a–z–i–o–n–e–
+52 viewport sufr threads -> –v–i–e–w–p–o–r–t–s–u–f–r–t–h–r–e–a–d–s–
+53 aget teatral operated -> –a–g–e–t–t–e–a–t–r–a–l–o–p–e–r–a–t–e–d–
+54 ills pore fuss -> –i–l–l–s–p–o–r–e–f–u–s–s–
+55 quanto molding crews -> –q–u–a–n–t–o–m–o–l–d–i–n–g–c–r–e–w–s–
+56 loat disrupt workbook -> –l–o–a–t–d–i–s–r–u–p–t–w–o–r–k–b–o–o–k–
+57 anta upward bezogen -> –a–n–t–a–u–p–w–a–r–d–b–e–z–o–g–e–n–
+58 habil doan convey -> –h–a–b–i–l–d–o–a–n–c–o–n–v–e–y–
+59 ieni imagen neuros -> –i–e–n–i–i–m–a–g–e–n–n–e–u–r–o–s–
+60 adox furt jsou -> –a–d–o–x–f–u–r–t–j–s–o–u–
+61 atelier greatly faith -> –a–t–e–l–i–e–r–g–r–e–a–t–l–y–f–a–i–t–h–
+62 bing megh angles -> –b–i–n–g–m–e–g–h–a–n–g–l–e–s–
+63 heil asegurar fiscal -> –h–e–i–l–a–s–e–g–u–r–a–r–f–i–s–c–a–l–
+64 emor japonais facteur -> –e–m–o–r–j–a–p–o–n–a–i–s–f–a–c–t–e–u–r–
+65 cor hire toilet -> –c–o–r–h–i–r–e–t–o–i–l–e–t–
+66 delay veng props -> –d–e–l–a–y–v–e–n–g–p–r–o–p–s–
+67 oped civile shrim -> –o–p–e–d–c–i–v–i–l–e–s–h–r–i–m–
+68 agerung strik demost -> –a–g–e–r–u–n–g–s–t–r–i–k–d–e–m–o–s–t–
+69 racht pelvis fij -> –r–a–c–h–t–p–e–l–v–i–s–f–i–j–
+70 gender julho decid -> –g–e–n–d–e–r–j–u–l–h–o–d–e–c–i–d–
+71 estival inom profundo -> –e–s–t–i–v–a–l–i–n–o–m–p–r–o–f–u–n–d–o–
+72 assing nasc aspects -> –a–s–s–i–n–g–n–a–s–c–a–s–p–e–c–t–s–
+73 ispatch waktu kult -> –i–s–p–a–t–c–h–w–a–k–t–u–k–u–l–t–
+74 aceae inducing mej -> –a–c–e–a–e–i–n–d–u–c–i–n–g–m–e–j–
+75 isku enregist inaktibo -> –i–s–k–u–e–n–r–e–g–i–s–t–i–n–a–k–t–i–b–o–
+76 otec nut entendu -> –o–t–e–c–n–u–t–e–n–t–e–n–d–u–
+77 cemia waiter plateau -> –c–e–m–i–a–w–a–i–t–e–r–p–l–a–t–e–a–u–
+78 odia drifted atunci -> –o–d–i–a–d–r–i–f–t–e–d–a–t–u–n–c–i–
+79 je sleeves cento -> –j–e–s–l–e–e–v–e–s–c–e–n–t–o–
+80 eko core better -> –e–k–o–c–o–r–e–b–e–t–t–e–r–
+81 onica maszyn damit -> –o–n–i–c–a–m–a–s–z–y–n–d–a–m–i–t–
+82 strecke tutor locks -> –s–t–r–e–c–k–e–t–u–t–o–r–l–o–c–k–s–
+83 otypic compat modes -> –o–t–y–p–i–c–c–o–m–p–a–t–m–o–d–e–s–
+84 tean foi afirmar -> –t–e–a–n–f–o–i–a–f–i–r–m–a–r–
+85 updated mito vendas -> –u–p–d–a–t–e–d–m–i–t–o–v–e–n–d–a–s–
+86 jne realizan delanter -> –j–n–e–r–e–a–l–i–z–a–n–d–e–l–a–n–t–e–r–
+87 baden seinem divina -> –b–a–d–e–n–s–e–i–n–e–m–d–i–v–i–n–a–
+88 pol coached proud -> –p–o–l–c–o–a–c–h–e–d–p–r–o–u–d–
+89 rocy throne stunt -> –r–o–c–y–t–h–r–o–n–e–s–t–u–n–t–
+90 okrat legally revista -> –o–k–r–a–t–l–e–g–a–l–l–y–r–e–v–i–s–t–a–
+91 onds notation servei -> –o–n–d–s–n–o–t–a–t–i–o–n–s–e–r–v–e–i–
+92 stitut agonist poprzez -> –s–t–i–t–u–t–a–g–o–n–i–s–t–p–o–p–r–z–e–z–
+93 ampling acog temples -> –a–m–p–l–i–n–g–a–c–o–g–t–e–m–p–l–e–s–
+94 yczne lacks perio -> –y–c–z–n–e–l–a–c–k–s–p–e–r–i–o–
+95 indu pointing scatter -> –i–n–d–u–p–o–i–n–t–i–n–g–s–c–a–t–t–e–r–
+96 arro palms seventy -> –a–r–r–o–p–a–l–m–s–s–e–v–e–n–t–y–
+97 skih stroke calle -> –s–k–i–h–s–t–r–o–k–e–c–a–l–l–e–
+98 stein freed zusammen -> –s–t–e–i–n–f–r–e–e–d–z–u–s–a–m–m–e–n–
+99 raged binding capsule -> –r–a–g–e–d–b–i–n–d–i–n–g–c–a–p–s–u–l–e–

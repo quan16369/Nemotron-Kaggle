@@ -1,0 +1,16 @@
+problem id: 12fd5b6c
+category: bit_manipulation
+
+rule: (ROT(5) XOR NOT SHL(2)) OR SHR(4)
+
+examples:
+  11011011 -> 11101101
+  01000000 -> 11110111
+  10000001 -> 11001011
+  00010011 -> 11010001
+  11100110 -> 10111111
+  00001011 -> 10110010
+  10000111 -> 00011011
+
+query: 00100101
+predicted answer: 11001111

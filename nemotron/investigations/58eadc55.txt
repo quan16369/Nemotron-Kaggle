@@ -1,0 +1,25 @@
+problem id: 58eadc55
+category: cryptarithm_deduce
+
+symbol-to-digit mapping:
+  '!' = 4
+  '#' = 8
+  '$' = 7
+  ')' = 1
+  '@' = 2
+  '\\' = 9
+  '`' = 6
+  '{' = 0
+
+operator-to-operation mapping:
+  ']' = mul
+  '|' = add
+
+examples:
+  )`]\@ = )!$@  =>  16 * 92 = 1472
+  \#|@# = )@`  =>  98 + 28 = 126
+  #{|`! = )!!  =>  80 + 64 = 144
+
+query: @@|@`  =>  22 + 26 = 48
+
+predicted answer: !#

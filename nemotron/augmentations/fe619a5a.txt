@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 zug euk vak
+01 raya jog doped
+02 luit film stanowi
+
+This is a sample output.
+00 zug euk vak -> –z–u–g–e–u–k–v–a–k–
+01 raya jog doped -> –r–a–y–a–j–o–g–d–o–p–e–d–
+02 luit film stanowi -> –l–u–i–t–f–i–l–m–s–t–a–n–o–w–i–
+
+This is your input.
+00 kungan pyr hypoxic
+01 ymmetric science varies
+02 avez sooner fierce
+03 millan refere grava
+04 ductor splits ensuring
+05 rot beams moodust
+06 ertid envision pleural
+07 jugated kurz gads
+08 onymie styr bewegen
+09 utlich variant peptide
+10 vements trainer rimane
+11 metadata computer emas
+12 ivel rigorous labour
+13 form pest algae
+14 target lure apres
+15 objects jedin elek
+16 align nostre silhou
+17 otti indexed ishl
+18 ocracy odor eig
+19 uk plong filem
+20 apsed dni incontro
+21 ruzione fuertes imagined
+22 umbn casually bytes
+23 brei jedna protr
+24 hole ants ringing
+25 emph terrible nachfolg
+26 cuador mixture serious
+27 edev xml maturity
+28 oded studying mog
+29 enso bombarde armored
+30 zeta najvi fax
+31 ekin bylo appel
+32 plas fit breve
+33 izer public would
+34 ultural bref fault
+35 ciples desple parietal
+36 uie peor entert
+37 mers inst absorbed
+38 prost supplier holding
+39 hip sito escribe
+40 fon morti parties
+41 istique deline fixe
+42 riker cem tight
+43 tar head myeloid
+44 schrift lightly chrom
+45 halte bildeten moneda
+46 ifie szere new
+47 arry neural rods
+48 ropy prisoner bidding
+49 pline spending guinea
+50 ocytic njegova bidez
+51 acidad por phage
+52 lear momentum triunfo
+53 retto eminent vieler
+54 ochet perdeu oportun
+55 ikawa recalls error
+56 forme book sens
+57 edin programa include
+58 download topo feud
+59 idez update dilute
+60 pli stumbled tienen
+61 ends chamber gingen
+62 ritical febru oyun
+63 items spielt organiza
+64 ags inf wives
+65 union soupira evid
+66 irken erect axons
+67 zeugen verre castello
+68 gunta strings trips
+69 elow bak pourrais
+70 ithub utiliza endomm
+71 mai cars largo
+72 icot haus schwere
+73 inking lane contour
+74 emples brick diplomat
+75 nim apporter scen
+76 rians stanow altered
+77 endre hosting place
+78 wydd mercy smirk
+79 atos steeds storage
+80 gyan studenti oceans
+81 etta suffis wards
+82 jarah landscap seluruh
+83 antwort battre inside
+84 lost rzek charger
+85 zkod burdens manera
+86 jero ispir ensole
+87 igny oleh explicar
+88 chent actrice terr
+89 engo cren wrists
+90 umb charges standen
+91 skom usable norm
+92 ights tysk jego
+93 ylic nadal kv
+94 stasy ros aner
+95 oran popping start
+96 usz descon kaks
+97 heet oggetti sceneggi
+98 heiro zeer grey
+99 move sedent kort
+[completion]
+00 kungan pyr hypoxic -> –k–u–n–g–a–n–p–y–r–h–y–p–o–x–i–c–
+01 ymmetric science varies -> –y–m–m–e–t–r–i–c–s–c–i–e–n–c–e–v–a–r–i–e–s–
+02 avez sooner fierce -> –a–v–e–z–s–o–o–n–e–r–f–i–e–r–c–e–
+03 millan refere grava -> –m–i–l–l–a–n–r–e–f–e–r–e–g–r–a–v–a–
+04 ductor splits ensuring -> –d–u–c–t–o–r–s–p–l–i–t–s–e–n–s–u–r–i–n–g–
+05 rot beams moodust -> –r–o–t–b–e–a–m–s–m–o–o–d–u–s–t–
+06 ertid envision pleural -> –e–r–t–i–d–e–n–v–i–s–i–o–n–p–l–e–u–r–a–l–
+07 jugated kurz gads -> –j–u–g–a–t–e–d–k–u–r–z–g–a–d–s–
+08 onymie styr bewegen -> –o–n–y–m–i–e–s–t–y–r–b–e–w–e–g–e–n–
+09 utlich variant peptide -> –u–t–l–i–c–h–v–a–r–i–a–n–t–p–e–p–t–i–d–e–
+10 vements trainer rimane -> –v–e–m–e–n–t–s–t–r–a–i–n–e–r–r–i–m–a–n–e–
+11 metadata computer emas -> –m–e–t–a–d–a–t–a–c–o–m–p–u–t–e–r–e–m–a–s–
+12 ivel rigorous labour -> –i–v–e–l–r–i–g–o–r–o–u–s–l–a–b–o–u–r–
+13 form pest algae -> –f–o–r–m–p–e–s–t–a–l–g–a–e–
+14 target lure apres -> –t–a–r–g–e–t–l–u–r–e–a–p–r–e–s–
+15 objects jedin elek -> –o–b–j–e–c–t–s–j–e–d–i–n–e–l–e–k–
+16 align nostre silhou -> –a–l–i–g–n–n–o–s–t–r–e–s–i–l–h–o–u–
+17 otti indexed ishl -> –o–t–t–i–i–n–d–e–x–e–d–i–s–h–l–
+18 ocracy odor eig -> –o–c–r–a–c–y–o–d–o–r–e–i–g–
+19 uk plong filem -> –u–k–p–l–o–n–g–f–i–l–e–m–
+20 apsed dni incontro -> –a–p–s–e–d–d–n–i–i–n–c–o–n–t–r–o–
+21 ruzione fuertes imagined -> –r–u–z–i–o–n–e–f–u–e–r–t–e–s–i–m–a–g–i–n–e–d–
+22 umbn casually bytes -> –u–m–b–n–c–a–s–u–a–l–l–y–b–y–t–e–s–
+23 brei jedna protr -> –b–r–e–i–j–e–d–n–a–p–r–o–t–r–
+24 hole ants ringing -> –h–o–l–e–a–n–t–s–r–i–n–g–i–n–g–
+25 emph terrible nachfolg -> –e–m–p–h–t–e–r–r–i–b–l–e–n–a–c–h–f–o–l–g–
+26 cuador mixture serious -> –c–u–a–d–o–r–m–i–x–t–u–r–e–s–e–r–i–o–u–s–
+27 edev xml maturity -> –e–d–e–v–x–m–l–m–a–t–u–r–i–t–y–
+28 oded studying mog -> –o–d–e–d–s–t–u–d–y–i–n–g–m–o–g–
+29 enso bombarde armored -> –e–n–s–o–b–o–m–b–a–r–d–e–a–r–m–o–r–e–d–
+30 zeta najvi fax -> –z–e–t–a–n–a–j–v–i–f–a–x–
+31 ekin bylo appel -> –e–k–i–n–b–y–l–o–a–p–p–e–l–
+32 plas fit breve -> –p–l–a–s–f–i–t–b–r–e–v–e–
+33 izer public would -> –i–z–e–r–p–u–b–l–i–c–w–o–u–l–d–
+34 ultural bref fault -> –u–l–t–u–r–a–l–b–r–e–f–f–a–u–l–t–
+35 ciples desple parietal -> –c–i–p–l–e–s–d–e–s–p–l–e–p–a–r–i–e–t–a–l–
+36 uie peor entert -> –u–i–e–p–e–o–r–e–n–t–e–r–t–
+37 mers inst absorbed -> –m–e–r–s–i–n–s–t–a–b–s–o–r–b–e–d–
+38 prost supplier holding -> –p–r–o–s–t–s–u–p–p–l–i–e–r–h–o–l–d–i–n–g–
+39 hip sito escribe -> –h–i–p–s–i–t–o–e–s–c–r–i–b–e–
+40 fon morti parties -> –f–o–n–m–o–r–t–i–p–a–r–t–i–e–s–
+41 istique deline fixe -> –i–s–t–i–q–u–e–d–e–l–i–n–e–f–i–x–e–
+42 riker cem tight -> –r–i–k–e–r–c–e–m–t–i–g–h–t–
+43 tar head myeloid -> –t–a–r–h–e–a–d–m–y–e–l–o–i–d–
+44 schrift lightly chrom -> –s–c–h–r–i–f–t–l–i–g–h–t–l–y–c–h–r–o–m–
+45 halte bildeten moneda -> –h–a–l–t–e–b–i–l–d–e–t–e–n–m–o–n–e–d–a–
+46 ifie szere new -> –i–f–i–e–s–z–e–r–e–n–e–w–
+47 arry neural rods -> –a–r–r–y–n–e–u–r–a–l–r–o–d–s–
+48 ropy prisoner bidding -> –r–o–p–y–p–r–i–s–o–n–e–r–b–i–d–d–i–n–g–
+49 pline spending guinea -> –p–l–i–n–e–s–p–e–n–d–i–n–g–g–u–i–n–e–a–
+50 ocytic njegova bidez -> –o–c–y–t–i–c–n–j–e–g–o–v–a–b–i–d–e–z–
+51 acidad por phage -> –a–c–i–d–a–d–p–o–r–p–h–a–g–e–
+52 lear momentum triunfo -> –l–e–a–r–m–o–m–e–n–t–u–m–t–r–i–u–n–f–o–
+53 retto eminent vieler -> –r–e–t–t–o–e–m–i–n–e–n–t–v–i–e–l–e–r–
+54 ochet perdeu oportun -> –o–c–h–e–t–p–e–r–d–e–u–o–p–o–r–t–u–n–
+55 ikawa recalls error -> –i–k–a–w–a–r–e–c–a–l–l–s–e–r–r–o–r–
+56 forme book sens -> –f–o–r–m–e–b–o–o–k–s–e–n–s–
+57 edin programa include -> –e–d–i–n–p–r–o–g–r–a–m–a–i–n–c–l–u–d–e–
+58 download topo feud -> –d–o–w–n–l–o–a–d–t–o–p–o–f–e–u–d–
+59 idez update dilute -> –i–d–e–z–u–p–d–a–t–e–d–i–l–u–t–e–
+60 pli stumbled tienen -> –p–l–i–s–t–u–m–b–l–e–d–t–i–e–n–e–n–
+61 ends chamber gingen -> –e–n–d–s–c–h–a–m–b–e–r–g–i–n–g–e–n–
+62 ritical febru oyun -> –r–i–t–i–c–a–l–f–e–b–r–u–o–y–u–n–
+63 items spielt organiza -> –i–t–e–m–s–s–p–i–e–l–t–o–r–g–a–n–i–z–a–
+64 ags inf wives -> –a–g–s–i–n–f–w–i–v–e–s–
+65 union soupira evid -> –u–n–i–o–n–s–o–u–p–i–r–a–e–v–i–d–
+66 irken erect axons -> –i–r–k–e–n–e–r–e–c–t–a–x–o–n–s–
+67 zeugen verre castello -> –z–e–u–g–e–n–v–e–r–r–e–c–a–s–t–e–l–l–o–
+68 gunta strings trips -> –g–u–n–t–a–s–t–r–i–n–g–s–t–r–i–p–s–
+69 elow bak pourrais -> –e–l–o–w–b–a–k–p–o–u–r–r–a–i–s–
+70 ithub utiliza endomm -> –i–t–h–u–b–u–t–i–l–i–z–a–e–n–d–o–m–m–
+71 mai cars largo -> –m–a–i–c–a–r–s–l–a–r–g–o–
+72 icot haus schwere -> –i–c–o–t–h–a–u–s–s–c–h–w–e–r–e–
+73 inking lane contour -> –i–n–k–i–n–g–l–a–n–e–c–o–n–t–o–u–r–
+74 emples brick diplomat -> –e–m–p–l–e–s–b–r–i–c–k–d–i–p–l–o–m–a–t–
+75 nim apporter scen -> –n–i–m–a–p–p–o–r–t–e–r–s–c–e–n–
+76 rians stanow altered -> –r–i–a–n–s–s–t–a–n–o–w–a–l–t–e–r–e–d–
+77 endre hosting place -> –e–n–d–r–e–h–o–s–t–i–n–g–p–l–a–c–e–
+78 wydd mercy smirk -> –w–y–d–d–m–e–r–c–y–s–m–i–r–k–
+79 atos steeds storage -> –a–t–o–s–s–t–e–e–d–s–s–t–o–r–a–g–e–
+80 gyan studenti oceans -> –g–y–a–n–s–t–u–d–e–n–t–i–o–c–e–a–n–s–
+81 etta suffis wards -> –e–t–t–a–s–u–f–f–i–s–w–a–r–d–s–
+82 jarah landscap seluruh -> –j–a–r–a–h–l–a–n–d–s–c–a–p–s–e–l–u–r–u–h–
+83 antwort battre inside -> –a–n–t–w–o–r–t–b–a–t–t–r–e–i–n–s–i–d–e–
+84 lost rzek charger -> –l–o–s–t–r–z–e–k–c–h–a–r–g–e–r–
+85 zkod burdens manera -> –z–k–o–d–b–u–r–d–e–n–s–m–a–n–e–r–a–
+86 jero ispir ensole -> –j–e–r–o–i–s–p–i–r–e–n–s–o–l–e–
+87 igny oleh explicar -> –i–g–n–y–o–l–e–h–e–x–p–l–i–c–a–r–
+88 chent actrice terr -> –c–h–e–n–t–a–c–t–r–i–c–e–t–e–r–r–
+89 engo cren wrists -> –e–n–g–o–c–r–e–n–w–r–i–s–t–s–
+90 umb charges standen -> –u–m–b–c–h–a–r–g–e–s–s–t–a–n–d–e–n–
+91 skom usable norm -> –s–k–o–m–u–s–a–b–l–e–n–o–r–m–
+92 ights tysk jego -> –i–g–h–t–s–t–y–s–k–j–e–g–o–
+93 ylic nadal kv -> –y–l–i–c–n–a–d–a–l–k–v–
+94 stasy ros aner -> –s–t–a–s–y–r–o–s–a–n–e–r–
+95 oran popping start -> –o–r–a–n–p–o–p–p–i–n–g–s–t–a–r–t–
+96 usz descon kaks -> –u–s–z–d–e–s–c–o–n–k–a–k–s–
+97 heet oggetti sceneggi -> –h–e–e–t–o–g–g–e–t–t–i–s–c–e–n–e–g–g–i–
+98 heiro zeer grey -> –h–e–i–r–o–z–e–e–r–g–r–e–y–
+99 move sedent kort -> –m–o–v–e–s–e–d–e–n–t–k–o–r–t–

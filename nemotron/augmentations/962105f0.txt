@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 birds minima infatti
+01 niz estrell qualifie
+02 panel xy jaune
+
+This is a sample output.
+00 birds minima infatti -> –b–i–r–d–s–m–i–n–i–m–a–i–n–f–a–t–t–i–
+01 niz estrell qualifie -> –n–i–z–e–s–t–r–e–l–l–q–u–a–l–i–f–i–e–
+02 panel xy jaune -> –p–a–n–e–l–x–y–j–a–u–n–e–
+
+This is your input.
+00 onis resolves nummer
+01 docker porosity swiftly
+02 eton subgroup kidn
+03 oum dub vak
+04 oup robot contro
+05 gj produkt museum
+06 ders freeze hitherto
+07 ds recipe inhom
+08 tor yksi daytime
+09 preh study rug
+10 teur lados acetate
+11 leda aure zest
+12 rechts blockers inge
+13 iland escri raw
+14 onth bertan shout
+15 jel aina novi
+16 anol grapes thyroid
+17 km fb located
+18 rias diesen fechas
+19 dorf armour infinit
+20 kun resposta hosted
+21 fried dew anot
+22 anueva laps lipca
+23 hout meurtre ouest
+24 partner trud meet
+25 ments sind million
+26 tter baseado ered
+27 sul proven viscous
+28 uir duty dent
+29 uq hoge energie
+30 amenduak kib mellan
+31 rzej arbeit digo
+32 ovia jeho unbed
+33 bottom rendent ent
+34 aldehyde postoji punte
+35 yect colocado tkinter
+36 ises readers enough
+37 ght planes copie
+38 acar plano juli
+39 endance drugih unstable
+40 owner wrestler peupl
+41 oluc pensaba makers
+42 ucker egiten parecia
+43 ensic coloca applies
+44 logging findet esf
+45 erset mon langer
+46 imir toca merger
+47 alement letzten rules
+48 unku gonna soda
+49 attern landing customer
+50 kar muita target
+51 use yarat premio
+52 quait prv borrow
+53 apar commerc papel
+54 chnung estad crypt
+55 xit viaggio decades
+56 usten exported chamb
+57 cond declara gitar
+58 cool able acknow
+59 nty holid angry
+60 umeur scanned intellig
+61 nants journals eld
+62 ibil faud caer
+63 stones ports pueblos
+64 osse increase vivos
+65 oglob traball safegu
+66 cular frame mail
+67 emu modelos module
+68 act diplom naast
+69 ammlung rapides portail
+70 lio phosph kunnen
+71 flutter nation perdido
+72 westen blev mesure
+73 ouche weekend spod
+74 idencia ofens co
+75 also mente rebuilt
+76 rov loy expos
+77 jub cables lesen
+78 osterone odnosno lange
+79 vere ehem dejar
+80 zus upright ced
+81 opsis prise sred
+82 lynn ums applying
+83 oding commands kuk
+84 zyst comien creek
+85 ipart empower cei
+86 uhkan francos contains
+87 aired boa alfabet
+88 stood bride poetry
+89 setzung treg bons
+90 vertret spezi vue
+91 aney grund mellom
+92 rovers exclu pasaj
+93 simple pauvres embr
+94 estad ural familles
+95 oureux tenta decreto
+96 roj subtil esan
+97 crew pourquoi rink
+98 analysis ehk trypsin
+99 aml logs signing
+[completion]
+00 onis resolves nummer -> –o–n–i–s–r–e–s–o–l–v–e–s–n–u–m–m–e–r–
+01 docker porosity swiftly -> –d–o–c–k–e–r–p–o–r–o–s–i–t–y–s–w–i–f–t–l–y–
+02 eton subgroup kidn -> –e–t–o–n–s–u–b–g–r–o–u–p–k–i–d–n–
+03 oum dub vak -> –o–u–m–d–u–b–v–a–k–
+04 oup robot contro -> –o–u–p–r–o–b–o–t–c–o–n–t–r–o–
+05 gj produkt museum -> –g–j–p–r–o–d–u–k–t–m–u–s–e–u–m–
+06 ders freeze hitherto -> –d–e–r–s–f–r–e–e–z–e–h–i–t–h–e–r–t–o–
+07 ds recipe inhom -> –d–s–r–e–c–i–p–e–i–n–h–o–m–
+08 tor yksi daytime -> –t–o–r–y–k–s–i–d–a–y–t–i–m–e–
+09 preh study rug -> –p–r–e–h–s–t–u–d–y–r–u–g–
+10 teur lados acetate -> –t–e–u–r–l–a–d–o–s–a–c–e–t–a–t–e–
+11 leda aure zest -> –l–e–d–a–a–u–r–e–z–e–s–t–
+12 rechts blockers inge -> –r–e–c–h–t–s–b–l–o–c–k–e–r–s–i–n–g–e–
+13 iland escri raw -> –i–l–a–n–d–e–s–c–r–i–r–a–w–
+14 onth bertan shout -> –o–n–t–h–b–e–r–t–a–n–s–h–o–u–t–
+15 jel aina novi -> –j–e–l–a–i–n–a–n–o–v–i–
+16 anol grapes thyroid -> –a–n–o–l–g–r–a–p–e–s–t–h–y–r–o–i–d–
+17 km fb located -> –k–m–f–b–l–o–c–a–t–e–d–
+18 rias diesen fechas -> –r–i–a–s–d–i–e–s–e–n–f–e–c–h–a–s–
+19 dorf armour infinit -> –d–o–r–f–a–r–m–o–u–r–i–n–f–i–n–i–t–
+20 kun resposta hosted -> –k–u–n–r–e–s–p–o–s–t–a–h–o–s–t–e–d–
+21 fried dew anot -> –f–r–i–e–d–d–e–w–a–n–o–t–
+22 anueva laps lipca -> –a–n–u–e–v–a–l–a–p–s–l–i–p–c–a–
+23 hout meurtre ouest -> –h–o–u–t–m–e–u–r–t–r–e–o–u–e–s–t–
+24 partner trud meet -> –p–a–r–t–n–e–r–t–r–u–d–m–e–e–t–
+25 ments sind million -> –m–e–n–t–s–s–i–n–d–m–i–l–l–i–o–n–
+26 tter baseado ered -> –t–t–e–r–b–a–s–e–a–d–o–e–r–e–d–
+27 sul proven viscous -> –s–u–l–p–r–o–v–e–n–v–i–s–c–o–u–s–
+28 uir duty dent -> –u–i–r–d–u–t–y–d–e–n–t–
+29 uq hoge energie -> –u–q–h–o–g–e–e–n–e–r–g–i–e–
+30 amenduak kib mellan -> –a–m–e–n–d–u–a–k–k–i–b–m–e–l–l–a–n–
+31 rzej arbeit digo -> –r–z–e–j–a–r–b–e–i–t–d–i–g–o–
+32 ovia jeho unbed -> –o–v–i–a–j–e–h–o–u–n–b–e–d–
+33 bottom rendent ent -> –b–o–t–t–o–m–r–e–n–d–e–n–t–e–n–t–
+34 aldehyde postoji punte -> –a–l–d–e–h–y–d–e–p–o–s–t–o–j–i–p–u–n–t–e–
+35 yect colocado tkinter -> –y–e–c–t–c–o–l–o–c–a–d–o–t–k–i–n–t–e–r–
+36 ises readers enough -> –i–s–e–s–r–e–a–d–e–r–s–e–n–o–u–g–h–
+37 ght planes copie -> –g–h–t–p–l–a–n–e–s–c–o–p–i–e–
+38 acar plano juli -> –a–c–a–r–p–l–a–n–o–j–u–l–i–
+39 endance drugih unstable -> –e–n–d–a–n–c–e–d–r–u–g–i–h–u–n–s–t–a–b–l–e–
+40 owner wrestler peupl -> –o–w–n–e–r–w–r–e–s–t–l–e–r–p–e–u–p–l–
+41 oluc pensaba makers -> –o–l–u–c–p–e–n–s–a–b–a–m–a–k–e–r–s–
+42 ucker egiten parecia -> –u–c–k–e–r–e–g–i–t–e–n–p–a–r–e–c–i–a–
+43 ensic coloca applies -> –e–n–s–i–c–c–o–l–o–c–a–a–p–p–l–i–e–s–
+44 logging findet esf -> –l–o–g–g–i–n–g–f–i–n–d–e–t–e–s–f–
+45 erset mon langer -> –e–r–s–e–t–m–o–n–l–a–n–g–e–r–
+46 imir toca merger -> –i–m–i–r–t–o–c–a–m–e–r–g–e–r–
+47 alement letzten rules -> –a–l–e–m–e–n–t–l–e–t–z–t–e–n–r–u–l–e–s–
+48 unku gonna soda -> –u–n–k–u–g–o–n–n–a–s–o–d–a–
+49 attern landing customer -> –a–t–t–e–r–n–l–a–n–d–i–n–g–c–u–s–t–o–m–e–r–
+50 kar muita target -> –k–a–r–m–u–i–t–a–t–a–r–g–e–t–
+51 use yarat premio -> –u–s–e–y–a–r–a–t–p–r–e–m–i–o–
+52 quait prv borrow -> –q–u–a–i–t–p–r–v–b–o–r–r–o–w–
+53 apar commerc papel -> –a–p–a–r–c–o–m–m–e–r–c–p–a–p–e–l–
+54 chnung estad crypt -> –c–h–n–u–n–g–e–s–t–a–d–c–r–y–p–t–
+55 xit viaggio decades -> –x–i–t–v–i–a–g–g–i–o–d–e–c–a–d–e–s–
+56 usten exported chamb -> –u–s–t–e–n–e–x–p–o–r–t–e–d–c–h–a–m–b–
+57 cond declara gitar -> –c–o–n–d–d–e–c–l–a–r–a–g–i–t–a–r–
+58 cool able acknow -> –c–o–o–l–a–b–l–e–a–c–k–n–o–w–
+59 nty holid angry -> –n–t–y–h–o–l–i–d–a–n–g–r–y–
+60 umeur scanned intellig -> –u–m–e–u–r–s–c–a–n–n–e–d–i–n–t–e–l–l–i–g–
+61 nants journals eld -> –n–a–n–t–s–j–o–u–r–n–a–l–s–e–l–d–
+62 ibil faud caer -> –i–b–i–l–f–a–u–d–c–a–e–r–
+63 stones ports pueblos -> –s–t–o–n–e–s–p–o–r–t–s–p–u–e–b–l–o–s–
+64 osse increase vivos -> –o–s–s–e–i–n–c–r–e–a–s–e–v–i–v–o–s–
+65 oglob traball safegu -> –o–g–l–o–b–t–r–a–b–a–l–l–s–a–f–e–g–u–
+66 cular frame mail -> –c–u–l–a–r–f–r–a–m–e–m–a–i–l–
+67 emu modelos module -> –e–m–u–m–o–d–e–l–o–s–m–o–d–u–l–e–
+68 act diplom naast -> –a–c–t–d–i–p–l–o–m–n–a–a–s–t–
+69 ammlung rapides portail -> –a–m–m–l–u–n–g–r–a–p–i–d–e–s–p–o–r–t–a–i–l–
+70 lio phosph kunnen -> –l–i–o–p–h–o–s–p–h–k–u–n–n–e–n–
+71 flutter nation perdido -> –f–l–u–t–t–e–r–n–a–t–i–o–n–p–e–r–d–i–d–o–
+72 westen blev mesure -> –w–e–s–t–e–n–b–l–e–v–m–e–s–u–r–e–
+73 ouche weekend spod -> –o–u–c–h–e–w–e–e–k–e–n–d–s–p–o–d–
+74 idencia ofens co -> –i–d–e–n–c–i–a–o–f–e–n–s–c–o–
+75 also mente rebuilt -> –a–l–s–o–m–e–n–t–e–r–e–b–u–i–l–t–
+76 rov loy expos -> –r–o–v–l–o–y–e–x–p–o–s–
+77 jub cables lesen -> –j–u–b–c–a–b–l–e–s–l–e–s–e–n–
+78 osterone odnosno lange -> –o–s–t–e–r–o–n–e–o–d–n–o–s–n–o–l–a–n–g–e–
+79 vere ehem dejar -> –v–e–r–e–e–h–e–m–d–e–j–a–r–
+80 zus upright ced -> –z–u–s–u–p–r–i–g–h–t–c–e–d–
+81 opsis prise sred -> –o–p–s–i–s–p–r–i–s–e–s–r–e–d–
+82 lynn ums applying -> –l–y–n–n–u–m–s–a–p–p–l–y–i–n–g–
+83 oding commands kuk -> –o–d–i–n–g–c–o–m–m–a–n–d–s–k–u–k–
+84 zyst comien creek -> –z–y–s–t–c–o–m–i–e–n–c–r–e–e–k–
+85 ipart empower cei -> –i–p–a–r–t–e–m–p–o–w–e–r–c–e–i–
+86 uhkan francos contains -> –u–h–k–a–n–f–r–a–n–c–o–s–c–o–n–t–a–i–n–s–
+87 aired boa alfabet -> –a–i–r–e–d–b–o–a–a–l–f–a–b–e–t–
+88 stood bride poetry -> –s–t–o–o–d–b–r–i–d–e–p–o–e–t–r–y–
+89 setzung treg bons -> –s–e–t–z–u–n–g–t–r–e–g–b–o–n–s–
+90 vertret spezi vue -> –v–e–r–t–r–e–t–s–p–e–z–i–v–u–e–
+91 aney grund mellom -> –a–n–e–y–g–r–u–n–d–m–e–l–l–o–m–
+92 rovers exclu pasaj -> –r–o–v–e–r–s–e–x–c–l–u–p–a–s–a–j–
+93 simple pauvres embr -> –s–i–m–p–l–e–p–a–u–v–r–e–s–e–m–b–r–
+94 estad ural familles -> –e–s–t–a–d–u–r–a–l–f–a–m–i–l–l–e–s–
+95 oureux tenta decreto -> –o–u–r–e–u–x–t–e–n–t–a–d–e–c–r–e–t–o–
+96 roj subtil esan -> –r–o–j–s–u–b–t–i–l–e–s–a–n–
+97 crew pourquoi rink -> –c–r–e–w–p–o–u–r–q–u–o–i–r–i–n–k–
+98 analysis ehk trypsin -> –a–n–a–l–y–s–i–s–e–h–k–t–r–y–p–s–i–n–
+99 aml logs signing -> –a–m–l–l–o–g–s–s–i–g–n–i–n–g–

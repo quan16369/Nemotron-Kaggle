@@ -1,0 +1,28 @@
+problem id: 96115336
+category: cryptarithm_deduce
+
+symbol-to-digit mapping:
+  '!' = 1
+  '#' = 8
+  '&' = 4
+  '<' = 0
+  '>' = 5
+  '?' = 6
+  '@' = 2
+  '[' = 7
+  '^' = 9
+  '}' = 3
+
+operator-to-operation mapping:
+  '{' = mul
+  '|' = add
+
+examples:
+  >[{#^ = ><[}  =>  57 * 89 = 5073
+  }@{&@ = !}&&  =>  32 * 42 = 1344
+  &@|>^ = !<!  =>  42 + 59 = 101
+  @#|?! = #^  =>  28 + 61 = 89
+
+query: &@{><  =>  42 * 50 = 2100
+
+predicted answer: @!<<

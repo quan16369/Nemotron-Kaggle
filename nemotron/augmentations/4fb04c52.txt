@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 pieces ganzen suc
+01 prit sorties contempl
+02 ington truly casar
+
+This is a sample output.
+00 pieces ganzen suc -> –p–i–e–c–e–s–g–a–n–z–e–n–s–u–c–
+01 prit sorties contempl -> –p–r–i–t–s–o–r–t–i–e–s–c–o–n–t–e–m–p–l–
+02 ington truly casar -> –i–n–g–t–o–n–t–r–u–l–y–c–a–s–a–r–
+
+This is your input.
+00 ps devido regelm
+01 sce inglesa several
+02 gia sasto mice
+03 atif rasa machte
+04 compet ind binder
+05 erat lider mall
+06 zeigt verletzt advances
+07 sea bav deur
+08 aze bekannt agent
+09 ividual temel rimase
+10 ksiyon studie trakt
+11 let blended await
+12 omotor power alkalo
+13 ipot regarde revert
+14 esper ora miasta
+15 grad sortit fluxes
+16 atche hagy spez
+17 nr comenzar remarque
+18 mate hauts mala
+19 exec solubil valence
+20 achter precisa jobs
+21 aktion bardziej alkot
+22 tte dicha neurons
+23 ulants trek suku
+24 clesiast voxel looked
+25 ixement weary studi
+26 romycin vivent kuvvet
+27 ifer darf russe
+28 akin upcoming podium
+29 chia distanza cationic
+30 ilever abundant satis
+31 stop fortunes osn
+32 akten diffic barley
+33 ppard acuity zar
+34 questa strept juven
+35 ldots laying dish
+36 ummies sce bec
+37 ublish vendor checked
+38 ophilus mache lacked
+39 arlang dilated garantir
+40 rettet ottenuto dairy
+41 anden clara branches
+42 utnant raya bass
+43 esses rainy disseny
+44 states pros pittore
+45 este qua garder
+46 reams cintura jeta
+47 creen ocurr gabinete
+48 opausal wyra apart
+49 istro swapped diver
+50 istet reli like
+51 ophys kesel emper
+52 ignons teased cache
+53 buck styl moyens
+54 ylated kish immin
+55 abung tex vielf
+56 ball polym jeden
+57 riad short correo
+58 oul loudly remplace
+59 usu memil plaine
+60 issant esist escuch
+61 pmod motif img
+62 ghan eros verlor
+63 iking chac csapat
+64 asons adds nada
+65 amine ternary tijekom
+66 znac mulheres specify
+67 omento leisure screams
+68 usia norms nostal
+69 larger managed austral
+70 oses percorso horns
+71 amen mutants retrato
+72 ellulose ressembl blades
+73 webs defin smo
+74 nah frap decisive
+75 quisite formats concerts
+76 odie pretende dealer
+77 atera aspet unter
+78 bal stad ofte
+79 eps solos paj
+80 page calific artigos
+81 lywood unique centro
+82 epis connus harbour
+83 unnels infancia stampa
+84 cted fled artistic
+85 vez sant inland
+86 itan globally avons
+87 stritten irr immunity
+88 endido provide noted
+89 opters gjennom konkurs
+90 inka estaven stave
+91 healthy govern massacre
+92 apters modifies osserv
+93 pless produce eje
+94 uchar ameryka oni
+95 alien extranj stat
+96 etailed pistol couldn
+97 tono sofort ocupado
+98 zne mivel reduce
+99 unned waveform suburb
+[completion]
+00 ps devido regelm -> –p–s–d–e–v–i–d–o–r–e–g–e–l–m–
+01 sce inglesa several -> –s–c–e–i–n–g–l–e–s–a–s–e–v–e–r–a–l–
+02 gia sasto mice -> –g–i–a–s–a–s–t–o–m–i–c–e–
+03 atif rasa machte -> –a–t–i–f–r–a–s–a–m–a–c–h–t–e–
+04 compet ind binder -> –c–o–m–p–e–t–i–n–d–b–i–n–d–e–r–
+05 erat lider mall -> –e–r–a–t–l–i–d–e–r–m–a–l–l–
+06 zeigt verletzt advances -> –z–e–i–g–t–v–e–r–l–e–t–z–t–a–d–v–a–n–c–e–s–
+07 sea bav deur -> –s–e–a–b–a–v–d–e–u–r–
+08 aze bekannt agent -> –a–z–e–b–e–k–a–n–n–t–a–g–e–n–t–
+09 ividual temel rimase -> –i–v–i–d–u–a–l–t–e–m–e–l–r–i–m–a–s–e–
+10 ksiyon studie trakt -> –k–s–i–y–o–n–s–t–u–d–i–e–t–r–a–k–t–
+11 let blended await -> –l–e–t–b–l–e–n–d–e–d–a–w–a–i–t–
+12 omotor power alkalo -> –o–m–o–t–o–r–p–o–w–e–r–a–l–k–a–l–o–
+13 ipot regarde revert -> –i–p–o–t–r–e–g–a–r–d–e–r–e–v–e–r–t–
+14 esper ora miasta -> –e–s–p–e–r–o–r–a–m–i–a–s–t–a–
+15 grad sortit fluxes -> –g–r–a–d–s–o–r–t–i–t–f–l–u–x–e–s–
+16 atche hagy spez -> –a–t–c–h–e–h–a–g–y–s–p–e–z–
+17 nr comenzar remarque -> –n–r–c–o–m–e–n–z–a–r–r–e–m–a–r–q–u–e–
+18 mate hauts mala -> –m–a–t–e–h–a–u–t–s–m–a–l–a–
+19 exec solubil valence -> –e–x–e–c–s–o–l–u–b–i–l–v–a–l–e–n–c–e–
+20 achter precisa jobs -> –a–c–h–t–e–r–p–r–e–c–i–s–a–j–o–b–s–
+21 aktion bardziej alkot -> –a–k–t–i–o–n–b–a–r–d–z–i–e–j–a–l–k–o–t–
+22 tte dicha neurons -> –t–t–e–d–i–c–h–a–n–e–u–r–o–n–s–
+23 ulants trek suku -> –u–l–a–n–t–s–t–r–e–k–s–u–k–u–
+24 clesiast voxel looked -> –c–l–e–s–i–a–s–t–v–o–x–e–l–l–o–o–k–e–d–
+25 ixement weary studi -> –i–x–e–m–e–n–t–w–e–a–r–y–s–t–u–d–i–
+26 romycin vivent kuvvet -> –r–o–m–y–c–i–n–v–i–v–e–n–t–k–u–v–v–e–t–
+27 ifer darf russe -> –i–f–e–r–d–a–r–f–r–u–s–s–e–
+28 akin upcoming podium -> –a–k–i–n–u–p–c–o–m–i–n–g–p–o–d–i–u–m–
+29 chia distanza cationic -> –c–h–i–a–d–i–s–t–a–n–z–a–c–a–t–i–o–n–i–c–
+30 ilever abundant satis -> –i–l–e–v–e–r–a–b–u–n–d–a–n–t–s–a–t–i–s–
+31 stop fortunes osn -> –s–t–o–p–f–o–r–t–u–n–e–s–o–s–n–
+32 akten diffic barley -> –a–k–t–e–n–d–i–f–f–i–c–b–a–r–l–e–y–
+33 ppard acuity zar -> –p–p–a–r–d–a–c–u–i–t–y–z–a–r–
+34 questa strept juven -> –q–u–e–s–t–a–s–t–r–e–p–t–j–u–v–e–n–
+35 ldots laying dish -> –l–d–o–t–s–l–a–y–i–n–g–d–i–s–h–
+36 ummies sce bec -> –u–m–m–i–e–s–s–c–e–b–e–c–
+37 ublish vendor checked -> –u–b–l–i–s–h–v–e–n–d–o–r–c–h–e–c–k–e–d–
+38 ophilus mache lacked -> –o–p–h–i–l–u–s–m–a–c–h–e–l–a–c–k–e–d–
+39 arlang dilated garantir -> –a–r–l–a–n–g–d–i–l–a–t–e–d–g–a–r–a–n–t–i–r–
+40 rettet ottenuto dairy -> –r–e–t–t–e–t–o–t–t–e–n–u–t–o–d–a–i–r–y–
+41 anden clara branches -> –a–n–d–e–n–c–l–a–r–a–b–r–a–n–c–h–e–s–
+42 utnant raya bass -> –u–t–n–a–n–t–r–a–y–a–b–a–s–s–
+43 esses rainy disseny -> –e–s–s–e–s–r–a–i–n–y–d–i–s–s–e–n–y–
+44 states pros pittore -> –s–t–a–t–e–s–p–r–o–s–p–i–t–t–o–r–e–
+45 este qua garder -> –e–s–t–e–q–u–a–g–a–r–d–e–r–
+46 reams cintura jeta -> –r–e–a–m–s–c–i–n–t–u–r–a–j–e–t–a–
+47 creen ocurr gabinete -> –c–r–e–e–n–o–c–u–r–r–g–a–b–i–n–e–t–e–
+48 opausal wyra apart -> –o–p–a–u–s–a–l–w–y–r–a–a–p–a–r–t–
+49 istro swapped diver -> –i–s–t–r–o–s–w–a–p–p–e–d–d–i–v–e–r–
+50 istet reli like -> –i–s–t–e–t–r–e–l–i–l–i–k–e–
+51 ophys kesel emper -> –o–p–h–y–s–k–e–s–e–l–e–m–p–e–r–
+52 ignons teased cache -> –i–g–n–o–n–s–t–e–a–s–e–d–c–a–c–h–e–
+53 buck styl moyens -> –b–u–c–k–s–t–y–l–m–o–y–e–n–s–
+54 ylated kish immin -> –y–l–a–t–e–d–k–i–s–h–i–m–m–i–n–
+55 abung tex vielf -> –a–b–u–n–g–t–e–x–v–i–e–l–f–
+56 ball polym jeden -> –b–a–l–l–p–o–l–y–m–j–e–d–e–n–
+57 riad short correo -> –r–i–a–d–s–h–o–r–t–c–o–r–r–e–o–
+58 oul loudly remplace -> –o–u–l–l–o–u–d–l–y–r–e–m–p–l–a–c–e–
+59 usu memil plaine -> –u–s–u–m–e–m–i–l–p–l–a–i–n–e–
+60 issant esist escuch -> –i–s–s–a–n–t–e–s–i–s–t–e–s–c–u–c–h–
+61 pmod motif img -> –p–m–o–d–m–o–t–i–f–i–m–g–
+62 ghan eros verlor -> –g–h–a–n–e–r–o–s–v–e–r–l–o–r–
+63 iking chac csapat -> –i–k–i–n–g–c–h–a–c–c–s–a–p–a–t–
+64 asons adds nada -> –a–s–o–n–s–a–d–d–s–n–a–d–a–
+65 amine ternary tijekom -> –a–m–i–n–e–t–e–r–n–a–r–y–t–i–j–e–k–o–m–
+66 znac mulheres specify -> –z–n–a–c–m–u–l–h–e–r–e–s–s–p–e–c–i–f–y–
+67 omento leisure screams -> –o–m–e–n–t–o–l–e–i–s–u–r–e–s–c–r–e–a–m–s–
+68 usia norms nostal -> –u–s–i–a–n–o–r–m–s–n–o–s–t–a–l–
+69 larger managed austral -> –l–a–r–g–e–r–m–a–n–a–g–e–d–a–u–s–t–r–a–l–
+70 oses percorso horns -> –o–s–e–s–p–e–r–c–o–r–s–o–h–o–r–n–s–
+71 amen mutants retrato -> –a–m–e–n–m–u–t–a–n–t–s–r–e–t–r–a–t–o–
+72 ellulose ressembl blades -> –e–l–l–u–l–o–s–e–r–e–s–s–e–m–b–l–b–l–a–d–e–s–
+73 webs defin smo -> –w–e–b–s–d–e–f–i–n–s–m–o–
+74 nah frap decisive -> –n–a–h–f–r–a–p–d–e–c–i–s–i–v–e–
+75 quisite formats concerts -> –q–u–i–s–i–t–e–f–o–r–m–a–t–s–c–o–n–c–e–r–t–s–
+76 odie pretende dealer -> –o–d–i–e–p–r–e–t–e–n–d–e–d–e–a–l–e–r–
+77 atera aspet unter -> –a–t–e–r–a–a–s–p–e–t–u–n–t–e–r–
+78 bal stad ofte -> –b–a–l–s–t–a–d–o–f–t–e–
+79 eps solos paj -> –e–p–s–s–o–l–o–s–p–a–j–
+80 page calific artigos -> –p–a–g–e–c–a–l–i–f–i–c–a–r–t–i–g–o–s–
+81 lywood unique centro -> –l–y–w–o–o–d–u–n–i–q–u–e–c–e–n–t–r–o–
+82 epis connus harbour -> –e–p–i–s–c–o–n–n–u–s–h–a–r–b–o–u–r–
+83 unnels infancia stampa -> –u–n–n–e–l–s–i–n–f–a–n–c–i–a–s–t–a–m–p–a–
+84 cted fled artistic -> –c–t–e–d–f–l–e–d–a–r–t–i–s–t–i–c–
+85 vez sant inland -> –v–e–z–s–a–n–t–i–n–l–a–n–d–
+86 itan globally avons -> –i–t–a–n–g–l–o–b–a–l–l–y–a–v–o–n–s–
+87 stritten irr immunity -> –s–t–r–i–t–t–e–n–i–r–r–i–m–m–u–n–i–t–y–
+88 endido provide noted -> –e–n–d–i–d–o–p–r–o–v–i–d–e–n–o–t–e–d–
+89 opters gjennom konkurs -> –o–p–t–e–r–s–g–j–e–n–n–o–m–k–o–n–k–u–r–s–
+90 inka estaven stave -> –i–n–k–a–e–s–t–a–v–e–n–s–t–a–v–e–
+91 healthy govern massacre -> –h–e–a–l–t–h–y–g–o–v–e–r–n–m–a–s–s–a–c–r–e–
+92 apters modifies osserv -> –a–p–t–e–r–s–m–o–d–i–f–i–e–s–o–s–s–e–r–v–
+93 pless produce eje -> –p–l–e–s–s–p–r–o–d–u–c–e–e–j–e–
+94 uchar ameryka oni -> –u–c–h–a–r–a–m–e–r–y–k–a–o–n–i–
+95 alien extranj stat -> –a–l–i–e–n–e–x–t–r–a–n–j–s–t–a–t–
+96 etailed pistol couldn -> –e–t–a–i–l–e–d–p–i–s–t–o–l–c–o–u–l–d–n–
+97 tono sofort ocupado -> –t–o–n–o–s–o–f–o–r–t–o–c–u–p–a–d–o–
+98 zne mivel reduce -> –z–n–e–m–i–v–e–l–r–e–d–u–c–e–
+99 unned waveform suburb -> –u–n–n–e–d–w–a–v–e–f–o–r–m–s–u–b–u–r–b–

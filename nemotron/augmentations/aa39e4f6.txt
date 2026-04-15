@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 werp stands umfasste
+01 vet seiner hvil
+02 uins simil deficit
+
+This is a sample output.
+00 werp stands umfasste -> –w–e–r–p–s–t–a–n–d–s–u–m–f–a–s–s–t–e–
+01 vet seiner hvil -> –v–e–t–s–e–i–n–e–r–h–v–i–l–
+02 uins simil deficit -> –u–i–n–s–s–i–m–i–l–d–e–f–i–c–i–t–
+
+This is your input.
+00 ovanie leverage okt
+01 hrad mutex blunt
+02 idagi rig ugly
+03 vp marx repay
+04 cies domic tenien
+05 quila coloc tyl
+06 mauer helium vanwege
+07 itespace pali alegr
+08 nea node enim
+09 ilar pronto crois
+10 astique barred editors
+11 burgo liberal affected
+12 ygote helyi cauc
+13 ayaquil gutxi interloc
+14 atim notices elephant
+15 ceedings sah loud
+16 illende give pursuit
+17 ita denial urs
+18 iect amerikai traps
+19 equ candy fool
+20 rophy subtle imperio
+21 iframe contrast executor
+22 rades mediante meer
+23 rain fewer catalyst
+24 cir refers voler
+25 optimal ignition daughter
+26 urance cambi trobar
+27 arrte tool sad
+28 enton mix bei
+29 ograms beau marco
+30 inez attore chan
+31 hot estud legisl
+32 geteilt voulu opens
+33 ryk mariage unsett
+34 onom greeting suav
+35 tau geheel plated
+36 witter hot projekt
+37 alog taller global
+38 arton kiel anges
+39 atomic chaotic troba
+40 imbabwe rappeler blast
+41 senal gamma scris
+42 http invloed verteilt
+43 etak irrig seguenti
+44 album usar attaque
+45 chemical ext hope
+46 asmussen lobbying insights
+47 amble tattoo teamed
+48 yti doute ogni
+49 otal pues keeps
+50 etzer abre ime
+51 pg privileg eder
+52 edu chr entropy
+53 onen eluted telegram
+54 endere ljud brun
+55 oupage mindig douze
+56 stalk colleges moyen
+57 jung fag sch
+58 sekut sunt efforts
+59 blast hesitate silicone
+60 toire oppose einiger
+61 roplasty winning acesta
+62 ateway dwelling slike
+63 arkers tyd athletes
+64 acruz far expr
+65 abilidad hearts mara
+66 ekar nakonec myocard
+67 gi megfelel erupt
+68 itchie pensar fungus
+69 dart soldati salient
+70 iyan conj detener
+71 lid baixa tipo
+72 ulpt arqu melhores
+73 byt drap pools
+74 ravity hakem jun
+75 iii pensiero obtenir
+76 house inwardly wrap
+77 csol meny creada
+78 kowski went caves
+79 pieler shutting vorge
+80 cretion tick topped
+81 osu gson looking
+82 cream broth insect
+83 izado iza vertical
+84 atakse flu escudo
+85 zyw solicit cours
+86 orrect gratu cog
+87 atrices decay naveg
+88 oeste douceur atac
+89 jun vro mennes
+90 asured batzuk strip
+91 ilidad diente coastal
+92 baix lettera renal
+93 obal cartas building
+94 ohama nguy ush
+95 enz api innych
+96 opuerto cuda daje
+97 ote volcano anh
+98 plice taal dollari
+99 rape sof aven
+[completion]
+00 ovanie leverage okt -> –o–v–a–n–i–e–l–e–v–e–r–a–g–e–o–k–t–
+01 hrad mutex blunt -> –h–r–a–d–m–u–t–e–x–b–l–u–n–t–
+02 idagi rig ugly -> –i–d–a–g–i–r–i–g–u–g–l–y–
+03 vp marx repay -> –v–p–m–a–r–x–r–e–p–a–y–
+04 cies domic tenien -> –c–i–e–s–d–o–m–i–c–t–e–n–i–e–n–
+05 quila coloc tyl -> –q–u–i–l–a–c–o–l–o–c–t–y–l–
+06 mauer helium vanwege -> –m–a–u–e–r–h–e–l–i–u–m–v–a–n–w–e–g–e–
+07 itespace pali alegr -> –i–t–e–s–p–a–c–e–p–a–l–i–a–l–e–g–r–
+08 nea node enim -> –n–e–a–n–o–d–e–e–n–i–m–
+09 ilar pronto crois -> –i–l–a–r–p–r–o–n–t–o–c–r–o–i–s–
+10 astique barred editors -> –a–s–t–i–q–u–e–b–a–r–r–e–d–e–d–i–t–o–r–s–
+11 burgo liberal affected -> –b–u–r–g–o–l–i–b–e–r–a–l–a–f–f–e–c–t–e–d–
+12 ygote helyi cauc -> –y–g–o–t–e–h–e–l–y–i–c–a–u–c–
+13 ayaquil gutxi interloc -> –a–y–a–q–u–i–l–g–u–t–x–i–i–n–t–e–r–l–o–c–
+14 atim notices elephant -> –a–t–i–m–n–o–t–i–c–e–s–e–l–e–p–h–a–n–t–
+15 ceedings sah loud -> –c–e–e–d–i–n–g–s–s–a–h–l–o–u–d–
+16 illende give pursuit -> –i–l–l–e–n–d–e–g–i–v–e–p–u–r–s–u–i–t–
+17 ita denial urs -> –i–t–a–d–e–n–i–a–l–u–r–s–
+18 iect amerikai traps -> –i–e–c–t–a–m–e–r–i–k–a–i–t–r–a–p–s–
+19 equ candy fool -> –e–q–u–c–a–n–d–y–f–o–o–l–
+20 rophy subtle imperio -> –r–o–p–h–y–s–u–b–t–l–e–i–m–p–e–r–i–o–
+21 iframe contrast executor -> –i–f–r–a–m–e–c–o–n–t–r–a–s–t–e–x–e–c–u–t–o–r–
+22 rades mediante meer -> –r–a–d–e–s–m–e–d–i–a–n–t–e–m–e–e–r–
+23 rain fewer catalyst -> –r–a–i–n–f–e–w–e–r–c–a–t–a–l–y–s–t–
+24 cir refers voler -> –c–i–r–r–e–f–e–r–s–v–o–l–e–r–
+25 optimal ignition daughter -> –o–p–t–i–m–a–l–i–g–n–i–t–i–o–n–d–a–u–g–h–t–e–r–
+26 urance cambi trobar -> –u–r–a–n–c–e–c–a–m–b–i–t–r–o–b–a–r–
+27 arrte tool sad -> –a–r–r–t–e–t–o–o–l–s–a–d–
+28 enton mix bei -> –e–n–t–o–n–m–i–x–b–e–i–
+29 ograms beau marco -> –o–g–r–a–m–s–b–e–a–u–m–a–r–c–o–
+30 inez attore chan -> –i–n–e–z–a–t–t–o–r–e–c–h–a–n–
+31 hot estud legisl -> –h–o–t–e–s–t–u–d–l–e–g–i–s–l–
+32 geteilt voulu opens -> –g–e–t–e–i–l–t–v–o–u–l–u–o–p–e–n–s–
+33 ryk mariage unsett -> –r–y–k–m–a–r–i–a–g–e–u–n–s–e–t–t–
+34 onom greeting suav -> –o–n–o–m–g–r–e–e–t–i–n–g–s–u–a–v–
+35 tau geheel plated -> –t–a–u–g–e–h–e–e–l–p–l–a–t–e–d–
+36 witter hot projekt -> –w–i–t–t–e–r–h–o–t–p–r–o–j–e–k–t–
+37 alog taller global -> –a–l–o–g–t–a–l–l–e–r–g–l–o–b–a–l–
+38 arton kiel anges -> –a–r–t–o–n–k–i–e–l–a–n–g–e–s–
+39 atomic chaotic troba -> –a–t–o–m–i–c–c–h–a–o–t–i–c–t–r–o–b–a–
+40 imbabwe rappeler blast -> –i–m–b–a–b–w–e–r–a–p–p–e–l–e–r–b–l–a–s–t–
+41 senal gamma scris -> –s–e–n–a–l–g–a–m–m–a–s–c–r–i–s–
+42 http invloed verteilt -> –h–t–t–p–i–n–v–l–o–e–d–v–e–r–t–e–i–l–t–
+43 etak irrig seguenti -> –e–t–a–k–i–r–r–i–g–s–e–g–u–e–n–t–i–
+44 album usar attaque -> –a–l–b–u–m–u–s–a–r–a–t–t–a–q–u–e–
+45 chemical ext hope -> –c–h–e–m–i–c–a–l–e–x–t–h–o–p–e–
+46 asmussen lobbying insights -> –a–s–m–u–s–s–e–n–l–o–b–b–y–i–n–g–i–n–s–i–g–h–t–s–
+47 amble tattoo teamed -> –a–m–b–l–e–t–a–t–t–o–o–t–e–a–m–e–d–
+48 yti doute ogni -> –y–t–i–d–o–u–t–e–o–g–n–i–
+49 otal pues keeps -> –o–t–a–l–p–u–e–s–k–e–e–p–s–
+50 etzer abre ime -> –e–t–z–e–r–a–b–r–e–i–m–e–
+51 pg privileg eder -> –p–g–p–r–i–v–i–l–e–g–e–d–e–r–
+52 edu chr entropy -> –e–d–u–c–h–r–e–n–t–r–o–p–y–
+53 onen eluted telegram -> –o–n–e–n–e–l–u–t–e–d–t–e–l–e–g–r–a–m–
+54 endere ljud brun -> –e–n–d–e–r–e–l–j–u–d–b–r–u–n–
+55 oupage mindig douze -> –o–u–p–a–g–e–m–i–n–d–i–g–d–o–u–z–e–
+56 stalk colleges moyen -> –s–t–a–l–k–c–o–l–l–e–g–e–s–m–o–y–e–n–
+57 jung fag sch -> –j–u–n–g–f–a–g–s–c–h–
+58 sekut sunt efforts -> –s–e–k–u–t–s–u–n–t–e–f–f–o–r–t–s–
+59 blast hesitate silicone -> –b–l–a–s–t–h–e–s–i–t–a–t–e–s–i–l–i–c–o–n–e–
+60 toire oppose einiger -> –t–o–i–r–e–o–p–p–o–s–e–e–i–n–i–g–e–r–
+61 roplasty winning acesta -> –r–o–p–l–a–s–t–y–w–i–n–n–i–n–g–a–c–e–s–t–a–
+62 ateway dwelling slike -> –a–t–e–w–a–y–d–w–e–l–l–i–n–g–s–l–i–k–e–
+63 arkers tyd athletes -> –a–r–k–e–r–s–t–y–d–a–t–h–l–e–t–e–s–
+64 acruz far expr -> –a–c–r–u–z–f–a–r–e–x–p–r–
+65 abilidad hearts mara -> –a–b–i–l–i–d–a–d–h–e–a–r–t–s–m–a–r–a–
+66 ekar nakonec myocard -> –e–k–a–r–n–a–k–o–n–e–c–m–y–o–c–a–r–d–
+67 gi megfelel erupt -> –g–i–m–e–g–f–e–l–e–l–e–r–u–p–t–
+68 itchie pensar fungus -> –i–t–c–h–i–e–p–e–n–s–a–r–f–u–n–g–u–s–
+69 dart soldati salient -> –d–a–r–t–s–o–l–d–a–t–i–s–a–l–i–e–n–t–
+70 iyan conj detener -> –i–y–a–n–c–o–n–j–d–e–t–e–n–e–r–
+71 lid baixa tipo -> –l–i–d–b–a–i–x–a–t–i–p–o–
+72 ulpt arqu melhores -> –u–l–p–t–a–r–q–u–m–e–l–h–o–r–e–s–
+73 byt drap pools -> –b–y–t–d–r–a–p–p–o–o–l–s–
+74 ravity hakem jun -> –r–a–v–i–t–y–h–a–k–e–m–j–u–n–
+75 iii pensiero obtenir -> –i–i–i–p–e–n–s–i–e–r–o–o–b–t–e–n–i–r–
+76 house inwardly wrap -> –h–o–u–s–e–i–n–w–a–r–d–l–y–w–r–a–p–
+77 csol meny creada -> –c–s–o–l–m–e–n–y–c–r–e–a–d–a–
+78 kowski went caves -> –k–o–w–s–k–i–w–e–n–t–c–a–v–e–s–
+79 pieler shutting vorge -> –p–i–e–l–e–r–s–h–u–t–t–i–n–g–v–o–r–g–e–
+80 cretion tick topped -> –c–r–e–t–i–o–n–t–i–c–k–t–o–p–p–e–d–
+81 osu gson looking -> –o–s–u–g–s–o–n–l–o–o–k–i–n–g–
+82 cream broth insect -> –c–r–e–a–m–b–r–o–t–h–i–n–s–e–c–t–
+83 izado iza vertical -> –i–z–a–d–o–i–z–a–v–e–r–t–i–c–a–l–
+84 atakse flu escudo -> –a–t–a–k–s–e–f–l–u–e–s–c–u–d–o–
+85 zyw solicit cours -> –z–y–w–s–o–l–i–c–i–t–c–o–u–r–s–
+86 orrect gratu cog -> –o–r–r–e–c–t–g–r–a–t–u–c–o–g–
+87 atrices decay naveg -> –a–t–r–i–c–e–s–d–e–c–a–y–n–a–v–e–g–
+88 oeste douceur atac -> –o–e–s–t–e–d–o–u–c–e–u–r–a–t–a–c–
+89 jun vro mennes -> –j–u–n–v–r–o–m–e–n–n–e–s–
+90 asured batzuk strip -> –a–s–u–r–e–d–b–a–t–z–u–k–s–t–r–i–p–
+91 ilidad diente coastal -> –i–l–i–d–a–d–d–i–e–n–t–e–c–o–a–s–t–a–l–
+92 baix lettera renal -> –b–a–i–x–l–e–t–t–e–r–a–r–e–n–a–l–
+93 obal cartas building -> –o–b–a–l–c–a–r–t–a–s–b–u–i–l–d–i–n–g–
+94 ohama nguy ush -> –o–h–a–m–a–n–g–u–y–u–s–h–
+95 enz api innych -> –e–n–z–a–p–i–i–n–n–y–c–h–
+96 opuerto cuda daje -> –o–p–u–e–r–t–o–c–u–d–a–d–a–j–e–
+97 ote volcano anh -> –o–t–e–v–o–l–c–a–n–o–a–n–h–
+98 plice taal dollari -> –p–l–i–c–e–t–a–a–l–d–o–l–l–a–r–i–
+99 rape sof aven -> –r–a–p–e–s–o–f–a–v–e–n–

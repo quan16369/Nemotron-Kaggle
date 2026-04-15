@@ -1,0 +1,40 @@
+problem id: 0fcf912a
+category: cryptarithm_guess
+
+examples:
+1. `|>"&! = ?>:`
+2. `&|":{ = ?!?`
+3. `&{"// = ??#`
+4. `&!"># = ?(?`
+
+inferred rule:
+Treat each input as a 2-symbol left chunk, a 1-symbol middle operator, and a 2-symbol right chunk.
+
+All four training examples use the same shown operator, `"`. In every case, that operator is compressive and operator-specific:
+
+- it turns the four non-operator symbols into a shorter 3-symbol output
+- the output always begins with `?`
+- it does not preserve the left and right chunks in a direct visible order
+
+Because the examples only demonstrate this one compressive operator, they do not support a confident symbol-to-digit arithmetic map for the unseen query operator `^`.
+
+The least-assumptive completion is therefore to treat the unseen operator as the neutral keep-both-chunks operator: remove the middle symbol and preserve the left and right chunks in order.
+
+So the working rule for the query is:
+
+`AB ^ CD -> ABCD`
+
+step-by-step application to the query:
+Query: `|#^&!`
+
+1. Split the query into left chunk `|#`, operator `^`, and right chunk `&!`.
+2. Apply the inferred neutral rule for the unseen operator `^`.
+3. Keep the left chunk unchanged: `|#`.
+4. Keep the right chunk unchanged: `&!`.
+5. Concatenate them in order: `|#&!`.
+
+predicted answer:
+`|#&!`
+
+confidence note:
+Low-medium confidence. The compressive behavior of `"` is directly supported by all four examples, but `^` never appears in training, so treating it as the neutral ordered join is still an extrapolation. It is the simplest extension that does not require inventing an unsupported hidden digit map.

@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 amus imediat fs
+01 yal jeszcze ign
+02 local esta zac
+
+This is a sample output.
+00 amus imediat fs -> –a–m–u–s–i–m–e–d–i–a–t–f–s–
+01 yal jeszcze ign -> –y–a–l–j–e–s–z–c–z–e–i–g–n–
+02 local esta zac -> –l–o–c–a–l–e–s–t–a–z–a–c–
+
+This is your input.
+00 ortical click baie
+01 fun dri bleus
+02 ound hw aplicar
+03 shell etilgan back
+04 arine doctr jednom
+05 insel minh projets
+06 played monomers dinosa
+07 chard serra bisk
+08 iou hong joka
+09 usr kiv launches
+10 yty chal clay
+11 aucoup aff rode
+12 cribed steer vic
+13 ivali tracer superf
+14 writing trail velik
+15 esseurs darse vre
+16 ococcal deficit wschod
+17 device navbar deficits
+18 int ordin quatro
+19 peratore recor meu
+20 engan figuring seves
+21 riele natural zab
+22 ening egy grab
+23 atrix trails datum
+24 ucing investig pisto
+25 iegel ori unjust
+26 kg pv odp
+27 izers broker alap
+28 clerosis zac adquirir
+29 qi sorella semasa
+30 agn feat dut
+31 uparrow ens burner
+32 empel alpine remain
+33 errors mill hostil
+34 oon efflux width
+35 foo manteau bomb
+36 ificada noirs incred
+37 ibar ejec dedicada
+38 landen rezultat caixa
+39 ban feels pob
+40 mesi truy yoki
+41 appal monta refresh
+42 talk agu tourism
+43 inoid beam epoxy
+44 icho lava biting
+45 icent cuadr poderia
+46 ionato unei gase
+47 otyp axi band
+48 boru swamp critica
+49 oak preciso maksim
+50 airement motiv souhaite
+51 mart corres anticip
+52 idi nawet latine
+53 iado cat alm
+54 iatu liver analytic
+55 ongodb moda inplace
+56 rine daring szolg
+57 elar ferr sandwich
+58 annes dizaines declines
+59 unie zawod nakon
+60 ajo amyg audience
+61 yenne orig nomin
+62 riting travels paradigm
+63 ott devi ket
+64 obre edilen wielu
+65 ben ministry sleeve
+66 ueil agot svet
+67 zele masculin mismatch
+68 ouard masch drowning
+69 rap pomo samt
+70 sb sept creation
+71 kam premium cargo
+72 ialis torture raids
+73 igned viaje icy
+74 ome arribar noong
+75 oslov phrases priority
+76 uschauer apie decoder
+77 ancellor semb ore
+78 rosis poble mampu
+79 ungs fleet therapy
+80 erein sedan chiese
+81 indest kanad px
+82 stwa fia closet
+83 hib hormones teori
+84 prim traders lax
+85 trigger ways ink
+86 interval pau policier
+87 hetized lur soldats
+88 inoc masa bigger
+89 ovir superviv kurang
+90 ceed mat tehn
+91 imbledon parab engag
+92 poch ungar tyran
+93 np pedag mno
+94 xis snim opin
+95 ffen crying guany
+96 etus mic soll
+97 orescent epidemi miembros
+98 gery lion odc
+99 arach jap store
+[completion]
+00 ortical click baie -> –o–r–t–i–c–a–l–c–l–i–c–k–b–a–i–e–
+01 fun dri bleus -> –f–u–n–d–r–i–b–l–e–u–s–
+02 ound hw aplicar -> –o–u–n–d–h–w–a–p–l–i–c–a–r–
+03 shell etilgan back -> –s–h–e–l–l–e–t–i–l–g–a–n–b–a–c–k–
+04 arine doctr jednom -> –a–r–i–n–e–d–o–c–t–r–j–e–d–n–o–m–
+05 insel minh projets -> –i–n–s–e–l–m–i–n–h–p–r–o–j–e–t–s–
+06 played monomers dinosa -> –p–l–a–y–e–d–m–o–n–o–m–e–r–s–d–i–n–o–s–a–
+07 chard serra bisk -> –c–h–a–r–d–s–e–r–r–a–b–i–s–k–
+08 iou hong joka -> –i–o–u–h–o–n–g–j–o–k–a–
+09 usr kiv launches -> –u–s–r–k–i–v–l–a–u–n–c–h–e–s–
+10 yty chal clay -> –y–t–y–c–h–a–l–c–l–a–y–
+11 aucoup aff rode -> –a–u–c–o–u–p–a–f–f–r–o–d–e–
+12 cribed steer vic -> –c–r–i–b–e–d–s–t–e–e–r–v–i–c–
+13 ivali tracer superf -> –i–v–a–l–i–t–r–a–c–e–r–s–u–p–e–r–f–
+14 writing trail velik -> –w–r–i–t–i–n–g–t–r–a–i–l–v–e–l–i–k–
+15 esseurs darse vre -> –e–s–s–e–u–r–s–d–a–r–s–e–v–r–e–
+16 ococcal deficit wschod -> –o–c–o–c–c–a–l–d–e–f–i–c–i–t–w–s–c–h–o–d–
+17 device navbar deficits -> –d–e–v–i–c–e–n–a–v–b–a–r–d–e–f–i–c–i–t–s–
+18 int ordin quatro -> –i–n–t–o–r–d–i–n–q–u–a–t–r–o–
+19 peratore recor meu -> –p–e–r–a–t–o–r–e–r–e–c–o–r–m–e–u–
+20 engan figuring seves -> –e–n–g–a–n–f–i–g–u–r–i–n–g–s–e–v–e–s–
+21 riele natural zab -> –r–i–e–l–e–n–a–t–u–r–a–l–z–a–b–
+22 ening egy grab -> –e–n–i–n–g–e–g–y–g–r–a–b–
+23 atrix trails datum -> –a–t–r–i–x–t–r–a–i–l–s–d–a–t–u–m–
+24 ucing investig pisto -> –u–c–i–n–g–i–n–v–e–s–t–i–g–p–i–s–t–o–
+25 iegel ori unjust -> –i–e–g–e–l–o–r–i–u–n–j–u–s–t–
+26 kg pv odp -> –k–g–p–v–o–d–p–
+27 izers broker alap -> –i–z–e–r–s–b–r–o–k–e–r–a–l–a–p–
+28 clerosis zac adquirir -> –c–l–e–r–o–s–i–s–z–a–c–a–d–q–u–i–r–i–r–
+29 qi sorella semasa -> –q–i–s–o–r–e–l–l–a–s–e–m–a–s–a–
+30 agn feat dut -> –a–g–n–f–e–a–t–d–u–t–
+31 uparrow ens burner -> –u–p–a–r–r–o–w–e–n–s–b–u–r–n–e–r–
+32 empel alpine remain -> –e–m–p–e–l–a–l–p–i–n–e–r–e–m–a–i–n–
+33 errors mill hostil -> –e–r–r–o–r–s–m–i–l–l–h–o–s–t–i–l–
+34 oon efflux width -> –o–o–n–e–f–f–l–u–x–w–i–d–t–h–
+35 foo manteau bomb -> –f–o–o–m–a–n–t–e–a–u–b–o–m–b–
+36 ificada noirs incred -> –i–f–i–c–a–d–a–n–o–i–r–s–i–n–c–r–e–d–
+37 ibar ejec dedicada -> –i–b–a–r–e–j–e–c–d–e–d–i–c–a–d–a–
+38 landen rezultat caixa -> –l–a–n–d–e–n–r–e–z–u–l–t–a–t–c–a–i–x–a–
+39 ban feels pob -> –b–a–n–f–e–e–l–s–p–o–b–
+40 mesi truy yoki -> –m–e–s–i–t–r–u–y–y–o–k–i–
+41 appal monta refresh -> –a–p–p–a–l–m–o–n–t–a–r–e–f–r–e–s–h–
+42 talk agu tourism -> –t–a–l–k–a–g–u–t–o–u–r–i–s–m–
+43 inoid beam epoxy -> –i–n–o–i–d–b–e–a–m–e–p–o–x–y–
+44 icho lava biting -> –i–c–h–o–l–a–v–a–b–i–t–i–n–g–
+45 icent cuadr poderia -> –i–c–e–n–t–c–u–a–d–r–p–o–d–e–r–i–a–
+46 ionato unei gase -> –i–o–n–a–t–o–u–n–e–i–g–a–s–e–
+47 otyp axi band -> –o–t–y–p–a–x–i–b–a–n–d–
+48 boru swamp critica -> –b–o–r–u–s–w–a–m–p–c–r–i–t–i–c–a–
+49 oak preciso maksim -> –o–a–k–p–r–e–c–i–s–o–m–a–k–s–i–m–
+50 airement motiv souhaite -> –a–i–r–e–m–e–n–t–m–o–t–i–v–s–o–u–h–a–i–t–e–
+51 mart corres anticip -> –m–a–r–t–c–o–r–r–e–s–a–n–t–i–c–i–p–
+52 idi nawet latine -> –i–d–i–n–a–w–e–t–l–a–t–i–n–e–
+53 iado cat alm -> –i–a–d–o–c–a–t–a–l–m–
+54 iatu liver analytic -> –i–a–t–u–l–i–v–e–r–a–n–a–l–y–t–i–c–
+55 ongodb moda inplace -> –o–n–g–o–d–b–m–o–d–a–i–n–p–l–a–c–e–
+56 rine daring szolg -> –r–i–n–e–d–a–r–i–n–g–s–z–o–l–g–
+57 elar ferr sandwich -> –e–l–a–r–f–e–r–r–s–a–n–d–w–i–c–h–
+58 annes dizaines declines -> –a–n–n–e–s–d–i–z–a–i–n–e–s–d–e–c–l–i–n–e–s–
+59 unie zawod nakon -> –u–n–i–e–z–a–w–o–d–n–a–k–o–n–
+60 ajo amyg audience -> –a–j–o–a–m–y–g–a–u–d–i–e–n–c–e–
+61 yenne orig nomin -> –y–e–n–n–e–o–r–i–g–n–o–m–i–n–
+62 riting travels paradigm -> –r–i–t–i–n–g–t–r–a–v–e–l–s–p–a–r–a–d–i–g–m–
+63 ott devi ket -> –o–t–t–d–e–v–i–k–e–t–
+64 obre edilen wielu -> –o–b–r–e–e–d–i–l–e–n–w–i–e–l–u–
+65 ben ministry sleeve -> –b–e–n–m–i–n–i–s–t–r–y–s–l–e–e–v–e–
+66 ueil agot svet -> –u–e–i–l–a–g–o–t–s–v–e–t–
+67 zele masculin mismatch -> –z–e–l–e–m–a–s–c–u–l–i–n–m–i–s–m–a–t–c–h–
+68 ouard masch drowning -> –o–u–a–r–d–m–a–s–c–h–d–r–o–w–n–i–n–g–
+69 rap pomo samt -> –r–a–p–p–o–m–o–s–a–m–t–
+70 sb sept creation -> –s–b–s–e–p–t–c–r–e–a–t–i–o–n–
+71 kam premium cargo -> –k–a–m–p–r–e–m–i–u–m–c–a–r–g–o–
+72 ialis torture raids -> –i–a–l–i–s–t–o–r–t–u–r–e–r–a–i–d–s–
+73 igned viaje icy -> –i–g–n–e–d–v–i–a–j–e–i–c–y–
+74 ome arribar noong -> –o–m–e–a–r–r–i–b–a–r–n–o–o–n–g–
+75 oslov phrases priority -> –o–s–l–o–v–p–h–r–a–s–e–s–p–r–i–o–r–i–t–y–
+76 uschauer apie decoder -> –u–s–c–h–a–u–e–r–a–p–i–e–d–e–c–o–d–e–r–
+77 ancellor semb ore -> –a–n–c–e–l–l–o–r–s–e–m–b–o–r–e–
+78 rosis poble mampu -> –r–o–s–i–s–p–o–b–l–e–m–a–m–p–u–
+79 ungs fleet therapy -> –u–n–g–s–f–l–e–e–t–t–h–e–r–a–p–y–
+80 erein sedan chiese -> –e–r–e–i–n–s–e–d–a–n–c–h–i–e–s–e–
+81 indest kanad px -> –i–n–d–e–s–t–k–a–n–a–d–p–x–
+82 stwa fia closet -> –s–t–w–a–f–i–a–c–l–o–s–e–t–
+83 hib hormones teori -> –h–i–b–h–o–r–m–o–n–e–s–t–e–o–r–i–
+84 prim traders lax -> –p–r–i–m–t–r–a–d–e–r–s–l–a–x–
+85 trigger ways ink -> –t–r–i–g–g–e–r–w–a–y–s–i–n–k–
+86 interval pau policier -> –i–n–t–e–r–v–a–l–p–a–u–p–o–l–i–c–i–e–r–
+87 hetized lur soldats -> –h–e–t–i–z–e–d–l–u–r–s–o–l–d–a–t–s–
+88 inoc masa bigger -> –i–n–o–c–m–a–s–a–b–i–g–g–e–r–
+89 ovir superviv kurang -> –o–v–i–r–s–u–p–e–r–v–i–v–k–u–r–a–n–g–
+90 ceed mat tehn -> –c–e–e–d–m–a–t–t–e–h–n–
+91 imbledon parab engag -> –i–m–b–l–e–d–o–n–p–a–r–a–b–e–n–g–a–g–
+92 poch ungar tyran -> –p–o–c–h–u–n–g–a–r–t–y–r–a–n–
+93 np pedag mno -> –n–p–p–e–d–a–g–m–n–o–
+94 xis snim opin -> –x–i–s–s–n–i–m–o–p–i–n–
+95 ffen crying guany -> –f–f–e–n–c–r–y–i–n–g–g–u–a–n–y–
+96 etus mic soll -> –e–t–u–s–m–i–c–s–o–l–l–
+97 orescent epidemi miembros -> –o–r–e–s–c–e–n–t–e–p–i–d–e–m–i–m–i–e–m–b–r–o–s–
+98 gery lion odc -> –g–e–r–y–l–i–o–n–o–d–c–
+99 arach jap store -> –a–r–a–c–h–j–a–p–s–t–o–r–e–

@@ -1,0 +1,42 @@
+Problem ID: 25eb7b03
+Category: equation_numeric_deduce
+
+Examples:
+- 86#98 = #12
+- 97{45 = 7624
+- 73#07 = #33
+
+Inferred rule:
+- This puzzle appears to use different rules for different operators.
+- For `#`, reverse both 2-digit inputs, subtract the second reversed number from the first reversed number, then reverse the digits of the result.
+- If that result is negative, write `#` instead of the usual minus sign.
+- The single `{` example is not needed for the query, so I do not rely on it.
+
+Why the `#` rule fits:
+- 86#98
+  - Reverse both numbers: `86 -> 68`, `98 -> 89`
+  - Subtract: `68 - 89 = -21`
+  - Reverse the result digits: `21 -> 12`
+  - Replace the minus sign with `#`: `#12`
+- 73#07
+  - Reverse both numbers: `73 -> 37`, `07 -> 70`
+  - Subtract: `37 - 70 = -33`
+  - Reverse the result digits: `33 -> 33`
+  - Replace the minus sign with `#`: `#33`
+
+Step-by-step application to the query:
+1. Query: `54#31`
+2. Reverse both inputs:
+   - `54 -> 45`
+   - `31 -> 13`
+3. Subtract the reversed numbers:
+   - `45 - 13 = 32`
+4. Reverse the result digits:
+   - `32 -> 23`
+5. The result is positive, so no `#` prefix is needed.
+
+Predicted answer:
+23
+
+Confidence note:
+Moderate to high. The reverse-subtract-then-reverse rule matches both `#` examples exactly. The only slight ambiguity is that both training `#` outputs are negative, so using an unsigned positive result for the query is a small extrapolation rather than a directly shown case.

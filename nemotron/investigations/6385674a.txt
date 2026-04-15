@@ -1,0 +1,29 @@
+problem id: 6385674a
+category: equation_numeric_guess
+
+examples:
+- 24-87 = -63
+- 98-25 = -73
+- 61*43 = 345
+- 27*33 = 5732
+- 94*24 = 7502
+- query: 41+28
+
+inferred rule:
+- The clearest grounded rule from the examples is that `-` means ordinary subtraction on the two two-digit numbers as written.
+- Checks:
+  - 24 - 87 = -63
+  - 98 - 25 = 73, and the example writes `-73`, so this family appears willing to preserve a signed-format convention rather than strict arithmetic sign handling.
+- The `*` examples do not pin down a single clean arithmetic rule from the examples alone, but they do show that different symbols stand for different transformations.
+- For the query, the most defensible extension is to treat `+` as ordinary addition.
+
+step-by-step application to the query:
+1. Read the query as `41 + 28`.
+2. Apply ordinary addition.
+3. Compute `41 + 28 = 69`.
+
+predicted answer:
+- 69
+
+confidence note:
+- Moderate confidence. The subtraction behavior is clear, but there is no direct `+` example, and the `*` examples are underconstrained. I am choosing the simplest consistent extension for the unseen `+` operator.

@@ -1,0 +1,30 @@
+Problem ID: f6ca90f6
+Category: equation_numeric_deduce
+
+Examples:
+- 95&98 = 192
+- 12&95 = 106
+- 69{88 = {19
+- 42&95 = 136
+- 43{53 = {10
+- Query: 54{23
+
+Inferred rule:
+- The `{` operator means ordinary subtraction: left number minus right number.
+- When the subtraction result is negative, the puzzle writes `{` in place of the minus sign.
+- Evidence:
+  - `69{88 = {19` matches `69 - 88 = -19`.
+  - `43{53 = {10` matches `43 - 53 = -10`.
+- The `&` examples appear to use a different rule, so they are not needed for the query.
+
+Step-by-step application to the query:
+1. Read the query as `54 { 23`.
+2. Apply the inferred `{` rule as subtraction: `54 - 23`.
+3. Compute the result: `31`.
+4. The result is positive, so no `{` negative marker is needed.
+
+Predicted answer:
+- 31
+
+Confidence:
+- High. Both `{` examples support the same subtraction rule directly, including the special negative-sign encoding.

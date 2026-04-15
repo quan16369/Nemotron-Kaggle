@@ -1,0 +1,24 @@
+problem id: be877da5
+category: equation_numeric_guess
+
+examples:
+- 09+03 = 0309
+- 56*05 = 1523
+- 77*02 = 1451
+- query: 93-91
+
+inferred rule:
+- The `+` operator is directly supported by the example `09+03 = 0309`: it reverses the order of the two 2-digit inputs and concatenates them.
+- The `*` operator maps a pair of 2-digit inputs to a 4-digit result, but with only two `*` examples its exact rule is underconstrained.
+- For the unseen query operator `-`, the most defensible arithmetic completion is absolute difference, written as a 2-digit number with leading zero when needed.
+
+step-by-step application to the query:
+1. The query is `93-91`, so the relevant numbers are 93 and 91.
+2. Compute the absolute difference: `|93 - 91| = 2`.
+3. The puzzle often preserves fixed-width numeric formatting, so write that as `02`.
+
+predicted answer:
+- 02
+
+confidence note:
+- Medium-low confidence. The `+` rule is clear from the example, but `-` never appears in the training examples, so treating it as absolute difference is an informed guess rather than a forced deduction.

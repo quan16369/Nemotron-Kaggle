@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 shadow interno tumour
+01 covery riman mest
+02 alla bronce veri
+
+This is a sample output.
+00 shadow interno tumour -> –s–h–a–d–o–w–i–n–t–e–r–n–o–t–u–m–o–u–r–
+01 covery riman mest -> –c–o–v–e–r–y–r–i–m–a–n–m–e–s–t–
+02 alla bronce veri -> –a–l–l–a–b–r–o–n–c–e–v–e–r–i–
+
+This is your input.
+00 inse trasm cercando
+01 ouched najm mannen
+02 kit scent olish
+03 ublique palpable akibat
+04 uen forced oss
+05 primary steps portes
+06 appro hydrogel steroids
+07 isto poign sue
+08 derte colonna obyv
+09 abase falso hollow
+10 arty necessit tada
+11 peonatos loc couper
+12 uct incor tele
+13 token jef lahko
+14 template methanol advice
+15 ricular umfang najbol
+16 password flavor bands
+17 fern voient chronic
+18 okers fertile szem
+19 iezingen sebbene ales
+20 amia foster eus
+21 cciones desigual avril
+22 onyme staple partner
+23 orno trusting basal
+24 ichever medizin travail
+25 ardan strict wil
+26 urities eml cup
+27 hub zitu cuando
+28 opos sett sandy
+29 arset seren tingkat
+30 ere mitjana diet
+31 bund pac averaged
+32 false governor icons
+33 opacity valve formula
+34 rita passare qal
+35 overn compter pudesse
+36 ctive ahor lamina
+37 imia staat ratio
+38 abad grabs margen
+39 irable novelist tend
+40 inished inert radial
+41 umes erricht symbolic
+42 aupun ihres theorem
+43 strip zlat portions
+44 uming fos stycznia
+45 okkal breadth bereits
+46 asm infused slick
+47 alom chaper befol
+48 aly bist densely
+49 ounter romanzo maestro
+50 hari express proteger
+51 ito blurred drie
+52 mapsto prezent pomoc
+53 awai iran sne
+54 uced baz whence
+55 lichem asust composto
+56 grond veloc largely
+57 esian spawned remake
+58 gather undert merchant
+59 entre krom atmosf
+60 ivr precaut famoso
+61 zien alem rigor
+62 imonial branding ide
+63 division faj promptly
+64 ifi absolut qad
+65 lbl testi concave
+66 angkat copy arc
+67 uese aliases adsorb
+68 parable pixel acceptor
+69 orn discours mad
+70 olson tratar devised
+71 irect dragging zvan
+72 arsch jugando sahipt
+73 abil von bije
+74 mor taste hatt
+75 ger renov wine
+76 ittest roll revient
+77 venc fab determin
+78 uthor deve indique
+79 oyce vais pluvi
+80 vem suburban solar
+81 kek mud wszyst
+82 igh attitude vrste
+83 arsa agreed refres
+84 ologisch cemetery trumpet
+85 aphne unnecess mobility
+86 uelto pred paz
+87 icity kins tarix
+88 ikoak lud magnetic
+89 olateral inspired quil
+90 entro platelet jakarta
+91 olls floods gelten
+92 minor eram onion
+93 beitet etdi kb
+94 qs kilomet beef
+95 ierro qualcuno sud
+96 oting sainte newsp
+97 property bottle royaume
+98 udz quals decade
+99 tap dehyd clos
+[completion]
+00 inse trasm cercando -> –i–n–s–e–t–r–a–s–m–c–e–r–c–a–n–d–o–
+01 ouched najm mannen -> –o–u–c–h–e–d–n–a–j–m–m–a–n–n–e–n–
+02 kit scent olish -> –k–i–t–s–c–e–n–t–o–l–i–s–h–
+03 ublique palpable akibat -> –u–b–l–i–q–u–e–p–a–l–p–a–b–l–e–a–k–i–b–a–t–
+04 uen forced oss -> –u–e–n–f–o–r–c–e–d–o–s–s–
+05 primary steps portes -> –p–r–i–m–a–r–y–s–t–e–p–s–p–o–r–t–e–s–
+06 appro hydrogel steroids -> –a–p–p–r–o–h–y–d–r–o–g–e–l–s–t–e–r–o–i–d–s–
+07 isto poign sue -> –i–s–t–o–p–o–i–g–n–s–u–e–
+08 derte colonna obyv -> –d–e–r–t–e–c–o–l–o–n–n–a–o–b–y–v–
+09 abase falso hollow -> –a–b–a–s–e–f–a–l–s–o–h–o–l–l–o–w–
+10 arty necessit tada -> –a–r–t–y–n–e–c–e–s–s–i–t–t–a–d–a–
+11 peonatos loc couper -> –p–e–o–n–a–t–o–s–l–o–c–c–o–u–p–e–r–
+12 uct incor tele -> –u–c–t–i–n–c–o–r–t–e–l–e–
+13 token jef lahko -> –t–o–k–e–n–j–e–f–l–a–h–k–o–
+14 template methanol advice -> –t–e–m–p–l–a–t–e–m–e–t–h–a–n–o–l–a–d–v–i–c–e–
+15 ricular umfang najbol -> –r–i–c–u–l–a–r–u–m–f–a–n–g–n–a–j–b–o–l–
+16 password flavor bands -> –p–a–s–s–w–o–r–d–f–l–a–v–o–r–b–a–n–d–s–
+17 fern voient chronic -> –f–e–r–n–v–o–i–e–n–t–c–h–r–o–n–i–c–
+18 okers fertile szem -> –o–k–e–r–s–f–e–r–t–i–l–e–s–z–e–m–
+19 iezingen sebbene ales -> –i–e–z–i–n–g–e–n–s–e–b–b–e–n–e–a–l–e–s–
+20 amia foster eus -> –a–m–i–a–f–o–s–t–e–r–e–u–s–
+21 cciones desigual avril -> –c–c–i–o–n–e–s–d–e–s–i–g–u–a–l–a–v–r–i–l–
+22 onyme staple partner -> –o–n–y–m–e–s–t–a–p–l–e–p–a–r–t–n–e–r–
+23 orno trusting basal -> –o–r–n–o–t–r–u–s–t–i–n–g–b–a–s–a–l–
+24 ichever medizin travail -> –i–c–h–e–v–e–r–m–e–d–i–z–i–n–t–r–a–v–a–i–l–
+25 ardan strict wil -> –a–r–d–a–n–s–t–r–i–c–t–w–i–l–
+26 urities eml cup -> –u–r–i–t–i–e–s–e–m–l–c–u–p–
+27 hub zitu cuando -> –h–u–b–z–i–t–u–c–u–a–n–d–o–
+28 opos sett sandy -> –o–p–o–s–s–e–t–t–s–a–n–d–y–
+29 arset seren tingkat -> –a–r–s–e–t–s–e–r–e–n–t–i–n–g–k–a–t–
+30 ere mitjana diet -> –e–r–e–m–i–t–j–a–n–a–d–i–e–t–
+31 bund pac averaged -> –b–u–n–d–p–a–c–a–v–e–r–a–g–e–d–
+32 false governor icons -> –f–a–l–s–e–g–o–v–e–r–n–o–r–i–c–o–n–s–
+33 opacity valve formula -> –o–p–a–c–i–t–y–v–a–l–v–e–f–o–r–m–u–l–a–
+34 rita passare qal -> –r–i–t–a–p–a–s–s–a–r–e–q–a–l–
+35 overn compter pudesse -> –o–v–e–r–n–c–o–m–p–t–e–r–p–u–d–e–s–s–e–
+36 ctive ahor lamina -> –c–t–i–v–e–a–h–o–r–l–a–m–i–n–a–
+37 imia staat ratio -> –i–m–i–a–s–t–a–a–t–r–a–t–i–o–
+38 abad grabs margen -> –a–b–a–d–g–r–a–b–s–m–a–r–g–e–n–
+39 irable novelist tend -> –i–r–a–b–l–e–n–o–v–e–l–i–s–t–t–e–n–d–
+40 inished inert radial -> –i–n–i–s–h–e–d–i–n–e–r–t–r–a–d–i–a–l–
+41 umes erricht symbolic -> –u–m–e–s–e–r–r–i–c–h–t–s–y–m–b–o–l–i–c–
+42 aupun ihres theorem -> –a–u–p–u–n–i–h–r–e–s–t–h–e–o–r–e–m–
+43 strip zlat portions -> –s–t–r–i–p–z–l–a–t–p–o–r–t–i–o–n–s–
+44 uming fos stycznia -> –u–m–i–n–g–f–o–s–s–t–y–c–z–n–i–a–
+45 okkal breadth bereits -> –o–k–k–a–l–b–r–e–a–d–t–h–b–e–r–e–i–t–s–
+46 asm infused slick -> –a–s–m–i–n–f–u–s–e–d–s–l–i–c–k–
+47 alom chaper befol -> –a–l–o–m–c–h–a–p–e–r–b–e–f–o–l–
+48 aly bist densely -> –a–l–y–b–i–s–t–d–e–n–s–e–l–y–
+49 ounter romanzo maestro -> –o–u–n–t–e–r–r–o–m–a–n–z–o–m–a–e–s–t–r–o–
+50 hari express proteger -> –h–a–r–i–e–x–p–r–e–s–s–p–r–o–t–e–g–e–r–
+51 ito blurred drie -> –i–t–o–b–l–u–r–r–e–d–d–r–i–e–
+52 mapsto prezent pomoc -> –m–a–p–s–t–o–p–r–e–z–e–n–t–p–o–m–o–c–
+53 awai iran sne -> –a–w–a–i–i–r–a–n–s–n–e–
+54 uced baz whence -> –u–c–e–d–b–a–z–w–h–e–n–c–e–
+55 lichem asust composto -> –l–i–c–h–e–m–a–s–u–s–t–c–o–m–p–o–s–t–o–
+56 grond veloc largely -> –g–r–o–n–d–v–e–l–o–c–l–a–r–g–e–l–y–
+57 esian spawned remake -> –e–s–i–a–n–s–p–a–w–n–e–d–r–e–m–a–k–e–
+58 gather undert merchant -> –g–a–t–h–e–r–u–n–d–e–r–t–m–e–r–c–h–a–n–t–
+59 entre krom atmosf -> –e–n–t–r–e–k–r–o–m–a–t–m–o–s–f–
+60 ivr precaut famoso -> –i–v–r–p–r–e–c–a–u–t–f–a–m–o–s–o–
+61 zien alem rigor -> –z–i–e–n–a–l–e–m–r–i–g–o–r–
+62 imonial branding ide -> –i–m–o–n–i–a–l–b–r–a–n–d–i–n–g–i–d–e–
+63 division faj promptly -> –d–i–v–i–s–i–o–n–f–a–j–p–r–o–m–p–t–l–y–
+64 ifi absolut qad -> –i–f–i–a–b–s–o–l–u–t–q–a–d–
+65 lbl testi concave -> –l–b–l–t–e–s–t–i–c–o–n–c–a–v–e–
+66 angkat copy arc -> –a–n–g–k–a–t–c–o–p–y–a–r–c–
+67 uese aliases adsorb -> –u–e–s–e–a–l–i–a–s–e–s–a–d–s–o–r–b–
+68 parable pixel acceptor -> –p–a–r–a–b–l–e–p–i–x–e–l–a–c–c–e–p–t–o–r–
+69 orn discours mad -> –o–r–n–d–i–s–c–o–u–r–s–m–a–d–
+70 olson tratar devised -> –o–l–s–o–n–t–r–a–t–a–r–d–e–v–i–s–e–d–
+71 irect dragging zvan -> –i–r–e–c–t–d–r–a–g–g–i–n–g–z–v–a–n–
+72 arsch jugando sahipt -> –a–r–s–c–h–j–u–g–a–n–d–o–s–a–h–i–p–t–
+73 abil von bije -> –a–b–i–l–v–o–n–b–i–j–e–
+74 mor taste hatt -> –m–o–r–t–a–s–t–e–h–a–t–t–
+75 ger renov wine -> –g–e–r–r–e–n–o–v–w–i–n–e–
+76 ittest roll revient -> –i–t–t–e–s–t–r–o–l–l–r–e–v–i–e–n–t–
+77 venc fab determin -> –v–e–n–c–f–a–b–d–e–t–e–r–m–i–n–
+78 uthor deve indique -> –u–t–h–o–r–d–e–v–e–i–n–d–i–q–u–e–
+79 oyce vais pluvi -> –o–y–c–e–v–a–i–s–p–l–u–v–i–
+80 vem suburban solar -> –v–e–m–s–u–b–u–r–b–a–n–s–o–l–a–r–
+81 kek mud wszyst -> –k–e–k–m–u–d–w–s–z–y–s–t–
+82 igh attitude vrste -> –i–g–h–a–t–t–i–t–u–d–e–v–r–s–t–e–
+83 arsa agreed refres -> –a–r–s–a–a–g–r–e–e–d–r–e–f–r–e–s–
+84 ologisch cemetery trumpet -> –o–l–o–g–i–s–c–h–c–e–m–e–t–e–r–y–t–r–u–m–p–e–t–
+85 aphne unnecess mobility -> –a–p–h–n–e–u–n–n–e–c–e–s–s–m–o–b–i–l–i–t–y–
+86 uelto pred paz -> –u–e–l–t–o–p–r–e–d–p–a–z–
+87 icity kins tarix -> –i–c–i–t–y–k–i–n–s–t–a–r–i–x–
+88 ikoak lud magnetic -> –i–k–o–a–k–l–u–d–m–a–g–n–e–t–i–c–
+89 olateral inspired quil -> –o–l–a–t–e–r–a–l–i–n–s–p–i–r–e–d–q–u–i–l–
+90 entro platelet jakarta -> –e–n–t–r–o–p–l–a–t–e–l–e–t–j–a–k–a–r–t–a–
+91 olls floods gelten -> –o–l–l–s–f–l–o–o–d–s–g–e–l–t–e–n–
+92 minor eram onion -> –m–i–n–o–r–e–r–a–m–o–n–i–o–n–
+93 beitet etdi kb -> –b–e–i–t–e–t–e–t–d–i–k–b–
+94 qs kilomet beef -> –q–s–k–i–l–o–m–e–t–b–e–e–f–
+95 ierro qualcuno sud -> –i–e–r–r–o–q–u–a–l–c–u–n–o–s–u–d–
+96 oting sainte newsp -> –o–t–i–n–g–s–a–i–n–t–e–n–e–w–s–p–
+97 property bottle royaume -> –p–r–o–p–e–r–t–y–b–o–t–t–l–e–r–o–y–a–u–m–e–
+98 udz quals decade -> –u–d–z–q–u–a–l–s–d–e–c–a–d–e–
+99 tap dehyd clos -> –t–a–p–d–e–h–y–d–c–l–o–s–

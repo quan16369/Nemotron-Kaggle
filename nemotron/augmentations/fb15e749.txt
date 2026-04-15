@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 lisabeth king enz
+01 jedin biolog citer
+02 ylactic ahli innov
+
+This is a sample output.
+00 lisabeth king enz -> –l–i–s–a–b–e–t–h–k–i–n–g–e–n–z–
+01 jedin biolog citer -> –j–e–d–i–n–b–i–o–l–o–g–c–i–t–e–r–
+02 ylactic ahli innov -> –y–l–a–c–t–i–c–a–h–l–i–i–n–n–o–v–
+
+This is your input.
+00 iou senza rusa
+01 usr pickle edir
+02 yty frappe obliged
+03 aucoup colonias anarch
+04 cribed sorting of
+05 ivali rythme beein
+06 writing become fut
+07 esseurs retenir owe
+08 ococcal idea adorable
+09 device cyclo numerous
+10 int levar cuartos
+11 peratore loved nx
+12 engan pou vagy
+13 riele zas silla
+14 ening vot verv
+15 atrix nobile ingres
+16 ucing boca immunos
+17 iegel craft squ
+18 kg durante gagn
+19 izers solo negras
+20 clerosis erreg disse
+21 qi alloy mesin
+22 agn pelle illustr
+23 uparrow modeled terzo
+24 empel redesign cavern
+25 errors dancing einige
+26 oon viele hind
+27 foo wydar enfo
+28 ificada woods kub
+29 ibar actuel grotte
+30 landen aqueous labs
+31 ban zunehm heroes
+32 mesi zaz solide
+33 appal druga modul
+34 talk manifest ju
+35 inoid tropical ouverte
+36 icho folle sparse
+37 icent led vjet
+38 ionato erreur sangat
+39 otyp adrenal carousel
+40 boru turno prej
+41 oak respecto estek
+42 airement doivent staten
+43 mart carreira mak
+44 idi faixas sheath
+45 iado mettent sketch
+46 iatu sacr clandest
+47 ongodb unfor resolves
+48 rine nummer porosity
+49 elar swiftly subgroup
+50 annes kidn dub
+51 unie vak robot
+52 ajo contro produkt
+53 yenne museum freeze
+54 riting hitherto recipe
+55 ott inhom yksi
+56 obre daytime study
+57 ben rug lados
+58 ueil acetate aure
+59 zele zest blockers
+60 ouard inge escri
+61 rap raw bertan
+62 sb shout aina
+63 kam novi grapes
+64 ialis thyroid fb
+65 igned located diesen
+66 ome fechas armour
+67 oslov infinit resposta
+68 uschauer hosted dew
+69 ancellor anot laps
+70 rosis lipca meurtre
+71 ungs ouest trud
+72 erein meet sind
+73 indest million baseado
+74 stwa ered proven
+75 hib viscous duty
+76 prim dent hoge
+77 trigger energie kib
+78 interval mellan arbeit
+79 hetized digo jeho
+80 inoc unbed rendent
+81 ovir ent postoji
+82 ceed punte colocado
+83 imbledon tkinter readers
+84 poch enough planes
+85 np copie plano
+86 xis juli drugih
+87 ffen unstable wrestler
+88 etus peupl pensaba
+89 orescent makers egiten
+90 gery parecia coloca
+91 arach applies findet
+92 tape esf mon
+93 gage langer toca
+94 etra merger letzten
+95 level rules gonna
+96 cidas soda landing
+97 vaient customer muita
+98 now target yarat
+99 tsch premio prv
+[completion]
+00 iou senza rusa -> –i–o–u–s–e–n–z–a–r–u–s–a–
+01 usr pickle edir -> –u–s–r–p–i–c–k–l–e–e–d–i–r–
+02 yty frappe obliged -> –y–t–y–f–r–a–p–p–e–o–b–l–i–g–e–d–
+03 aucoup colonias anarch -> –a–u–c–o–u–p–c–o–l–o–n–i–a–s–a–n–a–r–c–h–
+04 cribed sorting of -> –c–r–i–b–e–d–s–o–r–t–i–n–g–o–f–
+05 ivali rythme beein -> –i–v–a–l–i–r–y–t–h–m–e–b–e–e–i–n–
+06 writing become fut -> –w–r–i–t–i–n–g–b–e–c–o–m–e–f–u–t–
+07 esseurs retenir owe -> –e–s–s–e–u–r–s–r–e–t–e–n–i–r–o–w–e–
+08 ococcal idea adorable -> –o–c–o–c–c–a–l–i–d–e–a–a–d–o–r–a–b–l–e–
+09 device cyclo numerous -> –d–e–v–i–c–e–c–y–c–l–o–n–u–m–e–r–o–u–s–
+10 int levar cuartos -> –i–n–t–l–e–v–a–r–c–u–a–r–t–o–s–
+11 peratore loved nx -> –p–e–r–a–t–o–r–e–l–o–v–e–d–n–x–
+12 engan pou vagy -> –e–n–g–a–n–p–o–u–v–a–g–y–
+13 riele zas silla -> –r–i–e–l–e–z–a–s–s–i–l–l–a–
+14 ening vot verv -> –e–n–i–n–g–v–o–t–v–e–r–v–
+15 atrix nobile ingres -> –a–t–r–i–x–n–o–b–i–l–e–i–n–g–r–e–s–
+16 ucing boca immunos -> –u–c–i–n–g–b–o–c–a–i–m–m–u–n–o–s–
+17 iegel craft squ -> –i–e–g–e–l–c–r–a–f–t–s–q–u–
+18 kg durante gagn -> –k–g–d–u–r–a–n–t–e–g–a–g–n–
+19 izers solo negras -> –i–z–e–r–s–s–o–l–o–n–e–g–r–a–s–
+20 clerosis erreg disse -> –c–l–e–r–o–s–i–s–e–r–r–e–g–d–i–s–s–e–
+21 qi alloy mesin -> –q–i–a–l–l–o–y–m–e–s–i–n–
+22 agn pelle illustr -> –a–g–n–p–e–l–l–e–i–l–l–u–s–t–r–
+23 uparrow modeled terzo -> –u–p–a–r–r–o–w–m–o–d–e–l–e–d–t–e–r–z–o–
+24 empel redesign cavern -> –e–m–p–e–l–r–e–d–e–s–i–g–n–c–a–v–e–r–n–
+25 errors dancing einige -> –e–r–r–o–r–s–d–a–n–c–i–n–g–e–i–n–i–g–e–
+26 oon viele hind -> –o–o–n–v–i–e–l–e–h–i–n–d–
+27 foo wydar enfo -> –f–o–o–w–y–d–a–r–e–n–f–o–
+28 ificada woods kub -> –i–f–i–c–a–d–a–w–o–o–d–s–k–u–b–
+29 ibar actuel grotte -> –i–b–a–r–a–c–t–u–e–l–g–r–o–t–t–e–
+30 landen aqueous labs -> –l–a–n–d–e–n–a–q–u–e–o–u–s–l–a–b–s–
+31 ban zunehm heroes -> –b–a–n–z–u–n–e–h–m–h–e–r–o–e–s–
+32 mesi zaz solide -> –m–e–s–i–z–a–z–s–o–l–i–d–e–
+33 appal druga modul -> –a–p–p–a–l–d–r–u–g–a–m–o–d–u–l–
+34 talk manifest ju -> –t–a–l–k–m–a–n–i–f–e–s–t–j–u–
+35 inoid tropical ouverte -> –i–n–o–i–d–t–r–o–p–i–c–a–l–o–u–v–e–r–t–e–
+36 icho folle sparse -> –i–c–h–o–f–o–l–l–e–s–p–a–r–s–e–
+37 icent led vjet -> –i–c–e–n–t–l–e–d–v–j–e–t–
+38 ionato erreur sangat -> –i–o–n–a–t–o–e–r–r–e–u–r–s–a–n–g–a–t–
+39 otyp adrenal carousel -> –o–t–y–p–a–d–r–e–n–a–l–c–a–r–o–u–s–e–l–
+40 boru turno prej -> –b–o–r–u–t–u–r–n–o–p–r–e–j–
+41 oak respecto estek -> –o–a–k–r–e–s–p–e–c–t–o–e–s–t–e–k–
+42 airement doivent staten -> –a–i–r–e–m–e–n–t–d–o–i–v–e–n–t–s–t–a–t–e–n–
+43 mart carreira mak -> –m–a–r–t–c–a–r–r–e–i–r–a–m–a–k–
+44 idi faixas sheath -> –i–d–i–f–a–i–x–a–s–s–h–e–a–t–h–
+45 iado mettent sketch -> –i–a–d–o–m–e–t–t–e–n–t–s–k–e–t–c–h–
+46 iatu sacr clandest -> –i–a–t–u–s–a–c–r–c–l–a–n–d–e–s–t–
+47 ongodb unfor resolves -> –o–n–g–o–d–b–u–n–f–o–r–r–e–s–o–l–v–e–s–
+48 rine nummer porosity -> –r–i–n–e–n–u–m–m–e–r–p–o–r–o–s–i–t–y–
+49 elar swiftly subgroup -> –e–l–a–r–s–w–i–f–t–l–y–s–u–b–g–r–o–u–p–
+50 annes kidn dub -> –a–n–n–e–s–k–i–d–n–d–u–b–
+51 unie vak robot -> –u–n–i–e–v–a–k–r–o–b–o–t–
+52 ajo contro produkt -> –a–j–o–c–o–n–t–r–o–p–r–o–d–u–k–t–
+53 yenne museum freeze -> –y–e–n–n–e–m–u–s–e–u–m–f–r–e–e–z–e–
+54 riting hitherto recipe -> –r–i–t–i–n–g–h–i–t–h–e–r–t–o–r–e–c–i–p–e–
+55 ott inhom yksi -> –o–t–t–i–n–h–o–m–y–k–s–i–
+56 obre daytime study -> –o–b–r–e–d–a–y–t–i–m–e–s–t–u–d–y–
+57 ben rug lados -> –b–e–n–r–u–g–l–a–d–o–s–
+58 ueil acetate aure -> –u–e–i–l–a–c–e–t–a–t–e–a–u–r–e–
+59 zele zest blockers -> –z–e–l–e–z–e–s–t–b–l–o–c–k–e–r–s–
+60 ouard inge escri -> –o–u–a–r–d–i–n–g–e–e–s–c–r–i–
+61 rap raw bertan -> –r–a–p–r–a–w–b–e–r–t–a–n–
+62 sb shout aina -> –s–b–s–h–o–u–t–a–i–n–a–
+63 kam novi grapes -> –k–a–m–n–o–v–i–g–r–a–p–e–s–
+64 ialis thyroid fb -> –i–a–l–i–s–t–h–y–r–o–i–d–f–b–
+65 igned located diesen -> –i–g–n–e–d–l–o–c–a–t–e–d–d–i–e–s–e–n–
+66 ome fechas armour -> –o–m–e–f–e–c–h–a–s–a–r–m–o–u–r–
+67 oslov infinit resposta -> –o–s–l–o–v–i–n–f–i–n–i–t–r–e–s–p–o–s–t–a–
+68 uschauer hosted dew -> –u–s–c–h–a–u–e–r–h–o–s–t–e–d–d–e–w–
+69 ancellor anot laps -> –a–n–c–e–l–l–o–r–a–n–o–t–l–a–p–s–
+70 rosis lipca meurtre -> –r–o–s–i–s–l–i–p–c–a–m–e–u–r–t–r–e–
+71 ungs ouest trud -> –u–n–g–s–o–u–e–s–t–t–r–u–d–
+72 erein meet sind -> –e–r–e–i–n–m–e–e–t–s–i–n–d–
+73 indest million baseado -> –i–n–d–e–s–t–m–i–l–l–i–o–n–b–a–s–e–a–d–o–
+74 stwa ered proven -> –s–t–w–a–e–r–e–d–p–r–o–v–e–n–
+75 hib viscous duty -> –h–i–b–v–i–s–c–o–u–s–d–u–t–y–
+76 prim dent hoge -> –p–r–i–m–d–e–n–t–h–o–g–e–
+77 trigger energie kib -> –t–r–i–g–g–e–r–e–n–e–r–g–i–e–k–i–b–
+78 interval mellan arbeit -> –i–n–t–e–r–v–a–l–m–e–l–l–a–n–a–r–b–e–i–t–
+79 hetized digo jeho -> –h–e–t–i–z–e–d–d–i–g–o–j–e–h–o–
+80 inoc unbed rendent -> –i–n–o–c–u–n–b–e–d–r–e–n–d–e–n–t–
+81 ovir ent postoji -> –o–v–i–r–e–n–t–p–o–s–t–o–j–i–
+82 ceed punte colocado -> –c–e–e–d–p–u–n–t–e–c–o–l–o–c–a–d–o–
+83 imbledon tkinter readers -> –i–m–b–l–e–d–o–n–t–k–i–n–t–e–r–r–e–a–d–e–r–s–
+84 poch enough planes -> –p–o–c–h–e–n–o–u–g–h–p–l–a–n–e–s–
+85 np copie plano -> –n–p–c–o–p–i–e–p–l–a–n–o–
+86 xis juli drugih -> –x–i–s–j–u–l–i–d–r–u–g–i–h–
+87 ffen unstable wrestler -> –f–f–e–n–u–n–s–t–a–b–l–e–w–r–e–s–t–l–e–r–
+88 etus peupl pensaba -> –e–t–u–s–p–e–u–p–l–p–e–n–s–a–b–a–
+89 orescent makers egiten -> –o–r–e–s–c–e–n–t–m–a–k–e–r–s–e–g–i–t–e–n–
+90 gery parecia coloca -> –g–e–r–y–p–a–r–e–c–i–a–c–o–l–o–c–a–
+91 arach applies findet -> –a–r–a–c–h–a–p–p–l–i–e–s–f–i–n–d–e–t–
+92 tape esf mon -> –t–a–p–e–e–s–f–m–o–n–
+93 gage langer toca -> –g–a–g–e–l–a–n–g–e–r–t–o–c–a–
+94 etra merger letzten -> –e–t–r–a–m–e–r–g–e–r–l–e–t–z–t–e–n–
+95 level rules gonna -> –l–e–v–e–l–r–u–l–e–s–g–o–n–n–a–
+96 cidas soda landing -> –c–i–d–a–s–s–o–d–a–l–a–n–d–i–n–g–
+97 vaient customer muita -> –v–a–i–e–n–t–c–u–s–t–o–m–e–r–m–u–i–t–a–
+98 now target yarat -> –n–o–w–t–a–r–g–e–t–y–a–r–a–t–
+99 tsch premio prv -> –t–s–c–h–p–r–e–m–i–o–p–r–v–

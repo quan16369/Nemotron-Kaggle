@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 aving yours efflux
+01 obierno populate blown
+02 laub ranc enabling
+
+This is a sample output.
+00 aving yours efflux -> –a–v–i–n–g–y–o–u–r–s–e–f–f–l–u–x–
+01 obierno populate blown -> –o–b–i–e–r–n–o–p–o–p–u–l–a–t–e–b–l–o–w–n–
+02 laub ranc enabling -> –l–a–u–b–r–a–n–c–e–n–a–b–l–i–n–g–
+
+This is your input.
+00 dots alred cientos
+01 meid concep etd
+02 tpl parody victimes
+03 ances notch irland
+04 setzen spit fez
+05 udp borrowed tika
+06 rage trah marching
+07 oten propri metre
+08 nec fournit anore
+09 igt norme malheure
+10 abler carved practic
+11 array servicio juifs
+12 spark takt pinturas
+13 ondheim alfa meist
+14 lider tego joues
+15 cd ostrov upper
+16 roscopic wood puertas
+17 uca rivol column
+18 nur confes dancer
+19 trat campus checking
+20 ego tempo mixtures
+21 xff entender orden
+22 olly reflex vanished
+23 abels impair enc
+24 klad wtedy goto
+25 emente arousal kierunku
+26 ledes depre sofa
+27 urls kwal ache
+28 uerre expand ogr
+29 arbe obwohl dominant
+30 te bi crisis
+31 dde surt ceiling
+32 bli may huit
+33 ures ribosome gebouwd
+34 vast apresent dados
+35 rept genre ve
+36 osof dels opera
+37 tel perfume teatro
+38 uloj chico reglas
+39 ilgan thrilled asserted
+40 reden sod pom
+41 ovalent lack pursued
+42 cession ton foo
+43 ajara nearest velocity
+44 assadeur paid bed
+45 ipy mixed parents
+46 otechn amput storm
+47 say requests cobre
+48 rowave sulle adm
+49 vars bulego loose
+50 iere sadr ekst
+51 incy mortos termes
+52 enciar procura gul
+53 ondon hig anti
+54 ahlen niewiel wiele
+55 antung estatus vamos
+56 etin knji mul
+57 pard bud semua
+58 abon ever volto
+59 ckiego britann prak
+60 lle eyes noticed
+61 chaft border ole
+62 ployment applaud knocking
+63 boxes amist ontwikk
+64 ujo super insens
+65 yyy scar rela
+66 zoa svou marin
+67 enzyme cabeza posl
+68 itek koristi normally
+69 uaire trabalho famille
+70 pruch angelegt insisted
+71 oldo helping ovo
+72 jans angol opere
+73 ethel stycz arco
+74 brecht requ saisons
+75 olle sest nuovo
+76 ktop tomber savo
+77 ierungs medio grams
+78 udy dynam ker
+79 aturik labbra included
+80 unge glucose retiring
+81 duit team admits
+82 ista limita spagnolo
+83 toile irgend marcado
+84 ded cho mountain
+85 inald usando bathing
+86 irestore beige substant
+87 ricted utilizan dupla
+88 liefer cierta geweest
+89 hov anger aient
+90 lambda tonel weakly
+91 urname buses shares
+92 olate pousse earned
+93 hely grabado livro
+94 ewis estima grit
+95 lbum tilt believed
+96 word continu os
+97 amo villages papier
+98 health abans valmist
+99 etric umge crow
+[completion]
+00 dots alred cientos -> –d–o–t–s–a–l–r–e–d–c–i–e–n–t–o–s–
+01 meid concep etd -> –m–e–i–d–c–o–n–c–e–p–e–t–d–
+02 tpl parody victimes -> –t–p–l–p–a–r–o–d–y–v–i–c–t–i–m–e–s–
+03 ances notch irland -> –a–n–c–e–s–n–o–t–c–h–i–r–l–a–n–d–
+04 setzen spit fez -> –s–e–t–z–e–n–s–p–i–t–f–e–z–
+05 udp borrowed tika -> –u–d–p–b–o–r–r–o–w–e–d–t–i–k–a–
+06 rage trah marching -> –r–a–g–e–t–r–a–h–m–a–r–c–h–i–n–g–
+07 oten propri metre -> –o–t–e–n–p–r–o–p–r–i–m–e–t–r–e–
+08 nec fournit anore -> –n–e–c–f–o–u–r–n–i–t–a–n–o–r–e–
+09 igt norme malheure -> –i–g–t–n–o–r–m–e–m–a–l–h–e–u–r–e–
+10 abler carved practic -> –a–b–l–e–r–c–a–r–v–e–d–p–r–a–c–t–i–c–
+11 array servicio juifs -> –a–r–r–a–y–s–e–r–v–i–c–i–o–j–u–i–f–s–
+12 spark takt pinturas -> –s–p–a–r–k–t–a–k–t–p–i–n–t–u–r–a–s–
+13 ondheim alfa meist -> –o–n–d–h–e–i–m–a–l–f–a–m–e–i–s–t–
+14 lider tego joues -> –l–i–d–e–r–t–e–g–o–j–o–u–e–s–
+15 cd ostrov upper -> –c–d–o–s–t–r–o–v–u–p–p–e–r–
+16 roscopic wood puertas -> –r–o–s–c–o–p–i–c–w–o–o–d–p–u–e–r–t–a–s–
+17 uca rivol column -> –u–c–a–r–i–v–o–l–c–o–l–u–m–n–
+18 nur confes dancer -> –n–u–r–c–o–n–f–e–s–d–a–n–c–e–r–
+19 trat campus checking -> –t–r–a–t–c–a–m–p–u–s–c–h–e–c–k–i–n–g–
+20 ego tempo mixtures -> –e–g–o–t–e–m–p–o–m–i–x–t–u–r–e–s–
+21 xff entender orden -> –x–f–f–e–n–t–e–n–d–e–r–o–r–d–e–n–
+22 olly reflex vanished -> –o–l–l–y–r–e–f–l–e–x–v–a–n–i–s–h–e–d–
+23 abels impair enc -> –a–b–e–l–s–i–m–p–a–i–r–e–n–c–
+24 klad wtedy goto -> –k–l–a–d–w–t–e–d–y–g–o–t–o–
+25 emente arousal kierunku -> –e–m–e–n–t–e–a–r–o–u–s–a–l–k–i–e–r–u–n–k–u–
+26 ledes depre sofa -> –l–e–d–e–s–d–e–p–r–e–s–o–f–a–
+27 urls kwal ache -> –u–r–l–s–k–w–a–l–a–c–h–e–
+28 uerre expand ogr -> –u–e–r–r–e–e–x–p–a–n–d–o–g–r–
+29 arbe obwohl dominant -> –a–r–b–e–o–b–w–o–h–l–d–o–m–i–n–a–n–t–
+30 te bi crisis -> –t–e–b–i–c–r–i–s–i–s–
+31 dde surt ceiling -> –d–d–e–s–u–r–t–c–e–i–l–i–n–g–
+32 bli may huit -> –b–l–i–m–a–y–h–u–i–t–
+33 ures ribosome gebouwd -> –u–r–e–s–r–i–b–o–s–o–m–e–g–e–b–o–u–w–d–
+34 vast apresent dados -> –v–a–s–t–a–p–r–e–s–e–n–t–d–a–d–o–s–
+35 rept genre ve -> –r–e–p–t–g–e–n–r–e–v–e–
+36 osof dels opera -> –o–s–o–f–d–e–l–s–o–p–e–r–a–
+37 tel perfume teatro -> –t–e–l–p–e–r–f–u–m–e–t–e–a–t–r–o–
+38 uloj chico reglas -> –u–l–o–j–c–h–i–c–o–r–e–g–l–a–s–
+39 ilgan thrilled asserted -> –i–l–g–a–n–t–h–r–i–l–l–e–d–a–s–s–e–r–t–e–d–
+40 reden sod pom -> –r–e–d–e–n–s–o–d–p–o–m–
+41 ovalent lack pursued -> –o–v–a–l–e–n–t–l–a–c–k–p–u–r–s–u–e–d–
+42 cession ton foo -> –c–e–s–s–i–o–n–t–o–n–f–o–o–
+43 ajara nearest velocity -> –a–j–a–r–a–n–e–a–r–e–s–t–v–e–l–o–c–i–t–y–
+44 assadeur paid bed -> –a–s–s–a–d–e–u–r–p–a–i–d–b–e–d–
+45 ipy mixed parents -> –i–p–y–m–i–x–e–d–p–a–r–e–n–t–s–
+46 otechn amput storm -> –o–t–e–c–h–n–a–m–p–u–t–s–t–o–r–m–
+47 say requests cobre -> –s–a–y–r–e–q–u–e–s–t–s–c–o–b–r–e–
+48 rowave sulle adm -> –r–o–w–a–v–e–s–u–l–l–e–a–d–m–
+49 vars bulego loose -> –v–a–r–s–b–u–l–e–g–o–l–o–o–s–e–
+50 iere sadr ekst -> –i–e–r–e–s–a–d–r–e–k–s–t–
+51 incy mortos termes -> –i–n–c–y–m–o–r–t–o–s–t–e–r–m–e–s–
+52 enciar procura gul -> –e–n–c–i–a–r–p–r–o–c–u–r–a–g–u–l–
+53 ondon hig anti -> –o–n–d–o–n–h–i–g–a–n–t–i–
+54 ahlen niewiel wiele -> –a–h–l–e–n–n–i–e–w–i–e–l–w–i–e–l–e–
+55 antung estatus vamos -> –a–n–t–u–n–g–e–s–t–a–t–u–s–v–a–m–o–s–
+56 etin knji mul -> –e–t–i–n–k–n–j–i–m–u–l–
+57 pard bud semua -> –p–a–r–d–b–u–d–s–e–m–u–a–
+58 abon ever volto -> –a–b–o–n–e–v–e–r–v–o–l–t–o–
+59 ckiego britann prak -> –c–k–i–e–g–o–b–r–i–t–a–n–n–p–r–a–k–
+60 lle eyes noticed -> –l–l–e–e–y–e–s–n–o–t–i–c–e–d–
+61 chaft border ole -> –c–h–a–f–t–b–o–r–d–e–r–o–l–e–
+62 ployment applaud knocking -> –p–l–o–y–m–e–n–t–a–p–p–l–a–u–d–k–n–o–c–k–i–n–g–
+63 boxes amist ontwikk -> –b–o–x–e–s–a–m–i–s–t–o–n–t–w–i–k–k–
+64 ujo super insens -> –u–j–o–s–u–p–e–r–i–n–s–e–n–s–
+65 yyy scar rela -> –y–y–y–s–c–a–r–r–e–l–a–
+66 zoa svou marin -> –z–o–a–s–v–o–u–m–a–r–i–n–
+67 enzyme cabeza posl -> –e–n–z–y–m–e–c–a–b–e–z–a–p–o–s–l–
+68 itek koristi normally -> –i–t–e–k–k–o–r–i–s–t–i–n–o–r–m–a–l–l–y–
+69 uaire trabalho famille -> –u–a–i–r–e–t–r–a–b–a–l–h–o–f–a–m–i–l–l–e–
+70 pruch angelegt insisted -> –p–r–u–c–h–a–n–g–e–l–e–g–t–i–n–s–i–s–t–e–d–
+71 oldo helping ovo -> –o–l–d–o–h–e–l–p–i–n–g–o–v–o–
+72 jans angol opere -> –j–a–n–s–a–n–g–o–l–o–p–e–r–e–
+73 ethel stycz arco -> –e–t–h–e–l–s–t–y–c–z–a–r–c–o–
+74 brecht requ saisons -> –b–r–e–c–h–t–r–e–q–u–s–a–i–s–o–n–s–
+75 olle sest nuovo -> –o–l–l–e–s–e–s–t–n–u–o–v–o–
+76 ktop tomber savo -> –k–t–o–p–t–o–m–b–e–r–s–a–v–o–
+77 ierungs medio grams -> –i–e–r–u–n–g–s–m–e–d–i–o–g–r–a–m–s–
+78 udy dynam ker -> –u–d–y–d–y–n–a–m–k–e–r–
+79 aturik labbra included -> –a–t–u–r–i–k–l–a–b–b–r–a–i–n–c–l–u–d–e–d–
+80 unge glucose retiring -> –u–n–g–e–g–l–u–c–o–s–e–r–e–t–i–r–i–n–g–
+81 duit team admits -> –d–u–i–t–t–e–a–m–a–d–m–i–t–s–
+82 ista limita spagnolo -> –i–s–t–a–l–i–m–i–t–a–s–p–a–g–n–o–l–o–
+83 toile irgend marcado -> –t–o–i–l–e–i–r–g–e–n–d–m–a–r–c–a–d–o–
+84 ded cho mountain -> –d–e–d–c–h–o–m–o–u–n–t–a–i–n–
+85 inald usando bathing -> –i–n–a–l–d–u–s–a–n–d–o–b–a–t–h–i–n–g–
+86 irestore beige substant -> –i–r–e–s–t–o–r–e–b–e–i–g–e–s–u–b–s–t–a–n–t–
+87 ricted utilizan dupla -> –r–i–c–t–e–d–u–t–i–l–i–z–a–n–d–u–p–l–a–
+88 liefer cierta geweest -> –l–i–e–f–e–r–c–i–e–r–t–a–g–e–w–e–e–s–t–
+89 hov anger aient -> –h–o–v–a–n–g–e–r–a–i–e–n–t–
+90 lambda tonel weakly -> –l–a–m–b–d–a–t–o–n–e–l–w–e–a–k–l–y–
+91 urname buses shares -> –u–r–n–a–m–e–b–u–s–e–s–s–h–a–r–e–s–
+92 olate pousse earned -> –o–l–a–t–e–p–o–u–s–s–e–e–a–r–n–e–d–
+93 hely grabado livro -> –h–e–l–y–g–r–a–b–a–d–o–l–i–v–r–o–
+94 ewis estima grit -> –e–w–i–s–e–s–t–i–m–a–g–r–i–t–
+95 lbum tilt believed -> –l–b–u–m–t–i–l–t–b–e–l–i–e–v–e–d–
+96 word continu os -> –w–o–r–d–c–o–n–t–i–n–u–o–s–
+97 amo villages papier -> –a–m–o–v–i–l–l–a–g–e–s–p–a–p–i–e–r–
+98 health abans valmist -> –h–e–a–l–t–h–a–b–a–n–s–v–a–l–m–i–s–t–
+99 etric umge crow -> –e–t–r–i–c–u–m–g–e–c–r–o–w–

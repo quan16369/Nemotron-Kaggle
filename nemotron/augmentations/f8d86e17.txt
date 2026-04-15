@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 adier emigr likes
+01 idus loss vio
+02 hima lights afast
+
+This is a sample output.
+00 adier emigr likes -> –a–d–i–e–r–e–m–i–g–r–l–i–k–e–s–
+01 idus loss vio -> –i–d–u–s–l–o–s–s–v–i–o–
+02 hima lights afast -> –h–i–m–a–l–i–g–h–t–s–a–f–a–s–t–
+
+This is your input.
+00 cko levant amery
+01 udes maan torr
+02 lisabeth haze vis
+03 your venue nostri
+04 ellij ajudar eligible
+05 ruz tablets alive
+06 fetch conson salinity
+07 ikoaren honek selber
+08 ics minim vo
+09 liv besta moz
+10 auses metall branco
+11 usern diode fathers
+12 gut theology posta
+13 jord jungen noches
+14 irish method caspase
+15 pelen spindle seguente
+16 utu plague spinning
+17 stack photoc sezonu
+18 wargs rx mentor
+19 ascade nyelv citoy
+20 irdi bastante spok
+21 wara obnov take
+22 bigcup artista sewing
+23 ediat trib salles
+24 oq governo para
+25 ovation tournage worried
+26 judul sucre upheld
+27 posium aur pne
+28 astre toma hits
+29 pts mesmo saber
+30 play sounds dreaming
+31 ardino reader jaune
+32 caught artifact quelque
+33 roll llegando zast
+34 akume seven polys
+35 area if fich
+36 rany fur jede
+37 plos gis rid
+38 kant nie deserted
+39 onucle sand gaan
+40 ared carnaval grown
+41 bridge propr colt
+42 illis discuter bri
+43 estinal bland bit
+44 ards dedo jos
+45 azole strcmp declarou
+46 urcht cystic designed
+47 aszt anar pelos
+48 zeko asteroid natives
+49 preter oficjal violon
+50 comes opt hak
+51 rana przed request
+52 riss factores musician
+53 were sorprend oso
+54 nsk vene exig
+55 ikes boiler julg
+56 tees slave powders
+57 ying dorp zalo
+58 signup tour agora
+59 gorod listener juht
+60 moil enligt neki
+61 pared edif veto
+62 commerce baten rigidity
+63 overty avoir put
+64 olland utvik min
+65 ivalent yuq activo
+66 enium slov znal
+67 ieme induce samostat
+68 feed colons remodel
+69 eve boss tuning
+70 hafte decree direct
+71 trieb daug esqu
+72 layout maje sahen
+73 erade kaip sages
+74 iempo garlic estados
+75 neum fonte difficol
+76 uo renders encode
+77 variant pose massimo
+78 viously starred mavsum
+79 well conocer cl
+80 empor phong expect
+81 omyc prenait samm
+82 tenant thro pengg
+83 ythmias claimed yell
+84 enerated procur publics
+85 ogan anden cooper
+86 iens poteva fmt
+87 inese dirinya nause
+88 jmu cust cleavage
+89 patible aument placer
+90 band delays jednu
+91 cline werken solitary
+92 ith blending secoua
+93 arks tong partecip
+94 yicha arose propone
+95 ostante wag quint
+96 entina bando cie
+97 afrika empresas primit
+98 atet principe ajouta
+99 agers purely unw
+[completion]
+00 cko levant amery -> –c–k–o–l–e–v–a–n–t–a–m–e–r–y–
+01 udes maan torr -> –u–d–e–s–m–a–a–n–t–o–r–r–
+02 lisabeth haze vis -> –l–i–s–a–b–e–t–h–h–a–z–e–v–i–s–
+03 your venue nostri -> –y–o–u–r–v–e–n–u–e–n–o–s–t–r–i–
+04 ellij ajudar eligible -> –e–l–l–i–j–a–j–u–d–a–r–e–l–i–g–i–b–l–e–
+05 ruz tablets alive -> –r–u–z–t–a–b–l–e–t–s–a–l–i–v–e–
+06 fetch conson salinity -> –f–e–t–c–h–c–o–n–s–o–n–s–a–l–i–n–i–t–y–
+07 ikoaren honek selber -> –i–k–o–a–r–e–n–h–o–n–e–k–s–e–l–b–e–r–
+08 ics minim vo -> –i–c–s–m–i–n–i–m–v–o–
+09 liv besta moz -> –l–i–v–b–e–s–t–a–m–o–z–
+10 auses metall branco -> –a–u–s–e–s–m–e–t–a–l–l–b–r–a–n–c–o–
+11 usern diode fathers -> –u–s–e–r–n–d–i–o–d–e–f–a–t–h–e–r–s–
+12 gut theology posta -> –g–u–t–t–h–e–o–l–o–g–y–p–o–s–t–a–
+13 jord jungen noches -> –j–o–r–d–j–u–n–g–e–n–n–o–c–h–e–s–
+14 irish method caspase -> –i–r–i–s–h–m–e–t–h–o–d–c–a–s–p–a–s–e–
+15 pelen spindle seguente -> –p–e–l–e–n–s–p–i–n–d–l–e–s–e–g–u–e–n–t–e–
+16 utu plague spinning -> –u–t–u–p–l–a–g–u–e–s–p–i–n–n–i–n–g–
+17 stack photoc sezonu -> –s–t–a–c–k–p–h–o–t–o–c–s–e–z–o–n–u–
+18 wargs rx mentor -> –w–a–r–g–s–r–x–m–e–n–t–o–r–
+19 ascade nyelv citoy -> –a–s–c–a–d–e–n–y–e–l–v–c–i–t–o–y–
+20 irdi bastante spok -> –i–r–d–i–b–a–s–t–a–n–t–e–s–p–o–k–
+21 wara obnov take -> –w–a–r–a–o–b–n–o–v–t–a–k–e–
+22 bigcup artista sewing -> –b–i–g–c–u–p–a–r–t–i–s–t–a–s–e–w–i–n–g–
+23 ediat trib salles -> –e–d–i–a–t–t–r–i–b–s–a–l–l–e–s–
+24 oq governo para -> –o–q–g–o–v–e–r–n–o–p–a–r–a–
+25 ovation tournage worried -> –o–v–a–t–i–o–n–t–o–u–r–n–a–g–e–w–o–r–r–i–e–d–
+26 judul sucre upheld -> –j–u–d–u–l–s–u–c–r–e–u–p–h–e–l–d–
+27 posium aur pne -> –p–o–s–i–u–m–a–u–r–p–n–e–
+28 astre toma hits -> –a–s–t–r–e–t–o–m–a–h–i–t–s–
+29 pts mesmo saber -> –p–t–s–m–e–s–m–o–s–a–b–e–r–
+30 play sounds dreaming -> –p–l–a–y–s–o–u–n–d–s–d–r–e–a–m–i–n–g–
+31 ardino reader jaune -> –a–r–d–i–n–o–r–e–a–d–e–r–j–a–u–n–e–
+32 caught artifact quelque -> –c–a–u–g–h–t–a–r–t–i–f–a–c–t–q–u–e–l–q–u–e–
+33 roll llegando zast -> –r–o–l–l–l–l–e–g–a–n–d–o–z–a–s–t–
+34 akume seven polys -> –a–k–u–m–e–s–e–v–e–n–p–o–l–y–s–
+35 area if fich -> –a–r–e–a–i–f–f–i–c–h–
+36 rany fur jede -> –r–a–n–y–f–u–r–j–e–d–e–
+37 plos gis rid -> –p–l–o–s–g–i–s–r–i–d–
+38 kant nie deserted -> –k–a–n–t–n–i–e–d–e–s–e–r–t–e–d–
+39 onucle sand gaan -> –o–n–u–c–l–e–s–a–n–d–g–a–a–n–
+40 ared carnaval grown -> –a–r–e–d–c–a–r–n–a–v–a–l–g–r–o–w–n–
+41 bridge propr colt -> –b–r–i–d–g–e–p–r–o–p–r–c–o–l–t–
+42 illis discuter bri -> –i–l–l–i–s–d–i–s–c–u–t–e–r–b–r–i–
+43 estinal bland bit -> –e–s–t–i–n–a–l–b–l–a–n–d–b–i–t–
+44 ards dedo jos -> –a–r–d–s–d–e–d–o–j–o–s–
+45 azole strcmp declarou -> –a–z–o–l–e–s–t–r–c–m–p–d–e–c–l–a–r–o–u–
+46 urcht cystic designed -> –u–r–c–h–t–c–y–s–t–i–c–d–e–s–i–g–n–e–d–
+47 aszt anar pelos -> –a–s–z–t–a–n–a–r–p–e–l–o–s–
+48 zeko asteroid natives -> –z–e–k–o–a–s–t–e–r–o–i–d–n–a–t–i–v–e–s–
+49 preter oficjal violon -> –p–r–e–t–e–r–o–f–i–c–j–a–l–v–i–o–l–o–n–
+50 comes opt hak -> –c–o–m–e–s–o–p–t–h–a–k–
+51 rana przed request -> –r–a–n–a–p–r–z–e–d–r–e–q–u–e–s–t–
+52 riss factores musician -> –r–i–s–s–f–a–c–t–o–r–e–s–m–u–s–i–c–i–a–n–
+53 were sorprend oso -> –w–e–r–e–s–o–r–p–r–e–n–d–o–s–o–
+54 nsk vene exig -> –n–s–k–v–e–n–e–e–x–i–g–
+55 ikes boiler julg -> –i–k–e–s–b–o–i–l–e–r–j–u–l–g–
+56 tees slave powders -> –t–e–e–s–s–l–a–v–e–p–o–w–d–e–r–s–
+57 ying dorp zalo -> –y–i–n–g–d–o–r–p–z–a–l–o–
+58 signup tour agora -> –s–i–g–n–u–p–t–o–u–r–a–g–o–r–a–
+59 gorod listener juht -> –g–o–r–o–d–l–i–s–t–e–n–e–r–j–u–h–t–
+60 moil enligt neki -> –m–o–i–l–e–n–l–i–g–t–n–e–k–i–
+61 pared edif veto -> –p–a–r–e–d–e–d–i–f–v–e–t–o–
+62 commerce baten rigidity -> –c–o–m–m–e–r–c–e–b–a–t–e–n–r–i–g–i–d–i–t–y–
+63 overty avoir put -> –o–v–e–r–t–y–a–v–o–i–r–p–u–t–
+64 olland utvik min -> –o–l–l–a–n–d–u–t–v–i–k–m–i–n–
+65 ivalent yuq activo -> –i–v–a–l–e–n–t–y–u–q–a–c–t–i–v–o–
+66 enium slov znal -> –e–n–i–u–m–s–l–o–v–z–n–a–l–
+67 ieme induce samostat -> –i–e–m–e–i–n–d–u–c–e–s–a–m–o–s–t–a–t–
+68 feed colons remodel -> –f–e–e–d–c–o–l–o–n–s–r–e–m–o–d–e–l–
+69 eve boss tuning -> –e–v–e–b–o–s–s–t–u–n–i–n–g–
+70 hafte decree direct -> –h–a–f–t–e–d–e–c–r–e–e–d–i–r–e–c–t–
+71 trieb daug esqu -> –t–r–i–e–b–d–a–u–g–e–s–q–u–
+72 layout maje sahen -> –l–a–y–o–u–t–m–a–j–e–s–a–h–e–n–
+73 erade kaip sages -> –e–r–a–d–e–k–a–i–p–s–a–g–e–s–
+74 iempo garlic estados -> –i–e–m–p–o–g–a–r–l–i–c–e–s–t–a–d–o–s–
+75 neum fonte difficol -> –n–e–u–m–f–o–n–t–e–d–i–f–f–i–c–o–l–
+76 uo renders encode -> –u–o–r–e–n–d–e–r–s–e–n–c–o–d–e–
+77 variant pose massimo -> –v–a–r–i–a–n–t–p–o–s–e–m–a–s–s–i–m–o–
+78 viously starred mavsum -> –v–i–o–u–s–l–y–s–t–a–r–r–e–d–m–a–v–s–u–m–
+79 well conocer cl -> –w–e–l–l–c–o–n–o–c–e–r–c–l–
+80 empor phong expect -> –e–m–p–o–r–p–h–o–n–g–e–x–p–e–c–t–
+81 omyc prenait samm -> –o–m–y–c–p–r–e–n–a–i–t–s–a–m–m–
+82 tenant thro pengg -> –t–e–n–a–n–t–t–h–r–o–p–e–n–g–g–
+83 ythmias claimed yell -> –y–t–h–m–i–a–s–c–l–a–i–m–e–d–y–e–l–l–
+84 enerated procur publics -> –e–n–e–r–a–t–e–d–p–r–o–c–u–r–p–u–b–l–i–c–s–
+85 ogan anden cooper -> –o–g–a–n–a–n–d–e–n–c–o–o–p–e–r–
+86 iens poteva fmt -> –i–e–n–s–p–o–t–e–v–a–f–m–t–
+87 inese dirinya nause -> –i–n–e–s–e–d–i–r–i–n–y–a–n–a–u–s–e–
+88 jmu cust cleavage -> –j–m–u–c–u–s–t–c–l–e–a–v–a–g–e–
+89 patible aument placer -> –p–a–t–i–b–l–e–a–u–m–e–n–t–p–l–a–c–e–r–
+90 band delays jednu -> –b–a–n–d–d–e–l–a–y–s–j–e–d–n–u–
+91 cline werken solitary -> –c–l–i–n–e–w–e–r–k–e–n–s–o–l–i–t–a–r–y–
+92 ith blending secoua -> –i–t–h–b–l–e–n–d–i–n–g–s–e–c–o–u–a–
+93 arks tong partecip -> –a–r–k–s–t–o–n–g–p–a–r–t–e–c–i–p–
+94 yicha arose propone -> –y–i–c–h–a–a–r–o–s–e–p–r–o–p–o–n–e–
+95 ostante wag quint -> –o–s–t–a–n–t–e–w–a–g–q–u–i–n–t–
+96 entina bando cie -> –e–n–t–i–n–a–b–a–n–d–o–c–i–e–
+97 afrika empresas primit -> –a–f–r–i–k–a–e–m–p–r–e–s–a–s–p–r–i–m–i–t–
+98 atet principe ajouta -> –a–t–e–t–p–r–i–n–c–i–p–e–a–j–o–u–t–a–
+99 agers purely unw -> –a–g–e–r–s–p–u–r–e–l–y–u–n–w–

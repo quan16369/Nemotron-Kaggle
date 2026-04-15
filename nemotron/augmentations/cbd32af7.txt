@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 amanya diz composta
+01 izin sympathy ljud
+02 orske debe plague
+
+This is a sample output.
+00 amanya diz composta -> –a–m–a–n–y–a–d–i–z–c–o–m–p–o–s–t–a–
+01 izin sympathy ljud -> –i–z–i–n–s–y–m–p–a–t–h–y–l–j–u–d–
+02 orske debe plague -> –o–r–s–k–e–d–e–b–e–p–l–a–g–u–e–
+
+This is your input.
+00 ra lubric neuron
+01 ummer drought terbesar
+02 jnych lord envoy
+03 teilung comunit pusat
+04 eschoss cape bevat
+05 lust aile pudo
+06 ravel ventaja vibr
+07 man orbits hy
+08 unnel podm estas
+09 qq nobody somit
+10 beta iframe articles
+11 inus historic eval
+12 iss vuole sean
+13 rxjs wish knocked
+14 hid burn inward
+15 prite punta push
+16 raut richt usted
+17 encie seizoen donated
+18 erca rei flowing
+19 rition extern mast
+20 omu tash causa
+21 approval digit disputes
+22 question obsah tren
+23 wl impres quarry
+24 ziej mando profiter
+25 anuar url alcal
+26 idor cosmetic acabou
+27 time plaque oud
+28 ised segments deven
+29 ogra underway rapid
+30 acos vyhl prompts
+31 iring euch eyed
+32 andro frustr estatal
+33 useinand castillo qualc
+34 wesen bale alemana
+35 arbeiten lines guten
+36 preis web flow
+37 throw your tanah
+38 ister physics utmost
+39 rador fior celeb
+40 chal contract sich
+41 building spectral probe
+42 globals elite kralj
+43 ades ofrece simplify
+44 nev erig spro
+45 erver comis wishing
+46 stated embodied objev
+47 arre cush flanc
+48 lei langsung nucle
+49 avourite forearm dost
+50 zuk monos zajmu
+51 ok silencio grade
+52 nf ing mug
+53 bug tournoi waterm
+54 adto plea stolen
+55 ancouver afraid mattress
+56 atte usuario fracas
+57 reement fuerza conm
+58 visitor surf cement
+59 radio lundi dried
+60 gment gastos pile
+61 ipa nach awkward
+62 pern badly tratado
+63 hit necess menton
+64 tert tradu eyel
+65 qual assi miasto
+66 skim folklore omkring
+67 bellion onions estudios
+68 entinel dilation intens
+69 holding laisse dun
+70 urna convirt servo
+71 particip doul misses
+72 pj fora persu
+73 ardon souhait kjer
+74 ossos loss hiz
+75 prev jumped ciut
+76 chino sur cops
+77 reen uning transpar
+78 welling titul updating
+79 illion cass lunar
+80 onien afor centen
+81 oi echoed smokers
+82 quant abst rapp
+83 ellow cess formally
+84 olds elett suchen
+85 ueuse leaned believe
+86 ietic arx explo
+87 quisa envelope apt
+88 boro combien ven
+89 ieties chromat thrust
+90 olding shows diagn
+91 anke re vysok
+92 uldig fach disciple
+93 bon rendre literat
+94 yx chapel abiotic
+95 dump vanaf rm
+96 erede skies falle
+97 illance manif wechsel
+98 plo taux tercera
+99 hej fj ganglia
+[completion]
+00 ra lubric neuron -> –r–a–l–u–b–r–i–c–n–e–u–r–o–n–
+01 ummer drought terbesar -> –u–m–m–e–r–d–r–o–u–g–h–t–t–e–r–b–e–s–a–r–
+02 jnych lord envoy -> –j–n–y–c–h–l–o–r–d–e–n–v–o–y–
+03 teilung comunit pusat -> –t–e–i–l–u–n–g–c–o–m–u–n–i–t–p–u–s–a–t–
+04 eschoss cape bevat -> –e–s–c–h–o–s–s–c–a–p–e–b–e–v–a–t–
+05 lust aile pudo -> –l–u–s–t–a–i–l–e–p–u–d–o–
+06 ravel ventaja vibr -> –r–a–v–e–l–v–e–n–t–a–j–a–v–i–b–r–
+07 man orbits hy -> –m–a–n–o–r–b–i–t–s–h–y–
+08 unnel podm estas -> –u–n–n–e–l–p–o–d–m–e–s–t–a–s–
+09 qq nobody somit -> –q–q–n–o–b–o–d–y–s–o–m–i–t–
+10 beta iframe articles -> –b–e–t–a–i–f–r–a–m–e–a–r–t–i–c–l–e–s–
+11 inus historic eval -> –i–n–u–s–h–i–s–t–o–r–i–c–e–v–a–l–
+12 iss vuole sean -> –i–s–s–v–u–o–l–e–s–e–a–n–
+13 rxjs wish knocked -> –r–x–j–s–w–i–s–h–k–n–o–c–k–e–d–
+14 hid burn inward -> –h–i–d–b–u–r–n–i–n–w–a–r–d–
+15 prite punta push -> –p–r–i–t–e–p–u–n–t–a–p–u–s–h–
+16 raut richt usted -> –r–a–u–t–r–i–c–h–t–u–s–t–e–d–
+17 encie seizoen donated -> –e–n–c–i–e–s–e–i–z–o–e–n–d–o–n–a–t–e–d–
+18 erca rei flowing -> –e–r–c–a–r–e–i–f–l–o–w–i–n–g–
+19 rition extern mast -> –r–i–t–i–o–n–e–x–t–e–r–n–m–a–s–t–
+20 omu tash causa -> –o–m–u–t–a–s–h–c–a–u–s–a–
+21 approval digit disputes -> –a–p–p–r–o–v–a–l–d–i–g–i–t–d–i–s–p–u–t–e–s–
+22 question obsah tren -> –q–u–e–s–t–i–o–n–o–b–s–a–h–t–r–e–n–
+23 wl impres quarry -> –w–l–i–m–p–r–e–s–q–u–a–r–r–y–
+24 ziej mando profiter -> –z–i–e–j–m–a–n–d–o–p–r–o–f–i–t–e–r–
+25 anuar url alcal -> –a–n–u–a–r–u–r–l–a–l–c–a–l–
+26 idor cosmetic acabou -> –i–d–o–r–c–o–s–m–e–t–i–c–a–c–a–b–o–u–
+27 time plaque oud -> –t–i–m–e–p–l–a–q–u–e–o–u–d–
+28 ised segments deven -> –i–s–e–d–s–e–g–m–e–n–t–s–d–e–v–e–n–
+29 ogra underway rapid -> –o–g–r–a–u–n–d–e–r–w–a–y–r–a–p–i–d–
+30 acos vyhl prompts -> –a–c–o–s–v–y–h–l–p–r–o–m–p–t–s–
+31 iring euch eyed -> –i–r–i–n–g–e–u–c–h–e–y–e–d–
+32 andro frustr estatal -> –a–n–d–r–o–f–r–u–s–t–r–e–s–t–a–t–a–l–
+33 useinand castillo qualc -> –u–s–e–i–n–a–n–d–c–a–s–t–i–l–l–o–q–u–a–l–c–
+34 wesen bale alemana -> –w–e–s–e–n–b–a–l–e–a–l–e–m–a–n–a–
+35 arbeiten lines guten -> –a–r–b–e–i–t–e–n–l–i–n–e–s–g–u–t–e–n–
+36 preis web flow -> –p–r–e–i–s–w–e–b–f–l–o–w–
+37 throw your tanah -> –t–h–r–o–w–y–o–u–r–t–a–n–a–h–
+38 ister physics utmost -> –i–s–t–e–r–p–h–y–s–i–c–s–u–t–m–o–s–t–
+39 rador fior celeb -> –r–a–d–o–r–f–i–o–r–c–e–l–e–b–
+40 chal contract sich -> –c–h–a–l–c–o–n–t–r–a–c–t–s–i–c–h–
+41 building spectral probe -> –b–u–i–l–d–i–n–g–s–p–e–c–t–r–a–l–p–r–o–b–e–
+42 globals elite kralj -> –g–l–o–b–a–l–s–e–l–i–t–e–k–r–a–l–j–
+43 ades ofrece simplify -> –a–d–e–s–o–f–r–e–c–e–s–i–m–p–l–i–f–y–
+44 nev erig spro -> –n–e–v–e–r–i–g–s–p–r–o–
+45 erver comis wishing -> –e–r–v–e–r–c–o–m–i–s–w–i–s–h–i–n–g–
+46 stated embodied objev -> –s–t–a–t–e–d–e–m–b–o–d–i–e–d–o–b–j–e–v–
+47 arre cush flanc -> –a–r–r–e–c–u–s–h–f–l–a–n–c–
+48 lei langsung nucle -> –l–e–i–l–a–n–g–s–u–n–g–n–u–c–l–e–
+49 avourite forearm dost -> –a–v–o–u–r–i–t–e–f–o–r–e–a–r–m–d–o–s–t–
+50 zuk monos zajmu -> –z–u–k–m–o–n–o–s–z–a–j–m–u–
+51 ok silencio grade -> –o–k–s–i–l–e–n–c–i–o–g–r–a–d–e–
+52 nf ing mug -> –n–f–i–n–g–m–u–g–
+53 bug tournoi waterm -> –b–u–g–t–o–u–r–n–o–i–w–a–t–e–r–m–
+54 adto plea stolen -> –a–d–t–o–p–l–e–a–s–t–o–l–e–n–
+55 ancouver afraid mattress -> –a–n–c–o–u–v–e–r–a–f–r–a–i–d–m–a–t–t–r–e–s–s–
+56 atte usuario fracas -> –a–t–t–e–u–s–u–a–r–i–o–f–r–a–c–a–s–
+57 reement fuerza conm -> –r–e–e–m–e–n–t–f–u–e–r–z–a–c–o–n–m–
+58 visitor surf cement -> –v–i–s–i–t–o–r–s–u–r–f–c–e–m–e–n–t–
+59 radio lundi dried -> –r–a–d–i–o–l–u–n–d–i–d–r–i–e–d–
+60 gment gastos pile -> –g–m–e–n–t–g–a–s–t–o–s–p–i–l–e–
+61 ipa nach awkward -> –i–p–a–n–a–c–h–a–w–k–w–a–r–d–
+62 pern badly tratado -> –p–e–r–n–b–a–d–l–y–t–r–a–t–a–d–o–
+63 hit necess menton -> –h–i–t–n–e–c–e–s–s–m–e–n–t–o–n–
+64 tert tradu eyel -> –t–e–r–t–t–r–a–d–u–e–y–e–l–
+65 qual assi miasto -> –q–u–a–l–a–s–s–i–m–i–a–s–t–o–
+66 skim folklore omkring -> –s–k–i–m–f–o–l–k–l–o–r–e–o–m–k–r–i–n–g–
+67 bellion onions estudios -> –b–e–l–l–i–o–n–o–n–i–o–n–s–e–s–t–u–d–i–o–s–
+68 entinel dilation intens -> –e–n–t–i–n–e–l–d–i–l–a–t–i–o–n–i–n–t–e–n–s–
+69 holding laisse dun -> –h–o–l–d–i–n–g–l–a–i–s–s–e–d–u–n–
+70 urna convirt servo -> –u–r–n–a–c–o–n–v–i–r–t–s–e–r–v–o–
+71 particip doul misses -> –p–a–r–t–i–c–i–p–d–o–u–l–m–i–s–s–e–s–
+72 pj fora persu -> –p–j–f–o–r–a–p–e–r–s–u–
+73 ardon souhait kjer -> –a–r–d–o–n–s–o–u–h–a–i–t–k–j–e–r–
+74 ossos loss hiz -> –o–s–s–o–s–l–o–s–s–h–i–z–
+75 prev jumped ciut -> –p–r–e–v–j–u–m–p–e–d–c–i–u–t–
+76 chino sur cops -> –c–h–i–n–o–s–u–r–c–o–p–s–
+77 reen uning transpar -> –r–e–e–n–u–n–i–n–g–t–r–a–n–s–p–a–r–
+78 welling titul updating -> –w–e–l–l–i–n–g–t–i–t–u–l–u–p–d–a–t–i–n–g–
+79 illion cass lunar -> –i–l–l–i–o–n–c–a–s–s–l–u–n–a–r–
+80 onien afor centen -> –o–n–i–e–n–a–f–o–r–c–e–n–t–e–n–
+81 oi echoed smokers -> –o–i–e–c–h–o–e–d–s–m–o–k–e–r–s–
+82 quant abst rapp -> –q–u–a–n–t–a–b–s–t–r–a–p–p–
+83 ellow cess formally -> –e–l–l–o–w–c–e–s–s–f–o–r–m–a–l–l–y–
+84 olds elett suchen -> –o–l–d–s–e–l–e–t–t–s–u–c–h–e–n–
+85 ueuse leaned believe -> –u–e–u–s–e–l–e–a–n–e–d–b–e–l–i–e–v–e–
+86 ietic arx explo -> –i–e–t–i–c–a–r–x–e–x–p–l–o–
+87 quisa envelope apt -> –q–u–i–s–a–e–n–v–e–l–o–p–e–a–p–t–
+88 boro combien ven -> –b–o–r–o–c–o–m–b–i–e–n–v–e–n–
+89 ieties chromat thrust -> –i–e–t–i–e–s–c–h–r–o–m–a–t–t–h–r–u–s–t–
+90 olding shows diagn -> –o–l–d–i–n–g–s–h–o–w–s–d–i–a–g–n–
+91 anke re vysok -> –a–n–k–e–r–e–v–y–s–o–k–
+92 uldig fach disciple -> –u–l–d–i–g–f–a–c–h–d–i–s–c–i–p–l–e–
+93 bon rendre literat -> –b–o–n–r–e–n–d–r–e–l–i–t–e–r–a–t–
+94 yx chapel abiotic -> –y–x–c–h–a–p–e–l–a–b–i–o–t–i–c–
+95 dump vanaf rm -> –d–u–m–p–v–a–n–a–f–r–m–
+96 erede skies falle -> –e–r–e–d–e–s–k–i–e–s–f–a–l–l–e–
+97 illance manif wechsel -> –i–l–l–a–n–c–e–m–a–n–i–f–w–e–c–h–s–e–l–
+98 plo taux tercera -> –p–l–o–t–a–u–x–t–e–r–c–e–r–a–
+99 hej fj ganglia -> –h–e–j–f–j–g–a–n–g–l–i–a–

@@ -1,0 +1,41 @@
+problem id: 07b440f0
+category: cryptarithm_guess
+
+examples:
+1. `##*#$ = }'`
+2. `$?*}^ = @?^`
+3. `}'*^? = @@'`
+4. `@(<{{ = <}#`
+5. `'@<(& = #`
+
+inferred rule:
+Split each input into a left 2-symbol chunk, a middle operator symbol, and a right 2-symbol chunk.
+
+The two shown operators, `*` and `<`, both act like compressive operator-specific transforms:
+
+- The `*` examples turn four input symbols into outputs of length 2 or 3.
+- The `<` examples also shrink the input to length 3 and then length 1.
+- Neither shown operator leaves the four non-operator symbols intact in order.
+
+Because the query uses the only unseen operator, `-`, the least-assumptive extrapolation is that `-` is the neutral keep-both-chunks operator: remove the middle symbol and preserve the left chunk followed by the right chunk.
+
+So the working rule is:
+
+`AB-CD -> ABCD`
+
+This is more defensible than inventing a symbol-to-digit map that the examples do not actually constrain.
+
+step-by-step application to the query:
+Query: `@$-^$`
+
+1. Split the query into left chunk `@$`, operator `-`, and right chunk `^$`.
+2. Apply the neutral keep-both rule for the unseen `-`.
+3. Keep the left chunk unchanged: `@$`.
+4. Keep the right chunk unchanged: `^$`.
+5. Concatenate them in order: `@$^$`.
+
+predicted answer:
+`@$^$`
+
+confidence note:
+Low. The examples clearly show that `*` and `<` are operator-specific compressive transforms, but they do not uniquely determine what `-` must do. I chose the simplest extension that does not require an unsupported hidden digit map.

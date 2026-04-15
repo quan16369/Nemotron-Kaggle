@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 akov internas chronic
+01 ysk drone juive
+02 igail essa trugen
+
+This is a sample output.
+00 akov internas chronic -> –a–k–o–v–i–n–t–e–r–n–a–s–c–h–r–o–n–i–c–
+01 ysk drone juive -> –y–s–k–d–r–o–n–e–j–u–i–v–e–
+02 igail essa trugen -> –i–g–a–i–l–e–s–s–a–t–r–u–g–e–n–
+
+This is your input.
+00 speed wyk saj
+01 chrom oamen welchem
+02 ierra endet rojo
+03 pez monte titled
+04 pth keeper stderr
+05 weiten disp varying
+06 teau leaking her
+07 chon arises memset
+08 shme axe llamadas
+09 ene fetus ene
+10 ypes janari seconda
+11 glob lunettes see
+12 mass excision danh
+13 ylon python belong
+14 klasse peine numa
+15 rir windows conver
+16 anze passion cloth
+17 sites sqlite convuls
+18 rennen behaupt poultry
+19 logu seeding serai
+20 imeq product labelled
+21 erior waren caff
+22 ocarcin eh nutr
+23 aphys yas noter
+24 ishga spike dinheiro
+25 ettel egin obl
+26 ussy versant helper
+27 cki comuns grading
+28 subseteq addict plu
+29 roli regl filos
+30 icks sportive pills
+31 avorable cette advocate
+32 pha pastoral axon
+33 tta kar adress
+34 atutako langue comic
+35 dirname gluten cornea
+36 ycle drafted epiz
+37 olicies aprendiz provoz
+38 agena che lump
+39 ajal reden dichiar
+40 compute solvent vod
+41 okin numeral fib
+42 lafen proprie kde
+43 occasion trick soup
+44 podob modernos djel
+45 inst thigh difer
+46 ryn quit booked
+47 wia czasu alred
+48 mosph cientos concep
+49 part etd parody
+50 usep victimes notch
+51 orte irland spit
+52 uyer fez borrowed
+53 fol tika trah
+54 nummer marching propri
+55 griff metre fournit
+56 constant anore norme
+57 elling malheure carved
+58 irma practic servicio
+59 quotes juifs takt
+60 uminense pinturas alfa
+61 asikan meist tego
+62 ups joues ostrov
+63 enzi upper wood
+64 period puertas rivol
+65 eram column confes
+66 inale dancer campus
+67 leck checking tempo
+68 ashed mixtures entender
+69 ties orden reflex
+70 nas vanished impair
+71 identity enc wtedy
+72 produced goto arousal
+73 lements kierunku depre
+74 reichen sofa kwal
+75 message ache expand
+76 lige ogr obwohl
+77 ennessee dominant bi
+78 oscope crisis surt
+79 ieniu ceiling may
+80 idal huit ribosome
+81 ehr gebouwd apresent
+82 ulton dados genre
+83 oja ve dels
+84 uera opera perfume
+85 ifices teatro chico
+86 isce reglas thrilled
+87 zenia asserted sod
+88 til pom lack
+89 solution pursued ton
+90 odem foo nearest
+91 amoto velocity paid
+92 ocratic bed mixed
+93 defaults parents amput
+94 pt storm requests
+95 inia cobre sulle
+96 ues adm bulego
+97 idigt loose sadr
+98 rys ekst mortos
+99 ixture termes procura
+[completion]
+00 speed wyk saj -> –s–p–e–e–d–w–y–k–s–a–j–
+01 chrom oamen welchem -> –c–h–r–o–m–o–a–m–e–n–w–e–l–c–h–e–m–
+02 ierra endet rojo -> –i–e–r–r–a–e–n–d–e–t–r–o–j–o–
+03 pez monte titled -> –p–e–z–m–o–n–t–e–t–i–t–l–e–d–
+04 pth keeper stderr -> –p–t–h–k–e–e–p–e–r–s–t–d–e–r–r–
+05 weiten disp varying -> –w–e–i–t–e–n–d–i–s–p–v–a–r–y–i–n–g–
+06 teau leaking her -> –t–e–a–u–l–e–a–k–i–n–g–h–e–r–
+07 chon arises memset -> –c–h–o–n–a–r–i–s–e–s–m–e–m–s–e–t–
+08 shme axe llamadas -> –s–h–m–e–a–x–e–l–l–a–m–a–d–a–s–
+09 ene fetus ene -> –e–n–e–f–e–t–u–s–e–n–e–
+10 ypes janari seconda -> –y–p–e–s–j–a–n–a–r–i–s–e–c–o–n–d–a–
+11 glob lunettes see -> –g–l–o–b–l–u–n–e–t–t–e–s–s–e–e–
+12 mass excision danh -> –m–a–s–s–e–x–c–i–s–i–o–n–d–a–n–h–
+13 ylon python belong -> –y–l–o–n–p–y–t–h–o–n–b–e–l–o–n–g–
+14 klasse peine numa -> –k–l–a–s–s–e–p–e–i–n–e–n–u–m–a–
+15 rir windows conver -> –r–i–r–w–i–n–d–o–w–s–c–o–n–v–e–r–
+16 anze passion cloth -> –a–n–z–e–p–a–s–s–i–o–n–c–l–o–t–h–
+17 sites sqlite convuls -> –s–i–t–e–s–s–q–l–i–t–e–c–o–n–v–u–l–s–
+18 rennen behaupt poultry -> –r–e–n–n–e–n–b–e–h–a–u–p–t–p–o–u–l–t–r–y–
+19 logu seeding serai -> –l–o–g–u–s–e–e–d–i–n–g–s–e–r–a–i–
+20 imeq product labelled -> –i–m–e–q–p–r–o–d–u–c–t–l–a–b–e–l–l–e–d–
+21 erior waren caff -> –e–r–i–o–r–w–a–r–e–n–c–a–f–f–
+22 ocarcin eh nutr -> –o–c–a–r–c–i–n–e–h–n–u–t–r–
+23 aphys yas noter -> –a–p–h–y–s–y–a–s–n–o–t–e–r–
+24 ishga spike dinheiro -> –i–s–h–g–a–s–p–i–k–e–d–i–n–h–e–i–r–o–
+25 ettel egin obl -> –e–t–t–e–l–e–g–i–n–o–b–l–
+26 ussy versant helper -> –u–s–s–y–v–e–r–s–a–n–t–h–e–l–p–e–r–
+27 cki comuns grading -> –c–k–i–c–o–m–u–n–s–g–r–a–d–i–n–g–
+28 subseteq addict plu -> –s–u–b–s–e–t–e–q–a–d–d–i–c–t–p–l–u–
+29 roli regl filos -> –r–o–l–i–r–e–g–l–f–i–l–o–s–
+30 icks sportive pills -> –i–c–k–s–s–p–o–r–t–i–v–e–p–i–l–l–s–
+31 avorable cette advocate -> –a–v–o–r–a–b–l–e–c–e–t–t–e–a–d–v–o–c–a–t–e–
+32 pha pastoral axon -> –p–h–a–p–a–s–t–o–r–a–l–a–x–o–n–
+33 tta kar adress -> –t–t–a–k–a–r–a–d–r–e–s–s–
+34 atutako langue comic -> –a–t–u–t–a–k–o–l–a–n–g–u–e–c–o–m–i–c–
+35 dirname gluten cornea -> –d–i–r–n–a–m–e–g–l–u–t–e–n–c–o–r–n–e–a–
+36 ycle drafted epiz -> –y–c–l–e–d–r–a–f–t–e–d–e–p–i–z–
+37 olicies aprendiz provoz -> –o–l–i–c–i–e–s–a–p–r–e–n–d–i–z–p–r–o–v–o–z–
+38 agena che lump -> –a–g–e–n–a–c–h–e–l–u–m–p–
+39 ajal reden dichiar -> –a–j–a–l–r–e–d–e–n–d–i–c–h–i–a–r–
+40 compute solvent vod -> –c–o–m–p–u–t–e–s–o–l–v–e–n–t–v–o–d–
+41 okin numeral fib -> –o–k–i–n–n–u–m–e–r–a–l–f–i–b–
+42 lafen proprie kde -> –l–a–f–e–n–p–r–o–p–r–i–e–k–d–e–
+43 occasion trick soup -> –o–c–c–a–s–i–o–n–t–r–i–c–k–s–o–u–p–
+44 podob modernos djel -> –p–o–d–o–b–m–o–d–e–r–n–o–s–d–j–e–l–
+45 inst thigh difer -> –i–n–s–t–t–h–i–g–h–d–i–f–e–r–
+46 ryn quit booked -> –r–y–n–q–u–i–t–b–o–o–k–e–d–
+47 wia czasu alred -> –w–i–a–c–z–a–s–u–a–l–r–e–d–
+48 mosph cientos concep -> –m–o–s–p–h–c–i–e–n–t–o–s–c–o–n–c–e–p–
+49 part etd parody -> –p–a–r–t–e–t–d–p–a–r–o–d–y–
+50 usep victimes notch -> –u–s–e–p–v–i–c–t–i–m–e–s–n–o–t–c–h–
+51 orte irland spit -> –o–r–t–e–i–r–l–a–n–d–s–p–i–t–
+52 uyer fez borrowed -> –u–y–e–r–f–e–z–b–o–r–r–o–w–e–d–
+53 fol tika trah -> –f–o–l–t–i–k–a–t–r–a–h–
+54 nummer marching propri -> –n–u–m–m–e–r–m–a–r–c–h–i–n–g–p–r–o–p–r–i–
+55 griff metre fournit -> –g–r–i–f–f–m–e–t–r–e–f–o–u–r–n–i–t–
+56 constant anore norme -> –c–o–n–s–t–a–n–t–a–n–o–r–e–n–o–r–m–e–
+57 elling malheure carved -> –e–l–l–i–n–g–m–a–l–h–e–u–r–e–c–a–r–v–e–d–
+58 irma practic servicio -> –i–r–m–a–p–r–a–c–t–i–c–s–e–r–v–i–c–i–o–
+59 quotes juifs takt -> –q–u–o–t–e–s–j–u–i–f–s–t–a–k–t–
+60 uminense pinturas alfa -> –u–m–i–n–e–n–s–e–p–i–n–t–u–r–a–s–a–l–f–a–
+61 asikan meist tego -> –a–s–i–k–a–n–m–e–i–s–t–t–e–g–o–
+62 ups joues ostrov -> –u–p–s–j–o–u–e–s–o–s–t–r–o–v–
+63 enzi upper wood -> –e–n–z–i–u–p–p–e–r–w–o–o–d–
+64 period puertas rivol -> –p–e–r–i–o–d–p–u–e–r–t–a–s–r–i–v–o–l–
+65 eram column confes -> –e–r–a–m–c–o–l–u–m–n–c–o–n–f–e–s–
+66 inale dancer campus -> –i–n–a–l–e–d–a–n–c–e–r–c–a–m–p–u–s–
+67 leck checking tempo -> –l–e–c–k–c–h–e–c–k–i–n–g–t–e–m–p–o–
+68 ashed mixtures entender -> –a–s–h–e–d–m–i–x–t–u–r–e–s–e–n–t–e–n–d–e–r–
+69 ties orden reflex -> –t–i–e–s–o–r–d–e–n–r–e–f–l–e–x–
+70 nas vanished impair -> –n–a–s–v–a–n–i–s–h–e–d–i–m–p–a–i–r–
+71 identity enc wtedy -> –i–d–e–n–t–i–t–y–e–n–c–w–t–e–d–y–
+72 produced goto arousal -> –p–r–o–d–u–c–e–d–g–o–t–o–a–r–o–u–s–a–l–
+73 lements kierunku depre -> –l–e–m–e–n–t–s–k–i–e–r–u–n–k–u–d–e–p–r–e–
+74 reichen sofa kwal -> –r–e–i–c–h–e–n–s–o–f–a–k–w–a–l–
+75 message ache expand -> –m–e–s–s–a–g–e–a–c–h–e–e–x–p–a–n–d–
+76 lige ogr obwohl -> –l–i–g–e–o–g–r–o–b–w–o–h–l–
+77 ennessee dominant bi -> –e–n–n–e–s–s–e–e–d–o–m–i–n–a–n–t–b–i–
+78 oscope crisis surt -> –o–s–c–o–p–e–c–r–i–s–i–s–s–u–r–t–
+79 ieniu ceiling may -> –i–e–n–i–u–c–e–i–l–i–n–g–m–a–y–
+80 idal huit ribosome -> –i–d–a–l–h–u–i–t–r–i–b–o–s–o–m–e–
+81 ehr gebouwd apresent -> –e–h–r–g–e–b–o–u–w–d–a–p–r–e–s–e–n–t–
+82 ulton dados genre -> –u–l–t–o–n–d–a–d–o–s–g–e–n–r–e–
+83 oja ve dels -> –o–j–a–v–e–d–e–l–s–
+84 uera opera perfume -> –u–e–r–a–o–p–e–r–a–p–e–r–f–u–m–e–
+85 ifices teatro chico -> –i–f–i–c–e–s–t–e–a–t–r–o–c–h–i–c–o–
+86 isce reglas thrilled -> –i–s–c–e–r–e–g–l–a–s–t–h–r–i–l–l–e–d–
+87 zenia asserted sod -> –z–e–n–i–a–a–s–s–e–r–t–e–d–s–o–d–
+88 til pom lack -> –t–i–l–p–o–m–l–a–c–k–
+89 solution pursued ton -> –s–o–l–u–t–i–o–n–p–u–r–s–u–e–d–t–o–n–
+90 odem foo nearest -> –o–d–e–m–f–o–o–n–e–a–r–e–s–t–
+91 amoto velocity paid -> –a–m–o–t–o–v–e–l–o–c–i–t–y–p–a–i–d–
+92 ocratic bed mixed -> –o–c–r–a–t–i–c–b–e–d–m–i–x–e–d–
+93 defaults parents amput -> –d–e–f–a–u–l–t–s–p–a–r–e–n–t–s–a–m–p–u–t–
+94 pt storm requests -> –p–t–s–t–o–r–m–r–e–q–u–e–s–t–s–
+95 inia cobre sulle -> –i–n–i–a–c–o–b–r–e–s–u–l–l–e–
+96 ues adm bulego -> –u–e–s–a–d–m–b–u–l–e–g–o–
+97 idigt loose sadr -> –i–d–i–g–t–l–o–o–s–e–s–a–d–r–
+98 rys ekst mortos -> –r–y–s–e–k–s–t–m–o–r–t–o–s–
+99 ixture termes procura -> –i–x–t–u–r–e–t–e–r–m–e–s–p–r–o–c–u–r–a–

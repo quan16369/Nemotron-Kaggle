@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 istik dispens foram
+01 vs bombard updated
+02 flement perioden immunost
+
+This is a sample output.
+00 istik dispens foram -> –i–s–t–i–k–d–i–s–p–e–n–s–f–o–r–a–m–
+01 vs bombard updated -> –v–s–b–o–m–b–a–r–d–u–p–d–a–t–e–d–
+02 flement perioden immunost -> –f–l–e–m–e–n–t–p–e–r–i–o–d–e–n–i–m–m–u–n–o–s–t–
+
+This is your input.
+00 rell mans keyboard
+01 askar olu respecte
+02 quim olib perioden
+03 ochem fluores davom
+04 ando ukl acar
+05 ogo instants andato
+06 mathscr remot pekerja
+07 ferences zorganiz terce
+08 imits tb citation
+09 napshot fund dorm
+10 uat globe triple
+11 evt fala rounding
+12 inki indign urea
+13 us scritt email
+14 iono riusc befinden
+15 vertex reperc kl
+16 kori dire canvi
+17 rieren exh filling
+18 eca lavorare tik
+19 oft inherit nest
+20 ror secteur violet
+21 nica antigu dopo
+22 obi capilla entste
+23 ilarly ipsum cart
+24 renew poraz rete
+25 lor weib androgen
+26 atsu damaged voltage
+27 emes softly ridicul
+28 arge viel extermin
+29 waffe plaat ataques
+30 mag lettere finito
+31 shop lumen dame
+32 blastoma filma indietro
+33 bold anc gallo
+34 ammer algunos eftersom
+35 ouverte janeiro rappelle
+36 oley azzal demonstr
+37 minen truly menstru
+38 anzen hijo batted
+39 ivariate credited esclaves
+40 ifts sheet galaxies
+41 aniya mav balanced
+42 stadt final meerdere
+43 atische nyug retail
+44 istycz acerc zodat
+45 zoan shop ventanas
+46 enc cic ganz
+47 amer schlecht rece
+48 ckie spost kaw
+49 habi ald leakage
+50 inical produkc divent
+51 itaires triplet advis
+52 iskup negy stanowi
+53 esos subspace brack
+54 mesini silenz zes
+55 acolo yelling mark
+56 ufact matches tief
+57 assword hasi kah
+58 ivad sinks voies
+59 rauen moc carne
+60 udukan davlat allergic
+61 omena adult ignores
+62 vece totals bip
+63 param titer yr
+64 ethanol blanket changer
+65 lius merkez reloj
+66 amp suffix taper
+67 almi eleito publish
+68 eree sait verdi
+69 avaju und toimi
+70 venture oto puntata
+71 phony duch venait
+72 actual cae horiek
+73 fangs resumed paese
+74 church hoofd agenda
+75 hundert nausea blankets
+76 ecute sconf specific
+77 etzten gleich threw
+78 coni wis urllib
+79 suits mindset beings
+80 assade contag salaire
+81 eseen stro zur
+82 niego quell tashkil
+83 kter stark ontstaan
+84 regar kam deeply
+85 navbar mida prest
+86 pred muzik spill
+87 erk former silic
+88 itime gesch dedic
+89 quest gana gede
+90 dings lokaku boiling
+91 coming bulun dallo
+92 clair imperial erfolgen
+93 ovna tournant enpresak
+94 rek woj typical
+95 lease aspirin certa
+96 rachten apert analyst
+97 attes attende precede
+98 formance ferry results
+99 compar khusus policing
+[completion]
+00 rell mans keyboard -> –r–e–l–l–m–a–n–s–k–e–y–b–o–a–r–d–
+01 askar olu respecte -> –a–s–k–a–r–o–l–u–r–e–s–p–e–c–t–e–
+02 quim olib perioden -> –q–u–i–m–o–l–i–b–p–e–r–i–o–d–e–n–
+03 ochem fluores davom -> –o–c–h–e–m–f–l–u–o–r–e–s–d–a–v–o–m–
+04 ando ukl acar -> –a–n–d–o–u–k–l–a–c–a–r–
+05 ogo instants andato -> –o–g–o–i–n–s–t–a–n–t–s–a–n–d–a–t–o–
+06 mathscr remot pekerja -> –m–a–t–h–s–c–r–r–e–m–o–t–p–e–k–e–r–j–a–
+07 ferences zorganiz terce -> –f–e–r–e–n–c–e–s–z–o–r–g–a–n–i–z–t–e–r–c–e–
+08 imits tb citation -> –i–m–i–t–s–t–b–c–i–t–a–t–i–o–n–
+09 napshot fund dorm -> –n–a–p–s–h–o–t–f–u–n–d–d–o–r–m–
+10 uat globe triple -> –u–a–t–g–l–o–b–e–t–r–i–p–l–e–
+11 evt fala rounding -> –e–v–t–f–a–l–a–r–o–u–n–d–i–n–g–
+12 inki indign urea -> –i–n–k–i–i–n–d–i–g–n–u–r–e–a–
+13 us scritt email -> –u–s–s–c–r–i–t–t–e–m–a–i–l–
+14 iono riusc befinden -> –i–o–n–o–r–i–u–s–c–b–e–f–i–n–d–e–n–
+15 vertex reperc kl -> –v–e–r–t–e–x–r–e–p–e–r–c–k–l–
+16 kori dire canvi -> –k–o–r–i–d–i–r–e–c–a–n–v–i–
+17 rieren exh filling -> –r–i–e–r–e–n–e–x–h–f–i–l–l–i–n–g–
+18 eca lavorare tik -> –e–c–a–l–a–v–o–r–a–r–e–t–i–k–
+19 oft inherit nest -> –o–f–t–i–n–h–e–r–i–t–n–e–s–t–
+20 ror secteur violet -> –r–o–r–s–e–c–t–e–u–r–v–i–o–l–e–t–
+21 nica antigu dopo -> –n–i–c–a–a–n–t–i–g–u–d–o–p–o–
+22 obi capilla entste -> –o–b–i–c–a–p–i–l–l–a–e–n–t–s–t–e–
+23 ilarly ipsum cart -> –i–l–a–r–l–y–i–p–s–u–m–c–a–r–t–
+24 renew poraz rete -> –r–e–n–e–w–p–o–r–a–z–r–e–t–e–
+25 lor weib androgen -> –l–o–r–w–e–i–b–a–n–d–r–o–g–e–n–
+26 atsu damaged voltage -> –a–t–s–u–d–a–m–a–g–e–d–v–o–l–t–a–g–e–
+27 emes softly ridicul -> –e–m–e–s–s–o–f–t–l–y–r–i–d–i–c–u–l–
+28 arge viel extermin -> –a–r–g–e–v–i–e–l–e–x–t–e–r–m–i–n–
+29 waffe plaat ataques -> –w–a–f–f–e–p–l–a–a–t–a–t–a–q–u–e–s–
+30 mag lettere finito -> –m–a–g–l–e–t–t–e–r–e–f–i–n–i–t–o–
+31 shop lumen dame -> –s–h–o–p–l–u–m–e–n–d–a–m–e–
+32 blastoma filma indietro -> –b–l–a–s–t–o–m–a–f–i–l–m–a–i–n–d–i–e–t–r–o–
+33 bold anc gallo -> –b–o–l–d–a–n–c–g–a–l–l–o–
+34 ammer algunos eftersom -> –a–m–m–e–r–a–l–g–u–n–o–s–e–f–t–e–r–s–o–m–
+35 ouverte janeiro rappelle -> –o–u–v–e–r–t–e–j–a–n–e–i–r–o–r–a–p–p–e–l–l–e–
+36 oley azzal demonstr -> –o–l–e–y–a–z–z–a–l–d–e–m–o–n–s–t–r–
+37 minen truly menstru -> –m–i–n–e–n–t–r–u–l–y–m–e–n–s–t–r–u–
+38 anzen hijo batted -> –a–n–z–e–n–h–i–j–o–b–a–t–t–e–d–
+39 ivariate credited esclaves -> –i–v–a–r–i–a–t–e–c–r–e–d–i–t–e–d–e–s–c–l–a–v–e–s–
+40 ifts sheet galaxies -> –i–f–t–s–s–h–e–e–t–g–a–l–a–x–i–e–s–
+41 aniya mav balanced -> –a–n–i–y–a–m–a–v–b–a–l–a–n–c–e–d–
+42 stadt final meerdere -> –s–t–a–d–t–f–i–n–a–l–m–e–e–r–d–e–r–e–
+43 atische nyug retail -> –a–t–i–s–c–h–e–n–y–u–g–r–e–t–a–i–l–
+44 istycz acerc zodat -> –i–s–t–y–c–z–a–c–e–r–c–z–o–d–a–t–
+45 zoan shop ventanas -> –z–o–a–n–s–h–o–p–v–e–n–t–a–n–a–s–
+46 enc cic ganz -> –e–n–c–c–i–c–g–a–n–z–
+47 amer schlecht rece -> –a–m–e–r–s–c–h–l–e–c–h–t–r–e–c–e–
+48 ckie spost kaw -> –c–k–i–e–s–p–o–s–t–k–a–w–
+49 habi ald leakage -> –h–a–b–i–a–l–d–l–e–a–k–a–g–e–
+50 inical produkc divent -> –i–n–i–c–a–l–p–r–o–d–u–k–c–d–i–v–e–n–t–
+51 itaires triplet advis -> –i–t–a–i–r–e–s–t–r–i–p–l–e–t–a–d–v–i–s–
+52 iskup negy stanowi -> –i–s–k–u–p–n–e–g–y–s–t–a–n–o–w–i–
+53 esos subspace brack -> –e–s–o–s–s–u–b–s–p–a–c–e–b–r–a–c–k–
+54 mesini silenz zes -> –m–e–s–i–n–i–s–i–l–e–n–z–z–e–s–
+55 acolo yelling mark -> –a–c–o–l–o–y–e–l–l–i–n–g–m–a–r–k–
+56 ufact matches tief -> –u–f–a–c–t–m–a–t–c–h–e–s–t–i–e–f–
+57 assword hasi kah -> –a–s–s–w–o–r–d–h–a–s–i–k–a–h–
+58 ivad sinks voies -> –i–v–a–d–s–i–n–k–s–v–o–i–e–s–
+59 rauen moc carne -> –r–a–u–e–n–m–o–c–c–a–r–n–e–
+60 udukan davlat allergic -> –u–d–u–k–a–n–d–a–v–l–a–t–a–l–l–e–r–g–i–c–
+61 omena adult ignores -> –o–m–e–n–a–a–d–u–l–t–i–g–n–o–r–e–s–
+62 vece totals bip -> –v–e–c–e–t–o–t–a–l–s–b–i–p–
+63 param titer yr -> –p–a–r–a–m–t–i–t–e–r–y–r–
+64 ethanol blanket changer -> –e–t–h–a–n–o–l–b–l–a–n–k–e–t–c–h–a–n–g–e–r–
+65 lius merkez reloj -> –l–i–u–s–m–e–r–k–e–z–r–e–l–o–j–
+66 amp suffix taper -> –a–m–p–s–u–f–f–i–x–t–a–p–e–r–
+67 almi eleito publish -> –a–l–m–i–e–l–e–i–t–o–p–u–b–l–i–s–h–
+68 eree sait verdi -> –e–r–e–e–s–a–i–t–v–e–r–d–i–
+69 avaju und toimi -> –a–v–a–j–u–u–n–d–t–o–i–m–i–
+70 venture oto puntata -> –v–e–n–t–u–r–e–o–t–o–p–u–n–t–a–t–a–
+71 phony duch venait -> –p–h–o–n–y–d–u–c–h–v–e–n–a–i–t–
+72 actual cae horiek -> –a–c–t–u–a–l–c–a–e–h–o–r–i–e–k–
+73 fangs resumed paese -> –f–a–n–g–s–r–e–s–u–m–e–d–p–a–e–s–e–
+74 church hoofd agenda -> –c–h–u–r–c–h–h–o–o–f–d–a–g–e–n–d–a–
+75 hundert nausea blankets -> –h–u–n–d–e–r–t–n–a–u–s–e–a–b–l–a–n–k–e–t–s–
+76 ecute sconf specific -> –e–c–u–t–e–s–c–o–n–f–s–p–e–c–i–f–i–c–
+77 etzten gleich threw -> –e–t–z–t–e–n–g–l–e–i–c–h–t–h–r–e–w–
+78 coni wis urllib -> –c–o–n–i–w–i–s–u–r–l–l–i–b–
+79 suits mindset beings -> –s–u–i–t–s–m–i–n–d–s–e–t–b–e–i–n–g–s–
+80 assade contag salaire -> –a–s–s–a–d–e–c–o–n–t–a–g–s–a–l–a–i–r–e–
+81 eseen stro zur -> –e–s–e–e–n–s–t–r–o–z–u–r–
+82 niego quell tashkil -> –n–i–e–g–o–q–u–e–l–l–t–a–s–h–k–i–l–
+83 kter stark ontstaan -> –k–t–e–r–s–t–a–r–k–o–n–t–s–t–a–a–n–
+84 regar kam deeply -> –r–e–g–a–r–k–a–m–d–e–e–p–l–y–
+85 navbar mida prest -> –n–a–v–b–a–r–m–i–d–a–p–r–e–s–t–
+86 pred muzik spill -> –p–r–e–d–m–u–z–i–k–s–p–i–l–l–
+87 erk former silic -> –e–r–k–f–o–r–m–e–r–s–i–l–i–c–
+88 itime gesch dedic -> –i–t–i–m–e–g–e–s–c–h–d–e–d–i–c–
+89 quest gana gede -> –q–u–e–s–t–g–a–n–a–g–e–d–e–
+90 dings lokaku boiling -> –d–i–n–g–s–l–o–k–a–k–u–b–o–i–l–i–n–g–
+91 coming bulun dallo -> –c–o–m–i–n–g–b–u–l–u–n–d–a–l–l–o–
+92 clair imperial erfolgen -> –c–l–a–i–r–i–m–p–e–r–i–a–l–e–r–f–o–l–g–e–n–
+93 ovna tournant enpresak -> –o–v–n–a–t–o–u–r–n–a–n–t–e–n–p–r–e–s–a–k–
+94 rek woj typical -> –r–e–k–w–o–j–t–y–p–i–c–a–l–
+95 lease aspirin certa -> –l–e–a–s–e–a–s–p–i–r–i–n–c–e–r–t–a–
+96 rachten apert analyst -> –r–a–c–h–t–e–n–a–p–e–r–t–a–n–a–l–y–s–t–
+97 attes attende precede -> –a–t–t–e–s–a–t–t–e–n–d–e–p–r–e–c–e–d–e–
+98 formance ferry results -> –f–o–r–m–a–n–c–e–f–e–r–r–y–r–e–s–u–l–t–s–
+99 compar khusus policing -> –c–o–m–p–a–r–k–h–u–s–u–s–p–o–l–i–c–i–n–g–

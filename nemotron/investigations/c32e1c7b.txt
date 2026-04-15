@@ -1,0 +1,28 @@
+problem id: c32e1c7b
+category: cryptarithm_deduce
+
+symbol-to-digit mapping:
+  '"' = 6
+  '$' = 8
+  '&' = 4
+  "'" = 2
+  '/' = 5
+  ':' = 0
+  '[' = 1
+  '\\' = 9
+  '`' = 7
+  '}' = 3
+
+operator-to-operation mapping:
+  '%' = mul
+  '|' = add
+
+examples:
+  \[%&$ = &}"$  =>  91 * 48 = 4368
+  \`|': = [[`  =>  97 + 20 = 117
+  `\%\& = `&'"  =>  79 * 94 = 7426
+  '/|$} = [:$  =>  25 + 83 = 108
+
+query: \&|$`  =>  94 + 87 = 181
+
+predicted answer: [$[

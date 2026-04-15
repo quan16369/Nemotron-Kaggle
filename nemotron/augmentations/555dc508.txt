@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 holm detailed accl
+01 luent quanto provis
+02 conomie bas pronon
+
+This is a sample output.
+00 holm detailed accl -> –h–o–l–m–d–e–t–a–i–l–e–d–a–c–c–l–
+01 luent quanto provis -> –l–u–e–n–t–q–u–a–n–t–o–p–r–o–v–i–s–
+02 conomie bas pronon -> –c–o–n–o–m–i–e–b–a–s–p–r–o–n–o–n–
+
+This is your input.
+00 otas oppr piram
+01 totype rhetoric nose
+02 get compile pier
+03 tooltip trataba advisors
+04 arak found punch
+05 oothed stroma logo
+06 iffer poate ohne
+07 owired hodnot outline
+08 oho droga traumat
+09 gt barrels plot
+10 ystals who uur
+11 rito publicou depot
+12 isla halt hereby
+13 ape weaker portato
+14 boy iki caracter
+15 opoulos adsorbed pensando
+16 uero dil brasil
+17 ij minimale shelves
+18 bers parada lettre
+19 pot zu select
+20 adas susp ontmo
+21 iramente compos gelegen
+22 kur stromal tvor
+23 asmine humor nhu
+24 inian proces vamp
+25 ther nuestros behave
+26 ugia stagger synd
+27 aspor tx geomet
+28 uelas munic catal
+29 glas verze defender
+30 nden theirs actors
+31 jali rested sl
+32 uster propios oiseaux
+33 aks perpend brine
+34 ixels trilogy terren
+35 bond nemen prisons
+36 opher vind coordin
+37 src styling knives
+38 rott permet lucha
+39 orld bella sogen
+40 iedelt drehte circunst
+41 idemia crear coc
+42 shots slot szerzett
+43 person works escaping
+44 ynchron anterior suprem
+45 raf folg sowohl
+46 from funnel ausgew
+47 allar oficiais auth
+48 iji legenda drew
+49 riera kappa confl
+50 ylation kus piernas
+51 ehicles narrow mest
+52 idian swinging clot
+53 men solaire lighting
+54 elif aest redd
+55 params brou beiden
+56 cluster pente trache
+57 uel homosex screwed
+58 gang minuta shopping
+59 ipun fak kapcsol
+60 icrobial alg fuente
+61 letak plexus llan
+62 rels tuples candles
+63 linked aujourd asc
+64 gling birlikte bombing
+65 havi sic homepage
+66 itin airway lakes
+67 legen regarda voll
+68 integer utilizes enumer
+69 biy grub catro
+70 uco enum leva
+71 itza affich acom
+72 ordo occurs fresh
+73 mock letzt num
+74 nahme volcan beans
+75 tcp overdose excuses
+76 existing asosiy septentr
+77 pret recycler crypto
+78 esebb gouver speciale
+79 abile epsilon declarar
+80 wendet ace ready
+81 entic gelegt flower
+82 jj nytt siete
+83 romise opened desplaz
+84 gv futura antim
+85 iktor sujets wy
+86 trent dup steep
+87 ropical orkest diverso
+88 rices chill wraps
+89 utter lamp deal
+90 ansson giornal ahead
+91 wet ontology lamb
+92 bad besz nekazar
+93 ulant neuronal stelle
+94 rails boiled holes
+95 jnym inflow sosten
+96 nius donna fod
+97 colo beruh acids
+98 idis ond alumn
+99 besch ola rim
+[completion]
+00 otas oppr piram -> –o–t–a–s–o–p–p–r–p–i–r–a–m–
+01 totype rhetoric nose -> –t–o–t–y–p–e–r–h–e–t–o–r–i–c–n–o–s–e–
+02 get compile pier -> –g–e–t–c–o–m–p–i–l–e–p–i–e–r–
+03 tooltip trataba advisors -> –t–o–o–l–t–i–p–t–r–a–t–a–b–a–a–d–v–i–s–o–r–s–
+04 arak found punch -> –a–r–a–k–f–o–u–n–d–p–u–n–c–h–
+05 oothed stroma logo -> –o–o–t–h–e–d–s–t–r–o–m–a–l–o–g–o–
+06 iffer poate ohne -> –i–f–f–e–r–p–o–a–t–e–o–h–n–e–
+07 owired hodnot outline -> –o–w–i–r–e–d–h–o–d–n–o–t–o–u–t–l–i–n–e–
+08 oho droga traumat -> –o–h–o–d–r–o–g–a–t–r–a–u–m–a–t–
+09 gt barrels plot -> –g–t–b–a–r–r–e–l–s–p–l–o–t–
+10 ystals who uur -> –y–s–t–a–l–s–w–h–o–u–u–r–
+11 rito publicou depot -> –r–i–t–o–p–u–b–l–i–c–o–u–d–e–p–o–t–
+12 isla halt hereby -> –i–s–l–a–h–a–l–t–h–e–r–e–b–y–
+13 ape weaker portato -> –a–p–e–w–e–a–k–e–r–p–o–r–t–a–t–o–
+14 boy iki caracter -> –b–o–y–i–k–i–c–a–r–a–c–t–e–r–
+15 opoulos adsorbed pensando -> –o–p–o–u–l–o–s–a–d–s–o–r–b–e–d–p–e–n–s–a–n–d–o–
+16 uero dil brasil -> –u–e–r–o–d–i–l–b–r–a–s–i–l–
+17 ij minimale shelves -> –i–j–m–i–n–i–m–a–l–e–s–h–e–l–v–e–s–
+18 bers parada lettre -> –b–e–r–s–p–a–r–a–d–a–l–e–t–t–r–e–
+19 pot zu select -> –p–o–t–z–u–s–e–l–e–c–t–
+20 adas susp ontmo -> –a–d–a–s–s–u–s–p–o–n–t–m–o–
+21 iramente compos gelegen -> –i–r–a–m–e–n–t–e–c–o–m–p–o–s–g–e–l–e–g–e–n–
+22 kur stromal tvor -> –k–u–r–s–t–r–o–m–a–l–t–v–o–r–
+23 asmine humor nhu -> –a–s–m–i–n–e–h–u–m–o–r–n–h–u–
+24 inian proces vamp -> –i–n–i–a–n–p–r–o–c–e–s–v–a–m–p–
+25 ther nuestros behave -> –t–h–e–r–n–u–e–s–t–r–o–s–b–e–h–a–v–e–
+26 ugia stagger synd -> –u–g–i–a–s–t–a–g–g–e–r–s–y–n–d–
+27 aspor tx geomet -> –a–s–p–o–r–t–x–g–e–o–m–e–t–
+28 uelas munic catal -> –u–e–l–a–s–m–u–n–i–c–c–a–t–a–l–
+29 glas verze defender -> –g–l–a–s–v–e–r–z–e–d–e–f–e–n–d–e–r–
+30 nden theirs actors -> –n–d–e–n–t–h–e–i–r–s–a–c–t–o–r–s–
+31 jali rested sl -> –j–a–l–i–r–e–s–t–e–d–s–l–
+32 uster propios oiseaux -> –u–s–t–e–r–p–r–o–p–i–o–s–o–i–s–e–a–u–x–
+33 aks perpend brine -> –a–k–s–p–e–r–p–e–n–d–b–r–i–n–e–
+34 ixels trilogy terren -> –i–x–e–l–s–t–r–i–l–o–g–y–t–e–r–r–e–n–
+35 bond nemen prisons -> –b–o–n–d–n–e–m–e–n–p–r–i–s–o–n–s–
+36 opher vind coordin -> –o–p–h–e–r–v–i–n–d–c–o–o–r–d–i–n–
+37 src styling knives -> –s–r–c–s–t–y–l–i–n–g–k–n–i–v–e–s–
+38 rott permet lucha -> –r–o–t–t–p–e–r–m–e–t–l–u–c–h–a–
+39 orld bella sogen -> –o–r–l–d–b–e–l–l–a–s–o–g–e–n–
+40 iedelt drehte circunst -> –i–e–d–e–l–t–d–r–e–h–t–e–c–i–r–c–u–n–s–t–
+41 idemia crear coc -> –i–d–e–m–i–a–c–r–e–a–r–c–o–c–
+42 shots slot szerzett -> –s–h–o–t–s–s–l–o–t–s–z–e–r–z–e–t–t–
+43 person works escaping -> –p–e–r–s–o–n–w–o–r–k–s–e–s–c–a–p–i–n–g–
+44 ynchron anterior suprem -> –y–n–c–h–r–o–n–a–n–t–e–r–i–o–r–s–u–p–r–e–m–
+45 raf folg sowohl -> –r–a–f–f–o–l–g–s–o–w–o–h–l–
+46 from funnel ausgew -> –f–r–o–m–f–u–n–n–e–l–a–u–s–g–e–w–
+47 allar oficiais auth -> –a–l–l–a–r–o–f–i–c–i–a–i–s–a–u–t–h–
+48 iji legenda drew -> –i–j–i–l–e–g–e–n–d–a–d–r–e–w–
+49 riera kappa confl -> –r–i–e–r–a–k–a–p–p–a–c–o–n–f–l–
+50 ylation kus piernas -> –y–l–a–t–i–o–n–k–u–s–p–i–e–r–n–a–s–
+51 ehicles narrow mest -> –e–h–i–c–l–e–s–n–a–r–r–o–w–m–e–s–t–
+52 idian swinging clot -> –i–d–i–a–n–s–w–i–n–g–i–n–g–c–l–o–t–
+53 men solaire lighting -> –m–e–n–s–o–l–a–i–r–e–l–i–g–h–t–i–n–g–
+54 elif aest redd -> –e–l–i–f–a–e–s–t–r–e–d–d–
+55 params brou beiden -> –p–a–r–a–m–s–b–r–o–u–b–e–i–d–e–n–
+56 cluster pente trache -> –c–l–u–s–t–e–r–p–e–n–t–e–t–r–a–c–h–e–
+57 uel homosex screwed -> –u–e–l–h–o–m–o–s–e–x–s–c–r–e–w–e–d–
+58 gang minuta shopping -> –g–a–n–g–m–i–n–u–t–a–s–h–o–p–p–i–n–g–
+59 ipun fak kapcsol -> –i–p–u–n–f–a–k–k–a–p–c–s–o–l–
+60 icrobial alg fuente -> –i–c–r–o–b–i–a–l–a–l–g–f–u–e–n–t–e–
+61 letak plexus llan -> –l–e–t–a–k–p–l–e–x–u–s–l–l–a–n–
+62 rels tuples candles -> –r–e–l–s–t–u–p–l–e–s–c–a–n–d–l–e–s–
+63 linked aujourd asc -> –l–i–n–k–e–d–a–u–j–o–u–r–d–a–s–c–
+64 gling birlikte bombing -> –g–l–i–n–g–b–i–r–l–i–k–t–e–b–o–m–b–i–n–g–
+65 havi sic homepage -> –h–a–v–i–s–i–c–h–o–m–e–p–a–g–e–
+66 itin airway lakes -> –i–t–i–n–a–i–r–w–a–y–l–a–k–e–s–
+67 legen regarda voll -> –l–e–g–e–n–r–e–g–a–r–d–a–v–o–l–l–
+68 integer utilizes enumer -> –i–n–t–e–g–e–r–u–t–i–l–i–z–e–s–e–n–u–m–e–r–
+69 biy grub catro -> –b–i–y–g–r–u–b–c–a–t–r–o–
+70 uco enum leva -> –u–c–o–e–n–u–m–l–e–v–a–
+71 itza affich acom -> –i–t–z–a–a–f–f–i–c–h–a–c–o–m–
+72 ordo occurs fresh -> –o–r–d–o–o–c–c–u–r–s–f–r–e–s–h–
+73 mock letzt num -> –m–o–c–k–l–e–t–z–t–n–u–m–
+74 nahme volcan beans -> –n–a–h–m–e–v–o–l–c–a–n–b–e–a–n–s–
+75 tcp overdose excuses -> –t–c–p–o–v–e–r–d–o–s–e–e–x–c–u–s–e–s–
+76 existing asosiy septentr -> –e–x–i–s–t–i–n–g–a–s–o–s–i–y–s–e–p–t–e–n–t–r–
+77 pret recycler crypto -> –p–r–e–t–r–e–c–y–c–l–e–r–c–r–y–p–t–o–
+78 esebb gouver speciale -> –e–s–e–b–b–g–o–u–v–e–r–s–p–e–c–i–a–l–e–
+79 abile epsilon declarar -> –a–b–i–l–e–e–p–s–i–l–o–n–d–e–c–l–a–r–a–r–
+80 wendet ace ready -> –w–e–n–d–e–t–a–c–e–r–e–a–d–y–
+81 entic gelegt flower -> –e–n–t–i–c–g–e–l–e–g–t–f–l–o–w–e–r–
+82 jj nytt siete -> –j–j–n–y–t–t–s–i–e–t–e–
+83 romise opened desplaz -> –r–o–m–i–s–e–o–p–e–n–e–d–d–e–s–p–l–a–z–
+84 gv futura antim -> –g–v–f–u–t–u–r–a–a–n–t–i–m–
+85 iktor sujets wy -> –i–k–t–o–r–s–u–j–e–t–s–w–y–
+86 trent dup steep -> –t–r–e–n–t–d–u–p–s–t–e–e–p–
+87 ropical orkest diverso -> –r–o–p–i–c–a–l–o–r–k–e–s–t–d–i–v–e–r–s–o–
+88 rices chill wraps -> –r–i–c–e–s–c–h–i–l–l–w–r–a–p–s–
+89 utter lamp deal -> –u–t–t–e–r–l–a–m–p–d–e–a–l–
+90 ansson giornal ahead -> –a–n–s–s–o–n–g–i–o–r–n–a–l–a–h–e–a–d–
+91 wet ontology lamb -> –w–e–t–o–n–t–o–l–o–g–y–l–a–m–b–
+92 bad besz nekazar -> –b–a–d–b–e–s–z–n–e–k–a–z–a–r–
+93 ulant neuronal stelle -> –u–l–a–n–t–n–e–u–r–o–n–a–l–s–t–e–l–l–e–
+94 rails boiled holes -> –r–a–i–l–s–b–o–i–l–e–d–h–o–l–e–s–
+95 jnym inflow sosten -> –j–n–y–m–i–n–f–l–o–w–s–o–s–t–e–n–
+96 nius donna fod -> –n–i–u–s–d–o–n–n–a–f–o–d–
+97 colo beruh acids -> –c–o–l–o–b–e–r–u–h–a–c–i–d–s–
+98 idis ond alumn -> –i–d–i–s–o–n–d–a–l–u–m–n–
+99 besch ola rim -> –b–e–s–c–h–o–l–a–r–i–m–

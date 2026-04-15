@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 estyle intensa invari
+01 ogu igaz jednom
+02 valo mesto digging
+
+This is a sample output.
+00 estyle intensa invari -> –e–s–t–y–l–e–i–n–t–e–n–s–a–i–n–v–a–r–i–
+01 ogu igaz jednom -> –o–g–u–i–g–a–z–j–e–d–n–o–m–
+02 valo mesto digging -> –v–a–l–o–m–e–s–t–o–d–i–g–g–i–n–g–
+
+This is your input.
+00 tape bab silenc
+01 gage nods cuerpos
+02 etra peru zin
+03 level sneak hielo
+04 cidas snage alunos
+05 vaient antiguas fizer
+06 now mecan milio
+07 tsch kin ilustr
+08 umpf projects orders
+09 ilus zehar kernels
+10 primer coinvol areas
+11 arden idiot njen
+12 sburg kaikki lever
+13 enteric komp little
+14 kirche search troupes
+15 running thoughts weld
+16 uhren poker subunit
+17 izacji addition bodies
+18 oweit inaccess bla
+19 iyah devise presos
+20 clin aisl referred
+21 guess plantas stack
+22 ieel vento gesto
+23 inha disagree job
+24 racks peaks giornata
+25 iforme shall lact
+26 inent palavras pasos
+27 ibility espion sizeof
+28 ryption pronoun auxqu
+29 aus alguns inserts
+30 ercial assays convent
+31 gl pah bandes
+32 opsy finances qi
+33 alties jaar milk
+34 rite odm advise
+35 hores aplik oligomer
+36 esso drivers ben
+37 comb diluted xeral
+38 onne gone viscos
+39 rave mond trung
+40 akk yax dywiz
+41 enci schreibt morn
+42 issima depend tone
+43 less katika kompoz
+44 sky bard glances
+45 ificados ate ali
+46 keiten pouvais arguing
+47 fir flagship ont
+48 formas preg deb
+49 aliases fiesta infolge
+50 creens seaw lovers
+51 roscope concerne scav
+52 allback guests ned
+53 crypto ended holidays
+54 etlen kont old
+55 akra vegada tile
+56 irati erlaubt syysku
+57 torch willing ultim
+58 zur invari augmente
+59 angi liter err
+60 azionali substit damalige
+61 should harm tapped
+62 cionario despl refrain
+63 ollar zweite des
+64 itage contiene blow
+65 ozu grouping maires
+66 visible dever justice
+67 ousel unified avsl
+68 town fibro aceea
+69 umph affirm divisor
+70 once krig anaest
+71 six osvoj norske
+72 zyme afforded autism
+73 lez crawled archive
+74 wicklung kaf atras
+75 allet reunion sparked
+76 ayo paris variants
+77 glio vyt billing
+78 rebro patrols undersc
+79 python ritir pride
+80 mooth swung meestal
+81 rible ios gravel
+82 asting wybor hegem
+83 ult rester us
+84 orado quen legte
+85 pty css obvious
+86 ellett already sw
+87 hauses clause tvr
+88 annon refining psychiat
+89 rono json biztos
+90 hors culte assur
+91 ade helyez kao
+92 rak kunst inserted
+93 encias minist van
+94 icias visitor notified
+95 ieg ocean cirka
+96 olve sguardo dwell
+97 alla answer electr
+98 isme francusk chasing
+99 ienst abband amour
+[completion]
+00 tape bab silenc -> –t–a–p–e–b–a–b–s–i–l–e–n–c–
+01 gage nods cuerpos -> –g–a–g–e–n–o–d–s–c–u–e–r–p–o–s–
+02 etra peru zin -> –e–t–r–a–p–e–r–u–z–i–n–
+03 level sneak hielo -> –l–e–v–e–l–s–n–e–a–k–h–i–e–l–o–
+04 cidas snage alunos -> –c–i–d–a–s–s–n–a–g–e–a–l–u–n–o–s–
+05 vaient antiguas fizer -> –v–a–i–e–n–t–a–n–t–i–g–u–a–s–f–i–z–e–r–
+06 now mecan milio -> –n–o–w–m–e–c–a–n–m–i–l–i–o–
+07 tsch kin ilustr -> –t–s–c–h–k–i–n–i–l–u–s–t–r–
+08 umpf projects orders -> –u–m–p–f–p–r–o–j–e–c–t–s–o–r–d–e–r–s–
+09 ilus zehar kernels -> –i–l–u–s–z–e–h–a–r–k–e–r–n–e–l–s–
+10 primer coinvol areas -> –p–r–i–m–e–r–c–o–i–n–v–o–l–a–r–e–a–s–
+11 arden idiot njen -> –a–r–d–e–n–i–d–i–o–t–n–j–e–n–
+12 sburg kaikki lever -> –s–b–u–r–g–k–a–i–k–k–i–l–e–v–e–r–
+13 enteric komp little -> –e–n–t–e–r–i–c–k–o–m–p–l–i–t–t–l–e–
+14 kirche search troupes -> –k–i–r–c–h–e–s–e–a–r–c–h–t–r–o–u–p–e–s–
+15 running thoughts weld -> –r–u–n–n–i–n–g–t–h–o–u–g–h–t–s–w–e–l–d–
+16 uhren poker subunit -> –u–h–r–e–n–p–o–k–e–r–s–u–b–u–n–i–t–
+17 izacji addition bodies -> –i–z–a–c–j–i–a–d–d–i–t–i–o–n–b–o–d–i–e–s–
+18 oweit inaccess bla -> –o–w–e–i–t–i–n–a–c–c–e–s–s–b–l–a–
+19 iyah devise presos -> –i–y–a–h–d–e–v–i–s–e–p–r–e–s–o–s–
+20 clin aisl referred -> –c–l–i–n–a–i–s–l–r–e–f–e–r–r–e–d–
+21 guess plantas stack -> –g–u–e–s–s–p–l–a–n–t–a–s–s–t–a–c–k–
+22 ieel vento gesto -> –i–e–e–l–v–e–n–t–o–g–e–s–t–o–
+23 inha disagree job -> –i–n–h–a–d–i–s–a–g–r–e–e–j–o–b–
+24 racks peaks giornata -> –r–a–c–k–s–p–e–a–k–s–g–i–o–r–n–a–t–a–
+25 iforme shall lact -> –i–f–o–r–m–e–s–h–a–l–l–l–a–c–t–
+26 inent palavras pasos -> –i–n–e–n–t–p–a–l–a–v–r–a–s–p–a–s–o–s–
+27 ibility espion sizeof -> –i–b–i–l–i–t–y–e–s–p–i–o–n–s–i–z–e–o–f–
+28 ryption pronoun auxqu -> –r–y–p–t–i–o–n–p–r–o–n–o–u–n–a–u–x–q–u–
+29 aus alguns inserts -> –a–u–s–a–l–g–u–n–s–i–n–s–e–r–t–s–
+30 ercial assays convent -> –e–r–c–i–a–l–a–s–s–a–y–s–c–o–n–v–e–n–t–
+31 gl pah bandes -> –g–l–p–a–h–b–a–n–d–e–s–
+32 opsy finances qi -> –o–p–s–y–f–i–n–a–n–c–e–s–q–i–
+33 alties jaar milk -> –a–l–t–i–e–s–j–a–a–r–m–i–l–k–
+34 rite odm advise -> –r–i–t–e–o–d–m–a–d–v–i–s–e–
+35 hores aplik oligomer -> –h–o–r–e–s–a–p–l–i–k–o–l–i–g–o–m–e–r–
+36 esso drivers ben -> –e–s–s–o–d–r–i–v–e–r–s–b–e–n–
+37 comb diluted xeral -> –c–o–m–b–d–i–l–u–t–e–d–x–e–r–a–l–
+38 onne gone viscos -> –o–n–n–e–g–o–n–e–v–i–s–c–o–s–
+39 rave mond trung -> –r–a–v–e–m–o–n–d–t–r–u–n–g–
+40 akk yax dywiz -> –a–k–k–y–a–x–d–y–w–i–z–
+41 enci schreibt morn -> –e–n–c–i–s–c–h–r–e–i–b–t–m–o–r–n–
+42 issima depend tone -> –i–s–s–i–m–a–d–e–p–e–n–d–t–o–n–e–
+43 less katika kompoz -> –l–e–s–s–k–a–t–i–k–a–k–o–m–p–o–z–
+44 sky bard glances -> –s–k–y–b–a–r–d–g–l–a–n–c–e–s–
+45 ificados ate ali -> –i–f–i–c–a–d–o–s–a–t–e–a–l–i–
+46 keiten pouvais arguing -> –k–e–i–t–e–n–p–o–u–v–a–i–s–a–r–g–u–i–n–g–
+47 fir flagship ont -> –f–i–r–f–l–a–g–s–h–i–p–o–n–t–
+48 formas preg deb -> –f–o–r–m–a–s–p–r–e–g–d–e–b–
+49 aliases fiesta infolge -> –a–l–i–a–s–e–s–f–i–e–s–t–a–i–n–f–o–l–g–e–
+50 creens seaw lovers -> –c–r–e–e–n–s–s–e–a–w–l–o–v–e–r–s–
+51 roscope concerne scav -> –r–o–s–c–o–p–e–c–o–n–c–e–r–n–e–s–c–a–v–
+52 allback guests ned -> –a–l–l–b–a–c–k–g–u–e–s–t–s–n–e–d–
+53 crypto ended holidays -> –c–r–y–p–t–o–e–n–d–e–d–h–o–l–i–d–a–y–s–
+54 etlen kont old -> –e–t–l–e–n–k–o–n–t–o–l–d–
+55 akra vegada tile -> –a–k–r–a–v–e–g–a–d–a–t–i–l–e–
+56 irati erlaubt syysku -> –i–r–a–t–i–e–r–l–a–u–b–t–s–y–y–s–k–u–
+57 torch willing ultim -> –t–o–r–c–h–w–i–l–l–i–n–g–u–l–t–i–m–
+58 zur invari augmente -> –z–u–r–i–n–v–a–r–i–a–u–g–m–e–n–t–e–
+59 angi liter err -> –a–n–g–i–l–i–t–e–r–e–r–r–
+60 azionali substit damalige -> –a–z–i–o–n–a–l–i–s–u–b–s–t–i–t–d–a–m–a–l–i–g–e–
+61 should harm tapped -> –s–h–o–u–l–d–h–a–r–m–t–a–p–p–e–d–
+62 cionario despl refrain -> –c–i–o–n–a–r–i–o–d–e–s–p–l–r–e–f–r–a–i–n–
+63 ollar zweite des -> –o–l–l–a–r–z–w–e–i–t–e–d–e–s–
+64 itage contiene blow -> –i–t–a–g–e–c–o–n–t–i–e–n–e–b–l–o–w–
+65 ozu grouping maires -> –o–z–u–g–r–o–u–p–i–n–g–m–a–i–r–e–s–
+66 visible dever justice -> –v–i–s–i–b–l–e–d–e–v–e–r–j–u–s–t–i–c–e–
+67 ousel unified avsl -> –o–u–s–e–l–u–n–i–f–i–e–d–a–v–s–l–
+68 town fibro aceea -> –t–o–w–n–f–i–b–r–o–a–c–e–e–a–
+69 umph affirm divisor -> –u–m–p–h–a–f–f–i–r–m–d–i–v–i–s–o–r–
+70 once krig anaest -> –o–n–c–e–k–r–i–g–a–n–a–e–s–t–
+71 six osvoj norske -> –s–i–x–o–s–v–o–j–n–o–r–s–k–e–
+72 zyme afforded autism -> –z–y–m–e–a–f–f–o–r–d–e–d–a–u–t–i–s–m–
+73 lez crawled archive -> –l–e–z–c–r–a–w–l–e–d–a–r–c–h–i–v–e–
+74 wicklung kaf atras -> –w–i–c–k–l–u–n–g–k–a–f–a–t–r–a–s–
+75 allet reunion sparked -> –a–l–l–e–t–r–e–u–n–i–o–n–s–p–a–r–k–e–d–
+76 ayo paris variants -> –a–y–o–p–a–r–i–s–v–a–r–i–a–n–t–s–
+77 glio vyt billing -> –g–l–i–o–v–y–t–b–i–l–l–i–n–g–
+78 rebro patrols undersc -> –r–e–b–r–o–p–a–t–r–o–l–s–u–n–d–e–r–s–c–
+79 python ritir pride -> –p–y–t–h–o–n–r–i–t–i–r–p–r–i–d–e–
+80 mooth swung meestal -> –m–o–o–t–h–s–w–u–n–g–m–e–e–s–t–a–l–
+81 rible ios gravel -> –r–i–b–l–e–i–o–s–g–r–a–v–e–l–
+82 asting wybor hegem -> –a–s–t–i–n–g–w–y–b–o–r–h–e–g–e–m–
+83 ult rester us -> –u–l–t–r–e–s–t–e–r–u–s–
+84 orado quen legte -> –o–r–a–d–o–q–u–e–n–l–e–g–t–e–
+85 pty css obvious -> –p–t–y–c–s–s–o–b–v–i–o–u–s–
+86 ellett already sw -> –e–l–l–e–t–t–a–l–r–e–a–d–y–s–w–
+87 hauses clause tvr -> –h–a–u–s–e–s–c–l–a–u–s–e–t–v–r–
+88 annon refining psychiat -> –a–n–n–o–n–r–e–f–i–n–i–n–g–p–s–y–c–h–i–a–t–
+89 rono json biztos -> –r–o–n–o–j–s–o–n–b–i–z–t–o–s–
+90 hors culte assur -> –h–o–r–s–c–u–l–t–e–a–s–s–u–r–
+91 ade helyez kao -> –a–d–e–h–e–l–y–e–z–k–a–o–
+92 rak kunst inserted -> –r–a–k–k–u–n–s–t–i–n–s–e–r–t–e–d–
+93 encias minist van -> –e–n–c–i–a–s–m–i–n–i–s–t–v–a–n–
+94 icias visitor notified -> –i–c–i–a–s–v–i–s–i–t–o–r–n–o–t–i–f–i–e–d–
+95 ieg ocean cirka -> –i–e–g–o–c–e–a–n–c–i–r–k–a–
+96 olve sguardo dwell -> –o–l–v–e–s–g–u–a–r–d–o–d–w–e–l–l–
+97 alla answer electr -> –a–l–l–a–a–n–s–w–e–r–e–l–e–c–t–r–
+98 isme francusk chasing -> –i–s–m–e–f–r–a–n–c–u–s–k–c–h–a–s–i–n–g–
+99 ienst abband amour -> –i–e–n–s–t–a–b–b–a–n–d–a–m–o–u–r–

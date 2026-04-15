@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 bauer rehabil metaphys
+01 flag host herbs
+02 veck diaphrag begonnen
+
+This is a sample output.
+00 bauer rehabil metaphys -> –b–a–u–e–r–r–e–h–a–b–i–l–m–e–t–a–p–h–y–s–
+01 flag host herbs -> –f–l–a–g–h–o–s–t–h–e–r–b–s–
+02 veck diaphrag begonnen -> –v–e–c–k–d–i–a–p–h–r–a–g–b–e–g–o–n–n–e–n–
+
+This is your input.
+00 cover rio magnets
+01 atott beside flawed
+02 eceu poetic ordinal
+03 assets pein lua
+04 aternion saves ambush
+05 tion when objets
+06 adin skriv novia
+07 ueel weit signaled
+08 cript zehn silicon
+09 etako encont pemb
+10 rong partito country
+11 weite china escort
+12 rodite eras flesh
+13 ellik trapped trained
+14 zes muro geringer
+15 special reef punt
+16 ucose messing outs
+17 opis potuto urgent
+18 tas improve musi
+19 utica freg serp
+20 emory useful traject
+21 oire input ajoute
+22 ency jornal mentre
+23 idlertid gaben contamin
+24 hak luxe soleil
+25 ypoth piosen wichtig
+26 legte extend regione
+27 fft dih shallow
+28 itif kut despair
+29 mar vang uy
+30 icket founders slowly
+31 vertebr lock atm
+32 etet backpack jeder
+33 encji lorsqu palais
+34 uksen suffrage stride
+35 baz paredes gemeins
+36 vernment implic nemat
+37 geri subset cif
+38 pire sov lithium
+39 igheden parcelle soma
+40 bill amer inoc
+41 zib qe revenir
+42 articles luces simile
+43 etos fianco femin
+44 kopf votre prick
+45 mun retira miejsce
+46 au cultural touches
+47 df declares buoy
+48 icked beer faite
+49 oso antwort aperto
+50 pub ass rozwo
+51 coal espl semester
+52 loir tumour organis
+53 aryngeal conegut morphine
+54 artist jeg vraiment
+55 anj tremor fif
+56 antu rurale hier
+57 ifinal torrent gad
+58 giv rgba voj
+59 icu incapac vendar
+60 razione nef rhythms
+61 ensation cantante axes
+62 ythe engen biofilm
+63 icon tornare density
+64 teacher tormenta mascul
+65 atto innoc pok
+66 veg verden hovering
+67 vod couteau spells
+68 asy storing anth
+69 ceptions carries fiss
+70 jelent implied quiet
+71 oblasts attacker altar
+72 nis efter work
+73 acio udara starch
+74 osi mineur tomato
+75 nels gy ondorio
+76 list rapporti gim
+77 possibly bordered cracked
+78 asic solub kr
+79 knife fratello fels
+80 stdio endif erfolg
+81 uevo scap hey
+82 cerpt istif multim
+83 arib greco tents
+84 upported tod directly
+85 aterial verkauft verbra
+86 lander ahora ormai
+87 ienne eller consc
+88 asjon low crossed
+89 listen gam words
+90 riu tours francs
+91 iego delle sido
+92 ringen szer neg
+93 triangle passes borde
+94 nee defe descrit
+95 irono ving ubiquit
+96 dots struktur perdendo
+97 meid spir bolsa
+98 tpl commiss stiff
+99 ances diagr fois
+[completion]
+00 cover rio magnets -> –c–o–v–e–r–r–i–o–m–a–g–n–e–t–s–
+01 atott beside flawed -> –a–t–o–t–t–b–e–s–i–d–e–f–l–a–w–e–d–
+02 eceu poetic ordinal -> –e–c–e–u–p–o–e–t–i–c–o–r–d–i–n–a–l–
+03 assets pein lua -> –a–s–s–e–t–s–p–e–i–n–l–u–a–
+04 aternion saves ambush -> –a–t–e–r–n–i–o–n–s–a–v–e–s–a–m–b–u–s–h–
+05 tion when objets -> –t–i–o–n–w–h–e–n–o–b–j–e–t–s–
+06 adin skriv novia -> –a–d–i–n–s–k–r–i–v–n–o–v–i–a–
+07 ueel weit signaled -> –u–e–e–l–w–e–i–t–s–i–g–n–a–l–e–d–
+08 cript zehn silicon -> –c–r–i–p–t–z–e–h–n–s–i–l–i–c–o–n–
+09 etako encont pemb -> –e–t–a–k–o–e–n–c–o–n–t–p–e–m–b–
+10 rong partito country -> –r–o–n–g–p–a–r–t–i–t–o–c–o–u–n–t–r–y–
+11 weite china escort -> –w–e–i–t–e–c–h–i–n–a–e–s–c–o–r–t–
+12 rodite eras flesh -> –r–o–d–i–t–e–e–r–a–s–f–l–e–s–h–
+13 ellik trapped trained -> –e–l–l–i–k–t–r–a–p–p–e–d–t–r–a–i–n–e–d–
+14 zes muro geringer -> –z–e–s–m–u–r–o–g–e–r–i–n–g–e–r–
+15 special reef punt -> –s–p–e–c–i–a–l–r–e–e–f–p–u–n–t–
+16 ucose messing outs -> –u–c–o–s–e–m–e–s–s–i–n–g–o–u–t–s–
+17 opis potuto urgent -> –o–p–i–s–p–o–t–u–t–o–u–r–g–e–n–t–
+18 tas improve musi -> –t–a–s–i–m–p–r–o–v–e–m–u–s–i–
+19 utica freg serp -> –u–t–i–c–a–f–r–e–g–s–e–r–p–
+20 emory useful traject -> –e–m–o–r–y–u–s–e–f–u–l–t–r–a–j–e–c–t–
+21 oire input ajoute -> –o–i–r–e–i–n–p–u–t–a–j–o–u–t–e–
+22 ency jornal mentre -> –e–n–c–y–j–o–r–n–a–l–m–e–n–t–r–e–
+23 idlertid gaben contamin -> –i–d–l–e–r–t–i–d–g–a–b–e–n–c–o–n–t–a–m–i–n–
+24 hak luxe soleil -> –h–a–k–l–u–x–e–s–o–l–e–i–l–
+25 ypoth piosen wichtig -> –y–p–o–t–h–p–i–o–s–e–n–w–i–c–h–t–i–g–
+26 legte extend regione -> –l–e–g–t–e–e–x–t–e–n–d–r–e–g–i–o–n–e–
+27 fft dih shallow -> –f–f–t–d–i–h–s–h–a–l–l–o–w–
+28 itif kut despair -> –i–t–i–f–k–u–t–d–e–s–p–a–i–r–
+29 mar vang uy -> –m–a–r–v–a–n–g–u–y–
+30 icket founders slowly -> –i–c–k–e–t–f–o–u–n–d–e–r–s–s–l–o–w–l–y–
+31 vertebr lock atm -> –v–e–r–t–e–b–r–l–o–c–k–a–t–m–
+32 etet backpack jeder -> –e–t–e–t–b–a–c–k–p–a–c–k–j–e–d–e–r–
+33 encji lorsqu palais -> –e–n–c–j–i–l–o–r–s–q–u–p–a–l–a–i–s–
+34 uksen suffrage stride -> –u–k–s–e–n–s–u–f–f–r–a–g–e–s–t–r–i–d–e–
+35 baz paredes gemeins -> –b–a–z–p–a–r–e–d–e–s–g–e–m–e–i–n–s–
+36 vernment implic nemat -> –v–e–r–n–m–e–n–t–i–m–p–l–i–c–n–e–m–a–t–
+37 geri subset cif -> –g–e–r–i–s–u–b–s–e–t–c–i–f–
+38 pire sov lithium -> –p–i–r–e–s–o–v–l–i–t–h–i–u–m–
+39 igheden parcelle soma -> –i–g–h–e–d–e–n–p–a–r–c–e–l–l–e–s–o–m–a–
+40 bill amer inoc -> –b–i–l–l–a–m–e–r–i–n–o–c–
+41 zib qe revenir -> –z–i–b–q–e–r–e–v–e–n–i–r–
+42 articles luces simile -> –a–r–t–i–c–l–e–s–l–u–c–e–s–s–i–m–i–l–e–
+43 etos fianco femin -> –e–t–o–s–f–i–a–n–c–o–f–e–m–i–n–
+44 kopf votre prick -> –k–o–p–f–v–o–t–r–e–p–r–i–c–k–
+45 mun retira miejsce -> –m–u–n–r–e–t–i–r–a–m–i–e–j–s–c–e–
+46 au cultural touches -> –a–u–c–u–l–t–u–r–a–l–t–o–u–c–h–e–s–
+47 df declares buoy -> –d–f–d–e–c–l–a–r–e–s–b–u–o–y–
+48 icked beer faite -> –i–c–k–e–d–b–e–e–r–f–a–i–t–e–
+49 oso antwort aperto -> –o–s–o–a–n–t–w–o–r–t–a–p–e–r–t–o–
+50 pub ass rozwo -> –p–u–b–a–s–s–r–o–z–w–o–
+51 coal espl semester -> –c–o–a–l–e–s–p–l–s–e–m–e–s–t–e–r–
+52 loir tumour organis -> –l–o–i–r–t–u–m–o–u–r–o–r–g–a–n–i–s–
+53 aryngeal conegut morphine -> –a–r–y–n–g–e–a–l–c–o–n–e–g–u–t–m–o–r–p–h–i–n–e–
+54 artist jeg vraiment -> –a–r–t–i–s–t–j–e–g–v–r–a–i–m–e–n–t–
+55 anj tremor fif -> –a–n–j–t–r–e–m–o–r–f–i–f–
+56 antu rurale hier -> –a–n–t–u–r–u–r–a–l–e–h–i–e–r–
+57 ifinal torrent gad -> –i–f–i–n–a–l–t–o–r–r–e–n–t–g–a–d–
+58 giv rgba voj -> –g–i–v–r–g–b–a–v–o–j–
+59 icu incapac vendar -> –i–c–u–i–n–c–a–p–a–c–v–e–n–d–a–r–
+60 razione nef rhythms -> –r–a–z–i–o–n–e–n–e–f–r–h–y–t–h–m–s–
+61 ensation cantante axes -> –e–n–s–a–t–i–o–n–c–a–n–t–a–n–t–e–a–x–e–s–
+62 ythe engen biofilm -> –y–t–h–e–e–n–g–e–n–b–i–o–f–i–l–m–
+63 icon tornare density -> –i–c–o–n–t–o–r–n–a–r–e–d–e–n–s–i–t–y–
+64 teacher tormenta mascul -> –t–e–a–c–h–e–r–t–o–r–m–e–n–t–a–m–a–s–c–u–l–
+65 atto innoc pok -> –a–t–t–o–i–n–n–o–c–p–o–k–
+66 veg verden hovering -> –v–e–g–v–e–r–d–e–n–h–o–v–e–r–i–n–g–
+67 vod couteau spells -> –v–o–d–c–o–u–t–e–a–u–s–p–e–l–l–s–
+68 asy storing anth -> –a–s–y–s–t–o–r–i–n–g–a–n–t–h–
+69 ceptions carries fiss -> –c–e–p–t–i–o–n–s–c–a–r–r–i–e–s–f–i–s–s–
+70 jelent implied quiet -> –j–e–l–e–n–t–i–m–p–l–i–e–d–q–u–i–e–t–
+71 oblasts attacker altar -> –o–b–l–a–s–t–s–a–t–t–a–c–k–e–r–a–l–t–a–r–
+72 nis efter work -> –n–i–s–e–f–t–e–r–w–o–r–k–
+73 acio udara starch -> –a–c–i–o–u–d–a–r–a–s–t–a–r–c–h–
+74 osi mineur tomato -> –o–s–i–m–i–n–e–u–r–t–o–m–a–t–o–
+75 nels gy ondorio -> –n–e–l–s–g–y–o–n–d–o–r–i–o–
+76 list rapporti gim -> –l–i–s–t–r–a–p–p–o–r–t–i–g–i–m–
+77 possibly bordered cracked -> –p–o–s–s–i–b–l–y–b–o–r–d–e–r–e–d–c–r–a–c–k–e–d–
+78 asic solub kr -> –a–s–i–c–s–o–l–u–b–k–r–
+79 knife fratello fels -> –k–n–i–f–e–f–r–a–t–e–l–l–o–f–e–l–s–
+80 stdio endif erfolg -> –s–t–d–i–o–e–n–d–i–f–e–r–f–o–l–g–
+81 uevo scap hey -> –u–e–v–o–s–c–a–p–h–e–y–
+82 cerpt istif multim -> –c–e–r–p–t–i–s–t–i–f–m–u–l–t–i–m–
+83 arib greco tents -> –a–r–i–b–g–r–e–c–o–t–e–n–t–s–
+84 upported tod directly -> –u–p–p–o–r–t–e–d–t–o–d–d–i–r–e–c–t–l–y–
+85 aterial verkauft verbra -> –a–t–e–r–i–a–l–v–e–r–k–a–u–f–t–v–e–r–b–r–a–
+86 lander ahora ormai -> –l–a–n–d–e–r–a–h–o–r–a–o–r–m–a–i–
+87 ienne eller consc -> –i–e–n–n–e–e–l–l–e–r–c–o–n–s–c–
+88 asjon low crossed -> –a–s–j–o–n–l–o–w–c–r–o–s–s–e–d–
+89 listen gam words -> –l–i–s–t–e–n–g–a–m–w–o–r–d–s–
+90 riu tours francs -> –r–i–u–t–o–u–r–s–f–r–a–n–c–s–
+91 iego delle sido -> –i–e–g–o–d–e–l–l–e–s–i–d–o–
+92 ringen szer neg -> –r–i–n–g–e–n–s–z–e–r–n–e–g–
+93 triangle passes borde -> –t–r–i–a–n–g–l–e–p–a–s–s–e–s–b–o–r–d–e–
+94 nee defe descrit -> –n–e–e–d–e–f–e–d–e–s–c–r–i–t–
+95 irono ving ubiquit -> –i–r–o–n–o–v–i–n–g–u–b–i–q–u–i–t–
+96 dots struktur perdendo -> –d–o–t–s–s–t–r–u–k–t–u–r–p–e–r–d–e–n–d–o–
+97 meid spir bolsa -> –m–e–i–d–s–p–i–r–b–o–l–s–a–
+98 tpl commiss stiff -> –t–p–l–c–o–m–m–i–s–s–s–t–i–f–f–
+99 ances diagr fois -> –a–n–c–e–s–d–i–a–g–r–f–o–i–s–

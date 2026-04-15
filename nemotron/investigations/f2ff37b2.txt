@@ -1,0 +1,29 @@
+problem id: f2ff37b2
+category: equation_numeric_guess
+
+examples:
+- 66^67 = 1
+- 87^60 = 27
+- 80+96 = 8096
+- query: 91(29
+
+inferred rule:
+- `^` denotes the absolute difference of the two two-digit numbers.
+- `+` denotes direct concatenation of the two inputs.
+- The query symbol `(` does not appear in the examples, so its meaning must be inferred indirectly. With absolute difference and concatenation already used, the most defensible remaining basic transformation is ordinary multiplication.
+
+step-by-step check on the examples:
+1. `66^67 = 1` fits absolute difference because `|66 - 67| = 1`.
+2. `87^60 = 27` fits the same rule because `|87 - 60| = 27`.
+3. `80+96 = 8096` fits concatenation because writing the two inputs side by side gives `8096`.
+
+step-by-step application to the query:
+1. Treat `91(29` as ordinary multiplication.
+2. Compute `91 * 29`.
+3. `91 * 29 = 91 * (30 - 1) = 2730 - 91 = 2639`.
+
+predicted answer:
+- 2639
+
+confidence note:
+- Moderate confidence. The rules for `^` and `+` are directly supported by the examples, but `(` is unseen, so multiplication is still an inference rather than a demonstrated mapping. I would keep this note as a plausible manual rule, not a certain one.

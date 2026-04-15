@@ -1,0 +1,30 @@
+problem id: 260f20c1
+category: equation_numeric_guess
+
+examples:
+- 84[69 = 153
+- 13+97 = 1260
+- 46+47 = 2161
+- 52[80 = 132
+- query: 22\65
+
+inferred rule:
+- The symbols do not mean their usual operations.
+- `[` appears to mean ordinary addition:
+  - 84 + 69 = 153
+  - 52 + 80 = 132
+- `+` appears to mean multiplication, then subtract 1:
+  - 13 * 97 = 1261, so 13+97 = 1260
+  - 46 * 47 = 2162, so 46+47 = 2161
+- The puzzle seems to be reassigning basic arithmetic operators. With addition and multiplication already accounted for, the remaining query operator `\` is most plausibly subtraction.
+
+step-by-step application to the query:
+- Query is 22\65.
+- Apply the inferred subtraction rule to the two numbers.
+- 65 - 22 = 43.
+
+predicted answer:
+- 43
+
+confidence note:
+- Moderate confidence. The unseen `\` operator is not demonstrated directly in the examples, so this last step is an inference from the overall arithmetic pattern rather than a direct match.

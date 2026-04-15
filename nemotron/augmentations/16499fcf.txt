@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 mathrm manifest regione
+01 metros dip edema
+02 icale espa stub
+
+This is a sample output.
+00 mathrm manifest regione -> –m–a–t–h–r–m–m–a–n–i–f–e–s–t–r–e–g–i–o–n–e–
+01 metros dip edema -> –m–e–t–r–o–s–d–i–p–e–d–e–m–a–
+02 icale espa stub -> –i–c–a–l–e–e–s–p–a–s–t–u–b–
+
+This is your input.
+00 iteit promotes thick
+01 sterdam externos besetzt
+02 ugoslav aastal gloss
+03 known trades compre
+04 nipeg heures nghe
+05 aliers npc manusia
+06 builtin php lamps
+07 gaz giao licht
+08 perience assez fotos
+09 note doz marzo
+10 issement rozm potere
+11 datos cows tolu
+12 kod vaste enfront
+13 arte sas sert
+14 rench serving darle
+15 umbres subsp calma
+16 aitse cultivar kematian
+17 embro dav plung
+18 inline takich entsche
+19 zeiten possui jav
+20 emm poids ascorb
+21 atype pins pluck
+22 acre puesto wirk
+23 ologo rhythm pirates
+24 umen worry usato
+25 commit twist doma
+26 cillor aims empathy
+27 struct substr consect
+28 rowing dites patrim
+29 urro lengua deux
+30 iernos parach blieben
+31 owire yosh metod
+32 an mount grosse
+33 bibliot informs cloak
+34 rilor gew timpul
+35 oclast prints chunks
+36 utzt centres mutil
+37 isations enjoyed builder
+38 ichael clips ppm
+39 uot ama sidewalk
+40 flight max jobb
+41 ility balloon worthy
+42 halle pertama visible
+43 disf zakres stab
+44 ivia buscando spelling
+45 ylabel muscles prie
+46 bm oldest impos
+47 niques wchod diesel
+48 rost ikk ikkje
+49 achement pending vor
+50 ragments solidar frac
+51 ulam users chiefs
+52 entum zem prelimin
+53 esar ff schien
+54 asso movie eindeut
+55 cler motivo litt
+56 afka reading seit
+57 ldes dik incont
+58 osa ode obr
+59 unik radios advent
+60 velocity hiding lei
+61 onger cytotox escrita
+62 closures antenna server
+63 ivated consul agencies
+64 tz wynik dog
+65 ipe widget seniors
+66 quio krit vah
+67 atever wal ultrason
+68 estu receptor convain
+69 badge sp kent
+70 cios marcas honored
+71 unda coloring vida
+72 clud finanzi readily
+73 ycline peri pessoas
+74 entrum rends stade
+75 rift naut tibia
+76 ess xer gods
+77 equal soud trzech
+78 ochrom dial exposure
+79 elines enfr explan
+80 illet caries sake
+81 aptive frontend lingu
+82 ropo tooltip bukan
+83 drag urb bleed
+84 ovement sot ener
+85 ienes consort coin
+86 cardia penis ello
+87 emplace climate dix
+88 ietnam raccon valits
+89 rd oracle numbers
+90 luk bury tomaron
+91 polis stadion saddle
+92 cluso jogo posti
+93 yen solving high
+94 lide coating farms
+95 acer niin now
+96 vi hacer abbandon
+97 eti sexo zuten
+98 race como millim
+99 relation popped maart
+[completion]
+00 iteit promotes thick -> –i–t–e–i–t–p–r–o–m–o–t–e–s–t–h–i–c–k–
+01 sterdam externos besetzt -> –s–t–e–r–d–a–m–e–x–t–e–r–n–o–s–b–e–s–e–t–z–t–
+02 ugoslav aastal gloss -> –u–g–o–s–l–a–v–a–a–s–t–a–l–g–l–o–s–s–
+03 known trades compre -> –k–n–o–w–n–t–r–a–d–e–s–c–o–m–p–r–e–
+04 nipeg heures nghe -> –n–i–p–e–g–h–e–u–r–e–s–n–g–h–e–
+05 aliers npc manusia -> –a–l–i–e–r–s–n–p–c–m–a–n–u–s–i–a–
+06 builtin php lamps -> –b–u–i–l–t–i–n–p–h–p–l–a–m–p–s–
+07 gaz giao licht -> –g–a–z–g–i–a–o–l–i–c–h–t–
+08 perience assez fotos -> –p–e–r–i–e–n–c–e–a–s–s–e–z–f–o–t–o–s–
+09 note doz marzo -> –n–o–t–e–d–o–z–m–a–r–z–o–
+10 issement rozm potere -> –i–s–s–e–m–e–n–t–r–o–z–m–p–o–t–e–r–e–
+11 datos cows tolu -> –d–a–t–o–s–c–o–w–s–t–o–l–u–
+12 kod vaste enfront -> –k–o–d–v–a–s–t–e–e–n–f–r–o–n–t–
+13 arte sas sert -> –a–r–t–e–s–a–s–s–e–r–t–
+14 rench serving darle -> –r–e–n–c–h–s–e–r–v–i–n–g–d–a–r–l–e–
+15 umbres subsp calma -> –u–m–b–r–e–s–s–u–b–s–p–c–a–l–m–a–
+16 aitse cultivar kematian -> –a–i–t–s–e–c–u–l–t–i–v–a–r–k–e–m–a–t–i–a–n–
+17 embro dav plung -> –e–m–b–r–o–d–a–v–p–l–u–n–g–
+18 inline takich entsche -> –i–n–l–i–n–e–t–a–k–i–c–h–e–n–t–s–c–h–e–
+19 zeiten possui jav -> –z–e–i–t–e–n–p–o–s–s–u–i–j–a–v–
+20 emm poids ascorb -> –e–m–m–p–o–i–d–s–a–s–c–o–r–b–
+21 atype pins pluck -> –a–t–y–p–e–p–i–n–s–p–l–u–c–k–
+22 acre puesto wirk -> –a–c–r–e–p–u–e–s–t–o–w–i–r–k–
+23 ologo rhythm pirates -> –o–l–o–g–o–r–h–y–t–h–m–p–i–r–a–t–e–s–
+24 umen worry usato -> –u–m–e–n–w–o–r–r–y–u–s–a–t–o–
+25 commit twist doma -> –c–o–m–m–i–t–t–w–i–s–t–d–o–m–a–
+26 cillor aims empathy -> –c–i–l–l–o–r–a–i–m–s–e–m–p–a–t–h–y–
+27 struct substr consect -> –s–t–r–u–c–t–s–u–b–s–t–r–c–o–n–s–e–c–t–
+28 rowing dites patrim -> –r–o–w–i–n–g–d–i–t–e–s–p–a–t–r–i–m–
+29 urro lengua deux -> –u–r–r–o–l–e–n–g–u–a–d–e–u–x–
+30 iernos parach blieben -> –i–e–r–n–o–s–p–a–r–a–c–h–b–l–i–e–b–e–n–
+31 owire yosh metod -> –o–w–i–r–e–y–o–s–h–m–e–t–o–d–
+32 an mount grosse -> –a–n–m–o–u–n–t–g–r–o–s–s–e–
+33 bibliot informs cloak -> –b–i–b–l–i–o–t–i–n–f–o–r–m–s–c–l–o–a–k–
+34 rilor gew timpul -> –r–i–l–o–r–g–e–w–t–i–m–p–u–l–
+35 oclast prints chunks -> –o–c–l–a–s–t–p–r–i–n–t–s–c–h–u–n–k–s–
+36 utzt centres mutil -> –u–t–z–t–c–e–n–t–r–e–s–m–u–t–i–l–
+37 isations enjoyed builder -> –i–s–a–t–i–o–n–s–e–n–j–o–y–e–d–b–u–i–l–d–e–r–
+38 ichael clips ppm -> –i–c–h–a–e–l–c–l–i–p–s–p–p–m–
+39 uot ama sidewalk -> –u–o–t–a–m–a–s–i–d–e–w–a–l–k–
+40 flight max jobb -> –f–l–i–g–h–t–m–a–x–j–o–b–b–
+41 ility balloon worthy -> –i–l–i–t–y–b–a–l–l–o–o–n–w–o–r–t–h–y–
+42 halle pertama visible -> –h–a–l–l–e–p–e–r–t–a–m–a–v–i–s–i–b–l–e–
+43 disf zakres stab -> –d–i–s–f–z–a–k–r–e–s–s–t–a–b–
+44 ivia buscando spelling -> –i–v–i–a–b–u–s–c–a–n–d–o–s–p–e–l–l–i–n–g–
+45 ylabel muscles prie -> –y–l–a–b–e–l–m–u–s–c–l–e–s–p–r–i–e–
+46 bm oldest impos -> –b–m–o–l–d–e–s–t–i–m–p–o–s–
+47 niques wchod diesel -> –n–i–q–u–e–s–w–c–h–o–d–d–i–e–s–e–l–
+48 rost ikk ikkje -> –r–o–s–t–i–k–k–i–k–k–j–e–
+49 achement pending vor -> –a–c–h–e–m–e–n–t–p–e–n–d–i–n–g–v–o–r–
+50 ragments solidar frac -> –r–a–g–m–e–n–t–s–s–o–l–i–d–a–r–f–r–a–c–
+51 ulam users chiefs -> –u–l–a–m–u–s–e–r–s–c–h–i–e–f–s–
+52 entum zem prelimin -> –e–n–t–u–m–z–e–m–p–r–e–l–i–m–i–n–
+53 esar ff schien -> –e–s–a–r–f–f–s–c–h–i–e–n–
+54 asso movie eindeut -> –a–s–s–o–m–o–v–i–e–e–i–n–d–e–u–t–
+55 cler motivo litt -> –c–l–e–r–m–o–t–i–v–o–l–i–t–t–
+56 afka reading seit -> –a–f–k–a–r–e–a–d–i–n–g–s–e–i–t–
+57 ldes dik incont -> –l–d–e–s–d–i–k–i–n–c–o–n–t–
+58 osa ode obr -> –o–s–a–o–d–e–o–b–r–
+59 unik radios advent -> –u–n–i–k–r–a–d–i–o–s–a–d–v–e–n–t–
+60 velocity hiding lei -> –v–e–l–o–c–i–t–y–h–i–d–i–n–g–l–e–i–
+61 onger cytotox escrita -> –o–n–g–e–r–c–y–t–o–t–o–x–e–s–c–r–i–t–a–
+62 closures antenna server -> –c–l–o–s–u–r–e–s–a–n–t–e–n–n–a–s–e–r–v–e–r–
+63 ivated consul agencies -> –i–v–a–t–e–d–c–o–n–s–u–l–a–g–e–n–c–i–e–s–
+64 tz wynik dog -> –t–z–w–y–n–i–k–d–o–g–
+65 ipe widget seniors -> –i–p–e–w–i–d–g–e–t–s–e–n–i–o–r–s–
+66 quio krit vah -> –q–u–i–o–k–r–i–t–v–a–h–
+67 atever wal ultrason -> –a–t–e–v–e–r–w–a–l–u–l–t–r–a–s–o–n–
+68 estu receptor convain -> –e–s–t–u–r–e–c–e–p–t–o–r–c–o–n–v–a–i–n–
+69 badge sp kent -> –b–a–d–g–e–s–p–k–e–n–t–
+70 cios marcas honored -> –c–i–o–s–m–a–r–c–a–s–h–o–n–o–r–e–d–
+71 unda coloring vida -> –u–n–d–a–c–o–l–o–r–i–n–g–v–i–d–a–
+72 clud finanzi readily -> –c–l–u–d–f–i–n–a–n–z–i–r–e–a–d–i–l–y–
+73 ycline peri pessoas -> –y–c–l–i–n–e–p–e–r–i–p–e–s–s–o–a–s–
+74 entrum rends stade -> –e–n–t–r–u–m–r–e–n–d–s–s–t–a–d–e–
+75 rift naut tibia -> –r–i–f–t–n–a–u–t–t–i–b–i–a–
+76 ess xer gods -> –e–s–s–x–e–r–g–o–d–s–
+77 equal soud trzech -> –e–q–u–a–l–s–o–u–d–t–r–z–e–c–h–
+78 ochrom dial exposure -> –o–c–h–r–o–m–d–i–a–l–e–x–p–o–s–u–r–e–
+79 elines enfr explan -> –e–l–i–n–e–s–e–n–f–r–e–x–p–l–a–n–
+80 illet caries sake -> –i–l–l–e–t–c–a–r–i–e–s–s–a–k–e–
+81 aptive frontend lingu -> –a–p–t–i–v–e–f–r–o–n–t–e–n–d–l–i–n–g–u–
+82 ropo tooltip bukan -> –r–o–p–o–t–o–o–l–t–i–p–b–u–k–a–n–
+83 drag urb bleed -> –d–r–a–g–u–r–b–b–l–e–e–d–
+84 ovement sot ener -> –o–v–e–m–e–n–t–s–o–t–e–n–e–r–
+85 ienes consort coin -> –i–e–n–e–s–c–o–n–s–o–r–t–c–o–i–n–
+86 cardia penis ello -> –c–a–r–d–i–a–p–e–n–i–s–e–l–l–o–
+87 emplace climate dix -> –e–m–p–l–a–c–e–c–l–i–m–a–t–e–d–i–x–
+88 ietnam raccon valits -> –i–e–t–n–a–m–r–a–c–c–o–n–v–a–l–i–t–s–
+89 rd oracle numbers -> –r–d–o–r–a–c–l–e–n–u–m–b–e–r–s–
+90 luk bury tomaron -> –l–u–k–b–u–r–y–t–o–m–a–r–o–n–
+91 polis stadion saddle -> –p–o–l–i–s–s–t–a–d–i–o–n–s–a–d–d–l–e–
+92 cluso jogo posti -> –c–l–u–s–o–j–o–g–o–p–o–s–t–i–
+93 yen solving high -> –y–e–n–s–o–l–v–i–n–g–h–i–g–h–
+94 lide coating farms -> –l–i–d–e–c–o–a–t–i–n–g–f–a–r–m–s–
+95 acer niin now -> –a–c–e–r–n–i–i–n–n–o–w–
+96 vi hacer abbandon -> –v–i–h–a–c–e–r–a–b–b–a–n–d–o–n–
+97 eti sexo zuten -> –e–t–i–s–e–x–o–z–u–t–e–n–
+98 race como millim -> –r–a–c–e–c–o–m–o–m–i–l–l–i–m–
+99 relation popped maart -> –r–e–l–a–t–i–o–n–p–o–p–p–e–d–m–a–a–r–t–

@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 kir rie tire
+01 so fatta traje
+02 eyer arma kuiten
+
+This is a sample output.
+00 kir rie tire -> –k–i–r–r–i–e–t–i–r–e–
+01 so fatta traje -> –s–o–f–a–t–t–a–t–r–a–j–e–
+02 eyer arma kuiten -> –e–y–e–r–a–r–m–a–k–u–i–t–e–n–
+
+This is your input.
+00 anime steh people
+01 kiye edge devenit
+02 gegen mev hib
+03 side turne eran
+04 hooting exhibits filtr
+05 uce rounds obiekt
+06 ausen offering assimil
+07 ytt gala offer
+08 skap ek corrug
+09 inge calcular komun
+10 esters lorsque candle
+11 bron generar prophecy
+12 vezett kond lysates
+13 inawa vorn mighty
+14 ilih tw neat
+15 cribing dom barracks
+16 utan ence trump
+17 annya played tarde
+18 fy otvor girls
+19 lekt remont app
+20 duced page famiglie
+21 forecast surge sn
+22 pler hav baseline
+23 gab expelled harmadik
+24 ollision abuse ranked
+25 agnar flame puestos
+26 ulaires tomorrow problems
+27 uper prata sebagian
+28 hei regj fever
+29 ected alcan aplica
+30 nance ezer clases
+31 ow neutroph oficer
+32 erdere reload moh
+33 ianos atau routine
+34 fahrt baza altura
+35 decyd tur how
+36 chief gyer calme
+37 aisons material maailman
+38 enche limit trai
+39 roda avea wid
+40 helpers alarm noticing
+41 arah streets essi
+42 vista pilota banned
+43 umente regina stadig
+44 olph bin cosa
+45 ruck meurt twitch
+46 daction miatt fairly
+47 ibliot milag crystal
+48 el lik doprav
+49 inely domest vicino
+50 ydown acestea vad
+51 stern ciasc droit
+52 bahnen anch osv
+53 adena fahren restless
+54 ogue starb visited
+55 ver routers weighing
+56 orative planta poch
+57 iding iniciar detect
+58 igste tread pus
+59 met table altre
+60 nement dl channels
+61 verified deng lice
+62 ycin trying worrying
+63 async wichtige foreach
+64 bject plugins valeur
+65 ophyll gangs videos
+66 iculture biopsy humili
+67 ilaren enthusi silk
+68 blos audio examples
+69 testing seien mouv
+70 coord loco skewed
+71 abolic uts diversos
+72 connect boards nec
+73 zono bachelor umbil
+74 odil catt andre
+75 ubi repre corrente
+76 ottak catalog molte
+77 nelles jord byli
+78 zott perhaps affinity
+79 zehn vone argues
+80 lager perdere marta
+81 yroidism voulez oms
+82 bra sweat forged
+83 como letras monopoly
+84 erio cama entrant
+85 unst profite lucht
+86 orer amerikan dur
+87 ilience apples cita
+88 pektive pemerint chips
+89 itated aware projet
+90 keen tied cend
+91 untza stepping merged
+92 max natura exterior
+93 icamente saltze ther
+94 adesh obdob externas
+95 fast transm deixando
+96 gat matched furn
+97 pen karar ingles
+98 lard ren mirror
+99 pecial upr barn
+[completion]
+00 anime steh people -> –a–n–i–m–e–s–t–e–h–p–e–o–p–l–e–
+01 kiye edge devenit -> –k–i–y–e–e–d–g–e–d–e–v–e–n–i–t–
+02 gegen mev hib -> –g–e–g–e–n–m–e–v–h–i–b–
+03 side turne eran -> –s–i–d–e–t–u–r–n–e–e–r–a–n–
+04 hooting exhibits filtr -> –h–o–o–t–i–n–g–e–x–h–i–b–i–t–s–f–i–l–t–r–
+05 uce rounds obiekt -> –u–c–e–r–o–u–n–d–s–o–b–i–e–k–t–
+06 ausen offering assimil -> –a–u–s–e–n–o–f–f–e–r–i–n–g–a–s–s–i–m–i–l–
+07 ytt gala offer -> –y–t–t–g–a–l–a–o–f–f–e–r–
+08 skap ek corrug -> –s–k–a–p–e–k–c–o–r–r–u–g–
+09 inge calcular komun -> –i–n–g–e–c–a–l–c–u–l–a–r–k–o–m–u–n–
+10 esters lorsque candle -> –e–s–t–e–r–s–l–o–r–s–q–u–e–c–a–n–d–l–e–
+11 bron generar prophecy -> –b–r–o–n–g–e–n–e–r–a–r–p–r–o–p–h–e–c–y–
+12 vezett kond lysates -> –v–e–z–e–t–t–k–o–n–d–l–y–s–a–t–e–s–
+13 inawa vorn mighty -> –i–n–a–w–a–v–o–r–n–m–i–g–h–t–y–
+14 ilih tw neat -> –i–l–i–h–t–w–n–e–a–t–
+15 cribing dom barracks -> –c–r–i–b–i–n–g–d–o–m–b–a–r–r–a–c–k–s–
+16 utan ence trump -> –u–t–a–n–e–n–c–e–t–r–u–m–p–
+17 annya played tarde -> –a–n–n–y–a–p–l–a–y–e–d–t–a–r–d–e–
+18 fy otvor girls -> –f–y–o–t–v–o–r–g–i–r–l–s–
+19 lekt remont app -> –l–e–k–t–r–e–m–o–n–t–a–p–p–
+20 duced page famiglie -> –d–u–c–e–d–p–a–g–e–f–a–m–i–g–l–i–e–
+21 forecast surge sn -> –f–o–r–e–c–a–s–t–s–u–r–g–e–s–n–
+22 pler hav baseline -> –p–l–e–r–h–a–v–b–a–s–e–l–i–n–e–
+23 gab expelled harmadik -> –g–a–b–e–x–p–e–l–l–e–d–h–a–r–m–a–d–i–k–
+24 ollision abuse ranked -> –o–l–l–i–s–i–o–n–a–b–u–s–e–r–a–n–k–e–d–
+25 agnar flame puestos -> –a–g–n–a–r–f–l–a–m–e–p–u–e–s–t–o–s–
+26 ulaires tomorrow problems -> –u–l–a–i–r–e–s–t–o–m–o–r–r–o–w–p–r–o–b–l–e–m–s–
+27 uper prata sebagian -> –u–p–e–r–p–r–a–t–a–s–e–b–a–g–i–a–n–
+28 hei regj fever -> –h–e–i–r–e–g–j–f–e–v–e–r–
+29 ected alcan aplica -> –e–c–t–e–d–a–l–c–a–n–a–p–l–i–c–a–
+30 nance ezer clases -> –n–a–n–c–e–e–z–e–r–c–l–a–s–e–s–
+31 ow neutroph oficer -> –o–w–n–e–u–t–r–o–p–h–o–f–i–c–e–r–
+32 erdere reload moh -> –e–r–d–e–r–e–r–e–l–o–a–d–m–o–h–
+33 ianos atau routine -> –i–a–n–o–s–a–t–a–u–r–o–u–t–i–n–e–
+34 fahrt baza altura -> –f–a–h–r–t–b–a–z–a–a–l–t–u–r–a–
+35 decyd tur how -> –d–e–c–y–d–t–u–r–h–o–w–
+36 chief gyer calme -> –c–h–i–e–f–g–y–e–r–c–a–l–m–e–
+37 aisons material maailman -> –a–i–s–o–n–s–m–a–t–e–r–i–a–l–m–a–a–i–l–m–a–n–
+38 enche limit trai -> –e–n–c–h–e–l–i–m–i–t–t–r–a–i–
+39 roda avea wid -> –r–o–d–a–a–v–e–a–w–i–d–
+40 helpers alarm noticing -> –h–e–l–p–e–r–s–a–l–a–r–m–n–o–t–i–c–i–n–g–
+41 arah streets essi -> –a–r–a–h–s–t–r–e–e–t–s–e–s–s–i–
+42 vista pilota banned -> –v–i–s–t–a–p–i–l–o–t–a–b–a–n–n–e–d–
+43 umente regina stadig -> –u–m–e–n–t–e–r–e–g–i–n–a–s–t–a–d–i–g–
+44 olph bin cosa -> –o–l–p–h–b–i–n–c–o–s–a–
+45 ruck meurt twitch -> –r–u–c–k–m–e–u–r–t–t–w–i–t–c–h–
+46 daction miatt fairly -> –d–a–c–t–i–o–n–m–i–a–t–t–f–a–i–r–l–y–
+47 ibliot milag crystal -> –i–b–l–i–o–t–m–i–l–a–g–c–r–y–s–t–a–l–
+48 el lik doprav -> –e–l–l–i–k–d–o–p–r–a–v–
+49 inely domest vicino -> –i–n–e–l–y–d–o–m–e–s–t–v–i–c–i–n–o–
+50 ydown acestea vad -> –y–d–o–w–n–a–c–e–s–t–e–a–v–a–d–
+51 stern ciasc droit -> –s–t–e–r–n–c–i–a–s–c–d–r–o–i–t–
+52 bahnen anch osv -> –b–a–h–n–e–n–a–n–c–h–o–s–v–
+53 adena fahren restless -> –a–d–e–n–a–f–a–h–r–e–n–r–e–s–t–l–e–s–s–
+54 ogue starb visited -> –o–g–u–e–s–t–a–r–b–v–i–s–i–t–e–d–
+55 ver routers weighing -> –v–e–r–r–o–u–t–e–r–s–w–e–i–g–h–i–n–g–
+56 orative planta poch -> –o–r–a–t–i–v–e–p–l–a–n–t–a–p–o–c–h–
+57 iding iniciar detect -> –i–d–i–n–g–i–n–i–c–i–a–r–d–e–t–e–c–t–
+58 igste tread pus -> –i–g–s–t–e–t–r–e–a–d–p–u–s–
+59 met table altre -> –m–e–t–t–a–b–l–e–a–l–t–r–e–
+60 nement dl channels -> –n–e–m–e–n–t–d–l–c–h–a–n–n–e–l–s–
+61 verified deng lice -> –v–e–r–i–f–i–e–d–d–e–n–g–l–i–c–e–
+62 ycin trying worrying -> –y–c–i–n–t–r–y–i–n–g–w–o–r–r–y–i–n–g–
+63 async wichtige foreach -> –a–s–y–n–c–w–i–c–h–t–i–g–e–f–o–r–e–a–c–h–
+64 bject plugins valeur -> –b–j–e–c–t–p–l–u–g–i–n–s–v–a–l–e–u–r–
+65 ophyll gangs videos -> –o–p–h–y–l–l–g–a–n–g–s–v–i–d–e–o–s–
+66 iculture biopsy humili -> –i–c–u–l–t–u–r–e–b–i–o–p–s–y–h–u–m–i–l–i–
+67 ilaren enthusi silk -> –i–l–a–r–e–n–e–n–t–h–u–s–i–s–i–l–k–
+68 blos audio examples -> –b–l–o–s–a–u–d–i–o–e–x–a–m–p–l–e–s–
+69 testing seien mouv -> –t–e–s–t–i–n–g–s–e–i–e–n–m–o–u–v–
+70 coord loco skewed -> –c–o–o–r–d–l–o–c–o–s–k–e–w–e–d–
+71 abolic uts diversos -> –a–b–o–l–i–c–u–t–s–d–i–v–e–r–s–o–s–
+72 connect boards nec -> –c–o–n–n–e–c–t–b–o–a–r–d–s–n–e–c–
+73 zono bachelor umbil -> –z–o–n–o–b–a–c–h–e–l–o–r–u–m–b–i–l–
+74 odil catt andre -> –o–d–i–l–c–a–t–t–a–n–d–r–e–
+75 ubi repre corrente -> –u–b–i–r–e–p–r–e–c–o–r–r–e–n–t–e–
+76 ottak catalog molte -> –o–t–t–a–k–c–a–t–a–l–o–g–m–o–l–t–e–
+77 nelles jord byli -> –n–e–l–l–e–s–j–o–r–d–b–y–l–i–
+78 zott perhaps affinity -> –z–o–t–t–p–e–r–h–a–p–s–a–f–f–i–n–i–t–y–
+79 zehn vone argues -> –z–e–h–n–v–o–n–e–a–r–g–u–e–s–
+80 lager perdere marta -> –l–a–g–e–r–p–e–r–d–e–r–e–m–a–r–t–a–
+81 yroidism voulez oms -> –y–r–o–i–d–i–s–m–v–o–u–l–e–z–o–m–s–
+82 bra sweat forged -> –b–r–a–s–w–e–a–t–f–o–r–g–e–d–
+83 como letras monopoly -> –c–o–m–o–l–e–t–r–a–s–m–o–n–o–p–o–l–y–
+84 erio cama entrant -> –e–r–i–o–c–a–m–a–e–n–t–r–a–n–t–
+85 unst profite lucht -> –u–n–s–t–p–r–o–f–i–t–e–l–u–c–h–t–
+86 orer amerikan dur -> –o–r–e–r–a–m–e–r–i–k–a–n–d–u–r–
+87 ilience apples cita -> –i–l–i–e–n–c–e–a–p–p–l–e–s–c–i–t–a–
+88 pektive pemerint chips -> –p–e–k–t–i–v–e–p–e–m–e–r–i–n–t–c–h–i–p–s–
+89 itated aware projet -> –i–t–a–t–e–d–a–w–a–r–e–p–r–o–j–e–t–
+90 keen tied cend -> –k–e–e–n–t–i–e–d–c–e–n–d–
+91 untza stepping merged -> –u–n–t–z–a–s–t–e–p–p–i–n–g–m–e–r–g–e–d–
+92 max natura exterior -> –m–a–x–n–a–t–u–r–a–e–x–t–e–r–i–o–r–
+93 icamente saltze ther -> –i–c–a–m–e–n–t–e–s–a–l–t–z–e–t–h–e–r–
+94 adesh obdob externas -> –a–d–e–s–h–o–b–d–o–b–e–x–t–e–r–n–a–s–
+95 fast transm deixando -> –f–a–s–t–t–r–a–n–s–m–d–e–i–x–a–n–d–o–
+96 gat matched furn -> –g–a–t–m–a–t–c–h–e–d–f–u–r–n–
+97 pen karar ingles -> –p–e–n–k–a–r–a–r–i–n–g–l–e–s–
+98 lard ren mirror -> –l–a–r–d–r–e–n–m–i–r–r–o–r–
+99 pecial upr barn -> –p–e–c–i–a–l–u–p–r–b–a–r–n–

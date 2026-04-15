@@ -1,0 +1,27 @@
+problem id: 6f8261d9
+category: cryptarithm_deduce
+
+symbol-to-digit mapping:
+  '%' = 1
+  '&' = 2
+  '(' = 6
+  ')' = 7
+  '/' = 3
+  '\\' = 0
+  '^' = 8
+  '{' = 5
+  '|' = 4
+
+operator-to-operation mapping:
+  '-' = abs_diff
+
+examples:
+  /(-|\ = |  =>  |36 - 40| = 4
+  (\-^% = &%  =>  |60 - 81| = 21
+  ^(-|| = |&  =>  |86 - 44| = 42
+  )^-{\ = &^  =>  |78 - 50| = 28
+  |)-|\ = )  =>  |47 - 40| = 7
+
+query: |(-|(  =>  |46 - 46| = 0
+
+predicted answer: \

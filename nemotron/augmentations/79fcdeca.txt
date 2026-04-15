@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 alho ronda ild
+01 indy facilit spins
+02 struct bon plated
+
+This is a sample output.
+00 alho ronda ild -> –a–l–h–o–r–o–n–d–a–i–l–d–
+01 indy facilit spins -> –i–n–d–y–f–a–c–i–l–i–t–s–p–i–n–s–
+02 struct bon plated -> –s–t–r–u–c–t–b–o–n–p–l–a–t–e–d–
+
+This is your input.
+00 modules manger deserve
+01 need spa blok
+02 centes pov epistem
+03 zd bosque pratic
+04 jande headache matar
+05 zia chauff provides
+06 lav esque doubles
+07 odd bancos faill
+08 tm sirv trang
+09 urtle infar helik
+10 aussian selector idi
+11 erei profund daraus
+12 upgrade fon etched
+13 oltip solenoid mis
+14 convert approx selts
+15 emporal zahr wuchs
+16 apted iler csoport
+17 esked oval worries
+18 king yes fontos
+19 header osteo boucl
+20 ebruary escuchar furrow
+21 picker cul dzies
+22 gas wert antigo
+23 cam stam mantuvo
+24 ygen pintor latach
+25 urope personn dieses
+26 borg peas tuf
+27 kie lately niece
+28 aupt regul giud
+29 ampo facile oldu
+30 ycling lens satire
+31 inated apare bun
+32 avis dite piem
+33 retan komb dziew
+34 cin rad prawa
+35 nama pall neoplas
+36 ominated cambiado mutagen
+37 ling quarter paradig
+38 risk sej white
+39 avg seni wrapping
+40 hattan nanom socio
+41 keyword climatic duca
+42 oud vois ganado
+43 iseksi intimid viola
+44 ione pon logger
+45 titel myths managers
+46 onaldo registre database
+47 frage apropi peintre
+48 aute cumple colores
+49 anyon fasting firms
+50 metic without praying
+51 ihen fent hel
+52 reur sombr vuel
+53 uchte nonin bullets
+54 kung maint inspect
+55 itaire troub deliver
+56 pon zdecyd career
+57 plugin warf amaz
+58 uhan ops parece
+59 ward zs juta
+60 ank souri horien
+61 argv rimasto fatty
+62 ocode sys boli
+63 avo lesion voet
+64 wm wusste freedom
+65 scripts okto war
+66 venues falsa symptoms
+67 ibration sehe vero
+68 mens confirms fenomen
+69 ljen hanno geval
+70 zeugung black winters
+71 ussi restes rins
+72 iving inertial erine
+73 ropolis magna ordering
+74 why dic voidaan
+75 barten changing summers
+76 zel bila disf
+77 critical mutate pasaba
+78 visited taxon creator
+79 vek quant pasta
+80 jois tag lectures
+81 hydrogen jude rov
+82 rova olid scene
+83 chel alkoi comfort
+84 omegal celor loses
+85 patients hacen veille
+86 sony siano jer
+87 utm jis thereon
+88 bst adier privacy
+89 eyer birthday agua
+90 etail afili szen
+91 leri sour breaks
+92 lije mocked lateral
+93 animate twelfth vieux
+94 piece baja forest
+95 heer sist modified
+96 ortical gebieden shr
+97 fun alkal kvarter
+98 ound berada assass
+99 shell peel jang
+[completion]
+00 modules manger deserve -> –m–o–d–u–l–e–s–m–a–n–g–e–r–d–e–s–e–r–v–e–
+01 need spa blok -> –n–e–e–d–s–p–a–b–l–o–k–
+02 centes pov epistem -> –c–e–n–t–e–s–p–o–v–e–p–i–s–t–e–m–
+03 zd bosque pratic -> –z–d–b–o–s–q–u–e–p–r–a–t–i–c–
+04 jande headache matar -> –j–a–n–d–e–h–e–a–d–a–c–h–e–m–a–t–a–r–
+05 zia chauff provides -> –z–i–a–c–h–a–u–f–f–p–r–o–v–i–d–e–s–
+06 lav esque doubles -> –l–a–v–e–s–q–u–e–d–o–u–b–l–e–s–
+07 odd bancos faill -> –o–d–d–b–a–n–c–o–s–f–a–i–l–l–
+08 tm sirv trang -> –t–m–s–i–r–v–t–r–a–n–g–
+09 urtle infar helik -> –u–r–t–l–e–i–n–f–a–r–h–e–l–i–k–
+10 aussian selector idi -> –a–u–s–s–i–a–n–s–e–l–e–c–t–o–r–i–d–i–
+11 erei profund daraus -> –e–r–e–i–p–r–o–f–u–n–d–d–a–r–a–u–s–
+12 upgrade fon etched -> –u–p–g–r–a–d–e–f–o–n–e–t–c–h–e–d–
+13 oltip solenoid mis -> –o–l–t–i–p–s–o–l–e–n–o–i–d–m–i–s–
+14 convert approx selts -> –c–o–n–v–e–r–t–a–p–p–r–o–x–s–e–l–t–s–
+15 emporal zahr wuchs -> –e–m–p–o–r–a–l–z–a–h–r–w–u–c–h–s–
+16 apted iler csoport -> –a–p–t–e–d–i–l–e–r–c–s–o–p–o–r–t–
+17 esked oval worries -> –e–s–k–e–d–o–v–a–l–w–o–r–r–i–e–s–
+18 king yes fontos -> –k–i–n–g–y–e–s–f–o–n–t–o–s–
+19 header osteo boucl -> –h–e–a–d–e–r–o–s–t–e–o–b–o–u–c–l–
+20 ebruary escuchar furrow -> –e–b–r–u–a–r–y–e–s–c–u–c–h–a–r–f–u–r–r–o–w–
+21 picker cul dzies -> –p–i–c–k–e–r–c–u–l–d–z–i–e–s–
+22 gas wert antigo -> –g–a–s–w–e–r–t–a–n–t–i–g–o–
+23 cam stam mantuvo -> –c–a–m–s–t–a–m–m–a–n–t–u–v–o–
+24 ygen pintor latach -> –y–g–e–n–p–i–n–t–o–r–l–a–t–a–c–h–
+25 urope personn dieses -> –u–r–o–p–e–p–e–r–s–o–n–n–d–i–e–s–e–s–
+26 borg peas tuf -> –b–o–r–g–p–e–a–s–t–u–f–
+27 kie lately niece -> –k–i–e–l–a–t–e–l–y–n–i–e–c–e–
+28 aupt regul giud -> –a–u–p–t–r–e–g–u–l–g–i–u–d–
+29 ampo facile oldu -> –a–m–p–o–f–a–c–i–l–e–o–l–d–u–
+30 ycling lens satire -> –y–c–l–i–n–g–l–e–n–s–s–a–t–i–r–e–
+31 inated apare bun -> –i–n–a–t–e–d–a–p–a–r–e–b–u–n–
+32 avis dite piem -> –a–v–i–s–d–i–t–e–p–i–e–m–
+33 retan komb dziew -> –r–e–t–a–n–k–o–m–b–d–z–i–e–w–
+34 cin rad prawa -> –c–i–n–r–a–d–p–r–a–w–a–
+35 nama pall neoplas -> –n–a–m–a–p–a–l–l–n–e–o–p–l–a–s–
+36 ominated cambiado mutagen -> –o–m–i–n–a–t–e–d–c–a–m–b–i–a–d–o–m–u–t–a–g–e–n–
+37 ling quarter paradig -> –l–i–n–g–q–u–a–r–t–e–r–p–a–r–a–d–i–g–
+38 risk sej white -> –r–i–s–k–s–e–j–w–h–i–t–e–
+39 avg seni wrapping -> –a–v–g–s–e–n–i–w–r–a–p–p–i–n–g–
+40 hattan nanom socio -> –h–a–t–t–a–n–n–a–n–o–m–s–o–c–i–o–
+41 keyword climatic duca -> –k–e–y–w–o–r–d–c–l–i–m–a–t–i–c–d–u–c–a–
+42 oud vois ganado -> –o–u–d–v–o–i–s–g–a–n–a–d–o–
+43 iseksi intimid viola -> –i–s–e–k–s–i–i–n–t–i–m–i–d–v–i–o–l–a–
+44 ione pon logger -> –i–o–n–e–p–o–n–l–o–g–g–e–r–
+45 titel myths managers -> –t–i–t–e–l–m–y–t–h–s–m–a–n–a–g–e–r–s–
+46 onaldo registre database -> –o–n–a–l–d–o–r–e–g–i–s–t–r–e–d–a–t–a–b–a–s–e–
+47 frage apropi peintre -> –f–r–a–g–e–a–p–r–o–p–i–p–e–i–n–t–r–e–
+48 aute cumple colores -> –a–u–t–e–c–u–m–p–l–e–c–o–l–o–r–e–s–
+49 anyon fasting firms -> –a–n–y–o–n–f–a–s–t–i–n–g–f–i–r–m–s–
+50 metic without praying -> –m–e–t–i–c–w–i–t–h–o–u–t–p–r–a–y–i–n–g–
+51 ihen fent hel -> –i–h–e–n–f–e–n–t–h–e–l–
+52 reur sombr vuel -> –r–e–u–r–s–o–m–b–r–v–u–e–l–
+53 uchte nonin bullets -> –u–c–h–t–e–n–o–n–i–n–b–u–l–l–e–t–s–
+54 kung maint inspect -> –k–u–n–g–m–a–i–n–t–i–n–s–p–e–c–t–
+55 itaire troub deliver -> –i–t–a–i–r–e–t–r–o–u–b–d–e–l–i–v–e–r–
+56 pon zdecyd career -> –p–o–n–z–d–e–c–y–d–c–a–r–e–e–r–
+57 plugin warf amaz -> –p–l–u–g–i–n–w–a–r–f–a–m–a–z–
+58 uhan ops parece -> –u–h–a–n–o–p–s–p–a–r–e–c–e–
+59 ward zs juta -> –w–a–r–d–z–s–j–u–t–a–
+60 ank souri horien -> –a–n–k–s–o–u–r–i–h–o–r–i–e–n–
+61 argv rimasto fatty -> –a–r–g–v–r–i–m–a–s–t–o–f–a–t–t–y–
+62 ocode sys boli -> –o–c–o–d–e–s–y–s–b–o–l–i–
+63 avo lesion voet -> –a–v–o–l–e–s–i–o–n–v–o–e–t–
+64 wm wusste freedom -> –w–m–w–u–s–s–t–e–f–r–e–e–d–o–m–
+65 scripts okto war -> –s–c–r–i–p–t–s–o–k–t–o–w–a–r–
+66 venues falsa symptoms -> –v–e–n–u–e–s–f–a–l–s–a–s–y–m–p–t–o–m–s–
+67 ibration sehe vero -> –i–b–r–a–t–i–o–n–s–e–h–e–v–e–r–o–
+68 mens confirms fenomen -> –m–e–n–s–c–o–n–f–i–r–m–s–f–e–n–o–m–e–n–
+69 ljen hanno geval -> –l–j–e–n–h–a–n–n–o–g–e–v–a–l–
+70 zeugung black winters -> –z–e–u–g–u–n–g–b–l–a–c–k–w–i–n–t–e–r–s–
+71 ussi restes rins -> –u–s–s–i–r–e–s–t–e–s–r–i–n–s–
+72 iving inertial erine -> –i–v–i–n–g–i–n–e–r–t–i–a–l–e–r–i–n–e–
+73 ropolis magna ordering -> –r–o–p–o–l–i–s–m–a–g–n–a–o–r–d–e–r–i–n–g–
+74 why dic voidaan -> –w–h–y–d–i–c–v–o–i–d–a–a–n–
+75 barten changing summers -> –b–a–r–t–e–n–c–h–a–n–g–i–n–g–s–u–m–m–e–r–s–
+76 zel bila disf -> –z–e–l–b–i–l–a–d–i–s–f–
+77 critical mutate pasaba -> –c–r–i–t–i–c–a–l–m–u–t–a–t–e–p–a–s–a–b–a–
+78 visited taxon creator -> –v–i–s–i–t–e–d–t–a–x–o–n–c–r–e–a–t–o–r–
+79 vek quant pasta -> –v–e–k–q–u–a–n–t–p–a–s–t–a–
+80 jois tag lectures -> –j–o–i–s–t–a–g–l–e–c–t–u–r–e–s–
+81 hydrogen jude rov -> –h–y–d–r–o–g–e–n–j–u–d–e–r–o–v–
+82 rova olid scene -> –r–o–v–a–o–l–i–d–s–c–e–n–e–
+83 chel alkoi comfort -> –c–h–e–l–a–l–k–o–i–c–o–m–f–o–r–t–
+84 omegal celor loses -> –o–m–e–g–a–l–c–e–l–o–r–l–o–s–e–s–
+85 patients hacen veille -> –p–a–t–i–e–n–t–s–h–a–c–e–n–v–e–i–l–l–e–
+86 sony siano jer -> –s–o–n–y–s–i–a–n–o–j–e–r–
+87 utm jis thereon -> –u–t–m–j–i–s–t–h–e–r–e–o–n–
+88 bst adier privacy -> –b–s–t–a–d–i–e–r–p–r–i–v–a–c–y–
+89 eyer birthday agua -> –e–y–e–r–b–i–r–t–h–d–a–y–a–g–u–a–
+90 etail afili szen -> –e–t–a–i–l–a–f–i–l–i–s–z–e–n–
+91 leri sour breaks -> –l–e–r–i–s–o–u–r–b–r–e–a–k–s–
+92 lije mocked lateral -> –l–i–j–e–m–o–c–k–e–d–l–a–t–e–r–a–l–
+93 animate twelfth vieux -> –a–n–i–m–a–t–e–t–w–e–l–f–t–h–v–i–e–u–x–
+94 piece baja forest -> –p–i–e–c–e–b–a–j–a–f–o–r–e–s–t–
+95 heer sist modified -> –h–e–e–r–s–i–s–t–m–o–d–i–f–i–e–d–
+96 ortical gebieden shr -> –o–r–t–i–c–a–l–g–e–b–i–e–d–e–n–s–h–r–
+97 fun alkal kvarter -> –f–u–n–a–l–k–a–l–k–v–a–r–t–e–r–
+98 ound berada assass -> –o–u–n–d–b–e–r–a–d–a–a–s–s–a–s–s–
+99 shell peel jang -> –s–h–e–l–l–p–e–e–l–j–a–n–g–

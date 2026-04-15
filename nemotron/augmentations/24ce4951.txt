@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 adel leyenda raid
+01 redux fluores enpres
+02 rid recens siglos
+
+This is a sample output.
+00 adel leyenda raid -> –a–d–e–l–l–e–y–e–n–d–a–r–a–i–d–
+01 redux fluores enpres -> –r–e–d–u–x–f–l–u–o–r–e–s–e–n–p–r–e–s–
+02 rid recens siglos -> –r–i–d–r–e–c–e–n–s–s–i–g–l–o–s–
+
+This is your input.
+00 vm uterus aiming
+01 andez prel ollut
+02 roles agreg opening
+03 chny fellow half
+04 ussions ignorant flutter
+05 awa emer cautious
+06 crumbs artik crushers
+07 pack compte wollte
+08 ulation ischemic zmian
+09 ppa kone devons
+10 isz posee inad
+11 tol salt download
+12 adow wrest driveway
+13 dog ira taken
+14 nost ibu barco
+15 zw sty espagn
+16 tj hybrids gelatin
+17 armes curl relever
+18 akult guides conocida
+19 iume senti observ
+20 chets riesce prophets
+21 filter peinture termed
+22 ztak pel braz
+23 iveau prenatal curtain
+24 uego bese regi
+25 magn ow minority
+26 beiter weight diseng
+27 show postura mitt
+28 mat overex futebol
+29 uces theories cara
+30 ahan surfaces lav
+31 nections lifelong auft
+32 hre flyg promet
+33 frika avo dela
+34 uw tempt ld
+35 elde hut kinds
+36 uzioni tableaux merci
+37 cheduler diter warp
+38 utung anne thal
+39 owym road exposed
+40 vertical gun istil
+41 done unde merg
+42 ziek purple autor
+43 response crit drugi
+44 enten ranging our
+45 elley aria destabil
+46 or diable kh
+47 ement requires hins
+48 asonry nature impose
+49 ztu persuad reunir
+50 egang oppos grids
+51 vertices postes abnormal
+52 hostname midw offended
+53 spunkt stol wzn
+54 ispo esposo cash
+55 and cinquant hips
+56 erva conseg primers
+57 pine endeav mitosis
+58 ultured guards foram
+59 ugi oneself symbol
+60 riction reper motivate
+61 agne haunted fator
+62 cia waist konfigur
+63 enziale bless splash
+64 rgba sheets corona
+65 ubles als broken
+66 jamin ross floated
+67 prung bearings flavono
+68 has vaj perto
+69 itious guess dieci
+70 lette scint glycer
+71 itary rice nadie
+72 hrink zaman njihov
+73 rimiento speci hitting
+74 yv antiguos auss
+75 racy guitare del
+76 olis spouse oly
+77 visor ghosts sd
+78 kungen multiple proposta
+79 yards acero immunost
+80 usiasm ga cruelty
+81 riere lors micelles
+82 piry abuses sup
+83 vh evolut testem
+84 uins ire java
+85 arina fg cover
+86 andu asent retains
+87 rake demol lookup
+88 limit nipple videre
+89 ikal incis isotope
+90 izen festival anche
+91 ulia repro kiedy
+92 then foli stocks
+93 reon systolic orthodox
+94 odrome incend pensais
+95 ogenes rio magnets
+96 quela beside flawed
+97 aji poetic ordinal
+98 bj pein lua
+99 install saves ambush
+[completion]
+00 vm uterus aiming -> –v–m–u–t–e–r–u–s–a–i–m–i–n–g–
+01 andez prel ollut -> –a–n–d–e–z–p–r–e–l–o–l–l–u–t–
+02 roles agreg opening -> –r–o–l–e–s–a–g–r–e–g–o–p–e–n–i–n–g–
+03 chny fellow half -> –c–h–n–y–f–e–l–l–o–w–h–a–l–f–
+04 ussions ignorant flutter -> –u–s–s–i–o–n–s–i–g–n–o–r–a–n–t–f–l–u–t–t–e–r–
+05 awa emer cautious -> –a–w–a–e–m–e–r–c–a–u–t–i–o–u–s–
+06 crumbs artik crushers -> –c–r–u–m–b–s–a–r–t–i–k–c–r–u–s–h–e–r–s–
+07 pack compte wollte -> –p–a–c–k–c–o–m–p–t–e–w–o–l–l–t–e–
+08 ulation ischemic zmian -> –u–l–a–t–i–o–n–i–s–c–h–e–m–i–c–z–m–i–a–n–
+09 ppa kone devons -> –p–p–a–k–o–n–e–d–e–v–o–n–s–
+10 isz posee inad -> –i–s–z–p–o–s–e–e–i–n–a–d–
+11 tol salt download -> –t–o–l–s–a–l–t–d–o–w–n–l–o–a–d–
+12 adow wrest driveway -> –a–d–o–w–w–r–e–s–t–d–r–i–v–e–w–a–y–
+13 dog ira taken -> –d–o–g–i–r–a–t–a–k–e–n–
+14 nost ibu barco -> –n–o–s–t–i–b–u–b–a–r–c–o–
+15 zw sty espagn -> –z–w–s–t–y–e–s–p–a–g–n–
+16 tj hybrids gelatin -> –t–j–h–y–b–r–i–d–s–g–e–l–a–t–i–n–
+17 armes curl relever -> –a–r–m–e–s–c–u–r–l–r–e–l–e–v–e–r–
+18 akult guides conocida -> –a–k–u–l–t–g–u–i–d–e–s–c–o–n–o–c–i–d–a–
+19 iume senti observ -> –i–u–m–e–s–e–n–t–i–o–b–s–e–r–v–
+20 chets riesce prophets -> –c–h–e–t–s–r–i–e–s–c–e–p–r–o–p–h–e–t–s–
+21 filter peinture termed -> –f–i–l–t–e–r–p–e–i–n–t–u–r–e–t–e–r–m–e–d–
+22 ztak pel braz -> –z–t–a–k–p–e–l–b–r–a–z–
+23 iveau prenatal curtain -> –i–v–e–a–u–p–r–e–n–a–t–a–l–c–u–r–t–a–i–n–
+24 uego bese regi -> –u–e–g–o–b–e–s–e–r–e–g–i–
+25 magn ow minority -> –m–a–g–n–o–w–m–i–n–o–r–i–t–y–
+26 beiter weight diseng -> –b–e–i–t–e–r–w–e–i–g–h–t–d–i–s–e–n–g–
+27 show postura mitt -> –s–h–o–w–p–o–s–t–u–r–a–m–i–t–t–
+28 mat overex futebol -> –m–a–t–o–v–e–r–e–x–f–u–t–e–b–o–l–
+29 uces theories cara -> –u–c–e–s–t–h–e–o–r–i–e–s–c–a–r–a–
+30 ahan surfaces lav -> –a–h–a–n–s–u–r–f–a–c–e–s–l–a–v–
+31 nections lifelong auft -> –n–e–c–t–i–o–n–s–l–i–f–e–l–o–n–g–a–u–f–t–
+32 hre flyg promet -> –h–r–e–f–l–y–g–p–r–o–m–e–t–
+33 frika avo dela -> –f–r–i–k–a–a–v–o–d–e–l–a–
+34 uw tempt ld -> –u–w–t–e–m–p–t–l–d–
+35 elde hut kinds -> –e–l–d–e–h–u–t–k–i–n–d–s–
+36 uzioni tableaux merci -> –u–z–i–o–n–i–t–a–b–l–e–a–u–x–m–e–r–c–i–
+37 cheduler diter warp -> –c–h–e–d–u–l–e–r–d–i–t–e–r–w–a–r–p–
+38 utung anne thal -> –u–t–u–n–g–a–n–n–e–t–h–a–l–
+39 owym road exposed -> –o–w–y–m–r–o–a–d–e–x–p–o–s–e–d–
+40 vertical gun istil -> –v–e–r–t–i–c–a–l–g–u–n–i–s–t–i–l–
+41 done unde merg -> –d–o–n–e–u–n–d–e–m–e–r–g–
+42 ziek purple autor -> –z–i–e–k–p–u–r–p–l–e–a–u–t–o–r–
+43 response crit drugi -> –r–e–s–p–o–n–s–e–c–r–i–t–d–r–u–g–i–
+44 enten ranging our -> –e–n–t–e–n–r–a–n–g–i–n–g–o–u–r–
+45 elley aria destabil -> –e–l–l–e–y–a–r–i–a–d–e–s–t–a–b–i–l–
+46 or diable kh -> –o–r–d–i–a–b–l–e–k–h–
+47 ement requires hins -> –e–m–e–n–t–r–e–q–u–i–r–e–s–h–i–n–s–
+48 asonry nature impose -> –a–s–o–n–r–y–n–a–t–u–r–e–i–m–p–o–s–e–
+49 ztu persuad reunir -> –z–t–u–p–e–r–s–u–a–d–r–e–u–n–i–r–
+50 egang oppos grids -> –e–g–a–n–g–o–p–p–o–s–g–r–i–d–s–
+51 vertices postes abnormal -> –v–e–r–t–i–c–e–s–p–o–s–t–e–s–a–b–n–o–r–m–a–l–
+52 hostname midw offended -> –h–o–s–t–n–a–m–e–m–i–d–w–o–f–f–e–n–d–e–d–
+53 spunkt stol wzn -> –s–p–u–n–k–t–s–t–o–l–w–z–n–
+54 ispo esposo cash -> –i–s–p–o–e–s–p–o–s–o–c–a–s–h–
+55 and cinquant hips -> –a–n–d–c–i–n–q–u–a–n–t–h–i–p–s–
+56 erva conseg primers -> –e–r–v–a–c–o–n–s–e–g–p–r–i–m–e–r–s–
+57 pine endeav mitosis -> –p–i–n–e–e–n–d–e–a–v–m–i–t–o–s–i–s–
+58 ultured guards foram -> –u–l–t–u–r–e–d–g–u–a–r–d–s–f–o–r–a–m–
+59 ugi oneself symbol -> –u–g–i–o–n–e–s–e–l–f–s–y–m–b–o–l–
+60 riction reper motivate -> –r–i–c–t–i–o–n–r–e–p–e–r–m–o–t–i–v–a–t–e–
+61 agne haunted fator -> –a–g–n–e–h–a–u–n–t–e–d–f–a–t–o–r–
+62 cia waist konfigur -> –c–i–a–w–a–i–s–t–k–o–n–f–i–g–u–r–
+63 enziale bless splash -> –e–n–z–i–a–l–e–b–l–e–s–s–s–p–l–a–s–h–
+64 rgba sheets corona -> –r–g–b–a–s–h–e–e–t–s–c–o–r–o–n–a–
+65 ubles als broken -> –u–b–l–e–s–a–l–s–b–r–o–k–e–n–
+66 jamin ross floated -> –j–a–m–i–n–r–o–s–s–f–l–o–a–t–e–d–
+67 prung bearings flavono -> –p–r–u–n–g–b–e–a–r–i–n–g–s–f–l–a–v–o–n–o–
+68 has vaj perto -> –h–a–s–v–a–j–p–e–r–t–o–
+69 itious guess dieci -> –i–t–i–o–u–s–g–u–e–s–s–d–i–e–c–i–
+70 lette scint glycer -> –l–e–t–t–e–s–c–i–n–t–g–l–y–c–e–r–
+71 itary rice nadie -> –i–t–a–r–y–r–i–c–e–n–a–d–i–e–
+72 hrink zaman njihov -> –h–r–i–n–k–z–a–m–a–n–n–j–i–h–o–v–
+73 rimiento speci hitting -> –r–i–m–i–e–n–t–o–s–p–e–c–i–h–i–t–t–i–n–g–
+74 yv antiguos auss -> –y–v–a–n–t–i–g–u–o–s–a–u–s–s–
+75 racy guitare del -> –r–a–c–y–g–u–i–t–a–r–e–d–e–l–
+76 olis spouse oly -> –o–l–i–s–s–p–o–u–s–e–o–l–y–
+77 visor ghosts sd -> –v–i–s–o–r–g–h–o–s–t–s–s–d–
+78 kungen multiple proposta -> –k–u–n–g–e–n–m–u–l–t–i–p–l–e–p–r–o–p–o–s–t–a–
+79 yards acero immunost -> –y–a–r–d–s–a–c–e–r–o–i–m–m–u–n–o–s–t–
+80 usiasm ga cruelty -> –u–s–i–a–s–m–g–a–c–r–u–e–l–t–y–
+81 riere lors micelles -> –r–i–e–r–e–l–o–r–s–m–i–c–e–l–l–e–s–
+82 piry abuses sup -> –p–i–r–y–a–b–u–s–e–s–s–u–p–
+83 vh evolut testem -> –v–h–e–v–o–l–u–t–t–e–s–t–e–m–
+84 uins ire java -> –u–i–n–s–i–r–e–j–a–v–a–
+85 arina fg cover -> –a–r–i–n–a–f–g–c–o–v–e–r–
+86 andu asent retains -> –a–n–d–u–a–s–e–n–t–r–e–t–a–i–n–s–
+87 rake demol lookup -> –r–a–k–e–d–e–m–o–l–l–o–o–k–u–p–
+88 limit nipple videre -> –l–i–m–i–t–n–i–p–p–l–e–v–i–d–e–r–e–
+89 ikal incis isotope -> –i–k–a–l–i–n–c–i–s–i–s–o–t–o–p–e–
+90 izen festival anche -> –i–z–e–n–f–e–s–t–i–v–a–l–a–n–c–h–e–
+91 ulia repro kiedy -> –u–l–i–a–r–e–p–r–o–k–i–e–d–y–
+92 then foli stocks -> –t–h–e–n–f–o–l–i–s–t–o–c–k–s–
+93 reon systolic orthodox -> –r–e–o–n–s–y–s–t–o–l–i–c–o–r–t–h–o–d–o–x–
+94 odrome incend pensais -> –o–d–r–o–m–e–i–n–c–e–n–d–p–e–n–s–a–i–s–
+95 ogenes rio magnets -> –o–g–e–n–e–s–r–i–o–m–a–g–n–e–t–s–
+96 quela beside flawed -> –q–u–e–l–a–b–e–s–i–d–e–f–l–a–w–e–d–
+97 aji poetic ordinal -> –a–j–i–p–o–e–t–i–c–o–r–d–i–n–a–l–
+98 bj pein lua -> –b–j–p–e–i–n–l–u–a–
+99 install saves ambush -> –i–n–s–t–a–l–l–s–a–v–e–s–a–m–b–u–s–h–

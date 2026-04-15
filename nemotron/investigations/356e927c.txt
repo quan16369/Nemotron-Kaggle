@@ -1,0 +1,30 @@
+problem id: 356e927c
+category: equation_numeric_guess
+
+examples:
+- 18-43 = 4572
+- 46-34 = 2572
+- 49`55 = 93
+- query: 24#28
+
+inferred rule:
+Treat each 2-digit input as reversed before applying an arithmetic operation, then reverse the decimal result again.
+
+- `-` means multiply the reversed numbers.
+  - 18-43: reverse to 81 and 34; 81 * 34 = 2754; reverse -> 4572
+  - 46-34: reverse to 64 and 43; 64 * 43 = 2752; reverse -> 2572
+- `` ` `` means subtract the reversed numbers.
+  - 49`55: reverse to 94 and 55; 94 - 55 = 39; reverse -> 93
+- `#` is best inferred as addition in the same family.
+
+step-by-step application to the query:
+1. Query is 24#28.
+2. Reverse each 2-digit number: 24 -> 42 and 28 -> 82.
+3. Apply the inferred `#` operation as addition: 42 + 82 = 124.
+4. Reverse the result: 124 -> 421.
+
+predicted answer:
+421
+
+confidence note:
+Moderate confidence. The reverse-then-operate pattern fits all given examples exactly, but `#` is inferred from the arithmetic family because addition is not shown directly in the examples.

@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 elik criter arom
+01 eshire evol bleue
+02 oche clo missiles
+
+This is a sample output.
+00 elik criter arom -> –e–l–i–k–c–r–i–t–e–r–a–r–o–m–
+01 eshire evol bleue -> –e–s–h–i–r–e–e–v–o–l–b–l–e–u–e–
+02 oche clo missiles -> –o–c–h–e–c–l–o–m–i–s–s–i–l–e–s–
+
+This is your input.
+00 vascular solder fights
+01 manager une torno
+02 aktivni spine perang
+03 ulae meadow utilitz
+04 trm fc mosaic
+05 okuv flank superfic
+06 phal fare agricole
+07 rically restaur alph
+08 illement enable shelf
+09 ou cost revenus
+10 ifs welfare bijna
+11 lys replied amine
+12 grass escriure nesse
+13 acios allora kwam
+14 uve encrypt yapt
+15 edited nostra mehrere
+16 ahy malign toege
+17 are homem objetivo
+18 emain horr vivants
+19 jad render kunde
+20 said stream warmed
+21 okie visions atom
+22 agini amber kling
+23 redis kingdom geb
+24 agu fields vat
+25 flex savun aux
+26 fra imb perioada
+27 ah humain complex
+28 czes present north
+29 patient needed zn
+30 chaient proves extends
+31 asa ers regista
+32 emento preko wouldn
+33 iiv jaro equival
+34 jela aport pity
+35 sprechen immagin rollers
+36 role larges benoem
+37 akon lup amikor
+38 kte wereld scared
+39 egin hort conect
+40 anan relent papiers
+41 etc fant fratt
+42 lox checkbox obj
+43 irre bizi filiale
+44 ivament puol coex
+45 astolic pantalon nossa
+46 ewel vila els
+47 ocio fizeram decrease
+48 varez guarante anhyd
+49 phase branche glial
+50 ractor diri affront
+51 ouille rain earnest
+52 ilor gravity textos
+53 riak kyr terceira
+54 pletion conoc autonome
+55 oires papa inesper
+56 ollo goals helyzet
+57 yarakat incom court
+58 iki piso chitar
+59 chas tunn uprav
+60 baan loint vesicle
+61 unque relief incluyen
+62 riche fire millions
+63 alam png isot
+64 attia sky vard
+65 rtl ponto znajduje
+66 rances quelques voto
+67 alent bombers producto
+68 ding wrote posto
+69 pris pytest fine
+70 lerin restruct soutient
+71 ork entendre soff
+72 itts victime chemin
+73 hydro obter pintura
+74 fos pieno kreeg
+75 inputs cyl vecinos
+76 ording spermato bias
+77 qui redout axonal
+78 valo evento neutrons
+79 uden presumed fueran
+80 urally ignor aprov
+81 yzer grup reck
+82 cov kontroll profile
+83 offset sympath gebeur
+84 lookup bure escol
+85 yin active illust
+86 ilingan gaseous bladder
+87 htm majors dotycz
+88 ulp ranc refle
+89 annel miss brushing
+90 eret capa suy
+91 hait drei agitated
+92 rocyte przeciw jamo
+93 ilot tanpa measure
+94 icycle fly presse
+95 erais senza rusa
+96 leid pickle edir
+97 router frappe obliged
+98 edores colonias anarch
+99 weeney sorting of
+[completion]
+00 vascular solder fights -> –v–a–s–c–u–l–a–r–s–o–l–d–e–r–f–i–g–h–t–s–
+01 manager une torno -> –m–a–n–a–g–e–r–u–n–e–t–o–r–n–o–
+02 aktivni spine perang -> –a–k–t–i–v–n–i–s–p–i–n–e–p–e–r–a–n–g–
+03 ulae meadow utilitz -> –u–l–a–e–m–e–a–d–o–w–u–t–i–l–i–t–z–
+04 trm fc mosaic -> –t–r–m–f–c–m–o–s–a–i–c–
+05 okuv flank superfic -> –o–k–u–v–f–l–a–n–k–s–u–p–e–r–f–i–c–
+06 phal fare agricole -> –p–h–a–l–f–a–r–e–a–g–r–i–c–o–l–e–
+07 rically restaur alph -> –r–i–c–a–l–l–y–r–e–s–t–a–u–r–a–l–p–h–
+08 illement enable shelf -> –i–l–l–e–m–e–n–t–e–n–a–b–l–e–s–h–e–l–f–
+09 ou cost revenus -> –o–u–c–o–s–t–r–e–v–e–n–u–s–
+10 ifs welfare bijna -> –i–f–s–w–e–l–f–a–r–e–b–i–j–n–a–
+11 lys replied amine -> –l–y–s–r–e–p–l–i–e–d–a–m–i–n–e–
+12 grass escriure nesse -> –g–r–a–s–s–e–s–c–r–i–u–r–e–n–e–s–s–e–
+13 acios allora kwam -> –a–c–i–o–s–a–l–l–o–r–a–k–w–a–m–
+14 uve encrypt yapt -> –u–v–e–e–n–c–r–y–p–t–y–a–p–t–
+15 edited nostra mehrere -> –e–d–i–t–e–d–n–o–s–t–r–a–m–e–h–r–e–r–e–
+16 ahy malign toege -> –a–h–y–m–a–l–i–g–n–t–o–e–g–e–
+17 are homem objetivo -> –a–r–e–h–o–m–e–m–o–b–j–e–t–i–v–o–
+18 emain horr vivants -> –e–m–a–i–n–h–o–r–r–v–i–v–a–n–t–s–
+19 jad render kunde -> –j–a–d–r–e–n–d–e–r–k–u–n–d–e–
+20 said stream warmed -> –s–a–i–d–s–t–r–e–a–m–w–a–r–m–e–d–
+21 okie visions atom -> –o–k–i–e–v–i–s–i–o–n–s–a–t–o–m–
+22 agini amber kling -> –a–g–i–n–i–a–m–b–e–r–k–l–i–n–g–
+23 redis kingdom geb -> –r–e–d–i–s–k–i–n–g–d–o–m–g–e–b–
+24 agu fields vat -> –a–g–u–f–i–e–l–d–s–v–a–t–
+25 flex savun aux -> –f–l–e–x–s–a–v–u–n–a–u–x–
+26 fra imb perioada -> –f–r–a–i–m–b–p–e–r–i–o–a–d–a–
+27 ah humain complex -> –a–h–h–u–m–a–i–n–c–o–m–p–l–e–x–
+28 czes present north -> –c–z–e–s–p–r–e–s–e–n–t–n–o–r–t–h–
+29 patient needed zn -> –p–a–t–i–e–n–t–n–e–e–d–e–d–z–n–
+30 chaient proves extends -> –c–h–a–i–e–n–t–p–r–o–v–e–s–e–x–t–e–n–d–s–
+31 asa ers regista -> –a–s–a–e–r–s–r–e–g–i–s–t–a–
+32 emento preko wouldn -> –e–m–e–n–t–o–p–r–e–k–o–w–o–u–l–d–n–
+33 iiv jaro equival -> –i–i–v–j–a–r–o–e–q–u–i–v–a–l–
+34 jela aport pity -> –j–e–l–a–a–p–o–r–t–p–i–t–y–
+35 sprechen immagin rollers -> –s–p–r–e–c–h–e–n–i–m–m–a–g–i–n–r–o–l–l–e–r–s–
+36 role larges benoem -> –r–o–l–e–l–a–r–g–e–s–b–e–n–o–e–m–
+37 akon lup amikor -> –a–k–o–n–l–u–p–a–m–i–k–o–r–
+38 kte wereld scared -> –k–t–e–w–e–r–e–l–d–s–c–a–r–e–d–
+39 egin hort conect -> –e–g–i–n–h–o–r–t–c–o–n–e–c–t–
+40 anan relent papiers -> –a–n–a–n–r–e–l–e–n–t–p–a–p–i–e–r–s–
+41 etc fant fratt -> –e–t–c–f–a–n–t–f–r–a–t–t–
+42 lox checkbox obj -> –l–o–x–c–h–e–c–k–b–o–x–o–b–j–
+43 irre bizi filiale -> –i–r–r–e–b–i–z–i–f–i–l–i–a–l–e–
+44 ivament puol coex -> –i–v–a–m–e–n–t–p–u–o–l–c–o–e–x–
+45 astolic pantalon nossa -> –a–s–t–o–l–i–c–p–a–n–t–a–l–o–n–n–o–s–s–a–
+46 ewel vila els -> –e–w–e–l–v–i–l–a–e–l–s–
+47 ocio fizeram decrease -> –o–c–i–o–f–i–z–e–r–a–m–d–e–c–r–e–a–s–e–
+48 varez guarante anhyd -> –v–a–r–e–z–g–u–a–r–a–n–t–e–a–n–h–y–d–
+49 phase branche glial -> –p–h–a–s–e–b–r–a–n–c–h–e–g–l–i–a–l–
+50 ractor diri affront -> –r–a–c–t–o–r–d–i–r–i–a–f–f–r–o–n–t–
+51 ouille rain earnest -> –o–u–i–l–l–e–r–a–i–n–e–a–r–n–e–s–t–
+52 ilor gravity textos -> –i–l–o–r–g–r–a–v–i–t–y–t–e–x–t–o–s–
+53 riak kyr terceira -> –r–i–a–k–k–y–r–t–e–r–c–e–i–r–a–
+54 pletion conoc autonome -> –p–l–e–t–i–o–n–c–o–n–o–c–a–u–t–o–n–o–m–e–
+55 oires papa inesper -> –o–i–r–e–s–p–a–p–a–i–n–e–s–p–e–r–
+56 ollo goals helyzet -> –o–l–l–o–g–o–a–l–s–h–e–l–y–z–e–t–
+57 yarakat incom court -> –y–a–r–a–k–a–t–i–n–c–o–m–c–o–u–r–t–
+58 iki piso chitar -> –i–k–i–p–i–s–o–c–h–i–t–a–r–
+59 chas tunn uprav -> –c–h–a–s–t–u–n–n–u–p–r–a–v–
+60 baan loint vesicle -> –b–a–a–n–l–o–i–n–t–v–e–s–i–c–l–e–
+61 unque relief incluyen -> –u–n–q–u–e–r–e–l–i–e–f–i–n–c–l–u–y–e–n–
+62 riche fire millions -> –r–i–c–h–e–f–i–r–e–m–i–l–l–i–o–n–s–
+63 alam png isot -> –a–l–a–m–p–n–g–i–s–o–t–
+64 attia sky vard -> –a–t–t–i–a–s–k–y–v–a–r–d–
+65 rtl ponto znajduje -> –r–t–l–p–o–n–t–o–z–n–a–j–d–u–j–e–
+66 rances quelques voto -> –r–a–n–c–e–s–q–u–e–l–q–u–e–s–v–o–t–o–
+67 alent bombers producto -> –a–l–e–n–t–b–o–m–b–e–r–s–p–r–o–d–u–c–t–o–
+68 ding wrote posto -> –d–i–n–g–w–r–o–t–e–p–o–s–t–o–
+69 pris pytest fine -> –p–r–i–s–p–y–t–e–s–t–f–i–n–e–
+70 lerin restruct soutient -> –l–e–r–i–n–r–e–s–t–r–u–c–t–s–o–u–t–i–e–n–t–
+71 ork entendre soff -> –o–r–k–e–n–t–e–n–d–r–e–s–o–f–f–
+72 itts victime chemin -> –i–t–t–s–v–i–c–t–i–m–e–c–h–e–m–i–n–
+73 hydro obter pintura -> –h–y–d–r–o–o–b–t–e–r–p–i–n–t–u–r–a–
+74 fos pieno kreeg -> –f–o–s–p–i–e–n–o–k–r–e–e–g–
+75 inputs cyl vecinos -> –i–n–p–u–t–s–c–y–l–v–e–c–i–n–o–s–
+76 ording spermato bias -> –o–r–d–i–n–g–s–p–e–r–m–a–t–o–b–i–a–s–
+77 qui redout axonal -> –q–u–i–r–e–d–o–u–t–a–x–o–n–a–l–
+78 valo evento neutrons -> –v–a–l–o–e–v–e–n–t–o–n–e–u–t–r–o–n–s–
+79 uden presumed fueran -> –u–d–e–n–p–r–e–s–u–m–e–d–f–u–e–r–a–n–
+80 urally ignor aprov -> –u–r–a–l–l–y–i–g–n–o–r–a–p–r–o–v–
+81 yzer grup reck -> –y–z–e–r–g–r–u–p–r–e–c–k–
+82 cov kontroll profile -> –c–o–v–k–o–n–t–r–o–l–l–p–r–o–f–i–l–e–
+83 offset sympath gebeur -> –o–f–f–s–e–t–s–y–m–p–a–t–h–g–e–b–e–u–r–
+84 lookup bure escol -> –l–o–o–k–u–p–b–u–r–e–e–s–c–o–l–
+85 yin active illust -> –y–i–n–a–c–t–i–v–e–i–l–l–u–s–t–
+86 ilingan gaseous bladder -> –i–l–i–n–g–a–n–g–a–s–e–o–u–s–b–l–a–d–d–e–r–
+87 htm majors dotycz -> –h–t–m–m–a–j–o–r–s–d–o–t–y–c–z–
+88 ulp ranc refle -> –u–l–p–r–a–n–c–r–e–f–l–e–
+89 annel miss brushing -> –a–n–n–e–l–m–i–s–s–b–r–u–s–h–i–n–g–
+90 eret capa suy -> –e–r–e–t–c–a–p–a–s–u–y–
+91 hait drei agitated -> –h–a–i–t–d–r–e–i–a–g–i–t–a–t–e–d–
+92 rocyte przeciw jamo -> –r–o–c–y–t–e–p–r–z–e–c–i–w–j–a–m–o–
+93 ilot tanpa measure -> –i–l–o–t–t–a–n–p–a–m–e–a–s–u–r–e–
+94 icycle fly presse -> –i–c–y–c–l–e–f–l–y–p–r–e–s–s–e–
+95 erais senza rusa -> –e–r–a–i–s–s–e–n–z–a–r–u–s–a–
+96 leid pickle edir -> –l–e–i–d–p–i–c–k–l–e–e–d–i–r–
+97 router frappe obliged -> –r–o–u–t–e–r–f–r–a–p–p–e–o–b–l–i–g–e–d–
+98 edores colonias anarch -> –e–d–o–r–e–s–c–o–l–o–n–i–a–s–a–n–a–r–c–h–
+99 weeney sorting of -> –w–e–e–n–e–y–s–o–r–t–i–n–g–o–f–

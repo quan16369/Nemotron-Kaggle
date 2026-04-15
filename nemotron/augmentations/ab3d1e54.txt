@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 uhan ocean song
+01 uned fantasma rhet
+02 short styling axiom
+
+This is a sample output.
+00 uhan ocean song -> –u–h–a–n–o–c–e–a–n–s–o–n–g–
+01 uned fantasma rhet -> –u–n–e–d–f–a–n–t–a–s–m–a–r–h–e–t–
+02 short styling axiom -> –s–h–o–r–t–s–t–y–l–i–n–g–a–x–i–o–m–
+
+This is your input.
+00 enskap reais licked
+01 ivesc aps deterr
+02 remember underm medi
+03 olar mili thanked
+04 wr third press
+05 ersch cortisol verloren
+06 abez profit namens
+07 orderung desej factions
+08 cheid meille fog
+09 bly trama packaged
+10 ients hakim life
+11 null placenta ethanol
+12 folger trunk ui
+13 landes insomnia tumor
+14 vol issue produits
+15 fet tast caballo
+16 emplate verwij arv
+17 vak sequence duration
+18 armac seguinte mumkin
+19 except loosely garra
+20 adj wisdom widow
+21 virtual dvije sep
+22 ferably dioc meat
+23 arien accom wins
+24 ultan conceal arabe
+25 attet foci subordin
+26 cznie exile rebell
+27 ebo rundzie retirada
+28 shipping envol ashore
+29 tego iss imena
+30 phin vinden vern
+31 antine imported fontes
+32 asteel moviment cysts
+33 anglais molek nostro
+34 ryt inverse boats
+35 ova dag scaled
+36 ieder brazos mord
+37 iewicz axle cheek
+38 ighters compose lover
+39 oka kt detto
+40 date funded bar
+41 vo motivos zna
+42 ustering nenhum chagrin
+43 eval militar cade
+44 xyl encar dla
+45 hind runoff folgte
+46 alling biasing salva
+47 zzi manos oblique
+48 arlo admitted pozyc
+49 ablished detached hauled
+50 able fry whether
+51 aled thinks anchor
+52 elseif daerah uterus
+53 to aiming prel
+54 wyn ollut agreg
+55 sin opening fellow
+56 quarters half ignorant
+57 clude flutter emer
+58 ffect cautious artik
+59 ondre crushers compte
+60 ripe wollte ischemic
+61 iev zmian kone
+62 izzati devons posee
+63 math inad salt
+64 strukt download wrest
+65 vision driveway ira
+66 ogado taken ibu
+67 jonal barco sty
+68 zentrum espagn hybrids
+69 ke gelatin curl
+70 ogene relever guides
+71 claim conocida senti
+72 heiros observ riesce
+73 parency prophets peinture
+74 dar termed pel
+75 icycl braz prenatal
+76 anted curtain bese
+77 bahn regi ow
+78 andon minority weight
+79 rvats diseng postura
+80 cellence mitt overex
+81 pok futebol theories
+82 eurs cara surfaces
+83 almost lav lifelong
+84 dern auft flyg
+85 game promet avo
+86 oreal dela tempt
+87 atul ld hut
+88 gebung kinds tableaux
+89 igen merci diter
+90 na warp anne
+91 ime thal road
+92 ctype exposed gun
+93 sto istil unde
+94 ricts merg purple
+95 iyy autor crit
+96 lerinde drugi ranging
+97 atal our aria
+98 angu destabil diable
+99 cesse kh requires
+[completion]
+00 enskap reais licked -> –e–n–s–k–a–p–r–e–a–i–s–l–i–c–k–e–d–
+01 ivesc aps deterr -> –i–v–e–s–c–a–p–s–d–e–t–e–r–r–
+02 remember underm medi -> –r–e–m–e–m–b–e–r–u–n–d–e–r–m–m–e–d–i–
+03 olar mili thanked -> –o–l–a–r–m–i–l–i–t–h–a–n–k–e–d–
+04 wr third press -> –w–r–t–h–i–r–d–p–r–e–s–s–
+05 ersch cortisol verloren -> –e–r–s–c–h–c–o–r–t–i–s–o–l–v–e–r–l–o–r–e–n–
+06 abez profit namens -> –a–b–e–z–p–r–o–f–i–t–n–a–m–e–n–s–
+07 orderung desej factions -> –o–r–d–e–r–u–n–g–d–e–s–e–j–f–a–c–t–i–o–n–s–
+08 cheid meille fog -> –c–h–e–i–d–m–e–i–l–l–e–f–o–g–
+09 bly trama packaged -> –b–l–y–t–r–a–m–a–p–a–c–k–a–g–e–d–
+10 ients hakim life -> –i–e–n–t–s–h–a–k–i–m–l–i–f–e–
+11 null placenta ethanol -> –n–u–l–l–p–l–a–c–e–n–t–a–e–t–h–a–n–o–l–
+12 folger trunk ui -> –f–o–l–g–e–r–t–r–u–n–k–u–i–
+13 landes insomnia tumor -> –l–a–n–d–e–s–i–n–s–o–m–n–i–a–t–u–m–o–r–
+14 vol issue produits -> –v–o–l–i–s–s–u–e–p–r–o–d–u–i–t–s–
+15 fet tast caballo -> –f–e–t–t–a–s–t–c–a–b–a–l–l–o–
+16 emplate verwij arv -> –e–m–p–l–a–t–e–v–e–r–w–i–j–a–r–v–
+17 vak sequence duration -> –v–a–k–s–e–q–u–e–n–c–e–d–u–r–a–t–i–o–n–
+18 armac seguinte mumkin -> –a–r–m–a–c–s–e–g–u–i–n–t–e–m–u–m–k–i–n–
+19 except loosely garra -> –e–x–c–e–p–t–l–o–o–s–e–l–y–g–a–r–r–a–
+20 adj wisdom widow -> –a–d–j–w–i–s–d–o–m–w–i–d–o–w–
+21 virtual dvije sep -> –v–i–r–t–u–a–l–d–v–i–j–e–s–e–p–
+22 ferably dioc meat -> –f–e–r–a–b–l–y–d–i–o–c–m–e–a–t–
+23 arien accom wins -> –a–r–i–e–n–a–c–c–o–m–w–i–n–s–
+24 ultan conceal arabe -> –u–l–t–a–n–c–o–n–c–e–a–l–a–r–a–b–e–
+25 attet foci subordin -> –a–t–t–e–t–f–o–c–i–s–u–b–o–r–d–i–n–
+26 cznie exile rebell -> –c–z–n–i–e–e–x–i–l–e–r–e–b–e–l–l–
+27 ebo rundzie retirada -> –e–b–o–r–u–n–d–z–i–e–r–e–t–i–r–a–d–a–
+28 shipping envol ashore -> –s–h–i–p–p–i–n–g–e–n–v–o–l–a–s–h–o–r–e–
+29 tego iss imena -> –t–e–g–o–i–s–s–i–m–e–n–a–
+30 phin vinden vern -> –p–h–i–n–v–i–n–d–e–n–v–e–r–n–
+31 antine imported fontes -> –a–n–t–i–n–e–i–m–p–o–r–t–e–d–f–o–n–t–e–s–
+32 asteel moviment cysts -> –a–s–t–e–e–l–m–o–v–i–m–e–n–t–c–y–s–t–s–
+33 anglais molek nostro -> –a–n–g–l–a–i–s–m–o–l–e–k–n–o–s–t–r–o–
+34 ryt inverse boats -> –r–y–t–i–n–v–e–r–s–e–b–o–a–t–s–
+35 ova dag scaled -> –o–v–a–d–a–g–s–c–a–l–e–d–
+36 ieder brazos mord -> –i–e–d–e–r–b–r–a–z–o–s–m–o–r–d–
+37 iewicz axle cheek -> –i–e–w–i–c–z–a–x–l–e–c–h–e–e–k–
+38 ighters compose lover -> –i–g–h–t–e–r–s–c–o–m–p–o–s–e–l–o–v–e–r–
+39 oka kt detto -> –o–k–a–k–t–d–e–t–t–o–
+40 date funded bar -> –d–a–t–e–f–u–n–d–e–d–b–a–r–
+41 vo motivos zna -> –v–o–m–o–t–i–v–o–s–z–n–a–
+42 ustering nenhum chagrin -> –u–s–t–e–r–i–n–g–n–e–n–h–u–m–c–h–a–g–r–i–n–
+43 eval militar cade -> –e–v–a–l–m–i–l–i–t–a–r–c–a–d–e–
+44 xyl encar dla -> –x–y–l–e–n–c–a–r–d–l–a–
+45 hind runoff folgte -> –h–i–n–d–r–u–n–o–f–f–f–o–l–g–t–e–
+46 alling biasing salva -> –a–l–l–i–n–g–b–i–a–s–i–n–g–s–a–l–v–a–
+47 zzi manos oblique -> –z–z–i–m–a–n–o–s–o–b–l–i–q–u–e–
+48 arlo admitted pozyc -> –a–r–l–o–a–d–m–i–t–t–e–d–p–o–z–y–c–
+49 ablished detached hauled -> –a–b–l–i–s–h–e–d–d–e–t–a–c–h–e–d–h–a–u–l–e–d–
+50 able fry whether -> –a–b–l–e–f–r–y–w–h–e–t–h–e–r–
+51 aled thinks anchor -> –a–l–e–d–t–h–i–n–k–s–a–n–c–h–o–r–
+52 elseif daerah uterus -> –e–l–s–e–i–f–d–a–e–r–a–h–u–t–e–r–u–s–
+53 to aiming prel -> –t–o–a–i–m–i–n–g–p–r–e–l–
+54 wyn ollut agreg -> –w–y–n–o–l–l–u–t–a–g–r–e–g–
+55 sin opening fellow -> –s–i–n–o–p–e–n–i–n–g–f–e–l–l–o–w–
+56 quarters half ignorant -> –q–u–a–r–t–e–r–s–h–a–l–f–i–g–n–o–r–a–n–t–
+57 clude flutter emer -> –c–l–u–d–e–f–l–u–t–t–e–r–e–m–e–r–
+58 ffect cautious artik -> –f–f–e–c–t–c–a–u–t–i–o–u–s–a–r–t–i–k–
+59 ondre crushers compte -> –o–n–d–r–e–c–r–u–s–h–e–r–s–c–o–m–p–t–e–
+60 ripe wollte ischemic -> –r–i–p–e–w–o–l–l–t–e–i–s–c–h–e–m–i–c–
+61 iev zmian kone -> –i–e–v–z–m–i–a–n–k–o–n–e–
+62 izzati devons posee -> –i–z–z–a–t–i–d–e–v–o–n–s–p–o–s–e–e–
+63 math inad salt -> –m–a–t–h–i–n–a–d–s–a–l–t–
+64 strukt download wrest -> –s–t–r–u–k–t–d–o–w–n–l–o–a–d–w–r–e–s–t–
+65 vision driveway ira -> –v–i–s–i–o–n–d–r–i–v–e–w–a–y–i–r–a–
+66 ogado taken ibu -> –o–g–a–d–o–t–a–k–e–n–i–b–u–
+67 jonal barco sty -> –j–o–n–a–l–b–a–r–c–o–s–t–y–
+68 zentrum espagn hybrids -> –z–e–n–t–r–u–m–e–s–p–a–g–n–h–y–b–r–i–d–s–
+69 ke gelatin curl -> –k–e–g–e–l–a–t–i–n–c–u–r–l–
+70 ogene relever guides -> –o–g–e–n–e–r–e–l–e–v–e–r–g–u–i–d–e–s–
+71 claim conocida senti -> –c–l–a–i–m–c–o–n–o–c–i–d–a–s–e–n–t–i–
+72 heiros observ riesce -> –h–e–i–r–o–s–o–b–s–e–r–v–r–i–e–s–c–e–
+73 parency prophets peinture -> –p–a–r–e–n–c–y–p–r–o–p–h–e–t–s–p–e–i–n–t–u–r–e–
+74 dar termed pel -> –d–a–r–t–e–r–m–e–d–p–e–l–
+75 icycl braz prenatal -> –i–c–y–c–l–b–r–a–z–p–r–e–n–a–t–a–l–
+76 anted curtain bese -> –a–n–t–e–d–c–u–r–t–a–i–n–b–e–s–e–
+77 bahn regi ow -> –b–a–h–n–r–e–g–i–o–w–
+78 andon minority weight -> –a–n–d–o–n–m–i–n–o–r–i–t–y–w–e–i–g–h–t–
+79 rvats diseng postura -> –r–v–a–t–s–d–i–s–e–n–g–p–o–s–t–u–r–a–
+80 cellence mitt overex -> –c–e–l–l–e–n–c–e–m–i–t–t–o–v–e–r–e–x–
+81 pok futebol theories -> –p–o–k–f–u–t–e–b–o–l–t–h–e–o–r–i–e–s–
+82 eurs cara surfaces -> –e–u–r–s–c–a–r–a–s–u–r–f–a–c–e–s–
+83 almost lav lifelong -> –a–l–m–o–s–t–l–a–v–l–i–f–e–l–o–n–g–
+84 dern auft flyg -> –d–e–r–n–a–u–f–t–f–l–y–g–
+85 game promet avo -> –g–a–m–e–p–r–o–m–e–t–a–v–o–
+86 oreal dela tempt -> –o–r–e–a–l–d–e–l–a–t–e–m–p–t–
+87 atul ld hut -> –a–t–u–l–l–d–h–u–t–
+88 gebung kinds tableaux -> –g–e–b–u–n–g–k–i–n–d–s–t–a–b–l–e–a–u–x–
+89 igen merci diter -> –i–g–e–n–m–e–r–c–i–d–i–t–e–r–
+90 na warp anne -> –n–a–w–a–r–p–a–n–n–e–
+91 ime thal road -> –i–m–e–t–h–a–l–r–o–a–d–
+92 ctype exposed gun -> –c–t–y–p–e–e–x–p–o–s–e–d–g–u–n–
+93 sto istil unde -> –s–t–o–i–s–t–i–l–u–n–d–e–
+94 ricts merg purple -> –r–i–c–t–s–m–e–r–g–p–u–r–p–l–e–
+95 iyy autor crit -> –i–y–y–a–u–t–o–r–c–r–i–t–
+96 lerinde drugi ranging -> –l–e–r–i–n–d–e–d–r–u–g–i–r–a–n–g–i–n–g–
+97 atal our aria -> –a–t–a–l–o–u–r–a–r–i–a–
+98 angu destabil diable -> –a–n–g–u–d–e–s–t–a–b–i–l–d–i–a–b–l–e–
+99 cesse kh requires -> –c–e–s–s–e–k–h–r–e–q–u–i–r–e–s–

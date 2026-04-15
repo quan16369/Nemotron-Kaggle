@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 stander fastened prochain
+01 ersonal unity isot
+02 erno vaj defer
+
+This is a sample output.
+00 stander fastened prochain -> –s–t–a–n–d–e–r–f–a–s–t–e–n–e–d–p–r–o–c–h–a–i–n–
+01 ersonal unity isot -> –e–r–s–o–n–a–l–u–n–i–t–y–i–s–o–t–
+02 erno vaj defer -> –e–r–n–o–v–a–j–d–e–f–e–r–
+
+This is your input.
+00 ugerah phosphor droplet
+01 ijan couche szt
+02 uncan heading login
+03 furter peroxid fiori
+04 dua urkund cannot
+05 apes modem san
+06 ceive cyt not
+07 isierung suk paso
+08 itecture ingress hadn
+09 uslar tourna predst
+10 mett unseen appeared
+11 akte packs sizes
+12 hew riten locker
+13 ausse terrib coatings
+14 liy profond linee
+15 ln wells remix
+16 antib feles bouts
+17 emas prikaz termina
+18 frak ramener defines
+19 alt abruptly drops
+20 ible dioses rs
+21 elij kons respe
+22 etzen giorn flush
+23 swer binomial mechanic
+24 onk against ensures
+25 linear schilder etapas
+26 urie ersch sat
+27 gression muncul failure
+28 ba man resolve
+29 return hous vidas
+30 justed grocery immigr
+31 auen nunha dj
+32 launch citrus controle
+33 itivity direkt atelier
+34 yente aver miejscu
+35 avano urbo uz
+36 ivil descre spielen
+37 entukan funcion temb
+38 enet genealog shoved
+39 ypass dikel longueur
+40 marine tun veg
+41 undle day hl
+42 caire arist city
+43 jk hurts endroit
+44 sel suivante vur
+45 beam haur urls
+46 ud welches eing
+47 ockeys rato mans
+48 escence keyboard olu
+49 plik respecte olib
+50 elligen perioden fluores
+51 ascular davom ukl
+52 itekten acar instants
+53 aba andato remot
+54 oled pekerja zorganiz
+55 adge terce tb
+56 sw citation fund
+57 abora dorm globe
+58 kh triple fala
+59 quita rounding indign
+60 even urea scritt
+61 uttosto email riusc
+62 holds befinden reperc
+63 heart kl dire
+64 pril canvi exh
+65 initial filling lavorare
+66 rada tik inherit
+67 ittiin nest secteur
+68 wy violet antigu
+69 chend dopo capilla
+70 caff entste ipsum
+71 idia cart poraz
+72 zsche rete weib
+73 dec androgen damaged
+74 spur voltage softly
+75 aken ridicul viel
+76 irs extermin plaat
+77 kal ataques lettere
+78 index finito lumen
+79 umin dame filma
+80 itado indietro anc
+81 ince gallo algunos
+82 royo eftersom janeiro
+83 export rappelle azzal
+84 third demonstr truly
+85 sample menstru hijo
+86 kezi batted credited
+87 itum esclaves sheet
+88 luents galaxies mav
+89 ibern balanced final
+90 aldo meerdere nyug
+91 chae retail acerc
+92 tru zodat shop
+93 chst ventanas cic
+94 polar ganz schlecht
+95 ighte rece spost
+96 pn kaw ald
+97 chan leakage produkc
+98 koj divent triplet
+99 zeption advis negy
+[completion]
+00 ugerah phosphor droplet -> –u–g–e–r–a–h–p–h–o–s–p–h–o–r–d–r–o–p–l–e–t–
+01 ijan couche szt -> –i–j–a–n–c–o–u–c–h–e–s–z–t–
+02 uncan heading login -> –u–n–c–a–n–h–e–a–d–i–n–g–l–o–g–i–n–
+03 furter peroxid fiori -> –f–u–r–t–e–r–p–e–r–o–x–i–d–f–i–o–r–i–
+04 dua urkund cannot -> –d–u–a–u–r–k–u–n–d–c–a–n–n–o–t–
+05 apes modem san -> –a–p–e–s–m–o–d–e–m–s–a–n–
+06 ceive cyt not -> –c–e–i–v–e–c–y–t–n–o–t–
+07 isierung suk paso -> –i–s–i–e–r–u–n–g–s–u–k–p–a–s–o–
+08 itecture ingress hadn -> –i–t–e–c–t–u–r–e–i–n–g–r–e–s–s–h–a–d–n–
+09 uslar tourna predst -> –u–s–l–a–r–t–o–u–r–n–a–p–r–e–d–s–t–
+10 mett unseen appeared -> –m–e–t–t–u–n–s–e–e–n–a–p–p–e–a–r–e–d–
+11 akte packs sizes -> –a–k–t–e–p–a–c–k–s–s–i–z–e–s–
+12 hew riten locker -> –h–e–w–r–i–t–e–n–l–o–c–k–e–r–
+13 ausse terrib coatings -> –a–u–s–s–e–t–e–r–r–i–b–c–o–a–t–i–n–g–s–
+14 liy profond linee -> –l–i–y–p–r–o–f–o–n–d–l–i–n–e–e–
+15 ln wells remix -> –l–n–w–e–l–l–s–r–e–m–i–x–
+16 antib feles bouts -> –a–n–t–i–b–f–e–l–e–s–b–o–u–t–s–
+17 emas prikaz termina -> –e–m–a–s–p–r–i–k–a–z–t–e–r–m–i–n–a–
+18 frak ramener defines -> –f–r–a–k–r–a–m–e–n–e–r–d–e–f–i–n–e–s–
+19 alt abruptly drops -> –a–l–t–a–b–r–u–p–t–l–y–d–r–o–p–s–
+20 ible dioses rs -> –i–b–l–e–d–i–o–s–e–s–r–s–
+21 elij kons respe -> –e–l–i–j–k–o–n–s–r–e–s–p–e–
+22 etzen giorn flush -> –e–t–z–e–n–g–i–o–r–n–f–l–u–s–h–
+23 swer binomial mechanic -> –s–w–e–r–b–i–n–o–m–i–a–l–m–e–c–h–a–n–i–c–
+24 onk against ensures -> –o–n–k–a–g–a–i–n–s–t–e–n–s–u–r–e–s–
+25 linear schilder etapas -> –l–i–n–e–a–r–s–c–h–i–l–d–e–r–e–t–a–p–a–s–
+26 urie ersch sat -> –u–r–i–e–e–r–s–c–h–s–a–t–
+27 gression muncul failure -> –g–r–e–s–s–i–o–n–m–u–n–c–u–l–f–a–i–l–u–r–e–
+28 ba man resolve -> –b–a–m–a–n–r–e–s–o–l–v–e–
+29 return hous vidas -> –r–e–t–u–r–n–h–o–u–s–v–i–d–a–s–
+30 justed grocery immigr -> –j–u–s–t–e–d–g–r–o–c–e–r–y–i–m–m–i–g–r–
+31 auen nunha dj -> –a–u–e–n–n–u–n–h–a–d–j–
+32 launch citrus controle -> –l–a–u–n–c–h–c–i–t–r–u–s–c–o–n–t–r–o–l–e–
+33 itivity direkt atelier -> –i–t–i–v–i–t–y–d–i–r–e–k–t–a–t–e–l–i–e–r–
+34 yente aver miejscu -> –y–e–n–t–e–a–v–e–r–m–i–e–j–s–c–u–
+35 avano urbo uz -> –a–v–a–n–o–u–r–b–o–u–z–
+36 ivil descre spielen -> –i–v–i–l–d–e–s–c–r–e–s–p–i–e–l–e–n–
+37 entukan funcion temb -> –e–n–t–u–k–a–n–f–u–n–c–i–o–n–t–e–m–b–
+38 enet genealog shoved -> –e–n–e–t–g–e–n–e–a–l–o–g–s–h–o–v–e–d–
+39 ypass dikel longueur -> –y–p–a–s–s–d–i–k–e–l–l–o–n–g–u–e–u–r–
+40 marine tun veg -> –m–a–r–i–n–e–t–u–n–v–e–g–
+41 undle day hl -> –u–n–d–l–e–d–a–y–h–l–
+42 caire arist city -> –c–a–i–r–e–a–r–i–s–t–c–i–t–y–
+43 jk hurts endroit -> –j–k–h–u–r–t–s–e–n–d–r–o–i–t–
+44 sel suivante vur -> –s–e–l–s–u–i–v–a–n–t–e–v–u–r–
+45 beam haur urls -> –b–e–a–m–h–a–u–r–u–r–l–s–
+46 ud welches eing -> –u–d–w–e–l–c–h–e–s–e–i–n–g–
+47 ockeys rato mans -> –o–c–k–e–y–s–r–a–t–o–m–a–n–s–
+48 escence keyboard olu -> –e–s–c–e–n–c–e–k–e–y–b–o–a–r–d–o–l–u–
+49 plik respecte olib -> –p–l–i–k–r–e–s–p–e–c–t–e–o–l–i–b–
+50 elligen perioden fluores -> –e–l–l–i–g–e–n–p–e–r–i–o–d–e–n–f–l–u–o–r–e–s–
+51 ascular davom ukl -> –a–s–c–u–l–a–r–d–a–v–o–m–u–k–l–
+52 itekten acar instants -> –i–t–e–k–t–e–n–a–c–a–r–i–n–s–t–a–n–t–s–
+53 aba andato remot -> –a–b–a–a–n–d–a–t–o–r–e–m–o–t–
+54 oled pekerja zorganiz -> –o–l–e–d–p–e–k–e–r–j–a–z–o–r–g–a–n–i–z–
+55 adge terce tb -> –a–d–g–e–t–e–r–c–e–t–b–
+56 sw citation fund -> –s–w–c–i–t–a–t–i–o–n–f–u–n–d–
+57 abora dorm globe -> –a–b–o–r–a–d–o–r–m–g–l–o–b–e–
+58 kh triple fala -> –k–h–t–r–i–p–l–e–f–a–l–a–
+59 quita rounding indign -> –q–u–i–t–a–r–o–u–n–d–i–n–g–i–n–d–i–g–n–
+60 even urea scritt -> –e–v–e–n–u–r–e–a–s–c–r–i–t–t–
+61 uttosto email riusc -> –u–t–t–o–s–t–o–e–m–a–i–l–r–i–u–s–c–
+62 holds befinden reperc -> –h–o–l–d–s–b–e–f–i–n–d–e–n–r–e–p–e–r–c–
+63 heart kl dire -> –h–e–a–r–t–k–l–d–i–r–e–
+64 pril canvi exh -> –p–r–i–l–c–a–n–v–i–e–x–h–
+65 initial filling lavorare -> –i–n–i–t–i–a–l–f–i–l–l–i–n–g–l–a–v–o–r–a–r–e–
+66 rada tik inherit -> –r–a–d–a–t–i–k–i–n–h–e–r–i–t–
+67 ittiin nest secteur -> –i–t–t–i–i–n–n–e–s–t–s–e–c–t–e–u–r–
+68 wy violet antigu -> –w–y–v–i–o–l–e–t–a–n–t–i–g–u–
+69 chend dopo capilla -> –c–h–e–n–d–d–o–p–o–c–a–p–i–l–l–a–
+70 caff entste ipsum -> –c–a–f–f–e–n–t–s–t–e–i–p–s–u–m–
+71 idia cart poraz -> –i–d–i–a–c–a–r–t–p–o–r–a–z–
+72 zsche rete weib -> –z–s–c–h–e–r–e–t–e–w–e–i–b–
+73 dec androgen damaged -> –d–e–c–a–n–d–r–o–g–e–n–d–a–m–a–g–e–d–
+74 spur voltage softly -> –s–p–u–r–v–o–l–t–a–g–e–s–o–f–t–l–y–
+75 aken ridicul viel -> –a–k–e–n–r–i–d–i–c–u–l–v–i–e–l–
+76 irs extermin plaat -> –i–r–s–e–x–t–e–r–m–i–n–p–l–a–a–t–
+77 kal ataques lettere -> –k–a–l–a–t–a–q–u–e–s–l–e–t–t–e–r–e–
+78 index finito lumen -> –i–n–d–e–x–f–i–n–i–t–o–l–u–m–e–n–
+79 umin dame filma -> –u–m–i–n–d–a–m–e–f–i–l–m–a–
+80 itado indietro anc -> –i–t–a–d–o–i–n–d–i–e–t–r–o–a–n–c–
+81 ince gallo algunos -> –i–n–c–e–g–a–l–l–o–a–l–g–u–n–o–s–
+82 royo eftersom janeiro -> –r–o–y–o–e–f–t–e–r–s–o–m–j–a–n–e–i–r–o–
+83 export rappelle azzal -> –e–x–p–o–r–t–r–a–p–p–e–l–l–e–a–z–z–a–l–
+84 third demonstr truly -> –t–h–i–r–d–d–e–m–o–n–s–t–r–t–r–u–l–y–
+85 sample menstru hijo -> –s–a–m–p–l–e–m–e–n–s–t–r–u–h–i–j–o–
+86 kezi batted credited -> –k–e–z–i–b–a–t–t–e–d–c–r–e–d–i–t–e–d–
+87 itum esclaves sheet -> –i–t–u–m–e–s–c–l–a–v–e–s–s–h–e–e–t–
+88 luents galaxies mav -> –l–u–e–n–t–s–g–a–l–a–x–i–e–s–m–a–v–
+89 ibern balanced final -> –i–b–e–r–n–b–a–l–a–n–c–e–d–f–i–n–a–l–
+90 aldo meerdere nyug -> –a–l–d–o–m–e–e–r–d–e–r–e–n–y–u–g–
+91 chae retail acerc -> –c–h–a–e–r–e–t–a–i–l–a–c–e–r–c–
+92 tru zodat shop -> –t–r–u–z–o–d–a–t–s–h–o–p–
+93 chst ventanas cic -> –c–h–s–t–v–e–n–t–a–n–a–s–c–i–c–
+94 polar ganz schlecht -> –p–o–l–a–r–g–a–n–z–s–c–h–l–e–c–h–t–
+95 ighte rece spost -> –i–g–h–t–e–r–e–c–e–s–p–o–s–t–
+96 pn kaw ald -> –p–n–k–a–w–a–l–d–
+97 chan leakage produkc -> –c–h–a–n–l–e–a–k–a–g–e–p–r–o–d–u–k–c–
+98 koj divent triplet -> –k–o–j–d–i–v–e–n–t–t–r–i–p–l–e–t–
+99 zeption advis negy -> –z–e–p–t–i–o–n–a–d–v–i–s–n–e–g–y–

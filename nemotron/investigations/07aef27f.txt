@@ -1,0 +1,27 @@
+problem id: 07aef27f
+category: equation_numeric_guess
+
+examples:
+- 73*57 = 6772
+- 29*49 = 9468
+- 56+16 = 1656
+- query: 22-84
+
+inferred rule:
+This puzzle appears to use different rules for different symbols, but the examples do not fully determine a single coherent system. The only clean, defensible rule I can apply to the query is:
+
+- `+` means write the second number followed by the first number.
+  - 56+16 -> 1656
+- `-` is ordinary subtraction.
+
+The `*` examples (`73*57 = 6772` and `29*49 = 9468`) do not reveal a reliable rule from the examples alone, so I am not using them to infer the `-` case.
+
+step-by-step application to the query:
+1. The query is `22-84`, so use the `-` rule.
+2. Apply ordinary subtraction: 22 - 84.
+3. Compute the result: -62.
+
+predicted answer: -62
+
+confidence note:
+Moderate confidence. The `-` rule is a reasonable manual inference, but the overall puzzle is noisy because the `*` examples do not expose a clear pattern.

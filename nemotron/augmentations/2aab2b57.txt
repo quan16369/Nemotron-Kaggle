@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 ilir moyenne zor
+01 iteten behavi jednak
+02 structor sprintf filoso
+
+This is a sample output.
+00 ilir moyenne zor -> –i–l–i–r–m–o–y–e–n–n–e–z–o–r–
+01 iteten behavi jednak -> –i–t–e–t–e–n–b–e–h–a–v–i–j–e–d–n–a–k–
+02 structor sprintf filoso -> –s–t–r–u–c–t–o–r–s–p–r–i–n–t–f–f–i–l–o–s–o–
+
+This is your input.
+00 atian foc hybrid
+01 risa massage nursery
+02 ally nev ongeveer
+03 embed ricev sair
+04 fections calmer alia
+05 annter datant asym
+06 anen sigui usb
+07 widehat ij expres
+08 parallel viable conflic
+09 isance polyure tramite
+10 ylo entspr kamp
+11 results verschw biotin
+12 cardi navn flute
+13 roscop gehabt procede
+14 inkt sms esperaba
+15 luss situa fazla
+16 kem bai shp
+17 quick esp comet
+18 nected shorten bus
+19 atah ref shadows
+20 atus reducir decoded
+21 atty none chiesto
+22 ju vors budgets
+23 genre venne asseg
+24 ingale lune uko
+25 urst acqu climbed
+26 izielle sprink voormal
+27 urus desire receives
+28 mina pocas reported
+29 stru cerc squeezed
+30 emma meglio traff
+31 ierungen pap admit
+32 adder negoti enduring
+33 ttu fielen norte
+34 stan midi commun
+35 iyi megny lineages
+36 ylinder acet doc
+37 bildung bounce proie
+38 ischer foto ock
+39 matrix liger suppos
+40 elftal unle konnten
+41 iru tots ordered
+42 chell soos sos
+43 follow pensait equal
+44 inct jossa cond
+45 optional befre immobile
+46 atorium torch hostname
+47 quez druk ovat
+48 caps feedback rentrer
+49 aganda clasific monk
+50 umps raggi sors
+51 urz cand django
+52 ocie conc taxation
+53 rbita caches bullet
+54 punt nah soutien
+55 grado typed prad
+56 license famos paroisse
+57 ology jusque toy
+58 oplus ciutat height
+59 pis rockets songs
+60 idemment albumet scarc
+61 kih picked converge
+62 ountain entrada tiger
+63 services gars siste
+64 acrylate enviados hust
+65 oem escena olt
+66 hausen suave aunt
+67 onso oblik connects
+68 orni lysis journaux
+69 opathic openly conspir
+70 zeugt sekarang buck
+71 iota dirige muertos
+72 pkg till directa
+73 cod disant crust
+74 credi bul en
+75 hlen eingel computed
+76 webpack formando obv
+77 riot analyzer interp
+78 chage bronz aquesta
+79 clampsia bonheur vict
+80 cent morceau annonce
+81 ria chuy anta
+82 cente gleicher guid
+83 elden consag hauteur
+84 herlands inmedi esiint
+85 ayer glioma otrzym
+86 enez tors efect
+87 cloud navig pharm
+88 padding chaos circle
+89 uters using signup
+90 thern agro inden
+91 ernes trist siker
+92 uestas cili sana
+93 izal maken screw
+94 ytuc direitos aortic
+95 osen cycle realized
+96 ordi spesso idade
+97 ame sourcils occasion
+98 iente boute mohou
+99 elige metrics foil
+[completion]
+00 atian foc hybrid -> –a–t–i–a–n–f–o–c–h–y–b–r–i–d–
+01 risa massage nursery -> –r–i–s–a–m–a–s–s–a–g–e–n–u–r–s–e–r–y–
+02 ally nev ongeveer -> –a–l–l–y–n–e–v–o–n–g–e–v–e–e–r–
+03 embed ricev sair -> –e–m–b–e–d–r–i–c–e–v–s–a–i–r–
+04 fections calmer alia -> –f–e–c–t–i–o–n–s–c–a–l–m–e–r–a–l–i–a–
+05 annter datant asym -> –a–n–n–t–e–r–d–a–t–a–n–t–a–s–y–m–
+06 anen sigui usb -> –a–n–e–n–s–i–g–u–i–u–s–b–
+07 widehat ij expres -> –w–i–d–e–h–a–t–i–j–e–x–p–r–e–s–
+08 parallel viable conflic -> –p–a–r–a–l–l–e–l–v–i–a–b–l–e–c–o–n–f–l–i–c–
+09 isance polyure tramite -> –i–s–a–n–c–e–p–o–l–y–u–r–e–t–r–a–m–i–t–e–
+10 ylo entspr kamp -> –y–l–o–e–n–t–s–p–r–k–a–m–p–
+11 results verschw biotin -> –r–e–s–u–l–t–s–v–e–r–s–c–h–w–b–i–o–t–i–n–
+12 cardi navn flute -> –c–a–r–d–i–n–a–v–n–f–l–u–t–e–
+13 roscop gehabt procede -> –r–o–s–c–o–p–g–e–h–a–b–t–p–r–o–c–e–d–e–
+14 inkt sms esperaba -> –i–n–k–t–s–m–s–e–s–p–e–r–a–b–a–
+15 luss situa fazla -> –l–u–s–s–s–i–t–u–a–f–a–z–l–a–
+16 kem bai shp -> –k–e–m–b–a–i–s–h–p–
+17 quick esp comet -> –q–u–i–c–k–e–s–p–c–o–m–e–t–
+18 nected shorten bus -> –n–e–c–t–e–d–s–h–o–r–t–e–n–b–u–s–
+19 atah ref shadows -> –a–t–a–h–r–e–f–s–h–a–d–o–w–s–
+20 atus reducir decoded -> –a–t–u–s–r–e–d–u–c–i–r–d–e–c–o–d–e–d–
+21 atty none chiesto -> –a–t–t–y–n–o–n–e–c–h–i–e–s–t–o–
+22 ju vors budgets -> –j–u–v–o–r–s–b–u–d–g–e–t–s–
+23 genre venne asseg -> –g–e–n–r–e–v–e–n–n–e–a–s–s–e–g–
+24 ingale lune uko -> –i–n–g–a–l–e–l–u–n–e–u–k–o–
+25 urst acqu climbed -> –u–r–s–t–a–c–q–u–c–l–i–m–b–e–d–
+26 izielle sprink voormal -> –i–z–i–e–l–l–e–s–p–r–i–n–k–v–o–o–r–m–a–l–
+27 urus desire receives -> –u–r–u–s–d–e–s–i–r–e–r–e–c–e–i–v–e–s–
+28 mina pocas reported -> –m–i–n–a–p–o–c–a–s–r–e–p–o–r–t–e–d–
+29 stru cerc squeezed -> –s–t–r–u–c–e–r–c–s–q–u–e–e–z–e–d–
+30 emma meglio traff -> –e–m–m–a–m–e–g–l–i–o–t–r–a–f–f–
+31 ierungen pap admit -> –i–e–r–u–n–g–e–n–p–a–p–a–d–m–i–t–
+32 adder negoti enduring -> –a–d–d–e–r–n–e–g–o–t–i–e–n–d–u–r–i–n–g–
+33 ttu fielen norte -> –t–t–u–f–i–e–l–e–n–n–o–r–t–e–
+34 stan midi commun -> –s–t–a–n–m–i–d–i–c–o–m–m–u–n–
+35 iyi megny lineages -> –i–y–i–m–e–g–n–y–l–i–n–e–a–g–e–s–
+36 ylinder acet doc -> –y–l–i–n–d–e–r–a–c–e–t–d–o–c–
+37 bildung bounce proie -> –b–i–l–d–u–n–g–b–o–u–n–c–e–p–r–o–i–e–
+38 ischer foto ock -> –i–s–c–h–e–r–f–o–t–o–o–c–k–
+39 matrix liger suppos -> –m–a–t–r–i–x–l–i–g–e–r–s–u–p–p–o–s–
+40 elftal unle konnten -> –e–l–f–t–a–l–u–n–l–e–k–o–n–n–t–e–n–
+41 iru tots ordered -> –i–r–u–t–o–t–s–o–r–d–e–r–e–d–
+42 chell soos sos -> –c–h–e–l–l–s–o–o–s–s–o–s–
+43 follow pensait equal -> –f–o–l–l–o–w–p–e–n–s–a–i–t–e–q–u–a–l–
+44 inct jossa cond -> –i–n–c–t–j–o–s–s–a–c–o–n–d–
+45 optional befre immobile -> –o–p–t–i–o–n–a–l–b–e–f–r–e–i–m–m–o–b–i–l–e–
+46 atorium torch hostname -> –a–t–o–r–i–u–m–t–o–r–c–h–h–o–s–t–n–a–m–e–
+47 quez druk ovat -> –q–u–e–z–d–r–u–k–o–v–a–t–
+48 caps feedback rentrer -> –c–a–p–s–f–e–e–d–b–a–c–k–r–e–n–t–r–e–r–
+49 aganda clasific monk -> –a–g–a–n–d–a–c–l–a–s–i–f–i–c–m–o–n–k–
+50 umps raggi sors -> –u–m–p–s–r–a–g–g–i–s–o–r–s–
+51 urz cand django -> –u–r–z–c–a–n–d–d–j–a–n–g–o–
+52 ocie conc taxation -> –o–c–i–e–c–o–n–c–t–a–x–a–t–i–o–n–
+53 rbita caches bullet -> –r–b–i–t–a–c–a–c–h–e–s–b–u–l–l–e–t–
+54 punt nah soutien -> –p–u–n–t–n–a–h–s–o–u–t–i–e–n–
+55 grado typed prad -> –g–r–a–d–o–t–y–p–e–d–p–r–a–d–
+56 license famos paroisse -> –l–i–c–e–n–s–e–f–a–m–o–s–p–a–r–o–i–s–s–e–
+57 ology jusque toy -> –o–l–o–g–y–j–u–s–q–u–e–t–o–y–
+58 oplus ciutat height -> –o–p–l–u–s–c–i–u–t–a–t–h–e–i–g–h–t–
+59 pis rockets songs -> –p–i–s–r–o–c–k–e–t–s–s–o–n–g–s–
+60 idemment albumet scarc -> –i–d–e–m–m–e–n–t–a–l–b–u–m–e–t–s–c–a–r–c–
+61 kih picked converge -> –k–i–h–p–i–c–k–e–d–c–o–n–v–e–r–g–e–
+62 ountain entrada tiger -> –o–u–n–t–a–i–n–e–n–t–r–a–d–a–t–i–g–e–r–
+63 services gars siste -> –s–e–r–v–i–c–e–s–g–a–r–s–s–i–s–t–e–
+64 acrylate enviados hust -> –a–c–r–y–l–a–t–e–e–n–v–i–a–d–o–s–h–u–s–t–
+65 oem escena olt -> –o–e–m–e–s–c–e–n–a–o–l–t–
+66 hausen suave aunt -> –h–a–u–s–e–n–s–u–a–v–e–a–u–n–t–
+67 onso oblik connects -> –o–n–s–o–o–b–l–i–k–c–o–n–n–e–c–t–s–
+68 orni lysis journaux -> –o–r–n–i–l–y–s–i–s–j–o–u–r–n–a–u–x–
+69 opathic openly conspir -> –o–p–a–t–h–i–c–o–p–e–n–l–y–c–o–n–s–p–i–r–
+70 zeugt sekarang buck -> –z–e–u–g–t–s–e–k–a–r–a–n–g–b–u–c–k–
+71 iota dirige muertos -> –i–o–t–a–d–i–r–i–g–e–m–u–e–r–t–o–s–
+72 pkg till directa -> –p–k–g–t–i–l–l–d–i–r–e–c–t–a–
+73 cod disant crust -> –c–o–d–d–i–s–a–n–t–c–r–u–s–t–
+74 credi bul en -> –c–r–e–d–i–b–u–l–e–n–
+75 hlen eingel computed -> –h–l–e–n–e–i–n–g–e–l–c–o–m–p–u–t–e–d–
+76 webpack formando obv -> –w–e–b–p–a–c–k–f–o–r–m–a–n–d–o–o–b–v–
+77 riot analyzer interp -> –r–i–o–t–a–n–a–l–y–z–e–r–i–n–t–e–r–p–
+78 chage bronz aquesta -> –c–h–a–g–e–b–r–o–n–z–a–q–u–e–s–t–a–
+79 clampsia bonheur vict -> –c–l–a–m–p–s–i–a–b–o–n–h–e–u–r–v–i–c–t–
+80 cent morceau annonce -> –c–e–n–t–m–o–r–c–e–a–u–a–n–n–o–n–c–e–
+81 ria chuy anta -> –r–i–a–c–h–u–y–a–n–t–a–
+82 cente gleicher guid -> –c–e–n–t–e–g–l–e–i–c–h–e–r–g–u–i–d–
+83 elden consag hauteur -> –e–l–d–e–n–c–o–n–s–a–g–h–a–u–t–e–u–r–
+84 herlands inmedi esiint -> –h–e–r–l–a–n–d–s–i–n–m–e–d–i–e–s–i–i–n–t–
+85 ayer glioma otrzym -> –a–y–e–r–g–l–i–o–m–a–o–t–r–z–y–m–
+86 enez tors efect -> –e–n–e–z–t–o–r–s–e–f–e–c–t–
+87 cloud navig pharm -> –c–l–o–u–d–n–a–v–i–g–p–h–a–r–m–
+88 padding chaos circle -> –p–a–d–d–i–n–g–c–h–a–o–s–c–i–r–c–l–e–
+89 uters using signup -> –u–t–e–r–s–u–s–i–n–g–s–i–g–n–u–p–
+90 thern agro inden -> –t–h–e–r–n–a–g–r–o–i–n–d–e–n–
+91 ernes trist siker -> –e–r–n–e–s–t–r–i–s–t–s–i–k–e–r–
+92 uestas cili sana -> –u–e–s–t–a–s–c–i–l–i–s–a–n–a–
+93 izal maken screw -> –i–z–a–l–m–a–k–e–n–s–c–r–e–w–
+94 ytuc direitos aortic -> –y–t–u–c–d–i–r–e–i–t–o–s–a–o–r–t–i–c–
+95 osen cycle realized -> –o–s–e–n–c–y–c–l–e–r–e–a–l–i–z–e–d–
+96 ordi spesso idade -> –o–r–d–i–s–p–e–s–s–o–i–d–a–d–e–
+97 ame sourcils occasion -> –a–m–e–s–o–u–r–c–i–l–s–o–c–c–a–s–i–o–n–
+98 iente boute mohou -> –i–e–n–t–e–b–o–u–t–e–m–o–h–o–u–
+99 elige metrics foil -> –e–l–i–g–e–m–e–t–r–i–c–s–f–o–i–l–

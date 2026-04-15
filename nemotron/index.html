@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problems</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        .container { max-width: 1400px; margin: 0 auto; }
+        .tooltip {
+            position: fixed;
+            background-color: rgba(0, 0, 0, 0.9);
+            color: #fff;
+            padding: 6px 10px;
+            border-radius: 4px;
+            font-size: 12px;
+            pointer-events: none;
+            z-index: 1000;
+            display: none;
+            max-width: 400px;
+        }
+        .overview-section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .overview-title {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            text-align: center;
+            color: #333;
+        }
+        .stats {
+            text-align: center;
+            color: #666;
+            margin-bottom: 16px;
+            font-size: 14px;
+        }
+        .legend {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 20px;
+            font-size: 13px;
+            flex-wrap: wrap;
+        }
+        .legend-item { display: flex; align-items: center; gap: 6px; }
+        .legend-box { width: 12px; height: 12px; border: 1px solid #ccc; border-radius: 2px; }
+        .dataset-groups {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            align-items: center;
+        }
+        .dataset-group {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .dataset-label {
+            font-size: 14px;
+            margin-bottom: 10px;
+            color: #666;
+        }
+        .problem-grid {
+            display: grid;
+            gap: 1px;
+            padding: 3px;
+            background-color: #e0e0e0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            width: fit-content;
+        }
+        .problem-box {
+            width: 7px;
+            height: 7px;
+            cursor: pointer;
+            transition: all 0.15s ease;
+        }
+        .problem-box:hover { transform: scale(1.4); z-index: 1; outline: 1px solid #333; }
+        .problem-box.selected { outline: 2px solid #333; transform: scale(1.6); z-index: 2; }
+
+        /* Detail overlay */
+        .detail-overlay {
+            display: none;
+            margin-top: 30px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            padding: 20px;
+        }
+        .detail-overlay.visible { display: block; }
+        .detail-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .detail-header .problem-info { font-size: 16px; font-weight: 600; color: #333; }
+        .detail-header .category-badge {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-left: 12px;
+        }
+        .detail-header .status-badge {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-left: 8px;
+        }
+        .badge-bit { background: #0074D9; color: #fff; }
+        .badge-gravity { background: #FF4136; color: #fff; }
+        .badge-unit { background: #2ECC40; color: #000; }
+        .badge-cipher { background: #FFDC00; color: #000; }
+        .badge-numeral { background: #FF851B; color: #000; }
+        .badge-equation-numeric { background: #B10DC9; color: #fff; }
+        .badge-equation-symbolic { background: #00CED1; color: #000; }
+        .detail-nav {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+        }
+        .detail-nav button, .detail-close {
+            background: #4a5568; color: #fff; border: none;
+            padding: 5px 15px; cursor: pointer; border-radius: 4px; font-size: 13px;
+        }
+        .detail-nav button:hover, .detail-close:hover { background: #5a6578; }
+        .detail-nav button:disabled { opacity: 0.3; cursor: default; }
+        .nav-info { font-size: 13px; color: #666; margin: 0 8px; }
+        .prompt-section {
+            background: #f8fafc;
+            border: 1px solid #e0e0e0;
+            border-radius: 6px;
+            padding: 16px;
+            margin-bottom: 16px;
+        }
+        .prompt-full {
+            font-family: 'SF Mono', Monaco, 'Courier New', monospace;
+            font-size: 14px;
+            line-height: 1.7;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            color: #333;
+        }
+        .answer-row {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-top: 16px;
+        }
+        .answer-label {
+            font-size: 13px;
+            color: #666;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+        .answer-display {
+            display: inline-block;
+            padding: 8px 16px;
+            border-radius: 4px;
+            font-family: monospace;
+            font-size: 18px;
+            font-weight: 700;
+        }
+        .parsed-section {
+            background: #f8fafc;
+            border: 1px solid #e0e0e0;
+            border-radius: 6px;
+            padding: 16px;
+            margin-top: 16px;
+        }
+        .parsed-section h3 {
+            font-size: 13px;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 12px;
+        }
+        .transform-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: 'SF Mono', Monaco, monospace;
+            font-size: 13px;
+        }
+        .transform-table th {
+            background: #4a5568;
+            color: white;
+            padding: 8px 12px;
+            text-align: left;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .transform-table td {
+            padding: 6px 12px;
+            border-bottom: 1px solid #e0e0e0;
+            color: #333;
+        }
+        .transform-table tr:hover { background: #f0f4f8; }
+        .transform-arrow { color: #999; padding: 0 8px; }
+        .question-row td { background: #fffbeb; font-weight: 600; }
+        .answer-row-table td { background: #ecfdf5; font-weight: 600; }
+
+        /* Generation styles */
+        .gen-info {
+            display: flex; gap: 24px; margin-bottom: 16px;
+            font-size: 13px; color: #666; flex-wrap: wrap;
+        }
+        .gen-info span { display: flex; align-items: center; gap: 6px; }
+        .gen-info .val { color: #333; font-weight: bold; }
+        .run-selector { margin-bottom: 16px; }
+        .run-selector select {
+            background: white; color: #333; border: 1px solid #ccc;
+            padding: 4px 8px; font-family: 'SF Mono', Monaco, monospace; font-size: 13px;
+            border-radius: 4px;
+        }
+        .completion-section {
+            background: #f8fafc;
+            border: 1px solid #e0e0e0;
+            border-radius: 6px;
+            padding: 16px;
+            margin-bottom: 16px;
+        }
+        .decoded-text {
+            font-family: 'SF Mono', Monaco, 'Courier New', monospace;
+            font-size: 14px;
+            line-height: 1.6;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+        .tok {
+            cursor: default;
+            border-bottom: 2px solid transparent;
+        }
+        .tok:hover {
+            border-bottom-color: #333;
+            background: rgba(0,0,0,0.05);
+        }
+        .tok.prompt-tok { color: #999; }
+    </style>
+</head>
+<body>
+    <div class="tooltip" id="tooltip"></div>
+    <div class="container">
+    <nav style="text-align:center; padding:10px 0 20px; font-size:16px;">
+        <strong style="font-size:22px;">Problems</strong>
+    </nav>
+    <div class="overview-section">
+        <div class="stats" id="stats">Loading...</div>
+        <div class="legend" id="legend">
+            <div class="legend-item"><div class="legend-box" style="background:#2ecc71; border-color:#27ae60"></div><span>Solved</span></div>
+            <div class="legend-item"><div class="legend-box" style="background:#f1c40f; border-color:#d4ac0d"></div><span>Partially Solved</span></div>
+            <div class="legend-item"><div class="legend-box" style="background:#ecf0f1; border-color:#bdc3c7"></div><span>Unsolved</span></div>
+        </div>
+        <div class="dataset-groups" id="datasetGroups">
+            <div style="color: #888; font-size: 14px;">Loading index...</div>
+        </div>
+    </div>
+    <div class="detail-overlay" id="detailOverlay"></div>
+    </div>
+
+<script>
+const CATEGORIES = [
+    { key: 'bit_manipulation', label: 'Bit Manipulation', badge: 'badge-bit' },
+    { key: 'gravity', label: 'Gravity', badge: 'badge-gravity' },
+    { key: 'unit_conversion', label: 'Unit Conversion', badge: 'badge-unit' },
+    { key: 'cipher', label: 'Cipher', badge: 'badge-cipher' },
+    { key: 'numeral', label: 'Numeral', badge: 'badge-numeral' },
+    { key: 'equation_numeric', label: 'Equation (Numeric)', badge: 'badge-equation-numeric' },
+    { key: 'equation_symbolic', label: 'Equation (Symbolic)', badge: 'badge-equation-symbolic' },
+];
+const CAT_BY_KEY = Object.fromEntries(CATEGORIES.map(c => [c.key, c]));
+
+// Status colors and labels
+const STATUS_CONFIG = {
+    solved:           { bg: '#2ecc71', border: '#27ae60', label: 'Solved',           badgeBg: '#2ecc71', badgeColor: '#fff' },
+    partially_solved: { bg: '#f1c40f', border: '#d4ac0d', label: 'Partially Solved', badgeBg: '#f1c40f', badgeColor: '#000' },
+    unsolved:     { bg: '#ecf0f1', border: '#bdc3c7', label: 'Unsolved',      badgeBg: '#ecf0f1', badgeColor: '#666' },
+};
+
+let allRows = [];
+let rowById = new Map();
+let genById = new Map();
+let selectedProblemId = null;
+const jsonlCache = new Map();
+const tooltip = document.getElementById('tooltip');
+let vocab = null;
+
+// Compute effective status combining problems.jsonl status with generation.jsonl correctness
+function effectiveStatus(row) {
+    const gen = genById.get(row.id);
+    if (!gen || gen.num_runs === 0) return row.status || 'unsolved';
+    const correctRuns = gen.runs.filter(r => r.correct).length;
+    if (correctRuns === gen.num_runs) return 'solved';
+    if (correctRuns > 0) return 'partially_solved';
+    return row.status || 'unsolved';
+}
+
+function logprobColor(lp) {
+    if (lp === null || lp === -1.0) return '#999';
+    // Green for high probability, red for low — matching training.html style
+    const clamped = Math.max(-5, Math.min(0, lp));
+    const t = (clamped + 5) / 5; // 0 = worst, 1 = best
+    const r = Math.round(231 - t * 192);
+    const g = Math.round(76 + t * 98);
+    const b = Math.round(60 - t * 15);
+    return `rgb(${r}, ${g}, ${b})`;
+}
+
+const BYTE_RE = /^(<0x[0-9A-Fa-f]{2}>)+$/;
+const BYTE_EXTRACT = /<0x([0-9A-Fa-f]{2})>/g;
+
+function decodeAllTokens(tokens) {
+    const result = new Array(tokens.length).fill('');
+    let i = 0;
+    while (i < tokens.length) {
+        const tid = tokens[i].token_id;
+        if (tid === null || tid === undefined || !vocab) {
+            result[i] = '\u2588';
+            i++;
+            continue;
+        }
+        const s = vocab[String(tid)];
+        if (s === undefined) {
+            result[i] = `[${tid}]`;
+            i++;
+            continue;
+        }
+        if (BYTE_RE.test(s)) {
+            const start = i;
+            const bytes = [];
+            while (i < tokens.length) {
+                const t2 = tokens[i].token_id;
+                if (t2 === null || t2 === undefined) break;
+                const s2 = vocab[String(t2)];
+                if (!s2 || !BYTE_RE.test(s2)) break;
+                for (const bm of s2.matchAll(BYTE_EXTRACT)) {
+                    bytes.push(parseInt(bm[1], 16));
+                }
+                i++;
+            }
+            result[start] = new TextDecoder('utf-8', {fatal: false}).decode(new Uint8Array(bytes));
+        } else {
+            result[i] = s;
+            i++;
+        }
+    }
+    return result;
+}
+
+async function loadVocab() {
+    if (vocab) return;
+    try {
+        const resp = await fetch('vocab.jsonl?_=' + Date.now());
+        if (!resp.ok) return;
+        const text = await resp.text();
+        vocab = {};
+        for (const line of text.split('\n')) {
+            if (!line.trim()) continue;
+            const entry = JSON.parse(line);
+            vocab[String(entry.token_id)] = entry.token;
+        }
+    } catch (e) { /* vocab unavailable */ }
+}
+
+async function loadIndex() {
+    const resp = await fetch('problems.jsonl?_=' + Date.now());
+    const text = await resp.text();
+    return text.trim().split('\n').filter(l => l).map(line => {
+        const e = JSON.parse(line);
+        return {
+            id: e.id,
+            category: e.category,
+            cat: CAT_BY_KEY[e.category] || { label: 'Unknown', badge: '' },
+            status: e.status ?? null,
+        };
+    });
+}
+
+async function loadGenIndex() {
+    const index = new Map();
+    try {
+        const resp = await fetch('generation.jsonl?_=' + Date.now());
+        const text = await resp.text();
+        for (const line of text.trim().split('\n')) {
+            if (!line) continue;
+            const rec = JSON.parse(line);
+            index.set(rec.id, rec);
+        }
+    } catch (e) {
+        console.error('Failed to load generation.jsonl:', e);
+    }
+    return index;
+}
+
+function buildGrid() {
+    const groups = {};
+    CATEGORIES.forEach(c => { groups[c.key] = []; });
+    allRows.forEach(r => {
+        if (groups[r.category]) groups[r.category].push(r);
+    });
+
+    const container = document.getElementById('datasetGroups');
+    container.innerHTML = '';
+
+    let totalSolved = 0, totalPartial = 0;
+
+    CATEGORIES.forEach(cat => {
+        const problems = groups[cat.key];
+        if (problems.length === 0) return;
+
+        const group = document.createElement('div');
+        group.className = 'dataset-group';
+
+        const solvedCount = problems.filter(p => effectiveStatus(p) === 'solved').length;
+        const partialCount = problems.filter(p => effectiveStatus(p) === 'partially_solved').length;
+        totalSolved += solvedCount;
+        totalPartial += partialCount;
+
+        const label = document.createElement('div');
+        label.className = 'dataset-label';
+        label.textContent = `${cat.label} (${solvedCount} solved / ${partialCount} partial / ${problems.length} total)`;
+        group.appendChild(label);
+
+        const grid = document.createElement('div');
+        grid.className = 'problem-grid';
+        const cols = Math.min(150, problems.length);
+        grid.style.gridTemplateColumns = `repeat(${cols}, 7px)`;
+
+        problems.forEach((r, i) => {
+            const status = effectiveStatus(r);
+            const cfg = STATUS_CONFIG[status] || STATUS_CONFIG.unsolved;
+            const gen = genById.get(r.id);
+
+            const box = document.createElement('div');
+            box.className = 'problem-box' + (r.id === selectedProblemId ? ' selected' : '');
+            box.style.backgroundColor = cfg.bg;
+            box.style.border = `1px solid ${cfg.border}`;
+            box.dataset.id = r.id;
+
+            box.addEventListener('mouseenter', (e) => {
+                tooltip.style.display = 'block';
+                let detail = cfg.label;
+                if (gen) {
+                    const correct = gen.runs.filter(x => x.correct).length;
+                    detail += ` (${correct}/${gen.num_runs} correct)`;
+                    if (gen.latest_extracted) detail += ` \u2014 "${gen.latest_extracted}"`;
+                }
+                tooltip.textContent = `${r.id} (${i+1}/${problems.length}) \u2014 ${cat.label} \u2014 ${detail}`;
+                tooltip.style.left = e.clientX + 12 + 'px';
+                tooltip.style.top = e.clientY - 28 + 'px';
+            });
+            box.addEventListener('mousemove', (e) => {
+                tooltip.style.left = e.clientX + 12 + 'px';
+                tooltip.style.top = e.clientY - 28 + 'px';
+            });
+            box.addEventListener('mouseleave', () => { tooltip.style.display = 'none'; });
+            box.addEventListener('click', () => selectProblem(r.id));
+            grid.appendChild(box);
+        });
+
+        group.appendChild(grid);
+        container.appendChild(group);
+    });
+
+    document.getElementById('stats').textContent =
+        `${totalSolved} solved / ${totalPartial} partial / ${allRows.length} total`;
+}
+
+function selectProblem(problemId) {
+    selectedProblemId = problemId;
+    const url = new URL(location.href);
+    url.searchParams.set('problem', problemId);
+    history.pushState({}, '', url);
+    document.querySelectorAll('.problem-box.selected').forEach(b => b.classList.remove('selected'));
+    const sel = document.querySelector(`.problem-box[data-id="${problemId}"]`);
+    if (sel) sel.classList.add('selected');
+    renderDetail();
+}
+
+function clearSelection() {
+    selectedProblemId = null;
+    const url = new URL(location.href);
+    url.searchParams.delete('problem');
+    url.searchParams.delete('run');
+    history.pushState({}, '', url);
+    document.querySelectorAll('.problem-box.selected').forEach(b => b.classList.remove('selected'));
+    document.getElementById('detailOverlay').classList.remove('visible');
+    document.getElementById('detailOverlay').innerHTML = '';
+}
+
+const COLUMN_CONFIG = {
+    bit_manipulation: { headers: ['Input (8-bit)', 'Output (8-bit)'], fields: ['input_value', 'output_value'], qField: 'question' },
+    gravity:          { headers: ['Time (s)', 'Distance (m)'],       fields: ['input_value', 'output_value'], qField: 'question' },
+    unit_conversion:  { headers: ['Input (m)', 'Output'],            fields: ['input_value', 'output_value'], qField: 'question' },
+    cipher:           { headers: ['Encrypted', 'Decrypted'],         fields: ['input_value', 'output_value'], qField: 'question' },
+    numeral:          { headers: ['Arabic', 'Roman'],                fields: ['input_value', 'output_value'], qField: 'question' },
+    equation_numeric:  { headers: ['Input', 'Output'],               fields: ['input_value', 'output_value'], qField: 'question' },
+    equation_symbolic: { headers: ['Input', 'Output'],               fields: ['input_value', 'output_value'], qField: 'question' },
+};
+
+function esc(s) {
+    return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+function renderParsedData(parsed, cat) {
+    const cfg = COLUMN_CONFIG[parsed.category];
+    if (!cfg) return '';
+    const [f1, f2] = cfg.fields;
+    const q = parsed[cfg.qField];
+    return `<div class="parsed-section">
+        <h3>Parsed Transformation (${cat.label})</h3>
+        <table class="transform-table">
+            <thead><tr><th>${cfg.headers[0]}</th><th></th><th>${cfg.headers[1]}</th></tr></thead>
+            <tbody>
+                ${parsed.examples.map(e => `<tr><td>${esc(String(e[f1]))}</td><td class="transform-arrow">&rarr;</td><td>${esc(String(e[f2]))}</td></tr>`).join('')}
+                <tr class="answer-row-table"><td>${esc(String(q))}</td><td class="transform-arrow">&rarr;</td><td>${esc(parsed.answer)}</td></tr>
+            </tbody>
+        </table>
+    </div>`;
+}
+
+async function loadTokenJsonl(id, filename) {
+    const resp = await fetch(`raw/${id}/${filename}`);
+    const text = await resp.text();
+    return text.trim().split('\n').filter(l => l).map(l => JSON.parse(l));
+}
+
+function renderTokens(tokens, container) {
+    const decoded = decodeAllTokens(tokens);
+    const frag = document.createDocumentFragment();
+    tokens.forEach((t, i) => {
+        if (decoded[i] === '') return;
+        const span = document.createElement('span');
+        span.className = 'tok' + (t.logprob === null || t.logprob === -1.0 ? ' prompt-tok' : '');
+        span.textContent = decoded[i];
+        span.style.color = logprobColor(t.logprob);
+        span.addEventListener('mouseenter', (e) => {
+            tooltip.style.display = 'block';
+            const label = (t.logprob === null || t.logprob === -1.0) ? 'prompt' : `logprob: ${t.logprob}`;
+            tooltip.textContent = `#${i} | id: ${t.token_id} | ${label} | "${decoded[i]}"`;
+            tooltip.style.left = e.clientX + 12 + 'px';
+            tooltip.style.top = e.clientY - 28 + 'px';
+        });
+        span.addEventListener('mousemove', (e) => {
+            tooltip.style.left = e.clientX + 12 + 'px';
+            tooltip.style.top = e.clientY - 28 + 'px';
+        });
+        span.addEventListener('mouseleave', () => { tooltip.style.display = 'none'; });
+        frag.appendChild(span);
+    });
+    container.appendChild(frag);
+}
+
+async function renderDetail() {
+    const detailEl = document.getElementById('detailOverlay');
+    if (!selectedProblemId) {
+        detailEl.classList.remove('visible');
+        detailEl.innerHTML = '';
+        return;
+    }
+
+    const row = rowById.get(selectedProblemId);
+    if (!row) { detailEl.classList.remove('visible'); return; }
+
+    const gen = genById.get(selectedProblemId);
+    const status = effectiveStatus(row);
+    const statusCfg = STATUS_CONFIG[status] || STATUS_CONFIG.unsolved;
+
+    const allIdx = allRows.indexOf(row);
+    const prevRow = allIdx > 0 ? allRows[allIdx - 1] : null;
+    const nextRow = allIdx < allRows.length - 1 ? allRows[allIdx + 1] : null;
+
+    // Fetch parsed problem data
+    let parsed = null;
+    if (jsonlCache.has(selectedProblemId)) {
+        parsed = jsonlCache.get(selectedProblemId);
+    } else {
+        try {
+            const resp = await fetch(`problems/${selectedProblemId}.jsonl`);
+            if (resp.ok) {
+                const text = await resp.text();
+                parsed = JSON.parse(text.trim().split('\n')[0]);
+                jsonlCache.set(selectedProblemId, parsed);
+            }
+        } catch (e) { /* ignore */ }
+    }
+
+    // Build header + problem info
+    let html = `
+        <div class="detail-header">
+            <div>
+                <span class="problem-info">${esc(selectedProblemId)}</span>
+                <span class="category-badge ${row.cat.badge}">${row.cat.label}</span>
+                <span class="status-badge" style="background:${statusCfg.badgeBg};color:${statusCfg.badgeColor}">${statusCfg.label}</span>
+            </div>
+            <div class="detail-nav">
+                <button id="detailPrev" ${!prevRow ? 'disabled' : ''}>&larr;</button>
+                <span class="nav-info">Problem ${(allIdx + 1).toLocaleString()} of ${allRows.length.toLocaleString()}</span>
+                <button id="detailNext" ${!nextRow ? 'disabled' : ''}>&rarr;</button>
+                <button class="detail-close" id="detailClose">Close</button>
+            </div>
+        </div>
+    `;
+
+    // Prompt section
+    if (parsed && parsed.prompt) {
+        html += `<div class="prompt-section"><div class="prompt-full">${esc(parsed.prompt)}</div></div>`;
+    }
+
+    // Parsed transformation table
+    if (parsed) {
+        html += renderParsedData(parsed, row.cat);
+    }
+
+    // Answer + submission + generation extracted answer
+    if (parsed) {
+        html += `<div class="answer-row">
+            <span class="answer-label">Answer:</span>
+            <span class="answer-display" style="background:#2ECC40;color:#000">${esc(parsed.answer)}</span>
+        </div>`;
+    }
+
+    // Generation section
+    if (gen && gen.num_runs > 0) {
+        await loadVocab();
+        const files = gen.runs.map(r => r.run);
+        const params = new URLSearchParams(location.search);
+        const runParam = params.get('run');
+        const runFile = (runParam && files.includes(runParam)) ? runParam : files[files.length - 1];
+        const runRec = gen.runs.find(r => r.run === runFile) || {};
+        const isCorrect = runRec.correct;
+        const extracted = runRec.extracted_answer || '';
+
+        html += `<div class="answer-row">
+            <span class="answer-label">Extracted:</span>
+            <span class="answer-display" style="background:${isCorrect ? '#2ECC40' : '#FF4136'};color:${isCorrect ? '#000' : '#fff'}">${esc(extracted)}</span>
+            <span style="font-weight:bold;color:${isCorrect ? '#2ECC40' : '#FF4136'}">${isCorrect ? 'CORRECT' : 'WRONG'}</span>
+            <span style="color:#888;font-size:13px">(${gen.runs.filter(r=>r.correct).length}/${gen.num_runs} runs correct)</span>
+        </div>`;
+
+        if (files.length > 1) {
+            const runIdx = files.indexOf(runFile);
+            html += `<div class="run-selector" style="margin-top:16px;display:flex;align-items:center;gap:8px">
+                <label style="color:#888;font-size:13px">Run: </label>
+                <button id="runPrev" style="background:#4a5568;color:#fff;border:none;padding:4px 10px;cursor:pointer;border-radius:4px" ${runIdx <= 0 ? 'disabled style="opacity:0.3;background:#4a5568;color:#fff;border:none;padding:4px 10px;cursor:default;border-radius:4px"' : ''}>&larr;</button>
+                <select id="runSelect">${files.map(f => {
+                    const fRec = gen.runs.find(r => r.run === f);
+                    const fCorrect = fRec && fRec.correct;
+                    return `<option value="${f}" ${f === runFile ? 'selected' : ''}>${f} ${fCorrect ? '\u2713' : '\u2717'}</option>`;
+                }).join('')}</select>
+                <button id="runNext" style="background:#4a5568;color:#fff;border:none;padding:4px 10px;cursor:pointer;border-radius:4px" ${runIdx >= files.length - 1 ? 'disabled style="opacity:0.3;background:#4a5568;color:#fff;border:none;padding:4px 10px;cursor:default;border-radius:4px"' : ''}>&rarr;</button>
+                <span style="color:#666;font-size:13px">${runIdx + 1} / ${files.length}</span>
+            </div>`;
+        }
+
+        // We'll load tokens and render after setting innerHTML
+        html += `<div id="genTokenSection" data-id="${esc(selectedProblemId)}" data-run="${esc(runFile)}"></div>`;
+    }
+
+    detailEl.classList.add('visible');
+    detailEl.innerHTML = html;
+
+    // Render generation tokens if available
+    const tokenSection = document.getElementById('genTokenSection');
+    if (tokenSection) {
+        const id = tokenSection.dataset.id;
+        const runFile = tokenSection.dataset.run;
+        const tokens = await loadTokenJsonl(id, runFile);
+        const promptTokens = tokens.filter(t => t.logprob === null || t.logprob === -1.0);
+        const genTokens = tokens.filter(t => t.logprob !== null && t.logprob !== -1.0);
+        const avgLogprob = genTokens.length > 0
+            ? (genTokens.reduce((s, t) => s + t.logprob, 0) / genTokens.length).toFixed(4)
+            : 'N/A';
+
+        tokenSection.innerHTML = `
+            <div class="gen-info" style="margin-top:16px">
+                <span>Prompt: <span class="val">${promptTokens.length.toLocaleString()}</span> tokens</span>
+                <span>Generated: <span class="val">${genTokens.length.toLocaleString()}</span> tokens</span>
+                <span>Avg logprob: <span class="val">${avgLogprob}</span></span>
+            </div>
+            <div class="completion-section">
+                <div class="decoded-text" id="decodedText"></div>
+            </div>
+        `;
+        renderTokens(tokens, document.getElementById('decodedText'));
+    }
+
+    // Bind run selector and prev/next buttons
+    const runSelect = document.getElementById('runSelect');
+    function switchRun(val) {
+        const url = new URL(location.href);
+        url.searchParams.set('run', val);
+        history.pushState({}, '', url);
+        renderDetail();
+    }
+    if (runSelect) {
+        runSelect.addEventListener('change', () => switchRun(runSelect.value));
+        const runPrev = document.getElementById('runPrev');
+        const runNext = document.getElementById('runNext');
+        if (runPrev) runPrev.addEventListener('click', () => {
+            if (runSelect.selectedIndex > 0) {
+                runSelect.selectedIndex--;
+                switchRun(runSelect.value);
+            }
+        });
+        if (runNext) runNext.addEventListener('click', () => {
+            if (runSelect.selectedIndex < runSelect.options.length - 1) {
+                runSelect.selectedIndex++;
+                switchRun(runSelect.value);
+            }
+        });
+    }
+
+    // Bind navigation
+    if (prevRow) document.getElementById('detailPrev').addEventListener('click', () => selectProblem(prevRow.id));
+    if (nextRow) document.getElementById('detailNext').addEventListener('click', () => selectProblem(nextRow.id));
+    document.getElementById('detailClose').addEventListener('click', clearSelection);
+
+    detailEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+// Keyboard navigation
+document.addEventListener('keydown', (e) => {
+    if (!selectedProblemId) return;
+    if (e.key === 'Escape') { clearSelection(); return; }
+    const allIdx = allRows.indexOf(rowById.get(selectedProblemId));
+    if (e.key === 'ArrowLeft' && allIdx > 0) { selectProblem(allRows[allIdx - 1].id); return; }
+    if (e.key === 'ArrowRight' && allIdx < allRows.length - 1) { selectProblem(allRows[allIdx + 1].id); return; }
+});
+
+// Handle browser back/forward
+window.addEventListener('popstate', () => {
+    const params = new URLSearchParams(location.search);
+    selectedProblemId = params.get('problem') || null;
+    if (selectedProblemId) renderDetail();
+    else clearSelection();
+});
+
+// Init: load both indexes
+Promise.all([loadIndex(), loadGenIndex()]).then(([rows, genMap]) => {
+    allRows = rows;
+    for (const r of rows) rowById.set(r.id, r);
+    genById = genMap;
+    buildGrid();
+
+    const params = new URLSearchParams(location.search);
+    selectedProblemId = params.get('problem') || null;
+    if (selectedProblemId) renderDetail();
+});
+</script>
+</body>
+</html>

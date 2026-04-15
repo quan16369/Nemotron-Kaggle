@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 fran bemerk moved
+01 xf radially premium
+02 cretion slide pads
+
+This is a sample output.
+00 fran bemerk moved -> –f–r–a–n–b–e–m–e–r–k–m–o–v–e–d–
+01 xf radially premium -> –x–f–r–a–d–i–a–l–l–y–p–r–e–m–i–u–m–
+02 cretion slide pads -> –c–r–e–t–i–o–n–s–l–i–d–e–p–a–d–s–
+
+This is your input.
+00 od codigo collo
+01 undet comptait beginnt
+02 ska admiral sortir
+03 sir reaches fclose
+04 tern shed futures
+05 organ incluant heller
+06 phantom faisait mote
+07 better piece caring
+08 unday voire kater
+09 plica escritas roca
+10 iez moment mor
+11 xty pola destru
+12 lern regener seeming
+13 itsi pasted disg
+14 partiet stessa kanssa
+15 gte carotid absoluto
+16 onance conta incl
+17 bee faudra spoke
+18 omit fonde cadet
+19 quoi chute exploit
+20 jeros leyenda eksempel
+21 tritur moins lent
+22 inside mettre complet
+23 uelta argentin centaine
+24 ifique nonce sosyal
+25 ildo konzent zost
+26 berra postaven toxicity
+27 ayev baby machos
+28 iento backend shel
+29 ymethyl daripada odby
+30 assi zowel humaine
+31 ijska xar drugo
+32 ugel sax pooled
+33 ander empu alder
+34 embrie clarinet lace
+35 grenzt wenn mirac
+36 ections bess coats
+37 ief onder grupy
+38 district aufge primer
+39 ennung ecology presente
+40 java surve racing
+41 acements prer pleasure
+42 andal scalar einz
+43 isle icon feast
+44 xygen survives guit
+45 lich thous insign
+46 alliga paysans military
+47 ivial atual fie
+48 lacht glycogen expire
+49 yscale employed manually
+50 nov deg writer
+51 lighten colect amistad
+52 rika rebounds pyr
+53 agia hypoxic science
+54 indre varies sooner
+55 prof fierce refere
+56 xs grava splits
+57 udi ensuring beams
+58 weight moodust envision
+59 allic pleural kurz
+60 kos gads styr
+61 warf bewegen variant
+62 puis peptide trainer
+63 ovjet rimane computer
+64 iteta emas rigorous
+65 zeg labour pest
+66 acin algae lure
+67 larining apres jedin
+68 logo elek nostre
+69 cm silhou indexed
+70 copy ishl odor
+71 arno eig plong
+72 ck filem dni
+73 irat incontro fuertes
+74 messer imagined casually
+75 uid bytes jedna
+76 inis protr ants
+77 ifiz ringing terrible
+78 lica nachfolg mixture
+79 rv serious xml
+80 pps maturity studying
+81 rolle mog bombarde
+82 uose armored najvi
+83 anne fax bylo
+84 zat appel fit
+85 teenth breve public
+86 yrus would bref
+87 ynd fault desple
+88 pository parietal peor
+89 lang entert inst
+90 kami absorbed supplier
+91 event holding sito
+92 anime escribe morti
+93 kiye parties deline
+94 gegen fixe cem
+95 side tight head
+96 hooting myeloid lightly
+97 uce chrom bildeten
+98 ausen moneda szere
+99 ytt new neural
+[completion]
+00 od codigo collo -> –o–d–c–o–d–i–g–o–c–o–l–l–o–
+01 undet comptait beginnt -> –u–n–d–e–t–c–o–m–p–t–a–i–t–b–e–g–i–n–n–t–
+02 ska admiral sortir -> –s–k–a–a–d–m–i–r–a–l–s–o–r–t–i–r–
+03 sir reaches fclose -> –s–i–r–r–e–a–c–h–e–s–f–c–l–o–s–e–
+04 tern shed futures -> –t–e–r–n–s–h–e–d–f–u–t–u–r–e–s–
+05 organ incluant heller -> –o–r–g–a–n–i–n–c–l–u–a–n–t–h–e–l–l–e–r–
+06 phantom faisait mote -> –p–h–a–n–t–o–m–f–a–i–s–a–i–t–m–o–t–e–
+07 better piece caring -> –b–e–t–t–e–r–p–i–e–c–e–c–a–r–i–n–g–
+08 unday voire kater -> –u–n–d–a–y–v–o–i–r–e–k–a–t–e–r–
+09 plica escritas roca -> –p–l–i–c–a–e–s–c–r–i–t–a–s–r–o–c–a–
+10 iez moment mor -> –i–e–z–m–o–m–e–n–t–m–o–r–
+11 xty pola destru -> –x–t–y–p–o–l–a–d–e–s–t–r–u–
+12 lern regener seeming -> –l–e–r–n–r–e–g–e–n–e–r–s–e–e–m–i–n–g–
+13 itsi pasted disg -> –i–t–s–i–p–a–s–t–e–d–d–i–s–g–
+14 partiet stessa kanssa -> –p–a–r–t–i–e–t–s–t–e–s–s–a–k–a–n–s–s–a–
+15 gte carotid absoluto -> –g–t–e–c–a–r–o–t–i–d–a–b–s–o–l–u–t–o–
+16 onance conta incl -> –o–n–a–n–c–e–c–o–n–t–a–i–n–c–l–
+17 bee faudra spoke -> –b–e–e–f–a–u–d–r–a–s–p–o–k–e–
+18 omit fonde cadet -> –o–m–i–t–f–o–n–d–e–c–a–d–e–t–
+19 quoi chute exploit -> –q–u–o–i–c–h–u–t–e–e–x–p–l–o–i–t–
+20 jeros leyenda eksempel -> –j–e–r–o–s–l–e–y–e–n–d–a–e–k–s–e–m–p–e–l–
+21 tritur moins lent -> –t–r–i–t–u–r–m–o–i–n–s–l–e–n–t–
+22 inside mettre complet -> –i–n–s–i–d–e–m–e–t–t–r–e–c–o–m–p–l–e–t–
+23 uelta argentin centaine -> –u–e–l–t–a–a–r–g–e–n–t–i–n–c–e–n–t–a–i–n–e–
+24 ifique nonce sosyal -> –i–f–i–q–u–e–n–o–n–c–e–s–o–s–y–a–l–
+25 ildo konzent zost -> –i–l–d–o–k–o–n–z–e–n–t–z–o–s–t–
+26 berra postaven toxicity -> –b–e–r–r–a–p–o–s–t–a–v–e–n–t–o–x–i–c–i–t–y–
+27 ayev baby machos -> –a–y–e–v–b–a–b–y–m–a–c–h–o–s–
+28 iento backend shel -> –i–e–n–t–o–b–a–c–k–e–n–d–s–h–e–l–
+29 ymethyl daripada odby -> –y–m–e–t–h–y–l–d–a–r–i–p–a–d–a–o–d–b–y–
+30 assi zowel humaine -> –a–s–s–i–z–o–w–e–l–h–u–m–a–i–n–e–
+31 ijska xar drugo -> –i–j–s–k–a–x–a–r–d–r–u–g–o–
+32 ugel sax pooled -> –u–g–e–l–s–a–x–p–o–o–l–e–d–
+33 ander empu alder -> –a–n–d–e–r–e–m–p–u–a–l–d–e–r–
+34 embrie clarinet lace -> –e–m–b–r–i–e–c–l–a–r–i–n–e–t–l–a–c–e–
+35 grenzt wenn mirac -> –g–r–e–n–z–t–w–e–n–n–m–i–r–a–c–
+36 ections bess coats -> –e–c–t–i–o–n–s–b–e–s–s–c–o–a–t–s–
+37 ief onder grupy -> –i–e–f–o–n–d–e–r–g–r–u–p–y–
+38 district aufge primer -> –d–i–s–t–r–i–c–t–a–u–f–g–e–p–r–i–m–e–r–
+39 ennung ecology presente -> –e–n–n–u–n–g–e–c–o–l–o–g–y–p–r–e–s–e–n–t–e–
+40 java surve racing -> –j–a–v–a–s–u–r–v–e–r–a–c–i–n–g–
+41 acements prer pleasure -> –a–c–e–m–e–n–t–s–p–r–e–r–p–l–e–a–s–u–r–e–
+42 andal scalar einz -> –a–n–d–a–l–s–c–a–l–a–r–e–i–n–z–
+43 isle icon feast -> –i–s–l–e–i–c–o–n–f–e–a–s–t–
+44 xygen survives guit -> –x–y–g–e–n–s–u–r–v–i–v–e–s–g–u–i–t–
+45 lich thous insign -> –l–i–c–h–t–h–o–u–s–i–n–s–i–g–n–
+46 alliga paysans military -> –a–l–l–i–g–a–p–a–y–s–a–n–s–m–i–l–i–t–a–r–y–
+47 ivial atual fie -> –i–v–i–a–l–a–t–u–a–l–f–i–e–
+48 lacht glycogen expire -> –l–a–c–h–t–g–l–y–c–o–g–e–n–e–x–p–i–r–e–
+49 yscale employed manually -> –y–s–c–a–l–e–e–m–p–l–o–y–e–d–m–a–n–u–a–l–l–y–
+50 nov deg writer -> –n–o–v–d–e–g–w–r–i–t–e–r–
+51 lighten colect amistad -> –l–i–g–h–t–e–n–c–o–l–e–c–t–a–m–i–s–t–a–d–
+52 rika rebounds pyr -> –r–i–k–a–r–e–b–o–u–n–d–s–p–y–r–
+53 agia hypoxic science -> –a–g–i–a–h–y–p–o–x–i–c–s–c–i–e–n–c–e–
+54 indre varies sooner -> –i–n–d–r–e–v–a–r–i–e–s–s–o–o–n–e–r–
+55 prof fierce refere -> –p–r–o–f–f–i–e–r–c–e–r–e–f–e–r–e–
+56 xs grava splits -> –x–s–g–r–a–v–a–s–p–l–i–t–s–
+57 udi ensuring beams -> –u–d–i–e–n–s–u–r–i–n–g–b–e–a–m–s–
+58 weight moodust envision -> –w–e–i–g–h–t–m–o–o–d–u–s–t–e–n–v–i–s–i–o–n–
+59 allic pleural kurz -> –a–l–l–i–c–p–l–e–u–r–a–l–k–u–r–z–
+60 kos gads styr -> –k–o–s–g–a–d–s–s–t–y–r–
+61 warf bewegen variant -> –w–a–r–f–b–e–w–e–g–e–n–v–a–r–i–a–n–t–
+62 puis peptide trainer -> –p–u–i–s–p–e–p–t–i–d–e–t–r–a–i–n–e–r–
+63 ovjet rimane computer -> –o–v–j–e–t–r–i–m–a–n–e–c–o–m–p–u–t–e–r–
+64 iteta emas rigorous -> –i–t–e–t–a–e–m–a–s–r–i–g–o–r–o–u–s–
+65 zeg labour pest -> –z–e–g–l–a–b–o–u–r–p–e–s–t–
+66 acin algae lure -> –a–c–i–n–a–l–g–a–e–l–u–r–e–
+67 larining apres jedin -> –l–a–r–i–n–i–n–g–a–p–r–e–s–j–e–d–i–n–
+68 logo elek nostre -> –l–o–g–o–e–l–e–k–n–o–s–t–r–e–
+69 cm silhou indexed -> –c–m–s–i–l–h–o–u–i–n–d–e–x–e–d–
+70 copy ishl odor -> –c–o–p–y–i–s–h–l–o–d–o–r–
+71 arno eig plong -> –a–r–n–o–e–i–g–p–l–o–n–g–
+72 ck filem dni -> –c–k–f–i–l–e–m–d–n–i–
+73 irat incontro fuertes -> –i–r–a–t–i–n–c–o–n–t–r–o–f–u–e–r–t–e–s–
+74 messer imagined casually -> –m–e–s–s–e–r–i–m–a–g–i–n–e–d–c–a–s–u–a–l–l–y–
+75 uid bytes jedna -> –u–i–d–b–y–t–e–s–j–e–d–n–a–
+76 inis protr ants -> –i–n–i–s–p–r–o–t–r–a–n–t–s–
+77 ifiz ringing terrible -> –i–f–i–z–r–i–n–g–i–n–g–t–e–r–r–i–b–l–e–
+78 lica nachfolg mixture -> –l–i–c–a–n–a–c–h–f–o–l–g–m–i–x–t–u–r–e–
+79 rv serious xml -> –r–v–s–e–r–i–o–u–s–x–m–l–
+80 pps maturity studying -> –p–p–s–m–a–t–u–r–i–t–y–s–t–u–d–y–i–n–g–
+81 rolle mog bombarde -> –r–o–l–l–e–m–o–g–b–o–m–b–a–r–d–e–
+82 uose armored najvi -> –u–o–s–e–a–r–m–o–r–e–d–n–a–j–v–i–
+83 anne fax bylo -> –a–n–n–e–f–a–x–b–y–l–o–
+84 zat appel fit -> –z–a–t–a–p–p–e–l–f–i–t–
+85 teenth breve public -> –t–e–e–n–t–h–b–r–e–v–e–p–u–b–l–i–c–
+86 yrus would bref -> –y–r–u–s–w–o–u–l–d–b–r–e–f–
+87 ynd fault desple -> –y–n–d–f–a–u–l–t–d–e–s–p–l–e–
+88 pository parietal peor -> –p–o–s–i–t–o–r–y–p–a–r–i–e–t–a–l–p–e–o–r–
+89 lang entert inst -> –l–a–n–g–e–n–t–e–r–t–i–n–s–t–
+90 kami absorbed supplier -> –k–a–m–i–a–b–s–o–r–b–e–d–s–u–p–p–l–i–e–r–
+91 event holding sito -> –e–v–e–n–t–h–o–l–d–i–n–g–s–i–t–o–
+92 anime escribe morti -> –a–n–i–m–e–e–s–c–r–i–b–e–m–o–r–t–i–
+93 kiye parties deline -> –k–i–y–e–p–a–r–t–i–e–s–d–e–l–i–n–e–
+94 gegen fixe cem -> –g–e–g–e–n–f–i–x–e–c–e–m–
+95 side tight head -> –s–i–d–e–t–i–g–h–t–h–e–a–d–
+96 hooting myeloid lightly -> –h–o–o–t–i–n–g–m–y–e–l–o–i–d–l–i–g–h–t–l–y–
+97 uce chrom bildeten -> –u–c–e–c–h–r–o–m–b–i–l–d–e–t–e–n–
+98 ausen moneda szere -> –a–u–s–e–n–m–o–n–e–d–a–s–z–e–r–e–
+99 ytt new neural -> –y–t–t–n–e–w–n–e–u–r–a–l–

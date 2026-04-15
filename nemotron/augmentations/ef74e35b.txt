@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 ordnet parecer raw
+01 helle yak rejon
+02 atkan jsou ergeben
+
+This is a sample output.
+00 ordnet parecer raw -> –o–r–d–n–e–t–p–a–r–e–c–e–r–r–a–w–
+01 helle yak rejon -> –h–e–l–l–e–y–a–k–r–e–j–o–n–
+02 atkan jsou ergeben -> –a–t–k–a–n–j–s–o–u–e–r–g–e–b–e–n–
+
+This is your input.
+00 iede tob standing
+01 agements alma oprav
+02 erness gaze pasture
+03 ohl alber leder
+04 infl starring vokal
+05 inja unmittel highest
+06 ite help oxygen
+07 opro concern crashed
+08 warning equation ell
+09 hma argc argon
+10 annen nus enemy
+11 rack taxi sierpnia
+12 strong atteint also
+13 burst prosecut ventes
+14 celed simb autonomy
+15 terdam espan enlight
+16 bt fell chars
+17 iameter cumpl mondiale
+18 combin dura bracket
+19 zzel pretty criter
+20 que tampoco legacy
+21 onal siblings magique
+22 ann pilotes baisse
+23 ictwa predomin libros
+24 nio optim beeld
+25 eld income lucky
+26 amping try ilm
+27 cb verify itu
+28 rown bring ern
+29 isen titel daite
+30 zoek picnic cann
+31 enchymal couvent conforme
+32 untime bbox bank
+33 istory ott colpo
+34 ayana tissu vuelo
+35 monitor auteur pavillon
+36 icha whom quebr
+37 low vince hinunter
+38 alter fs signor
+39 ischt anticoag sabor
+40 sem werde desac
+41 otech lect hint
+42 near sint merging
+43 phthal seizure amalgam
+44 volg princip withdrew
+45 epoch harness consecu
+46 anoj jumps nuestra
+47 pubs proclam holistic
+48 actic attaques clamping
+49 ffected aire hierdie
+50 avanje tul reinado
+51 cnt weather funny
+52 ei moy rol
+53 nements truc tree
+54 ocortico forensic murder
+55 step folds categ
+56 entang hans mitotic
+57 olt resemble ctrl
+58 ypse prolong komunik
+59 ecture secrecy moest
+60 fur coronary tribe
+61 uru julkais billets
+62 zag mapping unclear
+63 iren smiled analy
+64 langan alveolar gezogen
+65 cof contex driven
+66 nyder females gizon
+67 ort ador template
+68 iennes markdown khoa
+69 bler exhibit weekly
+70 og pantal pierde
+71 igs ditu azul
+72 ritte geven churn
+73 unek rive retom
+74 atl troubl single
+75 gex doors pool
+76 agl ritual hap
+77 landse offen wrong
+78 appa fname cook
+79 jug udaler occupant
+80 ophones scena invested
+81 ikum hometown abused
+82 osci septemb enamel
+83 bindung excav noroeste
+84 bonne avvic jefe
+85 iels consume tilb
+86 ebabkan forget dispost
+87 atin lame monsieur
+88 hasa bateria fils
+89 raya right naw
+90 contres openings player
+91 othy bl hesab
+92 ske screens ze
+93 av kosten buon
+94 itional patro tricks
+95 atinum albuma nimi
+96 appropri pulled oma
+97 otland expands escas
+98 avicon royalty repress
+99 bullet therm entero
+[completion]
+00 iede tob standing -> –i–e–d–e–t–o–b–s–t–a–n–d–i–n–g–
+01 agements alma oprav -> –a–g–e–m–e–n–t–s–a–l–m–a–o–p–r–a–v–
+02 erness gaze pasture -> –e–r–n–e–s–s–g–a–z–e–p–a–s–t–u–r–e–
+03 ohl alber leder -> –o–h–l–a–l–b–e–r–l–e–d–e–r–
+04 infl starring vokal -> –i–n–f–l–s–t–a–r–r–i–n–g–v–o–k–a–l–
+05 inja unmittel highest -> –i–n–j–a–u–n–m–i–t–t–e–l–h–i–g–h–e–s–t–
+06 ite help oxygen -> –i–t–e–h–e–l–p–o–x–y–g–e–n–
+07 opro concern crashed -> –o–p–r–o–c–o–n–c–e–r–n–c–r–a–s–h–e–d–
+08 warning equation ell -> –w–a–r–n–i–n–g–e–q–u–a–t–i–o–n–e–l–l–
+09 hma argc argon -> –h–m–a–a–r–g–c–a–r–g–o–n–
+10 annen nus enemy -> –a–n–n–e–n–n–u–s–e–n–e–m–y–
+11 rack taxi sierpnia -> –r–a–c–k–t–a–x–i–s–i–e–r–p–n–i–a–
+12 strong atteint also -> –s–t–r–o–n–g–a–t–t–e–i–n–t–a–l–s–o–
+13 burst prosecut ventes -> –b–u–r–s–t–p–r–o–s–e–c–u–t–v–e–n–t–e–s–
+14 celed simb autonomy -> –c–e–l–e–d–s–i–m–b–a–u–t–o–n–o–m–y–
+15 terdam espan enlight -> –t–e–r–d–a–m–e–s–p–a–n–e–n–l–i–g–h–t–
+16 bt fell chars -> –b–t–f–e–l–l–c–h–a–r–s–
+17 iameter cumpl mondiale -> –i–a–m–e–t–e–r–c–u–m–p–l–m–o–n–d–i–a–l–e–
+18 combin dura bracket -> –c–o–m–b–i–n–d–u–r–a–b–r–a–c–k–e–t–
+19 zzel pretty criter -> –z–z–e–l–p–r–e–t–t–y–c–r–i–t–e–r–
+20 que tampoco legacy -> –q–u–e–t–a–m–p–o–c–o–l–e–g–a–c–y–
+21 onal siblings magique -> –o–n–a–l–s–i–b–l–i–n–g–s–m–a–g–i–q–u–e–
+22 ann pilotes baisse -> –a–n–n–p–i–l–o–t–e–s–b–a–i–s–s–e–
+23 ictwa predomin libros -> –i–c–t–w–a–p–r–e–d–o–m–i–n–l–i–b–r–o–s–
+24 nio optim beeld -> –n–i–o–o–p–t–i–m–b–e–e–l–d–
+25 eld income lucky -> –e–l–d–i–n–c–o–m–e–l–u–c–k–y–
+26 amping try ilm -> –a–m–p–i–n–g–t–r–y–i–l–m–
+27 cb verify itu -> –c–b–v–e–r–i–f–y–i–t–u–
+28 rown bring ern -> –r–o–w–n–b–r–i–n–g–e–r–n–
+29 isen titel daite -> –i–s–e–n–t–i–t–e–l–d–a–i–t–e–
+30 zoek picnic cann -> –z–o–e–k–p–i–c–n–i–c–c–a–n–n–
+31 enchymal couvent conforme -> –e–n–c–h–y–m–a–l–c–o–u–v–e–n–t–c–o–n–f–o–r–m–e–
+32 untime bbox bank -> –u–n–t–i–m–e–b–b–o–x–b–a–n–k–
+33 istory ott colpo -> –i–s–t–o–r–y–o–t–t–c–o–l–p–o–
+34 ayana tissu vuelo -> –a–y–a–n–a–t–i–s–s–u–v–u–e–l–o–
+35 monitor auteur pavillon -> –m–o–n–i–t–o–r–a–u–t–e–u–r–p–a–v–i–l–l–o–n–
+36 icha whom quebr -> –i–c–h–a–w–h–o–m–q–u–e–b–r–
+37 low vince hinunter -> –l–o–w–v–i–n–c–e–h–i–n–u–n–t–e–r–
+38 alter fs signor -> –a–l–t–e–r–f–s–s–i–g–n–o–r–
+39 ischt anticoag sabor -> –i–s–c–h–t–a–n–t–i–c–o–a–g–s–a–b–o–r–
+40 sem werde desac -> –s–e–m–w–e–r–d–e–d–e–s–a–c–
+41 otech lect hint -> –o–t–e–c–h–l–e–c–t–h–i–n–t–
+42 near sint merging -> –n–e–a–r–s–i–n–t–m–e–r–g–i–n–g–
+43 phthal seizure amalgam -> –p–h–t–h–a–l–s–e–i–z–u–r–e–a–m–a–l–g–a–m–
+44 volg princip withdrew -> –v–o–l–g–p–r–i–n–c–i–p–w–i–t–h–d–r–e–w–
+45 epoch harness consecu -> –e–p–o–c–h–h–a–r–n–e–s–s–c–o–n–s–e–c–u–
+46 anoj jumps nuestra -> –a–n–o–j–j–u–m–p–s–n–u–e–s–t–r–a–
+47 pubs proclam holistic -> –p–u–b–s–p–r–o–c–l–a–m–h–o–l–i–s–t–i–c–
+48 actic attaques clamping -> –a–c–t–i–c–a–t–t–a–q–u–e–s–c–l–a–m–p–i–n–g–
+49 ffected aire hierdie -> –f–f–e–c–t–e–d–a–i–r–e–h–i–e–r–d–i–e–
+50 avanje tul reinado -> –a–v–a–n–j–e–t–u–l–r–e–i–n–a–d–o–
+51 cnt weather funny -> –c–n–t–w–e–a–t–h–e–r–f–u–n–n–y–
+52 ei moy rol -> –e–i–m–o–y–r–o–l–
+53 nements truc tree -> –n–e–m–e–n–t–s–t–r–u–c–t–r–e–e–
+54 ocortico forensic murder -> –o–c–o–r–t–i–c–o–f–o–r–e–n–s–i–c–m–u–r–d–e–r–
+55 step folds categ -> –s–t–e–p–f–o–l–d–s–c–a–t–e–g–
+56 entang hans mitotic -> –e–n–t–a–n–g–h–a–n–s–m–i–t–o–t–i–c–
+57 olt resemble ctrl -> –o–l–t–r–e–s–e–m–b–l–e–c–t–r–l–
+58 ypse prolong komunik -> –y–p–s–e–p–r–o–l–o–n–g–k–o–m–u–n–i–k–
+59 ecture secrecy moest -> –e–c–t–u–r–e–s–e–c–r–e–c–y–m–o–e–s–t–
+60 fur coronary tribe -> –f–u–r–c–o–r–o–n–a–r–y–t–r–i–b–e–
+61 uru julkais billets -> –u–r–u–j–u–l–k–a–i–s–b–i–l–l–e–t–s–
+62 zag mapping unclear -> –z–a–g–m–a–p–p–i–n–g–u–n–c–l–e–a–r–
+63 iren smiled analy -> –i–r–e–n–s–m–i–l–e–d–a–n–a–l–y–
+64 langan alveolar gezogen -> –l–a–n–g–a–n–a–l–v–e–o–l–a–r–g–e–z–o–g–e–n–
+65 cof contex driven -> –c–o–f–c–o–n–t–e–x–d–r–i–v–e–n–
+66 nyder females gizon -> –n–y–d–e–r–f–e–m–a–l–e–s–g–i–z–o–n–
+67 ort ador template -> –o–r–t–a–d–o–r–t–e–m–p–l–a–t–e–
+68 iennes markdown khoa -> –i–e–n–n–e–s–m–a–r–k–d–o–w–n–k–h–o–a–
+69 bler exhibit weekly -> –b–l–e–r–e–x–h–i–b–i–t–w–e–e–k–l–y–
+70 og pantal pierde -> –o–g–p–a–n–t–a–l–p–i–e–r–d–e–
+71 igs ditu azul -> –i–g–s–d–i–t–u–a–z–u–l–
+72 ritte geven churn -> –r–i–t–t–e–g–e–v–e–n–c–h–u–r–n–
+73 unek rive retom -> –u–n–e–k–r–i–v–e–r–e–t–o–m–
+74 atl troubl single -> –a–t–l–t–r–o–u–b–l–s–i–n–g–l–e–
+75 gex doors pool -> –g–e–x–d–o–o–r–s–p–o–o–l–
+76 agl ritual hap -> –a–g–l–r–i–t–u–a–l–h–a–p–
+77 landse offen wrong -> –l–a–n–d–s–e–o–f–f–e–n–w–r–o–n–g–
+78 appa fname cook -> –a–p–p–a–f–n–a–m–e–c–o–o–k–
+79 jug udaler occupant -> –j–u–g–u–d–a–l–e–r–o–c–c–u–p–a–n–t–
+80 ophones scena invested -> –o–p–h–o–n–e–s–s–c–e–n–a–i–n–v–e–s–t–e–d–
+81 ikum hometown abused -> –i–k–u–m–h–o–m–e–t–o–w–n–a–b–u–s–e–d–
+82 osci septemb enamel -> –o–s–c–i–s–e–p–t–e–m–b–e–n–a–m–e–l–
+83 bindung excav noroeste -> –b–i–n–d–u–n–g–e–x–c–a–v–n–o–r–o–e–s–t–e–
+84 bonne avvic jefe -> –b–o–n–n–e–a–v–v–i–c–j–e–f–e–
+85 iels consume tilb -> –i–e–l–s–c–o–n–s–u–m–e–t–i–l–b–
+86 ebabkan forget dispost -> –e–b–a–b–k–a–n–f–o–r–g–e–t–d–i–s–p–o–s–t–
+87 atin lame monsieur -> –a–t–i–n–l–a–m–e–m–o–n–s–i–e–u–r–
+88 hasa bateria fils -> –h–a–s–a–b–a–t–e–r–i–a–f–i–l–s–
+89 raya right naw -> –r–a–y–a–r–i–g–h–t–n–a–w–
+90 contres openings player -> –c–o–n–t–r–e–s–o–p–e–n–i–n–g–s–p–l–a–y–e–r–
+91 othy bl hesab -> –o–t–h–y–b–l–h–e–s–a–b–
+92 ske screens ze -> –s–k–e–s–c–r–e–e–n–s–z–e–
+93 av kosten buon -> –a–v–k–o–s–t–e–n–b–u–o–n–
+94 itional patro tricks -> –i–t–i–o–n–a–l–p–a–t–r–o–t–r–i–c–k–s–
+95 atinum albuma nimi -> –a–t–i–n–u–m–a–l–b–u–m–a–n–i–m–i–
+96 appropri pulled oma -> –a–p–p–r–o–p–r–i–p–u–l–l–e–d–o–m–a–
+97 otland expands escas -> –o–t–l–a–n–d–e–x–p–a–n–d–s–e–s–c–a–s–
+98 avicon royalty repress -> –a–v–i–c–o–n–r–o–y–a–l–t–y–r–e–p–r–e–s–s–
+99 bullet therm entero -> –b–u–l–l–e–t–t–h–e–r–m–e–n–t–e–r–o–

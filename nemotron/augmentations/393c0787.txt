@@ -1,0 +1,217 @@
+[category]
+spelling
+[prompt]
+In Alice's Wonderland, secret processing rules are used on text.
+
+This is a sample input.
+00 shake hopeful doit
+01 nud augment prejud
+02 isierung poses efectu
+
+This is a sample output.
+00 shake hopeful doit -> –s–h–a–k–e–h–o–p–e–f–u–l–d–o–i–t–
+01 nud augment prejud -> –n–u–d–a–u–g–m–e–n–t–p–r–e–j–u–d–
+02 isierung poses efectu -> –i–s–i–e–r–u–n–g–p–o–s–e–s–e–f–e–c–t–u–
+
+This is your input.
+00 omot propriet scratch
+01 amil comune strang
+02 emplates lights ingur
+03 viamente prosince pkt
+04 nych penal torres
+05 sc coils izv
+06 crete flota acred
+07 socket numerose colorful
+08 camera rivals ayr
+09 ilibre psychic noms
+10 ladi pierwsze reparto
+11 janjian cir trailing
+12 identes salle konser
+13 rime vielen derfor
+14 wrap interim unlike
+15 rev boron fuese
+16 venir cavity cottage
+17 inie vingt aid
+18 medi somebody headed
+19 otte type mau
+20 ibile escuelas byl
+21 confirm pillow novelas
+22 ter manche eigenen
+23 iskey jolie delicate
+24 rodu ekz casts
+25 session dp honey
+26 finally homb stress
+27 elijke mua stran
+28 lay hj bound
+29 einander uitge leagues
+30 ioj sow stoj
+31 rocess bonding apos
+32 ranch switched erstes
+33 rators red hydro
+34 essaging phot dominate
+35 ocier ascert dano
+36 inos odpowied revel
+37 eleri observar chairs
+38 ponse bersama reactor
+39 otional peaceful spacing
+40 iance tutorial staan
+41 ijing soccer encontr
+42 unj ferma gaming
+43 ineux tea hepatic
+44 posa rr agrup
+45 ccions hiru protok
+46 setup sham vooral
+47 ojo persuade one
+48 riam vierte joining
+49 owl junta larg
+50 sty vest cartel
+51 ciences papers encaps
+52 cancel canine juxt
+53 box rosso pleased
+54 icolor saya emple
+55 niet emotion remember
+56 awi tem deformed
+57 office vine dealers
+58 resa laiss incluir
+59 grenze vessel xem
+60 types illegal sobres
+61 aktu tari honom
+62 kyt biophys winners
+63 uszt dance lis
+64 table ss capaces
+65 leine rahv premises
+66 riages distrito empir
+67 zad larger fiz
+68 assen rav poem
+69 ronde undis exceed
+70 ety diciendo gere
+71 apped running intelig
+72 brain congreg divorce
+73 balle laz requis
+74 economic napis launched
+75 comment pierre deutsch
+76 itors externa fisc
+77 rero sobreviv incert
+78 halb denying poursuit
+79 detail fragr sv
+80 cible cle anemia
+81 filled appears trillion
+82 iaire musica humanity
+83 adil sc tyre
+84 tran landings iunie
+85 jobs tijd fizik
+86 illy atribu jum
+87 osin escond dieron
+88 onim letra abb
+89 arshi pilihan hebben
+90 ky podemos appealed
+91 oute trivial divorced
+92 ucks react perda
+93 stration hemos coherent
+94 uten sociales ours
+95 ureka pare metros
+96 aven rappel coul
+97 single sper sekund
+98 gestellt optimal poder
+99 ross rugby orq
+[completion]
+00 omot propriet scratch -> –o–m–o–t–p–r–o–p–r–i–e–t–s–c–r–a–t–c–h–
+01 amil comune strang -> –a–m–i–l–c–o–m–u–n–e–s–t–r–a–n–g–
+02 emplates lights ingur -> –e–m–p–l–a–t–e–s–l–i–g–h–t–s–i–n–g–u–r–
+03 viamente prosince pkt -> –v–i–a–m–e–n–t–e–p–r–o–s–i–n–c–e–p–k–t–
+04 nych penal torres -> –n–y–c–h–p–e–n–a–l–t–o–r–r–e–s–
+05 sc coils izv -> –s–c–c–o–i–l–s–i–z–v–
+06 crete flota acred -> –c–r–e–t–e–f–l–o–t–a–a–c–r–e–d–
+07 socket numerose colorful -> –s–o–c–k–e–t–n–u–m–e–r–o–s–e–c–o–l–o–r–f–u–l–
+08 camera rivals ayr -> –c–a–m–e–r–a–r–i–v–a–l–s–a–y–r–
+09 ilibre psychic noms -> –i–l–i–b–r–e–p–s–y–c–h–i–c–n–o–m–s–
+10 ladi pierwsze reparto -> –l–a–d–i–p–i–e–r–w–s–z–e–r–e–p–a–r–t–o–
+11 janjian cir trailing -> –j–a–n–j–i–a–n–c–i–r–t–r–a–i–l–i–n–g–
+12 identes salle konser -> –i–d–e–n–t–e–s–s–a–l–l–e–k–o–n–s–e–r–
+13 rime vielen derfor -> –r–i–m–e–v–i–e–l–e–n–d–e–r–f–o–r–
+14 wrap interim unlike -> –w–r–a–p–i–n–t–e–r–i–m–u–n–l–i–k–e–
+15 rev boron fuese -> –r–e–v–b–o–r–o–n–f–u–e–s–e–
+16 venir cavity cottage -> –v–e–n–i–r–c–a–v–i–t–y–c–o–t–t–a–g–e–
+17 inie vingt aid -> –i–n–i–e–v–i–n–g–t–a–i–d–
+18 medi somebody headed -> –m–e–d–i–s–o–m–e–b–o–d–y–h–e–a–d–e–d–
+19 otte type mau -> –o–t–t–e–t–y–p–e–m–a–u–
+20 ibile escuelas byl -> –i–b–i–l–e–e–s–c–u–e–l–a–s–b–y–l–
+21 confirm pillow novelas -> –c–o–n–f–i–r–m–p–i–l–l–o–w–n–o–v–e–l–a–s–
+22 ter manche eigenen -> –t–e–r–m–a–n–c–h–e–e–i–g–e–n–e–n–
+23 iskey jolie delicate -> –i–s–k–e–y–j–o–l–i–e–d–e–l–i–c–a–t–e–
+24 rodu ekz casts -> –r–o–d–u–e–k–z–c–a–s–t–s–
+25 session dp honey -> –s–e–s–s–i–o–n–d–p–h–o–n–e–y–
+26 finally homb stress -> –f–i–n–a–l–l–y–h–o–m–b–s–t–r–e–s–s–
+27 elijke mua stran -> –e–l–i–j–k–e–m–u–a–s–t–r–a–n–
+28 lay hj bound -> –l–a–y–h–j–b–o–u–n–d–
+29 einander uitge leagues -> –e–i–n–a–n–d–e–r–u–i–t–g–e–l–e–a–g–u–e–s–
+30 ioj sow stoj -> –i–o–j–s–o–w–s–t–o–j–
+31 rocess bonding apos -> –r–o–c–e–s–s–b–o–n–d–i–n–g–a–p–o–s–
+32 ranch switched erstes -> –r–a–n–c–h–s–w–i–t–c–h–e–d–e–r–s–t–e–s–
+33 rators red hydro -> –r–a–t–o–r–s–r–e–d–h–y–d–r–o–
+34 essaging phot dominate -> –e–s–s–a–g–i–n–g–p–h–o–t–d–o–m–i–n–a–t–e–
+35 ocier ascert dano -> –o–c–i–e–r–a–s–c–e–r–t–d–a–n–o–
+36 inos odpowied revel -> –i–n–o–s–o–d–p–o–w–i–e–d–r–e–v–e–l–
+37 eleri observar chairs -> –e–l–e–r–i–o–b–s–e–r–v–a–r–c–h–a–i–r–s–
+38 ponse bersama reactor -> –p–o–n–s–e–b–e–r–s–a–m–a–r–e–a–c–t–o–r–
+39 otional peaceful spacing -> –o–t–i–o–n–a–l–p–e–a–c–e–f–u–l–s–p–a–c–i–n–g–
+40 iance tutorial staan -> –i–a–n–c–e–t–u–t–o–r–i–a–l–s–t–a–a–n–
+41 ijing soccer encontr -> –i–j–i–n–g–s–o–c–c–e–r–e–n–c–o–n–t–r–
+42 unj ferma gaming -> –u–n–j–f–e–r–m–a–g–a–m–i–n–g–
+43 ineux tea hepatic -> –i–n–e–u–x–t–e–a–h–e–p–a–t–i–c–
+44 posa rr agrup -> –p–o–s–a–r–r–a–g–r–u–p–
+45 ccions hiru protok -> –c–c–i–o–n–s–h–i–r–u–p–r–o–t–o–k–
+46 setup sham vooral -> –s–e–t–u–p–s–h–a–m–v–o–o–r–a–l–
+47 ojo persuade one -> –o–j–o–p–e–r–s–u–a–d–e–o–n–e–
+48 riam vierte joining -> –r–i–a–m–v–i–e–r–t–e–j–o–i–n–i–n–g–
+49 owl junta larg -> –o–w–l–j–u–n–t–a–l–a–r–g–
+50 sty vest cartel -> –s–t–y–v–e–s–t–c–a–r–t–e–l–
+51 ciences papers encaps -> –c–i–e–n–c–e–s–p–a–p–e–r–s–e–n–c–a–p–s–
+52 cancel canine juxt -> –c–a–n–c–e–l–c–a–n–i–n–e–j–u–x–t–
+53 box rosso pleased -> –b–o–x–r–o–s–s–o–p–l–e–a–s–e–d–
+54 icolor saya emple -> –i–c–o–l–o–r–s–a–y–a–e–m–p–l–e–
+55 niet emotion remember -> –n–i–e–t–e–m–o–t–i–o–n–r–e–m–e–m–b–e–r–
+56 awi tem deformed -> –a–w–i–t–e–m–d–e–f–o–r–m–e–d–
+57 office vine dealers -> –o–f–f–i–c–e–v–i–n–e–d–e–a–l–e–r–s–
+58 resa laiss incluir -> –r–e–s–a–l–a–i–s–s–i–n–c–l–u–i–r–
+59 grenze vessel xem -> –g–r–e–n–z–e–v–e–s–s–e–l–x–e–m–
+60 types illegal sobres -> –t–y–p–e–s–i–l–l–e–g–a–l–s–o–b–r–e–s–
+61 aktu tari honom -> –a–k–t–u–t–a–r–i–h–o–n–o–m–
+62 kyt biophys winners -> –k–y–t–b–i–o–p–h–y–s–w–i–n–n–e–r–s–
+63 uszt dance lis -> –u–s–z–t–d–a–n–c–e–l–i–s–
+64 table ss capaces -> –t–a–b–l–e–s–s–c–a–p–a–c–e–s–
+65 leine rahv premises -> –l–e–i–n–e–r–a–h–v–p–r–e–m–i–s–e–s–
+66 riages distrito empir -> –r–i–a–g–e–s–d–i–s–t–r–i–t–o–e–m–p–i–r–
+67 zad larger fiz -> –z–a–d–l–a–r–g–e–r–f–i–z–
+68 assen rav poem -> –a–s–s–e–n–r–a–v–p–o–e–m–
+69 ronde undis exceed -> –r–o–n–d–e–u–n–d–i–s–e–x–c–e–e–d–
+70 ety diciendo gere -> –e–t–y–d–i–c–i–e–n–d–o–g–e–r–e–
+71 apped running intelig -> –a–p–p–e–d–r–u–n–n–i–n–g–i–n–t–e–l–i–g–
+72 brain congreg divorce -> –b–r–a–i–n–c–o–n–g–r–e–g–d–i–v–o–r–c–e–
+73 balle laz requis -> –b–a–l–l–e–l–a–z–r–e–q–u–i–s–
+74 economic napis launched -> –e–c–o–n–o–m–i–c–n–a–p–i–s–l–a–u–n–c–h–e–d–
+75 comment pierre deutsch -> –c–o–m–m–e–n–t–p–i–e–r–r–e–d–e–u–t–s–c–h–
+76 itors externa fisc -> –i–t–o–r–s–e–x–t–e–r–n–a–f–i–s–c–
+77 rero sobreviv incert -> –r–e–r–o–s–o–b–r–e–v–i–v–i–n–c–e–r–t–
+78 halb denying poursuit -> –h–a–l–b–d–e–n–y–i–n–g–p–o–u–r–s–u–i–t–
+79 detail fragr sv -> –d–e–t–a–i–l–f–r–a–g–r–s–v–
+80 cible cle anemia -> –c–i–b–l–e–c–l–e–a–n–e–m–i–a–
+81 filled appears trillion -> –f–i–l–l–e–d–a–p–p–e–a–r–s–t–r–i–l–l–i–o–n–
+82 iaire musica humanity -> –i–a–i–r–e–m–u–s–i–c–a–h–u–m–a–n–i–t–y–
+83 adil sc tyre -> –a–d–i–l–s–c–t–y–r–e–
+84 tran landings iunie -> –t–r–a–n–l–a–n–d–i–n–g–s–i–u–n–i–e–
+85 jobs tijd fizik -> –j–o–b–s–t–i–j–d–f–i–z–i–k–
+86 illy atribu jum -> –i–l–l–y–a–t–r–i–b–u–j–u–m–
+87 osin escond dieron -> –o–s–i–n–e–s–c–o–n–d–d–i–e–r–o–n–
+88 onim letra abb -> –o–n–i–m–l–e–t–r–a–a–b–b–
+89 arshi pilihan hebben -> –a–r–s–h–i–p–i–l–i–h–a–n–h–e–b–b–e–n–
+90 ky podemos appealed -> –k–y–p–o–d–e–m–o–s–a–p–p–e–a–l–e–d–
+91 oute trivial divorced -> –o–u–t–e–t–r–i–v–i–a–l–d–i–v–o–r–c–e–d–
+92 ucks react perda -> –u–c–k–s–r–e–a–c–t–p–e–r–d–a–
+93 stration hemos coherent -> –s–t–r–a–t–i–o–n–h–e–m–o–s–c–o–h–e–r–e–n–t–
+94 uten sociales ours -> –u–t–e–n–s–o–c–i–a–l–e–s–o–u–r–s–
+95 ureka pare metros -> –u–r–e–k–a–p–a–r–e–m–e–t–r–o–s–
+96 aven rappel coul -> –a–v–e–n–r–a–p–p–e–l–c–o–u–l–
+97 single sper sekund -> –s–i–n–g–l–e–s–p–e–r–s–e–k–u–n–d–
+98 gestellt optimal poder -> –g–e–s–t–e–l–l–t–o–p–t–i–m–a–l–p–o–d–e–r–
+99 ross rugby orq -> –r–o–s–s–r–u–g–b–y–o–r–q–
