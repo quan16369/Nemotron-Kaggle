@@ -79,6 +79,11 @@ def parse_args() -> argparse.Namespace:
         action="store_true",
         help="Use enable_three_bit_repair=True when regenerating bit_manipulation delta traces",
     )
+    parser.add_argument(
+        "--use-legacy-bit-manipulation",
+        action="store_true",
+        help="Disable whole-word bit_manipulation solver additions and use the legacy per-bit path",
+    )
     return parser.parse_args()
 
 
@@ -139,6 +144,7 @@ def main() -> None:
             use_existing_reasoning_files=args.use_existing_reasoning_files,
             bit_manipulation_compact=args.bit_manipulation_compact,
             bit_manipulation_three_bit_repair=args.bit_manipulation_three_bit_repair,
+            bit_manipulation_use_legacy=args.use_legacy_bit_manipulation,
         )
         final_records, delta_stats = merge_snapshot_with_current_delta(
             snapshot_records,
@@ -190,6 +196,7 @@ def main() -> None:
                 ),
                 "bit_manipulation_compact": args.bit_manipulation_compact,
                 "bit_manipulation_three_bit_repair": args.bit_manipulation_three_bit_repair,
+                "bit_manipulation_use_legacy": args.use_legacy_bit_manipulation,
                 "snapshot_loss_config": snapshot_config.get("loss_config", {}),
                 "snapshot_lr_schedule": snapshot_config.get("lr_schedule", {}),
                 "delta_stats": (

@@ -1047,6 +1047,7 @@ def reasoning_bit_manipulation(
     *,
     compact: bool = False,
     enable_three_bit_repair: bool = False,
+    allow_whole_word: bool = True,
 ) -> Optional[str]:
     examples = problem.examples
     if not examples:
@@ -1070,14 +1071,15 @@ def reasoning_bit_manipulation(
     output_values = [int(bits, 2) for bits in outputs]
     query_value = int(question_bits, 2)
 
-    whole_word_match = _solve_whole_word_rule(input_values, output_values, query_value)
-    if whole_word_match is not None:
-        return _render_whole_word_reasoning(
-            question_bits,
-            n_examples,
-            whole_word_match,
-            compact=compact,
-        )
+    if allow_whole_word:
+        whole_word_match = _solve_whole_word_rule(input_values, output_values, query_value)
+        if whole_word_match is not None:
+            return _render_whole_word_reasoning(
+                question_bits,
+                n_examples,
+                whole_word_match,
+                compact=compact,
+            )
 
     # 1) Example columns.
     output_columns = [_column_bits(outputs, i) for i in range(N_BITS)]

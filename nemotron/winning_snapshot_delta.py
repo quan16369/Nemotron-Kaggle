@@ -125,6 +125,7 @@ def _get_current_reasoning_text(
     reasoning_dir: Path,
     bit_manipulation_compact: bool = False,
     bit_manipulation_three_bit_repair: bool = False,
+    bit_manipulation_use_legacy: bool = False,
 ) -> str:
     generator = GENERATORS.get(category)
     reasoning_text = ""
@@ -136,6 +137,7 @@ def _get_current_reasoning_text(
                     problem,
                     compact=bit_manipulation_compact,
                     enable_three_bit_repair=bit_manipulation_three_bit_repair,
+                    allow_whole_word=not bit_manipulation_use_legacy,
                 )
                 or ""
             ).rstrip("\n")
@@ -157,6 +159,7 @@ def build_current_correct_base_records(
     use_existing_reasoning_files: bool,
     bit_manipulation_compact: bool = False,
     bit_manipulation_three_bit_repair: bool = False,
+    bit_manipulation_use_legacy: bool = False,
 ) -> dict[str, dict[str, Any]]:
     train_csv_path = repo_dir / "train.csv"
     problems_index_path = repo_dir / "problems.jsonl"
@@ -186,6 +189,7 @@ def build_current_correct_base_records(
             reasoning_dir=reasoning_dir,
             bit_manipulation_compact=bit_manipulation_compact,
             bit_manipulation_three_bit_repair=bit_manipulation_three_bit_repair,
+            bit_manipulation_use_legacy=bit_manipulation_use_legacy,
         )
         if not reasoning_text:
             continue
