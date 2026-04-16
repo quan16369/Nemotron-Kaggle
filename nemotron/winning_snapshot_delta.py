@@ -209,14 +209,20 @@ def build_current_correct_base_records(
         tokens = prompt_ids + completion_ids
         mask = [0] * len(prompt_ids) + [1] * len(completion_ids)
 
-        current_records[problem_id] = _build_record(
-            problem_id=problem_id,
-            source_problem_id=problem_id,
-            category=category,
-            tokens=tokens,
-            mask=mask,
-            max_seq_len=max_seq_len,
-        )
+        try:
+            current_records[problem_id] = _build_record(
+                problem_id=problem_id,
+                source_problem_id=problem_id,
+                category=category,
+                tokens=tokens,
+                mask=mask,
+                max_seq_len=max_seq_len,
+            )
+        except ValueError as exc:
+            if "exceeds max length" in str(exc):
+                print(f"Skipping overlength example {problem_id}: {exc}")
+                continue
+            raise
 
     return current_records
 
@@ -245,6 +251,8 @@ def merge_snapshot_with_current_delta(
         same_tokens = snapshot_base["input_ids"] == current_record["input_ids"]
         same_labels = snapshot_base["labels"] == current_record["labels"]
         same_category = snapshot_base["category"] == current_record["category"]
+        if len(current_record["input_ids"]) > len(snapshot_base["input_ids"]):
+            continue
         if not (same_tokens and same_labels and same_category):
             replace_source_ids.add(source_problem_id)
 
