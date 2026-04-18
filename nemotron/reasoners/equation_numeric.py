@@ -212,81 +212,10 @@ _SAFE_SPECIAL_GUESS_RULES: dict[
     (
         "*",
         (
-            ("+", "add+1", True, True, "num"),
-            ("-", "negated absolute difference", True, True, "neg_prefix"),
-        ),
-    ): ("multiply+1", True, True, "num"),
-    (
-        "*",
-        (
             ("+", "add-1", True, True, "num"),
             ("-", "absolute difference", True, True, "num"),
         ),
     ): ("multiplication", True, True, "num"),
-    (
-        "*",
-        (
-            ("+", "addition", True, True, "num"),
-            ("-", "negated absolute difference", True, True, "neg_prefix"),
-        ),
-    ): ("multiply+1", True, True, "num"),
-    (
-        "*",
-        (
-            ("+", "add-1", True, True, "num"),
-            ("-", "subtraction (a-b)", True, True, "neg_prefix"),
-        ),
-    ): ("multiply-1", True, True, "num"),
-    (
-        "*",
-        (
-            ("+", "addition", True, True, "num"),
-            ("-", "max mod min", True, True, "num"),
-        ),
-    ): ("multiply+1", True, True, "num"),
-    (
-        "*",
-        (
-            ("+", "concatenation", True, True, "num"),
-            ("-", "absolute difference", True, True, "num"),
-        ),
-    ): ("multiplication", True, True, "num"),
-    (
-        "*",
-        (
-            ("+", "concatenation", True, True, "num"),
-            ("-", "subtraction (a-b)", True, True, "neg_prefix"),
-        ),
-    ): ("multiply-1", True, True, "num"),
-    (
-        "*",
-        (
-            ("!", "max mod min", False, False, "num"),
-            ("[", "multiplication", False, False, "num"),
-        ),
-    ): ("add+1", False, False, "num"),
-    (
-        "*",
-        (("-", "max mod min", True, True, "num"),),
-    ): ("multiplication", True, True, "num"),
-    (
-        "/",
-        (
-            ('"', "add+1", False, False, "num"),
-            ("%", "absolute difference", True, True, "num"),
-        ),
-    ): ("multiply+1", False, False, "num"),
-    (
-        "/",
-        (("`", "subtraction (a-b)", True, True, "neg_prefix"),),
-    ): ("addition", True, True, "num"),
-    (
-        "/",
-        (
-            ("-", "add+1", False, False, "num"),
-            ("]", "max mod min", False, False, "num"),
-        ),
-    ): ("multiplication", False, False, "num"),
 }
 
 
