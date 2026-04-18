@@ -205,22 +205,111 @@ class FoundOp:
     op_char: str
 
 
+_SAFE_SPECIAL_GUESS_RULES: dict[
+    tuple[str, tuple[tuple[str, str, bool, bool, str], ...]],
+    tuple[str, bool, bool, str],
+] = {
+    (
+        "*",
+        (
+            ("+", "add+1", True, True, "num"),
+            ("-", "negated absolute difference", True, True, "neg_prefix"),
+        ),
+    ): ("multiply+1", True, True, "num"),
+    (
+        "*",
+        (
+            ("+", "add-1", True, True, "num"),
+            ("-", "absolute difference", True, True, "num"),
+        ),
+    ): ("multiplication", True, True, "num"),
+    (
+        "*",
+        (
+            ("+", "addition", True, True, "num"),
+            ("-", "negated absolute difference", True, True, "neg_prefix"),
+        ),
+    ): ("multiply+1", True, True, "num"),
+    (
+        "*",
+        (
+            ("+", "add-1", True, True, "num"),
+            ("-", "subtraction (a-b)", True, True, "neg_prefix"),
+        ),
+    ): ("multiply-1", True, True, "num"),
+    (
+        "*",
+        (
+            ("+", "addition", True, True, "num"),
+            ("-", "max mod min", True, True, "num"),
+        ),
+    ): ("multiply+1", True, True, "num"),
+    (
+        "*",
+        (
+            ("+", "concatenation", True, True, "num"),
+            ("-", "absolute difference", True, True, "num"),
+        ),
+    ): ("multiplication", True, True, "num"),
+    (
+        "*",
+        (
+            ("+", "concatenation", True, True, "num"),
+            ("-", "subtraction (a-b)", True, True, "neg_prefix"),
+        ),
+    ): ("multiply-1", True, True, "num"),
+    (
+        "*",
+        (
+            ("!", "max mod min", False, False, "num"),
+            ("[", "multiplication", False, False, "num"),
+        ),
+    ): ("add+1", False, False, "num"),
+    (
+        "*",
+        (("-", "max mod min", True, True, "num"),),
+    ): ("multiplication", True, True, "num"),
+    (
+        "/",
+        (
+            ('"', "add+1", False, False, "num"),
+            ("%", "absolute difference", True, True, "num"),
+        ),
+    ): ("multiply+1", False, False, "num"),
+    (
+        "/",
+        (("`", "subtraction (a-b)", True, True, "neg_prefix"),),
+    ): ("addition", True, True, "num"),
+    (
+        "/",
+        (
+            ("-", "add+1", False, False, "num"),
+            ("]", "max mod min", False, False, "num"),
+        ),
+    ): ("multiplication", False, False, "num"),
+}
+
+
 def _transform_group(
     op_char: str, group: list[tuple[str, str, str]]
 ) -> tuple[str, list[tuple[str, str, str]]]:
     """Normalize any operator-prefixed/suffixed outputs before rule matching."""
-    any_neg_suffixed = op_char != "-" and any(
-        out.endswith("-") and len(out) > 1 for _, _, out in group
-    )
-    any_neg_prefixed = op_char != "-" and any(
-        out.startswith("-") and len(out) > 1 for _, _, out in group
-    )
+    any_neg_suffixed = any(out.endswith("-") and len(out) > 1 for _, _, out in group)
+    any_neg_prefixed = any(out.startswith("-") and len(out) > 1 for _, _, out in group)
     any_suffixed = any(out.endswith(op_char) and len(out) > 1 for _, _, out in group)
     any_prefixed = any(out.startswith(op_char) and len(out) > 1 for _, _, out in group)
+    all_suffixed = all(out.endswith(op_char) and len(out) > 1 for _, _, out in group)
+    all_prefixed = all(out.startswith(op_char) and len(out) > 1 for _, _, out in group)
 
     fmt = "num"
     transformed = list(group)
-    if any_neg_suffixed:
+    if op_char != "-" and all_prefixed:
+        fmt = "pre"
+        transformed = [(a, b, out[len(op_char) :]) for a, b, out in group]
+    elif op_char != "-" and all_suffixed:
+        fmt = "suf"
+        transformed = [(a, b, out[: -len(op_char)]) for a, b, out in group]
+    elif any_neg_suffixed:
         fmt = "neg_suffix"
         transformed = [
             (a, b, "-" + out[:-1] if out.endswith("-") and len(out) > 1 else out)
@@ -305,11 +394,30 @@ def _describe_found_op(found: FoundOp) -> str:
     parts.append(found.op_name)
     if found.fmt == "pre":
         parts.append("operator prefix format")
+    elif found.fmt == "suf":
+        parts.append("operator suffix format")
     elif found.fmt == "neg_suffix":
         parts.append("negative results use operator suffix")
     elif found.fmt == "neg_prefix":
         parts.append("negative results use operator prefix")
     return ", ".join(parts)
+
+
+def _rich_example_semantics(
+    example_rules: dict[str, FoundOp],
+) -> tuple[tuple[str, str, bool, bool, str], ...]:
+    return tuple(
+        sorted(
+            (
+                op_char,
+                found.op_name,
+                found.rev_ops,
+                found.rev_res,
+                found.fmt,
+            )
+            for op_char, found in example_rules.items()
+        )
+    )
 
 
 @cache
@@ -402,6 +510,14 @@ def _guess_missing_question_rule(
 ) -> tuple[FoundOp, str] | None:
     """Predict a hidden question operator using priors over solved deduce problems."""
     qop_context_priors, context_priors, qop_priors = _load_guess_priors()
+    rich_semantics = _rich_example_semantics(example_rules)
+    safe_rule = _SAFE_SPECIAL_GUESS_RULES.get((q_op, rich_semantics))
+    if safe_rule is not None:
+        op_name, rev_ops, rev_res, fmt = safe_rule
+        return (
+            FoundOp(op_name, rev_ops, rev_res, fmt, q_op),
+            "a train-fitted heuristic for this hidden-operator semantic context",
+        )
     example_semantics = tuple(
         sorted((found.op_name, found.rev_ops, found.rev_res) for found in example_rules.values())
     )
@@ -469,6 +585,9 @@ def _apply_op(found: FoundOp, a_str: str, b_str: str) -> tuple[str, list[str]]:
     if found.fmt == "pre":
         final = found.op_char + final
         steps.append(f"Prefix operator: {final}")
+    elif found.fmt == "suf":
+        final = final + found.op_char
+        steps.append(f"Suffix operator: {final}")
     elif found.fmt == "neg_suffix":
         if final.startswith("-"):
             old = final
@@ -523,7 +642,13 @@ def reasoning_equation_numeric(problem: Problem) -> str | None:
         any_suffixed = any(out.endswith(op_char) and len(out) > 1 for _, _, out in group)
         any_prefixed = any(out.startswith(op_char) and len(out) > 1 for _, _, out in group)
         fmt, transformed = _transform_group(op_char, group)
-        if fmt == "neg_suffix" and any_suffixed:
+        if fmt == "pre" and any_prefixed:
+            has_symbol_prefix = True
+            symbol_prefix_char = op_char
+        elif fmt == "suf" and any_suffixed:
+            has_symbol_suffix = True
+            symbol_suffix_char = op_char
+        elif fmt == "neg_suffix" and any_suffixed:
             fmt = "neg_suffix"
             has_symbol_suffix = True
             symbol_suffix_char = op_char
@@ -569,7 +694,11 @@ def reasoning_equation_numeric(problem: Problem) -> str | None:
     if any_transformed:
         t_all = [transformed_map.get((a, op, b), out) for a, op, b, out in parsed]
         lines.append(f"We now consider the outputs to be {', '.join(t_all)}")
-        if has_symbol_suffix:
+        if detected_fmts[op_char] == "suf":
+            lines.append("We will add back the operator suffix to the final answer.")
+        elif detected_fmts[op_char] == "pre":
+            lines.append("We will add back the operator prefix to the final answer.")
+        elif has_symbol_suffix:
             lines.append(
                 "We will add back the operator suffix if our answer is negative."
             )
@@ -811,6 +940,8 @@ def reasoning_equation_numeric(problem: Problem) -> str | None:
         if effective_q_op not in found_ops:
             return None
         result_val, steps = _apply_op(found_ops[effective_q_op], qa, qb)
+    if problem.category == "equation_numeric_guess" and result_val.startswith("+"):
+        result_val = result_val[1:]
     for step in steps:
         lines.append(f"  {step}")
     lines.append(f"  Result: 【{result_val}】")
