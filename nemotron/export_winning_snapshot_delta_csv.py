@@ -34,6 +34,10 @@ DEFAULT_SNAPSHOT_DIR = BASE_DIR / "training" / "sft" / "04-08-16-14"
 DEFAULT_OUTPUT = BASE_DIR / "winning_snapshot_delta_manifest.csv"
 TOKENIZER_JSON = BASE_DIR / "tokenizer.json"
 MAX_SEQ_LEN = 8192
+DEFAULT_SAFE_DELTA_CATEGORIES = [
+    "bit_manipulation",
+    "equation_numeric_guess",
+]
 
 
 def parse_args() -> argparse.Namespace:
@@ -83,6 +87,15 @@ def parse_args() -> argparse.Namespace:
         "--use-legacy-bit-manipulation",
         action="store_true",
         help="Disable whole-word bit_manipulation solver additions and use the legacy per-bit path",
+    )
+    parser.add_argument(
+        "--delta-categories",
+        nargs="+",
+        default=DEFAULT_SAFE_DELTA_CATEGORIES,
+        help=(
+            "Categories allowed to contribute current-code delta records. "
+            "Default is the safe hard-category set: bit_manipulation equation_numeric_guess."
+        ),
     )
     return parser.parse_args()
 
@@ -136,6 +149,7 @@ def main() -> None:
             trust_remote_code=True,
         )
         completion_tokenizer = Tokenizer.from_file(str(TOKENIZER_JSON))
+        delta_categories = set(args.delta_categories)
         current_correct_base_records = build_current_correct_base_records(
             repo_dir=BASE_DIR,
             chat_tokenizer=chat_tokenizer,
@@ -145,6 +159,7 @@ def main() -> None:
             bit_manipulation_compact=args.bit_manipulation_compact,
             bit_manipulation_three_bit_repair=args.bit_manipulation_three_bit_repair,
             bit_manipulation_use_legacy=args.use_legacy_bit_manipulation,
+            delta_categories=delta_categories,
         )
         final_records, delta_stats = merge_snapshot_with_current_delta(
             snapshot_records,
@@ -197,6 +212,7 @@ def main() -> None:
                 "bit_manipulation_compact": args.bit_manipulation_compact,
                 "bit_manipulation_three_bit_repair": args.bit_manipulation_three_bit_repair,
                 "bit_manipulation_use_legacy": args.use_legacy_bit_manipulation,
+                "delta_categories": args.delta_categories,
                 "snapshot_loss_config": snapshot_config.get("loss_config", {}),
                 "snapshot_lr_schedule": snapshot_config.get("lr_schedule", {}),
                 "delta_stats": (

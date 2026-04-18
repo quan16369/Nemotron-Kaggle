@@ -160,6 +160,7 @@ def build_current_correct_base_records(
     bit_manipulation_compact: bool = False,
     bit_manipulation_three_bit_repair: bool = False,
     bit_manipulation_use_legacy: bool = False,
+    delta_categories: set[str] | None = None,
 ) -> dict[str, dict[str, Any]]:
     train_csv_path = repo_dir / "train.csv"
     problems_index_path = repo_dir / "problems.jsonl"
@@ -177,6 +178,8 @@ def build_current_correct_base_records(
         meta = problem_metadata[problem_id]
         category = meta["category"]
         if category not in COMPETITION_CATEGORIES:
+            continue
+        if delta_categories is not None and category not in delta_categories:
             continue
         row = prompt_rows.get(problem_id)
         if row is None:
