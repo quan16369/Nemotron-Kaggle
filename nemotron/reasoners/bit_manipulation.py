@@ -191,6 +191,35 @@ def _format_byte(value: int) -> str:
     return format(value & 0xFF, "08b")
 
 
+def _append_bit_examples(lines: List[str], label: str, values: Sequence[str]) -> None:
+    for idx, bits in enumerate(values):
+        lines.append(f"{label} {idx}: {bits}")
+        for bit in range(N_BITS):
+            lines.append(f"{bit} {bits[bit]}")
+        lines.append("")
+
+
+def _append_bit_columns(lines: List[str], title: str, values: Sequence[str]) -> None:
+    lines.append(title)
+    for bit in range(N_BITS):
+        column = _column_bits(values, bit)
+        lines.append(f"{bit} {column} {_column_hash(column, len(values))}")
+
+
+def _append_transform_audit(
+    lines: List[str],
+    label: str,
+    transform_name: str,
+    values: Sequence[str],
+) -> None:
+    _append_bit_examples(lines, f"{label} ({transform_name})", values)
+    _append_bit_columns(
+        lines,
+        f"{label} ({transform_name}) bit columns (with bitsum as hash)",
+        values,
+    )
+
+
 def _apply_majority_word(a: int, b: int, c: int) -> int:
     return (a & b) | (a & c) | (b & c)
 
@@ -210,11 +239,13 @@ def _apply_generic_truth_word(a: int, b: int, c: int, truth: str) -> int:
 
 def _render_whole_word_reasoning(
     question_bits: str,
-    n_examples: int,
+    inputs: Sequence[int],
+    outputs: Sequence[int],
     match: WholeWordMatch,
     *,
     compact: bool,
 ) -> str:
+    n_examples = len(inputs)
     query_value = int(question_bits, 2)
     labels = ("A", "B", "C")
     transformed_values = [
@@ -241,21 +272,69 @@ def _render_whole_word_reasoning(
         "We need to deduce the transformation by testing whole-word transforms on the full 8-bit input.",
         "I will put my final answer inside \\boxed{}.",
         "",
-        "Selected whole-word rule",
-        match.rule_text,
     ]
+    output_bits_list = [_format_byte(value) for value in outputs]
+    input_bits_list = [_format_byte(value) for value in inputs]
+    _append_bit_examples(lines, "Output", output_bits_list)
+    _append_bit_columns(lines, "Output bit columns (with bitsum as hash)", output_bits_list)
+    lines.append("")
+    _append_bit_examples(lines, "Input", input_bits_list)
+    transform_example_bits = []
+    for label, transform_name in zip(labels, match.transform_names):
+        values = [
+            _format_byte(WHOLE_WORD_TRANSFORM_MAP[transform_name](input_value))
+            for input_value in inputs
+        ]
+        transform_example_bits.append((label, transform_name, values))
+    for label, transform_name, values in transform_example_bits:
+        lines.append("")
+        _append_transform_audit(lines, label, transform_name, values)
+    lines.extend(
+        [
+            "",
+            "Selected whole-word rule",
+            match.rule_text,
+        ]
+    )
     if match.note:
         lines.append(match.note)
     lines.extend(
         [
             f"This rule matches all {n_examples} examples exactly.",
             "",
-            f"Applying to {question_bits}",
+            "Verification on examples",
         ]
     )
+    for example_idx, (input_value, output_value) in enumerate(zip(inputs, outputs), start=1):
+        input_bits = _format_byte(input_value)
+        output_bits = _format_byte(output_value)
+        lines.append(f"EX{example_idx}: IN = {input_bits}")
+        for label, transform_name in zip(labels, match.transform_names):
+            transform_bits = _format_byte(WHOLE_WORD_TRANSFORM_MAP[transform_name](input_value))
+            lines.append(f"EX{example_idx}: {label} = {transform_name} = {transform_bits}")
+        lines.append(
+            f"EX{example_idx}: OUT = {match.formula_template} = {output_bits}"
+        )
+        lines.append("")
+    lines.extend(
+        [
+            f"Applying to {question_bits}",
+            "Input",
+        ]
+    )
+    for bit in range(N_BITS):
+        lines.append(f"{bit} {question_bits[bit]}")
+    lines.append("")
+    lines.append("Transforms")
     for label, name, value in transformed_values:
         lines.append(f"{label} = {name} = {value}")
+        for bit in range(N_BITS):
+            lines.append(f"{label}{bit} {value[bit]}")
+    lines.append("")
     lines.append(f"Output = {match.formula_template} = {match.answer_bits}")
+    lines.append("Output")
+    for bit in range(N_BITS):
+        lines.append(f"{bit} {match.answer_bits[bit]}")
     lines.extend(
         [
             "",
@@ -1042,6 +1121,173 @@ def _render_reasoning_compact(
     return "\n".join(lines)
 
 
+def _iter_unique_candidates_for_bit(
+    all_matches: Dict[str, List[List[RuleCandidate]]],
+    bit_idx: int,
+) -> List[RuleCandidate]:
+    seen: set[str] = set()
+    ordered: list[RuleCandidate] = []
+    for section_name in SECTION_ORDER:
+        for candidate in all_matches[section_name][bit_idx]:
+            if candidate.expr in seen:
+                continue
+            seen.add(candidate.expr)
+            ordered.append(candidate)
+    return ordered
+
+
+def _candidate_priority(rule: RuleCandidate) -> tuple[int, int, int, int, str]:
+    if rule.expr.startswith("T3"):
+        section_rank = len(SECTION_ORDER)
+    else:
+        section_rank = SECTION_ORDER.index(_FAMILY_TO_SECTION.get(rule.family, "XOR"))
+    arity = 0
+    if rule.primary is not None:
+        arity += 1
+    if rule.secondary is not None:
+        arity += 1
+    return (
+        section_rank,
+        arity,
+        1 if rule.expr.startswith("T3") else 0,
+        len(rule.expr),
+        rule.expr,
+    )
+
+
+def _build_whole_word_guided_vector(
+    question_bits: str,
+    answer_bits: str,
+    inputs: Sequence[str],
+    output_columns: Sequence[str],
+    all_matches: Dict[str, List[List[RuleCandidate]]],
+) -> Optional[List[RuleCandidate]]:
+    default_cand = RuleCandidate(DEFAULT_FAMILY, None, None, "default 1")
+    repaired = _repair_with_three_bit_search(
+        inputs, output_columns, [default_cand] * N_BITS
+    )
+    guided: list[RuleCandidate] = []
+    for bit_idx in range(N_BITS):
+        candidates = _iter_unique_candidates_for_bit(all_matches, bit_idx)
+        repaired_rule = repaired[bit_idx]
+        if not repaired_rule.is_default and all(
+            repaired_rule.expr != candidate.expr for candidate in candidates
+        ):
+            candidates.append(repaired_rule)
+        filtered = [
+            candidate
+            for candidate in candidates
+            if _evaluate_extended_rule(question_bits, candidate) == answer_bits[bit_idx]
+        ]
+        if not filtered:
+            return None
+        filtered.sort(key=_candidate_priority)
+        guided.append(filtered[0])
+    return guided
+
+
+def _render_reasoning_legacy_guided(
+    question_bits: str,
+    inputs: Sequence[str],
+    outputs: Sequence[str],
+    output_columns: Sequence[str],
+    all_records: Dict[str, List[Record]],
+    all_matches: Dict[str, List[List[RuleCandidate]]],
+    best: List[RuleCandidate],
+    *,
+    whole_word_rule: str,
+    whole_word_note: str = "",
+) -> str:
+    n_examples = len(outputs)
+    lines: List[str] = []
+    lines.append(
+        "We need to deduce the transformation by matching the example outputs."
+    )
+    lines.append("I will put my final answer inside \\boxed{}.")
+    lines.append("")
+
+    for i, out in enumerate(outputs):
+        lines.append(f"Output {i}: {out}")
+        for bit in range(N_BITS):
+            lines.append(f"{bit} {out[bit]}")
+        lines.append("")
+
+    lines.append("Output bit columns (with bitsum as hash)")
+    for bit in range(N_BITS):
+        lines.append(
+            f"{bit} {output_columns[bit]} {_column_hash(output_columns[bit], n_examples)}"
+        )
+
+    lines.append("")
+    for i, inp in enumerate(inputs):
+        lines.append(f"Input {i}: {inp}")
+        for bit in range(N_BITS):
+            lines.append(f"{bit} {inp[bit]}")
+        lines.append("")
+
+    lines.append("When matching output")
+    lines.append("x: not in operator")
+    lines.append("y: wrong position")
+    lines.append("")
+
+    def _add_section(name: str) -> None:
+        records = all_records[name]
+        per_bit = all_matches[name]
+        lines.append(name)
+        prev_diff = None
+        for rec in records:
+            if (
+                len(rec.label) >= 2
+                and rec.label[0].isdigit()
+                and rec.label[1].isdigit()
+            ):
+                diff = (int(rec.label[1]) - int(rec.label[0])) % N_BITS
+                if prev_diff is not None and diff != prev_diff:
+                    lines.append("")
+                prev_diff = diff
+            line = f"{rec.label} {rec.col} {rec.hash_}"
+            if rec.matches:
+                line += " match " + " ".join(str(i) for i in rec.matches)
+            lines.append(line)
+        lines.append("")
+        lines.append("Matching output")
+        for i in range(N_BITS):
+            cands = per_bit[i]
+            if cands:
+                lines.append(f"{i} " + " ".join(_compact_rule(c) for c in cands))
+            else:
+                lines.append(f"{i} absent")
+        lines.append("")
+        left_lines, left_best, right_lines, right_best = _lr_from_matches(per_bit)
+        lines.append("Left")
+        for ll in left_lines:
+            lines.append(ll)
+        lines.append(f"Best: {left_best}")
+        lines.append("")
+        lines.append("Right")
+        for rl in right_lines:
+            lines.append(rl)
+        lines.append(f"Best: {right_best}")
+        lines.append("")
+
+    for name in all_records:
+        _add_section(name)
+
+    lines.append("Selecting")
+    lines.append("")
+    lines.append("Whole-word guide")
+    lines.append(whole_word_rule)
+    if whole_word_note:
+        lines.append(whole_word_note)
+    lines.append("")
+    lines.append("Selected")
+    for i, rule in enumerate(best):
+        lines.append(f"{i} {_rule_display(rule)}")
+    lines.append("")
+    _emit_apply(lines, question_bits, best)
+    return "\n".join(lines)
+
+
 def reasoning_bit_manipulation(
     problem: Problem,
     *,
@@ -1071,15 +1317,11 @@ def reasoning_bit_manipulation(
     output_values = [int(bits, 2) for bits in outputs]
     query_value = int(question_bits, 2)
 
+    whole_word_match = None
     if allow_whole_word:
-        whole_word_match = _solve_whole_word_rule(input_values, output_values, query_value)
-        if whole_word_match is not None:
-            return _render_whole_word_reasoning(
-                question_bits,
-                n_examples,
-                whole_word_match,
-                compact=compact,
-            )
+        whole_word_match = _solve_whole_word_rule(
+            input_values, output_values, query_value
+        )
 
     # 1) Example columns.
     output_columns = [_column_bits(outputs, i) for i in range(N_BITS)]
@@ -1292,6 +1534,34 @@ def reasoning_bit_manipulation(
 
     for name in all_records:
         _add_section(name)
+
+    if whole_word_match is not None and not compact:
+        guided_vector = _build_whole_word_guided_vector(
+            question_bits=question_bits,
+            answer_bits=whole_word_match.answer_bits,
+            inputs=inputs,
+            output_columns=output_columns,
+            all_matches=all_matches,
+        )
+        if guided_vector is not None:
+            return _render_reasoning_legacy_guided(
+                question_bits=question_bits,
+                inputs=inputs,
+                outputs=outputs,
+                output_columns=output_columns,
+                all_records=all_records,
+                all_matches=all_matches,
+                best=guided_vector,
+                whole_word_rule=whole_word_match.rule_text,
+                whole_word_note=whole_word_match.note,
+            )
+        return _render_whole_word_reasoning(
+            question_bits,
+            input_values,
+            output_values,
+            whole_word_match,
+            compact=compact,
+        )
 
     # 7) Selecting rule block.
     lines.append("Selecting")
