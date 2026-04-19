@@ -205,6 +205,25 @@ class FoundOp:
     op_char: str
 
 
+def _rule_key(found: FoundOp) -> tuple[str, bool, bool, str, str]:
+    return (
+        found.op_name,
+        found.rev_ops,
+        found.rev_res,
+        found.fmt,
+        found.op_char,
+    )
+
+
+def _rule_prior_key(found: FoundOp) -> tuple[str, bool, bool, str]:
+    return (
+        found.op_name,
+        found.rev_ops,
+        found.rev_res,
+        found.fmt,
+    )
+
+
 _SAFE_SPECIAL_GUESS_RULES: dict[
     tuple[str, tuple[tuple[str, str, bool, bool, str], ...]],
     tuple[str, bool, bool, str],
@@ -269,12 +288,79 @@ def _transform_group(
     return fmt, transformed
 
 
-def _find_matching_rule(
+def _apply_format_to_group(
+    op_char: str,
+    group: list[tuple[str, str, str]],
+    fmt: str,
+) -> list[tuple[str, str, str]]:
+    if fmt == "pre":
+        return [
+            (a, b, out[len(op_char) :] if out.startswith(op_char) and len(out) > 1 else out)
+            for a, b, out in group
+        ]
+    if fmt == "suf":
+        return [
+            (a, b, out[: -len(op_char)] if out.endswith(op_char) and len(out) > 1 else out)
+            for a, b, out in group
+        ]
+    if fmt == "neg_prefix":
+        return [
+            (
+                a,
+                b,
+                "-" + out[len(op_char) :]
+                if op_char != "-" and out.startswith(op_char) and len(out) > 1
+                else out,
+            )
+            for a, b, out in group
+        ]
+    if fmt == "neg_suffix":
+        return [
+            (
+                a,
+                b,
+                "-" + out[: -len(op_char)]
+                if op_char != "-" and out.endswith(op_char) and len(out) > 1
+                else out,
+            )
+            for a, b, out in group
+        ]
+    return list(group)
+
+
+def _candidate_format_variants(
+    op_char: str,
+    group: list[tuple[str, str, str]],
+) -> list[tuple[str, list[tuple[str, str, str]]]]:
+    base_fmt, base_group = _transform_group(op_char, group)
+    variants: list[tuple[str, list[tuple[str, str, str]]]] = [(base_fmt, base_group)]
+    if op_char != "-":
+        if base_fmt == "num":
+            variants.append(("neg_prefix", _apply_format_to_group(op_char, group, "neg_prefix")))
+            variants.append(("neg_suffix", _apply_format_to_group(op_char, group, "neg_suffix")))
+        elif base_fmt == "pre":
+            variants.append(("neg_prefix", _apply_format_to_group(op_char, group, "neg_prefix")))
+        elif base_fmt == "suf":
+            variants.append(("neg_suffix", _apply_format_to_group(op_char, group, "neg_suffix")))
+
+    unique: list[tuple[str, list[tuple[str, str, str]]]] = []
+    seen: set[tuple[str, tuple[tuple[str, str, str], ...]]] = set()
+    for fmt, transformed in variants:
+        key = (fmt, tuple(transformed))
+        if key in seen:
+            continue
+        seen.add(key)
+        unique.append((fmt, transformed))
+    return unique
+
+
+def _find_matching_rules(
     op_char: str,
     group: list[tuple[str, str, str]],
     detected_fmt: str,
-) -> FoundOp | None:
-    """Return the first matching rule in the same search order as the reasoning trace."""
+) -> list[FoundOp]:
+    matches: list[FoundOp] = []
+    seen: set[tuple[str, bool, bool, str, str]] = set()
     candidate_sets = (
         _common_candidates,
         _rare_candidates,
@@ -303,15 +389,31 @@ def _find_matching_rule(
                     if fin != expected:
                         all_pass = False
                         break
-                if all_pass:
-                    return FoundOp(
-                        op_name=cand_name,
-                        rev_ops=rev_ops,
-                        rev_res=rev_res,
-                        fmt=detected_fmt,
-                        op_char=op_char,
-                    )
-    return None
+                if not all_pass:
+                    continue
+                found = FoundOp(
+                    op_name=cand_name,
+                    rev_ops=rev_ops,
+                    rev_res=rev_res,
+                    fmt=detected_fmt,
+                    op_char=op_char,
+                )
+                key = _rule_key(found)
+                if key in seen:
+                    continue
+                seen.add(key)
+                matches.append(found)
+    return matches
+
+
+def _find_matching_rule(
+    op_char: str,
+    group: list[tuple[str, str, str]],
+    detected_fmt: str,
+) -> FoundOp | None:
+    """Return the first matching rule in the same search order as the reasoning trace."""
+    matches = _find_matching_rules(op_char, group, detected_fmt)
+    return matches[0] if matches else None
 
 
 def _describe_found_op(found: FoundOp) -> str:
@@ -539,6 +641,152 @@ def _apply_op(found: FoundOp, a_str: str, b_str: str) -> tuple[str, list[str]]:
     return final, steps
 
 
+@cache
+def _load_rule_selection_priors() -> tuple[
+    dict[tuple[str, tuple[tuple[str, str, bool, bool, str], ...]], Counter[tuple[str, bool, bool, str]]],
+    dict[str, Counter[tuple[str, bool, bool, str]]],
+]:
+    """Learn priors for ambiguous in-example operators from solved deduce problems."""
+    qop_context_priors: defaultdict[
+        tuple[str, tuple[tuple[str, str, bool, bool, str], ...]],
+        Counter[tuple[str, bool, bool, str]],
+    ] = defaultdict(Counter)
+    qop_priors: defaultdict[str, Counter[tuple[str, bool, bool, str]]] = defaultdict(
+        Counter
+    )
+
+    for problem in Problem.load_all():
+        if problem.category != "equation_numeric_deduce":
+            continue
+
+        parsed: list[tuple[str, str, str, str]] = []
+        for ex in problem.examples:
+            match = _EXPR_RE.fullmatch(str(ex.input_value))
+            if not match:
+                continue
+            parsed.append(
+                (
+                    match.group(1),
+                    match.group(2),
+                    match.group(3),
+                    str(ex.output_value),
+                )
+            )
+        if not parsed:
+            continue
+
+        by_op: dict[str, list[tuple[str, str, str]]] = defaultdict(list)
+        for a, op, b, out in parsed:
+            by_op[op].append((a, b, out))
+
+        q_match = _EXPR_RE.fullmatch(str(problem.question))
+        if not q_match:
+            continue
+        qa, q_op, qb = q_match.group(1), q_match.group(2), q_match.group(3)
+        if q_op not in by_op:
+            continue
+
+        example_rules: dict[str, FoundOp] = {}
+        for op_char, group in by_op.items():
+            if op_char == q_op:
+                continue
+            fmt, transformed = _transform_group(op_char, group)
+            found = _find_matching_rule(op_char, transformed, fmt)
+            if found is not None:
+                example_rules[op_char] = found
+        context = tuple(
+            sorted(
+                (
+                    op,
+                    found.op_name,
+                    found.rev_ops,
+                    found.rev_res,
+                    found.fmt,
+                )
+                for op, found in example_rules.items()
+            )
+        )
+
+        candidates: list[FoundOp] = []
+        for fmt, transformed in _candidate_format_variants(q_op, by_op[q_op]):
+            candidates.extend(_find_matching_rules(q_op, transformed, fmt))
+
+        unique_candidates: list[FoundOp] = []
+        seen: set[tuple[str, bool, bool, str, str]] = set()
+        for found in candidates:
+            key = _rule_key(found)
+            if key in seen:
+                continue
+            seen.add(key)
+            unique_candidates.append(found)
+
+        for found in unique_candidates:
+            predicted, _ = _apply_op(found, qa, qb)
+            if predicted != problem.answer:
+                continue
+            prior_key = _rule_prior_key(found)
+            qop_context_priors[(q_op, context)][prior_key] += 1
+            qop_priors[q_op][prior_key] += 1
+
+    return dict(qop_context_priors), dict(qop_priors)
+
+
+def _choose_best_matching_rule(
+    op_char: str,
+    group: list[tuple[str, str, str]],
+    qa: str,
+    qb: str,
+    example_rules: dict[str, FoundOp],
+) -> FoundOp | None:
+    candidates: list[FoundOp] = []
+    for fmt, transformed in _candidate_format_variants(op_char, group):
+        candidates.extend(_find_matching_rules(op_char, transformed, fmt))
+
+    unique_candidates: list[FoundOp] = []
+    seen: set[tuple[str, bool, bool, str, str]] = set()
+    for found in candidates:
+        key = _rule_key(found)
+        if key in seen:
+            continue
+        seen.add(key)
+        unique_candidates.append(found)
+
+    if not unique_candidates:
+        return None
+    if len(unique_candidates) == 1:
+        return unique_candidates[0]
+
+    qop_context_priors, qop_priors = _load_rule_selection_priors()
+    context = tuple(
+        sorted(
+            (
+                op,
+                found.op_name,
+                found.rev_ops,
+                found.rev_res,
+                found.fmt,
+            )
+            for op, found in example_rules.items()
+        )
+    )
+    context_counter = qop_context_priors.get((op_char, context), Counter())
+    op_counter = qop_priors.get(op_char, Counter())
+
+    def _score(found: FoundOp) -> tuple[int, int, int]:
+        prior_key = _rule_prior_key(found)
+        subtraction_bonus = 1 if (
+            op_char == "-"
+            and found.op_name in {"subtraction (a-b)", "reverse subtraction (b-a)"}
+        ) else 0
+        return (
+            context_counter.get(prior_key, 0),
+            op_counter.get(prior_key, 0),
+            subtraction_bonus,
+        )
+
+    return max(unique_candidates, key=_score)
+
+
 def reasoning_equation_numeric(problem: Problem) -> str | None:
     lines: list[str] = []
     lines.append("We need to infer the transformation rule from the examples.")
@@ -559,7 +807,38 @@ def reasoning_equation_numeric(problem: Problem) -> str | None:
     for a, op, b, out in parsed:
         by_op[op].append((a, b, out))
 
-    # Precompute prefix/suffix format and transformed groups per operator
+    q_match = _EXPR_RE.fullmatch(str(problem.question))
+    q_op = q_match.group(2) if q_match else None
+
+    # Precompute the baseline transform per operator.
+    base_detected_fmts: dict[str, str] = {}
+    base_transformed_groups: dict[str, list[tuple[str, str, str]]] = {}
+    for op_char, group in by_op.items():
+        fmt, transformed = _transform_group(op_char, group)
+        base_detected_fmts[op_char] = fmt
+        base_transformed_groups[op_char] = transformed
+
+    # Resolve the question operator with train-fitted priors before rendering the trace.
+    context_example_rules: dict[str, FoundOp] = {}
+    if q_op is not None:
+        for op_char, group in base_transformed_groups.items():
+            if op_char == q_op:
+                continue
+            found = _find_matching_rule(op_char, group, base_detected_fmts[op_char])
+            if found is not None:
+                context_example_rules[op_char] = found
+
+    preferred_question_rule: FoundOp | None = None
+    if q_match is not None and q_op in by_op:
+        preferred_question_rule = _choose_best_matching_rule(
+            q_op,
+            by_op[q_op],
+            q_match.group(1),
+            q_match.group(3),
+            context_example_rules,
+        )
+
+    # Apply the preferred format choice for downstream displays and matching.
     detected_fmts: dict[str, str] = {}
     transformed_groups: dict[str, list[tuple[str, str, str]]] = {}
     has_symbol_suffix = False
@@ -568,9 +847,14 @@ def reasoning_equation_numeric(problem: Problem) -> str | None:
     symbol_prefix_char = ""
 
     for op_char, group in by_op.items():
+        fmt = base_detected_fmts[op_char]
+        transformed = base_transformed_groups[op_char]
+        if preferred_question_rule is not None and op_char == q_op:
+            fmt = preferred_question_rule.fmt
+            transformed = _apply_format_to_group(op_char, group, fmt)
+
         any_suffixed = any(out.endswith(op_char) and len(out) > 1 for _, _, out in group)
         any_prefixed = any(out.startswith(op_char) and len(out) > 1 for _, _, out in group)
-        fmt, transformed = _transform_group(op_char, group)
         if fmt == "pre" and any_prefixed:
             has_symbol_prefix = True
             symbol_prefix_char = op_char
@@ -578,11 +862,9 @@ def reasoning_equation_numeric(problem: Problem) -> str | None:
             has_symbol_suffix = True
             symbol_suffix_char = op_char
         elif fmt == "neg_suffix" and any_suffixed:
-            fmt = "neg_suffix"
             has_symbol_suffix = True
             symbol_suffix_char = op_char
         elif fmt == "neg_prefix" and any_prefixed:
-            fmt = "neg_prefix"
             has_symbol_prefix = True
             symbol_prefix_char = op_char
 
@@ -623,15 +905,16 @@ def reasoning_equation_numeric(problem: Problem) -> str | None:
     if any_transformed:
         t_all = [transformed_map.get((a, op, b), out) for a, op, b, out in parsed]
         lines.append(f"We now consider the outputs to be {', '.join(t_all)}")
-        if detected_fmts[op_char] == "suf":
+        q_fmt = detected_fmts.get(q_op or "", "num")
+        if q_fmt == "suf":
             lines.append("We will add back the operator suffix to the final answer.")
-        elif detected_fmts[op_char] == "pre":
+        elif q_fmt == "pre":
             lines.append("We will add back the operator prefix to the final answer.")
-        elif has_symbol_suffix:
+        elif q_fmt == "neg_suffix":
             lines.append(
                 "We will add back the operator suffix if our answer is negative."
             )
-        elif has_symbol_prefix:
+        elif q_fmt == "neg_prefix":
             lines.append(
                 "We will add back the operator prefix if our answer is negative."
             )
@@ -648,16 +931,17 @@ def reasoning_equation_numeric(problem: Problem) -> str | None:
     for op in op_names:
         lines.append(op)
 
-    q_match = _EXPR_RE.fullmatch(str(problem.question))
-    q_op = q_match.group(2) if q_match else None
-
     lines.append("")
     lines.append("Looking at the question")
     if q_match:
         lines.append(f"{problem.question} -> {q_op}")
 
-    example_rules: dict[str, FoundOp] = {}
+    example_rules: dict[str, FoundOp] = dict(context_example_rules)
+    if preferred_question_rule is not None and q_op is not None:
+        example_rules[q_op] = preferred_question_rule
     for op_char, group in transformed_groups.items():
+        if op_char in example_rules:
+            continue
         found = _find_matching_rule(op_char, group, detected_fmts[op_char])
         if found is not None:
             example_rules[op_char] = found
@@ -710,6 +994,8 @@ def reasoning_equation_numeric(problem: Problem) -> str | None:
 
         # Try common operations first (all 4 combos), then rare operations
         found = None
+        preferred_found = example_rules.get(op_char)
+        preferred_key = _rule_key(preferred_found) if preferred_found is not None else None
 
         candidate_sets = [
             ("common", _common_candidates),
@@ -804,9 +1090,15 @@ def reasoning_equation_numeric(problem: Problem) -> str | None:
                             break
 
                     if all_pass:
-                        if found:
-                            parts.append("correct, but skipping")
-                        else:
+                        current_found = FoundOp(
+                            op_name=cand_name,
+                            rev_ops=rev_ops,
+                            rev_res=rev_res,
+                            fmt=detected_fmt,
+                            op_char=op_char,
+                        )
+                        current_key = _rule_key(current_found)
+                        if preferred_key is not None and current_key == preferred_key:
                             summary = []
                             if rev_ops:
                                 summary.append("reversed operands")
@@ -814,19 +1106,27 @@ def reasoning_equation_numeric(problem: Problem) -> str | None:
                                 summary.append("reversed result")
                             summary.append(cand_name)
                             parts.append("correct, actions: " + ", ".join(summary))
+                            found = current_found
+                        elif found:
+                            parts.append("correct, but skipping")
+                        elif preferred_key is None:
+                            summary = []
+                            if rev_ops:
+                                summary.append("reversed operands")
+                            if rev_res:
+                                summary.append("reversed result")
+                            summary.append(cand_name)
+                            parts.append("correct, actions: " + ", ".join(summary))
+                            found = current_found
+                        else:
+                            parts.append("correct, but skipping")
                     lines.append(f"    {cand_name} " + ", ".join(parts))
 
                     if not all_pass:
                         continue
 
-                    if not found:
-                        found = FoundOp(
-                            op_name=cand_name,
-                            rev_ops=rev_ops,
-                            rev_res=rev_res,
-                            fmt=detected_fmt,
-                            op_char=op_char,
-                        )
+        if found is None and preferred_found is not None:
+            found = preferred_found
 
         if found:
             found_ops[op_char] = found
