@@ -33,36 +33,15 @@ def _to_roman(n: int) -> str:
 
 def reasoning_numeral(problem: Problem) -> str:
     lines: list[str] = []
-    lines.append("We need to determine the conversion rule from the examples:")
-    lines.append("I will put my final answer inside \\boxed{}.")
+    lines.append("We determine the numeral system from the examples:")
     for ex in problem.examples:
         lines.append(f"  {ex.input_value} -> {ex.output_value}")
 
     lines.append("")
     lines.append("This is Arabic to Roman numeral conversion.")
-    lines.append("")
-    lines.append("Reference table (1-100):")
-    for i in range(1, 101):
-        lines.append(f"  {i} = {_to_roman(i)}")
-
-    lines.append("")
     n = int(problem.question)
     computed = _to_roman(n)
-    lines.append(f"Converting {n}:")
-
-    remaining = n
-    parts: list[str] = []
-    for val, sym in ROMAN_VALUES:
-        while remaining >= val:
-            lines.append(
-                f"  {remaining} >= {val} -> {sym}, remainder {remaining - val}"
-            )
-            parts.append(sym)
-            remaining -= val
-
-    lines.append("")
-    spaced = " ".join(parts)
-    lines.append(f"Result: {spaced} -> {computed}")
+    lines.append(f"{n} in Roman numerals is {computed}.")
     lines.append("")
     lines.append("I will now return the answer in \\boxed{}")
     lines.append(f"The answer in \\boxed{{–}} is \\boxed{{{computed}}}")
