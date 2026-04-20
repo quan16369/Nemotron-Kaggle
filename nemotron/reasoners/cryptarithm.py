@@ -85,10 +85,17 @@ def reasoning_cryptarithm(problem: Problem) -> str | None:
     else:
         answer = q_b[0] + q_b[1] + q_a[0] + q_a[1]
 
+    answer_needs_plain_final = "}" in answer
+
     # Generate trace
     lines: list[str] = []
     lines.append("We need to infer the transformation rule from the examples.")
-    lines.append("I will put my final answer inside \\boxed{}.")
+    if answer_needs_plain_final:
+        lines.append(
+            "I will return the final answer plainly because it contains the symbol }."
+        )
+    else:
+        lines.append("I will put my final answer inside \\boxed{}.")
     lines.append("")
 
     # Show each example with concatenation check
@@ -159,6 +166,10 @@ def reasoning_cryptarithm(problem: Problem) -> str | None:
     )
     lines.append(f"  output: {quote(answer)}-> {quote('{' + answer + '}')}")
     lines.append("")
-    lines.append("I will now return the answer in \\boxed{}")
-    lines.append(f"The answer in \\boxed{{–}} is \\boxed{{{answer}}}")
+    if answer_needs_plain_final:
+        lines.append("I will now return the final answer plainly.")
+        lines.append(f"Final answer is: {answer}")
+    else:
+        lines.append("I will now return the answer in \\boxed{}")
+        lines.append(f"The answer in \\boxed{{–}} is \\boxed{{{answer}}}")
     return "\n".join(lines)

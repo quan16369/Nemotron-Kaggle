@@ -56,13 +56,28 @@ GENERATORS: dict[str, Callable] = {
 
 
 def extract_answer(reasoning_text: str) -> str:
-    """Extract the answer from \\boxed{...}, matching metric_reference.extract_final_answer."""
+    """Extract the answer from generated reasoning text.
+
+    Mirrors the notebook extractor more closely so local solver validation
+    matches submission-time parsing for both boxed and plain final answers.
+    """
     matches = re.findall(r"\\boxed\{([^}]*)(?:\}|$)", reasoning_text)
     if matches:
         non_empty = [m.strip() for m in matches if m.strip()]
         if non_empty:
             return non_empty[-1]
         return matches[-1].strip()
+
+    patterns = [
+        r"The final answer is:\s*([^\n]+)",
+        r"Final answer is:\s*([^\n]+)",
+        r"Final answer\s*[:：]\s*([^\n]+)",
+        r"final answer\s*[:：]\s*([^\n]+)",
+    ]
+    for pattern in patterns:
+        fallback_matches = re.findall(pattern, reasoning_text, re.IGNORECASE)
+        if fallback_matches:
+            return fallback_matches[-1].strip()
     return ""
 
 
