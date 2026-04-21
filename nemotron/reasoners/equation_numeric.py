@@ -235,6 +235,20 @@ _SAFE_SPECIAL_GUESS_RULES: dict[
             ("-", "absolute difference", True, True, "num"),
         ),
     ): ("multiplication", True, True, "num"),
+    (
+        ":",
+        (
+            ("<", "multiply+1", False, False, "num"),
+            ("@", "reverse concatenation", True, True, "num"),
+        ),
+    ): ("absolute difference", False, False, "pre"),
+    (
+        "}",
+        (
+            ("+", "reverse concatenation", True, True, "num"),
+            ("{", "multiply+1", False, False, "num"),
+        ),
+    ): ("absolute difference", False, False, "pre"),
 }
 
 
@@ -1176,6 +1190,15 @@ def reasoning_equation_numeric(problem: Problem) -> str | None:
     lines.append(f"  Result: 【{result_val}】")
 
     lines.append("")
-    lines.append("I will now return the answer in \\boxed{}")
-    lines.append(f"The answer in \\boxed{{–}} is \\boxed{{{result_val}}}")
+    if "}" in result_val:
+        lines[1] = (
+            "I will return the final answer plainly because it contains the symbol }."
+        )
+        lines.append(
+            "I will return the final answer plainly because it contains the symbol }."
+        )
+        lines.append(f"Final answer is: {result_val}")
+    else:
+        lines.append("I will now return the answer in \\boxed{}")
+        lines.append(f"The answer in \\boxed{{–}} is \\boxed{{{result_val}}}")
     return "\n".join(lines)
