@@ -54,10 +54,13 @@ def _candidate_words_for_partial(
                 break
         if not match:
             continue
-        # Check forward consistency only (cipher->plain)
+        # Check bijective consistency in both directions.
         consistent = True
         for cc, wc in zip(cipher_word, word):
             if cc in cipher_to_plain and cipher_to_plain[cc] != wc:
+                consistent = False
+                break
+            if wc in plain_to_cipher and plain_to_cipher[wc] != cc:
                 consistent = False
                 break
         if consistent:
@@ -65,6 +68,19 @@ def _candidate_words_for_partial(
 
     candidates.sort()
     return candidates
+
+
+def _decode_word(word: str, cipher_to_plain: dict[str, str]) -> str | None:
+    decoded: list[str] = []
+    for ch in word:
+        if ch not in cipher_to_plain:
+            return None
+        decoded.append(cipher_to_plain[ch])
+    return "".join(decoded)
+
+
+def _is_bijective_mapping(cipher_to_plain: dict[str, str]) -> bool:
+    return len(set(cipher_to_plain.values())) == len(cipher_to_plain)
 
 
 def reasoning_cipher(problem: Problem) -> str | None:
@@ -245,9 +261,9 @@ def reasoning_cipher(problem: Problem) -> str | None:
             "Iterating over the unknown letters to see if they are in the question: no unknown letters"
         )
 
-    if unknown_words:
-        wonderland_set = set(wonderland_words)
+    wonderland_set = set(wonderland_words)
 
+    if unknown_words:
         for idx, cw, _partial_orig, display_partial, orig_dashed in unknown_words:
             # Recompute partial with current mappings (may have new letters from previous words)
             partial = "".join(
@@ -311,30 +327,10 @@ def reasoning_cipher(problem: Problem) -> str | None:
                     comp_str += f", {len(cw)} all match"
                 lines.append(f"{word} {wlen} 【{word_dashed}】, {comp_str}")
 
-            # Filter candidates: reject those mapping unknown cipher letters to already-mapped plain letters
-            unmapped = {
-                c
-                for c in "abcdefghijklmnopqrstuvwxyz"
-                if c not in cipher_to_plain.values()
-            }
-            remaining = []
-            for c in display_candidates:
-                bad = False
-                for ci, wi in zip(cw, c):
-                    if ci not in cipher_to_plain and wi not in unmapped:
-                        bad = True
-                        break
-                if not bad:
-                    remaining.append(c)
-
-            # Prefer wonderland words among remaining
-            wonderland_remaining = [c for c in remaining if c in wonderland_set]
-            if wonderland_remaining:
-                chosen = wonderland_remaining[0]
-            elif remaining:
-                chosen = remaining[0]
-            else:
+            remaining = [c for c in display_candidates if c in wonderland_set]
+            if not remaining:
                 return None
+            chosen = remaining[0]
             lines.append(f"Best match: 【{chosen}】")
             decoded_words[idx] = chosen
 
@@ -348,8 +344,12 @@ def reasoning_cipher(problem: Problem) -> str | None:
             for cc, pc in zip(cw, chosen):
                 if cc in cipher_to_plain:
                     known_plain = cipher_to_plain[cc]
+                    if known_plain != pc:
+                        return None
                     lines.append(f"【{known_plain}】->【{pc}】same")
                 else:
+                    if pc in plain_to_cipher and plain_to_cipher[pc] != cc:
+                        return None
                     lines.append(f"【({cc})】->【{pc}】 new")
                     if (cc, pc) not in pending_mappings:
                         pending_mappings.append((cc, pc))
@@ -357,15 +357,38 @@ def reasoning_cipher(problem: Problem) -> str | None:
             for cc, pc in pending_mappings:
                 cipher_to_plain[cc] = pc
                 plain_to_cipher[pc] = cc
+            if not _is_bijective_mapping(cipher_to_plain):
+                return None
             if new_mappings:
                 nl_new = "\n".join(new_mappings)
                 lines.append(f"New mappings\n{nl_new}")
 
-    if any(w == "" for w in decoded_words):
+    final_decoded_words: list[str] = []
+    lines.append("")
+    lines.append("Double-check:")
+    lines.append("Applying the final mapping to the question again:")
+    for cw in question_words:
+        decoded = _decode_word(cw, cipher_to_plain)
+        if decoded is None:
+            return None
+        if decoded not in wonderland_set:
+            return None
+        final_decoded_words.append(decoded)
+        lines.append(f"  {cw} -> {decoded}")
+
+    if len(final_decoded_words) != len(question_words):
+        return None
+    if any(w == "" for w in final_decoded_words):
         return None
 
-    computed = " ".join(decoded_words)
+    computed = " ".join(final_decoded_words)
+    lines.append(f"Decoded sentence: {computed}")
+    lines.append(
+        "All decoded words are Wonderland words, the mapping is bijective, "
+        "and the word count matches the question."
+    )
+
     lines.append("")
     lines.append("I will now return the answer in \\boxed{}")
-    lines.append("The answer in \\boxed{–} is \\boxed{%s}" % computed)
+    lines.append(f"The answer is \\boxed{{{computed}}}")
     return "\n".join(lines)

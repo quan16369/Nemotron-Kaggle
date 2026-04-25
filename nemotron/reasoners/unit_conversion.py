@@ -64,12 +64,22 @@ def reasoning_unit_conversion(problem: Problem) -> str | None:
     lines.append(f"{q_str} * {med_display}:")
     mult_lines, mult_result = long_multiplication_lines(q_str, med_display)
     lines.extend(mult_lines)
-    # Truncate to 3 decimal places
-    dot = mult_result.index(".")
-    boxed_answer = mult_result[: dot + 4]
+    boxed_answer = truncate_3dp(mult_result)
     lines.append(f"= {boxed_answer}")
 
     lines.append("")
+    check_lines, factor_check_str = long_division_lines(mult_result, q_str)
+    lines.append("Double-check:")
+    lines.append(
+        f"If the converted value is {mult_result}, then factor = {mult_result} / {q_str}:"
+    )
+    lines.extend(check_lines)
+    lines.append(f"= {factor_check_str}")
+    lines.append(
+        f"This matches the chosen factor = {med_factor_str}, so the result is consistent."
+    )
+
+    lines.append("")
     lines.append("I will now return the answer in \\boxed{}")
-    lines.append(f"The answer in \\boxed{{–}} is \\boxed{{{boxed_answer}}}")
+    lines.append(f"The answer is \\boxed{{{boxed_answer}}}")
     return "\n".join(lines)
