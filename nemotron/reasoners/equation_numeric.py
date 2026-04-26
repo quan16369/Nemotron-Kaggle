@@ -251,6 +251,29 @@ _SAFE_SPECIAL_GUESS_RULES: dict[
     ): ("absolute difference", False, False, "pre"),
 }
 
+_SAFE_SPECIAL_DEDUCE_RULES: dict[
+    tuple[str, tuple[tuple[str, str, bool, bool, str], ...]],
+    tuple[tuple[str, bool, bool, str], ...],
+] = {
+    (
+        "-",
+        (
+            ("*", "multiply-1", True, True, "num"),
+        ),
+    ): (
+        ("subtraction (a-b)", True, True, "num"),
+    ),
+    (
+        "-",
+        (
+            ("+", "add+1", True, True, "num"),
+        ),
+    ): (
+        ("subtraction (a-b)", True, True, "neg_prefix"),
+        ("subtraction (a-b)", True, True, "num"),
+    ),
+}
+
 
 def _transform_group(
     op_char: str, group: list[tuple[str, str, str]]
@@ -783,6 +806,19 @@ def _choose_best_matching_rule(
             for op, found in example_rules.items()
         )
     )
+
+    special_preferences = _SAFE_SPECIAL_DEDUCE_RULES.get((op_char, context))
+    if special_preferences is not None:
+        for op_name, rev_ops, rev_res, fmt in special_preferences:
+            for found in unique_candidates:
+                if (
+                    found.op_name == op_name
+                    and found.rev_ops == rev_ops
+                    and found.rev_res == rev_res
+                    and found.fmt == fmt
+                ):
+                    return found
+
     context_counter = qop_context_priors.get((op_char, context), Counter())
     op_counter = qop_priors.get(op_char, Counter())
 
