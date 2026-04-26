@@ -254,8 +254,6 @@ def merge_snapshot_with_current_delta(
         same_tokens = snapshot_base["input_ids"] == current_record["input_ids"]
         same_labels = snapshot_base["labels"] == current_record["labels"]
         same_category = snapshot_base["category"] == current_record["category"]
-        if len(current_record["input_ids"]) > len(snapshot_base["input_ids"]):
-            continue
         if not (same_tokens and same_labels and same_category):
             replace_source_ids.add(source_problem_id)
 
