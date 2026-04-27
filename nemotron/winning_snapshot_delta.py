@@ -4,6 +4,8 @@ from __future__ import annotations
 
 import csv
 import json
+import math
+import re
 from collections import Counter
 from dataclasses import dataclass
 from pathlib import Path
@@ -39,6 +41,26 @@ class DeltaStats:
     added_source_problems: int
     added_training_records: int
     final_training_records: int
+
+
+def _answers_match_like_metric(stored_answer: str, predicted: str) -> bool:
+    stored_answer = stored_answer.strip()
+    predicted = predicted.strip()
+
+    if re.fullmatch(r"[01]+", stored_answer):
+        return predicted.lower() == stored_answer.lower()
+
+    try:
+        stored_num = float(stored_answer)
+        predicted_num = float(predicted)
+        return math.isclose(
+            stored_num,
+            predicted_num,
+            rel_tol=1e-2,
+            abs_tol=1e-5,
+        )
+    except Exception:
+        return predicted.lower() == stored_answer.lower()
 
 
 def _build_record(
@@ -199,7 +221,7 @@ def build_current_correct_base_records(
 
         answer = str(row["answer"])
         reasoning_answer = extract_answer(reasoning_text)
-        if reasoning_answer != answer:
+        if not _answers_match_like_metric(answer, reasoning_answer):
             continue
 
         prompt_ids = tokenize_prompt(row["prompt"], chat_tokenizer)
