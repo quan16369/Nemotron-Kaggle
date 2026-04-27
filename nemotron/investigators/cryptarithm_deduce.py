@@ -22,6 +22,18 @@ OPS = [
     lambda a, b: b * 100 + a,  # 4: reverse concat
 ]
 
+OP_NAMES_EXTENDED = [
+    "add",
+    "abs_diff",
+    "mul",
+    "concat",
+    "rev_concat",
+    "sub_ab_neg_prefix",
+    "sub_ba_neg_prefix",
+    "sub_ab_neg_suffix",
+    "sub_ba_neg_suffix",
+]
+
 
 def num_to_digits(n):
     if n == 0:
@@ -31,6 +43,37 @@ def num_to_digits(n):
         d.append(n % 10)
         n //= 10
     return tuple(reversed(d))
+
+
+def result_pattern(op_id, op_sym, a, b):
+    """Return result tokens, where ints are digits and op_sym is a literal sign."""
+    if op_id < 5:
+        result_val = OPS[op_id](a, b)
+        # concat/rev_concat: pad to 4 digits
+        if op_id >= 3:
+            if result_val < 0 or result_val >= 10000:
+                return None
+            return (
+                result_val // 1000,
+                (result_val // 100) % 10,
+                (result_val // 10) % 10,
+                result_val % 10,
+            )
+        return num_to_digits(result_val)
+
+    if op_id in (5, 7):
+        result_val = a - b
+    elif op_id in (6, 8):
+        result_val = b - a
+    else:
+        return None
+
+    if result_val < 0:
+        digits = num_to_digits(-result_val)
+        if op_id in (5, 6):
+            return (op_sym, *digits)
+        return (*digits, op_sym)
+    return num_to_digits(result_val)
 
 
 def is_concat(ex):
@@ -44,6 +87,7 @@ class Solver:
         self.examples = examples
         self.query = query
         self.unique = unique
+        self.op_symbols = {ex[2] for ex in examples} | {query[2]}
         self.mapping = {}
         self.used = set()
         self.op_assign = {}
@@ -51,7 +95,7 @@ class Solver:
         self.answer_info = {}  # answer_str -> (mapping, op_assign)
         self.max_solutions = 200
 
-    OP_NAMES = ["add", "abs_diff", "mul", "concat", "rev_concat"]
+    OP_NAMES = OP_NAMES_EXTENDED
 
     def solve(self):
         self._process(0)
@@ -74,9 +118,10 @@ class Solver:
         s0, s1, op_sym, s3, s4, rsyms = self.examples[idx]
         rlen = len(rsyms)
 
-        # Filter ops by result length feasibility
+        # Filter ops by result length feasibility.
         # add: 0-198 (1-3 chars), abs_diff: 0-99 (1-2), mul: 0-9801 (1-4)
         # concat: 0-9999 (always 4 padded), rev_concat: 0-9999 (always 4 padded)
+        # signed subtractions: -98..98 encoded as digits, or op+digits / digits+op.
         feasible_ops = []
         if rlen <= 3:
             feasible_ops.append(0)  # add
@@ -86,6 +131,13 @@ class Solver:
             feasible_ops.append(2)  # mul
         if rlen == 4:
             feasible_ops.extend([3, 4])  # concat, rev_concat
+        if rlen <= 3:
+            if rsyms and rsyms[0] == op_sym:
+                feasible_ops.extend([5, 6])
+            elif rsyms and rsyms[-1] == op_sym:
+                feasible_ops.extend([7, 8])
+            else:
+                feasible_ops.extend([5, 6, 7, 8])
 
         for d0 in self._vals(s0):
             n0 = self._assign(s0, d0)
@@ -113,25 +165,23 @@ class Solver:
                         )
 
                         for op_id in ops_to_try:
-                            result_val = OPS[op_id](lv, rv)
-                            # concat/rev_concat: pad to 4 digits
-                            if op_id >= 3:
-                                if result_val < 0 or result_val >= 10000:
-                                    continue
-                                rd = (
-                                    result_val // 1000,
-                                    (result_val // 100) % 10,
-                                    (result_val // 10) % 10,
-                                    result_val % 10,
-                                )
-                            else:
-                                rd = num_to_digits(result_val)
+                            rd = result_pattern(op_id, op_sym, lv, rv)
+                            if rd is None:
+                                continue
                             if len(rd) != rlen:
                                 continue
 
                             assigns = []
                             ok = True
                             for rs, rdig in zip(rsyms, rd):
+                                if isinstance(rdig, str):
+                                    if rs != rdig:
+                                        ok = False
+                                        break
+                                    continue
+                                if rs in self.op_symbols:
+                                    ok = False
+                                    break
                                 ns = self._assign(rs, rdig)
                                 if ns is None:
                                     ok = False
@@ -195,8 +245,7 @@ class Solver:
         if qop in self.op_assign:
             op_candidates = [self.op_assign[qop]]
         else:
-            # Try all arithmetic operations if query operator was never seen
-            # in the examples.
+            # Try all operations if query operator was never seen in the examples.
             op_candidates = range(len(self.OP_NAMES))
 
         # Build reverse mapping from digits we know
@@ -206,23 +255,17 @@ class Solver:
                 d2s[d] = s
 
         for op_id in op_candidates:
-            result_val = OPS[op_id](ql, qr)
-            if op_id >= 3:
-                if result_val < 0 or result_val >= 10000:
-                    continue
-                rd = (
-                    result_val // 1000,
-                    (result_val // 100) % 10,
-                    (result_val // 10) % 10,
-                    result_val % 10,
-                )
-            else:
-                rd = num_to_digits(result_val)
+            rd = result_pattern(op_id, qop, ql, qr)
+            if rd is None:
+                continue
 
             # If any result digit has no symbol, skip this solution
             parts = []
             ok = True
             for d in rd:
+                if isinstance(d, str):
+                    parts.append(d)
+                    continue
                 if d not in d2s:
                     ok = False
                     break
@@ -303,7 +346,7 @@ signal.signal(signal.SIGALRM, _timeout_handler)
 
 
 def main():
-    base = os.path.dirname(__file__) or "."
+    base = os.path.dirname(os.path.dirname(__file__)) or "."
     problems_jsonl = os.path.join(base, "problems.jsonl")
     problems_dir = os.path.join(base, "problems")
     investigations_dir = os.path.join(base, "investigations")
@@ -322,6 +365,7 @@ def main():
     print(f"Found {len(problem_ids)} cryptarithm_deduce problems")
 
     correct = wrong = failed = 0
+    timeout_seconds = int(os.environ.get("CRYPTARITHM_TIMEOUT", "5"))
 
     for i, pid in enumerate(problem_ids):
         with open(os.path.join(problems_dir, f"{pid}.jsonl")) as f:
@@ -331,7 +375,7 @@ def main():
         mapping_info = {}
         op_info = {}
         try:
-            signal.alarm(30)
+            signal.alarm(timeout_seconds)
             predicted, (mapping_info, op_info) = solve_problem(data)
             signal.alarm(0)
         except (TimeoutError, KeyError):
