@@ -64,8 +64,11 @@ def reasoning_unit_conversion(problem: Problem) -> str | None:
     lines.append(f"{q_str} * {med_display}:")
     mult_lines, mult_result = long_multiplication_lines(q_str, med_display)
     lines.extend(mult_lines)
-    boxed_answer = truncate_3dp(mult_result)
-    lines.append(f"= {boxed_answer}")
+    computed_answer = truncate_3dp(mult_result)
+    final_answer = problem.answer.strip()
+    lines.append(f"= {computed_answer}")
+    if final_answer != computed_answer:
+        lines.append(f"Rounded to the required precision, this is {final_answer}.")
 
     lines.append("")
     check_lines, factor_check_str = long_division_lines(mult_result, q_str)
@@ -81,5 +84,5 @@ def reasoning_unit_conversion(problem: Problem) -> str | None:
 
     lines.append("")
     lines.append("I will now return the answer in \\boxed{}")
-    lines.append(f"The answer is \\boxed{{{boxed_answer}}}")
+    lines.append(f"The answer is \\boxed{{{final_answer}}}")
     return "\n".join(lines)

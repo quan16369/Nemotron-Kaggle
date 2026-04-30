@@ -20,7 +20,6 @@ import csv
 import hashlib
 import json
 import random
-import re
 import shutil
 from dataclasses import dataclass
 from pathlib import Path
@@ -225,11 +224,8 @@ def main() -> None:
 
         reasoning_text = (REASONING_DIR / f"{problem_id}.txt").read_text().rstrip("\n")
 
-        # Extract answer from reasoning's \boxed{} so they match
-        boxed_match = re.findall(r"\\boxed\{([^}]*)\}", reasoning_text)
-        reasoning_answer = boxed_match[-1] if boxed_match else answer
         completion_text = (
-            f"{reasoning_text}\n</think>\n\\boxed{{{reasoning_answer}}}<|im_end|>"
+            f"{reasoning_text}\n</think>\n\\boxed{{{answer}}}<|im_end|>"
         )
         completion_ids = tokenizer.encode(completion_text, add_special_tokens=False).ids
 

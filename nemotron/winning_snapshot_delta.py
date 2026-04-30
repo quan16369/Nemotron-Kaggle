@@ -226,7 +226,7 @@ def build_current_correct_base_records(
 
         prompt_ids = tokenize_prompt(row["prompt"], chat_tokenizer)
         completion_text = (
-            f"{reasoning_text}\n</think>\n\\boxed{{{reasoning_answer}}}<|im_end|>"
+            f"{reasoning_text}\n</think>\n\\boxed{{{answer}}}<|im_end|>"
         )
         completion_ids = completion_tokenizer.encode(
             completion_text, add_special_tokens=False

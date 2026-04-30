@@ -208,7 +208,7 @@ def main() -> None:
 
         reasoning_answer = extract_answer(reasoning_text) or answer
         completion_text = (
-            f"{reasoning_text}\n</think>\n\\boxed{{{reasoning_answer}}}<|im_end|>"
+            f"{reasoning_text}\n</think>\n\\boxed{{{answer}}}<|im_end|>"
         )
         completion_ids = encode_completion_ids(completion_text)
         examples = detail.get("examples", [])

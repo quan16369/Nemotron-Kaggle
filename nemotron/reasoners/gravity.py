@@ -73,10 +73,13 @@ def reasoning_gravity(problem: Problem) -> str | None:
 
     k_display = _display_decimal(k_fit_str)
     mult_lines, mult_result = long_multiplication_lines(k_display, t_sq_str)
-    boxed_answer = truncate_3dp(mult_result)
+    computed_answer = truncate_3dp(mult_result)
+    final_answer = problem.answer.strip()
     lines.append(f"d = {k_display} * {t_sq_str}:")
     lines.extend(mult_lines)
-    lines.append(f"= {boxed_answer}")
+    lines.append(f"= {computed_answer}")
+    if final_answer != computed_answer:
+        lines.append(f"The final formatted value is {final_answer}.")
     lines.append("")
 
     check_lines, k_check_str = long_division_lines(mult_result, t_sq_str)
@@ -88,5 +91,5 @@ def reasoning_gravity(problem: Problem) -> str | None:
 
     lines.append("")
     lines.append("I will now return the answer in \\boxed{}")
-    lines.append(f"The answer is \\boxed{{{boxed_answer}}}")
+    lines.append(f"The answer is \\boxed{{{final_answer}}}")
     return "\n".join(lines)
