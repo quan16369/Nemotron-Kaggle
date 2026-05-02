@@ -27,6 +27,8 @@ from pathlib import Path
 from tokenizers import Tokenizer  # type: ignore[import-untyped]
 from transformers import AutoTokenizer  # type: ignore[import-untyped]
 
+from reasoning import normalize_reasoning_for_single_box
+
 TRAIN_CSV = Path(__file__).parent / "train.csv"
 AUGMENTATIONS_DIR = Path(__file__).parent / "augmentations"
 PROBLEMS_INDEX = Path(__file__).parent / "problems.jsonl"
@@ -222,7 +224,9 @@ def main() -> None:
         category = problem_cats[problem_id]
         answer = answers[problem_id]
 
-        reasoning_text = (REASONING_DIR / f"{problem_id}.txt").read_text().rstrip("\n")
+        reasoning_text = normalize_reasoning_for_single_box(
+            (REASONING_DIR / f"{problem_id}.txt").read_text().rstrip("\n")
+        )
 
         completion_text = (
             f"{reasoning_text}\n</think>\n\\boxed{{{answer}}}<|im_end|>"

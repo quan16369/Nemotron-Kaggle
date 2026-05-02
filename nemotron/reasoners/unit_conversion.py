@@ -17,7 +17,7 @@ def reasoning_unit_conversion(problem: Problem) -> str | None:
         "We need to find a conversion rule that maps the inputs to outputs. "
         "Let me check if it's a linear factor."
     )
-    lines.append("I will put my final answer inside \\boxed{}.")
+    lines.append("I will compute the answer and state it at the end.")
     lines.append("")
     factor_strs: list[str] = []
     for ex in problem.examples:
@@ -83,6 +83,6 @@ def reasoning_unit_conversion(problem: Problem) -> str | None:
     )
 
     lines.append("")
-    lines.append("I will now return the answer in \\boxed{}")
-    lines.append(f"The answer is \\boxed{{{final_answer}}}")
+    lines.append("I will now state the final answer.")
+    lines.append(f"Final answer is: {final_answer}")
     return "\n".join(lines)
