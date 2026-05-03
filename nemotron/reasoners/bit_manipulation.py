@@ -265,12 +265,12 @@ def _render_whole_word_reasoning(
         for label, name, value in transformed_values:
             lines.append(f"{label} {name} {value}")
         lines.append(f"OUT {match.formula_template} {match.answer_bits}")
-        lines.append(f"Final answer is: {match.answer_bits}")
+        lines.append(f"BOX \\boxed{{{match.answer_bits}}}")
         return "\n".join(lines)
 
     lines = [
         "We need to deduce the transformation by testing whole-word transforms on the full 8-bit input.",
-        "I will compute the answer and state it at the end.",
+        "I will put my final answer inside \\boxed{}.",
         "",
     ]
     output_bits_list = [_format_byte(value) for value in outputs]
@@ -338,8 +338,8 @@ def _render_whole_word_reasoning(
     lines.extend(
         [
             "",
-            "I will now state the final answer.",
-            f"Final answer is: {match.answer_bits}",
+            "I will now return the answer in \\boxed{}",
+            f"The answer in \\boxed{{–}} is \\boxed{{{match.answer_bits}}}",
         ]
     )
     return "\n".join(lines)
@@ -900,8 +900,8 @@ def _emit_apply(
         answer_bits.append(result)
 
     lines.append("")
-    lines.append("I will now state the final answer.")
-    lines.append(f"Final answer is: {''.join(answer_bits)}")
+    lines.append("I will now return the answer in \\boxed{}")
+    lines.append(f"The answer in \\boxed{{–}} is \\boxed{{{''.join(answer_bits)}}}")
 
 
 def _emit_apply_compact(
@@ -915,7 +915,7 @@ def _emit_apply_compact(
         lines.append(f"B{i} {_rule_display(rule)} {result}")
         answer_bits.append(result)
     answer = "".join(answer_bits)
-    lines.append(f"Final answer is: {answer}")
+    lines.append(f"BOX \\boxed{{{answer}}}")
 
 
 def _circular_distance(a: int, b: int) -> int:
@@ -1203,7 +1203,7 @@ def _render_reasoning_legacy_guided(
     lines.append(
         "We need to deduce the transformation by matching the example outputs."
     )
-    lines.append("I will compute the answer and state it at the end.")
+    lines.append("I will put my final answer inside \\boxed{}.")
     lines.append("")
 
     for i, out in enumerate(outputs):
@@ -1446,7 +1446,7 @@ def reasoning_bit_manipulation(
     lines.append(
         "We need to deduce the transformation by matching the example outputs."
     )
-    lines.append("I will compute the answer and state it at the end.")
+    lines.append("I will put my final answer inside \\boxed{}.")
     lines.append("")
 
     # 2) output examples

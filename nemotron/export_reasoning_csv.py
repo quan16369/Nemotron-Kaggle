@@ -16,9 +16,9 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import re
 from pathlib import Path
 
-from reasoning import extract_answer, normalize_reasoning_for_single_box
 from reasoners.bit_manipulation import reasoning_bit_manipulation
 from reasoners.store_types import Problem
 
@@ -27,6 +27,16 @@ TRAIN_CSV = BASE_DIR / "train.csv"
 PROBLEMS_INDEX = BASE_DIR / "problems.jsonl"
 PROBLEMS_DIR = BASE_DIR / "problems"
 REASONING_DIR = BASE_DIR / "reasoning"
+
+
+def _extract_boxed_answer(reasoning_text: str) -> str:
+    matches = re.findall(r"\\boxed\{([^}]*)(?:\}|$)", reasoning_text)
+    if not matches:
+        return ""
+    non_empty = [match.strip() for match in matches if match.strip()]
+    if non_empty:
+        return non_empty[-1]
+    return matches[-1].strip()
 
 
 def load_problem_metadata() -> dict[str, dict]:
@@ -110,8 +120,6 @@ def main() -> None:
             detail = load_problem_detail(problem_id)
             category = metadata.get("category", detail.get("category", ""))
             reasoning_text = load_reasoning(problem_id, category, compact=args.compact)
-            reasoning_answer = extract_answer(reasoning_text)
-            reasoning_text = normalize_reasoning_for_single_box(reasoning_text)
             examples = detail.get("examples", [])
 
             writer.writerow(
@@ -126,7 +134,7 @@ def main() -> None:
                     "num_examples": len(examples),
                     "examples_json": json.dumps(examples, ensure_ascii=True),
                     "has_reasoning": bool(reasoning_text),
-                    "reasoning_answer": reasoning_answer,
+                    "reasoning_answer": _extract_boxed_answer(reasoning_text),
                     "reasoning": reasoning_text,
                 }
             )

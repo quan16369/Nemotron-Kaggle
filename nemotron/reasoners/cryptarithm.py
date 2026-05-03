@@ -33,10 +33,6 @@ def _box(s: str) -> str:
     return "".join(f"【{c}】" for c in s)
 
 
-def _slot_list(items: list[tuple[str, str]]) -> str:
-    return ", ".join(f"{name}=【{value}】" for name, value in items)
-
-
 def reasoning_cryptarithm(problem: Problem) -> str | None:
     """Generate reasoning for cryptarithm problems."""
 
@@ -88,35 +84,34 @@ def reasoning_cryptarithm(problem: Problem) -> str | None:
         answer = q_a[0] + q_a[1] + q_b[0] + q_b[1]
     else:
         answer = q_b[0] + q_b[1] + q_a[0] + q_a[1]
-    if answer != problem.answer:
-        return None
 
-    # Generate compact slot-copy trace.
+    answer_needs_plain_final = "}" in answer
+
+    # Generate trace
     lines: list[str] = []
-    lines.append(
-        "We need to infer how the operator splits and concatenates the symbols."
-    )
-    lines.append("I will compute the answer and state it at the end.")
+    lines.append("We need to infer the transformation rule from the examples.")
+    if answer_needs_plain_final:
+        lines.append(
+            "I will return the final answer plainly because it contains the symbol }."
+        )
+    else:
+        lines.append("I will put my final answer inside \\boxed{}.")
     lines.append("")
 
-    lines.append("Each input has two left symbols, one operator, and two right symbols.")
-    lines.append("")
-
-    # Show each example as slots instead of relying on raw joined strings.
-    for idx, (ex, ex_parsed) in enumerate(zip(problem.examples, exs), start=1):
+    # Show each example with concatenation check
+    for ex, ex_parsed in zip(problem.examples, exs):
+        orig_inp = str(ex.input_value)
         orig_out = str(ex.output_value)
-        slot_values = [
-            ("L0", ex_parsed.a[0]),
-            ("L1", ex_parsed.a[1]),
-            ("OP", ex_parsed.op),
-            ("R0", ex_parsed.b[0]),
-            ("R1", ex_parsed.b[1]),
-        ]
-        lines.append(f"Example {idx}:")
-        lines.append(f"  input slots: {_slot_list(slot_values)}")
-        lines.append(f"  left slots: L0, L1")
-        lines.append(f"  right slots: R0, R1")
-        lines.append(f"  observed output: {_box(orig_out)}")
+        lines.append(f"{quote(orig_inp)} = {quote(orig_out)}")
+        a0, a1 = quote(ex_parsed.a[0]), quote(ex_parsed.a[1])
+        b0, b1 = quote(ex_parsed.b[0]), quote(ex_parsed.b[1])
+        op_q = quote(ex_parsed.op)
+        out_boxed = _box(orig_out)
+        lines.append(f"  input: {a0}{a1}{op_q}{b0}{b1}")
+        lines.append(f"  left:{a0}{a1}")
+        lines.append(f"  operator: {op_q}")
+        lines.append(f"  right:{b0}{b1}")
+        lines.append(f"  output: {out_boxed}")
 
         fwd = ex_parsed.a[0] + ex_parsed.a[1] + ex_parsed.b[0] + ex_parsed.b[1]
         rev = ex_parsed.b[0] + ex_parsed.b[1] + ex_parsed.a[0] + ex_parsed.a[1]
@@ -124,38 +119,35 @@ def reasoning_cryptarithm(problem: Problem) -> str | None:
         is_rev = orig_out == rev
 
         lines.append(
-            f"  left-then-right slots [L0,L1,R0,R1] -> {_box(fwd)}: {'match' if is_fwd else 'mismatch'}"
+            f"  concatenation: {_box(fwd)} {'match' if is_fwd else 'mismatch'}"
         )
         lines.append(
-            f"  right-then-left slots [R0,R1,L0,L1] -> {_box(rev)}: {'match' if is_rev else 'mismatch'}"
+            f"  reverse concatenation: {_box(rev)} {'match' if is_rev else 'mismatch'}"
         )
 
         # Operator line with type
         ct = concat_types.get(ex_parsed.op)
         if ct == "fwd":
-            op_type = "left-then-right"
+            op_type = "concatenation"
         elif ct == "rev":
-            op_type = "right-then-left"
+            op_type = "reverse concatenation"
         else:
             op_type = "unknown"
-        lines.append(f"  operator {quote(ex_parsed.op)} rule: {op_type}")
+        lines.append(f"  operator: {quote(ex_parsed.op)}{op_type}")
         lines.append("")
 
     # Apply to question
     q_op_known = q_op in concat_types
-    op_label = "left-then-right" if q_ct == "fwd" else "right-then-left"
+    op_label = "concatenation" if q_ct == "fwd" else "reverse concatenation"
 
-    q_slot_values = [
-        ("L0", q_a[0]),
-        ("L1", q_a[1]),
-        ("OP", q_op),
-        ("R0", q_b[0]),
-        ("R1", q_b[1]),
-    ]
-    lines.append("Question:")
-    lines.append(f"  input slots: {_slot_list(q_slot_values)}")
-    lines.append(f"  left slots: L0=【{q_a[0]}】, L1=【{q_a[1]}】")
-    lines.append(f"  right slots: R0=【{q_b[0]}】, R1=【{q_b[1]}】")
+    qa0, qa1 = quote(q_a[0]), quote(q_a[1])
+    qb0, qb1 = quote(q_b[0]), quote(q_b[1])
+    q_orig = str(problem.question)
+    lines.append(f"Question{quote(q_orig)}")
+    lines.append(f"  input: {qa0}{qa1}{quote(q_op)}{qb0}{qb1}")
+    lines.append(f"  left:{qa0}{qa1}")
+    lines.append(f"  operator:{quote(q_op)}")
+    lines.append(f"  right:{qb0}{qb1}")
     lines.append("")
 
     if q_op_known:
@@ -169,27 +161,15 @@ def reasoning_cryptarithm(problem: Problem) -> str | None:
         )
     lines.append("")
 
-    if q_ct == "fwd":
-        output_slots = [
-            ("out0", "L0", q_a[0]),
-            ("out1", "L1", q_a[1]),
-            ("out2", "R0", q_b[0]),
-            ("out3", "R1", q_b[1]),
-        ]
-    else:
-        output_slots = [
-            ("out0", "R0", q_b[0]),
-            ("out1", "R1", q_b[1]),
-            ("out2", "L0", q_a[0]),
-            ("out3", "L1", q_a[1]),
-        ]
-
-    lines.append("Apply the rule by copying slots:")
-    for out_name, source_name, value in output_slots:
-        lines.append(f"  {out_name} = {source_name} = 【{value}】")
-    joined_terms = " + ".join(f"【{value}】" for _, _, value in output_slots)
-    lines.append(f"Join outputs without spaces: {joined_terms} = {answer}")
+    lines.append(
+        f"  {op_label}({qa0}{qa1}, {qb0}{qb1}) = {_box(answer)}"
+    )
+    lines.append(f"  output: {quote(answer)}-> {quote('{' + answer + '}')}")
     lines.append("")
-    lines.append("I will now state the final answer.")
-    lines.append(f"Final answer is: {answer}")
+    if answer_needs_plain_final:
+        lines.append("I will now return the final answer plainly.")
+        lines.append(f"Final answer is: {answer}")
+    else:
+        lines.append("I will now return the answer in \\boxed{}")
+        lines.append(f"The answer in \\boxed{{–}} is \\boxed{{{answer}}}")
     return "\n".join(lines)

@@ -81,35 +81,6 @@ def extract_answer(reasoning_text: str) -> str:
     return ""
 
 
-def normalize_reasoning_for_single_box(reasoning_text: str) -> str:
-    """Remove boxed markup from reasoning before appending the final boxed answer.
-
-    Training completions are assembled as:
-        reasoning text
-        </think>
-        \boxed{answer}
-
-    Keeping boxed placeholders or boxed intermediate/final values inside the
-    reasoning teaches the model that multiple boxed spans are acceptable. This
-    normalization leaves the reasoning content intact, but strips the markup so
-    the assembled completion contains exactly one boxed span.
-    """
-    cleaned_lines: list[str] = []
-    for raw_line in reasoning_text.rstrip("\n").splitlines():
-        line = raw_line
-        if "\\boxed{}" in line:
-            continue
-        line = re.sub(r"\s+in\s+\\boxed\{[-–]\}", "", line)
-        line = re.sub(r"\\boxed\{[-–]\}", "", line)
-        line = re.sub(r"\\boxed\{([^{}]*)\}", r"\1", line)
-        line = line.replace("\\boxed{", "")
-        cleaned_lines.append(line.rstrip())
-
-    while cleaned_lines and cleaned_lines[-1] == "":
-        cleaned_lines.pop()
-    return "\n".join(cleaned_lines)
-
-
 def compare_answer(stored_answer: str, predicted: str) -> bool:
     """Verify if the answer matches.
 

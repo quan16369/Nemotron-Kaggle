@@ -30,10 +30,6 @@ from winning_snapshot_delta import (
     load_snapshot_records,
     merge_snapshot_with_current_delta,
 )
-from reasoning import normalize_reasoning_for_single_box
-from reasoners.cipher import reasoning_cipher
-from reasoners.cryptarithm import reasoning_cryptarithm
-from reasoners.store_types import Problem
 
 BASE_DIR = Path(__file__).parent
 DEFAULT_SNAPSHOT_DIR = BASE_DIR / "training" / "sft" / "04-08-16-14"
@@ -44,7 +40,6 @@ DEFAULT_SAFE_DELTA_CATEGORIES = [
     "bit_manipulation",
     "equation_numeric_guess",
 ]
-PROBLEMS_DIR = BASE_DIR / "problems"
 
 
 def parse_category_value_specs(raw_values: list[str]) -> dict[str, str]:
@@ -202,144 +197,6 @@ def maybe_sample_records(
     return sampled_records, sample_stats
 
 
-def sanitize_completion_text(completion_text: str) -> str:
-    if "</think>" not in completion_text:
-        return normalize_reasoning_for_single_box(completion_text)
-
-    reasoning_text, final_text = completion_text.split("</think>", 1)
-    reasoning_text = normalize_reasoning_for_single_box(reasoning_text)
-    return f"{reasoning_text}\n</think>{final_text}"
-
-
-def load_problem(problem_id: str) -> Problem:
-    with (PROBLEMS_DIR / f"{problem_id}.jsonl").open() as f:
-        payload = json.loads(f.readline())
-    return Problem.from_payload(payload)
-
-
-def compact_cipher_completion(source_problem_id: str) -> str:
-    problem = load_problem(source_problem_id)
-    reasoning_text = reasoning_cipher(problem)
-    if reasoning_text is None:
-        raise ValueError(f"could not build compact cipher reasoning for {problem.id}")
-    reasoning_text = normalize_reasoning_for_single_box(reasoning_text)
-    return f"{reasoning_text}\n</think>\n\\boxed{{{problem.answer}}}<|im_end|>"
-
-
-def compact_cryptarithm_completion(source_problem_id: str) -> str | None:
-    problem = load_problem(source_problem_id)
-    reasoning_text = reasoning_cryptarithm(problem)
-    if reasoning_text is None:
-        return None
-    reasoning_text = normalize_reasoning_for_single_box(reasoning_text)
-    return f"{reasoning_text}\n</think>\n\\boxed{{{problem.answer}}}<|im_end|>"
-
-
-def rewrite_record_completion(
-    record: dict,
-    completion_tokenizer: Tokenizer,
-    *,
-    max_seq_len: int,
-    compact_cipher: bool,
-    compact_cryptarithm: bool,
-) -> tuple[dict, bool, int, int, str]:
-    labels = record["labels"]
-    try:
-        completion_start = next(i for i, label in enumerate(labels) if label != -100)
-    except StopIteration:
-        return record, False, 0, 0, ""
-
-    if any(label != -100 for label in labels[:completion_start]):
-        raise ValueError(f"non-contiguous prompt mask for {record['problem_id']}")
-    if any(label == -100 for label in labels[completion_start:]):
-        raise ValueError(f"non-contiguous completion mask for {record['problem_id']}")
-
-    prompt_ids = record["input_ids"][:completion_start]
-    completion_ids = record["input_ids"][completion_start:]
-    completion_text = completion_tokenizer.decode(
-        completion_ids,
-        skip_special_tokens=False,
-    )
-    old_box_count = completion_text.count("\\boxed{")
-
-    compact_kind = ""
-    category = record["category"]
-    source_problem_id = str(record["source_problem_id"])
-    if compact_cipher and category == "cipher":
-        rewritten_text = compact_cipher_completion(source_problem_id)
-        compact_kind = "cipher"
-    elif compact_cryptarithm and category.startswith("cryptarithm_"):
-        compact_completion = compact_cryptarithm_completion(source_problem_id)
-        if compact_completion is None:
-            rewritten_text = sanitize_completion_text(completion_text)
-        else:
-            rewritten_text = compact_completion
-            compact_kind = "cryptarithm"
-    else:
-        rewritten_text = sanitize_completion_text(completion_text)
-
-    new_box_count = rewritten_text.count("\\boxed{")
-    if rewritten_text == completion_text:
-        return record, False, old_box_count, new_box_count, compact_kind
-
-    new_completion_ids = completion_tokenizer.encode(
-        rewritten_text,
-        add_special_tokens=False,
-    ).ids
-    new_input_ids = prompt_ids + new_completion_ids
-    if len(new_input_ids) > max_seq_len:
-        raise ValueError(
-            f"postprocessed example {record['problem_id']} exceeds max length: "
-            f"{len(new_input_ids)} > {max_seq_len}"
-        )
-
-    rewritten = dict(record)
-    rewritten["input_ids"] = new_input_ids
-    rewritten["labels"] = [-100] * len(prompt_ids) + new_completion_ids
-    rewritten["num_loss_tokens"] = len(new_completion_ids)
-    rewritten["completion_token_count"] = len(new_completion_ids)
-    return rewritten, True, old_box_count, new_box_count, compact_kind
-
-
-def postprocess_records(
-    records: list[dict],
-    completion_tokenizer: Tokenizer,
-    *,
-    max_seq_len: int,
-    compact_cipher: bool,
-    compact_cryptarithm: bool,
-) -> tuple[list[dict], dict[str, int]]:
-    rewritten_records: list[dict] = []
-    stats = {
-        "rows": 0,
-        "changed_rows": 0,
-        "compact_cipher_rows": 0,
-        "compact_cryptarithm_rows": 0,
-        "total_boxes_before": 0,
-        "total_boxes_after": 0,
-        "rows_not_one_box_after": 0,
-    }
-
-    for record in records:
-        stats["rows"] += 1
-        rewritten, changed, old_boxes, new_boxes, compact_kind = rewrite_record_completion(
-            record,
-            completion_tokenizer,
-            max_seq_len=max_seq_len,
-            compact_cipher=compact_cipher,
-            compact_cryptarithm=compact_cryptarithm,
-        )
-        stats["changed_rows"] += int(changed)
-        stats["compact_cipher_rows"] += int(compact_kind == "cipher")
-        stats["compact_cryptarithm_rows"] += int(compact_kind == "cryptarithm")
-        stats["total_boxes_before"] += old_boxes
-        stats["total_boxes_after"] += new_boxes
-        stats["rows_not_one_box_after"] += int(new_boxes != 1)
-        rewritten_records.append(rewritten)
-
-    return rewritten_records, stats
-
-
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
     parser.add_argument(
@@ -377,30 +234,6 @@ def parse_args() -> argparse.Namespace:
         "--bit-manipulation-compact",
         action="store_true",
         help="Use compact=True when regenerating bit_manipulation delta traces",
-    )
-    parser.add_argument(
-        "--single-box-postprocess",
-        action="store_true",
-        help=(
-            "Before writing the manifest, strip boxed markup from reasoning and "
-            "leave exactly one final boxed answer in each completion."
-        ),
-    )
-    parser.add_argument(
-        "--compact-cipher",
-        action="store_true",
-        help=(
-            "During --single-box-postprocess, replace cipher completions with "
-            "the compact current cipher trace."
-        ),
-    )
-    parser.add_argument(
-        "--compact-cryptarithm",
-        action="store_true",
-        help=(
-            "During --single-box-postprocess, replace concat/reverse-concat "
-            "cryptarithm completions with the compact slot-copy trace."
-        ),
     )
     parser.add_argument(
         "--bit-manipulation-three-bit-repair",
@@ -492,8 +325,6 @@ def main() -> None:
     )
     final_records = snapshot_records
     delta_stats = None
-    postprocess_stats = None
-    completion_tokenizer = None
 
     if not args.no_delta:
         if Tokenizer is None or AutoTokenizer is None:
@@ -531,24 +362,6 @@ def main() -> None:
         sample_seed=args.sample_seed,
         sample_length_buckets=args.sample_length_buckets,
     )
-
-    postprocess_enabled = (
-        args.single_box_postprocess
-        or args.compact_cipher
-        or args.compact_cryptarithm
-    )
-    if postprocess_enabled:
-        if Tokenizer is None:
-            raise ModuleNotFoundError("tokenizers is required for postprocessing")
-        if completion_tokenizer is None:
-            completion_tokenizer = Tokenizer.from_file(str(TOKENIZER_JSON))
-        final_records, postprocess_stats = postprocess_records(
-            final_records,
-            completion_tokenizer,
-            max_seq_len=MAX_SEQ_LEN,
-            compact_cipher=args.compact_cipher,
-            compact_cryptarithm=args.compact_cryptarithm,
-        )
 
     fieldnames = [
         "problem_id",
@@ -614,7 +427,6 @@ def main() -> None:
                     }
                 ),
                 "sample_stats": sample_stats,
-                "postprocess_stats": postprocess_stats,
             },
             indent=2,
         )

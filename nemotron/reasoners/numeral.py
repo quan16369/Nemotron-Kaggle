@@ -48,7 +48,7 @@ def _from_roman(s: str) -> int:
 def reasoning_numeral(problem: Problem) -> str:
     lines: list[str] = []
     lines.append("We determine the numeral system from the examples:")
-    lines.append("I will compute the answer and state it at the end.")
+    lines.append("I will put my final answer inside \\boxed{}.")
     lines.append("")
     for ex in problem.examples:
         lines.append(f"  {ex.input_value} -> {ex.output_value}")
@@ -66,6 +66,6 @@ def reasoning_numeral(problem: Problem) -> str:
     lines.append(f"This matches the original number {n}, so the result is consistent.")
 
     lines.append("")
-    lines.append("I will now state the final answer.")
-    lines.append(f"Final answer is: {computed}")
+    lines.append("I will now return the answer in \\boxed{}")
+    lines.append(f"The answer is \\boxed{{{computed}}}")
     return "\n".join(lines)

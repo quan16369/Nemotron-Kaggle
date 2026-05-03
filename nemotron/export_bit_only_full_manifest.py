@@ -26,7 +26,7 @@ from typing import Any
 
 from tokenizers import Tokenizer
 
-from reasoning import extract_answer, normalize_reasoning_for_single_box
+from reasoning import extract_answer
 from reasoners.bit_manipulation import reasoning_bit_manipulation
 from reasoners.store_types import Problem
 
@@ -47,7 +47,7 @@ MAX_SEQ_LEN = 8192
 MAX_COMPLETION_TOKENS = 7680
 
 FALLBACK_TEMPLATE = (
-    "I will state the final answer at the end.\n"
+    "I will return the final answer inside \\boxed{{}}.\n"
     "The output bits for the target input are {answer}."
 )
 
@@ -87,7 +87,6 @@ def tokenize_prompt(prompt: str, tokenizer: Tokenizer) -> list[int]:
 
 
 def build_completion_tokens(reasoning_text: str, answer: str, tokenizer: Tokenizer) -> list[int]:
-    reasoning_text = normalize_reasoning_for_single_box(reasoning_text)
     completion_text = f"{reasoning_text}\n</think>\n\\boxed{{{answer}}}<|im_end|>"
     return tokenizer.encode(completion_text, add_special_tokens=False).ids
 

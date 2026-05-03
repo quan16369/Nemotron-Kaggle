@@ -22,7 +22,7 @@ def reasoning_gravity(problem: Problem) -> str | None:
     lines.append(
         "We need to determine the falling distance using d = k*t^2. Let me find k from the examples."
     )
-    lines.append("I will compute the answer and state it at the end.")
+    lines.append("I will put my final answer inside \\boxed{}.")
     lines.append("")
 
     k_strs: list[str] = []
@@ -90,6 +90,6 @@ def reasoning_gravity(problem: Problem) -> str | None:
     lines.append(f"This matches the chosen k = {k_fit_str}, so the result is consistent.")
 
     lines.append("")
-    lines.append("I will now state the final answer.")
-    lines.append(f"Final answer is: {final_answer}")
+    lines.append("I will now return the answer in \\boxed{}")
+    lines.append(f"The answer is \\boxed{{{final_answer}}}")
     return "\n".join(lines)

@@ -28,12 +28,7 @@ try:
 except ModuleNotFoundError:  # pragma: no cover - optional local dependency
     Tokenizer = None  # type: ignore[assignment]
 
-from reasoning import (
-    GENERATORS,
-    compare_answer,
-    extract_answer,
-    normalize_reasoning_for_single_box,
-)
+from reasoning import GENERATORS, compare_answer, extract_answer
 from reasoners.store_types import Problem
 
 BASE_DIR = Path(__file__).parent
@@ -212,9 +207,8 @@ def main() -> None:
             continue
 
         reasoning_answer = extract_answer(reasoning_text) or answer
-        normalized_reasoning_text = normalize_reasoning_for_single_box(reasoning_text)
         completion_text = (
-            f"{normalized_reasoning_text}\n</think>\n\\boxed{{{answer}}}<|im_end|>"
+            f"{reasoning_text}\n</think>\n\\boxed{{{answer}}}<|im_end|>"
         )
         completion_ids = encode_completion_ids(completion_text)
         examples = detail.get("examples", [])
@@ -233,7 +227,7 @@ def main() -> None:
                 "answer": answer,
                 "reasoning_answer": reasoning_answer,
                 "reasoning_is_correct": compare_answer(answer, reasoning_answer),
-                "generated_cot": normalized_reasoning_text,
+                "generated_cot": reasoning_text,
                 "completion_text": completion_text,
                 "completion_token_count": len(completion_ids) if completion_ids else "",
                 "completion_over_7680": (
