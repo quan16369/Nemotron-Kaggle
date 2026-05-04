@@ -359,6 +359,11 @@ def reasoning_cipher(problem: Problem) -> str | None:
                 plain_to_cipher[pc] = cc
             if not _is_bijective_mapping(cipher_to_plain):
                 return None
+            lines.append("[Consistency]")
+            lines.append("candidate_in_dictionary = yes")
+            lines.append("pattern_match = yes")
+            lines.append("all_known_mappings_obeyed = yes")
+            lines.append("bijective = yes")
             if new_mappings:
                 nl_new = "\n".join(new_mappings)
                 lines.append(f"New mappings\n{nl_new}")
@@ -387,6 +392,11 @@ def reasoning_cipher(problem: Problem) -> str | None:
         "All decoded words are Wonderland words, the mapping is bijective, "
         "and the word count matches the question."
     )
+    lines.append("[Consistency]")
+    lines.append("candidate_in_dictionary = yes")
+    lines.append("pattern_match = yes")
+    lines.append("all_known_mappings_obeyed = yes")
+    lines.append("bijective = yes")
 
     lines.append("")
     lines.append("I will now return the answer in \\boxed{}")
