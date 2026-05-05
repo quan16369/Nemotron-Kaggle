@@ -60,12 +60,6 @@ def reasoning_numeral(problem: Problem) -> str:
     lines.append(f"{n} in Roman numerals is {computed}.")
 
     lines.append("")
-    checked = _from_roman(computed)
-    lines.append("Double-check:")
-    lines.append(f"Converting {computed} back to Arabic gives {checked}.")
-    lines.append(f"This matches the original number {n}, so the result is consistent.")
-
-    lines.append("")
     lines.append("I will now return the answer in \\boxed{}")
     lines.append(f"The answer is \\boxed{{{computed}}}")
     return "\n".join(lines)

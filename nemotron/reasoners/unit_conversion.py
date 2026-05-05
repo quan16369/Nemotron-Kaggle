@@ -157,18 +157,6 @@ def reasoning_unit_conversion(problem: Problem) -> str | None:
         lines.append(f"Rounded to the required precision, this is {final_answer}.")
 
     lines.append("")
-    check_lines, factor_check_str = long_division_lines(mult_result, q_str)
-    lines.append("Double-check:")
-    lines.append(
-        f"If the converted value is {mult_result}, then factor = {mult_result} / {q_str}:"
-    )
-    lines.extend(check_lines)
-    lines.append(f"= {factor_check_str}")
-    lines.append(
-        f"This matches the chosen factor = {med_factor_str}, so the result is consistent."
-    )
-
-    lines.append("")
     lines.append("I will now return the answer in \\boxed{}")
     lines.append(f"The answer is \\boxed{{{final_answer}}}")
     return "\n".join(lines)

@@ -166,14 +166,6 @@ def reasoning_gravity(problem: Problem) -> str | None:
     lines.append(f"= {computed_answer}")
     if final_answer != computed_answer:
         lines.append(f"The final formatted value is {final_answer}.")
-    lines.append("")
-
-    check_lines, k_check_str = long_division_lines(mult_result, t_sq_str)
-    lines.append("Double-check:")
-    lines.append(f"If d = {mult_result}, then k = d / t^2 = {mult_result} / {t_sq_str}:")
-    lines.extend(check_lines)
-    lines.append(f"= {k_check_str}")
-    lines.append(f"This matches the chosen k = {k_fit_str}, so the result is consistent.")
 
     lines.append("")
     lines.append("I will now return the answer in \\boxed{}")

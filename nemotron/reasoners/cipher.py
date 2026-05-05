@@ -369,9 +369,6 @@ def reasoning_cipher(problem: Problem) -> str | None:
                 lines.append(f"New mappings\n{nl_new}")
 
     final_decoded_words: list[str] = []
-    lines.append("")
-    lines.append("Double-check:")
-    lines.append("Applying the final mapping to the question again:")
     for cw in question_words:
         decoded = _decode_word(cw, cipher_to_plain)
         if decoded is None:
@@ -379,7 +376,6 @@ def reasoning_cipher(problem: Problem) -> str | None:
         if decoded not in wonderland_set:
             return None
         final_decoded_words.append(decoded)
-        lines.append(f"  {cw} -> {decoded}")
 
     if len(final_decoded_words) != len(question_words):
         return None
