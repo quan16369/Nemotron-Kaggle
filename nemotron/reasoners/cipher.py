@@ -28,6 +28,10 @@ def _word_pattern(word: str) -> tuple[int, ...]:
     return tuple(pattern)
 
 
+def _format_pattern(word: str) -> str:
+    return "-".join(str(i) for i in _word_pattern(word))
+
+
 def _candidate_words_for_partial(
     partial: str,
     cipher_to_plain: dict[str, str],
@@ -299,39 +303,28 @@ def reasoning_cipher(problem: Problem) -> str | None:
                 lines.append("New mappings: none")
             lines.append(f"【{display_dashed}】")
 
-            # Iterate over all wonderland words, checking each against the partial
             target_len = len(cw)
-            lines.append(f"The length of the word is {target_len}.")
-            for word in wonderland_words:
-                wlen = len(word)
-                if wlen != target_len:
-                    lines.append(f"{word} {wlen} length")
-                    continue
-                # Letter-by-letter comparison with early stop on mismatch
-                word_dashed = dash.join(word)
-                comparisons: list[str] = []
-                mismatch_found = False
-                for pos, (wi_char, cc) in enumerate(zip(word, cw)):
-                    if cc in cipher_to_plain:
-                        pc = cipher_to_plain[cc]
-                        if wi_char == pc:
-                            comparisons.append(f"{pos}【{wi_char}】【{pc}】match")
-                        else:
-                            comparisons.append(f"{pos}【{pc}】【{wi_char}】mismatch")
-                            mismatch_found = True
-                            break
-                    else:
-                        comparisons.append(f"{pos}【{wi_char}】【({cc})】match")
-                comp_str = " , ".join(comparisons)
-                if not mismatch_found:
-                    comp_str += f", {len(cw)} all match"
-                lines.append(f"{word} {wlen} 【{word_dashed}】, {comp_str}")
-
             remaining = [c for c in display_candidates if c in wonderland_set]
             if not remaining:
                 return None
             chosen = remaining[0]
-            lines.append(f"Best match: 【{chosen}】")
+
+            shown_candidates = remaining[:8]
+            candidate_text = ", ".join(f"【{c}】" for c in shown_candidates)
+            if len(remaining) > len(shown_candidates):
+                candidate_text += f", ... ({len(remaining)} total)"
+
+            lines.append("[Candidate_Search]")
+            lines.append(f"cipher_word = {cw}")
+            lines.append(f"partial_decode = {partial}")
+            lines.append(f"length = {target_len}")
+            lines.append(f"pattern = {_format_pattern(cw)}")
+            lines.append(
+                "filters = dictionary word + same length + same repeat pattern "
+                "+ known mappings + bijection"
+            )
+            lines.append(f"valid_candidates = {candidate_text}")
+            lines.append(f"chosen = 【{chosen}】")
             decoded_words[idx] = chosen
 
             # Show resolved dashed display
