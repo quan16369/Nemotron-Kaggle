@@ -30,6 +30,7 @@ except ModuleNotFoundError:  # pragma: no cover - optional local dependency
 
 from reasoning import GENERATORS, compare_answer, extract_answer
 from reasoners.store_types import Problem
+from three_agent import build_three_agent_completion, wrap_three_agent_reasoning
 
 BASE_DIR = Path(__file__).parent
 TRAIN_CSV = BASE_DIR / "train.csv"
@@ -207,8 +208,15 @@ def main() -> None:
             continue
 
         reasoning_answer = extract_answer(reasoning_text) or answer
-        completion_text = (
-            f"{reasoning_text}\n</think>\n\\boxed{{{answer}}}<|im_end|>"
+        training_reasoning_text = wrap_three_agent_reasoning(
+            reasoning_text,
+            category=category,
+            answer=answer,
+        )
+        completion_text = build_three_agent_completion(
+            reasoning_text,
+            category=category,
+            answer=answer,
         )
         completion_ids = encode_completion_ids(completion_text)
         examples = detail.get("examples", [])
@@ -227,7 +235,7 @@ def main() -> None:
                 "answer": answer,
                 "reasoning_answer": reasoning_answer,
                 "reasoning_is_correct": compare_answer(answer, reasoning_answer),
-                "generated_cot": reasoning_text,
+                "generated_cot": training_reasoning_text,
                 "completion_text": completion_text,
                 "completion_token_count": len(completion_ids) if completion_ids else "",
                 "completion_over_7680": (
@@ -248,7 +256,16 @@ def main() -> None:
             category = text.split("[category]\n", 1)[1].split("\n[prompt]\n", 1)[0]
             prompt_text = text.split("[prompt]\n", 1)[1].split("\n[completion]\n", 1)[0]
             completion = text.split("\n[completion]\n", 1)[1].rstrip("\n")
-            completion_text = f"{completion}\n</think><|im_end|>"
+            training_reasoning_text = wrap_three_agent_reasoning(
+                completion,
+                category=category,
+                answer=completion,
+            )
+            completion_text = build_three_agent_completion(
+                completion,
+                category=category,
+                answer=completion,
+            )
             completion_ids = encode_completion_ids(completion_text)
 
             rows.append(
@@ -265,7 +282,7 @@ def main() -> None:
                     "answer": completion,
                     "reasoning_answer": "",
                     "reasoning_is_correct": "",
-                    "generated_cot": completion,
+                    "generated_cot": training_reasoning_text,
                     "completion_text": completion_text,
                     "completion_token_count": len(completion_ids) if completion_ids else "",
                     "completion_over_7680": (

@@ -29,6 +29,7 @@ from tokenizers import Tokenizer
 from reasoning import extract_answer
 from reasoners.bit_manipulation import reasoning_bit_manipulation
 from reasoners.store_types import Problem
+from three_agent import build_three_agent_completion
 
 BASE_DIR = Path(__file__).parent
 TRAIN_CSV = BASE_DIR / "train.csv"
@@ -87,7 +88,11 @@ def tokenize_prompt(prompt: str, tokenizer: Tokenizer) -> list[int]:
 
 
 def build_completion_tokens(reasoning_text: str, answer: str, tokenizer: Tokenizer) -> list[int]:
-    completion_text = f"{reasoning_text}\n</think>\n\\boxed{{{answer}}}<|im_end|>"
+    completion_text = build_three_agent_completion(
+        reasoning_text,
+        category="bit_manipulation",
+        answer=answer,
+    )
     return tokenizer.encode(completion_text, add_special_tokens=False).ids
 
 

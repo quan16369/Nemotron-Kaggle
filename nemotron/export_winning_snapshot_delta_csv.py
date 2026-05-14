@@ -26,6 +26,7 @@ except ModuleNotFoundError:  # pragma: no cover - optional local dependency
     AutoTokenizer = None  # type: ignore[assignment]
 
 from winning_snapshot_delta import (
+    COMPETITION_CATEGORIES,
     build_current_correct_base_records,
     load_snapshot_records,
     merge_snapshot_with_current_delta,
@@ -217,6 +218,14 @@ def parse_args() -> argparse.Namespace:
         help="Export the raw winning snapshot only",
     )
     parser.add_argument(
+        "--current-only",
+        action="store_true",
+        help=(
+            "Export only current generated records. This is the mode to use when "
+            "all rows must share the same current 3-agent completion format."
+        ),
+    )
+    parser.add_argument(
         "--use-existing-reasoning-files",
         action="store_true",
         help="Prefer reasoning/*.txt over regenerating with current code when building delta rows",
@@ -253,6 +262,11 @@ def parse_args() -> argparse.Namespace:
             "Categories allowed to contribute current-code delta records. "
             "Default is the safe hard-category set: bit_manipulation equation_numeric_guess."
         ),
+    )
+    parser.add_argument(
+        "--all-current-categories",
+        action="store_true",
+        help="With --current-only, include every competition category the current reasoners solve correctly.",
     )
     parser.add_argument(
         "--keep-fraction",
@@ -319,14 +333,20 @@ def resolve_chat_tokenizer_path(explicit: str | None) -> str:
 def main() -> None:
     args = parse_args()
 
-    snapshot_records, snapshot_config = load_snapshot_records(
-        args.snapshot_dir,
-        max_seq_len=MAX_SEQ_LEN,
-    )
+    if args.current_only and args.no_delta:
+        raise ValueError("--current-only and --no-delta cannot be used together")
+
+    snapshot_records = []
+    snapshot_config = {}
+    if not args.current_only:
+        snapshot_records, snapshot_config = load_snapshot_records(
+            args.snapshot_dir,
+            max_seq_len=MAX_SEQ_LEN,
+        )
     final_records = snapshot_records
     delta_stats = None
 
-    if not args.no_delta:
+    if args.current_only or not args.no_delta:
         if Tokenizer is None or AutoTokenizer is None:
             raise ModuleNotFoundError(
                 "tokenizers and transformers are required to export the delta manifest"
@@ -338,7 +358,11 @@ def main() -> None:
             trust_remote_code=True,
         )
         completion_tokenizer = Tokenizer.from_file(str(TOKENIZER_JSON))
-        delta_categories = set(args.delta_categories)
+        delta_categories = (
+            set(COMPETITION_CATEGORIES)
+            if args.current_only and args.all_current_categories
+            else set(args.delta_categories)
+        )
         current_correct_base_records = build_current_correct_base_records(
             repo_dir=BASE_DIR,
             chat_tokenizer=chat_tokenizer,
@@ -350,10 +374,16 @@ def main() -> None:
             bit_manipulation_use_legacy=args.use_legacy_bit_manipulation,
             delta_categories=delta_categories,
         )
-        final_records, delta_stats = merge_snapshot_with_current_delta(
-            snapshot_records,
-            current_correct_base_records,
-        )
+        if args.current_only:
+            final_records = sorted(
+                current_correct_base_records.values(),
+                key=lambda record: record["problem_id"],
+            )
+        else:
+            final_records, delta_stats = merge_snapshot_with_current_delta(
+                snapshot_records,
+                current_correct_base_records,
+            )
 
     final_records, sample_stats = maybe_sample_records(
         final_records,
@@ -400,16 +430,20 @@ def main() -> None:
         json.dumps(
             {
                 "snapshot_dir": str(args.snapshot_dir),
+                "current_only": args.current_only,
                 "snapshot_examples": len(snapshot_records),
                 "final_examples": len(final_records),
                 "output": str(args.output),
                 "chat_tokenizer_path": (
-                    None if args.no_delta else resolve_chat_tokenizer_path(args.chat_tokenizer_path)
+                    None
+                    if args.no_delta
+                    else resolve_chat_tokenizer_path(args.chat_tokenizer_path)
                 ),
                 "bit_manipulation_compact": args.bit_manipulation_compact,
                 "bit_manipulation_three_bit_repair": args.bit_manipulation_three_bit_repair,
                 "bit_manipulation_use_legacy": args.use_legacy_bit_manipulation,
-                "delta_categories": args.delta_categories,
+                "delta_categories": sorted(delta_categories) if "delta_categories" in locals() else args.delta_categories,
+                "all_current_categories": args.all_current_categories,
                 "keep_fraction": args.keep_fraction,
                 "keep_problems": args.keep_problems,
                 "sample_seed": args.sample_seed,

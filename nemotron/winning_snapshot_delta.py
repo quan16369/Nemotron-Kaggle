@@ -11,12 +11,20 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
-from tokenizers import Tokenizer
-from transformers import PreTrainedTokenizerBase
+try:
+    from tokenizers import Tokenizer
+except ModuleNotFoundError:  # pragma: no cover - optional local dependency
+    Tokenizer = Any  # type: ignore[assignment]
+
+try:
+    from transformers import PreTrainedTokenizerBase
+except ModuleNotFoundError:  # pragma: no cover - optional local dependency
+    PreTrainedTokenizerBase = Any  # type: ignore[assignment]
 
 from corpus import tokenize_prompt
 from reasoning import GENERATORS, extract_answer
 from reasoners.store_types import Problem
+from three_agent import build_three_agent_completion
 
 COMPETITION_CATEGORIES = {
     "bit_manipulation",
@@ -225,8 +233,10 @@ def build_current_correct_base_records(
             continue
 
         prompt_ids = tokenize_prompt(row["prompt"], chat_tokenizer)
-        completion_text = (
-            f"{reasoning_text}\n</think>\n\\boxed{{{answer}}}<|im_end|>"
+        completion_text = build_three_agent_completion(
+            reasoning_text,
+            category=category,
+            answer=answer,
         )
         completion_ids = completion_tokenizer.encode(
             completion_text, add_special_tokens=False
