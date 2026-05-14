@@ -180,6 +180,42 @@ def _get_current_reasoning_text(
     return reasoning_text
 
 
+def _encode_three_agent_completion_with_fallback(
+    *,
+    reasoning_text: str,
+    category: str,
+    answer: str,
+    prompt_token_count: int,
+    completion_tokenizer: Tokenizer,
+    max_seq_len: int,
+) -> list[int]:
+    budgets: tuple[int | None, ...] = (None, 18000, 12000, 8000, 5000, 3000, 1500, 0)
+    last_completion_ids: list[int] | None = None
+    for solver_char_budget in budgets:
+        completion_text = build_three_agent_completion(
+            reasoning_text,
+            category=category,
+            answer=answer,
+            solver_char_budget=solver_char_budget,
+        )
+        completion_ids = completion_tokenizer.encode(
+            completion_text,
+            add_special_tokens=False,
+        ).ids
+        last_completion_ids = completion_ids
+        if prompt_token_count + len(completion_ids) <= max_seq_len:
+            if solver_char_budget is not None:
+                print(
+                    "Compacted overlength 3-agent trace: "
+                    f"category={category} answer={answer} "
+                    f"solver_char_budget={solver_char_budget} "
+                    f"total_tokens={prompt_token_count + len(completion_ids)}"
+                )
+            return completion_ids
+    assert last_completion_ids is not None
+    return last_completion_ids
+
+
 def build_current_correct_base_records(
     *,
     repo_dir: Path,
@@ -233,14 +269,14 @@ def build_current_correct_base_records(
             continue
 
         prompt_ids = tokenize_prompt(row["prompt"], chat_tokenizer)
-        completion_text = build_three_agent_completion(
-            reasoning_text,
+        completion_ids = _encode_three_agent_completion_with_fallback(
+            reasoning_text=reasoning_text,
             category=category,
             answer=answer,
+            prompt_token_count=len(prompt_ids),
+            completion_tokenizer=completion_tokenizer,
+            max_seq_len=max_seq_len,
         )
-        completion_ids = completion_tokenizer.encode(
-            completion_text, add_special_tokens=False
-        ).ids
         tokens = prompt_ids + completion_ids
         mask = [0] * len(prompt_ids) + [1] * len(completion_ids)
 

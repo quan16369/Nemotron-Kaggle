@@ -24,8 +24,17 @@ import shutil
 from dataclasses import dataclass
 from pathlib import Path
 
-from tokenizers import Tokenizer  # type: ignore[import-untyped]
-from transformers import AutoTokenizer  # type: ignore[import-untyped]
+try:
+    from tokenizers import Tokenizer  # type: ignore[import-untyped]
+except ModuleNotFoundError:  # pragma: no cover - optional local dependency
+    Tokenizer = None  # type: ignore[assignment]
+
+try:
+    from transformers import AutoTokenizer  # type: ignore[import-untyped]
+except ModuleNotFoundError:  # pragma: no cover - optional local dependency
+    AutoTokenizer = object  # type: ignore[assignment]
+
+from three_agent import build_three_agent_completion
 
 TRAIN_CSV = Path(__file__).parent / "train.csv"
 AUGMENTATIONS_DIR = Path(__file__).parent / "augmentations"
@@ -173,6 +182,8 @@ def main() -> None:
         return
 
     # Load tokenizers
+    if Tokenizer is None:
+        raise ModuleNotFoundError("tokenizers is required to build the corpus")
     tokenizer = Tokenizer.from_file(str(TOKENIZER_PATH))
     chat_tokenizer = AutoTokenizer.from_pretrained(
         "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16", trust_remote_code=True
@@ -224,8 +235,10 @@ def main() -> None:
 
         reasoning_text = (REASONING_DIR / f"{problem_id}.txt").read_text().rstrip("\n")
 
-        completion_text = (
-            f"{reasoning_text}\n</think>\n\\boxed{{{answer}}}<|im_end|>"
+        completion_text = build_three_agent_completion(
+            reasoning_text,
+            category=category,
+            answer=answer,
         )
         completion_ids = tokenizer.encode(completion_text, add_special_tokens=False).ids
 
@@ -303,7 +316,11 @@ def main() -> None:
 
             problem_id = aug_path.stem
 
-            completion_text = f"{completion}\n</think><|im_end|>"
+            completion_text = build_three_agent_completion(
+                completion,
+                category=category,
+                answer=completion,
+            )
             completion_ids = tokenizer.encode(
                 completion_text, add_special_tokens=False
             ).ids

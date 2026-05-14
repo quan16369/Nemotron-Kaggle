@@ -38,6 +38,23 @@ def _sanitize_internal_boxed(text: str) -> str:
     return text.replace(r"\boxed{}", "boxed()")
 
 
+def _fit_solver_trace_to_char_budget(text: str, char_budget: int | None) -> str:
+    if char_budget is None or len(text) <= char_budget:
+        return text
+    if char_budget <= 0:
+        return ""
+    if char_budget < 256:
+        return text[:char_budget].rstrip()
+
+    head_budget = max(128, char_budget // 3)
+    tail_budget = max(128, char_budget - head_budget - 64)
+    return (
+        text[:head_budget].rstrip()
+        + "\n[Solver_Trace_Truncated]\n"
+        + text[-tail_budget:].lstrip()
+    ).rstrip()
+
+
 def _verifier_lines(category: str, answer: str) -> list[str]:
     lines = [
         "[Agent_2_Verifier]",
@@ -93,11 +110,13 @@ def wrap_three_agent_reasoning(
     *,
     category: str,
     answer: str,
+    solver_char_budget: int | None = None,
 ) -> str:
     """Return a category-uniform 3-agent trace without internal boxed answers."""
     solver_trace = _sanitize_internal_boxed(
         _strip_trailing_final_answer_lines(reasoning_text)
     ).rstrip("\n")
+    solver_trace = _fit_solver_trace_to_char_budget(solver_trace, solver_char_budget)
 
     lines = ["[Agent_1_Solver]"]
     if solver_trace:
@@ -122,10 +141,12 @@ def build_three_agent_completion(
     *,
     category: str,
     answer: str,
+    solver_char_budget: int | None = None,
 ) -> str:
     wrapped = wrap_three_agent_reasoning(
         reasoning_text,
         category=category,
         answer=answer,
+        solver_char_budget=solver_char_budget,
     )
     return f"{wrapped}\n</think>\n\\boxed{{{answer}}}<|im_end|>"
