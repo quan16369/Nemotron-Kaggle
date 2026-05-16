@@ -133,6 +133,7 @@ def _corrupt_binary_answer(
     answer: str,
     key: str,
     reasoning_text: str = "",
+    forced_failed_constraint: str | None = None,
 ) -> tuple[str, str, dict[str, str]]:
     reconstructed, bit_map, rule_map = _extract_bit_output_from_trace(reasoning_text)
     corrected = (
@@ -149,7 +150,11 @@ def _corrupt_binary_answer(
     variants = ["binary_string", "exact_string_match"]
     if corrected.startswith("0") and len(corrected) > 1:
         variants.append("preserve_leading_zeros")
-    failed_constraint = _select_variant(f"bit:{key}", variants)
+    failed_constraint = (
+        forced_failed_constraint
+        if forced_failed_constraint in variants
+        else _select_variant(f"bit:{key}", variants)
+    )
 
     if failed_constraint == "binary_string" or re.fullmatch(r"[01]+", answer) is None:
         candidate = (corrected[:-1] + "2") if corrected else "2"
@@ -253,6 +258,7 @@ def _corrupt_numeric_answer(
     answer: str,
     key: str,
     reasoning_text: str = "",
+    forced_failed_constraint: str | None = None,
 ) -> tuple[str, str, dict[str, str]]:
     try:
         value = float(answer)
@@ -283,7 +289,11 @@ def _corrupt_numeric_answer(
                 variants.append("use_clean_final_answer")
         except Exception:
             pass
-    failed_constraint = _select_variant(f"gravity:{key}", variants)
+    failed_constraint = (
+        forced_failed_constraint
+        if forced_failed_constraint in variants
+        else _select_variant(f"gravity:{key}", variants)
+    )
 
     if failed_constraint == "numeric_answer":
         candidate = f"{answer} m"
@@ -335,6 +345,45 @@ def _corrupt_numeric_answer(
     if computed_value is not None:
         evidence["computed_value"] = computed_value
     return corrupted, "final_rounding_mismatch", evidence
+
+
+def available_negative_constraints(
+    *,
+    category: str,
+    answer: str,
+    reasoning_text: str,
+) -> list[str]:
+    if category == "bit_manipulation":
+        reconstructed, _, _ = _extract_bit_output_from_trace(reasoning_text)
+        corrected = (
+            reconstructed
+            if reconstructed is not None
+            and re.fullmatch(r"[01]+", reconstructed)
+            and len(reconstructed) == len(answer)
+            else answer
+        )
+        constraints = ["binary_string", "exact_string_match"]
+        if corrected.startswith("0") and len(corrected) > 1:
+            constraints.append("preserve_leading_zeros")
+        return constraints
+
+    if category == "gravity":
+        constraints = ["numeric_answer", "final_rounding_already_applied"]
+        computed_value = _extract_gravity_computed_value(reasoning_text, answer)
+        if computed_value is not None:
+            try:
+                decimals = len(answer.split(".", 1)[1]) if "." in answer else 0
+                computed_float = float(computed_value)
+                if (
+                    _format_numeric_like(computed_float, decimals) == answer
+                    and computed_value != answer
+                ):
+                    constraints.append("use_clean_final_answer")
+            except Exception:
+                pass
+        return constraints
+
+    return []
 
 
 def _use_negative_to_correct(
@@ -494,6 +543,7 @@ def wrap_three_agent_reasoning(
     problem_id: str | None = None,
     solver_char_budget: int | None = None,
     negative_to_correct_rate: float = NEGATIVE_TO_CORRECT_RATE,
+    forced_failed_constraint: str | None = None,
 ) -> str:
     """Return a category-uniform 3-agent trace without internal boxed answers."""
     solver_trace = _sanitize_internal_boxed(
@@ -516,12 +566,14 @@ def wrap_three_agent_reasoning(
                 answer,
                 problem_id or reasoning_text or answer,
                 reasoning_text=reasoning_text,
+                forced_failed_constraint=forced_failed_constraint,
             )
         elif category == "gravity":
             candidate_answer, error_type, evidence = _corrupt_numeric_answer(
                 answer,
                 problem_id or reasoning_text or answer,
                 reasoning_text=reasoning_text,
+                forced_failed_constraint=forced_failed_constraint,
             )
         candidate_valid = candidate_answer == answer
 
@@ -574,6 +626,7 @@ def build_three_agent_completion(
     problem_id: str | None = None,
     solver_char_budget: int | None = None,
     negative_to_correct_rate: float = NEGATIVE_TO_CORRECT_RATE,
+    forced_failed_constraint: str | None = None,
 ) -> str:
     wrapped = wrap_three_agent_reasoning(
         reasoning_text,
@@ -582,5 +635,6 @@ def build_three_agent_completion(
         problem_id=problem_id,
         solver_char_budget=solver_char_budget,
         negative_to_correct_rate=negative_to_correct_rate,
+        forced_failed_constraint=forced_failed_constraint,
     )
     return f"{wrapped}\n</think>\n\\boxed{{{answer}}}<|im_end|>"

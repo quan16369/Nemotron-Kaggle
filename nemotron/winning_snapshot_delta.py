@@ -24,7 +24,7 @@ except ModuleNotFoundError:  # pragma: no cover - optional local dependency
 from corpus import tokenize_prompt
 from reasoning import GENERATORS, extract_answer
 from reasoners.store_types import Problem
-from three_agent import build_three_agent_completion
+from three_agent import available_negative_constraints, build_three_agent_completion
 
 COMPETITION_CATEGORIES = {
     "bit_manipulation",
@@ -189,16 +189,24 @@ def _encode_three_agent_completion_with_fallback(
     prompt_token_count: int,
     completion_tokenizer: Tokenizer,
     max_seq_len: int,
+    forced_failed_constraint: str | None = None,
 ) -> list[int]:
     budgets: tuple[int | None, ...] = (None, 18000, 12000, 8000, 5000, 3000, 1500, 0)
     last_completion_ids: list[int] | None = None
     for solver_char_budget in budgets:
+        negative_kwargs: dict[str, Any] = {}
+        if forced_failed_constraint:
+            negative_kwargs = {
+                "negative_to_correct_rate": 1.0,
+                "forced_failed_constraint": forced_failed_constraint,
+            }
         completion_text = build_three_agent_completion(
             reasoning_text,
             category=category,
             answer=answer,
             problem_id=problem_id,
             solver_char_budget=solver_char_budget,
+            **negative_kwargs,
         )
         completion_ids = completion_tokenizer.encode(
             completion_text,
@@ -229,6 +237,7 @@ def build_current_correct_base_records(
     bit_manipulation_three_bit_repair: bool = False,
     bit_manipulation_use_legacy: bool = False,
     delta_categories: set[str] | None = None,
+    augment_negative_criteria: bool = False,
 ) -> dict[str, dict[str, Any]]:
     train_csv_path = repo_dir / "train.csv"
     problems_index_path = repo_dir / "problems.jsonl"
@@ -297,6 +306,40 @@ def build_current_correct_base_records(
                 print(f"Skipping overlength example {problem_id}: {exc}")
                 continue
             raise
+
+        if augment_negative_criteria:
+            for failed_constraint in available_negative_constraints(
+                category=category,
+                answer=answer,
+                reasoning_text=reasoning_text,
+            ):
+                negative_problem_id = f"{problem_id}-neg-{failed_constraint}"
+                negative_completion_ids = _encode_three_agent_completion_with_fallback(
+                    reasoning_text=reasoning_text,
+                    category=category,
+                    answer=answer,
+                    problem_id=negative_problem_id,
+                    prompt_token_count=len(prompt_ids),
+                    completion_tokenizer=completion_tokenizer,
+                    max_seq_len=max_seq_len,
+                    forced_failed_constraint=failed_constraint,
+                )
+                negative_tokens = prompt_ids + negative_completion_ids
+                negative_mask = [0] * len(prompt_ids) + [1] * len(negative_completion_ids)
+                try:
+                    current_records[negative_problem_id] = _build_record(
+                        problem_id=negative_problem_id,
+                        source_problem_id=problem_id,
+                        category=category,
+                        tokens=negative_tokens,
+                        mask=negative_mask,
+                        max_seq_len=max_seq_len,
+                    )
+                except ValueError as exc:
+                    if "exceeds max length" in str(exc):
+                        print(f"Skipping overlength negative example {negative_problem_id}: {exc}")
+                        continue
+                    raise
 
     return current_records
 

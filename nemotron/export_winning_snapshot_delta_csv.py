@@ -269,6 +269,14 @@ def parse_args() -> argparse.Namespace:
         help="With --current-only, include every competition category the current reasoners solve correctly.",
     )
     parser.add_argument(
+        "--augment-negative-criteria",
+        action="store_true",
+        help=(
+            "With --current-only, add extra bit_manipulation/gravity rows where one "
+            "verifier criterion is forced to fail and then corrected."
+        ),
+    )
+    parser.add_argument(
         "--keep-fraction",
         action="append",
         default=[],
@@ -335,6 +343,8 @@ def main() -> None:
 
     if args.current_only and args.no_delta:
         raise ValueError("--current-only and --no-delta cannot be used together")
+    if args.augment_negative_criteria and not args.current_only:
+        raise ValueError("--augment-negative-criteria is currently supported only with --current-only")
 
     snapshot_records = []
     snapshot_config = {}
@@ -373,6 +383,7 @@ def main() -> None:
             bit_manipulation_three_bit_repair=args.bit_manipulation_three_bit_repair,
             bit_manipulation_use_legacy=args.use_legacy_bit_manipulation,
             delta_categories=delta_categories,
+            augment_negative_criteria=args.augment_negative_criteria,
         )
         if args.current_only:
             final_records = sorted(
@@ -444,6 +455,7 @@ def main() -> None:
                 "bit_manipulation_use_legacy": args.use_legacy_bit_manipulation,
                 "delta_categories": sorted(delta_categories) if "delta_categories" in locals() else args.delta_categories,
                 "all_current_categories": args.all_current_categories,
+                "augment_negative_criteria": args.augment_negative_criteria,
                 "keep_fraction": args.keep_fraction,
                 "keep_problems": args.keep_problems,
                 "sample_seed": args.sample_seed,
