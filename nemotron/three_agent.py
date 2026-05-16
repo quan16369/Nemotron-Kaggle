@@ -535,6 +535,128 @@ def _verifier_lines(
     return lines
 
 
+def _legacy_double_check_prose_lines(
+    *,
+    category: str,
+    candidate_answer: str,
+    answer: str,
+    error_type: str,
+    evidence: dict[str, str],
+) -> list[str]:
+    failed_constraint = evidence.get("failed_constraint", error_type)
+    lines = [
+        "Double-check:",
+        f"A common wrong final answer would be {candidate_answer}.",
+    ]
+
+    if category == "bit_manipulation":
+        if failed_constraint == "binary_string":
+            lines.append(
+                "This fails because the final answer must be a binary string "
+                "containing only 0 and 1."
+            )
+        elif failed_constraint == "preserve_leading_zeros":
+            required_length = evidence.get("required_length", str(len(answer)))
+            candidate_length = evidence.get(
+                "candidate_length", str(len(candidate_answer))
+            )
+            lines.append(
+                "This fails because leading zeros are part of the 8-bit output: "
+                f"the candidate has length {candidate_length}, but the required "
+                f"output has length {required_length}."
+            )
+        elif failed_constraint == "exact_string_match":
+            mismatch_position = evidence.get("mismatch_position", "?")
+            candidate_bit = evidence.get("candidate_bit_at_position", "?")
+            expected_bit = evidence.get("expected_bit_from_trace", "?")
+            lines.append(
+                "This fails because the candidate does not exactly match the "
+                f"traced output at bit position {mismatch_position}: candidate "
+                f"has {candidate_bit}, while the trace gives {expected_bit}."
+            )
+        else:
+            lines.append(
+                "This fails because it violates the required binary output "
+                "constraints."
+            )
+        lines.extend(
+            [
+                f"Correcting the output gives {answer}.",
+                "This corrected output is binary, preserves the required length, "
+                "and exactly matches the traced output.",
+            ]
+        )
+        return lines
+
+    if category == "gravity":
+        if failed_constraint == "numeric_answer":
+            lines.append(
+                "This fails because the boxed final answer must be a clean "
+                "number without unit text."
+            )
+        elif failed_constraint == "use_clean_final_answer":
+            computed_value = evidence.get("computed_value", candidate_answer)
+            lines.append(
+                f"This fails because {computed_value} is the raw computed value, "
+                "not the clean final answer after applying the required rounding."
+            )
+        elif failed_constraint == "final_rounding_already_applied":
+            lines.append(
+                "This fails because the final rounding has already been applied "
+                "incorrectly, leaving the candidate one unit off in the last "
+                "decimal place."
+            )
+        else:
+            lines.append(
+                "This fails because it violates the required clean numeric final "
+                "answer constraints."
+            )
+
+        rounding_decimals = evidence.get("rounding_decimals")
+        if rounding_decimals is not None:
+            lines.append(f"Rounding to {rounding_decimals} decimal places gives {answer}.")
+        else:
+            lines.append(f"The corrected clean numeric answer is {answer}.")
+        lines.append("This corrected value is the final answer to return.")
+        return lines
+
+    lines.extend(
+        [
+            f"This candidate fails the final-answer constraint: {failed_constraint}.",
+            f"Correcting the final answer gives {answer}.",
+        ]
+    )
+    return lines
+
+
+def _insert_legacy_double_check_block(completion_text: str, block: str) -> str:
+    def insert_before_final_lines(thought_text: str) -> str:
+        stripped = thought_text.rstrip()
+        final_markers = (
+            "I will now return the answer in \\boxed{}",
+        )
+        marker_positions = [
+            stripped.rfind(marker)
+            for marker in final_markers
+            if stripped.rfind(marker) != -1
+        ]
+        if not marker_positions:
+            return f"{stripped}\n\n{block}\n"
+
+        final_start = max(marker_positions)
+        before_final = stripped[:final_start].rstrip()
+        final_lines = stripped[final_start:].lstrip()
+        return f"{before_final}\n\n{block}\n\n{final_lines}\n"
+
+    if "</think>" in completion_text:
+        head, tail = completion_text.rsplit("</think>", 1)
+        return f"{insert_before_final_lines(head)}</think>{tail}"
+    if "<|im_end|>" in completion_text:
+        head, tail = completion_text.rsplit("<|im_end|>", 1)
+        return f"{insert_before_final_lines(head)}<|im_end|>{tail}"
+    return f"{completion_text.rstrip()}\n\n{block}"
+
+
 def build_legacy_double_check_completion(
     completion_text: str,
     *,
@@ -561,31 +683,15 @@ def build_legacy_double_check_completion(
     else:
         return completion_text
 
-    lines = [
-        "[Double_Check]",
-        f"candidate_answer = {candidate_answer}",
-        "candidate_valid = no",
-        f"error_type = {error_type}",
-        *(f"{key} = {value}" for key, value in evidence.items()),
-        f"corrected_answer = {answer}",
-    ]
-    lines.extend(
-        _criterion_lines(
-            category=category,
-            candidate_valid=False,
-            evidence=evidence,
-        )
+    lines = _legacy_double_check_prose_lines(
+        category=category,
+        candidate_answer=candidate_answer,
+        answer=answer,
+        error_type=error_type,
+        evidence=evidence,
     )
-    lines.append("final_answer_source = double_check_corrected_answer")
     block = "\n".join(lines)
-
-    if "</think>" in completion_text:
-        head, tail = completion_text.rsplit("</think>", 1)
-        return f"{head.rstrip()}\n\n{block}\n</think>{tail}"
-    if "<|im_end|>" in completion_text:
-        head, tail = completion_text.rsplit("<|im_end|>", 1)
-        return f"{head.rstrip()}\n\n{block}<|im_end|>{tail}"
-    return f"{completion_text.rstrip()}\n\n{block}"
+    return _insert_legacy_double_check_block(completion_text, block)
 
 
 def wrap_three_agent_reasoning(

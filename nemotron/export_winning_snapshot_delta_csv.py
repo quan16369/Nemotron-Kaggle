@@ -509,7 +509,8 @@ def parse_args() -> argparse.Namespace:
         default="legacy_double_check",
         help=(
             "Format for rows appended via --append-negative-to-base. "
-            "legacy_double_check preserves the base completion style and inserts a small Double_Check block."
+            "legacy_double_check preserves the base completion style and inserts a "
+            "short Double-check prose paragraph."
         ),
     )
     parser.add_argument(
