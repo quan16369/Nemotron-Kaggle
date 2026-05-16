@@ -87,11 +87,18 @@ def tokenize_prompt(prompt: str, tokenizer: Tokenizer) -> list[int]:
     return tokenizer.encode(prompt_text, add_special_tokens=False).ids
 
 
-def build_completion_tokens(reasoning_text: str, answer: str, tokenizer: Tokenizer) -> list[int]:
+def build_completion_tokens(
+    reasoning_text: str,
+    answer: str,
+    tokenizer: Tokenizer,
+    *,
+    problem_id: str,
+) -> list[int]:
     completion_text = build_three_agent_completion(
         reasoning_text,
         category="bit_manipulation",
         answer=answer,
+        problem_id=problem_id,
     )
     return tokenizer.encode(completion_text, add_special_tokens=False).ids
 
@@ -105,7 +112,12 @@ def build_record(
     tokenizer: Tokenizer,
 ) -> dict[str, Any]:
     prompt_ids = tokenize_prompt(prompt, tokenizer)
-    completion_ids = build_completion_tokens(reasoning_text, answer, tokenizer)
+    completion_ids = build_completion_tokens(
+        reasoning_text,
+        answer,
+        tokenizer,
+        problem_id=problem_id,
+    )
     if len(completion_ids) > MAX_COMPLETION_TOKENS:
         raise ValueError(
             f"Example {problem_id} completion exceeds budget: "

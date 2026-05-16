@@ -185,6 +185,7 @@ def _encode_three_agent_completion_with_fallback(
     reasoning_text: str,
     category: str,
     answer: str,
+    problem_id: str,
     prompt_token_count: int,
     completion_tokenizer: Tokenizer,
     max_seq_len: int,
@@ -196,6 +197,7 @@ def _encode_three_agent_completion_with_fallback(
             reasoning_text,
             category=category,
             answer=answer,
+            problem_id=problem_id,
             solver_char_budget=solver_char_budget,
         )
         completion_ids = completion_tokenizer.encode(
@@ -273,6 +275,7 @@ def build_current_correct_base_records(
             reasoning_text=reasoning_text,
             category=category,
             answer=answer,
+            problem_id=problem_id,
             prompt_token_count=len(prompt_ids),
             completion_tokenizer=completion_tokenizer,
             max_seq_len=max_seq_len,

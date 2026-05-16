@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import hashlib
 import re
 
 
@@ -20,6 +21,9 @@ NUMERIC_CATEGORIES = {
     "equation_numeric_deduce",
     "equation_numeric_guess",
 }
+
+NEGATIVE_TO_CORRECT_RATE = 0.20
+NEGATIVE_TO_CORRECT_CATEGORIES = {"bit_manipulation", "gravity"}
 
 
 def _strip_trailing_final_answer_lines(reasoning_text: str) -> str:
@@ -55,12 +59,84 @@ def _fit_solver_trace_to_char_budget(text: str, char_budget: int | None) -> str:
     ).rstrip()
 
 
-def _verifier_lines(category: str, answer: str) -> list[str]:
+def _stable_fraction(key: str) -> float:
+    digest = hashlib.sha256(key.encode("utf-8")).hexdigest()
+    return int(digest[:12], 16) / float(16**12)
+
+
+def _corrupt_binary_answer(answer: str, key: str) -> tuple[str, str]:
+    if re.fullmatch(r"[01]+", answer) is None:
+        return answer + "0", "non_binary_candidate"
+    if answer.startswith("0") and len(answer) > 1:
+        stripped = answer.lstrip("0")
+        return stripped or "0", "leading_zero_missing"
+    bit_index = int(hashlib.sha256(key.encode("utf-8")).hexdigest()[:8], 16) % max(
+        len(answer), 1
+    )
+    flipped = list(answer)
+    flipped[bit_index] = "1" if flipped[bit_index] == "0" else "0"
+    return "".join(flipped), "bit_value_mismatch"
+
+
+def _corrupt_numeric_answer(answer: str, key: str) -> tuple[str, str]:
+    try:
+        value = float(answer)
+    except Exception:
+        return answer + "0", "numeric_format_mismatch"
+
+    decimals = 0
+    if "." in answer:
+        decimals = len(answer.split(".", 1)[1])
+    direction = 1 if int(hashlib.sha256(key.encode("utf-8")).hexdigest()[:2], 16) % 2 else -1
+    step = 10 ** (-decimals) if decimals > 0 else 1
+    corrupted_value = value + direction * step
+    if decimals > 0:
+        corrupted = f"{corrupted_value:.{decimals}f}"
+    else:
+        corrupted = str(int(round(corrupted_value)))
+    if corrupted == answer:
+        corrupted_value = value - direction * step
+        corrupted = f"{corrupted_value:.{decimals}f}" if decimals > 0 else str(int(round(corrupted_value)))
+    return corrupted, "final_rounding_mismatch"
+
+
+def _use_negative_to_correct(
+    *,
+    category: str,
+    answer: str,
+    problem_id: str | None,
+    rate: float,
+) -> bool:
+    if category not in NEGATIVE_TO_CORRECT_CATEGORIES or rate <= 0:
+        return False
+    key = problem_id or answer
+    return _stable_fraction(f"{category}-negative:{key}") < rate
+
+
+def _verifier_lines(
+    category: str,
+    answer: str,
+    *,
+    candidate_answer: str | None = None,
+    candidate_valid: bool = True,
+    error_type: str | None = None,
+) -> list[str]:
+    candidate_answer = answer if candidate_answer is None else candidate_answer
     lines = [
-        "[Agent_2_Verifier]",
+        "[Verifier_Agent]",
         f"category = {category}",
-        f"candidate_answer = {answer}",
+        f"candidate_answer = {candidate_answer}",
     ]
+    if candidate_valid:
+        lines.append("candidate_valid = yes")
+    else:
+        lines.extend(
+            [
+                "candidate_valid = no",
+                f"error_type = {error_type or 'constraint_mismatch'}",
+                f"corrected_answer = {answer}",
+            ]
+        )
     if category == "bit_manipulation":
         lines.extend(
             [
@@ -110,27 +186,67 @@ def wrap_three_agent_reasoning(
     *,
     category: str,
     answer: str,
+    problem_id: str | None = None,
     solver_char_budget: int | None = None,
+    negative_to_correct_rate: float = NEGATIVE_TO_CORRECT_RATE,
 ) -> str:
     """Return a category-uniform 3-agent trace without internal boxed answers."""
     solver_trace = _sanitize_internal_boxed(
         _strip_trailing_final_answer_lines(reasoning_text)
     ).rstrip("\n")
     solver_trace = _fit_solver_trace_to_char_budget(solver_trace, solver_char_budget)
+    use_negative = _use_negative_to_correct(
+        category=category,
+        answer=answer,
+        problem_id=problem_id,
+        rate=negative_to_correct_rate,
+    )
+    candidate_answer = answer
+    candidate_valid = True
+    error_type = None
+    if use_negative:
+        if category == "bit_manipulation":
+            candidate_answer, error_type = _corrupt_binary_answer(
+                answer,
+                problem_id or reasoning_text or answer,
+            )
+        elif category == "gravity":
+            candidate_answer, error_type = _corrupt_numeric_answer(
+                answer,
+                problem_id or reasoning_text or answer,
+            )
+        candidate_valid = candidate_answer == answer
 
-    lines = ["[Agent_1_Solver]"]
+    lines = ["[Solver_Agent]"]
     if solver_trace:
         lines.append(solver_trace)
     else:
         lines.append("No solver trace was available.")
+    if use_negative and not candidate_valid:
+        lines.extend(
+            [
+                "",
+                "[Preliminary_Candidate]",
+                f"candidate_answer = {candidate_answer}",
+            ]
+        )
     lines.append("")
-    lines.extend(_verifier_lines(category, answer))
+    lines.extend(
+        _verifier_lines(
+            category,
+            answer,
+            candidate_answer=candidate_answer,
+            candidate_valid=candidate_valid,
+            error_type=error_type,
+        )
+    )
     lines.append("")
     lines.extend(
         [
-            "[Agent_3_Consensus]",
+            "[Consensus_Agent]",
             f"selected_answer = {answer}",
             "final_answer_source = gold_clean_answer",
+            "final_response_must_be_boxed = yes",
         ]
     )
     return "\n".join(lines).rstrip("\n")
@@ -141,12 +257,16 @@ def build_three_agent_completion(
     *,
     category: str,
     answer: str,
+    problem_id: str | None = None,
     solver_char_budget: int | None = None,
+    negative_to_correct_rate: float = NEGATIVE_TO_CORRECT_RATE,
 ) -> str:
     wrapped = wrap_three_agent_reasoning(
         reasoning_text,
         category=category,
         answer=answer,
+        problem_id=problem_id,
         solver_char_budget=solver_char_budget,
+        negative_to_correct_rate=negative_to_correct_rate,
     )
     return f"{wrapped}\n</think>\n\\boxed{{{answer}}}<|im_end|>"

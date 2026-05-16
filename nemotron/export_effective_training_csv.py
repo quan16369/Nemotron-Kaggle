@@ -212,11 +212,13 @@ def main() -> None:
             reasoning_text,
             category=category,
             answer=answer,
+            problem_id=problem_id,
         )
         completion_text = build_three_agent_completion(
             reasoning_text,
             category=category,
             answer=answer,
+            problem_id=problem_id,
         )
         completion_ids = encode_completion_ids(completion_text)
         examples = detail.get("examples", [])
@@ -260,11 +262,13 @@ def main() -> None:
                 completion,
                 category=category,
                 answer=completion,
+                problem_id=aug_path.stem,
             )
             completion_text = build_three_agent_completion(
                 completion,
                 category=category,
                 answer=completion,
+                problem_id=aug_path.stem,
             )
             completion_ids = encode_completion_ids(completion_text)
 

@@ -239,6 +239,7 @@ def main() -> None:
             reasoning_text,
             category=category,
             answer=answer,
+            problem_id=problem_id,
         )
         completion_ids = tokenizer.encode(completion_text, add_special_tokens=False).ids
 
@@ -320,6 +321,7 @@ def main() -> None:
                 completion,
                 category=category,
                 answer=completion,
+                problem_id=problem_id,
             )
             completion_ids = tokenizer.encode(
                 completion_text, add_special_tokens=False
