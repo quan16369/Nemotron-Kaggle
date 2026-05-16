@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import csv
+import hashlib
 import json
 import math
 import re
@@ -103,6 +104,11 @@ def _build_record(
         "labels": labels,
         "completion_token_count": num_loss_tokens,
     }
+
+
+def _stable_fraction(key: str) -> float:
+    digest = hashlib.sha256(key.encode("utf-8")).hexdigest()
+    return int(digest[:12], 16) / float(16**12)
 
 
 def load_snapshot_records(
@@ -238,6 +244,7 @@ def build_current_correct_base_records(
     bit_manipulation_use_legacy: bool = False,
     delta_categories: set[str] | None = None,
     augment_negative_criteria: bool = False,
+    augment_negative_criteria_fraction: float = 1.0,
 ) -> dict[str, dict[str, Any]]:
     train_csv_path = repo_dir / "train.csv"
     problems_index_path = repo_dir / "problems.jsonl"
@@ -313,6 +320,9 @@ def build_current_correct_base_records(
                 answer=answer,
                 reasoning_text=reasoning_text,
             ):
+                negative_key = f"{problem_id}:negative-criterion:{failed_constraint}"
+                if _stable_fraction(negative_key) >= augment_negative_criteria_fraction:
+                    continue
                 negative_problem_id = f"{problem_id}-neg-{failed_constraint}"
                 negative_completion_ids = _encode_three_agent_completion_with_fallback(
                     reasoning_text=reasoning_text,

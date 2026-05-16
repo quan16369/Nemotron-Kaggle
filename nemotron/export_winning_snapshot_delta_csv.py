@@ -277,6 +277,15 @@ def parse_args() -> argparse.Namespace:
         ),
     )
     parser.add_argument(
+        "--augment-negative-criteria-fraction",
+        type=float,
+        default=1.0,
+        help=(
+            "Fraction of possible criterion-negative rows to add when "
+            "--augment-negative-criteria is enabled. Use 0.10 for 10%% or 0.05 for 5%%."
+        ),
+    )
+    parser.add_argument(
         "--keep-fraction",
         action="append",
         default=[],
@@ -345,6 +354,8 @@ def main() -> None:
         raise ValueError("--current-only and --no-delta cannot be used together")
     if args.augment_negative_criteria and not args.current_only:
         raise ValueError("--augment-negative-criteria is currently supported only with --current-only")
+    if not (0.0 <= args.augment_negative_criteria_fraction <= 1.0):
+        raise ValueError("--augment-negative-criteria-fraction must be between 0.0 and 1.0")
 
     snapshot_records = []
     snapshot_config = {}
@@ -384,6 +395,7 @@ def main() -> None:
             bit_manipulation_use_legacy=args.use_legacy_bit_manipulation,
             delta_categories=delta_categories,
             augment_negative_criteria=args.augment_negative_criteria,
+            augment_negative_criteria_fraction=args.augment_negative_criteria_fraction,
         )
         if args.current_only:
             final_records = sorted(
@@ -456,6 +468,7 @@ def main() -> None:
                 "delta_categories": sorted(delta_categories) if "delta_categories" in locals() else args.delta_categories,
                 "all_current_categories": args.all_current_categories,
                 "augment_negative_criteria": args.augment_negative_criteria,
+                "augment_negative_criteria_fraction": args.augment_negative_criteria_fraction,
                 "keep_fraction": args.keep_fraction,
                 "keep_problems": args.keep_problems,
                 "sample_seed": args.sample_seed,
