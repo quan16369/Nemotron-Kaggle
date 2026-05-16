@@ -535,6 +535,59 @@ def _verifier_lines(
     return lines
 
 
+def build_legacy_double_check_completion(
+    completion_text: str,
+    *,
+    category: str,
+    answer: str,
+    problem_id: str | None = None,
+    forced_failed_constraint: str | None = None,
+) -> str:
+    key = problem_id or completion_text or answer
+    if category == "bit_manipulation":
+        candidate_answer, error_type, evidence = _corrupt_binary_answer(
+            answer,
+            key,
+            reasoning_text=completion_text,
+            forced_failed_constraint=forced_failed_constraint,
+        )
+    elif category == "gravity":
+        candidate_answer, error_type, evidence = _corrupt_numeric_answer(
+            answer,
+            key,
+            reasoning_text=completion_text,
+            forced_failed_constraint=forced_failed_constraint,
+        )
+    else:
+        return completion_text
+
+    lines = [
+        "[Double_Check]",
+        f"candidate_answer = {candidate_answer}",
+        "candidate_valid = no",
+        f"error_type = {error_type}",
+        *(f"{key} = {value}" for key, value in evidence.items()),
+        f"corrected_answer = {answer}",
+    ]
+    lines.extend(
+        _criterion_lines(
+            category=category,
+            candidate_valid=False,
+            evidence=evidence,
+        )
+    )
+    lines.append("final_answer_source = double_check_corrected_answer")
+    block = "\n".join(lines)
+
+    if "</think>" in completion_text:
+        head, tail = completion_text.rsplit("</think>", 1)
+        return f"{head.rstrip()}\n\n{block}\n</think>{tail}"
+    if "<|im_end|>" in completion_text:
+        head, tail = completion_text.rsplit("<|im_end|>", 1)
+        return f"{head.rstrip()}\n\n{block}<|im_end|>{tail}"
+    return f"{completion_text.rstrip()}\n\n{block}"
+
+
 def wrap_three_agent_reasoning(
     reasoning_text: str,
     *,

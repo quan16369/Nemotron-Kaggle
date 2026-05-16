@@ -13,6 +13,7 @@ import json
 import math
 import os
 import random
+from collections import Counter
 from pathlib import Path
 
 try:
@@ -31,6 +32,7 @@ from winning_snapshot_delta import (
     load_snapshot_records,
     merge_snapshot_with_current_delta,
 )
+from three_agent import available_negative_constraints, build_legacy_double_check_completion
 
 BASE_DIR = Path(__file__).parent
 DEFAULT_SNAPSHOT_DIR = BASE_DIR / "training" / "sft" / "04-08-16-14"
@@ -41,6 +43,212 @@ DEFAULT_SAFE_DELTA_CATEGORIES = [
     "bit_manipulation",
     "equation_numeric_guess",
 ]
+
+MANIFEST_FIELDNAMES = [
+    "problem_id",
+    "source_problem_id",
+    "category",
+    "segment",
+    "num_loss_tokens",
+    "completion_token_count",
+    "token_count",
+    "input_ids_json",
+    "mask_json",
+]
+
+
+def _stable_fraction(key: str) -> float:
+    import hashlib
+
+    digest = hashlib.sha256(key.encode("utf-8")).hexdigest()
+    return int(digest[:12], 16) / float(16**12)
+
+
+def record_to_manifest_row(record: dict) -> dict[str, str | int]:
+    return {
+        "problem_id": record["problem_id"],
+        "source_problem_id": record["source_problem_id"],
+        "category": record["category"],
+        "segment": record["segment"],
+        "num_loss_tokens": record["num_loss_tokens"],
+        "completion_token_count": record["completion_token_count"],
+        "token_count": len(record["input_ids"]),
+        "input_ids_json": json.dumps(record["input_ids"]),
+        "mask_json": json.dumps(
+            [1 if label != -100 else 0 for label in record["labels"]]
+        ),
+    }
+
+
+def append_negative_records_to_base_manifest(
+    *,
+    base_path: Path,
+    output_path: Path,
+    generated_records: list[dict],
+) -> dict[str, object]:
+    negative_records = [
+        record for record in generated_records if "-neg-" in record["problem_id"]
+    ]
+    negative_records.sort(key=lambda record: record["problem_id"])
+
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    base_rows = 0
+    appended_rows = 0
+    skipped_duplicates = 0
+    seen_keys: set[tuple[str, str]] = set()
+    base_categories: Counter[str] = Counter()
+    appended_categories: Counter[str] = Counter()
+
+    with base_path.open(newline="") as src, output_path.open("w", newline="") as dst:
+        reader = csv.DictReader(src)
+        if reader.fieldnames != MANIFEST_FIELDNAMES:
+            raise ValueError(
+                f"Base manifest header mismatch. Expected {MANIFEST_FIELDNAMES}, "
+                f"got {reader.fieldnames}"
+            )
+        writer = csv.DictWriter(dst, fieldnames=MANIFEST_FIELDNAMES)
+        writer.writeheader()
+
+        for row in reader:
+            writer.writerow(row)
+            base_rows += 1
+            base_categories[row["category"]] += 1
+            seen_keys.add((row["problem_id"], row["segment"]))
+
+        for record in negative_records:
+            key = (record["problem_id"], record["segment"])
+            if key in seen_keys:
+                skipped_duplicates += 1
+                continue
+            row = record_to_manifest_row(record)
+            writer.writerow(row)
+            seen_keys.add(key)
+            appended_rows += 1
+            appended_categories[str(record["category"])] += 1
+
+    return {
+        "base_manifest": str(base_path),
+        "base_rows": base_rows,
+        "appended_negative_rows": appended_rows,
+        "skipped_duplicate_negative_rows": skipped_duplicates,
+        "final_rows": base_rows + appended_rows,
+        "base_categories": dict(sorted(base_categories.items())),
+        "appended_categories": dict(sorted(appended_categories.items())),
+    }
+
+
+def _load_answers(repo_dir: Path) -> dict[str, str]:
+    with (repo_dir / "train.csv").open(newline="") as f:
+        return {row["id"]: row["answer"] for row in csv.DictReader(f)}
+
+
+def _completion_from_manifest_row(
+    row: dict[str, str],
+    completion_tokenizer: Tokenizer,
+) -> tuple[list[int], list[int], str]:
+    input_ids = json.loads(row["input_ids_json"])
+    mask = json.loads(row["mask_json"])
+    first_loss = next((idx for idx, value in enumerate(mask) if value == 1), len(mask))
+    prompt_ids = input_ids[:first_loss]
+    completion_ids = input_ids[first_loss:]
+    completion_text = completion_tokenizer.decode(
+        completion_ids,
+        skip_special_tokens=False,
+    )
+    return prompt_ids, completion_ids, completion_text
+
+
+def append_legacy_double_check_to_base_manifest(
+    *,
+    base_path: Path,
+    output_path: Path,
+    completion_tokenizer: Tokenizer,
+    fraction: float,
+    max_seq_len: int,
+) -> dict[str, object]:
+    answers = _load_answers(BASE_DIR)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    base_rows = 0
+    appended_rows = 0
+    skipped_rows = 0
+    base_categories: Counter[str] = Counter()
+    appended_categories: Counter[str] = Counter()
+
+    with base_path.open(newline="") as src, output_path.open("w", newline="") as dst:
+        reader = csv.DictReader(src)
+        if reader.fieldnames != MANIFEST_FIELDNAMES:
+            raise ValueError(
+                f"Base manifest header mismatch. Expected {MANIFEST_FIELDNAMES}, "
+                f"got {reader.fieldnames}"
+            )
+        writer = csv.DictWriter(dst, fieldnames=MANIFEST_FIELDNAMES)
+        writer.writeheader()
+
+        for row in reader:
+            writer.writerow(row)
+            base_rows += 1
+            category = row["category"]
+            base_categories[category] += 1
+            if category not in {"bit_manipulation", "gravity"}:
+                continue
+
+            source_problem_id = row["source_problem_id"]
+            answer = answers.get(source_problem_id)
+            if answer is None:
+                skipped_rows += 1
+                continue
+
+            prompt_ids, _, completion_text = _completion_from_manifest_row(
+                row,
+                completion_tokenizer,
+            )
+            constraints = available_negative_constraints(
+                category=category,
+                answer=answer,
+                reasoning_text=completion_text,
+            )
+            for failed_constraint in constraints:
+                negative_problem_id = f"{row['problem_id']}-neg-{failed_constraint}"
+                negative_key = f"{negative_problem_id}:legacy-double-check"
+                if _stable_fraction(negative_key) >= fraction:
+                    continue
+
+                negative_completion = build_legacy_double_check_completion(
+                    completion_text,
+                    category=category,
+                    answer=answer,
+                    problem_id=negative_problem_id,
+                    forced_failed_constraint=failed_constraint,
+                )
+                negative_completion_ids = completion_tokenizer.encode(
+                    negative_completion,
+                    add_special_tokens=False,
+                ).ids
+                negative_input_ids = prompt_ids + negative_completion_ids
+                if len(negative_input_ids) > max_seq_len:
+                    skipped_rows += 1
+                    continue
+                negative_mask = [0] * len(prompt_ids) + [1] * len(negative_completion_ids)
+                negative_row = dict(row)
+                negative_row["problem_id"] = negative_problem_id
+                negative_row["num_loss_tokens"] = str(len(negative_completion_ids))
+                negative_row["completion_token_count"] = str(len(negative_completion_ids))
+                negative_row["token_count"] = str(len(negative_input_ids))
+                negative_row["input_ids_json"] = json.dumps(negative_input_ids)
+                negative_row["mask_json"] = json.dumps(negative_mask)
+                writer.writerow(negative_row)
+                appended_rows += 1
+                appended_categories[category] += 1
+
+    return {
+        "base_manifest": str(base_path),
+        "base_rows": base_rows,
+        "appended_legacy_double_check_rows": appended_rows,
+        "skipped_rows": skipped_rows,
+        "final_rows": base_rows + appended_rows,
+        "base_categories": dict(sorted(base_categories.items())),
+        "appended_categories": dict(sorted(appended_categories.items())),
+    }
 
 
 def parse_category_value_specs(raw_values: list[str]) -> dict[str, str]:
@@ -286,6 +494,25 @@ def parse_args() -> argparse.Namespace:
         ),
     )
     parser.add_argument(
+        "--append-negative-to-base",
+        type=Path,
+        default=None,
+        metavar="BASE_MANIFEST",
+        help=(
+            "With --current-only --augment-negative-criteria, keep this base manifest "
+            "unchanged and append only criterion-negative rows to --output."
+        ),
+    )
+    parser.add_argument(
+        "--append-negative-format",
+        choices=("legacy_double_check", "three_agent"),
+        default="legacy_double_check",
+        help=(
+            "Format for rows appended via --append-negative-to-base. "
+            "legacy_double_check preserves the base completion style and inserts a small Double_Check block."
+        ),
+    )
+    parser.add_argument(
         "--keep-fraction",
         action="append",
         default=[],
@@ -356,6 +583,42 @@ def main() -> None:
         raise ValueError("--augment-negative-criteria is currently supported only with --current-only")
     if not (0.0 <= args.augment_negative_criteria_fraction <= 1.0):
         raise ValueError("--augment-negative-criteria-fraction must be between 0.0 and 1.0")
+    if args.append_negative_to_base is not None and not (
+        args.current_only and args.augment_negative_criteria
+    ):
+        raise ValueError(
+            "--append-negative-to-base requires --current-only and --augment-negative-criteria"
+        )
+
+    if (
+        args.append_negative_to_base is not None
+        and args.append_negative_format == "legacy_double_check"
+    ):
+        if Tokenizer is None:
+            raise ModuleNotFoundError("tokenizers is required to append legacy double-check rows")
+        completion_tokenizer = Tokenizer.from_file(str(TOKENIZER_JSON))
+        append_stats = append_legacy_double_check_to_base_manifest(
+            base_path=args.append_negative_to_base,
+            output_path=args.output,
+            completion_tokenizer=completion_tokenizer,
+            fraction=args.augment_negative_criteria_fraction,
+            max_seq_len=MAX_SEQ_LEN,
+        )
+        print(
+            json.dumps(
+                {
+                    "current_only": args.current_only,
+                    "output": str(args.output),
+                    "augment_negative_criteria": args.augment_negative_criteria,
+                    "augment_negative_criteria_fraction": args.augment_negative_criteria_fraction,
+                    "append_negative_to_base": str(args.append_negative_to_base),
+                    "append_negative_format": args.append_negative_format,
+                    "append_stats": append_stats,
+                },
+                indent=2,
+            )
+        )
+        return
 
     snapshot_records = []
     snapshot_config = {}
@@ -402,6 +665,39 @@ def main() -> None:
                 current_correct_base_records.values(),
                 key=lambda record: record["problem_id"],
             )
+            if args.append_negative_to_base is not None:
+                append_stats = append_negative_records_to_base_manifest(
+                    base_path=args.append_negative_to_base,
+                    output_path=args.output,
+                    generated_records=final_records,
+                )
+                print(
+                    json.dumps(
+                        {
+                            "snapshot_dir": str(args.snapshot_dir),
+                            "current_only": args.current_only,
+                            "snapshot_examples": len(snapshot_records),
+                            "generated_examples": len(final_records),
+                            "final_examples": append_stats["final_rows"],
+                            "output": str(args.output),
+                            "chat_tokenizer_path": resolve_chat_tokenizer_path(
+                                args.chat_tokenizer_path
+                            ),
+                            "bit_manipulation_compact": args.bit_manipulation_compact,
+                            "bit_manipulation_three_bit_repair": args.bit_manipulation_three_bit_repair,
+                            "bit_manipulation_use_legacy": args.use_legacy_bit_manipulation,
+                            "delta_categories": sorted(delta_categories),
+                            "all_current_categories": args.all_current_categories,
+                            "augment_negative_criteria": args.augment_negative_criteria,
+                            "augment_negative_criteria_fraction": args.augment_negative_criteria_fraction,
+                            "append_negative_to_base": str(args.append_negative_to_base),
+                            "append_negative_format": args.append_negative_format,
+                            "append_stats": append_stats,
+                        },
+                        indent=2,
+                    )
+                )
+                return
         else:
             final_records, delta_stats = merge_snapshot_with_current_delta(
                 snapshot_records,
@@ -416,38 +712,12 @@ def main() -> None:
         sample_length_buckets=args.sample_length_buckets,
     )
 
-    fieldnames = [
-        "problem_id",
-        "source_problem_id",
-        "category",
-        "segment",
-        "num_loss_tokens",
-        "completion_token_count",
-        "token_count",
-        "input_ids_json",
-        "mask_json",
-    ]
-
     args.output.parent.mkdir(parents=True, exist_ok=True)
     with args.output.open("w", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer = csv.DictWriter(f, fieldnames=MANIFEST_FIELDNAMES)
         writer.writeheader()
         for record in final_records:
-            writer.writerow(
-                {
-                    "problem_id": record["problem_id"],
-                    "source_problem_id": record["source_problem_id"],
-                    "category": record["category"],
-                    "segment": record["segment"],
-                    "num_loss_tokens": record["num_loss_tokens"],
-                    "completion_token_count": record["completion_token_count"],
-                    "token_count": len(record["input_ids"]),
-                    "input_ids_json": json.dumps(record["input_ids"]),
-                    "mask_json": json.dumps(
-                        [1 if label != -100 else 0 for label in record["labels"]]
-                    ),
-                }
-            )
+            writer.writerow(record_to_manifest_row(record))
 
     print(
         json.dumps(
@@ -469,6 +739,12 @@ def main() -> None:
                 "all_current_categories": args.all_current_categories,
                 "augment_negative_criteria": args.augment_negative_criteria,
                 "augment_negative_criteria_fraction": args.augment_negative_criteria_fraction,
+                "append_negative_to_base": (
+                    None
+                    if args.append_negative_to_base is None
+                    else str(args.append_negative_to_base)
+                ),
+                "append_negative_format": args.append_negative_format,
                 "keep_fraction": args.keep_fraction,
                 "keep_problems": args.keep_problems,
                 "sample_seed": args.sample_seed,
