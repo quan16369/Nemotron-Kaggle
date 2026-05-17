@@ -434,6 +434,15 @@ def parse_args() -> argparse.Namespace:
         ),
     )
     parser.add_argument(
+        "--debate-format",
+        choices=("three_agent", "imad"),
+        default="three_agent",
+        help=(
+            "Completion format for current generated rows. imad uses paper-style "
+            "3-agent, 2-round debate tags plus consensus and end-of-debate tags."
+        ),
+    )
+    parser.add_argument(
         "--use-existing-reasoning-files",
         action="store_true",
         help="Prefer reasoning/*.txt over regenerating with current code when building delta rows",
@@ -584,6 +593,8 @@ def main() -> None:
         raise ValueError("--augment-negative-criteria is currently supported only with --current-only")
     if not (0.0 <= args.augment_negative_criteria_fraction <= 1.0):
         raise ValueError("--augment-negative-criteria-fraction must be between 0.0 and 1.0")
+    if args.debate_format == "imad" and args.augment_negative_criteria:
+        raise ValueError("--debate-format imad does not support --augment-negative-criteria")
     if args.append_negative_to_base is not None and not (
         args.current_only and args.augment_negative_criteria
     ):
@@ -660,6 +671,7 @@ def main() -> None:
             delta_categories=delta_categories,
             augment_negative_criteria=args.augment_negative_criteria,
             augment_negative_criteria_fraction=args.augment_negative_criteria_fraction,
+            debate_format=args.debate_format,
         )
         if args.current_only:
             final_records = sorted(
@@ -725,6 +737,7 @@ def main() -> None:
             {
                 "snapshot_dir": str(args.snapshot_dir),
                 "current_only": args.current_only,
+                "debate_format": args.debate_format,
                 "snapshot_examples": len(snapshot_records),
                 "final_examples": len(final_records),
                 "output": str(args.output),

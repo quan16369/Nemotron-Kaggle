@@ -25,7 +25,11 @@ except ModuleNotFoundError:  # pragma: no cover - optional local dependency
 from corpus import tokenize_prompt
 from reasoning import GENERATORS, extract_answer
 from reasoners.store_types import Problem
-from three_agent import available_negative_constraints, build_three_agent_completion
+from three_agent import (
+    available_negative_constraints,
+    build_imad_completion,
+    build_three_agent_completion,
+)
 
 COMPETITION_CATEGORIES = {
     "bit_manipulation",
@@ -195,6 +199,7 @@ def _encode_three_agent_completion_with_fallback(
     prompt_token_count: int,
     completion_tokenizer: Tokenizer,
     max_seq_len: int,
+    debate_format: str = "three_agent",
     forced_failed_constraint: str | None = None,
 ) -> list[int]:
     budgets: tuple[int | None, ...] = (None, 18000, 12000, 8000, 5000, 3000, 1500, 0)
@@ -206,14 +211,27 @@ def _encode_three_agent_completion_with_fallback(
                 "negative_to_correct_rate": 1.0,
                 "forced_failed_constraint": forced_failed_constraint,
             }
-        completion_text = build_three_agent_completion(
-            reasoning_text,
-            category=category,
-            answer=answer,
-            problem_id=problem_id,
-            solver_char_budget=solver_char_budget,
-            **negative_kwargs,
-        )
+        if debate_format == "imad":
+            if forced_failed_constraint:
+                raise ValueError("IMAD format does not support forced negative criteria")
+            completion_text = build_imad_completion(
+                reasoning_text,
+                category=category,
+                answer=answer,
+                problem_id=problem_id,
+                solver_char_budget=solver_char_budget,
+            )
+        elif debate_format == "three_agent":
+            completion_text = build_three_agent_completion(
+                reasoning_text,
+                category=category,
+                answer=answer,
+                problem_id=problem_id,
+                solver_char_budget=solver_char_budget,
+                **negative_kwargs,
+            )
+        else:
+            raise ValueError(f"Unknown debate_format: {debate_format}")
         completion_ids = completion_tokenizer.encode(
             completion_text,
             add_special_tokens=False,
@@ -245,7 +263,11 @@ def build_current_correct_base_records(
     delta_categories: set[str] | None = None,
     augment_negative_criteria: bool = False,
     augment_negative_criteria_fraction: float = 1.0,
+    debate_format: str = "three_agent",
 ) -> dict[str, dict[str, Any]]:
+    if augment_negative_criteria and debate_format == "imad":
+        raise ValueError("augment_negative_criteria is not supported with debate_format='imad'")
+
     train_csv_path = repo_dir / "train.csv"
     problems_index_path = repo_dir / "problems.jsonl"
     reasoning_dir = repo_dir / "reasoning"
@@ -295,6 +317,7 @@ def build_current_correct_base_records(
             prompt_token_count=len(prompt_ids),
             completion_tokenizer=completion_tokenizer,
             max_seq_len=max_seq_len,
+            debate_format=debate_format,
         )
         tokens = prompt_ids + completion_ids
         mask = [0] * len(prompt_ids) + [1] * len(completion_ids)
@@ -332,6 +355,7 @@ def build_current_correct_base_records(
                     prompt_token_count=len(prompt_ids),
                     completion_tokenizer=completion_tokenizer,
                     max_seq_len=max_seq_len,
+                    debate_format=debate_format,
                     forced_failed_constraint=failed_constraint,
                 )
                 negative_tokens = prompt_ids + negative_completion_ids

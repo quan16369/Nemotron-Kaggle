@@ -9,10 +9,19 @@ import re
 FINAL_LINE_PATTERNS = (
     re.compile(r"^\s*I will now return the answer in \\boxed\{\}\.?\s*$"),
     re.compile(r"^\s*I will put my final answer inside \\boxed\{\}\.?\s*$"),
+    re.compile(r"^\s*I will put my final answer\b.*$", re.IGNORECASE),
     re.compile(r"^\s*The answer is \\boxed\{[^{}]*\}\.?\s*$"),
     re.compile(r"^\s*The answer in \\boxed\{[^{}]*\} is \\boxed\{[^{}]*\}\.?\s*$"),
     re.compile(r"^\s*Final answer is:\s*.+\s*$", re.IGNORECASE),
     re.compile(r"^\s*Final answer\s*[:：]\s*.+\s*$", re.IGNORECASE),
+)
+
+INTERNAL_FORMAT_LINE_PATTERNS = (
+    re.compile(r"^\s*I will put my final answer\b.*$", re.IGNORECASE),
+    re.compile(r"^\s*I will now return\b.*$", re.IGNORECASE),
+    re.compile(r"^\s*The answer(?:\s+(?:is|in)\b|[:：]).*$", re.IGNORECASE),
+    re.compile(r"^\s*Final answer\b.*$", re.IGNORECASE),
+    re.compile(r"^\s*final_response_must_be_json\b.*$", re.IGNORECASE),
 )
 
 NUMERIC_CATEGORIES = {
@@ -22,8 +31,13 @@ NUMERIC_CATEGORIES = {
     "equation_numeric_guess",
 }
 
-NEGATIVE_TO_CORRECT_RATE = 0.20
+NEGATIVE_TO_CORRECT_RATE = 0.0
 NEGATIVE_TO_CORRECT_CATEGORIES = {"bit_manipulation", "gravity"}
+IMAD_AGENT_TAGS = ("<|Agent 1|>", "<|Agent 2|>", "<|Agent 3|>")
+IMAD_ROUND_1_TAG = "<|Round 1|>"
+IMAD_ROUND_2_TAG = "<|Round 2|>"
+IMAD_CONSENSUS_TAG = "<|Consensus|>"
+IMAD_END_TAG = "<|endofdebate|>"
 
 
 def _strip_trailing_final_answer_lines(reasoning_text: str) -> str:
@@ -35,6 +49,15 @@ def _strip_trailing_final_answer_lines(reasoning_text: str) -> str:
         while lines and not lines[-1].strip():
             lines.pop()
     return "\n".join(lines).rstrip("\n")
+
+
+def _strip_internal_final_answer_instruction_lines(reasoning_text: str) -> str:
+    kept_lines = []
+    for line in reasoning_text.splitlines():
+        if any(pattern.match(line) for pattern in INTERNAL_FORMAT_LINE_PATTERNS):
+            continue
+        kept_lines.append(line)
+    return "\n".join(kept_lines).rstrip("\n")
 
 
 def _sanitize_internal_boxed(text: str) -> str:
@@ -355,20 +378,21 @@ def available_negative_constraints(
 ) -> list[str]:
     if category == "bit_manipulation":
         reconstructed, _, _ = _extract_bit_output_from_trace(reasoning_text)
-        corrected = (
-            reconstructed
-            if reconstructed is not None
-            and re.fullmatch(r"[01]+", reconstructed)
-            and len(reconstructed) == len(answer)
-            else answer
-        )
+        if (
+            reconstructed is None
+            or not re.fullmatch(r"[01]+", reconstructed)
+            or len(reconstructed) != len(answer)
+            or reconstructed != answer
+        ):
+            return []
+        corrected = reconstructed
         constraints = ["binary_string", "exact_string_match"]
         if corrected.startswith("0") and len(corrected) > 1:
             constraints.append("preserve_leading_zeros")
         return constraints
 
     if category == "gravity":
-        constraints = ["numeric_answer", "final_rounding_already_applied"]
+        constraints = ["numeric_answer"]
         computed_value = _extract_gravity_computed_value(reasoning_text, answer)
         if computed_value is not None:
             try:
@@ -378,7 +402,12 @@ def available_negative_constraints(
                     _format_numeric_like(computed_float, decimals) == answer
                     and computed_value != answer
                 ):
-                    constraints.append("use_clean_final_answer")
+                    constraints.extend(
+                        [
+                            "use_clean_final_answer",
+                            "final_rounding_already_applied",
+                        ]
+                    )
             except Exception:
                 pass
         return constraints
@@ -453,6 +482,52 @@ def _criterion_lines(
         ]
 
     return []
+
+
+def _category_check_lines(category: str, answer: str) -> list[str]:
+    lines = [f"candidate_answer = {answer}"]
+    if category == "bit_manipulation":
+        lines.extend(
+            [
+                "check.binary_string = pass",
+                "check.preserve_leading_zeros = pass",
+                "check.exact_string_match = pass",
+            ]
+        )
+    elif category == "cipher":
+        lines.extend(
+            [
+                "check.dictionary_candidate = pass",
+                "check.pattern_match = pass",
+                "check.bijection_consistent = pass",
+                "check.semantic_guessing = avoided",
+            ]
+        )
+    elif category in NUMERIC_CATEGORIES:
+        lines.extend(
+            [
+                "check.numeric_answer = pass",
+                "check.clean_final_answer = pass",
+                "check.final_rounding = pass",
+            ]
+        )
+    elif category == "numeral":
+        lines.extend(
+            [
+                "check.roman_numeral = pass",
+                "check.exact_string_match = pass",
+            ]
+        )
+    elif category.startswith("cryptarithm"):
+        lines.extend(
+            [
+                "check.symbol_mapping_consistent = pass",
+                "check.answer_uses_solved_symbols = pass",
+            ]
+        )
+    else:
+        lines.append("check.clean_final_answer = pass")
+    return lines
 
 
 def _verifier_lines(
@@ -706,7 +781,9 @@ def wrap_three_agent_reasoning(
 ) -> str:
     """Return a category-uniform 3-agent trace without internal boxed answers."""
     solver_trace = _sanitize_internal_boxed(
-        _strip_trailing_final_answer_lines(reasoning_text)
+        _strip_internal_final_answer_instruction_lines(
+            _strip_trailing_final_answer_lines(reasoning_text)
+        )
     ).rstrip("\n")
     solver_trace = _fit_solver_trace_to_char_budget(solver_trace, solver_char_budget)
     use_negative = _use_negative_to_correct(
@@ -772,9 +849,87 @@ def wrap_three_agent_reasoning(
             f"selected_answer = {answer}",
             f"final_answer_source = {final_answer_source}",
             "final_response_must_be_boxed = yes",
+            "final_response_must_not_be_json = yes",
         ]
     )
     return "\n".join(lines).rstrip("\n")
+
+
+def wrap_imad_debate_reasoning(
+    reasoning_text: str,
+    *,
+    category: str,
+    answer: str,
+    problem_id: str | None = None,
+    solver_char_budget: int | None = None,
+) -> str:
+    """Return a paper-style 3-agent, 2-round debate trace for IMAD SFT."""
+    del problem_id
+    solver_trace = _sanitize_internal_boxed(
+        _strip_internal_final_answer_instruction_lines(
+            _strip_trailing_final_answer_lines(reasoning_text)
+        )
+    ).rstrip("\n")
+    solver_trace = _fit_solver_trace_to_char_budget(solver_trace, solver_char_budget)
+    if not solver_trace:
+        solver_trace = "No solver trace was available."
+
+    checker_lines = "\n".join(_category_check_lines(category, answer))
+    lines = [
+        IMAD_ROUND_1_TAG,
+        IMAD_AGENT_TAGS[0],
+        "I solve the problem directly and keep the final answer clean.",
+        solver_trace,
+        "",
+        IMAD_AGENT_TAGS[1],
+        "I independently check the candidate against task-specific constraints.",
+        checker_lines,
+        "",
+        IMAD_AGENT_TAGS[2],
+        "I compare the solver result and the verifier checks.",
+        f"candidate_answer = {answer}",
+        "candidate_valid = yes",
+        "",
+        IMAD_ROUND_2_TAG,
+        IMAD_AGENT_TAGS[0],
+        "I accept the verified candidate and do not introduce a new answer.",
+        f"revised_answer = {answer}",
+        "",
+        IMAD_AGENT_TAGS[1],
+        "I check the final response format.",
+        "final_response_must_be_boxed = yes",
+        "final_response_must_not_be_json = yes",
+        f"boxed_answer = {answer}",
+        "",
+        IMAD_AGENT_TAGS[2],
+        "I form the consensus from the verified answer.",
+        f"consensus_answer = {answer}",
+        "",
+        IMAD_CONSENSUS_TAG,
+        f"final_answer = {answer}",
+        "final_response_must_be_boxed = yes",
+        "final_response_must_not_be_json = yes",
+        IMAD_END_TAG,
+    ]
+    return "\n".join(lines).rstrip("\n")
+
+
+def build_imad_completion(
+    reasoning_text: str,
+    *,
+    category: str,
+    answer: str,
+    problem_id: str | None = None,
+    solver_char_budget: int | None = None,
+) -> str:
+    wrapped = wrap_imad_debate_reasoning(
+        reasoning_text,
+        category=category,
+        answer=answer,
+        problem_id=problem_id,
+        solver_char_budget=solver_char_budget,
+    )
+    return f"{wrapped}\n</think>\n\\boxed{{{answer}}}<|im_end|>"
 
 
 def build_three_agent_completion(
