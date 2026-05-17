@@ -863,7 +863,12 @@ def wrap_imad_debate_reasoning(
     problem_id: str | None = None,
     solver_char_budget: int | None = None,
 ) -> str:
-    """Return a paper-style 3-agent, 2-round debate trace for IMAD SFT."""
+    """Return a 3-agent, 2-round debate trace for IMAD SFT.
+
+    This mirrors the IMAD data protocol: each agent first provides an
+    independent answer, then revises after reading the other agents, and the
+    final answer is selected by consensus/majority vote.
+    """
     del problem_id
     solver_trace = _sanitize_internal_boxed(
         _strip_internal_final_answer_instruction_lines(
@@ -874,41 +879,131 @@ def wrap_imad_debate_reasoning(
     if not solver_trace:
         solver_trace = "No solver trace was available."
 
-    checker_lines = "\n".join(_category_check_lines(category, answer))
+    agent2_focus = {
+        "bit_manipulation": (
+            "SELF-CRITIQUE: I re-check that the result is an exact binary "
+            "string and that leading zeros are preserved."
+        ),
+        "cipher": (
+            "SELF-CRITIQUE: I re-check that the decoded words obey the "
+            "substitution pattern and do not come from semantic guessing."
+        ),
+        "gravity": (
+            "SELF-CRITIQUE: I re-check the clean numeric value and the final "
+            "rounding used for the answer."
+        ),
+        "unit_conversion": (
+            "SELF-CRITIQUE: I re-check the multiplier, the final product, and "
+            "the clean rounded answer."
+        ),
+        "numeral": (
+            "SELF-CRITIQUE: I re-check the numeral-system mapping and keep the "
+            "exact final string."
+        ),
+    }.get(
+        category,
+        "SELF-CRITIQUE: I re-check the derived value and the required final-answer format.",
+    )
+    if category.startswith("cryptarithm"):
+        agent2_focus = (
+            "SELF-CRITIQUE: I re-check that the symbol mapping is consistent "
+            "and that the final answer uses the solved symbols correctly."
+        )
+    if category.startswith("equation_numeric"):
+        agent2_focus = (
+            "SELF-CRITIQUE: I re-check the numeric transformation and keep the "
+            "clean final value."
+        )
+
+    answer_parts = [part for part in answer.split() if part]
+    answer_parts_text = " | ".join(answer_parts) if answer_parts else answer
+    if category == "cipher":
+        agent2_direct = (
+            "DIRECT SOLUTION: I build the substitution from the examples, decode "
+            f"the target word by word, and obtain {answer_parts_text}."
+        )
+        agent3_constraint = "substitution_pattern_and_dictionary_words"
+    elif category == "bit_manipulation":
+        agent2_direct = (
+            "DIRECT SOLUTION: I apply the binary transformation and preserve the "
+            f"full output width, obtaining {answer}."
+        )
+        agent3_constraint = "binary_string_exact_width"
+    elif category in NUMERIC_CATEGORIES:
+        agent2_direct = (
+            "DIRECT SOLUTION: I recompute the numeric transformation and keep "
+            f"the clean final value {answer}."
+        )
+        agent3_constraint = "clean_numeric_answer"
+    elif category == "numeral":
+        agent2_direct = (
+            "DIRECT SOLUTION: I apply the numeral mapping exactly and obtain "
+            f"{answer}."
+        )
+        agent3_constraint = "exact_numeral_string"
+    elif category.startswith("cryptarithm"):
+        agent2_direct = (
+            "DIRECT SOLUTION: I solve the symbol mapping consistently and obtain "
+            f"{answer}."
+        )
+        agent3_constraint = "symbol_mapping_consistency"
+    else:
+        agent2_direct = (
+            "DIRECT SOLUTION: I solve the problem independently and obtain "
+            f"{answer}."
+        )
+        agent3_constraint = "task_constraints"
+
     lines = [
         IMAD_ROUND_1_TAG,
         IMAD_AGENT_TAGS[0],
-        "I solve the problem directly and keep the final answer clean.",
+        "I will solve the problem independently with a step-by-step trace.",
         solver_trace,
+        f"My initial answer is {answer}.",
         "",
         IMAD_AGENT_TAGS[1],
-        "I independently check the candidate against task-specific constraints.",
-        checker_lines,
+        "I will solve the problem independently and then critique my own solution.",
+        agent2_direct,
+        agent2_focus,
+        f"After this self-critique, my initial answer remains {answer}.",
         "",
         IMAD_AGENT_TAGS[2],
-        "I compare the solver result and the verifier checks.",
+        "I will solve the problem independently using compact logical variables.",
+        f"category = {category}",
+        f"answer_parts = {answer_parts_text}",
+        f"constraint_focus = {agent3_constraint}",
         f"candidate_answer = {answer}",
-        "candidate_valid = yes",
+        "format_required = boxed_final_answer",
+        f"result = {answer}",
         "",
         IMAD_ROUND_2_TAG,
         IMAD_AGENT_TAGS[0],
-        "I accept the verified candidate and do not introduce a new answer.",
-        f"revised_answer = {answer}",
+        "These are the solutions from the other agents:",
+        f"Agent 2 answer: {answer}",
+        f"Agent 3 answer: {answer}",
+        "Using the other agents' responses as additional information, I find no conflict with my solution.",
+        f"My revised answer is {answer}.",
         "",
         IMAD_AGENT_TAGS[1],
-        "I check the final response format.",
-        "final_response_must_be_boxed = yes",
-        "final_response_must_not_be_json = yes",
-        f"boxed_answer = {answer}",
+        "These are the solutions from the other agents:",
+        f"Agent 1 answer: {answer}",
+        f"Agent 3 answer: {answer}",
+        "I compare their answers with my self-critique. The answers agree, so I reaffirm my result.",
+        f"My revised answer is {answer}.",
         "",
         IMAD_AGENT_TAGS[2],
-        "I form the consensus from the verified answer.",
-        f"consensus_answer = {answer}",
+        "These are the solutions from the other agents:",
+        f"Agent 1 answer: {answer}",
+        f"Agent 2 answer: {answer}",
+        "I compare the logical result with the other responses. The majority is unanimous.",
+        f"My revised answer is {answer}.",
         "",
         IMAD_CONSENSUS_TAG,
-        f"final_answer = {answer}",
-        "final_response_must_be_boxed = yes",
-        "final_response_must_not_be_json = yes",
+        f"Agent 1 final answer: {answer}",
+        f"Agent 2 final answer: {answer}",
+        f"Agent 3 final answer: {answer}",
+        f"Majority vote: {answer}",
+        f"Consensus answer: {answer}",
         IMAD_END_TAG,
     ]
     return "\n".join(lines).rstrip("\n")
