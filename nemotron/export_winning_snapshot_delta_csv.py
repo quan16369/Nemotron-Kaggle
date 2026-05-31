@@ -26,9 +26,11 @@ except ModuleNotFoundError:  # pragma: no cover - optional local dependency
     AutoTokenizer = None  # type: ignore[assignment]
 
 from winning_snapshot_delta import (
+    _build_record,
     build_current_correct_base_records,
     load_snapshot_records,
     merge_snapshot_with_current_delta,
+    summarize_categories,
 )
 
 BASE_DIR = Path(__file__).parent
@@ -36,6 +38,16 @@ DEFAULT_SNAPSHOT_DIR = BASE_DIR / "training" / "sft" / "04-08-16-14"
 DEFAULT_OUTPUT = BASE_DIR / "winning_snapshot_delta_manifest.csv"
 TOKENIZER_JSON = BASE_DIR / "tokenizer.json"
 MAX_SEQ_LEN = 8192
+AVAILABLE_AUGMENTERS = [
+    "spelling",
+    "concatenation",
+    "splitting",
+    "matching",
+    "lstrip",
+    "leading_zero_binary",
+    "gravity_arithmetic",
+    "unit_variable_binding",
+]
 DEFAULT_SAFE_DELTA_CATEGORIES = [
     "bit_manipulation",
     "equation_numeric_guess",
@@ -197,6 +209,90 @@ def maybe_sample_records(
     return sampled_records, sample_stats
 
 
+def _tokenize_augmentation_prompt(prompt_text: str, chat_tokenizer) -> list[int]:
+    return chat_tokenizer.apply_chat_template(
+        [{"role": "user", "content": prompt_text}],
+        tokenize=True,
+        add_generation_prompt=True,
+        enable_thinking=True,
+    )
+
+
+def _generate_augmentation_problems(categories: list[str]) -> list[dict[str, str]]:
+    if not categories:
+        return []
+
+    selected = list(categories)
+    if "all" in selected:
+        selected = AVAILABLE_AUGMENTERS[:]
+
+    unknown = sorted(set(selected) - set(AVAILABLE_AUGMENTERS))
+    if unknown:
+        raise ValueError(
+            f"Unknown augmentation categories: {unknown}. "
+            f"Available: {AVAILABLE_AUGMENTERS + ['all']}"
+        )
+
+    from augmenters import (
+        concatenation,
+        gravity_arithmetic,
+        leading_zero_binary,
+        lstrip,
+        matching,
+        splitting,
+        spelling,
+        unit_variable_binding,
+    )
+
+    generators = {
+        "spelling": spelling.generate,
+        "concatenation": concatenation.generate,
+        "splitting": splitting.generate,
+        "matching": matching.generate,
+        "lstrip": lstrip.generate,
+        "leading_zero_binary": leading_zero_binary.generate,
+        "gravity_arithmetic": gravity_arithmetic.generate,
+        "unit_variable_binding": unit_variable_binding.generate,
+    }
+
+    problems: list[dict[str, str]] = []
+    for category in selected:
+        problems.extend(generators[category]())
+    return problems
+
+
+def build_augmentation_records(
+    *,
+    categories: list[str],
+    chat_tokenizer,
+    completion_tokenizer: Tokenizer,
+    max_seq_len: int,
+) -> list[dict]:
+    records: list[dict] = []
+    for problem in _generate_augmentation_problems(categories):
+        problem_id = str(problem["id"])
+        category = str(problem["category"])
+        completion = str(problem["completion"])
+        prompt_ids = _tokenize_augmentation_prompt(str(problem["prompt"]), chat_tokenizer)
+        completion_text = f"{completion}\n</think><|im_end|>"
+        completion_ids = completion_tokenizer.encode(
+            completion_text, add_special_tokens=False
+        ).ids
+        tokens = prompt_ids + completion_ids
+        mask = [0] * len(prompt_ids) + [1] * len(completion_ids)
+        records.append(
+            _build_record(
+                problem_id=problem_id,
+                source_problem_id=problem_id,
+                category=category,
+                tokens=tokens,
+                mask=mask,
+                max_seq_len=max_seq_len,
+            )
+        )
+    return records
+
+
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
     parser.add_argument(
@@ -286,6 +382,16 @@ def parse_args() -> argparse.Namespace:
         default=10,
         help="Number of completion-length buckets used during within-category sampling.",
     )
+    parser.add_argument(
+        "--augment-categories",
+        nargs="+",
+        default=[],
+        choices=AVAILABLE_AUGMENTERS + ["all"],
+        help=(
+            "Append generated augmentation records to the exported manifest. "
+            "Disabled by default. Use e.g. --augment-categories concatenation splitting."
+        ),
+    )
     return parser.parse_args()
 
 
@@ -355,6 +461,18 @@ def main() -> None:
             current_correct_base_records,
         )
 
+        if args.augment_categories:
+            augmentation_records = build_augmentation_records(
+                categories=args.augment_categories,
+                chat_tokenizer=chat_tokenizer,
+                completion_tokenizer=completion_tokenizer,
+                max_seq_len=MAX_SEQ_LEN,
+            )
+            final_records.extend(augmentation_records)
+            final_records.sort(key=lambda record: record["problem_id"])
+        else:
+            augmentation_records = []
+
     final_records, sample_stats = maybe_sample_records(
         final_records,
         keep_fraction_specs=args.keep_fraction,
@@ -410,6 +528,7 @@ def main() -> None:
                 "bit_manipulation_three_bit_repair": args.bit_manipulation_three_bit_repair,
                 "bit_manipulation_use_legacy": args.use_legacy_bit_manipulation,
                 "delta_categories": args.delta_categories,
+                "augment_categories": args.augment_categories,
                 "keep_fraction": args.keep_fraction,
                 "keep_problems": args.keep_problems,
                 "sample_seed": args.sample_seed,
@@ -427,6 +546,14 @@ def main() -> None:
                     }
                 ),
                 "sample_stats": sample_stats,
+                "augmentation_stats": (
+                    None
+                    if args.no_delta or not args.augment_categories
+                    else {
+                        "records": len(augmentation_records),
+                        "categories": dict(summarize_categories(augmentation_records)),
+                    }
+                ),
             },
             indent=2,
         )
