@@ -27,6 +27,7 @@ except ModuleNotFoundError:  # pragma: no cover - optional local dependency
 
 from winning_snapshot_delta import (
     _build_record,
+    _answers_match_like_metric,
     build_current_correct_base_records,
     load_snapshot_records,
     merge_snapshot_with_current_delta,
@@ -293,6 +294,218 @@ def build_augmentation_records(
     return records
 
 
+def _compact_gravity_reasoning(problem) -> str | None:
+    try:
+        t = float(problem.question)
+    except ValueError:
+        return None
+    if t <= 0:
+        return None
+
+    k_values: list[float] = []
+    k_displays: list[str] = []
+    lines = [
+        "Use a compact variable-binding calculation.",
+        "I will put my final answer inside \\boxed{}.",
+        "",
+        "Find k from d = k*t^2:",
+    ]
+    for ex in problem.examples:
+        try:
+            ex_t = float(ex.input_value)
+            ex_d = float(ex.output_value)
+        except ValueError:
+            continue
+        if ex_t <= 0:
+            continue
+        ex_t_squared = ex_t * ex_t
+        k = ex_d / ex_t_squared
+        k_values.append(k)
+        k_display = f"{k:.6f}".rstrip("0").rstrip(".")
+        k_displays.append(k_display)
+        lines.append(
+            f"  t={ex.input_value}; d={ex.output_value}; "
+            f"t_squared={ex_t_squared:g}; k=d/t_squared={k_display}"
+        )
+
+    if not k_values:
+        return None
+    paired = sorted(zip(k_values, k_displays), key=lambda item: item[0])
+    if len(paired) % 2 == 0:
+        k_value, k_display = paired[len(paired) // 2 - 1]
+    else:
+        k_value, k_display = paired[len(paired) // 2]
+
+    t_squared = t * t
+    distance = k_value * t_squared
+    computed = f"{distance:.6f}".rstrip("0").rstrip(".")
+    answer = str(problem.answer).strip()
+    lines.extend(
+        [
+            "",
+            f"chosen_k={k_display}",
+            f"question_t={problem.question}",
+            f"t_squared={problem.question}*{problem.question}={t_squared:g}",
+            f"distance=chosen_k*t_squared={k_display}*{t_squared:g}={computed}",
+            f"answer=distance={answer}",
+            "",
+            "I will now return the answer in \\boxed{}",
+            f"The answer is \\boxed{{{answer}}}",
+        ]
+    )
+    return "\n".join(lines)
+
+
+def _compact_cipher_reasoning(problem) -> str | None:
+    cipher_to_plain: dict[str, str] = {}
+    plain_to_cipher: dict[str, str] = {}
+    lines = [
+        "Use a compact substitution-cipher mapping.",
+        "I will put my final answer inside \\boxed{}.",
+        "",
+        "Build the bijective mapping from examples:",
+    ]
+    for ex in problem.examples:
+        cipher_words = str(ex.input_value).split()
+        plain_words = str(ex.output_value).split()
+        if len(cipher_words) != len(plain_words):
+            return None
+        pair_steps: list[str] = []
+        for cipher_word, plain_word in zip(cipher_words, plain_words):
+            if len(cipher_word) != len(plain_word):
+                return None
+            for cipher_char, plain_char in zip(cipher_word, plain_word):
+                existing_plain = cipher_to_plain.get(cipher_char)
+                existing_cipher = plain_to_cipher.get(plain_char)
+                if existing_plain is not None and existing_plain != plain_char:
+                    return None
+                if existing_cipher is not None and existing_cipher != cipher_char:
+                    return None
+                cipher_to_plain[cipher_char] = plain_char
+                plain_to_cipher[plain_char] = cipher_char
+                pair_steps.append(f"{cipher_char}->{plain_char}")
+        lines.append(
+            f"  {ex.input_value} -> {ex.output_value}: "
+            + ", ".join(dict.fromkeys(pair_steps))
+        )
+
+    decoded_words: list[str] = []
+    query_steps: list[str] = []
+    for word in str(problem.question).split():
+        decoded_chars: list[str] = []
+        word_steps: list[str] = []
+        for char in word:
+            if char not in cipher_to_plain:
+                return None
+            decoded_chars.append(cipher_to_plain[char])
+            word_steps.append(f"{char}->{cipher_to_plain[char]}")
+        decoded_word = "".join(decoded_chars)
+        decoded_words.append(decoded_word)
+        query_steps.append(f"{word} -> {decoded_word} ({', '.join(word_steps)})")
+
+    decoded = " ".join(decoded_words)
+    answer = str(problem.answer).strip()
+    if decoded != answer:
+        return None
+    lines.extend(
+        [
+            "",
+            "Apply mapping to the question:",
+            *[f"  {step}" for step in query_steps],
+            f"decoded_sentence={decoded}",
+            f"answer=decoded_sentence={answer}",
+            "",
+            "I will now return the answer in \\boxed{}",
+            f"The answer is \\boxed{{{answer}}}",
+        ]
+    )
+    return "\n".join(lines)
+
+
+def build_compact_cot_records(
+    *,
+    categories: set[str],
+    chat_tokenizer,
+    completion_tokenizer: Tokenizer,
+    max_seq_len: int,
+    max_per_category: dict[str, int] | None = None,
+) -> list[dict]:
+    if not categories:
+        return []
+
+    from corpus import tokenize_prompt
+    from reasoning import extract_answer
+    from reasoners.store_types import Problem
+
+    builders = {
+        "gravity": _compact_gravity_reasoning,
+        "cipher": _compact_cipher_reasoning,
+    }
+    unsupported = sorted(categories - set(builders))
+    if unsupported:
+        raise ValueError(
+            f"Unsupported compact CoT categories: {unsupported}. "
+            f"Available: {sorted(builders)}"
+        )
+
+    train_csv_path = BASE_DIR / "train.csv"
+    prompt_rows: dict[str, dict[str, str]] = {}
+    with train_csv_path.open(newline="") as f:
+        for row in csv.DictReader(f):
+            prompt_rows[row["id"]] = row
+
+    problems = [
+        problem
+        for problem in Problem.load_all()
+        if problem.category in categories and problem.id in prompt_rows
+    ]
+    problems.sort(key=lambda problem: problem.id)
+
+    counts: dict[str, int] = {category: 0 for category in categories}
+    records: list[dict] = []
+    for problem in problems:
+        category = problem.category
+        if max_per_category and counts.get(category, 0) >= max_per_category.get(
+            category, 10**9
+        ):
+            continue
+        reasoning_text = builders[category](problem)
+        if not reasoning_text:
+            continue
+        answer = str(prompt_rows[problem.id]["answer"])
+        reasoning_answer = extract_answer(reasoning_text)
+        if not _answers_match_like_metric(answer, reasoning_answer):
+            continue
+
+        prompt_ids = tokenize_prompt(prompt_rows[problem.id]["prompt"], chat_tokenizer)
+        completion_text = (
+            f"{reasoning_text}\n</think>\n\\boxed{{{answer}}}<|im_end|>"
+        )
+        completion_ids = completion_tokenizer.encode(
+            completion_text, add_special_tokens=False
+        ).ids
+        tokens = prompt_ids + completion_ids
+        mask = [0] * len(prompt_ids) + [1] * len(completion_ids)
+        try:
+            records.append(
+                _build_record(
+                    problem_id=f"{problem.id}-compact0",
+                    source_problem_id=problem.id,
+                    category=category,
+                    tokens=tokens,
+                    mask=mask,
+                    max_seq_len=max_seq_len,
+                )
+            )
+        except ValueError as exc:
+            if "exceeds max length" in str(exc):
+                print(f"Skipping overlength compact example {problem.id}: {exc}")
+                continue
+            raise
+        counts[category] = counts.get(category, 0) + 1
+    return records
+
+
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
     parser.add_argument(
@@ -392,6 +605,26 @@ def parse_args() -> argparse.Namespace:
             "Disabled by default. Use e.g. --augment-categories concatenation splitting."
         ),
     )
+    parser.add_argument(
+        "--compact-cot-categories",
+        nargs="+",
+        default=[],
+        choices=["cipher", "gravity"],
+        help=(
+            "Append extra compact-CoT rows for selected categories. "
+            "These are additional rows, not replacements."
+        ),
+    )
+    parser.add_argument(
+        "--compact-cot-problems",
+        action="append",
+        default=[],
+        metavar="CATEGORY=COUNT",
+        help=(
+            "Limit compact-CoT extra rows by category, e.g. cipher=120. "
+            "If omitted for a compact category, all correct compact rows are added."
+        ),
+    )
     return parser.parse_args()
 
 
@@ -473,6 +706,25 @@ def main() -> None:
         else:
             augmentation_records = []
 
+        if args.compact_cot_categories:
+            compact_limits = {
+                category: int(value)
+                for category, value in parse_category_value_specs(
+                    args.compact_cot_problems
+                ).items()
+            }
+            compact_records = build_compact_cot_records(
+                categories=set(args.compact_cot_categories),
+                chat_tokenizer=chat_tokenizer,
+                completion_tokenizer=completion_tokenizer,
+                max_seq_len=MAX_SEQ_LEN,
+                max_per_category=compact_limits,
+            )
+            final_records.extend(compact_records)
+            final_records.sort(key=lambda record: record["problem_id"])
+        else:
+            compact_records = []
+
     final_records, sample_stats = maybe_sample_records(
         final_records,
         keep_fraction_specs=args.keep_fraction,
@@ -529,6 +781,8 @@ def main() -> None:
                 "bit_manipulation_use_legacy": args.use_legacy_bit_manipulation,
                 "delta_categories": args.delta_categories,
                 "augment_categories": args.augment_categories,
+                "compact_cot_categories": args.compact_cot_categories,
+                "compact_cot_problems": args.compact_cot_problems,
                 "keep_fraction": args.keep_fraction,
                 "keep_problems": args.keep_problems,
                 "sample_seed": args.sample_seed,
@@ -552,6 +806,14 @@ def main() -> None:
                     else {
                         "records": len(augmentation_records),
                         "categories": dict(summarize_categories(augmentation_records)),
+                    }
+                ),
+                "compact_cot_stats": (
+                    None
+                    if args.no_delta or not args.compact_cot_categories
+                    else {
+                        "records": len(compact_records),
+                        "categories": dict(summarize_categories(compact_records)),
                     }
                 ),
             },
