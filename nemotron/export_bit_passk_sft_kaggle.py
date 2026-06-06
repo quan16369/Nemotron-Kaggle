@@ -1,4 +1,4 @@
-"""Export rejection-sampling SFT data from bit-manipulation pass@k rollouts.
+"""Export rejection-sampling SFT data from selected-category pass@k rollouts.
 
 The selected frontier contains only prompts where greedy decoding is wrong but
 at least one sampled rollout is exactly correct. Among valid correct rollouts,
@@ -10,6 +10,7 @@ from __future__ import annotations
 import argparse
 import glob
 import json
+import math
 import re
 from pathlib import Path
 
@@ -40,8 +41,17 @@ def extract_final_answer(text: str | None) -> str:
     if matches:
         non_empty = [match.strip() for match in matches if match.strip()]
         return non_empty[-1] if non_empty else matches[-1].strip()
-    binary = re.findall(r"[01]{8}", text)
-    return binary[-1] if binary else "NOT_FOUND"
+    patterns = [
+        r"The final answer is:\s*([^\n]+)",
+        r"Final answer is:\s*([^\n]+)",
+        r"Final answer\s*[:：]\s*([^\n]+)",
+    ]
+    for pattern in patterns:
+        matches = re.findall(pattern, text, re.IGNORECASE)
+        if matches:
+            return matches[-1].strip()
+    numbers = re.findall(r"-?\d+(?:\.\d+)?", text)
+    return numbers[-1] if numbers else "NOT_FOUND"
 
 
 def find_train_csv(explicit: str | None) -> str:
@@ -61,6 +71,52 @@ def find_train_csv(explicit: str | None) -> str:
 def is_bit_prompt(prompt: str) -> bool:
     lowered = str(prompt).lower()
     return "secret bit manipulation rule" in lowered and "8-bit binary" in lowered
+
+
+def is_equation_numeric_deduce_prompt(prompt: str) -> bool:
+    prompt = str(prompt)
+    if "secret set of transformation rules is applied to equations" not in prompt.lower():
+        return False
+    lines = [line.strip() for line in prompt.splitlines() if line.strip()]
+    equation_lines = [
+        line for line in lines if re.fullmatch(r"\d+\D\d+\s*=\s*-?\d+\D?", line)
+    ]
+    query_matches = re.findall(
+        r"determine the result for:\s*(\d+)(\D)(\d+)", prompt, re.IGNORECASE
+    )
+    if not equation_lines or not query_matches:
+        return False
+    query_operator = query_matches[-1][1]
+    example_operators = {
+        match.group(1)
+        for line in equation_lines
+        if (match := re.fullmatch(r"\d+(\D)\d+\s*=\s*-?\d+\D?", line))
+    }
+    return query_operator in example_operators
+
+
+def detect_selected_category(prompt: str, categories: set[str]) -> str | None:
+    if "bit_manipulation" in categories and is_bit_prompt(prompt):
+        return "bit_manipulation"
+    if (
+        "equation_numeric_deduce" in categories
+        and is_equation_numeric_deduce_prompt(prompt)
+    ):
+        return "equation_numeric_deduce"
+    return None
+
+
+def verify_answer(gold: str, predicted: str) -> bool:
+    gold = str(gold).strip()
+    predicted = str(predicted).strip()
+    if re.fullmatch(r"[01]+", gold):
+        return predicted.lower() == gold.lower()
+    try:
+        return math.isclose(
+            float(gold), float(predicted), rel_tol=1e-2, abs_tol=1e-5
+        )
+    except Exception:
+        return predicted.lower() == gold.lower()
 
 
 def format_prompt(tokenizer, prompt: str) -> str:
@@ -84,7 +140,14 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--base-model-path", required=True)
     parser.add_argument("--adapter-dir", required=True)
     parser.add_argument("--train-csv", default=None)
-    parser.add_argument("--output-dir", default="/kaggle/working/bit_passk_sft")
+    parser.add_argument("--output-dir", default="/kaggle/working/passk_sft")
+    parser.add_argument(
+        "--categories",
+        nargs="+",
+        choices=["bit_manipulation", "equation_numeric_deduce"],
+        default=["bit_manipulation"],
+        help="Categories to mine. Pass one category to disable the other.",
+    )
     parser.add_argument("--base-manifest", default=None)
     parser.add_argument("--output-manifest", default=None)
     parser.add_argument("--max-examples", type=int, default=None)
@@ -117,8 +180,11 @@ def main() -> None:
 
     train_csv = find_train_csv(args.train_csv)
     frame = pd.read_csv(train_csv)
-    frame = frame[frame["prompt"].map(is_bit_prompt)].copy()
-    frame = frame[frame["answer"].astype(str).str.fullmatch(r"[01]{8}")].copy()
+    selected_categories = set(args.categories)
+    frame["category"] = frame["prompt"].map(
+        lambda prompt: detect_selected_category(prompt, selected_categories)
+    )
+    frame = frame[frame["category"].notna()].copy()
     frame = frame.sample(frac=1.0, random_state=args.sample_seed).reset_index(drop=True)
     if args.max_examples is not None:
         frame = frame.head(args.max_examples).copy()
@@ -160,23 +226,36 @@ def main() -> None:
     selected_rows: list[dict] = []
     greedy_correct_count = 0
     passk_correct_count = 0
+    category_stats = {
+        category: {
+            "examples": 0,
+            "greedy_correct": 0,
+            "passk_correct": 0,
+            "frontier_selected": 0,
+        }
+        for category in args.categories
+    }
 
     for row_index, (row, greedy, sampled) in enumerate(
         zip(frame.itertuples(index=False), greedy_outputs, sampled_outputs)
     ):
         gold = str(row.answer).strip()
+        category = str(row.category)
+        category_stats[category]["examples"] += 1
         greedy_text = greedy.outputs[0].text
         greedy_extracted = extract_final_answer(greedy_text)
-        greedy_correct = greedy_extracted == gold
+        greedy_correct = verify_answer(gold, greedy_extracted)
         greedy_correct_count += int(greedy_correct)
+        category_stats[category]["greedy_correct"] += int(greedy_correct)
 
         valid_candidates: list[dict] = []
+        problem_candidates: list[dict] = []
         for sample_index, candidate in enumerate(sampled.outputs):
             text = candidate.text
             extracted = extract_final_answer(text)
             token_count = len(candidate.token_ids)
             finish_reason = str(candidate.finish_reason)
-            correct = extracted == gold
+            correct = verify_answer(gold, extracted)
             valid = (
                 correct
                 and "\\boxed{" in text
@@ -185,7 +264,7 @@ def main() -> None:
             )
             candidate_row = {
                 "problem_id": str(row.id),
-                "category": "bit_manipulation",
+                "category": category,
                 "sample_index": sample_index,
                 "answer": gold,
                 "greedy_extracted": greedy_extracted,
@@ -198,11 +277,13 @@ def main() -> None:
                 "completion": text,
             }
             audit_rows.append(candidate_row)
+            problem_candidates.append(candidate_row)
             if valid:
                 valid_candidates.append(candidate_row)
 
-        passk_correct = any(candidate["correct"] for candidate in audit_rows[-args.k :])
+        passk_correct = any(candidate["correct"] for candidate in problem_candidates)
         passk_correct_count += int(passk_correct)
+        category_stats[category]["passk_correct"] += int(passk_correct)
         if greedy_correct or not valid_candidates:
             continue
 
@@ -211,7 +292,7 @@ def main() -> None:
             {
                 "problem_id": f"{row.id}-passk-sft",
                 "source_problem_id": str(row.id),
-                "category": "bit_manipulation",
+                "category": category,
                 "prompt": str(row.prompt),
                 "formatted_prompt": prompts[row_index],
                 "completion": chosen["completion"],
@@ -220,6 +301,7 @@ def main() -> None:
                 "sample_index": chosen["sample_index"],
             }
         )
+        category_stats[category]["frontier_selected"] += 1
 
     pd.DataFrame(audit_rows).to_csv(output_dir / "audit.csv", index=False)
     pd.DataFrame(selected_rows).to_csv(output_dir / "selected.csv", index=False)
@@ -228,7 +310,7 @@ def main() -> None:
     manifest_added = 0
     if args.base_manifest:
         output_manifest = Path(
-            args.output_manifest or output_dir / "manifest_with_bit_passk_sft.csv"
+            args.output_manifest or output_dir / "manifest_with_passk_sft.csv"
         )
         base_manifest = pd.read_csv(args.base_manifest)
         manifest_rows: list[dict] = []
@@ -270,7 +352,8 @@ def main() -> None:
 
     summary = {
         "train_csv": train_csv,
-        "bit_examples": len(frame),
+        "categories": args.categories,
+        "examples": len(frame),
         "k": args.k,
         "greedy_correct": greedy_correct_count,
         "greedy_accuracy": greedy_correct_count / len(frame) if len(frame) else 0.0,
@@ -280,6 +363,12 @@ def main() -> None:
         "manifest_rows_added": manifest_added,
         "output_dir": str(output_dir),
     }
+    for stats in category_stats.values():
+        count = stats["examples"]
+        stats["greedy_accuracy"] = stats["greedy_correct"] / count if count else 0.0
+        stats["passk_accuracy"] = stats["passk_correct"] / count if count else 0.0
+        stats["gap"] = stats["passk_accuracy"] - stats["greedy_accuracy"]
+    summary["category_stats"] = category_stats
     (output_dir / "summary.json").write_text(
         json.dumps(summary, indent=2), encoding="utf-8"
     )
