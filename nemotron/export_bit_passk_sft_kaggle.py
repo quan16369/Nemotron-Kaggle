@@ -162,6 +162,18 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--max-lora-rank", type=int, default=32)
     parser.add_argument("--min-completion-tokens", type=int, default=300)
     parser.add_argument("--max-selected-tokens", type=int, default=7000)
+    parser.add_argument(
+        "--min-correct-rollouts",
+        type=int,
+        default=2,
+        help="Require this many independently sampled exact-gold rollouts before adding a prompt.",
+    )
+    parser.add_argument(
+        "--max-selected-per-category",
+        type=int,
+        default=30,
+        help="Cap added frontier rows per category. Use 0 for no cap.",
+    )
     return parser.parse_args()
 
 
@@ -256,8 +268,9 @@ def main() -> None:
             token_count = len(candidate.token_ids)
             finish_reason = str(candidate.finish_reason)
             correct = verify_answer(gold, extracted)
+            exact_gold = extracted.strip().lower() == gold.strip().lower()
             valid = (
-                correct
+                exact_gold
                 and "\\boxed{" in text
                 and finish_reason != "length"
                 and args.min_completion_tokens <= token_count <= args.max_selected_tokens
@@ -271,6 +284,7 @@ def main() -> None:
                 "greedy_correct": greedy_correct,
                 "extracted": extracted,
                 "correct": correct,
+                "exact_gold": exact_gold,
                 "valid_for_sft": valid,
                 "completion_token_count": token_count,
                 "finish_reason": finish_reason,
@@ -284,10 +298,13 @@ def main() -> None:
         passk_correct = any(candidate["correct"] for candidate in problem_candidates)
         passk_correct_count += int(passk_correct)
         category_stats[category]["passk_correct"] += int(passk_correct)
-        if greedy_correct or not valid_candidates:
+        if greedy_correct or len(valid_candidates) < args.min_correct_rollouts:
             continue
 
-        chosen = min(valid_candidates, key=lambda candidate: candidate["completion_token_count"])
+        # Avoid selecting an unusually short lucky answer. Pick the lower median
+        # exact-gold trajectory, which remains compact but is more representative.
+        valid_candidates.sort(key=lambda candidate: candidate["completion_token_count"])
+        chosen = valid_candidates[(len(valid_candidates) - 1) // 2]
         selected_rows.append(
             {
                 "problem_id": f"{row.id}-passk-sft",
@@ -299,9 +316,34 @@ def main() -> None:
                 "answer": gold,
                 "completion_token_count": chosen["completion_token_count"],
                 "sample_index": chosen["sample_index"],
+                "exact_correct_rollouts": len(valid_candidates),
             }
         )
         category_stats[category]["frontier_selected"] += 1
+
+    if args.max_selected_per_category > 0:
+        capped_rows: list[dict] = []
+        for category in args.categories:
+            category_rows = [
+                row for row in selected_rows if row["category"] == category
+            ]
+            category_rows.sort(
+                key=lambda row: (
+                    -row["exact_correct_rollouts"],
+                    row["completion_token_count"],
+                    row["problem_id"],
+                )
+            )
+            capped_rows.extend(category_rows[: args.max_selected_per_category])
+            category_stats[category]["frontier_selected_after_cap"] = min(
+                len(category_rows), args.max_selected_per_category
+            )
+        selected_rows = capped_rows
+    else:
+        for category in args.categories:
+            category_stats[category]["frontier_selected_after_cap"] = category_stats[
+                category
+            ]["frontier_selected"]
 
     pd.DataFrame(audit_rows).to_csv(output_dir / "audit.csv", index=False)
     pd.DataFrame(selected_rows).to_csv(output_dir / "selected.csv", index=False)

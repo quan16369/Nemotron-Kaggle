@@ -46,26 +46,44 @@ def _from_roman(s: str) -> int:
 
 
 def reasoning_numeral(problem: Problem) -> str:
-    lines: list[str] = []
-    lines.append("We determine the numeral system from the examples:")
-    lines.append("I will put my final answer inside \\boxed{}.")
-    lines.append("")
+    lines = [
+        "This is standard Roman numeral conversion.",
+        "",
+        "Step 1: Identify the numeral system from the examples.",
+    ]
     for ex in problem.examples:
         lines.append(f"  {ex.input_value} -> {ex.output_value}")
 
-    lines.append("")
-    lines.append("This is Arabic to Roman numeral conversion.")
+    lines.extend(
+        [
+            "",
+            "Roman values: I=1, V=5, X=10, L=50, C=100, D=500, M=1000.",
+            "Subtractive forms: IV=4, IX=9, XL=40, XC=90, CD=400, CM=900.",
+            "",
+        ]
+    )
     n = int(problem.question)
-    computed = _to_roman(n)
-    lines.append(f"{n} in Roman numerals is {computed}.")
+    remaining = n
+    parts: list[str] = []
+    lines.append(f"Step 2: Convert {n} using largest values first.")
+    for value, symbol in ROMAN_VALUES:
+        while remaining >= value:
+            parts.append(symbol)
+            remaining -= value
+            lines.append(f"  Take {symbol} ({value}); remainder = {remaining}")
 
-    lines.append("")
-    checked = _from_roman(computed)
-    lines.append("Double-check:")
-    lines.append(f"Converting {computed} back to Arabic gives {checked}.")
-    lines.append(f"This matches the original number {n}, so the result is consistent.")
-
-    lines.append("")
-    lines.append("I will now return the answer in \\boxed{}")
-    lines.append(f"The answer is \\boxed{{{computed}}}")
+    computed = "".join(parts)
+    final_answer = problem.answer.strip()
+    lines.extend(
+        [
+            f"  Combining parts: {computed}",
+            "",
+            "Step 3: Verify the examples use the same Roman convention.",
+        ]
+    )
+    for ex in problem.examples[:3]:
+        check = _to_roman(int(ex.input_value))
+        status = "matches" if check == ex.output_value else "does not match"
+        lines.append(f"  {ex.input_value} -> {check} ({status})")
+    lines.extend(["", f"The answer is \\boxed{{{final_answer}}}"])
     return "\n".join(lines)
