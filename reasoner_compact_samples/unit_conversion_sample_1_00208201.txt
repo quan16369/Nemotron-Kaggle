@@ -1,0 +1,38 @@
+ID: 00208201
+CATEGORY: unit_conversion
+QUESTION: 25.09
+ANSWER: 16.65
+
+PROMPT:
+In Alice's Wonderland, a secret unit conversion is applied to measurements. For example:
+10.08 m becomes 6.69
+17.83 m becomes 11.83
+35.85 m becomes 23.79
+17.06 m becomes 11.32
+31.54 m becomes 20.93
+Now, convert the following measurement: 25.09 m
+
+GENERATED REASONING:
+The examples use one linear unit-conversion ratio.
+
+Step 1: Calculate output/input for each example.
+Example 1: 10.08 -> 6.69
+  ratio_1 = 6.69 / 10.08 = 0.663690
+Example 2: 17.83 -> 11.83
+  ratio_2 = 11.83 / 17.83 = 0.663489
+Example 3: 35.85 -> 23.79
+  ratio_3 = 23.79 / 35.85 = 0.663598
+Example 4: 17.06 -> 11.32
+  ratio_4 = 11.32 / 17.06 = 0.663540
+Example 5: 31.54 -> 20.93
+  ratio_5 = 20.93 / 31.54 = 0.663602
+
+Step 2: Average the conversion ratios to reduce rounding noise.
+  ratio_avg = (0.663690 + 0.663489 + 0.663598 + 0.663540 + 0.663602) / 5
+  ratio_avg = 0.663584
+
+Step 3: Convert 25.09.
+  converted_value = 25.09 * ratio_avg = 16.649320
+  Rounded to the required precision: 16.65
+
+The answer is \boxed{16.65}

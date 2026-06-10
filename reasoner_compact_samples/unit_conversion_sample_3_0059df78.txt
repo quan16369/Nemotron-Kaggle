@@ -1,0 +1,38 @@
+ID: 0059df78
+CATEGORY: unit_conversion
+QUESTION: 47.21
+ANSWER: 43.43
+
+PROMPT:
+In Alice's Wonderland, a secret unit conversion is applied to measurements. For example:
+35.31 m becomes 32.49
+11.58 m becomes 10.65
+37.75 m becomes 34.73
+7.15 m becomes 6.58
+25.38 m becomes 23.35
+Now, convert the following measurement: 47.21 m
+
+GENERATED REASONING:
+The examples use one linear unit-conversion ratio.
+
+Step 1: Calculate output/input for each example.
+Example 1: 35.31 -> 32.49
+  ratio_1 = 32.49 / 35.31 = 0.920136
+Example 2: 11.58 -> 10.65
+  ratio_2 = 10.65 / 11.58 = 0.919689
+Example 3: 37.75 -> 34.73
+  ratio_3 = 34.73 / 37.75 = 0.920000
+Example 4: 7.15 -> 6.58
+  ratio_4 = 6.58 / 7.15 = 0.920280
+Example 5: 25.38 -> 23.35
+  ratio_5 = 23.35 / 25.38 = 0.920016
+
+Step 2: Average the conversion ratios to reduce rounding noise.
+  ratio_avg = (0.920136 + 0.919689 + 0.920000 + 0.920280 + 0.920016) / 5
+  ratio_avg = 0.920024
+
+Step 3: Convert 47.21.
+  converted_value = 47.21 * ratio_avg = 43.434338
+  Rounded to the required precision: 43.43
+
+The answer is \boxed{43.43}

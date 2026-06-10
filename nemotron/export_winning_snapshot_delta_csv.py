@@ -210,6 +210,39 @@ def maybe_sample_records(
     return sampled_records, sample_stats
 
 
+def deduplicate_source_problems(records: list[dict]) -> tuple[list[dict], dict]:
+    """Keep one deterministic training row for each source problem."""
+    selected: dict[str, dict] = {}
+    for record in sorted(
+        records,
+        key=lambda row: (
+            str(row["source_problem_id"]),
+            row["problem_id"] != row["source_problem_id"],
+            str(row["problem_id"]),
+        ),
+    ):
+        source_problem_id = str(record["source_problem_id"])
+        selected.setdefault(source_problem_id, record)
+
+    deduplicated = sorted(selected.values(), key=lambda row: str(row["problem_id"]))
+    before_by_category = summarize_categories(records)
+    after_by_category = summarize_categories(deduplicated)
+    return deduplicated, {
+        "rows_before": len(records),
+        "rows_after": len(deduplicated),
+        "rows_removed": len(records) - len(deduplicated),
+        "categories": {
+            category: {
+                "rows_before": before_by_category[category],
+                "rows_after": after_by_category[category],
+                "rows_removed": before_by_category[category]
+                - after_by_category[category],
+            }
+            for category in sorted(set(before_by_category) | set(after_by_category))
+        },
+    }
+
+
 def _tokenize_augmentation_prompt(prompt_text: str, chat_tokenizer) -> list[int]:
     return chat_tokenizer.apply_chat_template(
         [{"role": "user", "content": prompt_text}],
@@ -596,6 +629,14 @@ def parse_args() -> argparse.Namespace:
         help="Number of completion-length buckets used during within-category sampling.",
     )
     parser.add_argument(
+        "--deduplicate-source-problems",
+        action="store_true",
+        help=(
+            "After merge/augmentation, keep exactly one row per source_problem_id. "
+            "The unsuffixed base problem_id is preferred when available."
+        ),
+    )
+    parser.add_argument(
         "--augment-categories",
         nargs="+",
         default=[],
@@ -732,6 +773,10 @@ def main() -> None:
         sample_seed=args.sample_seed,
         sample_length_buckets=args.sample_length_buckets,
     )
+    if args.deduplicate_source_problems:
+        final_records, deduplicate_stats = deduplicate_source_problems(final_records)
+    else:
+        deduplicate_stats = None
 
     fieldnames = [
         "problem_id",
@@ -787,6 +832,8 @@ def main() -> None:
                 "keep_problems": args.keep_problems,
                 "sample_seed": args.sample_seed,
                 "sample_length_buckets": args.sample_length_buckets,
+                "deduplicate_source_problems": args.deduplicate_source_problems,
+                "deduplicate_stats": deduplicate_stats,
                 "snapshot_loss_config": snapshot_config.get("loss_config", {}),
                 "snapshot_lr_schedule": snapshot_config.get("lr_schedule", {}),
                 "delta_stats": (

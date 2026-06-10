@@ -1,0 +1,41 @@
+ID: 00619cba
+CATEGORY: gravity
+QUESTION: 3.82
+ANSWER: 91.84
+
+PROMPT:
+In Alice's Wonderland, the gravitational constant has been secretly changed. Here are some example observations:
+For t = 4.74s, distance = 141.41 m
+For t = 3.71s, distance = 86.63 m
+For t = 1.75s, distance = 19.27 m
+Now, determine the falling distance for t = 3.82s given d = 0.5*g*t^2.
+
+GENERATED REASONING:
+This is Wonderland gravity, not Earth's standard gravity.
+Use d = 0.5*g*t^2, so each example gives g = 2*d/t^2.
+
+Step 1: Calculate g from the examples.
+Example 1: t = 4.74s, d = 141.41m
+  t_squared_1 = 4.74^2 = 22.4676
+  twice_distance_1 = 2 * 141.41 = 282.8200
+  g_1 = twice_distance_1 / t_squared_1 = 12.5879
+Example 2: t = 3.71s, d = 86.63m
+  t_squared_2 = 3.71^2 = 13.7641
+  twice_distance_2 = 2 * 86.63 = 173.2600
+  g_2 = twice_distance_2 / t_squared_2 = 12.5878
+Example 3: t = 1.75s, d = 19.27m
+  t_squared_3 = 1.75^2 = 3.0625
+  twice_distance_3 = 2 * 19.27 = 38.5400
+  g_3 = twice_distance_3 / t_squared_3 = 12.5845
+
+Step 2: Average the inferred gravity values.
+  g_avg = (12.5879 + 12.5878 + 12.5845) / 3
+  g_avg = 12.5867
+
+Step 3: Apply the rule to t = 3.82s.
+  query_t_squared = 3.82^2 = 14.5924
+  gravity_time_product = g_avg * query_t_squared = 183.6707
+  distance = 0.5 * gravity_time_product = 91.8354
+  Rounded to the required precision: 91.84
+
+The answer is \boxed{91.84}

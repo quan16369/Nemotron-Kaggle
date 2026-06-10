@@ -1,0 +1,37 @@
+ID: 00d9f682
+CATEGORY: numeral
+QUESTION: 100
+ANSWER: C
+
+PROMPT:
+In Alice's Wonderland, numbers are secretly converted into a different numeral system. Some examples are given below:
+4 -> IV
+42 -> XLII
+59 -> LIX
+77 -> LXXVII
+55 -> LV
+Now, write the number 100 in the Wonderland numeral system.
+
+GENERATED REASONING:
+This is standard Roman numeral conversion.
+
+Step 1: Identify the numeral system from the examples.
+  4 -> IV
+  42 -> XLII
+  59 -> LIX
+  77 -> LXXVII
+  55 -> LV
+
+Roman values: I=1, V=5, X=10, L=50, C=100, D=500, M=1000.
+Subtractive forms: IV=4, IX=9, XL=40, XC=90, CD=400, CM=900.
+
+Step 2: Convert 100 using largest values first.
+  Take C (100); remainder = 0
+  Combining parts: C
+
+Step 3: Verify the examples use the same Roman convention.
+  4 -> IV (matches)
+  42 -> XLII (matches)
+  59 -> LIX (matches)
+
+The answer is \boxed{C}

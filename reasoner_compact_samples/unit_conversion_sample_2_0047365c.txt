@@ -1,0 +1,32 @@
+ID: 0047365c
+CATEGORY: unit_conversion
+QUESTION: 13.0
+ANSWER: 10.62
+
+PROMPT:
+In Alice's Wonderland, a secret unit conversion is applied to measurements. For example:
+32.58 m becomes 26.62
+10.9 m becomes 8.90
+17.86 m becomes 14.59
+Now, convert the following measurement: 13.0 m
+
+GENERATED REASONING:
+The examples use one linear unit-conversion ratio.
+
+Step 1: Calculate output/input for each example.
+Example 1: 32.58 -> 26.62
+  ratio_1 = 26.62 / 32.58 = 0.817066
+Example 2: 10.9 -> 8.90
+  ratio_2 = 8.90 / 10.9 = 0.816514
+Example 3: 17.86 -> 14.59
+  ratio_3 = 14.59 / 17.86 = 0.816909
+
+Step 2: Average the conversion ratios to reduce rounding noise.
+  ratio_avg = (0.817066 + 0.816514 + 0.816909) / 3
+  ratio_avg = 0.816830
+
+Step 3: Convert 13.0.
+  converted_value = 13.0 * ratio_avg = 10.618785
+  Rounded to the required precision: 10.62
+
+The answer is \boxed{10.62}

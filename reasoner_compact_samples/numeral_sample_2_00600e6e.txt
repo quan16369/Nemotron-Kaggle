@@ -1,0 +1,39 @@
+ID: 00600e6e
+CATEGORY: numeral
+QUESTION: 67
+ANSWER: LXVII
+
+PROMPT:
+In Alice's Wonderland, numbers are secretly converted into a different numeral system. Some examples are given below:
+37 -> XXXVII
+41 -> XLI
+66 -> LXVI
+64 -> LXIV
+Now, write the number 67 in the Wonderland numeral system.
+
+GENERATED REASONING:
+This is standard Roman numeral conversion.
+
+Step 1: Identify the numeral system from the examples.
+  37 -> XXXVII
+  41 -> XLI
+  66 -> LXVI
+  64 -> LXIV
+
+Roman values: I=1, V=5, X=10, L=50, C=100, D=500, M=1000.
+Subtractive forms: IV=4, IX=9, XL=40, XC=90, CD=400, CM=900.
+
+Step 2: Convert 67 using largest values first.
+  Take L (50); remainder = 17
+  Take X (10); remainder = 7
+  Take V (5); remainder = 2
+  Take I (1); remainder = 1
+  Take I (1); remainder = 0
+  Combining parts: LXVII
+
+Step 3: Verify the examples use the same Roman convention.
+  37 -> XXXVII (matches)
+  41 -> XLI (matches)
+  66 -> LXVI (matches)
+
+The answer is \boxed{LXVII}

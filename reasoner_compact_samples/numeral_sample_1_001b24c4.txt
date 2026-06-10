@@ -1,0 +1,41 @@
+ID: 001b24c4
+CATEGORY: numeral
+QUESTION: 38
+ANSWER: XXXVIII
+
+PROMPT:
+In Alice's Wonderland, numbers are secretly converted into a different numeral system. Some examples are given below:
+11 -> XI
+15 -> XV
+94 -> XCIV
+19 -> XIX
+Now, write the number 38 in the Wonderland numeral system.
+
+GENERATED REASONING:
+This is standard Roman numeral conversion.
+
+Step 1: Identify the numeral system from the examples.
+  11 -> XI
+  15 -> XV
+  94 -> XCIV
+  19 -> XIX
+
+Roman values: I=1, V=5, X=10, L=50, C=100, D=500, M=1000.
+Subtractive forms: IV=4, IX=9, XL=40, XC=90, CD=400, CM=900.
+
+Step 2: Convert 38 using largest values first.
+  Take X (10); remainder = 28
+  Take X (10); remainder = 18
+  Take X (10); remainder = 8
+  Take V (5); remainder = 3
+  Take I (1); remainder = 2
+  Take I (1); remainder = 1
+  Take I (1); remainder = 0
+  Combining parts: XXXVIII
+
+Step 3: Verify the examples use the same Roman convention.
+  11 -> XI (matches)
+  15 -> XV (matches)
+  94 -> XCIV (matches)
+
+The answer is \boxed{XXXVIII}
